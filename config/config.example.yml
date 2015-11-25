@@ -1,0 +1,22 @@
+development:
+  solr_core: api_whitman
+  tei_xsl: projects/whitman-correspondence/scripts/solr_transform_tei.xsl
+  xsl_params:
+    fig_location:
+    file_location:
+    figures: false
+    fw: false
+    pb: false
+    project: The_Walt_Whitman_Archive
+    slug: whitman-correspondence
+production:
+  solr_core: api_whitman
+  tei_xsl: projects/whitman-correspondence/scripts/solr_transform_tei.xsl
+  xsl_params:
+    fig_location:
+    file_location:
+    figures: false
+    fw: false
+    pb: false
+    project: The_Walt_Whitman_Archive
+    slug: whitman-correspondence
