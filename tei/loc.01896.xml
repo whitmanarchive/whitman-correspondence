@@ -12,6 +12,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="jyc">Jonathan Y. Cheng</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="br">Beverley Rilett</persName>
@@ -63,11 +64,11 @@
            
             <particDesc>
                 <person role="sender">
-                    <persName key="Scott, John">John Scott<!--<ptr target="n0544"/>--></persName>
+                    <persName key="Scott, John" ref="n0544">John Scott</persName>
                 </person>
                 <person role="sender">
                     <persName key="Williams, J. P.">J. P.
-                        Williams<!--<ptr target="n0544"/>--></persName>
+                        Williams</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -75,6 +76,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-01-14">corrected correspondent ref</change>
+            <change who="#ak" when="2015-04-17">added correspondent ref</change>
             <change when="2014-11-07" who="#nhg">checked, corrected</change>
             <change when="2014-09-24" who="#jyc">checked, revised</change>
             <change when="2014-08-15" who="#el">added schematron declaration</change>

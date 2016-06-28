@@ -18,6 +18,7 @@
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -50,7 +51,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
+                <!--<biblStruct>
                     <monogr>
                         <editor>Artem Lozynsky</editor>
                         <title xml:id="al">The Letters of Dr. Richard Maurice Bucke to Walt
@@ -62,7 +63,7 @@
                             <biblScope type="page">10</biblScope>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct>-->
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 31 December 1881</title>
@@ -76,7 +77,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -84,6 +85,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2015-10-06">added image names, updated transcription, added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-07-16" who="#nhg">checked, corrected</change>
             <change when="2014-04-24" who="#ss">annotations added</change>
@@ -91,24 +93,27 @@
             <change when="2014-03-13" who="#kc">checked, corrected</change>
             <change when="2013-11-07" who="#ss">encoded</change>
         </revisionDesc>
-    </teiHeader>
+    </teiHeader>  
 
     <text type="letter">
         <body>
+            <pb xml:id="leaf001r" facs="loc_es.00040.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place" rend="right">[London,]<ptr target="loc.05099_n2"/></name>
-                    <date when="1881-12-31" rend="right">31<hi rend="superscript">st</hi> Dec.
-                        [18]81</date>
+                    <name type="place" rend="center"><handShift rend="printed"/>Asylum for the Insane,<ptr target="loc.05099_n2"/></name>
+                    <name type="place" rend="right">London,</name>
+                    <date when="1881-12-31" rend="right"><handShift rend="manuscript"/>31<hi rend="superscript">st</hi> Dec.
+                        <handShift rend="printed"/>18<handShift rend="manuscript"/>81</date>
                 </dateline>
                 <salute>My dear Walt</salute>
             </opener>
             <p>Just a line to tell you that we have another fine boy born about an hour
-                ago<ptr target="loc.05099_n1"/>&#8212;both mother and child are well.</p>
+                ago<ptr target="loc.05099_n1"/>&#8212;both mother and child are well</p>
             <closer>
                 <salute>Your friend</salute>
                 <signed rend="right">R M Bucke</signed>
             </closer>
+            <pb xml:id="leaf001v" facs="loc_es.00039.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

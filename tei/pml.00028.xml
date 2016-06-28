@@ -11,7 +11,10 @@
         <editor>Ed Folsom</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
-          <name>The Walt Whitman Archive Staff</name>
+          <persName xml:id="el">Elizabeth Lorang</persName>
+          <persName xml:id="zk">Zachary King</persName>
+          <persName xml:id="ec">Eric Conrad</persName>
+          <persName xml:id="nhg">Nicole Gray</persName>
         </respStmt>
         <sponsor>Center for Digital Research in the Humanities, University of
           Nebraska-Lincoln</sponsor>
@@ -42,13 +45,7 @@
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
       </publicationStmt>
-      <notesStmt>
-        <note type="project">The following are responsible for particular readings or for changes to
-          this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
-          <persName xml:id="zk">Zachary King</persName>
-          <persName xml:id="ec">Eric Conrad</persName>
-        </note>
-      </notesStmt>
+
       <sourceDesc>
 
         <biblStruct>
@@ -81,11 +78,12 @@
           <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Price, Abby H.">Abby H. Price</persName>
+          <persName key="Price, Abby H." ref="loc.00940_n6">Abby H. Price</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change who="#nhg" when="2016-04-22">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
       <change when="2012-11-29" who="#el">checked</change>
       <change when="2012-06-20" who="#el">checked</change>
@@ -104,7 +102,7 @@
           <name type="place" rend="center">Attorney General's Office</name>, <name type="place"
             rend="right"><hi rend="italic">Washington</hi></name>. <date when="1869-04-07"
             rend="right">April 7, <hi rend="italic">18</hi>69</date>. </dateline>
-        <salute>Dear Abby<ptr target="n0483"/>,</salute>
+        <salute>Dear Abby,</salute>
       </opener>
 
       <p>Here I am in the same office, at the same desk, writing to you again&#8212;though the

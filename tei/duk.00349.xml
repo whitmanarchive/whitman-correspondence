@@ -10,12 +10,14 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="br">Bev Rilett</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="gp">Gillian Price</persName>
                <persName xml:id="al">April Lambert</persName>
                <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -41,26 +43,12 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">111-112</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 6 March 1864</title>
                <date when="1864-03-06">March 6, 1864</date>
                <idno type="callno">III5C</idno>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -75,6 +63,8 @@ Manuscript, and Special Collections Library</orgName>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2015-04-13">added annotation</change>
+         <change who="#ak" when="2015-01-28">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change when="2014-01-21" who="#ss">checked</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -88,11 +78,11 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
-            <opener>
+         <pb xml:id="leaf001r" facs="duk.00349.001_large.jpg" type="recto"/>
+            <opener>  
                <dateline rend="right">
-                  <name type="place">Nashville Tennessee</name>
-                  <date when="1864-03-06"> March 6th '64<ptr target="duk.00349_n100"/>
+                  <name type="place">Nashville Tennessee</name><ptr target="duk.00349_n100"/>
+                  <date when="1864-03-06"> March 6th '64<ptr target="duk.00349_n2"/>
                </date>
                </dateline>
                <salute>Dear Mother</salute>
@@ -102,7 +92,9 @@ corrections</change>
             <closer rend="right">
                <signed>George W. Whitman</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="duk.00349.002_large.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="duk.00349.003_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="duk.00349.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

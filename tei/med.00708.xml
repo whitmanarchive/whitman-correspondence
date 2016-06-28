@@ -48,7 +48,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
+                <!--<biblStruct>
                     <monogr>
                         <editor>Artem Lozynsky</editor>
                         <title xml:id="al">The Letters of Dr. Richard Maurice Bucke to Walt
@@ -60,7 +60,7 @@
                             <biblScope type="page">21</biblScope>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct>-->
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 9 May 1883</title>
@@ -73,7 +73,7 @@
             <particDesc>
 
                 <person role="sender">
-                    <persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -81,6 +81,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2015-10-06" who="#nhg">added images, updated transcription, added correspondent ref</change>
             <change when="2014-11-24" who="#nhg">checked, corrected</change>
             <change when="2014-08-22" who="#ss">transcribed, encoded, annotated</change>
             <change when="2014-11-24" who="#no">checked, corrected transcription against Lozynsky</change>
@@ -89,16 +90,18 @@
 
     <text type="letter">
         <body>
+            <pb xml:id="leaf001r" facs="loc_es.00185.jpg" type="recto"/>
             <opener> 
                 <dateline> 
-                    <name type="place">London</name>
-                    <date when="1883-05-09">9th May 1883</date>
+                    <name type="place" rend="center"><handShift rend="printed"/>Asylum for the Insane,</name>
+                    <name type="place" rend="right">London,</name>
+                    <date when="1883-05-09"><handShift rend="manuscript"/>9th May <handShift rend="printed"/>188<handShift rend="manuscript"/>3</date>
                 </dateline>
                 <salute>My dear Walt</salute>
             </opener>
 
-            <p> I returned home last evening<ptr target="n0119"/> and found plate proofs to the end
-                of book and two post cards awaiting me.<ptr
+            <p> I returned home last evening and found plate proofs to the end
+                of book and two post cards waiting me.<ptr
                     target="med.00708_n1"/> I have been over the proofs and enclose some requiring
                 corrections if these can still be made (or perhaps you have already made them). I
                 like the book better and better, think it will <hi rend="underline"
@@ -106,9 +109,9 @@
                 up to my eyes in work</p>
 
             <closer>
-                <signed>R M Bucke</signed>
+                <signed>R M Bucke</signed> 
             </closer>
-
+            <pb xml:id="leaf001v" facs="loc_es.00186.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

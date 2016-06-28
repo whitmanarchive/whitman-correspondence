@@ -10,10 +10,12 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -67,11 +69,14 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Russell, Le Baron">Le Baron Russell</persName>
+               <persName key="Russell, Le Baron" ref="clc.00001_n3">Le Baron Russell</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2016-01-14">corrected notes</change>
+         <change who="#nhg" when="2015-04-10">corrected transcription</change>
+         <change who="#ak" when="2015-01-23">added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">edited sourceDesc; commented out note five, since it's not clear whether we have permission to use the note, which is Baker's</change>
@@ -85,13 +90,13 @@
          
             <opener rend="right">
                <dateline>
-                  <name type="place">Washington<ptr target="clc.00001_n100"/> /</name>
+                  <name type="place">Washington<ptr target="clc.00001_n100"/></name>
                   <date when="1863-12-03">Dec. 3d 1863<ptr target="clc.00001_n2"/>
                   </date>
                </dateline>
-               <salute>Dear Friend<ptr target="clc.00001_n3"/>,</salute> 
-            </opener>
-            <p>Your note<ptr target="clc.00001_n4"/> with $20 from a friend, (formerly a Breckenridge democrat<!-- <ptr target="n5" xml:id="r5"/> -->) came safe. Doctor, I have been away for a few days, but have now returned to remain here certainly for the winter &amp; ensuing spring, &amp; probably for two or three years. I feel much possessed with the wounded &amp; sick soldiers&#8212;they have taken a powerful hold of me, &amp; I am very happy among them&#8212;it is perhaps the greatest interchange of magnetism human relations are capable of&#8212;I have told you how young &amp; how American they mostly are&#8212;so on my own account&#8212;I shall continue as a missionary among them as sure as I live&#8212;I shall continue for years&#8212;tell your friend that his mony is being distributed as mony or what little purchas I find appropriate for the men of all states&#8212;I reject none of course&#8212;not rebel wounded nor blacks, nor any when I find them suffering &amp; dying&#8212;Doctor to the other friends that assisted me in Boston &amp; to yourself, I send my regards &amp; love</p>
+               <salute>Dear Friend,</salute> 
+            </opener> 
+         <p>Your note<ptr target="clc.00001_n4"/> with $20 from a friend, (formerly a Breckenridge democrat<!-- <ptr target="n5" xml:id="r5"/> -->) came safe. Doctor, I have been away for a few days, but have now returned to remain here certainly for the winter &amp; ensuing spring, &amp; probably for two or three years. I feel much possessed with the wounded &amp; sick soldiers&#8212;they have taken a powerful hold of me, &amp; I am very happy among them&#8212;it is perhaps the greatest interchange of magnetism human relations are capable of&#8212;I have told you how young &amp; how American they mostly are&#8212;so on my own account&#8212;I shall continue as a missionary among them as sure as I live&#8212;I shall continue for years&#8212;tell your friend that his <choice><sic>mony</sic><corr>money</corr></choice> is being distributed as <choice><sic>mony</sic><corr>money</corr></choice> or what little <choice><sic>purchas</sic><corr>purchase</corr></choice> I find appropriate for the men of all states&#8212;I reject none of course&#8212;not rebel wounded nor blacks, nor any when I find them suffering &amp; dying&#8212;Doctor to the other friends that assisted me in Boston &amp; to yourself, I send my regards &amp; love</p>
             <closer rend="right">
                <signed>Walt Whitman</signed>
             </closer>

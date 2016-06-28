@@ -11,9 +11,10 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
+<persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -58,7 +59,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Abby H. Price, 4 February 1865</title>
                <date when="1865-02-04">February 4, 1865</date>
-               <orgName xml:id="pml">Pierpont Morgan Library</orgName>
+               <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +69,13 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Price, Abby H.">Abby H. Price</persName>
+               <persName key="Price, Abby H." ref="loc.00940_n6">Abby H. Price</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2016-04-22">changed correspondent ref</change>
+         <change who="#ak" when="2015-04-06">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-03">proofread and edited; added annotation for Abby Price</change>
@@ -90,7 +93,7 @@
                   <name type="place">Washington</name>
                   <date when="1865-02-04">February 4 1865</date>
                </dateline>
-               <salute>My dear friend,<ptr target="pml.00013_n1"/>
+               <salute>My dear friend,
                </salute>
             </opener>
             <p>As you see by the date of this, I am again back in Washington. I spend a portion of my time around among the Hospitals as formerly&#8212;I find quite a good many bad old lingering wounds, &amp; also a good many down with sickness of one sort or another&#8212;&amp; the latter are receiving accessions every day&#8212;especially as they appear to be breaking up the Corps Hospitals in front, down in Grant's army&#8212;a good many of the men have been sent up here&#8212;day before yesterday I saw a string of over a hundred ambulances, bringing up the men from the depot, to distribute them around to the different Hospitals.</p>

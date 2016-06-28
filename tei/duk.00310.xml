@@ -4,17 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">Thomas Jefferson Whitman  to Walt Whitman, 19 March 1863</title>
+            <title level="m" type="main">Thomas Jefferson Whitman to Walt Whitman, [19 March 1863]</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Thomas Jefferson Whitman</author>
             <editor>Dennis Berthold</editor>
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="al">April Lambert</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -40,32 +42,22 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">36</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
+            
             <bibl>
                <author>Thomas Jefferson Whitman</author>
-               <title>Thomas Jefferson Whitman  to Walt Whitman, 19 March 1863</title>
-               <date when="1863-03-19">March 19, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <title>Thomas Jefferson Whitman to Walt Whitman, [19 March 1863]</title>
+               <date cert="high" when="1863-03-19">March 19, 1863</date>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <profileDesc> 
+         <handNotes>
+            <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName></handNote>
+         </handNotes>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +65,8 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2015-04-10">added image names, corrected</change>
+         <change who="#ak" when="2015-01-23">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -86,20 +80,18 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
-            <opener>
-               <dateline rend="right">
-                  <name type="place">[Brooklyn,</name>
-                  <date when="1863-03-19">March 19, 1863]<ptr target="duk.00310_n1"/>
-                  </date>
-               </dateline>
-               <salute>[Dear Brother Walt,]</salute>
-            </opener>
-            <p>I had commenced a letter to you but as it embraced abt what Mammy has said I will not send it just now. I will send the paper<ptr target="duk.00310_n2"/> &amp;c to day I guess. I am sorry that you omitted to put in Probasco's<ptr target="duk.00310_n3"/> name in the list of those that sent money, could it be easily corrected. You will hear from me in a day or so.</p>
+         <pb xml:id="leaf001r" facs="duk.00426.001.jpg" type="recto"/>
+               <p>I had commenced a letter to you but as it embraced <choice><sic>abt</sic><corr>about</corr></choice> what Mammy has said I will not send it just now.<ptr target="duk.00310_n1"/> I will send the paper<ptr target="duk.00310_n2"/> &amp;c to day I guess. I am 
+                  <pb xml:id="leaf001v" facs="duk.00426.003.jpg" type="verso"/><!--the following bit spans two pages of Louisa's letter-->
+                  sorry that you omitted to put in 
+                  <pb xml:id="leaf002r" facs="duk.00426.002.jpg" type="recto"/>
+                  Probasco's<ptr target="duk.00310_n3"/> name in the list of those that sent money, could it be easily corrected. You will hear from me in a day or so.&#8212;</p>
             <closer rend="right">
-               <signed>&#8212;Jeff</signed>
+               <signed>Jeff</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="duk.00426.004.jpg" type="recto"/>
+         <pb xml:id="leaf003r" facs="duk.00426.005.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="duk.00426.006.jpg" type="recto"/> 
       </body>
    </text>
 </TEI>

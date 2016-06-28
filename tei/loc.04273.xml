@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04273">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Alfred, Lord Tennyson to Walt Whitman, 15 January
+                    1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Alfred, Lord Tennyson</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04273</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alfred, Lord Tennyson</author>
+                    <title>Alfred, Lord Tennyson to Walt Whitman, 15 January 1887</title>
+                    <date cert="high" when="1887-01-15" xml:id="dat1">January 15, 1887</date>
+                    <idno type="callno">MSS18630, Box 17</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Tennyson, Alfred, Lord" ref="n0625">Alfred Lord Tennyson</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-08-07" who="#smb">final check, corrected</change>
+            <change when="2015-07-01" who="#if">edited</change>
+            <change when="2014-10-14" who="#ss">checked and corrected</change>
+            <change when="2014-10-03" who="#ak">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.00465_large.jpg" type="recto"/>
+            <opener>
+                <dateline rend="right">
+                    <handShift rend="printed"/>
+                    <name type="place">Harringford, <lb/>Freshwater,<lb/> Isle of Wight.</name>
+                </dateline>
+                <handShift rend="manuscript"/>
+                <salute>Dear old man,</salute>
+            </opener>
+            <p> I the elder old man have received your Article in the Critic, &#38; send you in return
+                my thanks &#38; New-Year's greeting on the wings of this East-wind, which, I trust,
+                is blowing softlier &#38; warmlier on your good gray head than here, where it is
+                rocking the elms &#38; ilexes of my Isle of Wight garden.<ptr target="loc.04273_n1"/></p>
+            <closer>
+                <salute>Yours always</salute>
+                <signed>Tennyson</signed>
+            </closer>
+            <dateline>
+             <date when="1887-01-15">Jany. 15th</date>
+             <date when="1887-01-15">1887</date>
+            </dateline>
+            <pb xml:id="leaf001v" facs="loc_vm.00468_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

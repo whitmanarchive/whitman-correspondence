@@ -4,17 +4,18 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">Thomas Jefferson Whitman  to Louisa Van Velsor Whitman, 18 March 1870</title>
+            <title level="m" type="main">Thomas Jefferson Whitman to Louisa Van Velsor Whitman, 18 March 1870</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Thomas Jefferson Whitman</author>
             <editor>Dennis Berthold</editor>
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="al">April Lambert</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -56,9 +57,9 @@
             </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
-               <title>Thomas Jefferson Whitman  to Louisa Van Velsor Whitman, 18 March 1870</title>
-               <date when="1870-03-18">March 18, 1870</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <title>Thomas Jefferson Whitman to Louisa Van Velsor Whitman, 18 March 1870</title>
+               <date cert="high" when="1870-03-18">March 18, 1870</date>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +74,8 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2015-04-13">checked, corrected</change>
+         <change who="#ak" when="2015-01-23">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -89,10 +92,9 @@
                   <date when="1870-03-18">Mar 18th 1870</date>
                </dateline>
                <salute>My Dear Mother</salute>
-            </opener>
-            <p>Mattie arrived all right on Wednesday abt 3<hi rend="italic">ocl</hi>
-               <ptr target="n1" xml:id="r1"/>&#8212;in the afternoon&#8212;We were all glad enough to see her I assur you&#8212;The weather had been very bad ever since she left Brooklyn&#8212;but she got along very comfortably&#8212;and looked very well when she got in&#8212;I should have written you yesterday&#8212;but I understoo[d] Mat to say that she either would or had done so</p>
-            <p>Mat had a fine visit home and I think it has done her lots of good&#8212;also I am very glad to hear that there is a prospect of getting you and Walt out here<ptr target="n2" xml:id="r2"/>&#8212;hope you will come sure&#8212;</p>
+            </opener> 
+         <p>Mattie arrived all right on Wednesday <choice><sic>abt</sic><corr>about</corr></choice> 3<hi rend="underline">ocl</hi><ptr target="duk.00312_n1" xml:id="r1"/>&#8212;in the afternoon&#8212;We were all glad enough to see her I <choice><sic>assur</sic><corr>assure</corr></choice> you&#8212;The weather had been very bad ever since she left Brooklyn&#8212;but she got along very comfortably&#8212;and looked very well when she got in&#8212;I should have written you yesterday&#8212;but I understoo[d] Mat to say that she either would or had done so</p>
+            <p>Mat had a fine visit home and I think it has done her lots of good&#8212;also I am very glad to hear that there is a prospect of getting you and Walt out here<ptr target="duk.00312_n2" xml:id="r2"/>&#8212;hope you will come sure&#8212;</p>
             <p>Please excuse this letter as I have just time to say that Mat arrived safely&#8212;the children are well and happy as can be&#8212;</p>
             <closer rend="right">
                <signed>affectionately Jeff</signed>

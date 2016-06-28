@@ -11,10 +11,11 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
+               <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -59,7 +60,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Abby H. Price, 27 October 1866</title>
                <date when="1866-10-27">October 27, 1866</date>
-               <orgName xml:id="pml">Pierpont Morgan Library</orgName>
+               <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -69,11 +70,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Price, Abby H.">Abby H. Price</persName>
+               <persName key="Price, Abby H." ref="loc.00940_n6">Abby H. Price</persName>
             </person>
          </particDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc><change who="#nhg" when="2016-04-22">changed correspondent ref</change>
+         <change who="#ak" when="2015-04-06">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bb" when="2010-04-12">added annotations for several individuals</change>
@@ -89,11 +91,11 @@
             <opener>
                <dateline rend="right">
                   <name type="place">ATTORNEY GENERAL'S OFFICE, <hi rend="italic">Washington</hi>,</name>
-                  <date when="1866-10-27">Oct. 27, <hi rend="italic">1866.</hi>
-                  <ptr target="pml.00016_n100"/>
+                  <date when="1866-10-27">Oct. 27, <hi rend="italic">1866.</hi><ptr target="pml.00016_n100"/>
                </date>
                </dateline>
-               <salute>Mrs. Price,<ptr target="pml.00016_n2"/> &amp; all | My dear friends,</salute>
+               <salute>Mrs. Price, &amp; all</salute>
+               <salute>My dear friends,</salute>
             </opener>
             <p>I sent you a telegram, ten minutes ago, telling you that I have just succeeded in getting an order from the Attorney General for Mr. Parker's pardon.<ptr target="pml.00016_n3"/> The pardon will probably go from here, (from the State Department,) on Monday next&#8212;the day you will receive this note&#8212;it will be directed to the Jail at Plymouth. I have had much more of a struggle than I anticipated&#8212;the pardon clerk knew the case, &amp; was filled with Mr. Dana's<ptr target="pml.00016_n4"/> reports upon it. When we meet, (or perhaps by letter, before) I will give you a more detailed account of the progress of the affair here, &amp; its fluctuations. But no matter&#8212;it has ended successfully.</p>
             <p>I have written to Aurelia Parker, &amp; sent the news, the same mail as this.</p>

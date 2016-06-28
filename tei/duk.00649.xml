@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00649">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00649">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,7 +12,12 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
+                    <persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
+                        Lorang</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="ec">Eric Conrad</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -43,30 +49,10 @@
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
             </publicationStmt>
-            <notesStmt>
-                <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
-                        Lorang</persName>
-                    <persName xml:id="zk">Zachary King</persName>
-                    <persName xml:id="ec">Eric Conrad</persName>
-                </note>
-            </notesStmt>
+           
             <sourceDesc>
 
-                <biblStruct>
-                    <monogr>
-                        <author>Walt Whitman</author><editor>Edwin Haviland Miller</editor>
-                        <title xml:id="ehm">The Correspondence</title>
-                        <imprint>
-                            <pubPlace>New York</pubPlace>
-                            <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961–1977</date>
-                            <biblScope type="volume">1</biblScope>
-                            <biblScope type="page">344</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
+             
 
                 <bibl>
                     <author>Walt Whitman</author>
@@ -82,13 +68,15 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Thomas, Dionysius">Dionysius Thomas</persName>
+                    <persName key="Thomas, Dionysius" ref="n0628">Dionysius Thomas</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-07-06">added image names, checked, corrected</change>
+            <change who="#ak" when="2015-05-14">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+<change when="2012-03-01" who="#kmp">blessed</change>
             <change when="2010-12-15" who="#el">checked</change>
             <change when="2010-10-04" who="#zk">encoded</change>
             <change when="2010-08-20" who="#ec">extracted transcription from Major Authors
@@ -98,12 +86,11 @@
 
     <text type="letter">
         <body>
-
+            <pb xml:id="leaf001r" facs="duk.00642.003.jpg" type="recto"/>
             <opener>
                 <dateline>
                     <name type="place" rend="right">Washington</name>
-                    <date when="1867-10-13">Oct. 13</date>
-<ptr target="duk.00649_n1"/>
+                    <date when="1867-10-13">Oct. 13</date><ptr target="duk.00649_n1"/>
                 </dateline>
                 <salute>Dear Sir:</salute>
             </opener>
@@ -112,18 +99,18 @@
 
             <p>I sent to Doolady<ptr target="duk.00649_n3"/> six weeks ago an order</p>
 
-            <p>Mr. James Gray, Bookbinder 16 Spruce st. 14th floor, is the custodian of the sheets
+            <p>Mr. James Gray, Bookbinder 16 Spruce st. 4th floor, is the custodian of the sheets
                 of my Leaves of Grass, &amp; has been the binder for me. The sheets are now at his
                 place.</p>
  
-            <p>I hear that he has become involved—in fact has failed. If so, I regret it
+            <p>I hear that he has become involved&#8212;in fact has failed. If so, I regret it
                     much.<ptr target="duk.00649_n4"/>
             </p>
 
             <p>I have been waiting now over six weeks for the fulfilment of orders I have sent him
                 for bound books—&amp; now, under that state of things, I suppose it will not
                 be possible for him to do the work.</p>
-
+            <pb xml:id="leaf001v" facs="duk.00642.001.jpg" type="verso"/>
         </body>
     </text>
-</TEI>
+</TEI> 

@@ -18,6 +18,7 @@
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="nr">Natalie Raabe</persName> 
                     <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -53,7 +54,7 @@
             <sourceDesc>
                 <bibl>
                     <author>Louisa Van Velsor Whitman</author>
-                    <title>Louisa Van Velsor Whitman to Walt Whitman, February [6], [1870]</title>
+                    <title>Louisa Van Velsor Whitman to Walt Whitman, [6] February [1870]</title>
                     <date cert="medium" when="1870-02-06" xml:id="dat1">February 6, 1870</date>
                     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
                 </bibl>
@@ -65,7 +66,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="duk.00425_n3">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +74,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-04-22">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-07-31" who="#el">moved remaining notes to external file and added ptrs; checked</change>
@@ -115,8 +117,8 @@
             
             
             
-            <p>i<ptr target="tex.00173_n1"/> received your
-                letter yesterday and the order
+            <p>i received your
+                letter yesterday<ptr target="tex.00173_n1"/> and the order
                 and am very much obliged
                 to you indeed the paper came
                 <choice><orig>to</orig><reg>too</reg></choice> i was amused to read the

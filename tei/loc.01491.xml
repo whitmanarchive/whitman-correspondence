@@ -5,7 +5,7 @@
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01491">
     <teiHeader>
         <fileDesc>  
-            <titleStmt>
+            <titleStmt> 
                 <title level="m" type="main">Walt Whitman to Edward Dowden, 18 January 1872</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -13,6 +13,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="jyc">Jonathan Y. Cheng</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
@@ -82,11 +83,13 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Dowden, Edward">Edward Dowden</persName>
+                    <persName key="Dowden, Edward" ref="n0199">Edward Dowden</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-01-14">corrected correspondent ref</change>
+            <change who="#ak" when="2015-04-17">added correspondent ref</change>
             <change when="2015-01-05" who="#nhg">corrected</change>
             <change when="2014-11-06" who="#nhg">checked, corrected</change>
             <change when="2014-09-18" who="#jyc">checked,revised</change>

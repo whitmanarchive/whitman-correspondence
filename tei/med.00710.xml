@@ -48,7 +48,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
+                <!--<biblStruct>
                     <monogr>
                         <editor>Artem Lozynsky</editor>
                         <title xml:id="al">The Letters of Dr. Richard Maurice Bucke to Walt
@@ -60,7 +60,7 @@
                             <biblScope type="page">22</biblScope>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct>-->
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 2 June 1883</title>
@@ -73,7 +73,7 @@
             <particDesc>
 
                 <person role="sender">
-                    <persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -81,6 +81,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2015-10-06" who="#nhg">added images and correspondent ref, updated transcription</change>
             <change when="2014-11-25" who="#nhg">checked, corrected</change>
             <change when="2014-08-22" who="#ss">transcribed, encoded, annotated</change>
             <change when="2014-11-24" who="#no">checked, added place in dateline, corrected transcription against Lozynsky</change>
@@ -89,10 +90,12 @@
 
     <text type="letter">
         <body>
+            <pb xml:id="leaf001r" facs="loc_es.00203.jpg" type="recto"/>
             <opener>
-                <dateline>
-                    <name type="place">[London,]</name>
-                    <date when="1883-06-02">2d June [188]3</date><ptr target="n0119"/>
+                <dateline> 
+                    <name type="place" rend="center"><handShift rend="printed"/>Asylum for the Insane,</name>
+                    <name type="place" rend="right">London,</name>
+                    <date when="1883-06-02"><handShift rend="manuscript"/>2d June <handShift rend="printed"/>188<handShift rend="manuscript"/>3</date>
                 </dateline>
                 <salute>Dear Walt</salute>
             </opener>
@@ -101,19 +104,21 @@
                     target="syr.00031_n3"/>--> (send you enclosed a copy of the letter that you may see
                 plainly on what footing you are with him). If the book
                 is published in London <hi rend="underline">before</hi> it is <choice><abbr>pubd</abbr><expan>published</expan></choice> in America I
-                believe the copyright <gap reason="cut away"/> will be as safe as the bank of
+                believe the copyright will be as safe as the bank of
                 England. Archie Bremner<ptr target="med.00710_n2"/> is
                 still here on the staff of "Advertiser"&#8212;The notice in the "Press"<ptr
                     target="med.00710_n3"/> was very gratifying, hope you will send me any you can
                     <hi rend="underline">particularly the adverse ones</hi>&#8212;You do not say anything about sending copies as I asked you in
-                my last, I take it for granted meantime that you will attend to this&#8212;and also
+                my last, I take it for granted 
+                <pb xml:id="leaf001v" facs="loc_es.00204.jpg" type="verso"/>
+                meantime that you will attend to this&#8212;and also
                 that you will have balance of my ten copies sent me here soon as
                 convenient&#8212;The weather here now is perfect and the grounds look better than I
                 have ever seen them We are all well and send you love</p>
             <closer>
                 <signed>R M Bucke</signed>
             </closer> 
-
+            
         </body>
     </text>
 </TEI>

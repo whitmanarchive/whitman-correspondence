@@ -14,9 +14,11 @@
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -61,10 +63,10 @@
         <profileDesc>
             <handNotes>
                 <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName></handNote>
-            </handNotes>
+            </handNotes> 
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="duk.00425_n3">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +74,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#cb" when="2016-04-21">adjusted Price annotation</change>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-08-06" who="#el">checked</change>
@@ -206,7 +210,7 @@
             
             <closer>
                 <salute>your mother</salute>
-                <signed>LW<ptr target="duk.00425_n3"/></signed>
+                <signed>LW</signed>
             </closer>
             
             <postscript><p>mrs price says you must not come home again without coming to see her</p></postscript>

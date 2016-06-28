@@ -11,12 +11,13 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -42,31 +43,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">187</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Silas S. Soule</author>
                <title>Silas S. Soule to Walt Whitman, 8 January 1862</title>
                <date when="1862-01-08">January 8, 1862</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <particDesc>
+         <particDesc> 
             <person role="sender">
-               <persName key="Soule, Silas S.">Silas S. Soule</persName>
+               <persName key="Soule, Silas S." ref="loc.00586_n100">Silas S. Soule</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +62,9 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2016-02-26">corrected annotation</change>
+         <change who="#nhg" when="2016-02-22">checked, corrected</change>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-20">style sheet proofreading</change>
@@ -85,20 +76,33 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_jc.00313_large.jpg" type="recto"/>
             <opener> 
                <dateline> 
-</dateline>
-               <salute>Friend Walt,</salute>
+                  <name type="place">Rocky Mountains</name>
+                  <date when="1862-01-08">Jan 8th 1862</date>
+               </dateline>
+               <salute>Friend Walt</salute>
             </opener>
-         <p>Perhaps you have forgotten a wild farmer scarecrow and man who used to linger around Thayer &amp; Eldridge Publishers office Boston in the spring of 1860. But he still remembers you and has been waiting very patiently for a volume of Leaves of Grass which was to be sent to Lawrence Kansas. Perhaps you think I<ptr target="loc.00586_n100"/> am writing rather familiar for almost a stranger and writing to a distinguished poet but I think I have made a sufficient appology and I tell you I have been in the Rocky Mountains for almost two years where every man is an old acquaintance if you never saw him before.</p>
-            <p>When I left Boston I went to Kansas and from there out here among Grizzly bears, Indians, Yankees and almost every other species of man and beast that inhabit the globe. I have lived on venison and I have lived on bread I have gone hungry for many a day and have had plenty to eat for many more, and for all the hard life I have seen it suits me   I like it   I enjoy myself hugely and I think you would do the same.</p>
-            <p>I now hold the position of Ist Lieut of Co K Ist Reg Col[orado] Vols.<ptr target="loc.00586_n2"/> I suppose I shall be soldier for the next few years.</p>
-            <p>I have often heard Leaves of Grass highly spoken of away out here but have never seen a volume and a few days ago the man who has that will not dispose of that possession he brought out with him to this country.</p>
-            <p>I am in an old dog shanty to night away up in the mountains about forty miles from the valley the wind blows a perfect hurricane and it is cold as Greenland. I am writing by the light of a pitch fire for it is past twelve oclock and I must go to bed as I must march for the valley in the morning &amp; dont want you to forget to do this. Good night.</p>
+         <p>Perhaps you have forgotten a wild farmer's scarecrow <gap reason="illegible"/> man who used to linger around Thayer &amp; Eldridges Publishing office Boston in the spring of 1860  But he still remembers you and has been waiting very patiently for a volume of Leaves of Grass which was to be sent to Lawrence Kansas Perhaps you think I am writing rather familiar for almost a stranger and writing to a distinguished Poet but I think I have made a sufficient <choice><sic>appology</sic><corr>apology</corr></choice> when I tell you I have been in <pb xml:id="leaf001v" facs="loc_jc.00314_large.jpg" type="verso"/>the Rocky Mountains for almost two years where every man is an old acquaintance if you never saw him before</p>
+            <p>When I left Boston I came to Kansas and from there out here among Grizzly bears, Indians Yankees and almost every species of man and beast that inhabit the globe. I have lived on venison and I have lived on bread I have gone hungry for many a day and have had plenty to eat for many more, and for all the hardships I have seen it suits me, I like it  I enjoy myself hugely, and I think you would do the same</p>
+            <p>I now hold the position of 1st Lieut of Co K 1st Reg <choice><abbr>Col</abbr><expan>Colorado</expan></choice> Vols<ptr target="loc.00586_n2"/> and suppose I shall be a soldier for the next few years</p>
+         <pb xml:id="leaf002r" facs="loc_jc.00315_large.jpg" type="recto"/>
+            <p>I have often heard Leaves of Grass highly spoken of away out here but have never seen a volume until a few days ago and the man who has that will not dispose of that for any price he brought it out with him to this country.</p>
+            <p>I am in an old log shanty to night away up in the mountains about forty miles from the valley the wind blows a perfect <choice><orig>hurracane</orig><reg>hurricane</reg></choice> and it is cold as Greenland  I am writing by the light of a pitch pine fire, it is past twelve oclock and I must go to bed as I must start for the valley in the morning. I <choice><sic>dont</sic><corr>don't</corr></choice> want you to forget to answer this. Good night</p>
             <closer rend="right">
                <salute>Yours &amp;c</salute>
+               <signed>Silas S. Soule</signed>
             </closer>
+         <pb xml:id="leaf002v" facs="loc_jc.00316_large.jpg" type="verso"/>
+         <postscript>
+            <p>P.S. Please direct 
+            <address>
+               <addrLine>Lieut S. S. Soule</addrLine>
+               <addrLine>Camp Weld Denver</addrLine>
+               <addrLine>Col <gap reason="illegible" quantity="4" unit="chars"/></addrLine>
+            </address></p>
+         </postscript>
          
       </body>
    </text>

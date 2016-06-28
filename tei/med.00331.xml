@@ -2,7 +2,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00331">
    <teiHeader>
-      <fileDesc>
+      <fileDesc> 
          <titleStmt>
             <title level="m" type="main">Henry Clapp, Jr. to Walt Whitman, 14 May 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
@@ -61,17 +61,19 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <profileDesc> 
          <particDesc>
-            <person role="sender">
-               <persName key="Clapp Jr., Henry">Henry Clapp, Jr.</persName>
+            <person role="sender"> 
+               <persName key="Clapp, Henry, Jr." ref="n6010">Henry Clapp, Jr.</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
          </particDesc>
-      </profileDesc>
-      <revisionDesc>
+      </profileDesc> 
+      <revisionDesc> 
+         <change when="2016-01-14" who="#nhg">corrected annotation</change>
+         <change when="2015-05-11" who="#nhg">standardized sender name</change>
          <change who="#nhg" when="2014-09-22">corrected date</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -92,7 +94,7 @@
                </dateline>
             </opener>
             <p>
-               <hi rend="italic">My dear Walt</hi>: I<ptr target="med.00331_n100"/> spent much time yesterday reading your poems, and am more charmed with them than ever. I think you would have done well to follow Mr. Emerson's advice, but you may have done better as it is. At any rate, the book is bound to sell, if money enough is spent circulating the Reprints and advertising it generally. It is a fundamental principle in political economy that everything succeeds if money enough is spent on it. If I could spend five hundred dollars in one week on the Saturday Press I would make five thousand dollars by the operation. Ditto you with the L. of G.</p>  
+               <hi rend="italic">My dear Walt</hi>: I spent much time yesterday reading your poems, and am more charmed with them than ever. I think you would have done well to follow Mr. Emerson's advice, but you may have done better as it is. At any rate, the book is bound to sell, if money enough is spent circulating the Reprints and advertising it generally. It is a fundamental principle in political economy that everything succeeds if money enough is spent on it. If I could spend five hundred dollars in one week on the Saturday Press I would make five thousand dollars by the operation. Ditto you with the L. of G.</p>  
             <p>You should send copies at once to Vanity Fair, Momus, The Albion, The Day Book, The Journal of Commerce, Crayon&#8212;also to Mrs. Juliette H. Beach, Albion, N.Y.,<ptr target="med.00331_n3"/> who will do you great justice in the S.P. (for we shall have a <hi rend="italic">series</hi> of articles)&#8212;to Charles D. Gardette Esq,<ptr target="med.00331_n101"/> No 910 Walnut Street, Philadelphia, to Evening Journal, Philadelphia, and also some dozen copies to me to be distributed at discretion. Do not hereafter ask the editors to notice at any particular time or at all: for the effect is bad.</p>
             <p>I want to do great things for you with the book, and as soon as I get over my immediate troubles will do so. But just now I am in a state of despair even in respect to getting out another issue of the S.P. and all for want of a paltry two or three hundred dollars which would take the thing to a paying point, and make it worth ten thousand dollars as a transferable piece of property.</p>
             <closer rend="right">

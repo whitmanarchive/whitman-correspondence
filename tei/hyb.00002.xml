@@ -16,6 +16,8 @@
                     <persName xml:id="fw">Felicia Wetzig</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -65,7 +67,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="duk.00425_n3">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +75,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-04-22">added correspondent ref</change>
+            <change who="#cb" when="2016-04-21">adjusted Price note</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-10-30" who="#el">removed two ptrs to notes no longer necessary with merged files</change>
@@ -102,7 +106,7 @@
                 </dateline>
                 <salute>dear Walt</salute>
             </opener>
-            <p>i<ptr target="duk.00425_n3"/> will resume
+            <p>i will resume
                 my <choice><orig>corresspondence</orig> <reg>correspondence</reg></choice> again
             haint you missed my
             letters very much i am

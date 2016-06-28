@@ -11,12 +11,12 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="jyc">Jonathan Y. Cheng</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="js">John Schwaninger</persName>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -68,11 +68,12 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Gilchrist, Anne">Anne Gilchrist</persName>
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
                 </person>
-            </particDesc>
+            </particDesc> 
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-04-17">added correspondent ref</change>
             <change when="2015-01-05" who="#nhg">corrected annotation</change>
             <change when="2014-11-07" who="#nhg">checked, corrected</change>
             <change when="2014-11-03" who="#ak">added annotations</change>

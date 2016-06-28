@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="mhs.00017">
-    <teiHeader>
+    <teiHeader> 
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main">Walt Whitman to Louisa Orr Whitman, 11 October
@@ -19,6 +19,7 @@
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -71,6 +72,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-03-25" who="#nhg">fixed annotation</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-04-08" who="#nhg">updated transcription based on images</change>
             <change when="2013-05-02" who="#km">checked</change>

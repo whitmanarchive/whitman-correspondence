@@ -11,10 +11,12 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
                <persName xml:id="ao">Alyssa Olson</persName>
+               <persName xml:id="cb">Caterina Bernardini</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -58,7 +60,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Andrew Kerr, 29 October 1865</title>
                <date when="1865-10-29">October 29, 1865</date>
-               <orgName xml:id="uva">Clifton Waller Barrett Collection, University of Virginia</orgName>
+               <orgName xml:id="uva">Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia </orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +70,13 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Kerr, Andrew">Andrew Kerr</persName>
+               <persName key="Kerr, Andrew" ref="uva.00347_n1">Andrew Kerr</persName>
             </person>
-         </particDesc>
+         </particDesc> 
       </profileDesc>
       <revisionDesc>
+         <change who="#cb" when="2015-04-20">corrected note 2 date from 1866 to 1865</change>
+         <change who="#ak" when="2015-04-14">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-14">proofread and edited</change>
@@ -91,7 +95,7 @@
                   <date when="1865-10-29">October 29, 1865.</date>
                </dateline>
             </opener>
-            <p>Andy,<ptr target="uva.00347_n1"/> my dear comrade&#8212;I rec'd yours of 24th, with enclosure of letter. Two others previously.</p>
+            <p>Andy, my dear comrade&#8212;I rec'd yours of 24th, with enclosure of letter. Two others previously.</p>
             <p>I am sincerely sorry for Mr. Stewart.</p>
             <p>Andy, my programme is, to vote here early Tuesday forenoon,<ptr target="uva.00347_n2"/> &amp; then start <hi rend="italic">immediately</hi> for Washington&#8212;So Love&#8212;&amp; farewell&#8212;till we meet, dear boy.</p>
             <closer rend="right">

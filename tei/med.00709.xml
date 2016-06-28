@@ -48,7 +48,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
+                <!--<biblStruct>
                     <monogr>
                         <editor>Artem Lozynsky</editor>
                         <title xml:id="al">The Letters of Dr. Richard Maurice Bucke to Walt
@@ -60,7 +60,7 @@
                             <biblScope type="page">21</biblScope>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct>-->
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 28 May 1883</title>
@@ -73,7 +73,7 @@
             <particDesc>
 
                 <person role="sender">
-                    <persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -81,6 +81,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2015-10-06" who="#nhg">added images and correspondent ref, updated transcription</change>
             <change when="2014-11-24" who="#nhg">checked, corrected</change>
             <change when="2014-08-22" who="#ss">transcribed, encoded, annotated</change>
             <change when="2014-10-24" who="#no">checked</change>
@@ -89,17 +90,19 @@
 
     <text type="letter">
         <body>
+            <pb xml:id="leaf001r" facs="loc_es.00201.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">[London,]</name>
-                    <date when="1883-05-28">28th May [188]3</date>
+                    <name type="place" rend="center"><handShift rend="printed"/>Asylum for the Insane,</name>
+                    <name type="place" rend="right">London,</name>
+                    <date when="1883-05-28"><handShift rend="manuscript"/>28th May <handShift rend="printed"/>188<handShift rend="manuscript"/>3</date>
                 </dateline>
                 <salute>My dear Walt</salute>
             </opener> 
             <p>I have had the book a couple of days and have looked
-                through it,<ptr target="n0119"/> I believe it will do, and if it will the
+                through it, I believe it will do, and if it will the
                 Editor will deserve more credit than the Author<ptr target="med.00709_n2"/>&#8212;I
-                am really surprised at the tact and judgment you have displayed in putting my rough
+                am really surprised at the tact and judgement you have displayed in putting my rough
                 M.S. into shape and I am more than satisfied with all you have done&#8212;I see now
                 that you were right about the Latin motto<ptr target="med.00709_n3"/> (as about
                 every thing else)&#8212;it is <hi rend="underline">not</hi> in line with the book
@@ -107,7 +110,9 @@
                     <orig>Pubr</orig>
                     <reg>publisher</reg>
                 </choice> and when the book will be published in England and when here? I suppose
-                    McKay<!--<ptr target="syr.00031_n3"/>--> will send me a statement (all in good time)
+                <pb xml:id="leaf001v" facs="loc_es.00202.jpg" type="verso"/>
+                
+                    McKay will send me a statement (all in good time)
                 showing my financial position as toward the vol.?</p>
             <p>We are all well here, the season is backward, the leaves not fully out yet; indeed
                 the oaks and even some of the maples and elms have scarcely begun to come out
@@ -117,7 +122,7 @@
                 <salute>Affectionately Yours</salute>
                 <signed>R M Bucke</signed>
             </closer>
-
+             
         </body>
     </text>
 </TEI>

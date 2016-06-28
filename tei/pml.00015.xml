@@ -11,12 +11,13 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
+               <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -61,7 +62,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Abby H. Price, 1 August 1866</title>
                <date when="1866-08-01">August 1, 1866</date>
-               <orgName xml:id="pml">Pierpont Morgan Library</orgName>
+               <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -71,11 +72,13 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Price, Abby H.">Abby H. Price</persName>
+               <persName key="Price, Abby H." ref="loc.00940_n6">Abby H. Price</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2016-04-22">changed correspondent ref</change>
+         <change who="#ak" when="2015-04-06">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jc" when="2012-10-22">edited annotation on O'Connor</change>
@@ -97,7 +100,7 @@
                   <date when="1866-08-01">Aug. 1, 1866.<ptr target="pml.00015_n100"/>
                </date>
                </dateline>
-               <salute>Dear friend,<ptr target="pml.00015_n2"/>
+               <salute>Dear friend,
                </salute>
             </opener>
             <p>I have just received your letter, &amp; respond immediately, because by what you have written, it may be that you can do me a great favor&#8212;I have obtained leave of absence, &amp; am coming to New York, principally to bring out a new &amp; much better edition of Leaves of Grass complete&#8212;that <hi rend="italic">unkillable</hi> work!&#8212;Mother's apartments in Pacific st are very limited, &amp; I had decided to get a lodging room in N. Y. or Brooklyn, so as not to incommode my folks at home&#8212;taking my meals at the restaurants, &amp; home &amp;c&#8212;leaving my time free for my work &amp;c&#8212;Now <hi rend="italic">have you such a room for me</hi>, at a fair price? I hope you have, for that would be very agreeable&#8212;Your going off for a week or two would not make any difference&#8212;as a lodging is my main object&#8212;write <hi rend="italic">immediately</hi> &amp; let me know, as my leave of absence will probably date from Monday next, 6th inst&#8212;</p>

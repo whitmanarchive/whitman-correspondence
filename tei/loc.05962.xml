@@ -15,6 +15,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -59,7 +60,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Benson, Eugene">Eugene Benson</persName>
+                    <persName key="Benson, Eugene" ref="n1061">Eugene Benson</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -67,6 +68,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2015-09-16" who="#nhg">added annotations, correspondent ref</change>
+            <change when="2014-01-01" who="#kmp">blessed</change>
             <change when="2014-12-08" who="#nhg">checked, corrected</change>
             <change when="2014-12-05" who="#ak">transcribed, encoded</change>
         </revisionDesc>
@@ -87,7 +90,7 @@
             </opener>
             <p>Let me greet you. Happy New
                 Year to you. Your poems have
-                come to me anew&#8212;here in
+                come to me anew<ptr target="loc.05962_n1"/>&#8212;here in
                 Rome&#8212;and have revived
                 and deepened my consciousness
                 of great things, of beautiful

@@ -7,10 +7,11 @@
             <title level="m" type="main">Thayer &amp; Eldridge to Walt Whitman, 10 February 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Thayer &amp; Eldridge</author>
-            <editor>Dennis Berthold</editor>
+            <editor>Ed Folsom</editor>
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
@@ -56,14 +57,16 @@
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Thayer &amp; Eldridge">Thayer and Eldridge</persName>
+               <persName key="Thayer &amp; Eldridge" ref="loc.00560_n100">Thayer and Eldridge</persName>
             </person>
-            <person role="recipient">
+            <person role="recipient" xml:id="ww">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2015-07-20">checked transcription, updated correspondent ref</change>
+         <change who="#ak" when="2015-02-12">added pbs</change>
          <change who="#nhg" when="2014-08-24">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -78,27 +81,32 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00560.001.jpg" xml:id="leaf001r" type="recto"/>
+         <pb facs="loc_vm.00479.jpg" xml:id="leaf001r" type="recto"/>
          
             <opener> 
                <dateline>
-                  <name type="place">Boston,</name> 
-                  <date when="1860-02-10">Feb 10/60</date>
-                  <name type="person">Walt Whitman</name>
+                  <name type="place">Boston</name> 
+                  <date when="1860-02-10">Feb 10/60.</date>
                </dateline>
-               <salute>Dr Sir.</salute>
+               <salute>Walt Whitman</salute> 
+               <salute><choice><abbr>Dr</abbr><expan>Dear</expan></choice> Sir.</salute>
             </opener>
-         <p>We<ptr target="loc.00560_n100"/> want to be the publishers of Walt. Whitman's Poems&#8212;Leaves of Grass.&#8212;When the book was first issued we were clerks in the establishment we now own.<ptr target="loc.00560_n2"/>
- We read the book with profit and pleasure. It is a true poem and writ by a <hi rend="italic">true</hi> man.</p>
-            <p>When a man dares to speak his thought in this day of refinement&#8212;so called&#8212;it is difficult to find his mates to act amen to it. Now <hi rend="italic">we</hi> want to be known as the publishers of Walt. Whitman's books, and put our name as such under his, on title pages.&#8212;If you will allow it we can and will put your books into good form, and style attract<hi rend="italic">ive</hi> to the eye; we can and will sell a large number of copies; we have great facilities by and through numberless Agents in selling. We can dispose of more books than most publishing houses (we do not "puff" here but speak <hi rend="italic">truth</hi>).</p>
+         <p>We want to be the publishers of Walt. Whitman's poems&#8212;Leaves of Grass.&#8212;When the book was first issued we were clerks in the establishment we now own.<ptr target="loc.00560_n2"/>
+ We read the book with profit and pleasure. It is a true poem and writ by a <hi rend="underline">true</hi> man.</p>
+            <p>When a man dares to speak his thought in this day of refinement&#8212;so called&#8212;it is difficult to find his mates to act amen to it. Now <hi rend="underline">we</hi> want to be known as the publishers of Walt. Whitman's books, and put our name as such under his, on title pages.&#8212;If you will allow it we can and will put your books into good form, and style attractive to the eye; we can and will sell a large number of copies; we have great facilities by and through numberless Agents in selling. We can dispose of more books than most publishing houses (we do not "puff" here but speak <hi rend="underline">truth</hi>).</p>
             <p>We are young men. We "celebrate" ourselves by acts. Try us. You can do us good. We can do you good&#8212;pecuniarily.</p>
-            <p>Now Sir, if you wish to make acquaintance with us, and accept us as your <pb facs="loc.00560.002.jpg" xml:id="leaf001v" type="verso"/>publishers, we will offer to either buy the stereotype plates of Leaves of Grass, or pay you for the use of them, in addition to regular copyright.</p>
+            <p>Now Sir, if you wish to make acquaintance with us, and accept us as your 
+               <pb facs="loc_vm.00480.jpg" xml:id="leaf001v" type="verso"/>
+               <pb facs="loc_vm.00481.jpg" xml:id="leaf002r" type="recto"/>publishers, we will offer to either buy the stereotype plates of Leaves of Grass, or pay you for the use of them, in addition to regular copyright.</p>
             <p>Are you writing other poems? Are they ready for the press? Will you let us read them? Will you write us? Please give us your residence</p>
             <closer>
                <salute>Yours Fraternally</salute>
                <signed>Thayer &amp; Eldridge.</signed>
             </closer>
-         
+         <pb facs="loc_vm.00482.jpg" xml:id="leaf002v" type="verso"/>
+         <pb facs="loc_vm.00477.jpg" xml:id="leaf003r" type="recto"/>
+         <note type="editorial" resp="#ww" place="left">first proposition <lb/> of Thayer &amp; Eldridge <lb/> <choice><abbr>Feb</abbr><expan>February</expan></choice> 10 '60</note>
+         <pb facs="loc_vm.00478.jpg" xml:id="leaf003v" type="verso"/>
       </body>
    </text>
 </TEI>

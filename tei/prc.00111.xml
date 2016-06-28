@@ -15,6 +15,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -23,7 +24,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2014</date>
+                    <date>2016</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -37,7 +38,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,25 +48,12 @@
                 </availability>
             </publicationStmt>            
             <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Walt Whitman</author>
-                        <editor>Edwin Haviland Miller</editor>
-                        <title xml:id="ehm">The Correspondence</title>
-                        <imprint>
-                            <pubPlace>New York</pubPlace>
-                            <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">6</biblScope>
-                            <biblScope type="page">26</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
+               
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Mrs. Vine Coburn, 7 March 1882</title>
                     <date cert="high" when="1882-03-07" xml:id="dat1">March 7, 1882</date>
-                    <orgName xml:id="prc">The location of this manuscript is unknown.</orgName>
+                    <orgName xml:id="prc">The Gary McAvoy Collection &#8211; Seattle, Washington</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -75,11 +63,12 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Coburn, Mrs. Vine">Mrs. Vine Coburn</persName>
+                    <persName key="Coburn, Mrs. Vine" ref="prc.00111_n1">Mrs. Vine Coburn</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-04-26" who="#nhg">added correspondent ref, tweaked note</change>
             <change when="2015-01-05" who="#nhg">corrected orgName</change>
             <change when="2014-12-11" who="#nhg">checked, corrected</change>
             <change when="2014-12-11" who="#ak">transcribed, encoded, and annotated</change>
@@ -89,6 +78,7 @@
     <text type="letter">
         <body>
             <opener>
+                <pb xml:id="leaf001r" facs="prc_km.00010.jpg" type="recto"/>
                 <dateline>
                     <name type="place">Camden New Jersey</name>
                     <date when="1882-03-07">March 7 '82</date>
@@ -97,7 +87,7 @@
             </opener>
             <p>
                 Returning here last evening I have mailed to you the two Volumes of
-                my books.<ptr target="prc.00111_n1"/> Would you please notify me soon as they reach you safely?
+                my books.<ptr target="prc.00111_n2"/> Would you please notify me soon as they reach you safely?
             </p>
             <closer>
                 <signed>Walt Whitman</signed>

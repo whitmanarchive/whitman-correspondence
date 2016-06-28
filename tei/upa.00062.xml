@@ -12,11 +12,11 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="jyc">Jonathan Y. Cheng</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -68,11 +68,12 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Gilchrist, Herbert">Herbert Gilchrist</persName>
+                    <persName key="Gilchrist, Herbert" ref="n0262">Herbert Gilchrist</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2015-04-17" who="#ak">added correspondent ref</change>
             <change when="2014-11-07" who="#nhg">checked, corrected</change>
             <change when="2014-11-03" who="#ak">added annotations</change>
             <change when="2014-09-24" who="#jyc">checked, revised</change>
@@ -92,7 +93,7 @@
                         <addrLine>Camden</addrLine></address>
                     <date when="1876-11-21" rend="right">Nov 21</date>
                 </dateline>
-                <salute>My dear Herbert<!--<ptr target="n0262"/>--></salute>
+                <salute>My dear Herbert</salute>
             </opener>
 
             <p>I had a safe little jaunt home yesterday afternoon<ptr target="upa.00062_n1"/>&#8212;What a

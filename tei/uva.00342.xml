@@ -6,16 +6,17 @@
          <titleStmt>
             <title level="m" type="main">Walt Whitman to James Russell Lowell, 20 January 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
-            <author/>
-            <editor>Edwin Haviland Miller</editor>
-            <editor>Ted Genoways</editor>
+            <author>Walt Whitman</author>
+            <editor>Ed Folsom</editor>
+            <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="ao">Alyssa Olson</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -41,38 +42,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">47-48</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
+            
             <bibl>
-               <author/>
+               <author>Walt Whitman</author>
                <title>Walt Whitman to James Russell Lowell, 20 January 1860</title>
                <date when="1860-01-20">January 20, 1860</date>
-               <orgName xml:id="uva">Clifton Waller Barrett Collection, University of Virginia</orgName>
+               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia </orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <handNotes>
+            <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+         </handNotes>
          <particDesc>
             <person role="sender">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
-            <person role="recipient">
-               <persName key="Lowell, James Russell">James Russell Lowell</persName>
+            <person role="recipient">  
+               <persName key="Lowell, James Russell" ref="uva.00342_n1">James Russell Lowell</persName>
             </person>
-         </particDesc>
+         </particDesc> 
       </profileDesc>
       <revisionDesc>
+         <change when="2016-01-14" who="#nhg">corrected notes</change>
+         <change when="2015-07-20" who="#nhg">corrected notes, checked transcription</change>
+         <change who="#ak" when="2015-04-13">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-03-19">proofread</change>
@@ -84,37 +79,38 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="uva_jc.00406_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <date when="1860-01-20">Jan. 20, '60.</date>
                </dateline>
-               <salute>Dear Sir,<ptr target="uva.00342_n1"/>
+               <salute>Dear Sir,
                </salute>
             </opener>
-            <p>Mr. House<ptr target="uva.00342_n2"/> inform'd me that you accepted, and would publish, my "Bardic Symbols."<ptr target="uva.00342_n3"/> If so, would you, as soon as convenient, have it put in type, and send me the proof?</p>
+            <p>Mr. House<ptr target="uva.00342_n2"/> <choice><orig>inform'd</orig><reg>informed</reg></choice> me that you accepted, and would publish, my "Bardic Symbols."<ptr target="uva.00342_n3"/> If so, would you, as soon as convenient, have it put in type, and send me the proof?</p>
             <p>About the two lines: 
                
-             <q who="Walt Whitman">
                 <floatingText>
-                <body>  
+                <body>
                    <lg type="linegroup">
-                     <l>(See from my dead lips the ooze exuding at last!</l>
+                     <l>(See from my dead lips the ooze exuding <lb/>at last!</l>
                      <l>See the prismatic colors glistening and rolling!)</l>
                   </lg>
                 </body>
              </floatingText>
-             </q>
                
-               I have in view, from them, an effect in the piece which I clearly feel, but cannot as clearly define. Though I should prefer them in, still, as I told Mr. House, I agree that you may omit them, if you decidedly wish to.</p>
-            <p>Yours &amp;c</p>
+               I have in view, from them, an effect in the piece which I clearly feel, but cannot as clearly define.&#8212;Though I should prefer them in, still, as I told Mr. House, I agree that you may omit them, if you decidedly wish to.</p>
+
             <closer rend="right">
+               <salute>Yours &amp;c</salute>
                <signed>Walt Whitman</signed>
-               <dateline rend="right">
-                  <name type="place">Portland av. near Myrtle | Brooklyn, N. Y.</name>
-               </dateline>
+               <address>
+                  <addrLine>Portland av. near Myrtle</addrLine>
+                  <addrLine>Brooklyn, N. Y.</addrLine>
+               </address>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="uva_jc.00407_large.jpg" type="verso"/>
+         <note type="editorial" place="top" resp="#unk">Walt Whitman.</note>
       </body>
    </text>
 </TEI>

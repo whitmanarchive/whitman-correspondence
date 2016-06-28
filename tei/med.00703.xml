@@ -3,7 +3,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00703">
     <teiHeader>
-        <fileDesc>
+        <fileDesc> 
             <titleStmt>
                 <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 20 March
                     1883</title>
@@ -48,7 +48,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
+                <!--<biblStruct>
                     <monogr>
                         <editor>Artem Lozynsky</editor>
                         <title xml:id="al">The Letters of Dr. Richard Maurice Bucke to Walt
@@ -60,7 +60,7 @@
                             <biblScope type="page">18&#8211;19</biblScope>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct>-->
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 20 March 1883</title>
@@ -73,7 +73,7 @@
             <particDesc>
 
                 <person role="sender">
-                    <persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -81,6 +81,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2015-10-06" who="#nhg">added images, updated transcription, added correspondent ref</change>
             <change when="2014-11-24" who="#nhg">checked, corrected</change>
             <change when="2014-08-19" who="#ss">transcribed, encoded, annotated</change>
             <change when="2014-10-14" who="#no">checked, updated dateline</change>
@@ -89,23 +90,23 @@
 
     <text type="letter">
         <body>
-            <opener>
+            <pb xml:id="leaf001r" facs="loc_es.00180.jpg" type="recto"/>
+            <opener> 
                 <dateline>
-                    <name type="place"><hi rend="underline">Asylum for Insane,</hi></name>
+                    <name type="place"><hi rend="underline">Asylum for Insane,<ptr target="med.00703_n5"/></hi></name>
                     <date when="1883-03-20"><hi rend="underline">March 20, 83</hi></date>
                 </dateline>
             </opener>
-            <p>Have the "Plate Proofs" to page 18 have gone over them, they are all right.<ptr
-                target="n0119"/> I suppose you do not want these proofs back? So I keep them. Hope you will not fail to rearrange pages,
+            <p>Have the "Plate Proofs" to page 18 have gone over them, they are all right. I suppose you do not want these proofs back? So I keep them. Hope you will not fail to rearrange pages,
                 pictures, &#38;c as per last proofs returned &#38; letter.<ptr target="med.00703_n1"
                 /> You said in letter of 14th<ptr target="med.00703_n2"/> that 1st batch of proof of
-                pt ii would be sent on 15th I have seen nothing of it so far, hope there is no
+                <choice><abbr>pt</abbr><expan>part</expan></choice> ii would be sent on 15th I have seen nothing of it so far, hope there is no
                     hitch<ptr target="med.00703_n3"/>&#8212;</p>
  
             <closer>
-                <signed>R M B</signed>
+                <signed>R M B.</signed>
             </closer>
-
+            <pb xml:id="leaf001v" facs="loc_es.00179.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

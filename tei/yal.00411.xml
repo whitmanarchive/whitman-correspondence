@@ -48,6 +48,7 @@
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
           <persName xml:id="zk">Zachary King</persName>
           <persName xml:id="ec">Eric Conrad</persName>
+          <persName xml:id="nhg">Nicole Gray</persName>
         </note>
       </notesStmt>
       <sourceDesc>
@@ -83,11 +84,12 @@
           <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+          <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change who="#nhg" when="2016-04-22">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
       <change when="2012-11-29" who="#el">checked</change>
       <change when="2012-06-20" who="#el">checked</change>
@@ -103,7 +105,7 @@
           <date notBefore="1873-02-13" notAfter="1873-02-14" rend="right">Thursday night <lb/>8
             o'clock</date>
         </dateline>
-        <salute>Dearest mother<ptr target="n0705"/>,</salute>
+        <salute>Dearest mother,</salute>
       </opener>
 
       <p>It is a dismal winter snow storm outside, and as I write I am sitting here by a good wood

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07367">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John H. Johnston to Walt Whitman, 24 March 1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John H. Johnston</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07367</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Horace Traubel</author>
+                        <title xml:id="ht">With Walt Whitman in Camden</title>
+                        <imprint>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <publisher>University of Pennsylvania Press</publisher>
+                            <date when="1953">1953</date>
+                            <biblScope type="volume">2</biblScope>
+                            <biblScope type="page">431&#8211;432</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>John H. Johnston</author>
+                    <title>John H. Johnston to Walt Whitman, 24 March 1887</title>
+                    <date cert="high" when="1887-03-24" xml:id="dat1">March 24, 1887</date>
+                    <idno type="callno">MSS18630 Box 16</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Johnston, John H." ref="n0336">John H. Johnston</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-11-16" who="#smb">final check, corrected</change>
+            <change when="2015-11-12" who="#km">checked</change>
+            <change when="2014-10-14" who="#ss">transcribed, encoded and annotated</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <date when="1887-03-24"><name type="place">150 Bowery, New York,</name> Mar 24,
+                        1887.</date>
+                </dateline>
+                <salute><hi rend="italic">Dear Uncle Walt:</hi></salute>
+            </opener>  
+            <p>Over two weeks ago I determined to let Major Pond<ptr target="n3112"/> manage your
+                    lecture.<ptr target="med.00797_n1"/> He is "up" in that kind of business and
+                knows just how to do it. He said I might calculate three hundred and fifty dollars
+                as the cost&#8212;the output, and he would guarantee to fill a hall. I at once
+                assumed the responsibility and became security for the three hundred and fifty
+                dollars. He then tried to get Chickering Hall but it was engaged for April 14th and
+                also for every afternoon and evening about that date. We have at last settled upon
+                the Madison Square Theatre for the afternoon (four o'clock) of April 14th.<ptr
+                    target="loc.07367_n1"/> I must pay the seventy five dollars for the Theatre the
+                moment it is engaged, and I will do so the moment I receive a telegram from you
+                to-morrow saying, "all right, go ahead." Please wire me at once on receipt of
+                this.</p>
+            <p>Alma<ptr target="n4982"/> is here with me and is well and says: "Lots of love and
+                thanks for the nice letter received at Equinunk.<ptr target="loc.07367_n2"/>"</p>
+            <closer>
+                <salute>Ever yours sincerely</salute>
+                <signed>J. H. Johnston.</signed>
+            </closer>
+
+        </body>
+
+    </text>
+</TEI>

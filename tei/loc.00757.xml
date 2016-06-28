@@ -7,8 +7,8 @@
             <title level="m" type="main">Walt Whitman to Thayer &amp; Eldridge, May 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Walt Whitman</author>
-            <editor>Edwin Haviland Miller</editor>
-            <editor>Ted Genoways</editor>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
                <persName xml:id="el">Elizabeth Lorang</persName>
@@ -41,24 +41,10 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">54-55</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Thayer &amp; Eldridge, May 1860</title>
-               <date when="1860-05">May, 1860</date>
+               <date when="1860-05">May 1860</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
@@ -69,11 +55,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Thayer &amp; Eldridge">Thayer &amp; Eldridge</persName>
+               <persName key="Thayer &amp; Eldridge" ref="loc.00582_n100">Thayer &amp; Eldridge</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2015-05-13">added images, corrected</change>
          <change who="#nhg" when="2014-08-24">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -86,11 +73,12 @@
    </teiHeader>
    <text type="letter">
       <body>
+         <pb xml:id="leaf001r" facs="loc_vm.00509_large.jpg" type="recto"/>
          
             <p>Arrived home all right, 24th, at dusk, over the "shore line"&#8212;I like that route better than the old one&#8212;no dust that day, and fine view of the water, half the time.<ptr target="loc.00757_n1"/>
-            </p>
-            <p>The package came safe to ho[me] on Friday, containing my 20 purch[ased] L. of G. and 20 to give away at discretion. I shall send you a tally of the latter as I <!-- How do I encode this "incomplete" text? --> [<hi rend="italic">incomplete</hi>].</p>
-         
+            </p>  
+         <p>The package came safe to <unclear reason="cut away" resp="#nhg" cert="high">hand</unclear> on Friday, containing my 20 <unclear reason="cut away" resp="#nhg" cert="high">purchased</unclear> L. of G. and 20 to give away at discretion. I shall send you a tally of the latter as I <gap reason="cut away"/><ptr target="loc.00757_n2"/></p>
+         <pb xml:id="leaf001v" facs="loc_vm.00510_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

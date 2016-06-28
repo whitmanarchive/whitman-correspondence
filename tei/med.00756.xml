@@ -47,7 +47,7 @@
                 </availability>
             </publicationStmt>            
             <sourceDesc>
-                <biblStruct>
+                <!--<biblStruct>
                     <monogr>
                         <author>Richard Maurice Bucke</author>
                         <editor>Artem Lozynsky</editor>
@@ -59,20 +59,20 @@
                             <biblScope type="page">12</biblScope>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct>-->
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, [12 June 1882?]</title>
                     <date cert="low" when="1882-06-12" xml:id="dat1">June 12, 1882</date>
-                    <idno type="callno">MSS18630</idno>
+                    <idno type="callno">MSS18630, Box 4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
-                <person role="sender">
-                    <persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                <person role="sender"> 
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -80,6 +80,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2015-10-05" who="#nhg">added image names, corrected transcription, added correspondent ref</change>
             <change when="2014-12-15" who="#nhg">checked, corrected</change>
             <change when="2014-12-12" who="#ak">transcribed, encoded, and annotated</change>
         </revisionDesc>
@@ -87,34 +88,36 @@
     
     <text type="letter">
         <body>
+            <pb xml:id="leaf001r" facs="loc_es.00230.jpg" type="recto"/>
             <p>
                 The motto that you send for the title-page<ptr target="med.00756_n1"/> would do extremely
                 well<ptr target="med.00756_n2"/>&#8212;meantime I had picked out one from <hi rend="underline">Lucretius</hi> as follows:
                 <quote><lg type="linegroup">
-                    <l>Quae cum magna multis miranda videtur</l>
+                    <l>Quae cum magna modis multis miranda videtur</l>
                     <l>gentibus humanis regio visendaque fertur,</l>
-                    <l>rebus optima bovis, multa munita virum vi,</l>
-                    <l>nil tamen hoc habuisse virs praeclarius in se</l>
-                    <l>nec sanctum magis et mirum carumque videtur</l>
+                    <l>rebus opima bonis, multa munita virum vi,</l>
+                    <l>nil tamen hoc habuisse viro praeclarius in se</l>
+                    <l>nec sanctum magis et mirum carumque videtur.</l>
                     <l>carmina quin etiam divini pectoris eius</l>
                     <l>vociferantur et exponunt praeclara reperta</l>
-                    <l>ut vix humana videatur videatur stirpe creatus.</l></lg>   
+                    <l>ut vix humana videatur stirpe creatus.</l></lg>   
                 </quote>
                 which being interpreted is:
             </p>
             <p> 
                 Now though this great country is seen to deserve in many ways the
-                wonder of mankind and is held to be well worth visiting, rich in all
+                wonder of mankind and is held to be well worth visiting, rich in all good
                 things, guarded by large force of men, yet seems it to have held within
                 it nothing more glorious than this man, nothing more holy marvellous
-                and set forth in such wise his glorious discoveries that he hardly
+                and dear. The verses too of his godlike genius cry with a loud voice and set forth in such wise his glorious discoveries that he hardly
                 seems born of a mortal stock.
             </p>
+            <pb xml:id="leaf001v" facs="loc_es.00231.jpg" type="verso"/>
             <p>
                 It is vulgarly supposed that by "this great country" Lucretius
                 meant <hi rend="underline">Sicily</hi> and by "this man" <hi rend="underline">Empedocles</hi>; but it is plain enough that
-                he really meant America and Walt Whitman&#8212;Anyone can see that
-                "Vociferantur" must have been intended to apply to the "barbaric Yawp".
+                he really meant America and Walt Whitman&#8212;Any one can see that
+                "Vociferantur" must have been intended to apply to the "barbaric yawp".
                 Isn't it so?
             </p>
             <closer>

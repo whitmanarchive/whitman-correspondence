@@ -18,6 +18,8 @@
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -50,20 +52,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Walt Whitman</author>
-                        <editor>Edwin Haviland Miller</editor>
-                        <title xml:id="ehm">The Correspondence</title>
-                        <imprint>
-                            <pubPlace>New York</pubPlace>
-                            <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">324</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
+                
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Jeannette L. and Joseph B. Gilder, 6 February
@@ -80,7 +69,7 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Gilder, Jeannette L.">Jeannette L. Gilder</persName>
+                    <persName key="Gilder, Jeannette L." ref="n0264">Jeannette L. Gilder</persName>
                     
                 </person>
                 <person role="recipient">
@@ -90,6 +79,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2015-07-14">added image names, correspondent ref</change>
+            <change who="#kmp" when="2014-10-01">blessed</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-06-04" who="#nhg">checked, corrected</change>
             <change when="2014-02-21" who="#ej">Checked and Corrected</change>
@@ -100,17 +91,19 @@
 
     <text type="letter">
         <body>
+            <pb xml:id="leaf001r" facs="owu.00009.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
                     <date when="1883-02-06">Feb 6 '83</date>
                 </dateline>
             </opener>
-            <p>Yours with the &#36;15 (13) just rec'd<ptr target="owu.00053_n1"/>&#8212;thanks&#8212;yes, I want some copies of last <hi rend="italic"
+            <p>Yours with the &#36;15 (13) just <choice><abbr>rec'd</abbr><expan>received</expan></choice><ptr target="owu.00053_n1"/>&#8212;thanks&#8212;yes, I want some copies of last <hi rend="underline"
                 >Critic</hi>&#8212;if convenient send me six copies&#8212;</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>
+            <pb xml:id="leaf001v" facs="owu.00009.002_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

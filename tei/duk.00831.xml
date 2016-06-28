@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00831">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> 
+                <title level="m" type="main">Walt Whitman to William Sloane Kennedy, 21 February
+                    1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt> 
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00831</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive February be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">68&#8211;69</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Sloane Kennedy, 21 February 1887</title>
+                    <date cert="high" when="1887-02-21" xml:id="dat1">February 21, 1887</date>
+                    <orgName xml:id="duk">The Trent Collection of Whitmaniana, Duke University Rare
+                        Book, Manuscript, and Special Collections Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">  
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane
+                        Kennedy</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2015-10-07" who="#smb">final check, corrected</change>
+            <change when="2015-09-10" who="#km">checked</change>
+            <change when="2015-07-20" who="#if">edited</change>
+            <change when="2014-11-13" who="#ss">encoded and annotated</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline rend="right">
+                    <name type="place">Camden</name>
+                    <date when="1887-02-21">Feb. 21 '87 p m</date>
+                </dateline>
+                <salute>Dear WSK&#8212;</salute>
+            </opener>
+            <p>Yours of 19th came (always welcome)<ptr target="duk.00831_n2"/> with Rhys's<ptr
+                    target="loc.03310_n1"/> letters (herewith returned) &#38; the <hi rend="italic"
+                    >Transcript</hi>&#8212;Thanks&#8212;for your warm words, y'r affectionate
+                personal &#38; literary extra appreciation&#8212;always&#8212;thanks for writing
+                &#38; sending&#8212;I am kept in here quite all the time &#38; was glad you sent R's
+                letters&#8212;Poor dear noble O'Connor's<ptr target="n2002"/> ailment is I fear <hi
+                    rend="italic">locomotor ataxyia</hi>&#8212;induration of the spine&#8212;I have
+                heard nothing further&#8212;time only can decide&#8212;but I have serious
+                apprehensions&#8212;</p>
+            <p>Nothing new with me&#8212;am glad your book over there is under Ernest Rhys's
+                management &#38; overseeing&#8212;He makes the impression on me of a deep true
+                friend of L of G &#38; of myself&#8212;What is that ab't Trowbridge?<ptr
+                    target="n0860"/> I do not understand.<ptr
+                    target="duk.00831_n1"/> Had a drive yesterday thro' a
+                splendid snowstorm&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

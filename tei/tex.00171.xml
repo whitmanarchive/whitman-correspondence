@@ -17,7 +17,8 @@
                     <persName xml:id="fw">Felicia Wetzig</persName>
                     <persName xml:id="hk">Heather Kaley</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
-                    <persName xml:id="el">ELizabeth Lorang</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -62,7 +63,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="duk.00425_n3">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -70,6 +71,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-04-22">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-07-31" who="#el">moved remaining notes to external file and added ptrs; checked</change>
@@ -106,7 +108,7 @@
                 <salute>My dear Walt</salute>
             </opener>
             <p>all alone</p>
-            <p>i<ptr target="duk.00425_n3"/> receives
+            <p>i receives
                 your kind letter this morning
                 i was glad to hear from
                 you glad you had a good

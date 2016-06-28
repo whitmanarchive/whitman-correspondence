@@ -2,7 +2,7 @@
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
 <TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00326">
    <teiHeader>
-      <fileDesc>
+      <fileDesc> 
          <titleStmt>
             <title level="m" type="main">Henry Clapp, Jr. to Walt Whitman, 12 May 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
@@ -12,6 +12,7 @@
                <resp>Transcription and encoding</resp>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -61,15 +62,16 @@
       </fileDesc>
       <profileDesc>
          <particDesc>
-            <person role="sender">
-               <persName key="Clapp Jr., Henry">Henry Clapp, Jr.</persName>
+            <person role="sender"> 
+               <persName key="Clapp, Henry, Jr." ref="n6010">Henry Clapp, Jr.</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
          </particDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc> 
+         <change when="2015-05-11" who="#nhg">standardized sender name</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-07-31">added annotations</change>
@@ -92,7 +94,7 @@
             <p>My brother George will deliver this. He is of the right stamp.</p>
             <closer rend="right">
                <salute>In haste</salute>
-               <signed>Henry Clapp.<ptr target="med.00326_n2"/>
+               <signed>Henry Clapp.
                </signed>
             </closer>
          

@@ -11,10 +11,11 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
+               <persName xml:id="nhg">Nicole Gray</persName>
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -59,7 +60,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Abby H. Price, 30 July 1866</title>
                <date when="1866-07-30">July 30, 1866</date>
-               <orgName xml:id="pml">Pierpont Morgan Library</orgName>
+               <orgName xml:id="pml">The Pierpont Morgan Library, New York</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -69,11 +70,13 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Price, Abby H.">Abby H. Price</persName>
+               <persName key="Price, Abby H." ref="loc.00940_n6">Abby H. Price</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2016-04-22">changed correspondent ref</change>
+         <change who="#ak" when="2015-04-06">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">proofreading changes</change>
@@ -93,7 +96,7 @@
                   <date when="1866-07-30">July 30, 1866.<ptr target="pml.00014_n100"/>
                </date>
                </dateline>
-               <salute>My dear friend,<ptr target="pml.00014_n2"/>
+               <salute>My dear friend,
                </salute>
             </opener>
             <p>I write mainly to see whether I have got the right address&#8212;to find whether this reaches you&#8212;If so please give me an answer as soon as convenient.</p>

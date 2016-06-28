@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
@@ -60,7 +61,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to John Swinton, 23 February 1863</title>
                <date when="1863-02-23">February 23, 1863</date>
-               <orgName xml:id="bos">Rollo G. Silver Collection, Boston University</orgName>
+               <orgName xml:id="bos">The Alice and Rollo G. Silver Collection in the Special Collections at Boston University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -70,11 +71,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Swinton, John">John Swinton</persName>
+               <persName key="Swinton, John" ref="n0611">John Swinton</persName>
             </person>
          </particDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc>  
+         <change who="#ak" when="2015-01-23">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-01-22">Ken's proofreading changes</change>
@@ -94,7 +96,7 @@
                </date>
                </dateline>
             </opener>
-            <p>John,<ptr target="bos.00006_n3"/> I write to call your attention to an article, (Times correspondence,) I have just written &amp; sent about the Military Hospitals here<ptr target="bos.00006_n4"/>&#8212;as they are so generally and sadly interesting to the public. You will easily recognize the article&#8212;I enclose you my address&#8212;write me a line about it, at your leisure&#8212;(to-morrow or next day.)</p>
+            <p>John, I write to call your attention to an article, (Times correspondence,) I have just written &amp; sent about the Military Hospitals here<ptr target="bos.00006_n4"/>&#8212;as they are so generally and sadly interesting to the public. You will easily recognize the article&#8212;I enclose you my address&#8212;write me a line about it, at your leisure&#8212;(to-morrow or next day.)</p>
             <p>Is William<ptr target="bos.00006_n5"/> in New York&#8212;or where?</p>
             <p>The article is to be paid for.</p>
             <closer rend="right">

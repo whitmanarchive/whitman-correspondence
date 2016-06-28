@@ -18,6 +18,7 @@
                     <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -51,7 +52,7 @@
             </publicationStmt>
             <sourceDesc>
 
-                <biblStruct>
+                <!--<biblStruct>
                     <monogr>
                         <editor>Artem Lozynsky</editor>
                         <title xml:id="al">The Letters of Dr. Richard Maurice Bucke to Walt
@@ -63,7 +64,7 @@
                             <biblScope type="page">23</biblScope>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct>-->
 
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -76,7 +77,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -95,15 +96,16 @@
 
     <text type="letter">
         <body>
+            <pb xml:id="leaf001r" facs="loc_es.00207.jpg" type="recto"/>
             <opener>
-                <dateline>
-                    <name type="place">[London,]<ptr target="loc.05146_n5"/></name>
-                    <date when="1883-09-09" rend="right">9<hi rend="superscript"><hi
-                                rend="underline">th</hi></hi>
+                <dateline> 
+                    <name type="place" rend="center"><handShift rend="printed"/>Asylum for the Insane,</name><ptr target="loc.05146_n5"/>
+                    <name type="place" rend="right">London,</name>
+                    <date when="1883-09-09" rend="right"><handShift rend="manuscript"/>9<hi rend="superscript">th</hi>
                         <choice>
                             <abbr>Sept</abbr>
                             <expan>September</expan>
-                        </choice> [188]3</date>
+                        </choice> <handShift rend="printed"/>188<handShift rend="manuscript"/>3</date>
                 </dateline>
                 <salute>Dear Walt</salute>
             </opener>
@@ -111,7 +113,7 @@
             <p>I have your card of <choice>
                     <abbr>Aug.</abbr>
                     <expan>August</expan>
-            </choice> 30.<ptr target="n0119"/> Yes, all right&#8212;I am satisfied with "Walt Whitman" except that it
+            </choice> 30. Yes, all right&#8212;I am satisfied with "Walt Whitman" except that it
                 does not express one tenth what it ought to do justice to the subject, but I believe
                 it is the best I can do after all and so it must go&#8212;as for the paying part of
                 the business I am quite easy <choice>
@@ -119,18 +121,20 @@
                     <expan>about</expan>
                 </choice> that&#8212;I think it will pay in the long run and if it does not I am
                 equally satisfied except that I would like it to have some circulation on the chance
-                of its doing some good.</p>
-            <p>Yes, I saw the Santa F&#233; letter too (thanks
+                of its doing some good.
+            Yes, I saw the Santa F&#233; letter too (thanks
                 for it),<ptr target="loc.05146_n1"/> and I also saw the <choice>
                     <abbr>N.Y.</abbr>
                     <expan>New York</expan>
                 </choice> Times of <choice>
-                    <abbr>Aug</abbr>
+                    <abbr>Aug.</abbr>
                     <expan>August</expan>
-                </choice> 8<hi rend="underline"><hi rend="superscript">th</hi></hi> on it&#8212;did
+                </choice> 8<hi rend="superscript">th</hi> on it&#8212;did
                 you see it? was it not <choice>
                     <sic>shamefull</sic><corr>shameful</corr></choice>? The man glories in his want of sympathy, and laughs consumedly that
-                any one else should have <gap reason="damage"/> any. I saw Tommy Nicholson<ptr
+                any 
+                <pb xml:id="leaf001v" facs="loc_es.00208.jpg" type="verso"/>
+                one else should have any. I saw Tommy Nicholson<ptr
                     target="loc.05146_n2"/> down town yesterday and he showed me your letter to
                     him.<ptr target="loc.05146_n3"/> I was well pleased to see that you really have
                 some notion of paying us another visit&#8212;I hope to see you next month and then
@@ -146,6 +150,8 @@
                 <salute>Your friend</salute>
                 <signed>R M Bucke</signed>
             </closer>
+            <pb xml:id="leaf002r" facs="loc_es.00205.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_es.00206.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

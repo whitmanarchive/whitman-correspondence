@@ -48,7 +48,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
+                <!--<biblStruct>
                     <monogr>
                         <editor>Artem Lozynsky</editor>
                         <title xml:id="al">The Letters of Dr. Richard Maurice Bucke to Walt
@@ -60,7 +60,7 @@
                             <biblScope type="page">19&#8211;20</biblScope>
                         </imprint>
                     </monogr>
-                </biblStruct>
+                </biblStruct>-->
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 27 March 1883</title>
@@ -73,7 +73,7 @@
             <particDesc>
 
                 <person role="sender">
-                    <persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -81,6 +81,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2015-10-06" who="#nhg">added images, updated transcription, added correspondent ref</change>
             <change when="2014-11-24" who="#nhg">checked, corrected</change>
             <change when="2014-10-22" who="#no">checked, corrected</change>
             <change when="2014-08-19" who="#ss">transcribed, encoded, annotated</change>
@@ -88,15 +89,15 @@
     </teiHeader>
 
     <text type="letter">
-        <body>
+        <body> 
+            <pb xml:id="leaf001r" facs="loc_es.00184.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><hi rend="underline">Asylum for Insane,</hi></name>
+                    <name type="place"><hi rend="underline">Asylum for Insane,<ptr target="med.00706_n1"/></hi></name>
                     <date when="1883-03-27"><hi rend="underline">Mar. 27, 1883</hi></date>
                 </dateline>
             </opener>
-            <p>Proofs of bulk of app. to pt ii received this day and now returned<ptr target="n0119"
-                />&#8212;please send revises of <choice>
+            <p>Proofs of bulk of app. to <choice><abbr>pt</abbr><expan>part</expan></choice> ii received this day and now returned&#8212;please send revises of <choice>
                     <sic>french</sic>
                     <corr>French</corr>
                 </choice> and German extracts&#8212;Keep sending plate proofs as you get
@@ -105,7 +106,7 @@
             <closer>
                 <signed>R M B.</signed>
             </closer>
-
+            <pb xml:id="leaf001v" facs="loc_es.00183.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03216">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walter Lewin to Walt Whitman, 2 September 1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walter Lewin</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03216</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walter Lewin</author>
+                    <title>Walter Lewin to Walt Whitman, 2 September 1887</title>
+                    <date cert="high" when="1887-09-02" xml:id="dat1">September 2, 1887</date>
+                    <idno type="callno">MSS18630, Box 13</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Lewin, Walter" ref="loc.03216_n1">Walter Lewin</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-11-17" who="#smb">final check, corrected</change>
+            <change when="2015-07-19" who="#if">edited</change>
+            <change when="2015-05-31" who="#ss">annotated</change>
+            <change when="2014-10-14" who="#ss">checked and corrected</change>
+            <change when="2014-09-18" who="#ak">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03216.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Bebington</name>
+                    <date when="1887-09-02"><name type="place">Cheshire</name> 2 Sept 1887</date>
+                </dateline>
+                <salute>Dear Walt Whitman,</salute>
+            </opener>
+            <p>It seems fitting that, as I have been writing about you, I should submit for your
+                inspection what I have written, and therefore I send to you by this mail a copy of
+                Murray's Magazine for the present month.<ptr target="loc.03216_n2"/> Whether or not
+                you will approve of what I say, I cannot tell; but of this I am sure that it is
+                sincerely spoken and not in haste. I hardly know <pb xml:id="leaf001v"
+                    facs="loc.03216.002_large.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc.03216.003_large.jpg" type="recto"/> how many years
+                it is since I began to prepare it. Some four or five years ago I read a portion of
+                it to a society of "Literary &#38; Scientific" persons (as they styled themselves)
+                in Birkenhead, and succeeded in stimulating them to enquire for themselves about the
+                brave poet of whom they had often heard but knew little. Again, last December, a
+                more important society in Liverpool listened to what I had to say on the same
+                subject. Part of what I told them is contained in the present article &#38; part in
+                a pamphlet which I will send you later on, as soon <pb xml:id="leaf002v"
+                    facs="loc.03216.004_large.jpg" type="verso"/>
+                <pb xml:id="leaf003r" facs="loc.03216.005_large.jpg" type="recto"/> as I receive it.
+                I may say that at this meeting I had the pleasure of hearing several warm admirers
+                of yourself discuss my paper. Mr. E. R. Russell,<ptr target="loc.03216_n3"/> the
+                editor of the Liverpool <hi rend="underline">Post</hi> and late M. P for Glasgow had
+                some good &#38; wise words to say. Perhaps in its printed form my article may
+                stimulate others to enquire. If so I shall be well satisfied.</p>
+            <closer>
+                <salute>Hearty greetings to you, Walt Whitman!</salute>
+                <signed><hi rend="underline">Walter Lewin</hi>.</signed>
+            </closer>
+            <pb xml:id="leaf003v" facs="loc.03216.006_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

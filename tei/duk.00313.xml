@@ -4,17 +4,21 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">George Washington Whitman  to Louisa Van Velsor Whitman, 28 June 1861</title>
+            <title level="m" type="main">George Washington Whitman to Louisa Van Velsor Whitman, 28 June [1861]</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>George Washington Whitman</author>
             <editor>Jerome M. Loving</editor>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
                <persName xml:id="gp">Gillian Price</persName>
                <persName xml:id="al">April Lambert</persName>
+               <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -40,28 +44,19 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">39-40</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
-               <title>George Washington Whitman  to Louisa Van Velsor Whitman, 28 June 1861</title>
-               <date when="1861-06-28">June 28, 1861</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <title>George Washington Whitman to Louisa Van Velsor Whitman, 28 June [1861]</title>
+               <date cert="high" when="1861-06-28">June 28, 1861</date>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University </orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <profileDesc> 
+         <handNotes>
+            <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            <handNote xml:id="ww"><persName key="Walt Whitman">Walt Whitman</persName></handNote>
+         </handNotes>
          <particDesc>
             <person role="sender">
                <persName key="Whitman, George Washington">George Washington Whitman</persName>
@@ -72,6 +67,8 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2015-04-13">checked, corrected</change>
+         <change who="#ak" when="2015-01-23">added pbs, corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-12-14">proofread and edited</change>
@@ -85,10 +82,10 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00313.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
-                  <date when="1861">'61</date>
+                  <note type="editorial" place="top" resp="#unk">'61</note>
                   <name type="place">Camp Brooklyn near Baltimore <date when="1861-06-28">June 28<ptr target="duk.00313_n100"/>
                   </date>
                   </name>
@@ -96,13 +93,13 @@ corrections</change>
                <salute>My dear Mother</salute>
             </opener>
             <p>Your letter and Walts came all right and glad enough was I hear that you are getting a little better. You must have had a hard time Mother being sick so long but do not get discouraged and I hope you will soon be as well as ever.</p>
-            <p>We have Just moved our camp. The place were we were first was a hill without a tree or any sort of shade. were we are now there are plenty of shade trees so that we are very comfortable. I am Just as well and hearty as can be. I have slept out in the rain and on the ground but have not felt a bit the worse for it so I think I can go through like a book. When we first came here our camp was fired into for three or four nights in succession  there were four or five shots fired each night and we could hear the balls whiz through the camp but no one was struck. I and half a dozen others were sent out to scout about and see what we could find  we took our pistols and India rubber blankets and lay down in the grass about 200 yards from each other (the place were we are is about like Bedford)  we were out two nights and brought in about a dozen chaps but they were all let go as there was nothing against them but hanging around the camp. I and two others were sent out the other day to arest a secession soldier from Harpers Ferry who it is supposed came on here as a spy. We went out in the city  the chap that gave us the information shewed us the house and we went in and took him and brought him to camp  he was sent to Fort McHenry the same day to be tried for a spy. This city is a regular secession place  as we walk through the streets in the city the Women and children make a regular practice of saying as we pass them hurah for Jeff Davis  the men dont say anything but you can see by the looks of the most of them that they dont like us at all. This city was placed under Marshall law yesterday and the celebrated Marshal Kane<ptr target="duk.00313_n2"/> was arested and sent to the Fort. It kicked up quite an excitement in the city but they did not go any further than to stand on the corners and growl. It would not have been well for them to have made any row as there are about 8000 Troops encamped about here with a Splendid Battery of Artilery of 8 peices  the Batery and two of the regiments are from Massachusets and they would like very mutch to get square for the afair on the 19th of April.<ptr target="duk.00313_n3"/>
+         <p>We have Just moved our camp. The place <choice><orig>were</orig><reg>where</reg></choice> we were first was a hill without a tree or any sort of shade. <choice><orig>were</orig><reg>where</reg></choice> we are now there are plenty of shade trees so that we are very comfortable. I am Just as well and hearty as can be I have slept out in the rain and on the ground but have not felt a bit the worse for it so I think I can go through like a book. When we first came here our camp was fired into for three or four nights in succession  there were four or five shots fired each night and we could hear the balls whiz through the camp but <pb xml:id="leaf001v" facs="duk.00313.002_large.jpg" type="verso"/>no one was struck. I and half a dozen others were sent out to scout about and see what we could find  we took our pistols and India rubber blankets and lay down in the grass about 200 yards from each other (the place <choice><orig>were</orig><reg>where</reg></choice> we are is about like Bedford)  we were out two nights and brought in about a dozen chaps but they were all let go as there was nothing against them but hanging around the camp. I and two others were sent out the other day to <choice><sic>arest</sic><corr>arrest</corr></choice> a secession soldier from Harpers Ferry who it is <choice><orig>suposed</orig><reg>supposed</reg></choice> came on here as a spy. We went out in the city  the chap that gave us the information shewed us the house and we went in and took him and brought him to camp  he was sent to Fort McHenry the same day to be tried for a spy. This city is a regular secession place  as we walk through the streets in the city the Women and children <pb xml:id="leaf002r" facs="duk.00313.003_large.jpg" type="recto"/>make a regular practice of saying as we pass them <choice><orig>hurah</orig><reg>hurrah</reg></choice> for Jeff Davis  the men <choice><sic>dont</sic><corr>don't</corr></choice> say anything but you can see by the looks of the most of them that they <choice><sic>dont</sic><corr>don't</corr></choice> like us at all. This city was placed under Marshal law yesterday and the celebrated Marshal Kane<ptr target="duk.00313_n2"/> was <choice><sic>arested</sic><corr>arrested</corr></choice> and sent to the Fort. It kicked up quite an excitement in the city but they did not go any further than to stand on the corners and growl. It would not have been well for them to have made any row as there are about 8000 Troops encamped about here with a Splendid Battery of <choice><sic>Artilery</sic><corr>Artillery</corr></choice> of 8 <choice><sic>peices</sic><corr>pieces</corr></choice>  the <choice><sic>Batery</sic><corr>Battery</corr></choice> and two of the regiments are from <choice><sic>Massachusets</sic><corr>Massachusetts</corr></choice> and they would like very <choice><sic>mutch</sic><corr>much</corr></choice> to get square for the <choice><sic>afair</sic><corr>affair</corr></choice> on the 19th of April.<ptr target="duk.00313_n3"/>
             </p>
-            <p>Well Mother the three Months is going fast and I shall soon be with you again. I see some very foolish articles in the papers about us sutch as not haveing any thing to eat for 36 hours and being almost naked but you must not believe any thing of the kind as we are as well off as we could expect<ptr target="duk.00313_n4"/>  You speak in your letter of sending me some Money  We expect to get our pay from the Government in the course of a few days but if we do not I have enough to last me untill I get home. Mother you need not wory about me at all as I am not in want of anything and I dont believe we shal see any fighting at all. I was sent out on a scout again last night  I went all around outside of the picket guard and down in the city but after ten O Clock it was as quiet as Brooklyn  Well good bye Mother  give my love to all and let me hear from you again right away.</p>
+         <p>Well Mother the three Months is going fast and I shall soon be with you <pb xml:id="leaf002v" facs="duk.00313.004_large.jpg" type="verso"/>again. I see some very foolish articles in the papers about us <choice><sic>sutch</sic><corr>such</corr></choice> as not <choice><sic>haveing</sic><corr>having</corr></choice> any thing to eat for 36 hours and being almost naked but you must not believe any thing of the kind as we are as well off as we could expect<ptr target="duk.00313_n4"/>  You speak in your letter of sending me on some Money.  We expect to get our pay from Government in the course of a few days but if we do not I have enough to last me <choice><sic>untill</sic><corr>until</corr></choice> I get home. Mother you need not <choice><sic>wory</sic><corr>worry</corr></choice> about me at all as I am not in want of anything and I <choice><sic>dont</sic><corr>don't</corr></choice> believe we <choice><sic>shal</sic><corr>shall</corr></choice> see any fighting at all. I was sent out on a scout again last night  I went all around outside of the picket guard and down in the city but after ten O Clock it was as quiet as Brooklyn  Well good bye Mother  give my love to all and let me hear from you again right away.</p>
             <closer rend="right">
-               <signed>G. W. Whitman</signed>
+               <signed>G W Whitman</signed>
             </closer>
-         
+         <note type="editorial" resp="#ww" place="right">Baltimore | June 28 '61</note>
       </body>
    </text>
 </TEI>

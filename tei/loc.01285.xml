@@ -12,6 +12,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="jyc">Jonathan Y. Cheng</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
@@ -78,11 +79,13 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Church, Francis P.">Francis P. Church</persName>
+                    <persName key="Church, Francis P." ref="n6001">Francis P. Church</persName>
                 </person>
             </particDesc>
-        </profileDesc>
+        </profileDesc>  
         <revisionDesc>
+            <change who="#nhg" when="2016-01-14">tweaked correspondent ref</change>
+            <change who="#ak" when="2015-04-17">added correspondent ref</change>
             <change when="2014-11-06" who="#nhg">checked, corrected</change>
             <change when="2014-09-23" who="#jyc">checked,revised</change>
             <change when="2014-08-15" who="#el">added schematron declaration</change>
