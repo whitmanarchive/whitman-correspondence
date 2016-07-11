@@ -3,6 +3,7 @@
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<xsl:output indent="yes" omit-xml-declaration="yes"/>
+	<xsl:include href="whitman_include_metadata.xsl"/>
 	
 	<!-- ===================================
 	Correspondence
@@ -607,15 +608,24 @@
 				
 				<!-- text -->
 				
-				<!--<field name="text">
-					<xsl:for-each select="//text">
-						<xsl:text> </xsl:text>
-						<xsl:value-of select="normalize-space(.)"/>
-						<xsl:text> </xsl:text>
-					</xsl:for-each>
-				</field>-->
-				
 				<field name="text">
+					
+					<!-- The following fields are for inserting metadata into text, and should be 
+						redone/generalized soon -kmd -->
+					
+						<!-- include ID -->
+						<xsl:value-of select="$filenamepart"/>
+					    <xsl:text> </xsl:text>
+						<!-- include title -->
+						<xsl:value-of select="$title"/>
+					    <xsl:text> </xsl:text>
+						<!-- include metadata from xml file -->
+						<xsl:call-template name="include_metadata"/>
+					
+					<!-- /including metadata -->
+					
+					
+					
 					<!-- To duplicate 'Editorial notes' section of metadata box in web view -->
 					<!-- 1. Notes in others' hand on the document -->
 					<xsl:for-each select="//body//note[@type='editorial']">
