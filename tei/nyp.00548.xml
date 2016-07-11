@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00548">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William Sloane Kennedy to Walt Whitman, [2 January 1886]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William Sloane Kennedy</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00548</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+               
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>William Sloane Kennedy to Walt Whitman, [2 January 1886]</title>
+                    <date cert="medium" when="1886-01-02" xml:id="dat1">January 2, 1886</date>
+                    <idno type="callno">Series III - 3 p.Bliss Perry, Howe.Manuscript box.</idno>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
+                        American Literature, New York Public Library</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="nyp.00418"/>
+                    <relatedItem type="document" target="wwa.00180"/>
+                    <note type="project" target="#rel01">Whitman wrote another letter on the back of Kennedy's letter, and forwarded the whole to William D. O'Connor.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-07" who="#nhg">added images, checked, corrected</change>
+            <change when="2016-05-26" who="#if">edited</change>
+            <change when="2015-09-25" who="#nhg">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">  
+        <body>
+            <pb xml:id="leaf001r" facs="nyp_nhg.00087.jpg" type="recto"/>
+            <opener>
+                <salute>My Dear Friend:</salute>
+            </opener>
+            <p>I get a few good letters on my little essay on the poets.<ptr target="nyp.00548_n2"/> Burroughs<ptr target="n0129"/> thinks the old poetical forms all sound &amp; good &amp; likely to last. So does Stedman.<ptr target="n1043"/> he says he is "a universalist in art."&#8212;which I do not like. We are not to be universalists in painting &amp; sculpture are we (I guess not) &amp; revive the idiotic sculptures of India, Aegypt &amp; Palenque, or the old wood paintings of the Pre-Giottesque painters? Things grow obsolete&#8212;worn out. Yet Stedman welcomes heartily, he says, the idea of a new &amp; grander style in poetry. But I'm sure 
+                <pb xml:id="leaf001v" facs="nyp_nhg.00088.jpg" type="verso"/>
+                I don't know why I dwell on him: A lady had his volume here in the house yesterday, &amp; I re-read part of what he says on you. It seems to me not only insulting but terribly small &amp; boomerangish in its tendency, self-condemning, utterly inadequate, not touching the real heart of the matter at all&#8212;a dwarf walking round a giant, a pigmy measuring a god. </p>
+            <p>Knortz<ptr target="uva.00476_n1"/> sent 2 of the pamphlets to Germany. Bucke<ptr target="n0119"/> took 10. 
+                <pb xml:id="leaf002r" facs="nyp_nhg.00089.jpg" type="recto"/>
+                I have been <choice><orig>advertizing</orig><reg>advertising</reg></choice> it&#8212;(ever since it was out&#8212;) in <hi rend="underline">Critic</hi> &amp; <hi rend="underline">Index</hi>, &amp; one is to appear in the <hi rend="underline">Lit. World</hi>.</p>
+            <p>I hope you are not feeling badly this rather unhealthy weather. I receive &amp; read with gratitude all the clippings you send me. Am hard at work on a Ruskin anthology for Pirate Alden, &amp; feel rather knavish over the job. 
+            </p>
+            <closer>
+                <salute><choice><abbr>Aff.</abbr><expan>Affectionately</expan></choice></salute>
+                <signed rend="center">W. S. Kennedy</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="nyp_nhg.00090.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

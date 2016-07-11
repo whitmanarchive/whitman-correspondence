@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07445"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Donald Nicholson to Walt Whitman, 29 May 1879</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Donald Nicholson</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07445</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>   
+                <bibl>
+                    <author>Donald Nicholson</author>
+                    <title>Donald Nicholson to Walt Whitman, 29 May 1879</title>
+                    <date cert="high" when="1879-05-29" xml:id="dat1">May 29, 1879</date>
+                    <idno type="callno">MSS45443, Box 2</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="rel01" target="wwa.00130"/>
+                    <relatedItem type="text" target="loc.07446"/>
+                    <note type="project" target="#rel01">This letter has been crossed out and repurposed. Whitman wrote a series of notes on the back, seemingly brainstorming titles for an unspecified work or the poem clusters that would appear in the 1881 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>  
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Nicholson, Donald" ref="n1064">Donald Nicholson</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-06" who="#nhg">checked, corrected</change>
+            <change when="2016-07-06" who="#es">added annotation for D. Nicholson</change>
+            <change when="2016-06-27" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_es.01400_large.jpg" type="recto"/>
+            <opener> 
+                <dateline>
+                    <name type="place" rend="right"><handShift rend="printed"/>MEMORANDUM. <lb/>From WHITELAW REID<ptr target="n0500"/>,</name>
+                    <name type="place"><handShift rend="printed"/>The Tribune Office,</name>
+                    <date when="1879-05-29" rend="right"><handShift rend="printed"/>New York, <handShift rend="manuscript"/>May 29 <handShift rend="printed"/>187<handShift rend="manuscript"/>9</date>
+                </dateline>
+                <salute><address>
+                    <addrLine><handShift rend="printed"/>To <handShift rend="manuscript"/>Walt Whitman Esq.</addrLine>
+                    <addrLine>1309 Fifth Ave</addrLine>
+                    <addrLine>near 86th St.</addrLine></address>
+                </salute>
+                <salute>Dear Sir&#8212;,</salute>
+            </opener>
+            <p>Mr. Reid directs me to enclose your cheque on our Cashier, for $45 for the three letters referred to in your note of the 28th.<ptr target="loc.07445_n1"/></p>    
+            <closer>
+                <salute>I am,</salute>
+                <salute>Respectfully</salute>
+                <signed rend="right"><hi rend="underline">D. Nicholson</hi></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_es.01399_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

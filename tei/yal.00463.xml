@@ -52,12 +52,9 @@
                     <title>Charles E. Ferguson to Walt Whitman, 1 March 1880</title>
                     <date cert="high" when="1880-03-01" xml:id="dat1">March 1, 1880</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
-                    <relatedItem>
-                        <ptr target="yal.00339"/>
-                    </relatedItem>
-                    
-                    
-                    <note type="project">This letter from Charles E. Ferguson is written on the same sheet of paper as a set of Whitman's notes toward his Lincoln lecture.</note>
+                    <relatedItem type="text" xml:id="rel01" target="yal.00339"/>
+                    <relatedItem type="document" target="wwa.00193"/>
+                    <note type="project" target="#rel01">Whitman crossed this letter out, and on the back he wrote notes toward one of his lectures on the death of Abraham Lincoln.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -72,6 +69,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc> 
+            <change when="2016-07-07" who="#nhg">adjusted relatedItem encoding</change>
             <change when="2015-10-29" who="#nhg">corrected</change>
             <change when="2015-09-18" who="#nhg">checked, corrected</change>
             <change who="#if" when="2015-07-30">edited</change>
@@ -85,7 +83,7 @@
             <pb xml:id="leaf001r" facs="yal.00339.004_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">Indianapolis Ind.<ptr target="yal.00463_n1"/></name>
+                    <name type="place">Indianapolis Ind.</name>
                     <date when="1880-03-01">March 1, 1880.</date>
                 </dateline>
                 <salute>Mr. Walt Whitman</salute>

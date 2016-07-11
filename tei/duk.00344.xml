@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
 <persName xml:id="nhg">Nicole Gray</persName>
@@ -41,26 +42,14 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">100-102</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 16 August 1863</title>
                <date when="1863-08-16">August 16, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library
-</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <relatedItem type="text" xml:id="rel01" target="duk.00570"/>
+               <relatedItem type="document" target="wwa.00181"/>
+               <note type="project" target="#rel01">After she received this letter from George Washington Whitman, Louisa Van Velsor Whitman forwarded George's letter to Walt Whitman and included a note on the verso of the last page of George's letter.</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -75,6 +64,7 @@ Manuscript, and Special Collections Library
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-28">corrected orgName, added pbs, added choice tags</change>
          <change who="#nhg" when="2014-08-28">added sender and recipient</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -88,7 +78,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00344.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Camp near Covington Ky. Sunday eve.</name>
@@ -99,15 +89,15 @@ corrections</change>
          <p>Well here we are again back to old Kaintuck and glad enough we are to get back I can tell you.<ptr target="duk.00344_n100"/>
          </p>
             <p>Mother it is a long, long, while since I have had a letter from you, but I hope and trust that you and Mattie, the babies, and all the rest of you are in good health and spirits.</p>
-            <p>The last letter I received from Walt was written July 17th. Walt seems to be getting along very well and I have no doubt he is doing a great deal of good in the Hospitals at Washington.<ptr target="duk.00344_n2"/> He says you have not heard from Hannah lately,  Mother as soon as you hear from her dont fail to send me word how she is getting along, and I hope to hear that she is (at least) well enough to come home. I have been perfectly healthy all through the Vicksburg campaign although there has been considerable sickness in our regt, especially during the last two weeks of our stay at Milldale. We only lost three men by sickness, but the deaths in some of the new regts was frightfull. One wooman came on there from Michagan after the body of her son, which she said was the seventh she had lost during the war. Six had been killed in battle, and this one makeing the Seventh, had died of fever and was burried near our camp. I sent you a letter from Milldale, just after our chase after Johnson (did you get it)<ptr target="duk.00344_n3"/> and now, since we have got back to a civalized country, I will write you often.</p>
-            <p>We struck camp at Milldale Miss. August 6th and marched down to the Yazoo river, where we went on board the boat, and started down the Yazoo, to the Mississippi, and then turned up the Miss. towards Cairo, Illanois. We landed a short time at Hellena Ark, Memphis, Tenn. and reached Cairo, on the morning of Aug 12th where we took the cars for Cincinnatti, Ohio  arrived at Cincinnatti about 3 O clock P.M. Aug 14th  marched to the 5th St. Market house where the citazens had prepared a nice meal for us,  after getting our grub we crossed the river and encamped at this place. We will probaly leave here in the course of a few days, and go to some other part of the State. Some think we will be sent to Tennessee but I think the probabilities are that we will stay somewhere in Ky. for a while to recruit up a bit, as the regt is pretty well used up. We were paid this afternoon up to the 1st of July and tomorrow I shall send you by Express, at least 175 dollars. I see by the papers that Spinnolas command is in Virginia so I suppose Andrew did not go to Newbern,<ptr target="duk.00344_n4"/>  We had pretty hard fare while we were down in Miss. but now we are liveing first rate,  we get plenty of bread and good butter, Eggs, milk, peaches, Melons, tomatoes, and all that kind of thing. Mother as soon as you get this write and let me know just how you are all getting along.</p>
-            <p>Jeff. We have had full accounts of the procedings of the mob in New York, and its almost enough to make a fellow ashamed of being a Yorker,  the first accounts we saw were in the western papers, and I could hardly believe, that a thing of that kind would be alowed to get such headway in the City of New York,<ptr target="duk.00344_n5"/>  it strikes me that it would have been a good idea to have taken Fernando and Ben Wood<ptr target="duk.00344_n6"/> Gov Seymour<ptr target="duk.00344_n7"/> and a few more of the wire pullers and strung them up to one of the trees in the city Hall park. what a pity it is that 4 or 5 of the old regts, had not of been there to of straightened things up a bit,  as for myself I would have went into that fight with just as good a heart, as if they had belonged to the rebel army. I am only sory there wasent 10 times as many killed of the rioters as the was.  Jeff write to me directly. Mattie, how is it with you and how is the new baby<ptr target="duk.00344_n8"/> getting along. Hattie I suppose is flourishing the same as usual. write to me Matt when you get a chance.</p>
-            <p>Mother, you may expect to get 175 or 180 dollars nearly as soon as you receive this,  use what you want of it and put the rest in the bank. I shall write to Walt in the course of a day or two,  write soon  direct to Kentucky via Cincinnatti</p>
+         <p>The last letter I received from Walt was written July 17th. Walt seems to be getting along very well and I have no doubt he is doing a great deal of good in the Hospitals at Washington.<ptr target="duk.00344_n2"/> He says you have not heard from Hannah lately,  Mother as soon as you hear from her <choice><sic>dont</sic><corr>don't</corr></choice> fail to send me word how she is getting along, and I hope to hear that she is (at least) well enough to come home. I have been perfectly healthy all through the Vicksburg campaign although there has been considerable sickness in our regt, especially during the last two weeks of our stay at Milldale. We only lost three men by sickness, but the deaths in some of the new regts was <choice><sic>frightfull</sic><corr>frightful</corr></choice>. One woman came on there from <choice><sic>Michagan</sic><corr>Michigan</corr></choice> after the body of her son, which she said was the seventh she had lost during the war. Six had been killed in battle, and this one <choice><sic>makeing</sic><corr>making</corr></choice> the Seventh, had died of fever and was burried near our camp. I sent you a letter from Milldale, just after our chase after Johnson (did you get it)<ptr target="duk.00344_n3"/> and now, since we have got back to a <pb xml:id="leaf001v" facs="duk.00344.002_large.jpg" type="verso"/><choice><sic>civalized</sic><corr>civilized</corr></choice> country, I will write you often.</p>
+         <p>We struck camp at Milldale Miss. August 6th and marched down to the Yazoo river, where we went on board the boat, and started down the Yazoo, to the Mississippi, and then turned up the Miss. towards Cairo, <choice><sic>Illanois</sic><corr>Illinois</corr></choice>. We landed a short time at Hellena Ark, Memphis, Tenn. and reached Cairo, on the morning of Aug 12th where we took the cars for <choice><sic>Cincinnatti</sic><corr>Cincinnati</corr></choice>, Ohio  arrived at <choice><sic>Cincinnatti</sic><corr>Cincinnati</corr></choice> about 3 O clock P.M. Aug 14th  marched to the 5th St. Market house where the <choice><sic>citazens</sic><corr>citizens</corr></choice> had prepared a nice meal for us,  after getting our grub we crossed the river and encamped at this place. We will <choice><sic>probaly</sic><corr>probably</corr></choice> leave here in the course of a few days, and go to some other part of the State. Some think we will be sent to Tennessee but I think the probabilities are that we will stay somewhere in Ky. for a while to recruit up a bit, as the regt is pretty well used up. We were paid this afternoon up to the 1st of July and tomorrow I shall send you by Express, at least 175 dollars. I see by the papers that Spinnolas command is in Virginia so I suppose Andrew did not go to Newbern,<ptr target="duk.00344_n4"/>  We had pretty hard fare while we were down in Miss. but now we are <choice><sic>liveing</sic><corr>living</corr></choice> first rate,  we get plenty of bread and good butter, Eggs, milk, peaches, Melons, tomatoes, and all that kind of thing. Mother as soon as you get this write and let me know just how you are all getting along.</p>
+         <p>Jeff. We have had full accounts of the <choice><sic>procedings</sic><corr>proceedings</corr></choice> <pb xml:id="leaf002r" facs="duk.00344.003_large.jpg" type="recto"/>of the mob in New York, and its almost enough to make a fellow ashamed of being a Yorker,  the first accounts we saw were in the western papers, and I could hardly believe, that a thing of that kind would be <choice><sic>alowed</sic><corr>allowed</corr></choice> to get such headway in the City of New York,<ptr target="duk.00344_n5"/>  it strikes me that it would have been a good idea to have taken Fernando and Ben Wood<ptr target="duk.00344_n6"/> Gov Seymour<ptr target="duk.00344_n7"/> and a few more of the wire pullers and strung them up to one of the trees in the city Hall park. what a pity it is that 4 or 5 of the old regts, had not of been there to of straightened things up a bit,  as for myself I would have went into that fight with just as good a heart, as if they had belonged to the rebel army. I am only <choice><sic>sory</sic><corr>sorry</corr></choice> there <choice><sic>wasent</sic><corr>wasn't</corr></choice> 10 times as many killed of the rioters as the was.  Jeff write to me directly. Mattie, how is it with you and how is the new baby<ptr target="duk.00344_n8"/> getting along. Hattie I suppose is flourishing the same as usual. write to me Matt when you get a chance.</p>
+            <p>Mother, you may expect to get 175 or 180 dollars nearly as soon as you receive this,  use what you want of it and put the rest in the bank. I shall write to Walt in the course of a day or two,  write soon  direct to Kentucky via <choice><sic>Cincinnatti</sic><corr>Cincinnati</corr></choice></p>
             <closer rend="center">
                <salute>Good Bye all,</salute>
                <signed>G. W. Whitman</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="duk.00344.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

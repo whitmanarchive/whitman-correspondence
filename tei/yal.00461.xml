@@ -51,9 +51,10 @@
                     <title>M. C.[?] Wheeler to Walt Whitman, 20 March 1880</title>
                     <date cert="high" when="1880-03-20" xml:id="dat1">March 20, 1880</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
-                    <relatedItem>
-                        <ref target="yal.00339 yal.00462 yal.00463"/>
-                    </relatedItem>
+                    <relatedItem type="text" xml:id="rel01" target="yal.00339"/>
+                    <relatedItem type="text" xml:id="rel02" target="yal.00462"/>
+                    <relatedItem type="document" target="wwa.00193"/>
+                    <note type="project" target="#rel01 #rel02 #rel03">Whitman crossed this letter out, cut it into pieces, and pasted part of it back together with other scraps of paper, including other letter fragments. On the back he drafted part of one of his lectures on the death of Abraham Lincoln.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -68,6 +69,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-07-07">adjusted relatedItem encoding</change>
             <change who="#nhg" when="2015-10-29">corrected</change>
             <change who="#nhg" when="2015-09-18">checked, corrected</change>
             <change who="#ak" when="2015-03-30">transcribed, encoded</change>
@@ -79,7 +81,7 @@
             <pb xml:id="leaf001r" facs="yal.00339.002b_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><gap reason="cut away"/><handShift rend="printed"/>ss.<ptr target="yal.00461_n1"/></name>
+                    <name type="place"><gap reason="cut away"/><handShift rend="printed"/>ss.</name>
                     <date when="1880-03-20"><handShift rend="manuscript"/>March 20 <handShift rend="printed"/>188<handShift rend="manuscript"/>0</date>
                 </dateline>
                 <salute><gap reason="cut away"/>ar Mr Whitman</salute>

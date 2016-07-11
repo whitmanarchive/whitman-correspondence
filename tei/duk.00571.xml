@@ -17,6 +17,7 @@
                     <persName xml:id="fw">Felicia Wetzig</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -54,10 +55,9 @@
                     <title>Louisa Van Velsor Whitman to Walt Whitman, [21 October 1863]</title>
                     <date cert="high" when="1863-10-21" xml:id="dat1">October 21, 1863</date>
                     <orgName xml:id="duk">The Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
-                    <relatedItem>
-                        <ptr target="duk.00347"/>
-                    </relatedItem>
-                    <note type="project">Louisa wrote this letter on a letter she received from George Washington Whitman. She forwarded George's letter to Walt Whitman and included this note on the verso of the last page of George's letter.</note>
+                    <relatedItem type="text" xml:id="rel01" target="duk.00347"/>
+                    <relatedItem type="document" target="wwa.00182"/>
+                    <note type="project" target="#rel01">Louisa wrote this letter on a letter she received from George Washington Whitman. She forwarded George's letter to Walt Whitman and included this note on the verso of the last page of George's letter.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>

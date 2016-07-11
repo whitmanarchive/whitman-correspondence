@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00568">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William D. O'Connor to Walt Whitman, 23 May 1883</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William D. O'Connor</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00568</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William D. O'Connor</author>
+                    <title>William D. O'Connor to Walt Whitman, 23 May 1883</title>
+                    <date cert="high" when="1883-05-23" xml:id="dat1">May 23, 1883</date>
+                    <idno type="callno"></idno>
+                    <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="O'Connor, William D." ref="n2002">William D. O'Connor</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-11" who="#nhg">corrected</change>
+            <change when="2015-10-14" who="#nhg">checked, corrected</change>
+            <change when="2015-10-14" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="nyp_nhg.00002_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place" rend="right">Washington, D.C.</name>
+                    <date when="1883-05-23" rend="right">May 23, 1883.</date>
+                </dateline>
+                <salute>Dear Walt:</salute>
+            </opener>
+            <p>A couple of hours ago I got the copy of Dr. Bucke's book. I judge by a cursory and interrupted looking through, that it is tip-top.</p>            
+            <p>I hope it is to be <hi rend="underline">bound</hi>, for I don't like paper covers. I noticed three typographical errors, which           
+            <pb xml:id="leaf001v" facs="nyp_nhg.00003_large.jpg" type="verso"/>            
+            ought to be corrected. One on page 41, line 4, "brilliant monogram" for "monograph." Another on page 74 (very bad) where my sturdy "I vaunt it and I stand by it," is spoiled by being rendered "I vaunt it and I <hi rend="underline">stand by</hi>." On page 145, there is "Thayer, Eldridge" instead of "Thayer &#38; Eldridge."</p>
+            <p>Success to the book!</p>
+            <pb xml:id="leaf002r" facs="nyp_nhg.00004_large.jpg" type="recto"/>
+            <p>I will write to you later. I am much stricken. . . Since Jeannie's death, I have been very ill, and I am still ill and very feeble and broken down.</p>
+            <closer>
+                <salute>Goodbye,</salute>
+                <salute>Always affectionately</salute>
+                <signed rend="right">W.D.O'C</signed>
+                <address><addrLine>Walt Whitman</addrLine></address>
+            </closer>
+            <pb xml:id="leaf002v" facs="nyp_nhg.00005_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

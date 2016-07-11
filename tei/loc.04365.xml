@@ -17,6 +17,7 @@
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -52,10 +53,13 @@
 
                 <bibl>
                     <author>A. Williams</author>
-                    <title>A Williams to Walt Whitman, 2 December 1880</title>
+                    <title>A. Williams to Walt Whitman, 2 December 1880</title>
                     <date cert="high" when="1880-12-02" xml:id="dat1">December 2, 1880</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.00062"/>
+                    <relatedItem type="document" target="wwa.00045"/>
+                    <note type="project" target="#rel01">This letter from A. Williams has been crossed out. On the back of it Whitman drafted a poem titled "A Clear Midnight" and labeled it "end of "From Noon to Starry Night" cluster." </note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -70,6 +74,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-06-30" who="#nhg">updated relatedItem encoding</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-04-09" who="#nhg">checked, corrected</change>
             <change when="2014-03-26" who="#ej">Checked and Corrected</change>
@@ -83,7 +88,7 @@
             <pb xml:id="leaf001r" facs="loc.00062.002.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place" rend="right"><handShift rend="printed"/>Boston,<ptr target="loc.04365_n1"/></name>
+                    <name type="place" rend="right"><handShift rend="printed"/>Boston,<!--<ptr target="loc.04365_n1"/>--></name>
                     <date when="1880-12-02" rend="right"><handShift rend="manuscript"/>Dec 2<hi rend="superscript">d</hi> <handShift rend="printed"/>1880.</date>
                 </dateline>
                 <salute><handShift rend="manuscript"/>Mr Walt Whitman</salute>

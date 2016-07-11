@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00418">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William D. O'Connor, [4 January
+                    1886]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="gt">Grace Thomas</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00418</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William D. O'Connor, [4 January 1886]</title>
+                    <date cert="medium" when="1886-01-04" xml:id="dat1">January 4, 1886</date>
+                    <idno type="callno">Series III - 3 p.Bliss Perry, Howe.Manuscript box.</idno>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
+                        American Literature, New York Public Library</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="nyp.00548"/>
+                    <relatedItem type="document" target="wwa.00180"/>
+                    <note type="project" target="#rel01">This letter from Whitman to O'Connor was written on the last page of a letter from William Sloane Kennedy to Whitman, which Whitman sent to O'Connor as an enclosure.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="O'Connor, William D." ref="n2002">William D. O'Connor</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-07" who="#nhg">added images</change>
+            <change when="2015-09-25" who="#nhg">updated transcription, added enclosure</change>
+            <change when="2015-02-23" who="#nhg">checked, corrected</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-04-14" who="#nnk">proofed</change>
+            <change when="2012-11-15" who="#gt">Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">  
+        <body>
+            <div1 type="letter">
+                <pb xml:id="leaf002v" facs="nyp_nhg.00090.jpg" type="verso"/>
+                <note type="editorial" resp="#unk" place="top">"Answered Jan. 21, 1886"</note>
+            <note type="editorial" resp="#unk" place="top">(44</note>
+            <opener>
+                <dateline>
+                    <name type="place" rend="right">Camden<ptr target="nyp.00418_n1"/></name>
+                    <date when="1886-01-04">Monday p m<ptr target="nyp.00418_n2"/></date>
+                </dateline>
+                <salute/>
+            </opener> 
+
+            <p>All <choice>
+                    <abbr>ab't</abbr>
+                    <expan>about</expan>
+                </choice> the same with me&#8212;I took dinner with the Scovel family Sunday
+                &amp; a ride with my old nag &amp; rig in the afternoon<ptr target="nyp.00418_n3"
+                />&#8212;So you see I have not utterly <choice>
+                    <sic>stopt</sic>
+                    <corr>stopped</corr>
+                </choice>
+                <hi rend="underline">moving</hi>&#8212;but I feel exceeding heavy &amp; lethargic &amp;
+                stir only with great effort.</p>
+
+            <p>&#8212;I send you Kennedy's<ptr target="n3039"/> note <choice>
+                <abbr>rec'd</abbr>
+                <expan>received</expan>
+            </choice> to-day&#8212;Have you seen his pamphlet-essay on
+                    poetry?<ptr target="nyp.00418_n4"/>&#8212;A dark persistently rainy warm day
+                here.</p>
+
+            <closer>
+                <signed rend="right">W W</signed>
+            </closer></div1>
+            <div1 type="enclosure">
+                <pb xml:id="leaf001r" facs="nyp_nhg.00087.jpg" type="recto"/>
+                <opener>
+                    <salute>My Dear Friend:</salute>
+                </opener>
+                <p>I get a few good letters on my little essay on the poets. Burroughs<ptr target="n0129"/> thinks the old poetical forms all sound &amp; good &amp; likely to last. So does Stedman.<ptr target="n1043"/> he says he is "a universalist in art."&#8212;which I do not like. We are not to be universalists in painting &amp; sculpture are we (I guess not) &amp; revive the idiotic sculptures of India, Aegypt &amp; Palenque, or the old wood paintings of the Pre-Giottesque painters? Things grow obsolete&#8212;worn out. Yet Stedman welcomes heartily, he says, the idea of a new &amp; grander style in poetry. But I'm sure 
+                    <pb xml:id="leaf001v" facs="nyp_nhg.00088.jpg" type="verso"/>
+                I don't know why I dwell on him: A lady had his volume here in the house yesterday, &amp; I re-read part of what he says on you. It seems to me not only insulting but terribly small &amp; boomerangish in its tendency, self-condemning, utterly inadequate, not touching the real heart of the matter at all&#8212;a dwarf walking round a giant, a pigmy measuring a god. </p>
+                <p>Knortz<ptr target="uva.00476_n1"/> sent 2 of the pamphlets to Germany. Bucke<ptr target="n0119"/> took 10. 
+                    <pb xml:id="leaf002r" facs="nyp_nhg.00089.jpg" type="recto"/>
+                    I have been <choice><orig>advertizing</orig><reg>advertising</reg></choice> it&#8212;(ever since it was out&#8212;) in <hi rend="underline">Critic</hi> &amp; <hi rend="underline">Index</hi>, &amp; one is to appear in the <hi rend="underline">Lit. World</hi>.</p>
+                <p>I hope you are not feeling badly this rather unhealthy weather. I receive &amp; read with gratitude all the clippings you send me. Am hard at work on a Ruskin anthology for Pirate Alden, &amp; feel rather knavish over the job. 
+                </p>
+                <closer>
+                    <salute><choice><abbr>Aff.</abbr><expan>Affectionately</expan></choice></salute>
+                    <signed rend="center">W. S. Kennedy</signed>
+                </closer>
+            </div1>
+        </body>
+    </text>
+</TEI>

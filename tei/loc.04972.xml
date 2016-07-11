@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04972">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Marie R. Brickenstein, Sallie Potter, and E. L. Schessler to Walt Whitman, 28 February 1881</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Marie R. Brickenstein</author>
+                <author>Sallie Potter</author>
+                <author>E. L. Schessler</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="sd">Sara Duke</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04972</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Marie R. Brickenstein</author>
+                    <author>Sallie Potter</author>
+                    <author>E. L. Schessler</author>
+                    <title>Marie R. Brickenstein, Sallie Potter, and E. L. Schessler to Walt Whitman, 28 February 1881</title>
+                    <date cert="high" when="1881-02-28" xml:id="dat1">February 28, 1881</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.07094"/>
+                    <relatedItem type="document" target="wwa.00178"/>
+                    <note type="project" target="#rel01">This letter has been crossed out, cut into pieces, and pasted back together. On the back Whitman wrote a draft of what would become part of <hi rend="italic">Specimen Days</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Brickenstein, Marie R." ref="n5000b">Marie R. Brickenstein</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-07" who="#nhg">checked, corrected</change>
+            <change when="2016-06-16" who="#if">edited</change>
+            <change when="2015-09-28" who="#sd"> transcription and encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_es.00062.jpg" type="recto"/>
+            <note type="editorial" resp="#unk" place="top">p 145 | mountain streams | S.D.</note>
+            <opener>
+                <dateline>
+                    <name type="place" rend="right">Linden Hall,</name>
+                    <date when="1881-02-28" rend="right">Feb. 28, '81.</date>
+                </dateline>
+            </opener>
+      
+            <p>Having read some 
+                of your poems &amp; enjoyed them 
+                very much we think our autograph 
+                collection is not complete
+               without yours, hoping that 
+                you will favor us with three 
+                we remain,
+            </p>
+    
+            <closer>
+                <salute>Yours truly,</salute>
+                <signed rend="right">Marie R. Brickenstein,</signed>
+                    <signed rend="right">Sallie Potter,</signed>
+                   <signed rend="right">E. L. Schessler.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_es.00061.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

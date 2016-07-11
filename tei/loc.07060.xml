@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07060">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Henry Braid Wilson to Walt Whitman, 13 August 1879</title>
+                <author>Henry Braid Wilson</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07060</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Henry Braid Wilson</author>
+                    <title>Henry Braid Wilson to Walt Whitman, 13 August 1879</title>
+                    <date cert="high" when="1879-08-13" xml:id="dat1">August 13, 1879</date>
+                    <idno type="callno">MSS45443, Box 2</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="rel01" target="wwa.00124"/>
+                    <relatedItem type="text" target="loc.04282"/>
+                    <note type="project" target="#rel01">Whitman repurposed this letter, writing notes on the back that probably contributed to the cluster title "From Noon to Starry Night" in the 1881 edition of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Wilson, Henry Braid" ref="n1066">Henry Braid Wilson</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-06" who="#nhg">checked, corrected</change>
+            <change when="2016-07-05" who="#es">added annotation for H. B. Wilson</change>
+            <change when="2016-06-27" who="#es">updated sourceDesc with relatedItem information</change>
+            <change when="2015-10-14" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_js.00227_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place" rend="center"><handShift rend="printed"/>Post Office, Camden, N. J.</name>
+                    <date when="1879-08-13" rend="right"></date><handShift rend="manuscript"/>Aug 13th <handShift rend="printed"/>187<handShift rend="manuscript"/>9<date/>
+                </dateline>
+                <salute><handShift rend="printed"/>Respectfully</salute>
+            </opener>
+            <p><handShift rend="manuscript"/>Please examine <choice><orig>correspondance</orig><reg>correspondence</reg></choice> and return to this office</p>
+            <closer>
+                <signed rend="right">H.B Wilson P.M.</signed>
+                <signed><unclear reason="illegible" resp="#es" cert="medium">for Abels</unclear></signed>
+                <salute><handShift rend="printed"/>Very respectfully</salute>
+                <address><name><handShift rend="printed"/>To <handShift rend="manuscript"/>Walt Whitman <choice><abbr>Esq</abbr><expan>Esquire</expan></choice></name></address>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_js.00226_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

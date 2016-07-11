@@ -52,11 +52,16 @@
                     <title>Whitelaw Reid to Walt Whitman, 17 July [1878]</title>
                     <date cert="medium" when="1878-07-17" xml:id="dat1">July 17, 1878</date>
                     <orgName xml:id="wwh">Walt Whitman House, Camden, N.J.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="wwh.00001"/>
+                    <relatedItem type="text" xml:id="rel02" target="wwh.00026"/>
+                    <relatedItem type="text" xml:id="rel03" target="wwh.00027"/>
+                    <relatedItem type="document" target="wwa.00096"/>
+                    <note type="project" target="#rel01 #rel02 #rel03">Whitman cut this letter into pieces, pasted it together with several other letters, and used it as the foundation for a draft of "You tides with ceaseless swell," written on the back.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <particDesc>
+            <particDesc>  
                 <person role="sender">
                     <persName key="Reid, Whitelaw" ref="n0500">Whitelaw Reid</persName>
                 </person>
@@ -66,6 +71,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-07-07">adjusted relatedItem info</change>
+            <change who="#nhg" when="2016-02-17">added relatedItem info</change>
             <change who="#nhg" when="2015-08-12">corrected</change>
             <change who="#kp" when="2015-03-23">blessed</change>
             <change who="#nhg" when="2015-03-16">checked, corrected</change>
@@ -76,8 +83,8 @@
         <body>
             <pb xml:id="leaf001r" facs="wwh.00001.002.jpg" type="recto"/>
             <!-- This page consists of four different documents pasted together, none relating to the other -->
-            <opener>
-                <name type="place"><gap reason="cut away"/> <handShift rend="printed"/>Tribune</name><ptr target="wwh.00025_n1"/>
+            <opener> 
+                <name type="place"><gap reason="cut away"/> <handShift rend="printed"/>Tribune</name><!--<ptr target="wwh.00025_n1"/>-->
                 <dateline>
                     <name type="place">New York,</name>
                     <date when="1878-06-17"><handShift rend="manuscript"/>July 17, 1<gap reason="cut away"/></date>

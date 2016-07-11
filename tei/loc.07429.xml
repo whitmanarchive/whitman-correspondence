@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07429">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Edward D. Bellows to Walt Whitman, [15 November 1877?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Edward D. Bellows</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07429</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Edward D. Bellows</author>
+                    <title>Edward D. Bellows to Walt Whitman, [15 November 1877?]</title>
+                    <date cert="medium" when="1877-11-15" xml:id="dat1">November 15, 1877</date>
+                    <idno type="callno">MSS45443, Box 37</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="rel01" target="wwa.00116"/>
+                    <relatedItem type="text" target="loc.01555"/>
+                    <note type="project" target="#rel01">This partial letter, the top of which is cut away, has been repurposed. Whitman wrote a series of notes about secession on the back.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bellows, Edward D." ref="n5000">Edward D. Bellows</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#nhg" when="2016-07-06">checked, corrected</change>
+            <change when="2016-07-05" who="#es">added annotation for Bellows.</change>
+            <change when="2016-06-27" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="20060316_0023.jpg" type="recto"/>
+            <opener><gap reason="cut away"/>
+                <salute>Dear Sir<ptr target="loc.07429_n1"/></salute>
+            </opener>
+            
+            <p>Your circular received this evening, enclosed find P.O. money order for Eleven (11&#8212;) Dollars, for which please send me 1 copy your Complete Works in two <choice><orig>vols</orig><reg>volumes</reg></choice> bound in half leather, and also 1 copy Burroughs Notes on W. W.</p>
+            <p>Send them by <hi rend="underline">express</hi>, well packed so as to prevent injury on the way.</p>
+            <p>Have you any copies of a pamphlet entitled The Good Gray Poet, written by one, O'Connor, I think? if you have please state the price and oblige</p>
+            <closer>
+                <salute>Yours Truly</salute>
+                <signed rend="right">Edward D. Bellows</signed>
+            <address>
+                <addrLine>356 5th St, Between Monmouth &#38; Brunswick Sts.</addrLine>
+                <addrLine>Jersey City N.J.</addrLine>
+            </address>
+            </closer>
+            <pb xml:id="leaf001v" facs="20060316_0021.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

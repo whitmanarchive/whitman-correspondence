@@ -55,6 +55,9 @@
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="rel01" target="wwa.00175"/>
+                    <relatedItem type="text" target="loc.03964"/>
+                    <note type="project" target="#rel01">On the back of this letter is a letter from W. A. B. James to Walt Whitman.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -64,11 +67,12 @@
                     <persName key="Stafford, Harry">Harry Stafford</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                    <persName key="Whitman, Walt" ref="n0590">Walt Whitman</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-06-07">updated relatedItem encoding</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-05-15" who="#nhg">checked, corrected</change>
             <change when="2014-04-30" who="#ss">transcribed, encoded, annotated</change>
@@ -81,7 +85,7 @@
             <opener>
                 <salute>Dear Friend<ptr target="loc.03964_n1"/>&#8212;</salute>
             </opener>
-            <p>You know how I left you at the station to-day.<ptr target="n0590"/> I have thought of it and cannot get it off my mind, so I have come up to ask your forgiveness. I know how I have served you on many occasions before. I know that it is my <choice><sic>falt</sic><corr>fault</corr></choice> and not yours. Can you forgive me and take me back and love me the same I will try by the grace of God to do better. I cannot give you up, and it makes me feel so bad to think how we have spent the last day or two; and all for my temper. I will have to <hi rend= "underline"><choice><orig>controol</orig><reg>control</reg></choice></hi> it or it will send me to the states prison or some other bad place. <choice><orig>Cant</orig><reg>Can't</reg></choice> you take me back and love me the same.</p>
+            <p>You know how I left you at the station to-day. I have thought of it and cannot get it off my mind, so I have come up to ask your forgiveness. I know how I have served you on many occasions before. I know that it is my <choice><sic>falt</sic><corr>fault</corr></choice> and not yours. Can you forgive me and take me back and love me the same I will try by the grace of God to do better. I cannot give you up, and it makes me feel so bad to think how we have spent the last day or two; and all for my temper. I will have to <hi rend= "underline"><choice><orig>controol</orig><reg>control</reg></choice></hi> it or it will send me to the states prison or some other bad place. <choice><orig>Cant</orig><reg>Can't</reg></choice> you take me back and love me the same.</p>
             <closer>
                 <salute>Your <choice><orig>lovin</orig><reg>loving</reg></choice> but bad tempered</salute>
                 <signed>Harry.</signed>

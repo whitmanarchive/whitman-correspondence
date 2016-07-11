@@ -17,6 +17,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -58,10 +59,9 @@
                     <title>Louisa Van Velsor Whitman to Walt Whitman, [16 May 1873]</title>
                     <date cert="medium" notBefore="1873-05-09" notAfter="1873-05-16" xml:id="dat1">May 16, 1873</date>
                     <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
-                    <relatedItem>
-                        <!--<ptr target="tex.00430"/>-->
-                    </relatedItem>
-                    <note type="project">This letter from Louisa Van Velsor Whitman is written on the same sheet of paper as a letter from Louisa Orr Haslam Whitman to Walt from the same date.</note>
+                    <relatedItem type="text" xml:id="rel01" target="tex.00430"/>
+                    <relatedItem type="document" target="wwa.00191"/>
+                    <note type="project" target="#rel01">This letter from Louisa Van Velsor Whitman is written on the same sheet of paper as a letter from Louisa Orr Haslam Whitman to Walt from the same date.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -82,6 +82,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2016-07-07">adjusted relatedItem encoding</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-07" who="#el">updated project note about missing image of verso of leaf</change>
             <change when="2013-11-05" who="#el">final check</change>
