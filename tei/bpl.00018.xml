@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="bpl.00018">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Sylvester Baxter, 21 July 1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                   
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>bpl.00018</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Sylvester Baxter, 21 July 1887</title>
+                    <date cert="medium" when="1887-07-21" xml:id="dat1">July 21, 1887</date>
+                    <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public
+                        Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Baxter, Sylvester" ref="n6000">Sylvester Baxter</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-02-02" who="#smb">checked, corrected</change>
+            <change when="2016-01-16" who="#cb">checked</change>
+            <change when="2015-10-03" who="#ss">checked, corrected</change>
+            <change when="2015-10-01" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="bpl.00018.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1887-07-21">P M July 21 '87</date> 
+                </dateline>
+            </opener>
+            <p>Yours has come with the &#36;130&#8212;making 503 with the previous instalment sent by
+                you&#8212;Loving thanks dear friend to you &#38; all&#8212;I shall proceed
+                immediately (from what you say) to practically suit myself &#38; invest to the
+                extent you speak of.</p>
+            <p>We have had a very hot (&#38; lengthened) spell of weather&#8212;sapp'd me
+                badly&#8212;but I have got along with it &#38; am quite comfortable this
+                afternoon&#8212;It is a cloudy rainy day, here&#8212;very welcome&#8212;</p>
+            <p>I spend the time very idly&#8212;sit here by the open window in great ratan
+                arm-chair, with a big palm leaf fan &#38; do nothing&#8212;sleep, eat and digest
+                middling well&#8212;pretty good spirits&#8212;am alone most of the
+                time&#8212;bodily-getting-around-power almost entirely gone&#8212;What have you to
+                say ab't the W W "society" project?<ptr target="bpl.00018_n1"/> &#38; ab't Ch:
+                    Hartman<ptr target="n4980"/>?</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001rv" facs="bpl.00018.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

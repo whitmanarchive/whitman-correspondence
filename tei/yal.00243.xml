@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00243">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to the editors of the <hi rend="italic"
+                        >New Orleans Picayune</hi>, 17 January 1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00243</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to the editors of the <hi rend="italic">New Orleans Picayune</hi>, 17
+                        January 1887</title>
+                    <date cert="high" when="1887-01-17" xml:id="dat1">January 17, 1887</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book
+                        and Manuscript Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Editors of the New Orleans Picayune" ref="n5000">Editors of the <hi rend="italic"
+                            >New Orleans Picayune</hi></persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-09-03" who="#smb">final check, corrected</change>
+            <change when="2015-09-01" who="#km">checked</change>
+            <change when="2015-07-01" who="#if">edited</change>
+            <change when="2015-05-24" who="#ss">annotated</change>
+            <change when="2014-11-11" who="#ss">encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            
+            <pb xml:id="leaf001r" facs="yal.00243.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden<ptr target="yal.00243_n1"/></name>
+                    <date when="1887-01-17" rend="right">Jan. 17 '87&#8212; P M</date>
+                </dateline>
+            </opener>
+            <p>The "Press" newspaper of Philadelphia has just sent over to say to me that they would
+                like to have the article "New Orleans in 1848"<ptr target="yal.00243_n2"/> (MS. sent
+                on by me) to print it in their columns&#8212;with your permission&#8212;Jan. 25,
+                giving you due credit, &#38; saying it appears in <hi rend="underline">your</hi>
+                columns that day&#8212;So if agreeable <hi rend="underline">send them an early proof</hi>, for that purpose&#8212;address "R W Kerswell,
+                "Press" newspaper Philadelphia"&#8212;(I have just promised Mr K to write the
+                foregoing)&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="yal.00243.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="yal.00243.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="yal.00243.004_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

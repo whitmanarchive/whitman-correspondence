@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01364">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Mary Whitall Smith Costelloe, 13 June
+                    [1887]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01364</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive March be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Mary Whitall Smith Costelloe, 13 June [1887]</title>
+                    <date cert="medium" when="1887-06-13" xml:id="dat1">June 13, 1887</date>
+                    <idno type="callno">MSS18630, Box 8, Reel 5</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Costelloe, Mary Whitall Smith" ref="loc.02189_n1">Mary Whitall
+                        Smith Costelloe</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-05-31" who="#smb">final check, corrected</change>
+            <change when="2016-05-24" who="#if">edited</change>
+            <change when="2015-08-28" who="#ss">encoded, partially annotated</change>
+        </revisionDesc>
+    </teiHeader>  
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01364.003_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1887-06-13" rend="right">Monday June 13</date>
+                    <date when="1887-06-13" rend="right">5&#189; P M<ptr target="loc.01364_n1"/> </date>
+                </dateline>
+                <salute>Dear Mary Costelloe</salute> 
+            </opener>
+            <p>I will write you a few lines without any thing to say, but because the spirit moves
+                me &#38; every thing is so beautiful &#38; peaceful in the nearly declined but
+                dazzling sun&#8212;The little children are playing out on the walks, a mocking-bird
+                is singing over the way, &#38; a young just-bursting magnolia blossom, (sent me an
+                hour ago by the grocery woman at the corner) fills the room
+                with its spicy fragrance, from its glass of water on the window-sill&#8212;I have
+                been somewhat under a cloud physically the last week, but feel better to
+                day&#8212;&#38; the best of it is a sort of consciousness (if it don't deceive me)
+                of being better for good&#8212;at any rate for the time, wh.<expan>ich</expan> is as much as could be
+                asked for&#8212;</p>
+		<p>I have written &#38; sent a poem to <hi rend= "underline">Lippincotts</hi>&#8212;wh. has been accepted, &#38; I have got the money for it, 
+		(&#38; great good it does me, coming now)&#8212;Herbert Gilchrist<ptr target="n0262"/> is here&#8212;he is drawing &#38; painting my portrait to-day&#8212;Sidney Morse<ptr target="n0862"/> has modelled a 
+large (colossal I suppose) head of me&#8212;I think perhaps the best thing yet&#8212;Love to your father, yourself &#38; Alys,<ptr target="loc.05908_n1"/> the baby dear, &#38; all&#8212;as I end, after my supper, 
+(mostly strawberries) I see glimpses of a fine sunset in the west &#38; the boys out in Mickle Street are playing base ball&#8212;</p>
+
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+
+            <pb xml:id="leaf001v" facs="loc.01364.004_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.01364.001_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.01364.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

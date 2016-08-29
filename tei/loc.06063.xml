@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.06063">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Charles W. Eldridge to Walt Whitman, 11 February
+                    1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles Eldridge</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                </respStmt>
+                <sponsor> Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder> National Historical Publications and Records Commission </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.06063</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p> Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive March be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Clara Barrus</editor>
+                        <title xml:id="cb">Whitman and Burroughs&#8212;Comrades</title>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>Houghton Mifflin Company</publisher>
+                            <date when="1931">1931</date>
+                            <biblScope type="page">262&#8211;263</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Charles W. Eldridge</author>
+                    <title>Charles W. Eldridge to Walt Whitman, 11 February 1887</title>
+                    <date cert="medium" when="1887-03-02" xml:id="dat1">February 11, 1887</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Eldridge, Charles W." ref="n0210">Charles W. Eldridge</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-06-27" who="#smb">final check, corrected</change>
+            <change when="2016-06-15" who="#if">edited</change>
+            <change when="2016-04-27" who="#ss">checked and corrected</change>
+            <change when="2016-04-25" who="#smb">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Pasadena, California</name>
+                    <date when="1887-02-11">February 11, 1887</date>
+                </dateline>
+                <salute>Dear Walt,</salute>
+            </opener>
+            <p> William<ptr target="n2002"/> and I are here at Dr. Channing's<ptr
+                    target="loc.00945_n5"/> home. I brought William out here from Washington in the
+                hope that the climate might arrest the progress of his disease. It was a serious
+                undertaking to bring so sick a man three thousand miles on a railroad train, and he
+                was much exhausted when he arrived. He has hardly recovered from the effect of the
+                journey as yet. In fact, he is worse that he has ever been. Can walk very little
+                without the assistance of a friendly arm. If any improvement is to be achieved, it
+                must come hereafter.</p>
+            <p> This is a garden of fruit and flowers. . . .</p>
+
+            <p>William and I received here (forwarded from Washington) letters from Mr.
+                    Lovering,<ptr target="n4250"/> M.C., relative to your hospital services. William
+                was unable to answer, much to his regret, but I did the best I could on my own
+                account. Hope for a favorable result. . . . </p>
+            <p> He [O'Connor] has received an indefinite leave of absence from the Treasury
+                Department with pay. He says he will write you as soon as he can. He sends much
+                love, and so do I. Sorry to hear from the newspapers that your health is so feeble.
+                Wish you could come out here and get strong. </p>
+            <closer>
+                <salute>As ever, faithfully yours</salute>
+                <signed>Charles W. Eldridge</signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>

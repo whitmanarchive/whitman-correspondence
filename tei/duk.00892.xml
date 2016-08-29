@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00892">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William Sloane Kennedy, 29 November
+                    [1887]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00892</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Clarence Gohdes</editor>
+                        <editor>Rollo G. Silver</editor>
+                        <title xml:id="gos">Faint Clews &#38; Indirections</title>
+                        <imprint>
+                            <pubPlace>Durham</pubPlace>
+                            <publisher>Duke University Press</publisher>
+                            <date when="1949">1949</date>
+                            <biblScope type="page">118</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Sloane Kennedy, 29 November [1887]</title>
+                    <date cert="medium" when="1887-11-29" xml:id="dat1">November 29, 1887</date>
+                    <orgName xml:id="duk">The Trent Collection of Whitmaniana, Duke University Rare
+                        Book, Manuscript, and Special Collections Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane
+                        Kennedy</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-21" who="#smb">final check, corrected</change>
+            <change when="2016-06-24" who="#if">edited</change>
+            <change when="2016-03-24" who="#ss">Transcribed and Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1887-11-29">Nov. 29 [1887] latter p m</date>
+                </dateline>
+            </opener>
+            <p>As I write I am sitting in my big chair&#8212;<hi rend="italic">cold</hi> to-day
+                here&#8212;sunny however&#8212;Morse<ptr target="n0862"/> is here working on a life
+                size Emerson<ptr target="loc.03157_n3"/>&#8212;(somewhat of a demand for them)&#8212;Your last letter good
+                reading for him (&#38; me too)&#8212;don't <hi rend="italic">push</hi> the getting
+                of the head<ptr target="duk.00892_n1"/> into any Boston gallery ("wait for the wagon")&#8212;it must depend on
+                its <hi rend="italic">artistic</hi> merits&#8212;as a piece of modeling
+                &#38;c&#8212;Nothing new with me&#8212;No E Rhys<ptr target="loc.03310_n1"/>
+                yet&#8212;&#8212;I have heard from O Connor<ptr target="n2002"
+                />&#8212;tolerable&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00085">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Herbert Gilchrist, 7 April 1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt> 
+            <publicationStmt>
+                <idno>upa.00085</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Herbert Gilchrist, 7 April 1887</title>
+                    <date cert="high" when="1887-04-07" xml:id="dat1">April 7, 1887</date>
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                        Manuscript Library, University of Pennsylvania</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Gilchrist, Herbert" ref="n0262">Herbert Gilchrist</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-03-21" who="#smb">checked, corrected</change>
+            <change when="2015-10-28" who="#km">checked</change>
+            <change when="2015-09-17" who="#ss">checked and corrected</change>
+            <change when="2015-09-12" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>  
+ 
+    <text type="letter">  
+        <body> 
+            <pb xml:id="leaf001r" facs="upa.00085.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden&#8212;America</name>
+                    <date when="1887-04-07">&#8212;April 7 '87</date>
+                </dateline>
+                <salute>Dear Herbert Gilchrist</salute>
+            </opener>
+            <p><hi rend="underline">The book</hi> came two days ago, &#38; I have been looking over
+                all of it, &#38; reading a great part minutely&#8212;Surely it has been done well,
+                &#38; is a beautiful &#38; (in one sense) sufficient memorial of the noblest mother
+                &#38; woman. It appeals to my printer-sense too&#8212;is a handsome &#38; generous
+                piece of typography &#38; mechanical book making, with its excellent paper &#38;
+                press work&#8212;Thank you indeed dear H. for sending me an early copy<ptr
+                    target="upa.00085_n1"/>&#8212;George and Susan Stafford<ptr target="n0852d"/> are
+                still at Glendale&#8212;Debby and Jo<ptr target="upa.00085_n4"/> have gone to
+                Kansas&#8212;I was there last Sunday afternoon&#8212;they are well as
+                usual&#8212;Harry has had a surgical operation on his throat. He now comes up from
+                Marlton, (or Glendale) every day, to have the doctor watch &#38; dress it&#8212;is a
+                little reduced in flesh &#38; blood, but is getting along well&#8212;Ed and Van and George are
+                    well&#8212;Mont<ptr target="upa.00085_n5"/> is married<ptr target="upa.00085_n2"
+                />&#8212;(I went down Sunday to G to take him Harry home, at his request)&#8212;I am
+                still here in my shanty in Mickle street&#8212;probably <hi rend="underline">let
+                    down a peg or two</hi> from when I saw you last, but not much
+                different&#8212;mentally the same&#8212;physically a sad wreck&#8212;I am reciting my
+                "Death of Abraham Lincoln" lecture<ptr target="med.00796_n2"/> when I get a call&#8212;(as this is the
+                season)&#8212;go on to New York for that purpose April 14, if I can get
+                there&#8212;had a good visit from Chas Rowley<ptr target="upa.00085_n3"/> of
+                Manchester yesterday&#8212;I am well as usual&#8212;Love to you&#8212;Spring is
+                tardy here&#8212;My canary is singing blithely as I write&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="upa.00085.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04351">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Judah B. Voorhees to Walt Whitman, 2 March 1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Judah B. Voorhees</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04351</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Judah B. Voorhees</author>
+                    <title>Judah B. Voorhees to Walt Whitman, 2 March 1888</title>
+                    <date cert="high" when="1888-03-02" xml:id="dat1">March 2, 1888</date>
+                    <idno type="callno">MSS18630, Box 17</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Voorhees, Judah B." ref="n3172">Judah B. Voorhees</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-24" who="#smb">final check, corrected</change>
+            <change when="2016-05-31" who="#if">edited</change>
+            <change when="2016-03-16" who="#es">checked, corrected</change>
+            <change when="2015-12-02" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.00736_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Surrogate's Office<lb/>Kings
+                        County</name>
+                    <name type="place" rend="right"><handShift rend="printed"/>Brooklyn,</name>
+                    <date when="1888-03-02" rend="right"><handShift rend="manuscript"/> March 2
+                            <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
+                </dateline>
+                <salute><handShift rend="manuscript"/>Walter Whitman Esq</salute>
+                <salute><handShift rend="manuscript"/>Dear Sir</salute>
+            </opener>
+            <p>I take great pleasure in inviting you to the Annual Banquet of the Society of Old
+                Brooklynites to be held at the Pierrepont House on the 9th day of April <unclear
+                    reason="illegible" resp="#ss" cert="medium">next</unclear>. As you are a member
+                of the Society I would suggest that you prepare a <hi rend="underline">toast</hi>
+                and a response and if you cannot attend in person please to send the same to be read
+                as I know a great many of the members will be glad to hear from you. The occasion of
+                the dinner is the anniversary of the <pb xml:id="leaf001v"
+                    facs="loc_vm.00737_large.jpg" type="verso"/> passing of the law incorporated the
+                city of Brooklyn. An early reply is requested.</p>
+            <closer>
+                <salute>Yours Respectfully</salute>
+                <signed rend="right">Judah B. Voorhees</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

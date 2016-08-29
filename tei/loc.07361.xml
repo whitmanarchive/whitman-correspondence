@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07361">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Leonard M. Brown, 19 November
+                    1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07361</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">132&#8211;133</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Leonard M. Brown, 19 November 1887</title>
+                    <date cert="low" when="1887-11-19" xml:id="dat1">November 19, 1887</date>
+                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Brown, Leonard M." ref="upa.00088_n3">Leonard M. Brown</persName>
+                </person>
+            </particDesc>  
+        </profileDesc>  
+        <revisionDesc>
+            <change when="2016-06-13" who="#smb">final check, corrected</change>
+            <change when="2016-04-26" who="#cb">checked and corrected</change>
+            <change when="2016-02-21" who="#ss">checked and corrected</change>
+            <change when="2015-10-16" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1887-11-19">Nov. 19 '87</date>
+                </dateline>
+            </opener>
+            <p>Thank you &#38; double-thank you, my dear young man, for your affectionate letter
+                &#38; money help &#36;25 which came safely to-day&#8212;Every thing is going on here
+                much the same&#8212;Mrs. D[avis]<ptr target="n6113"/> is well &#38; busy&#8212;&#38; I sit
+                here each day in the big chair by the window&#8212;(slowly waning I suppose)&#8212;H
+                    Gilchrist<ptr target="n0262"/> is back in London with his picture, wh' as I
+                understand gets good opinions. I have heard from him once or twice. I am expecting
+                Ernest Rhys<ptr target="loc.03310_n1"/> here soon. Morse<ptr target="n0862"/> the
+                sculptor is still here. Mr Eakins the portrait painter, of Phila<ptr target="n3166"/>:, is going to have
+                a whack at me next week.<ptr target="loc.07361_n2"/></p>
+            <p>Dull dark dripping day as I write. My little canary is singing blithely. I enclose
+                you my last pieces&#8212;Yes, indeed we shall be glad to see you&#8212;Mrs D will
+                &#38; I will&#8212;Meanwhile love to you &#38; God bless you&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

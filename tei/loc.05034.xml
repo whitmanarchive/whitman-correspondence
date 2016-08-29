@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05034">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">E. H. Hames &#38; Co. to Walt Whitman, 12 May 1880</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>E. H. Hames &amp; Co.</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05034</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>E. H. Hames &amp; Co.</author>
+                    <title>E. H. Hames &#38; Co. to Walt Whitman, 12 May 1880</title>
+                    <date cert="high" when="1880-05-12" xml:id="dat1">May 12, 1880</date>
+                    <idno type="callno">MSS18630, Box 10</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="rel01" target="wwa.00108"/>
+                    <relatedItem type="text" target="loc.00254"/>
+                    <note type="project" target="#rel01">Whitman repurposed this letter, writing a draft of "The Patrol at Barnegat" on the back of it.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="E. H. Hames &amp; Co." ref="n1069">E. H. Hames &amp; Co.</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-18" who="#nhg">corrected annotations</change>
+            <change when="2016-07-06" who="#nhg">checked, corrected</change>
+            <change when="2016-07-05" who="#es">added annotation for E. H. Hames and pointer for The Literary World.</change>
+            <change when="2016-06-27" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="20040512_0077.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>E. H. HAMES &#38; CO.<lb/>
+                        Edward Abbott.<lb/>
+                        Edward H. Hames.<lb/>
+                        <hi rend="italic">P. O. Box 1183</hi>.</name>
+                    <name type="place" rend="right"><handShift rend="printed"/>The Literary World,<ptr target="n3036"/></name>
+                    <name type="place" rend="right"><handShift rend="printed"/>Boston,</name> <date when="1880-05-12" rend="right"><handShift rend="manuscript"/>May 12, <handShift rend="printed"/>18<handShift rend="manuscript"/>80</date>
+                </dateline>
+                <salute>Dear Sir:</salute>
+            </opener>
+            <p>Our judgment is that it would be better not to print the introductory notes. Have you any objection to your signature being placed at the <hi rend="underline">end</hi>?</p>
+            <closer>
+                <salute>Respectfully</salute>
+                <signed rend="right">E. H. Hames &#38; Co.</signed>
+                <address><addrLine>Mr. Walt Whitman</addrLine></address>
+            </closer>
+            <pb xml:id="leaf001v" facs="20040512_0076.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
