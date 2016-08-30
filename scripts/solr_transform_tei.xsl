@@ -8,9 +8,7 @@
   <!--                               IMPORTS                                -->
   <!-- ==================================================================== -->
 
-  <xsl:import href="../../whitman-scripts/solr/lib/common.xsl"/>
-  <xsl:import href="../../whitman-scripts/solr/lib/text_data.xsl"/>
-  <xsl:import href="../../whitman-scripts/solr/lib/tei.xsl"/>
+  <xsl:import href="../../whitman-scripts/solr/whitman_to_solr.xsl"/>
 
   <xsl:output indent="yes" omit-xml-declaration="yes"/>
 
