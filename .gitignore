@@ -2,5 +2,9 @@
 **/*.yml
 !**/*.example.yml
 
+# ignore html-generated files
+html-generated/**
+!html-generated/.keep
+
 .DS_Store
 
