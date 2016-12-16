@@ -1,6 +1,7 @@
+
 development:
   solr_core: api_whitman
-  tei_xsl: projects/whitman-correspondence/scripts/solr_transform_tei.xsl
+  tei_solr_xsl: projects/whitman-correspondence/scripts/solr_transform_tei.xsl
   xsl_params:
     fig_location:
     file_location:
@@ -11,7 +12,7 @@ development:
     slug: whitman-correspondence
 production:
   solr_core: api_whitman
-  tei_xsl: projects/whitman-correspondence/scripts/solr_transform_tei.xsl
+  tei_solr_xsl: projects/whitman-correspondence/scripts/solr_transform_tei.xsl
   xsl_params:
     fig_location:
     file_location:
