@@ -66,25 +66,6 @@
     </field>
   </xsl:template>
 
-  <!-- ========== date and dateDisplay ========== -->
-
-  <!-- TODO does this really need to be different from the others? -->
-  <!--<xsl:template name="date">
-    <field name="date">
-      <xsl:choose>
-        <xsl:when test="//sourceDesc/bibl/date/attribute::notBefore">
-          <xsl:value-of select="//sourceDesc/bibl/date/attribute::notBefore"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="//sourceDesc/bibl/date/attribute::when"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </field>
-    <field name="dateDisplay">
-      <xsl:value-of select="//sourceDesc/bibl/date"/>
-    </field>
-  </xsl:template>-->
-
   <!-- ========== recipients ========== -->
   <!-- TODO refactor -->
 
