@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05870">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Robert Pearsall Smith to Walt Whitman, 20 June
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Robert Pearsall Smith</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05870</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Robert Pearsall Smith</author>
+                    <title>Robert Pearsall Smith to Walt Whitman, 20 June 1888</title>
+                    <date cert="high" when="1888-06-20" xml:id="dat1">June 20, 1888</date>
+                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.05871"/>
+                    <relatedItem type="document" target ="wwa.00206"/>
+                    <note type="project" target="#rel01">Whitman wrote a letter to Richard Maurice Bucke on the back of the second page of this letter.
+                    Whitman then sent the letters to Bucke, who received this letter from the Smiths as an enclosure.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Smith, Robert Pearsall" ref="n4979">Robert Pearsall
+                        Smith</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt" xml:id="ww">Walt Whitman</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-06-21" who="#smb">final check, corrected</change>
+            <change when="2016-07-31" who="#ss">second round of checks</change>
+            <change when="2016-06-06" who="#if">edited</change>
+            <change when="2015-12-07" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+ 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_no.00114.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place" rend="right">Steamship Aller</name>
+                    <date when="1888-06-20" rend="right">June 20th. 1888.</date>
+                </dateline>
+                <salute>My dear Friend &#8212;</salute>
+            </opener>
+            <p>It was with much regret that we felt compelled to leave you in your sickness last
+                week. We hold you in affectionate remembrance as we pass over the waters to England
+                where once we hoped to have had your company. We beg that you will send us from <pb
+                    xml:id="leaf001v" facs="loc_no.00115.jpg" type="verso"/> time to time as
+                you feel able accounts of your health and of all that nearly concerns you concerns
+                us also who love you.</p>
+            <p>Our passage across the whole way has been nearly as smooth as a duck pond, and my
+                health has been very much benefited by it.</p>
+            <p>I bear your messages of love and remembrance to your many many friends in <pb
+                    xml:id="leaf002r" facs="loc_no.00116.jpg" type="recto"/> London, who
+                without my privileges of personal fellowship with you, honour and love you. I hope
+                that the knowledge of this may often cheer and console you in hours of pain and
+                weariness. Alys,<ptr target="loc.05908_n1"/> my faithful secretary, joins me in the
+                expression of the hearty affection with which I am always</p>
+            <closer>
+                <salute>Your loving friend</salute>
+                <signed rend="right">R. Pearsall Smith</signed>
+                <signed rend="right">per Alys</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc_no.00117.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07520">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Mr. Bennerman, 22 May 1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07520</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">171</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Mr. Bennerman, 22 May 1888</title>
+                    <date cert="high" when="1888-05-22" xml:id="dat1">May 22, 1888</date>
+                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Bennerman, Mr." ref="n4158">Mr. Bennerman</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>  
+            <change when="2017-05-30" who="#smb">final check, corrected</change>
+            <change when="2016-12-12" who="#cb">checked and corrected</change>
+            <change when="2016-08-05" who="#rf">encoded</change>
+            <change when="2016-09-04" who="#aa">checked, corrected</change>
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_sf.00054.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1888-05-22">Tuesday May 22 '88<ptr target="loc.07520_n1"/></date>
+                </dateline>
+                <salute>To Mr. Bennerman:</salute>
+            </opener>
+            <p>The bearer of this is Horace Traubel,<ptr target="n4267"/> a young friend of mine in
+                whom I have confidence&#8212;I want to have printed (stereotyped) a book of
+                (probably) 160 to 200 pages<ptr target="loc.07520_n2"/>&#8212;may-be somewhat
+                less&#8212;long primer&#8212;exactly same sized page as the "Specimen Days" you
+                printed of mine six years ago&#8212;</p>
+            <p>Can you &amp; would you like to do it for me?&#8212;<hi rend="underline">Have you some
+                    good long primer</hi>? The copy is ready&#8212;it is all printed
+                matter&#8212;(or nearly all)&#8212;is all plain sailing&#8212;you could commence
+                next Monday&#8212;Sh'd want liberal proofs&#8212;</p>
+            <p>You can talk with Horace Traubel just the same as you w'd with me&#8212;I am almost
+                entirely disabled ab't walking, or bodily locomotion&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+                    <address>
+                    <addrLine><name type="place">328 Mickle Street</name></addrLine>
+                    <addrLine><name type="place">Camden NJ</name></addrLine>
+                    </address> 
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_sf.00055.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_sf.00052.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_sf.00053.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

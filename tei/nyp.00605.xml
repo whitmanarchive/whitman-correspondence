@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00605">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William D. O'Connor, 12 April
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00605</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="page">162</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William D. O'Connor, 12 April 1888</title>
+                    <date cert="high" when="1888-04-12" xml:id="dat1">April 12, 1888</date>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
+                        American Literature, New York Public Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="O'Connor, William D." ref="n2002">William D.
+                        O'Connor</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-03-14" who="#smb">final check, corrected</change>
+            <change when="2017-01-19" who="#cb">checked and corrected</change>
+            <change when="2016-10-01" who="#ss">checked and corrected</change>
+            <change when="2016-09-08" who="#bbb">Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+ 
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1888-04-12">Thursday Evn'g</date>
+                    <date when="1888-04-12">April 12 '88<ptr target="nyp.00605_n1"/></date>
+                </dateline>
+                <salute>Dear W O'C</salute>
+            </opener>
+
+            <p>Lots of inquiries &#38; prayers &#38; good wishes ab't you come to me (&#38; I hear of) that <hi rend="italic">you</hi>
+                never hear of. I rec'd Nelly's<ptr target="n4137"/> two brief cards over two weeks ago&#8212;but hunger for
+                more frequent &#38; fuller information&#8212;Hear from Dr B[ucke]<ptr target="n0119"/> &#38; Kennedy<ptr target="n3039"/> often &#38; from John
+                B[urroughs]<ptr target="duk.00480_n8"/> at long intervals&#8212;K's book has not yet begun the printing but is to
+                be&#8212;is settled. All my <hi rend="italic">Herald</hi> bits<ptr target="n4133"/> will be included in <hi rend="italic">November Boughs</hi><ptr target="n3999"/> &#38; I will send
+                an early proof of all to you&#8212;As I write I am sitting here in my big chair by the
+                window (I have open'd it a few moments&#8212;it is near sunset&#8212;air a little tart)&#8212;I am
+                quite <hi rend="italic">immobile</hi> &#38; don't get out except by being <hi rend="italic">toted</hi>&#8212;a bunch of white lilies is in
+                the window &#38; my bird is singing like a house afire<ptr target="nyp.00605_n2"/>&#8212;</p>
+            <closer>
+                <salute/>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

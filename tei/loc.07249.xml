@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07249">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 28 September
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07249</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 28 September 1888</title>
+                    <date cert="high" when="1888-09-28" xml:id="dat1">September 28, 1888</date>
+                    <idno type="callno">MSS18630, Box 5, Reel 3</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace
+                    Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName> 
+                </person> 
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-03-16" who="#smb">final check, corrected</change>
+            <change when="2016-10-22" who="#ss">checked and corrected</change>
+            <change when="2016-06-24" who="#if">edited</change>
+            <change when="2015-11-23" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_es.00396.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
+                        target="loc.07249_n1"/><lb/>
+                        ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>ONTARIO<lb/>London,
+                        Ont.,</name><date when="1888-09-28" rend="right"><handShift
+                            rend="manuscript"/>28 Sept <handShift rend="printed"/>188<handShift
+                            rend="manuscript"/>8</date>
+                </dateline>
+            </opener>
+            <p>I have your good letter of 25 &#38; 26 inst.<ptr target="loc.07249_n2"/> I note all you say about my "W.W" Your
+                wishes will be religiously respected I did think of considerable changes (for I am
+                certain the book will sell by &#38; by) but was <hi rend="underline">never</hi> set
+                on them and less so lately. Yes, I shall leave it stand as it is and add under a
+                later date what else I may have to say. I am glad Dr. Osler<ptr target="n4302"/> has
+                been to see you again, I do not think the pain you speak of means anything serious,
+                though no doubt it is annoying&#8212;I hope it is gone by now. Have to go to <pb
+                    xml:id="leaf001v" facs="loc_es.00397.jpg" type="verso"/> go to the city in a few
+                minutes shall take this in and post it some men (capitalists) coming this
+                afternoon to see the meter<ptr target="loc.07230_n2"/> shall tell you tomorrow whether we succeed in doing any
+                business with them. We are moving slow just now&#8212;feeling our way&#8212;we hope
+                to be in a positon soon to launch out</p>
+            <closer>
+                <salute>Your friend</salute>
+                <signed rend="right">RM Bucke</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_es.00394.jpg" type="recto"/>
+            <note type="editorial" resp="#ht" place="right">See notes Oct 3, '88</note>
+            <pb xml:id="leaf002v" facs="loc_es.00395.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

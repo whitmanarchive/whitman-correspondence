@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02586">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Katherine Johnston, 25 December
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder> 
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02586</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Katherine Johnston, 25 December 1888</title>
+                    <date cert="high" when="1888-12-25" xml:id="dat1">December 25, 1888</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Johnston, Katherine" ref="n4136">Katherine
+                        Johnston</persName>
+                </person> 
+            </particDesc>   
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2017-06-21" who="#smb">final check, corrected</change>
+            <change when="2017-06-15" who="#if">added notes</change>
+            <change when="2017-06-07" who="#if">checked</change>
+            <change when="2017-06-01" who="#ss">checked and corrected</change>
+            <change when="2016-11-02" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02586.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden<ptr target="loc.02586_n1"/></name>
+                    <date when="1888-12-25">Evn'g</date>
+                    <date when="1888-12-25">Dec: 25 '88</date>
+                </dateline>
+            </opener>
+            <p>Thanks dear Kitty, dear friend, dear girl, for the beautiful photo&#8212;it is indeed
+                beautiful&#8212;give my best love to your father and mother &#38; sisters &#38; Al
+                &#38; wife &#38; Harold<ptr target="loc.02586_n3"/> &#38; Calder<ptr
+                    target="loc.02564_n2"/>&#8212;</p>
+            <p>I have had a bad sickness seven months but am now some better&#8212;have sat up
+                nearly all day, &#38; eaten some dinner.</p>
+            <p>Happy New Year to you &#38; all&#8212;<ptr target="loc.02586_n4"/></p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02586.002.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.02586.003.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.02586.004.jpg" type="verso"/> 
+        </body>
+    </text>
+</TEI>

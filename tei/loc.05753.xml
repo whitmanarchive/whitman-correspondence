@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Mrs. J. C. Croly to Walt Whitman, 21 May 1882</title>
+                <title level="m" type="main">Mrs. J. C. Croly to Walt Whitman, 2 May 1882</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Mrs. J. C. Croly</author>
                 <editor>Kenneth M. Price</editor>
@@ -15,6 +15,8 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -49,8 +51,8 @@
             <sourceDesc>
                 <bibl>
                     <author>Mrs. J. C. Croly</author>
-                    <title>Mrs. J. C. Croly to Walt Whitman, 21 May 1882</title>
-                    <date cert="high" when="1882-05-21" xml:id="dat1">May 21, 1882</date>
+                    <title>Mrs. J. C. Croly to Walt Whitman, 2 May 1882</title>
+                    <date cert="high" when="1882-05-02" xml:id="dat1">May 2, 1882</date>
                     <idno type="callno">MSS18630, Box 1</idno>
                     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
@@ -67,6 +69,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-08-30" who="#bb">corrected value of @date in bibl and dateline</change>
+            <change when="2016-08-30" who="#kmp">corrected dates in bibl and dateline</change>
             <change when="2014-12-12" who="#nhg">checked, corrected</change>
             <change when="2014-12-11" who="#ak">transcribed, encoded</change>
         </revisionDesc>
@@ -78,7 +82,7 @@
             <opener>
                 <dateline>
                     <name type="place">New York</name><ptr target="loc.05753_n1"/>
-                    <date when="1882-05-21">May 21d./82</date>
+                    <date when="1882-05-02">May 2d./82</date>
                 </dateline>
                 <salute>Mr. Walter Whitman</salute>
                 <address><addrLine>Camden N.J.</addrLine></address>

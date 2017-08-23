@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00475">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">James Gordon Bennett to Walt Whitman, 4 May
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00475</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author>James Gordon Bennett</author>
+                    <title>James Gordon Bennett to Walt Whitman, 4 May 1888</title>
+                    <date cert="low" when="1888-05-04" xml:id="dat1">May 4, 1888</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book
+                        and Manuscript Library</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="yal.00078"/>
+                    <relatedItem type="document" target="wwa.00042"/>
+                    <note type="project" target="#rel01">Whitman crossed out Bennett's letter, and
+                        on the back wrote a draft of the poem "As I Sit Writing Here."</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bennett, James Gordon" ref="n4262">James Gordon
+                        Bennett</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Walt, Whitman">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-06-20" who="#smb">final check, corrected</change>
+            <change when="2016-07-31" who="#ss">second round of checks</change>
+            <change when="2016-07-07" who="#nhg">adjusted relatedItem encoding</change>
+            <change when="2016-06-13" who="#if">added correspondent info</change>
+            <change when="2016-05-25" who="#if">edited</change>
+            <change when="2016-04-24" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="YCAL_MSS-13-4.jpg" type="recto"/>
+            <note type="editorial" place="top" resp="#unk">(H.G 191)</note>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>The Herald.</name>
+                    <name type="place">New York,</name>
+                    <date when="1888-05-24"><handShift rend="manuscript"/>5/4 <handShift
+                            rend="printed"/>188<handShift rend="manuscript"/>8</date>
+                </dateline>
+                <salute><handShift rend="printed"/>Dear Sir:</salute>
+            </opener>
+            <p><handShift rend="printed"/>Enclosed please find &#36;<handShift rend="manuscript"
+                    />40.00<handShift rend="printed"/>, payment for services <handShift
+                    rend="manuscript"/>for <choice>
+                    <abbr>Apl.</abbr>
+                    <expan>April</expan>
+                </choice> 88<handShift rend="printed"/></p>
+            <p><handShift rend="printed"/>Please acknowledge receipt by return mail, and oblige,</p>
+            <closer>
+                <salute><handShift rend="printed"/>Yours very truly,</salute>
+                <signed><handShift rend="printed"/>J. G. BENNETT.</signed>
+                <salute><handShift rend="printed"/>To <handShift rend="manuscript"/>Walt
+                    Whitman</salute>
+            </closer>
+            <pb xml:id="leaf001v" facs="YCAL_MSS-13-3.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

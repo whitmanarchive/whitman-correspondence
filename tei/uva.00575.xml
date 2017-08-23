@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00575">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John R. Witcraft to Walt Whitman, 8 March 1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>uva.00575</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John R. Witcraft</author>
+                    <title>John R. Witcraft to Walt Whitman, 8 March 1888</title>
+                    <date cert="high" when="1888-03-08" xml:id="dat1">March 8, 1888</date>
+                    <idno type="callno">Box-folder: 4:42</idno>
+                    <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett
+                        Library of American Literature, Albert H. Small Special Collections Library,
+                        University of Virginia</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="uva.00162"/>
+                    <relatedItem type="document" target="wwa.00090"/>
+                    <note type="project" target="#rel01">Whitman drew a line through this letter from Witcraft and wrote a
+                    draft of the poem "The first dandelion" on the verso of the page.</note>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Witcraft, John R." ref="uva.00162_n2">John R. Witcraft</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2017-06-21" who="#smb">final check, corrected, added multitext</change>
+            <change when="2016-12-07" who="#cb">checked and corrected</change>
+            <change when="2016-09-01" who="#ss">checked and corrected</change>
+            <change when="2016-05-31" who="#if">edited</change>
+            <change when="2015-12-06" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+ 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001v" facs="uva.00162.002.jpg" type="verso"/>
+            <opener>
+                <dateline>  
+                    <name type="place">233 S.<gap reason="illegible" quantity="1" unit="char"/>
+                        <unclear reason="illegible" resp="#aa" cert="low"
+                            >6</unclear>th St. Philada. Pa<ptr target="uva.00162_n4"/>&#8212;</name>
+                    <date when="1888-03-08">3/8/88.</date>
+                </dateline>
+                <salute>Mr. Whitman,</salute>
+            </opener>  
+            <p>The last time I called on you we had a delightful conversation about books. And
+                I would like to repeat this visit, but I know your time is taken up with callers of
+                all kinds&#8212;and beside conversation while it may be retained in the memory years
+                afterward is not like a written letter from an author that we can keep and
+                cherish. I have your autograph in both your works but I want you to write me
+                your views on the books a young man should be most familiar with, tell me the
+                authors that have most delighted and instructed you. I have a few books and in
+                them I have a few autograph letters that I preserve by putting carefully in the
+                front, that gives them to my eyes an increased value. Now there are some authors
+                that I cannot get a scrap of, <hi rend="underline">they are dead</hi> I know you
+                receive and have received correspondence from Emerson,<ptr target="n1044"/> Carlyle<ptr target="n4301"/>
+                &#38; Tennyson<ptr target="n0625"/>&#8212;havent you a bit you would spare me from some
+                of these men if it is only a line&#8212;as Mark Twain<ptr target="uva.00162_n3"/>
+                says&#8212;was writ <unclear reason="illegible" resp="#ss" cert="low">wis</unclear> his
+                own hand. I don't mean those letters you cherish and mean to till you
+                die, but I would value them doubly as coming from you&#8212;</p>
+            <closer>
+                <salute>Yours Respectfully&#8212;</salute>
+                <signed><hi rend="underline"><unclear reason="illegible" resp="#ss" cert="medium"
+                            >John</unclear> R. Witcraft.</hi></signed>
+            </closer>
+            <pb xml:id="leaf001r" facs="uva.00162.001.jpg" type="recto"/>
+        </body>
+    </text>
+</TEI>

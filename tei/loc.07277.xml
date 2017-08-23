@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07277">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 6 December
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07277</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+               
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 6 December 1888</title>
+                    <date cert="high" when="1888-12-06" xml:id="dat1">December 6, 1888</date>
+                    <idno type="callno">MSS18630, Box 5, Reel 3</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace
+                    Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2017-03-18" who="#smb">final check, corrected</change>
+            <change when="2016-11-30" who="#cb">checked and corrected</change>
+            <change when="2016-10-01" who="#ss">checked and corrected</change>
+            <change when="2016-03-05" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body> 
+           
+            <note type="editorial" place="top" resp="#ht">See notes Dec. 9, 1888</note>
+            
+            <pb xml:id="leaf002r" facs="loc_es.00504.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <handShift rend="printed"/>
+                    <name type="place">
+                        Superintendent's Office.
+                        <ptr target="loc.07277_n1"/>
+                    </name>
+                    <name type="place">ASYLUM FOR THE INSANE</name>
+                    <name type="place">LONDON. ONTARIO</name>
+                    <name type="place">London, Ont.,</name>
+                    <date when="1888-12-06"><handShift rend="manuscript"/>6 Dec<handShift
+                            rend="printed"/> 188<handShift rend="manuscript"/>8</date>
+                </dateline>
+            </opener>
+            <p>Your postcard of 4 this moment to hand. I shall be very anxious untill I hear further
+                from you as to the result of the consultation. I
+                understand of course about the enlargement of the prostate, that is a troublesome
+                complaint but not a fatal matter, as for the "diabetes" I do not understand
+                that&#8212;think <hi rend="underline">that</hi> must be a mistake, I know there is
+                some kidney trouble&#8212;some albuminuria&#8212;&#38;c. however no doubt I shall
+                soon be informed as to the whole matter and I trust you will write me
+                yourself&#8212;I hope however that when I come East next month I shall find you
+                something better than at present and that we shall be able to talk it all over. I am
+                greatly pleased<pb xml:id="leaf002v" facs="loc_es.00505.jpg" type="verso"/> that you
+                had a better night and trust that is the beginning of some better times for you.</p>
+            <p>I hear nothing from Wm Gurd<ptr target="n4284"/>&#8212;they
+                seem slow about the patents but I have no doubt we shall come out right side up
+                eventually.</p>
+            <p>We are all well here</p>
+            <closer> 
+                <salute>I send you my love</salute>
+                <signed>R M Bucke</signed>
+            </closer>
+            <pb xml:id="leaf001r" facs="loc_es.00502.jpg" type="recto"/>
+            <pb xml:id="leaf001v" facs="loc_es.00503.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

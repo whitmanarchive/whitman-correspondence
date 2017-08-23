@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="mil.00002">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Richard W. Colles, 27 January
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder> 
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>mil.00002</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Richard W. Colles, 27 January 1888</title>
+                    <date cert="high" when="1888-01-27" xml:id="dat1">January 27, 1888</date>
+                    <orgName xml:id="mil">Albert M. Bender Collection, Special Collections
+                        Department, F. W. Olin Library, Mills College</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Colles, Richard W." ref="loc.01302_n3">Richard W.
+                        Colles</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-03-09" who="#smb">final checked, corrected</change>
+            <change when="2016-12-16" who="#cb">checked and corrected</change>
+            <change when="2016-01-02" who="#bbb">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="mil.00002.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden  New Jersey  US America</name>
+                    <date when="1888-01-27">Jan: 27 '88<ptr target="mil.00002_n1"/></date>
+                </dateline>
+            </opener>
+
+            <p>&#8212;I have been waiting to get good copies of "Specimen Days" wh' I shall have shortly, &#38; 
+                will then immediately send one&#8212;I mail "Leaves of Grass" now&#8212;the price of the two
+                vols. is one pound, wh' I wish you to send me here by p o order (328 Mickle
+                Street)&#8212;Nothing very new or different&#8212;arctic cold here for the last
+                fortnight&#8212;best regards to you &#38; my Irish friends<ptr target="mil.00002_n2"/>&#8212;</p>
+
+            <closer>
+                <signed rend="right">Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="mil.00002.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
