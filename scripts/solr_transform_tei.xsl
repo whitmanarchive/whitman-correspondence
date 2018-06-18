@@ -120,4 +120,12 @@
     </xsl:for-each>
   </xsl:template>
 
+  <xsl:template name="uri">
+    <field name="uri">
+      <xsl:value-of select="$site_url"/>
+      <xsl:text>/biography/correspondence/tei/</xsl:text>
+      <xsl:value-of select="$filenamepart"/>
+      <xsl:text>.html</xsl:text>
+    </field>
+  </xsl:template>
 </xsl:stylesheet>

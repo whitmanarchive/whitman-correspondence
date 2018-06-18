@@ -9,12 +9,13 @@ default:
   # es_type:
 
   variables_solr:
-    figures: false
-    fw: false
-    pb: false
     project: The_Walt_Whitman_Archive
     slug: whitman-correspondence
-# development:
-  # development overrides here
+    site_url: https://whitmanarchive.org
+development:
+  variables_solr:
+    project: The_Walt_Whitman_Archive
+    slug: whitman-correspondence
+    site_url: https://whitman-dev.unl.edu
 # production:
   # production overrides here
