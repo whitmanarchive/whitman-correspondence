@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00631">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William D. O'Connor, 16&#8211;17
+                    February [1889]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00631</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">291</biblScope> 
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William D. O'Connor, 16&#8211;17 February [1889]</title>
+                    <date cert="medium" notBefore="1889-02-16" notAfter="1889-02-17" xml:id="dat1"
+                        >February 16&#8211;17, [1889]</date>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
+                        American Literature, New York Public Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="O'Connor, William D." ref="n2002">William D.
+                        O'Connor</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-03-20" who="#smb">checked, corrected, added notes</change>
+            <change when="2017-09-07" who="#cb">final check</change>
+            <change when="2017-08-14" who="#if">checked</change>
+            <change when="2017-08-01" who="#rf">Checked</change>
+            <change when="2017-02-17" who="#bbb">Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener> 
+                <dateline>
+                    <name type="place">Camden&#8212;</name>
+                    <date when="1889-02-16">Feb: 16&#8212;Forenoon<ptr target="nyp.00631_n1"/></date>
+                </dateline>
+            </opener>
+            <p>Had my breakfast abt 9&#188;&#8212;mutton-broth, (some small bits of well stew'd meat)
+                with Graham bread toasted &#38; coffee&#8212;eat &#38; drunk with
+                relish&#8212;N[elly]'s<ptr target="n4137"/> card came&#8212;hope there may be many such <hi rend="italic"
+                    >reasonable</hi> nights&#8212;&#38; days too&#8212;McKay<ptr target="n4983"/> has just come back f'm
+                a book-tour in Boston and N Y&#8212;he sold 27 of the big books<ptr target="n4151"/>&#8212;&#38; of <hi
+                    rend="italic">Nov. Boughs</hi><ptr target="n3999"/> over 700 have been sold&#8212;</p>
+            <p><date when="1889-02-17">Sunday Feb: 17</date></p>
+            <p>Rain &#38; dark weather same as yesterday&#8212;alone here trying to interest myself
+                in <hi rend="italic">Tribune</hi> and Phil: <hi rend="italic">Press</hi> to day's. I
+                expect Dr B[ucke]<ptr target="n0119"/> Tuesday evn'g or Wednesday next.</p>
+            <closer>
+                <salute/>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

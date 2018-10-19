@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01502">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Edward Dowden to Walt Whitman, 26 June 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Edward Dowden</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01502</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Edward Dowden</author>
+                    <title>Edward Dowden to Walt Whitman, 26 June 1889</title>
+                    <date cert="high" when="1889-06-26" xml:id="dat1">June 26, 1889</date>
+                    <idno type="callno">MSS18630, Box 9, Reel 5&#8211;6</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Dowden, Edward" ref="n0199">Edward Dowden</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-05-10" who="#smb">final check, corrected</change>
+            <change when="2017-07-21" who="#if">checked</change>
+            <change when="2017-05-01" who="#cb">checked and corrected</change>
+            <change when="2016-10-06" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01502.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>WINSTEAD,<lb/>TEMPLE ROAD,<lb/>RATHMINES.</name>
+                    <name type="place"><handShift rend="manuscript"/>Dublin</name>
+                    <date when="1889-06-26">June 26. 1889.</date>
+                </dateline>
+                <salute>My dear Mr. Whitman,</salute>
+            </opener> 
+            <p>Your kind remembrance of me on your birthday, &#38; the gifts of copies of your new
+                edition of <hi rend="underline">Leaves of Grass</hi><ptr target="n7007"/> have given me the greatest
+                pleasure. I have to thank you also for <hi rend="underline">November Boughs</hi>,<ptr target="n3999"/> a
+                most welcome gift, which reached me after some delay <pb xml:id="leaf001v"
+                    facs="loc.01502.002_large.jpg" type="verso"/>through Mr Lewis Fry<ptr
+                    target="n4294"/> of Bristol. But more even than your kind thought of me it
+                rejoices me to know that you are somewhat better in health, &#38; that the love &#38; honour
+                due to you by your own country has come to you&#8212;all in good time. I wrote a<pb
+                    xml:id="leaf002r" facs="loc.01502.003_large.jpg" type="recto"/> few lines to a
+                friend of yours on the occasion of your 70th birthday which I believe will be
+                printed in a pamphlet.<ptr target="loc.01502_n1"/> But I want also, at least in fancy, to reach my hand across
+                the sea, &#38; to take your hand, &#38; to tell you that your friendship is a good
+                possession for me.<pb xml:id="leaf002v" facs="loc.01502.004_large.jpg" type="verso"
+                /> I think of seventy years as quite the vestibule of age, because my own father is
+                rigorous, at least in mind, now in his ninetieth year. And the recent songs you have
+                sung have only the maturity &#38; flavour of well-ripened fruit, growing on a sound-timbered tree. At
+                eighty perhaps you may have even a happier birthday, with yet more new friends &#38;
+                still the old ones.</p> 
+            <closer>
+                <salute>Always dear friend yours</salute> 
+                <signed>Edward Dowden</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

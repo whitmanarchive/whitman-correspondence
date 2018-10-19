@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01227">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Will Carleton to Walt Whitman, 27 April 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Will Carleton</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01227</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Will Carleton</author>  
+                    <title>Will Carleton to Walt Whitman, 27 April 1889</title>
+                    <date cert="high" when="1889-04-27" xml:id="dat1">April 27, 1889</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Carleton, Will" ref="n6161">Will Carleton</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-04-02" who="#smb">final check, corrected</change>
+            <change when="2017-07-15" who="#if">checked</change>
+            <change when="2017-04-13" who="#cb">checked and corrected</change>
+            <change when="2016-09-27" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01227.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">420, Greene Ave., Brooklyn,</name>
+                    <date when="1889-04-27">April 27, 1889.</date>
+                </dateline>
+                <salute>Dear Mr. Whitman:&#8212;</salute>
+            </opener>
+            <p>I have thought of you often since my call upon you the other day (and before, too,
+                for that matter), and felt, that although I have a copy of your works in my library,
+                I would like one from <hi rend="underline">you</hi> Enclosed find ten dollars for
+                one (never mind the change). Please mail it to above address. Give me your "hand
+                write" in it if convenient.</p><pb xml:id="leaf001v" facs="loc.01227.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.01227.003_large.jpg" type="recto"/>
+            <p>In talking with the present Editor of the Brooklyn <hi rend="underline">Eagle</hi>,
+                the other evening, I learned that you used to be the Editor of that paper. They will
+                have a jubilee soon on the occasion of some anniversary, and, I hope, will
+                acknowledge their obligations to you for giving them a good lift in days agone.</p>
+            <p>With kind regards and love&#8212;</p>
+            <closer>
+                <salute>Yours sincerely,</salute>
+                <signed>Will Carleton</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.01227.004_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

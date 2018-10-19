@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02999">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William Sloane Kennedy to Walt Whitman, 28 April
+                    1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William Sloane Kennedy</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02999</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William Sloane Kennedy</author>
+                    <title>William Sloane Kennedy to Walt Whitman, 28 April 1889</title>
+                    <date cert="high" when="1889-04-28" xml:id="dat1">April 28, 1889</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2018-05-07" who="#smb">final check, corrected</change>
+            <change when="2017-07-15" who="#if">checked</change>
+            <change when="2016-04-13" who="#cb">checked and corrected</change>
+            <change when="2016-09-27" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02999.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Belmont</name>
+                    <name type="place">Mass</name>
+                    <date when="1889-04-28">April 28 89<ptr target="loc.02999_n1"/></date>
+                </dateline>
+                <salute>Dear friend:&#8212;</salute>
+            </opener>
+            <p>Let me thank you now, lest I forget it, for your kind thoughtfulness in offering to
+                remember me with a copy of the new flexible pocket Ed.n of L. of G.<ptr target="loc.02999_n2"/> It is what I
+                have long wished for. I think the value of a book of poems is many times multiplied
+                by being in pocket form. I recently b't (35 cts) a copy of Rhys's<ptr
+                    target="loc.03310_n1"/> Ed.n. They had no business to sell it. It came over in
+                an invoice of Camelot Classics. There are no more to be had here. But it is only a
+                fragment&#8212;mutilated, &#38; has mistakes in it. I bt it to lend to Whitman beginners
+                &#38; weaklings. Have loaned it now to Dr. Clarence J. Blake,<ptr target="loc.02999_n3"/> the finest aurist in Boston.</p>
+            <p>When will the little vol. be out? My yard is looking finely. 2 doz. hyacinths
+                out.</p>
+            <closer>
+                <salute>bye bye</salute> 
+                <signed>W. S. K.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02999.002.jpg" type="verso"/>
+            <postscript>
+                <p>The squirrel is eating his nut on the hickory limb while the cat half-asleep in
+                    the house-gutter on the roof eyes him askance with one eye.</p>
+            </postscript>
+            <pb xml:id="leaf002r" facs="loc.02999.003.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.02999.004.jpg" type="verso"/> 
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03270">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Thomas J. McKee to Walt Whitman, 7 April 1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Thomas J. McKee</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03270</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Thomas J. McKee</author>
+                    <title>Thomas J. McKee to Walt Whitman, 7 April 1888</title>
+                    <date cert="high" when="1888-04-07" xml:id="dat1">April 7, 1888</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    Library of Congress, Washington, D.C.</orgName>
+                </bibl>    
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="McKee, Thomas J." ref="loc.03270_n1">Thomas J. McKee</persName>
+                </person>
+                <person role="recipient">  
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-01-31" who="#smb">final check, corrected</change>
+            <change when="2016-12-07" who="#cb">checked and corrected</change>
+            <change when="2016-09-01" who="#ss">checked and corrected</change>
+            <change when="2016-08-25" who="#ktl">transcription and encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03270.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="name"><handShift rend="printed"/>T<hi rend="smallcaps">HOS</hi>. J. M<hi rend="smallcaps">C</hi>K<hi rend="smallcaps"
+                        >EE</hi></name>
+                    <name type="place">Law Offices, 338 Broome St., cor. Bowery,</name>
+                    <name type="place">Mechanics' &amp; Traders' Bank Building.</name>
+                    <name type="place">New York,</name>
+                    <date when="1888-04-07"><handShift rend="typescript"/>April 7th 1888. <handShift rend="printed"/>188</date>
+                </dateline>
+                <salute><handShift rend="typescript"/>Mr. WALT WHITMAN;</salute>
+                <salute><handShift rend="typescript"/>Dear Sir:</salute>
+            </opener> 
+            <p><handShift rend="typescript"/>I received your letter but had been looking into the matter for some days previously,
+                Dr. Bucke<ptr target="n0119"/> and Mr. Johnston<ptr target="n0336"/>  
+                having spoken to me about your claim
+                against Worthingon.<ptr target="n1053"/> The difficulty I find <choice><sic>is</sic><corr>in</corr></choice> this that <choice>
+                    <sic>R.Worthington</sic>
+                    <corr>R. Worthington</corr>
+                </choice> failed some time since and is now unable to do business in his own name,
+                and the business is now run by a corporation named the Worthington Co. of which
+                Worthington's wife or some female relative is the President. The time within which
+                to claim a forfeiture of the plates and books (two years) has run out and we are
+                therefore limited to our action for an injunction and damages, I am therefore
+                quietly trying to get all the facts I can as to what the "Worthington Co." has been
+                doing with reference to your book. The Company is of some responsibility and
+                undoubtedly have possession of the plates.</p>
+            <p><handShift rend="typescript"/>As soon as I have facts sufficient to base a sure claim I will get the injunction and
+                money.</p>
+            <pb xml:id="leaf001v" facs="loc.03270.002.jpg" type="verso"/>
+            <closer>
+                <salute><handShift rend="typescript"/>Yours sincerely</salute>
+                <signed><handShift rend="manuscript"/>T. J. McKee</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

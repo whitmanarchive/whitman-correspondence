@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00848"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, [7 February
+                    1889]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00848</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Richard Maurice Bucke</author>
+                        <editor>Artem Lozynsky</editor>
+                        <title xml:id="ehm">The Letters of Dr. Richard Maurice Bucke to Walt
+                            Whitman</title>
+                        <imprint>
+                            <pubPlace>Detroit</pubPlace>
+                            <publisher>Wayne State University Press</publisher>
+                            <date when="1977">1977</date>
+                            <biblScope type="page">107</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, [7 February 1889]</title>
+                    <date cert="high" when="1889-02-07" xml:id="dat1">[February 7, 1889]</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown. Artem Lozynsky derives his transcription from a partial transcript of the letter found in Horace
+                        Traubel, <hi rend="italic">With Walt Whitman in Camden</hi> vol. 4, ed. Sculley Bradley (Philadelphia: University of Pennsylvania Press, 1953), 116.</orgName>
+                </bibl>   
+            </sourceDesc> 
+        </fileDesc>   
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-03-21" who="#smb">final check, corrected, added notes</change>
+            <change when="2018-01-29" who="#ss">checked and corrected</change>
+            <change when="2017-11-29" who="#cb">first check</change>
+            <change when="2017-02-06" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener> 
+                <dateline>
+                    <date when="1889-02-07">[7 February 1889]<ptr target="med.00848_n1"/></date>
+                </dateline>
+            </opener>
+            <p>I have made a rough and ready abstract of Sarrazin's<ptr target="n3115"/> piece (do
+                you know that Sarrazin means "buckwheat"?<ptr target="med.00848_n2"/>) Will probably get it copied out and
+                mailed tomorrow. If you have not yet sent Kennedys<ptr target="n3039"/> abstract<ptr target="med.00848_n3"/> to
+                the printer wait till you get mine. Perhaps you will combine them.</p>
+        </body>
+    </text>
+</TEI>
