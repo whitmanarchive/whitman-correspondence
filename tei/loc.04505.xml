@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04505">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to R.F. Wormwood, 19 November 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04505</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to R.F. Wormwood, 19 November 1889</title>
+                    <date cert="high" when="1889-11-19" xml:id="dat1">November 19, 1889</date>
+                    <idno type="callno">MSS18630, Box 19, Reel 11&#8211;12</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Wormwood, R.F." ref="loc.04505_n2">R.F. Wormwood</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-07-16" who="#smb">final check and corrected</change>
+            <change when="2018-07-16" who="#bjo">second check and corrected</change>
+            <change when="2018-07-12" who="#rf">first check</change>
+            <change when="2017-08-14" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.01554.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">328 Mickle Street</name>
+                    <name type="place">Camden New Jersey</name>
+                    <date when="1889-11-19">PM Nov. 19 '89<ptr target="loc.04505_n1"/></date>
+                </dateline>
+            </opener>
+            <p>Yours with $5 recd. with order&#8212;thanks&#8212;I send you the Complete Works, big
+                Vol,<ptr target="n4195"/> (with the little poemet you requested) by Express&#8212;If not delivered to
+                you, please send or inquire at the Express office in y'r place. Please kindly send
+                me word without fail (a P O card will do) soon as you get the book right. The price
+                is $6 (not 4.40)</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <postscript> 
+                <p>There are several portraits in the book I send&#8212;If you want further pict: I
+                    will send&#8212;</p>
+            </postscript>
+            <pb xml:id="leaf001v" facs="loc_vm.01555.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_vm.01556.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_vm.01557.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

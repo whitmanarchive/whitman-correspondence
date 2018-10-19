@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00830">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William C. Angus to Walt Whitman, 26 October 1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00830</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Horace Traubel</author>
+                        <editor>Sculley Bradley</editor>
+                        <title xml:id="wwwc">With Walt Whitman in Camden</title>
+                        <imprint>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <publisher>University of Pennsylvania Press</publisher>
+                            <date notBefore="1953" notAfter="1953">1953</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">198&#8211;199</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl> 
+                    <author>William C. Angus</author>
+                    <title>William C. Angus to Walt Whitman, 26 October 1888</title>
+                    <date cert="high" when="1888-10-26" xml:id="dat1">October 26, 1888</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Angus, William C." ref="n6142">William Craibe Angus</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-01-31" who="#smb">final check, corrected</change>
+            <change when="2016-11-16" who="#cb">checked and corrected</change>
+            <change when="2016-11-16" who="#cb">checked and corrected</change>
+            <change when="2016-10-01" who="#ss">checked and corrected</change>
+            <change when="2015-12-23" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Glasgow,</name>
+                    <date when="1887-10-26">October 26, 1888.</date>
+                </dateline>
+                <salute>Walt Whitman, Dear Sir&#8212;</salute>
+            </opener>
+            <p>I am glad to see by the Pall Mall Budget of yesterday that you are in fairly good
+                health. Were I near you I should like to have the honor of paying my personal
+                respects to you. I am your debtor. When a young man I read your Leaves of Grass 1855
+                edition. It revealed a new world to me&#8212;the world within myself. Your Specimen
+                Days<ptr target="n4121"/> I regard as the most humane book of the present century.</p>
+            <p>While breathing the spirit of freedom it bears no feeling of ill will against those
+                who wished to keep chains on men because their skins were black.</p>
+            <p>I might say more, but enough to satisfy you that I have a real sympathy with your
+                life's work, and that I regard your Leaves of Grass as being the most original of
+                American books.</p>
+            <p>If you would write your name upon my 1855 edition, which I intend to present to a
+                public library, I should send it to you. I should like the book to represent your
+                penmanship as well as your skill as a printer. Hoping you will be willing to render
+                me this service, I am, dear Poet, yours truly,</p>
+            <closer>
+                <signed>W. C. Angus</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

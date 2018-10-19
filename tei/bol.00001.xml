@@ -16,6 +16,7 @@
                     <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -48,27 +49,12 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Walt Whitman</author>
-                        <editor>Edwin Haviland Miller</editor>
-                        <title xml:id="ehm">The Correspondence</title>
-                        <imprint>
-                            <pubPlace>New York</pubPlace>
-                            <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">370</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-                <bibl>
+               <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Elizabeth &#38; Isabella Ford and Edward R. Pease, 28 May
                         [1884]</title>
                     <date cert="medium" when="1884-05-28" xml:id="dat1">May 28, 1884</date>
-                    <orgName xml:id="bol">Collection of Whitmaniana in the Reference Library,
-                        Bolton</orgName>
+                    <orgName xml:id="bol">Walt Whitman Collection, Bolton Central Library, Bolton, England</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,31 +72,30 @@
             </particDesc>   
         </profileDesc>
         <revisionDesc>
+            <change when="2015-09-07" who="#km">added image links and checked transcription against images</change>
             <change when="2015-07-23" who="#nhg">added correspondent ref</change>
-            <change when="2014-09-12" who="#ss">transcribed, encoded and partially
-            annotated</change>
+            <change when="2014-09-12" who="#ss">transcribed, encoded and partially annotated</change>
             <change when="2014-12-16" who="#kb">edited</change>
         </revisionDesc>
     </teiHeader>
 
     <text type="letter">
         <body>
-
+            <pb xml:id="leaf001r" facs="bol_ch.00001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">Camden New Jersey U S America </name>
+                    <name type="place">Camden New Jersey U S America</name>
                     <name type="place">328 Mickle Street</name>
-                    <date when="1884-05-28" rend="right">May 28, 1884</date>
+                    <date when="1884-05-28" rend="right"><hi rend="underline">May 28, 1884</hi><ptr target="bol.00001_n3"/></date>
                 </dateline>
             </opener>
 
-            <p>Your kind message received. I am as usual &#38; in good heart.<ptr
-                    target="bol.00001_n1"/></p>
+            <p>&#8212;Your kind message received. I am as usual &#38; in good heart.<ptr target="bol.00001_n1"/></p>
 
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
-
+            <pb xml:id="leaf001v" facs="bol_ch.00002_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

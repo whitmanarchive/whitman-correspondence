@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00823">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Sheridan Ford to Walt Whitman, 13 April 1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00823</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Horace Traubel</editor>
+                        <title xml:id="ht">With Walt Whitman in Camden</title>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>Small, Maynard &#38; Company</publisher>
+                            <date notBefore="1906" notAfter="1906">1906</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">496&#8211;497</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Sheridan Ford</author>
+                    <title>Sheridan Ford to Walt Whitman, 13 April 1888</title>
+                    <date cert="high" when="1888-04-13" xml:id="dat1">April 13, 1888</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender"> 
+                    <persName key="Ford, Sheridan" ref="n4312">Sheridan Ford</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-07" who="#smb">final check, corrected</change>
+            <change when="2016-07-31" who="#ss">second round of checks</change>
+            <change when="2016-06-03" who="#if">edited</change>
+            <change when="2015-12-07" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener> 
+                <dateline>
+                    <name type="place">New York,</name>
+                    <date when="1887-04-13">April 13, 1888.</date>
+                    <name type="place">Mr. Walt Whitman,<lb/>Camden, New Jersey.<ptr target="med.00823_n1"/></name>
+                </dateline>
+                <salute>My dear Sir:</salute>
+            </opener>
+            <p>Would you be willing to entertain a proposition to cross this Autumn to England and
+                deliver a course of lectures in a few of the larger cities?</p>
+            <p>From facts in my possession I am quite sure that you would be very successful for the
+                cultured class of Great Britain have an abiding interest in you and everything which
+                concerns you. I should be willing to guarantee you a stated sum or if you would
+                prefer it star you on a percentage. My friend and yours, R. Macaulay Stevenson<ptr
+                    target="n4298"/> of Glasgow, perhaps better known to you as "Calamus," thinks
+                that your reception throughout Scotland would partake of the character of an
+                ovation.</p>
+            <p>Pray let me hear from you, and you believe me, with sentiments of the deepest
+                respect,</p>
+            <closer>
+                <salute>Faithfully yours,</salute>
+                <signed>Sheridan Ford</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

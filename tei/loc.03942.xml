@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03942">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">M. H. Spielmann to Walt Whitman, 24 July 1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>M. H. Spielmann</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03942</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>M. H. Spielmann</author>
+                    <title>M. H. Spielmann to Walt Whitman, 24 July 1888</title>
+                    <date cert="high" when="1888-07-24" xml:id="dat1">July 24, 1888</date>
+                    <idno type="callno">MSS18630, Box 16</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Spielmann, M. H." ref="n4275">M. H. Spielmann</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2016-09-14" who="#cb">checked and corrected</change>
+            <change when="2016-06-13" who="#if">added notes</change>
+            <change when="2016-06-09" who="#if">edited</change>
+            <change when="2015-12-07" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jc.00333_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>MAGAZINE OF ART</name>
+                    <name type="place" rend="center"><handShift rend="printed"/>La Belle
+                        Sauvage,</name>
+                    <name type="place" rend="center"><handShift rend="printed"/>Ludgate Hill.</name>
+                    <name type="place" rend="center"><handShift rend="printed"/>London, E.C.</name>
+                    <date when="1888-07-24" rend="right"><handShift rend="manuscript"/>July 24th
+                            <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
+                </dateline>
+                <salute>Walt Whitman Esq.</salute>
+                <salute>Dear Sir,</salute>
+            </opener>
+            <p>After some months' delay I publish in this month's Magazine of Art (which will be <hi
+               rend="underline">next</hi> month's in America) your poem of "20 Years";<ptr target="loc.03942_n1"/> and I
+               should be glad to hear from you if you think the drawing in any way adequately
+               expresses your feelings.</p>
+            <p>In the hope that your health has improved</p>
+            <closer>
+                <salute>I remain,</salute>
+                <salute>Faithfully yours</salute>
+                <signed rend="right">M.H. Spielmann</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_jc.00336_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_jc.00334_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_jc.00335_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

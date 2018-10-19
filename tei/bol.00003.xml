@@ -15,6 +15,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -47,26 +48,11 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Walt Whitman</author>
-                        <editor>Edwin Haviland Miller</editor>
-                        <title xml:id="ehm">The Correspondence</title>
-                        <imprint>
-                            <pubPlace>New York</pubPlace>
-                            <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">402</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Elizabeth and Isabella Ford, 11 August [1885]</title>
                     <date cert="medium" when="1885-08-11" xml:id="dat1">August 11, 1885</date>
-                    <orgName xml:id="bol">Collection of Whitmaniana in the Reference Library
-                        Bolton</orgName>
+                    <orgName xml:id="bol">Walt Whitman Collection, Bolton Central Library, Bolton, England</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -83,6 +69,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-09-07" who="#km">added image links and checked transcription against images</change>
             <change when="2015-02-16" who="#kb">edited</change>
             <change when="2014-10-03" who="#ss">encoded and annotated from Miller.</change>
         </revisionDesc>
@@ -90,21 +77,22 @@
 
     <text type="letter">
         <body>
-
+            <pb xml:id="leaf001r" facs="bol_ch.00005_large.jpg" type="recto"/>
             <opener>
                 <dateline>
                     <name type="place">328 Mickle Street</name>
                     <name type="place">Camden New Jersey U S America</name>
-                    <date when="1885-08-11" rend="right">Aug: 11</date>
+                    <date when="1885-08-11" rend="right">Aug: 11<ptr target="bol.00003_n2"/></date>
                 </dateline>
             </opener>
-            <p>The letter from E[dward] C[arpenter] arrived, with contents&#8212;all safe. I return
+            
+            <p>&#8212;The letter from EC arrived,<ptr target="bol.00003_n3"/> with contents&#8212;all safe. I return
                 heartfelt thanks&#8212;am only middling well in health, but get about the house,
                 &#38; write a little<ptr target="bol.00003_n1"/>&#8212;</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
-
+            <pb xml:id="leaf001v" facs="bol_ch.00006_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI> 

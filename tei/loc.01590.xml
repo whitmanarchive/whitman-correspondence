@@ -10,7 +10,12 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="ec">Eric Conrad</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -42,29 +47,10 @@
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
             </publicationStmt>
-            <notesStmt>
-                <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> 
-                    <persName xml:id="el">Elizabeth Lorang</persName>
-                    <persName xml:id="zk">Zachary King</persName>
-                    <persName xml:id="ec">Eric Conrad</persName>
-                </note>
-            </notesStmt>
+
             <sourceDesc>
 
-                <biblStruct>
-                    <monogr>
-                        <author>Walt Whitman</author><editor>Edwin Haviland Miller</editor>
-                        <title xml:id="ehm">The Correspondence</title>
-                        <imprint>
-                            <pubPlace>New York</pubPlace>
-                            <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961–1977</date><biblScope type="volume">2</biblScope>
-                            <biblScope type="page">58–59</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
+                
 
                 <bibl>
                     <author>Walt Whitman</author>
@@ -72,6 +58,9 @@
                     <date cert="medium" when="1868-10-14" xml:id="dat1">October 14, 1868</date>
                     <idno type="callno">MSS18630, Box 9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.00505"/>
+                    <relatedItem type="document" target="wwa.00571"/>
+                    <note type="project" target="#rel01">On the back of the second leaf of this draft letter Whitman drafted poetic lines that were published posthumously as "[Nor Humility's Book]."</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,13 +70,16 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Doyle, Peter">Peter Doyle</persName>
+                    <persName key="Doyle, Peter" ref="n0752">Peter Doyle</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2018-05-15">added relatedItem encoding, updated transcription</change>
+            <change who="#nhg" when="2015-06-04">added images</change>
+            <change who="#ak" when="2015-05-20">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+<change when="2012-03-01" who="#kmp">blessed</change>
             <change when="2011-03-07" who="#el">checked</change>
             <change when="2010-10-23" who="#zk">encoded</change>
             <change when="2010-08-20" who="#ec">extracted transcription from Major Authors cd</change>
@@ -95,26 +87,27 @@
     </teiHeader>
 
     <text type="letter">
+        <pb xml:id="leaf001r" facs="loc.01514.001_large.jpg" type="recto"/>
         <body>
-
+<note type="authorial" place="top">8th letter</note>
             <opener>
                 <dateline>
-                    <date when="1868-10-14" rend="right">Oct. 14</date><ptr target="loc.01590_n1"/>
+                    <date when="1868-10-14" rend="right">Oct. 14</date>
                 </dateline>
                 <salute>Dear boy Pete,</salute>
             </opener>
 
-            <p>There is great excitement here over the returns of yesterday's elections, 
-                as I suppose there is the same in Washington also—the Democrats look blue enough, 
-                &amp; the Republicans are on their high horses.<ptr target="loc.01590_n2"/> I suppose Grant's success is now certain. 
+            <p>There is great excitement here over the returns of yesterdays elections, 
+                as I suppose there is the same in Washington also&#8212;the Democrats look blue enough, 
+                &amp; the Republicans are on their high horses.<ptr target="loc.01590_n2"/> I suppose Grants' success is now certain. 
                 As I write, the bands are out here, parading the streets, &amp; the drums beating. 
-                It is now forenoon. Tonight we will hear the big guns, &amp; see the blazing bonfires. 
+                It is now forenoon. To-night we will hear the big guns, &amp; see the blazing bonfires. 
                 It is dark &amp; cloudy weather here to-day. I was glad to get your letter of Friday, 
-                9th which is the last<ptr target="loc.01590_n3"/>—also a Star at same time. Also this morning, Star and Express 
-                to 12th. I suppose you rec'd mine of the 9th &amp; the papers. I am about as well as usual. 
-                Mother is well, &amp; my brothers the same. I am going to-morrow to Providence, R. I., 
+                9th which is the last<ptr target="loc.01590_n3"/>&#8212;also a Star at same time. Also this morning, Star <choice><orig>an</orig><reg>and</reg></choice> Express 
+                of 12th. I suppose you rec'd mine of the 9th &amp; the papers. I am about as well as usual. 
+                Mother is well, &amp; my brothers the same. I am going to-morrow to Providence, R. I. 
                 to spend a few days. Should you write any time within four or five days after receiving this, 
-                direct to me <hi rend="italic">care of Hon. Thomas Davis, Providence, R. I.</hi><ptr target="loc.01590_n4"/>
+                direct to me, <hi rend="underline">care of Hon. Thomas Davis, Providence, R. I.</hi><ptr target="loc.01590_n4"/>
             </p>
             
             <p>My friend O'Connor is quite unwell, and is absent from Washington away down 
@@ -122,17 +115,20 @@
                 I believe I told you I was finishing up about 230 copies of my book, 
                 expecting to sell them. I have had them finished up &amp; bound &amp;c. but there 
                 is a hitch about the sale, &amp; I shall not be able to sell them at present. 
-                There is a pretty strong enmity here toward me, &amp; L. of G., among certain classes—not only that it is a great mess of crazy talk &amp; hard words, all tangled up, 
-                without sense or meaning, (which by the by is, I believe, your judgment about it)—but others sincerely think that it is a bad book, improper, &amp; ought to be denounced 
+                There is a pretty strong enmity here toward me, &amp; L. of G., among certain classes<!--WW includes a paragraph on the last page of this letter, marked with an asterisk-->&#8212;not only that it is a great mess of crazy talk &amp; hard words, all tangled up, 
+                without sense or meaning, (which by the by is, I believe, your judgment about it)&#8212;but others sincerely think that it is a bad book, improper, &amp; ought to be denounced 
                 &amp; put down, &amp; its author along with it. There are some venemous but laughable 
                 squibs occasionally in the papers. One said I had received 25 guineas for a piece 
                 in an English magazine, but that it was worth all that for any one to read it. 
-                Another, the <hi rend="italic">World</hi>, said "Walt Whitman was in town yesterday, carrying the 
-                blue cotton umbrella of the future."<ptr target="loc.01590_n6"/> (It had been a drizzly forenoon)—So they go it. 
+                Another, the 
+                <pb xml:id="leaf001v" facs="loc.01514.002_large.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc.01514.003_large.jpg" type="recto"/>
+                <hi rend="underline">World</hi>, said "Walt Whitman was in town yesterday, carrying the 
+                blue cotton umbrella of the future."<ptr target="loc.01590_n6"/> (It had been a drizzly forenoon)&#8212;So they go it. 
                 When they get off a good squib, however, I laugh at it, just as much as any one.
             </p>
             
-            <p>Dear Pete, I hope this will find you well &amp; in good spirits. Dear boy, 
+            <p>Dear Pete I hope this will find you well &amp; in good spirits. <!--The following line is moved up by an asterisk-->Dear boy, 
                 I send you my love. I will write you a line from Providence. So long, Pete.
             </p>
 
@@ -140,10 +136,11 @@
                 <signed rend="right">Walt</signed>
             </closer>
             
-            <postscript>
-                <p>I have been debating whether to get my leave extended, &amp; stay till election day to vote—or whether to pair off with a Democrat, &amp; return (which will amount to the same thing.) 
+            <postscript> 
+                <p>I have been debating whether to get my leave extended, &amp; stay till election day to vote&#8212;or whether to pair off with a Democrat, &amp; return, (which will amount to the same thing.) 
                     Most likely I shall decide on the latter, but don't know for certain.<ptr target="loc.01590_n7"/></p>
             </postscript>
+            <pb xml:id="leaf002v" facs="loc.01514.004_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
