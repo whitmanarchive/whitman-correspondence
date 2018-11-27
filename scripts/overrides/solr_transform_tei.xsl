@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
   xpath-default-namespace="http://www.whitmanarchive.org/namespace"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,7 +9,7 @@
   <!--                               IMPORTS                                -->
   <!-- ==================================================================== -->
 
-  <xsl:import href="../../whitman-scripts/solr/whitman_to_solr.xsl"/>
+  <xsl:import href="../../../whitman-scripts/solr/whitman_to_solr.xsl"/>
 
   <xsl:output indent="yes" omit-xml-declaration="yes"/>
 
@@ -19,9 +20,6 @@
   <!-- Defined in project config files -->
   <xsl:param name="fig_location"/>  <!-- url for figures -->
   <xsl:param name="file_location"/> <!-- url for tei files -->
-  <xsl:param name="figures"/>       <!-- boolean for if figs should be displayed (not for this script, for html script) -->
-  <xsl:param name="fw"/>            <!-- boolean for html not for this script -->
-  <xsl:param name="pb"/>            <!-- boolean for page breaks in html, not this script -->
   <xsl:param name="project"/>       <!-- longer name of project -->
   <xsl:param name="slug"/>          <!-- slug of project -->
   <xsl:param name="site_url"/>
@@ -110,13 +108,13 @@
       <xsl:variable name="ptr_target">
         <xsl:value-of select="@target"></xsl:value-of>
       </xsl:variable>
-      <xsl:value-of select="document('notes.xml')//body/descendant::note[@xml:id=$ptr_target]"/><xsl:text>&#13;</xsl:text>
+      <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target]"/><xsl:text>&#13;</xsl:text>
     </xsl:for-each>
     <xsl:for-each select="//profileDesc//persName[@ref]">
       <xsl:variable name="ref_target">
         <xsl:value-of select="@ref"/>
       </xsl:variable>
-      <xsl:value-of select="document('notes.xml')//body/descendant::note[@xml:id=$ref_target]"/><xsl:text>&#13;</xsl:text>
+      <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ref_target]"/><xsl:text>&#13;</xsl:text>
     </xsl:for-each>
   </xsl:template>
 

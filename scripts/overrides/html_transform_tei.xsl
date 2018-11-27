@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet exclude-result-prefixes="xs" version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xpath-default-namespace="http://www.whitmanarchive.org/namespace">
 
-  <xsl:import href="../../whitman-scripts/html/whitman_to_html.xsl"/>
+  <xsl:import href="../../../whitman-scripts/html/whitman_to_html.xsl"/>
   
   <!-- overrides -->
 
@@ -41,7 +41,7 @@
                   <xsl:text>Correspondent:</xsl:text>
                 </em>
                 <br/>
-                <xsl:apply-templates select="document('notes.xml')//body/descendant::note[@xml:id=$pers_target]"/>
+                <xsl:apply-templates select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$pers_target]"/>
               </p>
             </xsl:for-each>
           </xsl:when>
@@ -55,7 +55,7 @@
                 <xsl:variable name="pers_target">
                   <xsl:value-of select="@ref"/>
                 </xsl:variable>
-                <xsl:apply-templates select="document('notes.xml')//body/descendant::note[@xml:id=$pers_target]"/>
+                <xsl:apply-templates select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$pers_target]"/>
                 <br/>
                 <xsl:if test="following-sibling::persName[@ref]">
                   <br/>
@@ -85,7 +85,7 @@
               </xsl:attribute>
               <xsl:number count="//body//ptr" level="any"/>
               <xsl:text>. </xsl:text>
-              <xsl:apply-templates select="document('notes.xml')//body/descendant::note[@xml:id=$ptr_target]"/>
+              <xsl:apply-templates select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target]"/>
               <a>
                 <xsl:attribute name="href">#r<xsl:number count="//body//ptr" level="any"/></xsl:attribute>[back]
               </a>
