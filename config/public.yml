@@ -24,3 +24,10 @@ production:
     project: The_Walt_Whitman_Archive
     slug: whitman-correspondence
     site_url: https://whitmanarchive.org
+
+grant:
+  # NOTE: different collection name!!!
+  collection: whitman-grant
+  es_path: https://whitman-dev.unl.edu/elastic
+  es_index: api_v1
+  site_url: https://whitmanarchive.org
