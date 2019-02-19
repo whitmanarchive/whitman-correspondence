@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,32 +41,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">169</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 9 May 1873</title>
                <date when="1873-05-09">May 9, 1873</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-11">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -82,7 +70,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00517.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">St. Louis </name>
@@ -92,14 +80,14 @@
             </opener>
             <p>I received your letter and I do not think you can form an idea how very badly I feel to hear that you are not recovering faster.<ptr target="loc.00473_n1"/> I do so sincerely hope that you are right in your theory that the slow recovery indicates permanency&#8212;I hope to God, my dear Brother that you may permanently recover&#8212;</p>
             <p>Not much new with me&#8212;I have had several outside jobs lately that will pay me I think in time but so far they are only sources of investment</p>
-            <p>How do you get along on money matters? do not fail to let me know if you have any prospect of being short  I read with much regret mother's statement about the eating at George's,<ptr target="loc.00473_n2"/>  it does seem too bad that with every chance to make things good and happy they should fail so completely on so small a cause. I hope you may carry out your idea of getting a little place in Washington and have Mother live there  It would be happiness indeed for her, and for you too for that matter</p>
+         <p>How do you get along on money matters? do not fail to let me know if you have any prospect of being short  <pb xml:id="leaf001v" facs="loc_ad.00518.jpg" type="verso"/>I read with much regret mother's statement about the eating at George's,<ptr target="loc.00473_n2"/>  it does seem too bad that with every chance to make things good and happy they should fail so completely on so small a cause. I hope you may carry out your idea of getting a little place in Washington and have Mother live there  It would be happiness indeed for her, and for you too for that matter</p>
             <p>I cannot understand how it is that Loo is so stingy nor how it is that George does not correct it<ptr target="loc.00473_n3"/>&#8212;I would suppose he would (and naturally he is so) prevent it at once</p>
-            <p>Hattie wrote you a few days ago&#8212;I hope you have it ere this</p>
+         <p>Hattie wrote you a few <pb xml:id="leaf002r" facs="loc_ad.00519.jpg" type="recto"/>days ago&#8212;I hope you have it ere this</p>
             <p>Write me when you can and let me know if you are in want of a little money</p>
             <closer rend="right">
                <signed>Affectionately Jeff</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="loc_ad.00520.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

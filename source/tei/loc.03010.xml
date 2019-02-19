@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03010"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William Sloane Kennedy to Walt Whitman, [23 May
+                    1889]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William Sloane Kennedy</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03010</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William Sloane Kennedy</author>
+                    <title>William Sloane Kennedy to Walt Whitman, [23 May 1889]</title>
+                    <date cert="medium" when="1889-05-23" xml:id="dat1">[May 23, 1889]</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace
+                    Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane
+                        Kennedy</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2018-10-04" who="#smb">final check, corrected, added notes</change>
+            <change when="2018-09-17" who="#blh">Second check</change>
+            <change when="2018-07-16" who="#aa">Checked and corrected</change>
+            <change when="2017-05-05" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body> 
+            <pb xml:id="leaf001v" facs="loc_as.00011_large.jpg" type="verso"/>
+            <opener>
+                <dateline>
+                    <date when="1889-05-23"/>
+                </dateline>
+                <salute>Dear W.W.:<ptr target="loc.03010_n1"/>&#8212;</salute>
+            </opener>
+            <p>No I have not sent St<ptr target="n1043"/> the card. I had rather not, on second
+                thought. It wd only make matters worse.</p>
+            <p>I fear I can't get to Camden on the 31, but am going to send a word for Traubel,<ptr
+                target="n4267"/> for the dinner speech dept.<ptr target="loc.03027_n4"/> Wish you w<hi
+                    rend="underline">d</hi> tell him so for me, please. I much fear that the
+                excitement will be too much for you. Look out!</p>
+            <closer>
+                <salute>affec. as ever</salute>
+                <signed>W.S.K.</signed>
+            </closer>
+            <pb xml:id="leaf001r" facs="loc_as.00010_large.jpg" type="recto"/>
+            <note type="editorial" place="left" resp="#ht">See notes May 25, '89</note>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00625"> 
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 3 February
+                    1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00625</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Richard Maurice Bucke</author>
+                        <editor>Artem Lozynsky</editor>
+                        <title xml:id="ehm">The Letters of Dr. Richard Maurice Bucke to Walt
+                            Whitman</title>
+                        <imprint>
+                            <pubPlace>Detroit</pubPlace>
+                            <publisher>Wayne State University Press</publisher>
+                            <date notBefore="1977" notAfter="1977">1977</date>
+                            <biblScope type="page">107</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 3 February 1889</title>
+                    <date cert="high" when="1889-02-03" xml:id="dat1">February 3, 1889</date>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
+                        American Literature, New York Public Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-11-02" who="#blh">first check</change>
+            <change when="2017-02-06" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">[London, Ont.,]</name>
+                    <date when="1889-02-03">3 Feb [188]9</date>
+                </dateline>
+            </opener>
+            <p>Your last letter, dear Walt, that of 31<hi rend="underline">st</hi> of January,<ptr
+                    target="nyp.00625_n1"/> is very cheering, it has quite set me up, and really I
+                do not see why you should not go on for quite a while and have a middling good time
+                especially when the pleasant weather comes. I feel more and more that you <hi
+                    rend="underline">must</hi> get out in the spring and that the new leaves &#38;
+                flowers will be your best medicine. Ed Carpenter's<ptr target="n0141b"/> piece is
+                    <hi rend="underline">good</hi>,<ptr target="nyp.00625_n2"/> I have written him a
+                line. I have still only looked into Sarrazin's<ptr target="n3115"/> piece. Am fairly
+                stuck fast for <hi rend="underline">time</hi> to do anything since the fire. I will
+                gladly make an abstract of Sarrazin's piece but want to see Kennedy's<ptr
+                    target="n3039"/> and if that is sufficient there is no need of me doing it over
+                again&#8212;we shall see.<ptr target="nyp.00625_n3"/> It seems as if the fire and
+                matters arrising out of it will keep Gurd<ptr target="n4284"/> and self back still
+                another week. [W]e have set now 18<hi rend="underline">th</hi> inst. for our trip
+                East. I trust it will not be delayed beyond that date. I am more than ever enxious
+                to get on with the meter now as Traubel<ptr target="n4267"/> is out of a job and I
+                want the meter to furnish him one [&#8212;] I have every confidence that it will do
+                so. [&#8212;] We have glorious sleighing here now and I am enjoying it greatly, I
+                get out every day about 4.30 till 6. and sometimes (in the way of business) get
+                other drives. Today is charming [.] I should like to be out the whole of it! but I
+                am on duty&#8212;no clergiman this morning so I had to preach! I am supposed to know
+                every thing and do every thing and I just put a good face on it and get through the
+                best I can.</p>
+            <closer>
+                <salute>Love to you</salute>
+                <signed>R M Bucke</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -13,6 +13,7 @@
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="ct">Cathy Tisch</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName>
@@ -67,7 +68,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -75,6 +76,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
+            <change when="2015-01-16" who="#ak">added Bucke handnote</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-07" who="#el">added note about not having image of verso</change>
             <change when="2013-11-05" who="#el">final check</change>
@@ -96,7 +99,7 @@
                 <salute>My dear beloved son<ptr target="duk.00632_n4"/></salute>
             </opener>
             <p><choice><orig>dont</orig> <reg>don't</reg></choice> be worried
-            about me<ptr target="duk.00425_n3"/> i hope i shall be all right again
+            about me i hope i shall be all right again
             my <choice><orig>nervious</orig><reg>nervous</reg></choice> system is very much out of
             order i know i have brought in on by
             worrying but i <choice><orig>cant</orig> <reg>can't</reg></choice> seem to get over it
@@ -114,7 +117,8 @@
             be glad <choice><orig>george</orig><reg>George</reg></choice><ptr target="duk.00597_n3"/> is good to me but he <choice><orig>aint</orig> <reg>ain't</reg></choice>
             home much of his time</p>
             <p>you must come on the 1 of the month</p>
-            <pb xml:id="leaf001v" type="recto"/>
+            <pb xml:id="leaf002r" facs="duk.00632_related_large.jpg" type="recto"/>
+            <note type="editorial" resp="#rmb">1873 Winter End</note>
         </body>
     </text>
 </TEI>

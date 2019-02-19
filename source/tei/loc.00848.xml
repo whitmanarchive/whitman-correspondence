@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
@@ -59,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-26">corrected pbs and transcription</change>
          <change who="#nhg" when="2014-08-23">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -72,7 +74,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-            <pb facs="loc.00848.001.jpg" xml:id="leaf001r" type="recto"/>
+            <pb facs="loc.00848.003.jpg" xml:id="leaf001r" type="recto"/>
                             
             <opener rend="right">                    
                <dateline>                        
@@ -82,19 +84,23 @@
                     <salute>Walter Whitman Esq.</salute>
                     <salute>Dear Sir:</salute>
                 </opener>
-         <p>I<ptr target="loc.00848_n100"/> trust you will pardon the liberty I have taken to trouble you with a matter of no personal interest to yourself.  My excuse for writing to you is, that it is a matter of the utmost importance to a client of mine.  The Deed executed to Lazarus Wineburgh in 1854 does not express the consideration money.  Wineburgh has recently effected a sale of the propery conveyed by that Deed; but objection is made to the title on the grounds of such omission.</p>
-            <p>I have drawn another Deed which I send together with the old one. Will you be so kind as to execute this new Deed before a Commissioner of Deeds for the <pb facs="loc.00848.002.jpg" xml:id="leaf001v" type="verso"/>State of New York; and Mr Wineburgh will be under the greatest obligation to you.  
+         <p>I trust you will pardon the liberty I have taken to trouble you with a matter of no personal interest to yourself.  My excuse for writing to you is, that it is a matter of the utmost importance to a client of mine.</p>
+         <p>The Deed executed to Lazarus Wineburgh<ptr target="loc.00848_n100"/> in 1854 does not express the consideration money.  Wineburgh has recently effected a sale of the property conveyed by that Deed; but objection is made to the title on the grounds of such omission.</p>
+            <p>I have drawn another Deed which I send together with the old one. Will you be so kind as to execute this new Deed before a Commissioner of Deeds for the <pb facs="loc.00848.004.jpg" xml:id="leaf001v" type="verso"/>State of New York; and Mr Wineburgh will be under the greatest obligation to you.  
 As the execution of this deed and its speedy return is of great importance to Wineburgh, I respectfully request that you execute it at your earliest convenience.</p>
             <p>If you will inform us what your charges and disbursements are we will remit by return of mail, or will arrange the matter on your return to this city.</p>
             <closer rend="right">
                <salute>Yours most respectfully,</salute>
                <signed>Fred'k. Baker,</signed>
-               <name type="place">15 Nassau St.</name>
-               <name type="place">N.Y.</name>
+               <address>
+                  <addrLine>15 Nassau St.</addrLine>
+                  <addrLine>N.Y.</addrLine>
+               </address>
+               
             </closer>
          
          <pb facs="loc.00848.003.jpg" xml:id="leaf002r" type="recto"/>
-         <pb facs="loc.00848.004.jpg" xml:id="leaf002v" type="verso"/>
+         <pb facs="loc.00848.002.jpg" xml:id="leaf002v" type="verso"/>
       </body>
    </text>
 </TEI>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -46,14 +47,14 @@
                <author>Dr. Le Baron Russell</author>
                <title>Dr. Le Baron Russell to Walt Whitman, 8 November 1863</title>
                <date when="1863-11-08">November 8, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Russell, Le Baron">Dr. Le Baron Russell</persName>
+               <persName key="Russell, Le Baron" ref="tex.00134_n100">Dr. Le Baron Russell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -61,6 +62,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-10">corrected orgName</change>
          <change who="#nhg" when="2014-09-22">corrected date information</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -78,7 +80,7 @@
             <opener> 
                <salute>Dear Sir:</salute>
             </opener>
-         <p>I<ptr target="tex.00134_n100"/> received the other day from a "Breckinridge Democrat," now converted, the inclosed sum of twenty dollars, after he had read your letter.</p>
+         <p>I received the other day from a "Breckinridge Democrat," now converted, the inclosed sum of twenty dollars, after he had read your letter.</p>
             <p>I have not lately made any requests of my friends for more thinking you perhaps were well supplied for the present. I shall be happy to hear from you again, &amp; I think I can find more friends hereafter if you should need them.</p>
             <p>I send this by a check &amp; I presume they will cash it for you at Willards<ptr target="tex.00134_n2"/> where they know me.
             </p>

@@ -13,6 +13,7 @@
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName>
@@ -68,7 +69,7 @@
            </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -76,6 +77,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-07" who="#el">added note about missing verso leaf</change>
             <change when="2013-11-05" who="#el">final check</change>
@@ -120,7 +122,7 @@
             and there <choice><orig>seemes</orig> <reg>seemes</reg></choice> to be A lull
             in the confusion so I thought I
             would take the chance to write A few
-            lines<ptr target="duk.00425_n3"/>
+            lines
                 to say I received your
             letter on <choice><orig>wensday</orig> <reg>Wednesday</reg></choice> and the money
                 all safe so on the <choice><orig>strenght</orig> <reg>strength</reg></choice> of

@@ -67,7 +67,7 @@
                     <persName key="Costelloe, Mary Whitall Smith" ref="loc.02189_n1">Mary Whitall Smith Costelloe</persName>
                 </person>
             </particDesc>
-        </profileDesc>
+        </profileDesc> 
         <revisionDesc>
             <change when="2015-03-16" who="#kb">edited</change>
             <change when="2014-10-12" who="#ss">encoded and annotated from Miller.</change>
@@ -78,7 +78,6 @@
         <body>
             
             <pb xml:id="leaf001r" facs="loc.01350.002_large.jpg" type="recto"/>
-            <pb xml:id="leaf001v" facs="loc.01350.001_large.jpg" type="verso"/>
             <opener>
                 <dateline>
                     <name type="place">328 Mickle Street</name>
@@ -99,6 +98,7 @@
             <closer>
                 <signed>W W</signed> 
             </closer>
+            <pb xml:id="leaf001v" facs="loc.01350.001_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>   

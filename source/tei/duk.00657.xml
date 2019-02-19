@@ -47,6 +47,7 @@
           changes to this file, as noted: 
 <persName xml:id="kmp">Kenneth M. Price</persName>
 <persName xml:id="el">Elizabeth Lorang</persName>
+          <persName xml:id="ak">Alex Kinnaman</persName>
           <persName xml:id="kk">Kathryn Kruger</persName>
           <persName xml:id="zk">Zachary King</persName>
           <persName xml:id="ec">Eric Conrad</persName>
@@ -84,11 +85,12 @@
            <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Eldridge, Charles W.">Charles W. Eldridge</persName>
+          <persName key="Eldridge, Charles W." ref="n0210">Charles W. Eldridge</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change who="#ak" when="2015-05-14">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-05-18" who="#kmp">blessed</change>
       <change when="2011-10-31" who="#kk">checked</change>

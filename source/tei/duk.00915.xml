@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00915">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William Sloane Kennedy, 25 February
+                    1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00915</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="page">295</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Sloane Kennedy, 25 February 1889</title>
+                    <date cert="high" when="1889-02-25" xml:id="dat1">February 25, 1889</date>
+                    <idno type="callno"/>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare
+                        Book &#38; Manuscript Library, Duke University</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane
+                        Kennedy</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-02-24" who="#bbb">Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1889-02-25">Evn'g Feb: 25 '89</date>
+                </dateline>
+                <salute/>
+            </opener>
+
+            <p>Yours of 22d rec'd<ptr target="duk.00915_n1"/>&#8212;I send the little German trans:
+                from Zurich (At y'r leisure, give me a sort of English abstract of Knortz's and
+                Rolleston's prefaces in front)<ptr target="duk.00915_n2"/>&#8212;I am quite
+                unwell&#8212;Dr B[ucke]<ptr target="n0019"/> will probably be here to-morrow evn'g&#8212;I have rec'd a
+                letter f'm Sarrazin Paris<ptr target="duk.00915_n3"/>&#8212;he has the big "complete" book&#8212;his book
+                (with L of G. &#38;c article) will be out soon &#38; he will send me one, wh' I will
+                lend you&#8212;I suppose you rec'd the Dr B trans: of S I sent&#8212;</p>
+
+
+
+            <closer>
+                <salute/>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

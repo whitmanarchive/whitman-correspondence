@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,26 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">87-88</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 25 February 1863</title>
                <date when="1863-02-25">February 25, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library
-</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +60,7 @@ Manuscript, and Special Collections Library
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-27">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -85,7 +72,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00340.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Camp of 51st Regt.N.Y.V.<lb/>Newport News Va</name>
@@ -93,8 +80,8 @@ corrections</change>
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-            <p>I have not written to you in quite a long time, as I have been waiting to find out something deffinite, about my chances of getting home for a few days. Just before we left Falmouth, Gen. Hooker<ptr target="duk.00340_n1"/> issued an order alowing, two officers, at a time, from each Regt to go home for 10 days, but after the first two, from our Regt. got off, we were ordered here, and as Gen. Dix<ptr target="duk.00340_n2"/> is in command of this Department,  of course we are subject to his orders and as soon as we got here what does Dix do but issue an order, saying that no furloughs would be granted, unless to save life or something of that kind. Mother you have no idea how hard it is, for a feller, (that tries to do his duty) to get any favors of that kind. There is a lot of dead beats that get off by playing sick, but a chap that eats as much and looks as hearty as I do dont stand much site at that. Gen. Smith<ptr target="duk.00340_n3"/> who is in command of our Army Corps, said the other day he would see Dix and try and get permission to give our Corps furloughs on his own hook. If Smith succeeds, I shall probaly get a chance to come home before many days, but there is so much red tape and fuss that a fellow cant make much calculation on whats going to be done. Mother you dont know how I want to see you all, and if I can get home if only for ten days, it will be a great treat, and the way I will make the buckwheat cakes suffer will be a caution. Another thing I want to come home for is to get a suit of Clothes as the ones I have are getting pretty seedy and if I dont get home soon I have been thinking of getting measured here and sending on to Walt or Jeff to have me a suit made. Mother how are the Bank funds  are they getting low. I suppose the clothes would cost near $50 and if the funds are low I will wait untill we are paid, which I hope will be before a great while,  write me Mother as soon as you get this and let me know how things are with you. I shall have about $500 comeing at the end of this Month. I got a letter from Jeff last week saying that he had sent $20 to me and yesterday I went down to Fortress Monroe to the Express office and got the money,  the best way is to send on (by mail) the receipt that you get from the Express Co. as it is against the rules of the Co here to deliver the package without you have it.</p>
-            <p>We have first rate quarters here and are liveing tip top. we can buy plenty of fish, and oysters, butter, or almost anything else in the way of grub. I have a bran new tent and when I get it fixed up to suit me, I will have a house good enough for any one. I got a letter from Walt last night,  he appears to be getting along well. We have had a grand revieu to day of the 9th Army Corps Old Dix was the big gun of the occasion and the 9th never made a better appearance. Our Regt could only muster 140 men, but when we came along with our old flag all torn to peices I saw the old Gen. eye the flag and Regt and shake his head,  Mother you havent written to me in a long while  I hope you are entirely well of the cold you had when you last wrote.</p>
+         <p>I have not written to you in quite a long time, as I have been waiting to find out something <choice><sic>deffinite</sic><corr>definite</corr></choice>, about my chances of getting home for a few days. Just before we left Falmouth, Gen. Hooker<ptr target="duk.00340_n1"/> issued an order <choice><sic>alowing</sic><corr>allowing</corr></choice>, two officers, at a time, from each Regt to go home for 10 days, but after the first two, from our Regt. got off, we were ordered here, and as Gen. Dix<ptr target="duk.00340_n2"/> is in command of this Department,  of course we are subject to his orders and as soon as we got here what does Dix do but issue an order, saying that no furloughs would be granted, unless to save life or something of that kind. Mother <pb xml:id="leaf001v" facs="duk.00340.002_large.jpg" type="verso"/>you have no idea how hard it is, for a feller, (that tries to do his duty) to get any favors of that kind. There is a lot of dead beats that get off by playing sick, but a chap that eats as much and looks as hearty as I do <choice><sic>dont</sic><corr>don't</corr></choice> stand much site at that. Gen. Smith<ptr target="duk.00340_n3"/> who is in command of our Army Corps, said the other day he would see Dix and try and get permission to give our Corps furloughs on his own hook. If Smith succeeds, I shall <choice><sic>probaly</sic><corr>probably</corr></choice> get a chance to come home before many days, but there is so much red tape and fuss that a fellow cant make much calculation on whats going to be done. Mother you <choice><sic>dont</sic><corr>don't</corr></choice> know how I want to see you all, and if I can get home if only for ten days, it will be a great treat, and the way I will make the buckwheat cakes <pb xml:id="leaf002r" facs="duk.00340.003_large.jpg" type="recto"/>suffer will be a caution. Another thing I want to come home for is to get a suit of Clothes as the ones I have are getting pretty seedy and if I <choice><sic>dont</sic><corr>don't</corr></choice> get home soon I have been thinking of getting measured here and sending on to Walt or Jeff to have me a suit made. Mother how are the Bank funds  are they getting low. I suppose the clothes would cost near $50 and if the funds are low I will wait <choice><sic>untill</sic><corr>until</corr></choice> we are paid, which I hope will be before a great while,  write me Mother as soon as you get this and let me know how things are with you. I shall have about $500 <choice><sic>comeing</sic><corr>coming</corr></choice> at the end of this Month. I got a letter from Jeff last week saying that he had sent $20 to me and yesterday I went down to Fortress Monroe to the Express office and got the money,  the best way is to send <pb xml:id="leaf002v" facs="duk.00340.004_large.jpg" type="verso"/>on (by mail) the receipt that you get from the Express Co. as it is against the rules of the Co here to deliver the package without you have it.</p>
+            <p>We have first rate quarters here and are <choice><sic>liveing</sic><corr>living</corr></choice> tip top. we can buy plenty of fish, and oysters, butter, or almost anything else in the way of grub. I have a bran new tent and when I get it fixed up to suit me, I will have a house good enough for any one. I got a letter from Walt last night,  he appears to be getting along well. We have had a grand review to day of the 9th Army Corps Old Dix was the big gun of the occasion and the 9th never made a better appearance. Our Regt could only muster 140 men, but when we came along with our old flag all torn to <choice><sic>peices</sic><corr>pieces</corr></choice> I saw the old Gen. eye the flag and Regt and shake his head,  Mother you <choice><sic>havent</sic><corr>haven't</corr></choice> written to me in a long while  I hope you are entirely well of the cold you had when you last wrote.</p>
             <closer rend="left">
                <signed>good night all   much love   G W Whitman</signed>
             </closer>

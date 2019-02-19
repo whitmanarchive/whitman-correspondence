@@ -11,11 +11,13 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
                <persName xml:id="hb">Heidi Bean</persName>
                <persName xml:id="nk">Nick Krauter</persName>
+               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -41,31 +43,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="cl">Calamus Lovers: Walt Whitman's Working-Class Camerados</title>
-                  <imprint>
-                     <pubPlace>San Francisco</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1987</date>
-                     <biblScope type="page">46</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Fred Vaughan</author>
                <title>Fred Vaughan to Walt Whitman, 9 April 1860</title>
                <date when="1860-04-09">April 9, 1860</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Vaughan, Fred">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred" ref="loc.00570_n100">Fred Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +62,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#km" when="2015-10-13">deleted an unneeded note for "Mrs. Cooper"</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-14">proofreading changes</change>
@@ -86,11 +76,18 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
-         <p>How is this, Walt? I<ptr target="loc.00570_n100"/> have written to you twice since I heard from you.<ptr target="loc.00570_n2"/> Why don't you answer? How about them proof sheets?<ptr target="loc.00570_n3"/> I have not seen any of them yet. Come, Walt, remember I take a deep interest in all that concerns you and must naturally be anxious to hear from you. Mrs Cooper<ptr target="loc.00570_n4"/> and Robert<ptr target="loc.00570_n5"/> keep asking me every evening "if I have heard from Walt yet." and if you do not write to me soon I am afraid I shall be under the <hi rend="italic">painful</hi> necessity of telling a lie to keep up your reputation.&#8212;</p>
-            <p>There is nothing new here.&#8212;The weather was disgusting both yesterday and today wet, muddy and chilly.&#8212;Did you see the Sunday Courier of April first? It contains an article on "Yankee Bards and New York Critics."&#8212;Get it if you can there, if not let me know &amp; I will send it to you. It gives a good description of the Bohemian Club at Pfaffs<ptr target="loc.00570_n6"/> in which you are set down as the grand master of ceremonies. Our folks have shifted me once more. I am now back again in my old position at 168 Broadway, behind the desk.&#8212;So please address me here.&#8212;Mrs. Cooper and Robert send their love and best wishes.&#8212;Write soon and do not forget those sheets. Your friend, "Fred."</p>
+         <pb xml:id="leaf001r" facs="loc_vm.00782.jpg" type="recto"/>
+         <opener>
+            <dateline>
+               <name type="place">New York</name>
+               <date when="1860-04-09">April 9th</date>
+            </dateline>
+         </opener>
+         <p>How is this, Walt? I have written to you twice since I heard from you.<ptr target="loc.00570_n2"/> Why don't you answer? How about them proof sheets?<ptr target="loc.00570_n3"/> I have not seen any of them yet. Come, Walt, remember I take a deep interest in all that concerns you and must naturally be anxious to hear from you. Mrs Cooper and Robert<ptr target="loc.00569_n4"/> keep asking me every evening "if I have heard from Walt yet." and if you do not write to me soon I am afraid I shall be under the <hi rend="italic">painful</hi> necessity of telling a lie to keep up your reputation.&#8212;</p>
+         <p>There is nothing new here.&#8212;The weather was disgusting both yesterday and today wet, muddy and chilly.&#8212;Did you see the Sunday Courier of April first? It contains an article on "Yankee Bards and New York Critics."&#8212;Get it if you can there, if not let me know &amp; I will send it to you. It gives a good description of the Bohemian Club at Pfaffs<ptr target="loc.00570_n6"/> in which you are set down as the grand master of ceremonies. Our folks have <pb xml:id="leaf001v" facs="loc_vm.00783.jpg" type="verso"/>shifted me once more. I am now back again in my old position at 168 Broadway, behind the desk.&#8212;So please address me here.&#8212;Mrs. Cooper and Robert send their love and best wishes.&#8212;Write soon and do not forget those sheets. Your friend, "Fred."</p>
             <closer rend="right"/>
-         
+         <pb xml:id="leaf002r" facs="loc_vm.00784.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_vm.00785.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

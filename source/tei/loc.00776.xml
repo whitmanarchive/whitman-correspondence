@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -41,25 +42,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">116-117</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 10 July 1863</title>
                <date when="1863-07-10">July 10, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-18">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-08-20">proofread and modified</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.01792_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington,</name>
@@ -93,8 +81,8 @@
                </dateline>
                <salute>Dear mother,</salute>
             </opener>
-            <p>I suppose you rec'd a letter from me last Wednesday as I sent you one Tuesday, (7th)&#8212;dear mother, I was glad enough to hear from George, by that letter from Snyder's Bluffs, June 28th&#8212;I had felt a little fear on acc't of some of those storming parties Grant sent against Vicksburgh the middle of June &amp; up to the 20th&#8212;but this letter dispels all anxiety&#8212;I have written to George many times, but it seems he has not got them&#8212;Mother, I shall write immediately to him again&#8212;I think he will get the letter I sent last Sunday, as I directed it to Vicksburgh&#8212;I told him all the news from home. Mother, I shall write to Han &amp; inclose George's letter&#8212;I am real glad to hear from Mat &amp; the little one, all so favorable&#8212;We are having pleasant weather here still&#8212;I go to Campbell Hospital this afternoon&#8212;I still keep going, mother&#8212;the wounded are doing rather badly I am sorry to say, there are frequent deaths. The weather, I suppose, which has been peculiarly bad for wounds, so wet &amp; warm, (though not disagreeable outdoors)&#8212;</p>
-            <p>Mother, you must write as often as you can, &amp; Jeff too&#8212;you must not get worried about the ups &amp; downs of the war&#8212;I don't know any course but to resign onesself to events&#8212;if one can only bring one's mind to it&#8212;Good bye once more for the present, dearest mother, Mat &amp; the dear little ones.</p>
+         <p>I suppose you rec'd a letter from me last Wednesday as I sent you one Tuesday, (7th)&#8212;dear mother, I was glad enough to hear from George, by that letter from Snyder's Bluffs, June 28th&#8212;I had felt a little fear on acc't of some of those storming parties Grant sent against Vicksburgh the middle of June &amp; up to the 20th&#8212;but this letter dispels all anxiety&#8212;I have written to George many times, but it seems he has not got them&#8212;Mother, I shall write immediately to him again&#8212;I think he will get the letter I sent last Sunday, as I directed it to Vicksburgh&#8212;I told him all the news from home. Mother, I shall write to Han &amp; inclose George's letter&#8212;I am real glad to hear from Mat &amp; the little one, all so favorable&#8212;We are having pleasant weather here still&#8212;I go to Campbell Hospital this afternoon&#8212;I still keep going, mother&#8212;the wounded are doing rather badly I am sorry to say, there are frequent deaths. The weather, <pb xml:id="leaf001v" facs="loc_vm.01793_large.jpg" type="verso"/>I suppose, which has been peculiarly bad for wounds, so wet &amp; warm, (though not disagreeable outdoors)&#8212;</p>
+            <p>Mother, you must write as often as you can, &amp; Jeff too&#8212;you must not get worried about the ups &amp; downs of the war&#8212;I don't know any course but to resign <choice><sic>onesself</sic><corr>oneself</corr></choice> to events&#8212;if one can only bring one's mind to it&#8212;Good bye once more for the present, dearest mother, Mat &amp; the dear little ones.</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07839">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to John H. Johnston, 23 September
+                    1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07839</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">91</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to John H. Johnston, 23 September 1890</title>
+                    <date cert="high" when="1890-09-23" xml:id="dat1">September 23, 1890</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7-8</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Johnston, John H." ref="n0336">John H. Johnston</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-07-10" who="#bbb">Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden New Jersey</name>
+                    <date when="1890-09-23">Sept: 23 '90<ptr target="loc.07839_n1"/></date>
+                </dateline>
+            </opener>
+
+            <p>Y'rs of yesterday<ptr target="loc.07839_n2"/> rec'd&#8212;I suppose you gave my
+                letter &#38; enclosures to Col. I[ingersoll]<ptr target="n0839"/> as I meant them
+                (especially the enc's) to get to him&#8212;Yes, dear friend, I too think with pride
+                (&#38; something more, if there is any thing more) of having Ingersoll go on
+                permanent record on L of G.&#8212;have no sharper regret than the passing away
+                unrecorded of the Reisser speech in Phila:<ptr target="loc.07350_n2"/>&#8212;I don't
+                believe either Ing: or any of you realize how inimitable &#38; perfect it was.</p>
+
+            <p>I keep as well as usual&#8212;</p>
+
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>

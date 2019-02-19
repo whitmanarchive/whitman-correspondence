@@ -45,6 +45,7 @@
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
                     changes to this file, as noted:
+                    <persName xml:id="ak">Alex Kinnaman</persName>
 <persName xml:id="kmp">Kenneth M. Price</persName> 
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
@@ -81,13 +82,14 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Morley, John">John Morley</persName>
+                    <persName key="Morley, John" ref="loc.01571_n2">John Morley</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+<change when="2012-03-01" who="#kmp">blessed</change>
             <change when="2011-03-07" who="#el">checked</change>
             <change when="2010-10-27" who="#zk">encoded</change>
             <change when="2010-08-20" who="#ec">extracted transcription from Major Authors cd</change>
@@ -103,7 +105,7 @@
 <ptr target="loc.01571_n1"/>
                 </dateline>
                 <salute>John Morley,</salute>
-                <salute>Dear Sir:</salute><ptr target="loc.01571_n2"/>
+                <salute>Dear Sir:</salute>
             </opener>
 
             <p>I send you an original piece of mine, in hopes it will be found available for say the 

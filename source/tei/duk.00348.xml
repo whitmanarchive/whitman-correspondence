@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -40,24 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">109-110</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 9 December 1863</title>
                <date when="1863-12-09">December 9, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -72,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-28">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-09">proofreading changes</change>
@@ -85,20 +74,19 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
-            
-               <opener>
+         <pb xml:id="leaf001r" facs="duk.00348.001_large.jpg" type="recto"/>
+         <opener>
                   <dateline rend="right">
                      <name type="place">Camp Pittman near London Ky.</name>
                      <date when="1863-12-09"> Dec. 9th/63</date>
                   </dateline>
                   <salute>Dear Mother</salute>
                </opener>
-               <p>I have just received a letter from Jeff, of Dec. 3d bringing the sorrowfull news of the death of Brother Andrew.<ptr target="duk.00348_n1"/> I was somewhat prepared for the worst, by Walts letter of Dec. 1st but I still had strong hopes, that he would recover, and until I received Walts letter, I had no idea that Andrew was in any immediate danger.</p>
-               <p>Mother I am very glad to hear that Mary has been down to see you, and was with poor Andrew during his last hours, and am very sory that Walt did not stay with you a few days longer.<ptr target="duk.00348_n2"/> Jeff speaks of my trying for a leave of absence but I hardly think it would be of any use at present,  besides I dont know that I could do any good by comeing home, although I am very anxious to see you all.</p>
-               <p>Mother I wish you or Jeff would write me a long letter giving the particulars about Andrews family and what Nancy<ptr target="duk.00348_n3"/> proposes to do. Was Andrew burried at Cyprus Hill<ptr target="duk.00348_n4"/> Cemetry. I would advise buying a plott of ground there if you have not done so already.</p>
-               <p>Mother I do hope that you will bear up with your troubles, and not make yourself sick by worrying. Walt wrote me that Matty and all the rest of you were doing everything in the world that could be done for Andrew and it is some consolation to know, that he died surrounded by friends and relatives,<ptr target="duk.00348_n5"/> who were anxious to make his last hours as comfortable as possible, while so many are dying (out here) with no one about them who seems to take the least interest in them. I yesterday received a letter from Walt,<ptr target="duk.00348_n6"/> enclosing one from Hannah dated Nov 21st. Hannah seems to be much better now than when I last heard from her, and I hope to hear soon, of her coming home to pay you a long visit.</p>
-               <p>Mother you see by this that we have moved from Crab Orchard,  we came on here last week,  this place is 38 miles from Crab Orchard, in the direction of Cumberland Gap. How long we will remain here, of course we dont know, but there is strong talk of our being ordered home to re organize and as nearly all of our men are anxious to re-enlist in the veteran Corps, I think that the chances are that we will be ordered home before many weeks. I sent you $150.00 by Addams Express a few days ago,  I was on to Lexington Ky. to Express the money for the men,<ptr target="duk.00348_n7"/> and sent it from there, Mother dont be the least backward in useing the money for anything you want, and I know, you will do all, that is required for, Andrews Family  I dont feel like writing more to night, so good night dear Mother. Give my love to all</p>
+               <p>I have just received a letter from Jeff, of Dec. 3d bringing the <choice><sic>sorrowfull</sic><corr>sorrowful</corr></choice> news of the death of Brother Andrew.<ptr target="duk.00348_n1"/> I was somewhat prepared for the worst, by Walts letter of Dec. 1st but I still had strong hopes, that he would recover, and until I received Walts letter, I had no idea that Andrew was in any immediate danger.</p>
+         <p>Mother I am very glad to hear that Mary has been down to see you, and was with poor Andrew during his last hours, and am very <choice><sic>sory</sic><corr>sorry</corr></choice> that Walt did not stay with you a few days longer.<ptr target="duk.00348_n2"/> Jeff speaks of my trying for a leave of absence but I hardly think it would be of any use at present,  besides I <choice><sic>dont</sic><corr>don't</corr></choice> know that I could do any good by <choice><sic>comeing</sic><corr>coming</corr></choice> home, although I am very anxious to see you all.</p>
+               <p>Mother I wish you or Jeff would write me a long letter giving the particulars about Andrews family and what Nancy<ptr target="duk.00348_n3"/> proposes to do. Was Andrew <choice><sic>burried</sic><corr>buried</corr></choice> at Cyprus Hill<ptr target="duk.00348_n4"/> <choice><sic>Cemetry</sic><corr>Cemetery</corr></choice>. I would advise buying a <choice><sic>plott</sic><corr>plot</corr></choice> of ground there if you have not done so already.</p>
+         <p>Mother I do hope that you will bear up with your troubles, and not make yourself sick by worrying. Walt wrote me that Matty and all the rest of you were doing everything in the world that could be done for Andrew <pb xml:id="leaf001v" facs="duk.00348.002_large.jpg" type="verso"/>and it is some consolation to know, that he died surrounded by friends and relatives,<ptr target="duk.00348_n5"/> who were anxious to make his last hours as comfortable as possible, while so many are dying (out here) with no one about them who seems to take the least interest in them. I yesterday received a letter from Walt,<ptr target="duk.00348_n6"/> enclosing one from Hannah dated Nov 21st. Hannah seems to be much better now than when I last heard from her, and I hope to hear soon, of her coming home to pay you a long visit.</p>
+         <p>Mother you see by this that we have moved from Crab Orchard,  we came on here last week,  this place is 38 miles from Crab Orchard, in the direction of Cumberland Gap. How long we will remain here, of course we <choice><sic>dont</sic><corr>don't</corr></choice> know, but there is strong talk of our being ordered home to re organize and as nearly all of our men are anxious to re-enlist in the veteran Corps, I think that the chances are that we will be ordered home before many weeks. I sent you $150.00 by Addams Express a few days ago,  I was on to Lexington Ky. to Express the money for the men,<ptr target="duk.00348_n7"/> and sent it from there, Mother <choice><sic>dont</sic><corr>don't</corr></choice> be the least backward in <choice><sic>useing</sic><corr>using</corr></choice> the money for anything you want, and I know, you will do all, that is required for, Andrews Family  I <choice><sic>dont</sic><corr>don't</corr></choice> feel like writing more to night, so good night dear Mother. Give my love to all</p>
                <closer rend="right">
                   <signed>G. W. Whitman</signed>
                </closer>

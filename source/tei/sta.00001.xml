@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -68,11 +69,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Trowbridge, John Townsend">John Townsend Trowbridge</persName>
+               <persName key="Trowbridge, John Townsend" ref="duk.00656_n1">John Townsend Trowbridge</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-24">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>

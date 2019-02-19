@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><!-- USE THE OBJECT ID FOR THE VALUE OF @xml:id IN THE FOLLOWING ELEMENT. FOR EXAMPLE:
+    xml:id="zzz.00001"
+--><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01601">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Robert Buchanan to Walt Whitman, 28 April 1876</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Robert Buchanan</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="al">Ashley Lawson</persName>
+<persName xml:id="ej">Eder Jaramillo</persName>
+<persName xml:id="js">John Schwaninger</persName>
+<persName xml:id="cb">Caterina Bernardini</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>loc.01601</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
+        reserved. Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc><bibl>
+    <author>Robert Buchanan</author>
+    <title>Robert Buchanan to Walt Whitman, 28 April 1876</title>
+    <date cert="high" when="1876-04-28" xml:id="dat1">April 28, 1876</date>
+    <idno type="callno">MSS18630 Box 4 Reel 2-3</idno>
+    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<person role="sender">
+    <persName key="Buchanan, Robert" ref="n0117">Robert Buchanan</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-05-04">added correspondent ref</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-09-27" who="#cb">proofed</change>
+            <change when="2012-03-23" who="#js">proofed</change>
+            <change when="2012-03-01" who="#ej">Checked and Corrected</change>
+            <change when="2012-01-11" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc.01601.002.jpg" type="recto"/>
+            <opener>
+                <address><addrLine><name type="place">51 Upper <unclear reason="illegible" cert="medium" resp="#js">Glcster</unclear> Place Dorset Sq.</name><!-- A Buchanan website confirms that his address at this time was 51 Upper Gloucester Place, Dorset Square. --></addrLine></address>
+                <dateline>
+                    <date when="1876-04-28">April 28 th</date>
+                </dateline>
+                <salute>Dear Whitman,</salute>
+            </opener>
+
+            <p>Enclosed is cheque for £25; statement annexed. You will merely have to endorse it, &amp; <unclear reason="illegible" cert="medium" resp="#al">the</unclear> Philadelphia bankers will cash it&#8212;kindly acknowledge on receipt.&#8212;See my other letter, &amp; address answer Care of Strahan &amp; Co, 34 Paternoster Road.</p> <!-- Again, the Buchanan website confirms this address -->
+            
+            <closer>
+                <salute>Ever yours Walt Whitman,</salute>
+                <signed>Robert Buchanan</signed>
+            </closer>
+            
+            <postscript><p>I shall wait anxiously for your instructions &amp; statement of affairs.</p></postscript>
+            
+            <postscript><p>( over</p>
+            
+            <pb xml:id="leaf001v" facs="loc.01601.003.jpg" type="verso"/>
+            
+            <note type="editorial" place="bottom" rend="bracket">all sent in a package by Express Sept 5 '76 <!-- Is this WW's hand? --></note>
+                <p>
+            <table>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Mr Harry Lobb</cell>
+                    <cell role="data" rows="1" cols="1">£1-1</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Richard Bentley Esq.</cell>
+                    <cell role="data" rows="1" cols="1">2-2</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Mr Salaman</cell>
+                    <cell role="data" rows="1" cols="1">1</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Mr Browning</cell>
+                    <cell role="data" rows="1" cols="1">2-</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Mrs Dickens</cell>
+                    <cell role="data" rows="1" cols="1">1-1</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Thomas Ashe</cell>
+                    <cell role="data" rows="1" cols="1">1</cell>
+                </row><row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Alfred Tennyson</cell>
+                    <cell role="data" rows="1" cols="1">5</cell>
+                </row><row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Townsend Majer</cell>
+                    <cell role="data" rows="1" cols="1">1-1</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">School of Art, Newman St, London.</cell>
+                    <cell role="data" rows="1" cols="1">18/</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Wm. Marks</cell>
+                    <cell role="data" rows="1" cols="1">1</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Mr Robinson</cell>
+                    <cell role="data" rows="1" cols="1">1</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Mr Drummond</cell>
+                    <cell role="data" rows="1" cols="1">2</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1">Messrs <!--[#ej] I'm not sure I see "Messrs"; I can't tell if he uses the long "s" and the only word in the letter with a double "s" ["adress" in page 1]is inked over. What's worse, I have no clue what else it could be[#ej]--> Newton, Coleman, &amp; <unclear reason="illegible" cert="low" resp="#al">Hisch</unclear>, 10/each.</cell>
+                    <cell role="data" rows="1" cols="1">1-10</cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1"><unclear reason="illegible" cert="low" resp="#al">Hon Roden</unclear> Noel</cell>
+                    <cell role="data" rows="1" cols="1"><hi rend="underline">2-2</hi></cell>
+                </row>
+                <row role="data" rows="1" cols="1">
+                    <cell role="data" rows="1" cols="1"/>
+                    <cell role="data" rows="1" cols="1">£22-15</cell>
+                </row>
+            </table>
+                 
+                 
+                <milestone unit="undeclared" rend="horbar-short-right"/>
+                £22-15</p>
+            
+            
+            <p>Cheque enclosed for £25,&#8212;Mr Harry Lobb would like a copy of "Two Rivulets," Salaman ditto, Mrs Dickens ditto, Ashe ditto, Majer ditto, Marks ditto, Robinson ditto; Messrs Browning, Drummond, &amp; Noel; the complete works.  The others do not want copies, some having them already.&#8212;Send the books in a parcel addressed to Robert Buchanan, Care of Strahan &amp; Co, Publishers, 34 Paternoster Row, tender; &amp; I will distribute them.</p>
+                <p><hi rend="underline">R.B.</hi></p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

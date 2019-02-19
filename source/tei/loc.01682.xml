@@ -46,7 +46,9 @@
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
                     changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
+<persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth
                         Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
@@ -84,11 +86,12 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Fields, James T.">James T. Fields</persName>
+                    <persName key="Fields, James T." ref="n0231">James T. Fields</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-20">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-03-07" who="#el">checked</change>
@@ -106,7 +109,7 @@
                     <date when="1868-12-08" rend="right">sent <lb/>Dec 8, '68</date><ptr target="loc.01682_n1"/>
                 </dateline>
                 <salute>J. T. Fields,</salute>
-                <salute>Dear Sir:</salute><ptr target="loc.01682_n2"/>
+                <salute>Dear Sir:</salute>
             </opener>
 
             <p>Your letter has come to hand, with the check for $100, as payment in full for

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01452">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01452">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Thomas Dixon to Walt Whitman, 27 July
-                    1871</title>
+                <title level="m" type="main">Thomas Dixon to Walt Whitman, 27 July 1871</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Thomas Dixon</author>
                 <editor>Kenneth M. Price</editor>
@@ -45,10 +45,12 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
-                        Lorang</persName>
+                    changes to this file, as noted: <persName xml:id="kmp">Kenneth M.
+                        Price</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="br">Beverley Rilett</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -58,14 +60,14 @@
                     <date cert="high" when="1871-07-27" xml:id="dat1">July 27, 1871</date>
                     <idno type="callno">MSS18630, Box 9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Dixon, Thomas">Thomas Dixon</persName>
+                    <persName key="Dixon, Thomas" ref="n0196">Thomas Dixon</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,8 +75,10 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+            <change who="#ss" when="2015-06-14">annotated</change>
+            <change who="#ak" when="2015-05-20">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-09-22" who="#el">transcribed and encoded letterhead</change>
             <change when="2010-12-15" who="#el">checked</change>
             <change when="2010-10-01" who="#br">transcribed and encoded</change>
@@ -85,14 +89,14 @@
         <body>
             <pb xml:id="leaf001r" facs="loc.01452.001.jpg" type="recto"/>
             <opener>
-                    <handShift rend="printed"/>
-                    <address>
+                <handShift rend="printed"/>
+                <address>
                         <addrLine rend="center">15. SUNDERLAND STREET.</addrLine>
                     </address>
-                    <dateline>
-                    <name type="place">Sunderland</name>,
-                        <handShift rend="manuscript"/>
-                    <date when="1871-07-27">July 27 <handShift rend="printed"/>18<handShift rend="manuscript"/>71</date>
+                <dateline>
+                    <name type="place">Sunderland</name>, <handShift rend="manuscript"/>
+                    <date when="1871-07-27">July 27 <handShift rend="printed"/>18<handShift
+                            rend="manuscript"/>71</date>
                 </dateline>
                 <salute>Dear Sir</salute>
             </opener>
@@ -107,32 +111,33 @@
             <pb xml:id="leaf001v" facs="loc.01452.002.jpg" type="verso"/>
 
             <p>I note that in them you have been in New York lately and that its ways and people
-                don't please you. <unclear reason="illegible" cert="medium" resp="br">even</unclear>
-                these changes in people are precisely of that character that I thought you had
-                already expected such and in fact are of the greatest feature in your Poems to me,
-                was your acknowledgement of the existence of such peoples, and also your indication
-                how such peoples originated in such States as your States. Now the question to me is
-                this. Can these people help themselves being that which they are? Does not the
-                artificial Life in all large Towns create and breed such people? You who have seen
-                &amp; may write almost <hi rend="underline">all People</hi>, <pb xml:id="leaf002v" facs="loc.01452.003.jpg" type="verso"/> and have watched the growth of these
-                changes seems to consider all such changes as inevitable, and that also is marked
-                too in your Poems. So I pray you someday give us a clear estimate on this question
-                of Life. What Life is the best for People? A Town one with every so called comfort,
-                and Art and Luxury? But why need I ask when I see now before my minds eye several
-                passages in your Poems that answer all the questions and that too in an emphatic
-                way. yet I like yourself still keep putting the Questions to all I Know and to
-                myself whenever I wander in the Streets or mix with those that Farm the lands or
-                till There. Well over and above all I often have been wondering how the Books I sent
-                you turned <pb xml:id="leaf002r" facs="loc.01452.004.jpg" type="recto"/> out as you
-                read them, how did the curious Book on Indian Philosophy? answer the yearning you
-                seem to have to know something about them, how did the Life of Bewich or Carlyle
-                please you, to it make you feel an interest in these men? How did the Indian Theists
-                utterance with its mixture of Western ideas meet your own thoughts on his Themes.
-                How did Mazzinis small but yet great Book tally with your own teachings of your own
-                people. There was so much representative ideas in these small Books that I yearn to
-                know how it all appeared to you, and if it was to you the truth it seems to have
-                been to me in thus sending to you, as my feeling was they would be as dear to you
-                also.</p>
+                don't please you. <unclear reason="illegible" cert="medium" resp="#br"
+                    >even</unclear> these changes in people are precisely of that character that I
+                thought you had already expected such and in fact are of the greatest feature in
+                your Poems to me, was your acknowledgement of the existence of such peoples, and
+                also your indication how such peoples originated in such States as your States. Now
+                the question to me is this. Can these people help themselves being that which they
+                are? Does not the artificial Life in all large Towns create and breed such people?
+                You who have seen &amp; may write almost <hi rend="underline">all People</hi>, <pb
+                    xml:id="leaf002v" facs="loc.01452.003.jpg" type="verso"/> and have watched the
+                growth of these changes seems to consider all such changes as inevitable, and that
+                also is marked too in your Poems. So I pray you someday give us a clear estimate on
+                this question of Life. What Life is the best for People? A Town one with every so
+                called comfort, and Art and Luxury? But why need I ask when I see now before my
+                minds eye several passages in your Poems that answer all the questions and that too
+                in an emphatic way. yet I like yourself still keep putting the Questions to all I
+                Know and to myself whenever I wander in the Streets or mix with those that Farm the
+                lands or till There. Well over and above all I often have been wondering how the
+                Books I sent you turned <pb xml:id="leaf002r" facs="loc.01452.004.jpg" type="recto"
+                /> out as you read them, how did the curious Book on Indian Philosophy? answer the
+                yearning you seem to have to know something about them, how did the Life of Bewich
+                or Carlyle<ptr target="n0139"/> please you, to it make you feel an interest in these
+                men? How did the Indian Theists utterance with its mixture of Western ideas meet
+                your own thoughts on his Themes. How did Mazzinis<ptr target="n0204"/> small but yet
+                great Book tally with your own teachings of your own people. There was so much
+                representative ideas in these small Books that I yearn to know how it all appeared
+                to you, and if it was to you the truth it seems to have been to me in thus sending
+                to you, as my feeling was they would be as dear to you also.</p>
 
             <pb xml:id="leaf003r" facs="loc.01452.005.jpg" type="recto"/>
             <p>Since last I wrote you again as war and even Revolution once more been tried in
@@ -141,13 +146,12 @@
                 State was not foreshadowed by some of its great Men in their writings. And also how
                 sorrowful to write after all the bloodshed this noble idea is still a Dream, except
                 in as far as your Land proves it not so, by the few noble and successful
-                associations that seems to grow and flourish in same portions of your great
-                Country—                <pb xml:id="leaf003v" facs="loc.01452.006.jpg" type="verso"/>
-                proving
-                the idea is no dream but a veritable Truth awaiting the full growth of Humanity in
-                all its true fulness for the fulfillment of
-                such a truly noble form of Social Life for all Peoples!!—true comrades men
-                and women such as you sing in your Poems. there again you see I find fresh spirit for my dream in your own work and that our latest
+                associations that seems to grow and flourish in same portions of your great Country—
+                    <pb xml:id="leaf003v" facs="loc.01452.006.jpg" type="verso"/> proving the idea
+                is no dream but a veritable Truth awaiting the full growth of Humanity in all its
+                true fulness for the fulfillment of such a truly noble form of Social Life for all
+                Peoples!!—true comrades men and women such as you sing in your Poems. there again
+                you see I find fresh spirit for my dream in your own work and that our latest
                 utterance of hope for us in Human Life. I know that all these months of horror will
                 have been often pondered over so wonder if in these ponderings speech or written
                 thought has been made thereon.</p>

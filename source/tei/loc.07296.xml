@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07296"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 13 April 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07296</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 13 April 1889</title>
+                    <date cert="high" when="1889-04-13" xml:id="dat1">April 13, 1889</date>
+                    <idno type="callno">MSS18630, Box 5, Reel 3</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-09-10" who="#smb">final check, corrected</change>
+            <change when="2018-07-12" who="#rf">second check</change>
+            <change when="2018-04-03" who="#cb">first check</change>
+            <change when="2017-03-10" who="#aa">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_es.00573.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.</name>
+                    <name type="place">Asylum<lb/>for the Insane</name>
+                    <name type="place">London.</name>
+                    <name type="place">Ontario</name>
+                    <name type="place">London, Ont.,<ptr target="loc.07296_n1"/></name>
+                    <date when="1889-04-13"><handShift rend="manuscript"/>13 April<handShift
+                            rend="printed"/> 188<handShift rend="manuscript"/>9</date>
+                </dateline>
+            </opener>  
+            <p>Your p.c. of 11 just to hand.<ptr target="loc.07296_n2"/> It is too bad that you
+                should be so plagued with that confounded cold. As for the constipation you <hi
+                rend="underline">must not</hi> allow that to continue, it <hi rend="underline"
+                >must</hi> be overcome at any price. If you are not better when you get this
+                have in some doctor and take some measures. I would gladly advise you but think it
+                would be much better to be guided by some one who cd <hi rend="underline">see</hi>
+                you. Am well pleased to see that the "70<hi rend="underline">th</hi> year Ed." of L.
+                of G. is being kept in hand.<ptr target="med.00869_n3"/> This complete pocket Ed. I think will be one of the
+                best stakes yet. It ought to be actually pub<hi rend="underline">d</hi> on your
+                birth day&#8212;that would be in time for all the summer outings of the year.<ptr
+                target="loc.07296_n3"/> I have had a long cheery letter from Willy Gurd.<ptr
+                target="n4284"/> He is hard at work at Danbury on the gas meter. He expects
+                that we shall soon be "reaping a harvest from an unlimited field." I hope the grain
+                will turn out good quality! All well here, weather very pleasant&#8212;we have had a
+                good rain, it is now bright again &#38; warm enough, guess we shall have an early
+                spring</p>
+            <closer>
+                <signed>R M Bucke</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_es.00574.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_es.00571.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_es.00572.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

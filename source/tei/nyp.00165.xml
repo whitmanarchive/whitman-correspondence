@@ -11,9 +11,9 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
             </respStmt>
@@ -57,14 +57,14 @@
                <author>Lewis K. Brown</author>
                <title>Lewis K. Brown to Walt Whitman, 6 July 1864</title>
                <date when="1864-07-06">July 6, 1864</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Brown, Lewis K.">Lewis K. Brown</persName>
+               <persName key="Brown, Lewis K." ref="nyp.00165_n100">Lewis K. Brown</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +72,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-02">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bbb" when="2009-08-06">updated annotations</change>
@@ -87,11 +88,11 @@
                <dateline rend="right"/>
                <salute>Dear Walter,</salute>
             </opener>
-         <p>I<ptr target="nyp.00165_n100"/> take my pen in hand as a final resort to find out where you are. as it appears to me it has bin six months since I seen you, I would like very much to see you &amp; if I knew where you wer I would come &amp; see you for I can never forget your love and friendship to me while I was in the Armory Square Hosp. It would be ungreatful in me to forget you &amp; all you[r] many kindnesses to me. I have not herd from you for some time the last time I herd from you Jo Harris was telling me that you [weren't] well &amp; that you wer on the Avinue &amp; had a room there. I am still here &amp; will stay untill August  I get out now most every day untill six oclock but I never see you I have got my Artificial leg but cant walk very well on it but I think that practice will make me more perfect. I would like very much to see you come in here &amp; spend the evening as you usd to do at the old Armory but alas I never see your [old] familliar in the threshold of my old tent.</p>
-            <p>The boys feels sadly at a loss not to have some one to come in and set awhile with them for there is no one here to do so, as you usd to at Armory Square. There is a great many wounded in the Hospital here &amp; in this ward there is three very bad cases one of the Gangereene &amp; two of the Erysipelas they wer removed from one of the other wards.</p>
+         <p>I take my pen in hand as a final resort to find out where you are. as it appears to me it has bin six months since I seen you, I would like very much to see you &amp; if I knew where you <choice><sic>wer</sic><corr>were</corr></choice> I would come &amp; see you for I can never forget your love and friendship to me while I was in the Armory Square Hosp. It would be <choice><sic>ungreatful</sic><corr>ungrateful</corr></choice> in me to forget you &amp; all you[r] many kindnesses to me. I have not herd from you for some time the last time I herd from you Jo Harris was telling me that you [weren't] well &amp; that you wer on the <choice><sic>Avinue</sic><corr>avenue</corr></choice> &amp; had a room there. I am still here &amp; will stay <choice><sic>untill</sic><corr>until</corr></choice> August  I get out now most every day <choice><sic>untill</sic><corr>until</corr></choice> six oclock but I never see you I have got my Artificial leg but cant walk very well on it but I think that practice will make me more perfect. I would like very much to see you come in here &amp; spend the evening as you <choice><sic>usd</sic><corr>used</corr></choice> to do at the old Armory but alas I never see your [old] <choice><sic>familliar</sic><corr>familiar</corr></choice> in the threshold of my old tent.</p>
+            <p>The boys feels sadly at a loss not to have some one to come in and set awhile with them for there is no one here to do so, as you usd to at Armory Square. There is a great many wounded in the Hospital here &amp; in this ward there is three very bad cases one of the <choice><sic>Gangereene</sic><corr>gangrene</corr></choice> &amp; two of the Erysipelas they <choice><sic>wer</sic><corr>were</corr></choice> removed from one of the other wards.</p>
             <p>I am not going to write much to you but will come &amp; see you as soon as I find out where you are at.</p>
             <closer rend="right">
-               <salute>No more at preasant, but remain you[r] loving Solder,</salute>
+               <salute>No more at <choice><sic>preasant</sic><corr>present</corr></choice>, but remain you[r] loving Solder,</salute>
                <signed>L.K.Brown</signed>
             </closer>
          

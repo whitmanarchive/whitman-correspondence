@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,26 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">129</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 18 August 1864</title>
                <date when="1864-08-18">August 18, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library
-</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +60,7 @@ Manuscript, and Special Collections Library
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-29">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -85,7 +72,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00360.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Near Petersburg Va. </name>
@@ -99,7 +86,7 @@ corrections</change>
                <salute>love to all</salute>
                <signed>G. W. Whitman</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="duk.00360.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

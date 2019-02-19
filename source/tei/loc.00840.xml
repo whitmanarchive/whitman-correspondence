@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">255</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Captain William Cook, 27 February 1865</title>
                <date when="1865-02-27">February 27, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +55,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Cook, William">Captain William Cook</persName>
+               <persName key="Cook, William" ref="tex.00181_n6">Captain William Cook</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-03">proofread and edited</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc.01333.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington </name>
@@ -93,9 +81,9 @@
                <salute>Captain:</salute>
             </opener>
             <p>Could you give me a little further information about my brother Capt. George W. Whitman, 51st New York, who gave you the slip you sent from Annapolis Feb. 19, with his &amp; mother's address, Feb. 14th? Why did not he, &amp; the other officers, 51st N. Y., come up with the main body, for exchange? Were the other officers 51st there at Danville, time you left? Please tell me all you know, or think probable, on this subject of why they did not come? Have they been sent further south, to avoid exchanging them, or are they still at Danville? <hi rend="italic">Was</hi> my brother <hi rend="italic">really well</hi> &amp; hearty? Was Lieut. Sam'l Pooley, 51st N. Y., there, &amp; how was he? Do you know whether my brother got letters &amp; boxes we sent him? Was he in the attempt to escape, Dec. 10, last? My dear sir, if you could take a leisure half hour &amp; write me, <hi rend="italic">soon as possible</hi>, what you know on these, or any points relating to my brother, it would deeply oblige me&#8212;address<ptr target="loc.00840_n1"/>&#8212;</p>
-            <closer rend="right">
+            <closer>
                <signed>Walt Whitman</signed>Washington D C</closer>
-         
+         <pb xml:id="leaf001v" facs="loc.01333.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

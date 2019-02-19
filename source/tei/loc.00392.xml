@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
 
@@ -41,32 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">13-15</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 3 April 1860</title>
                <date when="1860-04-03">April 3, 1860</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-03">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-03-19">proofread</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00263_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Jamaica, [New York,]</name>
@@ -93,15 +81,16 @@
                <salute>Dear Brother Walt,</salute>
             </opener>
             <p>I have just now received yours of the 1st.<ptr target="loc.00392_n2"/> I should have written to you before but when I left home a week ago yesterday Mother said she would write to you that day, and I believe she did, its singular that you have not received it</p>
-            <p>Everything remains abt. as usual with us Walt. Mother has taken the house and rented the lower part to a Mr "John Brown"<ptr target="loc.00392_n3"/> @ $14 per month Mat and I keeping the same rooms as before.<ptr target="loc.00392_n4"/> Andrew has been very sick but was getting better on Sunday when I was home. His disease commenced by a very violent pain in the side, kept up and made worse by an ignorent Dr. and those around him.<ptr target="loc.00392_n5"/> Mother visited him most every day and kept his courage up</p>
-            <p>I am truly glad Walt, that you are comfortably situated and the more so that you are having things done to suit you in the way of publishing your book. I quite long for it to make its appearence. What jolly times we will have reading the notices of it wont we. you must expect the "Yam Yam Yam" writer[s] to give you a dig as often as possible but I dont suppose you will mind it any more than you did in the days of your editorship of the B.[rooklyn] Eagle<ptr target="loc.00392_n6"/> when the Advertiser['s] Lees<ptr target="loc.00392_n7"/> used to go at you so roughly  Do you remember those days Walt.</p>
-            <p>I was at home as usual last Sunday but there was nothing new  we miss you very much of course. Mother speaks very often of her small family now and talks of one room and bedroom &amp;c  Mattie remains the same, she has plenty to do and talks of getting a girl to do housework. I'm getting to be quite a family man aint I.<ptr target="loc.00392_n8"/>
+         <p>Everything remains <choice><sic>abt</sic><corr>about</corr></choice>. as usual with us Walt. Mother has taken the house and rented the lower part to a Mr "John Brown"<ptr target="loc.00392_n3"/> @ $14 per month Mat and I keeping the same rooms as before.<ptr target="loc.00392_n4"/> Andrew has been very sick but was getting better on Sunday when I was home. His disease <pb xml:id="leaf001v" facs="loc_ad.00264_large.jpg" type="verso"/>commenced by a very violent pain in the side, kept up and made worse by an <choice><sic>ignorent</sic><corr>ignorant</corr></choice> Dr. and those around him.<ptr target="loc.00392_n5"/> Mother visited him most every day and kept his courage up</p>
+            <p>I am truly glad Walt, that you are comfortably situated and the more so that you are having things done to suit you in the way of publishing your book. I quite long for it to make its <choice><sic>appearence</sic><corr>appearance</corr></choice>. What jolly times we will have reading the notices of it wont we. you must expect the "Yam Yam Yam" writer[s] to give you a dig as often as possible but I dont suppose you will mind it any more than you did in the days of your editorship of the B.[rooklyn] Eagle<ptr target="loc.00392_n6"/> when the Advertiser['s] Lees<ptr target="loc.00392_n7"/> used to go at you so roughly  Do you remember those days Walt.</p>
+         <pb xml:id="leaf002r" facs="loc_ad.00265_large.jpg" type="recto"/>
+            <p>I was at home as usual last Sunday but there was nothing new  we miss you very much of course. Mother speaks very often of her small family now and talks of one room and bedroom &amp;c  Mattie remains the same, she has plenty to do and talks of getting a girl to do housework. I'm getting to be quite a family man <choice><sic>aint</sic><corr>ain't</corr></choice> I.<ptr target="loc.00392_n8"/>
             </p>
             <p>When do you suppose you will get through and come home. Mother has heard from you several times and it does her a great deal of good.<ptr target="loc.00392_n9"/> you must write her often and let me hear from you again before long. I shall write to you again presently, now as you will perceive I am rather hard up for something to write about.</p>
             <closer rend="right">
                <signed>Your affectionate Brother Jeff</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="loc_ad.00266_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

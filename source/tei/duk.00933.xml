@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00933">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Edward Wilkins, 31 December
+                    1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00933</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">409&#8211;410</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Edward Wilkins, 31 December 1889</title>
+                    <date cert="high" when="1889-12-31" xml:id="dat1">December 31, 1889</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare
+                        Book &#38; Manuscript Library, Duke University</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Wilkins, Edward" ref="n4319">Edward Wilkins</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2018-11-05" who="#smb">final check, corrected</change>
+            <change when="2018-10-04" who="#blh">Second check</change>
+            <change when="2018-09-27" who="#as">First check</change>
+            <change when="2017-08-22" who="#bbb">Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden N J&#8212;USA</name>
+                    <date when="1889-12-31">Night Dec: 31 '89</date> 
+                </dateline>
+                <salute>Dear Ed</salute>
+            </opener>
+            <p>Y'r letter came this forenoon &#38; am glad you keep well &#38; are satisfied at y'r
+                    occupation<ptr target="duk.00933_n1"/>&#8212;No doubt it will turn out well as
+                it is a good business &#38; with ordinary luck will return a handsome
+                income&#8212;&#38; besides it is y'r own choice &#38; satisfaction&#8212;wh' is a
+                great point&#8212;Nothing very new or different here&#8212;If you were to come here
+                (&#38; pleas'd w'd I be to see you, boy) now, you w'd see me seated by the oak wood
+                fire in the big ratan chair with the gray wolf-skin spread on the back, &#38; the
+                same old litter of papers &#38; MSS &#38; books around on the floor in the same old
+                muss&#8212;I don't get any worse but no improvement in health or strength
+                either&#8212;but I keep pretty good spirits &#38; eat &#38; sleep fairly
+                yet&#8212;Have my daily curryings, &#38; get out often in wheel
+                chair<ptr target="loc.03012_n1"/>&#8212;Warren<ptr target="loc.07319_n6"/> has had a couple or three days
+                sickness&#8212;the doctor was a little afraid of typhoid fever, but it seems to have
+                pass'd over, &#38; he is getting ab't the same as before&#8212;Mrs: D[avis]<ptr
+                    target="n6113"/> is well&#8212;I send you a paper&#8212;hear from Dr B[ucke]<ptr
+                    target="n0119"/> often&#8212;he is well &#38; busy&#8212;Warren is learning the
+                fiddle&#8212;he is getting along well&#8212;takes lessons of Watson<ptr target="n5001"/>.</p>
+            <p>Good bye for the present, Ed, &#38; my remembrances &#38; love to you, boy&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

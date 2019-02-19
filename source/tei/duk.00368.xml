@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="jc">Janel Cayer</persName>
@@ -43,30 +44,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">135</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Reuben Farwell</author>
                <title>Reuben Farwell to Walt Whitman, 30 April 1864</title>
                <date when="1864-04-30">April 30, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Farwell, Ruben">Ruben Farwell</persName>
+               <persName key="Farwell, Ruben" ref="duk.00368_n100">Ruben Farwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +63,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -87,20 +77,21 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00368.001_large.jpg" type="recto"/>
             <opener> 
                <salute>Kind Friend</salute>
             </opener>
-         <p>As you requested me to write you after leaving the Hospital. I<ptr target="duk.00368_n100"/> will do so for the first time. My wishes are that this may find you enjoying good health and plenty of kind friends to associate with.</p>
-            <p>I have not been over to Armory Square Hospital since leaveing it&#8212;. But have been expecting to call there and also to see you The orders here are very strict  no one is allowed out side of Camp without a pass and the passes are scarse</p>
-            <p>I shall manage to see you before I leave for the front if possible We are to get our horses in a day or so, and then be off to joine our Regiments</p>
-            <p>The News are dull concerning the movements of the Army but for all that we expect to hear of a hard fought Battle before long. I think that we will be sent out as reenforcements so much the better</p>
-            <p>Now Uncle I hope you will not believe that I had or have forgoten you. I will write again when at the front &amp; perhaps have something more worth writing about. I will close by expecting to have a better opportunity of writing some thing else when you hear from me again My health is good at present</p>
+         <p>As you requested me to write you after leaving the Hospital. I will do so for the first time. My wishes are that this may find you enjoying good health and plenty of kind friends to associate with.</p>
+            <p>I have not been over to Armory Square Hospital since leaveing it&#8212;. But have been expecting to call there and also to see you The orders here are very strict  no one is allowed out side of Camp without a pass and the passes are <choice><sic>scarse</sic><corr>scarce</corr></choice></p>
+         <pb xml:id="leaf001v" facs="duk.00368.002_large.jpg" type="verso"/>
+            <p>I shall manage to see you before I leave for the front if possible We are to get our horses in a day or so, and then be off to <choice><sic>joine</sic><corr>join</corr></choice> our Regiments</p>
+            <p>The News are dull concerning the movements of the Army but for all that we expect to hear of a hard fought Battle before long. I think that we will be sent out as <choice><sic>reenforcements</sic><corr>reinforcements</corr></choice> so much the better</p>
+         <p>Now Uncle I hope you will not believe that I had or have <choice><sic>forgoten</sic><corr>forgotten</corr></choice> you. I will write again when at the front &amp; perhaps have something more worth <pb xml:id="leaf002r" facs="duk.00368.003_large.jpg" type="recto"/>writing about. I will close by expecting to have a better opportunity of writing some thing else when you hear from me again My health is good at present</p>
             <closer rend="right">
                <salute>believe me ever your friend</salute>
                <signed>Ruben Farwell</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="duk.00368.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

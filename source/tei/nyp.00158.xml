@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="br">Bev Rilett</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -57,14 +58,14 @@
                <author>Thomas P. Sawyer</author>
                <title>Thomas P. Sawyer to Walt Whitman, 21 January 1864</title>
                <date when="1864-01-21">January 21, 1864</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Sawyer, Thomas P.">Thomas P. Sawyer</persName>
+               <persName key="Sawyer, Thomas P." ref="nyp.00158_n100">Thomas P. Sawyer</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +73,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-01">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#br" when="2008-08-28">edited and proofed</change>
@@ -88,16 +90,16 @@
                <dateline rend="right"> </dateline>
                <salute>Dear Brother Walter,</salute>
             </opener>
-         <p>As I<ptr target="nyp.00158_n100"/> have just written to Lewis I thought I would try and pen you a few lines hooping that they will [find] you in the best of health and enjoying your self&#8212;and I wish I was there with you.<ptr target="nyp.00158_n2"/>
+         <p>As I have just written to Lewis I thought I would try and pen you a few lines hooping that they will [find] you in the best of health and enjoying your self&#8212;and I wish I was there with you.<ptr target="nyp.00158_n2"/>
             </p>
-            <p>Dear brother I hardly know what to say to you in this letter for it is my first one to you but it will not be my last I should have written to you before but I am not a great hand at written and I have ben very buisy fixing my tent for this winter and I hope you will forgive me and in the future I will do better and I hope we may meet again in this world and now as it is getting very late you must ecuse this short letter this time&#8212;and I hope to here from [you] soon. I send you my love and best wishes. Good by from</p>
+            <p>Dear brother I hardly know what to say to you in this letter for it is my first one to you but it will not be my last I should have written to you before but I am not a great hand at written and I have <choice><sic>ben</sic><corr>been</corr></choice> very <choice><sic>buisy</sic><corr>busy</corr></choice> fixing my tent for this winter and I hope you will forgive me and in the future I will do better and I hope we may meet again in this world and now as it is getting very late you must excuse this short letter this time&#8212;and I hope to here from [you] soon. I send you my love and best wishes. Good by from</p>
             <closer rend="right">
                <salute>Your Brother,</salute>
                <signed>Sergt Thomas P Sawyer</signed>
             </closer>
          
          <postscript>
-            <p>P.S.  if I knew your addrss I should not send it this Way. Good by Brother.</p>
+            <p>P.S.  if I knew your <choice><orig>addrss</orig><reg>address</reg></choice> I should not send it this Way. Good by Brother.</p>
          </postscript>
       </body>
    </text>

@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="br">Bev Rilett</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -41,25 +42,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">192-194</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 29 January 1864</title>
                <date when="1864-01-29">January 29, 1864</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-23">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#br" when="2008-08-28">edited and proofed</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.01855.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -94,14 +82,16 @@
             </opener>
             <p>Your letter of Tuesday night came this forenoon&#8212;the one of Sunday night I rec'd yesterday&#8212;Mother, you don't say in either of them whether George has re-enlisted or not&#8212;or is that not yet decided positively one way or the other?<ptr target="loc.00807_n1"/>
             </p>
-            <p>O Mother, how I should like to be home, (I dont want more than two or three days)&#8212;I want to see George, (I have his photograph on the wall, right over my table all the time)&#8212;&amp; I want to see California&#8212;you must always write in your letters how she is&#8212;I shall write to Han this afternoon or to-morrow morning, &amp; tell her probably George will come out &amp; see her, &amp; that if he does you will send her word beforehand&#8212;</p>
-            <p>Jeff, my dear brother, if there should be the change made in the works &amp; things all overturned, you mustn't mind&#8212;I dare say you will pitch into something better&#8212;I believe a real overturn in the dead old beaten track of a man's life, especially a young man's, is always likely to turn out best, though it worries one at first dreadfully&#8212;</p>
-            <p>Mat, I want to see you most sincerely&#8212;they havn't put in anything in the last two or three letters about you, but I suppose you are well, my dear sister&#8212;</p>
+         <p>O Mother, how I should like to be home, (I <choice><sic>dont</sic><corr>don't</corr></choice> want more than two or three days)&#8212;I want to see George, (I have his photograph on the wall, right <pb xml:id="leaf001v" facs="loc_vm.01856.jpg" type="verso"/>over my table all the time)&#8212;&amp; I want to see California&#8212;you must always write in your letters how she is&#8212;I shall write to Han this afternoon or to-morrow morning, &amp; tell her probably George will come out &amp; see her, &amp; that if he does you will send her word beforehand&#8212;</p>
+         <p>Jeff, my dear brother, if there should be the change made in the works <pb xml:id="leaf002r" facs="loc_vm.01857.jpg" type="recto"/>&amp; things all overturned, you mustn't mind&#8212;I dare say you will pitch into something better&#8212;I believe a real overturn in the dead old beaten track of a man's life, especially a young man's, is always likely to turn out best, though it worries one at first dreadfully&#8212;</p>
+            <p>Mat, I want to see you most sincerely&#8212;they <choice><sic>havn't</sic><corr>haven't</corr></choice> put in anything in the last two or three letters about you, but I suppose you are well, my dear sister&#8212;</p>
+         <pb xml:id="leaf002v" facs="loc_vm.01858.jpg" type="verso"/>
             <p>Mother, the young man that I took care of, Lewis Brown,<ptr target="loc.00807_n2"/> is pretty well, but very restless&#8212;he is doing well now, but there is a long road before him yet&#8212;it is torture for him to be tied so to his cot, this weather&#8212;he is a very noble young man, &amp; has suffered very much&#8212;he is a Maryland boy, &amp; (like the southerners when they <hi rend="italic">are</hi> union,) I think he is as strong &amp; resolute a union boy as there is in the United States&#8212;he went out in Maryland reg't but transferred to a N Y battery&#8212;But I find so many noble men in the ranks, I have ceased to wonder at it&#8212;I think the soldiers from the New England States &amp; the Western states are splendid, &amp; the country parts of N Y &amp; Pennsylvania too&#8212;I think less of the great cities than I used to&#8212;I know there are black sheep enough, even in the ranks, but the general rule is the soldiers are noble, very&#8212;</p>
+         <pb xml:id="leaf003r" facs="loc_vm.01859.jpg" type="recto"/>
             <p>Mother, I wonder if George thinks as I do about the best way to enjoy a visit home, after all&#8212;When I come home again, I shall not go off gallivanting with my companions half as much, nor a quarter as much as I used to, but shall spend the time quietly home with you, while I do stay&#8212;it is a great humbug spreeing around, &amp; a few choice friends for a man, the real right kind, in a quiet way, are enough&#8212;</p>
-            <p>Mother, I hope you take things easy, dont you? Mother, you know I was always advising you to let things go, &amp; sit down &amp; take what comfort you can while you do live&#8212;</p>
-            <p>It is very warm here, this afternoon it is warm enough for July&#8212;the sun burns where it shines on your face&#8212;it is pretty dusty in the principal streets&#8212;Congress is in session, I see Odell,<ptr target="loc.00807_n3"/> Kalbfleisch,<ptr target="loc.00807_n4"/> &amp;c. often&#8212;I have got acquainted with Mr Garfield,<ptr target="loc.00807_n5"/> an M C from Ohio, &amp; like him very much indeed&#8212;(he has been a soldier west, was a Major General &amp; I believe a good brave one)&#8212;I don't go much to the debates this session yet&#8212;Congress will probably keep in session till well into the summer&#8212;as to what course things will take, political or military, there's no telling&#8212;I think though the secesh military power is getting more &amp; more shaky&#8212;how they can make any headway against our new, large &amp; fresh armies next season passes my wit to see&#8212;</p>
-            <p>Mother, I was talking with an (pretty high) officer, here, who is behind the scenes&#8212;I was mentioning that I had a great desire to be present at a first class battle&#8212;he told me if I would only stay around here three or four weeks longer, my wish would probably be gratified&#8212;I asked him what he meant, what he alluded to specifically&#8212;but he would not say any thing further&#8212;so I remain as much in the dark as before&#8212;only there seemed to be some meaning in his remark, &amp; it was made to me only as there was no one else in hearing at the moment&#8212;(he is quite an admirer of my poetry)&#8212;</p>
+         <p>Mother, I hope you take things easy, <choice><sic>dont</sic><corr>don't</corr></choice> you? Mother, you know I was always advising you to let things go, &amp; sit down &amp; take <pb xml:id="leaf003v" facs="loc_vm.01860.jpg" type="verso"/>what comfort you can while you do live&#8212;</p>
+         <p>It is very warm here, this afternoon it is warm enough for July&#8212;the sun burns where it shines on your face&#8212;it is pretty dusty in the principal streets&#8212;Congress is in session, I see Odell,<ptr target="loc.00807_n3"/> Kalbfleisch,<ptr target="loc.00807_n4"/> &amp;c. often&#8212;I have got acquainted with Mr Garfield,<ptr target="loc.00807_n5"/> an M C from Ohio, &amp; like him very much indeed&#8212;(he has been a soldier west, was a Major General &amp; I believe a good brave one)&#8212;I don't go much to the debates this session yet<pb xml:id="leaf004r" facs="loc_vm.01861.jpg" type="recto"/>&#8212;Congress will probably keep in session till well into the summer&#8212;as to what course things will take, political or military, there's no telling&#8212;I think though the secesh military power is getting more &amp; more shaky&#8212;how they can make any headway against our new, large &amp; fresh armies next season passes my wit to see&#8212;</p>
+         <p>Mother, I was talking with an (pretty high) officer, here, who is behind the scenes&#8212;I was mentioning that I had a great desire to be present at a first class battle&#8212;he told me if I would only stay around here three or four weeks longer, my wish would probably be gratified&#8212;I asked <pb xml:id="leaf004v" facs="loc_vm.01862.jpg" type="verso"/>him what he meant, what he alluded to specifically&#8212;but he would not say any thing further&#8212;so I remain as much in the dark as before&#8212;only there seemed to be some meaning in his remark, &amp; it was made to me only as there was no one else in hearing at the moment&#8212;(he is quite an admirer of my poetry)&#8212;</p>
             <p>The re-enlistment of the veterans is the greatest thing yet, it pleases every body but the rebels&#8212;&amp; surprises every body too&#8212;</p>
             <p>Mother, I am well &amp; fat, (I must weigh about 206)&#8212;So Washington must agree with me&#8212;I work three or four hours a day copying&#8212;Dear mother, I send you &amp; Hattie my love, as you say she is a dear little girl&#8212;Mother, try to write every week, even if only a few lines&#8212;love to George &amp; Jeff &amp; Mat&#8212;</p>
             <closer rend="right">

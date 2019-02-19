@@ -13,6 +13,7 @@
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
@@ -69,7 +70,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -77,6 +78,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-09-13" who="#el">merged files; checked</change>
@@ -108,7 +110,7 @@
                 <salute>Walter</salute>
             </opener>
             
-            <p>i<ptr target="duk.00425_n3"/>
+            <p>i
                 have got the letter
                 and 5 all safe<ptr target="duk.00507_n11"/> this time i began
                 to feel uneasy but it all right<ptr target="duk.00507_n12"/>
@@ -141,7 +143,6 @@
                 <salute>good bie</salute>
                 <signed>walt</signed>
             </closer>
-            <pb/>
         </body>
     </text>
 </TEI>

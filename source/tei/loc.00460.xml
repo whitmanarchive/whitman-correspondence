@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">153-154</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Louisa Van Velsor Whitman, 5 February 1873</title>
                <date when="1873-02-05">February 5, 1873</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-09">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -82,7 +70,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00585.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">St. Louis,</name>
@@ -90,12 +78,12 @@
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-            <p>I write to say that Mattie is very sick&#8212;that although yet hopeful&#8212;I fear very much that in some of the paroxisms of coughing she may become so weak that she will not rally again&#8212;most of the time she continues cheerful and good&#8212;but at times her sufferings are too much for her to bear&#8212;as good as she always has been about such things</p>
+            <p>I write to say that Mattie is very sick&#8212;that although yet hopeful&#8212;I fear very much that in some of the <choice><sic>paroxisms</sic><corr>paroxysms</corr></choice> of coughing she may become so weak that she will not rally again&#8212;most of the time she continues cheerful and good&#8212;but at times her sufferings are too much for her to bear&#8212;as good as she always has been about such things</p>
             <p>Of course we will all hope and pray for the best&#8212;yet you must not be surprised to hear that it is all over with the dear soul at any time&#8212;I have written to Walt<ptr target="loc.00460_n1"/>&#8212;I wish Walt would come and see her&#8212;do you not think he would<ptr target="loc.00460_n2"/>&#8212;Love to all</p>
             <closer rend="right">
                <signed>affectionately Jeff</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="loc_ad.00586.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

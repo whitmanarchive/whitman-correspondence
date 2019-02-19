@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -59,14 +60,14 @@
                <author>Will W. Wallace</author>
                <title>Will W. Wallace to Walt Whitman, 1 July 1863</title>
                <date when="1863-07-01">July 1, 1863</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Wallace, Will W.">Will W. Wallace</persName>
+               <persName key="Wallace, Will W." ref="nyp.00140_n100">Will W. Wallace</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +75,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-03-12">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-08-20">proofread and modified</change>
@@ -87,14 +89,13 @@
       <body>
          
             <opener> 
-               <dateline rend="right"> </dateline>
                <salute>Dear Walt</salute>
             </opener>
-         <p>I<ptr target="nyp.00140_n100"/> wrote to you some time since and have received no reply. Have you shuffled of this mortal coil and now roaming in the spirit-land? If so rapp and convince me of spiritualism. I have been unwell for some time back and the surgeons tell me liken unto die but I could not see it in that light  So deferred taking a red cedar box on this occasion. I am on the improve and will continue to do so until I am "Richard himself again"</p>
-            <p>I have hoped to see you out in this dept now that the Ninth Army Corps has moved in this direction. Have you given over following the fortunes of the wandering Corps. I recieved a letter from Memphis some time since stating that they were on boats bound for Vicksburg</p>
-            <p>Well Walt, I am ambitious and write consulting you. I see many Inspectors in the Army, some as to cleanliness and discipline of Hospitals others as to the ventilation etc etc I have met a number whom I consider inqualified for the position from the fact that they are not acquainted with Hospital life. My ambition points to this branch for myself I feel qualified for an inspector of Hospitals and I think can produce testimonials and certificates to that effect from officers of high standing in this Dept and in the Ninth Army Corps. Can you bring any influence to bear on this matter in the City of Washington. You will confer quite a favor by replying in regard to this question.</p>
+         <p>I wrote to you some time since and have received no reply. Have you shuffled of this mortal coil and now roaming in the spirit-land? If so rapp and convince me of spiritualism. I have been unwell for some time back and the surgeons tell me liken unto die but I could not see it in that light  So deferred taking a red cedar box on this occasion. I am on the improve and will continue to do so until I am "Richard himself again"</p>
+            <p>I have hoped to see you out in this dept now that the Ninth Army Corps has moved in this direction. Have you given over following the fortunes of the wandering Corps. I <choice><sic>recieved</sic><corr>received</corr></choice> a letter from Memphis some time since stating that they were on boats bound for Vicksburg</p>
+            <p>Well Walt, I am ambitious and write consulting you. I see many Inspectors in the Army, some as to cleanliness and discipline of Hospitals others as to the ventilation etc etc I have met a number whom I consider <choice><sic>inqualified</sic><corr>unqualified</corr></choice> for the position from the fact that they are not acquainted with Hospital life. My ambition points to this branch for myself I feel qualified for an inspector of Hospitals and I think can produce testimonials and certificates to that effect from officers of high standing in this Dept and in the Ninth Army Corps. Can you bring any influence to bear on this matter in the City of Washington. You will confer quite a favor by replying in regard to this question.</p>
             <p>Give my kind regard to Amos [Herbert]<ptr target="nyp.00140_n2"/> and others of Campbell Hospital.</p>
-            <p>The news in this Dept is meagre. Genl Rosencrans<ptr target="nyp.00140_n3"/> is "marching on" Rumor to night reports the capture of Tallahomie [Tullahoma, Tennessee] with 18000 prisoners. I do not credit the report myself. I know there will be a fight ere long as the Hospl have orders to ship the wounded of the last battle to Louisville and make room for others. The Army of the Potomac "Oh my" what has to come of it I hope to hear of brilliant achievements in that direction.</p>
+            <p>The news in this Dept is meagre. Genl Rosencrans<ptr target="nyp.00140_n3"/> is "marching on" Rumor to night reports the capture of Tallahomie [Tullahoma, Tennessee] with 18000 prisoners. I do not credit the report myself. I know there will be a fight ere long as the <choice><abbr>Hospl</abbr><expan>Hospital</expan></choice> have orders to ship the wounded of the last battle to Louisville and make room for others. The Army of the Potomac "Oh my" what has to come of it I hope to hear of brilliant achievements in that direction.</p>
             <closer rend="right">
                <salute>Write soon and favor your friend</salute>
             </closer>

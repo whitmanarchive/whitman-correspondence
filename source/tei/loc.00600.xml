@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
@@ -56,14 +57,14 @@
                <author>Elijah Douglass Fox</author>
                <title>Elijah Douglass Fox to Walt Whitman, 9 December 1863</title>
                <date when="1863-12-09">December 9, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Fox, Elijah Douglass">Elijah Douglass Fox</persName>
+               <persName key="Fox, Elijah Douglass" ref="loc.00600_n100">Elijah Douglass Fox</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,6 +72,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-09">proofreading changes</change>
@@ -81,7 +83,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <p>. . . Since coming here I<ptr target="loc.00600_n100"/> have often thought of what you told me when I said to you I am certain I will come back to Washington. you said to me then that a gret many of the boys had said the same but none had returned. I am sorry it is so but after I had thought it over I concluded it would be better for me to go into some business that would be a periminent thing.</p>
+         <p>. . . Since coming here I have often thought of what you told me when I said to you I am certain I will come back to Washington. you said to me then that a <choice><sic>gret</sic><corr>great</corr></choice> many of the boys had said the same but none had returned. I am sorry it is so but after I had thought it over I concluded it would be better for me to go into some business that would be a <choice><sic>periminent</sic><corr>permanent</corr></choice> thing.</p>
             <closer rend="right"/>
          
       </body>

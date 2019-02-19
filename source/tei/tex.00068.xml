@@ -18,6 +18,7 @@
                     <persName xml:id="ad">Anthony Dreesen</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -54,7 +55,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Alfred, Lord Tennyson, 9 August 1878</title>
                     <date cert="high" when="1878-08-09" xml:id="dat1">August 9, 1878</date>
-                    <orgName xml:id="tex">T. E. Hanley Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+                    <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -63,7 +64,7 @@
                 <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
             </handNotes>
             <particDesc>
-                <person role="sender">
+                <person role="sender" xml:id="ww">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
@@ -72,6 +73,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#nhg" when="2014-11-26">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-03-03" who="#nhg">added image references, updated transcription</change>
             <change when="2013-04-05" who="#km">checked</change>

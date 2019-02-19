@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -43,14 +44,14 @@
                <author>Celia M. Burr</author>
                <title>Celia M. Burr to Walt Whitman, 7 March 1865</title>
                <date when="1865-03-07">March 7, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Burr, Celie M.">Celie M. Burr</persName>
+               <persName key="Burr, Celie M." ref="loc.00849_n100">Celie M. Burr</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -58,6 +59,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="20010-04-06">proofread and edited</change>
@@ -71,7 +73,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00849.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="loc.00849.003_large.jpg" type="recto"/>
          
             <opener rend="right">
                <dateline>
@@ -79,7 +81,7 @@
                   <date when="1865-03-07">March 7th 65</date>
                </dateline>
             </opener>
-         <p>Your last letter from Washington in the paper lying on my<ptr target="loc.00849_n100"/> lap&#8212;Your book in the hands of my friend Lucy who sits there by the window reading it in the morning sunshine.  She looks up suddenly and says "I think this is the soul I am waiting for, is Walt Whitman married?"  I cannot answer the question, but will you?&#8212;I am not interested to know if you are married, but I would like to <pb facs="loc.00849.002.jpg" type="verso"/>look in your face.  How many years did you live ere you could look into the depths of all hearts.  Through what experiences did you learn that lore?  Remember, if ever the opportunity comes I will look in your face.  It should say all that is in your book and something more.  I want that something more.</p>
+         <p>Your last letter from Washington in the paper lying on my lap&#8212;Your book in the hands of my friend Lucy who sits there by the window reading it in the morning sunshine.  She looks up suddenly and says "I think this is the soul I am waiting for, is Walt Whitman married?"  I cannot answer the question, but will you?&#8212;I am not interested to know if you are married, but I would like to <pb xml:id="leaf001v" facs="loc.00849.004_large.jpg" type="verso"/>look in your face.  How many years did you live ere you could look into the depths of all hearts.  Through what experiences did you learn that lore?  Remember, if ever the opportunity comes I will look in your face.  It should say all that is in your book and something more.  I want that something more.</p>
             <closer rend="right">
                <signed>Celia M. Burr</signed>
             <address>
@@ -87,7 +89,10 @@
                <addrLine>Troy N.Y.)</addrLine>
             </address>
             </closer>
-         
+         <pb xml:id="leaf002r" facs="loc.00849.005_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc.00849.006_large.jpg" type="verso"/>
+         <pb xml:id="leaf003r" facs="loc.00849.001_large.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="loc.00849.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

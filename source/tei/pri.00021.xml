@@ -10,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="el">Elizabeth Lorang</persName><persName xml:id="kk">Kathryn Kruger</persName><persName xml:id="zk">Zachary King</persName><persName xml:id="ec">Eric Conrad</persName><persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName><persName xml:id="ak">Alex Kinnaman</persName><persName xml:id="el">Elizabeth Lorang</persName><persName xml:id="kk">Kathryn Kruger</persName><persName xml:id="zk">Zachary King</persName><persName xml:id="ec">Eric Conrad</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -51,7 +51,7 @@
                     <title>Walt Whitman to William Michael Rossetti, 5 May 1876</title>
 
                     <date cert="high" when="1876-05-05" xml:id="dat1">May 5, 1876</date>
-                    <orgName xml:id="pri">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library, Princeton, N.J.</orgName>
+                    <orgName xml:id="pri">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -61,11 +61,12 @@
                      <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Rossetti, William Michael">William Michael Rossetti</persName>
+                    <persName key="Rossetti, William Michael" ref="n0522">William Michael Rossetti</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-12">added correspondent ref</change>
             <change who="#nhg" when="2014-09-22">checked, corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2014-08-12" who="#el">made basic checking changes to file</change><change when="2012-02-10" who="#kk">checked</change>

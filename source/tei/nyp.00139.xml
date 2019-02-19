@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -56,14 +57,14 @@
                <author>Justus F. Boyd</author>
                <title>Justus F. Boyd to Walt Whitman, 14 May 1863</title>
                <date when="1863-05-14">May 14, 1863</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Boyd, Justus F.">Justus F. Boyd</persName>
+               <persName key="Boyd, Justus F." ref="nyp.00139_n100">Justus F. Boyd</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,6 +72,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-03-12">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-08-21">proofread and edited</change>
@@ -87,8 +89,8 @@
                <dateline rend="right"> </dateline>
                <salute>Mr. Whitman Dear Sir</salute>
             </opener>
-         <p>Here I<ptr target="nyp.00139_n100"/> am seated at the desk pen in hand once more writing a few lines to you. I guess I dont write so you can read it or else I direct wrong or else you do. there is something the matter anyway for I have written this makes four letters and I have sent word to you once by Fred Euler  But I havent re'cd a line from you since I got home  I am going to send this one and if I dont receive an Ans in about a week I shall write one more &amp; direct to Brooklin N.Y. but I shall look for one this time sure. I am in a store yet I dont know how long I shall stay I havnt made any bargain&#8212;yet how long I shall stay. I may not stay more than a week and I may stay all summer</p>
-            <p>I am not able to work on the farm yet and I dont know as I shall ever be able  I am still takeing medison  I am getting about sick of living on medison all the time but I suppose I must if I live at all but enough of this  I would like to take a walk down Pennsylvania Avenue this pleasant afternoon  we would have a good time if there was any such thing and I guess there is I would like to be back in Washington now   (I dont mean in the Hospital) though I got all of that I want for much as six months but there is no use wishing I suppos for it wont do me any good to wish I shall have to close for there has some customers just come in  Now please write as soon as you receive this In[stan]t</p>
+         <p>Here I am seated at the desk pen in hand once more writing a few lines to you. I guess I <choice><sic>dont</sic><corr>don't</corr></choice> write so you can read it or else I direct wrong or else you do. there is something the matter anyway for I have written this makes four letters and I have sent word to you once by Fred Euler  But I <choice><sic>havent</sic><corr>haven't</corr></choice> <choice><abbr>re'cd</abbr><expan>received</expan></choice> a line from you since I got home  I am going to send this one and if I <choice><sic>dont</sic><corr>don't</corr></choice> receive an Ans in about a week I shall write one more &amp; direct to <choice><sic>Brooklin</sic><corr>Brooklyn</corr></choice> N.Y. but I shall look for one this time sure. I am in a store yet I <choice><sic>dont</sic><corr>don't</corr></choice> know how long I shall stay I <choice><sic>havnt</sic><corr>haven't</corr></choice> made any bargain&#8212;yet how long I shall stay. I may not stay more than a week and I may stay all summer</p>
+         <p>I am not able to work on the farm yet and I <choice><sic>dont</sic><corr>don't</corr></choice> know as I shall ever be able  I am still <choice><sic>takeing</sic><corr>taking</corr></choice> <choice><sic>medison</sic><corr>medicine</corr></choice>  I am getting about sick of living on <choice><sic>medison</sic><corr>medicine</corr></choice> all the time but I suppose I must if I live at all but enough of this  I would like to take a walk down Pennsylvania Avenue this pleasant afternoon  we would have a good time if there was any such thing and I guess there is I would like to be back in Washington now   (I <choice><sic>dont</sic><corr>don't</corr></choice> mean in the Hospital) though I got all of that I want for much as six months but there is no use wishing I suppos for it wont do me any good to wish I shall have to close for there has some customers just come in  Now please write as soon as you receive this In[stan]t</p>
          
       </body>
    </text>

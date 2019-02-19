@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -41,33 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">88-89</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Walt Whitman, 25 February 1863</title>
                <date when="1863-02-25">February 25, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library
-</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, George Washington">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -75,6 +61,7 @@ Manuscript, and Special Collections Library
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-27">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -87,24 +74,23 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00341.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
-                  <name type="place">Camp at Newport News <lb/>
-                  </name>
+                  <name type="place">Camp at Newport News</name>
                   <date when="1873-03-21">Wednesday night  Feb 25th/63</date>
                </dateline>
                <salute>Dear Walt</salute>
             </opener>
-            <p>I have just written to Mother<ptr target="duk.00341_n1"/> and although it is pretty late I will write you a word to let you know that I am flourishing as well as ever. Walt you see I aint got my furlough yet. We had no more than landed here, before Dix<ptr target="duk.00341_n2"/> (who commands this Department you know) issued an order that no furloughs would be alowed except in case of sickness or in a case of life and death or something of that sort, so I dont know but they will jew me out of my chance after all. Gen Smith<ptr target="duk.00341_n3"/> who is in command of our Army Corps, said the other day he would see Dix and try and get permission to give furloughs to our Corps, himself,  if he succeeds I will probaly get a chance to go anyhow I am going to make a big push for it.</p>
+         <p>I have just written to Mother<ptr target="duk.00341_n1"/> and although it is pretty late I will write you a word to let you know that I am flourishing as well as ever. Walt you see I <choice><sic>aint</sic><corr>ain't</corr></choice> got my furlough yet. We had no more than landed here, before Dix<ptr target="duk.00341_n2"/> (who commands this Department you know) issued an order that no furloughs would be <choice><sic>alowed</sic><corr>allowed</corr></choice> except in case of sickness or in a case of life and death or something of that sort, so I <choice><sic>dont</sic><corr>don't</corr></choice> know but they will jew me out of my chance after all. Gen Smith<ptr target="duk.00341_n3"/> who is in command of our Army Corps, said the other day he would see Dix and try and get permission to give furloughs to our Corps, himself,  if he succeeds I will <choice><sic>probaly</sic><corr>probably</corr></choice> get a chance to go <pb xml:id="leaf001v" facs="duk.00341.002_large.jpg" type="verso"/>anyhow I am going to make a big push for it.</p>
             <p>I got a letter from you last night dated I think the 22d  write often Walt and let us know how things are with you. I went down to Fortress Monroe yesterday and got the $20 Jeff sent me.</p>
-            <p>If I dont get a chance to go home soon I shall have to get measured here, and send on to you, or Jeff, to get me a suit of clothes made but I rather think I will get home before a great while.</p>
-            <p>Walt we have a splendid camp here. I have a bran new tent and when I get it fixed up to suit me, it will just be gay I tell you. If I find out for certain, that I cant get home very soon you must come down here and see a feller, and if I do go home you must come as soon as I get back,  I shall have my tent fixed up Bully in a day or two,  we have had a grand revieu to day by Gen Dix  the whole Army Corps was out, and as there is splendid grounds here for that kind of work we made a first rate appearance and everything went off with great applause &amp;c</p>
+         <p>If I <choice><sic>dont</sic><corr>don't</corr></choice> get a chance to go home soon I shall have to get measured here, and send on to you, or Jeff, to get me a suit of clothes made but I rather think I will get home before a great while.</p>
+         <p>Walt we have a splendid camp here. I have a bran new tent and when I get it fixed up to suit me, it will just be gay I tell you. If I find out for certain, that I cant get home very soon you must come down here and see a feller, and if I do go home you must come <pb xml:id="leaf002r" facs="duk.00341.003_large.jpg" type="recto"/>as soon as I get back,  I shall have my tent fixed up Bully in a day or two,  we have had a grand <choice><sic>revieu</sic><corr>review</corr></choice> to day by Gen Dix  the whole Army Corps was out, and as there is splendid grounds here for that kind of work we made a first rate appearance and everything went off with great applause &amp;c</p>
             <p>Walt I am getting sleepy as it is almost 12 Oclock  so good night</p>
             <closer rend="right">
                <signed>G W Whitman</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="duk.00341.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

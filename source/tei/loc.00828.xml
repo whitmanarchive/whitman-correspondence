@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">223&#8211;224</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 18 May 1864</title>
                <date when="1864-05-18">May 18, 1864</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-24">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00061.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -92,8 +80,9 @@
                </dateline>
                <salute>Dearest Mother,</salute>
             </opener>
-            <p>I will only write you a hasty note this time, as I am pretty tired, &amp; my head feels disagreeable, from being in too much&#8212;I was up yesterday to Carver hospital &amp; again saw the man of the 51st, Thos McCowell,<ptr target="loc.00828_n1"/> who told me of George, up to latter part of Thursday, 12th inst. I questioned him, &amp; his story was very clear, so I felt perfectly satisfied&#8212;he is wounded in hand, will be transferred soon to New York &amp; may call on you&#8212;he is a young Irishman, &amp; seems to be a very good fellow indeed&#8212;</p>
-            <p>I have written to George, day before yesterday. Did you send my last letter to Han?&#8212;if not send it yet&#8212;Mother, I see such awful things&#8212;I expect one of these days, if I live, I shall have awful thoughts &amp; dreams&#8212;but it is such a great thing to be able to do some real good, assuage these horrible pains &amp; wounds, &amp; save life even&#8212;that's the only thing that keeps a fellow up&#8212;</p>
+         <p>I will only write you a hasty note this time, as I am pretty tired, &amp; my head feels disagreeable, from being in too much&#8212;I was up yesterday to Carver hospital &amp; again saw the man of the 51st, Thos McCowell,<ptr target="loc.00828_n1"/> who told me of George, up to <pb xml:id="leaf001v" facs="loc_ad.00062.jpg" type="verso"/>latter part of Thursday, 12th inst. I questioned him, &amp; his story was very clear, so I felt perfectly satisfied&#8212;he is wounded in hand, will be transferred soon to New York &amp; may call on you&#8212;he is a young Irishman, &amp; seems to be a very good fellow indeed&#8212;</p>
+         <pb xml:id="leaf002r" facs="loc_ad.00063.jpg" type="recto"/>
+         <p>I have written to George, day before yesterday. Did you send my last letter to Han?&#8212;if not send it yet&#8212;Mother, I see such awful things&#8212;I expect one of these days, if I live, I shall have awful thoughts &amp; dreams&#8212;but it is such a great thing to be able to do some <pb xml:id="leaf002v" facs="loc_ad.00064.jpg" type="recto"/>real good, assuage these horrible pains &amp; wounds, &amp; save life even&#8212;that's the only thing that keeps a fellow up&#8212;</p>
             <p>Well, dear mother, I make such reckoning of yet coming on &amp; seeing you&#8212;how I want to see Jeff too&#8212;O it is too bad I have not written to him so long&#8212;&amp; Mat too &amp; little California &amp; all&#8212;I am going out now a little while&#8212;I remain first rate &amp; well as ever&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>

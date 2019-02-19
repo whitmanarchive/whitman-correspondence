@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -40,32 +41,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">79-80</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 15 October 1863</title>
                <date when="1863-10-15">October 15, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00398_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn</name>
@@ -92,12 +80,12 @@
                </dateline>
                <salute>Dear Walt,</salute>
             </opener>
-            <p>Mother received a letter from you yesterday<ptr target="loc.00426_n1"/>  I got one the day before.<ptr target="loc.00426_n2"/> Mother did not let me see her letter<ptr target="loc.00426_n3"/> but Mat says that she understands that you say that you think about coming home. I hope dear Walt, that you <hi rend="italic">will</hi> come and that soon  I think if you should come just now you might be able to do Andrew considerable good  He is in a very bad way and I really fear, under the present circumstances that he will not last long. Dear Walt I wish that I could do something more for Andrew, but I have to work all the time, almost day and night and another thing I think he would be guided more by your advice than any one elses  That damed infernal robber the doctor<ptr target="loc.00426_n4"/> that he has been with (Andrew has paid him $95 and been getting worse all the time) told Andrew yesterday that he must not come there again till he brought him $45 more. Only think of it. The infernal son of a bitch. I would like to hang him for a thousand years, ten times a second. I dont care anything about it for the good that I think that he could do Andrew but that he Andrew thinks that perhaps if he could pay him $45 he could do something for him. The very fact that the scoundrel wants the money in advance is enough  Dear Walt do come home if only for a short time  And unless you come quite soon you certainly will never see Andrew alive.<ptr target="loc.00426_n5"/> Will you write me at once if you can come.</p>
-            <p>Mother Mat and Sis are all suffering from bad colds, Mother particularly I think is failing rapidly. I do so wish that I could see you and have a good talk abt family affairs  I am in an awful hurry or would write more. To day I have to go through the whole line of conduit</p>
+         <p>Mother received a letter from you yesterday<ptr target="loc.00426_n1"/>  I got one the day before.<ptr target="loc.00426_n2"/> Mother did not let me see her letter<ptr target="loc.00426_n3"/> but Mat says that she understands that you say that you think about coming home. I hope dear Walt, that you <hi rend="italic">will</hi> come and that soon  I think if you should come just now you might be able to do Andrew considerable good  He is in a very bad way and I really fear, under the present circumstances that he will not last long. Dear Walt I wish that I could do something more for Andrew, but I have to work all the time, almost day and night <pb xml:id="leaf001v" facs="loc_ad.00399_large.jpg" type="verso"/>and another thing I think he would be guided more by your advice than any one <choice><sic>elses</sic><corr>else's</corr></choice>  That <choice><sic>damed</sic><corr>damned</corr></choice> infernal robber the doctor<ptr target="loc.00426_n4"/> that he has been with (Andrew has paid him $95 and been getting worse all the time) told Andrew yesterday that he must not come there again till he brought him $45 more. Only think of it. The infernal son of a bitch. I would like to hang him for a thousand years, ten times a second. I <choice><sic>dont</sic><corr>don't</corr></choice> care anything about it for the good that I think that he could do Andrew but that he Andrew thinks that perhaps if he could pay him $45 he could do something for him. The very fact that the scoundrel wants the money in advance is enough  <pb xml:id="leaf002r" facs="loc_ad.00400_large.jpg" type="recto"/>Dear Walt do come home if only for a short time  And unless you come quite soon you certainly will never see Andrew alive.<ptr target="loc.00426_n5"/> Will you write me at once if you can come.</p>
+            <p>Mother Mat and Sis are all suffering from bad colds, Mother particularly I think is failing rapidly. I do so wish that I could see you and have a good talk <choice><abbr>abt</abbr><expan>about</expan></choice> family affairs  I am in an awful hurry or would write more. To day I have to go through the whole line of conduit</p>
             <closer rend="right">
                <signed>Jeff</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="loc_ad.00401_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

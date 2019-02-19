@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
 
@@ -41,32 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">62</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 7 July 1863</title>
                <date when="1863-07-07">July 7, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-08-20">proofread and modified</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00360_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -114,9 +102,9 @@
                  <cell>and $3 from self.</cell>
                </row>
             </table></p>
-            <p>We are awfully pleased and excited at the war news. Feel as if the man<ptr target="loc.00416_n4"/> had been appointed that was thinking less of political affairs than of licking the rebs. We are just getting news of the surrender of Vicksburgh. Hope to God that it is true. Bully for Meade!<ptr target="loc.00416_n5"/> He has not only licked the rebs but the peace party headed by McClellan.<ptr target="loc.00416_n6"/> Hope that he will not let them off but will poke it into them  How do you get along? I suppose you hardly have time to write me. I sent you a letter containing $15 last week<ptr target="loc.00416_n7"/>  did you get it?</p>
+         <p>We are awfully pleased and excited at the war news. Feel as if the man<ptr target="loc.00416_n4"/> had been appointed that was thinking less of political affairs than of licking the rebs. We are just getting news of the surrender of Vicksburgh. Hope to God that it is true. Bully for Meade!<ptr target="loc.00416_n5"/> He has not only licked the rebs but the peace party headed by McClellan.<ptr target="loc.00416_n6"/> Hope that he will not let them off <pb xml:id="leaf001v" facs="loc_ad.00361_large.jpg" type="verso"/>but will poke it into them  How do you get along? I suppose you hardly have time to write me. I sent you a letter containing $15 last week<ptr target="loc.00416_n7"/>  did you get it?</p>
             <p>Nothing new at home  I did not have any "time" on the 4th so I send you this money that I <hi rend="italic">might</hi> have spent. do the little sums that we send you enable you to do any good.</p>
-            <p>Dear brother I am in a tremendious hurry, and you must excuse my letter. Mother sent you a letter a day or two since. Mattie and the babies<ptr target="loc.00416_n8"/> are first-rate. Mother quite well. rest all right. Will write you again in a few days</p>
+            <p>Dear brother I am in a <choice><sic>tremendious</sic><corr>tremendous</corr></choice> hurry, and you must excuse my letter. Mother sent you a letter a day or two since. Mattie and the babies<ptr target="loc.00416_n8"/> are first-rate. Mother quite well. rest all right. Will write you again in a few days</p>
             <closer rend="right">
                <signed>affectionately Jeff</signed>
             </closer>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -57,14 +58,14 @@
                <author>Livingston J. Brooks</author>
                <title>Livingston J. Brooks to Walt Whitman, 21 November 1863</title>
                <date when="1863-11-21">November 21, 1863</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Brooks, Livingston J.">Livingston J. Brooks</persName>
+               <persName key="Brooks, Livingston J." ref="nyp.00152_n100">Livingston J. Brooks</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +73,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-03-30">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">proofreading changes</change>
@@ -88,8 +90,8 @@
             <opener> 
                <salute>Dear Friend</salute>
             </opener>
-         <p>Well uncle I<ptr target="nyp.00152_n100"/> thought I would scratch off a few lines to you to let you know that I am well at present and I hope the few lines will find you the same I have thought of you many a time since we parted I have been home since then and have got back with the regiment we have had some skirmishing and picketing to do since I got back we came off of picket yesterday and last night we got payed off and to day it is rainey and wet so it quite uncomfortable</p>
-            <p>you must excuse my pen and ink well I wont write a great deal this time I intended to write to you before but we have been moving about so I aint had time well no more this time pleas answer this soon as you can my love to you</p>
+         <p>Well uncle I thought I would scratch off a few lines to you to let you know that I am well at present and I hope the few lines will find you the same I have thought of you many a time since we parted I have been home since then and have got back with the regiment we have had some skirmishing and picketing to do since I got back we came off of picket yesterday and last night we got payed off and to day it is <choice><sic>rainey</sic><corr>rainy</corr></choice> and wet so it quite uncomfortable</p>
+            <p>you must excuse my pen and ink well I wont write a great deal this time I intended to write to you before but we have been moving about so I <choice><sic>aint</sic><corr>ain't</corr></choice> had time well no more this time pleas answer this soon as you can my love to you</p>
             <closer>
                <signed>Co. B 17th Pa Cavalry</signed>
             </closer>

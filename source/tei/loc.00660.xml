@@ -20,6 +20,7 @@
                     <persName xml:id="ct">Cathy Tisch</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -64,7 +65,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +73,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-20">added correspondent ref</change>
             <change who="#nhg" when="2015-04-07">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>

@@ -10,11 +10,13 @@
 <editor>Ed Folsom</editor>
 <respStmt>
     <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+    <persName xml:id="nhg">Nicole Gray</persName>
 <persName xml:id="el">Elizabeth Lorang</persName>
     <persName xml:id="al">Ashley Lawson</persName>
 <persName xml:id="js">John Schwaninger</persName>
 <persName xml:id="nnk">Nima Najafi Kianfar</persName>
-    <persName xml:id="nhg">Nicole Gray</persName>
+    
 </respStmt>
 <sponsor>Center for Digital Research in the Humanities, University of
     Nebraska-Lincoln</sponsor>
@@ -64,7 +66,7 @@
             <particDesc>
               
 <person role="sender">
-    <persName key="Whitman, George Washington">George Washington Whitman</persName>
+    <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
 </person>
 <person role="recipient" xml:id="ww">
     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +74,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-12">added correspondent ref</change>
             <change who="#nhg" when="2014-09-03">checked, corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2014-08-12" who="#el">made basic checking changes to file</change>

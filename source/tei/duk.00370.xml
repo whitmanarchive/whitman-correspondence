@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -43,30 +44,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">136</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Ruben Farwell</author>
                <title>Reuben Farwell to Walt Whitman, 10 May 1864</title>
                <date when="1864-05-10">May 10, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Farwell, Ruben">Ruben Farwell</persName>
+               <persName key="Farwell, Ruben" ref="duk.00370_n100">Ruben Farwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +63,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -86,17 +76,17 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00370.001_large.jpg" type="recto"/>
             <opener> 
                <dateline rend="right"/>
-               <salute>Dear Comrad</salute>
+               <salute>Dear <choice><sic>Comrad</sic><corr>Comrade</corr></choice></salute>
             </opener>
-         <p>Yours received last night. and need I<ptr target="duk.00370_n100"/> tell you that I am unwilling to answer yours. When there is so much stir &amp; confusion</p>
+         <p>Yours received last night. and need I tell you that I am unwilling to answer yours. When there is so much stir &amp; confusion</p>
             <p>No I will tell you that we are about to leave this Camp for better or worse</p>
             <p>To the front I suppose is the place of our destination</p>
-            <p>Last Night we went to the wharf to get each a horse But I had to returne to camp with out one because there were not enough to supply us all</p>
+         <p>Last Night we went to the wharf to get each a horse <pb xml:id="leaf001v" facs="duk.00370.002_large.jpg" type="verso"/>But I had to <choice><sic>returne</sic><corr>return</corr></choice> to camp with out one because there were not enough to supply us all</p>
             <p>This Morning we the Veterans or old Soldiers have to take horses &amp; the New recruits remain in Camp</p>
-            <p>We will be sent a way from here before to Morrow Night I think, which would suit me very well for I am sick of staying around this cursed place  I will try &amp; see you before I cross the long Bridge but if I can not get a chance, I hope you will write whenever convient</p>
+         <p>We will be sent a way from here before to Morrow Night I think, which would suit me very well for I am sick of staying around this cursed place  <pb xml:id="leaf002r" facs="duk.00370.003_large.jpg" type="recto"/>I will try &amp; see you before I cross the long Bridge but if I can not get a chance, I hope you will write whenever <choice><sic>convient</sic><corr>convenient</corr></choice></p>
             <closer rend="right">
                <salute>Give my best respects to the Boys on Ward. A.</salute>
                <salute>Believe me ever Your Friend</salute>
@@ -106,6 +96,7 @@
          <postscript>
             <p>I will try &amp; write you when to the front   In hast</p>
          </postscript>
+         <pb xml:id="leaf002v" facs="duk.00370.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -41,32 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">115-116</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman to Walt Whitman, 11 September 1865</title>
                <date when="1865-09-11">September 11, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-06">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">proofread and edited</change>
@@ -85,7 +73,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00463.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.,</name>
@@ -93,12 +81,13 @@
                </dateline>
                <salute>Dear brother Walt&#8212;</salute>
             </opener>
-            <p>I received your letter last Friday<ptr target="loc.00441_n1"/>&#8212;I should have sent the bundle before but Mother told me that you said you was coming home<ptr target="loc.00441_n2"/> and we have been expecting to see you all the last week  Mother left last Monday&#8212;we had a letter from her the next Wednesday&#8212;she arrived all right&#8212;found Han better than she expected she says<ptr target="loc.00441_n3"/>  I have been suffering since Friday with a "run-around" on my middle finger  I have been unable to do anything for the last three days&#8212;and seems to me I never suffered so much pain before in so short a time&#8212;I send the bundle this morning by Wescotts express&#8212;you must forgive me for not attending to it before&#8212;I should have done so had not Mother told me you was coming home  And Walt why dont you come home  we would be glad to see you and I think you would enjoy a visit home just now&#8212;come and make us a visit&#8212;George has started in his building business<ptr target="loc.00441_n4"/>&#8212;he is in hopes of getting a pretty large job in New York&#8212;will know to-day&#8212;Mr Lane<ptr target="loc.00441_n5"/> offered him a first rate berth&#8212;he thought at first he would take it but afterwards declined&#8212;perhaps he did better in going on with his venture&#8212;</p>
-            <p>Everything is going the same all rosey&#8212;we hope you will come on and see us&#8212;I am in a great hurry this morning&#8212;or would write longer</p>
+         <p>I received your letter last Friday<ptr target="loc.00441_n1"/>&#8212;I should have sent the bundle before but Mother told me that you said you was coming home<ptr target="loc.00441_n2"/> and we have been expecting to see you all the last week  Mother left last Monday&#8212;we had a letter from her the next Wednesday&#8212;she arrived all right&#8212;found Han better than she expected she says<ptr target="loc.00441_n3"/>  I have been suffering since Friday with a "run-around" on my middle finger  I have been unable to do anything for the last three days&#8212;and seems to me I never suffered so much pain before in so short a time&#8212;I send the bundle this morning by Wescotts express&#8212;you must forgive me for not attending to it before&#8212;I should have done so had not Mother told me you was coming home  And Walt why <choice><sic>dont</sic><corr>don't</corr></choice> you come home  <pb xml:id="leaf001v" facs="loc_ad.00464.jpg" type="recto"/>we would be glad to see you and I think you would enjoy a visit home just now&#8212;come and make us a visit&#8212;George has started in his building business<ptr target="loc.00441_n4"/>&#8212;he is in hopes of getting a pretty large job in New York&#8212;will know to-day&#8212;Mr Lane<ptr target="loc.00441_n5"/> offered him a first rate berth&#8212;he thought at first he would take it but afterwards declined&#8212;perhaps he did better in going on with his venture&#8212;</p>
+            <p>Everything is going the same all <choice><sic>rosey</sic><corr>rosy</corr></choice>&#8212;we hope you will come on and see us&#8212;I am in a great hurry this morning&#8212;or would write longer</p>
             <closer rend="right">
                <signed>affectionately Jeff</signed>
             </closer>
-         
+         <pb xml:id="leaf002r" facs="loc_ad.00465.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_ad.00466.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

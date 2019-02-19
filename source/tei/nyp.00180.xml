@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -59,7 +60,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Thomas P. Sawyer, 21 April 1863</title>
                <date when="1863-04-21">April 21, 1863</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection, New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -69,11 +70,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Sawyer, Thomas P.">Thomas P. Sawyer</persName>
+               <persName key="Sawyer, Thomas P." ref="n5000">Thomas P. Sawyer</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>

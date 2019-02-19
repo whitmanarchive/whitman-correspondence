@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jw">Joshua Ware</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -52,7 +53,7 @@
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Shepard, Elliot F.">Elliot F. Shepard</persName>
+               <persName key="Shepard, Elliot F." ref="loc.00864_n100">Elliot F. Shepard</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-26">corrected pbs, added choice tags</change>
          <change who="#nhg" when="2014-08-29">changed formatting of name in sender persName key</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -75,7 +77,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00864.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="loc.00864.005_large.jpg" type="recto"/>
          
             <opener rend="right">
                <dateline>
@@ -84,13 +86,13 @@
                </dateline>
                <salute>My Dear Walt Whitman:</salute> 
             </opener>
-         <p>On the receipt of your favor of the 26th ult., I<ptr target="loc.00864_n100"/> arranged with Captain Walton for the sending of a box to our dear and brave boys at the Danville Military Prison.<ptr target="loc.00864_n2"/>
+         <p>On the receipt of your favor of the 26th ult., I arranged with Captain Walton for the sending of a box to our dear and brave boys at the Danville Military Prison.<ptr target="loc.00864_n2"/>
             </p>
-            <p>And to-day I am having a box put up <pb facs="loc.00864.002.jpg" type="verso"/>which will start tomorrow.</p>
+         <p>And to-day I am having a box put up <pb xml:id="leaf001v" facs="loc.00864.006_large.jpg" type="verso"/>which will start tomorrow.</p>
             <p>Captain Wright does not think the boxes will ever reach our boys&#8212;but this shall not prevent my trying to get them things to keep the breath of life in them, and to cheer them up<ptr target="loc.00864_n3"/>.</p>
-            <p>Of the articles you enumerate, I omitted <pb facs="loc.00864.003.jpg" type="recto"/>tobacco, fearing it could perfume and render the food impalatable.  I added dessicated vegetables in its' stead.</p>
+         <p>Of the articles you enumerate, I omitted <pb xml:id="leaf002r" facs="loc.00864.007_large.jpg" type="recto"/>tobacco, fearing it could perfume and render the food impalatable.  I added <choice><sic>dessicated</sic><corr>desiccated</corr></choice> vegetables in its' stead.</p>
             <p>It is about time you heard from the first box you sent. Have you?</p>
-            <p>If the accounts in the papers are correct, we ought to have the boys back again before long.  I hope their turn for exchange will come <pb facs="loc.00864.004.jpg" type="recto"/>first.</p>
+         <p>If the accounts in the papers are correct, we ought to have the boys back again before long.  I hope their turn for exchange will come <pb xml:id="leaf002v" facs="loc.00864.008_large.jpg" type="recto"/>first.</p>
             <p>Major Marsh has arrived back at the regiment again, after a short visit here.</p>
             <p>A letter from Capt. M. Ready just brings me word that they are in good spirits after the movement on the left.<ptr target="loc.00864_n4"/>
             </p>

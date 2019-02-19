@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -58,14 +59,14 @@
                <author>James S. Stillwell</author>
                <title>James S. Stillwell to Walt Whitman, 2 September 1864</title>
                <date when="1864-09-02">September 2, 1864</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Stillwell, James S.">James S. Stillwell</persName>
+               <persName key="Stillwell, James S." ref="nyp.00168_n100">James S. Stillwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-02">corrected orgName, added choice tags</change>
          <change who="#nhg" when="2014-09-12">corrected sender name</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -90,10 +92,10 @@
             <opener>
                <salute>Dear Friend</salute>
             </opener>
-         <p>I<ptr target="nyp.00168_n100"/> take this time to write to you to let you know how I am I am well at presant my wound is most heald up and I hope that these few lines will find you well</p>
-            <p>I reseived your letter and was glad to here from you but I was Sorry to here that you was Sick but I hope that you are well again before this time, I am home now I came home the (22) of august  I only got twenty (20) days furlough So I havent very long to Stay home it will be up the tenth (10) of this month I am A goin to new york A tuesday the Six (6) and if I have time I will come an See you I expected to have come home before or I should of wrote to you before this mother Send her best respects to you and would be glad to See you and So would all the rest I Shall try and get transfered to newyork before I go back to chestnut Hill, I will Send this to Washington and if you a[i]nt there they can Send it back to you fore I dont no how to derrect it to you to Brooklyn</p>
+         <p>I take this time to write to you to let you know how I am I am well at <choice><sic>presant</sic><corr>present</corr></choice> my wound is most <choice><sic>heald</sic><corr>held</corr></choice> up and I hope that these few lines will find you well</p>
+            <p>I <choice><sic>reseived</sic><corr>received</corr></choice> your letter and was glad to here from you but I was Sorry to here that you was Sick but I hope that you are well again before this time, I am home now I came home the (22) of august  I only got twenty (20) days furlough So I <choice><sic>havent</sic><corr>haven't</corr></choice> very long to Stay home it will be up the tenth (10) of this month I am A <choice><sic>goin</sic><corr>going</corr></choice> to new york A <choice><sic>tuesday</sic><corr>Tuesday</corr></choice> the Six (6) and if I have time I will come an See you I expected to have come home before or I should of wrote to you before this mother Send her best respects to you and would be glad to See you and So would all the rest I Shall try and get <choice><sic>transfered</sic><corr>transferred</corr></choice> to new york before I go back to chestnut Hill, I will Send this to Washington and if you a[i]nt there they can Send it back to you fore I <choice><sic>dont</sic><corr>don't</corr></choice> no how to <choice><sic>derrect</sic><corr>direct</corr></choice> it to you to Brooklyn</p>
             <closer rend="right">
-               <salute>So no more at preseant good by from your friend</salute>
+               <salute>So no more at <choice><sic>preseant</sic><corr>present</corr></choice> good by from your friend</salute>
                <signed>James S. Stilwell</signed>
             </closer>
          

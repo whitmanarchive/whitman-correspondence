@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -41,31 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">182-183</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Bethuel Smith</author>
                <title>Bethuel Smith to Walt Whitman, 16 December 1863</title>
                <date when="1863-12-16">December 16, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Bethuel">Bethuel Smith</persName>
+               <persName key="Smith, Bethuel" ref="loc.00601_n100">Bethuel Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -85,15 +74,20 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
-            <opener> 
+         <pb xml:id="leaf001r" facs="loc_jc.00089_large.jpg" type="recto"/>
+            <opener>
+               <dateline>
+                  <date when="1863-12-16">Dec the 16 1863</date>
+                  <name type="place">Camp Near Culpeper VA</name>
+               </dateline>
                <salute>Dear friend</salute>
             </opener>
-         <p>I<ptr target="loc.00601_n100"/> now take this opertunity to write to you after so long A time. you must excuse me for not writing sooner for I cold not get anny paper. I have received three letters from you since I wrote to you  we have had pretty hard times this fall but we are having it easyer now we are doing provo duty in Culpeper now but I dont now how long it will last there is some talk of braking up 4 Companies of the 2 Cav &amp; I dont no but my Company will be one of them if it is we will go on recruiting servis that will be A good jok but I dont now as that will be the Case yet still I hope so</p>
-            <p>I am well &amp; harty &amp; in good spirits  I have not heard from home in A long time I gess that they have for got that they have A son in the army</p>
-            <p>it is about 2 O Clock at night now I am on gard sitting by A big fire  
+         <p>I now take this <choice><sic>opertunity</sic><corr>opportunity</corr></choice> to write to you after so long A time. you must excuse me for not writing sooner for I cold not get <choice><sic>anny</sic><corr>any</corr></choice> paper. I have received three letters from you since I wrote to you  we have had pretty hard times this fall but we are having it <choice><sic>easyer</sic><corr>easier</corr></choice> now we are doing <choice><orig>provo</orig><reg>provost</reg></choice> duty in Culpeper now but I <choice><sic>dont</sic><corr>don't</corr></choice> now how long it will last there is some talk of braking up 4 <pb xml:id="leaf001v" facs="loc_jc.00090_large.jpg" type="verso"/>Companies of the 2 Cav &amp; I <choice><sic>dont</sic><corr>don't</corr></choice> no but my Company will be one of them if it is we will go on recruiting <choice><sic>servis</sic><corr>service</corr></choice> that will be A good <choice><sic>jok</sic><corr>joke</corr></choice> but I <choice><sic>dont</sic><corr>don't</corr></choice> now as that will be the Case yet still I hope so</p>
+            <p>I am well &amp; <choice><sic>harty</sic><corr>hearty</corr></choice> &amp; in good spirits  I have not heard from home in A long time I <choice><sic>gess</sic><corr>guess</corr></choice> that they have for got that they have A son in the army</p>
+         <pb xml:id="leaf002r" facs="loc_jc.00091_large.jpg" type="recto"/>
+            <p>it is about 2 O Clock at night now I am on <choice><sic>gard</sic><corr>guard</corr></choice> sitting by A big fire  
 you must excuse my writing with A pencil for I cannot get pen &amp; ink to write with   no more at present good by   Directions the same</p>
-         
+         <pb xml:id="leaf002v" facs="loc_jc.00092_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

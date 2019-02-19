@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00457">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Charles F. Blanch to Walt Whitman, [1869]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles F. Blanch</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>tex.00457</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+                <availability>
+                    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles F. Blanch</author>
+                    <title>Charles F. Blanch to Walt Whitman, [1869]</title>
+                    <date cert="low" when="1869" xml:id="dat1">1869</date>
+                    <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities
+                        Research Center, The University of Texas at Austin</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Blanch, Charles F." ref="n5000">Charles F. Blanch</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-06-13" who="#ss">checked and corrected</change>
+            <change who="#ak" when="2015-05-12">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="tex.00016.002.jpg" type="recto"/>
+            <p>
+                <gap reason="cut away"/>I also wish to give <gap reason="cut away"/>man who first
+                made <gap reason="cut away"/>and lawless (not in <gap reason="cut away"/>sense of
+                the word, but <gap reason="cut away"/>emancipation from the mean <gap
+                    reason="cut away"/>of artificial men) <gap reason="cut away"/>delight on first
+                reading <gap reason="cut away"/>ingmen" "The City Dead <gap reason="cut away"/>Open
+                Road" which seem <gap reason="cut away"/>the book. These three <gap
+                    reason="cut away"/>finished it. </p>
+            <p>
+                <gap reason="cut away"/>you will excuse my thirst <gap reason="cut away"/>express in
+                some measure <gap reason="cut away"/>having thus changed me </p>
+            <closer>
+                <salute><gap reason="cut away"/>yours</salute>
+                <signed>Charles F. Blanch</signed>
+                <note>(address as above stated)</note>
+            </closer>
+            <pb xml:id="leaf001v" facs="tex.00016.001.jpg" type="verso"/>
+            <!--Whitman has written prose on this side - multi-genre-->
+        </body>
+    </text>
+</TEI>

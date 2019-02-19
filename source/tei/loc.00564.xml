@@ -18,8 +18,10 @@
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ak">Alex Kinnaman</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -39,7 +41,13 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
+                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
+                  copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -47,14 +55,15 @@
                <author>Thayer &amp; Eldridge</author>
                <title>Thayer &amp; Eldridge to Walt Whitman, 9 March 1860</title>
                <date when="1860-03-09">March 9, 1860</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                  Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Thayer &amp; Eldridge">Thayer &amp; Eldridge</persName>
+               <persName key="Thayer &amp; Eldridge" ref="loc.00564_n100">Thayer &amp; Eldridge</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -62,8 +71,9 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-16">added images, corrected transcription</change>
          <change who="#nhg" when="2014-08-23">corrected</change>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2009-09-23">added encoding for page breaks</change>
          <change who="#bbb" when="2008-08-18">proofread</change>
@@ -74,25 +84,35 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00564.001.jpg" xml:id="leaf001r" type="recto"/>
-         
-            <opener> 
-               <dateline> 
-                  <name type="place">Boston</name>
-                  <date when="1860-03-09">March 9/60</date>
-6 o'clock P.M.
-</dateline>
-               <salute>Walt Whitman</salute>
-            </opener>
-            <p>Dr Sir.</p>
-            <p>Yours of Thursday morning rec'd this A.M.~</p>
-         <p>Your suggestions are pertinent to the business under consideration, all of which are most amply satisfactory. Your letter is such a <hi rend="italic">capital</hi> one, that it has intensified our<ptr target="loc.00564_n100"/> disappointment that our Mr. Thayer was not able to see you last Saturday or Sunday.  Business obliged him to return to Boston from the West, but he will leave here for New York Sunday night &amp; will put up either at the Astor, Lovejoys or the hotel Corner Nassau &amp; Beekman Streets. If he does not see you in the morning at above places, he will call at your house in the afternoon say at 3 o'clock.</p>
-            <p>Our Mr. Eldridge will reply to your letter at length tomorrow afternoon mail.  &#8212;Our thanks for your most excellent and practical letter.</p>
-            <closer rend="right">
-               <salute>Your Friends</salute>
-               <signed>Thayer &amp; Eldridge</signed>
-            </closer>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.00501_large.jpg" type="recto"/>
+
+         <opener>
+            <dateline>
+               <name type="place">Boston</name>
+               <date when="1860-03-09">March 9/60</date> 6 o'clock P.M. </dateline>
+            <salute>Walt Whitman</salute>
+         </opener>
+         <p>Dr Sir.</p>
+         <p>Yours of Thursday morning rec'd this A.M.~</p>
+         <p>Your suggestions are pertinent to the business under consideration, all of which are
+            most amply satisfactory. Your letter is such a <hi rend="italic">capital</hi> one, that
+            it has intensified our disappointment that our Mr. Thayer
+            was not able to see you last Saturday or Sunday. Business obliged him to return to
+            Boston from the West, but he will leave here for New York Sunday night &amp; will put up <pb xml:id="leaf001v" facs="loc_vm.00502_large.jpg" type="verso"/>
+            either at the Astor, Lovejoys or the hotel Corner Nassau &amp; Beekman Streets. If he
+            does not see you in the morning at above places, he will call at your house in the
+            afternoon say at 3 o'clock.</p>
+         <p>Our M<hi rend="superscript">r</hi>. Eldridge will reply to your letter at length tomorrow afternoon mail. &#8212;Our
+            thanks for your most excellent and practical letter.</p>
+         <closer rend="right">
+            <salute>Your Friends</salute>
+            <signed>Thayer &amp; Eldridge</signed>
+         </closer>
+         <pb xml:id="leaf002r" facs="loc_vm.00503_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_vm.00497_large.jpg" type="verso"/>
+         <pb xml:id="leaf003r" facs="loc_vm.00497_large.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="loc_vm.00497_large.jpg" type="verso"/>
+
       </body>
    </text>
 </TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03939">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Herbert H. Gilchrist to Walt Whitman, 27 May
+                    1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Herbert H. Gilchrist</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03939</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+        <sourceDesc> 
+                <bibl>
+                    <author>Herbert H. Gilchrist</author>
+                    <title>Herbert H. Gilchrist to Walt Whitman, 27 May 1887</title>
+                    <date cert="high" when="1887-05-27" xml:id="dat1">May 27, 1887</date>
+                    <idno type="callno">MSS18630, Box 16</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                     Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                    <relatedItem type="text" xml:id="rel01" target="loc.03928"/>
+                    <relatedItem type="document" target="wwa.00583"/>
+                    <note type="project" target="#rel01">Walt Whitman included this letter from Herbert Gilchrist, dated May 27, 1887, as an 
+                        enclosure for Susan Stafford. He wrote his letter to Stafford, dated May 28, 1887, on the back of this letter.</note> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Gilchrist, Herbert H." ref="n0262">Herbert H.
+                        Gilchrist</persName>
+                </person>
+                <person role="recipient"> 
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-18" who="#smb">adjusted multitext encoding, rechecked, corrected</change>
+            <change when="2016-02-24" who="#smb">adjusted multitext encoding</change>
+            <change when="2015-12-04" who="#km">added pointer for note about the letter on verso,
+                and link to image of verso</change>
+            <change when="2015-11-02" who="#smb">final check, corrected</change>
+            <change when="2015-07-13" who="#if">edited</change>
+            <change when="2014-10-14" who="#ss">checked and corrected</change>
+            <change when="2014-09-26" who="#ak">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jc.00589_large.jpg" type="recto"/>
+            <opener>
+                <handShift rend="printed"/>
+                <dateline>
+                    <name type="place">Hotel St. Stephen, European Plan</name> 
+                    <name type="place">46 to 52 East Eleventh Street,</name>
+                    <name type="place">Between Broadway and University Place.</name>
+                    <name type="place">W.D.Ryder, Proprietor.</name>
+                    <name type="place">New York, </name><handShift rend="manuscript"/>May 27
+                        <handShift rend="printed"/>188<handShift rend="manuscript"/>7</dateline>
+                <salute>Dear Walt;</salute>
+            </opener>
+            <p>I arrived here from the "Germanic"<ptr target="loc.03939_n2"/> a few hours
+                ago:&#8212;think that I shall stay here in the Germanic 4 or 5 days, not more, and
+                then shall come on to Camden, where I want to lodge, if I can find a lodging.
+                &#8212;simply, one decent clean bedroom will do for me.</p>
+            <p>We had a squally disagreeable passage, notably so for the time of year.</p>
+            <closer>
+                <salute>With love to you from</salute>
+                <signed>Herbert Harlakenden Gilchrist.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_jc.00590_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

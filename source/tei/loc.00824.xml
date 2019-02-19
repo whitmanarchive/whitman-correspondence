@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ss">Sarah Synovec</persName>
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">220</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 9 May 1864</title>
                <date when="1864-05-09">May 9, 1864</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-24">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00047.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -92,9 +80,9 @@
                </dateline>
                <salute>Dearest Mother</salute>
             </opener>
-            <p>There is nothing from the army more than you know, in the N Y papers&#8212;the fighting has been hard enough, but the papers make lots of additional items, &amp; a good deal that they just entirely make up&#8212;there are from 600 to 1000 wounded coming up here&#8212;(not 6 to 8000 as the papers have it)<ptr target="loc.00824_n1"/>&#8212;I cannot hear what part the 9th corps took in the fight, of Friday &amp; afterwards, nor whether they really took any at all&#8212;(they, the papers, are determined to make up just any thing)&#8212;</p>
-            <p>Mother, I rec'd your letter &amp; Han's&#8212;&amp; was glad indeed to get both&#8212;Mother, you must not be under such apprehension, as I think it is not warranted<ptr target="loc.00824_n2"/>&#8212;</p>
-            <p>So far as we get news here, we are gaining the day, so far, <hi rend="italic">decidedly</hi>&#8212;if the news we hear is true that Lee has been repulsed &amp; driven back by Grant, &amp; that we are masters of the field, &amp; pursuing them&#8212;then I think Lee will retreat, south&#8212;&amp; Richmond will be abandoned by the rebs&#8212;but of course time only can develope what will happen&#8212;</p>
+         <p>There is nothing from the army more than you know, in the N Y papers&#8212;the fighting has been hard enough, but the papers make lots of additional items, &amp; a good deal that they just entirely make up&#8212;there are from 600 to 1000 <pb xml:id="leaf001v" facs="loc_ad.00048.jpg" type="verso"/>wounded coming up here&#8212;(not 6 to 8000 as the papers have it)<ptr target="loc.00824_n1"/>&#8212;I cannot hear what part the 9th corps took in the fight, of Friday &amp; afterwards, nor whether they really took any at all&#8212;(they, the papers, are determined to make up just any thing)&#8212;</p>
+         <p>Mother, I rec'd your letter &amp; Han's&#8212;&amp; was glad indeed to get both&#8212;<pb xml:id="leaf002r" facs="loc_ad.00049.jpg" type="recto"/>Mother, you must not be under such apprehension, as I think it is not warranted<ptr target="loc.00824_n2"/>&#8212;</p>
+         <p>So far as we get news here, we are gaining the day, so far, <hi rend="italic">decidedly</hi>&#8212;if the news we hear is true that Lee has been repulsed &amp; driven back by <pb xml:id="leaf002v" facs="loc_ad.00050.jpg" type="verso"/>Grant, &amp; that we are masters of the field, &amp; pursuing them&#8212;then I think Lee will retreat, south&#8212;&amp; Richmond will be abandoned by the rebs&#8212;but of course time only can <choice><sic>develope</sic><corr>develop</corr></choice> what will happen&#8212;</p>
             <p>Mother, I will write again Wednesday, or before if I hear any thing to write&#8212;love to Jeff &amp; Mat &amp; all&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>

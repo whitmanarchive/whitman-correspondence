@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -57,14 +58,14 @@
                <author>Elijah Douglass Fox</author>
                <title>Elijah Douglass Fox to Walt Whitman, 7 November 1863</title>
                <date when="1863-11-07">November 7, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Fox, Elijah Douglass">Elijah Douglass Fox</persName>
+               <persName key="Fox, Elijah Douglass" ref="tex.00139_n100">Elijah Douglass Fox</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +73,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-10">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-08-24">updated Bliss annotation</change>
@@ -87,7 +89,7 @@
             <opener> 
                <salute>Dear friend Walt</salute>
             </opener>
-            <p>Not knowing what they were agoing to do with me until thursday last is my excuse for not writing sooner. Thursday I expected my dischar[g]e so that I could start Friday but on going to the office I found that they had not yet been signed by Bliss you recollect that Stearns told me he knew that they had gone up and when the truth was known he knew nothing about it thursday afternoon my papers wer sent in to the ward for me to go before Bliss<ptr target="tex.00133_n1"/> he examined me and told me I could have my papers in three days think I can start tuesday for home    I have got so that I am able to walk to the Sutler's and back</p>
+         <p>Not knowing what they were <choice><sic>agoing</sic><corr>a-going</corr></choice> to do with me until <choice><sic>thursday</sic><corr>Thursday</corr></choice> last is my excuse for not writing sooner. Thursday I expected my dischar[g]e so that I could start Friday but on going to the office I found that they had not yet been signed by Bliss you recollect that Stearns told me he knew that they had gone up and when the truth was known he knew nothing about it <choice><sic>thursday</sic><corr>Thursday</corr></choice> afternoon my papers <choice><sic>wer</sic><corr>were</corr></choice> sent in to the ward for me to go before Bliss<ptr target="tex.00133_n1"/> he examined me and told me I could have my papers in three days think I can start <choice><sic>tuesday</sic><corr>Tuesday</corr></choice> for home    I have got so that I am able to walk to the Sutler's and back</p>
             <p>(Walt it is useless for me to try to tell you how much i have missed you at night when my supper was brought in there was still something wanting that that was your cheerful smiling face! and then too I missed your kiss of friendship and love as also your kind "good night" or "So long")</p>
             <p>I should like much to have seen you again before I went home. I have some thoughts of going up to Annapolis before I start north but have not yet decided. please write as soon as you get this and direct to Portage Kalamazoo, Co. Michigan good by dear friend</p>
             <closer rend="right">

@@ -10,6 +10,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -39,6 +40,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+                  <monogr>
+                     <editor>Ted Genoways</editor>
+                     <title xml:id="tg">The Correspondence</title>
+                     <imprint>
+                        <pubPlace>Iowa City</pubPlace>
+                        <publisher>University of Iowa Press</publisher>
+                        <date>2004</date>
+                        <biblScope type="page">23</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to the Editor of the New York Herald, 26&#8211;29 (?) December 1864</title>
@@ -59,6 +72,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-30">added biblStruct and choice tags</change>
          <change when="2014-11-12" who="#nhg">corrected orgName</change>
          <change when="2014-08-23" who="#nhg">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
@@ -76,8 +90,8 @@
                   <hi rend="italic">Private note to Editor</hi>.<ptr target="hpl.00003_n2"/>
             </p>
             </note>
-            <p>Sir I respectfully ask you to print this communication written to start a public demand for the general exchange of prisoners of war.<ptr target="hpl.00003_n3"/> As the question now stands, the fault is altogether with our government. I hope you will feel to say a word editorialy about it, perhaps call attention in that way to the communication.</p>
-            <p>I solicit that you will find room for it <hi rend="italic">to-morrow morn'g</hi> as I have sent this afternoon similar communications to one or two other papers, (though this one is different in form &amp; made specialy for the Herald.</p>
+            <p>Sir I respectfully ask you to print this communication written to start a public demand for the general exchange of prisoners of war.<ptr target="hpl.00003_n3"/> As the question now stands, the fault is altogether with our government. I hope you will feel to say a word <choice><sic>editorialy</sic><corr>editorially</corr></choice> about it, perhaps call attention in that way to the communication.</p>
+            <p>I solicit that you will find room for it <hi rend="italic">to-morrow morn'g</hi> as I have sent this afternoon similar communications to one or two other papers, (though this one is different in form &amp; made <choice><sic>specialy</sic><corr>specially</corr></choice> for the Herald.</p>
          
       </body>
    </text>

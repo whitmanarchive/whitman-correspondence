@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01328">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01328">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Moncure D. Conway to Walt Whitman, 7
-                    November [1867]</title>
+                <title level="m" type="main">Moncure D. Conway to Walt Whitman, 7 November
+                    [1867]</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Moncure D. Conway</author>
                 <editor>Kenneth M. Price</editor>
@@ -45,10 +46,12 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> 
+                    changes to this file, as noted: <persName xml:id="kmp">Kenneth M.
+                        Price</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -68,7 +71,7 @@
             <particDesc>
 
                 <person role="sender">
-                    <persName key="Conway, Moncure D.">Moncure D. Conway</persName>
+                    <persName key="Conway, Moncure D." ref="n0170">Moncure D. Conway</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -76,8 +79,10 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+            <change who="#ss" when="2015-05-20">annotated</change>
+            <change who="#ak" when="2015-05-20">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-08-08" who="#el">checked</change>
             <change when="2011-05-05" who="#kk">transcribed, encoded</change>
         </revisionDesc>
@@ -88,8 +93,7 @@
             <pb xml:id="leaf001r" facs="loc.01328.001.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">
-                        14 Milborne Grove, <lb/>West Brompton, <lb/>London.</name>
+                    <name type="place"> 14 Milborne Grove, <lb/>West Brompton, <lb/>London.</name>
                     <date when="1868-11-17">Nov. 7.</date>
                 </dateline>
                 <salute>My dear Walt,</salute>
@@ -97,7 +101,7 @@
 
             <p>I introduce to you Mr. John Morley, Editor of the <hi rend="underline">Fortnightly
                     Review</hi>, in whose acquaintance you will find much pleasure as he will in
-                yours.</p>
+                yours.<ptr target="n0772"/></p>
 
             <closer>
                 <salute>Cordially yours,</salute>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -58,7 +59,7 @@
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to William Douglas O'Connor, 28 March 1869</title>
                <date when="1869-03-28">March 28, 1869</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-03-12">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -88,7 +90,7 @@
                   <name type="place">St. Louis,</name>
                   <date when="1869-03-28">March 28th 1869</date>
                </dateline>
-               <salute>Wm O'Connor<ptr target="nyp.00135_n1"/>
+               <salute>Wm O'Connor
                   <lb/>My dear friend</salute>
             </opener>
             <p>I am anxious to obtain through you whatever copies of Engineering reports that you can send me without too much trouble. Particularly would I like to get the "Memoir on Foundations in Compressible soils by Rich Delafield"<ptr target="nyp.00135_n2"/> lately publish[ed] by the Light House Bd.</p>

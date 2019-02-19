@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
 
@@ -41,32 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">17-19</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 19 December 1862</title>
                <date when="1862-12-19">December 19, 1862</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-03">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-24">style sheet proofreading</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00271_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -93,12 +81,14 @@
                </dateline>
                <salute>Dear Brother Walt,</salute>
             </opener>
-            <p>We are all much worried at not hearing anything from you. I have been over to the headquarters of the 51st three or four times but could get no information about brother George. The Times of day before yesterday gave his name among the wounded thus  "Lieut Whitman Co. E 51st N. Y. V. cheek" and we are trying to comfort ourselves with hope that it may not be a serious hurt. We certainly expected to hear from you before this and that you had found him. I <hi rend="italic">know</hi> you will spare neither pains nor anything else to find him. I do hope that dear brother George is not seriously hurt. Dont fail to let us hear from you at once, even if you have not been able to learn anything about him  it would be a consolation to know certainly that you had arrived safely at Washington  Mother stands it pretty well, but begins to feel pretty bad about not hearing from you</p>
+            <p>We are all much worried at not hearing anything from you. I have been over to the headquarters of the 51st three or four times but could get no information about brother George. The Times of day before yesterday gave his name among the wounded thus  "Lieut Whitman Co. E 51st N. Y. V. cheek" and we are trying to comfort ourselves with hope that it may not be a serious hurt. We certainly expected to hear from you before this and that you had found him. I <hi rend="italic">know</hi> you will spare neither pains nor anything else to find him. I do hope that dear brother George is not seriously hurt. <choice><sic>Dont</sic><corr>Don't</corr></choice> fail to let us hear from you at once, even if you have not been able to learn anything about him  it would be a consolation to know certainly that you had arrived safely at Washington  Mother stands it pretty well, but begins to feel pretty bad about not hearing from you</p>
+         <pb xml:id="leaf001v" facs="loc_ad.00272_large.jpg" type="verso"/>
             <p>Mat and Dolly<ptr target="loc.00394_n2"/> are quite well. We have been picturing to ourselves that you would bring George home with you and how nicely we would establish him in our front room with Mat as chief nurse. Dear brother do write immediately. Tell George how much we all love him and how badly we all feel that he should be hurt.</p>
             <closer rend="right">
                <signed>Your affectionate brother Jeff</signed>
             </closer>
-         
+         <pb xml:id="leaf002r" facs="loc_ad.00273_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_ad.00274_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="al">April Lambert</persName>
@@ -39,32 +40,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">52&#8211;54</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 2 May 1863</title>
                <date when="1863-05-02">May 2, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +59,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2008-09-04">proofread and edited</change>
@@ -82,7 +70,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00339_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -91,8 +79,11 @@
                <salute>Dear Walt,</salute>
             </opener>
             <p>In your letter to Mother you say that you have written a letter to the Eagle and want me when it is publis[hed] to send you some copies.<ptr target="loc.00411_n1"/> I have neglected writing you thinking every day that it would appear and that I would be able to advise you that I had sent them (Eagles) and the pictures as you wanted. I now begin to think that it will hardly be printed but still I will keep a lookout for it and if it does will send them to you at once. Do you wish me to send the pictures without the papers?</p>
-            <p>Mr Lane<ptr target="loc.00411_n2"/> received your letter on Thursday morning and sent you $5. the same day and to day he sent you $6 more. I should not wonder if we were able to drop you a few $ every now and then, right along  I hope so any way. Everything is going on finely at home. Mother is quite well and Mat is as usual well and hard at work. Sis is growing like a weed and as wild as a hawk. To day Mat happened to look out in front and found her trying by force of arms, to drive a little boy, bigger than she was however, off the front stoop. They say that she was wonderfull indignat at being stopped. She seems to remember you and is very anxious that I should always remember to write you that she has been a nice girl</p>
-            <p>We do not hear much from George. I suppose that he is farther away from mail communication than he has been heretofore. In his last letter he seemed to be glad to get away from Va.<ptr target="loc.00411_n3"/> and I dont blame him. Andrew, I think, is getting better, slowly, I dont think that he takes very good care of himself even yet. If he would I am sure that he would get better rapidly  We have not heard from Han since the letter that I sent you, I suppose she is about the same  Mother speaks of sending for her &amp;c and then says she hardly knows what to do. Tis rather a puzzling question I confess. I hope however that she will come home herself before long. It certainly is a great relief not to be cursed with letters from Heyde every few days.</p>
+         <pb xml:id="leaf001v" facs="loc_ad.00340_large.jpg" type="verso"/>
+            <p>Mr Lane<ptr target="loc.00411_n2"/> received your letter on Thursday morning and sent you $5. the same day and to day he sent you $6 more. I should not wonder if we were able to drop you a few $ every now and then, right along  I hope so any way. Everything is going on finely at home. Mother is quite well and Mat is as usual well and hard at work. Sis is growing like a weed and as wild as a hawk. To day Mat happened to look out in front and found her trying by force of arms, to drive a little boy, bigger than she was however, off the front stoop. They say that she was <choice><sic>wonderfull</sic><corr>wonderful</corr></choice> <choice><sic>indignat</sic><corr>indignant</corr></choice> at being stopped. She seems to remember you and is very anxious that I should always remember to write you that she has been a nice girl</p>
+         <pb xml:id="leaf002r" facs="loc_ad.00341_large.jpg" type="recto"/>
+         <p>We do not hear much from George. I suppose that he is farther away from mail communication than he has been heretofore. In his last letter he seemed to be glad to get away from Va.<ptr target="loc.00411_n3"/> and I <choice><sic>dont</sic><corr>don't</corr></choice> blame him. Andrew, I think, is getting better, slowly, I <choice><sic>dont</sic><corr>don't</corr></choice> think that he takes very good care of himself even yet. If he would I am sure that he would get better rapidly  We have not heard from Han since the letter that I sent you, I suppose she is about the same  Mother speaks of sending for her &amp;c and then says she hardly knows what to do. Tis rather a puzzling question I confess. I hope however that she will come home herself before long. It certainly is a great relief not to be cursed with letters from Heyde every few days.</p>
+         <pb xml:id="leaf002v" facs="loc_ad.00342_large.jpg" type="verso"/>
             <p>I suppose, dear Walt that you will have more to do in the Hospitals than ever pretty soon. I hardly can see how you can stand seeing so much of the heart-breaking  I certainly could not do it. I am sure it would make me sick enough to die. Last Thursday I met Bill Hart.<ptr target="loc.00411_n4"/> He is Major in the 88th N. Y. V. and had been hurt at Kelleys ford. He seemed very glad to see me and said had he known that you were in Washington he certainly should have seen you before this. I gave him your address and he will call on you when he goes through Washington on his return. He looks better than he did when he used to be around Brooklyn. Monday A. M.  Yesterday Andrew was at the house  he, I think, is somewhat better. Everybody else is getting along as usual, and all send their love. Write.</p>
             <closer rend="right">
                <signed>Affectionately Jeff.</signed>

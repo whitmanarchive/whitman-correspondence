@@ -44,7 +44,9 @@
       </publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
-          this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
+          this file, as noted: 
+          <persName xml:id="ak">Alex Kinnaman</persName>
+          <persName xml:id="el">Elizabeth Lorang</persName>
           <persName xml:id="zk">Zachary King</persName>
           <persName xml:id="ec">Eric Conrad</persName>
         </note>
@@ -70,7 +72,7 @@
           <author>Walt Whitman</author>
           <title>Walt Whitman to John Flood, Jr., 8 March [1871?]</title>
           <date cert="medium" when="1871-03-08" xml:id="dat1">March 8, 1871</date>
-          <idno type="callno">MSS18630<!--  Box 9 --></idno>
+          <idno type="callno">MSS18630  Box 9 </idno>
           <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
             1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
         </bibl>
@@ -82,11 +84,12 @@
           <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Flood Jr., John">John Flood, Jr.</persName>
+          <persName key="Flood Jr., John" ref="n0235">John Flood, Jr.</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change who="#ak" when="2015-05-20">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
       <change when="2012-11-29" who="#el">checked</change>
       <change when="2012-06-20" who="#el">checked</change>
@@ -102,7 +105,7 @@
           <date when="1871-03-08" rend="right">Wednesday evening <lb/>March 8</date><ptr
             target="loc.01597_n1"/>
         </dateline>
-        <salute>Dear son,<ptr target="loc.01597_n2"/></salute>
+        <salute>Dear son,</salute>
       </opener>
 
       <p>I thought I would write you just a short letter, if no more, as you are in my mind this

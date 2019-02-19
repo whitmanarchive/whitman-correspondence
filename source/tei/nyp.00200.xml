@@ -11,9 +11,9 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -58,7 +58,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Ellen M. O'Connor, 12 October 1865</title>
                <date when="1865-10-12">October 12, 1865</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection, New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +68,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="O'Connor, Ellen M.">Ellen M. O'Connor</persName>
+               <persName key="O'Connor, Ellen M." ref="nyp.00200_n3">Ellen M. O'Connor</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">proofread and edited</change>
@@ -91,7 +92,7 @@
                   <date when="1865-10-12">October 12, 1865.<ptr target="nyp.00200_n2"/>
                   </date>
                </dateline>
-               <salute>My dear Nelly,<ptr target="nyp.00200_n3"/>
+               <salute>My dear Nelly,
                </salute>
             </opener>
             <p>I sit down home here in the front basement alone to write you a few lines. Mother is still at Burlington,<ptr target="nyp.00200_n4"/> &amp; I am waiting to hear from her, what she decides, about coming home&#8212;I shall probably go for her very shortly. I find it makes a mighty difference in my visit&#8212;(What is home without&#8212;&amp;c)&#8212;</p>

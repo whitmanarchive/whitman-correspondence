@@ -11,9 +11,9 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -58,7 +58,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Ellen M. O'Connor, 20 October 1865</title>
                <date when="1865-10-20">October 20, 1865</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection, New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +68,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="O'Connor, Ellen M.">Ellen M. O'Connor</persName>
+               <persName key="O'Connor, Ellen M." ref="nyp.00201_n2">Ellen M. O'Connor</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-03">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">proofread and edited</change>
@@ -91,14 +92,14 @@
                   <date when="1865-10-20">October 20 | 1865<ptr target="nyp.00201_n100"/>
                </date>
                </dateline>
-               <salute>Dear friend,<ptr target="nyp.00201_n2"/>
+               <salute>Dear friend,
                </salute>
             </opener>
             <p>Your letter came right&#8212;&amp; was glad to hear from you, Nelly, &amp; Charles Eldridge &amp; dear little Jeannie&#8212;(I will not add William because I did not hear any thing about him.)<ptr target="nyp.00201_n3"/>
             </p>
             <p>Nelly, the skies are brighter here than when I wrote you last. Little sis is so much better, that she has been twice brought down here to the front basement, &amp; has in every respect improved much since last Saturday&#8212;Then my mother arrived home last Tuesday&#8212;and now it looks something like <hi rend="italic">home</hi> in reality&#8212;I am quite well&#8212;</p>
             <p>Drum Taps will be bound (a small edition) before you get this&#8212;&amp; will next week be put in the hands of a New York publisher &amp; launched on the market&#8212;at least that's my design at present<ptr target="nyp.00201_n4"/>&#8212;</p> 
-            <p>When you write tell me all about William&#8212;My mother returns bringing cheerful intelligence upon the whole&#8212;&amp; is herself in splendid condition&#8212;havn't seen her look &amp; apparently feel better in many years&#8212;My brother George (or did I tell you?) is working again at his trade &amp; has grand health&#8212;Love &amp; Farewell&#8212;</p>
+            <p>When you write tell me all about William&#8212;My mother returns bringing cheerful intelligence upon the whole&#8212;&amp; is herself in splendid condition&#8212;<choice><sic>havn't</sic><corr>haven't</corr></choice> seen her look &amp; apparently feel better in many years&#8212;My brother George (or did I tell you?) is working again at his trade &amp; has grand health&#8212;Love &amp; Farewell&#8212;</p>
             <closer rend="right">
                <signed>Walt.</signed>
             </closer>

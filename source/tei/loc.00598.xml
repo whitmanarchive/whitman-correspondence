@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -41,31 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">182</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Bethuel Smith</author>
                <title>Bethuel Smith to Walt Whitman, 28 September 1863</title>
                <date when="1863-09-28">September 28, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Bethuel">Bethuel Smith</persName>
+               <persName key="Smith, Bethuel" ref="loc.00598_n100">Bethuel Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -85,13 +74,17 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_jc.00081_large.jpg" type="recto"/>
             <opener>
+               <dateline>
+                  <name type="place">Carlisle Penn</name>
+                  <date when="1863-09-28">Sept the 28 1863</date>
+               </dateline>
                <salute>Dear Friend</salute>
             </opener>
-         <p>I<ptr target="loc.00598_n100"/> now sit to write to you I hope this will find you in good spirits &amp; well I received your letters &amp; was verry glad to get them &amp; always shall be I am well the toe is getting along verry fast I ware my boots A little everry day I think in A few days I shall be able to join my regiment I hope so anyway for it is so loansome here to me I walk around considerable &amp; the more I walk around the more loansom it is to me the buildings are all burnt &amp; it looks dessolate but they are repareing them again Carlisle is miserabler than Washington for women I think friend walt I should like to Come &amp; see you verry much I hope that I shall join my regimint soon &amp; then shall be near Washington where I Can come &amp; see you</p>
-            <p>Dear friend I dont now as I have anny more to write good by &amp; may god bless you</p>
-         
+         <p>I now sit to write to you I hope this will find you in good spirits &amp; well I received your letters &amp; was <choice><sic>verry</sic><corr>very</corr></choice> glad to get them &amp; always shall be I am well the toe is getting along <choice><sic>verry</sic><corr>very</corr></choice> fast I ware my boots A little <choice><sic>everry</sic><corr>every</corr></choice> day I think in A few days I shall be able <pb xml:id="leaf001v" facs="loc_jc.00082_large.jpg" type="verso"/>to join my regiment I hope so anyway for it is so <choice><sic>loansome</sic><corr>lonesome</corr></choice> here to me I walk around considerable &amp; the more I walk around the more <choice><sic>loansom</sic><corr>lonesome</corr></choice> it is to me the buildings are all burnt &amp; it looks <choice><sic>dessolate</sic><corr>desolate</corr></choice> but they are <choice><sic>repareing</sic><corr>repairing</corr></choice> them again Carlisle is <choice><sic>miserabler</sic><corr>more miserable</corr></choice> than Washington for women I think friend <choice><sic>walt</sic><corr>Walt</corr></choice> I should like to Come &amp; see you <choice><sic>verry</sic><corr>very</corr></choice> much I hope that I shall join my <choice><sic>regimint</sic><corr>regiment</corr></choice> soon &amp; then <pb xml:id="leaf002r" facs="loc_jc.00083_large.jpg" type="recto"/>shall be near Washington where I Can come &amp; see you</p>
+         <p>Dear friend I <choice><sic>dont</sic><corr>don't</corr></choice> now as I have <choice><sic>anny</sic><corr>any</corr></choice> more to write good by &amp; may god bless you</p>
+         <pb xml:id="leaf002v" facs="loc_jc.00084_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

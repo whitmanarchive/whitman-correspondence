@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01725">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Philip Hale to Walt Whitman, 14 September
+    1871</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Philip Hale</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="br">Beverley Rilett</persName>
+<persName xml:id="al">Ashley Lawson</persName>
+<persName xml:id="ej">Eder Jaramillo</persName>
+<persName xml:id="js">John Schwaninger</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>loc.01725</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+        Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc><bibl>
+    <author>Philip Hale</author>
+    <title>Philip Hale to Walt Whitman, 14 September 1871</title>
+    <date cert="high" when="1871-09-14" xml:id="dat1">September 14, 1871</date>
+    <idno type="callno">MSS18630, Box 8</idno>
+    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<person role="sender">
+    <persName key="Hale, Philip" ref="n0283">Philip Hale</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-06-05" who="#js">proofed</change>
+            <change when="2012-05-09" who="#ej">Checked and Corrected</change>
+            <change when="2011-02-17" who="#al">Checked</change>
+            <change when="2011-02-14" who="#br">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+
+            <pb xml:id="leaf001r" facs="loc.01725.001.jpg" type="recto"/>
+            <opener>
+                <dateline rend="right">
+                    <address><addrLine>Exeter N. H.,</addrLine></address>
+                    <date when="1871-09-14">Sep 14 1871</date></dateline>
+                <salute>Dear Sir</salute>
+            </opener>
+            <!--Traubel regularizes and corrects punctuation. This transcription preserves the author's punctuation, or lack thereof :D-BR   -->
+            <p> I have just got your complete works Ed. 1871 and would like to ask you why you did
+                not reprint the preface to the first edition? I have only read extracts from that
+                preface and should like to have seen the whole reprinted. I suppose I can not get
+                the old Ed now at the stores.</p>
+            <p>I saw the other day that Mr. Swinburne said he enjoyed your "Song of the Sea" <pb xml:id="leaf001v" facs="loc.01725.002.jpg" type="verso"/> more than any of your
+                works. Did he mean Sea Shore Memories No 1&#8212;?The poem of yours that I read over
+                with the most satisfaction is your Burial Hymn of Lincoln. But as my opinion is not
+                worth anything, being a boy, I should not have <unclear reason="illegible" cert="medium" resp="#js"><choice>
+                        <orig>entruded</orig>
+                        <reg>intruded</reg>
+                    </choice></unclear>
+                it upon you. If you are pressed by
+                time, even then I should like to hear from you&#8212;just a word.
+               </p>
+            <closer>
+                <salute>Yours most respectfully,</salute>
+                <signed>Philip Hale</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc.01725.003.jpg" type="recto"/>
+            <postscript rend="margin-left">
+                <p>P. S. Do you know where I could get a 1st Ed with
+                    preface?</p>
+            </postscript>
+
+        </body>
+    </text>
+
+</TEI>

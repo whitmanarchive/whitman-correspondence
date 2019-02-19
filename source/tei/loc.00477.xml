@@ -13,6 +13,8 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="ss">Stefan Schoeberlein</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
@@ -62,7 +64,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+                    <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -70,6 +72,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-02-11">validated file</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-05-29" who="#nhg">checked, corrected</change>
             <change when="2014-05-29" who="#nhg">added images, updated transcription</change>
@@ -87,8 +90,9 @@
                     <name type="place" rend="right">St. Louis,</name>
                     <date when="1882-10-29" rend="right"><handShift rend="manuscript"/>Oct 29 1882</date>
                 </dateline>
+                <salute>Dear brother Walt</salute>
             </opener>
-            <salute>Dear brother Walt</salute>
+            
             <p>I append slip from the Evening paper of last Thursday that frightened us all so.
                 I telegraphed Thursday evening and again Friday&#8212;and was on my way to the
                 telegraph office yesterday afternoon when I was handed your dispatch. We were all glad

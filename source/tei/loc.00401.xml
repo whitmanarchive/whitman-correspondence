@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="al">April Lambert</persName>
@@ -39,32 +40,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">34-35</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 9 March 1863</title>
                <date when="1863-03-09">March 9, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +59,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-04">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-08-18">proofread and edited</change>
@@ -82,7 +70,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00303_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -92,15 +80,15 @@
             </opener>
             <p>Much to our joy and surprise George made his appearance among us on Sunday morning.<ptr target="loc.00401_n1"/> He arrived home about 11 O<hi rend="italic">ck</hi> on Saturday night but we all happened to be abed and he did not wake us up but went to his room and made himself shown at about 8<hi rend="superscript">
                   <hi rend="italic">ock</hi>
-               </hi> in the morning  He is well and looking first rate, pretty well played out as regards cloths, but we will fix him up in that respect this afternoon  He wants me to ask you if you can find out if he can get his pay in New York and if so at what office and hour. Please find out what you can about it and answer me at once. He has some $500 coming to him and would like to get it here if he can. Please write me at once will you Walt.</p>
+            </hi> in the morning  He is well and looking first rate, pretty well played out as regards cloths, but we will fix him up in that respect this afternoon  He wants me to ask you if you can find out if he can get his pay in New York and if so at what office and hour. Please find out <pb xml:id="leaf001v" facs="loc_ad.00304_large.jpg" type="verso"/>what you can about it and answer me at once. He has some $500 coming to him and would like to get it here if he can. Please write me at once will you Walt.</p>
             <p>Of course we were all wonderfully glad to see him. I think he looks well. He certainly is well pleased with his position and I think it would be hard to get him to leave it.<ptr target="loc.00401_n2"/> He could only get 10 days and that will hardly be time for him to see and shake hands with all his friends. 'Tis a pity it could not have been for 20 or 30 days, it certainly ought to have been.</p>
-            <p>We are all in our usual good health. Mother, George says looks younger than when he went away. I think she looks better than when you left. Mattie, Sis and the rest are all well.</p>
+         <p>We are all in our usual good health. Mother, George says looks younger than when he went away. I think she looks <pb xml:id="leaf002r" facs="loc_ad.00305_large.jpg" type="recto"/>better than when you left. Mattie, Sis and the rest are all well.</p>
             <p>I received a long letter from you Saturday. I like much to hear from you   you must write often. About your office hunting<ptr target="loc.00401_n3"/>  I suppose you will have to wait a long time before it amounts to anything but patience will bring something undoubtedly</p>
             <p>Hoping to hear from you immediately, I remain</p>
             <closer rend="right">
                <signed>yours affectionately Jeff.</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="loc_ad.003063_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

@@ -4,7 +4,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title level="m" type="main">Thayer &amp; Eldridge to Walt Whitman, 27 February 1860</title>
+            <title level="m" type="main">Thayer &amp; Eldridge to Walt Whitman, 27 February
+               1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Thayer &amp; Eldridge</author>
             <editor>Dennis Berthold</editor>
@@ -20,8 +21,10 @@
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ak">Alex Kinnaman</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -41,7 +44,13 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
+                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
+                  copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -49,23 +58,26 @@
                <author>Thayer &amp; Eldridge</author>
                <title>Thayer &amp; Eldridge to Walt Whitman, 27 February 1860</title>
                <date when="1860-02-27">February 27, 1860</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                  Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Thayer &amp; Eldridge">Thayer and Eldridge</persName>
+               <persName key="Thayer &amp; Eldridge" ref="loc.00561_n100">Thayer and Eldridge</persName>
             </person>
-            <person role="recipient">
+            <person role="recipient" xml:id="ww">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#nhg" when="2017-02-15">proofed transcription</change>
+         <change who="#ak" when="2015-01-16">added images, corrected transcription</change>
          <change who="#nhg" when="2014-08-24">corrected</change>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2009-09-23">added encoding for page breaks</change>
          <change who="#bbb" when="2009-08-18">proofread</change>
@@ -78,24 +90,42 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00561.001.jpg" xml:id="leaf001r" type="recto"/>
-         
-            <opener>
-               <dateline>
-                  <name type="place">Boston</name> 
-                  <date when="1860-02-27">Feb 27 1860</date>
-               </dateline>
-               <salute>Walt Whitman</salute>
-               <salute>Dear Sir,</salute>
-            </opener>
-         <p>Your letter of the 25th is at hand. We<ptr target="loc.00561_n100"/> are ready to commence on your work <hi rend="italic">at once</hi> and have it got up with all possible speed.  The terms which we would propose are 10 percent of the retail price for your copyright. This is the usual allowance to authors, on works of merit. The most important point to be settled at first is the form in which the Poems shall appear. Do you prefer the 18 mo size such as your last volume or will you have it in a 12 mo volume?&#8212;or in Two 12 mo volumes, ?  How do you like the 32 mo <hi rend="italic">blue</hi> &amp; <hi rend="italic">gold</hi> style inaugurated by Ticknor &amp; Fields, in which they have published <hi rend="italic">most</hi> of the modern English Poets such as Tennyson, etc?<ptr target="loc.00561_n2"/>
-            </p>
-            <p>We invite an early reply on this point, and also say if you accept the terms&#8212;10 percent on all copies sold.  ONE of us will be in New York in a week or ten days and will call and see you, but that need not prevent negociations being continued by mail&#8212;until we have a personal interview.</p>
-            <closer rend="right">
-               <salute>Yours Truly</salute>
-               <signed>Thayer &amp; Eldridge</signed>
-            </closer>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.00485_large.jpg" type="recto"/>
+
+         <opener>
+            <dateline>
+               <name type="place">Boston<ptr target="n1080"/></name>
+               <date when="1860-02-27">Feb 27 1860</date>
+            </dateline>
+            <salute>Walt Whitman</salute>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>Your letter of the 25th is at hand. We are ready to
+            commence on your work <hi rend="underline">at once</hi> and have it got up with all
+            possible speed.  The terms which we would propose are 10 percent of the retail price for
+            your copyright. This is the usual allowance to authors, on works of merit. The most
+            important point to be settled at first is the form in which the Poems shall appear. Do
+            you prefer the 18 mo size such as your last volume or will you have it in a 12 mo
+            volume?&#8212;or in Two 12 mo volumes, ? How do you like the 32 mo <hi rend="underline"
+               >blue</hi> &amp; <hi rend="underline">gold</hi> style inaugurated by Ticknor &amp;
+            Fields, in which they have published most of the modern English
+            Poets such as Tennyson, &amp;c?<ptr target="loc.00561_n2"/>
+         </p>
+         <p>We invite an early reply on this point, and also say if you accept the terms&#8212;10
+            percent on all copies sold.  One of us will be in New York in a week or ten days and
+            will call and see you, but that need not prevent <choice><orig>negociations</orig><reg>negotiations</reg></choice> being continued by
+            mail until we have a personal interview.</p>
+         <closer rend="right">
+            <salute>Yours Truly</salute>
+            <signed>Thayer &amp; Eldridge</signed>
+         </closer>
+         <pb xml:id="leaf001v" facs="loc_vm.00486_large.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="loc_vm.00487_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_vm.00488_large.jpg" type="verso"/>
+         <pb xml:id="leaf003r" facs="loc_vm.00483_large.jpg" type="recto"/>
+         <note type="editorial" resp="#ww" place="left">Thayer &amp; Eldridge | Feb 27 '1860</note>
+         <note type="editorial" resp="#ww" place="top">No 2</note>
+         <pb xml:id="leaf003v" facs="loc_vm.00484_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

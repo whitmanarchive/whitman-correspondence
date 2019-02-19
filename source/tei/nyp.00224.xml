@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
 
@@ -42,14 +43,14 @@
                <author>William E. Babcock</author>
                <title>William E. Babcock to Walt Whitman, 18 October 1864</title>
                <date when="1864-10-18">October 18, 1864</date>
-               <orgName xml:id="nyp">Berg Collection at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library </orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Babcock, William E.">William E. Babcock</persName>
+               <persName key="Babcock, William E." ref="nyp.00224_n100">William E. Babcock</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -57,6 +58,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-22">added xml:id to pb, corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-13">proofreading changes</change>
@@ -65,20 +67,21 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="nyp.00224.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="nyp.00224.001.jpg" type="recto"/>
          
             <opener>
                <dateline>
-                  <name type="place">Headquarters 51st N.YV <lb/>Near Poplar Grove Church Va</name>
+                  <name type="place">Headquarters 51st N.YV</name>
+                  <name type="place">Near Poplar Grove Church Va</name>
                   <date when="1864-10-18">October 18th 1864</date>
                </dateline>
                <salute>Walt. Whitman</salute>
                <salute>Dear Sir</salute>
             </opener>
-         <p>Your Letter came to hand this morning and I hasten to answer the Same.<ptr target="nyp.00224_n100"/>
+         <p>Your Letter came to hand this morning and I hasten to answer the Same.
          </p>
             <p>Your Brothers Effects will be Sent forward to Your Mothers address, Soon as we can get a permit from the Provost Marshall General, which I have this day Sent a request for.</p>
-            <p>I was much pleased to hear from him and the rest of the Officers that were taken prisoners with him. And I know they were neither wounded <pb facs="nyp.00224.002.jpg" type="verso"/>nor killed, as we had no chance of hearing from them until your Letter Arrived.</p>
+         <p>I was much pleased to hear from him and the rest of the Officers that were taken prisoners with him. And I know they were neither wounded <pb xml:id="leaf001v" facs="nyp.00224.002.jpg" type="verso"/>nor killed, as we had no chance of hearing from them until your Letter Arrived.</p>
             <p>Every thing is quiet with Us and no news. So I will bring this to a close, by requesting you to write Soon.</p>
             <closer>
                <salute>Yours &amp;c.</salute>
@@ -88,7 +91,7 @@
          <postscript>
             <p>P.S. Letters from You will at all Times be received &amp; Answered with pleasure <lb/>WE Babcock</p>
          </postscript>
-         <pb facs="nyp.00224.003.jpg" type="recto"/>
+         <pb xml:id="leaf002r" facs="nyp.00224.003.jpg" type="recto"/>
       </body>
    </text>
 </TEI>

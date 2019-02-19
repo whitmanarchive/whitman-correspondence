@@ -46,6 +46,7 @@
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
                     changes to this file, as noted:
+                    <persName xml:id="ak">Alex Kinnaman</persName>
 <persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
                         Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
@@ -73,7 +74,7 @@
                     <date cert="high" when="1868-04-26" xml:id="dat1">April 26, 1868</date>
                     <idno type="callno">MSS18630, Box 4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,8 +89,9 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+<change when="2012-03-01" who="#kmp">blessed</change>
             <change when="2011-07-13" who="#zk">changed prc.00022 to loc.01286</change>
             <change when="2010-12-22" who="#el">checked</change>
             <change when="2010-10-16" who="#zk">encoded</change>

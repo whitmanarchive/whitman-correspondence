@@ -11,10 +11,10 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -59,7 +59,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 13 November 1866</title>
                <date when="1866-11-13">November 13, 1866</date>
-               <orgName xml:id="tex">T. E. Hanley Collection, University of Texas.  </orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-13">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bb" when="2010-04-09">edited annotations</change>
@@ -94,7 +95,7 @@
                </dateline>
                <salute>Dearest Mother,</salute>
             </opener>
-            <p>I have had a very bad cold the past week or so, but am feeling better to-day. I am at the office as usual every day. The promotion I spoke about last week hasn't come yet<ptr target="tex.00149_n1"/>&#8212;I guess I had better make no reckoning of it till it comes&#8212;Mother, I havn't received any letter from you the past week&#8212;I sent you day before yesterday a paper with the piece in (or most of it) from the London <hi rend="italic">Fortnightly Review</hi>&#8212;it was meant well, but a good deal of it is most ridiculous.<ptr target="tex.00149_n2"/> Here in the office every thing goes on as usual. The Attorney General and Assistant are very busy getting themselves ready to argue their cases in the U. S. Supreme Court, which holds a session here every winter, &amp; all the big cases, in which the U. S. are a party, come off on such occasions. We are having pleasant weather yet&#8212;a little dusty though. The O'Connors are all well&#8212;they have got to move, &amp; are worrying a good deal about it.</p>
+            <p>I have had a very bad cold the past week or so, but am feeling better to-day. I am at the office as usual every day. The promotion I spoke about last week hasn't come yet<ptr target="tex.00149_n1"/>&#8212;I guess I had better make no reckoning of it till it comes&#8212;Mother, I <choice><sic>havn't</sic><corr>haven't</corr></choice> received any letter from you the past week&#8212;I sent you day before yesterday a paper with the piece in (or most of it) from the London <hi rend="italic">Fortnightly Review</hi>&#8212;it was meant well, but a good deal of it is most ridiculous.<ptr target="tex.00149_n2"/> Here in the office every thing goes on as usual. The Attorney General and Assistant are very busy getting themselves ready to argue their cases in the U. S. Supreme Court, which holds a session here every winter, &amp; all the big cases, in which the U. S. are a party, come off on such occasions. We are having pleasant weather yet&#8212;a little dusty though. The <choice><sic>O'Connors</sic><corr>O'Connor's</corr></choice> are all well&#8212;they have got to move, &amp; are worrying a good deal about it.</p>
             <p>Well, I believe that is all&#8212;so good bye for this time, mother dear. I send my love to Jeff &amp; George &amp; Mat &amp; all.</p>
             <closer rend="right">
                <signed>Walt.</signed>

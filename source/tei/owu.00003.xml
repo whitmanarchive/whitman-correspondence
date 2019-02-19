@@ -11,6 +11,7 @@
 <editor>Ed Folsom</editor>
 <respStmt>
     <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
 <persName xml:id="el">Elizabeth Lorang</persName>
 <persName xml:id="vs">Vanessa Steinroetter</persName>
     <persName xml:id="nhg">Nicole Gray</persName>
@@ -57,7 +58,7 @@
         </fileDesc>        <profileDesc>
             <particDesc>
 <person role="sender">
-    <persName key="Whitman, Martha">Martha Whitman</persName>
+    <persName key="Whitman, Martha" ref="n0707">Martha Whitman</persName>
 </person>
 <person role="recipient">
     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -65,6 +66,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-08">added correspondent ref</change>
             <change who="#nhg" when="2014-11-24">added annotations from Waldron, corrected</change>
             <change who="#nhg" when="2014-10-03">checked, corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
@@ -117,7 +119,7 @@
                 good night I remain your Affectionate sister</p>
 
             <closer>
-                <signed>Mattie<!-- <ptr target="n0707"/> --></signed>
+                <signed>Mattie</signed>
             </closer>
 
 

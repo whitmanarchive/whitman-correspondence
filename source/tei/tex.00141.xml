@@ -11,11 +11,11 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ss">Sarah Synovec</persName>
                <persName xml:id="ec">Eric Conrad</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
             </respStmt>
@@ -59,14 +59,14 @@
                <author>Andrew J. Liebenau</author>
                <title>Andrew J. Liebenau to Walt Whitman, 20 February 1864</title>
                <date when="1864-02-20">February 20, 1864</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Liebenan, Andrew J.">Andrew J. Liebenan</persName>
+               <persName key="Liebenan, Andrew J." ref="tex.00141_n100">Andrew J. Liebenan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-10">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -91,8 +92,8 @@
                <dateline rend="right"/>
                <salute>Friend Walt,</salute>
             </opener>
-         <p>I<ptr target="tex.00141_n100"/> have been setting at the foot of what I call my bed idoly speculating,  on the past, and thinking of many men I have met and called them Friends how often the word Friend, is missplace, but you have told me you were my Friend and called me your young Friend, I thank you for that priveledge from the inmost recess of my heart as I know you can appreciate a sincere Friend, and I will try to be that to you. I gave Father one of your ambrotypes when I was at home, he was very much pleased with it, and reconised it at once. My little Wife exclaimes, he looks like a very inteligent and kind hearted Old Gentleman,
- when I gave her the presents you sent her, she said tell him Andy when you see him that although his gifts are small and he is an entire stranger to me I appreciate them very much, as you say he is a warm and good Friend of yours I respect all of your sincere and good Friends, Walt, I stopped at your residence when passing through Washington enroute to join my Regiment, and was told that you had gone on a visit to the Army, thinking that you had thought, that I had neglected to call upon you as I promised, I thought you might have gone out to visit me at my camp, expecting to meet you there I was sorrowfully disapointed on my arrival there to find that my conjectures were without foundation. Walt, I would invite you to visite me here at Camp but I am told that I will be sent home in a few days with the reenlisted men, to remain there for the term of Thirtyfive days, if it proves to be the truth I will stop and try to persuade you to go on to New York with me, and visit my little Wife and my home, to enjoy a few of your leisure hours cheerfully. I will now conclude Walt, as it is quite late, asking you to please excuse this scratch, as I have a very sharp pointed pen and my ink is frozen. I will now bid adieu,</p>
+         <p>I have been setting at the foot of what I call my bed <choice><sic>idoly</sic><corr>idly</corr></choice> speculating,  on the past, and thinking of many men I have met and called them Friends how often the word Friend, is <choice><sic>missplace</sic><corr>misplace</corr></choice>, but you have told me you were my Friend and called me your young Friend, I thank you for that <choice><sic>priveledge</sic><corr>privilege</corr></choice> from the inmost recess of my heart as I know you can appreciate a sincere Friend, and I will try to be that to you. I gave Father one of your ambrotypes when I was at home, he was very much pleased with it, and <choice><sic>reconised</sic><corr>recognized</corr></choice> it at once. My little Wife <choice><sic>exclaimes</sic><corr>exclaims</corr></choice>, he looks like a very <choice><sic>inteligent</sic><corr>intelligent</corr></choice> and kind hearted Old Gentleman,
+ when I gave her the presents you sent her, she said tell him Andy when you see him that although his gifts are small and he is an entire stranger to me I appreciate them very much, as you say he is a warm and good Friend of yours I respect all of your sincere and good Friends, Walt, I stopped at your residence when passing through Washington en route to join my Regiment, and was told that you had gone on a visit to the Army, thinking that you had thought, that I had neglected to call upon you as I promised, I thought you might have gone out to visit me at my camp, expecting to meet you there I was sorrowfully <choice><sic>disapointed</sic><corr>disppointed</corr></choice> on my arrival there to find that my conjectures were without foundation. Walt, I would invite you to <choice><sic>visite</sic><corr>visit</corr></choice> me here at Camp but I am told that I will be sent home in a few days with the reenlisted men, to remain there for the term of Thirty-five days, if it proves to be the truth I will stop and try to persuade you to go on to New York with me, and visit my little Wife and my home, to enjoy a few of your leisure hours cheerfully. I will now conclude Walt, as it is quite late, asking you to please excuse this scratch, as I have a very sharp pointed pen and my ink is frozen. I will now bid adieu,</p>
             <closer rend="right">
                <salute>Remaining Your Affectionate Friend,</salute>
                <signed>Lieut. Commanding Co 1, 1st Regt Excelsior Brigade, 2nd Division, 3rd Corps, Army of the Potomac</signed>

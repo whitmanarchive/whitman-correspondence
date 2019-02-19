@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="wwh.00022">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Thomas Jefferson Whitman, 13 September
+                    [1886]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>wwh.00022</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">48&#8211;49</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Thomas Jefferson Whitman, 13 September [1886]</title>
+                    <date cert="low" when="1886-09-13" xml:id="dat1">September 13, 1886</date>
+                    <orgName xml:id="wwh">Walt Whitman House, Camden</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-10-24" who="#ss">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1886-09-13" rend="right">Sept 13</date>
+                </dateline>
+            </opener>
+
+            <p>I still think of Hattie&#8212;have been trying to find her picture&#8212;for I have
+                it, (&#38; several copies I think)&#8212;but did not find it yet&#8212;How pretty
+                these lines of Longfellow&#8212;</p>
+            <lg type="poem">
+                <l><handShift rend="printed"/>Good night! Good night! as we so oft have said</l>
+                <l rend="indented1">Beneath this roof, at midnight, in the days</l>
+                <l rend="indented2">that are no more</l>
+                <l>And will no more return.</l>
+                <l>Thou hast but taken thy lamp and gone to bed,</l>
+                <l rend="indented1">I stay a little longer, as one stays</l>
+                <l>To gather up the embers that still burn.<ptr target="wwh.00022_n1"/></l>
+            </lg>
+            <p><handShift rend="mauscript"/>I had my long drive of 10 miles &#38; back
+                yesterday&#8212;was caught in the gale &#38; heavy rain, (rain much
+                needed)&#8212;but got home all safe&#8212;am ab't as usual&#8212;weather changed to
+                quite cool to day here&#8212;Love to you &#38; Jess<ptr target="wwh.00022_n2"
+                />&#8212;</p>
+            <closer>
+                <signed>W.W.</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

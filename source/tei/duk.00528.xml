@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
 
@@ -42,24 +43,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">76-77</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 19? December 1862</title>
                <date when="1862-12-19">December 19?, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Walt Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +62,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-30">corrected orgName, added pbs, added choice tags</change>
          <change who="#nhg" when="2014-08-28">added sender and recipient information</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -88,18 +77,18 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00528.001_large.jpg" type="recto"/>
             <opener>
                <salute>Dear Mother.<ptr target="duk.00528_n100"/>
             </salute>
             </opener>
-            <p>You can't imagine how sorry I was to hear how worried you have been about me, and all the while I was as well as ever, so you see how foolish it is to frett,  the most trouble that I have, is thinking that you are worrying about me,  so you see Mother if you would do as I say, and not frett we would both have less trouble. Mother why dont you write to a fellow  I have not had a letter from you in a long time. I hope you have everything comfortable there at home. I should be mad as blazes if I knew you did not use the money I sent on, for anything you need, whenever you want clothing or anything else  dont be afraid to use the money for there is plenty more where that came from, so go in lemons, and remember your galliant Son is a Capting,<ptr target="duk.00528_n2"/> and expects you to keep up the dignity of the family, and darn the expense.</p>
-            <p>Mother I wish you would send me $10 by mail as soon as conveinent,  I have over two months pay due me, but we shall probaly not get paid in some time yet. dont fail to write to me as soon as you get this, and dont forget the good advice in the good book about fretting.</p>
+         <p>You can't imagine how sorry I was to hear how worried you have been about me, and all the while I was as well as ever, so you see how foolish it is to <choice><sic>frett</sic><corr>fret</corr></choice>,  the most trouble that I have, is thinking that you are worrying about me,  so you see Mother if you would do as I say, and not <choice><sic>frett</sic><corr>fret</corr></choice> we would both have less trouble. Mother why <choice><sic>dont</sic><corr>don't</corr></choice> you write to a fellow  I have not had a letter from you in a long time. I hope you have everything comfortable there at home. I should be mad as blazes if I knew you did not use the money I sent on, for anything you need, whenever you want clothing or anything else  <choice><sic>dont</sic><corr>don't</corr></choice> be afraid to use the money for there is plenty more where that came from, so go in lemons, and remember your <choice><sic>galliant</sic><corr>gallant</corr></choice> Son is a <choice><sic>Capting</sic><corr>Camptain</corr></choice>,<ptr target="duk.00528_n2"/> and expects you to keep up the dignity of the family, and darn the expense.</p>
+         <p>Mother I wish you would send me $10 by mail as soon as <choice><sic>conveinent</sic><corr>convenient</corr></choice>,  I have over two months pay due me, but we shall <choice><sic>probaly</sic><corr>probably</corr></choice> not get paid in some time yet. <choice><sic>dont</sic><corr>Don't</corr></choice> fail to write to me as soon as you get this, and <choice><sic>dont</sic><corr>don't</corr></choice> forget the good advice in the good book about fretting.</p>
             <p>Good Night Dear Mother</p>
             <closer rend="right">
                <signed>Geo. W. Whitman</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="duk.00528.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

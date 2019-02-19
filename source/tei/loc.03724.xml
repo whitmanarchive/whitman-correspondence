@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03724">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walter Delaplaine Scull to Walt Whitman, 14 October
+                    1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walter Delaplaine Scull</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03724</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Walter Delaplaine Scull</author>
+                    <title>Walter Delaplaine Scull to Walt Whitman, 14 October 1889</title>
+                    <date cert="high" when="1889-10-14" xml:id="dat1">October 14, 1889</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, DC.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt
+                    Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Scull, Walter Delaplaine" ref="n5000">Walter Delaplaine
+                        Scull</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-09-23" who="#blh">Second check</change>
+            <change when="2018-09-17" who="#as">First check</change>
+            <change when="2016-10-25" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03724.001_large.jpg" type="recto"/>
+            <note type="editorial" resp="#ww" place="top" rend="circled">book sent Oct 26</note>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>The Queens Hotel.
+                        Manchester.</name>
+                    <date when="1889-10-14"><handShift rend="manuscript"/>Monday. Oct. 14.
+                        1889.</date>
+                </dateline>
+                <salute>Dear Sir</salute>
+            </opener>
+
+            <p>I write, enclosing money for book and postage, hoping that the 300th copy of this
+                last edition of your works has not yet been sold; I am very anxious to possess a
+                copy, and to read and judge you finally for myself by the work you yourself approve
+                best, as hitherto some ill fortune has prevented me from getting anything like a
+                comprehensive survey of your Art.&#8212;The latter word is one which may jar on your
+                ear, as suggesting Art&#8212;ificiality! But you must know that I am an artist, and
+                    am<pb xml:id="leaf001v" facs="loc.03724.002_large.jpg" type="verso"/> able, out
+                of my craftman's knowledge, to separate Art as craft from Art as the thing that
+                binds mortals in the bonds of sympathy with Nature.&#8212;What a hard thing it is to
+                put down plainly and squarely what one means! I mean that I want to get a better
+                view of you as <hi rend="underline">Artist</hi>, apart from <hi rend="underline"
+                    >Art-craftsman</hi>. I don't remember coming across any positive statement of
+                your opinion on the latter, but you must be the former, however much you despise
+                conventional artistic forms.&#8212;Forgive some vagueness of statement,&#8212;I am
+                still a very young man.&#8212;Please send the book, if you still can spare one, to
+                the address, 2. Langland Gardens. Frognal. Finchley Road. London. N. W. England</p>
+
+            <closer>
+                <salute>And believe me</salute>
+                <salute>Yours sincerely</salute>
+                <signed>Walter Delaplaine Scull</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc.03724.003_large.jpg" type="recto"/>
+            <note type="editorial" resp="#ww" place="left">book sent</note>
+            <note type="editorial" resp="#ww" place="left">Walter <unclear reason="illegible"
+                    cert="high" resp="#ktl">Delaplaine Scull</unclear></note>
+            <!--I'm not 100% certain this second one is Whitman's hand, but it looks like it-->
+            <pb xml:id="leaf002v" facs="loc.03724.004_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

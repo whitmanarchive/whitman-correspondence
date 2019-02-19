@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -50,7 +51,7 @@
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Palmer, Nicholas D.">Nicholas D. Palmer</persName>
+               <persName key="Palmer, Nicholas D." ref="n5000">Nicholas D. Palmer</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -58,6 +59,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-20">added xml:ids to pbs, choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2011-07-11">errors in transcription ("Lewis" for "Louisville," "88" for "80" and "immediately" for "amediately")fixed; note for Palmer updated</change>
@@ -71,23 +73,23 @@
    <text type="letter">
       <body>
          
-            <pb facs="loc.00858.001.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="loc.00858.001.jpg" type="recto"/>
             <opener rend="right">
                <dateline>
                   <name type="place">Camp Near Louisville</name>
                   <date when="1865-06-24">June 24th, 1865</date>
                </dateline>
                <salute>Mr. Whitman <lb/>
-Dear <unclear reason="illegible" resp="#vys" cert="high">Friend</unclear>
+Dear <unclear reason="illegible" resp="#vs" cert="high">Friend</unclear>
                </salute> 
             </opener>
-            <p>I concluded I would talk a few words to you through this instrument.  I am well and hope the safe arrival of this may find you the same.  There is not much talk of the<unclear reason="illegible" resp="#vys" cert="high">Vetterans</unclear> getting out yet: if you have any thing in the way of advice to give concerning my imployment when I am Discharged<gap reason="illegible"/> talk plain to me Mr. Whitman.  I have been <unclear reason="illegible" resp="#vys" cert="high">about</unclear> the world more perhaps  than you would imagine there are a <unclear reason="illegible" resp="#vys" cert="high">great many</unclear> 
-               <pb facs="loc.00858.002.jpg" type="verso"/>
+            <p>I concluded I would talk a few words to you through this instrument.  I am well and hope the safe arrival of this may find you the same.  There is not much talk of the<unclear reason="illegible" resp="#vs" cert="high">Vetterans</unclear> getting out yet: if you have any thing in the way of advice to give concerning my <choice><sic>imployment</sic><corr>employment</corr></choice> when I am Discharged<gap reason="illegible"/> talk plain to me Mr. Whitman.  I have been <unclear reason="illegible" resp="#vs" cert="high">about</unclear> the world more perhaps  than you would imagine there are a <unclear reason="illegible" resp="#vs" cert="high">great many</unclear> 
+               <pb xml:id="leaf001v" facs="loc.00858.002.jpg" type="verso"/>
                <gap reason="illegible"/> 
-               <unclear reason="illegible" resp="#vys" cert="high">cruel turns</unclear> and there<gap/> a variety of ways of making a liveing.  Leaving hard work out of the Books, and I have thought that <gap reason="illegible"/> were bigger fools than me making a living very Easy although I admit my Education is Limited.  Name any thing you Please and if I Do not Propose to accept: that is as far as it will Go I will blow on no one.  What about Such houses as we were talking about and <gap reason="illegible"/> if it Should be made agreeable for me to take up Lodgeing in Close Proximity with yours. I Should be Pleased in the Superlative Degree.  Please write <choice>
+               <unclear reason="illegible" resp="#vs" cert="high">cruel turns</unclear> and there<gap reason="illegible"/> a variety of ways of making a <choice><sic>liveing</sic><corr>living</corr></choice>.  Leaving hard work out of the Books, and I have thought that <gap reason="illegible"/> were bigger fools than me making a living very Easy although I admit my Education is Limited.  Name any thing you Please and if I Do not Propose to accept: that is as far as it will Go I will blow on no one.  What about Such houses as we were talking about and <gap reason="illegible"/> if it Should be made agreeable for me to take up <choice><sic>Lodgeing</sic><corr>Lodging</corr></choice> in Close Proximity with yours. I Should be Pleased in the Superlative Degree.  Please write <choice>
                <sic>amediately</sic>
                <corr>immediately</corr>
-            </choice> after you receive this and Give me Some <pb facs="loc.00858.003.jpg" type="verso"/>advice No matter what sort.  I conclude.</p>
+               </choice> after you receive this and Give me Some <pb xml:id="leaf002r" facs="loc.00858.003.jpg" type="verso"/>advice No matter what sort.  I conclude.</p>
             <p>Hopeing to hear from you soon.  Until then.</p>
             <closer rend="right">
             <salute>I remain your Friend <lb/>as Ever</salute>
@@ -97,7 +99,7 @@ Dear <unclear reason="illegible" resp="#vys" cert="high">Friend</unclear>
             </signed>
             </closer>
          
-         <pb facs="loc.00858.004.jpg" type="verso"/>
+         <pb xml:id="leaf002v" facs="loc.00858.004.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

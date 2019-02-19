@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
@@ -42,30 +43,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">175-176</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Anson Ryder, Jr</author>
                <title>Anson Ryder, Jr to Walt Whitman, 25 August 1865</title>
                <date when="1865-08-25">August 25, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Ryder, Anson Jr.">Anson Ryder Jr.</persName>
+               <persName key="Ryder, Anson Jr." ref="loc.00608_n100">Anson Ryder Jr.</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +62,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">proofread and edited</change>
@@ -85,18 +75,23 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
-            <opener> 
+         <pb xml:id="leaf001r" facs="loc.00608.001_large.jpg" type="recto"/>
+            <opener>
+               <dateline>
+                  <name type="place">Cedar Lake</name>
+                  <date when="1865-08-25">Aug</date>
+               </dateline>
                <salute>My Dear Uncle W,</salute>
             </opener>
-         <p>Your very kind letter of the 16th was duly received and appreciated to the best of my ability.<ptr target="loc.00608_n100"/> We had a grand reception at our place last week for this town and two adjoining ones which was quite a success for a country place like this. I presume there can be more costly ones got up in New York and other cities and perhaps better music and shaking but for a right down good place for a peson to enjoy themselves and get enough to eat and of that which is eatable give me Cedar Lake or any other Lake in preference to any city. One of our lady neighbors who is fond of a good joke cooked a coon that was caught trespassing in a corn field it looked very nicely I tell you and was soon pretty well demolished before anyone knew what it was  after a while someone asked what kind of meat it was when the lady very innocently told them it was nothing but a coon  when some of the more fastidious ones made up awful faces as though they had a very bad feeling at the stomach but I did not believe it went below the chin.</p>
-            <p>I have shown your Pho[tograph] only in the family and they all think it must belong to a kind old man but when I tell them the age of the original (why does it not seem possible but [they] are glad that I found one friend in the hospital  I am gaining strength very fast. I walk a little with one crutch and cane. Mr Wood is with me yet and improving in health and flesh. I do not know whether there are any characters among my neighbors that would interest you particular or not they are like most of our country people kindly and well meaning  I see by the paper that Armory Squre is discontinued and the patients are removed to Douglass Hospital. I received a letter each from Fraser and Dr. Smith.<ptr target="loc.00608_n2"/> Are you personally or were you rather acquainted with Henry Thoreau? I saw in some extracts of Thoreau's letters a few days since a sort of discription of yourself, and so I supposed you must have met him. I sent the paper by Fraser several days ago. I have not been far enough away from home since I came here to get any photographs but expect to in a few weeks when I shall not forget to whom I am indebted for like favors. Remember me with kindness to any whom you may meet that remembers me. And please write me how Hiram is getting along for I feel much interest in his welfare.<ptr target="loc.00608_n3"/>
+         <p>Your very kind letter of the 16th was duly received and appreciated to the best of my ability. We had a grand reception at our place last week for this town and two adjoining ones which was quite a success for a country place like this. I presume there can be more costly ones got up in New York and other cities and perhaps better music and shaking but for a right down good place for a peson to enjoy themselves and get enough to eat and of <pb xml:id="leaf001v" facs="loc.00608.002_large.jpg" type="verso"/>that which is eatable give me Cedar Lake or any other Lake in preference to any city. One of our lady neighbors who is fond of a good joke cooked a coon that was caught trespassing in a corn field it looked very nicely I tell you and was soon pretty well demolished before anyone knew what it was  after a while someone asked what kind of meat it was when the lady very innocently told them it was nothing but a coon  when some of the more fastidious ones made up awful faces as though they had a very bad feeling at the stomach but I did not believe it went below the chin.</p>
+         <p>I have shown your Pho[tograph] <pb xml:id="leaf002r" facs="loc.00608.003_large.jpg" type="recto"/>only in the family and they all think it must belong to a kind old man but when I tell them the age of the original (why does it not seem possible but [they] are glad that I found one friend in the hospital  I am gaining strength very fast. I walk a little with one crutch and cane. Mr Wood is with me yet and improving in health and flesh. I do not know whether there are any characters among my neighbors that would interest you particular or not they are like most of our country people kindly and well meaning  I see by the paper that Armory Squre is discontinued and the patients are removed <pb xml:id="leaf002v" facs="loc.00608.004_large.jpg" type="verso"/>to Douglass Hospital. I received a letter each from Fraser and Dr. Smith.<ptr target="loc.00608_n2"/> Are you personally or were you rather acquainted with Henry Thoreau? I saw in some extracts of Thoreau's letters a few days since a sort of <choice><sic>discription</sic><corr>description</corr></choice> of yourself, and so I supposed you must have met him. I sent the paper by Fraser several days ago. I have not been far enough away from home since I came here to get any photographs but expect to in a few weeks when I shall not forget to whom I am indebted for like favors. Remember me with kindness to any whom you may meet that remembers me. And please write me how Hiram is getting along for I feel much interest in his welfare.<ptr target="loc.00608_n3"/>
             </p>
             <closer rend="right">
                <salute>Please excuse all errors and mistakes of your most affectionate friend,</salute>
                <signed>Anson Ryder, Jr.</signed>
             </closer>
-         
+         <pb xml:id="leaf003r" facs="loc.00608.005_large.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="loc.00608.006_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

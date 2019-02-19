@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07331">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 7 January
+                    1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07331</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 7 January 1890</title>
+                    <date cert="high" when="1890-01-07" xml:id="dat1">January 7, 1890</date>
+                    <idno type="callno">MSS18630, Box 5, Reel 3</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C. </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-05" who="#blh">First check</change>
+            <change when="2017-08-22" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            
+            <pb xml:id="leaf002r" facs="loc_es.00687.jpg" type="recto"/>
+
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office</name>
+                    <name type="place">Asylum<lb/> for the Insane</name>
+                    <name type="place">Ontario</name>
+                    <name type="place">London, Ont.,</name>
+                    <date when="1890-01-07"><handShift rend="manuscript"/>7 Jan
+                        <handShift rend="printed"/>18<handShift rend="manuscript"/>90<ptr target="loc.07331_n1"/></date>
+                </dateline>
+                <salute/>
+            </opener>
+
+            <p>I have your note of last Saturday and Sunday enclosing M<hi rend="underline">c</hi>Kenzie's
+                note<ptr target="loc.07331_n2"/> and Carpenter's<ptr target="n0141b"/> photo. The
+                latter is good and very welcome. That piece on "Old Poets &#38;c"<ptr
+                    target="loc.07745_n2"/> ought to be good. There is one "old poet", at least,
+                whom you sh<hi rend="underline">d</hi> know about by this time. I fear you are not having a good time, old
+                friend, with that miserable stupid feeling all the time. We too here are having
+                quite a time of our own. Something like 60 or 70 per cent of the (so called) sane
+                people about the institution more or less sick. 2 out of the 4 doctors in bed nearly
+                every one at my house sick. (But nothing dangerous about the disease so we can afford
+                to laugh at it). W<hi rend="underline">m</hi> Gurd<ptr target="n4284"/> has been here a week sick all the
+                time, still quite sick tho out of bed and on the mend. If "La Grippe" attacks the
+                patients (a few of them have it now) in the same percentage as the employees we
+                have a cheerful time ahead of us</p>
+
+            <closer>
+                <salute>Love to you</salute>
+                <signed>R M Bucke</signed>
+            </closer>
+
+            <pb xml:id="leaf002v" facs="loc_es.00688.jpg" type="verso"/>
+            <pb xml:id="leaf001r" facs="loc_es.00685.jpg" type="recto"/>
+            <pb xml:id="leaf001v" facs="loc_es.00686.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

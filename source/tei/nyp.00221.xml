@@ -10,6 +10,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -56,14 +57,14 @@
                <author>William T. Otto</author>
                <title>William T. Otto to Walt Whitman, 11 May 1865</title>
                <date when="1865-05-11">May 11, 1865</date>
-               <orgName xml:id="nyp">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
+               <orgName xml:id="nypl">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Otto, William T.">William T. Otto</persName>
+               <persName key="Otto, William T." ref="nyp.00221_n100">William T. Otto</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,6 +72,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-31">updated Oscar Lion info</change>
@@ -91,7 +93,7 @@ Washington, D. C.,</name>
             </opener>
             <p>Walt Whitman of New York is hereby promoted to a Clerkship of the Second Class in the Office of Indian Affairs to take effect from and after the first instant.</p>  
             <closer rend="right">
-               <signed>William T. Otto, <lb/> Assistant Secretary of the Interior.<ptr target="nyp.00221_n100"/>
+               <signed>William T. Otto, <lb/> Assistant Secretary of the Interior.
             </signed>
             </closer>
          

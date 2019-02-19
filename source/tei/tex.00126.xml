@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -58,14 +59,14 @@
                <author>Lewis K. Brown</author>
                <title>Lewis K. Brown to Walt Whitman, 10 July 1863</title>
                <date when="1863-07-10">July 10, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Brown, Lewis K.">Lewis K. Brown</persName>
+               <persName key="Brown, Lewis K." ref="tex.00126_n100">Lewis K. Brown</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-08">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-08-24">proofread and modified</change>
@@ -86,21 +88,21 @@
       <body>
          
             <opener> 
-               <salute>My Dear Freind Walter.</salute>
+               <salute>My Dear <choice><sic>Freind</sic><corr>Friend</corr></choice> Walter.</salute>
             </opener>
-         <p>It is with mutch pleasure that I<ptr target="tex.00126_n100"/> take my pen in hand to inform you that I am well and that my leg is mending verry fast  I left Washington on the 2nd on the 6 1/2 O clock train but It was the rong train and I had to get of at Haver de gras and stay all night on the Boat or els go on to Wilmington and so I got of and stayed on the boat and as good luck would have it I met 3 men on the boat that I knowed and they maid me verry comfortable that night and then I left the next morning and got home in the evening and I gave Mother a verry agreeable
+         <p>It is with <choice><sic>mutch</sic><corr>much</corr></choice> pleasure that I take my pen in hand to inform you that I am well and that my leg is mending <choice><sic>verry</sic><corr>very</corr></choice> fast  I left Washington on the 2nd on the 6 1/2 O clock train but It was the <choice><sic>rong</sic><corr>wrong</corr></choice> train and I had to get of at Haver de gras and stay all night on the Boat or els go on to Wilmington and so I got of and stayed on the boat and as good luck would have it I met 3 men on the boat that I <choice><sic>knowed</sic><corr>knew</corr></choice> and they maid me <choice><sic>verry</sic><corr>very</corr></choice> comfortable that night and then I left the next morning and got home in the evening and I gave Mother a <choice><sic>verry</sic><corr>very</corr></choice> agreeable
 Supprise I was verry tired the next day but I feel well now. I think that I will soon get well hear for I have everything that I want we have a splendid garden and we have a good many cherries in fact every thing, the nice grain fields around the house and every thing looks so well. I have had a good many of my young friends to see me. I have got your
-picture and I am a going to have it fraimed the first time I get whear I can have it don. I expect to go on a visit up to my GranFathers in about
-4 weeks and I think that I will have a nice time up thear. I only wish
-that you wer hear I am sure that you would enjoy it for it is so nice or it appears so to me [w]ho has been pennd up in the Hospital for 10 months. My Father and Mother are well and send their respects to you
-for Mother says whoeve[r] did me a faivor or was a friend to me was one to her and you have bin a friend in nead and that is a friend indead. I expect that you still visit the Hospital if so give my respects to the boys  I have nothing more to write at present so I will have to close
-hoping verry soon to hear from you so good by and God bless you from your affectionet friend</p>
+picture and I am a going to have it <choice><sic>fraimed</sic><corr>framed</corr></choice> the first time I get <choice><sic>whear</sic><corr>where</corr></choice> I can have it don. I expect to go on a visit up to my <choice><sic>GranFathers</sic><corr>Grandfather's</corr></choice> in about
+4 weeks and I think that I will have a nice time up <choice><sic>thear</sic><corr>there</corr></choice>. I only wish
+that you <choice><sic>wer</sic><corr>were</corr></choice> hear I am sure that you would enjoy it for it is so nice or it appears so to me [w]ho has been <choice><sic>pennd</sic><corr>penned</corr></choice> up in the Hospital for 10 months. My Father and Mother are well and send their respects to you
+for Mother says whoeve[r] did me a <choice><sic>faivor</sic><corr>favor</corr></choice> or was a friend to me was one to her and you have bin a friend in <choice><sic>nead</sic><corr>need</corr></choice> and that is a friend <choice><sic>indead</sic><corr>indeed</corr></choice>. I expect that you still visit the Hospital if so give my respects to the boys  I have nothing more to write at present so I will have to close
+hoping <choice><sic>verry</sic><corr>very</corr></choice> soon to hear from you so good by and God bless you from your <choice><sic>affectionet</sic><corr>affectionate</corr></choice> friend</p>
             <closer rend="right">
                <signed>Lewis K Brown</signed>
             </closer>
          
          <postscript>
-            <p>care of James McPauley P.S. pleas excues this bad writing as well as spelling  I have just herd of the fall of Vicksburg and I am g[l]ad of it and Simple Mead has drove the rebbels out of Pennsylvania.</p>
+            <p>care of James McPauley P.S. <choice><sic>pleas</sic><corr>please</corr></choice> <choice><sic>excues</sic><corr>excuse</corr></choice> this bad writing as well as spelling  I have just herd of the fall of Vicksburg and I am g[l]ad of it and Simple Mead has drove the <choice><sic>rebbels</sic><corr>rebels</corr></choice> out of Pennsylvania.</p>
          </postscript>
       </body>
    </text>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="rut.00029">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William Sloane Kennedy, [13(?) August
+                    1886]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="kb">Kyle Barton</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>rut.00029</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive August be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">42</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Sloane Kennedy, [13(?) August 1886]</title>
+                    <date cert="low" when="1886-08-13" xml:id="dat1">August 13, 1886</date>
+                    <orgName xml:id="rut">Special Collections and University Archives, Rutgers
+                        University Libraries, Rutgers, The State University of New Jersey</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-07-16" who="#ss">added note</change>
+            <change when="2015-03-29" who="#kb">edited</change>
+            <change when="2014-10-24" who="#ss">encoded and annotated from Miller.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <p>Have look'd over the whole MS.<ptr target="col.00006_n2"/> pretty well&#8212;with an eye to correction of dates
+                &#38; statistics&#8212;have a very few times made my own comments &#38; suggestions
+                (from my own point of view, or feeling, or knowledge)&#8212;you follow the
+                suggestions or not, as you think best<ptr target="rut.00029_n1"/>&#8212;</p>
+        </body>
+    </text>
+</TEI> 

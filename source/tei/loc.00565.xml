@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
 
@@ -43,31 +44,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="cl">Calamus Lovers: Walt Whitman's Working-Class Camerados</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1987</date>
-                     <biblScope type="page">41-42</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Fred Vaughan</author>
                <title>Fred Vaughan to Walt Whitman, 19 March 1860</title>
                <date when="1860-03-19">March 19, 1860</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Vaughan, Fred">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred" ref="loc.00565_n100">Fred Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -75,6 +63,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-12">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bbb" when="2009-08-18">proofread</change>
@@ -87,11 +76,11 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.00772.jpg" type="recto"/>
             <opener> 
                <salute>Dear Walt,</salute>
             </opener>
-         <p>I<ptr target="loc.00565_n100"/> am sorry I could not see you previous to your departure for Boston. I called in at Pfaffs two evenings in succession but did not find you on hand.<ptr target="loc.00565_n2"/>
+         <p>I am sorry I could not see you previous to your departure for Boston. I called in at Pfaffs two evenings in succession but did not find you on hand.<ptr target="loc.00565_n2"/>
             </p>
             <p>I am quite anxious to hear about how matters are progressing with you.</p>
             <p>Write to me as soon as you can make it convenient. Care of Man- Ex Co. 140 Chamber St., New York.</p>
@@ -100,7 +89,9 @@
                <salute>Yours as Ever,</salute>
                <signed>Fred</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="loc_vm.00773.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="loc_vm.00770.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_vm.00771.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

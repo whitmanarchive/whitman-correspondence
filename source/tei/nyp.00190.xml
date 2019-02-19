@@ -11,10 +11,10 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -59,7 +59,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Lewis K. Brown, 11 July 1864</title>
                <date when="1864-07-11">July 11, 1864</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection, New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -69,11 +69,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Brown, Lewis K.">Lewis K. Brown</persName>
+               <persName key="Brown, Lewis K." ref="nyp.00190_n1">Lewis K. Brown</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-03">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-12">proofreading changes</change>
@@ -92,9 +93,9 @@
                </dateline>
                <salute>Dear comrade</salute>
             </opener>
-            <p>I have rec'd your letter of the 6th<ptr target="nyp.00190_n1"/> as it has been sent on to me by Major Hapgood. My dear comrade, I have been very sick, and have been brought on home nearly three weeks ago, after being sick some ten days in Washington&#8212;The doctors say my sickness is from having too deeply imbibed poison into my system from the hospitals&#8212;I had spells of deathly faintness, &amp; the disease also attacked my head &amp; throat pretty seriously&#8212;</p>
+            <p>I have rec'd your letter of the 6th as it has been sent on to me by Major Hapgood. My dear comrade, I have been very sick, and have been brought on home nearly three weeks ago, after being sick some ten days in Washington&#8212;The doctors say my sickness is from having too deeply imbibed poison into my system from the hospitals&#8212;I had spells of deathly faintness, &amp; the disease also attacked my head &amp; throat pretty seriously&#8212;</p>
             <p>The doctors forbid me going any more into the hospitals&#8212;I did not think much of it, till I got pretty weak, &amp; then they directed me to leave &amp; go north for change of air as soon as I had strength&#8212;But I am making too long a story of it&#8212;I thought only to write you a line&#8212;My dear comrade, I am now over the worst of it &amp; have been getting better the last three days&#8212;my brother took me out in a carriage for a short ride yesterday which is the first I have been out of the house since I have been home&#8212;the doctor tells me to-day I shall soon be around which will be very acceptable&#8212;This is the first sickness I have ever had &amp; I find upon trial such things as faintness, headache &amp; trembling &amp; tossing all night, &amp; all day too, are not proper companions for a good union man like myself&#8212;</p>
-            <p>Lewy, I dont know any news to send you&#8212;the acc'ts here to-night are that the railroad &amp; telegraph between Baltimore &amp; Washington are cut, &amp; also between Philadelphia by the rebel invasion<ptr target="nyp.00190_n2"/>&#8212;</p>
+            <p>Lewy, I <choice><sic>dont</sic><corr>don't</corr></choice> know any news to send you&#8212;the acc'ts here to-night are that the railroad &amp; telegraph between Baltimore &amp; Washington are cut, &amp; also between Philadelphia by the rebel invasion<ptr target="nyp.00190_n2"/>&#8212;</p>
             <p>My dear boy, you say you would like to see me&#8212;well I would give any thing to see your face again too&#8212;I think of you often&#8212;tell Jo Harris &amp; Bartlett<ptr target="nyp.00190_n3"/> I have not forgotten them&#8212;</p>
             <p>And now good bye, Lewy, &amp; accept my heartfelt &amp; true love, my dearest comrade&#8212;&amp; I will try to write again before a great while &amp; tell you how I am getting along, &amp; which way I expect to move, &amp;c. And I hope you will do the same to me&#8212;</p>
             <p>So good bye again, Lew, &amp; God bless you, dear son, now &amp; through life&#8212;</p>

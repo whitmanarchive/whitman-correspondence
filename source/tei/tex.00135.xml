@@ -11,8 +11,8 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
             </respStmt>
@@ -56,14 +56,14 @@
                <author>William H. McFarland</author>
                <title>William H. McFarland to Walt Whitman, 11 November 1863</title>
                <date when="1863-11-11">November 11, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="McFarland, William H.">William H. McFarland</persName>
+               <persName key="McFarland, William H." ref="tex.00135_n100">William H. McFarland</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,6 +71,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-10">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -85,10 +86,10 @@
                <dateline rend="right"> </dateline>
                <salute>Mr Whitman Dear Sir</salute>
             </opener>
-         <p>It is with shame that I<ptr target="tex.00135_n100"/> sit down to write you a few lines. I have neglected it so long I suppose you thought I had quit forgotten you, but I can asure you my Dear friend such is not the case. I have thought of you verry often. One reason that I have not writen before is I have been shifting about so much since I have been home that if I did write you I could scearcely tell where to have you direct to but now I believe I have got settled down for the winter. Samuel M Dyer<ptr target="tex.00135_n2"/> that got a furlough at the same time I got mine is hear. I spoke to him about writing to you. he felt just as I did about [it]. it was so long since we had promissed to write that he felt ashamed to but I hop you will pardon our neglect, and if it complys with your will I should be very happy to keep up a coraspandenc</p>
-            <p>Now I will try and give you an account of my journy home Samuel M Dyer and myself started from Washington on the 28th day of July 3 oclock pm arrive in Baltimore about 5 pm there we seperated S.M. Dyer took the 9 pm train for Harrisburg I stayed in Baltimore until Thursday evening then took the 9 oclock train for Harrisburg arived at H. about 2 oclock the next morning changed cars there fore Pittsburg arrived there about noon I went to the Soldiers home and got my dinner and a verry good dinner it was to. I then took the 1-40 pm train I did not chang cars again until I got to Chicago Friday evening I got into a sleeping car at Crestline Ohio, arived at Chicago Saterday morning at 8-30. I then thought I would stop there and look up a cousin that I thought lived there, but I found he had left here about two months before that so in the evening I took the cars again and the next morning I arrived at my uncles at McFarland Station I stayd there two weeks, then started for another part to a place called Raymond. there I had a good time. last Friday I came and reported at this Hospital. I think I shall stay here all winter</p>
-            <p>Our elections have gone on finely in this state it always has gon Democratic until this fall it has gone it is estimated 15,000 Majority for the Union that is the home vote the copperheads are completely played out</p>
-            <p>My Regiment (the 5th Wis) cast 450 vots all Republican but 1 solitary one.  I rather guess that one feels lonesome.</p>
+         <p>It is with shame that I sit down to write you a few lines. I have neglected it so long I suppose you thought I had quit forgotten you, but I can <choice><sic>asure</sic><corr>assure</corr></choice> you my Dear friend such is not the case. I have thought of you <choice><sic>verry</sic><corr>very</corr></choice> often. One reason that I have not <choice><sic>writen</sic><corr>written</corr></choice> before is I have been shifting about so much since I have been home that if I did write you I could <choice><sic>scearcely</sic><corr>scarcely</corr></choice> tell where to have you direct to but now I believe I have got settled down for the winter. Samuel M Dyer<ptr target="tex.00135_n2"/> that got a furlough at the same time I got mine is hear. I spoke to him about writing to you. he felt just as I did about [it]. it was so long since we had <choice><sic>promissed</sic><corr>promised</corr></choice> to write that he felt ashamed to but I hop you will pardon our neglect, and if it <choice><sic>complys</sic><corr>complies</corr></choice> with your will I should be very happy to keep up a <choice><sic>coraspandenc</sic><corr>correspondent</corr></choice></p>
+         <p>Now I will try and give you an account of my <choice><sic>journy</sic><corr>journey</corr></choice> home Samuel M Dyer and myself started from Washington on the 28th day of July 3 oclock pm arrive in Baltimore about 5 pm there we <choice><sic>seperated</sic><corr>separated</corr></choice> S.M. Dyer took the 9 pm train for Harrisburg I stayed in Baltimore until Thursday evening then took the 9 oclock train for Harrisburg <choice><sic>arived</sic><corr>arrived</corr></choice> at H. about 2 oclock the next morning changed cars there fore Pittsburg arrived there about noon I went to the Soldiers home and got my dinner and a <choice><sic>verry</sic><corr>very</corr></choice> good dinner it was to. I then took the 1-40 pm train I did not <choice><sic>chang</sic><corr>change</corr></choice> cars again until I got to Chicago Friday evening I got into a sleeping car at Crestline Ohio, <choice><sic>arived</sic><corr>arrived</corr></choice> at Chicago <choice><sic>Saterday</sic><corr>Saturday</corr></choice> morning at 8-30. I then thought I would stop there and look up a cousin that I thought lived there, but I found he had left here about two months before that so in the evening I took the cars again and the next morning I arrived at my uncles at McFarland Station I <choice><sic>stayd</sic><corr>stayed</corr></choice> there two weeks, then started for another part to a place called Raymond. there I had a good time. last Friday I came and reported at this Hospital. I think I shall stay here all winter</p>
+            <p>Our elections have gone on finely in this state it always has <choice><sic>gon</sic><corr>gone</corr></choice> Democratic until this fall it has gone it is estimated 15,000 Majority for the Union that is the home vote the copperheads are completely played out</p>
+            <p>My Regiment (the 5th Wis) cast 450 <choice><sic>vots</sic><corr>votes</corr></choice> all Republican but 1 solitary one.  I rather guess that one feels lonesome.</p>
             <p> I will now close hoping to hear from you soon I remain Your Friend</p>
             <closer rend="right"/>
          

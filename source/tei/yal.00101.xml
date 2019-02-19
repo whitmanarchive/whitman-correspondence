@@ -10,10 +10,13 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
+               <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
 
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -33,7 +36,13 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
+                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
+                  copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -41,14 +50,15 @@
                <author>Horace Wentworth</author>
                <title>Horace Wentworth to Walt Whitman, 16 November 1866</title>
                <date when="1866-11-16">November 16, 1866</date>
-               <orgName xml:id="yal">Yale Walt Whitman Collection, Beinecke Rare Book and Manuscript Library</orgName>
+               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
+                  Manuscript Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Wentworth, Horace">Horace Wentworth</persName>
+               <persName key="Wentworth, Horace" ref="n0689">Horace Wentworth</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -56,29 +66,43 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change who="#ss" when="2015-06-14">annotated</change>
+         <change who="#ak" when="2015-05-13">added correspondent ref</change>
+         <change who="#ak" when="2015-04-16">corrected orgName, added pbs</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2009-09-09">transcribed, encoded</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="yal.00101.001.jpg" type="recto"/>
-         
-            <opener>
-               <dateline>
-                  <name type="place">Boston</name> 
-                  <date when="1866-11-16">Nov 16 1866</date>
-               </dateline>
-               <salute>Mr W. Whitman</salute>
-               <salute>Dear Sir</salute>
-            </opener>
-            <p>I own the Stereotype plates of your Poem, "Leaves of Grass" I bought them of the assigness of Thayer &amp; Eldridge at the time of their failure. I should like to sell them &amp; did not know but you would like to purchase if you could get them at the right figure. I do not know what they cost, but my impression is, that it was somewhere in the neighborhood of $800. I would be pleased to have you state what you would give for them, or to know if you could refer me to any publisher who would be likely to purchase. I think you could make better arrangements with publishers if <pb facs="yal.00101.002.jpg" type="verso"/>you owned the Stereotype plates</p>
-            <closer>
-               <salute>Yours Resptly</salute>
-               <signed>H. Wentworth</signed>
-            </closer>
-         
+         <pb xml:id="leaf001r" facs="yal.00101.001.jpg" type="recto"/>
+
+         <opener>
+            <dateline>
+               <name type="place">Boston</name>
+               <date when="1866-11-16">Nov 16 1866</date>
+            </dateline>
+            <salute>Mr W. Whitman</salute>
+            <salute>Dear Sir</salute>
+         </opener>
+         <p>I own the Stereotype plates of your Poem, "Leaves of Grass" I bought them of the
+            assigness of Thayer &amp; Eldridge at the time of their failure. I should like to sell
+            them &amp; did not know but you would like to purchase if you could get them at the
+            right figure. I do not know what they cost, but my impression is, that it was somewhere
+            in the neighborhood of $800. I would be pleased to have you state what you would give
+            for them, or to know if you could refer me to any publisher who would be likely to
+            purchase. I think you could make better arrangements with publishers if <pb
+               xml:id="leaf001v" facs="yal.00101.002.jpg" type="verso"/>you owned the Stereotype
+            plates</p>
+         <closer>
+            <salute>Yours <choice>
+                  <abbr>Resptly</abbr>
+                  <expan>Respectfully</expan>
+               </choice></salute>
+            <signed>H. Wentworth</signed>
+         </closer>
+
       </body>
    </text>
 </TEI>

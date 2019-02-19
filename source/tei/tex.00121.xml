@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -57,14 +58,14 @@
                <author>Justus F. Boyd</author>
                <title>Justus F. Boyd to Walt Whitman, 10 March 1863</title>
                <date when="1863-03-10">March 10, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Boyd, Justus F.">Justus F. Boyd</persName>
+               <persName key="Boyd, Justus F." ref="tex.00121_n100">Justus F. Boyd</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +73,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-08">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jc" when="2012-10-22">edited annotation on O'Connor</change>
@@ -95,9 +97,9 @@
                </dateline>
                <salute>Dear Sir</salute>
             </opener>
-         <p>I<ptr target="tex.00121_n100"/> am seated in an easy chair pen in hand trying to scribble a few lines to you. I expect it will take me all day to write this for I cant sit up but a few moments at a time. I was taken down with chills &amp; fever when I got to Pittsburg. I stayed there from Saturday night until Monday morning before any train left I dont think I ever was so sick in my life as I was in Pittsburg I about gave up there that I never should get home alive, but there was a Dr there he gave me some medison he said that would take me home &amp; it did.</p>
+         <p>I am seated in an easy chair pen in hand trying to scribble a few lines to you. I expect it will take me all day to write this for I cant sit up but a few moments at a time. I was taken down with chills &amp; fever when I got to Pittsburg. I stayed there from Saturday night until Monday morning before any train left I <choice><sic>dont</sic><corr>don't</corr></choice> think I ever was so sick in my life as I was in Pittsburg I about gave up there that I never should get home alive, but there was a Dr there he gave me some <choice><sic>medison</sic><corr>medicine</corr></choice> he said that would take me home &amp; it did.</p>
             <p>We was behind time at most every place we changed cars so we had to wait I expected to have got home in three days at the outside but instead of three I was six.</p>
-            <p>It dont look much like winter here there is not a parrticle of snow on the ground &amp; its about such weather as it was in Washington although its not quite so muddy There hasnt been any sleighing here this winter &amp; there wont be now its to late in the season</p>
+            <p>It <choice><sic>dont</sic><corr>don't</corr></choice> look much like winter here there is not a <choice><sic>parrticle</sic><corr>particle</corr></choice> of snow on the ground &amp; its about such weather as it was in Washington although its not quite so muddy There <choice><sic>hasnt</sic><corr>hasn't</corr></choice> been any sleighing here this winter &amp; there wont be now its to late in the season</p>
             <p>They are making maple sugar in this part of the world now when I get well I will eat some for you but I suppose you think that wont do you much good.</p>
             <p>I tell you I am glad I am out of that Hospital &amp; when I get into another to stay I will let you know it.</p>
             <p>Oh how are you getting along with your office I am in hopes you have recd it before this time I begun to think that your office &amp; my discharge had gone to the same place now I have got my papers I think you had ought to receive yours</p>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03921">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Susan Stafford, 9&#8211;10 January [1886]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="gt">Grace Thomas</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03921</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">17</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Susan Stafford, 9&#8211;10 January [1886]</title>
+                    <date cert="medium" when="1886-01-09" xml:id="dat1">January 9&#8211;10, 1886</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Stafford, Susan">Susan Stafford</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-03-15" who="#ss">checked</change>
+            <change when="2013-02-18" who="#ej">Checked and Corrected</change>
+            <change when="2012-11-15" who="#gt">Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03921.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1886-01-09"><hi rend="italic">Saturday afternoon <choice><abbr>Jan.</abbr><expan>January</expan></choice> 9.</hi></date>
+                </dateline>
+                <salute/>
+            </opener>
+
+            <p>As I shall not get down to Glendale to-morrow I will write a few lines &amp; send Edward Carpenter's letter, <choice><abbr>rec'd</abbr><expan>received</expan></choice> this morning,<ptr target="loc.03921_n2"/> which may interest you&#8212;As I look out, the ground is all cover'd with snow, a foot deep, &amp; the wind blowing quite a gale&#8212;&amp; freezing cold&#8212;But I have a good fire&#8212;Mrs. Davis has gone out to market, &amp; shopping&#8212;So I am alone in the house&#8212;One of my Quaker girls Alys Smith<ptr target="loc.03921_n3"/> from Germantown has been over to see me to-day&#8212;I told her I considered it indeed a compliment to pay a visit to a fellow such weather&#8212;she said she liked the snow &amp; breeze&#8212;liked to whack around in it&#8212;</p>
+         
+            <pb xml:id="leaf001v" facs="loc.03921.002.jpg" type="verso"/><p rend="right"><hi rend="italic">Sunday <choice><abbr>Jan</abbr><expan>January</expan></choice> 10</hi>&#8212;<hi rend="italic">noon</hi>&#8212;</p>
+            
+            <p> Cold, cold, &amp; snow everywhere outside&#8212;bad luck all around&#8212;the fire goes out, the clock stops, &amp; the water-pipe bursts in the bath room&#8212;but the sun shines, the bird sings away, &amp; Mrs. Davis is in jovial humor&#8212;Susan, I wish I had something interesting to write you&#8212;but I havn't&#8212;the Lord be with you all<ptr target="loc.03921_n4"/>&#8212;</p>
+
+            <closer>
+                <signed rend="right">W. W.</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01479">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Thomas Donaldson, 14 August
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01479</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Thomas Donaldson, 14 August 1888</title>
+                    <date cert="high" when="1888-08-14" xml:id="dat1">August 14, 1888</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk">
+                    <persName key="Unknown">Unknown</persName>
+                </handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Donaldson, Thomas" ref="syr.00024_n3">Thomas Donaldson</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-11-09" who="#smb">rechecked, adjusted notes</change>
+            <change when="2018-11-08" who="#as">corrected, rotated image</change>
+            <change when="2017-09-28" who="#cb">final check</change>
+            <change when="2017-07-02" who="#if">checked</change>
+            <change when="2016-09-01" who="#ss">checked and corrected</change>
+            <change when="2016-09-01" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01479.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1888-08-14">Tuesday Evng. Aug: 14&#8212;'88</date>
+                </dateline>
+                <salute>Dear TD&#8212;</salute>
+            </opener>
+            <p>Am here yet in the sick room&#8212;the Doctor thinks it best not to go yet&#8212;have
+                had no set back&#8212;but remain horribly weak in legs &#38; body&#8212;(sometimes
+                wonder whether that would remain for settled)&#8212;Thanks for the <hi rend="underline"
+                    >Catlin</hi><ptr target="loc.01479_n1"/>&#8212;it is an <choice>
+                    <orig>inexhaustable</orig>
+                    <reg>inexhaustible</reg>
+                </choice> mine</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.01479.002_large.jpg" type="verso"/>
+            <note type="editorial" place="right" resp="#unk">Written Aug 11/88 <hi rend="underline">T.D.</hi> by Walt Whitman</note>
+
+        </body>
+    </text>
+</TEI>

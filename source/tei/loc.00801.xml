@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -42,25 +43,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">174-175</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Margaret S. Curtis, 28 October 1863</title>
                <date when="1863-10-28">October 28, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -75,6 +62,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-20">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">proofreading changes</change>
@@ -86,13 +74,15 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc.00802.003_large.jpg" type="recto"/>
             <opener>
                <salute>Dear Madam.<ptr target="loc.00801_n100"/>
             </salute>
             </opener>
-            <p>Since I last wrote you<ptr target="loc.00801_n2"/> I have continued my hospital visitations daily or nightly without intermission &amp; shall continue them this fall &amp; winter. Your contributions, &amp; those of your friends, sent me for the soldiers wounded &amp; sick, have been used among them in manifold ways, little sums of money given, (the wounded very generally come up here without a cent &amp; in lamentable plight,) &amp; in purchases of various kinds, often impromptu, as I see things wanted on the moment, for instance [when a] train is standing tediously waiting, &amp;c. as they often are here. But what I write this note for particularly is to see if your sister, Hannah Stevenson,<ptr target="loc.00801_n3"/> or yourself, might find it eligible to see a young man whom I love very much, who has fallen into deepest affliction, &amp; is now in your city. He is a young Massachusetts soldier from Barre. He was sun-struck here in Washington last July, was taken to hospital here, I was with him a good deal for many weeks&#8212;he then went home to Barre&#8212;became worse&#8212;has now been sent from his home to your city&#8212;is at times (as I infer) so troubled with such distress&#8212;I received a letter from Boston this morning from a stranger about him,<ptr target="loc.00801_n4"/> telling me (he appears too ill to write himself) that he is in Mason General Hospital, Boston. His name is Caleb H. Babitt<ptr target="loc.00801_n5"/> of Co E 34th Mass Vol. He must have been brought there lately. My dear friend, if you should be able to go, or if not able yourself give this to your sister or some friend who will go&#8212;it may be that my dear boy &amp; comrade is not so very bad, but I fear he is. Tell him you come from me like, &amp; if he is in a situation to talk, his loving heart will open to you at once. He is a manly, affectionate boy. I beg whoever goes would write a few lines to me how the young man is. I send my thanks &amp; love to yourself, your sister, husband, &amp; the sisters Wigglesworth.<ptr target="loc.00801_n6"/> Or else give this to Dr. Russell.<ptr target="loc.00801_n7"/> The letter from the stranger above referred to is dated also Pemberton square hospital.</p>
-         
+         <p>Since I last wrote you<ptr target="loc.00801_n2"/> I have continued my hospital visitations daily or nightly without intermission &amp; shall continue them this fall &amp; winter. Your contributions, &amp; those of your friends, sent me for the soldiers wounded &amp; sick, have been used among them in manifold ways, little sums of money given, (the wounded very generally come up here without a cent &amp; in lamentable plight,) &amp; in purchases of various kinds, often impromptu, as I see things wanted on the moment, for instance [when a] <pb xml:id="leaf001v" facs="loc.00802.004_large.jpg" type="verso"/><pb xml:id="leaf002r" facs="loc.00802.005_large.jpg" type="recto"/>train is standing tediously waiting, &amp;c. as they often are here. But what I write this note for particularly is to see if your sister, Hannah Stevenson,<ptr target="loc.00801_n3"/> or yourself, might find it eligible to see a young man whom I love very much, who has fallen into deepest affliction, &amp; is now in your city. He is a young Massachusetts soldier from Barre. He was sun-struck here in Washington last July, was taken to hospital here, I was with him a good deal for many weeks&#8212;he then went home to Barre&#8212;became worse&#8212;has now been sent from his home to your city&#8212;is at times (as I infer) so troubled with such distress&#8212;<pb xml:id="leaf002v" facs="loc.00802.006_large.jpg" type="recto"/><pb xml:id="leaf003r" facs="loc.00802.007_large.jpg" type="recto"/>I received a letter from Boston this morning from a stranger about him,<ptr target="loc.00801_n4"/> telling me (he appears too ill to write himself) that he is in Mason General Hospital, Boston. His name is Caleb H. Babitt<ptr target="loc.00801_n5"/> of Co E 34th Mass Vol. He must have been brought there lately. My dear friend, if you should be able to <pb xml:id="leaf003v" facs="loc.00802.008_large.jpg" type="recto"/><pb xml:id="leaf004r" facs="loc.00802.009_large.jpg" type="recto"/>go, or if not able yourself give this to your sister or some friend who will go&#8212;it may be that my dear boy &amp; comrade is not so very bad, but I fear he is. Tell him you come from me like, &amp; if he is in a situation to talk, his loving heart will open to you at once. He is a manly, affectionate boy. I beg whoever goes would write a few lines to me how the young man is. I send my thanks &amp; love to yourself, your sister, husband, &amp; the sisters Wigglesworth.<ptr target="loc.00801_n6"/> Or else give this to Dr. Russell.<ptr target="loc.00801_n7"/> The letter from the stranger above referred to is dated also Pemberton square hospital.</p>
+         <pb xml:id="leaf004v" facs="loc.00802.010_large.jpg" type="verso"/>
+         <pb xml:id="leaf005r" facs="loc.00802.001_large.jpg" type="recto"/>
+         <pb xml:id="leaf005v" facs="loc.00802.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

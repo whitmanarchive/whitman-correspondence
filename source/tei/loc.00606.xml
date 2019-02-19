@@ -8,9 +8,10 @@
             <title level="m" type="sub">a machine readable transcription</title>
             <author>Alfred Pratt</author>
             <editor>Dennis Berthold</editor>
-            <editor>Kenneth M. Price</editor>
+            <editor>Kenneth M. Price</editor> 
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
 
@@ -41,31 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">167</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Alfred Pratt</author>
                <title>Alfred Pratt to Walt Whitman, 7 August 1865</title>
                <date when="1865-08-07">August 7, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <profileDesc> 
          <particDesc>
             <person role="sender">
-               <persName key="Pratt, Alfred">Alfred Pratt</persName>
+               <persName key="Pratt, Alfred" ref="loc.00606_n100">Alfred Pratt</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">proofread and edited</change>
@@ -84,17 +73,19 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc.00606.001.jpg" type="recto"/>
             <opener> 
                <dateline rend="right"/>
                <salute>Walt Whitman Dear Friend</salute>
             </opener>
-         <p>I<ptr target="loc.00606_n100"/> am now at my own home but hav not got my discharge yet. I left Washington on trans furr to rochester. I have to go back to rochester to get my discharge. the day that I left thare went to the patent ofice to see you but you was not thare. and I had not time to go whare you was but, went back to Ward C and gave to no. 6 thare in the ward 70 cts to give to you he said that he would let you have it the first time that you come in. now pleas rite and let me know if you got it. I wanted to see you I would like to no if you got that money anyhow. I got home two weeks ago last friday. but I find myself rather weak yet  last friday I was on a lode of hay and went to down of from it and I fell and scard the horses one of them kicked me on the forehead and then they start to run and the wagon wheel struck me on the back of my head and hurt me bad but can sit up now. I think of no more at present. Pleas rite if you get this address.</p>
+         <p>I am now at my own home but <choice><sic>hav</sic><corr>have</corr></choice> not got my discharge yet. I left Washington on <choice><sic>trans furr</sic><corr>transfer</corr></choice> to <choice><sic>rochester</sic><corr>Rochester</corr></choice>. I have to go back to <choice><sic>rochester</sic><corr>Rochester</corr></choice> to get my discharge. the day that I left <choice><sic>thare</sic><corr>there</corr></choice> went to the patent <choice><sic>ofice</sic><corr>office</corr></choice> to see you but you was not <choice><sic>thare</sic><corr>there</corr></choice>. and I had not time to go <choice><sic>whare</sic><corr>where</corr></choice> you was but, went back to Ward C and gave to no. 6 <choice><sic>thare</sic><corr>there</corr></choice> in the ward 70 cts to give to you he said that he would let you have it the first time that you come in. now pleas rite and let me know if you got it. I wanted to see you <pb xml:id="leaf001v" facs="loc.00606.002.jpg" type="verso"/>I would like to no if you got that money anyhow. I got home two weeks ago last <choice><sic>friday</sic><corr>Friday</corr></choice>. but I find myself rather weak yet  last <choice><sic>friday</sic><corr>Friday</corr></choice> I was on a lode of hay and went to down of from it and I fell and <choice><sic>scard</sic><corr>scared</corr></choice> the horses one of them kicked me on the forehead and then they start to run and the wagon wheel struck me on the back of my head and hurt me bad but can sit up now. I think of no more at present. Pleas rite if you get this address.</p>
             <closer rend="right"/>
          
          <postscript>
-            <p>My friends their respects Please if get this rite and if you will Please to sennd me that potographs of Abe and Washington like yours if you can find them I will pay you for it.</p>
+            <p>My friends their respects <pb xml:id="leaf002r" facs="loc.00606.003.jpg" type="recto"/><choice><sic>Pleas</sic><corr>Please</corr></choice> if get this rite and if you will Please to <choice><sic>sennd</sic><corr>send</corr></choice> me that <choice><sic>potographs</sic><corr>photographs</corr></choice> of Abe and Washington like yours if you can find them I will pay you for it.</p>
          </postscript>
       </body>
+      <pb xml:id="leaf002v" facs="loc.00606.004.jpg" type="verso"/>
+      <!--The final image in tracking database is a typed copy of this letter - not included here-->
    </text>
 </TEI>

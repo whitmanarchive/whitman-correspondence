@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -40,26 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">107-109</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 16 October 1863</title>
                <date when="1863-10-16">October 16, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library
-</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +60,7 @@ Manuscript, and Special Collections Library
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-28">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -87,7 +74,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00347.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Camp Nelson Ky. </name>
@@ -95,20 +82,20 @@ corrections</change>
                </dateline>
                <salute>Dear Mother,</salute>
             </opener>
-            <p>What can be the reason that some of you dont write to me. I have been expecting every day, for the last two weeks to get a letter from home, but every day I have been disapointed</p>
-            <p>I had a letter from Walt, dated Sept. 28th  he said that Andrew was considerable better and was Doctoring with a celabrated Italian Doctor in Court St. I dont have much faith in them new fangled foreign Doctors, but if Andrew is realy so much better, it is good encouragement to keep on and give him a fair trial.<ptr target="duk.00347_n1"/> All the rest at home Walt. says, are as well as usual. Mother I hope you are takeing things easy and comfortable, and above all I hope that you dont wory, and work, as much as you used to. Matty and the babies I hear are first rate.</p>
-            <p>Whenever you hear from Hannah, you must let me know how she is getting along, and if she is comeing home soon.</p>
-            <p>Walt says that you received the money all right, I suppose he means the last I sent you ($187.00) about Sept. 9th. Everything here with me is just the same as when I last wrote you (two or three weeks ago, did you get it)  our Regt. you know is temporarily detatched from the Brigade and stationed at this Post,  there is a great quantity of Quatermaster, and Commissary Stores collected here, which we have to guard</p>
-            <p>There is scarsely any sickness in the Regt. now, as our camp is very dry and healthy and is kept perfectly clean. I dont hear any talk of our leaving here, so I think the chances are that we will stay here some time. I am just as comfortable here as can be, I have first rate grub, a good stove, plenty of wood, and everything nice. Does Jeff ever see Capt. Sims<ptr target="duk.00347_n2"/> or Lieut. McReady<ptr target="duk.00347_n3"/> about Brooklyn,  I wonder what their chances are for getting conscripts. it seem the draft was almost a failure,  what is going to be done now,  will there be another draft, or will they fall back on the old volunteer plan, with big bounties,  I am rather in favor of the draft,  I should very much like to see that party of suckers, that stay at home and oppose the Government forced to come out here and take a rifle, for ( I think just the meanest rebels that ever lived, are those that stay at home and oppose the draft, and blow about the violation of the Constitution, the liberties of the People, and all that sort of thing,)<ptr target="duk.00347_n4"/> and if it was possible to make them come out here, and let the old troops drive them into the next fight, (with Seymour and the Woods<ptr target="duk.00347_n5"/> in the front rank) I think it would be a fine thing, and I am certain that the sooner something is done to stop the mouths of that class of cowardly traitors, the sooner the war will be brought to a close.</p>
-            <p>The election last Tuesday in Ohio was a grand victory for our side,  dont you Yorkers feel a little ashamed about your election last Fall, when you see how other states treat such chaps as Seymoure<ptr target="duk.00347_n6"/> &amp; Vallandigham.<ptr target="duk.00347_n7"/>
+         <p>What can be the reason that some of you <choice><sic>dont</sic><corr>don't</corr></choice> write to me. I have been expecting every day, for the last two weeks to get a letter from home, but every day I have been <choice><sic>disapointed</sic><corr>disappointed</corr></choice></p>
+         <p>I had a letter from Walt, dated Sept. 28th  he said that Andrew was considerable better and was Doctoring with a <choice><sic>celabrated</sic><corr>celebrated</corr></choice> Italian Doctor in Court St. I <choice><sic>dont</sic><corr>don't</corr></choice> have much faith in them new fangled foreign Doctors, but if Andrew is <choice><sic>realy</sic><corr>really</corr></choice> so much better, it is good encouragement to keep on and give him a fair trial.<ptr target="duk.00347_n1"/> All the rest at home Walt. says, are as well as usual. Mother I hope you are <choice><sic>takeing</sic><corr>taking</corr></choice> things easy and comfortable, and above all I hope that you <choice><sic>dont</sic><corr>don't</corr></choice> <choice><sic>wory</sic><corr>worry</corr></choice>, and work, as much as you used to. Matty and the babies I hear are first rate.</p>
+            <p>Whenever you hear from Hannah, you must let me know how she is getting along, and if she is <choice><sic>comeing</sic><corr>coming</corr></choice> home soon.</p>
+         <p>Walt says that you received the money all right, I suppose he means the last I sent you ($187.00) about Sept. 9th. Everything here with me is just the same as when I last wrote you (two or three weeks ago, did you get it)  our Regt. you <pb xml:id="leaf001v" facs="duk.00347.002_large.jpg" type="verso"/>know is temporarily <choice><sic>detatched</sic><corr>detached</corr></choice> from the Brigade and stationed at this Post,  there is a great quantity of Quartermaster, and Commissary Stores collected here, which we have to guard</p>
+         <p>There is <choice><sic>scarsely</sic><corr>scarcely</corr></choice> any sickness in the Regt. now, as our camp is very dry and healthy and is kept perfectly clean. I <choice><sic>dont</sic><corr>don't</corr></choice> hear any talk of our leaving here, so I think the chances are that we will stay here some time. I am just as comfortable here as can be, I have first rate grub, a good stove, plenty of wood, and everything nice. Does Jeff ever see Capt. Sims<ptr target="duk.00347_n2"/> or Lieut. McReady<ptr target="duk.00347_n3"/> about Brooklyn,  I wonder what their chances are for getting conscripts. it seem the draft was almost a failure,  what is going to be done now,  will there be another draft, or will they fall back on the old volunteer plan, with big bounties,  I am rather in favor of the draft,  I should very much like to see that party of suckers, that stay at home and oppose the Government forced to come out here and take a rifle, for ( I think just the meanest rebels that ever lived, are those that stay at home and oppose the draft, and blow about the violation of the Constitution, the liberties of the People, and all that sort of thing,)<ptr target="duk.00347_n4"/> and if it was possible to make them come out here, and let the old troops drive them into the next fight, (with Seymour and the Woods<ptr target="duk.00347_n5"/> in the front rank) I think it would <pb xml:id="leaf002r" facs="duk.00347.003_large.jpg" type="recto"/>be a fine thing, and I am certain that the sooner something is done to stop the mouths of that class of cowardly traitors, the sooner the war will be brought to a close.</p>
+         <p>The election last Tuesday in Ohio was a grand victory for our side,  <choice><sic>dont</sic><corr>don't</corr></choice> you Yorkers feel a little ashamed about your election last Fall, when you see how other states treat such chaps as Seymoure<ptr target="duk.00347_n6"/> &amp; Vallandigham.<ptr target="duk.00347_n7"/>
             </p>
-            <p>Jeff, how is it that you never write to a fellow now a days,  ime a good mind to get mad at all of you. Mattie whats the news at your house,  have you got lots of good things put away for the winter  I make lots of reckoning, of good dinners with you, if I come home this winter.</p>
-            <p>Mother dont neglect to write as soon as you get this, and let me know all the particulars of your affairs. I am very anxious to hear from Andrew. I think I shall write to Walt to night or tomorrow  Direct your letters to me at Camp Nelson Ky  51st Regt  N. Y. V. but dont put on the Brigade, Division, or Corps, as I think perhaps the reason of my not hearing from you is, that you have directed, to the Corps, and the letters have gone to the front, the rest of the 9th Corps being somewhere about Knoxville Tenn.</p>
+            <p>Jeff, how is it that you never write to a fellow now a days,  <choice><sic>ime</sic><corr>I've</corr></choice> a good mind to get mad at all of you. Mattie whats the news at your house,  have you got lots of good things put away for the winter  I make lots of reckoning, of good dinners with you, if I come home this winter.</p>
+         <p>Mother <choice><sic>dont</sic><corr>don't</corr></choice> neglect to write as soon as you get this, and let me know all the particulars of your affairs. I am very anxious to hear from Andrew. I think I shall write to Walt to night or tomorrow  Direct your letters to me at Camp Nelson Ky  51st Regt  N. Y. V. but <choice><sic>dont</sic><corr>don't</corr></choice> put on the Brigade, Division, or Corps, as I think perhaps the reason of my not hearing from you is, that you have directed, to the Corps, and the letters have gone to the front, the rest of the 9th Corps being somewhere about Knoxville Tenn.</p>
             <closer rend="right">
                <salute>Good bye all, for the present.</salute>
                <signed>Geo. W. Whitman</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="duk.00347.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

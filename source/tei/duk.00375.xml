@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,31 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">139</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Reuben Farwell</author>
                <title>Reuben Farwell to Walt Whitman, 7 November 1864</title>
                <date when="1864-11-07">November 7, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Farwell, Reuben">Reuben Farwell</persName>
+               <persName key="Farwell, Reuben" ref="duk.00375_n100">Reuben Farwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-30">corrected orgName, added pbs, added choice tags, corrected opener and closer</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -86,18 +75,24 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00375.001_large.jpg" type="recto"/>
             <opener>
-               <dateline rend="right"/>
+               <dateline>
+                  <name type="place">Plymouth Mich.</name>
+                  <date when="1864-11-07">Nov 7th 1864</date>
+               </dateline>
                <salute>Dear Uncle</salute>
             </opener>
-         <p>I<ptr target="duk.00375_n100"/> received you letter of Oct 7th &amp; here I am about to write you a reply.</p>
-            <p>Times here have been rather busy Together with the Mass meetings &amp; a Bridial Tour that lasted a week. This was not any of my own luck but to accompany the newly married set was all  I was on the Company. I have received only this letter Oct 7th &amp; one writen to My Father of which both reached me the same mail. One came to me from the Regiment that one I answered &amp; a reply came to me. I intend to Answer all of your Kind letters. But this one I have neglected on account of my being a way from home so long. My letter to you at the time I was Poisoned has has not affected me any that time I looked the whole City of Washington over to find you&#8212;but I looked in vain</p>
-            <p>My foot is quite well so much so that one can not tell of my being hit there. Shortly after I came to the city again to be Mounted on a Horse &amp; we layed in the Defences of Washington the time the Rebels came to attack the City. Then I went up the Shanandoah Valley untill the 24 day of August where I was Discharged. There was some very heavy fighting up there under Phil Sheridan<ptr target="duk.00375_n2"/> &amp; perhaps he has warmed the Johnnys since then. This Charles Davis I have not heard from since he left for home on a Furlough<ptr target="duk.00375_n3"/>. Wether he came back or not I can not tell</p>
+         <p>I received you letter of Oct 7th &amp; here I am about to write you a reply.</p>
+         <p>Times here have been rather busy Together with the Mass meetings &amp; a <choice><sic>Bridial</sic><corr>Bridal</corr></choice> Tour that lasted a week. This was not any of my own luck but to accompany the newly married set was all  I was on the Company. I have received only this <pb xml:id="leaf001v" facs="duk.00375.002_large.jpg" type="verso"/>letter Oct 7th &amp; one <choice><sic>writen</sic><corr>written</corr></choice> to My Father of which both reached me the same mail. One came to me from the Regiment that one I answered &amp; a reply came to me. I intend to Answer all of your Kind letters. But this one I have neglected on account of my being a way from home so long. My letter to you at the time I was Poisoned has has not affected me any that time I looked the whole City of Washington over to find you&#8212;but I looked in vain</p>
+         <p>My foot is quite well so much so that one <pb xml:id="leaf002r" facs="duk.00375.003_large.jpg" type="recto"/>can not tell of my being hit there. Shortly after I came to the city again to be Mounted on a Horse &amp; we <choice><sic>layed</sic><corr>laid</corr></choice> in the Defences of Washington the time the Rebels came to attack the City. Then I went up the Shanandoah Valley <choice><sic>untill</sic><corr>until</corr></choice> the 24 day of August where I was Discharged. There was some very heavy fighting up there under Phil Sheridan<ptr target="duk.00375_n2"/> &amp; perhaps he has warmed the Johnnys since then. This Charles Davis I have not heard from since he left for home on a Furlough<ptr target="duk.00375_n3"/>. <choice><sic>Wether</sic><corr>Whether</corr></choice> he came back or not I can not tell</p>
+         <pb xml:id="leaf002v" facs="duk.00375.004_large.jpg" type="verso"/>
             <p>Dear Uncle you gave me one of your Photographs &amp; I shall always carry it with me in Remembrance of a Kind Friend &amp; one who I have thought a good deal off.</p>
-            <p>I hope that you will over look this neglect of mine in not writing you before this. This is rather bad writing any how &amp; I am a fraid you will bother yourself in reading what I have scribbled. My health is very good at present  Also the same I wish to you My best wishes gose with this to you</p>
+         <p>I hope that you will over look this neglect of mine in not writing you before this. This is rather bad writing any how &amp; I am <choice><sic>a fraid</sic><corr>afraid</corr></choice> you will bother yourself in reading what I have scribbled. My health is very good at present  Also the same I wish to you My best wishes <choice><sic>gose</sic><corr>goes</corr></choice> with this to you</p>
             <closer rend="right">
                <salute>Yours very Respectfully</salute>
+               <signed>Ruben Farwell</signed>
+               <salute>To Walt Whitman</salute>
             </closer>
          
       </body>

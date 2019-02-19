@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01805">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Joaquin Miller to Walt Whitman, 30
+    September 1871</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Joaquin Miller</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="br">Beverley Rilett</persName>
+<persName xml:id="al">Ashley Lawson</persName>
+<persName xml:id="km">Kevin McMullen</persName>
+<persName xml:id="js">John Schwaninger</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>loc.01805</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+        Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+<bibl>
+    <author>Joaquin Miller</author>
+    <title>Joaquin Miller to Walt Whitman, 30 September 1871</title>
+      <date cert="high" when=" 1870-09-30" xml:id="dat1">30 September 1871</date>
+    <idno type="callno">MSS18630, Box 8</idno>
+    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<person role="sender">
+    <persName key="Miller, Joaquin" ref="n0412">Joaquin Miller</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-04-30">added correspondent ref</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-06-14" who="#js">proofed</change>
+            <change when="2012-05-10" who="#km">checked</change>
+            <change when="2012-04-26" who="#al">Checked and corrected</change>
+            <change when="2011-01-21" who="#br">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+
+            <pb xml:id="leaf001r" facs="loc.01805.003.jpg" type="recto"/>
+            <opener>
+                <dateline rend="right">
+                    <address><addrLine/></address>
+                    <name type="place">Eastern <unclear reason="illegible" cert="low" resp="#br">Pen.</unclear></name>
+                    <date when=" 1871-09-30"/>Sept 30. 71.</dateline>
+                <name type="person">Walt Whitman</name> <name type="place">Washington D.C.</name>
+                <salute>My Dear Mr Whitman:</salute>
+            </opener>
+
+            <p>I have many messages for you from some friends in Europe which I promised and so much desired to deliver face to face; and day after day and week after week I promised myself and hoped to come to you, but now I shall not see you till I return; for I am tired of towns and tomorrow set my face to the West. I am weary and want rest, and I cannot rest in cities. My address for a time will be San Francisco and since I cannot see you I should be proud of a letter from you.</p>
+                <p>I am tired of books too and take but one with me; one Rossetti gave me, a "Walt Whitman"&#8212;Grand old man! The grandest, and truest American I know, accept the love of your son.</p>
+
+            <closer>
+                <signed>Joaquin Miller</signed>
+            <pb xml:id="leaf001v" facs="loc.01805_related_large_mflm.jpg" type="verso"/>
+            <address><addrLine><handShift rend="printed"/>JAOQUIN MILLER.</addrLine><addrLine><handShift rend="manuscript"/>San Francisco California</addrLine></address></closer>
+            <pb xml:id="leaf002r" facs="loc.01805.001.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.01805.002.jpg" type="verso"/>
+        </body>
+    </text>
+
+</TEI>

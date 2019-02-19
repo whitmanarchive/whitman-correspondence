@@ -10,12 +10,14 @@
 <editor>Ed Folsom</editor>
 <respStmt>
     <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+    <persName xml:id="nhg">Nicole Gray</persName>
 <persName xml:id="el">Elizabeth Lorang</persName>
 <persName xml:id="zk">Zachary King</persName>
 <persName xml:id="ec">Eric Conrad</persName>
 <persName xml:id="kk">Kathryn Kruger</persName>
 <persName xml:id="js">John Schwaninger</persName>
-    <persName xml:id="nhg">Nicole Gray</persName>
+    
 </respStmt>
 <sponsor>Center for Digital Research in the Humanities, University of
     Nebraska-Lincoln</sponsor>
@@ -76,11 +78,12 @@
     <persName key="Whitman, Walt">Walt Whitman</persName>
 </person>
 <person role="recipient">
-    <persName key="Forman, H. Buxton">H. Buxton Forman</persName>
+    <persName key="Forman, H. Buxton" ref="n0240">H. Buxton Forman</persName>
 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-12">added correspondent ref</change>
             <change who="#nhg" when="2014-09-03">checked, corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2014-08-12" who="#el">made basic checking changes to file</change>

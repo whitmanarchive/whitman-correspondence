@@ -11,11 +11,11 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -60,7 +60,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Charles W. Eldridge, 17 November 1863</title>
                <date when="1863-11-17">November 17, 1863</date>
-               <orgName xml:id="nyp">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
+               <orgName xml:id="nypl">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -70,11 +70,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Eldridge, Charles W.">Charles W. Eldridge</persName>
+               <persName key="Eldridge, Charles W." ref="nyp.00215_n1">Charles W. Eldridge</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-31">updated Oscar Lion info</change>
@@ -93,7 +94,7 @@
                   <name type="place">Brooklyn</name>
                   <date when="1863-11-17">Nov 17, 1863</date>
                </dateline>
-               <salute>Dear friend<ptr target="nyp.00215_n1"/>
+               <salute>Dear friend
                </salute>
             </opener>
             <p>I suppose Nelly has received a letter from me posting you up of my doings, &amp;c. Any letters that come to me, up to Saturday next, please send on here. After that, do not send any, as I shall return Monday or Tuesday next. The weather here the last three days is very unpleasant, sloppy &amp; thick. I was at the opera last night, Trovatore<ptr target="nyp.00215_n2"/>&#8212;very, very good singing &amp; acting&#8212;</p>

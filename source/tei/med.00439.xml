@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00439">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Alfred, Lord Tennyson to Walt Whitman, [11
+    August 1875]</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Alfred, Lord Tennyson</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="ec">Eric Conrad</persName>
+<persName xml:id="zk">Zachary King</persName>
+<persName xml:id="al">Ashley Lawson</persName>
+<persName xml:id="kk">Kathryn Kruger</persName>
+<persName xml:id="js">John Schwaninger</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>med.00439</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+        Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc><biblStruct>
+    <monogr>
+        <editor>Edwin Haviland Miller</editor>
+        <title xml:id="ehm">Walt Whitman&#8212;The Correspondence, Volume II:
+            1868–1875</title>
+        <imprint>
+            <pubPlace>New York</pubPlace>
+            <publisher>New York University Press</publisher>
+            <date when="1961">1961</date>
+            <biblScope type="page">339</biblScope>
+        </imprint>
+    </monogr>
+</biblStruct><bibl>
+    <author>Walt Whitman</author>
+    <title>Alfred, Lord Tennyson to Walt Whitman, [11 August 1875]</title>
+    <date cert="medium" when="1875-08-11" xml:id="dat1">August 11, 1875</date>
+    <orgName xml:id="med">Transcription derived from Miller; the location of the
+        original manuscript is unknown.</orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<person role="sender">
+    <persName key="Tennyson, Alfred Lord" ref="n0625">Alfred, Lord Tennyson</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-05-08">added correspondent ref</change>
+            <change who="#ak" when="2014-11-04">added annotations</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-06-18" who="#js">checked (without images)</change>
+            <change when="2012-05-02" who="#al">checked</change>
+            <change when="2011-01-27" who="#kk">checked</change>
+            <change when="2011-04-16" who="#zk">encoded</change>
+            <change when="2010-08-20" who="#ec">extracted transcription from Major Authors
+cd</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                </dateline>
+                <salute>My dear Walt Whitman<ptr target="med.00439_n1"/></salute>
+            </opener>
+
+            <p>(Somehow the Mr does not come well before Walt Whitman). I am glad to hear from you
+                again &amp; to learn that at any rate you are no worse than when you last wrote,
+                &amp; that though your health be shattered your good spirits flourish up like a
+                plant from broken ground, glad also that you find something to approve of in a work
+                so utterly unlike your own as my Queen Mary<!-- <ptr target="n0490"/> -->.</p>
+
+            <p>I am this morning starting with my wife &amp; Sons<!-- editorial note? --> on a tour
+                to the Continent. She has been very unwell for two years, obliged always to lie down
+                &amp; incapable of any work in consequence of
+                overwork<!-- editorial note? -->&#8212;the case of so many in this age, yours among
+                others &amp; we are now going into a land of fuller sunshine in hopes that it may
+                benefit her. </p>
+
+            <p>I am in an extreme hurry, packing up &amp; after these few words must bid you
+                goodbye, not without expressing my hope however that you will ultimately recover all
+                your pristine vigor. I shall be charmed to receive your book.</p>
+
+            <closer>
+                <salute>Ever yours</salute>
+                <signed rend="right">A. Tennyson</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

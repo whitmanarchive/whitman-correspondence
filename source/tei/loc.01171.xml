@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01171">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to John Burroughs 13 July 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01171</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to John Burroughs 13 July 1889</title>
+                    <date cert="high" when="1889-07-13" xml:id="dat1">July 13, 1889</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839-1919, Library of Congress, Washington, DC.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Burroughs, John" ref="n0129">John Burroughs</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-10-06" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01171.002_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1889-07-13">pm July 13 '89</date>
+                </dateline>
+            </opener>
+
+            <p>y'r letter came + is welcome. Hot + oppressive for ten days. but I take it quiet +
+                get along better than you probably suppose. (Cloudy + still + hot
+                to-day)&#8212;Sleep + eat fairly&#8212;Horace Traubel<ptr target="n4267"/> comes
+                every day&#8212;his dinner book with all the speeches + letters will be out in two
+                weeks&#8212;I will send it to you. Mrs. O'C<ptr target="n4137"/> says she is left
+                poor./></p>
+
+            <closer>
+                <signed>W W</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.01171.001_large.jpg" type="verso"/>
+            <note type="editorial" place="left"><date when="1889-07-13">7/13/89</date></note>
+
+
+
+        </body>
+    </text>
+</TEI>

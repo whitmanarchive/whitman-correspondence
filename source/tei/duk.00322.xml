@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
 <persName xml:id="nhg">Nicole Gray</persName>
@@ -41,24 +42,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">57-58</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 11 July 1862</title>
                <date when="1862-07-11">July 11, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
          <change who="#nhg" when="2014-08-28">added sender and recipient</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -86,7 +75,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00322.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Newport News  Virginia</name>
@@ -94,9 +83,9 @@ corrections</change>
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-            <p>You see by this that we have again moved our Camp. Word came to us at Newbern on the 1st of July that they were fighting in front of Richmond and we were ordered to strike tents and go on board of Trasports at daylight on the morning of July 2d. We were quite surprised to get orders to go on board of Transports for we were under orders to march at short notice leaveing our tents standing and not to take anyone that was not able to stand a long and rapid march  I think Burnside<ptr target="duk.00322_n1"/> was just about ready to walk through North Carolina when this affair hapened at Richmond which upset all his plans for the present.<ptr target="duk.00322_n2"/> We left Newbern July 2d  our regiment was put on board a steamer called the Ellen Terry which was hardly large enough to accomodate half the number we had on board, and I prefered to sleep on deck in the rain and get a good soaking, rather than to sleep below  Just after I had laid down on the deck one of the men came on deck  walked along opposite to where I lay, and jumped overboard,  we lowered a boat but could not get him as he never came to the top of the water at all,  he was a Sergeant belonging to Co.K. and was a very steady good soldier.</p>
-            <p>During the night another man belonging to Co. A. either jumped or fell overboard and was drowned. We arived and came to anchor at Hatteras Inlet on the afternoon of July 3d and there we were told that McClellans forces were in Richmond and we were ordered back to Newbern, where we arived on the afternoon of July 4th. next day we pitched our tents on the old camp ground and we had just got them pitched when we were ordered to strike them at daylight on the morning of the 6th and go on board the steamer  We arived at Fortress Monroe which is about 10 miles from here July 8th were we lay until the afternoon of the 9th when we came here and pitched our camp  The masts of the frigate Cumberland are about half out of the water, she lays just opposite our camp about 300 yards from the shore,  the wreck of the Congress lies just below  she was set on fire you know after she was captured by the Merimack,<ptr target="duk.00322_n3"/>  This seems to be a very healthy pleasant place and I think very likely we shall remain here some time unless they make another attack on Gen McClellan when we will probaly take a hand in the game.</p>
-            <p>The last letter I received from you Mother is dated June 14th  I got one from Walt of June 10th but we expect a mail here in the course of a day or two when I shall probaly hear from you. I suppose the last letter you sent has gone to Newbern but it will come back here in a day or two. I wrote you a couple of days before we left Newbern and will write often. I have been bothered considerably with some sort of a rash which broke out in blotches nearly as large as my hand all over my arms and body  it burns very bad, the Doctor said it was the effects of the heat, and I supose it was  anyhow it has all disapeared now and I have not felt it for two or three days. (Direct your letters Burnside Expedition Newport News)  part of our forces are still at Newbern.</p>
+         <p>You see by this that we have again moved our Camp. Word came to us at Newbern on the 1st of July that they were fighting in front of Richmond and we were ordered to strike tents and go on board of <choice><sic>Trasports</sic><corr>Transports</corr></choice> at daylight on the morning of July 2d. We were quite surprised to get orders to go on board of Transports for we were under orders to march at short notice <choice><sic>leaveing</sic><corr>leaving</corr></choice> our tents standing and not to take anyone that was not able to stand a long and rapid march  I think Burnside<ptr target="duk.00322_n1"/> was just about ready to walk through North Carolina when this affair <choice><sic>hapened</sic><corr>happened</corr></choice> at Richmond which upset all his plans for the present.<ptr target="duk.00322_n2"/> We left Newbern July 2d  our regiment was put on <pb xml:id="leaf001v" facs="duk.00322.002_large.jpg" type="verso"/>board a steamer called the Ellen Terry which was hardly large enough to <choice><sic>accomodate</sic><corr>accommodate</corr></choice> half the number we had on board, and I <choice><sic>prefered</sic><corr>preferred</corr></choice> to sleep on deck in the rain and get a good soaking, rather than to sleep below  Just after I had laid down on the deck one of the men came on deck  walked along opposite to where I lay, and jumped overboard,  we lowered a boat but could not get him as he never came to the top of the water at all,  he was a Sergeant belonging to Co.K. and was a very steady good soldier.</p>
+         <p>During the night another man belonging to Co. A. either jumped or fell overboard and was drowned. We <choice><sic>arived</sic><corr>arrived</corr></choice> and came to anchor at Hatteras Inlet on the afternoon of July 3d and there we were told that McClellans forces were in Richmond and we were ordered back to Newbern, where we <choice><sic>arived</sic><corr>arrived</corr></choice> on the afternoon of July 4th. <pb xml:id="leaf002r" facs="duk.00322.003_large.jpg" type="recto"/>next day we pitched our tents on the old camp ground and we had just got them pitched when we were ordered to strike them at daylight on the morning of the 6th and go on board the steamer  We <choice><sic>arived</sic><corr>arrived</corr></choice> at Fortress Monroe which is about 10 miles from here July 8th were we lay until the afternoon of the 9th when we came here and pitched our camp  The masts of the frigate Cumberland are about half out of the water, she lays just opposite our camp about 300 yards from the shore,  the wreck of the Congress lies just below  she was set on fire you know after she was captured by the Merimack,<ptr target="duk.00322_n3"/>  This seems to be a very healthy pleasant place and I think very likely we shall remain here some time unless they make another attack on Gen McClellan when we will <choice><sic>probaly</sic><corr>probably</corr></choice> take a hand in the game.</p>
+         <p>The last letter I received from you Mother is dated June 14th  I got one <pb xml:id="leaf002v" facs="duk.00322.004_large.jpg" type="verso"/>from Walt of June 10th but we expect a mail here in the course of a day or two when I shall <choice><sic>probaly</sic><corr>probably</corr></choice> hear from you. I suppose the last letter you sent has gone to Newbern but it will come back here in a day or two. I wrote you a couple of days before we left Newbern and will write often. I have been bothered considerably with some sort of a rash which broke out in blotches nearly as large as my hand all over my arms and body  it burns very bad, the Doctor said it was the effects of the heat, and I <choice><sic>supose</sic><corr>suppose</corr></choice> it was  anyhow it has all <choice><sic>disapeared</sic><corr>disappeared</corr></choice> now and I have not felt it for two or three days. (Direct your letters Burnside Expedition Newport News)  part of our forces are still at Newbern.</p>
             <closer>
                <salute>My Love to all.</salute>
                <salute>Good Night Mother</salute>

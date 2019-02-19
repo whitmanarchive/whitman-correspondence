@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
 
@@ -52,7 +53,7 @@
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Sammis, O. K.">O. K. Sammis</persName>
+               <persName key="Sammis, O. K." ref="loc.00863_n100">O. K. Sammis</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-26">corrected pbs, added choice tags</change>
          <change when="2014-08-24" who="#nhg">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -72,7 +74,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00863.001.jpg" xml:id="leaf001r" type="recto"/>
+         <pb facs="loc.00863.007_large.jpg" xml:id="leaf001r" type="recto"/>
          
             <opener rend="right">
                <dateline>
@@ -82,7 +84,7 @@
                </dateline>
                <salute>Friend Walter&#8212;</salute> 
             </opener>
-         <p>I<ptr target="loc.00863_n100"/> design <unclear reason="illegible" resp="#hrb" cert="low">bearly</unclear> to say How do you do, while you are in Boston, &amp; to express my own pleasure at hearing that your "Leaves of Grass," in its next issue, is to <unclear reason="illegible" resp="#hrb" cert="medium">eminate</unclear> from that City.  It will hereafter be read in your day.  Every N.E. yankee factory girl will read and re-read it from an unconquerable passion, for to every N.E. mind its unfathomable inspirations willst be "New every morning<pb facs="loc.00863.002.jpg" xml:id="leaf001v" type="verso"/> and fresh every evening."  I know what is your mental fare in Boston from my own past personal experience and without wishing to intrude myself above my true level I could wish I were, at least, a stander-by.</p>
+         <p>I design <unclear reason="illegible" resp="#hrb" cert="low">bearly</unclear> to say How do you do, while you are in Boston, &amp; to express my own pleasure at hearing that your "Leaves of Grass," in its next issue, is to <unclear reason="illegible" resp="#hrb" cert="medium"><choice><sic>eminate</sic><corr>emanate</corr></choice></unclear> from that City.  It will hereafter be read in your day.  Every N.E. <choice><sic>yankee</sic><corr>Yankee</corr></choice> factory girl will read and re-read it from an unconquerable passion, for to every N.E. mind its unfathomable inspirations willst be "New every morning<pb facs="loc.00863.008_large.jpg" xml:id="leaf001v" type="verso"/> and fresh every evening."  I know what is your mental fare in Boston from my own past personal experience and without wishing to intrude myself above my true level I could wish I were, at least, a stander-by.</p>
             <p>How shall I rise to life (action), is, now, my all pressing &amp; all urgent question.  Let me have a line in regard to your experience in it, if convenient.</p>
             <closer>
                <salute>Accept my affectionate regards.</salute>
@@ -90,8 +92,10 @@
                <name type="recipient">To Walt Whitman.</name>
             </closer>
          
-         <pb facs="loc.00863.003.jpg" xml:id="leaf002r" type="recto"/>
-         <pb facs="loc.00863.004.jpg" xml:id="leaf002v" type="verso"/>
+         <pb facs="loc.00863.009_large.jpg" xml:id="leaf002r" type="recto"/>
+         <pb facs="loc.00863.010_large.jpg" xml:id="leaf002v" type="verso"/>
+         <pb facs="loc.00863.005_large.jpg" xml:id="leaf003r" type="recto"/>
+         <pb facs="loc.00863.006_large.jpg" xml:id="leaf003v" type="verso"/>
       </body>
    </text>
 </TEI>

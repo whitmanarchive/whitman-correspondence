@@ -10,13 +10,16 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
+               <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -36,35 +39,29 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
+                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
+                  copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Horace Traubel</author>
-                  <title xml:id="wwwc">With Walt Whitman in Camden</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>Mitchell Kennerley</publisher>
-                     <date when="1914">1914</date>
-                     <biblScope type="volume">3</biblScope>
-                     <biblScope type="page">346</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Alexander Gardner</author>
                <title>Alexander Gardner to Walt Whitman, 26 November 1866</title>
                <date when="1866-11-26">November 26, 1866</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                  Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Gardner, Alexander">Alexander Gardner</persName>
+               <persName key="Gardner, Alexander" ref="n3123">Alexander Gardner</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,8 +69,12 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#nhg" when="2014-11-06">added date to biblStruct; corrected format of orgName</change>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change when="2015-06-14" who="#ss">annotated</change>
+         <change who="#ak" when="2015-05-13">added correspondent ref</change>
+         <change who="#ak" when="2015-03-09">added pbs, corrected transcription</change>
+         <change who="#nhg" when="2014-11-06">added date to biblStruct; corrected format of
+            orgName</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jc" when="2011-10-27">updated archive id and location information</change>
          <change who="#bb" when="2010-04-08">corrected encoding of salutation</change>
@@ -83,20 +84,29 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
-            <opener rend="right">
-               <dateline>
-                  <name type="place">Washington,</name>
-                  <date when="1866-11-26">26 November, 1866.</date>
-               </dateline>
-               <salute>My dear Whitman,</salute>
-            </opener>
-            <p>I received this morning from an old friend (Mr. Robert Buchanan) in England a letter and among other things he asks me to send him Leaves of Grass, Drum Taps and any other works by the author Walt Whitman of the Attorney General's department, Washington, and a portrait if it can be got by hook or crook. I shall make a copy from each negative. Please tell me if there are any other works of yours than the above and where I can get them. He desires also that I should send him a portrait of Emerson. Can you tell me where I can get a good one?</p>  
-            <closer rend="right">
-               <salute>Yours respectfully,</salute>
-               <signed>Alex. Gardner.</signed>
-            </closer>
-         
+         <pb xml:id="leaf001r" facs="loc.02115.001_large.jpg" type="recto"/>
+         <opener rend="right">
+            <dateline>
+               <name type="place">Washington,</name>
+               <date when="1866-11-26">26 November, 1866.</date>
+            </dateline>
+            <salute>My dear Whitman, </salute>
+         </opener>
+         <p>I rec<hi rend="superscript">d</hi> this morning from an old friend (Mr. Robert
+               Buchanan)<ptr target="loc.04207_n1"/> in England a letter and among other things he
+            asks me to send him "Leaves of Grass, Drum Taps and any other works by the author Walt
+            Whitman of the Attorney General's Department, Washington, and a portrait if it is to be
+            got by hook or crook. I shall make a copy from each negative. Please tell me if there
+            are any other works of yours than the above &amp; where I can get them. He desires also
+            that I should send him a portrait of Emerson&#8212;Can you tell me where I can get a
+            good one</p>
+         <closer rend="right">
+            <salute>Yours respectfully,</salute>
+            <signed>Alex. Gardner.</signed>
+         </closer>
+         <pb xml:id="leaf001v" facs="loc.02115.002_large.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="loc.02115.003_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc.02115.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

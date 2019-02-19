@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01995">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01995">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -45,8 +46,10 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="kk">Kathryn Kruger</persName>
+                    changes to this file, as noted: <persName xml:id="kmp">Kenneth M.
+                        Price</persName>
+                    <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -63,7 +66,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Wilson, Benton H.">Benton H. Wilson</persName>
+                    <persName key="Wilson, Benton H." ref="loc.00611_n100">Benton H. Wilson</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,13 +74,14 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+            <change when="2015-06-14" who="#ss">annotated</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-08-18" who="#el">checked</change>
             <change when="2011-07-12" who="#kk">transcribed, encoded</change>
         </revisionDesc>
     </teiHeader>
-    
+
     <text type="letter">
         <body>
             <pb xml:id="leaf001r" facs="loc.01995.001.jpg" type="recto"/>
@@ -90,39 +94,51 @@
                 <salute>Dear Friend</salute>
             </opener>
 
-            <p>I suppose you will think by this time that I have forgotten my Dear old Friend by my long silence &amp; neglect to answer your letter, or acknowledge the receipt of your paper that you was so kind as to send me, but I assure you that I have not forgot you but sill remember you with the same Love that <unclear reason="illegible" cert="high" resp="#kk">commenced</unclear> in Armory Square Hospital &amp; will not cease as long as life lasts.</p>
-            
-            <p>There is not a day that passes but what I think of you &amp; promise myself that I will not delay writing to you any longer but as often I break my promise.</p>
-            
-            <p>We have had excellent Sleighing here for the past two or three weeks 
-                
-                <pb xml:id="leaf001v" facs="loc.01995.002.jpg" type="verso"/>
-                
-and it still continues to be good &amp; all that can afford it seem to enjoy it very much.</p>
-            
-            <p>I am at work in the Melodeon &amp; Piano Factory of A. C. Chase again and shall probably continue there this winter. My health is very good. Father has been quite sick for a week but is improving now. Father &amp; Mother send their Love to you.</p>
-            
-            <p>Our Baby Walt is a fine boy now &amp; as bright as a dollar. I hope to have the pleasure of showing him to you someday.</p>
-            
-            <p>If you come to New York next summer &amp; cannot come up and make me a short visit let me know when you are coming and if my business will permit I will meet you at new york and have a short visit with you there.</p>
-            
-            <p>I hope that the exit of A Johnson &amp; the inauguration of Gen Grant
-                
-                <pb xml:id="leaf002r" facs="loc.01995.003.jpg" type="recto"/>
-                
-will restore the country to a Peace footing in a very short time.</p>
-            
-            <p>I gave our Friends the Misses Riley a letter of introduction to you when they were here last fall. have you seen them yet. Hamilton is well as usual &amp; is still running on the Rail Road. He sends his Love to you</p>
-            
-            <p>Hoping you had a merry Christmas &amp; wishing you a happy New Year. I will close for the <unclear reason="illegible" cert="high" resp="#kk">present</unclear></p>
+            <p>I suppose you will think by this time that I have forgotten my Dear old Friend by my
+                long silence &amp; neglect to answer your letter, or acknowledge the receipt of your
+                paper that you was so kind as to send me, but I assure you that I have not forgot
+                you but sill remember you with the same Love that <unclear reason="illegible"
+                    cert="high" resp="#kk">commenced</unclear> in Armory Square Hospital &amp; will
+                not cease as long as life lasts.</p>
+
+            <p>There is not a day that passes but what I think of you &amp; promise myself that I
+                will not delay writing to you any longer but as often I break my promise.</p>
+
+            <p>We have had excellent Sleighing here for the past two or three weeks <pb
+                    xml:id="leaf001v" facs="loc.01995.002.jpg" type="verso"/> and it still continues
+                to be good &amp; all that can afford it seem to enjoy it very much.</p>
+
+            <p>I am at work in the Melodeon &amp; Piano Factory of A. C. Chase again and shall
+                probably continue there this winter. My health is very good. Father has been quite
+                sick for a week but is improving now. Father &amp; Mother send their Love to
+                you.</p>
+
+            <p>Our Baby Walt is a fine boy now &amp; as bright as a dollar. I hope to have the
+                pleasure of showing him to you someday.</p>
+
+            <p>If you come to New York next summer &amp; cannot come up and make me a short visit
+                let me know when you are coming and if my business will permit I will meet you at
+                new york and have a short visit with you there.</p>
+
+            <p>I hope that the exit of A Johnson<ptr target="duk.00513_n6"/> &amp; the inauguration of Gen Grant<ptr target="duk.00638_n12"/> <pb
+                    xml:id="leaf002r" facs="loc.01995.003.jpg" type="recto"/> will restore the
+                country to a Peace footing in a very short time.</p>
+
+            <p>I gave our Friends the Misses Riley a letter of introduction to you when they were
+                here last fall. have you seen them yet. Hamilton is well as usual &amp; is still
+                running on the Rail Road. He sends his Love to you</p>
+
+            <p>Hoping you had a merry Christmas &amp; wishing you a happy New Year. I will close for
+                the <unclear reason="illegible" cert="high" resp="#kk">present</unclear></p>
             <p>Please write soon.</p>
 
 
             <closer>
                 <salute>yours with Love</salute>
-                <signed><unclear reason="illegible" cert="high" resp="#kk">B. H. Wilson.</unclear></signed>
+                <signed><unclear reason="illegible" cert="high" resp="#kk">B. H.
+                    Wilson.</unclear></signed>
             </closer>
-        
+
             <pb xml:id="leaf002v" type="verso"/>
         </body>
         <pb xml:id="leaf003r" facs="loc.01995.005.jpg" type="recto"/>

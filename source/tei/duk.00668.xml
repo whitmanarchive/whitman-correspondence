@@ -46,6 +46,7 @@
         <note type="project" anchored="true">The following are responsible for particular readings or for
           changes to this file, as noted: 
 <persName xml:id="kmp">Kenneth M. Price</persName>
+          <persName xml:id="ak">Alex Kinnaman</persName>
           <persName xml:id="al">Ashley Lawson</persName>
             <persName xml:id="el">Elizabeth Lorang</persName>
           <persName xml:id="kk">Kathryn Kruger</persName>
@@ -82,11 +83,12 @@
            <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Trübner &amp; Company">Trübner &amp; Company</persName>
+          <persName key="Trübner &amp; Company" ref="tex.00341_n1">Trübner &amp; Company</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change who="#ak" when="2015-05-14">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-05-18" who="#kmp">blessed</change>
       <change when="2011-11-09" who="#kk">checked</change>
@@ -99,9 +101,11 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="right">431 Stevens st. <lb/>Camden, New Jersey. <lb/>U. S. America.</name>
+          <name type="place" rend="right">431 Stevens st.</name>
+          <name type="place">Camden, New Jersey.</name>
+          <name type="place">U. S. America.</name>
         </dateline>
-          <salute>Messrs. Trübner &amp; Company,</salute><ptr target="duk.00668_n1"/>
+          <salute>Messrs. Trübner &amp; Company,</salute>
           <salute>Dear Sirs,</salute>
       </opener>
 

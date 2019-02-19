@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02342">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Maurice Minton to Walt Whitman, 9 March 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Maurice Minton</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02342</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Maurice Minton</author>
+                    <title>Maurice Minton to Walt Whitman, 9 March 1890</title>
+                    <date cert="high" when="1890-03-09" xml:id="dat1">March 9, 1890</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839-1919, Library of Congress, Washington, DC. </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Minton, Maurice" ref="n5000">Maurice Minton</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-11-01" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02342.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/><gap reason="cut away" atLeast="1"
+                            unit="chars"/>SE, ASTOR PLACE,</name>
+                    <name type="place"><gap reason="cut away" atLeast="1" unit="chars"/>NEW YORK, N.
+                        Y.</name>
+                    <name type="place">45 RUE VIVIENNE,</name>
+                    <name type="place">PARIS.</name>
+                    <name type="place">142 DEARBORN STREET,</name>
+                    <name type="place">CHICAGO, ILL.</name>
+                    <name type="place"><hi rend="smallcaps">The Illustrated American.</hi></name>
+                    <name type="place"><hi rend="smallcaps">New York,</hi></name>
+                    <date when="1890-03-09"><handShift rend="manuscript"/>March 9th <handShift
+                            rend="printed"/>18<handShift rend="manuscript"/>90</date>
+                    <name type="place">Walt Whitman, Esq.</name>
+                    <name type="place">Camden, N. J.</name>
+                </dateline>
+                <salute>Dear Sir,</salute>
+            </opener>
+
+            <p>One of our artists has just completed an excellent large portrait of yourself, which
+                we hope to publish in an early issue. We should like a few lines to verse to go with
+                it, and if you could supply us with this we should feel extremely obliged.</p>
+            <closer>
+                <salute>Yours truly,</salute>
+                <signed>Maurice M. Minton</signed>
+            </closer>
+
+            <pb xml:id="leaf001v" facs="loc.02342.002.jpg" type="verso"/>
+
+
+
+
+        </body>
+    </text>
+</TEI>

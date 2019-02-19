@@ -11,11 +11,11 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="br">Bev Rilett</persName>
                <persName xml:id="ec">Eric Conrad</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
             </respStmt>
@@ -59,14 +59,14 @@
                <author>Alfred L. Larr</author>
                <title>Alfred L. Larr to Walt Whitman, 5 March 1864</title>
                <date when="1864-03-05">March 5, 1864</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Larr, Alfred L.">Alfred L. Larr</persName>
+               <persName key="Larr, Alfred L." ref="tex.00142_n100">Alfred L. Larr</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-10">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -90,11 +91,11 @@
             <opener> 
                <salute>My Dear Sir</salute>
             </opener>
-         <p>I<ptr target="tex.00142_n100"/> had the honor to recive the fiew lines you addressed to me, which was delivered by my particular friend Bush through whose instrumentality I am doubtless indebted for this kind and highly appreciated favor from you.<ptr target="tex.00142_n2"/>
+         <p>I had the honor to <choice><sic>recive</sic><corr>receive</corr></choice> the <choice><sic>fiew</sic><corr>few</corr></choice> lines you addressed to me, which was delivered by my particular friend Bush through whose instrumentality I am doubtless indebted for this kind and highly appreciated favor from you.<ptr target="tex.00142_n2"/>
             </p>
-            <p>In my humble opinion there is nothing so well calculated to inspire a soldier with new courage and fresh detirmanation and fit him for the performance of his duty under all circumstances; as the assurance that he has the sympathy and friendship of the aged, who by the infirmaties of age are rendered unfit and incapable of sharing his hard life but are ever ready and willing when occasion offers to extend a word of friendly greeting and bid him God speed</p>
-            <p>Then kneed I tell you that <hi rend="italic">your</hi> friendship is most cordialy accepted and mine freely and cheerfuly given in return with the hope that this partial acquaintance may ripen into a mutual attachment</p>
-            <p>The preasent you sent me I received for which accept my profound thanks   With the hope of hearing from you soon I'll close Yours Truly</p>
+            <p>In my humble opinion there is nothing so well calculated to inspire a soldier with new courage and fresh <choice><sic>detirmanation</sic><corr>determination</corr></choice> and fit him for the performance of his duty under all circumstances; as the assurance that he has the sympathy and friendship of the aged, who by the infirmaties of age are rendered unfit and incapable of sharing his hard life but are ever ready and willing when occasion offers to extend a word of friendly greeting and bid him God speed</p>
+            <p>Then kneed I tell you that <hi rend="italic">your</hi> friendship is most <choice><sic>cordialy</sic><corr>cordially</corr></choice> accepted and mine freely and <choice><sic>cheerfuly</sic><corr>cheerfully</corr></choice> given in return with the hope that this partial acquaintance may ripen into a mutual attachment</p>
+            <p>The <choice><sic>preasent</sic><corr>present</corr></choice> you sent me I received for which accept my profound thanks   With the hope of hearing from you soon I'll close Yours Truly</p>
 
       </body>
    </text>

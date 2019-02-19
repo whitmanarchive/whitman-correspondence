@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="syr.00042"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 27 March
+                    1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>syr.00042</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Richard Maurice Bucke</author>
+                        <editor>Artem Lozynsky</editor>
+                        <title xml:id="ehm">The Letters of Dr. Richard Maurice Bucke to Walt
+                            Whitman</title>
+                        <imprint>
+                            <pubPlace>Detroit</pubPlace>
+                            <publisher>Wayne State University Press</publisher>
+                            <date notBefore="1977" notAfter="1977">1977</date>
+                            <biblScope type="page">115&#8211;116</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 27 March 1889</title>
+                    <date cert="high" when="1889-03-27" xml:id="dat1">March 27, 1889</date>
+                    <orgName xml:id="syr">Walt Whitman Collection, Special Collections Research
+                        Center, Syracuse University Library, Syracuse, N.Y.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-11-07" who="#blh">first check</change>
+            <change when="2017-03-02" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">[London, Ont.,]<ptr target="syr.00042_n1"/></name>
+                    <date when="1889-03-27">27 March [188]9</date>
+                </dateline>
+            </opener>
+            <p>Yours of Saturday and Sunday just to hand.<ptr target="syr.00042_n2"/> I am much
+                pleased to hear you speak so definitely about the new book. The big book<ptr target="n4188"/> ought to
+                have been &#036;10. instead of &#036;6. that would have left margin enough for every thing and
+                it is my belief that it would have sold about as freely at the larger price as the
+                smaller. &#036;5. for the new book is not too much but it is out of all proportion to &#036;6.
+                for the Complete works. Why not date the little book on title page "30 May 1889" or
+                better date it in M.S. along with autograph?</p>
+            <p><list>
+                    <item>"Walt Whitman</item>
+                    <item>31 May 1889"?</item>
+                </list></p>
+            <p>That would be a splendid souvenir.<ptr target="syr.00042_n3"/> I am rejoiced to hear
+                that Ed.<ptr target="n4319"/> has resumed the semi massage</p>
+            <p>I do not wonder that M<hi rend="underline">c</hi>Kay<ptr target="n4983"/> "declines
+                your proposition"<ptr target="syr.00042_n4"/> the price of the book once established cannot well be changed and
+                if M<hi rend="underline">c</hi>K paid &#036;3.33 and &#036;1.28 for binding = &#036;4.61 he would
+                have too little profit.</p>
+            <p>Nothing new here, all hearty</p>
+            <closer>
+                <salute>Love to you</salute>
+                <signed>R M Bucke</signed>
+            </closer> 
+        </body>
+    </text>
+</TEI>

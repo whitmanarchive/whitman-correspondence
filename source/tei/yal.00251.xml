@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00251">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to John H. Johnston, 29 September
+                    1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00251</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">124&#8211;92</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to John H. Johnston, 29 September 1887</title>
+                    <date cert="low" when="1887-09-29" xml:id="dat1">September 29, 1887</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book
+                        and Manuscript Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Johnston, John H." ref="n0336">John H. Johnston</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-03-16" who="#smb">renamed file and corrected WWAID</change>
+            <change when="2016-02-21" who="#ss">checked and corrected</change>
+            <change when="2015-10-08" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="yal.00251.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1887-09-29">Thursday Evn'g Sept 29 | '87</date>
+                </dateline>
+            </opener>
+            <p>Nothing special&#8212;Am somewhat under the weather four or five days&#8212;Cold in
+                the head or malaria&#8212;I sent Shiell's the book 16th Sept.<ptr
+                    target="yal.00470_n1"/>&#8212;McKay,<ptr target="n4983"/> my Phila: publisher,
+                has just been over&#8212;paid me $77 for royalties for the last eight months&#8212;I
+                paid the Camden taxes on my shanty to-day $26<ptr target="yal.00470_n2"/>&#8212;</p>
+            <p>The photos come from Cox all right, &#38; I sign &#38; return them&#8212;Wm Carey, at
+                the <hi rend="italic">Century</hi> office, seems to be managing the sale &#38;
+                financial part of the matter&#8212;I am satisfied with all&#8212;H Gilchrist<ptr
+                    target="n0262"/> the painter has gone back to England &#38; taken his picture
+                with him&#8212;Morse<ptr target="n0862"/> the sculptor is still here (in
+                Phila)&#8212;I think the plaster head by him (the 2d head we call it) is the best
+                thing yet. Cloudy &#38; rainy spell of weather here&#8212;I havn't been out of the
+                house since last Sunday&#8212;have been amusing myself with <hi rend="italic">Pepys'
+                    Diary</hi> (McKay sent it to me, good edn. 4 vols.)&#8212;When you come again,
+                don't forget to bring my Stedman book American Poets<ptr target="yal.00470_n3"
+                />&#8212;Love to Alma<ptr target="n3029"/> and Al<ptr target="yal.00470_n4"/> and
+                all of you&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="yal.00251.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

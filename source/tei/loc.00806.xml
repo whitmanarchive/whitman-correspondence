@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -59,10 +60,8 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to an Unidentified Correspondent, (?). (?). 1863 (?)</title>
                <date when="1863">1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. Probably this letter was written to one of the New Englanders who contributed funds for Walt Whitman's hospital activities. The descriptions resemble those in two letters written in 1863; see Whitman's letters from August 6, 1863
-                   and  October 1, 1863
-                  . If the last sentence of this draft is accurate, the message may have been written about the same time as the one to Nicholas Wyckoff on May 14, 1863; see the  xml:id=May 14, 1863
-                  </orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName><!--Probably this letter was written to one of the New Englanders who contributed funds for Walt Whitman's hospital activities. The descriptions resemble those in two letters written in 1863; see Whitman's letters from August 6, 1863
+                   and  October 1, 1863. If the last sentence of this draft is accurate, the message may have been written about the same time as the one to Nicholas Wyckoff on May 14, 1863; see the  xml:id=May 14, 1863-->
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -72,11 +71,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Unidentified Correspondent">Unidentified Correspondent</persName>
+               <persName key="Unidentified Correspondent" ref="n5000">Unidentified Correspondent</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-23">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-24">style sheet proofreading</change>
@@ -88,7 +88,7 @@
    <text type="letter">
       <body>
          
-         <p>. . . turn&#8212;some I have to visit every day or evening (there are husbands &amp; young lads, of good farmers' families &amp;c, brought up at home, never having left), while they are in critical state, pet them, cheer them, caress them, give them some trifle. I always carry a stout double-pocket haversack, filled with things&#8212;also large pockets in my coat &amp;c&#8212;I have articles of many kinds, I have learnt what is appropriate&#8212;I generally carry a bottle of wine&#8212;I buy oranges by the box, &amp; fill my pockets with them before going into a ward, they are very refreshing to feverish men this weather&#8212;I have nice preserved peaches or something of the jelly sort&#8212;to many I give little sums of money&#8212;the soldiers very largely come up here without one cent&#8212;every day I find cases proper for small gifts of money, &amp; where it is indeed more blest to give, than the good it can do them. (You hear north there quite too much of the rum drinking, rowdyism &amp;c. &amp; thieving of the soldiers&#8212;in general, that is confined to the foreign regiments, &amp; I must say to the Philadelphia &amp; N. Y. City regiments&#8212;the soldiers from the States, from the country, especially the West &amp; from New England and the country parts of N. Y. &amp; Penn, are noblest specimens of young men, well brought up, intelligent, singularly free from intemperance &amp;c&#8212;you ought to see them as I have for the last five months.)<ptr target="loc.00806_n100"/>
+         <p>. . . turn&#8212;some I have to visit every day or evening (there are husbands &amp; young lads, of good farmers' families &amp;c, brought up at home, never having left), while they are in critical state, pet them, cheer them, caress them, give them some trifle. I always carry a stout double-pocket haversack, filled with things&#8212;also large pockets in my coat &amp;c&#8212;I have articles of many kinds, I have learnt what is appropriate&#8212;I generally carry a bottle of wine&#8212;I buy oranges by the box, &amp; fill my pockets with them before going into a ward, they are very refreshing to feverish men this weather&#8212;I have nice preserved peaches or something of the jelly sort&#8212;to many I give little sums of money&#8212;the soldiers very largely come up here without one cent&#8212;every day I find cases proper for small gifts of money, &amp; where it is indeed more <choice><sic>blest</sic><corr>blessed</corr></choice> to give, than the good it can do them. (You hear north there quite too much of the rum drinking, rowdyism &amp;c. &amp; thieving of the soldiers&#8212;in general, that is confined to the foreign regiments, &amp; I must say to the Philadelphia &amp; N. Y. City regiments&#8212;the soldiers from the States, from the country, especially the West &amp; from New England and the country parts of N. Y. &amp; Penn, are noblest specimens of young men, well brought up, intelligent, singularly free from intemperance &amp;c&#8212;you ought to see them as I have for the last five months.)<ptr target="loc.00806_n100"/>
          </p>
          
       </body>

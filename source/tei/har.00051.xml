@@ -10,6 +10,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -42,7 +43,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to James Russell Lowell, 2 October 1861</title>
                <date when="1861-10-02">October 2, 1861</date>
-               <orgName xml:id="har">Houghton Library at Harvard University</orgName>
+               <orgName xml:id="har">Manuscripts Department, Houghton Library, Harvard University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -52,11 +53,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Lowell, James Russell">James Russell Lowell</persName>
+               <persName key="Lowell, James Russell" ref="har.00051_n1">James Russell Lowell</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-30">corrected orgName, added xml:ids to pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-23">added encoding for page breaks</change>
@@ -66,14 +68,14 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="har.00051.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="har.00051.001.jpg" type="recto"/>
          
             <opener rend="right">
                <dateline>
                   <name type="place">Brooklyn, /</name>
                   <date when="1861-10-02">Wednesday morning, October 2, 1861.</date>
                </dateline>
-               <salute>Mr. Lowell,<ptr target="har.00051_n1"/>
+               <salute>Mr. Lowell,
                </salute> 
             </opener>
             <p>Dear Sir: I also send you two more little pieces, to take their chances for the magazine. The price, if you take them, will be $8 each. I forgot to say, with the one I sent yesterday, that whatever pieces are printed, I reserve the right to include them in any future collection of my poems.</p>  
@@ -82,7 +84,7 @@
                <signed>W. Whitman</signed>
             </closer>
          
-         <pb facs="har.00051.002.jpg" type="recto"/>
+         <pb xml:id="leaf001v" facs="har.00051.002.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

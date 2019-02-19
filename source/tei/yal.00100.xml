@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
@@ -41,14 +42,14 @@
                <author>Julius W. Mason</author>
                <title>Julius W. Mason to Walt Whitman, 16 February 1865</title>
                <date when="1865-02-16">February 16, 1865</date>
-               <orgName xml:id="yal">Yale Walt Whitman Collection, Beinecke Rare Book and Manuscript Library</orgName>
+               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Mason, Julius W.">Julius W. Mason</persName>
+               <persName key="Mason, Julius W." ref="n5000">Julius W. Mason</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -56,6 +57,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-16">corrected orgName, added pbs</change>
          <change who="#nhg" when="2014-08-29">updated sender name formatting in persName keys</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -65,7 +67,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="yal.00100.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="yal.00100.001.jpg" type="recto"/>
 
             <opener>
                <dateline>
@@ -83,7 +85,7 @@
          <postscript>
             <p>Walt Whitman}</p>
          </postscript>
-         <pb facs="yal.00100.002.jpg" type="verso"/>
+         <pb xml:id="leaf001v" facs="yal.00100.002.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

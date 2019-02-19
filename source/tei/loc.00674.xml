@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00674">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            <title type="main" level="m">Hannah Whitman Heyde to Walt Whitman [September 1862]</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Hannah Whitman Heyde</author>
+            <editor role="main">Maire Mullins</editor> 
+            <respStmt>
+                <resp>Transcription and encoding</resp>
+                <persName xml:id="kb">Kelsey Barkis</persName> <!--Change any <name> tags in the <respStmt> to <persName>-->
+                <persName xml:id="mp">Madison Perrin</persName>
+                <persName xml:id="mm">Maire Mullins</persName>
+            </respStmt> 
+            <sponsor>Center for Digital Research in the Humanities, University of
+            Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <sponsor>Pepperdine University</sponsor>
+           <!--Pepperdine should be included as a sponsor, as should any other universities who funded the encoding, research, etc.-->
+           <funder>National Historical Publications and Records Commission</funder> <!--Please include any granting agencies in addition to NHPRC that is funding Whitman Archive time-->
+            </titleStmt>
+        <editionStmt> 
+            <edition>
+            <date>2018</date>
+            </edition>
+        </editionStmt>
+        <publicationStmt>
+        <idno>loc.00674</idno>
+        <distributor>The Walt Whitman Archive</distributor>
+        <address><addrLine>Center for Digital Research in the Humanities</addrLine>
+        <addrLine>319 Love Library</addrLine>
+        <addrLine>University of Nebraska-Lincoln</addrLine>
+        <addrLine>P.O. Box 884100</addrLine>
+        <addrLine>Lincoln, NE 68588-4100</addrLine>
+        </address>
+            <availability>
+            <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved. <!--Updated copyright date to 2018 for now and changed copyright symbol to ASCII code of &#169;-->
+            Items in the Archive may be shared in accordance with the Fair Use
+            provisions of U.S. copyright law. Redistribution or republication on other
+            terms, in any medium, requires express written consent from the editors and
+            advance notification of the publisher, Center for Digital Research in the
+            Humanities. Permission to reproduce the graphic images in this archive has
+            been granted by the owners of the originals for this publication only.</p>
+           </availability>
+ </publicationStmt> 
+<sourceDesc>
+<bibl>
+    <author>Hannah Whitman Heyde</author>
+    <title>Hannah Whitman Heyde to Walt Whitman [September 1862]</title>
+    <date cert="high" when="1862-09" xml:id="dat1" >[September 1862]</date> <!--Removed comma between month and year; adjusted encoding for month of Sept. 1862, and changed order of cert, when, and xml:id-->
+    <orgName xml:id="loc">Hannah Louisa Whitman Heyde Papers, 1853&#8211;1892, Library of Congress, Washington, D.C.</orgName> <!--corrected commas and periods in LOC-->
+</bibl>
+</sourceDesc>
+    </fileDesc>
+<profileDesc>
+    <handNotes>
+        <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName></handNote> <!--If there are notes written on the letter-/-they are either authorial or editorial, depending on who wrote them. 
+        The writer should be identified here in this section of the TEI/XML and the text of the note should be placed below close to where it appears on the actual page.-->
+    </handNotes>
+    <particDesc>
+<person role="sender">
+<persName key="Heyde, Hannah Whitman" ref="n2002">Hannah Whitman Heyde</persName> <!--correspondent note for Hannah Whitman Heyde, much like our current Whitman Archive Correspondent notes; see published
+letters for examples. Is usually biographical information and a link to the Whitman Encyclopedia entry in the notes.-->
+</person>
+<person role="recipient">
+<persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+</particDesc> 
+</profileDesc>
+<revisionDesc>
+    <change when="2018-08-18" who="#mm">edited</change> <!--Make sure these are in order; most recent should be up here on this line with all preceding events below.-->
+    <change when="2016-05-16" who="#mm">revised notes, added note</change> 
+    <change when="2016-05-04" who="#mm">changed TEI header, changed brackets</change>
+    <change when="2016-04-24" who="#mm">proofread and revised</change>
+    <change when="2015-09-04" who="#mm">proofread</change>
+    <change when="2015-08-24" who="#mp">encoded annotation</change>
+    <change when="2015-07-01" who="#kb">encoded</change>
+</revisionDesc>
+</teiHeader>
+<text type="letter">
+    <body>
+        <pb xml:id="leaf001r" facs="loc.00674.001.jpg" type="recto"/>
+<opener>
+<!--Deleted empty tags for dateline; please do not leave empty tags. If there is no <date> for the dateline, delete the <date> tags.-->
+<salute>Dear Brother<ptr target="loc.00674_n1"/>&#8212;</salute> <!--"Dear brother," etc. should be encoded as <salute></salute> even if it looks like it appears visually 
+in the body of the letter.-->
+</opener>
+       <!-- Do not leave spaces on either sides of dashes or between a word and the superscript number for annotation.-->
+        <p>&#8212;Is George<ptr target="loc.00674_n2"/> safe. Will you telegraph to me immediately if you have any good news. I 
+            would telegraph home. I think I am well enough to get out I saw a name in the paper last night at first I&#8212;&#8212;afterwards 
+            I see it was a different company and I hope a different division. 
+            <choice>
+            <sic>George</sic>
+            <corr>George's</corr>
+            </choice> company is company D<ptr target="loc.00674_n3"/> 
+            this was B. and Kings division. I have a hope. I am almost sure.&#8212;because the
+            <choice>
+            <abbr>Reg't</abbr> 
+            <expan>Regiment</expan>
+            </choice> was not mentioned,&#8212;I shall wait anxiously
+            <choice>
+            <sic>untill</sic>
+            <corr>until</corr> 
+            </choice> I can hear, I feel quite sure this morning, it was no one belonging to me. You must
+            forgive me for
+            <choice>
+            <sic>troubleing</sic>
+            <corr>troubling</corr>
+            </choice> you when I know you at home all feel just as anxious I <hi rend="underline">feel for
+            you,</hi> but I think perhaps you have heard good news by this time, perhaps I am anxious needlessly
+            I have no doubt I am,&#8212;perhaps brother George has written to Mother by this time, and you
+            will almost vexed at me for feeling so, but I am alone,<ptr target="loc.00674_n4"/> have been some sick, but I am not so weak,
+            as you think, I can bear a good deal I shall be hopeful and cheerful, I feel George is safe, I
+            expect dear brother you will think me easily agitated or frightened do not let me trouble you. Give
+            my <hi rend="underline">love</hi> to <hi rend="underline">dear Mother</hi>, I wish I could see her I
+            shall soon,</p> <!--Need note for Mother Whitman? All persons with an entry in Whitman Encyclopedia should have links to those in the notes.-->
+        <closer>
+         <salute>my love to you,</salute>
+        <signed>Han</signed>
+        </closer>
+        <postscript>
+        <p>dear brother telegraph to me at once</p>
+ </postscript>
+     <pb xml:id="leaf002v" facs="loc.00674.002.jpg" type="verso"/> 
+     <note type="editorial" resp="#rmb">from sister Han</note>
+    <!-- Put <pb></pb> before the closing tag for the body.-->
+    <!--  Put text of handnote in position where it appears on the letter-->
+      </body>
+</text> 
+</TEI>
+<!--
+Edits for the Notes
+
+Correspondent note: write one for Hannah Whitman Heyde with her birth and death dates in the format of the W. O'C. note that I have put in as an example. link
+to Whitman Encyclopedia article as follows. You only need to do this in one numbered note; then that number can be reused throughout the letters in the edition. Here is the TEI/XML for that: 
+
+<note xml:id="n2002" resp="wwa" type="editorial">William Douglas O'Connor
+                    (1832&#8211;1889) was the author of the grand and grandiloquent Whitman pamphlet
+                    "The Good Gray Poet," published in 1866 (a digital version of the pamphlet is
+                    available at "<ref
+                        target="http://www.whitmanarchive.org/criticism/disciples/tei/anc.00170.html"
+                        >The Good Gray Poet: A Vindication</ref>"). For more on Whitman's
+                    relationship with O'Connor, see Deshae E. Lott, "<ref
+                        target="http://www.whitmanarchive.org/criticism/current/encyclopedia/entry_41.html"
+                        >O'Connor, William Douglas (1832&#8211;1889)</ref>," <hi rend="italic">Walt
+                        Whitman: An Encyclopedia</hi>, ed. J.R. LeMaster and Donald D. Kummings (New
+                    York: Garland Publishing, 1998).</note>
+
+Corrections for notes for this letter in the notes file.
+Note 1: None
+Note 2: The dash in the span of years should be &#8211;. This needs to be a complete sentence, "George...was the seventh child..." Add the link to the encyclopedia entry for George
+Note 3: The dashes in all spans of years should be &#8211;-->
+
+
+
+
+

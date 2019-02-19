@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -59,7 +60,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to John Townsend Trowbridge, 6 February 1865</title>
                <date when="1865-02-06">February 6, 1865</date>
-               <orgName xml:id="loc">Library of Congress</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -69,11 +70,13 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Trowbridge, John Townsend">John Townsend Trowbridge</persName>
+               <persName key="Trowbridge, John Townsend" ref="duk.00656_n1">John Townsend Trowbridge</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-24">added correspondent ref</change>
+         <change who="#ak" when="2015-02-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change when="2013-11-25" who="#el">added date to bibl</change>
          <change who="#el" when="2013-11-22">converted to P5</change>

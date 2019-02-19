@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -40,24 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">64-65</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 19 September 1862</title>
                <date when="1862-09-19">September 19, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -72,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-12-18">Ken's proofreading changes</change>
@@ -85,7 +74,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00327.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Near Sharpsburg Md.<lb/>
@@ -95,7 +84,8 @@ corrections</change>
                <salute>Dear Mother<ptr target="duk.00327_n100"/>
             </salute>
             </opener>
-            <p>I am still alive and well  Our Regt was engaged on last Sunday for 3 or 4 hours on the Mountains. but our loss was not very heavy  on Tuesday last we were engaged twice and lost heavy  General Reno was killed on Sunday<ptr target="duk.00327_n2"/>  we were in his Division and he thought the world of our Regt  we went into the fight on Sunday afternoon about 5½ O Clock and took the advance and was under a heavy fire until about 9 O Clock when the fireing ceased and we lay down on the field and stayed all night</p>
+            <p>I am still alive and well  Our Regt was engaged on last Sunday for 3 or 4 hours on the Mountains. but our loss was not very heavy  on Tuesday last we were engaged twice and lost heavy  General Reno was killed on Sunday<ptr target="duk.00327_n2"/>  we were in his Division and he thought the world of our Regt  we went into the fight on Sunday afternoon about 5½ O Clock and took the advance and was under a heavy fire until about 9 O Clock when the <choice><sic>fireing</sic><corr>firing</corr></choice> ceased and we lay down on the field and stayed all night</p>
+         <pb xml:id="leaf001v" facs="duk.00327.002_large.jpg" type="verso"/>
             <p>I cannot write more now as the mail goes  I did not get hit at all</p>
             <closer rend="center">
                <signed>G W Whitman</signed>

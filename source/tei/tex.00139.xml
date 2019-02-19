@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
@@ -56,14 +57,14 @@
                <author>Elijah Douglass Fox</author>
                <title>Elijah Douglass Fox to Walt Whitman, 24 December 1863</title>
                <date when="1863-12-24">December 24, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Fox, Elijah Douglass">Elijah Douglass Fox</persName>
+               <persName key="Fox, Elijah Douglass" ref="tex.00139_n100">Elijah Douglass Fox</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,6 +72,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-10">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-09">proofreading changes</change>
@@ -86,7 +88,7 @@
                <dateline rend="right"> </dateline>
                <salute>Dear Father &amp; Comrade</salute>
             </opener>
-         <p>I<ptr target="tex.00139_n100"/> received yours of Dec 17th [lost letter] and as always will be the case was glad to hear from you  I have delayed answering your last a day or two for this reason. I have been very busy and shall write but little this time as I must go once to a place called West Jersey about ten miles from here to see about buying a house and lot but do not think that because I write but little I am tired of writing to you or wish to stop corresponding with you for I know of no one's letters that are looked for and read with more interest than yours, now that Mary has come. She came down on tuesday  she is well though tired when she arrived  she sends her love to you give my respects to all friends and write soon I will write again soon yours ever</p>
+         <p>I received yours of Dec 17th [lost letter] and as always will be the case was glad to hear from you  I have delayed answering your last a day or two for this reason. I have been very busy and shall write but little this time as I must go once to a place called West Jersey about ten miles from here to see about buying a house and lot but do not think that because I write but little I am tired of writing to you or wish to stop corresponding with you for I know of no one's letters that are looked for and read with more interest than yours, now that Mary has come. She came down on <choice><sic>tuesday</sic><corr>Tuesday</corr></choice>  she is well though tired when she arrived  she sends her love to you give my respects to all friends and write soon I will write again soon yours ever</p>
             <closer rend="right"/>
          
       </body>

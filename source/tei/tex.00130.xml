@@ -11,10 +11,10 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
             </respStmt>
@@ -58,14 +58,14 @@
                <author>Lewis K. Brown</author>
                <title>Lewis K. Brown to Walt Whitman, 22 August 1863</title>
                <date when="1863-08-22">August 22, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Brown, Lewis K.">Lewis K. Brown</persName>
+               <persName key="Brown, Lewis K." ref="tex.00130_n100">Lewis K. Brown</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +73,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-08">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-08-25">proofread and modified</change>
@@ -88,11 +89,11 @@
             <opener> 
                <salute>Dear Friend Walt,</salute>
             </opener>
-         <p>Both of your letters came to hand, in due time &amp; I<ptr target="tex.00130_n100"/> insure you I was glad to hear from you and to hear that you wer enjoying good health.
+         <p>Both of your letters came to hand, in due time &amp; I insure you I was glad to hear from you and to hear that you <choice><sic>wer</sic><corr>were</corr></choice> enjoying good health.
 Dear Walt, I beg to be excused for not writing sooner, but to tell the truth we have had a good many visitors and when there was not visitors
-I was away, but you need not think that I have forgotton you. Your memory burns as bright as ever in my heart &amp; allways will, thear is now doubt but some of my corrospondants in Washington has begin to think hard of me for not writing oftener, but I will be thear my self before long to make excuses'es in person. I will be thear on the last day of August, if I do not get my furlow extended, whitch I have the hopes of, for I would most as leave come back to see my old friends as stay at home. The Doctor that tens me hear wants me for to try and get my furlow extended, for he thinks that my leg will get worse if I go back while the weather is so hot, but I do not know how it will be yet (wont you advise me which is best) The Doctor thinks that he can have my furlow extended verry easy. Dear Walter I am enjoying my self fine as well, I think, as any cripple can. I was up to Quaker or Friends Quartily Meeting yesterday. (I expect you know what it is and may be have bin at one) thear was a great many thear &amp; I seen a great many of my relations &amp; freinds thear that I would not of seen if I had of stayed away. they had exelant preaching, but you must know that they are are on the Piece principle, and you know that I aint. I am for war as long as there is men &amp; money until this sccussed Rebellion is put down for thear has bin to many good lives lost allready for to ever make a compromise, do not you think so.</p>
-            <p>Well Dear Walter, it is just in the highth of the Peach &amp; Appel season and we have some nice Peaches but we have not got any Apples now for our early ons are dun and we have not many late ones. We have some few Watermellons &amp; cantilopes but not many I often think of the poor boys in the Hospital when I am eating them</p>
-            <p>Walter I have no news to write so I will have to close this miserable scrach for I am aware that it is verry porely wrote (but I never mind the writing if the heart is all wright) so you must not mind this so with mutch love to you; and all enquiring friends I will bid you good by and God bless you from your friend and companion.</p>
+I was away, but you need not think that I have <choice><sic>forgotton</sic><corr>forgotten</corr></choice> you. Your memory burns as bright as ever in my heart &amp; <choice><sic>allways</sic><corr>always</corr></choice> will, <choice><sic>thear</sic><corr>there</corr></choice> is now doubt but some of my <choice><sic>corrospondants</sic><corr>correspondents</corr></choice> in Washington has begin to think hard of me for not writing oftener, but I will be <choice><sic>thear</sic><corr>there</corr></choice> my self before long to make <choice><sic>excuses'es</sic><corr>excuses</corr></choice> in person. I will be <choice><sic>thear</sic><corr>there</corr></choice> on the last day of August, if I do not get my <choice><sic>furlow</sic><corr>furlough</corr></choice> extended, <choice><sic>whitch</sic><corr>which</corr></choice> I have the hopes of, for I would most as leave come back to see my old friends as stay at home. The Doctor that tens me hear wants me for to try and get my <choice><sic>furlow</sic><corr>furlough</corr></choice> extended, for he thinks that my leg will get worse if I go back while the weather is so hot, but I do not know how it will be yet (wont you advise me which is best) The Doctor thinks that he can have my <choice><sic>furlow</sic><corr>furlough</corr></choice> extended <choice><sic>verry</sic><corr>very</corr></choice> easy. Dear Walter I am enjoying my self fine as well, I think, as any cripple can. I was up to Quaker or Friends <choice><sic>Quartily</sic><corr>Quarterly</corr></choice> Meeting yesterday. (I expect you know what it is and may be have <choice><sic>bin</sic><corr>been</corr></choice> at one) <choice><sic>thear</sic><corr>there</corr></choice> was a great many <choice><sic>thear</sic><corr>there</corr></choice> &amp; I seen a great many of my relations &amp; <choice><sic>freinds</sic><corr>friends</corr></choice> <choice><sic>thear</sic><corr>there</corr></choice> that I would not of seen if I had of stayed away. they had <choice><sic>exelant</sic><corr>excellent</corr></choice> preaching, but you must know that they are are on the Piece principle, and you know that I <choice><sic>aint</sic><corr>ain't</corr></choice>. I am for war as long as there is men &amp; money until this sccussed Rebellion is put down for <choice><sic>thear</sic><corr>there</corr></choice> has <choice><sic>bin</sic><corr>been</corr></choice> to many good lives lost <choice><sic>allready</sic><corr>already</corr></choice> for to ever make a compromise, do not you think so.</p>
+            <p>Well Dear Walter, it is just in the <choice><sic>highth</sic><corr>height</corr></choice> of the Peach &amp; <choice><sic>Appel</sic><corr>apple</corr></choice> season and we have some nice Peaches but we have not got any Apples now for our early ons are dun and we have not many late ones. We have some few <choice><sic>Watermellons</sic><corr>watermelons</corr></choice> &amp; <choice><sic>cantilopes</sic><corr>cantaloupes</corr></choice> but not many I often think of the poor boys in the Hospital when I am eating them</p>
+            <p>Walter I have no news to write so I will have to close this miserable <choice><sic>scrach</sic><corr>scratch</corr></choice> for I am aware that it is <choice><sic>verry</sic><corr>very</corr></choice> <choice><sic>porely</sic><corr>poorly</corr></choice> wrote (but I never mind the writing if the heart is all wright) so you must not mind this so with <choice><sic>mutch</sic><corr>much</corr></choice> love to you; and all enquiring friends I will bid you good by and God bless you from your friend and companion.</p>
          
       </body>
    </text>

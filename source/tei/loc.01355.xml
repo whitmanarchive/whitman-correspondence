@@ -24,7 +24,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2014</date>
+                    <date>2015</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -38,7 +38,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive January be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -52,7 +52,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Mary Whitall Smith Costelloe, 3 January 1887</title>
                     <date cert="high" when="1887-01-03" xml:id="dat1">January 3, 1887</date>
-                    <idno type="callno">Box 8, Reel 5</idno>
+                    <idno type="callno">MSS18630, Box 8, Reel 5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
@@ -69,6 +69,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-10-17" who="#smb">corrected collection and dates</change>
             <change when="2015-08-07" who="#smb">final check, corrected</change>
             <change when="2015-07-01" who="#if">edited</change>
             <change when="2015-05-24" who="#ss">annotated</change>
@@ -77,12 +78,11 @@
     </teiHeader>
     <text type="letter">
         <body>
-            <pb xml:id="leaf001v" facs="loc.01355.001_large.jpg" type="verso"/>
-            <pb xml:id="leaf001r" facs="loc.01355.002_large.jpg" type="recto"/>
-            
+            <pb xml:id="leaf001r" facs="loc.01355.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <date when="1887-01-03" rend="right">Camden Jan. 3 '87&#8212;P M<ptr target="loc.01355_n1"/> </date>
+                    <name type="place">Camden</name>
+                    <date when="1887-01-03" rend="right">Jan. 3 '87&#8212;P M<ptr target="loc.01355_n1"/></date>
                 </dateline>
             </opener>
             <p>Henry Norman, of the <hi rend="underline">Pall Mall Gazette</hi> has sent me &#163;81 over, in a very kind &#38;
@@ -95,6 +95,7 @@
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
+            <pb xml:id="leaf001v" facs="loc.01355.002_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

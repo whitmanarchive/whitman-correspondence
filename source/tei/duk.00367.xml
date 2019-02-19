@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -41,31 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">136</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Walt Whitman, 14 July 1865</title>
                <date when="1865-07-14">July 14, 1865</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, George Washington">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">proofread and edited</change>
@@ -86,17 +75,18 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00367.001_large.jpg" type="recto"/>
             
                <opener>
                   <dateline rend="right">
-                     <name type="place">Camp of 51st Regt.  N. Y. Vols <lb/>near Alexandria Va</name>
+                     <name type="place">Camp of 51st Regt.  N. Y. Vols</name>
+                     <name type="place">near Alexandria Va</name>
                      <date when="1865-07-14">  July 14th/65<ptr target="duk.00367_n100"/>
                </date>
                   </dateline>
                   <salute>Dear Brother,</salute>
                </opener>
-               <p>I returned to the Regt last night (I have been away on Court Martial you know) and found your letter of July 5th and Mothers, and Hannahs, that you sent me at the same time. Poor Hann I feel quite worried about her and have just written to her saying that Mother and I will come on to see her in the cours of three of four weeks.<ptr target="duk.00367_n2"/> Walt I suppose you know that we are going to be Mustered out of service,  we are making out the Muster Rolls now, and we expect to be in New York in about 10 days.<ptr target="duk.00367_n3"/> I have been over to Washington two or three times since I saw you, but it was always in the afternoon (after C.M. hours) so that I could not get up to your place in time to see you.</p>
+               <p>I returned to the Regt last night (I have been away on Court Martial you know) and found your letter of July 5th and Mothers, and Hannahs, that you sent me at the same time. Poor Hann I feel quite worried about her and have just written to her saying that Mother and I will come on to see her in the <choice><sic>cours</sic><corr>course</corr></choice> of three of four weeks.<ptr target="duk.00367_n2"/> Walt I suppose you know that we are going to be Mustered out of service,  we are making out the Muster Rolls now, and we expect to be in New York in about 10 days.<ptr target="duk.00367_n3"/> I have been over to Washington two or three times since I saw you, but it was always in the afternoon (after C.M. hours) so that I could not get up to your place in time to see you.</p>
                <p>Walt come over and see us,  the stage leaves Willards twice every day, and brings you right to Camp, so jump in and come over.<ptr target="duk.00367_n4"/> I have written to Mother to day to let her know that I am coming home, and telling her to get ready for a trip to Vermont. I am sleepy so good night Walt.</p>
                <closer rend="right">
                   <signed>G. W. W.</signed>
@@ -105,7 +95,7 @@ corrections</change>
             <postscript>
                <p>The trouble about the informality of Muster is all right</p>
             </postscript>
-         
+         <pb xml:id="leaf001v" facs="duk.00367.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

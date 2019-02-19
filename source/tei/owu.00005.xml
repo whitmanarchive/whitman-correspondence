@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="owu.00005">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="owu.00005">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,8 +34,8 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights
-                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
                         advance notification of the publisher, Center for Digital Research in the
@@ -44,26 +45,28 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName>
+                    changes to this file, as noted: <persName xml:id="kmp">Kenneth M.
+                        Price</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="vs">Vanessa Steinroetter</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
-            <sourceDesc>                             
+            <sourceDesc>
                 <bibl>
                     <author>Martha Whitman</author>
                     <title>Martha Whitman to Walt Whitman, 1 March 1870</title>
                     <date cert="high" when="1870-03-01" xml:id="dat1">March 1, 1870</date>
-                    <orgName xml:id="owu">The Bayley-Whitman Collection, Ohio Wesleyan University, Delaware OH</orgName>
+                    <orgName xml:id="owu">The Bayley-Whitman Collection, Ohio Wesleyan University,
+                        Delaware, OH</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        
+
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Martha">Martha Whitman</persName>
+                    <persName key="Whitman, Martha" ref="n0707">Martha Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,18 +74,19 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+            <change when="2015-06-14" who="#ss">annotated</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-03" who="#kp">blessed</change>
             <change when="2010-12-16" who="#el">checked</change>
             <change when="2010-10-04" who="#vs">transcribed and encoded</change>
         </revisionDesc>
     </teiHeader>
-    
+
     <text type="letter">
         <body>
-            
+
             <pb xml:id="leaf001r" facs="owu.00005.001.jpg" type="recto"/>
-            
+
             <opener>
                 <dateline rend="right">
                     <name type="place">Brooklyn</name>
@@ -90,22 +94,32 @@
                 </dateline>
                 <salute>Dear Brother Walt</salute>
             </opener>
-            
-            <p>We received your letter today and I feel as if you could not get me a room without a great deal of trouble I suppose as Congress is in session that every place is taken up. I was thinking perhaps I could stay the first night with Mrs O Conner as they have invited me to come, I could sleep with Jennie and the next day I will visit Masons and if they should seem clever and ask me to stay with them I will do so. anyway dont bother about it for we will get some place after I get there. the only reason I would like to stop one night with Mr O Conner is that
-            
-  <pb xml:id="leaf001v" facs="owu.00005.002.jpg" type="verso"/>
-            
-            I will get there in the evening and I have no doubt when I call on Masons they will insist on my staying with them</p>
-            
-            <p>Mother says she will not write this week. the draft came all right and when you write again send her some <choice><orig>envolopes</orig> <reg>envelopes</reg></choice> she is about as well as usual some days quite lame.</p>
 
-<p>I cant say the day I will come but will write again it will be some time next week</p>
-            
+            <p>We received your letter today and I feel as if you could not get me a room without a
+                great deal of trouble I suppose as Congress is in session that every place is taken
+                up. I was thinking perhaps I could stay the first night with Mrs O Conner<ptr
+                    target="duk.00436_n3"/> as they have invited me to come, I could sleep with
+                Jennie and the next day I will visit Masons<ptr target="loc.00445_n5"/> and if they
+                should seem clever and ask me to stay with them I will do so. anyway dont bother
+                about it for we will get some place after I get there. the only reason I would like
+                to stop one night with Mr O Conner is that <pb xml:id="leaf001v"
+                    facs="owu.00005.002.jpg" type="verso"/> I will get there in the evening and I
+                have no doubt when I call on Masons they will insist on my staying with them</p>
+
+            <p>Mother says she will not write this week. the draft came all right and when you write
+                again send her some <choice>
+                    <orig>envolopes</orig>
+                    <reg>envelopes</reg>
+                </choice> she is about as well as usual some days quite lame.</p>
+
+            <p>I cant say the day I will come but will write again it will be some time next
+                week</p>
+
             <closer>
                 <salute>Yours truly</salute>
                 <signed>Mattie</signed>
             </closer>
-                            
+
         </body>
     </text>
 </TEI>

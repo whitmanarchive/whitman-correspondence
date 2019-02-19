@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
             </respStmt>
@@ -41,14 +42,14 @@
                <author>Aaron Smith</author>
                <title>Aaron Smith to Walt Whitman, 13 July 1864</title>
                <date when="1864-07-13">July 13, 1864</date>
-               <orgName xml:id="nyp">Berg Collection at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Aaron">Aaron Smith</persName>
+               <persName key="Smith, Aaron" ref="n5000">Aaron Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -56,6 +57,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-23">added xml:id to pbs, corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2009-08-20">transcribed, encoded</change>
@@ -63,7 +65,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="nyp.00229.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="nyp.00229.001.jpg" type="recto"/>
          
             <opener>
                <dateline>
@@ -78,8 +80,8 @@
                <signed>Aaron Smith</signed>
             </closer>
          
-         <pb facs="nyp.00229.002.jpg" type="verso"/>
-         <pb facs="nyp.00229.003.jpg" type="recto"/>
+         <pb xml:id="leaf001v" facs="nyp.00229.002.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="nyp.00229.003.jpg" type="recto"/>
       </body>
    </text>
 </TEI>

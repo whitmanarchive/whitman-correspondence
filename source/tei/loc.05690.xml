@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05690">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Emil Arctander to Walt Whitman, 17 June 1872</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Emil Arctander</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="jyc">Jonathan Y. Cheng</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05690</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Emil Arctander</author>
+                    <title>Emil Arctander to Walt Whitman, 17 June 1872</title>
+                    <date cert="high" when="1872-06-17" xml:id="dat1">June 17, 1872</date>
+                    <idno type="callno">MSS18630, Box: 77, Folder: Supplementary Papers, Speeches &#38; Writing Files, Schmidt, Rudolf</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, DC.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Arctander, Emil" ref="rlc.00006_n4">Emil Arctander</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-04-23">added correspondent ref</change>
+            <change when="2014-11-10" who="#ak">corrected transcription and encoding</change>
+            <change when="2014-09-10" who="#jyc">transcribed; encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_ej.00794_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place" rend="center"><handShift rend="printed"/>Royal Danish D. Consulate</name>,
+                    <name type="place" rend="right"><hi rend="italic">Washington D.C.</hi></name>.
+                    <date when="1872-06-17"><handShift rend="manuscript"/>June 17<hi rend="superscript">th</hi>, <hi rend="italic"><handShift rend="printed"/>187<handShift rend="manuscript"/>2</hi></date>
+                </dateline>
+                <salute>Walt Whitman, Esq.</salute>
+                <salute>Dear Sir: </salute>
+            </opener>
+
+            <p>I received your letter of the 11<hi rend="superscript">th</hi> <choice><abbr>inst.</abbr><expan>instant</expan></choice> to-day and take my translation up till the first quotation on page 180. I have been quite unwell for the last 3 or 4 days otherwise I should have finished the whole article. Hoping that it may be of use to you, and that you will remember that I have only been here in this country 7 years, and therefore will excuse the many mistakes I have made, I am, fin.,</p>
+
+            <closer>
+                <salute>Yours truly</salute>
+                <signed>Emil Arctander</signed>
+                <signed><choice><abbr>Act'g</abbr><expan>Acting</expan></choice> V. Consul for Denmark</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_ej.00795_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

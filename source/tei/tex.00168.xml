@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -44,14 +45,14 @@
                <author>Le Baron Russell</author>
                <title>Le Baron Russell to Walt Whitman, 6 October 1863</title>
                <date when="1863-10-04">October 6, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Russell, Le Baron">Le Baron Russell</persName>
+               <persName key="Russell, Le Baron" ref="tex.00168_n100">Le Baron Russell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -59,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-22">checked transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jc" when="2011-10-13">corrected idno</change>
@@ -69,26 +71,20 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="tex.00168.001.jpg" type="recto"/>
-         
             <opener>
                <dateline>
-                  <name type="place">Boston</name> 
+                  <name type="place">Boston,</name> 
                   <date when="1863-10-06">Oct 6th 1863.</date>
                </dateline>
                <salute>My dear sir,</salute>
             </opener>
-         <p>Having an opportunity to send by Miss Lowe the $20. From H. Lee, &amp; B. H Silsbee<ptr target="tex.00168_n2"/> of which I wrote you, I am very glad to take advantage of it&#8212;<ptr target="tex.00168_n100"/>
-         </p>
+         <p>Having an opportunity to send by Miss Lowe the $20. From H. Lee, &amp; B. H Silsbee<ptr target="tex.00168_n2"/> of which I wrote you, I am very glad to take advantage of it&#8212;     </p>
             <p>You will find the amt enclosed&#8212;Hoping that we may be able to send you more hereafter,</p>
             <closer>
                <salute>I am very truly yours</salute>
                <signed>L B Russell.</signed>
+               <salute>Walt Whitman Esq.</salute>
             </closer>
-         
-         <postscript>
-            <p>Walt Whitman Esq.</p>
-         </postscript>
       </body>
    </text>
 </TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00460">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">O. S. Baldwin to Walt Whitman, 10 January 1884</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>O. S. Baldwin</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00460</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>                
+                <bibl>
+                    <author>O. S. Baldwin</author>
+                    <title>O. S. Baldwin to Walt Whitman, 10 January 1884</title>
+                    <date cert="high" when="1884-01-10" xml:id="dat1">January 10, 1884</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>  
+                <person role="sender">
+                    <persName key="Baldwin, O. S." ref="n6014">O. S. Baldwin</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-07-26" who="#if">edited</change>
+            <change who="#nhg" when="2015-05-22">checked, corrected, annotated</change>
+            <change who="#ak" when="2015-03-30">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="yal.00042.002.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Northeast corner Broadway <lb/>and Canal Street. <lb/>New York.</name>
+                    <date when="1884-01-10"><handShift rend="manuscript"/>10 <choice><abbr>Jany.</abbr><expan>January</expan></choice> '84</date>
+                </dateline>
+                <salute>Dear Mr. Whitman:</salute>
+            </opener>
+            <p>
+                Your "joy" received. Quite unnecessary. You will find me on time. The article will appear in <choice><abbr>Feby.</abbr><expan>February</expan></choice> No: and that impression will not come out before 23d <choice><abbr>Jany.</abbr><expan>January</expan></choice>
+            </p>
+            <p> 
+                You may rely upon the<ptr target="yal.00460_n1"/>                
+                <pb xml:id="leaf001v" facs="yal.00042.001.jpg" type="verso"/>
+                <!-- Letter incomplete - Whitman wrote prose on this surface, unrelated to letter -->
+            </p>
+        </body>
+    </text>
+</TEI>

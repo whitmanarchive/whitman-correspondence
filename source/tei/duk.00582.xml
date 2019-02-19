@@ -9,7 +9,7 @@
                 <editor>Wesley Raabe</editor>
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
-                    <resp>Transcription and encoding</resp><persName xml:id="el">Elizabeth Lorang</persName>
+                    <resp>Transcription and encoding</resp><persName xml:id="el">Elizabeth Lorang</persName><persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="ct">Cathy Tisch</persName><persName xml:id="fw">Felicia Wetzig</persName><persName xml:id="wr">Wesley Raabe</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -60,7 +60,7 @@
             </handNotes> 
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -68,6 +68,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>    
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-09-17" who="#el">checked</change>
@@ -100,7 +101,7 @@
                 <salute>My dear <choice><orig>walter</orig><reg>Walter</reg></choice></salute>
             </opener>
             
-            <p>i<ptr target="duk.00425_n3"/> will only write a
+            <p>i will only write a
                 very few lines this time i <choice><orig>receeved</orig><reg>received</reg></choice> your
             letter to day <choice><orig>wensday</orig><reg>Wednesday</reg></choice>i<ptr target="duk.00582_n17"/> <choice><orig>withe</orig> <reg>with</reg></choice> the contents all
             safe and i have been down to the post

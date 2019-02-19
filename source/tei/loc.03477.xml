@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03477">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Handwritten copy of letter from James R. Osgood &#38; Company to Walt Whitman, 13 April
+                    1882</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James R. Osgood &#38; Company</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2013</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03477</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>James R. Osgood &#38; Company</author>
+                    <title>Handwritten copy of letter from James R. Osgood &#38; Company to Walt Whitman, 13 April
+                        1882</title>
+                    <date cert="high" when="1882-04-13" xml:id="dat1">April 13, 1882</date>
+                    <orgName xml:id="loc">Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="James R. Osgood &#38; Company">James R. Osgood &#38; Company</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#nhg" when="2018-05-10">added note to indicate that this letter is a handwritten copy of the original</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-04-24" who="#ss">annotations added</change>
+            <change when="2014-03-17" who="#nhg">checked, corrected</change>
+            <change when="2014-02-07" who="#ej">Checked and Corrected</change>
+            <change when="2014-02-05" who="#nnk">proofed</change>
+            <change when="2013-11-09" who="#ss">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <pb xml:id="leaf001r" facs="loc.03477.001_large.jpg" type="recto"/>
+                <note type="authorial" place="top">K./</note>
+                <note type="authorial" place="top">1</note>
+                <dateline>
+                    <date when="1882-04-10" rend="right">Apl. 13 1882.</date>
+                </dateline>
+                <salute>Walt Whitman Esq.</salute>
+                <salute>Dear Sir:<ptr target="hun.00047_n1"/></salute>
+            </opener>
+            <p>We have your letter of Apl. 12.<ptr target="loc.03477_n1"/> Up to the present time the royalty due to you on the
+                sales of the book amounts to &#36;405.50. In this we include 400 copies sent to England
+                which we assume to be sold, but the sale of which is uncertain</p>
+            <p>The plates have cost us about &#36;475. including the steel portrait and we have on hand about 225
+                copies of the book in sheets&#8212;none bound.</p>
+            <p>We are willing to turn over to you the plates the steel portrait, and the copies on hand in
+                sheets without charge, you giving us a receipt in full for the amount due you for
+                royalty.</p>
+            <p>It is perhaps not an important matter, but as your letter seems to imply that this
+                    possible change is
+                the result of a "settled decision" on our part, we <pb xml:id="leaf001v"
+                    facs="loc.03477.002_large.jpg" type="verso"/><pb xml:id="leaf002r"
+                    facs="loc.03477.003_large.jpg" type="recto"/>
+                <note type="authorial" place="top">K./</note>
+                <note type="authorial" place="top">2</note> feel it right to say that it is not we who
+                have fixed inflexible conditions under which this matter could be decided.</p>
+            <p>These conditions have been fixed by yourself and they appear to be such as to obviate
+                the possibility of compromise</p>
+            <closer>
+                <salute>Yours truly</salute>
+                <signed rend="right">James R. Osgood &#38; Co.</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.03477.004_large.jpg" type="verso"/>
+            <!--This segment does not appear to be part of the letter. (nhg)<pb xml:id="leaf003r" facs="loc.03477.005_large.jpg" type="recto"/>
+            <fw place="top" rend="left">L./</fw>
+            <add>
+                <ab>
+                     <date when="1882-05-03">May 3 '82</date>
+                </ab>
+                <ab>Nothing further has passed since&#8212;no bargain about the plates&#8212;I
+                    suppose Osgood has for a month <choice>
+                        <sic>stopt</sic>
+                        <corr>stopped</corr>
+                    </choice>
+                    <choice>
+                        <abbr>sell'g</abbr>
+                        <expan>selling</expan>
+                    </choice> L. of G.&#8212;&amp; has definitely given it up.&#8212;</ab>
+                <ab>&#8212;again <unclear reason="illegible" cert="low" resp="#nnk"><hi
+                            rend="underline">What</hi></unclear> District Attorney<lb/>see letter
+                        <date when="1882-03-01">March 1</date>.</ab>
+            </add>-->
+        </body>
+
+    </text>
+</TEI>

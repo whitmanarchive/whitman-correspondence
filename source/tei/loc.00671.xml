@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><!-- USE THE OBJECT ID FOR THE VALUE OF @xml:id IN THE FOLLOWING ELEMENT. FOR EXAMPLE:
+    xml:id="zzz.00001"
+--><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00671">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Hannah Whitman Heyde to Walt Whitman, 17 August [1873]</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Hannah Whitman Heyde</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="al">Ashley Lawson</persName>
+<persName xml:id="ej">Eder Jaramillo</persName>
+<persName xml:id="js">John Schwaninger</persName>
+<persName xml:id="cb">Caterina Bernardini</persName>
+    <persName xml:id="nhg">Nicole Gray</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>loc.00671</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
+        reserved. Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc><bibl>
+    <author>Hannah Whitman Heyde</author>
+    <title>Hannah Whitman Heyde to Walt Whitman, 17 August [1873]</title>
+ <date cert="medium" when="1873-08-17" xml:id="dat1">August 17, 1873</date>
+    <idno type="callno">MSS18630 Box 194</idno>
+                <orgName xml:id="loc">Hannah Louisa Whitman Heyde Papers, 1853&#8211;1892, Library of Congress, Washington, D.C.</orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<person role="sender">
+    <persName key="Heyde, Hannah Whitman" ref="n0285">Hannah Whitman Heyde</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-05-04">added correspondent ref</change>
+            <change who="#nhg" when="2015-04-07">corrected orgName</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-11-14" who="#cb">proofed</change> 
+            <change when="2012-03-23" who="#js">proofed</change> 
+          <change when="2012-03-15" who="#ej">Checked and Corrected</change>  
+          <change when="2012-01-09" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+
+            <pb xml:id="leaf001r" facs="loc.00671.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1873-08-17">Sunday Afternoon Aug 17</date>
+                </dateline>
+                <salute>Dearest Brother,</salute>
+            </opener>
+            
+           <!-- Should we transcribe the note in red ink? (WW's hand?) or the seal? -->
+
+            <p>I am so much afraid you have been worried about me</p>
+            <p>I hope not&#8212;for I care as much about your health as my own</p>
+            <p>Your letter did me good. dear Brother you are so kind to speak of coming to see me. I am down stairs, am feeling much better, more so than at any time I have had such good care. Charlie has been so kind. dear dear <choice><sic>brothe</sic><corr>brother</corr></choice> thanks for all your letters take good care of yourself 
+            
+            <pb xml:id="leaf001v" facs="loc.00671.002.jpg" type="verso"/>
+            
+            that will do me more good than you think</p>
+            <p>I am sorry about your lameness. I think about you always.</p>
+            <p>I shall get well as ever I think in time. <unclear reason="illegible" cert="low" resp="#al">HWH is Eoloy</unclear> <!-- How is Eddy resp="#cb" --></p>
+           
+<closer>
+    <salute>I send ever &amp; ever <hi rend="underline">so much</hi> love to you my dear brother and to all</salute>
+                <signed>Han</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05021">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">A.B. Drake to Walt Whitman, 9 January 1885</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05021</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>A.B. Drake</author>
+                    <title>A.B. Drake to Walt Whitman, 9 January 1885</title>
+                    <date cert="high" when="1885-01-09" xml:id="dat1">January 9, 1885</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.07889"/>
+                    <relatedItem type="document" target="wwa.00187"/>
+                    <note type="project" target="#rel01">This letter from A.B. Drake is crossed out, and on the back of
+                        each surface Whitman wrote a list of names.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Drake, A.B." ref="n5000">A.B. Drake</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-07-07" who="#nhg">adjusted relatedItem encoding</change>
+            <change when="2016-05-25" who="#if">edited</change>
+            <change when="2016-04-02" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_es.00022.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">South Boston</name>
+                    <date when="1885-01-09">Jan 9 - 85</date>
+                </dateline>
+                <salute>My Dear friend,</salute>
+            </opener>
+            <p>I hope you will pardon me for not acknowledging the books sooner, I did not write for
+                reasons I will not stop to <choice><orig>inumerate</orig><reg>enumerate</reg></choice> here.</p>
+            <p>They came safely, and in good condition, and I am happy in the possession of them.
+                You sent me more than I expected. I thank you for that, also for the picture.</p>
+            <p>Christmas brought me a new photograph album, and I dedicated it with this you sent
+                me.</p>
+            <p>"If you come to Boston," Does this imply a doubt? So it seems to me.
+            Come if you can. Come when you can. I suppose Boston in winter<pb xml:id="leaf001v"
+                    facs="loc_es.00021.jpg" type="verso"/><pb xml:id="leaf002r"
+                    facs="loc_es.00020.jpg" type="recto"/> has fewer attractions than some other
+                Cities, but from Spring to Autumn, I know her temples for miles around, are as varied, and beautiful, as
+                the grand old architect could make them.</p>
+            <p>Of course "Jack Frost" holds the key to many of these now. Still there's always
+                something everywhere to make this old world a beatitude.</p>
+            <p>No doubt your friend has returned to Cambridge, tho' I have not seen her; I shall
+                    try to do so
+                sometime soon.</p>
+            <p>I am glad you are in good spirits, and fair health. I wish your powers of locomotion
+            was as good. For such let us pray.</p>
+            <closer>
+                <salute>Your friend very truly,</salute>
+                <signed>A.B. Drake.</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc_es.00019.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
 
@@ -41,24 +42,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">56-57</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 29 June 1862</title>
                <date when="1862-06-29">June 29, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-24">style sheet proofreading</change>
@@ -85,7 +74,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00321.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Camp Potter  Newbern N.C.<lb/>
@@ -95,15 +84,15 @@ corrections</change>
                <salute>Dear Mother</salute>
             </opener>
             <p>You see by this that we are still here at Newbern, but I think by the appearance of things, that we will leave here in the course of a few days.</p>
-            <p>We have orders to be ready to start at short notice, but there is no deffinite time for us to leave mentioned in the orders, which looks to me as though it was intended for us to wait until the ball is fairly opened at Richmond, and then I think we will make a rush on Goldsborough or Kingston<ptr target="duk.00321_n1"/> or some of the rest of the interior towns in this State. We know nothing certain however of our destination but wherever we go the Rebels had beter Skedaddle for the Burnside Expedition does not stop for trifles. I received your letter dated June 14th  also one from Walt dated June 10th and expected to get one by the mail which arived here yesterday but nary a letter was there for me. I got several papers houever.</p>
-            <p>Mother I wrote to you a few days ago about Han's comeing home,  I hope you received the letter and have writen to her. You ask me to write if Capt Savage is here,  you dont say what Regt he belongs to,  there is no such man in this Regt, (or is he in the Naval Service[?]) and I have never heard of him about here.</p>
+         <p>We have orders to be ready to start at short notice, but there is no <choice><sic>deffinite</sic><corr>definite</corr></choice> time for us to leave mentioned in the orders, which looks to me as though it was intended for us to wait until the ball is fairly opened at Richmond, and then I think we will make a rush on Goldsborough or Kingston<ptr target="duk.00321_n1"/> or some of the rest of the interior towns in this State. We know nothing certain however of our destination but wherever we go the Rebels had <choice><sic>beter</sic><corr>better</corr></choice> Skedaddle for the Burnside Expedition does not stop for trifles. I received your letter dated June 14th  also one from Walt dated June 10th and expected to get one by <pb xml:id="leaf001v" facs="duk.00321.002_large.jpg" type="verso"/>the mail which arived here yesterday but nary a letter was there for me. I got several papers <choice><sic>houever</sic><corr>however</corr></choice>.</p>
+         <p>Mother I wrote to you a few days ago about Han's <choice><sic>comeing</sic><corr>coming</corr></choice> home,  I hope you received the letter and have <choice><sic>writen</sic><corr>written</corr></choice> to her. You ask me to write if Capt Savage is here,  you <choice><sic>dont</sic><corr>don't</corr></choice> say what <choice><abbr>Regt</abbr><corr>Regiment</corr></choice> he belongs to,  there is no such man in this <choice><abbr>Regt</abbr><corr>Regiment</corr></choice>, (or is he in the Naval Service) and I have never heard of him about here.</p>
             <p>Mother I wish we could be paid before we leave here as it is so handy to send money from this place  there will be two months pay due me, day after tomorrow and I intend to send home 125 dollars or more, so you must not let Money maters trouble you at all.</p>
-            <p>Has Andrew writen to you since he went Sogering.<ptr target="duk.00321_n2"/> Poor Bunkum  I wonder how he is getting along,  what Co is he in  I wish he would write to me.</p>
+         <p>Has Andrew <choice><sic>writen</sic><corr>written</corr></choice> to you since he went <choice><sic>Sogering</sic><corr>Soldiering</corr></choice>.<ptr target="duk.00321_n2"/> Poor Bunkum  I wonder how he is getting <pb xml:id="leaf002r" facs="duk.00321.003_large.jpg" type="recto"/>along,  what Co is he in  I wish he would write to me.</p>
             <p>Well Mother it is now after 11 Oclock at night and I begin to feel sleepy so I will stop writing and go to sleep. So good night Mother. Give my love to all, and write soon.</p>
             <closer rend="right">
                <signed>G. W. Whitman</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="duk.00321.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

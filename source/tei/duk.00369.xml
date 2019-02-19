@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -44,31 +45,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">135-136</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Reuben Farwell</author>
                <title>Reuben Farwell to Walt Whitman, 5 May 1864</title>
                <date when="1864-05-05">May 5, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Farwell, Ruben">Ruben Farwell</persName>
+               <persName key="Farwell, Ruben" ref="duk.00369_n100">Ruben Farwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -76,6 +64,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -89,19 +78,19 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00369.001_large.jpg" type="recto"/>
             <opener> 
                <dateline rend="right">
 </dateline>
                <salute>Dear Uncle</salute>
             </opener>
-         <p>I<ptr target="duk.00369_n100"/> have nothing of much consequence to write you this morning. A fine day this is likely to be although I am on guard. Yesterday I was over to the City &amp; saw the Boys in Ward. A. . I also went to your residence but found you absent  I enquired where you had gone &amp; when you would be at home  I could get no information on that subject, therefore I returned to the Hospital then to this Camp.</p>
+         <p>I have nothing of much consequence to write you this morning. A fine day this is likely to be although I am on guard. Yesterday I was over to the City &amp; saw the Boys in Ward. A. . I also went to your residence but found you absent  I enquired where you had gone &amp; when you <pb xml:id="leaf001v" facs="duk.00369.002_large.jpg" type="verso"/>would be at home  I could get no information on that subject, therefore I returned to the Hospital then to this Camp.</p>
             <p>I was disappointed in not seeing you  I came over on that Errand. But alas I came back without seeing you.</p>
             <p>Perhaps I will see you before I am sent a way to the front if possible</p>
-            <p>Orders are very strict in this camp also through out the defences of Washington that is one reason why I had rather be sent to the Regiment I would not stay around this City the rest of my time in service for a considerable a mount of Pork &amp; Soft Bread</p>
+         <p>Orders are very strict in this camp also through out the defences of Washington that is one reason why I had rather be <pb xml:id="leaf002r" facs="duk.00369.003_large.jpg" type="recto"/>sent to the Regiment I would not stay around this City the rest of my time in service for a considerable a mount of Pork &amp; Soft Bread</p>
             <p>Walt yours I received after I returned from the City to the Camp. It came all right side up</p>
-            <p>I was very glad to have you write &amp; I will scribble this as an answer at your request that you may know I received your kind &amp; welcome letter. My best wishes are with you for indeed I have found a Friend at last to the poor Soldier</p>
-            <p>I will close this by hopeing to hear from you again</p>
+         <p>I was very glad to have you write &amp; I will scribble this as an answer at your request that you may know I received your kind &amp; welcome letter. My best wishes are with you for indeed I have <pb xml:id="leaf002v" facs="duk.00369.004_large.jpg" type="verso"/>found a Friend at last to the poor Soldier</p>
+            <p>I will close this by <choice><sic>hopeing</sic><corr>hoping</corr></choice> to hear from you again</p>
             <closer rend="right">
                <salute>Ever Your Friend</salute>
             </closer>

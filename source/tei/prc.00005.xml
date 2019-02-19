@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ao">Alyssa Olson</persName>
@@ -55,11 +56,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Burroughs, John">John Burroughs</persName>
+               <persName key="Burroughs, John" ref="n0129">John Burroughs</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-05-12">added correspondent ref, corrected orgName</change>
          <change when="2015-01-16" who="#nhg">corrected image name</change>
          <change when="2014-11-07" who="#nhg">added images, updated transcription to match images</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
@@ -78,7 +80,7 @@
                   <name type="place">New York</name>
                   <date when="1866-09-10">Sept. 10, 1866.</date>
                </dateline>
-               <salute>My dear friend,<ptr target="prc.00005_n1"/>
+               <salute>My dear friend,
                </salute>
             </opener>
             <p>My book has been delayed among the printers,&#8212;but I shall stay till it is all printed&#8212;it is a little over half done, &amp; they promise that it shall be done, or mainly so, this week. If convenient, send me a draft for the $100. If practicable send a draft payable to me, at Atlantic National 

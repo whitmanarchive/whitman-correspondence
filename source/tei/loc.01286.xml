@@ -46,7 +46,9 @@
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
                     changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
+<persName xml:id="kmp">Kenneth M. Price</persName> 
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth
                         Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
@@ -74,7 +76,7 @@
                     <date cert="high" when="1868-04-30" xml:id="dat1">April 30, 1868</date>
                     <idno type="callno">Box 8, Reel 5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,7 +86,7 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Church, Francis P.">Francis P. Church</persName>                    
+                    <persName key="Church, Francis P." ref="n6001">Francis P. Church</persName>                    
                 </person>
                 <person role="recipient">
                     <persName key="Church, William C.">William C. Church</persName>
@@ -92,6 +94,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-20">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-07-13" who="#zk">changed xml:id no. from prc.00022 to match images in the database</change>

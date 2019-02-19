@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01925">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Abraham Simpson to Walt Whitman, 4 May
+    1867</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Abraham Simpson</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="kk">Kathryn Kruger</persName>
+<persName xml:id="al">Ashley Lawson</persName>
+<persName xml:id="nnk">Nima Najafi Kianfar</persName>
+<persName xml:id="js">John Schwaninger</persName>
+<persName xml:id="cb">Caterina Bernardini</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>loc.01925</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+        Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+<bibl>
+    <author>Abraham Simpson</author>
+    <title>Abraham Simpson to Walt Whitman, 4 May 1867</title>
+    <date cert="high" when="1867-05-31" xml:id="dat1">May 31, 1867</date>
+    <idno type="callno">MSS18630, Box 16</idno>
+    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<person role="sender">
+    <persName key="Simpson, Abraham" ref="n0565">Abraham Simpson</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-04-30">added correspondent ref</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-07" who="#cb">proofed</change>
+            <change when="2012-04-06" who="#js">proofed</change>
+            <change when="2012-04-03" who="#nnk">Proofed</change>
+            <change when="2011-05-13" who="#al">Checked.</change>
+            <change when="2011-04-12" who="#kk">Transcribed, encoded.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+
+
+            <pb xml:id="leaf001r" facs="loc.01925.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">New York</name>
+                    <date when="1867-05-31">May 4<hi rend="superscript">th</hi></date><!-- Previously transcribed as "May 31," but that is simply the date Whitman wrote on the envelope. Perhaps the sender wrote the wrong date, or started the letter on the fourth & didn't finish until the thirty-first of that month? -JS -->
+                </dateline>
+                <salute>Walt Whitman Esq</salute>
+                <salute>Dear Sir:</salute>
+            </opener>
+
+            <p>You will <unclear reason="illegible" cert="low" resp="#js">perceive</unclear> that
+                    <unclear reason="illegible" cert="low" resp="#kk">now I have</unclear>
+                established a <unclear reason="illegible" cert="medium" resp="#kk">Ptg and
+                    p</unclear>ublishing house<unclear reason="illegible" cert="medium" resp="#kk">.</unclear> I should like <unclear reason="illegible" cert="medium" resp="#kk">to correspond</unclear> with you <gap reason="illegible" extent="2" unit="words"/> printing &amp; publish<unclear reason="illegible" cert="medium" resp="#kk">ing of your works.</unclear>
+            </p>
+
+            <closer>
+                <salute><gap reason="illegible" extent="2" unit="words"/></salute>
+                <signed>A Simpson Co<!-- <ptr target="n0565"/> --></signed>
+                <address><addrLine>60 Duane St<!--Whitman's marginalia on the envelope for this letter confirms this transcription; http://whitmanarchive.org/private/warehouse/LC//loc.01925.003_large.jpg--></addrLine></address>
+            </closer>
+            <!--   <pb xml:id="leaf001v" facs="loc.01925.002.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.01925.003.jpg" type="recto"/>
+            <address><addrLine>Walt Whitman Esq</addrLine><addrLine>Washington D.C.</addrLine></address>
+            Notes in Whitman's hand.
+            <note type="editorial" place="marginleft">A. Simpson &amp; Co.</note>
+            <note type="editorial" place="marginleft">60 Duane st. on Eleven</note>
+            <note type="editorial" place="marginleft">May 31, '67</note>
+            <note type="editorial" place="marginleft"><choice><abbr>ans</abbr><expan>answered</expan></choice> June 17 '67</note>
+            <pb xml:id="leaf002v" facs="loc.01925.004.jpg" type="verso"/> -->
+        </body>
+    </text>
+</TEI>

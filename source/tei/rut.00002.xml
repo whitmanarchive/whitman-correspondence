@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -58,7 +59,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Peter Eckler, 2 May 1865</title>
                <date when="1865-05-02">May 2, 1865</date>
-               <orgName xml:id="rut">Rutgers University</orgName>
+               <orgName xml:id="rut">Special Collections and University Archives, Rutgers University Libraries, Rutgers, The State University of New Jersey</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +69,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Eckler, Peter">Peter Eckler</persName>
+               <persName key="Eckler, Peter" ref="n5000">Peter Eckler</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-06">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="20010-04-06">proofread and edited</change>

@@ -10,6 +10,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
             </respStmt>
@@ -53,14 +54,14 @@
                <author>Jesse Mullery</author>
                <title>Jesse Mullery to Walt Whitman, 21 December 1864</title>
                <date when="1864-12-21">December 21, 1864</date>
-               <orgName xml:id="nyp">Berg Collection at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library </orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Mullery, Jesse">Jesse Mullery</persName>
+               <persName key="Mullery, Jesse" ref="nyp.00218_n100">Jesse Mullery</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -68,6 +69,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-08-31">proofread and edited annotations</change>
@@ -77,8 +79,8 @@
    <text type="letter">
       <body>
          
-            <salute>Mr. Whitman, Dear Friend</salute> 
-         <p>I<ptr target="nyp.00218_n100"/> write these few lines to you in order that you may know where I am and also that I am in the enjoyment of middling good health I heard from you through my Father some time ago and I have wanted to visit you but I am sorry to say my health will not admit of my being out much this cold weather. If you remember I was wounded through my lung and the ball is now near my right kidney and I am not as healthy as I use to be before I was wounded.</p>  
+            <opener><salute>Mr. Whitman, Dear Friend</salute></opener> 
+         <p>I write these few lines to you in order that you may know where I am and also that I am in the enjoyment of middling good health I heard from you through my Father some time ago and I have wanted to visit you but I am sorry to say my health will not admit of my being out much this cold weather. If you remember I was wounded through my lung and the ball is now near my right kidney and I am not as healthy as I use to be before I was wounded.</p>  
             <p>I feel quite well to day I have just received a letter from my Brother in my Regt (15th nj) he spoke of you. I wrote him concerning you and he says he would like to see you. I think I owe you a thousand thanks for your kindness to me while in Hospt at Washington. I have often thought of you and wished I could hear from you. I would like to hear from that Lady who did so much for me. I think it was Miss Howard. I think I will be well enough to come and see you in a week or two&#8212;and then we will talk over all the incidents of our short acquaintance in Washington. If you will answer this and set the day I will come and see you. I am a little deaf now from the earache but I hope we will get along with that. Hoping to hear from you soon I subscribe myself yours faithfully</p>
          
       </body>

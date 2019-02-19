@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="gp">Gillian Price</persName>
@@ -39,25 +40,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">130-131</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 30 August 1864</title>
                <date when="1864-08-30">August 30, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -72,6 +59,7 @@ Manuscript, and Special Collections Library</orgName>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-12">proofreading changes</change>
@@ -84,7 +72,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00361.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">About 5 miles from <lb/>Petersburg Va near Weldon Rail <lb/>Road</name>
@@ -94,15 +82,15 @@ corrections</change>
                <salute>Dear Mother.</salute>
             </opener>
             <p>Your letter and Walts containing the pictures came all right, and yesterday I received another from Walt, saying that you had received the money.</p>
-            <p>We have moved 4 or 5 miles since I wrote you last. We came here on the 19th and expected to have a right smart fight, but so far, we have been very agreeably disapointed, as our Division has not been engaged to any extent. The first night we came here I was ordered (as I was in command of the Regt) to deploy the Regt. as skirmishers and advance through a peice of woods where the enemy had been in considerable force a few hours previous,  I thought we were in for a fight sure, but upon advancing and taking the position, as ordered, we found the enemy had fell back, and next morning we advanced ½ a mile further, to this place and here we have remained since.</p>
+         <p>We have moved 4 or 5 miles since I wrote you last. We came here on the 19th and expected to have a right smart fight, but so far, we have been very agreeably <choice><sic>disapointed</sic><corr>disappointed</corr></choice>, as our Division has not been engaged to any extent. The first night we came here I was ordered (as I was in command of the Regt) to deploy the Regt. as skirmishers and advance through a <choice><sic>peice</sic><corr>piece</corr></choice> of woods where <pb xml:id="leaf001v" facs="duk.00361.002_large.jpg" type="verso"/>the enemy had been in considerable force a few hours previous,  I thought we were in for a fight sure, but upon advancing and taking the position, as ordered, we found the enemy had fell back, and next morning we advanced ½ a mile further, to this place and here we have remained since.</p>
             <p>We have a splendid position here, and are very strongly entrenched, have plenty of shade, plenty to eat, plenty of good water, and are very comfortable.</p>
-            <p>I think we have got this Rail Road all right although the enemy may make another effort to drive us away, but I dont believe they will meet with any better success than they have in the three attempts they have made already, they have been pretty severely punished each time and may not think it worth while to try it again but if they are not satisfied let them keep on trying,  we are prepared for them.</p>
+         <p>I think we have got this Rail Road all right although the enemy may make another effort to drive us away, but I <choice><sic>dont</sic><corr>don't</corr></choice> believe they will meet with any better success than they have in the three attempts they have made already, they have been <pb xml:id="leaf002r" facs="duk.00361.003_large.jpg" type="recto"/>pretty severely punished each time and may not think it worth while to try it again but if they are not satisfied let them keep on trying,  we are prepared for them.</p>
             <p>I am in command of the Regt. as Major Wright is away somewhere sick. I send you Maj. Wrights Official report. of the fight on the 30th of July,<ptr target="duk.00361_n2"/>
             </p>
             <p>I am very glad to hear that Jeff is clear of the draft on the 5th of next month, although $400 seems like a pretty large sum to pay for a substitute.</p>
-            <p>Walt says he is getting all right again,<ptr target="duk.00361_n3"/>&#8212;when his book<ptr target="duk.00361_n4"/> is published I would him, to send me a coppy. Mattie and the children I hear are well as usual.</p>
-            <p>Mother I hope you take things easy and dont worry and keep a bright look out for that little place in the country,  When I get the New York papers I almost always look over the Farms for sale to see if there is anything offered that will suit us.</p>
-            <p>Walt has asked several times if Williams<ptr target="duk.00361_n5"/> (who was with Fred McCready<ptr target="duk.00361_n6"/>) was captured when the ambulance train was attacted,  Williams is here with his Company,  he says when the guerillas ordered the train to halt, he jumped over the fence and escaped.</p>
+            <p>Walt says he is getting all right again,<ptr target="duk.00361_n3"/>&#8212;when his book<ptr target="duk.00361_n4"/> is published I would him, to send me a <choice><sic>coppy</sic><corr>copy</corr></choice>. Mattie and the children I hear are well as usual.</p>
+         <p>Mother I hope you take things <pb xml:id="leaf002v" facs="duk.00361.004_large.jpg" type="verso"/>easy and <choice><sic>dont</sic><corr>don't</corr></choice> worry and keep a bright look out for that little place in the country,  When I get the New York papers I almost always look over the Farms for sale to see if there is anything offered that will suit us.</p>
+            <p>Walt has asked several times if Williams<ptr target="duk.00361_n5"/> (who was with Fred McCready<ptr target="duk.00361_n6"/>) was captured when the ambulance train was <choice><sic>attacted</sic><corr>attacked</corr></choice>,  Williams is here with his Company,  he says when the guerillas ordered the train to halt, he jumped over the fence and escaped.</p>
             <closer rend="right">
                <salute>Kind regards to all</salute>
                <signed>George W. Whitman</signed>

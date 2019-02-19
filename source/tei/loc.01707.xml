@@ -10,6 +10,7 @@
         <editor>Ed Folsom</editor>
         <respStmt>
           <resp>Transcription and encoding</resp>
+          <persName xml:id="ak">Alex Kinnaman</persName>
           <persName xml:id="kmp">Kenneth M. Price</persName>
           <persName xml:id="el">Elizabeth Lorang</persName>
           <persName xml:id="kk">Kathryn Kruger</persName>
@@ -67,11 +68,12 @@
           <persName key="Church, William C.">William C. Church</persName>
         </person>
         <person role="recipient">
-          <persName key="Church, Francis P.">Francis P. Church</persName>
+          <persName key="Church, Francis P." ref="n6001">Francis P. Church</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change who="#ak" when="2015-05-05">added correspondent ref</change>
       <change who="#nhg" when="2014-12-17">added images, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-05-18" who="#kmp">blessed</change><change when="2011-01-24" who="#kk">checked</change>

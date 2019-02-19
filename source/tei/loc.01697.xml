@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01697">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01697">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Anne Gilchrist to Walt Whitman, 3&#8211;6
-                    September [1871]</title>
+                <title level="m" type="main">Anne Gilchrist to Walt Whitman, 3&#8211;6 September
+                    [1871]</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Anne Gilchrist</author>
                 <editor>Kenneth M. Price</editor>
@@ -44,24 +45,27 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="project" anchored="true">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
-                        Lorang</persName>
+                <note type="project" anchored="true">The following are responsible for particular
+                    readings or for changes to this file, as noted: <persName xml:id="kmp">Kenneth
+                        M. Price</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
 
                 <biblStruct>
                     <monogr>
-                        <author>Walt Whitman</author><editor>Edwin Haviland Miller</editor>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
                         <title xml:id="ehm">The Correspondence</title>
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date><biblScope type="volume">2</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">2</biblScope>
                             <biblScope type="page">134&#8211;138</biblScope>
                         </imprint>
                     </monogr>
@@ -70,16 +74,16 @@
                 <bibl>
                     <author>Anne Gilchrist</author>
                     <title>Anne Gilchrist to Walt Whitman, 3&#8211;6 September [1871]</title>
-                    <date cert="medium" notBefore="1871-09-03" notAfter="1871-09-06" xml:id="dat1">September 3&#8211;6, 1871</date>
-                    <orgName xml:id="loc">The Library of Congress</orgName>
-                    
+                    <date cert="medium" notBefore="1871-09-03" notAfter="1871-09-06" xml:id="dat1"
+                        >September 3&#8211;6, 1871</date>
+                    <orgName xml:id="loc">Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Gilchrist, Anne">Anne Gilchrist</persName>
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -87,8 +91,9 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+            <change when="2015-06-14" who="#ss">added more annotations</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-03-29" who="#el">checked</change>
             <change when="2010-11-15" who="#zk">encoded</change>
             <change when="2010-08-20" who="#ec">extracted transcription from Major Authors
@@ -106,37 +111,37 @@
                 <salute>Dear Friend</salute><ptr target="loc.01697_n1"/>
             </opener>
 
-            <p>At last the beloved books have reached my hand<ptr target="loc.01697_n2"/>&#8212;yet now I have them, my heart is so rent with anguish, my eyes
-                so blinded, I cannot read in them. I try again and again but too great waves come
-                swaying up &amp; suffocate me. I will struggle to tell you my story. It seems to me
-                a death struggle. When I was eighteen I met a lad of nineteen<ptr target="loc.01697_n3"/> who
-                loved me then, and always for the remainder of his life. After we had known each
-                other about a year he asked me to be his wife. But I said that I liked him well as
-                my friend but could not love him as a wife should love &amp; felt deeply convinced I
-                never should. He was not turned aside, but went on just the same as if that
-                conversation had never passed. After a year he asked me again, and I, deeply moved
-                by &amp; grateful for his true steady love, and so sorry for him, said yes. But next
-                day, terrified at what I had done &amp; painfully conscious of the dreary absence
-                from my heart of any faintest gleam of true tender wifely love, said no
-                again.
-                This too he bore without desisting &amp; at the end of some months once more asked
-                me with passionate entreaties. Then, dear friend, I prayed very earnestly, and it
-                seemed to me that I should continue to mar &amp; thwart his life, so was not right
-                if he was content to accept what I could give. I knew I could lead a good and
-                wholesome life beside him. His aims were noble, his heart a deep beautiful true
-                Poet's heart, but he had not the Poet's great brain. His path was a very arduous one
-                and I knew I could smooth it for him&#8212;cheer him along it. It seemed to me God's
-                will that I should marry him. So I told him the whole truth and he said he would
-                rather have me on those terms than not have me at all. He said to me many times, Ah,
-                Annie, it is not you who are so loved that is rich, it is I who so love. And I knew
-                this was true, felt as if my nature were poor &amp; barren beside his. But it was
-                not so, it was only slumbering&#8212;undeveloped. For, dear friend, my Soul was so
-                passionately aspiring&#8212;it so thirsted &amp; pined for light it had not power to
-                reach alone &amp; he could not help me on my way. And a woman is so made that she
-                cannot give the tender passionate devotion of her whole nature save to the greater
-                conquering soul stronger in its powers though not in its aspirations than her own,
-                that can lead her forever &amp; forever up and on. It is for her soul exactly as it
-                is for her body. The strong divine soul of the man embracing hers with passionate
+            <p>At last the beloved books have reached my hand<ptr target="loc.01697_n2"/>&#8212;yet
+                now I have them, my heart is so rent with anguish, my eyes so blinded, I cannot read
+                in them. I try again and again but too great waves come swaying up &amp; suffocate
+                me. I will struggle to tell you my story. It seems to me a death struggle. When I
+                was eighteen I met a lad of nineteen<ptr target="loc.01697_n3"/> who loved me then,
+                and always for the remainder of his life. After we had known each other about a year
+                he asked me to be his wife. But I said that I liked him well as my friend but could
+                not love him as a wife should love &amp; felt deeply convinced I never should. He
+                was not turned aside, but went on just the same as if that conversation had never
+                passed. After a year he asked me again, and I, deeply moved by &amp; grateful for
+                his true steady love, and so sorry for him, said yes. But next day, terrified at
+                what I had done &amp; painfully conscious of the dreary absence from my heart of any
+                faintest gleam of true tender wifely love, said no again. This too he bore without
+                desisting &amp; at the end of some months once more asked me with passionate
+                entreaties. Then, dear friend, I prayed very earnestly, and it seemed to me that I
+                should continue to mar &amp; thwart his life, so was not right if he was content to
+                accept what I could give. I knew I could lead a good and wholesome life beside him.
+                His aims were noble, his heart a deep beautiful true Poet's heart, but he had not
+                the Poet's great brain. His path was a very arduous one and I knew I could smooth it
+                for him&#8212;cheer him along it. It seemed to me God's will that I should marry
+                him. So I told him the whole truth and he said he would rather have me on those
+                terms than not have me at all. He said to me many times, Ah, Annie, it is not you
+                who are so loved that is rich, it is I who so love. And I knew this was true, felt
+                as if my nature were poor &amp; barren beside his. But it was not so, it was only
+                slumbering&#8212;undeveloped. For, dear friend, my Soul was so passionately
+                aspiring&#8212;it so thirsted &amp; pined for light it had not power to reach alone
+                &amp; he could not help me on my way. And a woman is so made that she cannot give
+                the tender passionate devotion of her whole nature save to the greater conquering
+                soul stronger in its powers though not in its aspirations than her own, that can
+                lead her forever &amp; forever up and on. It is for her soul exactly as it is for
+                her body. The strong divine soul of the man embracing hers with passionate
                 love&#8212;so alone the precious germs within her soul can be quickened into life.
                 And the time will come when men will understand that a woman's soul is as dear and
                 needful to his &amp; as different from his as her body to his body. This was what
@@ -167,16 +172,15 @@
                 loving tender wife. As I stood by him in the coffin I felt such remorse I had not,
                 could not be more tender to him&#8212;such a conviction that if I had loved him as
                 he deserved to be loved he would not have been taken from us. To the last my soul
-                dwelt apart &amp; unmated &amp; his soul dwelt apart
-                unmated.
-                I do not fear the look of his dear silent eyes. I do not think he would even be
-                grieved with me now. My youngest was then a baby. I have had much sweet tranquil
-                happiness, much strenuous work &amp; endeavour raising my darlings.</p>
+                dwelt apart &amp; unmated &amp; his soul dwelt apart unmated. I do not fear the look
+                of his dear silent eyes. I do not think he would even be grieved with me now. My
+                youngest was then a baby. I have had much sweet tranquil happiness, much strenuous
+                work &amp; endeavour raising my darlings.</p>
 
             <p>In May 1869 came the voice over the Atlantic to me. O the voice of my Mate: it must
                 be so&#8212;my love rises up out of the very depths of the grief &amp; tramples upon
-                despair. I can wait&#8212;any time, a lifetime, many lifetimes&#8212;I can suffer,
-                I can dare, I can learn, grow, toil, but nothing in life or death can tear out of my
+                despair. I can wait&#8212;any time, a lifetime, many lifetimes&#8212;I can suffer, I
+                can dare, I can learn, grow, toil, but nothing in life or death can tear out of my
                 heart the passionate belief that one day I shall hear that voice say to me "My Mate.
                 The one I so much want. Bride, Wife, indissoluble eternal!" It is not happiness I
                 plead with God for&#8212;it is the very life of my Soul, my love is its life. Dear
@@ -193,28 +197,30 @@
                 conscience. I thought I was to wait. For it is the instinct of a womans nature to
                 wait to be sought&#8212;not to seek. And when that May &amp; June I was longing so
                 inexpressibly to write I resolutely restrained myself, believing if I were only
-                patient the right opening would occur. And so it did through Rossetti. And when he,
-                liking what I said, suggested my printing something, it met and enabled me to carry
-                into execution what I was brooding over. For I had and still have a strong
-                conviction that it was necessary for a woman to speak&#8212;that finally and
-                decisively only a woman can judge a man, only a man a woman, on the subject of their
-                relations. What is blameless, what is good in its effect on her, <hi rend="italic">is</hi> good&#8212;however it may have seemed to men. She is the test. And I
-                never for a moment feared any hard words against myself because I know these things
-                are not judged by the intellect but by the unerring instincts of the soul. I knew
-                any man could not but feel that it would be a happy and ennobling thing for him that
-                his wife should think &amp; feel as I do on that subject&#8212;knew that what had
-                filled me with such great &amp; beautiful thoughts towards men in that writing could
-                not fail to give them good &amp; happy thoughts towards women in the reading. The
-                cause of my consenting to Rossetti's urgent wish that I should not put my name (he
-                so kindly solicitous yet not altogether understanding me &amp; it aright) was that I
-                did not rightly understand how it might be with my dear Boy if it came before
-                    him.<ptr target="loc.01697_n6"/> I thought perhaps he was not old enough to judge
-                and understand me aright: nor young enough to let it altogether alone. But it has
-                been very bitter &amp; hateful to me this not standing to what I have said as it
-                were, with my own personality, better because of my utter love and faithfulness to
-                the cause &amp; longing to stand openly &amp; proudly in the ranks of its friends;
-                &amp; for the lower reason that my nature is proud &amp; as defiant as thine own and
-                immeasurably disdains any faintest appearance of being afraid of what I had done.</p>
+                patient the right opening would occur. And so it did through Rossetti.<ptr
+                    target="n0522"/> And when he, liking what I said, suggested my printing
+                something, it met and enabled me to carry into execution what I was brooding over.
+                For I had and still have a strong conviction that it was necessary for a woman to
+                speak&#8212;that finally and decisively only a woman can judge a man, only a man a
+                woman, on the subject of their relations. What is blameless, what is good in its
+                effect on her, <hi rend="italic">is</hi> good&#8212;however it may have seemed to
+                men. She is the test. And I never for a moment feared any hard words against myself
+                because I know these things are not judged by the intellect but by the unerring
+                instincts of the soul. I knew any man could not but feel that it would be a happy
+                and ennobling thing for him that his wife should think &amp; feel as I do on that
+                subject&#8212;knew that what had filled me with such great &amp; beautiful thoughts
+                towards men in that writing could not fail to give them good &amp; happy thoughts
+                towards women in the reading. The cause of my consenting to Rossetti's urgent wish
+                that I should not put my name (he so kindly solicitous yet not altogether
+                understanding me &amp; it aright) was that I did not rightly understand how it might
+                be with my dear Boy if it came before him.<ptr target="loc.01697_n6"/> I thought
+                perhaps he was not old enough to judge and understand me aright: nor young enough to
+                let it altogether alone. But it has been very bitter &amp; hateful to me this not
+                standing to what I have said as it were, with my own personality, better because of
+                my utter love and faithfulness to the cause &amp; longing to stand openly &amp;
+                proudly in the ranks of its friends; &amp; for the lower reason that my nature is
+                proud &amp; as defiant as thine own and immeasurably disdains any faintest
+                appearance of being afraid of what I had done.</p>
 
             <p>And, my darling, above all because I love thee so tenderly that if hateful words had
                 been spoken against me I could have taken joy in it for thy dear sake. There never
@@ -266,10 +272,11 @@
 
                 <p>The new portrait also is a sweet joy &amp; comfort to my longing, pining heart
                     &amp; eyes. How have I brooded &amp; brooded with thankfulness on that one word
-                    in thy letter "the comfort it has been to me to get her words,"<ptr target="loc.01697_n7"/> for always day &amp; night these two years has hovered on
-                    my lips &amp; in my heart the one prayer: dear God, let me comfort him! Let me
-                    comfort thee with my whole being, dear love. I feel much better &amp; stronger
-                    now.</p>
+                    in thy letter "the comfort it has been to me to get her words,"<ptr
+                        target="loc.01697_n7"/> for always day &amp; night these two years has
+                    hovered on my lips &amp; in my heart the one prayer: dear God, let me comfort
+                    him! Let me comfort thee with my whole being, dear love. I feel much better
+                    &amp; stronger now.</p>
             </postscript>
 
         </body>

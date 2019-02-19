@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00877">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Edward Bertz to Walt Whitman, 16 June 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName> 
+                    <persName xml:id="blh">Breanna Himschoot</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00877</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr> 
+                        <editor>Horace Traubel</editor>
+                        <title xml:id="ht">With Walt Whitman in Camden</title>
+                        <imprint>
+                            <pubPlace>Carbondale, IL</pubPlace>
+                            <publisher>Southern Illinois University Press</publisher>
+                            <biblScope type="volume">5</biblScope>
+                            <date when="1953">1964</date>
+                            <biblScope type="page">330&#8212;331</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Edward Bertz</author>
+                    <title>Edward Bertz to Walt Whitman, 16 June 1889</title>
+                    <date cert="high" when="1889-06-16" xml:id="dat1">June 16, 1889</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>  
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bertz, Edward" ref="med.00877_n2">Edward Bertz</persName>
+                </person>
+                <person role="recipient"> 
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc> 
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2018-11-05" who="#smb">final check, corrected</change>
+            <change when="2018-09-17" who="#blh">Second check</change>
+            <change when="2018-08-16" who="#cb">checked and corrected</change>
+            <change when="2017-12-01" who="#bbb">Encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <salute>Dear Sir,</salute>
+                <salute>Dear Poet, Friend, and Master,</salute>
+            </opener>
+            <p>To celebrate your seventieth birthday, I your grateful and devoted admirer, have
+                written some words of sympathy and congratulation, and published them in the issue
+                of June 2nd of the paper I am editing just now, viz. the 'Deutsche Presse,' the
+                official organ of the league of German authors (Deutschen Schriftsteller-Verband).<ptr target="med.00877_n3"/> I
+                trust I may be able some day to devote to you and your work a serious essay
+                better suited to do justice to your genius than was possible in that aphoristic
+                article. However, those few lines will at least serve as an unambiguous testimony of
+                my deep and true devotion to you, and as it may give you pleasure to hear of an
+                unknown German friend of yours, I take the liberty to send you that birthday paper,
+                hoping you will look upon it in kind and indulgent eyes.<ptr target="med.00877_n1"/></p>
+            <closer>
+                <salute>Ever yours sincerely and affectionately</salute>
+                <signed>Edward Bertz</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="br">Bev Rilett</persName>
@@ -57,14 +58,14 @@
                <author>Alonzo S. Bush</author>
                <title>Alonzo S. Bush to Walt Whitman, 11 February 1864</title>
                <date when="1864-02-11">February 11, 1864</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Bush, Alonzo S.">Alonzo S. Bush</persName>
+               <persName key="Bush, Alonzo S." ref="tex.00140_n100">Alonzo S. Bush</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +73,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-10">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-09">proofreading changes</change>
@@ -89,13 +91,13 @@
                <dateline rend="right"> </dateline>
                <salute>Friend Walter,</salute>
             </opener>
-         <p>Sir accordain to promis I<ptr target="tex.00140_n100"/> now embrace this opportunity of informing you of my Safe arrival at Hed Quarters of 1st Ind Cav. My Friends gave me a warm reception Such as how are you Bush got robed did you &amp;c I told them how it came to pass and how much I lost and finely that Washington was a hard place  I tell you that Hoosiers are a fraid of thieves and murders and it made them open their eyes when they found out that I had been bit. Well I feel at home here and dont think I will come to the city untill I am muster out for good</p>
-            <p>Everything is lovely down here and the goose hangs high the weather has been pretty cold cince I came back and therefor we have had no hunt as yet. I was just in time for the boat. I had the pleasure of meeting my Capt G. Lutt so I was not alone had quite a nice time told them how long I had been in city and what kept me you ought to here them laugh at me for not being sharper   I told them it would be all right in cours of time live &amp; learn is my moto.</p>
+         <p>Sir <choice><sic>accordain</sic><corr>according</corr></choice> to <choice><sic>promis</sic><corr>promise</corr></choice> I now embrace this opportunity of informing you of my Safe arrival at <choice><sic>Hed</sic><corr>Head</corr></choice> Quarters of 1st Ind Cav. My Friends gave me a warm reception Such as how are you Bush got robed did you &amp;c I told them how it came to pass and how much I lost and finely that Washington was a hard place  I tell you that Hoosiers are <choice><sic>a fraid</sic><corr>afraid</corr></choice> of thieves and murders and it made them open their eyes when they found out that I had been bit. Well I feel at home here and <choice><sic>dont</sic><corr>don't</corr></choice> think I will come to the city <choice><sic>untill</sic><corr>until</corr></choice> I am muster out for good</p>
+            <p>Everything is lovely down here and the goose hangs high the weather has been pretty cold <choice><sic>cince</sic><corr>since</corr></choice> I came back and therefor we have had no hunt as yet. I was just in time for the boat. I had the pleasure of meeting my Capt G. Lutt so I was not alone had quite a nice time told them how long I had been in city and what kept me you ought to here them laugh at me for not being sharper   I told them it would be all right in <choice><sic>cours</sic><corr>course</corr></choice> of time live &amp; learn is my <choice><sic>moto</sic><corr>motto</corr></choice>.</p>
             <p>Walter I told that friend of mine about you and he thinks he will like you very much   I showed him your Photograph. he liked it very much. Walter tell Benedict &amp; Brown not to forget me and not send there to me.<ptr target="tex.00140_n2"/>
             </p>
-            <p>There is nothing going on here at presant and I have nothing to write every thing is same day after day no changes. We have plety to eate &amp; wear and nothing to do.</p>
-            <p>We are all waiting for the 8th June so that we can go home and see our Sweet hearts. I supose you know what they are. If you dont I do and I long for to see mine very much and I think she will want to see me&#8212;</p>
-            <p>give my letter the least notice possible and oblidge yours remember me to all the Boys at armory Squre. Hoping to receive that Fatherly letter from you soon I will close good by</p>
+            <p>There is nothing going on here at <choice><sic>presant</sic><corr>present</corr></choice> and I have nothing to write every thing is same day after day no changes. We have <choice><sic>plety</sic><corr>plenty</corr></choice> to <choice><sic>eate</sic><corr>eat</corr></choice> &amp; wear and nothing to do.</p>
+            <p>We are all waiting for the 8th June so that we can go home and see our Sweet hearts. I <choice><sic>supose</sic><corr>suppose</corr></choice> you know what they are. If you <choice><sic>dont</sic><corr>don't</corr></choice> I do and I long for to see mine very much and I think she will want to see me&#8212;</p>
+            <p>give my letter the least notice possible and <choice><sic>oblidge</sic><corr>oblige</corr></choice> yours remember me to all the Boys at armory <choice><sic>Squre</sic><corr>Square</corr></choice>. Hoping to receive that Fatherly letter from you soon I will close good by</p>
             <closer rend="right"/>
          
       </body>

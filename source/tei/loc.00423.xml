@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
 
@@ -41,32 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">74-76</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 24 September 1863</title>
                <date when="1863-09-24">September 24, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-08-28">proofread and modified</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00386_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn</name>
@@ -93,9 +81,11 @@
                <salute>Dear brother Walt,</salute>
             </opener>
             <p>The enclosed $25 is from Joseph P. Davis<ptr target="loc.00423_n1"/> making with the $25 sent you last Tuesday $50 from Jo. Now I will give you a statement of the whole affair  Last Monday I received a letter from W. S. Davis,<ptr target="loc.00423_n2"/> Jo's brother [at?] Worcester, Mass. saying that he had received a letter from Joe directing him to send me $70. $50 to be sent to you and $20 to be expended in buying a present for young "Joe Probasco."<ptr target="loc.00423_n3"/> The $25 I sent you on Tuesday I borrowed of Mr Lane<ptr target="loc.00423_n4"/> so that I might send it immediately and to day I received a check for the $70. I have paid Mr Lane the $25 and according to Jo's direction send you the remaind[er] of the $50.</p>
-            <p>Jo's brother, W. S. Davis, is a lawer, in Worcester,<ptr target="loc.00423_n5"/> with a large number of acquaintances and I think liberal. I wrote him a note acknowledging the recipt of the money and telling him that you would write him a long letter,<ptr target="loc.00423_n6"/> detailing the manner, style, &amp;c &amp;c of your dispensing the money (like those you used to write us)  ask him to show it to his friends and get them to give what they can and have him send it to you  He writes me that he wants you to acknowledge the receipt of the money, and also that he would much like to hear from you. I consider it an opportunity for you to make this $50 the father of 100's without in the least seeming like one asking for it</p>
-            <p>I certainly think Mother is following a mistaken notion of ecomony.<ptr target="loc.00423_n7"/> I think the only decent meals that any of them have had for three months is what they have eaten with Mat and I. As regards Mother I am perfectly willing she should live with us all [the time?] (that is to eat, I mean) but Ed and Jess I cant stand entirely. Dont understand me that they do eat with us, for they dont as much perhaps as they used to. Mother certainly does not, not as much as we wish her to, for we always call her. I notice however that when Jess does eat with us that he does not throw up his victuals. And Andrew too, his trouble comes as much from his mode of living and sleeping  His room for sleeping is without ventilation. the window is coverd with posiness tress. He has no nice little things, [or] all nourishment fixed for him to eat, such as I intended Mat should fix for him. I dont think myself that we have any thing to do with Nancy, she is able enough to make a good living both for herself and the children, if she wasnt so dam'd lazy.</p>
-            <p>Walt I wish you was home for awhile. I think you would see and think as I do. I have scribbled this to you just as I have thought for a day or two. Ruggles<ptr target="loc.00423_n8"/> says that Andrew cannot be a well man in this town, to be sure even going away may not help him, but he thinks and is almost certain that it will. I wish if you dont come on you would write me also write Andrew. Oh you dont know how down spirited he is</p>
+         <pb xml:id="leaf001v" facs="loc_ad.00387_large.jpg" type="verso"/>
+            <p>Jo's brother, W. S. Davis, is a <choice><sic>lawer</sic><corr>lawyer</corr></choice>, in Worcester,<ptr target="loc.00423_n5"/> with a large number of acquaintances and I think liberal. I wrote him a note acknowledging the <choice><sic>recipt</sic><corr>receipt</corr></choice> of the money and telling him that you would write him a long letter,<ptr target="loc.00423_n6"/> detailing the manner, style, &amp;c &amp;c of your dispensing the money (like those you used to write us)  ask him to show it to his friends and get them to give what they can and have him send it to you  He writes me that he wants you to acknowledge the receipt of the money, and also that he would much like to hear from you. I consider it an opportunity for you to make this $50 the father of 100's without in the least seeming like one asking for it</p>
+         <pb xml:id="leaf002r" facs="loc_ad.00388_large.jpg" type="recto"/>
+         <p>I certainly think Mother is following a mistaken notion of <choice><sic>ecomony</sic><corr>economy</corr></choice>.<ptr target="loc.00423_n7"/> I think the only decent meals that any of them have had for three months is what they have eaten with Mat and I. As regards Mother I am perfectly willing she should live with us all [the time?] (that is to eat, I mean) but Ed and Jess I cant stand entirely. <choice><sic>Dont</sic><corr>Don't</corr></choice> understand me that they do eat with us, for they <choice><sic>dont</sic><corr>don't</corr></choice> as much perhaps as they used to. Mother certainly does not, not as much as we wish her to, for we always call her. I notice however that when Jess does eat with us that he does not throw up his victuals. And Andrew too, his trouble comes as much from his mode of living and sleeping  His room for sleeping is without ventilation. the window is <choice><sic>coverd</sic><corr>covered</corr></choice> with <choice><sic>posiness</sic><corr>poisonous</corr></choice> tress. He has no <pb xml:id="leaf002v" facs="loc_ad.00389_large.jpg" type="verso"/>nice little things, [or] all nourishment fixed for him to eat, such as I intended Mat should fix for him. I <choice><sic>dont</sic><corr>don't</corr></choice> think myself that we have any thing to do with Nancy, she is able enough to make a good living both for herself and the children, if she <choice><sic>wasnt</sic><corr>wasn't</corr></choice> so <choice><sic>dam'd</sic><corr>damned</corr></choice> lazy.</p>
+         <p>Walt I wish you was home for awhile. I think you would see and think as I do. I have scribbled this to you just as I have thought for a day or two. Ruggles<ptr target="loc.00423_n8"/> says that Andrew cannot be a well man in this town, to be sure even going away may not help him, but he thinks and is almost certain that it will. I wish if you <choice><sic>dont</sic><corr>don't</corr></choice> come on you would write me also write Andrew. Oh you <choice><sic>dont</sic><corr>don't</corr></choice> know how down spirited he is</p>
             <closer rend="right">
                <signed>Jeff.</signed>
             </closer>

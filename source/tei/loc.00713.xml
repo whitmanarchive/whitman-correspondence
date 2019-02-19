@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">5</biblScope>
-                     <biblScope type="page">287</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Garaphelia Howard, 4 May 1866</title>
                <date when="1866-05-04">May 4, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +55,13 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Howard, Garaphelia">Garaphelia Howard</persName>
+               <persName key="Howard, Garaphelia" ref="n0313">Garaphelia Howard</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-05-20">added correspondent ref</change>
+         <change who="#ak" when="2015-02-16">corrected orgName, added pbs, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-08-27">proofread and edited annotations</change>
@@ -84,18 +73,18 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc.00713.001.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
-                  <name type="place">ATTORNEY GENERAL'S OFFICE, <hi rend="italic">Washington</hi>,</name>
-                  <date when="1866-05-04">May 4, <hi rend="italic">1866.</hi>
+                  <name type="place"><handShift rend="printed"/>ATTORNEY GENERAL'S OFFICE, <hi rend="italic">Washington</hi>,</name>
+                  <date when="1866-05-04"><handShift rend="manuscript"/>May 4, <hi rend="italic"><handShift rend="printed"/>186<handShift rend="manuscript"/>6.</hi>
                   </date>
                </dateline>
-               <salute>My dear friend,<ptr target="loc.00713_n100"/>
+               <salute>My dear friend,
             </salute>
             </opener>
             <p>Your contribution of $20 for the soldiers in hospital, sick or wounded, has been received&#8212;&amp; I thank you for it most sincerely. I shall apply it to their aid, faithfully &amp; with care.</p>
-            <p>I was out to Harewood yesterday week, &amp; last Sunday&#8212;the patients have however since been removed to another place, near the Old Douglas hospital. Then there are the Providence hospital, &amp; the 5th Reg. Cavalry, &amp; some other small, military hospitals.</p>
+         <p>I was out to Harewood yesterday week, &amp; last Sunday&#8212;the patients have however since been removed to another place, near the Old Douglas hospital. Then there are the Providence hospital, &amp; the 5th Reg. Cavalry, &amp; some other <pb xml:id="leaf001v" facs="loc.00713.002.jpg" type="verso"/>small, military hospitals.</p>
             <p>There are comparatively few soldiers now that need ministering to, but full enough to occupy one's spare hours&#8212;&amp; especially as half of the inmates of the hospitals are discharged soldiers, drawing no pay, though sick, or suffering sometimes very deeply indeed, from relapses of old wounds.</p>
             <p>I wish you health, my friend, in body &amp; in spirit. Farewell.</p>
             <closer rend="right">

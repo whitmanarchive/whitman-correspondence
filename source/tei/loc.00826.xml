@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">221&#8211;222</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 12 May 1864</title>
                <date when="1864-05-12">May 12, 1864</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-24">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -84,14 +72,14 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00053.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <date when="1864-05-10">May 12th | ½ past 5 P M</date>
                </dateline>
                <salute>Dearest Mother</salute>
             </opener>
-            <p>George is all right, unhurt, up to Tuesday morning, 10th inst&#8212;the 51st was in a bad battle last Friday, lost 20 killed, between 40 &amp; 50 wounded&#8212;I have just seen some of the 51st wounded, just arrived, one of them Fred Saunders, Corp[oral], Co K, George's company&#8212;he said when he left the 51st was in rear on guard duty&#8212;he left Tuesday mn'g last&#8212;the papers have it that Burnside's Corps was in a fight Tuesday, but I think it most probable the 51st was not in it&#8212;</p>
+         <p>George is all right, unhurt, up to Tuesday morning, 10th inst&#8212;the 51st was in a bad battle last Friday, lost 20 killed, between 40 &amp; 50 wounded&#8212;I have just seen <pb xml:id="leaf001v" facs="loc_ad.00054.jpg" type="verso"/>some of the 51st wounded, just arrived, one of them Fred Saunders, Corp[oral], Co K, George's company&#8212;he said when he left the 51st was in rear on guard duty&#8212;he left Tuesday mn'g last&#8212;the papers have it that Burnside's Corps was in a fight Tuesday, but I think it most probable the 51st was not in it&#8212;</p>
             <p>Fred McReady is wounded, badly, but not seriously&#8212;Sims is safe&#8212;you see LeGendre is wounded&#8212;he was shot through the bridge of nose<ptr target="loc.00826_n1"/>&#8212;</p>
             <p>Mother, you ought to get this Friday forenoon, 13th&#8212;I will write again soon&#8212;wrote once before to-day<ptr target="loc.00826_n2"/>&#8212;</p>
             <closer rend="right">

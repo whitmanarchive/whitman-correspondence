@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -41,31 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Horace Traubel</author>
-                  <title xml:id="wwwc">With Walt Whitman in Camden</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>D. Appleton</publisher>
-                     <biblScope type="volume">2</biblScope>
-                     <date>1908</date>
-                     <biblScope type="page">109</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>John T. Trowbridge</author>
                <title>John T. Trowbridge to Walt Whitman, 21 December 1863</title>
                <date when="1863-12-21">December 21, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Trowbridge, John T.">John T. Trowbridge</persName>
+               <persName key="Trowbridge, John T." ref="duk.00656_n1">John T. Trowbridge</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-27">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-09">proofreading changes</change>
@@ -85,7 +74,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.00649.jpg" type="recto"/>
             <opener rend="right">
                <dateline>
                   <name type="place">Boston</name>
@@ -93,13 +82,15 @@
                </dateline>
                <salute>Dear Walt,</salute>
             </opener>
-         <p>I<ptr target="loc.00876_n100"/> am here at the bedside of your friend Babbitt<ptr target="loc.00876_n2"/> in the Mason Hospital.  I read him your letter; and he wishes me to say to you that he would be glad to answer your letters to him if he was able.  He is in about the same condition he has been in for three months.  He wishes to go home to his friends in Barre, and could get his discharge, but Dr. Bliss,<ptr target="loc.00876_n3"/> of the Armory Square Hospital, neglects to send on his descriptive list, although the surgeon here has written to him for it.  No doubt you can see to having it sent.  Mr. Babbitt's father, who has been out with the 53rd, is going out again, and he is anxious to get his son home before he leaves.  The descriptive list is the only thing necessary now to procure his discharge.  Your friend wishes you to see Dr. Bliss, and write to him what he says about it.  I shall come and see him whenever I come to town.  What he needs is sympathizing friends around him.  He is very lonesome lying here with no Walt Whitman to cheer him up.</p>
-            <p>I have been to see about getting together a package of books for you, but the booksellers are so busy it will be several days before I can get them packed and sent.  Let me hear from you.  I write in haste with numb fingers&#8212;it is bitter cold here today.</p>
+         <p>I am here at the bedside of your friend Babbitt<ptr target="loc.00876_n2"/> in the Mason Hospital.  I read him your letter; and he wishes me to say to you that he would be glad to answer your letters to him if he was able.  He is in about the same condition he has been in for three months.  He wishes to go home to his friends in Barre, and could get his discharge, but Dr. Bliss,<ptr target="loc.00876_n3"/> of the Armory Square Hospital, neglects to send on his descriptive list, although the surgeon here has written to him for it.  No doubt you can see to having it sent.  <pb xml:id="leaf001v" facs="loc_vm.00650.jpg" type="verso"/>Mr. Babbitt's father, who has been out with the 53rd, is going out again, and he is anxious to get his son home before he leaves.  The descriptive list is the only thing necessary now to procure his discharge.  Your friend wishes you to see Dr. Bliss, and write to him what he says about it.  I shall come and see him whenever I come to town.  What he needs is sympathizing friends around him.  He is very lonesome lying here with no Walt Whitman to cheer him up.</p>
+         <p>I have been to see about getting together a package of books for you, but the booksellers are so busy it will be several <pb xml:id="leaf002r" facs="loc_vm.00651.jpg" type="recto"/>days before I can get them packed and sent.  Let me hear from you.  I write in haste with numb fingers&#8212;it is bitter cold here today.</p>
             <closer rend="right">
                <salute>Yours</salute>
                <signed>J. T. Trowbridge</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="loc_vm.00652.jpg" type="verso"/>
+         <pb xml:id="leaf003r" facs="loc_vm.00665.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="loc_vm.00666.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

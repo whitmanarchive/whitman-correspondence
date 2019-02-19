@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">233&#8211;234</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 14 June 1864</title>
                <date when="1864-06-14">June 14, 1864</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00083.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -92,8 +80,8 @@
                </dateline>
                <salute>Dearest mother</salute>
             </opener>
-            <p>I am not feeling very well these days&#8212;the doctors have told me not to come inside the hospitals for the present&#8212;I send there by a friend every day, I send things &amp; aid to some cases I know, &amp; hear from there also, but I do not go myself at present&#8212;it is probable that the hospital poison has affected my system, &amp; I find it worse than I calculated&#8212;I have spells of faintness &amp; very bad feeling in my head, fullness &amp; pain&#8212;&amp; besides sore throat&#8212;my boarding place, 502 Pennsylvania av, is a miserable place, very bad air&#8212;But I shall feel better soon, I know&#8212;the doctors say it will pass over&#8212;they have long told me I was going in too strong&#8212;some days I think it has all gone &amp; I feel well again, but in a few hours I have a spell again&#8212;</p>
-            <p>Mother, I have not heard any thing of the 51st&#8212;I sent George's letter to Han&#8212;I have written to George since&#8212;I shall write again to him in a day or two&#8212;if Mary comes home tell her I sent her my love&#8212;if I dont feel better before the end of this week or beginning of next, I may come home for a week or fortnight for a change&#8212;the rumor is very strong here that Grant is over the James river on south side&#8212;but it is not in the papers&#8212;we are having quite cool weather here&#8212;Mother, I want to see you &amp; Jeff so much&#8212;I have been working a little at copying, but have stopt it lately&#8212;</p>
+         <p>I am not feeling very well these days&#8212;the doctors have told me not to come inside the hospitals for the present&#8212;I send there by a friend every day, I send things &amp; aid to some cases I know, &amp; hear from there also, but I do not go myself at present&#8212;it is probable that the hospital poison has affected my system, &amp; I find it worse than I calculated&#8212;I have spells of faintness &amp; very bad feeling in my head, fullness &amp; pain&#8212;&amp; besides sore throat&#8212;my boarding place, 502 Pennsylvania av, is a miserable place, very bad air&#8212;<pb xml:id="leaf001v" facs="loc_ad.00084.jpg" type="verso"/>But I shall feel better soon, I know&#8212;the doctors say it will pass over&#8212;they have long told me I was going in too strong&#8212;some days I think it has all gone &amp; I feel well again, but in a few hours I have a spell again&#8212;</p>
+            <p>Mother, I have not heard any thing of the 51st&#8212;I sent George's letter to Han&#8212;I have written to George since&#8212;I shall write again to him in a day or two&#8212;if Mary comes home tell her I sent her my love&#8212;if I <choice><sic>dont</sic><corr>don't</corr></choice> feel better before the end of this week or beginning of next, I may come home for a week or fortnight for a change&#8212;the rumor is very strong here that Grant is over the James river on south side&#8212;but it is not in the papers&#8212;we are having quite cool weather here&#8212;Mother, I want to see you &amp; Jeff so much&#8212;I have been working a little at copying, but have <choice><sic>stopt</sic><corr>stopped</corr></choice> it lately&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>

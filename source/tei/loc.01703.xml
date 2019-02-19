@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01703">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Letter from Walt Whitman to Hiram J. Ramsdell, 19 July
+                    1867</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <name>The Walt Whitman Archive Staff</name>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2010</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01703</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="project">The following are responsible for particular readings or for
+                    changes to this file, as noted: <persName xml:id="zk">Zachary King</persName>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">Walt Whitman&#8212;The Correspondence, Volume V:
+                            1890&#8211;1892</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date when="1969">1969</date>
+                            <biblScope type="page">291</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Hiram J. Ramsdell, 19 July 1867</title>
+                    <date cert="high" when="1871-07-19" xml:id="dat1">July 19, 1867</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8-9</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Ramsdell, Hiram J.">Hiram J. Ramsdell</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2010-12-03" who="#zk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place" rend="center">Attorney General's Office,</name>
+                    <name type="place" rend="right"><hi rend="italic">Washington</hi>,</name>
+                    <date when="1867-07-19" rend="right">July 19, 1867.</date>
+                </dateline>
+                <salute>My dear Hiram Ramsdell:<note xml:id="n1" type="editorial" resp="miller"> H.
+                        J. Ramsdell was a clerk in Washington; in a hospital notebook (Henry E.
+                        Huntington Library), Walt Whitman called him "chief clerk." In the 1869
+                        Directory, he was listed as a correspondent. On May 8, 1867,
+                        <!-- "In his <ref target="xxx.00000">May 8, 1867, letter</ref> ..." -->
+                    Ramsdell reported the high praise that George Townsend<ptr target="n0643"/>, the journalist
+                        (1841&#8211;1914), accorded to Walt Whitman&#8212;"a stupendous genius,"
+                        "the song of a God." On July 17, 1867,
+                        <!-- "In his <ref target="xxx.00000">July 17, 1867, letter</ref> ..." --> he
+                        asked Walt Whitman to do whatever he could for Judge Milton Kelly, of Idaho,
+                        against whom charges had been brought by "a very bad man," Congressman
+                        Edward D. Holbrook (1836&#8211;1870). Actually, on July 12, 1867, Walt
+                        Whitman had submitted to the Attorney General a "Report<lb/>on the<lb/>
+                        <hi rend="italic">Charges</hi> submitted by<lb/><hi rend="italic">Hon. E. D.
+                            Holbrook</hi>,<lb/> Del[egate] from Idaho Terr[itory],<lb/><hi
+                            rend="italic">against</hi><lb/><hi rend="italic">Hon. Milton
+                        Kelly</hi>,<lb/> Asso[ciate] Just[ice] Supreme Court of Idaho" (National
+                        Archives). To this forty-one page summary of the evidence, all in Walt
+                        Whitman's hand, there is appended a letter signed by Stanbery but written by
+                        Walt Whitman, dated July 20, 1867: "The Conclusion in the preceding Report
+                        is hereby adopted by me, &#38; ordered to stand as the decision of this
+                        Office in the Case, so far as now presented." On July 22, 1867,
+                        <!-- "In his <ref target="xxx.00000">July 22, 1867, letter</ref>, ..." -->
+                        Ramsdell apologized for his "aggressiveness." (Ramsdell's letters are in the
+                        Charles E. Feinberg Collection.) Judge Kelly wrote to Walt Whitman on
+                        June(?) 21, 1867 (National Archives), and again on August 9, 1867 (Yale).
+                        <!-- "Judge Kelly wrote to Walt Whitman on <ref target="xxx.00000">June (?) 21, 1867</ref>, and again on <ref target="xxx.00000">August 9, 1867</ref>." -->
+                        On November 15, 1875, Ramsdell, among others, petitioned Benjamin H. Bristow
+                        (1832&#8211;1896), Secretary of the Treasury, that Walt Whitman "be
+                        appointed to a position in the Treasury Department" (National Archives).
+                    </note></salute>
+            </opener>
+
+            <p>Mr. Cummins has called upon me, bringing me your note of 17th, &#38; we have had
+                quite a talk&#8212; he seems to be a wide-awake, candid young man, &#38; makes a
+                good impression on me. He spoke of you, of his own affairs &#38; fortunes, of Idaho,
+                of Judge Kelly, Holbrook &#38;c. &#38;c&#8212;In respect to Judge Kelly, &#38; his
+                matter, I had already formed my opinion, &#38; made out my Report several days
+                ago&#8212;The Attorney General is full of anxiety &#38; debate, on the big things
+                that are up, just now&#8212;&#38; has not been able to hear the Report, &#38; decide
+                upon it&#8212;but he told me this morning he would try to do so very shortly. If he
+                decides as I have advised him, you &#38; Cummins will have no reason to be
+                dissatisfied.</p>
+
+            <p>Dear Friend, I rec'd your note when you left here&#8212;it was sent on to me at
+                Brooklyn. I value George Alfred Townsend's appreciation of L. of G. It was
+                magnificent. Where is Townsend now? I hope it may happen one day that I may have him
+                near at hand, that we get to be friends&#8212;such is in my mind.</p>
+
+            <p>There is nothing new in my affairs&#8212;all goes on as usual in the office. I am
+                well. After a hot spell of a week, during the last of June, we have had the finest
+                kind of weather here the most of this month&#8212;</p>
+
+            <closer>
+                <salute>Remembrance &#38; love to you, wife, &#38; baby too. Farewell.</salute>
+                <signed rend="right">Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -43,14 +44,14 @@
                <author>Ellen M. O'Connor</author>
                <title>Bethuel Smith to Walt Whitman, 13 October 1863</title>
                <date when="1863-10-13">October 13, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Bethuel">Bethuel Smith</persName>
+               <persName key="Smith, Bethuel" ref="loc.00889_n1">Bethuel Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -58,6 +59,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-27">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -67,7 +69,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00889.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="loc_jc.00085.jpg" type="recto"/>
          
             <opener>
                <dateline>
@@ -76,10 +78,10 @@
                </dateline>
                <salute>Dear Friend</salute>
             </opener>
-            <p>I now sit down to write to write you a few lines to let you now where I am I am with the regiment now. I left Carlisle about one week ago and have ben diledaleying around &amp; have not had time to rite to you untill now &amp; I have not got much time now <pb facs="loc.00889.002.jpg" type="verso"/>the toe is most all healed up but my foot is swelled so that I can not get my boot on it swelled from walking from the depot <unclear reason="illegible" cert="high" resp="#el">out</unclear>  her but I think that will go down in a day or to the brigade is gone out to the front again &amp; I dont now but we shall follow them pretty soon I dont now as I can write anny more at present So good by for this time <pb facs="loc.00889.003.jpg" type="recto"/>
+         <p>I now sit down to write to write you a few lines to let you now where I am I am with the regiment now. I left Carlisle about one week ago and have <choice><sic>ben</sic><corr>been</corr></choice> <choice><sic>diledaleying</sic><corr>dilly-dallying</corr></choice> around &amp; have not had time to rite to you <choice><sic>untill</sic><corr>until</corr></choice> now &amp; I have not got much time now <pb xml:id="leaf001v" facs="loc_jc.00085.jpg" type="verso"/>the toe is most all healed up but my foot is swelled so that I can not get my boot on it swelled from walking from the depot <unclear reason="illegible" cert="high" resp="#el">out</unclear>  her but I think that will go down in a day or to the brigade is gone out to the front again &amp; I <choice><sic>dont</sic><corr>don't</corr></choice> now but we shall follow them pretty soon I <choice><sic>dont</sic><corr>don't</corr></choice> now as I can write <choice><sic>anny</sic><corr>any</corr></choice> more at present So good by for this time <pb xml:id="leaf002r" facs="loc_jc.00085.jpg" type="recto"/>
             </p>
             <closer>
-               <signed>Bethuel Smith<ptr target="loc.00889_n1"/>
+               <signed>Bethuel Smith 
             </signed>
                  <address>
                <addrLine>Co. F. 2nd U. S. Cav.</addrLine>
@@ -87,7 +89,7 @@
             </address>
             </closer>
          
-         <pb facs="loc.00889.004.jpg" type="verso"/>
+         <pb xml:id="leaf002v" facs="loc_jc.00085.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

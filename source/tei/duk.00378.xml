@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">56-57</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to George Washington Whitman, 12 July 1861</title>
                <date when="1861-07-12">July 12, 1861</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library.  </orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +55,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Whitman, George Washington">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-30">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00378.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">[B]rooklyn,</name>
@@ -92,8 +80,9 @@
                </dateline>
                <salute>Dear Brother,</salute>
             </opener>
-            <p>Your letter come to-day. Every thing with us is pretty much the same. Mother is pretty much the same. Some days she [is] better, and some not so well. She has taken a good many sulphur vapor baths. She takes one every other day. She goes down in the cars to the baths, in Willoughby street near the City Hall.<ptr target="duk.00378_n2"/> Sometimes Mat goes with her, [and once in] a while she goes [alo]ne. They are rather agreeable to take&#8212;they make one sweat extremely. Mother goes about the same, around the house. She has better use of her arms and wrists than she did there one time&#8212;but an hour or two, now and then, generally in the morning, she has bad pains. Her appetite is pretty good. The weather here lately has been awful&#8212;three days the heat was as bad as I ever knew it&#8212;so I think that had something to do with mother's feeling weak. To-day it is much cooler.</p>
+         <p>Your letter come to-day. Every thing with us is pretty much the same. Mother is pretty much the same. Some days she [is] better, and some not so well. She has taken a good many sulphur vapor baths. She takes one every other day. She goes down in the cars to the baths, in Willoughby street near the City Hall.<ptr target="duk.00378_n2"/> Sometimes Mat <pb xml:id="leaf001v" facs="duk.00378.002_large.jpg" type="verso"/>goes with her, [and once in] a while she goes [alo]ne. They are rather agreeable to take&#8212;they make one sweat extremely. Mother goes about the same, around the house. She has better use of her arms and wrists than she did there one time&#8212;but an hour or two, now and then, generally in the morning, she has bad pains. Her appetite is pretty good. The weather here lately has been awful&#8212;three days the heat was as <pb xml:id="leaf002r" facs="duk.00378.003_large.jpg" type="recto"/>bad as I ever knew it&#8212;so I think that had something to do with mother's feeling weak. To-day it is much cooler.</p>
             <p>Jeff and Martha and Cis<ptr target="duk.00378_n3"/> and Eddy are all well. Jess is the same as usual&#8212;he works every day in the yard. He does not seem to mind the heat. He is employed in the store-house, where they are continually busy preparing stores, provisions, to send off in the different vessels. He assists in that.</p>
+         <pb xml:id="leaf002v" facs="duk.00378.004_large.jpg" type="verso"/>
             <p>We are all very glad the 13th is coming home&#8212;mother especially. There have been so many accounts of shameful negligence, or worse, in the commissariat of your reg't. that there must be <hi rend="italic">something</hi> in it&#8212;notwithstanding you speak very lightly of the complaints in your letters. The <hi rend="italic">Eagle</hi>, of course, makes the worst of it, every day, to stop men from enlisting.<ptr target="duk.00378_n4"/>
             </p>
             <p>All of us here think the rebellion as good as broke&#8212;no matter if the war does continue for months yet.</p>

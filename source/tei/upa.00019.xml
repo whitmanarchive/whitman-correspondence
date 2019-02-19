@@ -10,9 +10,11 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
 <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="al">Ashley Lawson</persName><persName xml:id="zk">Zachary King</persName><persName xml:id="ec">Eric Conrad</persName>
-                    <persName xml:id="nhg">Nicole Gray</persName>
+                    
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -63,11 +65,12 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Gilchrist, Anne">Anne Gilchrist</persName>
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-12">added correspondent ref</change>
             <change when="2014-09-22" who="#nhg">checked, corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2014-08-12" who="#el">made basic checking changes to file</change>

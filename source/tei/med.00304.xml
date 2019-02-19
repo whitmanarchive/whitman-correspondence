@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -70,11 +71,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Trowbridge, John Townsend">John Townsend Trowbridge</persName>
+               <persName key="Trowbridge, John Townsend" ref="med.00304_n2">John Townsend Trowbridge</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-09">proofreading changes</change>
@@ -92,7 +94,7 @@
                   <name type="place">Washington</name>
                   <date when="1863-12-27">Dec 27 1863</date>
                </dateline>
-               <salute>Dear friend,<ptr target="med.00304_n2"/>
+               <salute>Dear friend,
                </salute>
             </opener>
             <p>I have left word at the office Armory Square hospital about Caleb Babbitt's descriptive list.<ptr target="med.00304_n3"/> Poor boy, I should like much to see him &amp; soothe him&#8212;I hope he will yet keep up his spirits. About the package of books, direct them to me, (if you should find convenient to send them) to Washington, 456 Sixth St north, 3d story back room&#8212;Should you see Mr. Shillaber<ptr target="med.00304_n4"/> tell him I see Frank McDonald every day or so&#8212;I saw him last evening, saw his wound and examined it&#8212;he still lies constantly in bed&#8212;The wound is not in a very favorable way, yet nothing really serious&#8212;Mr. S must write and send papers to him &amp;c, often as convenient&#8212;I am well &amp; in hospitals every day&#8212;So, dear friend, good bye for present&#8212;</p>

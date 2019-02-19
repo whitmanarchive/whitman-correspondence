@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,26 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">132-133</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 2 October 1864</title>
                <date when="1864-10-02">October 2, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library
-</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +60,7 @@ Manuscript, and Special Collections Library
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2013-01-24">updated footnote one to correct the wording "killed in lost"</change>
@@ -86,8 +73,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
-            
+         <pb xml:id="leaf001r" facs="duk.00363.001_large.jpg" type="recto"/>
                <opener>
                   <dateline rend="right">
                      <name type="place">Petersburg Va </name>
@@ -96,7 +82,7 @@ corrections</change>
                   </dateline>
                   <salute>Dear Mother,</salute>
                </opener>
-               <p>Here I am perfectly well and unhurt, but a prisoner. I was captured day before yesterday with Major Wright,<ptr target="duk.00363_n2"/> Lieuts Pooley,<ptr target="duk.00363_n3"/> Cauldwell,<ptr target="duk.00363_n4"/> Ackerson,<ptr target="duk.00363_n5"/> Sims,<ptr target="duk.00363_n6"/> and nearly the entire Regt. that was not killed or wounded  Lieut Butler<ptr target="duk.00363_n7"/> was badly wounded  I am in tip top health and Spirits, and am as tough as a mule and shall get along first rate,  Mother please dont worry and all will be right in time if you will not worry  I wish Walt, or Jeff would write to Lieut. Babcock<ptr target="duk.00363_n8"/> of our Regt (who is with the Regt) and tell him to send my things home by express, as I should be very sorry to lose them.<ptr target="duk.00363_n9"/>
+         <p>Here I am perfectly well and unhurt, but a prisoner. I was captured day before yesterday with Major Wright,<ptr target="duk.00363_n2"/> Lieuts Pooley,<ptr target="duk.00363_n3"/> Cauldwell,<ptr target="duk.00363_n4"/> Ackerson,<ptr target="duk.00363_n5"/> Sims,<ptr target="duk.00363_n6"/> and nearly the entire Regt. that was not killed or wounded  Lieut Butler<ptr target="duk.00363_n7"/> was badly wounded  I am in tip top health and Spirits, and am as tough as a mule and shall get along first rate,  Mother please <choice><sic>dont</sic><corr>don't</corr></choice> worry and all will be right in time if you will not worry  I wish Walt, or Jeff would write to Lieut. Babcock<ptr target="duk.00363_n8"/> of our Regt (who is with the Regt) and tell him to send my things home by express, as I should be very sorry to lose them.<ptr target="duk.00363_n9"/>
                </p>
                <closer rend="right">
                   <signed>G. W. Whitman</signed>
@@ -105,7 +91,7 @@ corrections</change>
             <postscript>
                <p>Lieut Pooley is here and unhurt.</p>
             </postscript>
-         
+         <pb xml:id="leaf001v" facs="duk.00363.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

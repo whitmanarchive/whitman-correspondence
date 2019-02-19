@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03473">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Handwritten copy of letter from James R. Osgood to Walt Whitman, 4 March 1882</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James R. Osgood</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="vm">Vince Moran</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2012</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03473</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>James R. Osgood</author>
+                    <title>Handwritten copy of letter from James R. Osgood to Walt Whitman, 4 March 1882</title>
+                    <date cert="high" when="1882-03-04" xml:id="dat1">March 4, 1882</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8-9</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Osgood, James R.">James R. Osgood</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#nhg" when="2018-05-10">added note to indicate that this letter is a handwritten copy of the original</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-04-24" who="#ss">annotations added</change>
+            <change when="2014-03-06" who="#nhg">checked, corrected</change>
+            <change when="2014-01-24" who="#ss">transcribed and encoded enclosure, checked</change>
+            <change when="2013-10-17" who="#nhg">updated file name and header to match loc images</change>
+            <change when="2013-02-13" who="#ej">Checked and Corrected</change>
+            <change when="2013-01-16" who="#vm">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <div1 type="letter">
+            <pb xml:id="leaf001r" facs="loc.03473.001.jpg" type="recto"/>
+                <note type="authorial" place="top">A./ <hi rend="underline">What District Attorney is it?</hi></note>
+            <opener>
+                <dateline>
+                    <date when="1882-03-04"><choice><abbr>Mch.</abbr><expan>March</expan></choice> 4. 1882</date>
+                </dateline>
+                <salute>Walt Whitman Esq.,</salute>
+                <salute>Dear Sir:</salute>
+            </opener>
+            
+                <p>We enclose a letter from the District Attorney dated <choice><abbr>Mch.</abbr><expan>March</expan></choice> 1<hi rend="superscript">st</hi> and received by us yesterday, March 3<hi rend="superscript">d</hi>.<ptr target="hun.00047_n1"/> Please read and return it, keeping copy of it if you so desire.</p>
+            <p>We are not at present informed what portions of the book are objected to. We are however naturally reluctant to be identified with any legal proceedings in a matter of this nature. We are given to understand that if certain parts of the book should be withdrawn its further circulation would not be objected to. Will you advise us whether you would consent to the withdrawal of the present edition and the substitution of an edition lacking the obnoxious features?</p>
+            
+            <closer>
+                <salute>Yours truly,</salute>
+                <signed>James R. Osgood &amp; Co.</signed>
+            </closer>
+
+            <pb xml:id="leaf001v" facs="loc.03473.002.jpg" type="verso"/>
+            </div1>
+            <div1 type="enclosure">
+                <pb xml:id="leaf002r" facs="loc.03473.003.jpg" type="recto"/>
+                <note type="authorial" place="top">B./</note>
+                <opener>
+                    <dateline>
+                        <name type="place">Commonwealth of Massachusetts</name>
+                        <name type="place">District Attorney's Office</name>
+                        <name type="place">Boston</name>
+                        <name type="place">24 Court House&#8212;</name>
+                        <date when="1882-03-01"><choice><abbr>Mch</abbr><expan>March</expan></choice> 1<hi rend="superscript">st</hi>/82</date>
+                    </dateline>
+                    <salute>Messrs <choice><abbr>Jas</abbr><expan>James</expan></choice> R. Osgood and Company,</salute>
+                    <salute>Gentlemen;</salute>
+                </opener>
+                <p>Our attention has been officially directed to a certain book entitled "Leaves of Grass," Walt Whitman," published by you.</p>
+                <p>We are of the opinion that this book is such a book as brings it within the provisions of the Public Statutes respecting obscene literature and suggest the propriety of withdrawing the same from circulation and suppressing the editions thereof.</p>
+                <p>Otherwise the complaints which are proposed to be made will have to be entertained&#8212;</p>
+                
+                <closer>
+                    <salute>I am, yours truly</salute>
+                    <signed>Oliver Stevens</signed>
+                    <signed><unclear reason="illegible" cert="low" resp="#ss">M.O.H.</unclear></signed>
+                    <signed><choice><abbr>Dist. Atty.</abbr><expan>District Attorney</expan></choice></signed>
+                </closer>
+                
+            <pb xml:id="leaf002v" facs="loc.03473.004.jpg" type="verso"/>
+                     
+</div1>                     
+        </body>
+    </text>
+</TEI>

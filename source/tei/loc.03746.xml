@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03746">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">James Scovel to Walt Whitman, 16 September 1886</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James Scovel</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03746</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>James Scovel</author>
+                    <title>James Scovel to Walt Whitman, 16 September 1886</title>
+                    <date cert="high" when="1886-09-16" xml:id="dat1">September 16, 1886</date>
+                    <idno type="callno">Box 15, Reel 9</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unknown"><persName key="unknown">Unknown
+                    author</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Scovel, James" ref="loc.03298_n10">James Scovel</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-07-31" who="#smb">final check, corrected</change>
+            <change when="2015-06-28" who="#if">edited</change>
+            <change when="2015-05-16" who="#ss">added annotations</change>
+            <change when="2014-10-14" who="#ss">checked and corrected</change>
+            <change when="2014-10-10" who="#ak">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03746.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">1437 So. Broad</name>
+                    <date when="1886-09-16">9.<hi rend="underline">16th</hi> 86</date>
+                </dateline>
+                <salute>Walt Whitman</salute>
+                <salute>My Dear Old Friend</salute>
+            </opener>
+            <p> You must drive out and see us as soon as you&#8212;dinner 6 pm. </p>
+            <p>
+                <unclear reason="illegible" resp="#ss" cert="low">Mrs Pearce</unclear> is still in
+                Brooklyn with her sister Mrs Dean&#8212; </p>
+            <p> The children are happy as crickets &#38; all say "we will miss Walt &#38; the old
+                    <pb xml:id="leaf002r" facs="loc.03746.003_large.jpg" type="recto"/> "fire in the
+                low down grate"&#8212; </p>
+            <p> Not a coal from the house d&#8212;n it all <unclear reason="illegible" resp="#ss"
+                    cert="low">heating</unclear>. Sewell &#38; I have made up. <hi rend="underline"
+                    >He</hi> sent for me Monday&#8212;I went. I will soon have some money &#38; will
+                    <hi rend="underline">square up</hi> thanks to you Dear old friend. </p>
+            <closer>
+                <salute>Yours</salute>
+                <signed>James Scovel</signed>
+            </closer>
+            <postscript>
+                <p>Regards to Mrs Davis</p>
+            </postscript>
+            <pb xml:id="leaf001v" facs="loc.03746.002_large.jpg" type="verso"/>
+            <note type="authorial"> Let me know when you write anything new JWS </note>
+            <pb xml:id="leaf002v" facs="loc.03746.004_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

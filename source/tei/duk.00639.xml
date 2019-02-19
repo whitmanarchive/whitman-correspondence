@@ -9,7 +9,7 @@
                 <editor>Wesley Raabe</editor>
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
-                    <resp>Transcription and encoding</resp><persName xml:id="el">Elizabeth Lorang</persName>
+                    <resp>Transcription and encoding</resp><persName xml:id="el">Elizabeth Lorang</persName><persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName><persName xml:id="wr">Wesley Raabe</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -60,7 +60,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -68,6 +68,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-14">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-12-10" who="#el">corrected choice encoding of 'georgey' and 'lott'</change>
             <change when="2013-11-05" who="#el">final check</change>
@@ -177,7 +178,7 @@
             day</p>
                 <closer>
                     <salute>good bie</salute>
-                    <signed>LW<ptr target="duk.00425_n3"/></signed>
+                    <signed>LW</signed>
                 </closer>
         </body>
     </text>

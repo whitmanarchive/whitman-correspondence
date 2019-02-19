@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -44,7 +45,7 @@
                <author>Ellen Eyre</author>
                <title>Ellen Eyre to Walt Whitman, 25 March 1862</title>
                <date when="1862-03-25">March 25, 1862</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -59,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-12-15">Ken's proofreading changes</change>
@@ -71,9 +73,9 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc.00588.007_large.jpg" type="recto"/>
             <opener> 
-               <dateline><!-- <name type="place">DR G P WIKSELL. 410 HOTEL PELHAM. BOSTON.</name> --><!-- This information was on the hotel stationary. -->
+               <dateline>
                   <date when="1860-02-10">Tuesday Mar 25 1862</date>
                   <name type="person">Walt Whitman</name>
                </dateline>
@@ -82,8 +84,8 @@
          <p>I<ptr target="loc.00588_n100"/> fear you took me last night for a female privateer. It's true that I was sailing under <hi rend="italic">false colors</hi>.&#8212;But the flag I assure you covered nothing piratical&#8212;although I would joyfully have made your heart a captive.</p>
             <p>Women have an unequal chance in this world. Men are its monarchs, and "full many a rose is born to blush unseen and waste its sweetness in the desert air."<ptr target="loc.00588_n2"/>
             </p>
-            <p>Such I was resolved should not be the fate of this fancy I had long nourished for you.&#8212;A gold mine may be found by the Divining Rod but there is no such instrument for detecting in the crowded streets of a great city the [unknown?] mine of latent affection a man may have unconsciously inspired in a woman's heart. I make these explanations in extenuation not by way of apology. My social position enjoins precaution &amp; mystery, and perhaps the enjoyment of my friend's society is heightened which in yielding to its fascination I preserve my incognito; yet mystery lends an ineffable charm to love and when a woman is bent upon the gratification of her inclinations&#8212;She is pardonable if she still spreads the veil of decorum over her actions. Hypocrisy is said to be "the homage which sin pays to virtue," and yet <hi rend="italic">I</hi> can see no vice in that generous sympathy with which we share our caprices with those who have inspired us with tenderness,&#8212;</p>
-            <p>I trust you will think well enough of me soon to renew the pleasure you afforded me last P.M., and I therefore write to remind you that there is a sensible head as well as a sympathetic heart, both of which would gladly evolve wit &amp; warmth for your direction &amp; comfort.&#8212;You have already my whereabouts &amp; my hours&#8212;It shall only depend upon you to make them yours and me the happiest of women.</p>
+         <p>Such I was resolved should not be the fate <pb xml:id="leaf001v" facs="loc.00588.008_large.jpg" type="verso"/>of this fancy I had long nourished for you.&#8212;A gold mine may be found by the Divining Rod but there is no such instrument for detecting in the crowded streets of a great city the [unknown?] mine of latent affection a man may have unconsciously inspired in a woman's heart. I make these explanations in extenuation not by way of apology. My social position enjoins precaution &amp; mystery, and perhaps the enjoyment of my friend's society is heightened which in yielding to its fascination I preserve my incognito; yet mystery lends an ineffable charm to love and when a <pb xml:id="leaf002r" facs="loc.00588.010_large.jpg" type="recto"/>woman is bent upon the gratification of her inclinations&#8212;She is pardonable if she still spreads the veil of decorum over her actions. Hypocrisy is said to be "the homage which sin pays to virtue," and yet <hi rend="italic">I</hi> can see no vice in that generous sympathy with which we share our caprices with those who have inspired us with tenderness,&#8212;</p>
+         <p>I trust you will think well enough of me soon to renew the pleasure you afforded me last P.M., and I therefore write to remind you that there is a sensible head as well as a sympathetic heart, both of <pb xml:id="leaf002v" facs="loc.00588.012_large.jpg" type="verso"/>which would gladly evolve wit &amp; warmth for your direction &amp; comfort.&#8212;You have already my whereabouts &amp; my hours&#8212;It shall only depend upon you to make them yours and me the happiest of women.</p>
             <closer rend="right">
 
                   <salute>I am always</salute>
@@ -93,7 +95,8 @@
                   <signed>Ellen Eyre</signed>
                
             </closer>
-         
+         <pb xml:id="leaf003r" facs="loc.00588.001_large.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="loc.00588.003_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

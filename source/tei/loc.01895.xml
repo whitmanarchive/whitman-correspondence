@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01895">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01895">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Scott &amp; Williams to Walt
-                    Whitman, 14 August 1867</title>
+                <title level="m" type="main">John Scott and J. P. Williams to Walt Whitman, 14 August
+                    1867</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>Scott &amp; Williams</author>
+                <author>John Scott and J. P. Williams</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
+                    <persName xml:id="kmp">Kenneth M.
+                        Price</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="br">Beverley Rilett</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -43,34 +50,22 @@
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
             </publicationStmt>
-            <notesStmt>
-                <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> 
-                    <persName xml:id="el">Elizabeth Lorang</persName>
-                    <persName xml:id="al">Ashley Lawson</persName>
-                    <persName xml:id="br">Beverley Rilett</persName>
-                </note>
-            </notesStmt>
+
             <sourceDesc>
                 <bibl>
-                    <author>Scott &amp; Williams</author>
-                    <title>Scott &amp; Williams to Walt Whitman, 14 August 1867</title>
+                    <author>John Scott and J. P. Williams</author>
+                    <title>John Scott and J. P. Williams to Walt Whitman, 14 August 1867</title>
                     <date cert="high" when="1867-08-14" xml:id="dat1">August 14, 1867</date>
                     <idno type="callno">MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839–1919, Library of Congress, Washington, DC</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
-
                 <person role="sender">
-                    <persName key="Scott &amp; Williams">Scott &amp; Williams</persName>
-                </person>
-                <person role="sender">
-                    <persName key="Scott, John">John Scott</persName>
+                    <persName key="Scott, John" ref="n0544">John Scott</persName>
                 </person>
                 <person role="sender">
                     <persName key="Williams, J. P.">J. P. Williams</persName>
@@ -80,9 +75,11 @@
                 </person>
             </particDesc>
         </profileDesc>
-        <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+        <revisionDesc> 
+<change when="2016-01-14" who="#nhg">corrected sender name, correspondent ref</change>
+            <change when="2015-06-14" who="#ss">annotated</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-03-01" who="#kmp">blessed</change>
             <change when="2011-09-22" who="#el">transcribed and encoded letterhead</change>
             <change when="2011-08-02" who="#el">checked</change>
             <change when="2011-03-28" who="#al">checked</change>
@@ -101,30 +98,36 @@
                     <addrLine>24 BEEKMAN STREET,</addrLine>
                 </address>
                 <dateline rend="right">
-                    <name type="place">New York</name><handShift rend="manuscript"/>,                    
-                    <date when="1867-08-14">Aug 14th <handShift rend="printed"/>186<handShift rend="manuscript"/>7</date>
+                    <name type="place">New York</name><handShift rend="manuscript"/>, <date
+                        when="1867-08-14">Aug 14th <handShift rend="printed"/>186<handShift
+                            rend="manuscript"/>7</date>
                 </dateline>
                 <salute>Walt Whitman Esq</salute>
                 <salute>Dear Sir</salute>
             </opener>
-            
-            <p>We respectfully call your attention to the enclosed statement of a/c showing a <choice><sic>ballance</sic><corr>balance</corr></choice> in our favor of $23.50. Your earliest attention will much oblige</p>
+
+            <p>We respectfully call your attention to the enclosed statement of a/c showing a <choice>
+                    <sic>ballance</sic>
+                    <corr>balance</corr>
+                </choice> in our favor of $23.50. Your earliest attention will much oblige</p>
             <closer rend="right">
                 <salute>Yours Respectfully</salute>
                 <signed>Scott &amp; Williams</signed>
                 <signed>for Kent</signed>
             </closer>
-            
+
             <postscript>
                 <p>P.S.</p>
-                <p>Any further orders you have will be thankfully received &amp; promptly attended to—<choice><sic>pleas</sic><corr>please</corr></choice> send a copy of your Book for Mr. Sterne</p>
+                <p>Any further orders you have will be thankfully received &amp; promptly attended to—<choice>
+                        <sic>pleas</sic>
+                        <corr>please</corr>
+                </choice> send a copy of your Book for Mr. Sterne</p>
                 <ab>S&amp;W</ab>
                 <ab>K</ab>
             </postscript>
-            <pb xml:id="leaf001v" type="verso"/>
-            
-            
-            
+
+
+
         </body>
     </text>
 

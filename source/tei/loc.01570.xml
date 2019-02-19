@@ -46,6 +46,7 @@
                 <note type="project">The following are responsible for particular readings or for
                     changes to this file, as noted:
 <persName xml:id="kmp">Kenneth M. Price</persName> 
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
@@ -72,7 +73,7 @@
                     <title>Walt Whitman to Moncure D. Conway, 18 (?) March [1868]</title>
                     <date cert="medium" when="1868-03-18" xml:id="dat1">March 18, 1868</date>
                     <idno type="callno">MSS18630, Box 8</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -82,11 +83,12 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Conway, Moncure D.">Moncure D. Conway</persName>
+                    <persName key="Conway, Moncure D." ref="n0170">Moncure D. Conway</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-20">added correspondent ref</change>
             <change who="#nhg" when="2014-09-19">corrected date information</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-03" who="#kp">blessed</change>

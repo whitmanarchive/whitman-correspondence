@@ -14,6 +14,7 @@
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
@@ -64,7 +65,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,12 +73,13 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-08-05" who="#el">merged files; checked</change>
             <change when="2013-06-05" who="#wr">Duke Proofreading Corrections</change>
             <change when="2013-05-14" who="#el">notes moved to external file and ptrs added; checked</change>
-            <change when="2013-05-04" who="#wr">Proofreading Corrections: Heyde dates and Silent Proof</change>          <change when="2013-04-23" who="#24">Letter date, proofreading</change>
+            <change when="2013-05-04" who="#wr">Proofreading Corrections: Heyde dates and Silent Proof</change>          <change when="2013-04-23" who="#wr">Letter date, proofreading</change>
             <change when="2013-02-28" who="#el">changed note about Jesse Whitman to read "died there" rather than "died here"</change>
             <change when="2013-02-14" who="#wr">Remove note on Miller Transcription of regiment as 94th California.</change>
             <change when="2013-02-08" who="#wr">Review proofreading, mark Buckly and Willie as unidentified;
@@ -102,7 +104,7 @@
                 <salute>My dear Walter<ptr target="duk.00427_n14"/></salute>
             </opener>
             
-            <p>i<ptr target="duk.00425_n3"/> sit down
+            <p>i sit down
                 to write you a few lines
                 you have received georges<ptr target="duk.00427_n2"/>
                 letter before this i wrote to

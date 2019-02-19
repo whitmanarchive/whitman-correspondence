@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -41,31 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">138</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Reuben Farwell</author>
                <title>Reuben Farwell to Walt Whitman, 2 October 1864</title>
                <date when="1864-10-02">October 2, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Farwell, Reuben">Reuben Farwell</persName>
+               <persName key="Farwell, Reuben" ref="duk.00374_n100">Reuben Farwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-30">corrected orgName, added pbs, added choice tags, corrected opener</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -86,22 +75,28 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00374.001_large.jpg" type="recto"/>
             <opener>
-               <dateline rend="right"/>
-               <salute>Dear Comrad</salute>
+               <dateline>
+                  <name type="place">Plymouth Mich.</name>
+                  <name type="place">At Home</name>
+                  <date when="1864-10-02">Oct 2d/64</date>
+               </dateline>
+               <salute>Dear <choice><sic>Comrad</sic><corr>Comrade</corr></choice></salute>
             </opener>
-         <p>Yours I<ptr target="duk.00374_n100"/> recived several weeks ago. Though I have been quite unwell like your self  This makes the fourth week I have been out of the Service of Uncle Sam  I hardly know what to write you at present because I do not know wether you ever will recive it or not. I am some better than I was when I arrived here</p>
+         <p>Yours I <choice><sic>recived</sic><corr>received</corr></choice> several weeks ago. Though I have been quite unwell like your self  This makes the fourth week I have been out of the Service of Uncle Sam  I hardly know what to write you at present because I do not know <choice><sic>wether</sic><corr>whether</corr></choice> you ever will <choice><sic>recive</sic><corr>receive</corr></choice> it or not. I am some better than I was when I arrived here</p>
+         <pb xml:id="leaf001v" facs="duk.00374.002_large.jpg" type="verso"/>
             <p>I trust that you will excuse me in not writing you before</p>
             <p>Though I tried to find out by the Boys in Armory where you were But they could not tell</p>
-            <p>Now Uncle if you will (not) Answer this after My being detained in geting yours from the Regt. I belonged to too this place</p>
+            <p>Now Uncle if you will (not) Answer this after My being detained in <choice><sic>geting</sic><corr>getting</corr></choice> yours from the Regt. I belonged to too this place</p>
             <p>I least I hope you will Try and give me a Reply</p>
-            <p>I trust that this may find you well and in better health than when you wrote me last. I will answer All enquireys from you. this from one who would like to see you Indeed</p>
+         <pb xml:id="leaf002r" facs="duk.00374.003_large.jpg" type="recto"/>
+            <p>I trust that this may find you well and in better health than when you wrote me last. I will answer All <choice><sic>enquireys</sic><corr>enquiries</corr></choice> from you. this from one who would like to see you Indeed</p>
             <closer rend="right">
-               <salute>A Comrad</salute>
+               <salute>A <choice><sic>Comrad</sic><corr>Comrade</corr></choice></salute>
                <signed>Ruben Farwell</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="duk.00374.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

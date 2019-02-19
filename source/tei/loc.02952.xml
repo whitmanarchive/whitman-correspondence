@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02952">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Ellen O'Connor to Walt Whitman, 13 March 1888 [Postscript]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Ellen O'Connor</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="es">Jeannette Schollaert</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02952</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Ellen O'Connor</author>
+                    <title>Ellen O'Connor to Walt Whitman, 13 March 1888 [Postscript]</title>
+                    <date cert="high" when="1888-03-13" xml:id="dat1">March 13, 1888</date>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="O'Connor, Ellen" ref="n4137">Ellen O'Connor</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-06" who="#smb">final check, corrected</change>
+            <change when="2018-10-24" who="#blh">first check</change>
+            <change when="2015-11-02" who="#es">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02952.002.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                      <name type="person">Walt Whitman</name>
+                      <name type="place">Camden,</name>
+                      <name type="place">New Jersey.</name>
+                    <date when="1888-03-13" rend="left">March 13.<ptr target="loc.02952_n1"/></date>
+                </dateline>
+                <salute rend="left"><hi rend="underline">P.S.</hi><ptr target="loc.02952_n2"/></salute>
+            </opener>
+            <p>The man who treats h<hi rend="underline">m</hi> with the "massage" thought the morning the best time, 
+                so comes at seven A. M. &#38; is to come every day at that hour. He thinks he can help h<hi rend="underline">m</hi>. 
+                I hope so.</p>
+            <closer>
+                <salute>We both send love&#8212;</salute>
+                <signed rend="right">N.</signed>
+            </closer>    
+            <pb xml:id="leaf001v" facs="loc.02952.001.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

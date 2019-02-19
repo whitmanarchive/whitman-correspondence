@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title level="m" type="main">Walt Whitman to an Unidentified Correspondent,
-                    [late 1879&#8211;early 1880]</title>
+                    [1860?]</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -18,6 +18,7 @@
                     <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -53,10 +54,13 @@
 
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to an Unidentified Correspondent, [late 1879&#8211;early 1880]</title>
-                    <date cert="medium" notBefore="1879-06-01" notAfter="1880-05-31">1879&#8211;1880</date>
+                    <title>Walt Whitman to an Unidentified Correspondent, [1860?]</title>
+                    <date cert="low" notBefore="1860-01-01" notAfter="1860-12-31">1860</date>
                     <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book
                         and Manuscript Library</orgName>
+                    <relatedItem type="document" target="wwa.00040"/>
+                    <relatedItem type="text" xml:id="rel01" target="yal.00079"/>
+                    <note type="project" target="#rel01">On the reverse of this partial draft letter is a draft of the poem "Others May Praise What They Like," first published in <hi rend="italic">Drum-Taps</hi> in 1865.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -72,6 +76,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-02-15" who="#nhg">revised editorial note</change>
+            <change when="2016-12-07" who="#nhg">added relatedItem information</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-08-05" who="#nhg">checked, corrected</change>
             <change when="2014-03-20" who="#nnk">proofed</change>

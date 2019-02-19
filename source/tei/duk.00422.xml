@@ -13,6 +13,7 @@
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>  
                     <persName xml:id="el">Elizabeth Lorang</persName>
@@ -63,7 +64,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,6 +72,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-08-05" who="#el">merged files; checked</change>
@@ -96,7 +98,7 @@
             </opener>
             
             <p>it is so strange you hav<unclear reason="illegible" resp="#wr" cert="high">e</unclear>
-                not got my letter I<ptr target="duk.00425_n3"/> sent one last
+                not got my letter I sent one last
                 <choice><orig>friday</orig><reg>Friday</reg></choice> morning<ptr target="duk.00422_n3"/>
                 and should have
                 written more particularly but

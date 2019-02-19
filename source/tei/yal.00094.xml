@@ -11,10 +11,10 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -59,7 +59,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Charles W. Eldridge, 9 July 1864</title>
                <date when="1864-07-09">July 9, 1864</date>
-               <orgName xml:id="yal">Yale University</orgName>
+               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -69,11 +69,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Eldridge, Charles W.">Charles W. Eldridge</persName>
+               <persName key="Eldridge, Charles W." ref="n0210">Charles W. Eldridge</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-16">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-12">proofreading changes</change>
@@ -92,7 +93,7 @@
                </dateline>
                <salute>My dear friend</salute>
             </opener>
-            <p>I rec'd the letters this afternoon, two in the envelope with a note from you. I wrote to William some five days ago&#8212;has he not rec'd it? I had grown worse, quite a good deal, &amp; I was about making up my mind that I would have to stand a good seige&#8212;but yesterday the current changed, &amp; I felt better all day, &amp; in the afternoon went out riding with my brother, the first time I have been out of the house since I got home&#8212;&amp; to-day I remain feeling better.</p>
+            <p>I rec'd the letters this afternoon, two in the envelope with a note from you. I wrote to William some five days ago&#8212;has he not rec'd it? I had grown worse, quite a good deal, &amp; I was about making up my mind that I would have to stand a good <choice><sic>seige</sic><corr>siege</corr></choice>&#8212;but yesterday the current changed, &amp; I felt better all day, &amp; in the afternoon went out riding with my brother, the first time I have been out of the house since I got home&#8212;&amp; to-day I remain feeling better.</p>
             <p>The doctor to-day tells me my throat is markedly better&#8212;In my letter to William I told him I had rec'd his&#8212;I have also rec'd one from Nelly&#8212;it was very welcome, &amp; I shall try to answer it soon&#8212;When you write tell me the impressions you got in the army, &amp; the probabilities as far as you can make them out&#8212;As to me, I still believe in Grant, &amp; that we shall get Richmond&#8212;we have heard from my brother to July 2<ptr target="yal.00094_n1"/>&#8212;tell me about Ashton<ptr target="yal.00094_n2"/>&#8212;in a day or two as I get strength I shall probably go down the island&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>

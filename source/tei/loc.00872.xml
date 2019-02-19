@@ -10,13 +10,14 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="bb">Brett Barney</persName>
-
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="hb">Heidi Bean</persName>
                <persName xml:id="ec">Elise Cook</persName>
+               <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -46,14 +47,14 @@
                <author>Bayard Taylor</author>
                <title>Bayard Taylor to Walt Whitman, 2 December 1866</title>
                <date when="1866-12-02">December 2, 1866</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Taylor, Bayard">Bayard Taylor</persName>
+               <persName key="Taylor, Bayard" ref="n0889">Bayard Taylor</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -61,6 +62,9 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change when="2015-06-14" who="#ss" >annotated</change>
+         <change who="#ak" when="2015-05-13">added correspondent ref</change>
+         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-03-02">updated sourceDesc to Feinberg</change>
@@ -74,7 +78,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc_vm.00461.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="loc_vm.00461.jpg" type="recto"/>
             <opener rend="right">
                <dateline>
                   <name type="place">Kennett Square, Penna.</name>
@@ -82,26 +86,18 @@
                </dateline>
                <salute>My dear Whitman:</salute>
             </opener>
-         <p>I<ptr target="loc.00872_n100"/> find your book and cordial letter, on returning home from a lecturing tour in New York, and heartily thank you for both.  I have had the first edition of your Leaves of Grass among my books, since its first appearance, and have read it many times.  I may say, frankly, that there are two things in it which I find nowhere else in literature, though I find them in my own nature.  I mean the awe and wonder and reverence and beauty of Life, as expressed in the human body, with the physical attraction and delight of mere contact which it inspires, 
-            
-            <pb facs="loc_vm.00462.jpg" type="verso"/>
-            
-            and that tender and noble love of man for man which once certainly existed, but now almost seems to have gone out of the experience of the race.  I think there is nothing in your volume which I do not fully comprehend in the sense in which you wrote; I always try to judge an author from his own standpoint rather than mine, but in this case the two nearly coincide.  We should differ rather in regard to form than substance, I suspect.  There is not one word of your large and beautiful sympathy for men, which I cannot take into my own heart, nor one of those subtle and wonderful physical affinities you describe which I cannot comprehend.  I say these things, not in the way of praise, but because 
-            
-            <pb facs="loc_vm.00463.jpg" type="recto"/>
-            
-            I know from my own experience that correct appreciation of an author is less frequent than it should be.  It is welcome to me, and may be so to you.</p>
+         <p>I find your book and cordial letter, on returning home from a lecturing tour in New York, and heartily thank you for both.  I have had the first edition of your Leaves of Grass among my books, since its first appearance, and have read it many times.  I may say, frankly, that there are two things in it which I find nowhere else in literature, though I find them in my own nature.  I mean the awe and wonder and reverence and beauty of Life, as expressed in the human body, with the physical attraction and delight of mere contact which it inspires,<pb xml:id="leaf001v" facs="loc_vm.00462.jpg" type="verso"/>and that tender and noble love of man for man which once certainly existed, but now almost seems to have gone out of the experience of the race.  I think there is nothing in your volume which I do not fully comprehend in the sense in which you wrote; I always try to judge an author from his own standpoint rather than mine, but in this case the two nearly coincide.  We should differ rather in regard to form than substance, I suspect.  There is not one word of your large and beautiful sympathy for men, which I cannot take into my own heart, nor one of those subtle and wonderful physical affinities you describe which I cannot comprehend.  I say these things, not in the way of praise, but because<pb xml:id="leaf002r" facs="loc_vm.00463.jpg" type="recto"/>I know from my own experience that correct appreciation of an author is less frequent than it should be.  It is welcome to me, and may be so to you.</p>
             <p>I did not mean to write so much when I commenced, and will only say that I will be in Washington on the 27th&#8212;only for that night&#8212;and would be very glad if we can come together for awhile after my lecture is over.  I am afraid I shall not arrive in time to call at the Dep't before the lecture, but if I can I will.  If not, will you either come to Willard's or tell me where to find you, and oblige</p>
             <closer rend="right">
                <salute>Your friend,</salute>
                <signed>Bayard Taylor</signed>
             </closer>
          
-         <pb facs="loc_vm.00464.jpg" type="verso"/>
+         <pb xml:id="leaf002v" facs="loc_vm.00464.jpg" type="verso"/>
          
-         <pb facs="loc_vm.00459.jpg" type="recto"/>
+         <pb xml:id="leaf003r" facs="loc_vm.00459.jpg" type="recto"/>
          
-         <pb facs="loc_vm.00460.jpg" type="vreso"/>
+         <pb xml:id="leaf003v" facs="loc_vm.00460.jpg" type="verso"/>
          
       </body>
    </text>

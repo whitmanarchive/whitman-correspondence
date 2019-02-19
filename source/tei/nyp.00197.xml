@@ -11,11 +11,11 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -60,7 +60,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to William D. O'Connor, 20 January 1865</title>
                <date when="1865-01-20">January 20, 1865</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection, New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -70,11 +70,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="O'Connor, William D.">William D. O'Connor</persName>
+               <persName key="O'Connor, William D." ref="nyp.00197_n2">William D. O'Connor</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jc" when="2012-10-22">edited annotation on O'Connor</change>
@@ -95,7 +96,7 @@
                   <date when="1865-01-20">January 20 1865<ptr target="nyp.00197_n100"/>
                </date>
                </dateline>
-               <salute>My dear friend<ptr target="nyp.00197_n2"/>
+               <salute>My dear friend
                </salute>
             </opener>
             <p>I suppose you must have heard from Ashton that I received Mr. Otto's letter,<ptr target="nyp.00197_n3"/> &amp; that I returned for answer that I would report myself to him on or about Tuesday 24th instant. During the week previous to 16th I was quite sick, but this week I am about as well as usual.</p>

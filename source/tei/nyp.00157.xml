@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
                <persName xml:id="br">Bev Rilett</persName>
@@ -58,14 +59,14 @@
                <author>William H. Millis Sr.</author>
                <title>William H. Millis Sr. to Walt Whitman, 9 January 1864</title>
                <date when="1864-01-09">January 9, 1864</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Millis Sr., William H.">William H. Millis Sr.</persName>
+               <persName key="Millis Sr., William H." ref="nyp.00157_n100">William H. Millis Sr.</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-01">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-07">annotations</change>
@@ -89,7 +91,7 @@
                <dateline rend="right"> </dateline>
                <salute>Friend Whitting, Sir,</salute>
             </opener>
-         <p>We received your kind and welcome letter inquiring for my boy Billy and in reply will say that Billy is or was getting along first rate when we heard from him last he is in Washington employed in hospital as night watch.<ptr target="nyp.00157_n100"/> I write to him to day and send him your letter doubtless he will write to you forthwith</p>
+         <p>We received your kind and welcome letter inquiring for my boy Billy and in reply will say that Billy is or was getting along first rate when we heard from him last he is in Washington employed in hospital as night watch. I write to him to day and send him your letter doubtless he will write to you forthwith</p>
             <p>I feel very much indebted to you for your kindness and greatly honored to answer your letter or as many as you may write. Billy come home in July the first of the month and stayed till the 10th of November when he went back and got employment. He has so far recovered as to able to attend to the duties of night watch he has not got the use of his arm fully but will I hope in the course of time Billy is a right good boy I believe, you must write again and I will answer with pleasure</p>
             <closer rend="right">
                <salute>yours with Due respect</salute>

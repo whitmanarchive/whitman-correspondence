@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -58,6 +59,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-26">corrected orgName and pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="20010-04-06">proofread and edited</change>
@@ -70,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00855.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="loc.00855.001.jpg" type="recto"/>
          
             <opener rend="right">
                <dateline>
@@ -86,13 +88,13 @@
                </signed>
             </closer>
          
-         <pb facs="loc.00855.002.jpg" type="verso"/>
-         <pb facs="loc.00855.003.jpg" type="recto"/>
-         <pb facs="loc.00855.004.jpg" type="verso"/>
-         <pb facs="loc.00855.005.jpg" type="recto"/>
-         <pb facs="loc.00855.006.jpg" type="verso"/>
-         <pb facs="loc.00855.007.jpg" type="recto"/>
-         <pb facs="loc.00855.008.jpg" type="verso"/>
+         <pb xml:id="leaf001v" facs="loc.00855.002.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="loc.00855.003.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc.00855.004.jpg" type="verso"/>
+         <pb xml:id="leaf003r" facs="loc.00855.005.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="loc.00855.006.jpg" type="verso"/>
+         <pb xml:id="leaf004r" facs="loc.00855.007.jpg" type="recto"/>
+         <pb xml:id="leaf004v" facs="loc.00855.008.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

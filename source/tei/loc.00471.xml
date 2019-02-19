@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,32 +41,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">165-166</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 30 March 1873</title>
                <date when="1873-03-30">March 30, 1873</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-11">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -82,7 +70,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00515.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">St. Louis,</name>
@@ -94,6 +82,7 @@
             <p>If you can I wish you would write me how you are and if you have any chance of getting out here this season&#8212;I wish you could come  I think you would enjoy it and I know we would enjoy it hugely</p>
             <p>I fear from the way that Mother writes that she is not feeling very well&#8212;that she is not quite as happy as when she kept her own house&#8212;what do you think about it<ptr target="loc.00471_n1"/>
             </p>
+         <pb xml:id="leaf001v" facs="loc_ad.00516.jpg" type="verso"/>
             <p>I shall always feel sorry that Mother could not have come out here before Mattie died&#8212;she did want to see her so badly&#8212;for a week or two before she died she talked much about both of you and Mother and longed much to see you both&#8212;but it was not [to] be that she could see either of you</p>
             <p>I have felt quite anxious about you&#8212;as tis so long since I heard from you directly&#8212;I [hope] dear Walt you feel like writing, at least a short letter to me</p>
             <p>Hattie and Jess keep quite well and are as good as can be</p>

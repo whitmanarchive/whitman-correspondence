@@ -12,6 +12,7 @@
         <respStmt>
           <resp>Transcription and encoding</resp>
           <persName xml:id="kmp">Kenneth M. Price</persName>
+          <persName xml:id="ak">Alex Kinnaman</persName>
           <persName xml:id="al">Ashley Lawson</persName>
           <persName xml:id="el">Elizabeth Lorang</persName>
           <persName xml:id="kk">Kathryn Kruger</persName>
@@ -80,11 +81,12 @@
            <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Conway, Moncure D.">Moncure D. Conway</persName>
+          <persName key="Conway, Moncure D." ref="n0170">Moncure D. Conway</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change who="#ak" when="2015-05-12">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
       <change when="2013-08-20" who="#el">moved people responsible for working on file to respStmt</change>
 <change when="2012-05-18" who="#kmp">blessed</change>

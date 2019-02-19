@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02971">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Ellen M. O'Connor to Walt Whitman, 21 March
+                    1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Ellen M. O'Connor</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02971</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Ellen M. O'Connor</author>
+                    <title>Ellen M. O'Connor to Walt Whitman, 21 March 1889</title>
+                    <date cert="high" when="1889-03-21" xml:id="dat1">March 21, 1889</date>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 
+                        1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="O'Connor, Ellen M." ref="n6160">Ellen M. O'Connor</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-03-31" who="#smb">final check, corrected</change>
+            <change when="2017-07-14" who="#if">checked</change>
+            <change when="2017-03-02" who="#cb">checked and corrected</change>
+            <change when="2016-09-22" who="#ktl">transcribed and encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+ 
+    <text type="letter">
+        <body> 
+            <pb xml:id="leaf001r" facs="loc.02971.002_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1889-03-21">March 21<hi rend="superscript">st</hi> 1889.<ptr target="loc.02971_n1"/></date>
+                </dateline>
+                <salute/>
+            </opener>
+            <p>Another bad night, vomiting, &#38; very poor day to-day, weak &#38; poorly. I did not sleep till after 3 A. M. Wm.<ptr
+                    target="n2002"/> not much till 2 A. M. At this moment he is taking a nap &#38; I
+                hope will wake up better. Your papers &#38; Mary's.<ptr target="n6109"/> came. Very sorry Dr. Bucke's<ptr target="n0119"/>
+                business fell through. We had great hopes for him &#38; his scheme. Trust to send better
+                news soon.</p>
+            <closer>
+                <salute>Love from Wm. &#38; me.</salute>
+                <signed>N.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02971.001_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -40,31 +41,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">210&#8211;211</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Will W. Wallace</author>
                <title>Will W. Wallace to Walt Whitman, 7 May 1863</title>
                <date when="1863-05-07">May 7, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Wallace, Will W.">Will W. Wallace</persName>
+               <persName key="Wallace, Will W." ref="loc.00595_n100">Will W. Wallace</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2008-09-04">proofread and edited</change>
@@ -83,11 +72,16 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
-            <opener> 
+         <pb xml:id="leaf001r" facs="loc_vm.02073_large.jpg" type="recto"/>
+            <opener>
+               <dateline>
+                  <name type="place">General Hospital No 3</name>
+                  <name type="place">Nashville Tenn</name>
+                  <date when="1863-05-07">May 7th 1863</date>
+               </dateline>
                <salute>Dear Walt</salute>
             </opener>
-         <p>I<ptr target="loc.00595_n100"/> received your letter this morning and will not give the plea you have given. I have very little time tis true, yet I endeavor by writing rapidly to have time to keep up my correspondence more particularly with those in Washington. I am better pleased with the city than when I last wrote. I have a Hospital of 350 patients No stewards to assist me, three women to look after and Jones Hotel to run. Have I not my hands full by the way you wish to know what Jones Hotel is. It is a fine house across the way from Hospt No 3, where the Surgn Steward and women stop it has a large white Board in front with the letters contrasting in black "Jones Hotel" I have the clerks from the different Head Quarters board with me so I am well posted in what is going on in different dpts. I would be pleased to see you here. I received a letter from Col Leasur of the 100th Pa and more familiarly Roundhead Regt<ptr target="loc.00595_n2"/>  this morning stating that the 9th Army Corps was under marching orders and moving to Murfreesboro via Nashville. I wish you would come and make your headquarters with me. You could find plenty of work in your line. There is a New paper started this week by the correspondant of Forneys Press. It is making business. Here is a field of fourtune for some of them who wish</p>
+         <p>I received your letter this morning and will not give the plea you have given. I have very little time tis true, yet I endeavor by writing rapidly to have time to keep up my correspondence more particularly with those in Washington. I am better pleased with the city than when I last wrote. I have a Hospital of 350 patients No stewards to assist me, three women to look after and Jones Hotel to run. Have I not my hands full by the way you wish to know what Jones Hotel is. It is a fine house across the way from Hospt No 3, where the <choice><abbr>Surgn</abbr><expan>Surgeon</expan></choice> Steward and women stop it has a large white Board in front with the letters contrasting in black "Jones Hotel" I have the clerks from the different Head Quarters board with me so I am well posted in what is going on in different dpts. I would be pleased to see you here. I received a letter from Col Leasur of the 100th Pa and more familiarly Roundhead Regt<ptr target="loc.00595_n2"/>  this morning stating that the 9th Army Corps was under marching orders and moving to Murfreesboro via Nashville. <pb xml:id="leaf001v" facs="loc_vm.02074_large.jpg" type="recto"/>I wish you would come and make your headquarters with me. You could find plenty of work in your line. There is a New paper started this week by the <choice><sic>correspondant</sic><corr>correspondent</corr></choice> of Forneys Press. It is making business. Here is a field of <choice><sic>fourtune</sic><corr>fortune</corr></choice> for some of them who wish</p>
             <p>I am surprised at your frenchy leaving you in such a deplorable state, but you are not alone. I had to dismiss mine to save the reputation of the Hospital and your humble servant.</p>
             <p>Nothing new here. I have the famous Miss Chase<ptr target="loc.00595_n3"/> here and she is invaluable in her assistance to me. I send my Photo and shall expect one of the Prince of Bohemia by return</p>
             <p>I will write in a few days. Come out here you will find it pleasant.</p>
@@ -95,7 +89,10 @@
                <salute>Your protegee</salute>
                <signed>Will W Wallace</signed>
             </closer>
-         
+         <pb xml:id="leaf002r" facs="loc_vm.02075_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_vm.02076_large.jpg" type="verso"/>
+         <pb xml:id="leaf003r" facs="loc_vm.02077_large.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="loc_vm.02078_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

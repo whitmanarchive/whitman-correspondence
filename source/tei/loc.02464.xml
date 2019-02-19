@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04633">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walter B. Whitman to Walt Whitman, 3 August
+                    1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walter B. Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04633</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Walter B. Whitman</author>
+                    <title>Walter B. Whitman to Walt Whitman, 3 August 1889</title>
+                    <date cert="high" when="1889-08-03" xml:id="dat1">August 3, 1889</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839-1919, Library of Congress, Washington, DC.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Whitman, Walter B." ref="n5000">Walter B. Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-10-11" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.02462.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">U. S. S. Santee,</name>
+                    <name type="place">Annapolis, Md.</name>
+                    <date when="1889-08-03">Aug. 3<hi rend="underline">d</hi> 1889.</date>
+                    <name type="place">Mr. Walt Whitman,</name>
+                    <name type="place">Camden, N. J.</name>
+                </dateline>
+                <salute>Sir:</salute>
+            </opener>
+
+            <p>Though I can claim no relationship, owing to the similarity of our names, I write to
+                you hoping to gain a few lines from you in reply. <pb xml:id="leaf001v"
+                    facs="loc_vm.02463.jpg" type="verso"/>I am a native Texan, but my father
+                belonged to the Georgia branch of the Whitman family. His name is Mertice J. Whitman
+                and for several years he has been practicing law at Rusk, Texas.</p>
+            <p>Last May, I was appointed a Naval Cadet and since that time I have been in the U. S.
+                Naval Academy.</p>
+            <pb xml:id="leaf002r" facs="loc_vm.02464.jpg" type="recto"/>
+            <p>Hoping you will not think me too presumptuous in daring to write to you,</p>
+
+            <closer>
+                <salute>I am,</salute>
+                <salute>yours respectfully,</salute>
+                <signed>Walter B. Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

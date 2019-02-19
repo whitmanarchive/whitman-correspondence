@@ -11,10 +11,10 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
             </respStmt>
@@ -42,30 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">108</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>William F. Bainbridge</author>
                <title>William F. Bainbridge to Walt Whitman, 23 August 1865</title>
                <date when="1865-08-23">August 23, 1865</date>
-               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library at Yale University</orgName>
+               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Bainbridge, William F.">William F. Bainbridge</persName>
+               <persName key="Bainbridge, William F." ref="n5000">William F. Bainbridge</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-16">corrected orgName, added choice tags, pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">proofread and edited; shortened Wilson annotation, since it seemed out of place for this letter</change>
@@ -85,13 +74,13 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="yal.00122.001_large.jpg" type="recto"/>
             <opener> 
-               <salute>My Dear &amp; Esteemed Freind</salute>
+               <salute>My Dear &amp; Esteemed <choice><sic>Freind</sic><corr>friend</corr></choice></salute>
             </opener>
-            <p>I take the present opporutnity to write you these few lines to inform you that i am well and in good health at Present time and i truly hope when these few lines reach you that they may find you enjoying good health. i answered your last letter<ptr target="yal.00192_n1"/> and not having recivd any answer i think it very Strange i recived these two pictures and give one to wilson,<ptr target="yal.00192_n2"/> and kept one my self and i was very glad to recive them for i would rather see your face than your picture at all wilson wrote the same time that i did and not having Recived any answer and wilson says he can not think What the reason is that he does not get and answer from you. Me and wilson expecty to come through there this fall and we will come and see you if ever you have the opportunity of calling around richmond please to call around Camp Grant and see us. please excuse this Short Letter Write soon good by I remain your Freind</p>
+         <p>I take the present <choice><sic>opporutnity</sic><corr>opportunity</corr></choice> to write you these few lines to inform you that <choice><sic>i</sic><corr>I</corr></choice> am well and in good health at Present time and <choice><sic>i</sic><corr>I</corr></choice> truly hope when these few lines reach you that they may find you enjoying good health. <choice><sic>i</sic><corr>I</corr></choice> answered your last letter<ptr target="yal.00192_n1"/> and not having <choice><sic>recivd</sic><corr>recieved</corr></choice> any answer <choice><sic>i</sic><corr>I</corr></choice> think it very Strange <choice><sic>i</sic><corr>I</corr></choice> <choice><sic>recivd</sic><corr>recieved</corr></choice> these two pictures and give one to <choice><sic>wilson</sic><corr>Wilson</corr></choice>,<ptr target="yal.00192_n2"/> and kept one my self and <choice><sic>i</sic><corr>I</corr></choice> was very glad to <choice><sic>recive</sic><corr>recieve</corr></choice> them for <choice><sic>i</sic><corr>I</corr></choice> would rather see your face than your picture at all <choice><sic>wilson</sic><corr>Wilson</corr></choice> wrote the same time that <choice><sic>i</sic><corr>I</corr></choice> did and not having <choice><sic>Recived</sic><corr>received</corr></choice> any answer and <choice><sic>wilson</sic><corr>Wilson</corr></choice> says he can not think What the reason is that he does not get and answer from you. Me and <choice><sic>wilson</sic><corr>Wilson</corr></choice> <choice><sic>expecty</sic><corr>expects</corr></choice> to come through there this fall and we will come and see you if ever you have the opportunity of calling around <choice><sic>richmond</sic><corr>Richmond</corr></choice> please to call around Camp Grant and see us. please excuse this Short Letter Write soon good by I remain your <choice><sic>Freind</sic><corr>friend</corr></choice></p>
             <closer rend="right"/>
-         
+         <pb xml:id="leaf001v" facs="yal.00122.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

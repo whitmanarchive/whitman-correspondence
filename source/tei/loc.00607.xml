@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,30 +41,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">174-175</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Anson Ryder Jr.</author>
                <title>Anson Ryder Jr. to Walt Whitman, 9 August 1865</title>
                <date when="1865-08-09">August 9, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Ryder, Anson Jr.">Anson Ryder Jr.</persName>
+               <persName key="Ryder, Anson Jr." ref="loc.00607_n100">Anson Ryder Jr.</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-11">proofread and edited</change>
@@ -81,19 +71,26 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc.00607.001_large.jpg" type="recto"/>
             <opener> 
-               <dateline rend="right"/>
-               <salute>Friend W,</salute>
+               <dateline>
+                  <name type="place">Cedar Lake</name>
+                  <date when="1865-08-09">Aug. 9th 65</date>
+               </dateline>
+             <salute>Friend W,</salute>
             </opener>
-         <p>I<ptr target="loc.00607_n100"/> feel as though I ought to apologize to you for leaving Washington in the manner I did but I had so very little time to spare I did not have time to say good by to anybody scarcely but do not think for a moment that I forgot you then or now.
-Wood is with [me] here at my old home says it is not very natural here does not seem at all like an hospital. The weather here is splendid so cool and nice and real pure country air. I wish you could see us and be with us for a time. I think it would do you good. And now I must ask you about that photograph you promised me so long ago. I have never seen it yet, please do not let me have occasion to doubt your word though I think you agred to write me if I wrote you if you cannot (but I hope you can) please let Fraser have one for me and he will send it for I have written him.<ptr target="loc.00607_n2"/>
+         <p>I feel as though I ought to apologize to you for leaving Washington in the manner I did but I had so very little time to spare I did not have time to say good by to anybody scarcely but do not think for a moment that I forgot you then or now.</p>
+         <p>Wood is with [me] here at my old home says it is not very natural here does not seem at all like an 
+            <pb xml:id="leaf001v" facs="loc.00607.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.00607.003_large.jpg" type="recto"/>hospital The weather here is splendid so cool and nice and real pure country air. I wish you could see us and be with us for a time I think it would do you good  And now I must ask you about that photograph you promised me so long ago I have never seen it yet please do not let me have occasion to doubt your word though I think you agreed to write me if I wrote you if you cannot (but I hope you can) please let Fraser have one for me and he will send it for I have written him<ptr target="loc.00607_n2"/>
             </p>
             <closer rend="right">
                <salute>Please excuse haste, Yours with much love,</salute>
                <signed>Anson Ryder, Jun.</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="loc.00607.004_large.jpg" type="verso"/>
+         <pb xml:id="leaf003r" facs="loc.00607.005_large.jpg" type="recto"/>
+         <pb xml:id="leaf003v" facs="loc.00607.006_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

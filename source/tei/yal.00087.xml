@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,32 +41,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">161-164</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 16 March 1873</title>
                <date when="1873-03-16">March 16, 1873</date>
-               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library at Yale University</orgName>
+               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +60,8 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-05-13">added correspondent ref</change>
+         <change who="#ak" when="2015-04-16">corrected orgName, added choice tags, pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -82,7 +71,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="yal.00311.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">St. Louis,</name>
@@ -93,11 +82,13 @@
             <p>I have been wishing to write you for some days, but I have been away so much lately that it did seem as if I never would get time<ptr target="yal.00087_n1"/>
             </p>
             <p>Dear Walt, I wrote Mother a long, long letter giving as near as I could the particulars about dear Matties death<ptr target="yal.00087_n2"/>&#8212;I hope and suppose that they sent it to you and that it is not necessary therefore for me to re-state it.</p>
-            <p>Dear Walt this has been and is a heavy blow to me  I was so much with her and we were so in each others confidences that it leaves me very lonly</p>
+            <p>Dear Walt this has been and is a heavy blow to me  I was so much with her and we were so in each others confidences that it leaves me very <choice><sic>lonly</sic><corr>lonely</corr></choice></p>
+         <pb xml:id="leaf001v" facs="yal.00311.002_large.jpg" type="verso"/>
             <p>I think Hattie has written to you about how we have broken up and are now living at Mr Bulkleys<ptr target="yal.00087_n3"/>  It is by far the best thing for us all&#8212;Mrs Bulkly was a particular friend of Matties and liked her much&#8212;she likes the children and takes good care of them&#8212;I could not very well continue to keep house without stopping Hattie's schools and I did not wish to do that&#8212;but I shall not sell my things but pack them away as I best may and hope as soon as Hattie gets a couple of years older we will try again</p>
-            <p>Well my dear Walt how is it with you&#8212;you have been and I fear are yet&#8212;sick  I hope&#8212;sincerely hope that you are getting better now&#8212;you must take good care of yourself and not attempt over exertion  From what I have heard it is a terrible sickness&#8212;and one that is apt to discourage&#8212;Dear Walt I hope you will get all right again soon</p>
+         <p>Well my dear Walt how is it with you&#8212;you have been and I fear are yet&#8212;sick  I hope&#8212;sincerely hope that you <pb xml:id="leaf002r" facs="yal.00311.003_large.jpg" type="recto"/>are getting better now&#8212;you must take good care of yourself and not attempt over exertion  From what I have heard it is a terrible sickness&#8212;and one that is apt to discourage&#8212;Dear Walt I hope you will get all right again soon</p>
             <p>I have had to go to Jefferson City&#8212;for some three or four days&#8212;and last week was at Kansas City<ptr target="yal.00087_n4"/>&#8212;. I have been engaged to make a plan of water works for Kansas City<ptr target="yal.00087_n5"/> and shall have to go up there again in eight or ten days</p>
-            <p>Mr Lane<ptr target="yal.00087_n6"/> came down from Millwaukee to the funeral&#8212;I was exceeding glad to see him as he was so kind and sympathetic</p>
+            <p>Mr Lane<ptr target="yal.00087_n6"/> came down from <choice><sic>Millwaukee</sic><corr>Milwaukee</corr></choice> to the funeral&#8212;I was exceeding glad to see him as he was so kind and sympathetic</p>
+         <pb xml:id="leaf002v" facs="yal.00311.004_large.jpg" type="verso"/>
             <p>When you can Dear Walt write to me&#8212;you must not accuse me of not thinking or wondering about you&#8212;I have often thought how I would like to see you and if I can so arrange my work shall come on to do so</p>
             <p>For a few days before her death Mattie talked a great deal about you and Mother  She wanted to see you both once more and at one time thought she would try to do so  poor child she little knew how soon she would be free from her pains</p>
             <p>Love to you dear brother and I hope you will be able to come out and see me soon&#8212;do you not think it would do you good.</p>

@@ -13,6 +13,7 @@
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName>
@@ -67,7 +68,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -75,6 +76,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-12-11" who="#el">removed 'Saturday' from title and date</change>
             <change when="2013-12-09" who="#el">removed unclear encoding surrounding Oconer</change>
@@ -116,7 +118,7 @@
                 <salute>my dear Walt</salute>
             </opener>
             
-            <p>i<ptr target="duk.00425_n3"/>
+            <p>i
                 have just <choice><orig>receeved</orig> <reg>received</reg></choice> your
                 letter with 1 dollar in it the rain perhaps <choice><orig>deterd</orig> <reg>deterred</reg></choice>
                 my getting it <choice><orig>earlyer</orig> <reg>earlier</reg></choice> but i was glad to

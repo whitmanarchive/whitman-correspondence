@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07082">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">F. Townsend Southwick to Walt Whitman, [1890?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>F. Townsend Southwick</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07082</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>F. Townsend Southwick</author>
+                    <title>F. Townsend Southwick to Walt Whitman, [1890?]</title>
+                    <date cert="medium" notBefore="1890-01-01" notAfter="1890-12-31" xml:id="dat1"
+                        >[1890?]</date>
+                    <idno type="callno">MSS18630, </idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.05316"/>
+                    <relatedItem type="document" target="wwa.00221"/>
+                    <note type="project" target="#rel01">On the back of this letter Whitman made some
+                        prose notes about America needing theories with broader themes than those provided by Germany
+                        and the rest of Europe.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Southwick, F. Townsend" ref="n5000">F. Townsend
+                        Southwick</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-10-17" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_af.00414.jpg" type="recto"/>
+
+            <p>as most convenient</p>
+
+            <p>If possible, kindly let me know your decision in respect to my proposal to select
+                &#38; edit a number of your poems for class use &#38; recitation</p>
+
+            <closer><salute>Very Respectfully</salute><signed>F. Townsend
+                    Southwick</signed><signed>&#35;31 W 55th St.</signed><ptr target="loc.07082_n1"
+                /></closer>
+
+            <pb xml:id="leaf001v" facs="loc_af.00413.jpg" type="verso"/>
+
+
+        </body>
+    </text>
+</TEI>

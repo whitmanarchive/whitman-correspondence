@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -58,7 +59,7 @@
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to George Washington Whitman, 6 September 1868</title>
                <date when="1868-09-06">September 6, 1868</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-06">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -91,15 +93,15 @@
                <salute>Dear brother George</salute>
             </opener>
             <p>Enclosed I send you draft on New York no. 5104, for five hundred and ten dollars<ptr target="loc.00450_n1"/>&#8212;the ten you will please give to Mother as a present from Mattie</p>
-            <p>We are getting along abt the same as usual. Mat still has a bad cough&#8212;yet I hardly think it as bad as it was a few weeks ago. I should'nt wonder if she and Jessie made you a visit in the course of a month or so<ptr target="loc.00450_n2"/>  The doctor told Mat yesterday that he thought a visit east would do her cough more good than anything else&#8212;and if that is the case I am anxious that she should go. Tell Mammy not to commence to worry about it yet though for perhaps she may not be afflicted.</p>
+            <p>We are getting along <choice><abbr>abt</abbr><expan>about</expan></choice> the same as usual. Mat still has a bad cough&#8212;yet I hardly think it as bad as it was a few weeks ago. I <choice><sic>should'nt</sic><corr>shouldn't</corr></choice> wonder if she and Jessie made you a visit in the course of a month or so<ptr target="loc.00450_n2"/>  The doctor told Mat yesterday that he thought a visit east would do her cough more good than anything else&#8212;and if that is the case I am anxious that she should go. Tell Mammy not to commence to worry about it yet though for perhaps she may not be afflicted.</p>
             <p>How are you getting along with your new house<ptr target="loc.00450_n3"/>&#8212;well I hope  Is there much building in B[rooklyn] this year&#8212;in St. Louis there are more houses going up this year than ever before&#8212;some 2500 dwelling houses are reported in process of construction.</p>
             <p>What is the news about the water works office&#8212;I find every body there as tight as a bottle in the way of writing  I suppose they must take their cue from Mr Lane<ptr target="loc.00450_n4"/>&#8212;I wish you would drop me a line telling me what news there is&#8212;did you go to Phillipsburgh<ptr target="loc.00450_n5"/>&#8212;and if so what did you see</p>
             <p>I see by the papers that you have had some pretty bad rain storms in Brooklyn&#8212;we have lately had two storms that has put us back on the work very much indeed&#8212;the contractors were not prepared for them and so were damaged a good deal  We have had a pretty severe storm this morning&#8212;but nothing like the others.</p>
             <p>I understand you were down to Woods at Florence<ptr target="loc.00450_n6"/>  did you see our 36" pipe and if so what did you think of them&#8212;</p>
             <p>Do you think you will continue to live in Atlantic street this winter&#8212;or do you think you will "move" as mother has been talking about for the last year or two&#8212;and by the way when do you expect Walt home&#8212;</p>
-            <p>How are political matters about Brooklyn&#8212;Seymour<ptr target="loc.00450_n7"/> I suppose will be ahead just in and about New York City but will he carry the state do you think&#8212;The only thing that will save this state to Grant&#8212;if it is saved&#8212;will be the "iron clad oath"<ptr target="loc.00450_n8"/>  The rebs are, I judge, in the majority here&#8212;but they dont allow many of them to register and when they do do it they have to do some pretty tall swearing. I took the oath 'tother day&#8212;as I want to vote for Grant&#8212;all the other questions though I think I shall leave out<ptr target="loc.00450_n9"/>  Write me and tell me all the news in and about Brooklyn&#8212;Love to Mother and all&#8212;</p>
+            <p>How are political matters about Brooklyn&#8212;Seymour<ptr target="loc.00450_n7"/> I suppose will be ahead just in and about New York City but will he carry the state do you think&#8212;The only thing that will save this state to Grant&#8212;if it is saved&#8212;will be the "iron clad oath"<ptr target="loc.00450_n8"/>  The rebs are, I judge, in the majority here&#8212;but they dont allow many of them to register and when they do do it they have to do some pretty tall swearing. I took the oath <choice><orig>'tother</orig><reg>the other</reg></choice> day&#8212;as I want to vote for Grant&#8212;all the other questions though I think I shall leave out<ptr target="loc.00450_n9"/>  Write me and tell me all the news in and about Brooklyn&#8212;Love to Mother and all&#8212;</p>
             <closer rend="right">
-               <signed>affec Thos. J Whitman</signed>
+               <signed><choice><abbr>affec</abbr><expan>affectionately</expan></choice> Thos. J Whitman</signed>
             </closer>
          
       </body>

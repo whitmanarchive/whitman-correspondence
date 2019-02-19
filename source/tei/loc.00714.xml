@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">6</biblScope>
-                     <biblScope type="page">5</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to John S. Jenks, 28 November 1866</title>
                <date when="1866-11-28">November 28, 1866</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -68,11 +55,12 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Jenks, John S.">John S. Jenks</persName>
+               <persName key="Jenks, John S." ref="n5000">John S. Jenks</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-16">corrected orgName, added pbs, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-08-27">proofread and edited annotations</change>
@@ -83,11 +71,11 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc.00714.001.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
-                  <name type="place">ATTORNEY GENERAL'S OFFICE, <hi rend="italic">Washington</hi>. </name>
-                  <date when="1866-11-28">Nov. 28, <hi rend="italic">1866.</hi>
+                  <name type="place"><handShift rend="printed"/>ATTORNEY GENERAL'S OFFICE, <hi rend="italic">Washington</hi>. </name>
+                  <date when="1866-11-28"><handShift rend="manuscript"/>Nov. 28, <handShift rend="printed"/><hi rend="italic">18<handShift rend="manuscript"/>66.</hi>
                   </date>
                </dateline>
                <salute>John S. Jenks,</salute>
@@ -99,7 +87,7 @@
             <closer rend="right">
                <signed>Walt Whitman</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="loc.00714.002.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

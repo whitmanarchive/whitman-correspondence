@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01942">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01942">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Charles Warren Stoddard to Walt Whitman, 8
-                    February 1867</title>
+                <title level="m" type="main">Charles Warren Stoddard to Walt Whitman, 8 February
+                    1867</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Charles Warren Stoddard</author>
                 <editor>Kenneth M. Price</editor>
@@ -45,11 +46,12 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> 
+                    changes to this file, as noted: <persName xml:id="kmp">Kenneth M.
+                        Price</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="al">Ashley Lawson</persName>
                     <persName xml:id="br">Beverley Rilett</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -60,14 +62,15 @@
                     <date cert="high" when="1867-02-08" xml:id="dat1">February 8, 1867</date>
                     <idno type="callno">MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Stoddard, Charles Warren">Charles Warren Stoddard</persName>
+                    
+                    <persName key="Stoddard, Charles Warren" ref="n0600">Charles Warren Stoddard</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -75,8 +78,9 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+            <change when="2015-06-14" who="#ss">annotated</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-08-02" who="#el">checked</change>
             <change when="2011-03-28" who="#al">checked</change>
             <change when="2011-03-14" who="#br">transcribed and encoded</change>
@@ -86,25 +90,32 @@
     <text type="letter">
         <body>
             <pb xml:id="leaf001r" facs="loc.01942.001.jpg" type="recto"/>
-            <div1 type="letter">                
-                <opener>                    
+            <div1 type="letter">
+                <opener>
                     <salute>To Walt Whitman. Poet..</salute>
                     <salute>My very dear Sir</salute>
                 </opener>
-                
-                <p>If you will reply to this I shall be satisfied; and where one is so easily made happy—will you grudge a little inconvenience?</p>
-                
-                <p>I should be very proud of your autograph, and because I know it to be a healthful pleasure I anticipate my <choice><sic>hearo</sic><corr>hero</corr></choice>-worship is pardonable.</p>
-                
-                <p>You are well known here and much talked of—and we are looking for a fresh edition of your poems. How long must we wait?</p>
-                
-                <p>I am approaching my 
-                    
-                    <pb xml:id="leaf001v" facs="loc.01942.002.jpg" type="verso"/>
-                    
-twenty-fourth birthday—and stand upon the order of printing a small selection of my own rhymes—being assisted in this (perhaps unwise move) by my friends. May I send you a copy of my book in June?—when it will be safely out. D. V.</p>
-                
-                <p>Please answer me—if possible, and be sure—if you so far honor me—I shall thank your indulgence, rather than mistrust that my verses have afforded you any pleasure.</p>
+
+                <p>If you will reply to this I shall be satisfied; and where one is so easily made
+                    happy—will you grudge a little inconvenience?</p>
+
+                <p>I should be very proud of your autograph, and because I know it to be a healthful
+                    pleasure I anticipate my <choice>
+                        <sic>hearo</sic>
+                        <corr>hero</corr>
+                    </choice>-worship is pardonable.</p>
+
+                <p>You are well known here and much talked of—and we are looking for a fresh edition
+                    of your poems. How long must we wait?</p>
+
+                <p>I am approaching my <pb xml:id="leaf001v" facs="loc.01942.002.jpg" type="verso"/>
+                    twenty-fourth birthday—and stand upon the order of printing a small selection of
+                    my own rhymes—being assisted in this (perhaps unwise move) by my friends. May I
+                    send you a copy of my book in June?—when it will be safely out. D. V.</p>
+
+                <p>Please answer me—if possible, and be sure—if you so far honor me—I shall thank
+                    your indulgence, rather than mistrust that my verses have afforded you any
+                    pleasure.<ptr target="loc.01942_n1"/></p>
 
                 <closer rend="right">
                     <salute>I am, dear Sir—</salute>
@@ -114,12 +125,12 @@ twenty-fourth birthday—and stand upon the order of printing a small selection 
                         <name type="place">San Francisco—Cal.</name>
                         <date when="1867">8th Feb—1867.</date>
                     </dateline>
-                </closer>                
+                </closer>
             </div1>
-            
+
             <pb xml:id="leaf005r" facs="loc.01942.005.jpg" type="recto"/>
-            
-            <div1 type="enclosure">                
+
+            <div1 type="enclosure">
                 <lg type="poem">
                     <head type="main-authorial">MY FRIEND</head>
                     <milestone unit="undeclared" rend="horbar-short-center"/>
@@ -177,9 +188,9 @@ twenty-fourth birthday—and stand upon the order of printing a small selection 
                     </lg>
                     <closer><signed rend="right">C. W. S.</signed></closer>
                 </lg>
-                
+
                 <milestone unit="undeclared" rend="horbar-full-center"/>
-                
+
                 <lg type="poem">
                     <head type="main-authorial">AT ANCHOR.</head>
                     <milestone unit="undeclared" rend="horbar-short-center"/>
@@ -229,74 +240,76 @@ twenty-fourth birthday—and stand upon the order of printing a small selection 
                     <milestone unit="undeclared" rend="horbar-short-center"/>
                     <lg type="section">
                         <lg type="linegroup">
-                        <l rend="indented2">I knew a cumbrous hill,</l>
-                        <l>From whose green breast did daintily distill</l>
-                        <l rend="indented2">A throbbing rill.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">This is the artery,</l>
-                        <l>And further on the crystal heart must be,</l>
-                        <l rend="indented2">Thought said to me.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">All other I forsook,</l>
-                        <l>To follow every twist and curious crook</l>
-                        <l rend="indented2">Of this wild brook.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">Among deep mosses set,</l>
-                        <l>I found the glimmering fount that did beget</l>
-                        <l rend="indented2">The rivulet.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">No other eye had known</l>
-                        <l>Its secret, nor ear heard—for it made moan</l>
-                        <l rend="indented2">Always alone.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">I quaffed its water clear;</l>
-                        <l>Its limpid music babbled to mine ear</l>
-                        <l rend="indented2">With voice sincere.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">Then such a silence fell</l>
-                        <l>Upon me, mantling me, as where a spell</l>
-                        <l rend="indented2">Is wont to dwell.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">Yet fled I from the place</l>
-                        <l>At a rude rustling; and fear gave me chase</l>
-                        <l rend="indented2">In my disgrace.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">'Twas a slim water-snake</l>
-                        <l>Slipt like an arrow through the shivering brake.</l>
-                        <l rend="indented2">And left no wake.</l>
-                    </lg>
-                    <lg type="linegroup">
-                        <l rend="indented2">But cleft the placid spring</l>
-                        <l>And waved its flaming sword, its forked sting,</l>
-                        <l rend="indented2">In a charmed ring.</l>
-                    </lg>
-                    </lg>
-                    <lg type="section">
-                        <lg type="linegroup"><l>   *   *   *   *   *   *   *</l></lg>
+                            <l rend="indented2">I knew a cumbrous hill,</l>
+                            <l>From whose green breast did daintily distill</l>
+                            <l rend="indented2">A throbbing rill.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">This is the artery,</l>
+                            <l>And further on the crystal heart must be,</l>
+                            <l rend="indented2">Thought said to me.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">All other I forsook,</l>
+                            <l>To follow every twist and curious crook</l>
+                            <l rend="indented2">Of this wild brook.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">Among deep mosses set,</l>
+                            <l>I found the glimmering fount that did beget</l>
+                            <l rend="indented2">The rivulet.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">No other eye had known</l>
+                            <l>Its secret, nor ear heard—for it made moan</l>
+                            <l rend="indented2">Always alone.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">I quaffed its water clear;</l>
+                            <l>Its limpid music babbled to mine ear</l>
+                            <l rend="indented2">With voice sincere.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">Then such a silence fell</l>
+                            <l>Upon me, mantling me, as where a spell</l>
+                            <l rend="indented2">Is wont to dwell.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">Yet fled I from the place</l>
+                            <l>At a rude rustling; and fear gave me chase</l>
+                            <l rend="indented2">In my disgrace.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">'Twas a slim water-snake</l>
+                            <l>Slipt like an arrow through the shivering brake.</l>
+                            <l rend="indented2">And left no wake.</l>
+                        </lg>
+                        <lg type="linegroup">
+                            <l rend="indented2">But cleft the placid spring</l>
+                            <l>And waved its flaming sword, its forked sting,</l>
+                            <l rend="indented2">In a charmed ring.</l>
+                        </lg>
                     </lg>
                     <lg type="section">
                         <lg type="linegroup">
-                        <l rend="indented2">So was the fountain spoiled</l>
-                        <l>Within its lucid walls a devil coiled—</l>
-                        <l rend="indented2">My trust was foiled.</l>
+                            <l>   *   *   *   *   *   *   *</l>
+                        </lg>
+                    </lg>
+                    <lg type="section">
+                        <lg type="linegroup">
+                            <l rend="indented2">So was the fountain spoiled</l>
+                            <l>Within its lucid walls a devil coiled—</l>
+                            <l rend="indented2">My trust was foiled.</l>
                         </lg>
                     </lg>
                     <closer>
                         <signed rend="right">Chas. Warren Stoddard.</signed>
-                    <dateline>
-                        <name type="place">San Francisco, Cal.</name>
-                    </dateline>
+                        <dateline>
+                            <name type="place">San Francisco, Cal.</name>
+                        </dateline>
                     </closer>
                 </lg>
-                
+
                 <lg type="poem">
                     <head type="main-authorial">THE SECRET WELL</head>
                     <milestone unit="undeclared" rend="horbar-short-center"/>
@@ -340,13 +353,13 @@ twenty-fourth birthday—and stand upon the order of printing a small selection 
                         <l>My willing thoughts, as spirits, haste</l>
                         <l>To draw the draught I love to taste.</l>
                         <l>There is an ever full supply</l>
-                        <l rend="indented2">Yet who may drink but I?</l>                        
+                        <l rend="indented2">Yet who may drink but I?</l>
                     </lg>
                     <closer><signed rend="right">C. W. S.</signed></closer>
                 </lg>
-                
+
                 <milestone unit="undeclared" rend="horbar-full-center"/>
-                
+
                 <lg type="poem">
                     <head type="main-authorial">A RHYME OF LIFE.</head>
                     <milestone unit="undeclared" rend="horbar-short-center"/>
@@ -373,9 +386,9 @@ twenty-fourth birthday—and stand upon the order of printing a small selection 
                     </lg>
                     <closer><signed rend="right">C. W. S.</signed></closer>
                 </lg>
-                
+
                 <milestone unit="undeclared" rend="horbar-full-center"/>
-                
+
                 <lg type="poem">
                     <head type="main-authorial">Cherries and Grapes.</head>
                     <milestone unit="undeclared" rend="horbar-short-center"/>
@@ -405,9 +418,9 @@ twenty-fourth birthday—and stand upon the order of printing a small selection 
                     </lg>
                     <closer><signed rend="right">C. W. S.</signed></closer>
                 </lg>
-                
+
                 <milestone unit="undeclared" rend="horbar-full-center"/>
-                
+
                 <lg type="poem">
                     <head type="main-authorial">MADRIGAL.</head>
                     <lg type="linegroup">
@@ -427,15 +440,15 @@ twenty-fourth birthday—and stand upon the order of printing a small selection 
                     <closer><signed rend="right">C. W. S.</signed></closer>
                 </lg>
             </div1>
-            
+
             <pb xml:id="leaf003v" type="verso"/>
-            
-            
+
+
             <pb xml:id="leaf004r" facs="loc.01942.003.jpg" type="recto"/>
-            
-            
+
+
             <pb xml:id="leaf004v" facs="loc.01942.004.jpg" type="verso"/>
-            
+
 
         </body>
     </text>

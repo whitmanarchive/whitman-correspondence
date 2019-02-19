@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01917">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Dr. Ferdinand Seeger to Walt Whitman, 15 April 1876</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Dr. Ferdinand Seeger</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="ej">Eder Jaramillo</persName>
+<persName xml:id="js">John Schwaninger</persName>
+<persName xml:id="nnk">Nima Najafi Kianfar</persName>
+<persName xml:id="cb">Caterina Bernardini</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>loc.01917</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
+        reserved. Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+
+<bibl>
+    <author>Dr. Ferdinand Seeger</author>
+    <title>Dr. Ferdinand Seeger to Walt Whitman, 15 April 1876</title>
+    
+    <date cert="high" when="1876-04-15" xml:id="dat1">April 15, 1876</date>
+    <idno type="callno">MSS18630, Box 16</idno>
+    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+               
+<person role="sender">
+    <persName key="Seeger, Ferdinand" ref="n0553">Ferdinand Seeger</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-05-08">added correspondent ref</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-07" who="#cb">proofed</change>
+            <change when="2012-04-03" who="#nnk">proofed</change>
+            <change when="2012-03-13" who="#js">proofed</change>
+            <change when="2012-01-25" who="#ej">Transcribe/Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            
+            <pb xml:id="leaf001r" facs="loc.01917.001.jpg" type="recto"/>
+            <opener>
+                <address><addrLine>718<choice><abbr>Lex</abbr><expan>Lexington</expan></choice></addrLine><addrLine><choice><abbr>N.Y.</abbr><expan><name type="place">New York</name></expan></choice></addrLine></address>
+                <dateline>
+                    <date when="1876-05-15">April 15 1876</date>
+                </dateline>
+                <salute>My dear sir</salute>
+            </opener>
+
+            <p>Please find enclosed my check for $5.&#8212; for a copy of "Leaves of Grass." A little later on I shall also subscribe for "Two Rivulets"; but for the present content myself with the first named. My delay is because of my intuition to <choice><sic>canvas</sic><corr>canvass</corr></choice> my friends and secure additional subscribers and then remit to you in a body.</p>
+                                
+            <pb xml:id="leaf001v" facs="loc.00560.002.jpg" type="verso"/><p>I am connected with the Port-chester Journal which circulates between 6 &amp; 7000 copies. I mean to write an article of a couple of columns regarding Yourself and your poems and shall close it by soliciting subscribers for Your edition. Will You do me the favor of sending me a biographical sketch (to be used <hi rend="underline">in</hi> the article) of your self and a spare photograph the latter to be used in illustration. Finally in soliciting the subscriptions shall we request parties to communicate direct with You or shall the 2'c receive &amp; forward them. I sincerely trust that Your health is improving &amp; that you may yet enjoy its best reestablishment</p>       
+        
+            <closer>
+                <salute>Yours Very Truly</salute>
+                <signed><choice><abbr>F.</abbr><expan>Ferdinand</expan></choice> Seeger</signed>
+                </closer>
+             <!--    Envelope front:
+                <pb xml:id="leaf002r" facs="loc.01917.003.jpg" type="recto"/>
+                <address><addrLine>Walt Whitman</addrLine><addrLine><name type="place">Camden</name></addrLine><addrLine><choice><abbr>N. Jersey</abbr><expan><name type="place">New Jersey</name></expan></choice></addrLine></address>--> 
+                
+            
+        </body>
+    </text>
+</TEI>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -40,32 +41,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">35-36</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 12 March 1863</title>
                <date when="1863-03-12">March 12, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-04">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00307_large.jpg" type="recto"/>
                <opener>
                   <dateline rend="right">
                      <name type="place">Brooklyn, N. Y.</name>
@@ -92,7 +80,7 @@
                   </dateline>
                   <salute>Dear Walt,</salute>
                </opener>
-               <p>I wrote you last Monday<ptr target="loc.00402_n1"/> asking if you could send me any information in regard to George's getting his money in New York. I have not heard from you yet but hope to to-day. I [want you] now, if you <hi rend="italic">possibly</hi> can get them to me by or before Tuesday morning next to send me those two shirts for George  He wants them very much indeed  Nothing that he can buy will make him half as comfortable. The thought just strikes me that perhaps you are using them yourself, if so all right, or if you want one and can send him one why do so. If you are not using them I think it would be a "big thing" for George to get them as they would be very useful both winter and summer. If you send them direct either to George or myself.<ptr target="loc.00402_n2"/>
+         <p>I wrote you last Monday<ptr target="loc.00402_n1"/> asking if you could send me any information in regard to George's getting his money in New York. I have not heard from you yet but hope to to-day. I [want you] now, if you <hi rend="italic">possibly</hi> can get them to me by or before Tuesday morning next to send me those two shirts for George  He wants them very much indeed  Nothing that he can buy will make him half as comfortable. The thought just strikes me that perhaps you are using them yourself, if so all right, or if you want one and can send him one why do so. If you are not using them I think it would <pb xml:id="leaf001v" facs="loc_ad.00308_large.jpg" type="recto"/>be a "big thing" for George to get them as they would be very useful both winter and summer. If you send them direct either to George or myself.<ptr target="loc.00402_n2"/>
                </p>
                <p>We are all well. George is enjoying himself hugely and I shall feel sorry enough when he has to go back. All send love to you.</p>
                <closer rend="right">
@@ -103,7 +91,8 @@
                <p>Mother wrote you a letter asking you to send on the shirts but when I left home this morning I forgot it so I wrote this one. will send mothers letter this P. M.<ptr target="loc.00402_n3"/>
                </p>
             </postscript>
-         
+         <pb xml:id="leaf002r" facs="loc_ad.00309_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_ad.00310_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
@@ -42,31 +43,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="cl">Calamus Lovers: Walt Whitman's Working-Class Camerados</title>
-                  <imprint>
-                     <pubPlace>San Francisco</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1987</date>
-                     <biblScope type="page">48</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Fred Vaughan</author>
                <title>Fred Vaughan to Walt Whitman, 2 May 1862</title>
                <date when="1862-05-02">May 2, 1862</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Vaughan, Fred">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred" ref="loc.00589_n100">Fred Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +62,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-20">style sheet proofreading</change>
@@ -85,19 +74,23 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.00798.jpg" type="recto"/>
             <opener> 
                <salute>Walt,</salute>
             </opener>
-         <p>I<ptr target="loc.00589_n100"/> am to be marri'd tomorrow, Saturday at 3 o'cl at 213 W. 43rd St.&#8212;near 8th Ave.</p>
+         <p>I am to be married tomorrow, Saturday at 3 o'cl at 213 W. 43rd St.&#8212;near 8th Ave.</p>
             <p>I shall have no show! I have invited no company.&#8212;</p>
             <p>I want you to be there.&#8212;</p>
-            <p>Do not fail please, as I am very axious you should come.&#8212;</p>
+            <p>Do not fail please, as I am very anxious you should come.&#8212;</p>
             <closer>
                <salute>Truly yours, </salute>
                <signed>Fred</signed>
+               <dateline>
+                  <name>New York</name>
+                  <date when="1862-05-02">May 2/62</date>
+               </dateline>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="loc_vm.00799.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

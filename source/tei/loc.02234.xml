@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><!-- USE THE OBJECT ID FOR THE VALUE OF @xml:id IN THE FOLLOWING ELEMENT. FOR EXAMPLE:
+    xml:id="zzz.00001"
+--><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02234">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Leon P. Luckey to Walt Whitman, 6 March 1874</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Leon P. Luckey</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="al">Ashley Lawson</persName>
+<persName xml:id="ej">Eder Jaramillo</persName>
+<persName xml:id="js">John Schwaninger</persName>
+<persName xml:id="cb">Caterina Bernardini</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>loc.02234</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
+        reserved. Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc><bibl>
+    <author>Leon P. Luckey</author>
+    <title>Leon P. Luckey to Walt Whitman, 6 March 1874</title>
+    <date cert="high" when="1874-03-06" xml:id="dat1">March 6, 1874</date>
+    <idno type="callno">MSS18630 Box 13 Reel 8</idno> 
+    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<person role="sender">
+    <persName key="Luckey, Leon P." ref="n6017">Leon P. Luckey</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-05-04">added correspondent ref</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-09-20" who="#cb">proofed</change>
+            <change when="2012-03-23" who="#js">proofed</change>
+            <change when="2012-03-09" who="#ej">Checked and Corrected</change>
+            <change when="2012-01-18" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+
+            <pb xml:id="leaf001r" facs="loc.02234.001.jpg" type="recto"/>
+            <opener>
+                <address><addrLine>Executive Mansion, <name type="place">Washington D.C.</name></addrLine></address>
+                <handShift rend="printed"/>
+                <dateline>
+                    <date when="1874-03-06"><handShift rend="manuscript"/>Mch 6th <handShift rend="printed"/>187<handShift rend="manuscript"/>4<handShift rend="printed"/>,</date>
+                </dateline>
+                <salute><handShift rend="manuscript"/>Dear Sir:</salute>
+            </opener>
+
+            <p>The President desires me to acknowledge the receipt of your very kind letter of the 27th ultimo, also the numbers of the N.Y. Weekly Graphic, containing your reminiscences of the war.</p>
+            
+            <p>He wishes me to assure you of his appreciation of the polite attention, and his best wishes for your speedy recovery.</p>
+            <closer>
+                <salute>Very <choice><sic>resptly</sic><corr>respectfully</corr></choice>, Yours</salute>
+                <signed>Leon P. Luckey</signed>
+                <signed>Secretary.</signed>
+            </closer>
+            
+            <note type="authorial" place="bottom" anchored="true">Mr. Walt Whitman</note>
+            <note type="authorial" place="bottom" anchored="true"><name>Camden, New Jersey</name></note>
+            <pb xml:id="leaf001v" facs="loc.02234.002.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.02234.003.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.02234.004.jpg" type="verso"/>
+
+            <pb xml:id="leaf003r" facs="loc.02234.005.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc.02234.006.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

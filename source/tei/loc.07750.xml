@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07750">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Mary Smith Costelloe, 22 January
+                    1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2017</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07750</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">21-22</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Mary Smith Costelloe, 22 January 1890</title>
+                    <date cert="high" when="1890-01-22" xml:id="dat1">January 22, 1890</date>
+                    <idno type="callno">MSS18630, Box 8, Reel 5</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Costelloe, Mary Smith" ref="loc.02189_n1">Mary Smith
+                        Costelloe</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-01-30" who="#bbb">Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden N J U S America</name>
+                    <date when="1890-01-22">Jan: 22 1890<ptr target="loc.07750_n1"/></date>
+                </dateline>
+                <salute>Dear Mary Costelloe</salute>
+            </opener>
+
+            <p>Sunny, cold, dry, very seasonable day, I continue on much the same&#8212;get out a
+                little in wheel chair (but doubtful to-day&#8212;pretty sharp cold)&#8212;have quite
+                rousing oak fire, &#38; great wolf skin fur on my big-limb'd ratan
+                    chair&#8212;Alys<ptr target="uva.00553_n3"/> was here Sunday, &#38; I rec'd
+                yesterday a nice letter<ptr target="loc.07750_n2"/> f'm Logan<ptr
+                    target=" loc.01350_n3"/>&#8212;a day or two before the "Spectator" f'm thy
+                    father<ptr target="n4979"/>&#8212;(so I am not neglected or
+                forgotten)&#8212;Give my best thanks &#38; love to all&#8212;am writing a little
+                (enclosed I fancy will be in Feb: <hi rend="italic">Century</hi>)<ptr
+                    target="loc.07750_n3"/>&#8212;three slips, one for thy father&#8212;one for
+                Logan&#8212;</p>
+
+            <p>Probably every thing in our great United States (now 42 of them) goes on well all in
+                a monotonous &#38; matter of fact way&#8212;"blessed is that country that has <hi
+                    rend="italic">no</hi> history"&#8212;we have an unprecedently humdrum
+                    President<ptr target="n4323"/> &#38; big men, but down in the myriad inner
+                popular currents the moral &#38; literary &#38; pecuniary &#38; even political flow
+                &#38; <hi rend="italic">good flow</hi> are grand&#8212;we can console our hearts
+                with that&#8212;on a great democratic scale the present &#38; here are probably
+                ahead &#38; better than all time past, or any other land&#8212;<hi
+                    rend="italic">&#38; thats what America is for</hi>&#8212;&#38; that satisfies
+                me&#8212;that general unmistakable certain trend does&#8212;I dont mind little
+                bothers &#38; exceptions &#38; some hoggishness&#8212;</p>
+
+            <closer>
+                <salute>Love to you all&#8212;</salute>
+                <signed/>
+            </closer>
+        </body>
+    </text>
+</TEI>

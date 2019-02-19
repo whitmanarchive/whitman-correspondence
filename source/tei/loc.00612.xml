@@ -11,13 +11,16 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
+               <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -37,34 +40,29 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
+                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
+                  copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">214</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Benton H. Wilson</author>
                <title>Benton H. Wilson to Walt Whitman, 9 December 1866</title>
                <date when="1866-12-09">December 9, 1866</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                  Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Wilson, Benton H.">Benton H. Wilson</persName>
+               <persName key="Wilson, Benton H." ref="loc.00612_n100">Benton H. Wilson</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,7 +70,11 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change when="2015-06-14" who="#ss">annotated</change>
+         <change who="#ak" when="2015-05-13">added correspondent ref</change>
+         <change who="#ak" when="2015-02-16">corrected orgName, added pbs, corrected
+            transcription</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-08-27">proofread and edited annotations</change>
          <change who="#vs" when="2009-08-13">added annotations</change>
@@ -83,18 +85,36 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
-            <opener> 
-               <salute>Walt Whitman, Dear old Friend,</salute>
-            </opener>
-         <p>I<ptr target="loc.00612_n100"/> wrote to you a long time ago and received one letter from you but when I wrote again I received no answer and supposed you had not received my letter and I thought I would write you a few lines again and see if you had not forgotten me. I would try to make myself one of your correspondents for I would really like to hear from you very much for I formed an attachment for you during my short stay in washington (and at the hospital) that I would like to perpetuate it.</p>
-            <p>I do not know your present address but shall address this the same as I did the last one I wrote to you.</p>
-            <p>My Friend Hamilton started for Leavenworth Kansas last week to see his Brother, who has been jammed up on the Rail Road, and had his leg amputated.</p>
-            <p>I will not weary you with a very long letter this time but will wait till I get an answer to this and then I will try to do better.</p>
-            <closer rend="right">
-               <salute>I am as every your sincere friend</salute>
-            </closer>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.01493_large.jpg" type="recto"/>
+         <opener>
+            <dateline>
+               <name type="place">Syracuse</name>
+               <date when="1866-12-09">Dec 9th/66</date>
+            </dateline>
+            <salute>Walt Whitman</salute>
+            <salute>Dear old Friend,</salute>
+         </opener>
+         <p>I wrote to you a long time ago and received one letter from you but when I wrote again I
+            received no answer<ptr target="loc.00612_n1"/> and supposed you had not received my
+            letter and I thought I would write you a few lines again and see if you had not
+            forgotten me. I would try to make myself one of your correspondents for I would really
+            like to hear from you very much for I formed an attachment for you <pb xml:id="leaf001v"
+               facs="loc_vm.01494_large.jpg" type="verso"/>during my short stay in <choice>
+               <sic>washington</sic>
+               <corr>Washington</corr>
+            </choice> (and at the hospital) that I would like to perpetuate it.</p>
+         <p>I do not know your present address but shall address this the same as I did the last one
+            I wrote to you.</p>
+         <p>My Friend Hamilton started for Leavenworth Kansas last week to see his Brother, who has
+            been jammed up on the Rail Road, and had his leg amputated.</p>
+         <p>I will not weary you with a very long letter this time but will wait till I get an
+            answer to this and then I will try to do better.</p>
+         <closer rend="right">
+            <salute>I am as every your sincere friend</salute>
+            <signed>Benton H.</signed>
+         </closer>
+         <pb xml:id="leaf002r" facs="loc_vm.01495_large.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_vm.01496_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

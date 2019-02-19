@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="br">Bev Rilett</persName>
@@ -59,14 +60,14 @@
                <author>Thomas B. Neat</author>
                <title>Thomas B. Neat to Walt Whitman, 2 February 1864</title>
                <date when="1864-02-02">February 2, 1864</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Neat, Thomas B.">Thomas B. Neat</persName>
+               <persName key="Neat, Thomas B." ref="nyp.00159_n100">Thomas B. Neat</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +75,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-01">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="20010-04-06">proofread and edited</change>
@@ -91,7 +93,7 @@
             <opener> 
                <salute>My Dear Friend Walter</salute>
             </opener>
-         <p>I<ptr target="nyp.00159_n100"/> now take my pen to Write you a few lines to let you know that I am Well and I hope that these few lines Will find you the same it has rained hear for the last three or fore days, but it is clear now and looks pleasant and Cavalry is laying still now and I am at the General Head Quarters and I have grand times nothing to do but eat and drink. I am Well pleased but When Spring opens We Will have enof to do I think that this summer is agoing to settil this War I am Willing to do my part of fighting and old Abe has called for more men and that Will help us and We can Wipe the Cavalry if mead Will lookout for the infantry the rebs is coming over the river every day thair Was tow here about a hour ago I donot know of enithing more to Write so no more at present from your true friend</p>
+         <p>I now take my pen to Write you a few lines to let you know that I am Well and I hope that these few lines Will find you the same it has rained hear for the last three or fore days, but it is clear now and looks pleasant and Cavalry is laying still now and I am at the General Head Quarters and I have grand times nothing to do but eat and drink. I am Well pleased but When Spring opens We Will have <choice><sic>enof</sic><corr>enough</corr></choice> to do I think that this summer is <choice><orig>agoing</orig><reg>a goiong</reg></choice> to <choice><sic>settil</sic><corr>settle</corr></choice> this War I am Willing to do my part of fighting and old Abe has called for more men and that Will help us and We can Wipe the Cavalry if mead Will lookout for the infantry the rebs is coming over the river every day <choice><sic>thair</sic><corr>there</corr></choice> Was tow here about a hour ago I do not know of <choice><sic>enithing</sic><corr>anything</corr></choice> more to Write so no more at present from your true friend</p>
          
          <postscript>
             <p>PS excuse poor Writing</p>

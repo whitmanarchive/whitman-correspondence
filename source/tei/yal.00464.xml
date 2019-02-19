@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00464">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Charles A. Burkhardt to Walt Whitman, 21 July
+                    1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles A. Burkhardt</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00464</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Charles A. Burkhardt</author>
+                    <title>Charles A. Burkhardt to Walt Whitman, 21 July 1890</title>
+                    <date cert="high" when="1890-07-21" xml:id="dat1">July 21, 1890</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book
+                        and Manuscript Library </orgName>
+                    <relatedItem type="text" xml:id="rel01" target="yal.00318"/>
+                    <note type="project" target="#rel01">On the back of this leaf Whitman drafted
+                        part of a prose manuscript titled "An Old Man's Rejoinder"</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Burkhardt, Charles A." ref="n5000">Charles A.
+                        Burkhardt</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-11-10" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="yal.00318.004_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1890-07-21">July 21<hi rend="underline">st</hi> 1890</date>
+                    <name type="place">Mr. Walt Whitman</name>
+                </dateline>
+                <salute>Dear Sir</salute>
+            </opener>
+
+            <p>I am very anxious to secure your autograph to insert in a copy of Half Hours with
+                Best American Authors.</p>
+
+            <p>May I ask if you will kindly send it? I enclose a stamped envelope</p>
+
+
+
+
+            <closer>
+                <salute>Yours respectfully</salute>
+                <signed>Chas. A. Burkhardt</signed>
+                <name type="place">55 Noble Street</name>
+                <name type="place">Greenville</name>
+                <name type="place">N. J.</name>
+            </closer>
+            <pb xml:id="leaf001v" facs="yal.00318.003_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

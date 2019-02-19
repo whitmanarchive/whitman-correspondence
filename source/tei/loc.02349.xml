@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02349">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Robert Ingersoll to Walt Whitman, 16 June 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Robert Ingersoll</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02349</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Robert Ingersoll</author>
+                    <title>Robert Ingersoll to Walt Whitman, 16 June 1890</title>
+                    <date cert="high" when="1890-06-16" xml:id="dat1">June 16, 1890</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839-1919, Library of Congress, Washington, DC. </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt
+                    Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Ingersoll, Robert" ref="n0839">Robert Ingersoll</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-11-10" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02349.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">45. Wall Street</name>
+                    <name type="place">New York</name>
+                    <date when="1890-06-16">June 16. 90.</date>
+                </dateline>
+                <salute>My dear Whitman,</salute>
+            </opener>
+
+            <p>Accept my best thanks for the beautiful copy of "Leaves of Grass."&#8212;What I love
+                about that book is that it is filled with the spirit of freedom. Every line is
+                    manly,<pb xml:id="leaf002r" facs="loc.02349.002.jpg" type="recto"/> natural,
+                independent, self poised, and in each is a superb personality. </p>
+
+            <p>You have given the world the <gap reason="illegible" unit="chars" quantity="6"/>
+                harvest of a great Grain. You have stood straight, erect, and have kept your hat on.
+                There is no dust on your knees. I have taken the liberty to send you<pb
+                    xml:id="leaf001v" facs="loc.02349.003.jpg" type="verso"/> a copy of the last
+                edition of Prose Poems. The title was given to the collection by my friend the
+                publisher. So you will not hold me responsible for that. I think that you will like
+                the articles on <gap reason="illegible" quantity="8" unit="chars"/>&#8212;Art and
+                Morality&#8212;life, and the <gap reason="illegible" quantity="13" unit="chars"/>.
+                Of course you may not agree with all I say, but you have that splendid
+                thing&#8212;"Intellectual Hospitality"&#8212;and that is enough.</p>
+
+
+
+            <p>Again, thanking you for the splendid Book wishing you many, many happy
+                years&#8212;laurel-crowned&#8212;</p>
+
+            <closer>
+                <salute>I remain, yours always</salute>
+                <signed>R. G. Ingersoll</signed>
+            </closer>
+            <pb xml:id="leaf003r" facs="loc.02349.004.jpg" type="recto"/>
+            <note type="editorial" rend="circled" place="top" resp="#ww">letter f'm R G Ingersoll
+                June 16 1890</note>
+            <!--I'm not fully certain this is Whitman's hand (ktl)-->
+            <pb xml:id="leaf002v" facs="loc.02349.005.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

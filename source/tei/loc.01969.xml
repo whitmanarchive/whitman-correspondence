@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01969">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title level="m" type="main">Fred Vaughan to Walt Whitman, 11 August
+    1874</title>
+<title level="m" type="sub">a machine readable transcription</title>
+<author>Fred Vaughan</author>
+<editor>Kenneth M. Price</editor>
+<editor>Ed Folsom</editor>
+<respStmt>
+    <resp>Transcription and encoding</resp>
+    <persName xml:id="ak">Alex Kinnaman</persName>
+<persName xml:id="el">Elizabeth Lorang</persName>
+    <persName xml:id="km">Kevin McMullen</persName>
+<persName xml:id="js">John Schwaninger</persName>
+<persName xml:id="nnk">Nima Najafi Kianfar</persName>
+</respStmt>
+<sponsor>Center for Digital Research in the Humanities, University of
+    Nebraska-Lincoln</sponsor>
+<sponsor>University of Iowa</sponsor>
+<funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+<edition>
+    <date>2014</date>
+</edition>
+            </editionStmt>
+            <publicationStmt>
+<idno>loc.01969</idno>
+<distributor>The Walt Whitman Archive</distributor>
+<address>
+    <addrLine>Center for Digital Research in the Humanities</addrLine>
+    <addrLine>319 Love Library</addrLine>
+    <addrLine>University of Nebraska-Lincoln</addrLine>
+    <addrLine>P.O. Box 884100</addrLine>
+    <addrLine>Lincoln, NE 68588-4100</addrLine>
+</address>
+<availability>
+    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+        Items in the Archive may be shared in accordance with the Fair Use
+        provisions of U.S. copyright law. Redistribution or republication on other
+        terms, in any medium, requires express written consent from the editors and
+        advance notification of the publisher, Center for Digital Research in the
+        Humanities. Permission to reproduce the graphic images in this archive has
+        been granted by the owners of the originals for this publication only.</p>
+</availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+<bibl>
+    <author>Fred Vaughan</author>
+    <title>Fred Vaughan to Walt Whitman, 11 August 1874</title>
+    <date cert="high" when="1874-08-11" xml:id="dat1">August 11, 1874</date>
+    <idno type="callno">MSS18630, Box 18, Reel 10-11</idno>
+    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+<person role="sender">
+    <persName key="Vaughan, Fred" ref="n0668b">Fred Vaughan</persName>
+</person>
+<person role="recipient">
+    <persName key="Whitman, Walt">Walt Whitman</persName>
+</person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#ak" when="2015-05-08">added correspondent ref</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-03-28" who="#nnk">proofed</change>
+            <change when="2012-02-22" who="#js">proofed</change>
+            <change when="2011-08-11" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+
+
+            <pb xml:id="leaf001r" facs="loc.01969.001_large.jpg" type="recto"/>
+            <opener>
+                <address><addrLine><name type="place">Brooklyn </name></addrLine></address>
+                <dateline>
+                    <date when="1874-08-11">Aug 11/74</date>
+                </dateline>
+                <salute>Walt.</salute>
+            </opener>
+
+            <p>I enclose you one of the very many letters I write to you&#8212;<space extent="3 letters"/>I think I have written to you at least once a week for the
+                past four years&#8212;sometimes I write long letters, sometimes short one's. But so
+                you know my dear friend they are all real to me&#8212;and I often keep them months
+                before I destroy them.&#8212;</p>
+
+            <p>Many and many a mile have I rode on a Locomotive while in charge of a Freight-train
+                and had you by my side in conversation&#8212;which to me was as really a <hi rend="underline">presence</hi> as in years gone by on the box of a Broadway
+                stage&#8212;or a <pb xml:id="leaf001v" facs="loc.00560.002_large.jpg" type="verso"/>
+                Sleep and lounge on the deck of a Fulton Ferry Boat&#8212;</p>
+
+            <p>Walt in all your Sorrow that has been made public, I have sorrowed with
+                you&#8212;Most especially in the death of Dear Mother<!-- <ptr target="n0705"/> -->, and your own illness</p>
+
+            <p>If you can Dear Walt write to me and acknowledge the receipt of this&#8212;If you
+                cannot, I shall still keep writing, in my own way</p>
+
+            <closer>
+                <salute>As Ever &amp; always:&#8212;<hi rend="underline">Yours,</hi></salute>
+                <signed>Fred B. Vaughan</signed>
+                <address>
+                <addrLine><unclear reason="illegible" cert="low" resp="#km">Care Leviness</unclear> &amp;                    Webber</addrLine>
+                <addrLine>164 Fulton St.</addrLine>
+                <addrLine><name><hi rend="underline">Brooklyn</hi></name>.</addrLine>
+            </address>
+            </closer>
+
+
+
+        </body>
+    </text>
+</TEI>

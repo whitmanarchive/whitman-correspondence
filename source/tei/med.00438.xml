@@ -48,6 +48,7 @@
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for
           changes to this file, as noted: 
+          <persName xml:id="ak">Alex Kinnaman</persName>
           <persName xml:id="jc">Janel Cayer</persName>
 <persName xml:id="kmp">Kenneth M. Price</persName>
 <persName xml:id="el">Elizabeth Lorang</persName>
@@ -88,11 +89,12 @@
            <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Carter, Robert">Robert Carter</persName>
+          <persName key="Carter, Robert" ref="n0143">Robert Carter</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change who="#ak" when="2015-05-20">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
       <change when="2012-08-01" who="#jc">extracted notes and inserted pointers</change>
 <change when="2012-05-18" who="#kmp">blessed</change><change when="2011-01-27" who="#kk">checked</change>
@@ -110,7 +112,7 @@
      <ptr target="med.00438_n1"/>
         </dateline>
         <salute>Robert Carter,</salute>
-        <salute>Dear Sir,</salute><ptr target="med.00438_n2"/>
+        <salute>Dear Sir,</salute>
       </opener>
 
       <p>Thinking that possibly I might be itemised or briefly biographised in the Cyclopaedia I thought I would send you, 

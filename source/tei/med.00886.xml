@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00886">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John Swinton to Walt Whitman, 16 January 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Swinton</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2018</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00886</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>William White</editor>
+                        <title xml:id="ww">Whitman and John Swinton: Some Unpublished
+                            Correspondence</title>
+                        <imprint>
+                            <pubPlace>Durham</pubPlace>
+                            <publisher>American Literature</publisher>
+                            <publisher>Duke University Press</publisher>
+                            <date when="1968-01-01">January 1968</date>
+                            <biblScope type="volume">39.4</biblScope>
+                            <biblScope type="page">550-551</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>John Swinton</author>
+                    <title>John Swinton to Walt Whitman, 16 January 1890</title>
+                    <date cert="high" when="1890-01-16" xml:id="dat1">January 16, 1890</date>
+                    <orgName xml:id="med">Location of original letter unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Swinton, John" ref="n0611">John Swinton</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-05-02" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Nice, France,</name>
+                    <date when="1890-01-16">Jan. 16, 1890<ptr target="med.00886_n1"/></date>
+                </dateline>
+                <salute>My Dear Walt&#8212;</salute>
+            </opener>
+
+            <p>I am still here an invalid&#8212;nervous prostration.&#8212; To you, far longer an
+                invalid, I send affectionate memories. The latest thing of yours I have seen is a
+                noble piece&#8212;"Welcome to Brazil,"<ptr target="med.00886_n2"/> printed in the
+                Paris N.Y. Herald. I congratulate you on being able to do such work[.]</p>
+
+            <closer>
+                <salute>Ever yours</salute>
+                <signed>John Swinton</signed>
+            </closer>
+            <postscript><p>Care J.S. Cook &#38; Co | 22 Old Broad St | London, England.<ptr target="med.00886_n3"/></p></postscript>
+        </body>
+    </text>
+</TEI>

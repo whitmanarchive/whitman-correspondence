@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04353">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Thomas C. Vale to Walt Whitman, 12 December
+                    1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Thomas C. Vale</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04353</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl>
+                    <author>Thomas C. Vale</author>
+                    <title>Thomas C. Vale to Walt Whitman, 12 December 1890</title>
+                    <date cert="high" when="1890-12-12" xml:id="dat1">December 12, 1890</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839-1919, Library of Congress, Washington, DC. </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Vale, Thomas C." ref="n5000">Thomas C. Vale</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-12-06" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.00744.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">"Bell Court"</name>
+                    <name type="place">Bidford</name>
+                    <name type="place"><unclear reason="illegible" cert="medium" resp="#ktl">11<hi
+                                rend="underline">th</hi></unclear> Stratford-on-Avon</name>
+                    <name type="place">England</name>
+                    <date when="1890-12-12">12 Dec<hi rend="underline">r</hi>/90</date>
+                    <name type="recipient">Professor Walt Whitman&#8212;</name>
+                    <name type="place">Camden</name>
+                    <name type="place">New Jersey</name>
+                </dateline>
+                <salute>Dear Sir,</salute>
+            </opener>
+
+            <p>I thought the enclosed cutting out, of my Chester paper would interest you. So I have
+                taken the liberty to send it.</p>
+
+            <p>Your kindness on the field of battle, and<pb xml:id="leaf001v"
+                    facs="loc_vm.00745.jpg" type="verso"/> in the hospitals, is deserving of all
+                praise&#8212;and is appreciated by all Britons.</p>
+
+
+
+            <p>Being a stranger, not having read much of your poetry, I am very anxious, if
+                possible, to procure, a copy of the first edition of one of your earliest
+                poems&#8212;I am not particular which one&#8212;if you would kindly advise me
+                    where<pb xml:id="leaf002r" facs="loc_vm.00746.jpg" type="recto"/> I could
+                procure a copy&#8212;I am sure Sir, you have the best wishes of myself, and
+                all&#8212;for your health and happiness + wishing you a joyful Xmas + a happy new
+                year.</p>
+
+            <closer>
+                <salute>I remain Dear Sir</salute>
+                <salute>Your faithful Servant</salute>
+                <signed><hi rend="underline">Thos. C. Vale</hi></signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc_vm.00747.jpg" type="verso"/>
+            <postscript>
+                <p>It must have been a great consolation to you, to think that you have helped so
+                    much to alleviate the sufferings of those on the field of battle, and in the
+                    hospitals.</p>
+                <closer><signed>T. C. Vale&#8212;</signed></closer>
+            </postscript>
+        </body>
+    </text>
+</TEI>

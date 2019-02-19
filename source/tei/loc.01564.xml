@@ -46,6 +46,7 @@
                 <note type="project">The following are responsible for particular readings or for
                     changes to this file, as noted:
 <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>                        
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
@@ -72,7 +73,7 @@
                     <title>Walt Whitman to Abraham Simpson, 20 May 1867</title>
                     <date cert="high" when="1867-05-20" xml:id="dat1">May 20, 1867</date>
                     <idno type="callno">MSS18630, Box 16</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -82,11 +83,12 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Simpson, Abraham">Abraham Simpson</persName>
+                    <persName key="Simpson, Abraham" ref="n0565">Abraham Simpson</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#ak" when="2015-05-20">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-03" who="#kp">blessed</change>
             <change when="2010-11-15" who="#el">checked</change>
@@ -103,7 +105,7 @@
                     <name type="place" rend="right"><hi rend="italic">Washington</hi></name>.
                     <date when="1867-05-20" rend="right">May 20, <hi rend="italic">1867</hi></date>.<ptr target="loc.01564_n1"/>
                 </dateline>
-                <salute>Abm. Simpson<ptr target="loc.01564_n3"/></salute>
+                <salute>Abm. Simpson</salute>
                 <salute>My dear Sir:</salute>
             </opener>
 

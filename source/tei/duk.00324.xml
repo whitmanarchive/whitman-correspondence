@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -40,24 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">60-61</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 17 August 1862</title>
                <date when="1862-08-17">August 17, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -72,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-12-18">Ken's proofreading changes</change>
@@ -85,7 +74,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00324.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Near Cedar Mountains Va <lb/>
@@ -95,13 +84,13 @@ corrections</change>
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-            <p>We have made another move, and are now stoping about 6 miles from Culpepper Court House, and near where the late fight took place between Banks &amp; Jackson.<ptr target="duk.00324_n2"/>
+            <p>We have made another move, and are now <choice><sic>stoping</sic><corr>stopping</corr></choice> about 6 miles from Culpepper Court House, and near where the late fight took place between Banks &amp; Jackson.<ptr target="duk.00324_n2"/>
             </p>
-            <p>We left Frederickburg about 8 Oclock in the evening of August 12th and marched until 4 Oclock next morning when we stoped and had 3 or 4 hours sleep, and started on again. we marched about 38 miles altogether but as we had a baggage train of about 30 wagons [we?] could not get along very fast. when we arived here the fight was over and old Stonewall had skedadled back in the mountains, pretty badly licked too, as near as I can find out.<ptr target="duk.00324_n3"/> This is as handsome a country as I ever saw,  we find plenty of forage in the shape of Beef, Chickens, eggs, potatoes, and the way the cattle and sheep have suffered since we have been here is a caution to secesh farmers,  some of our boys go to a house where there is a sheep dog, take the dog and make him catch as many sheep as they want, and bring them in and cook them, and you may be sure the yankees get some tall cussing from the farmers. The weather here is splendid,  the days are no hotter than in Brooklyn and the last three or four nights have been plenty cool enough,  We brought no tents with us and I am so used to sleepi[ng?]out on the ground that I don't know as I could sleep in a house at all. I can sleep out in the rain and not get the least cold or feel any worse for it, so Mother you must know that I am pretty toughf and hearty  There is a large number of Troops about here and we shall probaly move on in the course of a day or two  the troops all seem to be in the best of health &amp; spirits.</p>
+         <p>We left Frederickburg about 8 Oclock in the evening of August 12th and marched until 4 Oclock next morning when we <choice><sic>stoped</sic><corr>stopped</corr></choice> and had 3 or 4 hours sleep, and started on again. we marched about 38 miles altogether but as we had a baggage train of about 30 wagons we could not get along very fast. when we <choice><sic>arived</sic><corr>arrived</corr></choice> here the fight was over and old Stonewall had skedadled back in the mountains, pretty badly licked too, as near as I can find out.<ptr target="duk.00324_n3"/> This is as handsome a country as I ever saw,  we find <pb xml:id="leaf001v" facs="duk.00324.002_large.jpg" type="verso"/>plenty of forage in the shape of Beef, Chickens, eggs, potatoes, and the way the cattle and sheep have suffered since we have been here is a caution to <choice><abbr>secesh</abbr><corr>secessionist</corr></choice> farmers,  some of our boys go to a house where there is a sheep dog, take the dog and make him catch as many sheep as they want, and bring them in and cook them, and you may be sure the yankees get some tall cussing from the farmers. The weather here is splendid,  the days are no hotter than in Brooklyn and the last three or four nights have been plenty cool enough,  We brought no tents with us and I am so used to sleeping out on the ground that I don't know as I could sleep in a house at all. I can sleep out in the rain and not get the least cold or feel any worse for it, so Mother you must know that I am pretty toughf and hearty  <pb xml:id="leaf002r" facs="duk.00324.003_large.jpg" type="recto"/>There is a large number of Troops about here and we shall probaly move on in the course of a day or two  the troops all seem to be in the best of health &amp; spirits.</p>
             <p>The 14th are somewhere about here but we change about so often its hard work to keep track of any one.<ptr target="duk.00324_n4"/>
             </p>
-            <p>It is quite a long while since I have heard from any of you, but I expect letters for us to have to go a long way before they find us. I sent you 40$<ptr target="duk.00324_n5"/> by Express which I supose you received. I write this sitting on the ground, under a thundering great big oak tree that shades about an acre of ground. Mother I think after the war is over we will buy our little farm down here at the foot of these mountains, and retire from active service.</p>
-            <p>It is now about time for dress parade so I must knock off and get ready  I dont believe I shall have a chance to write you very often as there will be no way of getting to the post office but I will write as often as there is a chance to send letters which may be oftener than I supose as I know nothing about where we shall go</p>
+            <p>It is quite a long while since I have heard from any of you, but I expect letters for us to have to go a long way before they find us. I sent you 40$<ptr target="duk.00324_n5"/> by Express which I <choice><sic>supose</sic><corr>suppose</corr></choice> you received. I write this sitting on the ground, under a thundering great big oak tree that shades about an acre of ground. Mother I think after the war is over we will buy our little farm down here at the foot of these mountains, and retire from active service.</p>
+         <p>It is now about time for dress parade so I must knock off and <pb xml:id="leaf002v" facs="duk.00324.004_large.jpg" type="verso"/>get ready  I <choice><sic>dont</sic><corr>don't</corr></choice> believe I shall have a chance to write you very often as there will be no way of getting to the post office but I will write as often as there is a chance to send letters which may be oftener than I <choice><sic>supose</sic><corr>suppose</corr></choice> as I know nothing about where we shall go</p>
             <p>Direct my letters to Cullpepper Court House</p>
             <closer rend="center">
                <salute>Much Love to all</salute>

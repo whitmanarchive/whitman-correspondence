@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -40,32 +41,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">50-52</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 25 April 1863</title>
                <date when="1863-04-25">April 25, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2008-08-31">proofread and edited</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00335_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y. </name>
@@ -92,10 +80,12 @@
                </dateline>
                <salute>Dear Walt,</salute>
             </opener>
-            <p>Although I have little to write you about yet I thought I would just "drop you a line" as they say telling you that we all are in our usual style of liberty, health and pursuit of happiness. The latter of course under great difficulties as everything is so awful dear that you can hardly get enough to make a happy dinner on for less than 150<hi rend="superscript">cts</hi> but then we are doing the jolliest we can. How goes things with you. We dont hear from you as often as we used to.<ptr target="loc.00410_n1"/> I hope you are not so engaged but that you can find time to write home? Do you visit the Hospitals as oftens as usual?<ptr target="loc.00410_n2"/> I suppose so. I hope you are enabled to do as much good as formerly</p>
-            <p>I have had quite a disappointment in a small way  There was a bill introduced in the Leg. to give the Brooklyn Sewer Com. the power to build a large sewer in Kent Av. raise the grade of the streets around there (Kent Av. from Flushing toward Williamsburg) &amp;c quite a large job and we all surely thought it would go through as it is very much needed, and Mr Lane had promised me charge of it. Indeed I had commenced making plans, profiles &amp;c when at the last moment the thing got squelched, but yet I dont know a[s] I am <hi rend="italic">very</hi> sorry for we still expect to get the <hi rend="italic">new main</hi>, that is to lay a new line of pipe from the Reservoir down to the city, and even if we dont do that why I shall have work enough to keep me along, doing anything and everything that turns up<ptr target="loc.00410_n3"/>
+         <p>Although I have little to write you about yet I thought I would just "drop you a line" as they say telling you that we all are in our usual style of liberty, health and pursuit of happiness. The latter of course under great difficulties as everything is so awful dear that you can hardly get enough to make a happy dinner on for less than 150<hi rend="superscript">cts</hi> but then we are doing the jolliest we can. How goes things with you. We <choice><sic>dont</sic><corr>don't</corr></choice> hear from you as often as we used to.<ptr target="loc.00410_n1"/> I hope you are not so engaged but that you can find time to write home? Do you visit the Hospitals as <choice><sic>oftens</sic><corr>often</corr></choice> as usual?<ptr target="loc.00410_n2"/> I suppose so. I hope you are enabled to do as much good as formerly</p>
+         <pb xml:id="leaf001v" facs="loc_ad.00336_large.jpg" type="verso"/>
+         <p>I have had quite a disappointment in a small way  There was a bill introduced in the Leg. to give the Brooklyn Sewer Com. the power to build a large sewer in Kent Av. raise the grade of the streets around there (Kent Av. from Flushing toward Williamsburg) &amp;c quite a large job and we all surely thought it would go through as it is very much needed, and Mr Lane had promised me charge of it. Indeed I had commenced making plans, profiles &amp;c when at the last moment the thing got squelched, but yet I <choice><sic>dont</sic><corr>don't</corr></choice> know a[s] I am <hi rend="italic">very</hi> sorry for we still expect to get the <hi rend="italic">new main</hi>, that is to lay a new line of pipe from the Reservoir down to the city, and even if we <choice><sic>dont</sic><corr>don't</corr></choice> do that why I shall have work enough to keep me along, doing anything and everything that turns up<ptr target="loc.00410_n3"/>
             </p>
-            <p>Andrew is about the same as when I last wrote you  no worse, and I think a little better.<ptr target="loc.00410_n4"/> I do not see much of him as he comes to the house mostly when I am out. He visits Dr Ruggles<ptr target="loc.00410_n5"/> now and then. The Dr thinks that he will gradually get over it. Mother had a little attack of her rheumatism yesterday and to-day and I am somewhat afraid that she will have more of it. She has been wonderful foolish in cleaning house as she calls it and has overworked herself.<ptr target="loc.00410_n6"/> I dont think that she ought to do so, and so I tell her but she always answers that it's got to be done and that there is no one but her to do it, &amp;c  Mary and Louisa<ptr target="loc.00410_n7"/> have gone home  They went Thursday last. Mother worked quite hard while they were here which may help account for the rheumatism in a measure. Mat is as jolly and good as ever. I am glad that she has no work from New York as twould be too much for her. Although she often speaks of writing you, yet she takes it out in talking, but she always wants to be remembered to you  Hattie is just the same little Harem-scarem and joyous little thing that she ever is. If she can only get out in the open air 'tis all she wants. It appears to be perfect pleasure to her, she dont seem to care about seeing anybody or going to any place, only get out in the air, that is all. Twould amuse you to see her when I go home, she seems to be glad enough, and always looks at me with an expression "well you've come and you are all right" but otherwise with the utmost indifference, and when I tell her to come and see me she says "what do I want to see you for" or at other times "What are you going to do with me." You would be pleased to see how finely she is growing, seemingly perfect health  We have heard from George but twice since he left home. I wish we could do so oftener.  Have not had a letter from Han since I wrote you</p>
+         <pb xml:id="leaf002r" facs="loc_ad.00337_large.jpg" type="recto"/>
+         <p>Andrew is about the same as when I last wrote you  no worse, and I think a little better.<ptr target="loc.00410_n4"/> I do not see much of him as he comes to the house mostly when I am out. He visits Dr Ruggles<ptr target="loc.00410_n5"/> now and then. The Dr thinks that he will gradually get over it. Mother had a little attack of her rheumatism yesterday and to-day and I am somewhat afraid that she will have more of it. She has been wonderful foolish in cleaning house as she calls it and has overworked herself.<ptr target="loc.00410_n6"/> I <choice><sic>dont</sic><corr>don't</corr></choice> think that she ought to do so, and so I tell her but she always answers that it's got to be done and that there is no one but her to do it, &amp;c  Mary and Louisa<ptr target="loc.00410_n7"/> have gone home  They went Thursday last. Mother worked quite hard while they were here which <pb xml:id="leaf002v" facs="loc_ad.00338_large.jpg" type="verso"/>may help account for the rheumatism in a measure. Mat is as jolly and good as ever. I am glad that she has no work from New York as <choice><sic>twould</sic><corr>it would</corr></choice> be too much for her. Although she often speaks of writing you, yet she takes it out in talking, but she always wants to be remembered to you  Hattie is just the same little Harem-scarem and joyous little thing that she ever is. If she can only get out in the open air 'tis all she wants. It appears to be perfect pleasure to her, she <choice><sic>dont</sic><corr>don't</corr></choice> seem to care about seeing anybody or going to any place, only get out in the air, that is all. <choice><sic>Twould</sic><corr>It would</corr></choice> amuse you to see her when I go home, she seems to be glad enough, and always looks at me with an expression "well you've come and you are all right" but otherwise with the utmost indifference, and when I tell her to come and see me she says "what do I want to see you for" or at other times "What are you going to do with me." You would be pleased to see how finely she is growing, seemingly perfect health  We have heard from George but twice since he left home. I wish we could do so oftener.  Have not had a letter from Han since I wrote you</p>
             <closer rend="right">
                <signed>Affectionately Jeff.</signed>
             </closer>

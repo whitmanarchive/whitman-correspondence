@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -58,6 +59,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-03-02">corrected pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-14">proofread and edited</change>
@@ -68,7 +70,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00949.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="loc_jc.00701.jpg" type="recto"/>
          
             <opener>
                <dateline>
@@ -76,17 +78,17 @@
                </dateline>
                <salute>Dear Walt,</salute>
             </opener>
-         <p>Your letter was very welcome, and I<ptr target="loc.00949_n100"/> have not forgotten you one day, though I have not written you. But I have been very much occupied in thought, as well as much of my time in going daily, &amp; some days twice to see Miss Howard.<ptr target="loc.00949_n2"/> Her sister Sallie has the worst form of typhoid fever. She has been very ill for three weeks, &amp; alarmingly so for over ten days. Her mother <pb facs="loc.00949.002.jpg" type="verso"/>was sent for more than a week ago, and two doctors have come twice a day to see her for many days. I don't suppose there is any hope at all. She is wild with delirium all the time. Poor Garrie is worn, but she bears up like a hero under it, does not leave her sister night or day. I got a good nurse for them, as their nurse had to leave.</p>
-            <p>It is very sad, &amp; I have not given up hoping till to-day, but she has no encouraging symptoms.<pb facs="loc.00949.003.jpg" type="recto"/>
+         <p>Your letter was very welcome, and I<ptr target="loc.00949_n100"/> have not forgotten you one day, though I have not written you. But I have been very much occupied in thought, as well as much of my time in going daily, &amp; some days twice to see Miss Howard.<ptr target="loc.00949_n2"/> Her sister Sallie has the worst form of typhoid fever. She has been very ill for three weeks, &amp; alarmingly so for over ten days. Her mother <pb xml:id="leaf001v" facs="loc_jc.00702.jpg" type="verso"/>was sent for more than a week ago, and two doctors have come twice a day to see her for many days. I don't suppose there is any hope at all. She is wild with delirium all the time. Poor Garrie is worn, but she bears up like a hero under it, does not leave her sister night or day. I got a good nurse for them, as their nurse had to leave.</p>
+         <p>It is very sad, &amp; I have not given up hoping till to-day, but she has no encouraging symptoms.<pb xml:id="leaf002r" facs="loc_jc.00703.jpg" type="recto"/>
             </p>
             <p>I was so glad to hear that your little pet was better, and that your mother had got home! Has the little girl continued to improve? I hope so.</p>
             <p>It was good too, to hear that your mother was so well, &amp; George, &amp; all of you.</p>
             <p>I hope you are all well now. I trust the little girl is picking up fast.</p>
-            <p>You ask about William.<ptr target="loc.00949_n3"/> His letters have been "few and far between", four in five weeks,&#8212; but now I look a little for him to-morrow, <pb facs="loc.00949.004.jpg" type="recto"/>Saturday, and shall surely expect him on Sunday.  I guess he has had a good time, &amp; he sent the <hi rend="italic">MSS.</hi> to Curtis.  You may see him in New York to-morrow.  He will see Curtis, I suppose.</p>
+         <p>You ask about William.<ptr target="loc.00949_n3"/> His letters have been "few and far between", four in five weeks,&#8212; but now I look a little for him to-morrow, <pb xml:id="leaf002v" facs="loc_jc.00704.jpg" type="recto"/>Saturday, and shall surely expect him on Sunday.  I guess he has had a good time, &amp; he sent the <hi rend="italic">MSS.</hi> to Curtis.  You may see him in New York to-morrow.  He will see Curtis, I suppose.</p>
             <p>When you come back what <hi rend="italic">lots</hi> of things we shall have to talk about.</p>
             <p>I saw in the Tribune of <hi rend="italic">Wednesday</hi> the advertisement of <hi rend="italic">Drum Taps</hi>.  Glad we were to see it, Charley &amp; I.</p>
-            <p>Have you sent one to Emerson?  <hi rend="italic">Do</hi>, in haste, won't you?  I <pb facs="loc.00949.005.jpg" type="verso"/>
-               <pb facs="loc.00949.006.jpg" type="verso"/>want him to have one right away.</p>
+         <p>Have you sent one to Emerson?  <hi rend="italic">Do</hi>, in haste, won't you?  I <pb xml:id="leaf003r" facs="loc_jc.00705.jpg" type="verso"/>
+            <pb xml:id="leaf003v" facs="loc_jc.00706.jpg" type="verso"/>want him to have one right away.</p>
             <p>Dear Walt, will you see in New York Mr. Howells?<ptr target="loc.00949_n4"/> I don't even know his address, &amp; it is necessary that I should write him a business letter. I wonder how they are. Give him my love if you see him.</p>
             <p>Jeannie is well, &amp; sends love. I am well, so is Charley, &amp; he too, sends love.<!-- <ptr target="n5" xml:id="r5"/> --> We all want to see you back.</p>
             <p>Mr. Ashton is well, but
@@ -97,7 +99,8 @@
                <salute>Yours&#8212;</salute>
                <signed>Nelly.</signed>
             </closer>
-         
+         <pb xml:id="leaf004r" facs="loc_jc.00699.jpg" type="recto"/>
+         <pb xml:id="leaf004v" facs="loc_jc.00700.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

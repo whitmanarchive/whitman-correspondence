@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -42,30 +43,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <editor>Charley Shively</editor>
-                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1989</date>
-                     <biblScope type="page">184-185</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Christopher and Maria Smith</author>
                <title>Christopher and Maria Smith to Walt Whitman, 26 January 1865</title>
                <date when="1865-01-26">January 26, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Christopher">Christopher Smith</persName>
+               <persName key="Smith, Christopher" ref="loc.00605_n100">Christopher Smith</persName>
             </person>
             <person role="sender">
                <persName key="Smith, Maria">Maria Smith</persName>
@@ -76,6 +65,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-03">proofread and edited</change>
@@ -88,16 +78,134 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_jc.00105_large.jpg" type="recto"/>
             <opener> 
-               <dateline rend="right"/>
-               <salute>Mr Walt Whitman,</salute>
+               <dateline>
+                  <name type="place">Greensburg</name>
+                  <date when="1865-01-26">January the 26 1865</date>
+               </dateline>
+             <salute>Mr Walt Whitman,</salute>
             </opener>
-         <p>kind Sir we<ptr target="loc.00605_n100"/> have received your kind letters and perused them with much pleasure we will assure you that your letters will always be very acceptible with us your Comrad Bethuel Smith<ptr target="loc.00605_n2"/> has gone about forty miles from her with his team to work by the Day he gets twenty shillings per Day he went this week his health is not very good yet i dont now how he will stand it if his helth is good enough to work he may stay sevral weeks his health was very poor when he come home and that is the news why he Did not come and see you he wanted to get home and be doctered for he thinks it a very poor place to doctor down there we have one son younger with us he is Choping in the lumber woods and the two girls are with us so you se we have but four in a family at presant the rest of our family are as well as usual thu[e] will rite when he gets home we have got your papers you sent and thank you for them as we dont take any papers at presant those come very welcome the republicans have elected there oficers at last now we shall see what they will do  we think the war will last four long years more at least it ought to be the most earnest prayer to almighty god that the war might come to a close that those suffering soldiers might return to their homes and we have peace and more throughout our land  there will a draft in this town within a few days we have three sones here that will be liable to the draft and two in Pennsylvania you have a Mother with you I would like to now of her welfare i think she has one great blessing to comfort her in her age and that is having a kind hearted Son well i cant rite much more at presant i will say we got your letter and like you sent last fall and think a great deal of it</p>
-            <p>Bethuels wounds are all sound and well and he is not lame in the least but has not got well of the diaraee we have got most everything we could think and hear of and it dont cure him he has had it ever since he was wounded in last June sometimes he gets better but not well if you now of any you think would cure him i should like to have you write what it is</p>
-            <p>We will rite some more there is a small village a few miles north of us called rider which letters sometimes goes when you put on Quens-bury we dont get them when they go there very often perhaps i have rote enough at presant we live in hopes we may see each other yet if our lives are spared this from Bethuels father and Mother</p>
-            <closer rend="right"/>
-         
+         <p>kind Sir we have received your kind
+            letters and perused them
+            with much pleasure we will
+            assure you that your letters
+            will always be very <choice><sic>acceptible</sic><corr>acceptable</corr></choice>
+            with us your <choice><sic>Comrad</sic><corr>Comrade</corr></choice> Bethuel
+            Smith<ptr target="loc.00605_n2"/> has gone about forty
+            miles from her with his
+            team to work by the Day
+            he gets twenty shillings
+            per Day he went this week
+            his health is not very good
+            yet i <choice><sic>dont</sic><corr>don't</corr></choice> now how he will
+            stand it if his <choice><sic>helth</sic><corr>health</corr></choice> is
+            good enough to work he
+            may stay <choice><sic>sevral</sic><corr>several</corr></choice> weeks
+           his health was very poor
+           when he come home and
+           that is the news why he
+            <pb xml:id="leaf001v" facs="loc_jc.00106_large.jpg" type="verso"/>
+           Did not come and
+           see you he wanted to get
+           home and be <choice><sic>doctered</sic><corr>doctored</corr></choice> for he
+           thinks it a very poor place
+           to doctor down there we have
+           one son younger with us
+           he is <choice><sic>Choping</sic><corr>Chopping</corr></choice> in the lumber
+           woods and the two girls
+           are with us so you <choice><sic>se</sic><corr>see</corr></choice> we have
+           but four in a family
+           at <choice><sic>presant</sic><corr>present</corr></choice> the rest of our
+           family are as well as
+           usual they will rite when
+           he gets home we have got
+           your papers you sent
+           and thank you for them
+           as we dont take any papers
+           at <choice><sic>presant</sic><corr>present</corr></choice> those come very
+           welcome the republicans
+           have elected there <choice><sic>oficers</sic><corr>officers</corr></choice> at
+           last now we shall see what
+           they will do  we think
+            <pb xml:id="leaf002r" facs="loc_jc.00107_large.jpg" type="recto"/>
+           the war will last four
+           long years more at least
+           it ought to be the most
+           earnest prayer to <choice><sic>almight</sic><corr>almighty</corr></choice>
+           god that the war might
+           come to a close that those
+           suffering soldiers might
+           return to their homes and
+           we have peace and more
+           throughout our land
+           there will a draft in this
+           town within a few days
+           we have three <choice><sic>sones</sic><corr>sons</corr></choice> here
+           that will be liable
+           to the draft and two
+           in <choice><sic>pennsylvania</sic><corr>Pennsylvania</corr></choice> you
+           have a Mother with
+           you I would like to 999now
+           of her welfare i think
+           she has one great
+           blessing to comfort
+           her in her age and that
+           is having a kind hearted
+            <pb xml:id="leaf002v" facs="loc_jc.00108_large.jpg" type="verso"/>
+           Son well i cant rite
+           much more at
+           <choice><sic>presant</sic><corr>present</corr></choice> i will say we
+           got your letter and like
+           you sent last fall and
+           think a great deal of it</p>
+            <p>Bethuels wounds are all
+               sound and well and he
+               is not lame in the least
+               but has not got well of
+               the <choice><sic>diaraee</sic><corr>diary</corr></choice> we have got
+               most everything we could
+               think and hear of and it
+               <choice><sic>dont</sic><corr>don't</corr></choice> cure him he has
+               had it ever since he
+               was wounded in last
+               June sometimes he gets
+               better but not well if
+               you now99 of any you think
+               would cure him i should
+               like to have you write what
+               it is</p>
+         <pb xml:id="leaf003r" facs="loc_jc.00109_large.jpg" type="recto"/>
+            <p>p.s i will rite some
+               more there is a small
+               village a few miles
+               north of us called
+               rider which letters
+               sometimes goes when
+               you put on Queensbury
+               we <choice><sic>dont</sic><corr>don't</corr></choice> get them
+               when they go there
+               very often perhaps
+               i have rote enough at
+               <choice><sic>presant</sic><corr>present</corr></choice> we live in
+               hopes we may see each
+               other yet if our lives
+               are spared this from
+               Bethuels father and
+               Mother</p>
+         <closer>
+            Christopher and
+            Maria Smith to Walt Whitman
+         </closer>
+         <pb xml:id="leaf003v" facs="loc_jc.00110_large.jpg" type="verso"/>
+         <postscript>
+            <p>address
+               <address>
+                  <addrLine>Glensfalls Warren</addrLine>
+                  <addrLine>County NY</addrLine>
+               </address>
+            </p>            
+         </postscript>
       </body>
    </text>
 </TEI>

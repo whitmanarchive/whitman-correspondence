@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -41,24 +42,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">52-53</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 12 May 1862</title>
                <date when="1862-05-12">May 12, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
          <change who="#nhg" when="2014-09-02">corrected date</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -87,24 +76,25 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00318.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <date when="1862-05-12">12th/62</date>
-                  <name type="place">Head Quarters 51st Regt  Newbern  <date when="1862-05-12">May</date>&#8212;</name>
+                  <name type="place">Head Quarters 51st Regt  Newbern</name>
+                  <date when="1862-05-12">May</date>&#8212;
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-            <p>I am Officer of the guard again to night and as I have nothing particular to do for the next two hours I may as well have a little talk with you. Well Mamy how are you to night, and how is Mat and Sis and all the rest of the folkses  does your wrists trouble you any now a days, and are you as fat and handsome as ever,  I suppose you still live in the same house,  does Mrs Brown live with you yet,<ptr target="duk.00318_n1"/> or aint you boss of the institution, this year. I am mighty anxious to know how you have things aranged. I am perfectly well and hearty, the weather here is fine and the men generaly are pretty healthy. The news from New Orleans<ptr target="duk.00318_n2"/> and in fact from all parts of the Union keeps us all in good spirits so that we get along first rate.</p>
-            <p>We have been reinforced within the last week by a Regt of Cavelry and a battery of light artillary with eight rifled guns, so we are about ready to advance, if there is any advanceing to be done in this part of the world  I would not be surprised if we were to move somewhere inland, on the railroad runing from Richmond through this State and leading down South somewhere I dont know where. But it seems to me if we could stop the retreat of the varmints and let McClelland<ptr target="duk.00318_n3"/> have a chance to get his name up it would bee about the thing.</p>
-            <p>We have not been paid off yet Mother but we expect to be in a very few days,  just as soon as I get my money I will send you 50 or 60$ by Adams Express,  the paymaster is here and he is looking for the money to arive every day. The 1st Leiut of our Co whose name is Francis,<ptr target="duk.00318_n4"/> has a wife in Burlington Vt  he wrote to her to call on Han  So I expect to hear from her&#8212;Soon.</p>
+         <p>I am Officer of the guard again to night and as I have nothing particular to do for the next two hours I may as well have a little talk with you. Well Mamy how are you to night, and how is Mat and Sis and all the rest of the <choice><sic>folkses</sic><corr>folks</corr></choice>  does your wrists trouble you any now a days, and are you as fat and handsome as ever,  I suppose you still live in the same house,  does Mrs Brown live with you yet,<ptr target="duk.00318_n1"/> or <choice><sic>aint</sic><corr>ain't</corr></choice> you boss of the institution, this year. I am mighty anxious to know how you have things aranged. I am perfectly well and hearty, the weather here is fine and the men <choice><sic>generaly</sic><corr>generally</corr></choice> are pretty healthy. The news from New Orleans<ptr target="duk.00318_n2"/> and in fact from all parts of the Union <pb xml:id="leaf001v" facs="duk.00318.002_large.jpg" type="verso"/>keeps us all in good spirits so that we get along first rate.</p>
+         <p>We have been reinforced within the last week by a Regt of Cavelry and a battery of light <choice><sic>artillary</sic><corr>artillery</corr></choice> with eight rifled guns, so we are about ready to advance, if there is any <choice><sic>advanceing</sic><corr>advancing</corr></choice> to be done in this part of the world  I would not be surprised if we were to move somewhere inland, on the railroad <choice><sic>runing</sic><corr>running</corr></choice> from Richmond through this State and leading down South somewhere I <choice><sic>dont</sic><corr>don't</corr></choice> know where. But it seems to me if we could stop the retreat of the varmints and let McClelland<ptr target="duk.00318_n3"/> have a chance to get his name up it would bee about the thing.</p>
+         <p>We have not been paid off yet Mother but we expect to be in a very few days,  just as soon as I get my money I will send you 50 or 60$ by Adams Express,  the paymaster is here and he is looking <pb xml:id="leaf002r" facs="duk.00318.003_large.jpg" type="recto"/>for the money to <choice><sic>arive</sic><corr>arrive</corr></choice> every day. The 1st Leiut of our Co whose name is Francis,<ptr target="duk.00318_n4"/> has a wife in Burlington Vt  he wrote to her to call on Han  So I expect to hear from her&#8212;Soon.</p>
             <p>It is now three or four weeks since I have heard from home, but we expect a mail in a day or two and then I hope to hear from you all.</p>
-            <p>What is the reason Walt or Jeff does not write to me once in a while. You dont know how glad I am to hear from you and I feel quite out of Sorts, to have a mail come and bring nothing for me.</p>
+         <p>What is the reason Walt or Jeff does not write to me once in a while. You <choice><sic>dont</sic><corr>don't</corr></choice> know how glad I am to hear from you and I feel quite out of Sorts, to have a mail come and bring nothing for me.</p>
             <closer rend="right">
               <salute> Good Night Mother</salute>
                <signed>G W Whitman Co D. 51st N.Y.V.</signed>
             </closer>
-         
+         <pb xml:id="leaf002v" facs="duk.00318.004_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

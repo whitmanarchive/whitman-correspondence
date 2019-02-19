@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -41,32 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">98-99</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman to Walt Whitman, 26 January 1865</title>
                <date when="1865-01-26">January 26, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-03">proofread and edited</change>
@@ -85,7 +73,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00427_large.jpg" type="recto"/>
                <opener>
                   <dateline rend="right">
                      <name type="place">Brooklyn, N. Y.,<ptr target="loc.00433_n100"/>
@@ -94,8 +82,8 @@
                   </dateline>
                   <salute>Dear Brother Walt,</salute>
                </opener>
-               <p>Mother received your letter<ptr target="loc.00433_n2"/> to-night&#8212;we were all very glad to hear that you arrived so nicely and were so well established&#8212;The enclosed two letters came to-day<ptr target="loc.00433_n3"/>&#8212;I sent the box to dear brother George yesterday at noon directed just as you left word&#8212;I got some hoop iron and straped the box up strong&#8212;I dont suppose there can be anything wrong in sending it straped in that way&#8212;do you suppose there is? I had in it a ham piece of smoked beef can of milk (condensed) coffee can of peaches&#8212;crackers&#8212;potatoes&#8212;salt&#8212;and the clothes that he sent for&#8212;I think I will send him another next week or week after&#8212;We were all elated upon seeing the letters published yesterday about the exchange of prisoners.<ptr target="loc.00433_n4"/> O I so hope they will make an exchange&#8212;can you not write something that will keep up the talk about the matter, sometimes little weights when the[y] fall at the right moment turn the scale and accomplish great results  Seems as if twould be worth almost a life time to help along such a thing as the general exchange of prisoners&#8212;</p>
-               <p>so you have assumed the duties and honors of an officer of the government<ptr target="loc.00433_n5"/>  Mother was wondering at tea to-night what you would have to do&#8212;I told her that undoubtedly the first thing would be to calculate just exactly how many little indians John Brown<ptr target="loc.00433_n6"/> did have&#8212;as that was the first thing the clerks had to do in the Indian dept.&#8212;What the devil is the Indian dept.&#8212;? It is suggestive of scalps, war and paint&#8212;whiskey and laziness  However I suppose you have not yet had time to tell what the business is about but anyhow if it is only a comfortable berth without too much hard work, it will come in good<ptr target="loc.00433_n7"/>&#8212;I hope you will have good health&#8212;I would suggest that you should not go it too strong in the Hospital way, for a while&#8212;I would draw it mild for a month or so&#8212;How does it seem to you to go back&#8212;I suppose it looks quite natural&#8212;I hope to be able to come and make you a visit soon&#8212;probabaly some time next mont[h]&#8212;Write to me Walt&#8212;I like to hear from you often&#8212;Write to George tell him we sent his box and will send more</p>
+         <p>Mother received your letter<ptr target="loc.00433_n2"/> to-night&#8212;we were all very glad to hear that you arrived so nicely and were so well established&#8212;The enclosed two letters came to-day<ptr target="loc.00433_n3"/>&#8212;I sent the box to dear brother George yesterday at noon directed just as you left word&#8212;I got some hoop iron and <choice><sic>straped</sic><corr>strapped</corr></choice> the box up strong&#8212;I <choice><sic>dont</sic><corr>don't</corr></choice> suppose there can be anything wrong in sending it <choice><sic>straped</sic><corr>strapped</corr></choice> in that way&#8212;do you suppose there is? I had in it a ham piece of smoked beef can of milk (condensed) coffee can of peaches&#8212;crackers&#8212;potatoes&#8212;salt&#8212;and the clothes that he sent for&#8212;I think I will send him another next week or week after&#8212;We were all elated upon seeing the letters published yesterday about the exchange of prisoners.<ptr target="loc.00433_n4"/> O I so hope they will make an exchange&#8212;can you not write something that will keep up <pb xml:id="leaf001v" facs="loc_ad.00428_large.jpg" type="verso"/>the talk about the matter, sometimes little weights when the[y] fall at the right moment turn the scale and accomplish great results  Seems as if <choice><sic>twould</sic><corr>it would</corr></choice> be worth almost a life time to help along such a thing as the general exchange of prisoners&#8212;</p>
+               <p>so you have assumed the duties and honors of an officer of the government<ptr target="loc.00433_n5"/>  Mother was wondering at tea to-night what you would have to do&#8212;I told her that undoubtedly the first thing would be to calculate just exactly how many little <choice><sic>indians</sic><corr>Indians</corr></choice> John Brown<ptr target="loc.00433_n6"/> did have&#8212;as that was the first thing the clerks had to do in the Indian dept.&#8212;What the devil is the Indian dept.&#8212;? It is suggestive of scalps, war and paint&#8212;whiskey and laziness  However I suppose you have not yet had time to tell what the business is about but anyhow if it is only a comfortable berth without too much hard work, it will come in good<ptr target="loc.00433_n7"/>&#8212;I hope you will have good health&#8212;I would suggest that you should not go it too strong in the Hospital way, for a while&#8212;I would draw it mild for a month or so&#8212;How does it seem to you to go back&#8212;I suppose it looks quite natural&#8212;I hope to be able to come and make you a visit soon&#8212;<choice><sic>probaly</sic><corr>probably</corr></choice> some time next mont[h]&#8212;Write to me Walt&#8212;I like to hear from you often&#8212;Write to George tell him we sent his box and will send more</p>
                <closer rend="right">
                   <signed>Yours affectionately Jeff</signed>
                </closer>

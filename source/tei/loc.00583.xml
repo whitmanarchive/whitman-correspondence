@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -46,7 +47,7 @@
                <author>Harvey Jewell and C. S. Kendall</author>
                <title>Harvey Jewell and C. S. Kendall to Walt Whitman, 6 February 1861</title>
                <date when="1861-02-06">February 6, 1861</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -56,7 +57,7 @@
                <persName key="Jewell, Harvey">Harvey Jewell</persName>
             </person>
             <person role="sender">
-               <persName key="Kendall, C.S.">C.S. Kendall</persName>
+               <persName key="Kendall, C.S." ref="loc.00583_n100">C.S. Kendall</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -64,6 +65,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-13">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jc" when="2011-09-16">revised notes</change>
@@ -77,7 +79,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.00557.jpg" type="recto"/>
             <opener> 
                <dateline> 
                   <date when="1861-02-06">Feb. 6, 1861</date>
@@ -87,12 +89,14 @@
             <p>Please find bill enclosed of 20.24<ptr target="loc.00583_n2"/>. You are requested to pay the sum immediately and much oblige you with such,</p>
             <closer rend="right">
                <signed>H. Jewell</signed>
-               <signed>C. S. Kendall<ptr target="loc.00583_n100"/>
+               <signed>C. S. Kendall
             </signed>
                <signed>Assignees for&#8212;</signed>
                <signed> tab of Thayer &amp; Eldridge</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="loc_vm.00558.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="loc_vm.00559.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_vm.00560.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

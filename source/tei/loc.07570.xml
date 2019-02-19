@@ -17,6 +17,7 @@
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -48,7 +49,7 @@
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc> 
                 <biblStruct>
                     <monogr>
                         <author>Walt Whitman</author>
@@ -58,6 +59,7 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
                             <biblScope type="page">265&#8211;266</biblScope>
                         </imprint>
                     </monogr>
@@ -85,6 +87,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2018-11-29" who="#as">Added images</change>
             <change when="2017-11-28" who="#smb">corrected</change>
             <change when="2017-08-22" who="#cb">final check</change>
             <change when="2017-07-12" who="#if">checked</change>
@@ -94,6 +97,7 @@
     </teiHeader>
     <text type="letter">
         <body>
+            <pb xml:id="leaf001r" facs="loc_as.00195_large.jpg" type="recto"/>
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
@@ -127,6 +131,8 @@
                 <salute>God bless you &#38; all&#8212;</salute>
                 <signed>Walt Whitman</signed> 
             </closer>
+            <pb xml:id="leaf002r" facs="loc_as.00193_large.jpg" type="recto"/>  
+            <pb xml:id="leaf002v" facs="loc_as.00194_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

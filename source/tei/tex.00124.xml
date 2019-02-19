@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -56,14 +57,14 @@
                <author>John J. Barker</author>
                <title>John J. Barker to Walt Whitman, 5 June 1863</title>
                <date when="1863-06-05">June 5, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Barker, John J.">John J. Barker</persName>
+               <persName key="Barker, John J." ref="tex.00124_n100">John J. Barker</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,6 +72,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-08">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-08-20">proofread and edited</change>
@@ -86,8 +88,8 @@
             <opener> 
                <salute>Dear friend</salute>
             </opener>
-         <p>I<ptr target="tex.00124_n100"/> have the present opertunity to drop you a few lines to let you now that I am well and have got safe to the regment and I have bin to see my famley they are well wee are all m[o]unted an wee have got the pras of the finest regment in these pats My Capten Skaggs<ptr target="tex.00124_n2"/> is ded brother william<ptr target="tex.00124_n3"/> is very low i dont think that he will live but 3 or foar days  wee think we will cros the Cumbrlen river in a few days wee have got plontloon &amp; boats in a larg foars in an a bout here most of them is mounted intfery an cavelry wee think wee will make a gard on nxvill [Knoxville?] excuse bad riten an short leter yours rspectivly</p>
-            <p>Direct your leter to Co E 2 tennossee regment Conal Carter<ptr target="tex.00124_n4"/> Commanding</p>
+         <p>I have the present <choice><sic>opertunity</sic><corr>opportunity</corr></choice> to drop you a few lines to let you now that I am well and have got safe to the <choice><sic>regment</sic><corr>regiment</corr></choice> and I have <choice><sic>bin</sic><corr>been</corr></choice> to see my famley they are well <choice><sic>wee</sic><corr>we</corr></choice> are all m[o]unted an <choice><sic>wee</sic><corr>we</corr></choice> have got the <choice><sic>pras</sic><corr>praise</corr></choice> of the finest <choice><sic>regment</sic><corr>regiment</corr></choice> in these pats My Capten Skaggs<ptr target="tex.00124_n2"/> is <choice><sic>ded</sic><corr>dead</corr></choice> brother <choice><sic>william</sic><corr>William</corr></choice><ptr target="tex.00124_n3"/> is very low<choice><sic>i</sic><corr>I</corr></choice><choice><sic>dont</sic><corr>don't</corr></choice> think that he will live but 3 or <choice><sic>foar</sic><corr>four</corr></choice> days  <choice><sic>wee</sic><corr>we</corr></choice> think we will <choice><sic>cros</sic><corr>cross</corr></choice> the Cumbrlen river in a few days <choice><sic>wee</sic><corr>we</corr></choice> have got <choice><sic>plontloon</sic><corr>pontoon</corr></choice> &amp; boats in a <choice><sic>larg</sic><corr>large</corr></choice> <choice><sic>foars</sic><corr>fours</corr></choice> in an a bout here most of them is mounted <choice><sic>intfery</sic><corr>infantry</corr></choice> an <choice><sic>cavelry</sic><corr>cavalry</corr></choice> <choice><sic>wee</sic><corr>we</corr></choice> think <choice><sic>wee</sic><corr>we</corr></choice> will make a <choice><sic>gard</sic><corr>guard</corr></choice> on nxvill [Knoxville?] excuse bad <choice><sic>riten</sic><corr>written</corr></choice> an short <choice><sic>leter</sic><corr>letter</corr></choice> yours <choice><sic>rspectivly</sic><corr>respectively</corr></choice></p>
+            <p>Direct your <choice><sic>leter</sic><corr>letter</corr></choice> to Co E 2 <choice><sic>tennossee</sic><corr>Tennessee</corr></choice> <choice><sic>regment</sic><corr>regiment</corr></choice> <choice><sic>Conal</sic><corr>Colonel</corr></choice> Carter<ptr target="tex.00124_n4"/> Commanding</p>
          
       </body>
    </text>

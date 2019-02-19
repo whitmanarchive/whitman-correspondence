@@ -10,6 +10,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -48,6 +49,9 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <handNotes>
+            <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+         </handNotes>
          <particDesc>
             <person role="sender">
                <persName key="Eckler, Peter">Peter Eckler</persName>
@@ -58,6 +62,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-20">fixed pb's, added handNote</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="20010-04-06">proofread and edited</change>
@@ -71,7 +76,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb facs="loc.00853.001.jpg" type="recto"/>
+         <pb xml:id="leaf001r" facs="loc.00853.001.jpg" type="recto"/>
          
            <div1 type="section" org="uniform" sample="complete" part="N">
               <opener rend="right">
@@ -85,9 +90,9 @@
             <p>
                <gap reason="illegible"/> sir</p>
             <p>On page 31 verse 2 line 3 of Drum Taps the word "recalls" is spelled "recals."  According to Webster &amp; Worcester it is wrong but before taking the responsibility of altering it, I wait for your decision.  Please let me know as soon as possible.  The other corrections and alterations <gap reason="deletion, illegible"/> 
-               <del type="overstrike" status="unremarkable">I enclose a proof of 'O Pioneers!'" <unclear reason="illegible" resp="#hrb" cert="medium">&amp;</unclear> I think is improved</del>
+               <del type="overstrike" status="unremarkable">I enclose a proof of 'O Pioneers!'" <unclear reason="illegible" resp="#hb" cert="medium">&amp;</unclear> I think is improved</del>
             </p>
-            <p>I enclose a bill showing the balance<gap reason="illegible"/>ount.  If I receive <gap reason="illegible"/> printing done by Saturday,<gap reason="illegible"/> you can transmit me the cost and I will deliver the <unclear reason="illegible" resp="#hrb" cert="low">texts</unclear> to your binder.</p>
+            <p>I enclose a bill showing the balance<gap reason="illegible"/>ount.  If I receive <gap reason="illegible"/> printing done by Saturday,<gap reason="illegible"/> you can transmit me the cost and I will deliver the <unclear reason="illegible" resp="#hb" cert="low">texts</unclear> to your binder.</p>
             <closer rend="right">
                <salute>Your Respectfully,</salute>
                <signed>P. Eckler</signed>
@@ -95,12 +100,12 @@
          </div1>
          
          <div1 type="enclosure" org="uniform" sample="complete" part="N">
-            <pb facs="loc.00853.002.jpg" type="recto"/>                               
+            <pb xml:id="leaf002r" facs="loc.00853.002.jpg" type="recto"/>                               
             <p>
                <table>
                   <row>
                      <cell>
-                        <unclear reason="illegible" resp="#vys" cert="low">To cover stereotyping &amp;</unclear>
+                        <unclear reason="illegible" resp="#vs" cert="low">To cover stereotyping &amp;</unclear>
                         <gap reason="illegible"/>
                      </cell>
                      <cell>$114.60</cell>
@@ -127,7 +132,7 @@
                   </row>
                   <row>
                      <cell>
-                        <unclear reason="illegible" resp="#vys" cert="low">7 " </unclear>
+                        <unclear reason="illegible" resp="#vs" cert="low">7 " </unclear>
                      </cell>
                      <cell>8.25</cell>
                   </row>
@@ -158,7 +163,8 @@
                </table>
             </p>
             
-            <pb facs="loc.00853.003.jpg" type="verso"/>
+            <pb xml:id="leaf002v" facs="loc.00853.003.jpg" type="verso"/>
+            <note type="editorial" resp="#ww">Mr. Eckler's Bill Apil 22 '65</note>
          </div1>
          
       </body>

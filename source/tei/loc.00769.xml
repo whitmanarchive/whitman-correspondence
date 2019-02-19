@@ -11,9 +11,11 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
+               <persName xml:id="bb">Brett Barney</persName>
 
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
@@ -41,25 +43,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">98-99</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Moses Lane, 11 May 1863</title>
                <date when="1863-05-11">May 11, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -74,6 +62,8 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#bb" when="2019-02-13">added information about Cotrel; split info. about others into separate notes</change>
+         <change who="#ak" when="2015-02-16">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-08-21">proofread and edited</change>
@@ -84,18 +74,18 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc.00769.001.jpg" type="recto"/>
             <opener>
                <salute>Dear friend,<ptr target="loc.00769_n2"/>
                </salute>
             </opener>
-            <p>Your letters of the 6th &amp; 7 have arrived, with timely contributions from D. L. Northrup, John H. Rhodes, Thos. Cotrel, Nicholas Wyckoff, &amp; Thomas Sullivan,<ptr target="loc.00769_n3"/> for my poor men here in hospital. With these, as with other funds, I aid all I can soldiers from all the states. Most heartily do I thank you, dear friend, for your kind exertions&#8212;&amp; those gentlemen above named&#8212;it is a work of God's charity, never cases more deserving of aid, never more heart-rending cases, than these now coming up in one long bloody string from Chancellorsville and Fredericksburgh battles, six or seven hundred every day without intermission. We have already over 3000 arrived here in hospital from Hooker's late battles. I work somewhere among them every day or in the evening. It is not so exhausting as one might think&#8212;the endurance &amp; spirit are supplied. My health, thank God, was never better&#8212;I feel strong &amp; elastic&#8212;an obstinate cold &amp; deafness some weeks, seems to be broken up at last. Yesterday I spent nearly all day at Armory Square Hospital. This forenoon I take an intermission, &amp; go again at dusk.</p>
-            <p>You there north must not be so disheartened about Hooker's return to this side of the Rappahannock and supposed failure.<ptr target="loc.00769_n4"/> The blow struck at Lee &amp; the rebel sway in Virginia, &amp; generally at Richmond &amp; Jeff Davis, by this short but tremendous little campaign, of 2d, 3d, 4th &amp; 5th inst's, is in my judgment the heaviest and most staggering they have yet got from us, &amp; has not only hit them nearer where they live than all Maclellan ever did, but all that has been levelled at Richmond during the war. I mean this deliberately. We have I know paid for it with thousands of dear noble lives, America's choicest blood, yet the late battles are not without something decisive to show for them. Hooker will resume operations forthwith&#8212;may be has resumed them. Do not be discouraged. I am not even here&#8212;here amid all this huge mess of traitors, loafers, hospitals, axe-grinders, &amp; incompetencies &amp; officials that goes by the name of Washington. I myself yet believe in Hooker &amp; the A[rmy] of P[otomac]&#8212;yet say he is a good man.</p>
+            <p>Your letters of the 6th &amp; 7 have arrived, with timely contributions from D. L. Northrup,<ptr target="loc.00769_n1"/> John H. Rhodes,<ptr target="loc.00769_n7"/> Thos. Cotrel,<ptr target="loc.00769_n8"/> Nicholas Wyckoff,<ptr target="loc.00769_n9"/> &amp; Thomas Sullivan,<ptr target="loc.00769_n3"/> for my poor men here in hospital. With these, as with other funds, I aid all I can soldiers from all the states. Most heartily do I thank you, dear friend, for your kind exertions&#8212;&amp; those gentlemen above named&#8212;it is a work of God's charity, never cases more deserving of aid, never more heart-rending cases, than these now coming up in one long bloody string from Chancellorsville and Fredericksburgh battles, six or seven hundred every day without intermission. We have already over 3000 arrived here in hospital from Hooker's late battles. I work somewhere among them every day or in the evening. It is not so exhausting as one might think&#8212;the endurance &amp; spirit are supplied. My health, thank God, was never better&#8212;I feel strong &amp; elastic&#8212;an obstinate cold &amp; deafness some weeks, seems to be broken up at last. Yesterday I spent nearly all day at Armory Square Hospital. This forenoon I take an intermission, &amp; go again at dusk.</p>
+         <p>You there north must not be so disheartened about Hooker's return to this side of the Rappahannock and supposed failure.<ptr target="loc.00769_n4"/> The blow struck at Lee &amp; the rebel sway in Virginia, &amp; generally at Richmond &amp; Jeff Davis, by this short but tremendous little campaign, of 2d, 3d, 4th &amp; 5th inst's, is in my judgment the heaviest and most staggering they have yet got from us, &amp; has not only hit them nearer where they live than all Maclellan ever did, but all that has been levelled at Richmond during the war. I mean this deliberately. We have I know paid for it <pb xml:id="leaf001v" facs="loc.00769.002.jpg" type="verso"/><pb xml:id="leaf002r" facs="loc.00769.003.jpg" type="recto"/>with thousands of dear noble lives, America's choicest blood, yet the late battles are not without something decisive to show for them. Hooker will resume operations forthwith&#8212;may be has resumed them. Do not be discouraged. I am not even here&#8212;here amid all this huge mess of traitors, loafers, hospitals, axe-grinders, &amp; incompetencies &amp; officials that goes by the name of Washington. I myself yet believe in Hooker &amp; the A[rmy] of P[otomac]&#8212;yet say he is a good man.</p>
             <p>Jeff writes me about your boy Horace Tarr,<ptr target="loc.00769_n5"/> 20th Connecticut. I will endeavor to make immediate inquiry about him&#8212;there are some of the 20th Conn. here in hospital&#8212;will write you forthwith, if I get any information.</p>
             <p>I have written to Nicholas Wyckoff,<ptr target="loc.00769_n6"/> to your care, a hospital &amp;c. letter.</p>
          <p>Love &amp; thanks to you, dear friend, &amp; to those who are aiding my boys.<ptr target="loc.00769_n100"/>
          </p>
-         
+         <pb xml:id="leaf002v" facs="loc.00769.004.jpg" type="recto"/>
       </body>
    </text>
 </TEI>

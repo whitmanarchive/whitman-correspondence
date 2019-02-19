@@ -11,6 +11,7 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -40,25 +41,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Walt Whitman</author>
-                  <editor>Edwin Haviland Miller</editor>
-                  <title xml:id="ehm">The Correspondence</title>
-                  <imprint>
-                     <pubPlace>New York</pubPlace>
-                     <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">251-252</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 1 February 1865</title>
                <date when="1865-02-01">February 1, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,6 +60,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-03">proofread and edited</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00087.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -93,7 +81,7 @@
                <salute>Dear Mother,</salute>
             </opener>
             <p>I sent Jeff a letter three or four days ago, which I suppose he received. There is nothing very new with me&#8212;I see in the U. S. Senate yesterday they passed a resolution that it was the sense of the Senate that there ought to be an exchange of prisoners. I feel as if there was a fair chance of the box you sent getting to George&#8212;I wrote to Jeff how I was so much surer that a box from City Point, would go through, that I had sent a letter to Julius Mason<ptr target="loc.00839_n1"/> asking him to have a box made up there, &amp; sent, giving him the address, &amp; I or Jeff would pay the bill&#8212;if he writes to me that he has done so, I asked him to write if he got mine, I will send him the money myself&#8212;</p>
-            <p>Well, mother, how are you getting along&#8212;we had a cold week, but the past three days has been much moderated&#8212;I am satisfied in the main with my room. I have such a good bed&#8212;&amp; my stove does very well&#8212;it is a little bit out of the way in location&#8212;My work as clerk in the Indian office is quite easy&#8212;I am through by 4&#8212;I find plenty who know me&#8212;I received a week's pay on Monday, came very acceptable&#8212;My appetite is not very good, but I feel very well upon the whole&#8212;I wish you would ask Wm Fosdick<ptr target="loc.00839_n2"/> in the corner house for the <hi rend="italic">Times</hi>, &amp; also sketch of 51st I lent him, &amp; put them away&#8212;I am very glad I have employment (&amp; <hi rend="italic">pay</hi>)&#8212;I must try to keep it&#8212;I send you an envelope, so that you can write me a letter soon as convenient. I send $1 for Nancy, the other for you&#8212;I may not write again till about the 12th, or perhaps 10th&#8212;</p>
+         <p>Well, mother, how are you getting along&#8212;we had a cold week, but the past three days has been much moderated&#8212;I am satisfied in the main with my room. I have such a good bed&#8212;&amp; my stove <pb xml:id="leaf001v" facs="loc_ad.00088.jpg" type="verso"/>does very well&#8212;it is a little bit out of the way in location&#8212;My work as clerk in the Indian office is quite easy&#8212;I am through by 4&#8212;I find plenty who know me&#8212;I received a week's pay on Monday, came very acceptable&#8212;My appetite is not very good, but I feel very well upon the whole&#8212;I wish you would ask Wm Fosdick<ptr target="loc.00839_n2"/> in the corner house for the <hi rend="italic">Times</hi>, &amp; also sketch of 51st I lent him, &amp; put them away&#8212;I am very glad I have employment (&amp; <hi rend="italic">pay</hi>)&#8212;I must try to keep it&#8212;I send you an envelope, so that you can write me a letter soon as convenient. I send $1 for Nancy, the other for you&#8212;I may not write again till about the 12th, or perhaps 10th&#8212;</p>
             <p>Tell Hattie &amp; sis Uncle Walt sent them his love. I see Gen. Butler<ptr target="loc.00839_n3"/> says the fault of not exchanging the prisoners is not his but Grants.</p>
             <closer rend="right">
                <signed>Walt.</signed>

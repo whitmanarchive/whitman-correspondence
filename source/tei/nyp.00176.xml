@@ -11,10 +11,10 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
             </respStmt>
@@ -58,14 +58,14 @@
                <author>William H. Millis</author>
                <title>William H. Millis to Walt Whitman, 12 January 1865</title>
                <date when="1865-01-12">January 12, 1865</date>
-               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
+               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Millis, William H.">William H. Millis</persName>
+               <persName key="Millis, William H." ref="nyp.00176_n100">William H. Millis</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,6 +73,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-02">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-08-31">proofread and edited annotations</change>
@@ -88,11 +89,11 @@
             <opener> 
                <salute>My Dear Sir</salute>
             </opener>
-         <p>It is with the greatest pleasure that I<ptr target="nyp.00176_n100"/> seat myself to give you a few lines to let you know that your most welcome letter came safe to hand and you dont know how glad I was to hear from you  I often thought of you and could not hear what had become of you.
+         <p>It is with the greatest pleasure that I seat myself to give you a few lines to let you know that your most welcome letter came safe to hand and you <choice><sic>dont</sic><corr>don't</corr></choice> know how glad I was to hear from you  I often thought of you and could not hear what had become of you.
 you stated in yours that you hoped that I had not forgotten you. I never will forget you so long as life should last.</p>
-            <p>Uncle I have got very near well. the wound in my chest has got nearly well. I am so that I can go about and do light duty. Also my arm is geting along nicely but their is some slight pain yet but none to stop me from writing such a kind and affectionate friend as you have been to me. May god bless you forever I cant find words to tell you the love thier is in me for you. I hope you &amp; I may live to meet again on this earth if not I hope we shall meet in the world w[h]ere there is no more parting</p>
+            <p>Uncle I have got very near well. the wound in my chest has got nearly well. I am so that I can go about and do light duty. Also my arm is <choice><sic>geting</sic><corr>getting</corr></choice> along nicely but their is some slight pain yet but none to stop me from writing such a kind and affectionate friend as you have been to me. May god bless you forever I cant find words to tell you the love <choice><sic>thier</sic><corr>there</corr></choice> is in me for you. I hope you &amp; I may live to meet again on this earth if not I hope we shall meet in the world w[h]ere there is no more parting</p>
             <closer rend="right">
-               <salute>I will close hopeing to hear from you again soon</salute>
+               <salute>I will close <choice><sic>hopeing</sic><corr>hoping</corr></choice> to hear from you again soon</salute>
                <salute>Very Respectfully, Your Obedient Servant &amp; loving friend,</salute>
             </closer>
          

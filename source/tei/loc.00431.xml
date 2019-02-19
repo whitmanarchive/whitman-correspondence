@@ -11,6 +11,7 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="br">Bev Rilett</persName>
 
@@ -41,32 +42,18 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Thomas Jefferson Whitman</author>
-                  <editor>Dennis Berthold</editor>
-                  <editor>Kenneth M. Price</editor>
-                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
-                  <imprint>
-                     <pubPlace>Kent, Ohio</pubPlace>
-                     <publisher>Kent State University Press</publisher>
-                     <date>1984</date>
-                     <biblScope type="page">92</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 8 January 1864</title>
                <date when="1864-01-08">January 8, 1864</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +61,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#br" when="2009-08-28">proofed and edited</change>
@@ -84,7 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="loc_ad.00421_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn,</name>
@@ -95,12 +83,12 @@
             <p>The enclosed $5 is from Mr James P. Kirkwood<ptr target="loc.00431_n1"/> and is the money spoken of in my letter from Copake.<ptr target="loc.00431_n2"/> The other $1 is from John D. Martin.<ptr target="loc.00431_n3"/>
             </p>
             <p>I mailed you some 3 or 4 Unions<ptr target="loc.00431_n4"/> to-day directed to the care of major Hapgood<ptr target="loc.00431_n5"/> as usual</p>
-            <p>At home everything is going along abt as usual, all abt the same.</p>
+         <p>At home everything is going along <choice><abbr>abt</abbr><expan>about</expan></choice> as usual, all <choice><abbr>abt</abbr><expan>about</expan></choice> the same.</p>
             <p>A few days ago there came to the house for you the proof sheets of a small book which the author (no name given) wants you to read and give an opinion on  the Circular you find within. The stuff itself is disgusting, the whole of it going to prove that the nigger is better than the white which the fool says over and over again<ptr target="loc.00431_n6"/>&#8212;do you want it sent on to you.</p>
             <closer rend="right">
                <signed>affectionately Jeff.</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="loc_ad.00422_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

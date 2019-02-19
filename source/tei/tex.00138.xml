@@ -11,11 +11,11 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jw">Joshua Ware</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
             </respStmt>
@@ -59,14 +59,14 @@
                <author>Livingston J. Brooks</author>
                <title>Livingston J. Brooks to Walt Whitman, 22 December 1863</title>
                <date when="1863-12-22">December 22, 1863</date>
-               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Brooks, Livingston J.">Livingston J. Brooks</persName>
+               <persName key="Brooks, Livingston J." ref="tex.00138_n100">Livingston J. Brooks</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,6 +74,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-04-10">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jw" when="2009-09-10">Transcription revision</change>
@@ -90,11 +91,11 @@
             <opener> 
                <salute>Dear Friend</salute>
             </opener>
-         <p>I<ptr target="tex.00138_n100"/> recieved your kind letter last night<ptr target="tex.00138_n2"/> and was very happy to hear from you  I am quite well at present and I hope you are enjoying the same blessings. I was sory to hear of your brother death [December 3rd], but we have all got to die some day  This life is uncertain in this world. I have lived through sickness and dangers of war so far and I thank god for it. . we have had some lively times since I wrote to you our regt is doing picket now. the johneys has tryed our line a number of times there was about thirty of them the other day charged on our line there was one post with three men on it they got one of them but they lost four and had to skeddle  that was all they get</p>
-            <p>Well Dear uncle you said you would like to be here for a change I wish you could be here for a while how I would like to see you but I live in hopes I may some day. Well you said Miss Marsh was in Ward J I dont know as she remember me but I do her how could I forget her if you see her pleas tell her I send my love and best wishes to her</p>
-            <p>Dear Uncle how I should like to see the cappatol now it must look splendid Who would not fight for such a cappatol and those beautiful stars and stripes that may forever float over it those stars and stripes is what brought me in the army and I am willing to fight as long as I live before I would see any other flag float over our cappitol than the stars and stripes  but there is some that would like to see it trampled on the ground. I suppose you have herd that general buford was dead he was one good general as there was in the field he commanded our division and every one liked him. how is war matters in washington now any signs of it ever closing  I guess this next draft will be apt to bring in few more men in the army.</p>
-            <p>Well Dear uncle there aint much news here at presant we are in very good quarters here, but how long we will stay I dont know. Well I will close by wishing you a mery mery Christmas and a happy New Years.</p>
-            <p>Please excuse poor writing and accept this from your well wishing Friend and comrad</p>
+         <p>I <choice><sic>recieved</sic><corr>received</corr></choice> your kind letter last night<ptr target="tex.00138_n2"/> and was very happy to hear from you  I am quite well at present and I hope you are enjoying the same blessings. I was <choice><sic>sory</sic><corr>sorry</corr></choice> to hear of your brother death [December 3rd], but we have all got to die some day  This life is uncertain in this world. I have lived through sickness and dangers of war so far and I thank god for it. . we have had some lively times since I wrote to you our regt is doing picket now. the <choice><sic>johneys</sic><corr>Johnnies</corr></choice> <choice><sic>has</sic><corr>have</corr></choice> <choice><sic>tryed</sic><corr>tried</corr></choice> our line a number of times there was about thirty of them the other day charged on our line there was one post with three men on it they got one of them but they lost four and had to <choice><sic>skeddle</sic><corr>skedaddle</corr></choice>  that was all they get</p>
+            <p>Well Dear uncle you said you would like to be here for a change I wish you could be here for a while how I would like to see you but I live in hopes I may some day. Well you said Miss Marsh was in Ward J I <choice><sic>dont</sic><corr>don't</corr></choice> know as she remember me but I do her how could I forget her if you see her pleas tell her I send my love and best wishes to her</p>
+         <p>Dear Uncle how I should like to see the <choice><sic>cappatol</sic><corr>Capitol</corr></choice> now it must look splendid Who would not fight for such a <choice><sic>cappatol</sic><corr>Capitol</corr></choice> and those beautiful stars and stripes that may forever float over it those stars and stripes is what brought me in the army and I am willing to fight as long as I live before I would see any other flag float over our <choice><sic>cappitol</sic><corr>capitol</corr></choice> than the stars and stripes  but there is some that would like to see it trampled on the ground. I suppose you have herd that general <choice><sic>buford</sic><corr>Buford</corr></choice> was dead he was one good general as there was in the field he commanded our division and every one liked him. how is war matters in <choice><sic>washington</sic><corr>Washington</corr></choice> now any signs of it ever closing  I guess this next draft will be apt to bring in few more men in the army.</p>
+         <p>Well Dear uncle there <choice><sic>aint</sic><corr>ain't</corr></choice> much news here at <choice><sic>presant</sic><corr>present</corr></choice> we are in very good quarters here, but how long we will stay I <choice><sic>dont</sic><corr>don't</corr></choice> know. Well I will close by wishing you a <choice><sic>mery</sic><corr>merry</corr></choice> <choice><sic>mery</sic><corr>merry</corr></choice> Christmas and a happy New Years.</p>
+            <p>Please excuse poor writing and accept this from your well wishing Friend and <choice><sic>comrad</sic><corr>comrade</corr></choice></p>
          
       </body>
    </text>

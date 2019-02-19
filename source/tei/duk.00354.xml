@@ -10,6 +10,7 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -42,26 +43,11 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>George Washington Whitman</author>
-                  <editor>Jerome M. Loving</editor>
-                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
-                  <imprint>
-                     <pubPlace>Durham, North Carolina</pubPlace>
-                     <publisher>Duke University Press</publisher>
-                     <date>1975</date>
-                     <biblScope type="page">118&#8211;119</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 16 May 1864</title>
                <date when="1864-05-16">May 16, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
-Manuscript, and Special Collections Library
-</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -76,6 +62,7 @@ Manuscript, and Special Collections Library
          </particDesc>
       </profileDesc>
       <revisionDesc>
+         <change who="#ak" when="2015-01-28">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -89,22 +76,22 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         
+         <pb xml:id="leaf001r" facs="duk.00354.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
-                  <name type="place">Near Spotselvania Court <lb/> House, Va</name>
+                  <name type="place">Near Spotselvania Court House, Va</name>
                   <date when="1864-05-16"> May 16th 1864</date>
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-            <p>I have just heard that there will be a chance to send letters home this morning, and I improve the oppernitunity to let you know that I am all right so far. We had a pretty hard battle on the 6th. I dont know what the battle is called but it was about 5 miles from Germania Ford on the Rapidan River.<ptr target="duk.00354_n1"/> our Regt. suffered severely loseing 70 in killed and wounded.<ptr target="duk.00354_n2"/> I lost nearly half of my Co but we won the fight and the rebel loss was pretty heavy. We came here on the 8th and there has been fighting going on every day since we came here.<ptr target="duk.00354_n3"/> We have had the best of the fighting so far and its my opinion that Genl Grant has got Lee in a pretty tight spot. We had a severe fight here on the 12th and the loss was heavy on both sides  our Regt lost 20 in killed and wounded  our forces took about 8000 prisoner[s?] and 40 peices of Artillery.</p>
-            <p>We are now lying in Rifle pitts and things are very quiet this morning. We have plenty to eat and get along very well.</p>
-            <p>The Army is in first rate spirits and everyone seems confident and hopefull. I have not time to say much at present Mother but when I do get time I will write you a good long letter. You must not feel at all worried about me but take things Cool and comfortable as I do and above all dont worry.</p>
+            <p>I have just heard that there will be a chance to send letters home this morning, and I improve the <choice><sic>oppernitunity</sic><corr>opportunity</corr></choice> to let you know that I am all right so far. We had a pretty hard battle on the 6th. I dont know what the battle is called but it was about 5 miles from Germania Ford on the Rapidan River.<ptr target="duk.00354_n1"/> our Regt. suffered severely <choice><sic>loseing</sic><corr>losing</corr></choice> 70 in killed and wounded.<ptr target="duk.00354_n2"/> I lost nearly half of my Co but we won the fight and the rebel loss was pretty heavy. We came here on the 8th and there has been fighting going on every day since we came here.<ptr target="duk.00354_n3"/> We have had the best of the fighting so far and its my opinion that Genl Grant has got Lee in a pretty tight spot. We had a severe fight here on the 12th and the loss was heavy on both sides  our Regt lost 20 in killed and wounded  our forces took about 8000 prisoner[s?] and 40 <choice><sic>peices</sic><corr>pieces</corr></choice> of Artillery.</p>
+            <p>We are now lying in Rifle <choice><sic>pitts</sic><corr>pits</corr></choice> and things are very quiet this morning. We have plenty to eat and get along very well.</p>
+            <p>The Army is in first rate spirits and everyone seems confident and <choice><sic>hopefull</sic><corr>hopeful</corr></choice>. I have not time to say much at present Mother but when I do get time I will write you a good long letter. You must not feel at all worried about me but take things Cool and comfortable as I do and above all <choice><sic>dont</sic><corr>don't</corr></choice> worry.</p>
             <p>Much love to all. Good Bye.</p>
             <closer rend="center">
                <signed>George.</signed>
             </closer>
-         
+         <pb xml:id="leaf001v" facs="duk.00354.002_large.jpg" type="verso"/>
       </body>
    </text>
 </TEI>
