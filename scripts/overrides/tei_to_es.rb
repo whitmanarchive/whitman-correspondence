@@ -36,7 +36,7 @@ class TeiToEs
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
   def category
-    "biography"
+    "correspondence"
   end
 
   def creator
@@ -80,7 +80,7 @@ class TeiToEs
   # TODO publisher, rights, rights_uri, rights_holder, source
 
   def subcategory
-    "correspondence"
+    "personal"
   end
 
   # TODO text footnotes
