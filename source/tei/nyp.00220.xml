@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -57,14 +56,14 @@
                <author>William T. Otto</author>
                <title>William T. Otto to Walt Whitman, 24 January 1865</title>
                <date when="1865-01-24">January 24, 1865</date>
-               <orgName xml:id="nypl">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
+               <orgName xml:id="nyp">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Otto, William T." ref="nyp.00220_n100">William T. Otto</persName>
+               <persName key="Otto, William T.">William T. Otto</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,7 +71,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-31">updated Oscar Lion info</change>
@@ -95,8 +93,7 @@ Washington, D. C.,</name>
             </opener>
             <p>You are hereby appointed to a Clerkship of the first class&#8212;in the Office of Indian Affairs, of this Department&#8212;the salary of which is $1200 per annum, to commence when you have subscribed the enclosed oath, and entered upon duty. I am, Sir, very respectfully, your obedient servant</p>  
             <closer rend="right">
-               <signed>W. T. Otto,</signed>
-               <signed>Assistant Secretary.
+               <signed>W. T. Otto, <lb/>Assistant Secretary.<ptr target="nyp.00220_n100"/>
             </signed>
             </closer>
          

@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -43,14 +42,14 @@
                <author>James Redpath</author>
                <title>James Redpath to Walt Whitman, 14 October 1863</title>
                <date when="1863-10-14">October 14, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Redpath, James" ref="loc.01009_n100">James Redpath</persName>
+               <persName key="Redpath, James">James Redpath</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -58,7 +57,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-02">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-09-01">proofread and modified</change>
@@ -69,7 +67,7 @@
    <text type="letter">
       <body>
          
-         <p>Glad to know you are now in good running trim. I will do all I can here in one direction to keep you supplied with funds.</p>
+         <p>Glad to know you are now in good running trim. I<ptr target="loc.01009_n100"/> will do all I can here in one direction to keep you supplied with funds.</p>
             <closer rend="right">
                <signed>James Redpath</signed>
             </closer>

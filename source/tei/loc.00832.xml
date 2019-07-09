@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume"/>
+                     <biblScope type="page">229&#8211;230</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 3 June 1864</title>
                <date when="1864-06-03">June 3, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -72,7 +84,6 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00073.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -81,8 +92,7 @@
                <salute>Dearest mother</salute>
             </opener>
             <p>Your letter came yesterday&#8212;I have not heard the least thing from the 51st since&#8212;no doubt they are down there with the Army near Richmond&#8212;I have not written to George lately&#8212;I think the news from the Army is very good&#8212;Mother, you know of course that it is now very near Richmond indeed, from five to ten miles<ptr target="loc.00832_n1"/>&#8212;</p>
-         <pb xml:id="leaf001v" facs="loc_ad.00074.jpg" type="verso"/>
-         <p>Mother, if this campaign was not in progress I should not stop here, as it is now beginning to tell a little upon me,<ptr target="loc.00832_n2"/> so many bad wounds, many <choice><sic>putrified</sic><corr>putrefied</corr></choice>, &amp; all kinds of dreadful ones, I have been rather too much with&#8212;but as it is I shall certainly remain here while the thing remains undecided&#8212;it is impossible for me to abstain from going to see &amp; minister to certain cases, &amp; that draws me into others, &amp; so on&#8212;I have just left <pb xml:id="leaf002r" facs="loc_ad.00075.jpg" type="recto"/>Oscar Cunningham,<ptr target="loc.00832_n3"/> the Ohio boy&#8212;he is in a dying condition&#8212;there is no hope for him&#8212;it would draw tears from the hardest heart to look at him&#8212;he is all wasted away to a skeleton, &amp; looks like some one fifty years old&#8212;you remember I told you a year ago, when he was first brought in, I thought him the noblest specimen of a young western man I had seen, a real giant in size, &amp; always with a smile on his face&#8212;O what a change, he has long been very irritable, to every one but me, &amp; his frame is all wasted away&#8212;the young Massachusetts 1st artillery boy, Cutter, I wrote about is dead&#8212;he is the one that was brought in a week ago last Sunday, badly wounded in breast&#8212;the deaths in the principal hospital I visit, Armory Square, average one an hour&#8212;<pb xml:id="leaf002v" facs="loc_ad.00076.jpg" type="verso"/>I saw Capt Baldwin<ptr target="loc.00832_n4"/> of the 14th this morning, he has lost his left arm&#8212;is going home soon&#8212;</p>
+            <p>Mother, if this campaign was not in progress I should not stop here, as it is now beginning to tell a little upon me,<ptr target="loc.00832_n2"/> so many bad wounds, many putrified, &amp; all kinds of dreadful ones, I have been rather too much with&#8212;but as it is I shall certainly remain here while the thing remains undecided&#8212;it is impossible for me to abstain from going to see &amp; minister to certain cases, &amp; that draws me into others, &amp; so on&#8212;I have just left Oscar Cunningham,<ptr target="loc.00832_n3"/> the Ohio boy&#8212;he is in a dying condition&#8212;there is no hope for him&#8212;it would draw tears from the hardest heart to look at him&#8212;he is all wasted away to a skeleton, &amp; looks like some one fifty years old&#8212;you remember I told you a year ago, when he was first brought in, I thought him the noblest specimen of a young western man I had seen, a real giant in size, &amp; always with a smile on his face&#8212;O what a change, he has long been very irritable, to every one but me, &amp; his frame is all wasted away&#8212;the young Massachusetts 1st artillery boy, Cutter, I wrote about is dead&#8212;he is the one that was brought in a week ago last Sunday, badly wounded in breast&#8212;the deaths in the principal hospital I visit, Armory Square, average one an hour&#8212;I saw Capt Baldwin<ptr target="loc.00832_n4"/> of the 14th this morning, he has lost his left arm&#8212;is going home soon&#8212;</p>
             <p>Mr Kalbfleisch<ptr target="loc.00832_n5"/> &amp; Anson Herrick,<ptr target="loc.00832_n6"/> (M C from New York) came in one of the wards where I was sitting writing a letter this morning, in the midst of the wounded&#8212;Kalbfleisch was so much affected by the sight that he burst into tears&#8212;O I must tell you I gave the boys in Carver hospital a great treat of ice cream a couple of days ago, went round myself through about 15 large wards, (I bought some ten gallons, very nice)&#8212;you would have cried &amp; been amused too, many of the men had to be fed, several of them I saw cannot probably live, yet they quite enjoyed it, I gave everybody some&#8212;quite a number western country boys had never tasted ice cream before&#8212;they relish such things, oranges, lemons, &amp;c&#8212;Mother, I feel a little blue this morning, as two young men I knew very well have just died, one died last night, &amp; the other about half an hour before I went to the hospital, I did not anticipate the death of either of them, each was a very, very sad case, so young&#8212;well, mother, I see I have written you another gloomy sort of letter&#8212;I do not feel as first rate as usual&#8212;</p>
             <closer rend="right">
                <signed>Walt&#8212;</signed>

@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -42,18 +41,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">139-140</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Reuben Farwell</author>
                <title>Reuben Farwell to Walt Whitman, 21 November 1864</title>
                <date when="1864-11-21">November 21, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Farwell, Reuben" ref="duk.00376_n100">Reuben Farwell</persName>
+               <persName key="Farwell, Reuben">Reuben Farwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-30">corrected orgName, added pbs, added choice tags, corrected opener and closer</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -75,29 +86,23 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00376.001_large.jpg" type="recto"/>
+         
             <opener> 
-               <dateline>
-                  <name type="place">Plymouth Mich.</name>
-                  <date when="1864-11-21">Nov. 21st/64</date>
-               </dateline>
+               <dateline rend="right"/>
                <salute>Kind Uncle &amp; Friend</salute>
             </opener>
-         <p>Yours came to me on Friday last much sooner than I expected </p>
+         <p>Yours came to me on Friday last much sooner than I<ptr target="duk.00376_n100"/> expected </p>
             <p>Because my being so negligent of course I supposed you would act
 the same to me</p>
             <p>Last week I was sick so that the house was obliged to hold me very tight  It is kind of a curious thing for me. I can not go out in to the open air with out taking cold</p>
             <p>Perhaps you will call at Armory Square when in Washington. I have been thinking about going there this winter to wile a way some of these lonesome days</p>
-         <pb xml:id="leaf001v" facs="duk.00376.002_large.jpg" type="verso"/>
-            <p>My Folks have some objections to my going where I have been so often for the last three years. But there is nothing like <choice><sic>geting</sic><corr>getting</corr></choice> used to a thing or too</p>
-         <p>The least stormy weather here drives us in to the house&#8212;But the <choice><sic>rainyest</sic><corr>rainiest</corr></choice> night on Picket in Virginia we had to stand any how. Even a snow <choice><sic>storme</sic><corr>storm</corr></choice> or <pb xml:id="leaf002r" facs="duk.00376.003_large.jpg" type="recto"/>too we have had here then I thought about being by the side of a snug fire all <choice><sic>curdleed</sic><corr>curdled</corr></choice> up in a little heap half froze to death</p>
-            <p>A good warme bed a fellow gets at home besides other <choice><sic>fixens</sic><corr>fixing’s</corr></choice> <choice><sic>throwed</sic><corr>thrown</corr></choice> in. I hardly <choice><sic>evr</sic><corr>ever</corr></choice> thought of these when I Enlisted &amp; perhaps I may try the self same <choice><sic>opperations</sic><corr>operations</corr></choice> again. This is a curious world to live &amp; sport in   There will be no Young ladies after this war closes.</p>
-         <p>Because they are <choice><sic>a fraid</sic><corr>afraid</corr></choice> some of the loved ones will come home crippled <pb xml:id="leaf002v" facs="duk.00376.004_large.jpg" type="verso"/>&amp; they will Marry while they think about it  Mostly of the Softer Sex will be old Maids waiting so long. I presume some of them are tired</p>
+            <p>My Folks have some objections to my going where I have been so often for the last three years. But there is nothing like geting used to a thing or too</p>
+            <p>The least stormy weather here drives us in to the house&#8212;But the rainyest night on Picket in Virginia we had to stand any how. Even a snow storme or too we have had here then I thought about being by the side of a snug fire all curdleed up in a little heap half froze to death</p>
+            <p>A good warme bed a fellow gets at home besides other fixens throwed in. I hardly evr thought of these when I Enlisted &amp; perhaps I may try the self same opperations again. This is a curious world to live &amp; sport in   There will be no Young ladies after this war closes.</p>
+            <p>Because they are a fraid some of the loved ones will come home crippled &amp; they will Marry while they think about it  Mostly of the Softer Sex will be old Maids waiting so long. I presume some of them are tired</p>
             <p>Yes I will tell her all about you one of these times &amp; that before she is Married which wont be a great while. Well Uncle I hope this may find you still alive &amp; well</p>
-            <closer>
+            <closer rend="right">
                <salute>My best respects To you, My Uncle</salute>
-               <signed>Ruben Farwell</signed>
-               <salute>To Walt Whitman</salute>
                <salute>Adieu till next time</salute>
             </closer>
          

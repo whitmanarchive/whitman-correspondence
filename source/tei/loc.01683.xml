@@ -10,12 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="kmp">Kenneth M. Price</persName> 
-                    <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="el">Elizabeth Lorang</persName>
-                    <persName xml:id="zk">Zachary King</persName>
-                    <persName xml:id="ec">Eric Conrad</persName>
-                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <name>The Walt Whitman Archive Staff</name>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -47,6 +42,15 @@
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
             </publicationStmt>
+            <notesStmt>
+                <note type="project">The following are responsible for particular readings or for
+                    changes to this file, as noted:
+<persName xml:id="kmp">Kenneth M. Price</persName> 
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="ec">Eric Conrad</persName>
+                </note>
+            </notesStmt>
             <sourceDesc>
 
                 <biblStruct>
@@ -77,15 +81,13 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Thayer, Dr. Samuel W." ref="n0626">Dr. Samuel W. Thayer</persName>
+                    <persName key="Thayer, Dr. Samuel W.">Dr. Samuel W. Thayer</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change who="#nhg" when="2015-05-21">updated annotations</change>
-            <change who="#ak" when="2015-05-20">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03-01" who="#kmp">blessed</change>
+<change when="2012-03" who="#kp">blessed</change>
             <change when="2011-03-07" who="#el">checked</change>
             <change when="2010-10-27" who="#zk">encoded</change>
             <change when="2010-08-20" who="#ec">extracted transcription from Major Authors cd</change>
@@ -97,8 +99,8 @@
 
             <opener>
                 <dateline>
-                    <date when="1868-12-08" rend="right">sent Dec 8, '68</date><ptr target="loc.01683_n1"/>
-                </dateline>  
+                    <date when="1868-12-08" rend="right">sent <lb/>Dec 8, '68</date><ptr target="loc.01683_n1"/>
+                </dateline>
                 <salute>Dr. Thayer,</salute>
                 <salute>Dear Sir:</salute><ptr target="loc.01683_n2"/>
             </opener>

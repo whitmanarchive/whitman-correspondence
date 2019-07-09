@@ -11,10 +11,10 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
+
                <persName xml:id="ao">Alyssa Olson</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
@@ -59,7 +59,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Andrew Kerr, 10 September 1866</title>
                <date when="1866-09-10">September 10, 1866</date>
-               <orgName xml:id="nypl">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
+               <orgName xml:id="nyp">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -69,12 +69,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Kerr, Andrew" ref="nyp.00216_n1">Andrew Kerr</persName>
+               <persName key="Kerr, Andrew">Andrew Kerr</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-31">updated Oscar Lion info</change>
@@ -92,7 +91,7 @@
                   <name type="place">New York,</name>
                   <date when="1866-09-10">Sept. 10, 1866.</date>
                </dateline>
-               <salute>Dear Andy,
+               <salute>Dear Andy,<ptr target="nyp.00216_n1"/>
                </salute>
             </opener>
             <p>I rec'd your letter last Saturday&#8212;I intended to return day after to-morrow, but shall not be able to, till the last of the week, or the early part of next week. The reason is that my book, which is a little more than half done, does not get along as fast as the printers agreed&#8212;&amp; if I do not stay &amp; finish it, (the supervision of it,) it will be botched &amp; full of blunders.</p>

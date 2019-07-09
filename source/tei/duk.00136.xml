@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00136">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00136">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -45,29 +44,29 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted: <persName xml:id="kmp">Kenneth M.
-                        Price</persName>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    changes to this file, as noted:
+<persName xml:id="kmp">Kenneth M. Price</persName> 
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="al">Ashley Lawson</persName>
                     <persName xml:id="br">Beverley Rilett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
+
+
+
                 <bibl>
                     <author>Francis A. Walker</author>
                     <title>Francis A. Walker to Walt Whitman, 1871</title>
                     <date cert="high" when="1871" xml:id="dat1">1871</date>
-                    <orgName xml:id="duk">The Trent Collection of Whitmaniana, Duke University Rare
-                        Book, Manuscript, and Special Collections Library</orgName>
+                    <orgName xml:id="duk">The Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Walker, Francis Amasa" ref="n0674">Francis A. Walker</persName>
+                    <persName key="Walker, Francis Amasa">Francis A. Walker</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -75,10 +74,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change who="#ss" when="2015-06-14">annotated</change>
-            <change who="#ak" when="2015-05-13">added correspondent ref</change>
-            <change who="#el" when="2014-08-15">added schematron declaration</change>
-            <change who="#kmp" when="2012-03-01">blessed</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2012-03" who="#kp">blessed</change>
             <change when="2012-03-26" who="#al">checked and corrected</change>
             <change when="2011-10-17" who="#el">updated sourceDesc</change>
             <change when="2011-09-16" who="#el">transcribed and encoded letterhead</change>
@@ -93,25 +90,24 @@
 
             <pb xml:id="leaf001r" facs="duk.00136.001.jpg" type="recto"/>
             <opener>
-                <handShift rend="printed"/><note place="inline">Ninth Census of the United
-                    States.</note>
+                <handShift rend="printed"/><note place="inline">Ninth Census of the United States.</note>
                 <address>
                     <addrLine>Department of the Interior,</addrLine>
                     <addrLine>Census Office,</addrLine>                    
-                </address>
-                <dateline>
-                    <name type="place">Washington, D. C., <hi rend="underline"><space
-                                dim="horizontal" extent="10" unit="chars"/></hi>, <date when="1871"
-                            >1871</date>.</name>
-                </dateline>
+                </address>                
+                    <dateline>
+                        <name type="place">Washington, D. C., <hi rend="underline"><space dim="horizontal" extent="10" unit="chars"/></hi>, <date when="1871">1871</date>.</name>
+                    </dateline>
+                
                 <handShift rend="manuscript"/>
+                
                 <salute>Dear Sir:—</salute>
             </opener>
             <p>I found myself unable to prepare the statement you requested in season for the mail
                 of last evening.</p>
             <p>I find the number of persons, male and female, in the United States and the District
-                of Columbia, respectively, between the ages of 5 and 20 (both inclusive) to be as
-                follows: <table>
+                of Columbia, respectively, between the ages of 5 and 20 (both inclusive) to be as follows:
+                <table>
                     <row>
                         <cell>The United States</cell>
                         <cell>males 7,253,306</cell>
@@ -137,19 +133,20 @@
                         <cell>43,637</cell>
                     </row>
                 </table>
-            </p>
+              </p>  
             <p>I would add a calculation as to the number of persons annually entering this class
-                (five to twenty) in the United States, but that my friend Mr. Elliott, chief <pb
-                    xml:id="leaf001v" facs="duk.00136.002.jpg" type="verso"/> clerk of the Bureau of
-                Statistics,<ptr target="duk.00136_n1"/> who is much better qualified than
-                myself for such computations, has promised to make the calculation and to furnish
-                you the results. I have accordingly sent to him the data required.</p>
+                (five to twenty) in the United States, but that my friend Mr. Elliott, chief 
+                
+                <pb xml:id="leaf001v" facs="duk.00136.002.jpg" type="verso"/>
+                
+clerk of the Bureau of Statistics, who is much better qualified than myself for such computations, has promised to make the calculation and to furnish you the results. I have accordingly sent to him the data required.</p>
 
 
             <closer>
                 <salute rend="right">Very truly yours</salute>
                 <signed rend="right">F A Walker</signed>
                 <signed rend="right">Acting Superintendent</signed>
+                
                 <address>
                     <addrLine>Walt Whitman, Esq.</addrLine>
                     <addrLine>Department of Justice</addrLine>

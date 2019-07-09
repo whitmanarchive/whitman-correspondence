@@ -17,7 +17,6 @@
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -50,18 +49,28 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">4</biblScope>
+                            <biblScope type="page">146&#8211;147</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct> 
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, [2&#8211;3 February 1888]</title>
                     <date cert="medium" notBefore="1888-02-02" notAfter="1888-02-03" xml:id="dat1"
                         >[February 2&#8211;3, 1888]</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
-                    <relatedItem type="text" xml:id="rel01" target="loc.04975"/>
-                    <relatedItem type="document" target="wwa.00587"/>
-                    <note type="project" target="#rel01">Whitman wrote this letter on the back of an autograph request
-                        from Charles H. Buck.</note> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -77,8 +86,6 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2018-11-15" who="#smb">updated multitext encoding and notes</change>
-            <change when="2018-11-05" who="#as">Added images</change>
             <change when="2017-03-12" who="#smb">final check, corrected</change>
             <change when="2016-12-12" who="#cb">checked and corrected</change>
             <change when="2016-08-01" who="#rf">encoded</change>
@@ -87,7 +94,6 @@
     </teiHeader>
     <text type="letter">
         <body>
-            <pb xml:id="leaf001r" facs="loc_as.00143_large.jpg" type="recto"/>
             <p><date when="1888-02-02">Thursday night&#8212;9</date>&#8212;I am sitting here in the little front room
                 alone&#8212;Mrs D[avis]<ptr target="n6113"/> has gone to her room&#8212;I have had
                 rather a bad day&#8212;uncomfortably <hi rend="italic">full</hi> feeling &amp; two
@@ -104,9 +110,8 @@
                 &#8212;Sh'd one come I will mail it to you St A[ugustine]&#8212;Did you see
                     O'C[onnor]<ptr target="n2002"/> at Wash'n?</p>
             <closer>
-                <signed>Walt Whitman</signed> 
+                <signed>Walt Whitman</signed>
             </closer>
-            <pb xml:id="leaf001v" facs="loc_as.00142_large.jpg" type="verso"/>  
         </body>
     </text>
 </TEI>

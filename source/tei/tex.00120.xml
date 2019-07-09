@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00120">
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00487">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,8 +10,8 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
+               
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="al">April Lambert</persName>
             </respStmt>
@@ -25,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>tex.00120</idno>
+            <idno>loc.00487</idno>
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -56,14 +56,14 @@
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Walt Whitman, 6 September 1871</title>
                <date when="1871-09-06">September 6, 1871</date>
-               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="loc">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington">George Washington Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,8 +71,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-05-13">added correspondent ref</change>
-         <change who="#ak" when="2015-04-08">added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>

@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -42,11 +41,26 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">134</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 24 February 1865</title>
                <date when="1865-02-24">February 24, 1865</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
+Manuscript, and Special Collections Library
+</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-03">proofread and edited</change>
@@ -76,7 +89,7 @@ corrections</change>
    <text type="letter">
       <body>
          
-         <pb xml:id="leaf001r" facs="duk.00365.001_large.jpg" type="recto"/>
+            
                <opener>
                   <dateline rend="right">
                      <name type="place">Officers Hospital  Annapolis Md.<lb/>
@@ -87,11 +100,11 @@ corrections</change>
                   <salute>Dear Mother,</salute>
                </opener>
                <p>I arrived here yesterday from the Hotel De Libby and if ever a poor devil was glad to get in a Christian Country it was me.</p>
-               <p>I am perfectly well Mother although I am in the Hospital Buildings, and am not under Medical treatment. The reason that I am quartered here is that the Hotels and Boarding Houses in town are <choice><sic>cramed</sic><corr>crammed</corr></choice> full,  I stay here for one dollar and a half a day while the Hotels charge three or four dollars and we are just as comfortable as I want to be. I drew 2 months pay to day and bought a new suit of clothes and now I feel something like a white man.</p>
+               <p>I am perfectly well Mother although I am in the Hospital Buildings, and am not under Medical treatment. The reason that I am quartered here is that the Hotels and Boarding Houses in town are cramed full,  I stay here for one dollar and a half a day while the Hotels charge three or four dollars and we are just as comfortable as I want to be. I drew 2 months pay to day and bought a new suit of clothes and now I feel something like a white man.</p>
                <p>I made an application this morning for a leave of absence for 30 days and I expect to be home in the course of 3 or 4 days.</p>
-         <p>We left Danville on the 19th of this Month and stopped in Richmond <pb xml:id="leaf001v" facs="duk.00365.002_large.jpg" type="verso"/><choice><sic>untill</sic><corr>until</corr></choice> the morning of the 22d. On our arrival at Richmond I found 2 boxes filled with Clothing and grub for me and the way we went into the eatables while we were in Libby was a caution.</p>
-               <p>Mother I am very anxious indeed to hear from you all and wish you get to write or <choice><sic>Telagraph</sic><corr>Telegraph</corr></choice> to me (as soon (as you get this) as possibly I may get it if you write before I leave here.</p>
-         <p>I have lots of yarns to tell you Mother but will wait <choice><sic>untill</sic><corr>until</corr></choice> I get home as I cant do justice to the darn Rebs, in a letter.</p>
+               <p>We left Danville on the 19th of this Month and stopped in Richmond untill the morning of the 22d. On our arrival at Richmond I found 2 boxes filled with Clothing and grub for me and the way we went into the eatables while we were in Libby was a caution.</p>
+               <p>Mother I am very anxious indeed to hear from you all and wish you get to write or Telagraph to me (as soon (as you get this) as possibly I may get it if you write before I leave here.</p>
+               <p>I have lots of yarns to tell you Mother but will wait untill I get home as I cant do justice to the darn Rebs, in a letter.</p>
                <p>You cant imagine how I want to see you and Mattie and the children and all the rest.</p>
                <closer rend="right">
                   <salute>Good Night Mother</salute>

@@ -10,13 +10,11 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bb">Brett Barney</persName>
-               <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of
-               Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -36,13 +34,7 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
-                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
-                  copyright law. Redistribution or republication on other terms, in any medium,
-                  requires express written consent from the editors and advance notification of the
-                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
-                  the graphic images in this archive has been granted by the owners of the originals
-                  for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -50,15 +42,14 @@
                <author>Horace Wentworth</author>
                <title>Horace Wentworth to Walt Whitman, 17 December 1866</title>
                <date when="1866-12-17">December 17, 1866</date>
-               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and
-                  Manuscript Library</orgName>
+               <orgName xml:id="yal">Yale Walt Whitman Collection, Beinecke Rare Book and Manuscript Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Wentworth, Horace" ref="n0689">Horace Wentworth</persName>
+               <persName key="Wentworth, Horace">Horace Wentworth</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -66,38 +57,32 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2015-06-14" who="#ss">annotated</change>
-         <change who="#ak" when="2015-04-16">corrected orgName, added pbs</change>
-         <change who="#el" when="2014-08-15">added schematron declaration</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
-         <change who="#bb" when="2010-04-08">corrected page image reference and two
-            readings</change>
+         <change who="#bb" when="2010-04-08">corrected page image reference and two readings</change>
          <change who="#el" when="2009-09-09">transcribed, encoded</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="yal.00102.001.jpg" type="recto"/>
-
-         <opener>
-            <dateline>
-               <name type="place">Boston</name>
-               <date when="1866-11-16">Dec 17 / 66</date>
-            </dateline>
-            <salute>Mr Walt Whitman,</salute>
-            <salute>Sir</salute>
-         </opener>
-         <p>What will you give me for the stereotype plates, "Imprints of the Leaves of Grass"</p>
-         <p>Would be pleased to hear from you soon</p>
-         <closer>
-            <salute><choice>
-                  <abbr>Resptly</abbr>
-                  <expan>Respectfully</expan>
-               </choice> Yours</salute>
-            <signed>H. Wentworth</signed>
-         </closer>
-
-         <pb xml:id="leaf001v" facs="yal.00102.002.jpg" type="verso"/>
+         <pb facs="yal.00102.001.jpg" type="recto"/>
+         
+            <opener>
+               <dateline>
+                  <name type="place">Boston</name> 
+                  <date when="1866-11-16">Dec 17 / 66</date>
+               </dateline>
+               <salute>Mr Walt Whitman,</salute>
+               <salute>Sir</salute>
+            </opener>
+            <p>What will you give me for the stereotype plates, "Imprints of the Leaves of Grass"</p>
+            <p>Would be pleased to hear from you soon</p>
+            <closer>
+               <salute>Resptly Yours</salute>
+               <signed>H. Wentworth</signed>
+            </closer>
+         
+         <pb facs="yal.00102.002.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

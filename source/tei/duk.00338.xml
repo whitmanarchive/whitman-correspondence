@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,33 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">85-86</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 8 February 1863</title>
                <date when="1863-02-08">February 8, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
+Manuscript, and Special Collections Library
+</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington">George Washington Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
@@ -60,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-27">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -72,17 +85,17 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00338.001_large.jpg" type="recto"/>
+         
             <opener>
-               <dateline rend="right"> 
+               <dateline rend="right">
                   <name type="place">Camp near Falmouth <lb/>Va </name>
                   <date when="1863-02-08"> Sunday Eve.  Feb 8th/63</date>
                </dateline>
                <salute>Dear Mother,</salute>
             </opener>
-         <p>I have, to night, received a letter from Walt, <choice><sic>encloseing</sic><corr>enclosing</corr></choice> two from Jeff (one dated Feb 3d and the other Feb 4th) and the one from Hannah, that Jeff sent him. Dear Mother how sorry I am to hear that you, and Mattie, and Sis, are not well, but as Jeff says in his last letter that you are all much better than you were the day before,  I do hope you have entirely recovered by this time. Mother I think you ought to be a great deal more careful of yourself, you know how much you have suffered from colds, and rheumatism and how long any thing of that kind hangs on to you, and Mammy you must remember that you cant expect to work and do as you used to, so <pb xml:id="leaf001v" facs="duk.00338.002_large.jpg" type="verso"/>I think you ought to let up, a little on yourself.</p>
-         <p>Poor Han, I was so in hopes that she was home by this time. I am sure she must have seen a great deal harder times than ever I did, and I have more reason to feel anxious about her than she has about me. Still I hope she will soon be with you and then I feel satisfied she will soon be well,  She tries to make us think that she gets along pretty well, but I can see by her letter that she is not as comfortable as she would make us believe. Mother I know you will all do everything you can for her, but <choice><sic>dont</sic><corr>don't</corr></choice> you think it would be well for Walt to go on there and see her, even if she did not feel well enough to come on home with him. But Mother <pb xml:id="leaf002r" facs="duk.00338.003_large.jpg" type="recto"/>I leave it <choice><sic>altogather</sic><corr>altogether</corr></choice> with you, at home, for I know, that you know what to do, better than I can tell you, and all I can say is do whatever you think best.</p>
-         <p>We have been under marching orders for the last 48 hours, and I have it from pretty good authority that our Army Corps are ordered to report to General Dix,<ptr target="duk.00338_n1"/> at Fortress Monroe. What we are to do there I <choice><sic>dont</sic><corr>don't</corr></choice> know But I have an opinion that Burnside is going to have a <choice><sic>sepperate</sic><corr>separate</corr></choice> command<ptr target="duk.00338_n2"/> and that Fortress Monroe is to be the place of rendezvous, and if my opinion is correct we will <choice><sic>probaly</sic><corr>probably</corr></choice> stay there some time. There was an order issued, from Head Quarters; a few days since, allowing two Officers (at one time) from each Regt. a leave of <pb xml:id="leaf002v" facs="duk.00338.004_large.jpg" type="verso"/>absence of 10 days. Capts Sims<ptr target="duk.00338_n3"/> and Wright<ptr target="duk.00338_n4"/> (from this Regt) are home now, and when they get back I believe it is my turn, so if this movement of ours <choice><sic>dont</sic><corr>don't</corr></choice> knock the thing in the head (and I <choice><sic>dont</sic><corr>don't</corr></choice> know how it will be) you may expect to see me home for a short time, before many days. I wrote Walt a few days ago, to write to you and have you send him by express $20 and for him to bring it down here to me. If we go to Fortress Monroe it will be almost as handy for him to come and see me as it is here, and if I can get a chance to come home I shall want the money to pay my way. I had my log house almost finished, when the orders came for us to get ready to move, and was going to have a nice warm house. but I am bound to have some good out of it and so I am <choice><sic>useing</sic><corr>using</corr></choice> it for fire wood.</p>
+            <p>I have, to night, received a letter from Walt, encloseing two from Jeff (one dated Feb 3d and the other Feb 4th) and the one from Hannah, that Jeff sent him. Dear Mother how sorry I am to hear that you, and Mattie, and Sis, are not well, but as Jeff says in his last letter that you are all much better than you were the day before,  I do hope you have entirely recovered by this time. Mother I think you ought to be a great deal more careful of yourself, you know how much you have suffered from colds, and rheumatism and how long any thing of that kind hangs on to you, and Mammy you must remember that you cant expect to work and do as you used to, so I think you ought to let up, a little on yourself.</p>
+            <p>Poor Han, I was so in hopes that she was home by this time. I am sure she must have seen a great deal harder times than ever I did, and I have more reason to feel anxious about her than she has about me. Still I hope she will soon be with you and then I feel satisfied she will soon be well,  She tries to make us think that she gets along pretty well, but I can see by her letter that she is not as comfortable as she would make us believe. Mother I know you will all do everything you can for her, but dont you think it would be well for Walt to go on there and see her, even if she did not feel well enough to come on home with him. But Mother I leave it altogather with you, at home, for I know, that you know what to do, better than I can tell you, and all I can say is do whatever you think best.</p>
+            <p>We have been under marching orders for the last 48 hours, and I have it from pretty good authority that our Army Corps are ordered to report to General Dix,<ptr target="duk.00338_n1"/> at Fortress Monroe. What we are to do there I dont know But I have an opinion that Burnside is going to have a sepperate command<ptr target="duk.00338_n2"/> and that Fortress Monroe is to be the place of rendezvous, and if my opinion is correct we will probaly stay there some time. There was an order issued, from Head Quarters; a few days since, allowing two Officers (at one time) from each Regt. a leave of absence of 10 days. Capts Sims<ptr target="duk.00338_n3"/> and Wright<ptr target="duk.00338_n4"/> (from this Regt) are home now, and when they get back I believe it is my turn, so if this movement of ours dont knock the thing in the head (and I dont know how it will be) you may expect to see me home for a short time, before many days. I wrote Walt a few days ago, to write to you and have you send him by express $20 and for him to bring it down here to me. If we go to Fortress Monroe it will be almost as handy for him to come and see me as it is here, and if I can get a chance to come home I shall want the money to pay my way. I had my log house almost finished, when the orders came for us to get ready to move, and was going to have a nice warm house. but I am bound to have some good out of it and so I am useing it for fire wood.</p>
             <p>Good night Dear Mother, much love to all,</p>
             <closer rend="center">
                <signed>G. W. W.</signed>

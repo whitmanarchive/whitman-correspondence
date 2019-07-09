@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
@@ -39,6 +38,19 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Horace Traubel</author>
+                  <title xml:id="wwwc">With Walt Whitman in Camden</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>Mitchell Kennerley</publisher>
+                     <date when="1914">1914</date>
+                     <biblScope type="volume">3</biblScope>
+                     <biblScope type="page">460</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>James Redpath</author>
                <title>James Redpath to Walt Whitman, 25 June 1860</title>
@@ -50,7 +62,7 @@
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Redpath, James" ref="loc.01012_n100">James Redpath</persName>
+               <persName key="Redpath, James">James Redpath</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -58,7 +70,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-02">added pbs</change>
          <change who="#nhg" when="2014-11-06">added date to biblStruct, corrected orgName formatting</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -68,7 +79,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.01012.001.jpg" type="recto"/>
+         
             <opener rend="right">
                <dateline>
                   <name type="place">Malden,</name>
@@ -76,14 +87,12 @@
                </dateline>
             </opener>
             <p>
-               <hi rend="italic">O rare Walt Whitman!</hi> I said I would write to you about your Book when I found time to read it as it was written to be read. But I take back my promise. For if you are not sane what will writing avail? and if you are sane your writings are alive with richest sanity. Now, if I do not understand them, or any parts of them, what good will it do to say so&#8212;silence, it seems to me, is a duty till I do understand them; and then again, if I do understand them, or <hi rend="italic">when</hi> I shall do so, what good will it do to tell you of the fact? It is a waste of breath for my friend to tell me I am healthy when my pulse records the circumstance so often every minute.</p>  
+               <hi rend="italic">O rare Walt Whitman!</hi> I<ptr target="loc.01012_n100"/> said I would write to you about your Book when I found time to read it as it was written to be read. But I take back my promise. For if you are not sane what will writing avail? and if you are sane your writings are alive with richest sanity. Now, if I do not understand them, or any parts of them, what good will it do to say so&#8212;silence, it seems to me, is a duty till I do understand them; and then again, if I do understand them, or <hi rend="italic">when</hi> I shall do so, what good will it do to tell you of the fact? It is a waste of breath for my friend to tell me I am healthy when my pulse records the circumstance so often every minute.</p>  
             <p>I love you, Walt! A Conquering Brigade will ere long march to the music of your barbaric jawp. Ever and truly</p>
             <closer rend="right">
                <signed>James Redpath.</signed>
             </closer>
-         <pb xml:id="leaf001v" facs="loc.01012.002.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="loc.01012.003.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc.01012.004.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

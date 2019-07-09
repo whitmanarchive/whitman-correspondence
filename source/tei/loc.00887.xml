@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -42,11 +41,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">132-133</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Lewis K. Brown, 11 August 1863</title>
                <date when="1863-08-11">August 11, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -56,12 +69,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Brown, Lewis K." ref="loc.00886_n2">Lewis K. Brown</persName>
+               <persName key="Brown, Lewis K.">Lewis K. Brown</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-27">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2009-08-18">proofread and removed refs</change>
@@ -72,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ej.00684.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -81,8 +93,8 @@
                <salute>Dear Lewy,</salute>
             </opener>
             <p>I thought I would write you a few lines to-day&#8212;I suppose you rec'd a letter from me eight or nine days ago<ptr target="loc.00887_n1"/>&#8212;I hope this will find you in good health &amp; spirits&#8212;I wrote to you not to go about too much, &amp; eat &amp; drink too freely, &amp; I must repeat the caution&#8212;a fellow can keep himself in good condition by a little care &amp; prudence&#8212;</p>
-         <p>Well, Lewy, the presentation to Dr Bliss<ptr target="loc.00887_n2"/> came off last Saturday evening&#8212;it was in ward F&#8212;the beds were all cleared out, the sick put in other wards&#8212;the room cleaned, hung with greens &amp;c., looked very nice&#8212;the instruments were there on exhibition the afternoon. I took a <pb xml:id="leaf001v" facs="loc_ej.00685.jpg" type="verso"/>view of them, they were in four cases, &amp; looked very fine&#8212;in the evening they were presented&#8212;speeches were made by one &amp; another&#8212;there was a band of music &amp;c&#8212;I <choice><sic>stopt</sic><corr>stopped</corr></choice> about 20 minutes, but got tired, &amp; went off among the boys that were confined to their beds&#8212;the room was crowded, &amp; every thing passed off right I heard&#8212;</p>
-         <p>Lewy, we have had the hottest weather here I ever experienced&#8212;it has been now about ten days, &amp; no let up yet&#8212;Yesterday &amp; last night was the hottest, no rain for some time &amp; the air prickly &amp; burning&#8212;Still I am enjoying very good health, thank God&#8212;better this last week than I have had for two or three months&#8212;I have <pb xml:id="leaf002r" facs="loc_ej.00686.jpg" type="recto"/>some thought of going on to New York for a short time, as I have not been home now in eight months, but if I do, I shall pretty surely return here before long&#8212;Lewy, the draft has been put through here in Washington the past week&#8212;they drafted lots of secessionists &amp; quite a good many darks&#8212;(I wonder if it wouldn't be a good plan to draft all of both them kinds)&#8212;I don't hear any particular war news&#8212;the Army of the Potomac is down around Warrenton&#8212;there are conscripts arriving there to fill up the reg'ts, more or less every day&#8212;it will be a great &amp; sudden change of life to many, especially such weather as this. <pb xml:id="leaf002v" facs="loc_ej.00687.jpg" type="verso"/>&#8212;I believe I told you in my last letter about the strange way the baby was born in the Chaplain's&#8212;well the baby is alive &amp; growing like a pig, &amp; the father Mr Lane is getting well, Mrs Lane ditto&#8212;Dr Bliss is just going off on a furlough&#8212;the Chaplain &amp; wife have left on a furlough&#8212;Taber<ptr target="loc.00887_n3"/> &amp; the rest in ward K are all right&#8212;there have been quite a good many deaths in hospital the past week or so, the heat is bad for the poor wounded men&#8212;</p>
+            <p>Well, Lewy, the presentation to Dr Bliss<ptr target="loc.00887_n2"/> came off last Saturday evening&#8212;it was in ward F&#8212;the beds were all cleared out, the sick put in other wards&#8212;the room cleaned, hung with greens &amp;c., looked very nice&#8212;the instruments were there on exhibition the afternoon. I took a view of them, they were in four cases, &amp; looked very fine&#8212;in the evening they were presented&#8212;speeches were made by one &amp; another&#8212;there was a band of music &amp;c&#8212;I stopt about 20 minutes, but got tired, &amp; went off among the boys that were confined to their beds&#8212;the room was crowded, &amp; every thing passed off right I heard&#8212;</p>
+            <p>Lewy, we have had the hottest weather here I ever experienced&#8212;it has been now about ten days, &amp; no let up yet&#8212;Yesterday &amp; last night was the hottest, no rain for some time &amp; the air prickly &amp; burning&#8212;Still I am enjoying very good health, thank God&#8212;better this last week than I have had for two or three months&#8212;I have some thought of going on to New York for a short time, as I have not been home now in eight months, but if I do, I shall pretty surely return here before long&#8212;Lewy, the draft has been put through here in Washington the past week&#8212;they drafted lots of secessionists &amp; quite a good many darks&#8212;(I wonder if it wouldn't be a good plan to draft all of both them kinds)&#8212;I don't hear any particular war news&#8212;the Army of the Potomac is down around Warrenton&#8212;there are conscripts arriving there to fill up the reg'ts, more or less every day&#8212;it will be a great &amp; sudden change of life to many, especially such weather as this. I believe I told you in my last letter about the strange way the baby was born in the Chaplain's&#8212;well the baby is alive &amp; growing like a pig, &amp; the father Mr Lane is getting well, Mrs Lane ditto&#8212;Dr Bliss is just going off on a furlough&#8212;the Chaplain &amp; wife have left on a furlough&#8212;Taber<ptr target="loc.00887_n3"/> &amp; the rest in ward K are all right&#8212;there have been quite a good many deaths in hospital the past week or so, the heat is bad for the poor wounded men&#8212;</p>
             <p>Well, Lewy, I must now wind up&#8212;I send you my love, my darling son &amp; comrade, &amp; request you to write me soon as convenient, how you are getting along &amp; all about things&#8212;I will write again before very long, till then good bye &amp; God bless you, dear son&#8212;</p>
             <closer rend="right">
                <signed>Walt Whitman</signed>

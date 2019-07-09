@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -43,18 +42,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Ralph Waldo Emerson</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">66</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Ralph Waldo Emerson</author>
                <title>Ralph Waldo Emerson to Walt Whitman, 12 January 1863</title>
                <date when="1863-01-12">January 12, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Emerson, Ralph Waldo" ref="n1044">Ralph Waldo Emerson</persName>
+               <persName key="Emerson, Ralph Waldo">Ralph Waldo Emerson</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -62,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-13">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-08">Seward link</change>
@@ -74,7 +86,6 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00761.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Buffalo&#8212;</name>
@@ -83,9 +94,9 @@
                </dateline>
                <salute>Dear Sir,</salute>
             </opener>
-         <p>I am very sorry to be so late with my reply to your note, which was received by me just on leaving home to go to Canada, &amp; thence to some of your West N.Y. cities, <pb xml:id="leaf001v" facs="loc.00761.002_large.jpg" type="verso"/>a journey which has left me no leisure for writing notes to diplomatists, until today.<ptr target="loc.00761_n3"/>
+            <p>I am very sorry to be so late with my reply to your note, which was received by me just on leaving home to go to Canada, &amp; thence to some of your West N.Y. cities, a journey which has left me no leisure for writing notes to diplomatists, until today.<ptr target="loc.00761_n3"/>
             </p>
-         <p>If you wish to live in that least attractive (to me) of cities, I must think you can easily do so. Per<pb xml:id="leaf002r" facs="loc.00761.003_large.jpg" type="recto"/>haps better in the journalism than in the Departments.
+            <p>If you wish to live in that least attractive (to me) of cities, I must think you can easily do so. Perhaps better in the journalism than in the Departments.
 You will see that I have dated my note from my known residence.<ptr target="loc.00761_n4"/> With best hope,</p>
             <closer rend="right">
                <signed>R. W. Emerson</signed>
@@ -95,7 +106,7 @@ You will see that I have dated my note from my known residence.<ptr target="loc.
             <postscript>
             <p>Walt Whitman, Esq.</p>
          </postscript>
-         <pb xml:id="leaf002v" facs="loc.00761.004_large.jpg" type="verso"/>
+
       </body>
    </text>
 </TEI>

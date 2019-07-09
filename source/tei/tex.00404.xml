@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -49,14 +48,14 @@
                <author>Hannah E. Stevenson</author>
                <title>Hannah E. Stevenson to Walt Whitman, 6 October 1863</title>
                <date when="1863-10-06">October 6, 1863</date>
-               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Stevenson, Hannah E." ref="loc.00869_n100">Hannah E. Stevenson</persName>
+               <persName key="Stevenson, Hannah E.">Hannah E. Stevenson</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -64,7 +63,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-13">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">proofreading changes</change>
@@ -76,11 +74,12 @@
    </teiHeader>
    <text type="letter">
       <body>
+         <pb type="recto"/>
             <opener>
                <salute>Mr Whitman,</salute>
                <salute>Sir,</salute>
             </opener>
-            <p>I took from Dr Russell<ptr target="loc.00869_n2"/> your letter to Mr Redpath,<ptr target="loc.00869_n3"/> to stir some warm hearts to aid you in your blessed work among our sick &amp; wounded boys.  My sister, Mrs Charles P. Curtis, has already written you, her husband's tears and her own ones&#8212;your touching words, coined into gold, or greenbacks.  I inclose you to-day $30, the result of an application to my friends, the Misses Wigglesworth.<ptr target="loc.00869_n4"/>
+            <p>I<ptr target="loc.00869_n100"/> took from Dr Russell<ptr target="loc.00869_n2"/> your letter to Mr Redpath,<ptr target="loc.00869_n3"/> to stir some warm hearts to aid you in your blessed work among our sick &amp; wounded boys.  My sister, Mrs Charles P. Curtis, has already written you, her husband's tears and her own ones&#8212;your touching words, coined into gold, or greenbacks.  I inclose you to-day $30, the result of an application to my friends, the Misses Wigglesworth.<ptr target="loc.00869_n4"/>
             </p>
             <closer rend="right">
                <salute>Respectfully,</salute>
@@ -90,6 +89,13 @@
                   <addrLine>Boston</addrLine>
                </address>  
             </closer>
+         
+         <pb type="verso"/>
+         
+         <pb type="recto"/>
+         
+         <pb type="recto"/>
+         
       </body>
    </text>
 </TEI>

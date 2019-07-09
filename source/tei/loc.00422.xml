@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
 
@@ -42,18 +41,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">73-74</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 22 September 1863</title>
                <date when="1863-09-22">September 22, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -61,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-09-04">modified last footnote</change>
@@ -73,7 +85,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00382_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn</name>
@@ -82,13 +94,13 @@
                <salute>Dear brother Walt,</salute>
             </opener>
             <p>The enclosed $25 is from my old friend Joseph P. Davis<ptr target="loc.00422_n1"/> who is Engineering down in Peru. Although he is far away yet he does not forget home. I have written him in some of my letters what you were doing, with short extracts from your letters.</p>
-         <p>Well Walt it looks as if we had met rather a bad reverse in the West. If Rosecrans<ptr target="loc.00422_n2"/> is whipped I should hardly think that the United States was large enough to contain the infernal quacks that administer the military arm of our government. I suppose their is at least 30 000 men <hi rend="italic">nibbling</hi> around in Kansas and other parts west. Matters that would tumble of their own weight <pb xml:id="leaf001v" facs="loc_ad.00383_large.jpg" type="verso"/>if the army in front of Rosecrans was <choice><sic>thouroughly</sic><corr>thoroughly</corr></choice> whipped. Tis awful to think of. I mailed you a letter from George a few days since, did you get it.</p>
-         <p>Mother is <choice><abbr>abt</abbr><expan>about</expan></choice> the same as usual. I think she fails somewhat. I suppose not more than we must expect however. Mattie and the babies are quite well. Hattie is getting to be quite a girl, and the little one is also getting to be quite a youngster. Jess is <choice><abbr>abt</abbr><expan>about</expan></choice> the same, he is not well. He needs good living more than anything I think. Andrew I suppose Mother wrote you about  I think that it is unfortunate that he should be so <choice><sic>humbuged</sic><corr>humbugged</corr></choice> by the "Italian Dr."<ptr target="loc.00422_n3"/> but I suppose he would not otherwise have tried to get well at all  <pb xml:id="leaf002r" facs="loc_ad.00384_large.jpg" type="recto"/>The Dr. <choice><sic>requirs</sic><corr>requires</corr></choice> him to pay $180 in 3 installments in <hi rend="italic">advance</hi>. He has paid $46 and is now living his 15 days at the "<choice><sic>Foriegn</sic><corr></corr></choice> Dr's" as a <choice><sic>prepairing</sic><corr>preparing</corr></choice> course, then he is to take certain baths. The whole thing in my opinion is one of the biggest of humbugs. However if Andrew <choice><sic>believs</sic><corr>believes</corr></choice> in it I suppose it is best to bolster him up in his beliefs.</p>
+            <p>Well Walt it looks as if we had met rather a bad reverse in the West. If Rosecrans<ptr target="loc.00422_n2"/> is whipped I should hardly think that the United States was large enough to contain the infernal quacks that administer the military arm of our government. I suppose their is at least 30 000 men <hi rend="italic">nibbling</hi> around in Kansas and other parts west. Matters that would tumble of their own weight if the army in front of Rosecrans was thouroughly whipped. Tis awful to think of. I mailed you a letter from George a few days since, did you get it.</p>
+            <p>Mother is abt the same as usual. I think she fails somewhat. I suppose not more than we must expect however. Mattie and the babies are quite well. Hattie is getting to be quite a girl, and the little one is also getting to be quite a youngster. Jess is abt the same, he is not well. He needs good living more than anything I think. Andrew I suppose Mother wrote you about  I think that it is unfortunate that he should be so humbuged by the "Italian Dr."<ptr target="loc.00422_n3"/> but I suppose he would not otherwise have tried to get well at all  The Dr. requirs him to pay $180 in 3 installments in <hi rend="italic">advance</hi>. He has paid $46 and is now living his 15 days at the "Foriegn Dr's" as a prepairing course, then he is to take certain baths. The whole thing in my opinion is one of the biggest of humbugs. However if Andrew believs in it I suppose it is best to bolster him up in his beliefs.</p>
             <p>I shall write you again [in] a few days sending you some more money. till then good bye</p>
             <closer rend="right">
                <signed>affectionately yours Thomas J. Whitman</signed>
             </closer>
-         <pb xml:id="leaf002v" facs="loc_ad.00385_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

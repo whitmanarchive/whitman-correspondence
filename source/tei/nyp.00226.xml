@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00226">
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00224">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="jw">Joshua Ware</persName>
@@ -44,14 +43,14 @@
                <author>William E. Babcock</author>
                <title>William E. Babcock to Walt Whitman, 25 December 1864</title>
                <date when="1864-12-25">December 25, 1864</date>
-               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library </orgName>
+               <orgName xml:id="nyp">Berg Collection at the New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Babcock, William E." ref="nyp.00226_n100">William E. Babcock</persName>
+               <persName key="Babcock, William E.">William E. Babcock</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -59,7 +58,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-22">added xml:id to pb, corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-13">proofreading changes</change>
@@ -69,7 +67,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="nyp.00226.001.jpg" type="recto"/>
+         <pb facs="nyp.00226.001.jpg" type="recto"/>
          
          <opener>
             <dateline>
@@ -78,10 +76,10 @@
             </dateline>
             <salute>Friend Walt,</salute>
          </opener>
-         <p>Your kind letter came to hand in due time. And as this is Christmas night and I alone in my Shanty will improve it in writing You <choice><sic>althouth</sic><corr>although</corr></choice> there is not much new to write Yet I will make the Endeavor. I have been away all day as this is a day that all Niggers Should be free. and <choice><sic>haveing</sic><corr>having</corr></choice> an <choice><sic>invitiation</sic><corr>invitation</corr></choice> out to Eat roast Turkey of course excepted it and had a <choice><sic>verry</sic><corr>very</corr></choice> nice time yet I think had I been in <pb xml:id="leaf001v" facs="nyp.00226.002.jpg" type="verso"/>New York or Brooklyn that I would enjoyed My-Self much better and Shall be glad to get back there once more as a citizen for to go there on a leave of absence is only an <choice><sic>agrivation</sic><corr>aggravation</corr></choice> as the time is always So Short that one cannot <choice><sic>heardly</sic><corr>hardly</corr></choice> turn before he has to come back</p>
-         <p>I Suppose that you have heard that we have a new Colonel Commissioned in our regt. who is none other than Capt. McKiben Bronets Brig. Genl. And I heard that there had been a <choice><sic>Commisson</sic><corr>Commission</corr></choice> issued as Lt. Col. to Some out Sider, I don't know how true it is, Yet I think it is a Shame to run over all of our Officers that are now <choice><sic>Priosners</sic><corr>Prisoners</corr></choice> of War <pb xml:id="leaf002r" facs="nyp.00226.003.jpg" type="recto"/> Who have Served and fought in the regiment Since the <choice><sic>Orginization</sic><corr>Organization</corr></choice> and for my part I Shall resign if what I hear is true. So You need not be Surprised if You hear that Your humble Servant has put in his Unconditional Surrender, and retires to Private life</p>
+         <p>Your kind letter came to hand in due time.<ptr target="nyp.00226_n100"/> And as this is Christmas night and I alone in my Shanty will improve it in writing You althouth there is not much new to write Yet I will make the Endeavor. I have been away all day as this is a day that all Niggers Should be free. and haveing an invitiation out to Eat roast Turkey of course excepted it and had a verry nice time yet I think had I been in <pb facs="nyp.00226.002.jpg" type="verso"/>New York or Brooklyn that I would enjoyed My-Self much better and Shall be glad to get back there once more as a citizen for to go there on a leave of absence is only an agrivation as the time is always So Short that one cannot heardly turn before he has to come back</p>
+         <p>I Suppose that you have heard that we have a new Colonel Commissioned in our regt. who is none other than Capt. McKiben Bronets Brig. Genl. And I heard that there had been a Commisson issued as Lt. Col. to Some out Sider, I don't know how true it is, Yet I think it is a Shame to run over all of our Officers that are now Priosners of War <pb facs="nyp.00226.003.jpg" type="recto"/> Who have Served and fought in the regiment Since the Orginization and for my part I Shall resign if what I hear is true. So You need not be Surprised if You hear that Your humble Servant has put in his Unconditional Surrender, and retires to Private life</p>
          <p>We have Sent Your Brother Georges large Trunk home to Your Mothers Address by Express So if you have not already received it You Can look out for it</p>
-         <p><choice><sic>Hopeing</sic><corr>Hoping</corr></choice> to hear from you Soon</p>
+         <p>Hopeing to hear from you Soon</p>
          <closer>
             <salute>I remain</salute>
             <salute>Yours &amp;c</salute>

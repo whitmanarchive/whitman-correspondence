@@ -9,7 +9,7 @@
                 <editor>Wesley Raabe</editor>
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
-                    <resp>Transcription and encoding</resp><persName xml:id="el">Elizabeth Lorang</persName><persName xml:id="ak">Alex Kinnaman</persName>
+                    <resp>Transcription and encoding</resp><persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="ct">Cathy Tisch</persName><persName xml:id="fw">Felicia Wetzig</persName><persName xml:id="wr">Wesley Raabe</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -56,12 +56,9 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <handNotes>
-                <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName></handNote>
-            </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -69,7 +66,6 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-09-17" who="#el">checked</change>
@@ -93,7 +89,7 @@
                 <salute>dear <choice><orig>walt</orig><reg>Walt</reg></choice><ptr target="duk.00615_n1"/></salute>
             </opener>
       
-            <p>i got your letter on <choice><orig>sater</orig> <reg>Saturday</reg></choice>
+            <p>i<ptr target="duk.00425_n3"/> got your letter on <choice><orig>sater</orig> <reg>Saturday</reg></choice>
                 with the 5 dollars and got one to day<ptr target="duk.00615_n3"/>
             i am not feeling very well <choice><orig>walter</orig><reg>Walter</reg></choice>
             dear i am very <choice><orig>nervious</orig> <reg>nervous</reg></choice> and have

@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -56,14 +55,14 @@
                <author>William T. Otto</author>
                <title>William T. Otto to Walt Whitman, 12 January 1865</title>
                <date when="1865-01-12">January 12, 1865</date>
-               <orgName xml:id="nypl">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
+               <orgName xml:id="nyp">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Otto, William T." ref="nyp.00219_n100">William T. Otto</persName>
+               <persName key="Otto, William T.">William T. Otto</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,7 +70,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-03">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-31">updated Oscar Lion info</change>
@@ -86,20 +84,21 @@
          
             <opener rend="right">
                <dateline>
-                  <name type="place">Department of the Interior,</name>
-                  <name type="place">Washington,</name>
+                  <name type="place">Department of the Interior,<lb/>
+Washington,</name>
                   <date when="1865-01-12">January 12, 1865.</date>
                </dateline>
                <salute>Sir:</salute>
             </opener>
-            <p>Upon reporting at this Department and passing a satisfactory examination you will be appointed to a First Class Clerkship at a compensation of twelve hundred dollars per annum.<ptr target="nyp.00219_n2"/> I am, Sir, very respectfully, your <choice><abbr>obt</abbr><expan>obedient</expan></choice> servant</p>  
+            <p>Upon reporting at this Department and passing a satisfactory examination you will be appointed to a First Class Clerkship at a compensation of twelve hundred dollars per annum.<ptr target="nyp.00219_n2"/> I am, Sir, very respectfully, your obt servant</p>  
             <closer rend="right">
-               <signed>W. T. Otto, Assistant Secretary.
+               <signed>W. T. Otto, Assistant Secretary.<ptr target="nyp.00219_n100"/>
             </signed>
             </closer>
          
          <postscript>
-            <p>Walt Whitman, Esq. <name>Brooklyn, N. Y.</name></p>
+            <p>Walt Whitman, Esq.<lb/>
+Brooklyn, N. Y.</p>
          </postscript>
       </body>
    </text>

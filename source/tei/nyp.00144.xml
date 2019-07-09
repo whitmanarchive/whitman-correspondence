@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -57,14 +56,14 @@
                <author>C. L. Scott</author>
                <title>C. L. Scott to Walt Whitman, 31 August 1863</title>
                <date when="1863-08-31">August 31, 1863</date>
-               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Scott, C.L." ref="n5000">C.L. Scott</persName>
+               <persName key="Scott, C.L.">C.L. Scott</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,7 +71,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-30">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -82,11 +80,15 @@
    </teiHeader>
    <text type="letter">
       <body>
+         
             <opener> 
+               <dateline rend="right"> </dateline>
                <salute>Friend Whitman</salute>
             </opener>
-            <p>Two weeks have quickly passed by since I left Armory Square Hospital. My journey home was very pleasant to me &amp; what made it the more so (I suppose) was the anticipation of once more being with my friends. I arrived here on the 19th the joy of friends on my arrival I will not attempt to say anything about, only it seemed to be great. you no doubt can <choice><sic>imagain</sic><corr>imagine</corr></choice> a little how I felt in being once more where all the blessings &amp; comforts of life seemed to encompass me, but though I am now here, I cannot forget the suffering in our country caused by this unholy, ungodly &amp; <choice><orig>nevertobeforgotten</orig><reg>never-to-be-forgotten</reg></choice> war. My mind is taken back to when I lay suffering in the Hospital &amp; I have a particular feeling of gratitude to you for the many pleasant hours (to me) we have spent together.  what  is more consoling to the helpless (when away from home) than to find a friend, one in whom we can confide &amp; trust, as was my case when I first made your acquaintance somehow or other you seemed like a father, why it was so I am unable to say, yet such was the case,  &amp; I <choice><sic>hav'nt</sic><corr>haven't</corr></choice> the least doubt but such has been the case with thousands of other fellow soldiers, but I will not weary your patience, suffice it to say that I feel to rejoice that my lot is no worse &amp; may the spirit that ever directs aright protect &amp; keep you to be a comfort &amp; blessing to many a weary one in their days of trouble, I remain your affectionate friend &amp; brother,</p>
-            
+            <p>Two weeks have quickly passed by since I left Armory Square Hospital. My journey home was very pleasant to me &amp; what made it the more so (I suppose) was the anticipation of once more being with my friends. I arrived here on the 19th the joy of friends on my arrival I will not attempt to say anything about, only it seemed to be great. you no doubt can imagain a little how I felt in being once more where all the blessings &amp; comforts of life seemed to encompass me, but though I am now here, I cannot forget the suffering in our country caused by this unholy, ungodly &amp; nevertobeforgotten war. My mind is taken back to when I lay suffering in the Hospital &amp; I have a particular feeling of gratitude to you for the many pleasant hours (to me) we have spent together.  what  is more consoling to the helpless (when away from home) than to find a friend, one in whom we can confide &amp; trust, as was my case when I first made your acquaintance somehow or other you seemed like a father, why it was so I am unable to say, yet such was the case,  &amp; I hav'nt the least doubt but such has been the case with thousands of other fellow soldiers, but I will not weary your patience, suffice it to say that I feel to rejoice that my lot is no worse &amp; may the spirit that ever directs aright protect &amp; keep you to be a comfort &amp; blessing to many a weary one in their days of trouble, I remain your affectionate friend &amp; brother,</p>
+            <closer rend="right">
+</closer>
+         
       </body>
    </text>
 </TEI>

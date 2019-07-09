@@ -44,9 +44,7 @@
       </publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
-          this file, as noted: 
-          <persName xml:id="ak">Alex Kinnaman</persName>
-          <persName xml:id="el">Elizabeth Lorang</persName>
+          this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
           <persName xml:id="zk">Zachary King</persName>
           <persName xml:id="ec">Eric Conrad</persName>
         </note>
@@ -72,7 +70,7 @@
           <author>Walt Whitman</author>
           <title>Walt Whitman to Thomas Dixon, 30 June 1870</title>
           <date cert="high" when="1870-06-30" xml:id="dat1">June 30, 1870</date>
-          <idno type="callno">MSS18630 Box 8</idno>
+          <idno type="callno">MSS18630<!-- Box 8 --></idno>
           <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
             1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
         </bibl>
@@ -84,12 +82,11 @@
           <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Dixon, Thomas" ref="loc.01446_n2">Thomas Dixon</persName>
+          <persName key="Dixon, Thomas">Thomas Dixon</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change who="#ak" when="2015-05-20">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
       <change when="2012-11-28" who="#el">checked</change>
       <change when="2012-06-20" who="#el">checked</change>
@@ -103,10 +100,10 @@
       <opener>
         <dateline>
           <date when="1870-06-30" rend="right">June 30 <lb/>'70</date><ptr target="loc.01446_n1"
-            /></dateline>
+            /><ptr target="loc.01446_n2"/></dateline>
       </opener>
 
-      <p>I must first render you thanks for the box of books, as they have at
+      <p>I must first render you<ptr target="n0196"/> thanks for the box of books, as they have at
         last reached me in good condition&#8212;The delay in their arrival is unaccountable. But
         they are welcome, and will all be read in due time, and with sincere gratitude to the donor.
         Both your letters also reached me, and were cordially welcomed. I should have acknowledged

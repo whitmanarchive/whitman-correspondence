@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -41,11 +40,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">48-50</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 12 April 1862</title>
                <date when="1862-04-12">April 12, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University </orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +72,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-23">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-12-16">Ken's proofreading changes</change>
@@ -74,7 +85,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00316.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Newbern </name>
@@ -82,20 +93,20 @@ corrections</change>
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-            <p>I received a letter dated March 30th and some papers from you a few days since, also a letter from Han &amp; Charlie  they are well and seem to get along very good. Mother you <choice><sic>dont</sic><corr>don't</corr></choice> know how glad I was to hear from you all. The last three or four mails had brought nothing for me and I began to think quite strange, but as you say you have sent me two or three letters I suppose the fault must be with the mail <choice><sic>arangements</sic><corr>arrangements</corr></choice>.</p>
-         <p>We have moved our camp since my last letter and are now on the Newbern side of the Trent river,  we have a splendid camp of new Sibley tents clean as a pin and pitched in a fine dry healthy spot on the outskirts of the <choice><sic>Citty</sic><corr>City</corr></choice>. Burnside<ptr target="duk.00316_n1"/> is fortifying here and I <choice><sic>supose</sic><corr>suppose</corr></choice> intends to make this a depot for supplies. after the fortifications are finished he will <choice><sic>probaly</sic><corr>probably</corr></choice> leave one or two <choice><sic>regts</sic><corr>regiments</corr></choice> here to man them, and go with the rest to take possession of Goldsborough which is quite an important place on <choice><sic>acount</sic><corr>account</corr></choice> of its railroad communication with the south. Reinforcements of two <choice><sic>regts</sic><corr>regiments</corr></choice> from N.Y.  one from Maryland  one from Penn. and one or two from Mass. have <choice><sic>arived</sic><corr>arrived</corr></choice> here within the last few days and I believe more are expected to join us soon. I <choice><sic>dont</sic><corr>don't</corr></choice> know what <choice><sic>regt</sic><corr>regiment</corr></choice>s will be left here but think likely we shall stay, as the talk is that our Col has been promoted to a Brigadier Gen. and our <choice><sic>Leiut</sic><corr>Leiutenant</corr></choice> <choice><sic>Col</sic><corr>Colonel</corr></choice>. and Major have gone home, badly wounded,  besides our <choice><sic>regt</sic><corr>regiment</corr></choice> is pretty well reduced in numbers by sickness and killed &amp; wounded in action so that we will likely be left here until the wounded who have gone home on Furlough join us.</p>
-         <p>I have been promoted too Mamy  at least I have been <pb xml:id="leaf001v" facs="duk.00316.002_large.jpg" type="verso"/>apointed Second Leiut in Co D  the commission of course has to come from Gov Morgan,<ptr target="duk.00316_n2"/> but Burnside has sent on the <choice><sic>apointment</sic><corr>appointment</corr></choice> for confirmation so the commission will come all right.<ptr target="duk.00316_n3"/>
+            <p>I received a letter dated March 30th and some papers from you a few days since, also a letter from Han &amp; Charlie  they are well and seem to get along very good. Mother you dont know how glad I was to hear from you all. The last three or four mails had brought nothing for me and I began to think quite strange, but as you say you have sent me two or three letters I suppose the fault must be with the mail arangements.</p>
+            <p>We have moved our camp since my last letter and are now on the Newbern side of the Trent river,  we have a splendid camp of new Sibley tents clean as a pin and pitched in a fine dry healthy spot on the outskirts of the Citty. Burnside<ptr target="duk.00316_n1"/> is fortifying here and I supose intends to make this a depot for supplies. after the fortifications are finished he will probaly leave one or two regts here to man them, and go with the rest to take possession of Goldsborough which is quite an important place on acount of its railroad communication with the south. Reinforcements of two regts from N.Y.  one from Maryland  one from Penn. and one or two from Mass. have arived here within the last few days and I believe more are expected to join us soon. I dont know what regts will be left here but think likely we shall stay, as the talk is that our Col has been promoted to a Brigadier Gen. and our Leiut Col. and Major have gone home, badly wounded,  besides our regt is pretty well reduced in numbers by sickness and killed &amp; wounded in action so that we will likely be left here until the wounded who have gone home on Furlough join us.</p>
+            <p>I have been promoted too Mamy  at least I have been apointed Second Leiut in Co D  the commission of course has to come from Gov Morgan,<ptr target="duk.00316_n2"/> but Burnside has sent on the apointment for confirmation so the commission will come all right.<ptr target="duk.00316_n3"/>
             </p>
-         <p>A day or two after the battle of Roanoke Col. Ferero<ptr target="duk.00316_n4"/> came to me and said he would soon give me a chance, but as there was no vacancies of course he could do nothing until the battle of Newberne gave him a chance to fulfill his promise. My <choice><sic>apointment</sic><corr>appointment</corr></choice> dates from the 14th of March, the day of the battle of Newberne. There has been a great deal of figuring for positions in this <choice><sic>regt</sic><corr>regiment</corr></choice>  some of the <choice><sic>Leiuts</sic><corr>Leiutenants</corr></choice> paying as high as 3 or $400 for the place but I never asked for it, and feel a great deal better satisfied than if I had bought it. Our Captain is a young man from Buffalo N.Y. named Hazard<ptr target="duk.00316_n5"/> whose father is very rich and we live in fine style I tell you. Cap has bread made in the <choice><sic>Citty</sic><corr>City</corr></choice> and buys lots of eggs, fish Oysters chickens, milk and everything else he can see. We have three nigger boys to cook and wait on us, but Cap can afford it so I <choice><sic>dont</sic><corr>don't</corr></choice> care,</p>
-         <p>Our first <choice><sic>Leiut</sic><corr>Leiutenant</corr></choice>, Francis is a first rate fellow<ptr target="duk.00316_n6"/> so I have tip top times. We were paid off day before yesterday up to the first of March,  I received $42  I had to buy lots of new things and have spent nearly all my money. The paymaster says we will be paid again the first of next month. Mother if you want money before that time, let me know and I will borrow some and send you. I hope to send you a good lot after next pay as I get $103 a month  so Mamy I hope the good time is <choice><sic>comeing</sic><corr>coming</corr></choice> when we will have plenty of soap. If Jeff has any money to spare you might borrow some from him and I will send you some to pay him as soon as we get our next pay. Adams Express Co have an agency here and if we stay here I <choice><sic>shal</sic><corr>shall</corr></choice> send home what money I can spare, and you can use what you want, and put the rest in the bank. One good thing in <choice><sic>haveing</sic><corr>having</corr></choice> a commission <pb xml:id="leaf002r" facs="duk.00316.003_large.jpg" type="recto"/>is if a fellow gets sick or tired of <choice><orig>sogering</orig><reg>soldiering</reg></choice> he can resign and go home to his Mamy.</p>
-            <p>Mother you must take things easy and not fret,  how I should like to see you all,  Siss I <choice><sic>supose</sic><corr>suppose</corr></choice> is almost big enough to go to School  it seems a long time since I have seen any of you. I wish some of you would write every week. Tell Jeff and Walt and Bunkum to write often</p>
-            <p>Matt how comes on the Sewing Machines or has the war busted up the <choice><sic>buisness</sic><corr>business</corr></choice>.<ptr target="duk.00316_n7"/>
+            <p>A day or two after the battle of Roanoke Col. Ferero<ptr target="duk.00316_n4"/> came to me and said he would soon give me a chance, but as there was no vacancies of course he could do nothing until the battle of Newberne gave him a chance to fulfill his promise. My apointment dates from the 14th of March, the day of the battle of Newberne. There has been a great deal of figuring for positions in this regt  some of the Leiuts paying as high as 3 or $400 for the place but I never asked for it, and feel a great deal better satisfied than if I had bought it. Our Captain is a young man from Buffalo N.Y. named Hazard<ptr target="duk.00316_n5"/> whose father is very rich and we live in fine style I tell you. Cap has bread made in the Citty and buys lots of eggs, fish Oysters chickens, milk and everything else he can see. We have three nigger boys to cook and wait on us, but Cap can afford it so I dont care,</p>
+            <p>Our first Leiut, Francis is a first rate fellow<ptr target="duk.00316_n6"/> so I have tip top times. We were paid off day before yesterday up to the first of March,  I received $42  I had to buy lots of new things and have spent nearly all my money. The paymaster says we will be paid again the first of next month. Mother if you want money before that time, let me know and I will borrow some and send you. I hope to send you a good lot after next pay as I get $103 a month  so Mamy I hope the good time is comeing when we will have plenty of soap. If Jeff has any money to spare you might borrow some from him and I will send you some to pay him as soon as we get our next pay. Adams Express Co have an agency here and if we stay here I shal send home what money I can spare, and you can use what you want, and put the rest in the bank. One good thing in haveing a commission is if a fellow gets sick or tired of sogering he can resign and go home to his Mamy.</p>
+            <p>Mother you must take things easy and not fret,  how I should like to see you all,  Siss I supose is almost big enough to go to School  it seems a long time since I have seen any of you. I wish some of you would write every week. Tell Jeff and Walt and Bunkum to write often</p>
+            <p>Matt how comes on the Sewing Machines or has the war busted up the buisness.<ptr target="duk.00316_n7"/>
             </p>
-            <p>Mother I will write again in a few days So good bye and <choice><sic>mutch</sic><corr>much</corr></choice> love to all</p>
+            <p>Mother I will write again in a few days So good bye and mutch love to all</p>
             <closer rend="right">
                <signed>G. W. W.</signed>
             </closer>
-         <pb xml:id="leaf002v" facs="duk.00316.004_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

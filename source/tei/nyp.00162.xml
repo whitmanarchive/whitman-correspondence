@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -60,14 +59,14 @@
                <author>John F. S. Gray</author>
                <title>John F. S. Gray to Walt Whitman, 7 May 1864</title>
                <date when="1864-05-07">May 7, 1864</date>
-               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Gray, John F.S." ref="nyp.00162_n100">John F. S. Gray</persName>
+               <persName key="Gray, John F.S.">John F. S. Gray</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -75,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-02">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -90,10 +88,13 @@
    </teiHeader>
    <text type="letter">
       <body>
+         
             <opener> 
+               <dateline rend="right"/>
                <salute>Good bye!</salute>
             </opener>
-         <p>We are suddenly ordered away to the South-west.  I will write you when we get settled!</p>
+         <p>We are suddenly ordered away to the South-west.  I<ptr target="nyp.00162_n100"/> will write you when we get settled!</p>
+            <closer rend="right"/>
          
       </body>
    </text>

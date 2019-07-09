@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
 
@@ -42,11 +41,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">73</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 10 November 1862</title>
                <date when="1862-11-10">November 10, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-24">style sheet proofreading</change>
@@ -74,7 +85,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00331.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Jefferson Va</name>
@@ -82,7 +93,7 @@ corrections</change>
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-         <p>I have not had a chance to send you a letter for some days, but I suppose you have seen by the papers that we have crossed into Va again. We are now about 50 miles from Harpers Ferry and about 15 miles from Cullpepper court House, where the rebels are said to be in considerable force. We have found nothing but small squads so far doing picket duty, who fall back as fast as we advance. I am well and hearty but we get pretty hard fare, most of the time, but we are getting pretty well used to that. We crossed into Va on the 27th of Oct and have been traveling about from one place to another ever since, The <choice><sic>Villiages</sic><corr>Villages</corr></choice> we have passed through are the most God forsaken places I ever saw,<ptr target="duk.00331_n1"/>  the people seem to have next to nothing to eat as the men have all gone in the Secesh army, and how they are going to get through the winter I <choice><sic>dont</sic><corr>don't</corr></choice> know. We have not seen a paper since we came into Va and we cant find out what the rest of the army is doing, or how the New York election went, so you see we are a long way behind the age  <pb xml:id="leaf001v" facs="duk.00331.002_large.jpg" type="recto"/>Captain Francis<ptr target="duk.00331_n2"/> has not come back yet. and I am getting almost tired of <choice><sic>haveing</sic><corr>having</corr></choice> the whole trouble and responsibility of the Company and someone else getting the pay for it.  We have not been paid yet and I have something over 400$ <choice><sic>comeing</sic><corr>coming</corr></choice> to me besides the $100 bounty which I believe I am entitled to as I was mustered into the Service as a private.</p>
+            <p>I have not had a chance to send you a letter for some days, but I suppose you have seen by the papers that we have crossed into Va again. We are now about 50 miles from Harpers Ferry and about 15 miles from Cullpepper court House, where the rebels are said to be in considerable force. We have found nothing but small squads so far doing picket duty, who fall back as fast as we advance. I am well and hearty but we get pretty hard fare, most of the time, but we are getting pretty well used to that. We crossed into Va on the 27th of Oct and have been traveling about from one place to another ever since, The Villiages we have passed through are the most God forsaken places I ever saw,<ptr target="duk.00331_n1"/>  the people seem to have next to nothing to eat as the men have all gone in the Secesh army, and how they are going to get through the winter I dont know. We have not seen a paper since we came into Va and we cant find out what the rest of the army is doing, or how the New York election went, so you see we are a long way behind the age  Captain Francis<ptr target="duk.00331_n2"/> has not come back yet. and I am getting almost tired of haveing the whole trouble and responsibility of the Company and someone else getting the pay for it.  We have not been paid yet and I have something over 400$ comeing to me besides the $100 bounty which I believe I am entitled to as I was mustered into the Service as a private.</p>
             <p>I recd your letter of Oct 26th.</p>
             <p>Mother, I must stop writing as my candle is going out, and I hope in a few days we will get where we can send letters regular</p>
             <closer rend="right">

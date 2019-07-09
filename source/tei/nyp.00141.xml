@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -58,14 +57,14 @@
                <author>Alvah H. Small</author>
                <title>Alvah H. Small to Walt Whitman, 24 July 1863</title>
                <date when="1863-07-24">July 24, 1863</date>
-               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Small, Alvah H." ref="nyp.00141_n100">Alvah H. Small</persName>
+               <persName key="Small, Alvah H.">Alvah H. Small</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,7 +72,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-12">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-08-06">added annotations</change>
@@ -88,10 +86,10 @@
             <opener> 
                <salute>Mr. Whitman Dear Sir</salute>
             </opener>
-         <p>I will now improve a few moments to pen you a few lines in accordance to your request.</p>
-            <p>I left Washington last Monday at 3 oclock in the afternoon and arrived in Baltimore at 5 Oclock and I then reached this <choice><sic>Citty</sic><corr>City</corr></choice> and took the cars again at 9 Oclock and arrived here in Williamsport the next morning at 10 oclock.</p>
+         <p>I<ptr target="nyp.00141_n100"/> will now improve a few moments to pen you a few lines in accordance to your request.</p>
+            <p>I left Washington last Monday at 3 oclock in the afternoon and arrived in Baltimore at 5 Oclock and I then reached this Citty and took the cars again at 9 Oclock and arrived here in Williamsport the next morning at 10 oclock.</p>
             <p>I had a very pleasant passage and enjoyed the ride very much but yet I found that my wounds were somewhat situated and they have been more sore than usual and so I have not gone about the place a great deal yet, but what I have seen so far I think I like the place very much.</p>
-         <p>The Business is chiefly lumbering and it is carried on in a more extensive manner than I have ever before seen it and the place is fast building up and will very soon be incorporated into a <choice><sic>citty</sic><corr>city</corr></choice>.</p>
+            <p>The Business is chiefly lumbering and it is carried on in a more extensive manner than I have ever before seen it and the place is fast building up and will very soon be incorporated into a citty.</p>
             <p>I like the place very much what I have seen of it yet I have not been about but a little and I cannot write you so much as I would like to and so I will write you again. I want to hear from Washington and how things are moving and will be much pleased to hear from you and I will try to write you more in my next letter.</p>
             <closer rend="right">
                <salute>I remain yours truly,</salute>

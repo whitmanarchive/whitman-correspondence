@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -59,7 +58,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-20">added images, corrected transcription and encoding</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-08-27">proofread and edited annotations</change>
@@ -70,30 +68,24 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00866.004_large.jpg" type="recto"/>
+         <pb facs="loc.00866.001.jpg" type="recto"/>
          
             <opener rend="right">
                <dateline>
-                  <name type="place"><handShift rend="printed"/>Printing Office of M. BRADSTREET &amp; SON,</name>
-                  <name type="place">S. Spruce St., New York.</name>
-                  <date when="1865-09-20"><handShift rend="manuscript"/>Sept 20<hi rend="superscript">th</hi>, 1865</date>
-               </dateline>
-               <salute>Walt Whitman <hi rend="italic">Esq</hi></salute>
-               <salute>Sire:</salute>
+                  <date when="1865-09-20">Sept 20th, 1865</date>
+               </dateline><salute>Walt Whitman <hi rend="italic">Esq</hi>
+            </salute> 
             </opener>
             
          <p>When I<ptr target="loc.00866_n100"/>  receive your extra sheet will then bind you 500 "Drum Taps."</p>
-            <p>Can you give me an order on any person for a copy of your "Drum Taps" as I want to match them.</p>
+            <p>Can you give me an <unclear reason="illegible" resp="#vys" cert="low">order on any person</unclear> for a copy of your "Drum Taps" as I want<unclear reason="illegible" resp="#vys" cert="low">to</unclear> match them.</p>
             <p>As I have to pay <hi rend="italic">nett</hi> cash for the materials used in your work would thank you to forward me the money.</p>
             <closer>
                <salute>Respectfully,</salute>
                <signed>Abraham Simpson</signed>
             </closer>
-         <pb xml:id="leaf001v" facs="loc.00866.005_large.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="loc.00866.006_large.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc.00866.007_large.jpg" type="verso"/>
-         <pb xml:id="leaf003r" facs="loc.00866.008_large.jpg" type="recto"/>
-         <pb xml:id="leaf003v" facs="loc.00866.009_large.jpg" type="verso"/>
+            <pb facs="loc.00866.002.jpg" type="recto"/>
+            <pb facs="loc.00866.003.jpg" type="recto"/>
          
       </body>
    </text>

@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="jc">Janel Cayer</persName>
@@ -43,11 +42,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">112&#8211;113</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 3 April 1864</title>
                <date when="1864-04-03">April 3, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
+Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -62,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-28">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -76,7 +88,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00350.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Annapolis, Maryland <lb/>
@@ -86,17 +98,17 @@ corrections</change>
                </dateline>
                <salute>Dear Mother</salute>
             </opener>
-            <p>Well Mother, here we are back to our old starting point, Annapolis, and I am very glad to get back again to a <choice><sic>civalized</sic><corr>civilized</corr></choice> country.</p>
-         <p>When I last wrote you from Nashville Tenn.<ptr target="duk.00350_n2"/> we were just about leaving that place for the front. Well we went to Knoxville by way of Chattanooga, stopped at Knoxville a day or two, and then were ordered to a place called Mossy Creek, about 40 miles beyond Knoxville. The next day after we arrived at the Creek we were ordered to bout face and travel over the same ground again back to this place. We arrived here yesterday having been nearly two weeks on the journey,  our Regt. came nearly all the way by Rail Road but the rest of the Corps are now on the way, they having to march all the way from Knoxville to this place,  they have now been some 13 days on the way and it will take them 5 or 6 days longer to reach here. I suppose you know that our Corps has been ordered to rendezvous at this place,  there are now some 10,000 mostly new troops here for our Corps. We will <choice><sic>probaly</sic><corr>probaly</corr></choice> <pb xml:id="leaf001v" facs="duk.00350.002_large.jpg" type="verso"/>stay here some weeks, as it will take some time to get things ready for a start.</p>
-            <p>We are now in barracks but we go into Camp tomorrow. We are to have all new tents and everything clean and nice and we expect to have good times while we stay here. We had a mighty rough time down in <choice><sic>Tennesse</sic><corr>Tennessee</corr></choice>  grub was scarce and we had no tents, and had to leave our trunks behind as we had no transportation after we left Knoxville, for the creek.</p>
+            <p>Well Mother, here we are back to our old starting point, Annapolis, and I am very glad to get back again to a civalized country.</p>
+            <p>When I last wrote you from Nasville Tenn.<ptr target="duk.00350_n2"/> we were just about leaving that place for the front. Well we went to Knoxville by way of Chattanooga, stopped at Knoxville a day or two, and then were ordered to a place called Mossy Creek, about 40 miles beyond Knoxville. The next day after we arrived at the Creek we were ordered to bout face and travel over the same ground again back to this place. We arrived here yesterday having been nearly two weeks on the journey,  our Regt. came nearly all the way by Rail Road but the rest of the Corps are now on the way, they having to march all the way from Knoxville to this place,  they have now been some 13 days on the way and it will take them 5 or 6 days longer to reach here. I suppose you know that our Corps has been ordered to rendezvous at this place,  there are now some 10,000 mostly new troops here for our Corps. We will probaly stay here some weeks, as it will take some time to get things ready for a start.</p>
+            <p>We are now in barracks but we go into Camp tomorrow. We are to have all new tents and everything clean and nice and we expect to have good times while we stay here. We had a mighty rough time down in Tennesse  grub was scarce and we had no tents, and had to leave our trunks behind as we had no transportation after we left Knoxville, for the creek.</p>
             <p>Well Mother how are you all getting along at home,  I received a letter from Walt a few days ago, dated March 19th  he says you have been quite sick, but I hope you are entirely well now, as he says you was very much better when he wrote to me,  Little Sis too he says is first rate. Hattie I hope is lively as ever, and Mattie, Walt says is first rate.</p>
             <p>Mother you must write to me as soon as you get this and tell me how you are all getting along. Have you heard from Hannah lately  I should very much like to hear from her. I shall write to Walt to day or tomorrow and I expect he will come on here in a few days and I only wish you could all come on and see us after we get in our new camp.</p>
-         <p>We expect to get paid in the course of a few days and then Mother I shall send <pb xml:id="leaf002r" facs="duk.00350.003_large.jpg" type="recto"/>you some money. I should like for Jeff (some time when he is over in New York) to stop at the place where I had my pictures taken and order a dozen, and send them out to me.</p>
-            <p>Mother I hope your <choice><sic>coughf</sic><corr>cough</corr></choice> is well by this time but I shall feel uneasy <choice><sic>untill</sic><corr>until</corr></choice> I hear from you. I believe I have written all that I can think at present so good bye Mamy,  give my love to Mattie, Jeff and the rest.</p>
+            <p>We expect to get paid in the course of a few days and then Mother I shall send you some money. I should like for Jeff (some time when he is over in New York) to stop at the place where I had my pictures taken and order a dozen, and send them out to me.</p>
+            <p>Mother I hope your coughf is well by this time but I shall feel uneasy untill I hear from you. I believe I have written all that I can think at present so good bye Mamy,  give my love to Mattie, Jeff and the rest.</p>
             <closer rend="right">
                <signed>George W. Whitman</signed>
             </closer>
-         <pb xml:id="leaf002v" facs="duk.00350.004_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

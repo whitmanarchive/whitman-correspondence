@@ -10,15 +10,12 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="hb">Heidi Bean</persName>
-               <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of
-               Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -38,13 +35,7 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
-                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
-                  copyright law. Redistribution or republication on other terms, in any medium,
-                  requires express written consent from the editors and advance notification of the
-                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
-                  the graphic images in this archive has been granted by the owners of the originals
-                  for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -52,15 +43,14 @@
                <author>Hugh B. Thomson</author>
                <title>Hugh B. Thomson to Walt Whitman, 5 December 1866</title>
                <date when="1866-12-05">December 5, 1866</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                  Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Thomson, Hugh B." ref="n0629">Hugh B. Thomson</persName>
+               <persName key="Thomson, Hugh B.">Hugh B. Thomson</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -68,60 +58,37 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2015-06-14" who="#ss">annotated</change>
-         <change who="#ak" when="2015-05-13">added correspondent ref</change>
-         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
-         <change who="#el" when="2014-08-15">added schematron declaration</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
-         <change who="#bb" when="2010-04-08">corrected some readings; moved salutation within
-            opener</change>
+         <change who="#bb" when="2010-04-08">corrected some readings; moved salutation within opener</change>
          <change who="#vs" when="2009-08-27">proofread and edited annotations</change>
-         <change who="#vs" when="2009-07-24">Added encoding for annotations made by John from
-            UVA.</change>
-         <change who="#vs" when="2009-04-05">Compared Transcription to Manuscript Image and Made
-            Corrections</change>
+         <change who="#vs" when="2009-07-24">Added encoding for annotations made by John from UVA.</change>
+         <change who="#vs" when="2009-04-05">Compared Transcription to Manuscript Image and Made Corrections</change>
          <change who="#hb" when="2008-10-18">Transcribed, Encoded</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00873.001.jpg" type="recto"/>
-
-         <opener rend="right">
-            <dateline>
-               <name type="place">New York</name>
-               <date when="1866-12-05">December 5, 1866</date>
-               <name type="person">Walt Whitman Esq.</name>
-            </dateline>
-            <salute>Dear Sir.&#8212;</salute>
-         </opener>
-         <p>The undersigned though a comparative stranger to you feels himself drawn toward you
-            closer and closer after perusing your "Leaves of Grass." We have a sympathy in common
-            with you. in some of these well wrought passages the experiences taught there has been
-            one to some extent.</p>
-         <p>While doing garrison duty with my regiment the 2nd New York Arty on the works South of
-            the Potomac I visited Washington in company with a comrade named Charles String of
-               Connecticut<ptr target="loc.00873_n1"/> and by him introduced to you at your studio.
-            (I forget the street) but it was not far removed from the avenue. if I mistake not, you
-            accompanied us to the theatre at night. I have never forgotten you since, remembering
-            you as a friend to the Union and the "boys" striving to keep it together. I left the
-            regiment in the trenches in front of Petersburgh, my term of Service having expired,
-            after three years Service from Oct 1861. on arriving at Washington I tried to find you
-            but could not. when you first met me, on leaving you you gave me a small book of poems
-            with your name in it, bidding me think of you. I stowed it away in my knapsack but
-            loosing that I lost your gift. I would like a duplicate, if it is not presuming too
-            much. I trust you will not think me forward in this. With many and kind regards</p>
-         <pb xml:id="leaf001v" facs="loc.00873.002.jpg" type="verso"/>
-         <closer>
-            <salute>Very Respectfully Yours</salute>
-            <signed>Hugh B. Thomson</signed>
-            <address>
-                  <addrLine>242 Canal St</addrLine>
-                  <addrLine>New York City.</addrLine>
-               </address>
-         </closer>
-         <pb xml:id="leaf002r" facs="loc.00873.003.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc.00873.004.jpg" type="verso"/>
+         <pb facs="loc.00873.001.jpg" type="recto"/>
+         
+            <opener rend="right">
+               <dateline>
+                  <name type="place">New York</name>
+                  <date when="1866-12-05">December 5, 1866</date>
+                  <name type="person">Walt Whitman Esq.</name>
+               </dateline>
+               <salute>Dear Sir.&#8212;</salute> 
+            </opener>
+         <p>The undersigned<ptr target="loc.00873_n100"/> though a comparative stranger to you feels himself drawn toward you closer and closer after perusing your "Leaves of Grass."  We have a sympathy in common with you. in some of these well wrought passages the experiences taught there has been one to some extent.</p>
+            <p>While doing garrison duty with my regiment the 2nd New York Arty on the works South of the Potomac I visited Washington in company with a comrade named Charles String of Connecticut and by him introduced to you at your studio. (I forget the street) but it was not far removed from the avenue. if I mistake not, you accompanied us to the theatre at night. I have never forgotten you since, remembering you as a friend to the Union and the "boys" striving to keep it together. I left the regiment in the trenches in front of Petersburgh, my term of Service having expired, after three years Service from Oct 1861.  on arriving at Washington I tried to find you but could not.  when you first met me, on leaving you you gave me a small book of poems with your name in it, bidding me think of you.  I stowed it away in my knapsack but loosing that I lost your gift.  I would like a duplicate, if it is not presuming too much.  I trust you will not think me forward in this.  With many and kind regards</p>
+            <pb facs="loc.00873.002.jpg" type="recto"/>
+            <closer>
+               <salute>Very Respectfully Yours</salute>
+               <signed>Hugh B. Thomson</signed>
+               <name type="place">242 Canal St</name>
+               <name type="place">New York City.</name>
+            </closer>
+         
       </body>
    </text>
 </TEI>

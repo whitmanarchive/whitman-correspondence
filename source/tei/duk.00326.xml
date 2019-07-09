@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
 
@@ -42,11 +41,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">63-64</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 5? September 1862</title>
                <date when="1862-09-05">September 5, 1862?</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-24">style sheet proofreading</change>
@@ -74,15 +85,15 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00325.005_large.jpg" type="recto"/>
-            <p>The 14th of Brooklyn have lost very heavy  among the killed are Captains Davey and Mallery.<ptr target="duk.00326_n2"/>  Joe Grummond<ptr target="duk.00326_n3"/> is wounded in the leg. I saw Joe a short time before he was hit and after he was wounded he was carried through the lines of our Regt. It was very discouraging to us as we lay on the hill to see hundreds of men leave their regiments without being hurt at all and some 2 or 300 wounded were either carried or walked through our ranks going to the rear. I think we was completely out <choice><sic>generald</sic><corr>general</corr></choice><ptr target="duk.00326_n4"/>  the most of our men was good enough but I think that they was badly handled. Mother I have just received a letter from you dated August 16th which is the only word I have had from home since we left Fredericksburg. We shall probably encamp here for a few days to recruit up a little and I hope you will write to me as soon as you get this. Mother do not feel the least <choice><sic>uneaisiness</sic><corr>uneasiness</corr></choice> about me as I never was heartier or ruggeder in my life. I am getting tired so good bye to all  I will write again soon<ptr target="duk.00326_n5"/>
+         
+            <p>The 14th of Brooklyn have lost very heavy  among the killed are Captains Davey and Mallery.<ptr target="duk.00326_n2"/>  Joe Grummond<ptr target="duk.00326_n3"/> is wounded in the leg. I saw Joe a short time before he was hit and after he was wounded he was carried through the lines of our Regt. It was very discouraging to us as we lay on the hill to see hundreds of men leave their regiments without being hurt at all and some 2 or 300 wounded were either carried or walked through our ranks going to the rear. I think we was completely out generald<ptr target="duk.00326_n4"/>  the most of our men was good enough but I think that they was badly handled. Mother I have just received a letter from you dated August 16th which is the only word I have had from home since we left Fredericksburg. We shall probably encamp here for a few days to recruit up a little and I hope you will write to me as soon as you get this. Mother do not feel the least uneaisiness about me as I never was heartier or ruggeder in my life. I am getting tired so good bye to all  I will write again soon<ptr target="duk.00326_n5"/>
             </p>
             <closer rend="center">
                <salute>Much Love to all</salute>
                <signed>G. W. W.<ptr target="duk.00326_n100"/>
             </signed>
             </closer>
-         <pb xml:id="leaf001v" facs="duk.00325.006_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

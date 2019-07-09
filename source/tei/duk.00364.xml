@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">133</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 23 October 1864</title>
                <date when="1864-10-23">October 23, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
+Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-13">proofreading changes</change>
@@ -74,7 +86,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00364.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Danville Va,</name>
@@ -82,7 +94,7 @@ corrections</change>
                </dateline>
                <salute>Dear Mother.</salute> 
             </opener>
-         <p>I wrote you a line from Libby Prison a few days after I was taken prisoner, but think it <choice><sic>doubtfull</sic><corr>doubtful</corr></choice> if you received it. I was taken, (along with almost our entire Regt. both Officers and men) on the 30th day of September, near the Weldon Rail Road, but am proud to think that we stood and fought <choice><sic>untill</sic><corr>until</corr></choice> we were entirely surrounded,  Major Wright, Lieuts Pooley, Sims,<ptr target="duk.00364_n1"/> and 9 other Officers<ptr target="duk.00364_n2"/> of our Regt, are here,  Capt Walton<ptr target="duk.00364_n3"/> and Lieut Butler<ptr target="duk.00364_n4"/> was wounded, but I <choice><sic>dont</sic><corr>don't</corr></choice> know how badly,  I am very well indeed, and in tip top spirits, am tough as a mule, and about as ugly, and can eat any amount of corn bread, so you see, <hi rend="italic">dear Mother</hi> that I am all right, and my greatest trouble is that you will worry about me, but I beg of you not to <choice><sic>frett</sic><corr>fret</corr></choice>, as I get along first rate.<ptr target="duk.00364_n5"/> Please write to Lieut. Babcock<ptr target="duk.00364_n6"/> Co. F of our Regt. and tell him to send my things home by Express. Much love to all.  G. W. Whitman</p>
+            <p>I wrote you a line from Libby Prison a few days after I was taken prisoner, but think it doubtfull if you received it. I was taken, (along with almost our entire Regt. both Officers and men) on the 30th day of September, near the Weldon Rail Road, but am proud to think that we stood and fought untill we were entirely surrounded,  Major Wright, Lieuts Pooley, Sims,<ptr target="duk.00364_n1"/> and 9 other Officers<ptr target="duk.00364_n2"/> of our Regt, are here,  Capt Walton<ptr target="duk.00364_n3"/> and Lieut Butler<ptr target="duk.00364_n4"/> was wounded, but I dont know how badly,  I am very well indeed, and in tip top spirits, am tough as a mule, and about as ugly, and can eat any amount of corn bread, so you see, <hi rend="italic">dear Mother</hi> that I am all right, and my greatest trouble is that you will worry about me, but I beg of you not to frett, as I get along first rate.<ptr target="duk.00364_n5"/> Please write to Lieut. Babcock<ptr target="duk.00364_n6"/> Co. F of our Regt. and tell him to send my things home by Express. Much love to all.  G. W. Whitman</p>
          
       </body>
    </text>

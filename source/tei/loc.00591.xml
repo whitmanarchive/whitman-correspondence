@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -43,18 +42,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">188-189</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Silas S. Soule</author>
                <title>Silas S. Soule to Walt Whitman, Summer 1862</title>
                <date cert="medium" notBefore="1862-06-01" notAfter="1862-09-01">Summer 1862</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Soule, Silas S." ref="loc.00591_n100">Silas S. Soule</persName>
+               <persName key="Soule, Silas S.">Silas S. Soule</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -62,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-13">corrected orgName, added pbs, corrected transcription</change>
          <change who="#nhg" when="2014-09-22">added more specific date range</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -76,24 +87,20 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_jc.00307_large.jpg" type="recto"/>
+         
             <opener> 
-               <dateline>
-                  <name type="place">Camp Valurdi</name>
-                  <name type="place">near York Grasy New Mexico</name>
-               </dateline>
+               <dateline> </dateline>
                <salute>Friend Walt,</salute>
             </opener>
-         <p>I received a letter from you last March and answered it while at Fort Union<ptr target="loc.00591_n2"/>, but have never heard from you since.</p>
+         <p>I<ptr target="loc.00591_n100"/> received a letter from you last March and answered it while at Fort Union<ptr target="loc.00591_n2"/>, but have never heard from you since.</p>
             <p>Well here I am camped on a sand bank on the Rio Grande River the weather is hot and we have seen little of the good things of America in the shape of Grub and Clothing but we have a Regament composed of natures Noblemen. we left Denver poorly clothed and equipped in the month of February, marched to Fort Union a distance of four hundred miles in fifteen days, two days we marched forty miles a day and then hearing that the Texans were marching on Fort Union we marched over seventy miles in twenty four hours. I believe that was the best marching made by any Reg in the Service. We being short of provision and destitute of Clothing our men stood it bravely and never murmured.<ptr target="loc.00591_n3"/>
             </p>
-         <pb xml:id="leaf001v" facs="loc_jc.00308_large.jpg" type="verso"/>
-         <p>The Texans flushed with success having whipped three thousand Regulars and volunteer Mexican troops at Fort Craig were marching boldly on towards Fort Union laying the country waste wherever they went. We all eager to try our Reg. marched one hundred miles and met the enemy on their own ground in Apache Country in the mountains   our force of nine hundred theirs of two thousand we fought seven hours some times hand to hand over rocks stumps and trees regular bush whacking Indian fighting the Texans loss was about five hundred killed and wounded, ours about one hundred and eighty we burned sixty of their wagons loaded with provisions, clothing, ammunition and valuables leaving them destitute<ptr target="loc.00591_n4"/> they commenced their retreat the next day we followed a few days after joined Gen Canbys<ptr target="loc.00591_n5"/> force at Alberquerque, drove the ensuing two hundred miles like a flock of sheep At Peralta we had another little battle where we took seven wagons and a number of Prisoners   they said they did not mind fighting Regular troops but there was no use fighting Chivingtons Grey blouse Pikes Peak Sons of bitches so they burned all they had and fled to the mountains making for Texas with all <pb xml:id="leaf002r" facs="loc_jc.00309_large.jpg" type="recto"/>possible speed and I am inclined to believe that they will never have any inclination to come to New Mexico again. Our Colonel Chivington was a Methodist Preacher Presiding elder in Colorado he is about six feet four inches high and built in proportion a first rate fellow and liked by his Regiment.</p>
+            <p>The Texans flushed with success having whipped three thousand Regulars and volunteer mexican troops at Fort Craig were marching boldly on towards Fort Union laying the country waste wherever they went. We all eager to try our Reg. marched one hundred miles and met the enemy on their own ground in Apache Country in the mountains   our force of nine hundred theirs of two thousand we fought seven hours some times hand to hand over rocks stumps and trees regular bush whacking Indian fighting the Texans loss was about five hundred killed and wounded, ours about one hundred and eighty we burned sixty of their wagons loaded with provisions, clothing, ammunition and valuables leaving them destitute<ptr target="loc.00591_n4"/> they commenced their retreat the next day we followed a few days after joined Gen Canbys<ptr target="loc.00591_n5"/> force at Alberquerque, drove the ensuing two hundred miles like a flock of sheep At Peralta we had another little battle where we took seven wagons and a number of Prisoners   they said they did not mind fighting Regular troops but there was no use fighting Chivingtons Grey blouse Pikes Peak Sons of bitches so they burned all they had and fled to the mountains making for Texas with all possible speed and I am inclined to believe that they will never have any inclination to come to New Mexico again. Our Colonel Chivington was a Methodist Preacher Presiding elder in Colorado he is about six feet four inches high and built in proportion a first rate fellow and liked by his Regiment.</p>
             <p>We have marching orders now to join Col Carlton's<ptr target="loc.00591_n6"/> California troops about three hundred miles south of here   I expect we will start in about a week. we are getting tired of lying still although we have our sports, to night we have a swimming match for a purse of $30. they are to swim across the Rio Grande our Boys have built houses for themselves some of mud some of willow and some have dug houses in the bank by the River and live quite comfortable. I am afraid you will not find much in this letter to interest you for I am in no humor for writing to day. I may do better next time   I hope to hear from you before long,</p>
             <closer>
                <salute>I remain your Friend Lieut Silas S. Soule, Ist Reg Col[orado] Vol[unteer]s <hi rend="italic">In the Field</hi> New Mexico</salute>
             </closer>
-         <pb xml:id="leaf002v" facs="loc_jc.00310_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

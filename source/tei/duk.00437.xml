@@ -12,7 +12,6 @@
                 <editor role="assistant">Felicia Wetzig</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="wr">Wesley Raabe</persName>
@@ -66,7 +65,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Whitman, Louisa Van Velsor</persName>
+                    <persName key="Whitman, Louisa Van Velsor">Whitman, Louisa Van Velsor</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Whitman, Walt</persName>
@@ -74,7 +73,6 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-07-29" who="#el">merged files</change>
@@ -112,7 +110,7 @@
                 <salute>My dear Walt</salute>
             </opener>
             
-            <p>I once more send
+            <p>I<ptr target="duk.00425_n3"/> once more send
                 you A few lines to let you know we are all
                 pretty well it is very warm weather which
                 makes matty<ptr target="duk.00465_n9"/> and me sigh for some country

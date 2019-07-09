@@ -10,7 +10,6 @@
 <editor>Ed Folsom</editor>
 <respStmt>
     <resp>Transcription and encoding</resp>
-    <persName xml:id="ak">Alex Kinnaman</persName>
 <persName xml:id="el">Elizabeth Lorang</persName>
     <persName xml:id="js">John Schwaninger</persName>
     <persName xml:id="al">Ashley Lawson</persName>
@@ -64,7 +63,7 @@
             <particDesc>
               
 <person role="sender">
-    <persName key="Tolman Smith, Annie" ref="n0843">Annie Tolman Smith</persName>
+    <persName key="Tolman Smith, Annie">Annie Tolman Smith</persName>
 </person>
 <person role="recipient">
     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,7 +71,6 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change who="#ak" when="2015-04-30">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2014-08-12" who="#el">made basic checking changes to file</change>
             <change when="2013-12-10" who="#nhg">added annotation pointers</change>
@@ -97,7 +95,7 @@
                 <salute>Dear Sir</salute>
             </opener>
 
-            <p>My desire to address you springs from a question addressed me by a member of my class in literature.</p>
+            <p>My desire to address you springs from a question addressed me by a member of my class in literature.<!-- <ptr target="n0843"/> --></p>
             <p>What do you think of Walt Whitman?</p>
             <p>Up to that moment I had read only a single one of your poems "The two mysteries" which moved me by its subtlety and beauty. Soon after the question, which I was not prepared to answer, came comments in a British Review to the effect that Americans did not
             

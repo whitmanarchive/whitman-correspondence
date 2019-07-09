@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="jc">Janel Cayer</persName>
@@ -42,11 +41,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">215&#8211;216</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 28 April 1864</title>
                <date when="1864-04-28">April 28, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-23">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -74,7 +86,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00034.jpg" type="recto"/>
+         
             <div1 type="section" org="uniform" sample="complete" part="N">
                <opener>
                <dateline rend="right">
@@ -83,14 +95,14 @@
                </dateline>
                <salute>Dearest mother</salute>
             </opener>
-               <p>I thought I would write you just a line, though I have nothing of importance&#8212;only the talk of the street here seems more &amp; more to assert that Burnside's army is to remain near here to protect Washington &amp; act as a reserve, so that Grant can move the Army of the Potomac upon Richmond, without being compelled to turn &amp; be anxious about the Capital&#8212;also that Burnside can attend to Lee if the latter should send any force up west of here, (what they call the valley of the Shenandoah)&#8212;or invade Pennsylvania again&#8212;I thought you would like to hear this&#8212;it looks plausible, but there are lots of rumors of all kinds&#8212;<pb xml:id="leaf001v" facs="loc_ad.00035.jpg" type="verso"/>I cannot hear where Burnside's army is as they <choice><sic>dont</sic><corr>don't</corr></choice> allow the papers to print army movements&#8212;but I fancy they are very near Washington, the other side of Arlington heights, this moment<ptr target="loc.00821_n1"/>&#8212;</p>
+            <p>I thought I would write you just a line, though I have nothing of importance&#8212;only the talk of the street here seems more &amp; more to assert that Burnside's army is to remain near here to protect Washington &amp; act as a reserve, so that Grant can move the Army of the Potomac upon Richmond, without being compelled to turn &amp; be anxious about the Capital&#8212;also that Burnside can attend to Lee if the latter should send any force up west of here, (what they call the valley of the Shenandoah)&#8212;or invade Pennsylvania again&#8212;I thought you would like to hear this&#8212;it looks plausible, but there are lots of rumors of all kinds&#8212;I cannot hear where Burnside's army is as they dont allow the papers to print army movements&#8212;but I fancy they are very near Washington, the other side of Arlington heights, this moment<ptr target="loc.00821_n1"/>&#8212;</p>
             <p>Mother, I wrote yesterday to Han, &amp; sent one of George's last letters from Annapolis&#8212;Mother, I suppose you got my letter of Tuesday 26th&#8212;I have not heard any thing from you in quite a little while&#8212;I am still well&#8212;the weather is fine, quite hot yesterday&#8212;Mother, I am now going down to see a poor soldier who is very low with a long diarrhea&#8212;he cannot recover&#8212;when I was with him last night, he asked me before I went away to ask God's blessing on him, he says, I am no scholar &amp; you are&#8212;poor dying man, I told him I hoped from the bottom of my heart God would bless him, &amp; bring him up yet&#8212;I soothed him as well as I could, it was affecting, I can tell you&#8212;Jeff, I wrote to Mr Kirkwood<ptr target="loc.00821_n2"/> yesterday to 44 Pierrepont st., he sent me some money last Monday&#8212;is Probasco<ptr target="loc.00821_n3"/> still in the store in N Y?&#8212;dear sister Mat, I quite want to see you &amp; California, not forgetting my little Hattie too&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>
          </div1>
          
-         <pb xml:id="leaf002r" facs="loc_ad.00036.jpg" type="recto"/>
+         
             <div1 type="section" org="uniform" sample="complete" part="N">
                <opener>
                <dateline rend="right">
@@ -98,7 +110,7 @@
                </dateline>
                <salute>Dearest mother,</salute>
             </opener>
-               <p>Just as I am going to mail this, I receive authentic information. Burnside's army is now about 16 or 18 miles south of here, at a place called Fairfax court house&#8212;They had last night no orders to move at present, &amp; I rather think they will remain there, or near there&#8212;What I have written before, as a rumor, about their being to be held as a reserve, to act wherever occasion may need them, is now quite decided on&#8212;You may hear a rumor in New York that they have been shipped in transports from Alexandria&#8212;there is no truth in it at all&#8212;<pb xml:id="leaf002v" facs="loc_ad.00037.jpg" type="verso"/>Grant's Army of the Potomac is probably to do the heavy work&#8212;his army is strong &amp; full of fight. Mother, I think it is today the noblest army of soldiers that ever marched&#8212;nobody can know the men so well as I do, I sometimes think&#8212;</p>
+            <p>Just as I am going to mail this, I receive authentic information. Burnside's army is now about 16 or 18 miles south of here, at a place called Fairfax court house&#8212;They had last night no orders to move at present, &amp; I rather think they will remain there, or near there&#8212;What I have written before, as a rumor, about their being to be held as a reserve, to act wherever occasion may need them, is now quite decided on&#8212;You may hear a rumor in New York that they have been shipped in transports from Alexandria&#8212;there is no truth in it at all&#8212;Grant's Army of the Potomac is probably to do the heavy work&#8212;his army is strong &amp; full of fight. Mother, I think it is today the noblest army of soldiers that ever marched&#8212;nobody can know the men so well as I do, I sometimes think&#8212;</p>
             <p>Mother, I am writing this in Willard's hotel,<ptr target="loc.00821_n4"/> on my way down to hospital after I leave this at post office&#8212;I shall come out to dinner at 4 o'clock &amp; then go back to hospital again in evening&#8212;</p>
             <p>Good bye, dear Mother, &amp; all&#8212;</p>
             <closer rend="right">

@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="gp">Gillian Price</persName>
@@ -40,18 +39,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">83</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Walt Whitman, 1 February 1863</title>
                <date when="1863-02-01">February 1, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington">George Washington Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -59,7 +71,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-27">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-01-05">Ken's proofreading changes</change>
@@ -72,7 +83,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00336.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Camp near Falmouth <lb/>Va. </name>
@@ -80,11 +91,11 @@ corrections</change>
                </dateline>
                <salute>Dear Walt.</salute>
             </opener>
-         <p>Here we are yet in camp just the same as you left us, and I think by the appearance of things here we are likely to stay for some time. I have my log hut partly finished and should have had it completed long ago, but after I had cut the logs and had them brought here, orders came for us to be ready to move the next day so I used the logs for fire wood, and since then, the weather has been so stormy I could not do much to it. I suppose we will go on picket tomorrow, so that I wont have a chance to do anything to the house <choice><sic>untill</sic><corr>until</corr></choice> Wednesday, but I shall finish it this week, and as soon as I get it done, I want you to come down and see me. Frank <pb xml:id="leaf001v" facs="duk.00336.002_large.jpg" type="verso"/>Butler<ptr target="duk.00336_n1"/> is helping me build it and is to occupy apartments in it. Your last letter to me is dated Jan 27th. You speak of <choice><sic>haveing</sic><corr>having</corr></choice> sent one the previous Saturday, <choice><sic>encloseing</sic><corr>enclosing</corr></choice> one from home, and some money. I have not received it. I got a letter from Mother a day or two ago. She says they are all getting along after the old sort. Han has not got home yet, but Mother says she expects her before a great while.</p>
-         <p>We had a regular old Northern snow storm last week, but it is nearly gone now but the mud is quite plenty just about hear. Capt Sims tells me to night that he has been promised a leave of absence for 10 days and will <choice><sic>probaly</sic><corr>probably</corr></choice> start for Brooklyn in a day or two  I suppose he will call on you <pb xml:id="leaf002r" facs="duk.00336.003_large.jpg" type="recto"/>in Washington.<ptr target="duk.00336_n2"/> As soon as he gets back, I shall apply, and if I <choice><sic>dont</sic><corr>don't</corr></choice> get it I <choice><sic>dont</sic><corr>don't</corr></choice> know but I will send in my resignation  as it is hardly a fair shake for some to go home two or three times a year while others cant get away at all, but I <choice><sic>dont</sic><corr>don't</corr></choice> blame Sims at all for going whenever he can get a chance.</p>
+            <p>Here we are yet in camp just the same as you left us, and I think by the appearance of things here we are likely to stay for some time. I have my log hut partly finished and should have had it completed long ago, but after I had cut the logs and had them brought here, orders came for us to be ready to move the next day so I used the logs for fire wood, and since then, the weather has been so stormy I could not do much to it. I suppose we will go on picket tomorrow, so that I wont have a chance to do anything to the house untill Wednesday, but I shall finish it this week, and as soon as I get it done, I want you to come down and see me. Frank Butler<ptr target="duk.00336_n1"/> is helping me build it and is to occupy apartments in it. Your last letter to me is dated Jan 27th. You speak of haveing sent one the previous Saturday, encloseing one from home, and some money. I have not received it. I got a letter from Mother a day or two ago. She says they are all getting along after the old sort. Han has not got home yet, but Mother says she expects her before a great while.</p>
+            <p>We had a regular old Northern snow storm last week, but it is nearly gone now but the mud is quite plenty just about hear. Capt Sims tells me to night that he has been promised a leave of absence for 10 days and will probaly start for Brooklyn in a day or two  I suppose he will call on you in Washington.<ptr target="duk.00336_n2"/> As soon as he gets back, I shall apply, and if I dont get it I dont know but I will send in my resignation  as it is hardly a fair shake for some to go home two or three times a year while others cant get away at all, but I dont blame Sims at all for going whenever he can get a chance.</p>
             <p>Walt I think you had better write on to Mother and let her send you (by express) $20 of my money and bring it on here to me when you come, for if I go home I shall want it, as I may not have a chance to get my pay in Washington.</p>
-            <p>Tom<ptr target="duk.00336_n3"/> <choice><abbr>recd</abbr><corr>received</corr></choice>. a letter from you to night. Write as soon as you get this. Good night     G.W.W.</p>
-         <pb xml:id="leaf002v" facs="duk.00336.004_large.jpg" type="verso"/>
+            <p>Tom<ptr target="duk.00336_n3"/> recd. a letter from you to night. Write as soon as you get this. Good night     G.W.W.</p>
+         
       </body>
    </text>
 </TEI>

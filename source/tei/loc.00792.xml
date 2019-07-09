@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="t">Tim
 Jackson</persName>
@@ -46,6 +45,20 @@ Lorang</persName>
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">152&#8211;153</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to William S. Davis, 1 October 1863</title>
@@ -62,13 +75,12 @@ Library of Congress, Washington, D.C.</orgName>
                <persName key="Whitman, Walt">Walt Whitman</persName> 
             </person> 
             <person role="recipient"> 
-               <persName key="Davis, William S." ref="loc.00792_n2">William S.
+               <persName key="Davis, William S.">William S.
 Davis</persName> 
             </person> 
          </particDesc> 
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-19">added pbs, added choice tags</change>
          <change who="#nhg" when="2015-02-16">corrected title, orgName, typo in annotations</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change> 
@@ -81,8 +93,8 @@ titles; added minimal TEI markup</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00792.001_large.jpg" type="recto"/>
-            <p>The noble gift of your brother Joseph P Davis of [$20?] for the aid of the wounded, sick, dying soldiers
+         
+            <p>The noble gift of your brother Joseph P Davis<ptr target="loc.00792_n2"/> of [$20?] for the aid of the wounded, sick, dying soldiers
 here came safe to hand&#8212;it is being sacredly distributed to
 them&#8212;part of it has been so already&#8212;I may another time give
 you special cases&#8212;I go every day or night in the hospitals a few
@@ -90,7 +102,7 @@ hours&#8212;<ptr target="loc.00792_n100"/>
          </p>
             <p>As to physical comforts, I attempt to have something&#8212;generally
 a lot of&#8212;something harmless &amp; not too expensive to go round to
-each man, even if it is nothing but a good <pb xml:id="leaf001v" facs="loc.00792.002_large.jpg" type="verso"/><pb xml:id="leaf002r" facs="loc.00792.003_large.jpg" type="recto"/>home-made biscuit to each
+each man, even if it is nothing but a good home-made biscuit to each
 man, or a couple of spoonfuls of blackberry preserve, I take a ward or
 two of an evening &amp; two more next evening &amp;c&#8212;as an
 addition to his supper&#8212;sometimes one thing, sometimes another,
@@ -100,10 +112,10 @@ cases, alas, too common&#8212;those that need special attention, some
 little delicacy, some trifle&#8212;very often, far above all else,
 soothing kindness wanted&#8212;personal magnetism&#8212;poor boys, their
 sick hearts &amp; wearied &amp; exhausted bodies hunger for the
-sustenance of love or their <choice><sic>deprest</sic><corr>dressed</corr></choice> spirits must be cheered up&#8212;I
+sustenance of love or their deprest spirits must be cheered up&#8212;I
 find often young men, some hardly more than children in age yet&#8212;so
 good, so sweet, so brave, so decorous, I could not feel them nearer to
-me if my own sons or young brothers&#8212;<pb xml:id="leaf002v" facs="loc.00792.004_large.jpg" type="verso"/><pb xml:id="leaf003r" facs="loc.00792.005_large.jpg" type="recto"/>Some cases even I could not
+me if my own sons or young brothers&#8212;Some cases even I could not
 tell any one, how near to me, from their yearning ways &amp; their
 sufferings&#8212;it is comfort &amp; delight to me to minister to them,
 to sit by them&#8212;some so wind themselves around one's heart, &amp;
@@ -117,7 +129,7 @@ butter, condensed milk, plugs of tobacco, (I am the only one that doles
 out this last, &amp; the men have grown to look to me)&#8212;wine,
 brandy, sugar, pickles, letter-stamps, envelopes &amp; note-paper, the
 morning papers, common handkerchiefs &amp; napkins, undershirts, socks,
-dressing gowns, <pb xml:id="leaf003v" facs="loc.00792.006_large.jpg" type="verso"/><pb xml:id="leaf004r" facs="loc.00792.007_large.jpg" type="recto"/>&amp; fifty other things<ptr target="loc.00792_n3"/>&#8212;I have lots of special little requests. Frequently I
+dressing gowns, &amp; fifty other things<ptr target="loc.00792_n3"/>&#8212;I have lots of special little requests. Frequently I
 give small sums of money&#8212;shall do so with your brother's
 contribution&#8212;the wounded are very frequently brought &amp; lay
 here a long while without a cent. I have been here &amp; in front 9

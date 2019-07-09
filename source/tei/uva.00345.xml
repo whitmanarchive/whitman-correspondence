@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -60,7 +59,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Nathaniel Bloom and John F. S. Gray, 19&#8211;20 March 1863</title>
                <date when="1863-03-19">March 19, 1863</date>
-               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia </orgName>
+               <orgName xml:id="uva">Clifton Waller Barrett Collection, University of Virginia</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -70,16 +69,15 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Bloom, Nathaniel" ref="uva.00345_n1">Nathaniel Bloom</persName>
+               <persName key="Bloom, Nathaniel">Nathaniel Bloom</persName>
                
             </person>
             <person role="recipient">
-               <persName key="Gray, John F. S." ref="uva.00345_n2">John F. S. Gray</persName>
+               <persName key="Gray, John F. S.">John F. S. Gray</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-14">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-08-24">proofread and edited</change>
@@ -96,7 +94,7 @@
                   <name type="place">Washington,</name>
                   <date when="1863-03-19">March 19, 1863.</date>
                </dateline>
-               <salute>Dear Nat, and Fred Gray:
+               <salute>Dear Nat,<ptr target="uva.00345_n1"/> and Fred Gray:<ptr target="uva.00345_n2"/>
                </salute>
             </opener>
             <p>Since I left New York, I was down in the Army of the Potomac in front with my brother a good part of the winter, commencing time of the battle of Fredericksburgh<ptr target="uva.00345_n3"/>&#8212;have seen <hi rend="italic">war-life</hi>, the real article&#8212;folded myself in a blanket, lying down in the mud with composure&#8212;relished salt pork &amp; hard tack&#8212;have been on the battle-field among the wounded, the faint and the bleeding, to give them nourishment&#8212;have gone over with a flag of truce the next day to help direct the burial of the dead&#8212;have struck up a tremendous friendship with a young Mississippi captain (about 19)<ptr target="uva.00345_n4"/> that we took prisoner badly wounded at Fredericksburgh&#8212;(he has followed me here, is in Emory hospital here, minus a leg&#8212;he wears his confederate uniform, proud as the devil&#8212;I met him first at Falmouth, in the Lacy house,<ptr target="uva.00345_n5"/> middle of December last, his leg just cut off, and cheered him up&#8212;poor boy, he has suffered a great deal, and still suffers&#8212;has eyes bright as a hawk, but face pale&#8212;our affection is quite an affair, quite romantic&#8212;sometimes when I lean over to say I am going, he puts his arm round my neck, draws my face down, &amp;c. quite a scene for the New Bowery.)</p>

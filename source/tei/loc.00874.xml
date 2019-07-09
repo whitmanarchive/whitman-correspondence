@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -45,14 +44,14 @@
                <author>John T. Trowbridge</author>
                <title>John T. Trowbridge to Walt Whitman, 6 January 1865</title>
                <date when="1865-01-06">January 6, 1865</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Trowbridge, John T." ref="loc.00874_n100">John T. Trowbridge</persName>
+               <persName key="Trowbridge, John T.">John T. Trowbridge</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +59,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">checked against letter images and added page break encoding, since Traubel info could not be verified</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -72,7 +70,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_vm.00657.jpg" type="recto"/>
+         <pb facs="loc_vm.00657.jpg" type="recto"/>
             <opener rend="right">
                <dateline rend="right">
                   <name type="place">Somerville Mass</name>
@@ -80,13 +78,25 @@
                </dateline>
                <salute>My Dear Friend,</salute>
             </opener>
-         <p>I have been thinking much of you lately &amp; wondering where you were (for I heard some time since that you had left Washington), when the N.Y. Times came, with your long &amp; interesting communication.  I do not yet, from reading that, understand very well where you are, &amp; I send this at a venture.  If this reaches you, please let me<pb xml:id="leaf001v" facs="loc_vm.00658.jpg" type="verso"/>know your address, &amp; I will try to send you something to help along your good work.  I sent you, some time last summer, by private hands, a copy of "Great Expectations" &amp; two dollars in money, but could never learn that they reached you:  did they?  How are you now?</p>
-            <p>A great change has taken place in my life since I saw you.  My dearest friend has left me, leaving in her place a little boy, now<pb xml:id="leaf002r" facs="loc_vm.00659.jpg" type="recto"/>eleven months old.&#8212;A superb little fellow (although I say it); &amp; in him I have great comfort.</p>
+         <p>I<ptr target="loc.00874_n100"/> have been thinking much of you lately &amp; wondering where you were (for I heard some time since that you had left Washington), when the N.Y. Times came, with your long &amp; interesting communication.  I do not yet, from reading that, understand very well where you are, &amp; I send this at a venture.  If this reaches you, please let me 
+               
+               <pb facs="loc_vm.00658.jpg" type="verso"/>
+               
+               know your address, &amp; I will try to send you something to help along your good work.  I sent you, some time last summer, by private hands, a copy of "Great Expectations" &amp; two dollars in money, but could never learn that they reached you:  did they?  How are you now?</p>
+            <p>A great change has taken place in my life since I saw you.  My dearest friend has left me, leaving in her place a little boy, now 
+               
+               <pb facs="loc_vm.00659.jpg" type="recto"/>
+               
+               eleven months old.&#8212;A superb little fellow (although I say it); &amp; in him I have great comfort.</p>
             <p>I went three times to find Dr. <choice>
                <sic>LeBarren</sic>
                <corr>LeBaron</corr>
             </choice> Russell, with your note in my hand, but failing each time, I gave him up<ptr target="loc.00874_n2"/>.</p>
-            <p>I am not trying to withdraw from the arena of popular literature; only the necessity of coining a livelihood has kept me in it so long.  I feel that, if I live frugally ' sincerely, and do not use up my<pb xml:id="leaf002v" facs="loc_vm.00660.jpg" type="verso"/>mental energies in rapid writing I may be able to do something excellent.  I am about getting out a volume of poems,&#8212;or, as you would say, prettinesses.</p>
+            <p>I am not trying to withdraw from the arena of popular literature; only the necessity of coining a livelihood has kept me in it so long.  I feel that, if I live frugally ' sincerely, and do not use up my 
+               
+               <pb facs="loc_vm.00660.jpg" type="verso"/>
+               
+               mental energies in rapid writing I may be able to do something excellent.  I am about getting out a volume of poems,&#8212;or, as you would say, prettinesses.</p>
             <closer rend="right">
                <salute>Sincerely your friend</salute>
                <signed>J. T. Trowbridge</signed>

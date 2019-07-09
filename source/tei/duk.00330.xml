@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -42,11 +41,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">71-72</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 20 October 1862</title>
                <date when="1862-10-20">October 20, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -76,7 +87,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00330.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Pleasant Valley, Md </name>
@@ -85,9 +96,9 @@ corrections</change>
                <salute>Dear Mother</salute>
             </opener>
             <p>Everything is quiet on the Potomac, and we are still encamped here in Md. I am well and comfortable with the exception of an attack of homesickness which I cant seem to shake off.</p>
-            <p>Mother why the deuce <choice><sic>dont</sic><corr>don't</corr></choice> some of you write to a fellow,  Your Past letter is dated the 5th and I have written since then,  the last letter I wrote, filled 8 or 9 pages, did you get it.</p>
-         <p>I want very much to know when you have heard from Hann. and if she has recovered from her sickness and is <choice><sic>comeing</sic><corr>coming</corr></choice> home soon, and Mary, do you ever hear from her. And Mother I want to hear from all of you at home, have you got a good stove, and plenty of coal, and how about buckwheat cakes and <choice><sic>sich</sic><corr>such</corr></choice>. Matt and Sis, I hope are right Smart, <pb xml:id="leaf001v" facs="duk.00330.002_large.jpg" type="verso"/>and can <hi rend="italic">you</hi> fly around, Mamy as lively as when I left home.</p>
-         <p>Where in thunder does all the troops go, that the papers say are leaving New York, and the other Citys every day. Why <choice><sic>dont</sic><corr>don't</corr></choice> they send em, out to the front, and let us old veterans come home, and see our Mammies. We ought to have force enough now, to go right ahead and balsmather the seceshers. I <choice><sic>dont</sic><corr>don't</corr></choice> like the idea of fighting the same ground over three or four times but I <choice><sic>supose</sic><corr>suppose</corr></choice> its all right. The nights here are cool, but the days are splendid,  us officers have been furnished with wall tents and as we have plenty of blankets we get along very well, but the men are not as well provided for. I am still in command of our company as Capt Francis<ptr target="duk.00330_n1"/> has not returned yet, although his time was up two days ago. We were ordered, one day last week, to be ready to <pb xml:id="leaf002r" facs="duk.00330.003_large.jpg" type="recto"/>move at five minutes notice, and as we had heard artillery <choice><sic>fireing</sic><corr>firing</corr></choice> all the morning, we thought, we was in for <choice><sic>annother</sic><corr>another</corr></choice> fight, but it turned out to be some of our folks out on a <choice><sic>reconnoissance</sic><corr>reconnaissance</corr></choice> somewhere near Charlestown Va, but as they did not find the Rebels in very strong force, we were not sent over, and I hardly think, from present <choice><sic>appearences</sic><corr>appearances</corr></choice> that we will leave here for some days yet. I wonder whats the reason they <choice><sic>dont</sic><corr>don't</corr></choice> pay us off. Uncle Sam <choice><sic>aint</sic><corr>ain't</corr></choice> busted up is he,  it <choice><sic>wouldent</sic><corr>wouldn't</corr></choice> be much <choice><sic>wonnder</sic><corr>wonder</corr></choice> if he did though for he is swindled right smart, I recon. Well Mamy its getting cold so I will stop and go to bed. Maby you think I <choice><sic>aint</sic><corr>ain't</corr></choice> got no bed, but I have, and a bedstead too, made with four <choice><sic>croched</sic><corr>crotched</corr></choice> sticks drove in the ground, thus and my bed is a genuine corn husk <pb xml:id="leaf002v" facs="duk.00330.004_large.jpg" type="verso"/>Mattress which I think is a good deal healthier than feathers.<ptr target="duk.00330_n2"/>
+            <p>Mother why the deuce dont some of you write to a fellow,  Your Past letter is dated the 5th and I have written since then,  the last letter I wrote, filled 8 or 9 pages, did you get it.</p>
+            <p>I want very much to know when you have heard from Hann. and if she has recovered from her sickness and is comeing home soon, and Mary, do you ever hear from her. And Mother I want to hear from all of you at home, have you got a good stove, and plenty of coal, and how about buckwheat cakes and sich. Matt and Sis, I hope are right Smart, and can <hi rend="italic">you</hi> fly around, Mamy as lively as when I left home.</p>
+            <p>Where in thunder does all the troops go, that the papers say are leaving New York, and the other Citys every day. Why dont they send em, out to the front, and let us old veterans come home, and see our Mammies. We ought to have force enough now, to go right ahead and balsmather the seceshers. I dont like the idea of fighting the same ground over three or four times but I supose its all right. The nights here are cool, but the days are splendid,  us officers have been furnished with wall tents and as we have plenty of blankets we get along very well, but the men are not as well provided for. I am still in command of our company as Capt Francis<ptr target="duk.00330_n1"/> has not returned yet, although his time was up two days ago. We were ordered, one day last week, to be ready to move at five minutes notice, and as we had heard artillery fireing all the morning, we thought, we was in for annother fight, but it turned out to be some of our folks out on a reconnoissance somewhere near Charlestown Va, but as they did not find the Rebels in very strong force, we were not sent over, and I hardly think, from present appearences that we will leave here for some days yet. I wonder whats the reason they dont pay us off. Uncle Sam aint busted up is he,  it wouldent be much wonnder if he did though for he is swindled right smart, I recon. Well Mamy its getting cold so I will stop and go to bed. Maby you think I aint got no bed, but I have, and a bedstead too, made with four croched sticks drove in the ground, thus and my bed is a genuine corn husk Mattress which I think is a good deal healthier than feathers.<ptr target="duk.00330_n2"/>
             </p>
             <p>Good Night Mother, and much love to all. write as soon as you get this,</p>
             <closer rend="right">

@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -58,14 +57,14 @@
                <author>Jesse Mullery</author>
                <title>Jesse Mullery to Walt Whitman, 26 November 1864</title>
                <date when="1864-11-26">November 26, 1864</date>
-               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Mullery, Jesse" ref="nyp.00174_n100">Jesse Mullery</persName>
+               <persName key="Mullery, Jesse">Jesse Mullery</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -73,7 +72,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-02">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-13">proofreading changes</change>
@@ -88,10 +86,12 @@
       <body>
          
             <opener>
+               <dateline rend="right"/>
                <salute>Mr. Whitman, Dear Friend</salute>
             </opener>
-         <p>I write these few lines to you in order that you may know where I am and also that I am in the enjoyment of middling good health  I heard from you through my Father some time ago and I have wanted to visit you but I am sorry to say my health will not admit of my being out much this cold weather<ptr target="nyp.00174_n2"/>. If you remember I was wounded through my lung and the ball is now near my right kidney and I am not as healthy as I use to be before I was wounded.</p>
+         <p>I<ptr target="nyp.00174_n100"/> write these few lines to you in order that you may know where I am and also that I am in the enjoyment of middling good health  I heard from you through my Father some time ago and I have wanted to visit you but I am sorry to say my health will not admit of my being out much this cold weather<ptr target="nyp.00174_n2"/>. If you remember I was wounded through my lung and the ball is now near my right kidney and I am not as healthy as I use to be before I was wounded.</p>
             <p>I feel quite well to day I have just received a letter from my Brother in my Regt (15th NJ) he spoke of you. I wrote him concerning you and he says he would like to see you. I think I owe you a thousand thanks for your kindness to me while in Hospt at Washington. I have often thought of you and wished I could hear from you. I would like to hear from that Lady who did so much for me. I think it was Miss Howard<ptr target="nyp.00174_n3"/>. I think I will be well enough to come and see you in a week or two&#8212;and then we will talk over all the incidents of our short acquaintance in Washington. If you will answer this and set the day I will come and see you. I am a little deaf now from the earache but I hope we will get along with that. Hoping to hear from you soon I subscribe myself yours faithfully</p>
+            <closer rend="right"/>
          
       </body>
    </text>

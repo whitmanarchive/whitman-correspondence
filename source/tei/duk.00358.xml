@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">124-125</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 26 July 1864</title>
                <date when="1864-07-26">July 26, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
+Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -72,10 +84,11 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00358.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
-                  <name type="place">In front of Petersburg Va.</name>
+                  <name type="place">In front of Petersburg Va.<lb/>
+                  </name>
                   <date when="1864-07-26">Wednesday Evening  July 26th/64</date>
                </dateline>
                <salute>Dear Mother.</salute>
@@ -83,11 +96,11 @@ corrections</change>
             <p>All quiet in front of Petersburg, and everything going on just the same as when I last wrote. We came out from the front line, last night and are now at our camp, in the woods about half a mile from the enemy's works. We go up  in front and stay 48 hours and then come back here and stay the next 48.</p>
             <p>I received Walts letter of July 14th and am looking every day to hear from you again.</p>
             <p>Mother I hope you are all well at home,  Walt I hope is all right before now.<ptr target="duk.00358_n1"/> I have never been heartier than I have been this summer,  we live very well here and are a great deal more comfortable than one would think. I wrote you last, about the 13th of this month,  did you get the letter.</p>
-         <p>We are kept pretty <choice><sic>buissy</sic><corr>busy</corr></choice>, while we are back in Camp, <choice><sic>makeing</sic><corr>making</corr></choice> out papers for men who are sent away sick or wounded, but still we <choice><sic>dont</sic><corr>don't</corr></choice> kill <choice><sic>ourselvs</sic><corr>ourselves</corr></choice> with hard work. Well Mother it is getting late and I am getting <choice><sic>sleeppy</sic><corr>sleepy</corr></choice>, so good night,  I will write again soon. Much love to all.</p>
+            <p>We are kept pretty buissy, while we are back in Camp, makeing out papers for men who are sent away sick or wounded, but still we dont kill ourselvs with hard work. Well Mother it is getting late and I am getting sleeppy, so good night,  I will write again soon. Much love to all.</p>
             <closer rend="right">
                <signed>G. W. Whitman</signed>
             </closer>
-         <pb xml:id="leaf001v" facs="duk.00358.002_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

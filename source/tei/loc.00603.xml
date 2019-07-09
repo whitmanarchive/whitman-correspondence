@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -58,14 +57,14 @@
                <author>Christopher and Maria Smith</author>
                <title>Christopher and Maria Smith to Walt Whitman, 29 August 1864</title>
                <date when="1864-08-29">August 29, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Christopher" ref="loc.00603_n100">Christopher Smith</persName>
+               <persName key="Smith, Christopher">Christopher Smith</persName>
             </person>
             <person role="sender">
                <persName key="Smith, Maria">Maria Smith</persName>
@@ -76,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-13">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-12">proofreading changes</change>
@@ -89,7 +87,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <p>kind Sir as we have <choice><sic>recieved</sic><corr>received</corr></choice> your letter you sent to Bethuel I will rite a few lines in this and send it to you which is Bethuel's own hand <choice><sic>riting</sic><corr>writing</corr></choice> he was wounded the 11 of June in his right leg a little above his nee he rode in a government wagon 4 Days then on about one Day and night then he came to Washington he got a <choice><sic>furlow</sic><corr>furlough</corr></choice> the first Day of July for forty Days at which period he returned to Washington to the <choice><sic>hosptial</sic><corr>hospital</corr></choice>  he was very thin in flesh but looked some better when he left home his health was not very good and if the [hospital] saves his life we expect him home again next month this from his parents</p>
+         <p>kind Sir as we<ptr target="loc.00603_n100"/> have recieved your letter you sent to Bethuel I will rite a few lines in this and send it to you which is Bethuel's own hand riting he was wounded the 11 of June in his right leg a little above his nee he rode in a government wagon 4 Days then on about one Day and night then he came to Washington he got a furlow the first Day of July for forty Days at which period he returned to Washington to the hosptial  he was very thin in flesh but looked some better when he left home his health was not very good and if the [hospital] saves his life we expect him home again next month this from his parents</p>
             <closer rend="right"/>
          
          <postscript>

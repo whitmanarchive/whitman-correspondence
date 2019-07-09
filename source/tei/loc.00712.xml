@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">5</biblScope>
+                     <biblScope type="page">287</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Garaphelia Howard, (?). (?). 1865</title>
                <date when="1865">1865</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -55,12 +68,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Howard, Garaphelia" ref="loc.00712_n1">Garaphelia Howard</persName>
+               <persName key="Howard, Garaphelia">Garaphelia Howard</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-16">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-03-24">proofread and edited annotations</change>
@@ -72,20 +84,19 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00712.001.jpg" type="recto"/>
+         
             <opener>
-               <dateline>
+               <dateline rend="right">
                   <name type="place">Washington,</name>
                   <date when="1865">1865.</date>
                </dateline>
-               <salute>Garaphelia Howard,</salute>
-               <salute>My dear friend:</salute>
+               <salute>Garaphelia Howard,<ptr target="loc.00712_n1"/> | My dear friend:</salute>
             </opener>
             <p>Accept the thanks of many sick &amp; wounded soldiers, for the $10, used to purchase articles for them, small sums, gifts, fruit &amp;c. distributed by your money, through me.</p>
-            <closer>
+            <closer rend="right">
                <signed>Walt Whitman</signed>
             </closer>
-         <pb xml:id="leaf001v" facs="loc.00712.002.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

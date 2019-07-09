@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="jw">Joshua Ware</persName>
@@ -44,14 +43,14 @@
                <author>Moses Lane</author>
                <title>Moses Lane to Walt Whitman, 27 May 1863</title>
                <date when="1863-05-27">May 27, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Lane, Moses" ref="loc.00884_n100">Moses Lane</persName>
+               <persName key="Lane, Moses">Moses Lane</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -59,7 +58,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-27">added xml:ids to pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-01-05">updated Moses Lane note</change>
@@ -71,7 +69,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00884.001.jpg" type="recto"/>
+         <pb facs="loc.00884.001.jpg" type="recto"/>
          
             <opener rend="right">
                <dateline>
@@ -84,7 +82,7 @@ Brooklyn, N.Y.</name>
                <salute>Walt Whitman</salute>
                <salute>My Dear Friend</salute>
             </opener>
-         <p>Enclosed I send you ten dollars. This is my contribution $5. per month, and is for the months of April and May. I Recd a letter from you yesterday. I think you have Recd all the money I have sent thus far.</p>
+         <p>Enclosed I<ptr target="loc.00884_n100"/> send you ten dollars. This is my contribution $5. per month, and is for the months of April and May. I Recd a letter from you yesterday. I think you have Recd all the money I have sent thus far.</p>
             <p>I intended to write you several days since.</p>
             <p>I have the promise of more money which I will send you soon.</p>
             <closer rend="right">
@@ -92,13 +90,11 @@ Brooklyn, N.Y.</name>
                <signed>Moses Lane</signed>
             </closer>
          
-         <pb xml:id="leaf001v" facs="loc.00884.002.jpg" type="verso"/>
+         <pb facs="loc.00884.002.jpg" type="verso"/>
          <postscript>
             <p>P.S. Your letter to Messrs Wyckoff &amp;c. was Recd and delivered to Mr. Wyckoff.<ptr target="loc.00884_n2"/>
             </p>
          </postscript>
-         <pb xml:id="leaf002r" facs="loc.00884.003.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc.00884.004.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

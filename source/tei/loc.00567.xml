@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
@@ -42,18 +41,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="cl">Calamus Lovers: Walt Whitman's Working-Class Camerados</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1987</date>
+                     <biblScope type="page">42</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Fred Vaughan</author>
                <title>Fred Vaughan to Walt Whitman, 21 March 1860</title>
                <date when="1860-03-21">March 21, 1860</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Vaughan, Fred" ref="loc.00567_n100">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred">Fred Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-12">corrected orgName, added pbs, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-14">proofreading changes</change>
@@ -74,15 +85,9 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <opener>
-            <dateline>
-               <name type="place">New York</name>
-               <date when="1860-03-21">March 21st</date>
-            </dateline>
-         </opener>
          
-         <p>Your letter in answer to my note came to hand this a.m. I was glad to hear from you, Walt, and hope you will continue to write often while you stay in Boston. It will be a good way for you to pass some leisure time as I do not doubt you will have plenty of it on your hands.</p>
-            <p>Walt, I am glad, very glad, you have got things fairly squared. I do not care so much about the style the book comes out in. I want to see it out and have no doubt the style, writing, etc. will be no disgrace to <hi rend="underline">Boston</hi>. You know I have always had a very high opinion of the people of the <hi rend="underline">City of Nations</hi>.</p>
+         <p>Your letter in answer to my note came to hand this a.m. I<ptr target="loc.00567_n100"/> was glad to hear from you, Walt, and hope you will continue to write often while you stay in Boston. It will be a good way for you to pass some leisure time as I do not doubt you will have plenty of it on your hands.</p>
+            <p>Walt, I am glad, very glad, you have got things fairly squared. I do not care so much about the style the book comes out in. I want to see it out and have no doubt the style, writing, etc. will be no disgrace to Boston. You know I have always had a very high opinion of the people of the City of Nations.</p>
             <p>I have not seen any of the folks up town, but they will undoubtedly be very glad of your success.</p>
             <p>You are well of in Boston this weather, Walt. I cannot see across the streets. The dust is moving in a dense mass through the streets as dust in no other city but NY can move.&#8212;It is actually sickening.</p>
             <p>I want you to look closely at the Municipal affairs of Boston, and comparing them with those of New York, give me the conclusion you arrive at regarding their respective good and bad qualities.&#8212;</p>

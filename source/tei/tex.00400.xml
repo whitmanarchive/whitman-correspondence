@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -48,14 +47,14 @@
                <author>Margaret S. Curtis</author>
                <title> Margaret S. Curtis to Walt Whitman, 1 October 1863</title>
                <date when="1863-10-01">October 1, 1863</date>
-               <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+               <orgName xml:id="tex">Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Curtis, Margaret S." ref="tex.00400_n100">Margaret S. Curtis</persName>
+               <persName key="Curtis, Margaret S.">Margaret S. Curtis</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -63,7 +62,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-13">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-08-31">proofread and modified</change>
@@ -74,6 +72,7 @@
    </teiHeader>
    <text type="letter">
       <body>
+         <pb type="recto"/>
             <opener rend="right">
                <dateline>
                   <name type="place">Boston</name>
@@ -83,12 +82,20 @@
                <salute>Sir,</salute>
             </opener>
          <p>It was with exceeding interest that Mr Curtis &amp; I<ptr target="tex.00400_n100"/> listened to the letter you lately wrote to Dr. Russell,<ptr target="loc.00852_n2"/> which came to us through my sister Miss Stevenson.</p>
-            <p>Its effect was to make us desire to aid you in the good work you are engaged in,&#8212;caring for the sick &amp; wounded soldiers.  We inclose thirty dollars, &amp; feel very glad to have the opportunity to minister to their comfort.  Mr Curtis would send it anonymously, but I think it is pleasant to know where one has excited an interest, &amp; in asking you to acknowledge its receipt, my wish is, most to be sure that it has reached its destination.</p>
+            <p>Its effect was to make us desire to aid you in the good work you are engaged in,&#8212;caring for the sick &amp; wounded soldiers.  We inclose thirty dollars, &amp; feel very glad to have the opportunity to minister to their comfort.  Mr Curtis 
+               
+               <pb type="verso"/>
+               
+               <pb type="recto"/>
+               
+               would send it anonymously, but I think it is pleasant to know where one has excited an interest, &amp; in asking you to acknowledge its receipt, my wish is, most to be sure that it has reached its destination.</p>
          <p>My direction is to care of Charles P. Curtis, Boston.</p>
             <closer rend="right">
                <salute>With regard, I am,</salute>
                <signed>Margaret S. Curtis</signed>
             </closer>
+         
+         <pb type="verso"/>
          
       </body>
    </text>

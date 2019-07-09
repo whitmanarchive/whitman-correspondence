@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">6</biblScope>
+                     <biblScope type="page">4</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Peter Eckler, 3 May 1865</title>
                <date when="1865-05-03">May 3, 1865</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2008-10-31">added main TEI markup</change>
@@ -70,7 +82,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00841.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <date when="1865-05-03">May 3, 1865.</date>
@@ -79,7 +91,7 @@
                </salute>
             </opener>
             <p>As I remitted $20 May 1st, which I suppose you duly received, I herewith enclose $14.85, as payment in full.</p>
-         <p>Deliver the sheets to A. Simpson, 8 Spruce street, &amp; send me his receipt. Leave the copy of "Leaves of Grass," with Mrs. Louisa Whitman, Portland av. 4th door north of Myrtle, Brooklyn. If you have the plates of the <pb xml:id="leaf001v" facs="loc.00841.002_large.jpg" type="verso"/><pb xml:id="leaf002r" facs="loc.00841.003_large.jpg" type="recto"/>two cancelled pages, I wish you would take three impressions of each page &amp; enclose to me.</p>
+            <p>Deliver the sheets to A. Simpson, 8 Spruce street, &amp; send me his receipt. Leave the copy of "Leaves of Grass," with Mrs. Louisa Whitman, Portland av. 4th door north of Myrtle, Brooklyn. If you have the plates of the two cancelled pages, I wish you would take three impressions of each page &amp; enclose to me.</p>
             <closer rend="right">
                <signed>Walt Whitman</signed>
                <address>

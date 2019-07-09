@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jc">Janel Cayer</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -44,14 +43,14 @@
                <author>James Redpath</author>
                <title>James Redpath to Walt Whitman, 10 March 1863</title>
                <date when="1863-03-10">March 10, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Redpath, James" ref="loc.01007_n100">James Redpath</persName>
+               <persName key="Redpath, James">James Redpath</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -59,7 +58,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-02">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jc" when="2012-10-22">edited annotation on O'Connor</change>
@@ -76,7 +74,7 @@
             <opener>
                <salute>Walter Whitman, Esq., Washington.</salute>
             </opener>
-         <p>Dear Evangelist: The inclosed note<ptr target="loc.01007_n2"/> may interest you, and therefore I send it. I wrote to Mr. Emerson to get him to interest some of his friends (he has several rich ones who give away large sums to various good causes) in your Christian Commission Agency. I trust that the result will be what I hoped.</p>  
+         <p>Dear Evangelist: The inclosed note<ptr target="loc.01007_n2"/> may interest you, and therefore I<ptr target="loc.01007_n100"/> send it. I wrote to Mr. Emerson to get him to interest some of his friends (he has several rich ones who give away large sums to various good causes) in your Christian Commission Agency. I trust that the result will be what I hoped.</p>  
             <closer rend="right">
                <salute>Yours Very Truly,</salute>
                <signed>James Redpath.</signed>

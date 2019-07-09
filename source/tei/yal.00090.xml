@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -57,14 +56,14 @@
                <author>Milford C. Reed</author>
                <title>Milford C. Reed to Walt Whitman, 26 May 1865</title>
                <date when="1865-05-26">May 26, 1865</date>
-               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+               <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library at Yale University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Reed, Milford C." ref="yal.00090_n100">Milford C. Reed</persName>
+               <persName key="Reed, Milford C.">Milford C. Reed</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,7 +71,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-16">corrected orgName, added choice tags, pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-04-14">proofread and edited</change>
@@ -85,16 +83,15 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="yal.00129.001_large.jpg" type="recto"/>
+         
             <opener> 
                <dateline rend="right"/>
                <salute>Mr. Whitman Sir</salute>
             </opener>
-         <p>I am in great trouble again and of course must write to you about it.  I was in Washington the 2nd and I went to No 34 4 ½ Street and pawned my Watch a good American Lever, for $22.07 which I was to pay within a month but I was robbed of my pocket Book which contained a receipt which he gave me for the <choice><sic>wach</sic><corr>watch</corr></choice>  now I want you to go there if you will and see the man (I <choice><sic>dont</sic><corr>don't</corr></choice> know his name) and if the thief has not already been there and got the <choice><sic>wach</sic><corr>watch</corr></choice> I want you to tell him not to let any one have <pb xml:id="leaf001v" facs="yal.00129.002_large.jpg" type="verso"/>it on that receipt.  I will soon be there myself and redeem it for I am going to be discharged within a few days when I will come and see you.  You will confer a great favor on me by going at once to see about it.  I would like to have the fellow arrested if he should bring the ticket for the <choice><sic>Wach</sic><corr>watch</corr></choice> for I had another Stole from me at the same time.  Write to me as soon as you find out about the <choice><sic>Wach</sic><corr>watch</corr></choice> for I am very anxious about it.  I <choice><sic>dont</sic><corr>don't</corr></choice> want to loose both <choice><sic>Waches</sic><corr>watches</corr></choice>  I have written this in a great hurry.  write to me soon from your good friend</p>
+         <p>I<ptr target="yal.00090_n100"/> am in great trouble again and of course must write to you about it.  I was in Washington the 2nd and I went to No 34 4 ½ Street and pawned my Watch a good American Lever, for $22.07 which I was to pay within a month but I was robbed of my pocket Book which contained a receipt which he gave me for the wach  now I want you to go there if you will and see the man (I dont know his name) and if the thief has not already been there and got the wach I want you to tell him not to let any one have it on that receipt.  I will soon be there myself and redeem it for I am going to be discharged within a few days when I will come and see you.  You will confer a great favor on me by going at once to see about it.  I would like to have the fellow arrested if he should bring the ticket for the Wach for I had another Stole from me at the same time.  Write to me as soon as you find out about the Wach for I am very anxious about it.  I dont want to loose both Waches  I have written this in a great hurry.  write to me soon from your good friend</p>
             <p>It is No 34 4 ½ St.</p>
             <closer rend="right"/>
-         <pb xml:id="leaf002r" facs="yal.00129.003_large.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="yal.00129.004_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

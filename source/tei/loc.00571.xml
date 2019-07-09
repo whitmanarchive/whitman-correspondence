@@ -11,14 +11,12 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
                <persName xml:id="hb">Heidi Bean</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
-               <persName xml:id="km">Kevin McMullen</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -44,18 +42,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="cl">Calamus Lovers: Walt Whitman's Working-Class Camerados</title>
+                  <imprint>
+                     <pubPlace>San Francisco</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1987</date>
+                     <biblScope type="page">46-47</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Fred Vaughan</author>
                <title>Fred Vaughan to Walt Whitman, 30 April 1860</title>
                <date when="1860-04-30">April 30, 1860</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Vaughan, Fred" ref="loc.00571_n100">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred">Fred Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -63,8 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#km" when="2015-10-13">removed unneeded note about "Mrs. Cooper"</change>
-         <change who="#ak" when="2015-02-12">corrected orgName, added pbs, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -78,20 +87,14 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_vm.00788.jpg" type="recto"/>
-            <opener>
-               <dateline>
-                  <name type="place"><handShift rend="printed"/>New York</name>
-                  <date when="1860-04-30"><handShift rend="manuscript"/>April 30th <handShift rend="printed"/>18<handShift rend="manuscript"/>60</date>
-               </dateline>
+            <opener> 
                <salute>Walt,</salute>
             </opener>
-         <p>I was very glad indeed to hear from you in answer to my last, and you know I could not but be gratified to find your business was progressing so favorably,&#8212;<ptr target="loc.00571_n2"/>
+         <p>I<ptr target="loc.00571_n100"/> was very glad indeed to hear from you in answer to my last, and you know I could not but be gratified to find your business was progressing so favorably,&#8212;<ptr target="loc.00571_n2"/>
             </p>
-         <p>In accordance with not only your wishes, but my own I went to Brooklyn yesterday and saw your Mother.&#8212;I found her alone, Matt<ptr target="loc.00571_n3"/> &amp; Jeff<ptr target="loc.00571_n4"/> out walking. Eddy<ptr target="loc.00571_n5"/> at church, and George<ptr target="loc.00571_n6"/> out somewhere's else I suppose. She did not remember me at first but as soon as she did she was very much pleased. I had a long talk, and settled the old $2.00 affair of Matts. I came away before she and Jeff returned. Walt, Mother says she feels first rate, is not at all sick, and I think she looks as well now as she did while I was living over there.&#8212;There is <pb xml:id="leaf001v" facs="loc_vm.00789.jpg" type="verso"/>no news here Walt. The last fight, the <choice><sic>Japenese</sic><corr>Japanese</corr></choice> Embassy, and the Charleston Democratic Convention, fill the papers to the exclusion of Every thing else.<ptr target="loc.00571_n7"/>&#8212;Dunn,<ptr target="loc.00571_n9"/> the ex stage driver is in Boston with that Circus Co. I think he will call upon you as I gave him your address.&#8212;If you come on here this [week] Be sure and make it your business to call and see me. Do not neglect it please Walt, for I want to see you very much. Mrs. Cooper &amp; Robert<ptr target="loc.00569_n4"/> send their loves. Ever yours, In a Hurry! Fred.</p>
+            <p>In accordance with not only your wishes, but my own I went to Brooklyn yesterday and saw your Mother.&#8212;I found her alone, Matt<ptr target="loc.00571_n3"/> &amp; Jeff<ptr target="loc.00571_n4"/> out walking. Eddy<ptr target="loc.00571_n5"/> at church, and George<ptr target="loc.00571_n6"/> out somewhere's else I suppose. She did not remember me at first but as soon as she did she was very much pleased. I had a long talk, and settled the old $2.00 affair of Matts. I came away before she and Jeff returned. Walt, Mother says she feels first rate, is not at all sick, and I think she looks as well now as she did while I was living over there.&#8212;There is no news new Walt. The last fight, the Japenese Embassy, and the Charleston Democratic Convention, fill the papers to the exclusion of Every thing else.<ptr target="loc.00571_n7"/>&#8212;Dunn,<ptr target="loc.00571_n9"/> the ex stage driver is in Boston with that Circus Co. I think he will call upon you as I gave him your address.&#8212;If you come on here this [week] Be sure and make it your business to call and see me. Do not neglect it please Walt, for I want to see you very much. Mrs. Cooper<ptr target="loc.00571_n8"/> &amp; Robert<ptr target="loc.00571_n10"/> send their loves. Ever yours, In a Hurry! Fred.</p>
             <closer rend="right"/>
-         <pb xml:id="leaf002r" facs="loc_vm.00786.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc_vm.00787.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

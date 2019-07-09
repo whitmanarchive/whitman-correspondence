@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -59,14 +58,14 @@
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 6 April 1863</title>
                <date when="1863-04-06">April 6, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, annotation, choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -86,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00224.jpg" type="recto"/>
+         
                <opener>
                   <dateline rend="right">
                      <date when="1863-04-06">[April 6, 1863]<ptr target="loc.00406_n1"/>
@@ -94,18 +92,17 @@
                   </dateline>
                   <salute>[Dear Brother Walt,]</salute>
                </opener>
-               <p>As I was <choice><abbr>abt</abbr><expan>about</expan></choice> putting these in the envelope my eye caught this blank place and I thought that 'twas a pity to let such an opportunity go. It looked like waste.<ptr target="loc.00408_n10"/></p>
-         <p>Walt, how I should like to see you, do you look the same as ever or has the immense number of unfortunate and <choice><orig>heartworking</orig><reg>heartbreaking</reg></choice> cases given you an <choice><sic>sobre</sic><corr>sober</corr></choice> and melancholy look.<ptr target="loc.00406_n2"/> I sometimes think, when I get thinking <choice><abbr>abt</abbr><expan>about</expan></choice> you, that it must have that effect upon you. But then the cases that you <choice><sic>releive</sic><corr>relieve</corr></choice> and those dear lives that you save must bring back the old look again. Do you suppose that you will long continue where you are? Do you think Anything will come of your trying to get office?<ptr target="loc.00406_n3"/> I suppose it is merely a question of time and patience as regards the office. I am in hopes to be able to have a small some of money sent you every week hereafter in this way  I will ask Lane<ptr target="loc.00406_n4"/> to see how many names of those around in and <choice><abbr>abt</abbr><expan>about</expan></choice>. the W. W.<ptr target="loc.00406_n5"/> will consent to give $1 per month regularly to be sent to you for Hospital purposes. I have no doubt but that some 25 or 30 names could be had and if we could send you $6 or $7 weekly <choice><sic>twould</sic><corr>it would</corr></choice> be quite a big thing. We think then that we shall call you "The B. Water Works soldiers Aid society" with power. Seriously, I think <choice><sic>twould</sic><corr>it would</corr></choice> be a good thing and that I can come [by] it. I sent you $5 last week, did you get it. Twas from Mr Lane.</p>
-         <p><choice><sic>Twould</sic><corr>It would</corr></choice> make you laugh to see little Hattie brush her hair and teeth. I am almost afraid she will clean them to death. She is <choice><sic>tremendious</sic><corr>tremendous</corr></choice> proud of her things that Uncle Walt sent her. <choice><sic>Twould</sic><corr>It would</corr></choice> please you to see how finely she is growing. Every day I give her a little exercise in singing two or three notes only. I think she could be made a fine musician and am going to try it.<ptr target="loc.00406_n6"/> She often asks when you are coming home to take her out on Fort Greene.<ptr target="loc.00406_n7"/> She often gets one of you[r] pictures and calls it her dear Uncle Walt. She knew Georges picture at once, which I think proves it to be pretty good. Mattie is as well as usual, she has no work and has not had hardly since you went away, and I am glad she has not<ptr target="loc.00406_n8"/>  Mother is first rate except she works to hard  I wish she <choice><sic>wouldnt</sic><corr>wouldn't</corr></choice>  she is foolish to clean house so much. Walt do write me a good long letter</p>
+               <p>As I was abt putting these in the envelope my eye caught this blank place and I thought that 'twas a pity to let such an opportunity go. It looked like waste.</p>
+               <p>Walt, how I should like to see you, do you look the same as ever or has the immense number of unfortunate and heartworking cases given you an sobre and melancholy look.<ptr target="loc.00406_n2"/> I sometimes think, when I get thinking abt you, that it must have that effect upon you. But then the cases that you releive and those dear lives that you save must bring back the old look again. Do you suppose that you will long continue where you are? Do you think Anything will come of your trying to get office?<ptr target="loc.00406_n3"/> I suppose it is merely a question of time and patience as regards the office. I am in hopes to be able to have a small some of money sent you every week hereafter in this way  I will ask Lane<ptr target="loc.00406_n4"/> to see how many names of those around in and abt. the W. W.<ptr target="loc.00406_n5"/> will consent to give $1 per month regularly to be sent to you for Hospital purposes. I have no doubt but that some 25 or 30 names could be had and if we could send you $6 or $7 weekly twould be quite a big thing. We think then that we shall call you "The B. Watr Works soldiers Aid society" with power. Seriously, I think twould be a good thing and that I can come [by] it. I sent you $5 last week, did you get it. Twas from Mr Lane.</p>
+               <p>Twould make you laugh to see little Hattie brush her hair and teeth. I am almost afraid she will clean them to death. She is tremendious proud of her things that Uncle Walt sent her. Twould please you to see how finely she is growing. Every day I give her a little exercise in singing two or three notes only. I think she could be made a fine musician and am going to try it.<ptr target="loc.00406_n6"/> She often asks when you are coming home to take her out on Fort Greene.<ptr target="loc.00406_n7"/> She often gets one of you[r] pictures and calls it her dear Uncle Walt. She knew Georges picture at once, which I think proves it to be pretty good. Mattie is as well as usual, she has no work and has not had hardly since you went away, and I am glad she has not<ptr target="loc.00406_n8"/>  Mother is first rate except she works to hard  I wish she wouldnt  she is foolish to clean house so much. Walt do write me a good long letter</p>
                <closer rend="right">
                   <signed>Jeff.</signed>
                </closer>
-         <pb xml:id="leaf001v" facs="loc_ad.00223.jpg" type="verso"/>
+            
             <postscript>
                <p>The enclosed $10 I got from Van Anden<ptr target="loc.00406_n9"/>
                </p>
             </postscript>
-         <!--The verso of this letter is a letter from George Washington Whitman to Louisa Van Velsor Whitman under loc.00486-->
          
       </body>
    </text>

@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ss">Sarah Synovec</persName>
@@ -42,11 +41,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">209&#8211;210</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 10 April 1864</title>
                <date when="1864-04-10">April 10, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-23">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -74,7 +86,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00022.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -83,8 +95,8 @@
                <salute>Dearest Mother,</salute>
             </opener>
             <p>I rec'd your letter &amp; sent the one you sent for George immediately&#8212;he must have got it the next day&#8212;I had got one from him before yours arrived&#8212;I mean to go to Annapolis &amp; see him&#8212;</p>
-         <p>Mother, we expect a commencement of the fighting below very soon, there is every indication of it&#8212;we have had about as severe rain storms here lately as I ever see&#8212;it is middling pleasant now&#8212;there are exciting times in Congress<ptr target="loc.00817_n1"/>&#8212;the Copperheads are getting furious, &amp; want to recognize the Southern Confederacy&#8212;this is a pretty time to talk of recognizing such villains after what <pb xml:id="leaf001v" facs="loc_ad.00023.jpg" type="verso"/>they have done, and after what has transpired the last three years&#8212;After first Fredericksburgh I felt discouraged myself, &amp; doubted whether our rulers could carry on the war&#8212;but that has past away, the war <hi rend="italic">must</hi> be carried on&#8212;&amp; I would willingly go myself in the ranks if I thought it would profit more than at present, &amp; I don't know sometimes but I shall as it is&#8212;</p>
-         <p>Mother, you <choice><sic>dont</sic><corr>don't</corr></choice> know what a feeling a man gets after being in the active sights &amp; influences of the camp, the Army, the wounded &amp;c.&#8212;he gets to have a deep feeling he never experienced before<ptr target="loc.00817_n2"/>&#8212;the flag, the tune of Yankee Doodle, &amp; similar things, <pb xml:id="leaf002r" facs="loc_ad.00024.jpg" type="recto"/>produce an effect on a fellow never such before&#8212;I have seen some bring tears on the men's cheeks, &amp; others turn pale, under such circumstances<ptr target="loc.00817_n3"/>&#8212;I have a little flag (it belonged to one of our cavalry reg'ts) presented to me by one of the wounded&#8212;it was taken by the secesh in a cavalry fight, &amp; rescued by our men in a bloody little skirmish, it cost three men's lives, just to get one little flag, four by three&#8212;our men rescued it, &amp; tore it from the breast of a dead rebel&#8212;all that just for the name of getting their little banner back again&#8212;this man that got it was very badly wounded, &amp; they let him keep it&#8212;<pb xml:id="leaf002v" facs="loc_ad.00025.jpg" type="verso"/>I was with him a good deal, he wanted to give me something he said, he didn't expect to live, so he gave me the little banner as a keepsake&#8212;I mention this, Mother, to show you a specimen of the feeling&#8212;there isn't a reg't, cavalry or infantry, that wouldn't do the same, on occasion&#8212;</p>
+            <p>Mother, we expect a commencement of the fighting below very soon, there is every indication of it&#8212;we have had about as severe rain storms here lately as I ever see&#8212;it is middling pleasant now&#8212;there are exciting times in Congress<ptr target="loc.00817_n1"/>&#8212;the Copperheads are getting furious, &amp; want to recognize the Southern Confederacy&#8212;this is a pretty time to talk of recognizing such villains after what they have done, and after what has transpired the last three years&#8212;After first Fredericksburgh I felt discouraged myself, &amp; doubted whether our rulers could carry on the war&#8212;but that has past away, the war <hi rend="italic">must</hi> be carried on&#8212;&amp; I would willingly go myself in the ranks if I thought it would profit more than at present, &amp; I don't know sometimes but I shall as it is&#8212;</p>
+            <p>Mother, you dont know what a feeling a man gets after being in the active sights &amp; influences of the camp, the Army, the wounded &amp;c.&#8212;he gets to have a deep feeling he never experienced before<ptr target="loc.00817_n2"/>&#8212;the flag, the tune of Yankee Doodle, &amp; similar things, produce an effect on a fellow never such before&#8212;I have seen some bring tears on the men's cheeks, &amp; others turn pale, under such circumstances<ptr target="loc.00817_n3"/>&#8212;I have a little flag (it belonged to one of our cavalry reg'ts) presented to me by one of the wounded&#8212;it was taken by the secesh in a cavalry fight, &amp; rescued by our men in a bloody little skirmish, it cost three men's lives, just to get one little flag, four by three&#8212;our men rescued it, &amp; tore it from the breast of a dead rebel&#8212;all that just for the name of getting their little banner back again&#8212;this man that got it was very badly wounded, &amp; they let him keep it&#8212;I was with him a good deal, he wanted to give me something he said, he didn't expect to live, so he gave me the little banner as a keepsake&#8212;I mention this, Mother, to show you a specimen of the feeling&#8212;there isn't a reg't, cavalry or infantry, that wouldn't do the same, on occasion&#8212;</p>
             <p>Tuesday morning April 12th
 Mother, I will finish my letter this morning&#8212;it is a beautiful day to-day&#8212;I was up in Congress very late last night,<ptr target="loc.00817_n4"/> the house had a very excited night session about expelling the men that want to recognize the Southern Confederacy&#8212;You ought to hear the soldiers talk&#8212;they are excited to madness&#8212;we shall probably have hot times here not in the Army alone&#8212;the soldiers are true as the north star&#8212;I send you a couple of envelopes, &amp; one to George&#8212;Write how you are, dear Mother, &amp; all the rest&#8212;I want to see you all&#8212;Jeff, my dear brother, I wish you was here, &amp; Mat too&#8212;Write how sis is&#8212;I am well as usual, indeed first rate every way&#8212;I want to come on in a month, &amp; try to print my "Drum Taps"<ptr target="loc.00817_n5"/>&#8212;I think it may be a success pecuniarily too&#8212;Dearest Mother, I hope this will find you entirely well, &amp; dear sister Mat &amp; all.</p>
             <closer rend="right">

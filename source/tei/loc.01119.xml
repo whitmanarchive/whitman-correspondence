@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01119">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01119">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">John Burroughs to Walt Whitman, 12 January 1873</title>
+                <title level="m" type="main">John Burroughs to Walt Whitman, 12 January
+                    1873</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>John Burroughs</author>
                 <editor>Kenneth M. Price</editor>
@@ -45,13 +45,12 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted: <persName xml:id="kmp">Kenneth M.
-                        Price</persName>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    changes to this file, as noted:
+<persName xml:id="kmp">Kenneth M. Price</persName> 
                     <persName xml:id="al">Ashley Lawson</persName>
-                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="el">Elizabeth
+                        Lorang</persName>
                     <persName xml:id="br">Beverley Rilett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -61,14 +60,14 @@
                     <date cert="high" when="1873-01-12" xml:id="dat1">January 12, 1873</date>
                     <idno type="callno">MSS18630, Box 9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Burroughs, John" ref="n0129">John Burroughs</persName>
+                    <persName key="Burroughs, John">John Burroughs</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -76,10 +75,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2015-06-14" who="#ss">annotated</change>
-            <change who="#ak" when="2015-05-20">added correspondent ref</change>
-            <change who="#el" when="2014-08-15">added schematron declaration</change>
-            <change when="2012-03-01" who="#kmp">blessed</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2012-03" who="#kp">blessed</change>
             <change when="2012-03-26" who="#al">checked and corrected</change>
             <change when="2010-12-22" who="#el">checked</change>
             <change when="2010-10-13" who="#br">transcribed and encoded</change>
@@ -97,30 +94,27 @@
                 <salute>Dear Walt,</salute>
             </opener>
             <p>I have thought of you very often since I have been up here, but have hardly had the
-                time to write &amp; tell you so. I left W.<ptr target="loc.01119_n1"/> in great
-                haste &amp; since I have been here have been in the midst of a very maelstrom of
-                business, all new, all strange, &amp; very mixed; but I am now fairly master of the
-                situation, &amp; though I do not expect my troubles are over, yet I am better
-                prepared to meet them. I have got a good accountant, a <choice>
-                    <orig>com- <pb xml:id="leaf001v" facs="loc.01119.002.jpg" type="verso"
-                        />petant</orig>
-                    <reg>competent</reg>
-                </choice> attorney, a balance in the bank &amp; ought to be happy. But it cost me a
-                hang to leave W. I was so warm &amp; snug &amp; my nest was so well feathered; but I
-                have really cut loose &amp; do not expect to return again except briefly. I can make
-                more money here, be much freer, be nearer home &amp; have a new field of duties. My
-                greatest loss will be in you my dear Walt, but then I shall look forward to having
-                you up here a good long time at a stretch, which will be better than the crumbs I
-                used to get of you in W. I expect it will take me a year or more to close up this
-                bank, then I shall make me another nest <pb xml:id="leaf002r"
-                    facs="loc.01119.003.jpg" type="recto"/>among the rocks of the Hudson and try
-                life my own master. I hope you are well &amp; will write to me, &amp; will go up
-                &amp; see my wife.<ptr target="n0130"/> It is very cold &amp; wintery here, the
-                thermometer at zero yesterday. I have just been out taking a sleigh ride &amp;
+                time to write &amp; tell you so. I left W. in great haste &amp; since I have been
+                here have been in the midst of a very maelstrom of business, all
+                new, all strange, &amp; very mixed; but I am now fairly master of the situation,
+                &amp; though I do not expect my troubles are over, yet I am better prepared to meet
+                them. I have got a good accountant, a <choice><orig>com-                
+                <pb xml:id="leaf001v" facs="loc.01119.002.jpg" type="verso"/>petant</orig> <reg>competent</reg></choice>
+                attorney, a balance in the bank &amp; ought to be happy. But it cost me a hang to leave W. I was so
+                warm &amp; snug &amp; my nest was so well feathered; but I have really cut loose
+                &amp; do not expect to return again except briefly. I can make more money here, be
+                much freer, be nearer home &amp; have a new field of duties. My greatest loss will
+                be in you my dear Walt, but then I shall look forward to having you up here a good
+                long time at a stretch, which will be better than the crumbs I used to get of you in
+                W. I expect it will take me a year or more to close up this bank, then I shall make
+                me another nest <pb xml:id="leaf002r" facs="loc.01119.003.jpg" type="recto"/>among
+                the rocks of the Hudson and try life my own master. I hope you are well &amp; will
+                write to me, &amp; will go up &amp; see my wife. It is very cold &amp; wintery here,
+                the thermometer at zero yesterday. I have just been out taking a sleigh ride &amp;
                 enjoyed it much.</p>
             <p>I have collected &amp; turned over to the Government $13,000 since I have been here
-                &amp; have about $100,000 more to collect. By &amp; by I shall have plenty of time
-                to myself.</p>
+                &amp; have about $100,000 more to collect. By &amp; by I shall have plenty of time to
+                myself.</p>
 
             <closer>
                 <salute>With much love,</salute>

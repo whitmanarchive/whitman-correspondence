@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -43,11 +42,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">164</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to James Redpath, 12 October 1863</title>
                <date when="1863-10-12">October 12, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -57,12 +70,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Redpath, James" ref="loc.00797_n2">James Redpath</persName>
+               <persName key="Redpath, James">James Redpath</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-19">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -74,17 +86,14 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00797.001_large.jpg" type="recto"/>
-            <p>Your note of Oct 8, enclosing Dr Russell's of 4th to you,<ptr target="loc.00797_n3"/> is just rec'd. Yours with $5, some weeks ago, came safely. The generosity of Dr. Russell, Mrs. Curtis, and the other friends, I will briefly say, tells daily &amp; nightly &amp; shall tell to the best of my power, upon my dear boys here, in hospital. I do not miss one day or
-               <pb xml:id="leaf001v" facs="loc.00797.002_large.jpg" type="verso"/>
-               <pb xml:id="leaf002r" facs="loc.00797.003_large.jpg" type="recto"/>
-               night. (I guess we, I &amp; the wounded &amp;c, were made for each other.) I have written to Dr Russell, to Mrs Curtis &amp; to Miss Stevenson.<ptr target="loc.00797_n4"/>
+         
+            <p>Your note of Oct 8,<ptr target="loc.00797_n2"/> enclosing Dr Russell's of 4th to you,<ptr target="loc.00797_n3"/> is just rec'd. Yours with $5, some weeks ago, came safely. The generosity of Dr. Russell, Mrs. Curtis, and the other friends, I will briefly say, tells daily &amp; nightly &amp; shall tell to the best of my power, upon my dear boys here, in hospital. I do not miss one day or night. (I guess we, I &amp; the wounded &amp;c, were made for each other.) I have written to Dr Russell, to Mrs Curtis &amp; to Miss Stevenson.<ptr target="loc.00797_n4"/>
             </p>
             <p>Do you want to print a little 30 or 50ct book about the scenes, war, camp, hospitals &amp;c (especially the &amp;c.)<ptr target="loc.00797_n5"/>
             </p>
          <p>I shall probably remain here, in this thing. I am very happy. I never was so beloved. I am running over with health, fat, red &amp; sunburnt in face &amp;c. I tell thee I am just the one to go [to] our sick boys. Good by, my friend.<ptr target="loc.00797_n100"/>
          </p> 
-         <pb xml:id="leaf002v" facs="loc.00797.004_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

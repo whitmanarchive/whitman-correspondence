@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -62,7 +61,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-20">added images, checked transcription</change>
          <change who="#nhg" when="2014-08-24">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -76,7 +74,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_vm.01542_large.jpg" type="recto"/>
+         <pb facs="loc.00878.001.jpg" xml:id="leaf001r" type="recto"/>
          
             <opener rend="right">
                <dateline>
@@ -92,14 +90,10 @@
             <closer>
                <signed>G Wood</signed>
                <address>
-               <addrLine>Mr W: Whitman</addrLine>
+               <addrLine>Mr <lb/> W: Whitman</addrLine>
             </address>
             </closer>
-         <pb xml:id="leaf001v" facs="loc_vm.01543_large.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="loc_vm.01544_large.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc_vm.01545_large.jpg" type="verso"/>
-         <pb xml:id="leaf003r" facs="loc_vm.01538_large.jpg" type="recto"/>
-         <pb xml:id="leaf003v" facs="loc_vm.01539_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

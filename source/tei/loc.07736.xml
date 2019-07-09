@@ -16,7 +16,6 @@
                     <persName xml:id="rf">Ryan Furlong</persName>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
-                    <persName xml:id="as">Ashlyn Stewart</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -83,7 +82,6 @@
             </particDesc>
         </profileDesc> 
         <revisionDesc>
-            <change when="2018-11-01" who="#as">Added images</change>
             <change when="2018-07-16" who="#smb">final check, corrected</change>
             <change when="2018-07-16" who="#bjo">second check and corrected</change>
             <change when="2018-07-12" who="#rf">first check</change>
@@ -92,7 +90,6 @@
     </teiHeader>
     <text type="letter"> 
         <body>
-            <pb xml:id="leaf001r" facs="loc_as.00128_large.jpg" type="recto"/>
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
@@ -116,8 +113,6 @@
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
-            <pb xml:id="leaf002r" facs="loc_as.00129_large.jpg" type="recto"/>
-            <pb xml:id="leaf002v" facs="loc_as.00130_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

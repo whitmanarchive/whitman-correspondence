@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">48</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 13 April 1863</title>
                <date when="1863-04-13">April 13, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -72,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00329_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -80,10 +92,9 @@
                </dateline>
                <salute>Dear Walt,</salute>
             </opener>
-            <p>We hardly know what to think of not hearing from you  we certainly expected to have a letter from you this morning. Mother is quite anxious and of course fears that something has happened to you. Walt write to me at once wont you. I have written you two letters, one containing the $10 that Van Anden owed you, and another I mailed you last Sat. eve.<ptr target="loc.00408_n1"/> Mother gave me a letter to mail you on Monday but I forgot it till to-day. You must not tell mother about it. We are all well and as jolly as usual. Andrew does not seem to get much better. He was at our house to-day to dinner  his voice is still so that you can hardly here him speak.<ptr target="loc.00408_n2"/>
+            <p>We hardly know what to think of not hearing from you  we certainly expected to have a letter from you this morning. Mother is quite anxious and of course fears that something has happened to you. Walt write to me at once wont you. I have written you two letters, one containing the $10 that Van Anden owed you, and another I mailed you last Sat. eve.<ptr target="loc.00408_n1"/> Mother gave me a letter to mail you on Monday but I forgot it till to-day. You must not tell mother about it. We are all well and as jolly as usual. Andrew does not seem to get much better. He was at our house to-day to dinner  his voice is [still?] so that you can hardly here him speak.<ptr target="loc.00408_n2"/>
             </p>
-         <pb xml:id="leaf001v" facs="loc_ad.00330_large.jpg" type="verso"/>
-         <p>We had a letter from George yesterday. He was at Mt Sterling Ken.<ptr target="loc.00408_n3"/> He seems to feel quite well and satisfied. Mother had a letter from Heyde. He says that she must fix up her third story room for Han an him and a lot of stuff. He says that Han must come home. He says that Han wants him to take a house and let her take a man and wife to board. He wants to know what he shall do with his business. How should he get along. All of which I am sure I <choice><sic>dont</sic><corr>don't</corr></choice> know how Mother can answer him. He is a case. I <choice><sic>dont</sic><corr>don't</corr></choice> know what to think <choice><abbr>abt</abbr><expan>about</expan></choice> him. Walt I <choice><sic>havnt</sic><corr>havn't</corr></choice> time to write you a long letter, and indeed I <choice><sic>havnt</sic><corr>havn't</corr></choice> anything to write about. I hope to hear from you soon. All send their love, Hattie particularly.</p>
+            <p>We had a letter from George yesterday. He was at Mt Sterling Ken.<ptr target="loc.00408_n3"/> He seems to feel quite well and satisfied. Mother had a letter from Heyde. He says that she must fix up her third story room for Han an him and a lot of stuff. He says that Han must come home. He says that Han wants him to take a house and let her [take?] a man and wife to board. He wants to know what he shall do with his business. How should he get along. All of which I am sure I dont know how Mother can answer him. He is a case. I dont know what to think abt him. Walt I havnt time to write you a long letter, and indeed I havnt anything to write about. I hope to hear from you soon. All send their love, Hattie particularly.</p>
             <closer rend="right">
                <signed>affectionately, Jeff.</signed>
             </closer>

@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">187-188</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 14 July 1888</title>
                <date when="1888-07-14">July 14, 1888</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-12">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -70,7 +82,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00543.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Milwaukee,</name>
@@ -79,17 +91,13 @@
                <salute>My dear Walt</salute>
             </opener>
             <p>I was very very glad to get a letter from you yesterday.<ptr target="loc.00482_n1"/> I have been quite worried about you, wondering how things were going  I am more than glad to hear that you are holding your own</p>
-         <pb xml:id="leaf001v" facs="loc_ad.00544.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="loc_ad.00545.jpg" type="recto"/>
-            <p>I am up here on a question of the disposal of the sewage of the city  Davis and Flad<ptr target="loc.00482_n2"/> are associated with me and we have been <choice><sic>confabing</sic><corr>confabbing</corr></choice> about a week&#8212;Yesterday they went away&#8212;leaving me here to make surveys etc</p>
-         <pb xml:id="leaf002v" facs="loc_ad.00546.jpg" type="verso"/>
-         <pb xml:id="leaf003r" facs="loc_ad.00547.jpg" type="recto"/>
+            <p>I am up here on a question of the disposal of the sewage of the city  Davis and Flad<ptr target="loc.00482_n2"/> are associated with me and we have been confabing about a week&#8212;Yesterday they went away&#8212;leaving me here to make surveys etc</p>
             <p>I am going down to Chicago in the morning to meet some people&#8212;will be back here on Wednesday</p>
             <p>I hope dear Walt that you are gaining again&#8212;I was very sorry that I could not get back to Camden&#8212;but I had to go with my Committee to Louisville</p>
             <closer rend="right">
                <signed>Yours affectionately Jeff</signed>
             </closer>
-         <pb xml:id="leaf003v" facs="loc_ad.00548.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

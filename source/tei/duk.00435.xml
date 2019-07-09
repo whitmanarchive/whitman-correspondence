@@ -18,7 +18,6 @@
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="fw">Felicia Wetzig</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -62,9 +61,12 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+            <handNotes>
+                <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName></handNote>
+            </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Whitman, Louisa Van Velsor</persName>
+                    <persName key="Whitman, Louisa Van Velsor">Whitman, Louisa Van Velsor</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Whitman, Walt</persName>
@@ -72,8 +74,6 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change who="#ak" when="2015-05-13">added correspondent ref</change>
-            <change when="2014-01-16" who="#ak">removed handnotes from profileDesc</change>
             <change when="2014-09-23" who="#nhg">updated date range</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check; removed Bucke note that was not on letter leaf</change>
@@ -240,7 +240,7 @@
                 about his prison life
             </p>
             <closer>
-                <signed>L W</signed>
+                <signed>L W<ptr target="duk.00425_n3"/></signed>
             </closer>
         </body>
     </text>

@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -44,18 +43,30 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">138</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Reuben Farwell</author>
                <title>Reuben Farwell to Walt Whitman, 8 June 1864</title>
                <date when="1864-06-08">June 8, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Farwell, Reuben" ref="duk.00371_n100">Reuben Farwell</persName>
+               <persName key="Farwell, Reuben">Reuben Farwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -63,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -76,34 +86,26 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00371.001_large.jpg" type="recto"/>
+         
             <opener> 
                <salute>Dear Friend</salute>
             </opener>
-         <p>I once promised to write you &amp; as often as <choice><sic>convient</sic><corr>convenient</corr></choice></p>
-            <p>So far I have <choice><sic>fullfilled</sic><corr>fulfilled</corr></choice> my part. Since my <choice><sic>joineing</sic><corr>joining</corr></choice> My Regiment It
+         <p>I<ptr target="duk.00371_n100"/> once promised to write you &amp; as often as convient</p>
+            <p>So far I have fullfulled my part. Since my joineing My Regiment It
 has been nothing but marching &amp; fighting the Johnnys. I can say that
 we are enough for them if not too much</p>
             <p>There has not been a fight but what they have been worsted</p>
             <p>Our Cavalry forces have started on an other raid of 10 days rations</p>
-         <pb xml:id="leaf001v" facs="duk.00371.002_large.jpg" type="verso"/>
-            <p>I left the Regiment last Monday. The reason of my <choice><sic>leaveing</sic><corr>leaving</corr></choice> was
-because I could not see to ride or walk. I was <choice><sic>poisioned</sic><corr>poisoned</corr></choice> how or in what
+            <p>I left the Regiment last Monday. The reason of my leaveing was
+because I could not see to ride or walk. I was poisioned how or in what
 manner I can not tell.</p>
             <p>I will write to you as often as possible Even if it is pencil marks</p>
             <p>I hope that this may find you enjoying good health    Give my
 respects to the inmates of Ward. A, of Armory Square Hospital &amp; tell
 Thom. Woodwurth that I would be very glad to hear from him. I will
-close by <choice><sic>hopeing</sic><corr>hoping</corr></choice> to see you before long</p>
-         <pb xml:id="leaf002r" facs="duk.00371.003_large.jpg" type="recto"/>
-         <p>Should you wish to write Direct to Com. H.
-         First Mich. Cav. first
-         Brig. first Division. Washington DC</p>
-            <closer>
-               <signed>Ruben Farwell</signed>
-               <salute>To Walt Whitman</salute>
-            </closer>
-         <pb xml:id="leaf002v" facs="duk.00371.004_large.jpg" type="verso"/>
+close by hopeing to see you before long</p>
+            <closer rend="right"/>
+         
       </body>
    </text>
 </TEI>

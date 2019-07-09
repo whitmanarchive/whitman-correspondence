@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">49-50</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 20 April 1863</title>
                <date when="1863-04-20">April 20, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -72,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00331_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -80,7 +92,7 @@
                </dateline>
                <salute>Dear Walt,</salute>
             </opener>
-         <p>I was glad to hear&#8212;from your letter to mother&#8212;that you had received my letters&#8212;containing the $10. &amp;c.<ptr target="loc.00409_n1"/>&#8212;Everything is all right with us,&#8212;the same as ever. Mary and Louisa<ptr target="loc.00409_n2"/> are down with us. Came on Friday&#8212;will probably stay till Wednesday, down shopping  They are all well. Ancel<ptr target="loc.00409_n3"/> is down on the coast fishing. George<ptr target="loc.00409_n4"/> is still on the cars. The rest are all the same.<ptr target="loc.00409_n5"/> We have quite a joke on Mother which I bring forward almost every time she asks me if I have heard from you, which is <choice><orig>everytime</orig><reg>every time</reg></choice> she sees me  'tis this. during the time that we were so long without hearing from you Mother really got very much worried <pb xml:id="leaf001v" facs="loc_ad.00332_large.jpg" type="verso"/>about you and when I went home to dinner on the day before we got your letter, she asked me as usual if I had heard and when I told her no she said "well I cannot imagine what is the matter with Walt. I feel very much worried indeed. one thing is sure he is either sick or else he is coming home"  You can readily imagine how mother looked when I poked fun at her and repeated it to her. She says that she <choice><sic>didnt</sic><corr>didn't</corr></choice> say it so it sounded like I say it, &amp;c  Dear Mother, she would be mighty glad to see you I know, but I love to plague her  she will then take Hattie and say that sis is the only one of us that has got any sense, and if it <choice><sic>wasnt</sic><corr>wasn't</corr></choice> for you and George she should not have much to live for &amp;c, &amp;c  I hope you will be able to get me a copy of Capt. Mullens' report<ptr target="loc.00409_n6"/>  also I hope you will give him a letter <pb xml:id="leaf002r" facs="loc_ad.00333_large.jpg" type="recto"/>to Mr Lane.<ptr target="loc.00409_n7"/> I like to know such men  I can learn from them. I spend quite a good deal of time lately with Dr Ruggles.<ptr target="loc.00409_n8"/> He comes in the office quite often and I call at his house and see him. There are a good many things about him to like, I think and he seems to like me. I still continue to go to the Opera once in a while. To night is said to be the last night of the season but I hardly think that they will leave.<ptr target="loc.00409_n9"/> it seems to me to be paying to well. The houses are generally full. We have not heard from Han since I wrote you last. Mother thinks that she will get Mary to go on for her pretty soon. I suppose it is best that Han should come home but I fear for Mother. I fear that she will undertake in <pb xml:id="leaf002v" facs="loc_ad.00334_large.jpg" type="verso"/>her usual way to do too much  I was awful mad at Heydes last letter. If I had been in his neighborhood I should certainly have booted him. He is a damn fool. Hattie is in first rate condition  she reminds me more of a young colt or dog than a child. It seems to be perfect pleasure for her just to get out into the open air. She <choice><sic>dont</sic><corr>don't</corr></choice> seem to care to go any where, only outdoors. Yesterday Mother locked the front basement door while she went to some other part of the house a moment&#8212;to keep Hattie in. Hattie went in the front basement and shoved the window and was out and away leaving her <choice><orig>Opandmouth</orig><reg>opened mouth</reg></choice> in amazement <choice><abbr>abt</abbr><corr>about</corr></choice> how she got out. But altogether she is as affectionate and good as it seems to me for a human being (and I <choice><sic>dont</sic><corr>don't</corr></choice> suppose there is anything better) to be.<ptr target="loc.00409_n10"/> Mattie sends her love.</p>
+            <p>I was glad to hear&#8212;from your letter to mother&#8212;that you had received my letters&#8212;containing the $10. &amp;c.<ptr target="loc.00409_n1"/>&#8212;Everything is all right with us,&#8212;the same as ever. Mary and Louisa<ptr target="loc.00409_n2"/> are down with us. Came on Friday&#8212;will probably stay till Wednesday, down shopping  They are all well. Ancel<ptr target="loc.00409_n3"/> is down on the coast fishing. George<ptr target="loc.00409_n4"/> is still on the cars. The rest are all the same.<ptr target="loc.00409_n5"/> We have quite a joke on Mother which I bring forward almost every time she asks me if I have heard from you, which is everytime she sees me  'tis this. during the time that we were so long without hearing from you Mother really got very much worried about you and when I went home to dinner on the day before we got your letter, she asked me as usual if I had heard and when I told her no she said "well I cannot imagine what is the matter with Walt. I feel very much worried indeed. one thing is sure he is either sick or else he is coming home"  You can readily imagine how mother looked when I poked fun at her and repeated it to her. She says that she didnt say it so it sounded like I say it, &amp;c  Dear Mother, she would be mighty glad to see [you] I know, but I love to plague her  she will then take Hattie and say that sis is the only one of us that has got any sense, and if it wasnt for you and George she should not have much to live for &amp;c, &amp;c  I hope you will be able to get me a copy of Capt. Mullens' report<ptr target="loc.00409_n6"/>  also I hope you will give him a letter to Mr Lane.<ptr target="loc.00409_n7"/> I like to know such men  I can learn from them. I spend quite a good deal of time lately with Dr Ruggles.<ptr target="loc.00409_n8"/> He comes in the office quite often and I call at his house and see him. There are a good many things about him to like, I think and he seems to like me. I still continue to go to the Opera once in a while. To night is said to be the last night of the season but I hardly think that they will leave.<ptr target="loc.00409_n9"/> it seems to me to be paying to well. The houses are generally full. We have not heard from Han since I wrote you last. Mother thinks that she will get Mary to go on for her pretty soon. I suppose it is best that Han should come home but I fear for Mother. I fear that she will undertake in her usual way to do too much  I was awful mad at Heydes last letter. If I had been in his neighborhood I should certainly have booted him. He is a damn fool. Hattie is in first rate condition  she reminds me more of a young colt or dog than a child. It seems to be perfect pleasure for her just to get out into the open air. She dont seem to care to go any where, only outdoors. Yesterday Mother locked the front basement door while she went to some other part of the house a moment&#8212;to keep Hattie in. Hattie went in the front basement and shoved the window and was out and away leaving her Opandmouth in amazement abt how she got out. But altogether she is as affectionate and good as it seems to me for a human being (and I dont suppose there is anything better) to be.<ptr target="loc.00409_n10"/> Mattie sends her love.</p>
             <closer rend="right">
                <signed>affectionately Jeff.</signed>
             </closer>

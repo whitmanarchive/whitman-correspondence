@@ -48,7 +48,6 @@
                     changes to this file, as noted:
 <persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
                         Lorang</persName>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
                 </note>
@@ -83,7 +82,7 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Rome, Andrew" ref="har.00036_n1">Andrew Rome</persName>                    
+                    <persName key="Rome, Andrew">Andrew Rome</persName>                    
                 </person>
                 <person role="recipient">
                     <persName key="Rome, Thomas">Thomas Rome</persName>
@@ -91,7 +90,6 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change who="#ak" when="2015-05-14">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-03-28" who="#el">checked</change>
@@ -107,7 +105,7 @@
                 <dateline>
                     <name type="place" rend="center">Attorney General's Office</name>, <name type="place" rend="right"><hi rend="italic">Washington</hi></name>. <date when="1870-03-15" rend="right">March 15, <hi rend="italic">18</hi>70</date>. </dateline>
                 <salute>Andrew &amp; Thom. Rome,</salute>
-                <salute>Dear friends,</salute>
+                <salute>Dear friends,</salute><ptr target="har.00036_n1"/>
             </opener>
 
             <p>I suppose the MS. of "Passage to India" came safe, last week—to be put in type

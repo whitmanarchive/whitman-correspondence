@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ss">Sarah Synovec</persName>
@@ -44,18 +43,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">183</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Bethuel Smith</author>
                <title>Bethuel Smith to Walt Whitman, 28 February 1864</title>
                <date when="1864-02-28">February 28, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Bethuel" ref="loc.00602_n100">Bethuel Smith</persName>
+               <persName key="Smith, Bethuel">Bethuel Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -63,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -76,21 +87,15 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_jc.00093_large.jpg" type="recto"/>
+         
             <opener> 
-               <dateline>
-                  <date when="1864-02-28">feb the 28. 1864</date>
-                  <name type="place">Camp Near Mitchel Station Va</name>
-               </dateline>
+               <dateline rend="right"> </dateline>
                <salute>Dear friend</salute>
             </opener>
-         <p>I now take this <choice><sic>Oppertunity</sic><corr>Opportunity</corr></choice> to write A few lines to you to let you now that I am well &amp; in good spirits &amp; I hope those few lines will find you in the same condition I received your letter &amp; was <choice><sic>verry</sic><corr>very</corr></choice> glad to hear from you &amp; to hear that you was well &amp; in good spirits to[o] we got paid two or three days ago it is the first time <pb xml:id="leaf001v" facs="loc_jc.00094_large.jpg" type="verso"/>that I have bin paid in ten months I <choice><sic>drawed</sic><corr>drew</corr></choice> one hundred &amp; fifty two dollars &amp; thirty Cents</p>
-         <p>I am A going to send the most of it home in safe keeping you said that you wanted to now how the toe got along it is all well &amp; it <choice><sic>dont</sic><corr>don't</corr></choice> trouble me <choice><sic>anny</sic><corr>any</corr></choice> more you said that you was in Culpeper a few days ago if you come to Culpeper again I wish you would come &amp; see me our Camp is 4 miles up the <pb xml:id="leaf002r" facs="loc_jc.00095_large.jpg" type="recto"/>railroad toward the <choice><sic>rapidan</sic><corr>Rapidan</corr></choice> river near <choice><sic>mitchell</sic><corr>Mitchel</corr></choice> station I <choice><sic>dont</sic><corr>don't</corr></choice> now as we will stay here long the report is that we are A going to come back to Washington in A few days A good share of the men is A <choice><sic>reinlisting</sic><corr>re-enlisting</corr></choice> &amp; going on <choice><sic>furlow</sic><corr>furlough</corr></choice> the duty is <choice><sic>verry</sic><corr>very</corr></choice> hard now on our regiment <choice><sic>especily</sic><corr>especially</corr></choice> for it is pretty small well now I will have to close my letter by saying good by my dear friend <choice><sic>walt</sic><corr>Walt</corr></choice></p>
+         <p>I<ptr target="loc.00602_n100"/> now take this Oppertunity to write A few lines to you to let you now that I am well &amp; in good spirits &amp; I hope those few lines will find you in the same condition I received your letter &amp; was verry glad to hear from you &amp; to hear that you was well &amp; in good spirits to[o] we got paid two or three days ago it is the first time that I have bin paid in ten months I drawed one hundred &amp; fifty two dollars &amp; thirty Cents</p>
+            <p>I am A going to send the most of it home in safe keeping you said that you wanted to now how the toe got along it is all well &amp; it dont trouble me anny more you said that you was in Culpeper a few days ago if you come to Culpeper again I wish you would come &amp; see me our Camp is 4 miles up the railroad toward the rapidan river near mitchell station I dont now as we will stay here long the report is that we are A going to come back to Washington in A few days A good share of the men is A reinlisting &amp; going on furlow the duty is verry hard now on our regiment especily for it is pretty small well now I will have to close my letter by saying good by my dear friend walt</p>
             <closer rend="right"/>
-         <pb xml:id="leaf002v" facs="loc_jc.00096_large.jpg" type="verso"/>
-         <postscript>
-            <p>Direct same as before Bethuel Smith Company Y. N. U.S, Washington D.C.</p>
-         </postscript>
+         
       </body>
    </text>
 </TEI>

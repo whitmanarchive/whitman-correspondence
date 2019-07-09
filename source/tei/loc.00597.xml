@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -42,18 +41,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">181-183</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Bethuel Smith</author>
                <title>Bethuel Smith to Walt Whitman, 17 September 1863</title>
                <date when="1863-09-17">September 17, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Bethuel" ref="loc.00597_n100">Bethuel Smith</persName>
+               <persName key="Smith, Bethuel">Bethuel Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -74,18 +85,14 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_jc.00073_large.jpg" type="recto"/>
-            <opener>
-               <dateline>
-                  <name type="place">Carlisle</name>
-                  <date when="1863-09-17">Sept the 17 63</date>
-               </dateline>
-               <salute>Dear friend <choice><sic>walt</sic><corr>Walt</corr></choice></salute>
+         
+            <opener> 
+               <salute>Dear friend walt</salute>
             </opener>
-         <p>I received your kind letter &amp; was <choice><sic>verry</sic><corr>very</corr></choice> glad to hear from you &amp; to hear that you was well I left the armory <choice><sic>hospittal</sic><corr>hospital</corr></choice> in somewhat of A hurry I went in the ambulance to the depot &amp; took the Cars north at 11 oclock &amp; we got to <choice><sic>philadelphia</sic><corr>Philadelphia</corr></choice> about 2 oclock there we got some bread &amp; ham &amp; coffee we stayed there till three &amp; then we started to <choice><sic>harrisburg</sic><corr>Harrisburg</corr></choice> we got there about dark &amp; stayed there all night the next day we started for Carlisle we got to <pb xml:id="leaf001v" facs="loc_jc.00074_large.jpg" type="verso"/>Carlisle about 10 in the morning we went in to <choice><sic>hospittal</sic><corr>hospital</corr></choice> tents we have rather poor <choice><sic>accomodating</sic><corr>accommodating</corr></choice> her[e] the foot is getting better fast I can get around quite smart on it. I think in A few days I Can put on my boots &amp; not hurt me much of <choice><sic>anny</sic><corr>any</corr></choice>  there is lots of fruits here &amp; Cakes pies &amp;c. but it <choice><sic>dont</sic><corr>don't</corr></choice> do me much good for I have not got any money to buy it with I wish that you would send me A few of them ten cents <choice><sic>noats</sic><corr>notes</corr></choice> if you pleas it is <choice><sic>verry</sic><corr>very</corr></choice> <choice><sic>loansome</sic><corr>lonesome</corr></choice> here to me</p>
-         <p>I hope that I shall <pb xml:id="leaf002r" facs="loc_jc.00075_large.jpg" type="recto"/>soon <choice><sic>gow</sic><corr>go</corr></choice> to my regiment for I <choice><sic>dont</sic><corr>don't</corr></choice> like to stay here <choice><sic>verry</sic><corr>very</corr></choice> well I would like to see you <choice><sic>verry</sic><corr>very</corr></choice> well</p>
-         <p>well <choice><sic>walt</sic><corr>Walt</corr></choice> I <choice><sic>dont</sic><corr>don't</corr></choice> now as I have <choice><sic>anny</sic><corr>any</corr></choice> more to write at present so good by for this time   write soon please</p>
-         <pb xml:id="leaf002v" facs="loc_jc.00076_large.jpg" type="verso"/>
+         <p>I<ptr target="loc.00597_n100"/> received your kind letter &amp; was verry glad to hear from you &amp; to hear that you was well I left the armory hospittal in somewhat of A hurry I went in the ambulance to the depot &amp; took the Cars north at 11 oclock &amp; we got to philadelphia about 2 oclock there we got some bread &amp; ham &amp; coffee we stayed there till three &amp; then we started to harrisburg we got there about dark &amp; stayed there all night the next day we started for Carlisle we got to Carlisle about 10 in the morning we went in to hospittal tents we have rather poor accomodating her[e] the foot is getting better fast I can get around quite smart on it. I think in A few days I Can put on my boots &amp; not hurt me much of anny  there is lots of fruits here &amp; Cakes pies &amp;c. but it dont do me much good for I have not got any money to buy it with I wish that you would send me A few of them ten cents noats if you pleas it is verry loansome here to me</p>
+            <p>I hope that I shall soon gow to my regiment for I dont like to stay here verry well I would like to see you verry well</p>
+            <p>well walt I dont now as I have anny more to write at present so good by for this time   write soon please</p>
+         
       </body>
    </text>
 </TEI>

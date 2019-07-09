@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -44,11 +43,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">71</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to George Wood, 17 January 1863</title>
                <date when="1863-01-17">January 17, 1863</date>
-               <orgName xml:id="hav">Haverford College Quaker and Special Collections </orgName>
+               <orgName xml:id="hav">Charles Roberts Autograph Collection, Haverford College</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -58,12 +71,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Wood, George" ref="hav.00002_n1">George Wood</persName>
+               <persName key="Wood, George">George Wood</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-30">corrected orgName, added xml:ids to pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bb" when="2010-04-08">edited note about Wood</change>
@@ -77,13 +89,13 @@
    <text type="letter">
       <body>
          
-            <pb xml:id="leaf001r" facs="hav.00002.001.jpg" type="recto"/>
+            <pb facs="hav.00002.001.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington,</name>
                   <date when="1863-01-17">Saturday morning Jan 17 '63.</date>
                </dateline>
-               <salute>Dear Mr Wood,
+               <salute>Dear Mr Wood,<ptr target="hav.00002_n1"/>
                </salute>
             </opener>
             <p>So your generous heart moved you to send the sick and dying young men in the hospitals a handsome little contribution of money (toward $4). I thank you, dear sir, in their name, and in my own, as the organ of your charity. I have distributed part of it in Ward 6, (Dr. Leman, ward surgeon) Campbell Hospital&#8212;and shall to-day bestow the rest in the Patent Office Hosp.<ptr target="hav.00002_n2"/> My friend, I must meet you soon again.</p>
@@ -91,9 +103,9 @@
             <closer rend="right">
                <signed>Walt Whitman</signed>
             </closer>
-         <pb xml:id="leaf001v" facs="hav.00002.002.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="hav.00002.003.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="hav.00002.004.jpg" type="verso"/>
+            <pb facs="hav.00002.002.jpg" type="verso"/>
+            <pb facs="hav.00002.003.jpg" type="recto"/>
+            <pb facs="hav.00002.004.jpg" type="verso"/>
          
       </body>
    </text>

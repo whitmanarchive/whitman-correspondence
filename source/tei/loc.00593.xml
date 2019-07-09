@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -59,14 +58,14 @@
                <author>John Swinton</author>
                <title>John Swinton to Walt Whitman, 25 February 1863</title>
                <date when="1863-02-25">February 25, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Swinton, John" ref="loc.00593_n100">John Swinton</persName>
+               <persName key="Swinton, John">John Swinton</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-13">corrected orgName, added envelop images</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -88,6 +86,7 @@
    </teiHeader>
    <text type="letter">
       <body>
+         
             <opener> 
                <dateline>
                   <name type="place">TIMES OFFICE,</name> 
@@ -95,7 +94,7 @@
                </dateline>
                <salute>My dear Walt&#8212;</salute>
             </opener>
-         <p>You will find the article you sent will be in the Times of this morning, when it is published. I have crowded out a great many things to get it in, and it has taken the precedence of army correspondence and articles which have been waiting a month for insertion. It is excellent&#8212;the first part and the closing part of it especially. I am glad to see you are engaged in such good work at Washington. It must be even more refreshing than to sit by Pfaff's privy<ptr target="loc.00593_n2"/> and eat sweet-breads and drink coffee, and listen to the intolerable wit of the crack-brains. I happened in there the other night, and the place smelt as atrociously as ever. Pfaff looked as of yore. I read your article in proof and hope it's all accurate enough. "The field large&#8212;the reapers few" is the finest paragraph. Everything in New York moves on pretty much as usual. It's the old town&#8212;only different.</p>
+         <p>You will find the article you sent will be in the Times of this morning, when it is published. I<ptr target="loc.00593_n100"/> have crowded out a great many things to get it in, and it has taken the precedence of army correspondence and articles which have been waiting a month for insertion. It is excellent&#8212;the first part and the closing part of it especially. I am glad to see you are engaged in such good work at Washington. It must be even more refreshing than to sit by Pfaff's privy<ptr target="loc.00593_n2"/> and eat sweet-breads and drink coffee, and listen to the intolerable wit of the crack-brains. I happened in there the other night, and the place smelt as atrociously as ever. Pfaff looked as of yore. I read your article in proof and hope it's all accurate enough. "The field large&#8212;the reapers few" is the finest paragraph. Everything in New York moves on pretty much as usual. It's the old town&#8212;only different.</p>
             <p>My brother William<ptr target="loc.00593_n3"/> sailed for Port Royal ten days ago&#8212;to be present at the attack on Charleston&#8212;if it is to be attacked.<ptr target="loc.00593_n4"/>
             </p>
             <p>Do you know Conway of Kansas?<ptr target="loc.00593_n5"/> He is a good man If you don't know him, and if he would be of any service to you in any way, I know he would be rejoiced to serve you, if you mentioned my name to him.</p>
@@ -103,8 +102,7 @@
             <closer>
                <signed>J. Swinton</signed>
             </closer>
-         <pb xml:id="leaf001r" facs="loc_gt.00263_large.jpg" type="recto"/>
-         <pb xml:id="leaf001v" facs="loc_gt.00264_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

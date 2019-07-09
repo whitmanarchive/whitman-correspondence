@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ss">Sarah Synovec</persName>
@@ -42,6 +41,20 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">208-209</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to George Washington Whitman, 9 April 1864</title>
@@ -56,12 +69,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington">George Washington Whitman</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-11">added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -74,7 +86,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="mhs.00005.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -83,13 +95,12 @@
                </dateline>
                <salute>Dear brother</salute>
             </opener>
-         <p>I got a letter from Mother this morning, &amp; she sends one to you for me to direct&#8212;I will just enclose both&#8212;you <hi rend="italic">must</hi> write to Mother oftener&#8212;before she got this last letter it was too long, &amp; seemed ten times longer than it was<ptr target="mhs.00005_n2"/>&#8212;if she don't hear from you in a long while she just gets sick <pb xml:id="leaf001v" facs="mhs.00005.002_large.jpg" type="verso"/>about it&#8212;she is getting pretty old, &amp; shows it at last&#8212;still I think she is pretty well&#8212;</p>
+            <p>I got a letter from Mother this morning, &amp; she sends one to you for me to direct&#8212;I will just enclose both&#8212;you <hi rend="italic">must</hi> write to Mother oftener&#8212;before she got this last letter it was too long, &amp; seemed ten times longer than it was<ptr target="mhs.00005_n2"/>&#8212;if she don't hear from you in a long while she just gets sick about it&#8212;she is getting pretty old, &amp; shows it at last&#8212;still I think she is pretty well&#8212;</p>
             <p>Nothing new with me&#8212;I wrote you three days ago,<ptr target="mhs.00005_n3"/> to Annapolis, I suppose you got it&#8212;Jeff is away a good deal of the time, surveying &amp;c<ptr target="mhs.00005_n4"/>&#8212;We are having another rain-storm set in here this morning&#8212;Congress is splurging away, doing some good things too&#8212;I see Kalbfleisch<ptr target="mhs.00005_n5"/> &amp; Odell<ptr target="mhs.00005_n6"/> here frequently&#8212;have you writ to Han? Well, brother, good bye for present&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>
-         <pb xml:id="leaf002r" facs="mhs.00005.003_large.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="mhs.00005.004_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
 <persName xml:id="nhg">Nicole Gray</persName>
@@ -59,7 +58,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-02">corrected pbs</change>
          <change who="#nhg" when="2014-08-23">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -71,7 +69,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_jc.00657.jpg" type="recto"/>
+         <pb facs="loc.00945.001.jpg" type="recto"/>
          
             <opener>
                <dateline>
@@ -84,7 +82,7 @@
 <hi rend="italic">hoped</hi>
 to see you, but feared you would not be able to go over. I was all the more sorry
 <hi rend="italic">not</hi>
-            to see you, and I inferred from it that you were too unwell to come over. Mr. Conway, Martin, F.<ptr target="loc.00945_n2"/> went to the boat with me &amp; remained an hour or so. Mr. Howells<ptr target="loc.00945_n3"/> having business here, made his arrangements <pb xml:id="leaf001v" facs="loc_jc.00658.jpg" type="verso"/>to come that evening, so I had company, but I had
+to see you, and I inferred from it that you were too unwell to come over. Mr. Conway, Martin, F.<ptr target="loc.00945_n2"/> went to the boat with me &amp; remained an hour or so. Mr. Howells<ptr target="loc.00945_n3"/> having business here, made his arrangements <pb facs="loc.00945.002.jpg" type="verso"/>to come that evening, so I had company, but I had
 <hi rend="italic">hoped</hi>
 for a good long talk with
 <hi rend="italic">you,</hi>
@@ -98,7 +96,7 @@ epistle to you, so I shall claim a word from you
 <hi rend="italic">when</hi>
 you are able to write.</p>
             <p>
-               <pb xml:id="leaf002r" facs="loc_jc.00659.jpg" type="recto"/>My sister &amp; Dr. Channing<ptr target="loc.00945_n5"/> both ask for you with the greatest interest, &amp; Jeannie<ptr target="loc.00945_n6"/>, Mrs. C. says she should have written you
+               <pb facs="loc.00945.003.jpg" type="recto"/>My sister &amp; Dr. Channing<ptr target="loc.00945_n5"/> both ask for you with the greatest interest, &amp; Jeannie<ptr target="loc.00945_n6"/>, Mrs. C. says she should have written you
 <hi rend="italic">at once</hi>
 and asked you there when I first wrote her that you were ill, if she had not been sick herself.</p>
             <p>Should you write me, direct to me
@@ -106,7 +104,7 @@ and asked you there when I first wrote her that you were ill, if she had not bee
             </p>
             <p>I am still in pursuit of a place at the sea - shall, &amp; hope to find one, for I need the sea.</p>
             <p>
-               <pb xml:id="leaf002v" facs="loc_jc.00660.jpg" type="verso"/>I
+               <pb facs="loc.00945.004.jpg" type="verso"/>I
 <hi rend="italic">want</hi>
 to hear from you, dear Walt, &amp; I hope you are gaining all the time, are you?</p>
             <closer>
@@ -114,8 +112,7 @@ to hear from you, dear Walt, &amp; I hope you are gaining all the time, are you?
                <salute>Yours,</salute>
                <signed>Nelly.</signed>
             </closer>
-         <pb xml:id="leaf003r" facs="loc_jc.00655.jpg" type="recto"/>
-         <pb xml:id="leaf003v" facs="loc_jc.00656.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

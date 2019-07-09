@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -56,14 +55,14 @@
                <author>James Harlan</author>
                <title>James Harlan to Walt Whitman, 30 June 1865</title>
                <date when="1865-06-30">June 30, 1865</date>
-               <orgName xml:id="nypl">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
+               <orgName xml:id="nyp">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Harlan, James" ref="nyp.00222_n1">James Harlan</persName>
+               <persName key="Harlan, James">James Harlan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,7 +70,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-03">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-31">updated Oscar Lion info</change>
@@ -91,8 +89,8 @@ Washington, D. C.,</name>
             </opener>
             <p>The services of Walter Whitman of New York as a Clerk in the Indian Office will be dispensed with from and after this date.</p>  
             <closer rend="right">
-               <signed>James Harlan,</signed>
-               <salute>Secretary of the Interior.</salute>
+               <signed>James Harlan, <lb/>Secretary of the Interior.<ptr target="nyp.00222_n1"/>
+               </signed>
             </closer>
          
       </body>

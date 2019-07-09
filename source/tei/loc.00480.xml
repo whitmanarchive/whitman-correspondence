@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">184</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 9 November 1886</title>
                <date when="1886-11-09">November 9, 1886</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-11">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -70,7 +82,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00537.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">St. Louis,</name>
@@ -80,7 +92,6 @@
             </opener>
             <p>Two or three times within the last half dozen days we have seen (and felt badly about) squibs in the papers saying you were "sick"&#8212;"not well" "confined to his room" etc etc&#8212;Each day I have been hoping to get something from you&#8212;but as the days pass and I do not I am beginning to fear that it is possible that you are not getting on as well as usual<ptr target="loc.00480_n1"/>&#8212;and that there may be some foundation for the newspaper stuff&#8212;more than usual with you</p>
             <p>Dear Walt we all hope and pray that it is not so&#8212;yet fear that you may not be as well as usual&#8212;and hope you will let us know just how you are getting on. The last time we heard from you, you said you did not feel quite as well as usual&#8212;but that you had been out on a long drive and that you were able to get out every day or two&#8212;is there anything different</p>
-         <pb xml:id="leaf001v" facs="loc_ad.00538.jpg" type="verso"/>
             <p>We are jogging along as best we may<ptr target="loc.00480_n2"/>  I manage to be at home and with Jess considerable of the time&#8212;and often I take her with me when I visit the works&#8212;and the places where they are building&#8212;I find both for her and myself there is nothing like the open air&#8212;the out doors. As good luck would have it we have had a splendid fall as regards weather&#8212;and too my work has been of such a kind that I could be out much of the time&#8212;and this way we manage, after a fashion, to put in the days&#8212;yet there are times when it does seem as if it was impossible to keep up.</p>
             <p>It is pretty hard on Jess to leave her alone (with servants of course) in the house yet at times (for a short time) this does occur, and of course she gives way to her feelings, poor child, but I am doing my best to counteract it all I can do</p>
             <p>Dear Walt write upon the receipt of this and let us know how you are  We always like to hear from you  it seems to help&#8212;Love of both</p>

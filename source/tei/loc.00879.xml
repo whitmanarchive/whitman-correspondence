@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -52,7 +51,7 @@
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Worthen, W. E." ref="loc.00879_n1">W. E. Worthen</persName>
+               <persName key="Worthen, W. E.">W. E. Worthen</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +59,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-22">added images, corrected transcription and encoding</change>
          <change who="#nhg" when="2014-08-24">corrected</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -73,32 +71,26 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_vm.00820_large.jpg" type="recto"/>
+         <pb facs="loc.00879.001.jpg" type="recto"/>
          
             <opener rend="right">
                <dateline>
-                  <name type="place"><handShift rend="printed"/>Croton Aqueduct Department.</name>
-                  <name type="place">OFFICE OF THE CHIEF ENGINEER.</name>
-                  <name type="place"><handShift rend="manuscript"/>New York</name>
+                  <name type="place">New York</name>
                   <date when="1864-05-23">May 23</date>
                </dateline>
-               <salute>Walt Whitman Esq</salute>
                <salute>Dear Sir</salute> 
             </opener>
             <p>Enclosed find $20 which I have collected for yr Sanitary distribution.  I hope I shall be able to send more from time to time.</p>
             <closer rend="right">
                <salute>I am yrs try</salute>
-               <signed>W. E. Worthen
+               <signed>W. E. Worthen<ptr target="loc.00879_n1"/>
                </signed>
                <address>
-               <addrLine>Address care of D. Appleton Ho.</addrLine>
+               <addrLine>Address care of <lb/>
+D. Appleton Ho.</addrLine>
             </address>
             </closer>
-         <pb xml:id="leaf001v" facs="loc_vm.00821_large.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="loc_vm.00822_large.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc_vm.00823_large.jpg" type="verso"/>
-         <pb xml:id="leaf003r" facs="loc_vm.00818_large.jpg" type="recto"/>
-         <pb xml:id="leaf003v" facs="loc_vm.00819_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

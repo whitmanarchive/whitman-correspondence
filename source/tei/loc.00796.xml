@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -43,11 +42,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">160-161</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Hannah E. Stevenson, 8 October 1863</title>
                <date when="1863-10-08">October 8, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -57,12 +70,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Stevenson, Hannah E." ref="loc.00796_n2">Hannah E. Stevenson</persName>
+               <persName key="Stevenson, Hannah E.">Hannah E. Stevenson</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-19">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">proofreading changes</change>
@@ -74,18 +86,18 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_gt.00109.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Washington </name>
                   <date when="1863-10-08">October 8 | 1863<ptr target="loc.00796_n100"/>
                </date>
                </dateline>
-               <salute>Dear friend
+               <salute>Dear friend<ptr target="loc.00796_n2"/>
                </salute>
             </opener>
-         <p>Your letter was received, enclosing one from Mary Wigglesworth with $30 from herself &amp; her sisters Jane &amp; Anne&#8212;As I happened stopping at one of the hospitals last night Miss Lowe just from Boston came to me &amp; handed the letters&#8212;My friend, you must convey the blessings of the poor young men around me here, many amid deepest afflictions not of body only but of soul, to your friends Mary, Jane, &amp; Anne Wigglesworth.<ptr target="loc.00796_n3"/> Their &amp; all contributions shall be sacredly used among them. I find more &amp; more how a little money rightly directed, the exact thing at the exact moment, goes a great ways, <pb xml:id="leaf001v" facs="loc_gt.00110.jpg" type="verso"/>to make gifts comfort &amp; truly nourish these American soldiers, so full of manly independence, is required the spirit of love &amp; boundless brotherly tenderness, hand in hand with greatest tact. I do not find any lack in the storehouses, nor eager willingness of the North to unlock them for the soldiers&#8212;but sadly everywhere a lack of fittest hands to apply, &amp; of just the right thing in just the right measure, &amp; of all being vivified by the spirit I have mentioned&#8212;</p>
-         <p>Say to the sisters Mary &amp; Jane &amp; Anne Wigglesworth, &amp; to your own sister, Margaret,<ptr target="loc.00796_n4"/> that as I feel it a privilege myself to be doing a part among these things, I know well enough the like privilege must be sweet to them, to <pb xml:id="leaf002r" facs="loc_gt.00111.jpg" type="recto"/>their compassionate &amp; sisterly souls, &amp; need indeed few thanks, &amp; only ask its being put to best use, what they feel to give among sick &amp; wounded. I have received L B Russell's<ptr target="loc.00796_n5"/> letter &amp; contribution by same hand, &amp; shall try to write to him to-morrow&#8212;</p>
+            <p>Your letter was received, enclosing one from Mary Wigglesworth with $30 from herself &amp; her sisters Jane &amp; Anne&#8212;As I happened stopping at one of the hospitals last night Miss Lowe just from Boston came to me &amp; handed the letters&#8212;My friend, you must convey the blessings of the poor young men around me here, many amid deepest afflictions not of body only but of soul, to your friends Mary, Jane, &amp; Anne Wigglesworth.<ptr target="loc.00796_n3"/> Their &amp; all contributions shall be sacredly used among them. I find more &amp; more how a little money rightly directed, the exact thing at the exact moment, goes a great ways, to make gifts comfort &amp; truly nourish these American soldiers, so full of manly independence, is required the spirit of love &amp; boundless brotherly tenderness, hand in hand with greatest tact. I do not find any lack in the storehouses, nor eager willingness of the North to unlock them for the soldiers&#8212;but sadly everywhere a lack of fittest hands to apply, &amp; of just the right thing in just the right measure, &amp; of all being vivified by the spirit I have mentioned&#8212;</p>
+            <p>Say to the sisters Mary &amp; Jane &amp; Anne Wigglesworth, &amp; to your own sister, Margaret,<ptr target="loc.00796_n4"/> that as I feel it a privilege myself to be doing a part among these things, I know well enough the like privilege must be sweet to them, to their compassionate &amp; sisterly souls, &amp; need indeed few thanks, &amp; only ask its being put to best use, what they feel to give among sick &amp; wounded. I have received L B Russell's<ptr target="loc.00796_n5"/> letter &amp; contribution by same hand, &amp; shall try to write to him to-morrow&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>
@@ -93,9 +105,6 @@
          <postscript>
             <p>Address | care Major Hapgood | paymaster U S A cor 15th &amp; F st | Washington D C.</p>
          </postscript>
-         <pb xml:id="leaf002v" facs="loc_gt.00112.jpg" type="verso"/>
-         <pb xml:id="leaf003r" facs="loc_gt.00113.jpg" type="recto"/>
-         <pb xml:id="leaf003v" facs="loc_gt.00114.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

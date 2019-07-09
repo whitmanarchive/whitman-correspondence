@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">228&#8211;229</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 30 May 1864</title>
                <date when="1864-05-30">May 30, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -72,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00069.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -80,9 +92,9 @@
                </dateline>
                <salute>Dearest Mother</salute>
             </opener>
-         <p>I have no news at all to write this time&#8212;I have not heard any thing of the 51st since I last wrote you, &amp; about the general war news only what you see in the papers&#8212;Grant is gradually getting nearer &amp; nearer to Richmond&#8212;Many [here] anticipate that should Grant go into Richmond, Lee will make a side movement &amp; march up west, into the north, either to attempt to strike <pb xml:id="leaf001v" facs="loc_ad.00070.jpg" type="verso"/>Washington, or to go again into Pennsylvania&#8212;I only say if that should happen, I for one shall not be dissatisfied so very much&#8212;</p>
-         <p>Well, mother, how are you getting along home&#8212;how do you feel in health these days, dear mother&#8212;I hope you are well &amp; in good heart yet&#8212;I remain pretty well, my head begins to trouble me a little with a sort of fulness, as it often does in the hot weather&#8212;<pb xml:id="leaf002r" facs="loc_ad.00071.jpg" type="recto"/>Singular to relate the 1st Mass artillery boy, Charles Cutter, is still living, &amp; may get well&#8212;I saw him this morning&#8212;I am still around among wounded same, but will not make you feel blue by filling my letter with sad particulars&#8212;</p>
-         <p>I am writing this in Willard's hotel, hurrying to catch this afternoon's mail&#8212;Mother, do you get your letters now next morning, as you ought? I got a letter from the Post Master of Brooklyn about it&#8212;he said if the letters were neglected again to send him word&#8212;I have not heard from home <pb xml:id="leaf002v" facs="loc_ad.00072.jpg" type="verso"/>now in some days&#8212;I am going to put up a lot of my old things in a box &amp; send them home by express, I will write when I send them&#8212;Have you heard any thing from Mary or Han lately&#8212;I should like to hear&#8212;</p>
+            <p>I have no news at all to write this time&#8212;I have not heard any thing of the 51st since I last wrote you, &amp; about the general war news only what you see in the papers&#8212;Grant is gradually getting nearer &amp; nearer to Richmond&#8212;Many [here] anticipate that should Grant go into Richmond, Lee will make a side movement &amp; march up west, into the north, either to attempt to strike Washington, or to go again into Pennsylvania&#8212;I only say if that should happen, I for one shall not be dissatisfied so very much&#8212;</p>
+            <p>Well, mother, how are you getting along home&#8212;how do you feel in health these days, dear mother&#8212;I hope you are well &amp; in good heart yet&#8212;I remain pretty well, my head begins to trouble me a little with a sort of fulness, as it often does in the hot weather&#8212;Singular to relate the 1st Mass artillery boy, Charles Cutter, is still living, &amp; may get well&#8212;I saw him this morning&#8212;I am still around among wounded same, but will not make you feel blue by filling my letter with sad particulars&#8212;</p>
+            <p>I am writing this in Willard's hotel, hurrying to catch this afternoon's mail&#8212;Mother, do you get your letters now next morning, as you ought? I got a letter from the Post Master of Brooklyn about it&#8212;he said if the letters were neglected again to send him word&#8212;I have not heard from home now in some days&#8212;I am going to put up a lot of my old things in a box &amp; send them home by express, I will write when I send them&#8212;Have you heard any thing from Mary or Han lately&#8212;I should like to hear&#8212;</p>
             <p>Tell Jeff he must write, &amp; you must too, Mother&#8212;I have been in one of the worst hospitals all the forenoon, it contains about 1600&#8212;I have given the men pipes &amp; tobacco, (I am the only one that gives them tobacco)&#8212;O how much good it does some of them&#8212;the chaplains &amp; most of the doctors are down upon it&#8212;but I give them &amp; let them smoke&#8212;to others I have given oranges, fed them, &amp;c&#8212;well, dear mother, good bye&#8212;love to Matty &amp; sis&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>

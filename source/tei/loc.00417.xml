@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -43,18 +42,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">63</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 8 July 1863</title>
                <date when="1863-07-08">July 8, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -62,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -74,7 +86,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00362_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">[Brooklyn, N. Y.]</name>
@@ -82,7 +94,7 @@
                </dateline>
                <salute>Dear Walt,</salute>
             </opener>
-         <p>Mr Lane<ptr target="loc.00417_n1"/> is again very anxious about his boy, his name is Horace G. Tarr,<ptr target="loc.00417_n2"/> and is Sergeant Major of the 20th Reg. of Connecticut Vol. If by chance you should hear anything of him will you please write. His Reg. belonged to the 12th army Corps, and I think were in the hottest of the fight. I sent you a letter last week with $14 in it and another yesterday with $10.<ptr target="loc.00417_n3"/> Did you get them both? We are all well at home. The rejoicing in New York is sincere and almost universal and yet a few, (and <pb xml:id="leaf001v" facs="loc_ad.00363_large.jpg" type="verso"/>yet only a few when compared with the immense city) who try to find some reason why Lee should have been whipped. Copperheads are getting out of circulation being laid up for a future contingency. Hope to hear from you soon. <choice><sic>Dont</sic><corr>Don't</corr></choice> forget me.</p>
+            <p>Mr Lane<ptr target="loc.00417_n1"/> is again very anxious about his boy, his name is Horace G. Tarr,<ptr target="loc.00417_n2"/> and is Sergeant Major of the 20th Reg. of Connecticut Vol. If by chance you should hear anything of him will you please write. His Reg. belonged to the 12th army Corps, and I think were in the hottest of the fight. I sent you a letter last week with $14 in it and another yesterday with $10.<ptr target="loc.00417_n3"/> Did you get them both? We are all well at home. The rejoicing in New York is sincere and almost universal and yet a few, (and yet only a few when compared with the immense city) who try to find some reason why Lee should have been whipped. Copperheads are getting out of circulation being laid up for a future contingency. Hope to hear from you soon. Dont forget me.</p>
             <closer rend="right">
                <signed>Yours truly Jeff</signed>
             </closer>

@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">252-253</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to John Swinton, 3 February 1865</title>
                <date when="1865-02-03">February 3, 1865</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="med">Location of original letter manuscript is unknown.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -55,7 +68,7 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Swinton, John" ref="n0611">John Swinton</persName>
+               <persName key="Swinton, John">John Swinton</persName>
             </person>
          </particDesc>
       </profileDesc>
@@ -71,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00532.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Washington,</name>
@@ -81,7 +94,7 @@
                </salute>
             </opener>
             <p>From the deep distress of my mother whose health is getting affected,<ptr target="med.00306_n2"/> &amp; of my sister&#8212;&amp; thinking it worth the trial myself, I write this hastily to ask you to do, or rather if you have an objection to do, as follows:</p>
-            <p>Write a brief letter, not filling more than one page, letter paper, to Lt. Gen. Grant. Date it from the office of the <hi rend="italic">Times</hi>, which will add to its effect, &amp; <choice><sic>recal</sic><corr>recall</corr></choice> you to Gen. Grant. It is to request him to give directions, that one of the special exchanges (of which they are now making quite a number) shall be made, in favor of my brother George, and also another officer same regiment. State in short terms that Capt. Whitman has been in active military service of U. S. since April, 1861, nearly four years, has borne his part bravely in battles in nearly every part of the war in the United States, east &amp; west, including Vicksburgh &amp; Jackson, Miss.&#8212;has an aged widowed mother in deepest distress. Ask Gen. G. to order a special exchange of</p>
+            <p>Write a brief letter, not filling more than one page, letter paper, to Lt. Gen. Grant. Date it from the office of the <hi rend="italic">Times</hi>, which will add to its effect, &amp; recal you to Gen. Grant. It is to request him to give directions, that one of the special exchanges (of which they are now making quite a number) shall be made, in favor of my brother George, and also another officer same regiment. State in short terms that Capt. Whitman has been in active military service of U. S. since April, 1861, nearly four years, has borne his part bravely in battles in nearly every part of the war in the United States, east &amp; west, including Vicksburgh &amp; Jackson, Miss.&#8212;has an aged widowed mother in deepest distress. Ask Gen. G. to order a special exchange of</p>
             <p>Capt George W. Whitman, 51st New York Vol.
      &amp; Lieut Samuel Pooley,25 51st New York Vol.</p>
             <p>both of whom are now, or were lately, in C. S. Military Prison, in Danville, Va. (both the above officers have been promoted from the ranks for conduct on the field)&#8212;</p>
@@ -92,7 +105,6 @@
          <postscript>
             <p>My address is simply to Washington D. C. as I go to post office for my letters.</p>
          </postscript>
-         <pb xml:id="leaf002r" facs="duk.00532.002_large.jpg" type="recto"/>
       </body>
    </text>
 </TEI>

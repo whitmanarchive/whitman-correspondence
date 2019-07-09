@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="jc">Janel Cayer</persName>
 
@@ -42,18 +41,33 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">117-118</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Walt Whitman, 29 April 1864</title>
                <date when="1864-04-29">April 29, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
+Manuscript, and Special Collections Library
+</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington">George Washington Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -61,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-28">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#jc" when="2009-09-04">updated annotations according to new style guidelines</change>
@@ -74,19 +87,18 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00353.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
-                  <name type="place">Bristoe Station</name>
-                  <date when="1864-04-29">Apl 29th 64<ptr target="duk.00353_n100"/>
+                  <name type="place">Bristoe Station </name>
+                  <date when="1864-04-29"> Apl 29th <lb/>64<ptr target="duk.00353_n100"/>
                </date>
                </dateline>
                <salute>Dear Brother Walt.</salute>
             </opener>
             <p>I thought I would write you a word to say that I am perfectly well and hearty</p>
             <p>We arrived here last night about dark, and are going to fall in, in a few minutes to move on towards Warrenton I believe. I hear that Grant has issued an order, that no letters will be allowed to be sent from this army for the next Sixty days. If that is the case Walt you must tell Mother not to feel the least bit worried if she does not hear from me in some time. I send this by Adjt McKee<ptr target="duk.00353_n2"/> who is going to Washington for a day or two</p>
-         <pb xml:id="leaf001v" facs="duk.00353.002_large.jpg" type="verso"/>
-            <p>I can tell you nothing about the army, more than you already know everyone seems to be in good spirits and <choice><sic>hopefull</sic><corr>hopeful</corr></choice>. I sent my trunk from Annapolis to Washingt<gap reason="cut away"/> to our Sutler, who keeps a place in Washington  his name is L. Kipps  cor of F &amp; 9th St  Model House</p>
+            <p>I can tell you nothing about the army, more than you already know everyone seems to be in good spirits and hopefull. I sent my trunk from Annapolis to Washingt to our Sutler, who keeps a place in Washington  his name is L. Kipps  cor of F &amp; 9th St  Model House</p>
             <closer rend="center">
                <signed>G. W. Whit</signed>
             </closer>

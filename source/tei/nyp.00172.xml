@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -59,14 +58,14 @@
                <author>James S. Stillwell</author>
                <title>James S. Stillwell to Walt Whitman, 27 September 1864</title>
                <date when="1864-09-27">September 27, 1864</date>
-               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and American Literature, New York Public Library</orgName>
+               <orgName xml:id="nyp">Henry W. and Albert A. Berg Collection of English and American Literature at the New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Stillwell, James S." ref="nyp.00172_n100">James S. Stillwell</persName>
+               <persName key="Stillwell, James S.">James S. Stillwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-02">corrected orgName, added choice tags</change>
          <change who="#nhg" when="2014-09-12">corrected sender name</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -91,11 +89,13 @@
       <body>
          
             <opener> 
+               <dateline rend="right"/>
                <salute>Dear Friend</salute>
             </opener>
-         <p>I take this opportunity to write to you to let you know how I am I am well and my wound is A most healed up and I hope that these few lines will find you well  I received your letter and was glad to here from you and to here that you was well I <choice><sic>havent</sic><corr>haven't</corr></choice> got <choice><sic>transfered</sic><corr>transferred</corr></choice> to <choice><sic>newyork</sic><corr>New York</corr></choice> yet I <choice><sic>tryed</sic><corr>tried</corr></choice> to when I was at home but I could not So I had to come back here the Doctor ask me when I came back if I did not want my discharge I told him that I would rather be <choice><sic>transfered</sic><corr>transferred</corr></choice> to <choice><sic>newyork</sic><corr>New York</corr></choice> and if I could not that I would like to have my discharge, he said that he would get me <choice><sic>transfered</sic><corr>transferred</corr></choice> or give me my discharge</p>
-            <p>I walk with crutches yet Thomas flood is well and is ward master of this ward I thing likely that I shall go home Some time this month there was an order in the paper that we was all A <choice><sic>goin</sic><corr>going</corr></choice> to be Sent home to vote</p>
-            <p>So no more at <choice><sic>presant</sic><corr>present</corr></choice> from your friend James Stilwell write Soon</p>
+         <p>I<ptr target="nyp.00172_n100"/> take this opportunity to write to you to let you know how I am I am well and my wound is A most healed up and I hope that these few lines will find you well  I received your letter and was glad to here from you and to here that you was well I havent got transfered to newyork yet I tryed to when I was at home but I could not So I had to come back here the Doctor ask me when I came back if I did not want my discharge I told him that I would rather be transfered to newyork and if I could not that I would like to have my discharge, he said that he would get me transfered or give me my discharge</p>
+            <p>I walk with crutches yet Thomas flood is well and is ward master of this ward I thing likely that I shall go home Some time this month there was an order in the paper that we was all A goin to be Sent home to vote</p>
+            <p>So no more at presant from your friend James Stilwell write Soon</p>
+            <closer rend="right"/>
          
       </body>
    </text>

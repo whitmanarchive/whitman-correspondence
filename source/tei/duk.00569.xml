@@ -15,7 +15,6 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="wr">Wesley Raabe</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
-                    <persName xml:id="nhg">Nicole Gray</persName>
                     </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -48,7 +47,6 @@
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
             </publicationStmt>
-            <notesStmt><note type="project">Louisa wrote this letter on a letter she received from George Washington Whitman. She forwarded George's letter to Walt Whitman and included this note on the last page of George's letter.</note></notesStmt>
             <sourceDesc>
                 <bibl>
                     <author>Louisa Van Velsor Whitman</author>
@@ -56,8 +54,10 @@
                     <date cert="medium" notBefore="1863-08-13" notAfter="1863-08-17">August 13&#8211;17?, 1863</date>               
                     <idno type="callno">III-5C. Letter 32</idno>
                     <orgName xml:id="duk">The Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
-                    <relatedItem type="text" target="duk.00343"/>
-                    
+                    <relatedItem>
+                        <ptr target="duk.00343"/>
+                    </relatedItem>
+                    <note type="project">Louisa wrote this letter on a letter she received from George Washington Whitman. She forwarded George's letter to Walt Whitman and included this note on the last page of George's letter.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -72,7 +72,6 @@
                 </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-02-17" who="#nhg">updated relatedItem structure</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2013-11-05" who="#el">final check</change>
             <change when="2013-11-04" who="#el">checked; notes moved to external file and ptrs added</change>

@@ -47,7 +47,6 @@
                     changes to this file, as noted:
 <persName xml:id="kmp">Kenneth M. Price</persName> 
                     <persName xml:id="el">Elizabeth Lorang</persName>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
                 </note>
@@ -81,12 +80,11 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Freiligrath, Ferdinand" ref="n0248">Ferdinand Freiligrath</persName>
+                    <persName key="Freiligrath, Ferdinand">Ferdinand Freiligrath</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change who="#ak" when="2015-05-14">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-03" who="#kp">blessed</change>
             <change when="2011-03-07" who="#el">checked</change>
@@ -104,7 +102,7 @@
                     <name type="place" rend="right"><hi rend="italic">Washington</hi></name>,
                     <date when="1869-01-26" rend="right">Jan. 26, <hi rend="italic">18</hi>69</date>.
                 </dateline>
-                <salute>Dear Mr. Freiligrath:</salute>
+                <salute>Dear Mr. Freiligrath:</salute><ptr target="har.00054_n1"/>
             </opener>
 
             <p>I have sent you to-day by ocean mail, a copy of my latest printed <hi rend="italic">Leaves of Grass</hi>—not knowing whether you have received the package forwarded for you by a friend<ptr target="har.00054_n2"/> of mine last November. I should be well pleased indeed to hear from you. My address is,

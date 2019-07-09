@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="ec">Eric Conrad</persName>
 
@@ -42,11 +41,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">73-74</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 8 December 1862</title>
                <date when="1862-12-08">December 8, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#ec" when="2009-08-24">style sheet proofreading</change>
@@ -74,7 +85,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00332.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Camp of 51st Regt N Y Vols near <lb/>Falmouth Va</name>
@@ -83,10 +94,10 @@ corrections</change>
                <salute>Dear Mother.</salute>
             </opener>
             <p>All is quiet along the Rappahannock and we are still lying here in Camp. The weather has been Cold here, for the last day or two, and this morning the ground is covered with snow, but the sun is out now, warm and pleasant and promises fine weather. We were paid, a few days since, and one of our Officers leaves this afternoon for Washington to take money to the Express Office. I shall send you $300. The Expressage will not be paid so you will pay it when you receive the money. I suppose you will get it soon after you get this.</p>
-         <p>I have been out with my Co on Picket but we are now back to Camp,  I had charge of the line, for more than a mile, so that I had to keep my Eyes open,  <pb xml:id="leaf001v" facs="duk.00332.002_large.jpg" type="verso"/>we were posted along the bank of the river which is very narrow, and so Shallow that it is very easy to cross, at some places,  The Rebs are posted on the opposite bank in plain sight and we could talk to each other, but there was no shooting as I had <choice><sic>strickt</sic><corr>strict</corr></choice> orders not to <choice><sic>alow</sic><corr>allow</corr></choice> a rifle fired, unless the Rebs commenced the performance,  Capt Francis,<ptr target="duk.00332_n1"/> came back last night but he is not very well and will not take command of the Co for a few days yet. I received Walts letter, (enclosing a note from You and Mattie) when I was on Picket, and was so pleased to hear from you all, that I read them over three or four times, and wished we could have one good big square fight that would settle the Rebs, and the war at the same time, so that I could come home and see you all, and drink that wine <hi rend="italic">Matt has</hi> saved for me.</p>
-         <p>I hardly think there will be a fight <pb xml:id="leaf002r" facs="duk.00332.003_large.jpg" type="recto"/>here at Fredericksburg, as we have orders to fix up our tents as though we were expected to stay here some time.</p>
-            <p>The rebels seem to be <choice><sic>buisy</sic><corr>busy</corr></choice>, building breastworks, and <choice><sic>prepareing</sic><corr>preparing</corr></choice> for us, but I should think it would not be much trouble for us to drive them out of Fredericksburg if we went about it. I see by the papers the great Banks Expedition<ptr target="duk.00332_n2"/> has sailed, but everyone is in the dark as to its destination,  I only hope they are going to act, with us in the capture of Richmond, which it seems to me should be taken, without any more blowing and talking.</p>
-         <p>Mother you ask if my throat troubles me any now. Not a bit,  I never felt better in my life,  one thing I have learned in this war, and that is, that I can stand almost any amount of <choice><sic>exposeure</sic><corr>exposure</corr></choice>, as I have found by experience, Mother <choice><sic>dont</sic><corr>don't</corr></choice> fail <pb xml:id="leaf002v" facs="duk.00332.004_large.jpg" type="verso"/>to let me hear from you as soon as you get the money, and when you write to Han tell her to be Sure and write to me.</p>
+            <p>I have been out with my Co on Picket but we are now back to Camp,  I had charge of the line, for more than a mile, so that I had to keep my Eyes open,  we were posted along the bank of the river which is very narrow, and so Shallow that it is very easy to cross, at some places,  The Rebs are posted on the opposite bank in plain sight and we could talk to each other, but there was no shooting as I had strickt orders not to alow a rifle fired, unless the Rebs commenced the performance,  Capt Francis,<ptr target="duk.00332_n1"/> came back last night but he is not very well and will not take command of the Co for a few days yet. I received Walts letter, (enclosing a note from You and Mattie) when I was on Picket, and was so pleased to hear from you all, that I read them over three or four times, and wished we could have one good big square fight that would settle the Rebs, and the war at the same time, so that I could come home and see you all, and drink that wine <hi rend="italic">Matt has</hi> saved for me.</p>
+            <p>I hardly think there will be a fight here at Fredericksburg, as we have orders to fix up our tents as though we were expected to stay here some time.</p>
+            <p>The rebels seem to be buisy, building breastworks, and prepareing for us, but I should think it would not be much trouble for us to drive them out of Fredericksburg if we went about it. I see by the papers the great Banks Expedition<ptr target="duk.00332_n2"/> has sailed, but everyone is in the dark as to its destination,  I only hope they are going to act, with us in the capture of Richmond, which it seems to me should be taken, without any more blowing and talking.</p>
+            <p>Mother you ask if my throat troubles me any now. Not a bit,  I never felt better in my life,  one thing I have learned in this war, and that is, that I can stand almost any amount of exposeure, as I have found by experience, Mother dont fail to let me hear from you as soon as you get the money, and when you write to Han tell her to be Sure and write to me.</p>
             <closer rend="right">
                <salute>Good Bye</salute>
                <signed>G. W. Whitman</signed>

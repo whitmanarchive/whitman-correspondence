@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -45,14 +44,14 @@
                <author>Bethuel Smith</author>
                <title>Bethuel Smith to Walt Whitman, 22 October 1864</title>
                <date when="1864-10-22">October 22, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Bethuel" ref="loc.00882_n100">Bethuel Smith</persName>
+               <persName key="Smith, Bethuel">Bethuel Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +59,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-22">added images, corrected transcription and encoding</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -72,18 +70,18 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_jc.00101_large.jpg" type="recto"/>
+         <pb facs="loc.00882.001.jpg" type="recto"/>
          
             <opener rend="right">
                <dateline>
                   <name type="place">
                      <gap reason="illegible"/>burg</name>
-                  <date when="1864-10-22">Oct 22 1864</date>
+                  <date when="1864-10-22">Oct. 22 1864</date>
                </dateline>
                <salute>Dear friend walt</salute> 
             </opener>
-         <p>I arrived home the 18 I had to stop over my <unclear reason="illegible" resp="#ak" cert="medium">view</unclear> on account of sheridan fighting in the valley mother told me that you wanted me to stop &amp; see you when I come home but it is to late now &amp; I did not hear of it in time there is of considerable excitement here about the election.</p>
-         <p>my health is not <choice><sic>verry</sic><corr>very</corr></choice> good at present I have got diarrhea some I think that it is on account of the change <pb xml:id="leaf001v" facs="loc_jc.00102_large.jpg" type="verso"/>of climate &amp; of food that makes me so although I feel <choice><sic>verry</sic><corr>very</corr></choice> well</p>
+         <p>I<ptr target="loc.00882_n100"/> arrived home the 18 I had to <unclear reason="illegible" resp="#vys" cert="medium">stop</unclear> over my <gap reason="illegible"/> on account of Sheridan fighting in the valley mother told me that you wanted me to stop &amp; see you when I come home but it is to late now &amp; I did not hear of it in time there is <gap reason="illegible"/> considerable excitement here about the election.</p>
+            <p>my health is not verry good at present I have got diarrhea some I think that it is on account of the change <pb facs="loc.00882.002.jpg" type="verso"/>of climate &amp; of food that makes me so although I feel verry well</p>
             <p>no more at present</p>
             <closer rend="right">
                <salute>good by From</salute>
@@ -92,18 +90,14 @@
             </closer>
          
          <postscript>
-            <p>
-               <address>
-                  <addrLine>Address</addrLine>
-                  <addrLine>Bethuel Smith.</addrLine>
-                  <addrLine>GLens Falls.</addrLine>
-                  <addrLine>Warren. C.O.</addrLine>
-                  <addrLine>N.Y.</addrLine>
-               </address>
+            <p>Address <lb/>
+Bethuel Smith.<lb/>
+Glens Falls.<lb/>
+Warren. C.O.<lb/>       
+N.Y.<lb/>
             </p>
          </postscript>
-         <pb xml:id="leaf002r" facs="loc_jc.00103_large.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc_jc.00104_large.jpg" type="verso"/>
+         <pb facs="loc.00882.003.jpg" type="recto"/>
       </body>
    </text>
 </TEI>

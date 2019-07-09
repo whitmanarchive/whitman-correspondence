@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
 
@@ -48,14 +47,14 @@
                <author>Charles Hine</author>
                <title>Charles Hine to Walt Whitman, 21 March 1860</title>
                <date when="1860-03-21">March 21, 1860</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Hine, Charles" ref="loc.00566_n100">Charles Hine</persName>
+               <persName key="Hine, Charles">Charles Hine</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -63,7 +62,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-12">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bbb" when="2009-08-18">proofread</change>
@@ -76,7 +74,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00566.001.jpg" type="recto"/>
+         
             <opener> 
                <dateline> 
                   <name type="place">New York</name> 
@@ -84,7 +82,7 @@
                </dateline>
                <salute>My Dear Walt</salute>
             </opener>
-         <p>Through the stupidity of Lewis I did not receive the dispatch until late in the afternoon, but as the picture is yet unfinished you will understand why I do not send it <choice><sic>spedily</sic><corr>speedily</corr></choice>. <ptr target="loc.00566_n2"/>I went directly to my frame makers, the frame will be done to-morrow, (it is a beauty) and if you wish I will send it in a few days. It is my wish it should be seen in Boston. Let me know how you propose to introduce it. It must be hung where the Fellows will see it,&#8212;you know what I mean. Let the light be an important thing, and <pb xml:id="leaf001v" facs="loc.00566.002.jpg" type="verso"/><choice><sic>dont</sic><corr>don't</corr></choice> allow any clap-trap surroundings. Let it be the thing wherever it is, at any price. I had intended as you are aware to put it in the Academy.&#8212;<ptr target="loc.00566_n3"/>
+         <p>Through the stupidity of Lewis I<ptr target="loc.00566_n100"/> did not receive the dispatch until late in the afternoon, but as the picture is yet unfinished you will understand why I do not send it spedily. <ptr target="loc.00566_n2"/>I went directly to my frame makers, the frame will be done to-morrow, (it is a beauty) and if you wish I will send it in a few days. It is my wish it should be seen in Boston. Let me know how you propose to introduce it. It must be hung where the Fellows will see it,&#8212;you know what I mean. Let the light be an important thing, and dont allow any clap-trap surroundings. Let it be the thing wherever it is, at any price. I had intended as you are aware to put it in the Academy.&#8212;<ptr target="loc.00566_n3"/>
             </p>
             <p>Tell me what you think. If I put it there I must enter it by the 31st&#8212;What shall I do? I wish to please you and feeling that you understand me I wait your pleasure. Write immediately for we have no time to loose</p>
             <closer>
@@ -92,10 +90,7 @@
                <signed>Chas Hine</signed>
                <signed>Artist</signed>
             </closer>
-         <pb xml:id="leaf002r" facs="loc.00566.003.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc.00566.004.jpg" type="verso"/>
-         <pb xml:id="leaf003r" facs="loc.00566.005.jpg" type="recto"/>
-         <pb xml:id="leaf003v" facs="loc.00566.006.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

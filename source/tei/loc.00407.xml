@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">45-48</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 11 April 1863</title>
                <date when="1863-04-11">April 11, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -72,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00325_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -80,7 +92,7 @@
                </dateline>
                <salute>Dear Walt,</salute>
             </opener>
-         <p>The two books you sent me (also one to Mr Lane)<ptr target="loc.00407_n1"/> came all right. I am extremely obliged to you for it all and shall, Oliver Twist like, ask for more.<ptr target="loc.00407_n2"/> I should dearly love to get together a set of the Pacific R. R. Explorations and Reports and intend to do so. I hope you will be able to send me some of the other <choice><abbr>Vols</abbr><expan>Volumes</expan></choice>. I told you that I had written to Boston for a Report on the Hoosac Tunnel,<ptr target="loc.00407_n3"/> that also has come and I have already found it of great use to me in solving two or three questions that I was not up in. I believe that the best information about <choice><sic>Engn'ring</sic><corr>Engineering</corr></choice> is to be got out of reports of this character. I shall, as you <pb xml:id="leaf001v" facs="loc_ad.00326_large.jpg" type="verso"/>suggest keep a sharp lookout for Vol. 12<ptr target="loc.00407_n4"/> and shall buy it if I come across it. If you, in looking around the second hand book stalls, see any <choice><sic>Engnring</sic><corr>Engineering</corr></choice> works please write me what they are and the price. I am very much in want of a copy of "Wisbachs Mechanics"<ptr target="loc.00407_n5"/> but cannot meet with it in New York. I have been quite disappointed in not getting a letter from you to-day. I certainly thought I should. I sent you a letter on Tuesday last with the $10 from Van Anden<ptr target="loc.00407_n6"/> and a letter from Han and one from George also a long one from me&#8212;6<hi rend="superscript">cts</hi> worth&#8212;I hope you received it  The things by Express came all right. George's bundle was 6/ and the last $1.00. Hattie has got entirely over her fall<ptr target="loc.00407_n7"/> and is as healthy as a child can be, she is growing finely. I am sure <choice><sic>twould</sic><corr>it would</corr></choice> please you to see her, she is as smart as <pb xml:id="leaf002r" facs="loc_ad.00327_large.jpg" type="recto"/>can be, talks perfectly plain, without the least babyishness. Just below us in the same street there is a young lady from down east, she comes in to see Mat every day or two. she talks in the down east fashion, saying "<hi rend="italic">cant</hi>" as if it was made of rrs. the other day she said so before sis. Sissy says "Why <choice><sic>dont</sic><corr>don't</corr></choice> you say <hi rend="italic">cant</hi>, <choice><sic>thats</sic><corr>that's</corr></choice> no way to talk, ca<hi rend="italic">r</hi>nt" which quite took our young lady aback. And yesterday one of the Hearkness<ptr target="loc.00407_n8"/> children was in our rooms and they were talking about rolling their hoops. one told sis&#8212;4½ yrs old&#8212;that she had rolled her hoop down the "<hi rend="italic">teet</hi>"  sis says "I rolled mine down <hi rend="italic">the street</hi>  <choice><sic>thats</sic><corr>that's</corr></choice> the way to say it"<ptr target="loc.00407_n9"/>  She often wonders when you are coming home to take her out and show her the ships and steamboats. Mat is first rate and well, she has no work and consequently is living quite like a <pb xml:id="leaf002v" facs="loc_ad.00328_large.jpg" type="recto"/>Christian. we often talk about you and wonder how you are getting along  Mat often speaks about how she should have felt if she had gone with you. How much better it was that she did not, <choice><sic>wasnt</sic><corr>wasn't</corr></choice> it.<ptr target="loc.00407_n10"/> Mother is quite well and a little worried about not hearing from you and George  I feel quite concerned about Andrew  I have had Ruggles<ptr target="loc.00407_n11"/> see him twice now  Ruggles says that he has a bad, very bad throat and about the only thing that will cure him will be his going away from the coast back in the interior somewhere  He says that it is hardly possible to give any medicine for such a complaint and the more one takes the worse he is off. However he says if Andrew takes the right care of himself he may recover here.<ptr target="loc.00407_n12"/> I wish he could get something to do away from here, back in the interior. I have great faith in that for diseases of the kind like his. I will write you every day or two and keep you posted how he is. I should be glad to have you give the Capt Mullen<ptr target="loc.00407_n13"/> you spoke of a letter to Mr Lane, very glad indeed. I like to become acquainted with such men, It is education to me and I find I am in need of a great quantity of that article. by all means, if he has not left, give him a letter to Mr Lane. Well Walt, I will, after wishing you pleasure and success, bid you good night</p>
+            <p>The two books you sent me (also one to Mr Lane)<ptr target="loc.00407_n1"/> came all right. I am extremely obliged to you for it all and shall, Oliver Twist like, ask for more.<ptr target="loc.00407_n2"/> I should dearly love to get together a set of the Pacific R. R. Explorations and Reports and intend to do so. I hope you will be able to send me some of the other Vols. I told you that I had written to Boston for a Report on the Hoosac Tunnel,<ptr target="loc.00407_n3"/> that also has come and I have already found it of great use to me in solving two or three questions that I was not up in. I believe that the best information about Engn'ring is to be got out of reports of this character. I shall, as you suggest keep a sharp lookout for Vol. 12<ptr target="loc.00407_n4"/> and shall buy it if I come across it. If you, in looking around the second hand book stalls, see any Engnring works please write me what they are and the price. I am very much in want of a copy of "Wisbachs Mechanics"<ptr target="loc.00407_n5"/> but cannot meet with it in New York. I have been quite disappointed in not getting a letter from you to-day. I certainly thought I should. I sent you a letter on Tuesday last with the $10 from Van Anden<ptr target="loc.00407_n6"/> and a letter from Han and one from George also a long one from me&#8212;6<hi rend="superscript">cts</hi> worth&#8212;I hope you received it  The things by Express came all right. George's bundle was 6/ and the last $1.00. Hattie has got entirely over her fall<ptr target="loc.00407_n7"/> and is as healthy as a child can be, she is growing finely. I am sure twould please you to see her, she is as smart as can be, talks perfectly plain, without the least babyishness. Just below us in the same street there is a young lady from down east, she comes in to see Mat every day or two. she talks in the down east fashion, saying "<hi rend="italic">cant</hi>" as if it was made of rrs. the other day she said so before sis. Sissy says "Why dont you say <hi rend="italic">cant</hi>, thats no way to talk, ca<hi rend="italic">r</hi>nt" which quite took our young lady aback. And yesterday one of the Hearkness<ptr target="loc.00407_n8"/> children was in our rooms and they were talking about rolling their hoops. one told sis&#8212;4½ yrs old&#8212;that she had rolled her hoop down the "<hi rend="italic">teet</hi>"  sis says "I rolled mine down <hi rend="italic">the street</hi>  thats the way to say it"<ptr target="loc.00407_n9"/>  She often wonders when you are coming home to take her out and show her the ships and steamboats. Mat is first rate and well, she has no work and consequently is living quite like a Christian. we often talk about you and wonder how you are getting along  Mat often speaks about how she should have felt if she had gone with you. How much better it was that she did not, wasnt it.<ptr target="loc.00407_n10"/> Mother is quite well and a little worried about not hearing from you and George  I feel quite concerned about Andrew  I have had Ruggles<ptr target="loc.00407_n11"/> see him twice now  Ruggles says that he has a bad, very bad throat and about the only thing that will cure him will be his going away from the coast back in the interior somewhere  He says that it is hardly possible to give any medicine for such a complaint and the more one takes the worse he is off. However he says if Andrew takes the right care of himself he may recover here.<ptr target="loc.00407_n12"/> I wish he could get something to do away from here, back in the interior. I have great faith in that for diseases of the kind like his. I will write you every day or two and keep you posted how he is. I should be glad to have you give the Capt Mullen<ptr target="loc.00407_n13"/> you spoke of a letter to Mr Lane, very glad indeed. I like to become acquainted with such men, It is education to me and I find I am in need of a great quantity of that article. by all means, if he has not left, give him a letter to Mr Lane. Well Walt, I will, after wishing you pleasure and success, bid you good night</p>
             <closer rend="right">
                <signed>affectionately Jeff.</signed>
             </closer>

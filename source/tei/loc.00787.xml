@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -43,11 +42,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">143</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Miss Gregg, 7 September 1863</title>
                <date when="1863-09-07">September 7, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -57,12 +70,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Gregg, Miss" ref="loc.00787_n2">Miss Gregg</persName>
+               <persName key="Gregg, Miss">Miss Gregg</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-19">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-03-29">Ken's proofreading changes</change>
@@ -74,18 +86,18 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00787.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <date when="1863-09-07">Sept 7, '63<ptr target="loc.00787_n100"/>
                </date>
                </dateline>
-               <salute>Dear friend,
+               <salute>Dear friend,<ptr target="loc.00787_n2"/>
                </salute>
             </opener>
             <p>You spoke the other day, partly in fun, about the men being so undemonstrative. I thought I would write you a line, as I hear you leave the hospital tomorrow for a few weeks. Your labor of love &amp; disinterestedness here in Hospital is appreciated. I have invariably heard the Ward A patients speak of you with gratitude, sometimes with enthusiasm. They have their own ways (not outside eclat, but in manly American hearts, however rude, however undemonstrative to you). I thought it would be sweet to your tender &amp; womanly heart, to know what I have so often heard from the soldiers about you, as I sat by their sick cots. I too have learnt to love you, seeing your tender heart, &amp; your goodness to those wounded &amp; dying young men&#8212;for they have grown to seem to me as my sons or dear young brothers.</p>
             <p>As I am poor I cannot make you a present, but I write you this note, dear girl, knowing you will receive it in the same candor &amp; good faith it is written.</p>
-         <pb xml:id="leaf001v" facs="loc.00787.002_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

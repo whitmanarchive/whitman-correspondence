@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01283">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01283">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Francis P. Church to Walt Whitman, 15 October
-                    1867</title>
+                <title level="m" type="main">Francis P. Church to Walt Whitman, 15 October 1867</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Francis P. Church</author>
                 <editor>Kenneth M. Price</editor>
@@ -35,8 +33,8 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
-                        Items in the Archive may be shared in accordance with the Fair Use
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
                         advance notification of the publisher, Center for Digital Research in the
@@ -46,12 +44,10 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted: <persName xml:id="kmp">Kenneth M.
-                        Price</persName>
-                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    changes to this file, as noted:
+<persName xml:id="kmp">Kenneth M. Price</persName> 
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="br">Beverley Rilett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -60,15 +56,14 @@
                     <title>Francis P. Church to Walt Whitman, 15 October 1867</title>
                     <date cert="high" when="1867-10-15" xml:id="dat1">October 15, 1867</date>
                     <idno type="callno">MSS18630, Box 8</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Church, Francis P." ref="n6001">Francis P. Church</persName>
+                    <persName key="Church, Francis P.">Francis P. Church</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -76,10 +71,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2015-06-14" who="#ss">annotated</change>
-            <change who="#ak" when="2015-05-20">added correspondent ref</change>
-            <change who="#el" when="2014-08-15">added schematron declaration</change>
-            <change when="2012-03" who="#kp">blessed</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+<change when="2012-03" who="#kp">blessed</change>
             <change when="2011-10-17" who="#el">revised encoding of closer</change>
             <change when="2010-10-06" who="#el">checked</change>
             <change when="2010-09-13" who="#br">transcribed and encoded</change>
@@ -94,25 +87,24 @@
                     <name type="place">Galaxy Office</name><lb/>
                     <date when="1867-10-15">Oct 15 /67</date>
                 </dateline>
-                <salute>My dear Sir:</salute>
+                <salute>My dear Sir:</salute>               
             </opener>
-
-            <p>I am pleased to hear that your article will be ready by the 21st—a week from today
-                which will be just in time.<ptr target="loc.01280_n2"/></p>
-
+            
+            <p>I am pleased to hear that your article will be ready by the 21st—a week from today which will be just in time.</p>
+            
             <closer>
                 <salute>Very truly yours</salute>
                 <signed>F. P. Church</signed>
                 <address><addrLine>Mr. Walt Whitman</addrLine></address>
             </closer>
-
+            
             <postscript rend="margin-left">
                 <p>Did you see Tinsley's for October with The Carol?</p>
             </postscript>
         </body>
-
+        
         <pb xml:id="leaf001v" facs="loc.01283.004.jpg" type="recto"/>
         <pb xml:id="leaf002r" facs="loc.01283.005.jpg" type="recto"/>
-        <pb xml:id="leaf002v" facs="loc.01283.006.jpg" type="recto"/>
+        <pb xml:id="leaf002v" facs="loc.01283.006.jpg" type="recto"/>       
     </text>
 </TEI>

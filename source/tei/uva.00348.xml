@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -60,7 +59,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Bayard Taylor, 18 November 1866</title>
                <date when="1866-11-18">November 18, 1866</date>
-               <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, Albert H. Small Special Collections Library, University of Virginia </orgName>
+               <orgName xml:id="uva">Clifton Waller Barrett Collection, University of Virginia</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -70,12 +69,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Taylor, Bayard" ref="uva.00348_n1">Bayard Taylor</persName>
+               <persName key="Taylor, Bayard">Bayard Taylor</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-04-14">corrected orgName</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bb" when="2010-04-09">edited annotation</change>
@@ -94,7 +92,7 @@
                   <date when="1866-11-18">Nov. 18, <hi rend="italic">1866.</hi>
                   </date>
                </dateline>
-               <salute>My dear Mr. Taylor,
+               <salute>My dear Mr. Taylor,<ptr target="uva.00348_n1"/>
                </salute>
             </opener>
             <p>I have received your letter of the 12th. The friendly pages thereof have given me pleasure, &amp; I wish to proffer you my friendship in response. Should I not see you at the lecture, I hope you will do me the honor to call upon me at the Attorney General's office here, in the Treasury Building, where I am employed.</p>

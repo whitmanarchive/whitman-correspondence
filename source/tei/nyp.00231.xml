@@ -10,12 +10,10 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="nhg">Nicole Gray</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of
-               Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -35,13 +33,7 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
-                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
-                  copyright law. Redistribution or republication on other terms, in any medium,
-                  requires express written consent from the editors and advance notification of the
-                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
-                  the graphic images in this archive has been granted by the owners of the originals
-                  for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -49,18 +41,14 @@
                <author>David F. Wright</author>
                <title>David F. Wright to Walt Whitman, 4 January 1865</title>
                <date when="1865-01-04">January 4, 1865</date>
-               <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
-                  American Literature, New York Public Library </orgName>
+               <orgName xml:id="nyp">Berg Collection at the New York Public Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <handNotes>
-            <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
-         </handNotes>
          <particDesc>
             <person role="sender">
-               <persName key="Wright, David F." ref="nyp.00231_n100">David F. Wright</persName>
+               <persName key="Wright, David F.">David F. Wright</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -68,11 +56,9 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-22">added images, added handNote, checked transcription</change>
          <change who="#nhg" when="2014-08-23">corrected</change>
-         <change who="#el" when="2014-08-15">added schematron declaration</change>
-         <change who="#el" when="2014-01-17">changed "Dana" to "David" throughout letter (metadata
-            and transcription) as sender of letter</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change who="#el" when="2014-01-17">changed "Dana" to "David" throughout letter (metadata and transcription) as sender of letter</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2010-03-24">edited and proofread</change>
          <change who="#el" when="2009-08-20">transcribed, encoded</change>
@@ -80,37 +66,29 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="nyp.00231.001_large.jpg" type="recto"/>
-         <opener>
-            <dateline>
-               <name type="place">454 B'dway N.Y.</name>
-               <date when="1865-01-04">Jany 4 1865</date>
-               <note type="editorial" resp="#unk" place="interlinear">Jan. 4 1865</note>
-            </dateline>
-            <salute>Mr Walt Whitman</salute>
-            <salute>Dear Sir,</salute>
-         </opener>
-         <p>I have since learned that you called at the "DeSoto"
-            immediately after I had left. I remained there till 6:30 P.M. &amp; thinking that you
-            were prevented calling by another engagement, I left for home. I would be happy to meet
-            you at any time you may be pleased to appoint. In company with Capt Holbrook I invited a
-            gentleman, who has a relative&#8212;a prisoner of war at Camp Chase, Ohio. he is
-            desirous of obtaining the name of <pb xml:id="leaf001v" facs="nyp.00231.002_large.jpg"
-               type="verso"/>some Captains, an order to obtain his exchange, by securing the release
-            of the Captains. Your brother's name was given &amp; the party promised to act upon it
-            immediately. I can say nothing of its results.</p>
-         <p>Several of my brother officers are desirous of obtaining a copy of "the <choice><sic>Reconnysance</sic><corr>Reconnaissance</corr></choice>" by
-            Capt Sim's. &amp; I would esteem it as a great favor, if you would enclose it, in a
-            letter &amp; send it to my address. I will assure you of its being returned in good
-            order.</p>
-         <p>You will please accept a copy of my Ca<gap reason="illegible"/> accounts in exchange for
-            your own. <pb xml:id="leaf002r" facs="nyp.00231.003_large.jpg" type="recto"/>With every
-            assurance of respect I remain</p>
-         <closer>
-            <salute>Your Servant</salute>
-            <signed>David F. Wright</signed><ptr target="nyp.00231_n101"/>
-            <address><addrLine>Address. Box 602 Post office</addrLine></address>
-         </closer>
+         <pb facs="nyp.00231.001.jpg" type="recto"/>
+         
+            <opener>
+               <dateline>
+                  <name type="place">454 B'dway NY.</name>
+                  <date when="1865-01-04">Jany 4 1865</date>
+               </dateline>
+               <salute>Mr Walt Whitman</salute>
+               <salute>Dear Sir,</salute>
+            </opener>
+            <p>I<ptr target="nyp.00231_n100"/> have since learned that you called at the "DeSoto" immediately after I had left. I remained there till 6:30 P.M. &amp; thinking that you were prevented calling by another engagement, I left for home. I would be happy to meet you at any time you may be pleased to appoint. In company with Capt Holbrook I invited a gentleman, who has a relative&#8212;a prisoner of war at Camp Chase, Ohio. he is desirous of obtaining the name of <pb facs="nyp.00231.002.jpg" type="recto"/>some Captains, an order to obtain his exchange, by securing the release of the Captains. Your brother's name was given &amp; the party promised to act upon it immediately. I can say nothing of its results.</p>
+            <p>Several of my brother officers are desirous of obtaining a copy of "the Reconnysance" by Capt Sim's. &amp; I would esteem it as a great favor, if you would enclose it, in a letter &amp; send it to my address. I will assure you of its being returned in good order.</p>
+            <p>You will please accept a copy of my Ca<gap reason="illegible"/> accounts in exchange for your own. <pb facs="nyp.00231.003.jpg" type="recto"/> With every assurance of respect I remain</p>
+            <closer>
+               <salute>Your Servant</salute>
+               <signed>David F. Wright</signed><ptr target="nyp.00231_n101"/>
+            
+            <address><addrLine>address. Box 602 Post office</addrLine></address>
+            </closer>
+         
+         
+            
+         
       </body>
    </text>
 </TEI>

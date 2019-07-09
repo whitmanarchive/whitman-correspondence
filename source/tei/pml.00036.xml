@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="pml.00036">
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="pml.00036">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Louisa Van Velsor Whitman, 3 January
-                    [1872]</title>
+                <title level="m" type="main">Walt Whitman to Louisa Van Velsor Whitman, 3 January [1872]</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -35,8 +33,8 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
-                        Items in the Archive may be shared in accordance with the Fair Use
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
                         advance notification of the publisher, Center for Digital Research in the
@@ -46,27 +44,24 @@
             </publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted: <persName xml:id="jc">Janel Cayer</persName>
-                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    changes to this file, as noted:
+                    <persName xml:id="jc">Janel Cayer</persName>
+<persName xml:id="kmp">Kenneth M. Price</persName> 
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
-                    <persName xml:id="kp">Kenneth Price</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
 
                 <biblStruct>
                     <monogr>
-                        <author>Walt Whitman</author>
-                        <editor>Edwin Haviland Miller</editor>
+                        <author>Walt Whitman</author><editor>Edwin Haviland Miller</editor>
                         <title xml:id="ehm">The Correspondence</title>
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961–1977</date>
-                            <biblScope type="volume">2</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date><biblScope type="volume">2</biblScope>
                             <biblScope type="page">149</biblScope>
                         </imprint>
                     </monogr>
@@ -87,21 +82,18 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor
-                        Whitman</persName>
+                    <persName key="Whitman, Louisa Van Velsor">Louisa Van Velsor Whitman</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
-            <change when="2015-06-14" who="#ss">added correspondent line</change>
-            <change who="#el" when="2014-08-15">added schematron declaration</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2012-08-08" who="#jc">replaced notes with poiners</change>
-            <change when="2012-03-01" who="#kp">blessed</change>
+<change when="2012-03" who="#kp">blessed</change>
             <change when="2011-10-17" who="#el">corrected encoding of notes</change>
             <change when="2011-04-14" who="#el">checked</change>
             <change when="2010-12-01" who="#zk">encoded</change>
-            <change when="2010-08-20" who="#ec">extracted transcription from Major Authors
-                cd</change>
+            <change when="2010-08-20" who="#ec">extracted transcription from Major Authors cd</change>
         </revisionDesc>
     </teiHeader>
 
@@ -109,33 +101,23 @@
         <body>
             <opener>
                 <dateline>
-                    <date when="1872-01-03" rend="right">Wednesday noon&#8212;Jan 3</date>. </dateline>
+                    <date when="1872-01-03" rend="right">Wednesday noon—Jan 3</date>.
+                </dateline>
                 <salute>Dearest mother,</salute>
             </opener>
 
-            <p>Your letter of Sunday night came this morning&#8212;it seems indeed "after a storm
-                comes a calm"&#8212;You must have had quite an exciting week&#8212;still I think it
-                must have been kind of good to have had George and Lou home<ptr target="n1046"
-                />&#8212;was Lou as kind and helpful as ever? About being alone, if you feel as I do
-                about it, it is a satisfaction to be by one's self, as you grow old&#8212;(though
-                perhaps not too much)&#8212;I was glad to hear about little Jim &amp; Georgey<ptr
-                    target="pml.00036_n1"/>&#8212;I am glad the Stantons<ptr target="pml.00036_n2"/>
-                are gone&#8212;they would only have been a continual nuisance&#8212;</p>
-
-            <p>Mama, I shall come home, (if nothing happens more than at present known) and stay two
-                months, &amp; then return here to my place&#8212;I shall write in good time
-                before&#8212;</p>
-
-            <p>Mama dear, you must try to take as much comfort as you can&#8212;I hope Gracie<ptr
-                    target="pml.00036_n3"/> comes in frequently&#8212;&amp; Mrs. Mormon
-                too&#8212;(she seems to me a good neighbor)&#8212;</p>
+            <p>Your letter of Sunday night came this morning—it seems indeed "after a storm comes a calm"—You must have had quite an exciting week—still I think it must have been kind of good to have had George and Lou home—was Lou as kind and helpful as ever? About being alone, if you feel as I do about it, it is a satisfaction to be by one's self, as you grow old—(though perhaps not too much)—I was glad to hear about little Jim &amp; Georgey<ptr target="pml.00036_n1"/>—I am glad the Stantons<ptr target="pml.00036_n2"/> are gone—they would only have been a continual nuisance—</p>
+            
+            <p>Mama, I shall come home, (if nothing happens more than at present known) and stay two months, &amp; then return here to my place—I shall write in good time before—</p>
+            
+            <p>Mama dear, you must try to take as much comfort as you can—I hope Gracie<ptr target="pml.00036_n3"/> comes in frequently—&amp; Mrs. Mormon too—(she seems to me a good neighbor)—</p>
 
             <closer>
                 <signed rend="right">Walt.</signed>
             </closer>
-
+            
             <postscript>
-                <p>This is the 2d letter this week&#8212;</p>
+                <p>This is the 2d letter this week—</p>
             </postscript>
         </body>
     </text>

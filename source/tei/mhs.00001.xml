@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,6 +40,20 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">186-187</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Jessie Louisa Whitman, 26 January 1888</title>
@@ -52,7 +65,7 @@
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Jessie Louisa">Jessie Louisa Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-10">added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -70,7 +82,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="mhs.00001.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">St. Louis, Mo.,</name>
@@ -82,7 +94,7 @@
                <hi rend="italic">My darling girl</hi>, I enclose you a check for $50, hoping it will reach you before you leave Burlington<ptr target="mhs.00001_n1"/>
             </p>
             <p>I got home from Ark yesterday, after a pretty hard time&#8212;I had to abandon my Texas trip for the reason that I had some bids here to be opened on Monday  I did not get here till Wednesday&#8212;but that was owing to the weather and the Rail Roads  I shall go out to the cemetery on Sunday and leave Sunday night for Texas. I suppose I shall be gone about a week  Mr Smith<ptr target="mhs.00001_n2"/> of Leavenworth was at my office on Monday last and came for the express purpose of carrying me off to New York all expenses paid&#8212;but of course I could not go&#8212;much as I wanted to&#8212;No I must make the best of what is wanted now&#8212;I presume I shall have lots of time after awhile&#8212;</p>
-         <p>Well my dear girl I wish you would go and <pb xml:id="leaf001v" facs="mhs.00001.002_large.jpg" type="verso"/>do just what gives you the most fun&#8212;and I do hope you will make fast friends of the New York and Hartford people&#8212;they are good folk to know</p>
+            <p>Well my dear girl I wish you would go and do just what gives you the most fun&#8212;and I do hope you will make fast friends of the New York and Hartford people&#8212;they are good folk to know</p>
             <p>I shall write Horace<ptr target="mhs.00001_n3"/> that you are at Worthens<ptr target="mhs.00001_n4"/> after the 1st for ten days&#8212;I think he will call and ask you to go to his place&#8212;and if he does I would like to have you go</p>
             <p>Nothing new with me&#8212;I am feeling fairly well&#8212;except I have my old terrible cough&#8212;it is pulling me down some&#8212;but I shall get out all right when the spring comes</p>
             <p>Wish you would go and see Walt as often as you can</p>

@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="tj">Tim Jackson</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -42,11 +41,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">110-111</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 22 June 1863</title>
                <date when="1863-06-22">June 22, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-18">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#tj" when="2009-08-20">proofread and modified</change>
@@ -72,7 +84,6 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_vm.01788_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington</name>
@@ -81,9 +92,8 @@
                <salute>Dear mother,</salute>
             </opener>
             <p>Jeff's letter came informing me of the birth of the little girl,<ptr target="loc.00774_n1"/> &amp; that Matty was feeling pretty well, so far. I hope it will continue&#8212;Dear sister, I should much like to come home &amp; see you &amp; the little one, I am sure from Jeff's description it is a noble babe, &amp; as to its being a girl it is all the better. (I am not sure but the Whitman breed gives better women than men.)</p>
-         <p>Well, mother, we are generally anticipating a lively time here or in the neighborhood,<ptr target="loc.00774_n2"/> as it is probable Lee is feeling about to strike a blow on Washington, or perhaps right into it&#8212;&amp; as Lee is no fool, it is perhaps possible he may give us a good shake&#8212;he is not <pb xml:id="leaf001v" facs="loc_vm.01789_large.jpg" type="verso"/>very far off&#8212;yesterday was a fight to the southwest of here all day, we heard the cannons nearly all day&#8212;the wounded are arriving in small squads every day, mostly cavalry, a great many Ohio men&#8212;they send off to-day from the Washington hospitals a great many to New York, Philadelphia, &amp;c. all who are able, to make room, which looks ominous&#8212;indeed it is pretty certain that there is to be some severe fighting, may be a great battle again, the pending week&#8212;I am getting so callous that it hardly arouses me at all&#8212;I fancy I should take it very quietly if I found myself in the midst of a desperate conflict here in Washington.</p>
-         <pb xml:id="leaf002r" facs="loc_vm.01790_large.jpg" type="recto"/>
-         <p>Mother, I have nothing particular to write about&#8212;I see &amp; hear nothing but new &amp; old cases of my poor suffering boys in Hospitals, &amp; I dare say you have had enough of such things&#8212;I have not missed a day at Hospital I think for more than three weeks&#8212;I get more &amp; more wound round&#8212;poor young men&#8212;there are some cases that would literally sink &amp; give up, if I did not pass a portion of the time with them&#8212;I have quite made up my mind about the lecturing &amp;c project&#8212;I have no doubt it will succeed well enough, the way I shall put it <pb xml:id="leaf002v" facs="loc_vm.01791_large.jpg" type="verso"/>in operation&#8212;you know, mother, it is to raise funds to enable me to continue my Hospital ministrations, on a more free handed scale&#8212;As to the Sanitary Commissions &amp; the like, I am sick of them all, &amp; would not accept any of their berths&#8212;you ought to see the way the men as they lie helpless in bed turn away their faces from the sight of these Agents, Chaplains &amp;c. (<hi rend="italic">hirelings</hi> as Elias Hicks<ptr target="loc.00774_n3"/> would call them&#8212;they seem to me always a set of foxes &amp; wolves)&#8212;they get well paid, &amp; are always incompetent &amp; disagreeable&#8212;As I told you before the only good fellows I have met are the Christian Commissioners&#8212;they go everywhere &amp; receive no pay<ptr target="loc.00774_n4"/>&#8212;</p>
+            <p>Well, mother, we are generally anticipating a lively time here or in the neighborhood,<ptr target="loc.00774_n2"/> as it is probable Lee is feeling about to strike a blow on Washington, or perhaps right into it&#8212;&amp; as Lee is no fool, it is perhaps possible he may give us a good shake&#8212;he is not very far off&#8212;yesterday was a fight to the southwest of here all day, we heard the cannons nearly all day&#8212;the wounded are arriving in small squads every day, mostly cavalry, a great many Ohio men&#8212;they send off to-day from the Washington hospitals a great many to New York, Philadelphia, &amp;c. all who are able, to make room, which looks ominous&#8212;indeed it is pretty certain that there is to be some severe fighting, may be a great battle again, the pending week&#8212;I am getting so callous that it hardly arouses me at all&#8212;I fancy I should take it very quietly if I found myself in the midst of a desperate conflict here in Washington.</p>
+            <p>Mother, I have nothing particular to write about&#8212;I see &amp; hear nothing but new &amp; old cases of my poor suffering boys in Hospitals, &amp; I dare say you have had enough of such things&#8212;I have not missed a day at Hospital I think for more than three weeks&#8212;I get more &amp; more wound round&#8212;poor young men&#8212;there are some cases that would literally sink &amp; give up, if I did not pass a portion of the time with them&#8212;I have quite made up my mind about the lecturing &amp;c project&#8212;I have no doubt it will succeed well enough, the way I shall put it in operation&#8212;you know, mother, it is to raise funds to enable me to continue my Hospital ministrations, on a more free handed scale&#8212;As to the Sanitary Commissions &amp; the like, I am sick of them all, &amp; would not accept any of their berths&#8212;you ought to see the way the men as they lie helpless in bed turn away their faces from the sight of these Agents, Chaplains &amp;c. (<hi rend="italic">hirelings</hi> as Elias Hicks<ptr target="loc.00774_n3"/> would call them&#8212;they seem to me always a set of foxes &amp; wolves)&#8212;they get well paid, &amp; are always incompetent &amp; disagreeable&#8212;As I told you before the only good fellows I have met are the Christian Commissioners&#8212;they go everywhere &amp; receive no pay<ptr target="loc.00774_n4"/>&#8212;</p>
             <p>Dear, dear mother, I want much to see you &amp; dear Matty too, I send you both [my] best love, &amp; Jeff too&#8212;the pictures came&#8212;I have not heard from George nor Han. I write a day earlier than usual.</p>
             <closer rend="right">
                <signed>Walt</signed>

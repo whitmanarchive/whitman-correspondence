@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title level="m" type="main">Walt Whitman to Peter Doyle, 20 December [1876]</title>
+        <title level="m" type="main">Walt Whitman to Peter Doyle, 20 December [1876?]</title>
         <title level="m" type="sub">a machine readable transcription</title>
         <author>Walt Whitman</author>
         <editor>Kenneth M. Price</editor>
@@ -46,7 +46,6 @@
         <note type="project" anchored="true">The following are responsible for particular readings or for
           changes to this file, as noted: 
 <persName xml:id="kmp">Kenneth M. Price</persName>
-          <persName xml:id="ak">Alex Kinnaman</persName>
           <persName xml:id="al">Ashley Lawson</persName>
 <persName xml:id="el">Elizabeth Lorang</persName>
 
@@ -87,12 +86,11 @@
            <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Doyle, Peter" ref="n0752">Peter Doyle</persName>
+          <persName key="Doyle, Peter">Peter Doyle</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change who="#ak" when="2015-05-14">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
 <change when="2012-05-18" who="#kmp">blessed</change>
       <change when="2012-03-26" who="#al">checked</change>
@@ -106,8 +104,7 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="right">Camden N J</name>
-          <date when="1876-12-20" rend="right">Dec 20</date><ptr target="duk.00672_n1"/>
+          <name type="place" rend="right">Camden N J</name> <lb/><date when="1876-12-20" rend="right">Dec 20</date><ptr target="duk.00672_n1"/>
         </dateline>
       </opener>
 

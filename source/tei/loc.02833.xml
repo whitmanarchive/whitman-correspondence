@@ -43,9 +43,7 @@
       </publicationStmt>
       <notesStmt>
         <note type="project" anchored="true">The following are responsible for particular readings or for changes to
-          this file, as noted: 
-          <persName xml:id="ak">Alex Kinnaman</persName>
-          <persName xml:id="el">Elizabeth Lorang</persName>
+          this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
           <persName xml:id="zk">Zachary King</persName>
           <persName xml:id="ec">Eric Conrad</persName>
         </note>
@@ -83,12 +81,11 @@
           <persName key="Whitman, Walt">Walt Whitman</persName>
         </person>
         <person role="recipient">
-          <persName key="Somerby, C. P." ref="n0575">C. P. Somerby</persName>
+          <persName key="Somerby, C. P.">C. P. Somerby</persName>
         </person>
       </particDesc>
     </profileDesc>
     <revisionDesc>
-      <change who="#ak" when="2015-04-24">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
       <change when="2012-11-29" who="#el">checked</change>
       <change when="2012-06-20" who="#el">checked</change>
@@ -100,7 +97,7 @@
   <text type="letter">
     <body>
 
-      <p>Your letter of [<space dim="horizontal" extent="6 letters"/>] rec'd. I shall bear with you,
+      <p>Your<ptr target="n0575"/> letter of [<space dim="horizontal" extent="6 letters"/>] rec'd. I shall bear with you,
         trusting to the future.<ptr target="loc.02833_n1"/></p>
 
       <p>Please make a bundle of <hi rend="italic">all my books</hi>, Burroughs's <hi rend="italic">Notes</hi>, <hi rend="italic">As a Strong Bird</hi>, 67 <choice>

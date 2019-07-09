@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,11 +40,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">135</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 8 May 1865</title>
                <date when="1865-05-08">May 8, 1865</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +72,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="20010-04-06">proofread and edited</change>
@@ -73,7 +84,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00366.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Head Quarters  Prince St. Military Prison <lb/>Alexandria Va.</name>
@@ -85,7 +96,7 @@ corrections</change>
             <p>I arrived here and joined the Regiment about ten days ago and was placed in command of this Prison.</p>
             <p>I am very well, indeed but have plenty to do as I have about 300 Prisoners (mostly thieves, Bounty jumpers and Deserters) to look after. I have 100 of the men of our Regt. and 5 Officers here with me guarding the Prisoners.</p>
             <p>There is about 20 Rebel officers here (Paroled Prisoners) but they are used very different from what we were, when we were in Rebeldom.</p>
-         <p>I saw Walt when I came through Washington, and I hear he was over to see me yesterday but did not find me. Well Mammy the war seems to be over, and I think the most of us will soon be sent home. <pb xml:id="leaf001v" facs="duk.00366.002_large.jpg" type="verso"/>It is now getting late (after Eleven O clock at night) and as I feel rather tired I will go through the Prison and see that all is right and then turn in. I sleep here in the building (I have a very good room) and take my meals at a Boarding house  I pay 6 dollars per week for grub but <choice><sic>dont</sic><corr>don't</corr></choice> live any of the best.</p>
+            <p>I saw Walt when I came through Washington, and I hear he was over to see me yesterday but did not find me. Well Mammy the war seems to be over, and I think the most of us will soon be sent home. It is now getting late (after Eleven O clock at night) and as I feel rather tired I will go through the Prison and see that all is right and then turn in. I sleep here in the building (I have a very good room) and take my meals at a Boarding house  I pay 6 dollars per week for grub but dont live any of the best.</p>
             <closer rend="right">
                <salute>Good night to all</salute>
 

@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
 
@@ -42,11 +41,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">119-120</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 20 May 1864</title>
                <date when="1864-05-20">May 20, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-28">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-08-31">proofread and edited annotations</change>
@@ -74,16 +85,15 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00355.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
-                  <name type="place">Near Spotsylvania</name>
-                  <name type="place">Court House Va </name>
+                  <name type="place">Near Spotsylvania <lb/>Court House Va </name>
                   <date when="1864-05-20"> May 20th 64</date>
                </dateline>
                <salute>Dear Mother.</salute>
             </opener>
-            <p>I wrote you a few lines from this place a few days ago,<ptr target="duk.00355_n1"/> and since then we have been steadily gaining ground but there has been no very decisive battle fought yet, although I think so far, the fighting has decidedly been in our favor. Our Regt. had a brush day before yesterday. We started out about 3 Oclock in the morning on a sort of a <choice><sic>reconisance</sic><corr>reconnaissance</corr></choice> to feel the enemy's lines. We entered a wood where the enemy were known to be in strong force behind their breastworks, and we soon <choice><sic>stired</sic><corr>stirred</corr></choice> them up. They opened on us with two batteries of Artillery but we were so close to them that they could not depress their guns enough to do us much damage. Their Infantry lay behind their rifle <choice><sic>pitts</sic><corr>pits</corr></choice> <choice><sic>poping</sic><corr>popping</corr></choice> away at us. but we stayed there from 4 Oclock n the morning to 3 in the afternoon and then we were ordered back to our rifle <choice><sic>pitts</sic><corr>pits</corr></choice> that we left in the morning when we made the advance. There was 4 or 5 other Regts sent in to support us if the Rebs came out of their works too strong for us but our Regt. had the advance and for an hour and a half before we came out we were all alone, as our supports had been withdrawn, but we were ordered to fall back to our rifle <choice><sic>pitts</sic><corr>pits</corr></choice> if we were too hotly pressed. I lost one man killed and two wounded in my Co out of 11 that I took in the fight.<ptr target="duk.00355_n2"/> The Regt lost 22 killed and wounded. About One Oclock yesterday morning we were relieved in the rifle <choice><sic>pitts</sic><corr>pits</corr></choice> and withdrawn to the rear, where we are now, resting ourselves and having good times. Mother I suppose you know how we are getting along, better than we do ourselves, for I expect the newspaper correspondents keep you pretty well posted as to our movements, and here there are so many rumors flying around, that a fellow only knows, what he sees himself.</p>
+            <p>I wrote you a few lines from this place a few days ago,<ptr target="duk.00355_n1"/> and since then we have been steadily gaining ground but there has been no very decisive battle fought yet, although I think so far, the fighting has decidedly been in our favor. Our Regt. had a brush day before yesterday. We started out about 3 Oclock in the morning on a sort of a reconisance to feel the enemy's lines. We entered a wood where the enemy were known to be in strong force behind their breastworks, and we soon stired them up. They opened on us with two batteries of Artillery but we were so close to them that they could not depress their guns enough to do us much damage. Their Infantry lay behind their rifle pitts poping away at us. but we stayed there from 4 Oclock n the monring to 3 in the afternoon and then we were ordered back to our rifle pitts that we left in the morning when we made the advance. There was 4 or 5 other Regts sent in to support us if the Rebs came out of their works too strong for us but our Regt. had the advance and for an hour and a half before we came out we were all alone, as our supports had been withdrawn, but we were ordered to fall back to our rifle pitts if we were too hotly pressed. I lost one man killed and two wounded in my Co out of 11 that I took in the fight.<ptr target="duk.00355_n2"/> The Regt lost 22 killed and wounded. About One Oclock yesterday morning we were relieved in the rifle pitts and withdrawn to the rear, where we are now, resting ourselves and having good times. Mother I suppose you know how we are getting along, better than we do ourselves, for I expect the newspaper correspondents keep you pretty well posted as to our movements, and here there are so many rumors flying around, that a fellow only knows, what he sees himself.</p>
             <p>Dear Mother I hear the mail is about leaving now so I must close. I got a letter from Walt yesterday dated May 4th. I shall not have time to write to him this time so you must let him know that I am all right  Mother let me hear from you directly.</p>
             <p>Give my love to all</p>
             <closer rend="center">

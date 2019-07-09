@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">123-124</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 2 July 1864</title>
                <date when="1864-07-02">July 2, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
+Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-29">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-12">proofreading changes</change>
@@ -74,7 +86,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00357.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Near Petersburg Va </name>
@@ -85,17 +97,17 @@ corrections</change>
             </opener>
             <p>You see Mother I have to date my letters yet from near Petersburg instead of from Richmond<ptr target="duk.00357_n2"/>
             </p>
-         <p>We are laying here yet in front of the Rebel lines, our Regt about a quarter of a mile from the enemy's works, but our line of battle in front of us is not more than 200 yards from that of the enemy,  both parties are working away at night, strengthening their lines and as they are so close <choice><sic>togather</sic><corr>together</corr></choice>, and watch each other so closely the least unusual noise at night will frequently start the fire along the whole line and almost every night we have a general row lasting half an hour or so. These night affairs are splendid, when a fellow can lay back in the rear and look at them. They are <choice><sic>generaly</sic><corr>generally</corr></choice> commenced by the pickets, and soon the <choice><sic>stragling</sic><corr>straggling</corr></choice> picket <choice><sic>fireing</sic><corr>firing</corr></choice> changes to regular volleys, then the Batteries <choice><sic>generaly</sic><corr>generally</corr></choice> open pretty savage, and the Mortars join in and <choice><sic>altogather</sic><corr>altogether</corr></choice> they manage to kick up a terrible noise but as both parties are behind earthworks the execution done is very slight compared with the noise made.</p>
-         <p>I suppose Mother, you all want to hear something about the prospects of our soon <choice><sic>takeing</sic><corr>taking</corr></choice> Petersburg, but I cant tell you anything more than you can see in the newspapers. All that I know is that we are <pb xml:id="leaf001v" facs="duk.00357.002_large.jpg" type="verso"/>laying here waiting for Genl Grant to say what he wants us to do next, and everyone is satisfied to wait <choice><sic>untill</sic><corr>until</corr></choice> he gives the word, and then whether it be, to take the City by Assault, or whatever the order may be, I think all hands will obey it just as readily and cheerfully as if the campaign was just commencing,  The <choice><sic>ammount</sic><corr>amount</corr></choice> of it is Mother we all believe in Grant, and as far as I can hear the opinion is universal in the army, that before this campaign is over Petersburg and Richmond will be in our <choice><sic>posession</sic><corr>possession</corr></choice>. Our lines are in some places within easy Artillery Range of the City, and from where we lay we can plainly see the spires of the Churches in the City.</p>
+            <p>We are laying here yet in front of the Rebel lines, our Regt about a quarter of a mile from the enemy's works, but our line of battle in front of us is not more than 200 yards from that of the enemy,  both parties are working away at night, strengthening their lines and as they are so close togather, and watch each other so closely the least unusual noise at night will frequently start the fire along the whole line and almost every night we have a general row lasting half an hour or so. These night affairs are splendid, when a fellow can lay back in the rear and look at them. They are generaly commenced by the pickets, and soon the stragling picket fireing changes to regular volleys, then the Batteries generaly open pretty savage, and the Mortars join in and altogather they manage to kick up a terrible noise but as both parties are behind earthworks the execution done is very slight compared with the noise made.</p>
+            <p>I suppose Mother, you all want to hear something about the prospects of our soon takeing Petersburg, but I cant tell you anything more than you can see in the newspapers. All that I know is that we are laying here waiting for Genl Grant to say what he wants us to do next, and everyone is satisfied to wait untill he gives the word, and then whether it be, to take the City by Assault, or whatever the order may be, I think all hands will obey it just as readily and cheerfully as if the campaign was just commencing,  The ammount of it is Mother we all believe in Grant, and as far as I can hear the opinion is universal in the army, that before this campaign is over Petersburg and Richmond will be in our posession. Our lines are in some places within easy Artillery Range of the City, and from where we lay we can plainly see the spires of the Churches in the City.</p>
             <p>I received a letter from Walt a few days ago dated June 25th  I am very sorry to hear Walt is sick but I am glad he is home and I hope by this time he is all right again.<ptr target="duk.00357_n3"/> I hold my own first rate and feel about as well as ever I did. Walt reports everything going on at home the same as usual, and he says Mother looks as well as he ever see her. Mattie and the babies he says are flourishing first rate, and I am very glad to hear you all are getting along so well.</p>
-         <p>I have been in command of the Regt for the last two weeks and have been kept pretty <choice><sic>buisy</sic><corr>busy</corr></choice> trying to get things <choice><sic>straigtened</sic><corr>straightened</corr></choice> out, <pb xml:id="leaf002r" facs="duk.00357.003_large.jpg" type="recto"/>but this morning one of our <choice><sic>seniour</sic><corr>senior</corr></choice> Captains arrived from Furlough and I hope that he will relieve me from the command of the Regt. I have a horse but I <choice><sic>dont</sic><corr>don't</corr></choice> get much chance to ride as we are kept pretty close. The weather here is <choice><sic>verry</sic><corr>very</corr></choice> hot indeed but I <choice><sic>dont</sic><corr>don't</corr></choice> believe it is much warmer here than in Brooklyn, and the nights are quite cool and pleasant &amp; if we could have a shower <choice><sic>occasionaly</sic><corr>occasionally</corr></choice> to keep the dust down it would be much pleasanter.</p>
-         <p>Walt says you have not heard from Hannah in some time. I am <choice><sic>verry</sic><corr>very</corr></choice> much in hopes that she is getting strong again.</p>
-            <p>One of Walts <choice><sic>aquaintances</sic><corr>acquaintances</corr></choice> Capt McKibben<ptr target="duk.00357_n4"/> was severely wounded here a few days ago,  he was on Gen Potters<ptr target="duk.00357_n5"/> Staff, and has now gone home to New York.</p>
+            <p>I have been in command of the Regt for the last two weeks and have been kept pretty buisy trying to get things straigtened out, but this morning one of our seniour Captains arrived from Furlough and I hope that he will relieve me from the command of the Regt. I have a horse but I dont get much chance to ride as we are kept pretty close. The weather here is verry hot indeed but I dont believe it is much warmer here than in Brooklyn, and the nights are quite cool and pleasant &amp; if we could have a shower occasionaly to keep the dust down it would be much pleasanter.</p>
+            <p>Walt says you have not heard from Hannah in some time. I am verry much in hopes that she is getting strong again.</p>
+            <p>One of Walts aquaintances Capt McKibben<ptr target="duk.00357_n4"/> was severely wounded here a few days ago,  he was on Gen Potters<ptr target="duk.00357_n5"/> Staff, and has now gone home to New York.</p>
             <p>Well Mother I believe I have nothing more to say at present, so good bye for a short time. Give my love to all.</p>
             <closer rend="right">
                <signed>George W. Whitman</signed>
             </closer>
-         <pb xml:id="leaf002v" facs="duk.00357.002_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,33 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">86-87</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Walt Whitman, 12 February 1863</title>
                <date when="1863-02-12">February 12, 1863</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book,
+Manuscript, and Special Collections Library
+</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, George Washington" ref="n0700">George Washington Whitman</persName>
+               <persName key="Whitman, George Washington">George Washington Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-27">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -74,22 +87,21 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00339.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
-                  <name type="place">Camp of 51st N.Y. Vols.</name>
-                  <name>Newport News Va</name>
+                  <name type="place">Camp of 51st N.Y. Vols.<lb/>Newport News Va</name>
                   <date when="1863-02-12"> Feb 12th/63</date>
                </dateline>
                <salute>Dear Walt.</salute>
             </opener>
-            <p>Well here we are at Newport News, and glad enough to get out of the mud, in which the grand Army of the Potomac has lived moved, and had its being, ever since we first joined it.<ptr target="duk.00339_n1"/> We <choice><sic>arived</sic><corr>arrived</corr></choice> here yesterday, and are encamped in a good dry place, and I hear we are to have new Tents in a day or two, so I think we will soon be nicely fixed.</p>
-         <p>Walt if you have received the money from home, I wish you would send it on to me as soon as you can, as I think likely, that I will have a chance to go home (for 10 days) sometime next week. There is no Express Office here but it will come as far as Fortress Monroe which is 6 or 7 miles <pb xml:id="leaf001v" facs="duk.00338.002_large.jpg" type="verso"/>from here, and I will manage to go down there and get it. <choice><sic>Probaly</sic><corr>Probably</corr></choice> the best way would be for you to Enquire at the Express Office about what time, the money would reach Fortress Monroe, and write me, so that I will know when to go for it. I <choice><sic>dont</sic><corr>don't</corr></choice> know, certain, that I can get, leave of absence, next week but I think my chances are pretty good,  there is nothing sure about these things, you know, <choice><sic>untill</sic><corr>until</corr></choice> a fellow gets the documents in his fist. Of course we know nothing at all, about what they brought us here for, but I rather think I was right in the surmise (in my last letter to you) about Burnsides<ptr target="duk.00339_n2"/> <choice><sic>organizeing</sic><corr>organizing</corr></choice> a force for a <choice><sic>seperate</sic><corr>separate</corr></choice> command. Anyhow I am glad to get out of the Potomac Army for it seems as if it would never be able to accomplish any <pb xml:id="leaf002r" facs="duk.00338.003_large.jpg" type="recto"/>thing,  And yet I believe it was as fine an Army (as far as their fighting qualities is concerned) as was ever seen.</p>
-            <p>Well Walt I believe that I have nothing more to say, and as I am quite <choice><sic>buisy</sic><corr>busy</corr></choice> to day getting things in shape I will stop writing and go to work. Good bye</p>
+            <p>Well here we are at Newport News, and glad enough to get out of the mud, in which the grand Army of the Potomac has lived moved, and had its being, ever since we first joined it.<ptr target="duk.00339_n1"/> We arived here yesterday, and are encamped in a good dry place, and I hear we are to have new Tents in a day or two, so I think we will soon be nicely fixed.</p>
+            <p>Walt if you have received the money from home, I wish you would send it on to me as soon as you can, as I think likely, that I will have a chance to go home (for 10 days) sometime next week. There is no Express Office here but it will come as far as Fortress Monroe which is 6 or 7 miles from here, and I will manage to go down there and get it. Probaly the best way would be for you to Enquire at the Express Office about what time, the money would reach Fortress Monroe, and write me, so that I will know when to go for it. I dont know, certain, that I can get, leave of absence, next week but I thnk my chances are pretty good,  there is nothing sure about these things, you know, untill a fellow gets the documents in his fist. Of course we know nothing at all, about what they brought us here for, but I rather think I was right in the surmise (in my last letter to you) about Burnsides<ptr target="duk.00339_n2"/> organizeing a force for a seperate command. Anyhow I am glad to get out of the Potomac Army for it seems as if it would never be able to accomplish any thing,  And yet I believe it was as fine an Army (as far as their fighting qualities is concerned) as was ever seen.</p>
+            <p>Well Walt I believe that I have nothing more to say, and as I am quite buisy to day getting things in shape I will stop writing and go to work. Good bye</p>
             <closer rend="right">
                <signed>G. W. W.</signed>
             </closer>
-         <pb xml:id="leaf002v" facs="duk.00338.004_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

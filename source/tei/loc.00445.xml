@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00445">
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00455">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">124-125</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 2 August 1867</title>
                <date when="1867-08-02">August 2, 1867</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-06">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -70,7 +82,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00481.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">St. Louis,</name>
@@ -78,11 +90,10 @@
                </dateline>
                <salute>Dear Walt</salute>
             </opener>
-            <p>Yours duly received<ptr target="loc.00445_n1"/>  I have had so many things to attend to lately that I have not been able to get time to answer and can only do so now so that you may know that I <choice><sic>hav'nt</sic><corr>haven't</corr></choice> forgotten you</p>
+            <p>Yours duly received<ptr target="loc.00445_n1"/>  I have had so many things to attend to lately that I have not been able to get time to answer and can only do so now so that you may know that I hav'nt forgotten you</p>
             <p>We are still at work getting out specifications for the settling Reservoirs<ptr target="loc.00445_n2"/>&#8212;a job of about $700 000&#8212;and of course we feel mighty anxious to cover all points so that we wont be upset by any sharp practice</p>
-         <pb xml:id="leaf001v" facs="loc_ad.00482.jpg" type="verso"/>
-         <p>On the street to-day I saw a very interesting yet somewhat painful sight&#8212;twas that of a family moving in from the plains&#8212;An old woman&#8212;I <choice><sic>shoud</sic><corr>should</corr></choice> judge all of eighty&#8212;another woman of about 35&#8212;a young man and his wife <choice><abbr>abt</abbr><expan>about</expan></choice> 25 a boy of 12 two children 8 and 6 and a little babe&#8212;all but the young man and his wife were in the wagon drawn by 4 oxen&#8212;the wagon covered with dirty white canvass&#8212;The boy had leading with a rope a fine old cow&#8212;a young cow and calf were alongside&#8212;under the wagon was a large white dog and inside by the old woman was a small black terrier&#8212;They had met with an accident <pb xml:id="leaf002r" facs="loc_ad.00483.jpg" type="recto"/>in the way of b[r]eaking one of the hind wheels and were therefore hard up&#8212;The faces of all were a study&#8212;but particularly of the young man and his wife&#8212;neither of them was at all handsome but yet I shall remember their faces for a long time&#8212;The old woman had that peculiar look of crazy stupidity that you can hardly tell whether they are really stupid or thinking of by-gone life  The talk of the crowd was that they had been driven in by the Indians&#8212;but I doubt that part of the story&#8212;</p>
-         <p>There is a report in town to-day that some of the "bloody <choice><orig>injuns</orig><reg>Indians</reg></choice>" were stealing cows &amp;c just outside town&#8212;about where <pb xml:id="leaf002v" facs="loc_ad.00484.jpg" type="verso"/>we propose to set our pumping engines&#8212;Of course I suppose its all humbug&#8212;but yet cannot see what such a detailed statement as is in the paper this morning is printed for&#8212;<ptr target="loc.00445_n3"/>
+            <p>On the street to-day I saw a very interesting yet somewhat painful sight&#8212;twas that of a family moving in from the plains&#8212;An old woman&#8212;I shoud judge all of eighty&#8212;another woman of about 35&#8212;a young man and his wife abt 25 a boy of 12 two children 8 and 6 and a little babe&#8212;all but the young man and his wife were in the wagon drawn by 4 oxen&#8212;the wagon covered with dirty white canvass&#8212;The boy had leading with a rope a fine old cow&#8212;a young cow and calf were alongside&#8212;under the wagon was a large white dog and inside by the old woman was a small black terrier&#8212;They had met with an accident in the way of b[r]eaking one of the hind wheels and were therefore hard up&#8212;The faces of all were a study&#8212;but particularly of the young man and his wife&#8212;neither of them was at all handsome but yet I shall remember their faces for a long time&#8212;The old woman had that peculiar look of crazy stupidity that you can hardly tell whether they are really stupid or thinking of by-gone life  The talk of the crowd was that they had been driven in by the Indians&#8212;but I doubt that part of the story&#8212;</p>
+            <p>There is a report in town to-day that some of the "bloody injuns" were stealing cows &amp;c just outside town&#8212;about where we propose to set our pumping engines&#8212;Of course I suppose its all humbug&#8212;but yet cannot see what such a detailed statement as is in the paper this morning is printed for&#8212;<ptr target="loc.00445_n3"/>
             </p>
             <p>I had a letter from Mother a few days ago&#8212;she appears to be getting along middling well yet I wish she could get a better place to live&#8212;<ptr target="loc.00445_n4"/>
             </p>

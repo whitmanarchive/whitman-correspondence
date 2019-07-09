@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -41,18 +40,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">76-77</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 7 October 1863</title>
                <date when="1863-10-07">October 7, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">proofreading changes</change>
@@ -72,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00390_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn</name>
@@ -80,16 +92,14 @@
                </dateline>
                <salute>My dear Walt,</salute>
             </opener>
-            <p>The enclosed $10 is from Mr James P. Kirkwood<ptr target="loc.00424_n1"/> for the use of the Hospital <choice><sic>soilders</sic><corr>soldiers</corr></choice>  I will mail you another letter with some more money to-morrow</p>
+            <p>The enclosed $10 is from Mr James P. Kirkwood<ptr target="loc.00424_n1"/> for the use of the Hospital soilders  I will mail you another letter with some more money to-morrow</p>
             <p>How goes things with you, Walt? What about coming home? I have not written you very lately, I have been so very busy. Mother and the rest are about the same. Andrew does not get better. I fear than Andrew will never get better. He looks very bad rather a painful case. I yesterday wrote you a letter and enclosed some money from myself, after thinking the matter over I destroyed the letter and shall give the money to Andrew, did I not do right</p>
-         <pb xml:id="leaf001v" facs="loc_ad.00391_large.jpg" type="verso"/>
-         <p>In acknowledging the receipt of money from me please state the amount but not who from as I <choice><sic>dont</sic><corr>don't</corr></choice> want them to know that I <choice><sic>dont</sic><corr>don't</corr></choice> send any myself but I honestly think when I possibly can give any thing that I ought to give it to Andrew. All the rest of us are the same as usual  Mattie and the babies are very well. the little one is growing finely and is getting to be quite a youngster  Hattie is growing up well  I often wish you was at home  I think you would enjoy her very much and it would be beneficial to her  Jess is about the same. He is not very strong, but does not get worse I think. I should like to have one of the old fashioned letters from you, and cannot you send me the letter to go to Davis<ptr target="loc.00424_n2"/> before the 12th as the steamer goes out then</p>
-         <pb xml:id="leaf002r" facs="loc_ad.00392_large.jpg" type="recto"/>
-            <p>Did you write to Wm Davis at Worcester, if not wont you do so,<ptr target="loc.00424_n3"/> and if you have <choice><sic>leasure</sic><corr>liesure</corr></choice> write to Mr Kirkwood sometime if you will<ptr target="loc.00424_n4"/>  I will give you his address  Mr Kirkwood is travelling around the eastern states on horseback and is not very well. I think a letter from you would do him good. Let me hear from you. I will write you again to-morrow.</p>
+            <p>In acknowledging the receipt of money from me please state the amount but not who from as I dont want them to know that I dont send any myself but I honestly think when I possibly can give any thing that I ought to give it to Andrew. All the rest of us are the same as usual  Mattie and the babies are very well. the little one is growing finely and is getting to be quite a youngster  Hattie is growing up well  I often wish you was at home  I think you would enjoy her very much and it would be beneficial to her  Jess is about the same. He is not very strong, but does not get worse I think. I should like to have one of the old fashioned letters from you, and cannot you send me the letter to go to Davis<ptr target="loc.00424_n2"/> before the 12th as the steamer goes out then</p>
+            <p>Did you write to Wm Davis at Worcester, if not wont you do so,<ptr target="loc.00424_n3"/> and if you have leasure write to Mr Kirkwood sometime if you will<ptr target="loc.00424_n4"/>  I will give you his address  Mr Kirkwood is travelling around the eastern states on horseback and is not very well. I think a letter from you would do him good. Let me hear from you. I will write you again to-morrow.</p>
             <closer rend="right">
                <signed>Affectionately Thos. J. Whitman</signed>
             </closer>
-         <pb xml:id="leaf002v" facs="loc_ad.00393_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -42,18 +41,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">181</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Bethuel Smith</author>
                <title>Bethuel Smith to Walt Whitman, 17 September 1863</title>
                <date when="1863-09-17">September 17, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Bethuel" ref="loc.00596_n100">Bethuel Smith</persName>
+               <persName key="Smith, Bethuel">Bethuel Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -61,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-07">Ken's proofreading changes</change>
@@ -74,19 +85,10 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_jc.00077_large.jpg" type="recto"/>
-         <opener>
-            <dateline>
-               <date when="1863-09-17">Sept. the 17, 1863</date>
-               <name type="place">Carlisle barracks</name>
-            </dateline>
-         </opener>
          
-         <p>Friend Walt I take my pen in hand to let you now where I am I am at Carlisle barracks in the <choice><sic>hospittal</sic><corr>hospital</corr></choice>  I am getting along <choice><sic>verry</sic><corr>very</corr></choice> well now we stop in tents here &amp; it looks <choice><sic>verry</sic><corr>very</corr></choice> <choice><sic>loansome</sic><corr>lonesome</corr></choice> here to me</p>
+         <p>Friend Walt I<ptr target="loc.00596_n100"/> take my pen in hand to let you now where I am I am at Carlisle barracks in the hospittal  I am getting along verry well now we stop in tents here &amp; it looks verry loansome here to me</p>
             <p>Write soon Direct your letters to Bethuel Smith, Carlisle Barracks, Pennsylvania</p>
-         <pb xml:id="leaf001v" facs="loc_jc.00078_large.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="loc_jc.00079_large.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc_jc.00080_large.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

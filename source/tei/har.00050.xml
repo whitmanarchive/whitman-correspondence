@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -48,7 +47,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Ralph Waldo Emerson, 29 December 1862</title>
                <date when="1862-12-29">December 29, 1862</date>
-               <orgName xml:id="har">Manuscripts Department, Houghton Library, Harvard University</orgName>
+               <orgName xml:id="har">Emerson Memorial Association, Harvard University</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -58,12 +57,11 @@
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
             <person role="recipient">
-               <persName key="Emerson, Ralph Waldo" ref="n1044">Ralph Waldo Emerson</persName>
+               <persName key="Emerson, Ralph Waldo">Ralph Waldo Emerson</persName>
             </person>
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-30">corrected orgName, added xml:ids to pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-08">Seward footnote</change>
@@ -77,7 +75,7 @@
    <text type="letter">
       <body>
          
-            <pb xml:id="leaf001r" facs="har.00050.001.jpg" type="recto"/>
+            <pb facs="har.00050.001.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Washington, D.C.<ptr target="har.00050_n100"/> 
@@ -89,7 +87,7 @@
             </opener>
             <p>Breaking up a few weeks since, and for good, my New York stagnation&#8212;wandering since through camp and battle scenes&#8212;I fetch up here in harsh and superb plight&#8212;wretchedly poor, excellent well, (my only torment, family matters,)&#8212;realizing at last that it is necessary for me to fall for the time in the wise old way, to push my fortune, to be brazen, and get employment, and have an income&#8212;determined to do it, (at any rate until I get out of horrible sloughs) I write you, asking you as follows:</p>
             <p>I design to apply personally direct at headquarters, for some place. I would apply on literary grounds, not political.</p>
-         <pb xml:id="leaf001v" facs="har.00050.002.jpg" type="verso"/>
+            <pb facs="har.00050.002.jpg" type="verso"/>
             <p>I wish you would write for me something like the enclosed form of letter, that I can present, opening my interview with the great man. I wish you to write two copies&#8212;put the one in an envelope directed to Mr. Seward, Secretary of State&#8212;and the other in an envelope directed to Mr. Chase, Secretary of the Treasury&#8212;and enclose both envelopes in the one I send herewith so that I can use either one or the other. I wish you also to send me a note of introduction to Charles Sumner.<ptr target="har.00050_n2"/>
             </p>
             <p>It is pretty certain that, armed in that way, I shall conquer my object. Answer me by next mail, for I am waiting here like ship waiting for the welcome breath of the wind.</p>
@@ -97,8 +95,8 @@
             <closer rend="right">
                <signed>Walt Whitman</signed>
             </closer>
-         <pb xml:id="leaf002r" facs="har.00050.003.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="har.00050.004.jpg" type="verso"/>
+            <pb facs="har.00050.003.jpg" type="recto"/>
+            <pb facs="har.00050.004.jpg" type="verso"/>
          
       </body>
    </text>

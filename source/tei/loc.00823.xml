@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="lh">Luke Hollis</persName>
@@ -42,11 +41,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Walt Whitman</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">218&#8211;220</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 6 May 1864</title>
                <date when="1864-05-06">May 6, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection and Estelle Doheny Collection of the Edward Laurence Doheny Memorial Library, St. John's Seminary</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -61,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-24">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -74,7 +86,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00042.jpg" type="recto"/>
+         
             <div1 type="section" org="uniform" sample="complete" part="N">
                <opener>
                <dateline rend="right">
@@ -83,9 +95,9 @@
                </dateline>
                <salute>Dearest mother</salute>
             </opener>
-               <p>I write you a few lines, as I know you feel anxious these times&#8212;I suppose the New York papers must have it in this morning that the Army of the Potomac has made a move, &amp; has crossed the Rapidan river<ptr target="loc.00823_n1"/>&#8212;at any rate that is the case&#8212;as near as I can learn about <pb xml:id="leaf001v" facs="loc_ad.00043.jpg" type="verso"/>Burnside's army, that lies in the rear of the Army of the Potomac, (from Warrenton, Virginia, &amp; so to Rappahannock river &amp; up toward Manassas)&#8212;it still appears to be kept as a reserve, &amp; for emergencies &amp;c. I have not heard any thing from the 51st.</p>
-               <p>Mother, of course you got my letter of Tuesday, 3d, with the letter from George <pb xml:id="leaf002r" facs="loc_ad.00044.jpg" type="recto"/>dated Bristoe station&#8212;I have writ to George since, and addressed the letter Warrenton, Va., or elsewhere, thinking he might get it&#8212;</p>
-               <p>Mother, the idea is entertained quite largely here that the rebel army will retreat to Richmond, as it is well known that Grant is very strong, (most folks say too strong for Lee)&#8212;<pb xml:id="leaf002v" facs="loc_ad.00045.jpg" type="verso"/>I suppose you know we menace them almost as much from up Fortress Monroe as we do from the Rapidan&#8212;Butler &amp; W F Smith<ptr target="loc.00823_n2"/> are down there with at least fifty or sixty thousand men, &amp; will move up simultaneously with Grant&#8212;the occasion is serious, &amp; anxious, but somehow I am full of hope&#8212;&amp; feel that we shall take Richmond&#8212;(I hope to go there yet before the hot weather is past)&#8212;dear mother, I hope you are well &amp; little California&#8212;love to Jeff &amp; Mat &amp; all&#8212;</p>
+            <p>I write you a few lines, as I know you feel anxious these times&#8212;I suppose the New York papers must have it in this morning that the Army of the Potomac has made a move, &amp; has crossed the Rapidan river<ptr target="loc.00823_n1"/>&#8212;at any rate that is the case&#8212;as near as I can learn about Burnside's army, that lies in the rear of the Army of the Potomac, (from Warrenton, Virginia, &amp; so to Rappahannock river &amp; up toward Manassas)&#8212;it still appears to be kept as a reserve, &amp; for emergencies &amp;c. I have not heard any thing from the 51st.</p>
+            <p>Mother, of course you got my letter of Tuesday, 3d, with the letter from George dated Bristoe station&#8212;I have writ to George since, and addressed the letter Warrenton, Va., or elsewhere, thinking he might get it&#8212;</p>
+            <p>Mother, the idea is entertained quite largely here that the rebel army will retreat to Richmond, as it is well known that Grant is very strong, (most folks say too strong for Lee)&#8212;I suppose you know we menace them almost as much from up Fortress Monroe as we do from the Rapidan&#8212;Butler &amp; W F Smith<ptr target="loc.00823_n2"/> are down there with at least fifty or sixty thousand men, &amp; will move up simultaneously with Grant&#8212;the occasion is serious, &amp; anxious, but somehow I am full of hope&#8212;&amp; feel that we shall take Richmond&#8212;(I hope to go there yet before the hot weather is past)&#8212;dear mother, I hope you are well &amp; little California&#8212;love to Jeff &amp; Mat &amp; all&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>
@@ -96,7 +108,7 @@
             </postscript>
          </div1>
          
-         <pb xml:id="leaf003r" facs="loc_ad.00046.jpg" type="recto"/>
+         
             <div1 type="section" org="uniform" sample="complete" part="N">
                <opener>
                <dateline rend="right">
@@ -104,12 +116,12 @@
                </dateline>
             </opener>
             <p>Mother, just as I put this letter in the mail there is an extra out here that Grant has advanced his army or a portion of it to the region of the Chancellorsville battle of just a year ago, &amp; has either flanked Lee, as they call it, (got in on his army between him &amp; Richmond)&#8212;or else that Lee has hurried back, or is hurrying back to Richmond&#8212;</p>
-            <p>Whether there is any thing in this story or not, I cannot tell&#8212;the city is full of rumors &amp; this may be one of them&#8212;the government is not in receipt of any information to-day&#8212;Grant has taken the reins entirely in his own hands&#8212;he is really dictator at present&#8212;we shall hear something important within two or three days&#8212;Grant is very secretive indeed&#8212;he bothers himself very little about sending news even to the President or Stanton&#8212;time only can <choice><sic>develope</sic><corr>develop</corr></choice> his plans&#8212;I still think <hi rend="italic">he is going to take Richmond &amp; soon</hi>, (but I may be mistaken as I have been in past)&#8212;Well, dearest mother, keep up good courage, good bye for present&#8212;I wish you would write soon&#8212;</p>
+            <p>Whether there is any thing in this story or not, I cannot tell&#8212;the city is full of rumors &amp; this may be one of them&#8212;the government is not in receipt of any information to-day&#8212;Grant has taken the reins entirely in his own hands&#8212;he is really dictator at present&#8212;we shall hear something important within two or three days&#8212;Grant is very secretive indeed&#8212;he bothers himself very little about sending news even to the President or Stanton&#8212;time only can develope his plans&#8212;I still think <hi rend="italic">he is going to take Richmond &amp; soon</hi>, (but I may be mistaken as I have been in past)&#8212;Well, dearest mother, keep up good courage, good bye for present&#8212;I wish you would write soon&#8212;</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>
             </div1>
-         <!--No verso - this page is a photocopy of original -->
+         
       </body>
    </text>
 </TEI>

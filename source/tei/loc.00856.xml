@@ -11,13 +11,12 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+
                <persName xml:id="hb">Heidi Bean</persName>
-               <persName xml:id="as">Ashlyn Stewart</persName>
             </respStmt>
             <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
@@ -48,7 +47,7 @@
                <title>
                Harper's Weekly to Walt Whitman, 26 February 1863</title>
                <date when="1863-02-26">February 26, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -63,8 +62,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2018-10-11" who="#as">Added images</change>
-         <change who="#ak" when="2015-01-20">added images, checked transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -76,7 +73,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.02269.001_large.jpg" type="recto"/>
+         <pb facs="loc.00856.001.jpg" type="recto"/>
          
             <p>The Editor of Harpers Weekly begs to return the enclosed verses to Mr. Walt Whitman with his compliments and many thanks.<ptr target="loc.00856_n1"/>
             </p>  
@@ -84,8 +81,7 @@
                <signed>Harpers Weekly</signed>  
                <dateline>Feb 26, 1863</dateline>
             </closer>
-         <pb xml:id="leaf001v" facs="loc.02269.002_large.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="loc.00856.002.jpg" type="recto"/>
+         
       </body>
    </text>
 </TEI>

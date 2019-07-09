@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -43,18 +42,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">184</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Bethuel Smith</author>
                <title>Bethuel Smith to Walt Whitman, 30 August 1864</title>
                <date when="1864-08-30">August 30, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Smith, Bethuel" ref="loc.00604_n100">Bethuel Smith</persName>
+               <persName key="Smith, Bethuel">Bethuel Smith</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -62,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-13">corrected orgName, added pbs and choice tags, corrected transcription</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2009-09-03">proofread and edited annotations</change>
@@ -74,33 +85,19 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_jc.00097_large.jpg" type="recto"/>
-            <opener>
-               <dateline>
-                  <name type="place">Finley <choice><sic>Hospittal</sic><corr>Hospital</corr></choice></name>
-                  <date when="1864-08-30">Aug 30th/64</date>
-                  <name type="place">Washington, D. C.</name>
-               </dateline>
+         
+            <opener> 
                <salute>Friend Walt</salute>
             </opener>
-         <p>I received your letter today &amp; was <choice><sic>verry</sic><corr>very</corr></choice> glad to hear from you <choice><sic>wonse</sic><corr>once</corr></choice> more I have bin wounded again but it has got well it hit me in the right thigh this time  I have had A pretty hard time of it this summer   A marching &amp; fighting together</p>
-         <p>dear <choice><sic>walt</sic><corr>Walt</corr></choice> I am so glad to hear from you once more I would like to see you <choice><sic>verry</sic><corr>very</corr></choice> much  <pb xml:id="leaf001v" facs="loc_jc.00098_large.jpg" type="verso"/>I have <choice><sic>drempt</sic><corr>dreamt</corr></choice> of you often &amp; thought of you
+         <p>I<ptr target="loc.00604_n100"/> received your letter today &amp; was verry glad to hear from you wonse more I have bin wounded again but it has got well it hit me in the right thigh this time  I have had A pretty hard time of it this summer   A marching &amp; fighting together</p>
+            <p>dear walt I am so glad to hear from you once more I would like to see you verry much  I have drempt of you often &amp; thought of you
 oftener still</p>
-         <p>I expect to leave here tomorrow morning for Carlisle <choice><sic>barraks</sic><corr>barracks</corr></choice> I was to <choice><sic>gow</sic><corr>go</corr></choice> this morning but did not &amp; now I am to <choice><sic>gow</sic><corr>go</corr></choice> tomorrow morning  I guess that they wont put it off <choice><sic>anny</sic><corr>any</corr></choice> longer my time is out in eleven days now  I have bin home on A <choice><sic>furlow</sic><corr>furlough</corr></choice> I <choice><sic>shant</sic><corr>shan't</corr></choice> have to do <choice><sic>anny</sic><corr>any</corr></choice> more fighting I think</p>
+            <p>I expect to leave here tomorrow morning for Carlisle barraks I was to gow this morning but did not &amp; now I am to gow tomorrow morning  I guess that they wont put it off anny longer my time is out in eleven days now  I have bin home on A furlow I shant have to do anny more fighting I think</p>
             <closer rend="right">
                <salute>Write soon   no more at present thew </salute>
                <signed>Smith</signed>
             </closer>
-         <pb xml:id="leaf002r" facs="loc_jc.00099_large.jpg" type="recto"/>
-         <postscript>
-            <p>Address
-            <address>
-               <addrLine>Bethuel Smith</addrLine>
-               <addrLine>Co. F. US. Cav.</addrLine>
-               <addrLine>Carlisle, Barracks. Penn</addrLine>
-            </address></p>
-         </postscript>
-         <pb xml:id="leaf002v" facs="loc_jc.00100_large.jpg" type="recto"/>
+         
       </body>
    </text>
 </TEI>

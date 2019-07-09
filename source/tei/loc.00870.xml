@@ -10,7 +10,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -45,14 +44,14 @@
                <author>John Swinton</author>
                <title>John Swinton to Walt Whitman, 5 February 1865</title>
                <date when="1865-02-05">February 5, 1865</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Swinton, John" ref="n0611">John Swinton</persName>
+               <persName key="Swinton, John">John Swinton</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +59,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-26">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5; added pbs/page images and checked transcription against images</change>
          <change who="#el" when="2010-04-03">proofread and edited. Commented-out Swinton note, as it does not seem to make sense in this context; none of the information references the period of the letter.</change>
@@ -72,7 +70,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_gt.00267.jpg" type="recto"/>
+         <pb facs="loc_gt.00267.jpg" type="recto"/>
             <opener rend="right">
                <dateline>
                   <date when="1865-02-05">Feb. 5</date>
@@ -85,7 +83,7 @@
                <salute>I remain yours</salute>
                <signed>J. Swinton</signed>
             </closer>
-         <pb xml:id="leaf001v" facs="loc_gt.00268.jpg" type="verso"/>
+         <pb facs="loc_gt.00268.jpg" type="verso"/>
       </body>
    </text>
 </TEI>

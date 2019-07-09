@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -41,11 +40,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">51-52</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman  to Louisa Van Velsor Whitman, 27 April 1862</title>
                <date when="1862-04-27">April 27, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +72,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2009-12-17">Ken's proofreading changes</change>
@@ -74,7 +85,7 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00317.001_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Newbern N.C.</name>
@@ -82,13 +93,12 @@ corrections</change>
                </dateline>
                <salute>Dear Mother and all the rest,</salute>
             </opener>
-            <p>As I hear there will be a chance to send letters home in the morning, I write to let you know that I am well and hearty  We are <choice><sic>haveing</sic><corr>having</corr></choice> good times here and are a great deal better situated than we have been at any time since we left New York  I wrote you a letter a couple of weeks since (which I suppose you received) telling you of my appointment to a second Leiutenancy in Co D. I like the position first rate and am getting along very well indeed, and as the pay is <hi rend="italic">good</hi>, I am glad both on my own <choice><sic>acount</sic><corr>account</corr></choice> and yours, <hi rend="italic">Mamy</hi>. I hope to send you something nice next pay, which will be due on the first of May, but we will <choice><sic>probaly</sic><corr>probably</corr></choice> not be paid until the 10th or 12th of the month. There has been a great deal of talk about the <choice><sic>enemys</sic><corr>enemies</corr></choice> <choice><sic>makeing</sic><corr>making</corr></choice> an attack on us here, but I think we are just about as safe here as we would be in Brooklyn,  we have a large breastwork nearly finished just in front of our Camp built by darkies hired by the government and intended to mount 18 or 20 heavy guns of which 10 or 12 are already in position, and as the trees fences and everything has been cleared away to give the guns a clear sweep for a mile in front of the breastworks I think the rebels will be mighty careful how they come within range, although they promised to drive us away from here two or three weeks ago. Our pickets are thrown out eight or ten miles from the <choice><sic>Citty</sic><corr>City</corr></choice> and have had several brushes with a <choice><sic>regt</sic><corr>regiment</corr></choice> of rebel Cavalry, but our boys soon taught them not to come to close, to our lines, and for the last week they have not come close enough to exchange shots.</p>
-         <pb xml:id="leaf001v" facs="duk.00317.002_large.jpg" type="verso"/>
-            <p>Our Division has just won another victory at Fort Macon as you will see by the papers,  the fighting was all done by <choice><sic>Artillary</sic><corr>Artillery</corr></choice> so that our <choice><sic>regt</sic><corr>regiment</corr></choice> did not have a chance to mix in. I have just seen one of our boys who came up from there to day,  he says the rebels made a pretty good fight holding out for 12 hours <choice><sic>untill</sic><corr>until</corr></choice> our side had dismounted 27 of their guns and killed 8 or 10 of their men and wounded quite a number. The loss on our side was one killed and two wounded. Fort Macon is about 35 miles from here and was considered to be a very ugly place to take,  it was built by Uncle Sam (you know) and seized by the rebels,  we have bagged two or three hundred more prisoners by the operation as they had no chance to get away, and take it all <choice><sic>togather</sic><corr>together</corr></choice> it is quite a big thing for our side.</p>
+            <p>As I hear there will be a chance to send letters home in the morning, I write to let you know that I am well and hearty  We are haveing good times here and are a great deal better situated than we have been at any time since we left New York  I wrote you a letter a couple of weeks since (which I suppose you received) telling you of my appointment to a second Leiutenancy in Co D. I like the position first rate and am getting along very well indeed, and as the pay is <hi rend="italic">good</hi>, I am glad both on my own acount and yours, <hi rend="italic">Mamy</hi>. I hope to send you something nice next pay, which will be due on the first of May, but we will probaly not be paid until the 10th or 12th of the month. There has been a great deal of talk about the enemys makeing an attack on us here, but I think we are just about as safe here as we would be in Brooklyn,  we have a large breastwork nearly finished just in front of our Camp built by darkies hired by the government and intended to mount 18 or 20 heavy guns of which 10 or 12 are already in position, and as the trees fences and everything has been cleared away to give the guns a clear sweep for a mile in front of the breastworks I think the rebels will be mighty careful how they come within range, although they promised to drive us away from here two or three weeks ago. Our pickets are thrown out eight or ten miles from the Citty and have had several brushes with a regt of rebel Cavalry, but our boys soon taught them not to come to close, to our lines, and for the last week they have not come close enough to exchange shots.</p>
+            <p>Our Division has just won another victory at Fort Macon as you will see by the papers,  the fighting was all done by Artillary so that our regt did not have a chance to mix in. I have just seen one of our boys who came up from there to day,  he says the rebels made a pretty good fight holding out for 12 hours untill our side had dismounted 27 of their guns and killed 8 or 10 of their men and wounded quite a number. The loss on our side was one killed and two wounded. Fort Macon is about 35 miles from here and was considered to be a very ugly place to take,  it was built by Uncle Sam (you know) and seized by the rebels,  we have bagged two or three hundred more prisoners by the operation as they had no chance to get away, and take it all togather it is quite a big thing for our side.</p>
             <p>We are very anxious to hear from McClellan<ptr target="duk.00317_n1"/> and expect soon to hear of a splendid victory at Yorktown.</p>
-            <p>I received a couple of papers a few days ago but nary a letter did I get. I have not heard from home in almost a month. Mother you <choice><sic>dont</sic><corr>don't</corr></choice> know how bad it makes a fellow feel to have a mail <choice><sic>arive</sic><corr>arrive</corr></choice> and bring him no letter. I wish some of you would write every week if only to say that you are all well. We expect a mail in tomorrow and if I <choice><sic>dont</sic><corr>don't</corr></choice> get a letter I shall feel quite <choice><sic>disapointed</sic><corr>disappointed</corr></choice>.</p>
+            <p>I received a couple of papers a few days ago but nary a letter did I get. I have not heard from home in almost a month. Mother you dont know how bad it makes a fellow feel to have a mail arive and bring him no letter. I wish some of you would write every week if only to say that you are all well. We expect a mail in tomorrow and if I dont get a letter I shall feel quite disapointed.</p>
             <p>We do not expect to leave here very soon. Well Mother it is getting late and rather chilly writing here in my tent so I must stop and go to bed.</p>
-            <p>Good night dear Mother  I will write again soon  <choice><sic>mutch</sic><corr>much</corr></choice> Love to Mat and Sis, Jess, Walt, Bunkum, Jeff and Eddy</p>
+            <p>Good night dear Mother  I will write again soon  mutch Love to Mat and Sis, Jess, Walt, Bunkum, Jeff and Eddy</p>
             <closer rend="right">
                <signed>Leiut G. W. W. Co D. 51st Regt. N.Y.V.</signed>
             </closer>

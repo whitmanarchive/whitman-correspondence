@@ -11,16 +11,14 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bb">Brett Barney</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
+
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
-               <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of
-               Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -40,29 +38,34 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in
-                  the Archive may be shared in accordance with the Fair Use provisions of U.S.
-                  copyright law. Redistribution or republication on other terms, in any medium,
-                  requires express written consent from the editors and advance notification of the
-                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
-                  the graphic images in this archive has been granted by the owners of the originals
-                  for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">202, 203</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Hugh B. Thomson</author>
                <title>Hugh B. Thomson to Walt Whitman, 13 December 1866</title>
                <date when="1866-12-13">December 13, 1866</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                  Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Thomson, Hugh B." ref="n0629">Hugh B. Thomson</persName>
+               <persName key="Thomson, Hugh B.">Hugh B. Thomson</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -70,11 +73,7 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2015-06-14" who="#ss">annotated</change>
-         <change who="#ak" when="2015-05-13">added correspondent ref</change>
-         <change who="#ak" when="2015-02-16">corrected orgName, added pbs, corrected
-            transcription</change>
-         <change who="#el" when="2014-08-15">added schematron declaration</change>
+<change who="#el" when="2014-08-15">added schematron declaration</change>
          <change when="2013-12-13" who="#el">corrected date in sourceDesc</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bb" when="2010-04-09">edited annotation to include link to loc.00873</change>
@@ -86,36 +85,15 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00613.001_large.jpg" type="recto"/>
-         <opener>
-            <dateline>
-               <name type="place">New York</name>
-               <date when="1866-12-13">Dec. 13 1866</date>
-            </dateline>
-            <salute>Mr. Walt Whitman</salute>
-            <salute>My Dear friend</salute>
-         </opener>
-         <p>Your kind favor of the 11th inst came duly to hand, and was followed next day by your
-            copy of "Drum Taps." Accept of my thanks for both it was more certainly than I could
-            expect from a comparative stranger to me.&#8212;and yet not a stranger, for I am hailed
-            as a <hi rend="italic">soldier</hi> and <hi rend="italic">comrade</hi> there is the link
-            that binds me to you in a bond of unity and good feeling. May it never be severed by an <choice>
-               <orig>unloyal</orig>
-               <reg>disloyal</reg>
-            </choice> act of mine, let our password be "Goodwill," and when called upon to sunder
-            all earthly ties, when the last "long roll" is called in which there will be no
-            "missing" may we be found in the ranks of the Captain of our Salvation, ready to enter
-            upon an eternity of bliss and where parting is no more.</p>
-         <p>I shall be pleased to see you when in our city, and in anything that I can contribute to
-            your happiness in all things command me.</p>
-         <closer>
-            <salute>With Many Regards, Respectfully Yours</salute>
-            <signed>Hugh B. Thomson.</signed>
-            <address><addrLine>212 Canal St</addrLine></address>
-         </closer>
-         <pb xml:id="leaf001v" facs="loc.00613.002_large.jpg" type="verso"/>
-         <pb xml:id="leaf002r" facs="loc.00613.003_large.jpg" type="recto"/>
-         <pb xml:id="leaf002v" facs="loc.00613.004_large.jpg" type="verso"/>
+         
+            <opener> 
+               <salute>Mr. Walt Whitman, My Dear friend</salute>
+            </opener>
+         <p>Your kind favor of the 11th inst came duly to hand, and was followed next day by your copy of "Drum Taps."<ptr target="loc.00613_n100"/> Accept of my thanks for both it was more certainly than I could expect from a comparative stranger to me.&#8212;and yet not a stranger, for I am hailed as a <hi rend="italic">soldier</hi> and <hi rend="italic">comrade</hi>
+            </p>
+            <p>there is the link that binds me to you in a bond of unity and good feeling. May it never be severed by an unloyal act of mine, let our password be "Goodwill," and when called upon to sunder all earthly ties, when the last "long roll" is called in which there will be no "missing" may we be found in the ranks of the Captain of our Salvation, ready to enter upon an eternity of bliss and where parting is no more.</p>
+            <p>I shall be pleased to see you when in our city, and in anything that I can contribute to your happiness in all things command me. With Many Regards, Respectfully Yours</p>
+         
       </body>
    </text>
 </TEI>

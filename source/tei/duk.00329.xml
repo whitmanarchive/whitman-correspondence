@@ -10,7 +10,6 @@
             <editor>Jerome M. Loving</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -43,11 +42,24 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>George Washington Whitman</author>
+                  <editor>Jerome M. Loving</editor>
+                  <title xml:id="cwl">Civil War Letters of George Washington Whitman</title>
+                  <imprint>
+                     <pubPlace>Durham, North Carolina</pubPlace>
+                     <publisher>Duke University Press</publisher>
+                     <date>1975</date>
+                     <biblScope type="page">70-71</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>George Washington Whitman</author>
                <title>George Washington Whitman to Louisa Van Velsor Whitman, 30 September 1862</title>
                <date when="1862-09-30">September 30, 1862</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -62,7 +74,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-26">corrected orgName, added pbs, added choice tags</change>
          <change who="#nhg" when="2014-08-28">added sender and recipient</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
@@ -77,7 +88,8 @@ corrections</change>
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00329.001_large.jpg" type="recto"/>
+         
+            
                <opener>
                   <dateline rend="right">
                      <name type="place">Near Antietam Md.</name>
@@ -85,14 +97,14 @@ corrections</change>
                   </dateline>
                   <salute>Dear Mother</salute>
                </opener>
-               <p>We are still laying quietly at the place from which I dated my last letter. I thought when I wrote you last which was 5 or 6 days since that we should cross over into Virginia before now, but as we are comfortably situated, I think very likely we will remain here for some time. Everything now is quiet and it is quite a <choice><sic>releif</sic><corr>relief</corr></choice> to be out of the sound of canon after hearing it almost daily, and sometimes nightly, for two or three weeks. I think the late rebel movement into Maryland has been a very unfortunate one for them, as they did not meet with anything like the encouragement from the Marylanders that they expected, and I believe that after the battle of Bull Run<ptr target="duk.00329_n1"/> they firmly expected to invade Pennsylvania if not capture Washington and Baltimore, and now to be badly beaten twice, and driven back with such terrible loss, must be very discouraging and had it not been for bad management, cowardice, or treachery at Harpers <choice><sic>Fery</sic><corr>Ferry</corr></choice>, I believe we could have bagged the most of their army.</p>
-         <p>We are now about 8 miles from Harpers <choice><sic>Fery</sic><corr>Ferry</corr></choice> and are in the midst of Mountains, from which the <pb xml:id="leaf001v" facs="duk.00328.002_large.jpg" type="verso"/>view is very fine indeed. We have enough to eat and plenty of good cool spring water. We have been provided with shelter tents, which are made of two <choice><sic>peices</sic><corr>pieces</corr></choice> of light canvas about 6 ft square  each which button <choice><sic>togather</sic><corr>together</corr></choice> in the centre and make one tent to <choice><sic>accomodate</sic><corr>accommodate</corr></choice> two men, they are very good on account of the heavy dews we have here, and for a shade, but as the two ends are open they are not much use in a storm. When we move the occupants of a tent each take half  roll it and tie it on their backs so we always have our houses with us and can make ourselves at home wherever we stop.</p>
-         <p>Mother the last letter I received from home is dated Sept 8th and I hope if you have not <choice><sic>writen</sic><corr>written</corr></choice> you will write as soon as you get this. The captain of our company<ptr target="duk.00329_n2"/> has gone home on a twenty days furlough. I believe he intends to stop a few days in New York at the Astor House. Tryon<ptr target="duk.00329_n3"/> our 1st Lieut that was in New York recruiting has returned,  he has a position as Aide on General Ferrero's Staff, so that I am in command of the company. A Corporal from our company, started for New York, on recruiting service this morning. I told him if he had a chance to call on you and send me word how you all are. His name is John Cambit and he was sent to report to Major LeGendre<ptr target="duk.00329_n4"/> at his <pb xml:id="leaf002r" facs="duk.00328.003_large.jpg" type="recto"/>office on Broadway, where he can be found.</p>
-         <p>I expect there will shortly be some promotions made in the regt and I think I stand a good chance to be made a 1st Lieut. I think, after Cap gets back if everything remains quiet I shall try for a furlough to come home for a few days and see you all. I have stuck pretty close to <choice><sic>buisness</sic><corr>business</corr></choice> since I have been <choice><sic>sogering</sic><corr>soldiering</corr></choice>, and the regt never went on a march or into a fight without my being on hand. (I see by the papers that Uncle Abe has issued a proclamation declaring the slaves free in all the States that are in rebellion on the first of next Jan. I <choice><sic>dont</sic><corr>don't</corr></choice> know what effect it is going to have on the war, but one thing is certain, he has got to lick the south before he can free the niggers,)<ptr target="duk.00329_n5"/> and unless he drives ahead and convinces the south, before the first of January, that we are bound to lick them, and it would be better for them to behave <choice><sic>themselvs</sic><corr>themselves</corr></choice> and keep their slaves, than to get licked and lose them, I <choice><sic>dont</sic><corr>don't</corr></choice> think the proclamation will do much good.</p>
-         <p>Mother I have three months pay due me to day so <choice><sic>dont</sic><corr>don't</corr></choice> deprive yourself of anything you need.</p>
-         <p>Direct my letters Sturgis Division, Ferreros Brigade 9th Army Corps  I often think that I can imagine just what you are all doing at home and <choice><sic>ile</sic><corr>I'll</corr></choice> bet now, that Mother is <pb xml:id="leaf002v" facs="duk.00328.004_large.jpg" type="verso"/><choice><sic>makeing</sic><corr>making</corr></choice> pies. I think Mat is putting up shirt bosoms like the deuce so as to get through before dinner  I guess Sis is down stairs helping Mother mix the dough, Walt is up stairs writing, Jeff is down town at the Office, Jess is pealing Potatoes for dinner,  and Tobias has gone down cellar for a scuttle of coal,  Bunkum I guess is around somewhere looking for a good chance to go <choice><sic>sogering</sic><corr>soldiering</corr></choice>.<ptr target="duk.00329_n6"/>
+               <p>We are still laying quietly at the place from which I dated my last letter. I thought when I wrote you last which was 5 or 6 days since that we should cross over into Virginia before now, but as we are comfortably situated, I think very likely we will remain here for some time. Everything now is quiet and it is quite a releif to be out of the sound of canon after hearing it almost daily, and sometimes nightly, for two or three weeks. I think the late rebel movement into Maryland has been a very unfortunate one for them, as they did not meet with anything like the encouragement from the Marylanders that they expected, and I believe that after the battle of Bull Run<ptr target="duk.00329_n1"/> they firmly expected to invade Pennsylvania if not capture Washington and Baltimore, and now to be badly beaten twice, and driven back with such terrible loss, must be very discouraging and had it not been for bad management, cowardice, or treachery at Harpers Fery, I believe we could have bagged the most of their army.</p>
+               <p>We are now about 8 miles from Harpers Fery and are in the midst of Mountains, from which the view is very fine indeed. We have enough to eat and plenty of good cool spring water. We have been provided with shelter tents, which are made of two peices of light canvas about 6 ft square  each which button togather in the centre and make one tent to accomodate two men, they are very good on account of the heavy dews we have here, and for a shade, but as the two ends are open they are not much use in a storm. When we move the occupants of a tent each take half  roll it and tie it on their backs so we always have our houses with us and can make ourselves at home wherever we stop.</p>
+               <p>Mother the last letter I received from home is dated Sept 8th and I hope if you have not writen you will write as soon as you get this. The captain of our company<ptr target="duk.00329_n2"/> has gone home on a twenty days furlough. I believe he intends to stop a few days in New York at the Astor House. Tryon<ptr target="duk.00329_n3"/> our 1st Lieut that was in New York recruiting has returned,  he has a position as Aide on General Ferrero's Staff, so that I am in command of the company. A Corporal from our company, started for New York, on recruiting service this morning. I told him if he had a chance to call on you and send me word how you all are. His name is John Cambit and he was sent to report to Major LeGendre<ptr target="duk.00329_n4"/> at his office on Broadway, where he can be found.</p>
+               <p>I expect there will shortly be some promotions made in the regt and I think I stand a good chance to be made a 1st Lieut. I think, after Cap gets back if everything remains quiet I shall try for a furlough to come home for a few days and see you all. I have stuck pretty close to buisness since I have been sogering, and the regt never went on a march or into a fight without my being on hand. (I see by the papers that Uncle Abe has issued a proclamation declaring the slaves free in all the States that are in rebellion on the first of next Jan. I dont know what effect it is going to have on the war, but one thing is certain, he has got to lick the south before he can free the niggers,)<ptr target="duk.00329_n5"/> and unless he drives ahead and convinces the south, before the first of January, that we are bound to lick them, and it would be better for them to behave themselvs and keep their slaves, than to get licked and lose them, I dont think the proclamation will do much good.</p>
+               <p>Mother I have three months pay due me to day so dont deprive yourself of anything you need.</p>
+               <p>Direct my letters Sturgis Division, Ferreros Brigade 9th Army Corps  I often think that I can imagine just what you are all doing at home and ile bet now, that Mother is makeing pies. I think Mat is putting up shirt bosoms like the deuce so as to get through before dinner  I guess Sis is down stairs helping Mother mix the dough, Walt is up stairs writing, Jeff is down town at the Office, Jess is pealing Potatoes for dinner,  and Tobias has gone down cellar for a scuttle of coal,  Bunkum I guess is around somewhere looking for a good chance to go sogering.<ptr target="duk.00329_n6"/>
                </p>
-         <p>Well Mother take good care of yourself and <choice><sic>dont</sic><corr>don't</corr></choice> get <choice><sic>exciteded</sic><corr>excited</corr></choice>.</p>
+               <p>Well Mother take good care of yourself and dont get exciteded.</p>
                <closer rend="center">
                   <salute>Much love to all</salute>
                   <signed>G. W. Whitman</signed>

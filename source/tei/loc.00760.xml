@@ -11,7 +11,6 @@
             <editor>Ted Genoways</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="ec">Eric Conrad</persName>
@@ -43,11 +42,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Ralph Waldo Emerson</author>
+                  <editor>Edwin Haviland Miller</editor>
+                  <title xml:id="ehm">The Correspondence</title>
+                  <imprint>
+                     <pubPlace>New York</pubPlace>
+                     <publisher>New York University Press</publisher>
+                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                     <biblScope type="volume">1</biblScope>
+                     <biblScope type="page">65-66</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Ralph Waldo Emerson</author>
                <title>Ralph Waldo Emerson to William H. Seward, 10 January 1863</title>
                <date when="1863-01-10">January 10, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -62,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-16">corrected orgName, added pbs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2011-08-08">Seward footnote</change>
@@ -74,24 +86,24 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc.00760.001_large.jpg" type="recto"/>
             <opener>
                <dateline rend="right">
                   <name type="place">Concord | Masstts</name>
-                  <date when="1863-01-10">Jan. 10 1863<ptr target="loc.00760_n100"/>
+                  <date when="1863-01-10">Jan. 10 | 1863<ptr target="loc.00760_n100"/>
                </date>
                </dateline>
                <salute>Dear Sir,</salute>
             </opener>
             <p>Mr Walt Whitman, of New York, writes me, that he wishes to obtain employment in the public service in Washington, &amp; has made, or is about making some application to yourself.
-               Permit me to say <pb xml:id="leaf001v" facs="loc.00760.002_large.jpg" type="verso"/>that he is known to me as a man of strong original genius, combining, with marked eccentricities, great powers &amp; valuable traits of character: a self-relying, large-hearted man, much beloved by his friends; entirely patriotic &amp; benevolent in his theory, tastes, &amp; practice. If his writings are <pb xml:id="leaf002r" facs="loc.00760.003_large.jpg" type="recto"/>in certain points open to criticism, they yet show extraordinary power, &amp; are more deeply American, democratic, &amp; in the interest of political liberty, than those of any other poet. He is indeed a child of the people, &amp; their champion.
-               A man of his talents &amp; dispositions will quickly make himself useful, <pb xml:id="leaf002v" facs="loc.00760.004_large.jpg" type="verso"/>and, if the Government has work that he can do, I think it may easily find, that it has called to its side more valuable aid than it bargained for.</p>
+Permit me to say that he is known to me as a man of strong original genius, combining, with marked eccentricities, great powers &amp; valuable traits of character: a self-relying, large-hearted man, much beloved by his friends; entirely patriotic &amp; benevolent in his theory, tastes, &amp; practice. If his writings are in certain points open to criticism, they yet show extraordinary power, &amp; are more deeply American, democratic, &amp; in the interest of political liberty, than those of any other poet. He is indeed a child of the people, &amp; their champion.
+A man of his talents &amp; dispositions will quickly make himself useful, and, if the Government has work that he can do, I think it may easily find, that it has called to its side more valuable aid than it bargained for.</p>
             <p>With great respect,</p>
             <p>Your obedient servant,</p>
             <closer rend="right">
                <signed>R. W. Emerson.</signed>
             </closer>
-
+         
+       
             <postscript>
             <p>Hon. William H. Seward<ptr target="loc.00760_n2"/>, | Secretary of State.</p>
          </postscript>

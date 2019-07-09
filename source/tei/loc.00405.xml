@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,18 +40,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">42-43</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 3 April 1863</title>
                <date when="1863-04-03">April 3, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-04">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -72,7 +84,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00321_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -80,15 +92,15 @@
                </dateline>
                <salute>Dear brother Walt,</salute>
             </opener>
-         <p>I mailed a letter to you yesterday promising to write you again to-day. Ruggles<ptr target="loc.00405_n1"/> came up and saw Andrew last eve. and had quite a lengthy interview  He said that the stuff that he was taking was <choice><abbr>abt</abbr><corr>about</corr></choice> as good for him as he could take and to continue but that the thing that would cure him would to be very careful of himself and to breathe nothing but the best and freshest air. Drink none, stay at home nights sleep in a well-ventilated room &amp;c &amp;c and be careful to work out-doors  I walked down with him (Ruggles) afterward and he told me that it was a pretty bad case, that he <choice><sic>couldnt</sic><corr>couldn't</corr></choice> take anything that <pb xml:id="leaf001v" facs="loc_ad.00322_large.jpg" type="verso"/>would help him particularly. That the trouble was very low down in his throat and that such cases often ended in consumption. He said that the best thing that he could do would be to get work away from the sea-coast if possible. I hope Andrew will take better care of himself in future. The Dr. will see him again in 6 or 8 days</p>
-         <p>The enclosed $5.0 Mr Lane<ptr target="loc.00405_n2"/> sends <hi rend="italic">you</hi>  He wished me to say that he would write you himself but could hardly get time. He told me to tell you that he intended the money for your own especial benefit  That you could not stay there without its costing you something and that you could do this amt of good to the soldiers by telling them good, cheerful things and letting them look at you.<ptr target="loc.00405_n3"/> The amt of it is I suppose he thinks that as you are giving all your time <pb xml:id="leaf002r" facs="loc_ad.00323_large.jpg" type="recto"/>to the Hospitals that you must want a little money yourself. It is certainly characteristic of the man. I told him I would take it and send it to you and tell you what he said but that you would probably apply it as you had the rest. Anyway you must write him <choice><abbr>abt</abbr><corr>about</corr></choice> it. He told me that the man Crany<ptr target="loc.00405_n4"/> would send you some more too, or had promised to. I wish you would write Mr Lane.<ptr target="loc.00405_n5"/>
+            <p>I mailed a letter to you yesterday promising to write you again to-day. Ruggles<ptr target="loc.00405_n1"/> came up and saw Andrew last eve. and had quite a lengthy interview  He said that the stuff that he was taking was abt as good for him as he could take and to continue but that the thing that would cure him would to be very careful of himself and to breathe nothing but the best and freshest air. Drink none, stay at home nights sleep in a well-ventilated room &amp;c &amp;c and be careful to work out-doors  I walked down with him (Ruggles) afterward and he told me that it was a pretty bad case, that he couldnt take anything that would help him particularly. That the trouble was very low down in his throat and that such cases often ended in consumption. He said that the best thing that he could do would be to get work away from the sea-coast if possible. I hope Andrew will take better care of himself in future. The Dr. will see him again in 6 or 8 days</p>
+            <p>The enclosed $5.0 Mr Lane<ptr target="loc.00405_n2"/> sends <hi rend="italic">you</hi>  He wished me to say that he would write you himself but could hardly get time. He told me to tell you that he intended the money for your own especial benefit  That you could not stay there wihtout its costing you something and that you could do this amt of good to the soldiers by telling them good, cheerful things and letting them look at you.<ptr target="loc.00405_n3"/> The amt of it is I suppose he thinks that as you are giving all your time to the Hospitals that you must want a little money yourself. It is certainly characteristic of the man. I told him I would take it and send it to you and tell you what he said but that you would probably apply it as you had the rest. Anyway you must write him abt it. He told me that the man Crany<ptr target="loc.00405_n4"/> would send you some more too, or had promised to. I wish you would write Mr Lane.<ptr target="loc.00405_n5"/>
             </p>
-         <p>Mother had a letter from Heyde to-day. He says that Han is not any different. The whole of his letter is taken up with abuse of George for not coming on when he had his furlough. And after a long <choice><sic>rigarmarole</sic><corr>rigmarole</corr></choice> he winds up with saying that he has no <choice><sic>accomodations</sic><corr>accommodations</corr></choice> for anyone. Nice pup <choice><sic>aint</sic><corr>ain't</corr></choice> he. Oh I wish to God he had been in Hell before we ever saw him.<ptr target="loc.00405_n6"/> Poor Han I hope she will get able to <pb xml:id="leaf002v" facs="loc_ad.00324_large.jpg" type="verso"/>come home. Han had received your letter telling her that George had been home. Mother wrote Han that George was home and that he would come and see her but that his furlough was so short that <choice><sic>twould</sic><corr>it would</corr></choice> be impossible and received a reply from Heyde that he would not give the letter to her for he was afraid it would excite her too much. We supposed of course, however that she knew that he had been home, but it seems that she did not know it till she received your letter. Mother has written her to-day and I send one of his little pictures.</p>
-         <p>I believe that Hattie has received no injury from her fall  she appears to-day <choice><abbr>abt</abbr><corr>about</corr></choice> the same as usual. She is growing finely and is as smart as a child of her age ought to be. All the rest the same as usual  I am going to try to get Mat to go to the Opera to-morrow to the P. M. performance  I want her to hear this company before they leave.<ptr target="loc.00405_n7"/> I spoke yesterday <choice><abbr>abt</abbr><corr>about</corr></choice> Public doc. I of course mean scientific ones  those I should be glad to get.<ptr target="loc.00405_n8"/>
+            <p>Mother had a letter from Heyde to-day. He says that Han is not any different. The whole of his letter is taken up with abuse of George for not coming on when he had his furlough. And after a long rigarmarole he winds up with saying that he has no accomodations for anyone. Nice pup aint he. Oh I wish to God he had been in Hell before we ever saw him.<ptr target="loc.00405_n6"/> Poor Han I hope she will get able to come home. Han had received your letter telling her that George had been home. Mother wrote Han that George was home and that he would come and see her but that his furlough was so short that twould be impossible and received a reply from Heyde that he would not give the letter to her for he was afraid it would excite her too much. We supposed of course, however that she knew that he had been home, but it seems that she did not know it till she received your letter. Mother has written her to-day and I send one of his little pictures.</p>
+            <p>I believe that Hattie has received no injury from her fall  she appears to-day abt the same as usual. She is growing finely and is as smart as a child of her age ought to be. All the rest the same as usual  I am going to try to get Mat to go to the Opera to-morrow to the P. M. performance  I want her to hear this company before they leave.<ptr target="loc.00405_n7"/> I spoke yesterday abt Public doc. I of course mean scientific ones  those I should be glad to get.<ptr target="loc.00405_n8"/>
             </p>
-            <p>Write me as much and as often as you can  What do you think <choice><abbr>abt</abbr><corr>about</corr></choice> George, &amp; where is he?</p>
+            <p>Write me as much and as often as you can  What do you think abt George, &amp; where is he?</p>
             <closer rend="right">
-               <signed>Yours <choice><abbr>affn</abbr><expan>affectionately</expan></choice>, Jeff</signed>
+               <signed>Yours affn, Jeff</signed>
             </closer>
          
       </body>

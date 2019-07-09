@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="tj">Tim Jackson</persName>
@@ -43,18 +42,32 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">67-69</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Walt Whitman, 4 August 1863</title>
                <date when="1863-08-04">August 4, 1863</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Whitman, Thomas Jefferson" ref="n4995">Thomas Jefferson Whitman</persName>
+               <persName key="Whitman, Thomas Jefferson">Thomas Jefferson Whitman</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -62,7 +75,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-05">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
@@ -74,7 +86,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00370_large.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">Brooklyn, N. Y.</name>
@@ -83,7 +95,7 @@
                </dateline>
                <salute>Dear brother Walt,</salute>
             </opener>
-         <p>It has been a long time since I last wrote you, longer than I meant it should be, but I have been very busy indeed  Everything is going about as usual with us at home. We do not hear from George. I feel quite anxious about him and watch the paper quite close for something about the 51st but do not meet with any success.<ptr target="loc.00419_n2"/> Andrew is not getting any better I fear. I think that he will hardly get well again Walt. The doctor[s] all say that he must go out from the seashore if he wants <pb xml:id="leaf001v" facs="loc_ad.00371_large.jpg" type="verso"/>to get well. I am sure that it would be a good thing for him if he could do so for a while. Do you think of any way that it could be done. As for myself I am over head and heels in debt (borrowed money) which I am striving hard to pay up and hardly know how I can do anything worthy of being called help for him. He is badly off. He can hardly speak, nor eat anything, but worse than all I guess that his home comforts are not much. I <choice><sic>dont</sic><corr>don't</corr></choice> think Nancy has the faculty of fixing things to eat for a sick man. Andrew still goes to the Navy Yard and thereby gets his pay, but I hardly thinks he does anything. Sometime <pb xml:id="leaf002r" facs="loc_ad.00372_large.jpg" type="recto"/>he is much better than others but as a general thing he is mighty badly off. I wish you would think about the matter Walt, and let us hear what your idea is  Andrew wants to go but <choice><sic>dont</sic><corr>don't</corr></choice> know where to go or how to leave his family. Mother I see is very much excited about him. Mother is getting along about as usual not quite as well perhaps, the warm,&#8212;hot,&#8212;<choice><sic>wethre</sic><corr>weather</corr></choice> has a bad effect upon Mother. I <choice><sic>dont</sic><corr>don't</corr></choice> think she looks as well as she did a month ago  Mattie is getting along first rate. The baby, as a matter of course, is cross,&#8212;cross as thunder&#8212;but Mat is patient and hard working <pb xml:id="leaf002v" facs="loc_ad.00373_large.jpg" type="recto"/>and so gets along quite well. Hattie is also showing the effects of a so long continued [term?] of <hi rend="italic">hot</hi> days and is cross and fretful. She often wishes that you would come and take her on fort Greene.<ptr target="loc.00419_n3"/> She seems to think that that is your mission. The baby is growing finely and is getting to look almost like Hattie did at her age. Her hair is getting lighter and i guess will be about the color of mine</p>
+            <p>It has been a long time since I last wrote you, longer than I meant it should be, but I have been very busy indeed  Everything is going about as usual with us at home. We do not hear from George. I feel quite anxious about him and watch the paper quite close for something about the 51st but do not meet with any success.<ptr target="loc.00419_n2"/> Andrew is not getting any better I fear. I think that he will hardly get well again Walt. The doctor[s] all say that he must go out from the seashore if he wants to get well. I am sure that it would be a good thing for him if he could do so for a while. Do you think of any way that it could be done. As for myself I am over head and heels in debt (borrowed money) which I am striving hard to pay up and hardly know how I can do anything worthy of being called help for him. He is badly off. He can hardly speak, nor eat anything, but worse than all I guess that his home comforts are not much. I dont think Nancy has the faculty of fixing things to eat for a sick man. Andrew still goes to the Navy Yard and thereby gets his pay, but I hardly thinks he does anything. Sometime he is much better than others but as a general thing he is mighty badly off. I wish you would think about the matter Walt, and let us hear what your idea is  Andrew wants to go but dont know where to go or how to leave his family. Mother I see is very much excited about him. Mother is getting along about as usual not quite as well perhaps, the warm,&#8212;hot,&#8212;wethre has a bad effect upon Mother. I dont think she looks as well as she did a month ago  Mattie is getting along first rate. The baby, as a matter of course, is cross,&#8212;cross as thunder&#8212;but Mat is patient and hard working and so gets along quite well. Hattie is also showing the effects of a so long continued [term?] of <hi rend="italic">hot</hi> days and is cross and fretful. She often wishes that you would come and take her on fort Greene.<ptr target="loc.00419_n3"/> She seems to think that that is your mission. The baby is growing finely and is getting to look almost like Hattie did at her age. Her hair is getting lighter and i guess will be about the color of mine</p>
             <p>The enclosed $2 is sent $1 by John D. Martin<ptr target="loc.00419_n4"/> and $1 by Henry Carlow.<ptr target="loc.00419_n5"/> I wish you would write me a <hi rend="italic">Hospital letter</hi>. I think I can get some money on it. Any way Walt so long as the Spondulix<ptr target="loc.00419_n6"/> comes. A "Mr Fulton, of the New York Times"<ptr target="loc.00419_n7"/> came some time since and got your address and again a few days since and wanted me when I wrote you to ask if you had received a letter from him. He said that he had written you but had not received a reply and [was] afraid you had not received it</p> 
             <p>Do you have any idea where the 9 Corps is. I guess down in Miss. yet  I think not hearing from George hurts Mother about as much as any thing. I too feel pretty anxious</p>
             <p>Ruggles<ptr target="loc.00419_n8"/> thinks that you could make a good thing by writing letters to the Times, better than the lectures.<ptr target="loc.00419_n9"/> Write me, Walt.</p>

@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="jw">Joshua Ware</persName>
@@ -45,18 +44,31 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  
+                  <editor>Charley Shively</editor>
+                  <title xml:id="db">Drum Beats:  Walt Whitman's Civil War Boy Lovers</title>
+                  <imprint>
+                     <pubPlace>San Francisco, California</pubPlace>
+                     <publisher>Gay Sunshine Press</publisher>
+                     <date>1989</date>
+                     <biblScope type="page">140-141</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Reuben Farwell</author>
                <title>Reuben Farwell to Walt Whitman, 16 June 1864</title>
                <date when="1864-06-16">June 16, 1864</date>
-               <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+               <orgName xml:id="duk">Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Farwell, Reuben" ref="duk.00372_n100">Reuben Farwell</persName>
+               <persName key="Farwell, Reuben">Reuben Farwell</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -64,7 +76,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-01-30">corrected orgName, added pbs, added choice tags, corrected opener</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -78,18 +89,15 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="duk.00372.001_large.jpg" type="recto"/>
+         
             <opener> 
-               <dateline>
-                  <name type="place">Washington City D.C</name>
-                  <date when="1864-06-16">Thursday Eve June 16th</date>
-               </dateline>
-               <salute>Dear <choice><sic>Comrad</sic><corr>Comrade</corr></choice></salute>
+               <dateline rend="right"/>
+               <salute>Dear Comrad</salute>
             </opener>
-         <p>I arrived in Town this forenoon and I have been trying to find your residence  But <choice><sic>unseccessfull</sic><corr>unsuccessful</corr></choice> I came to Armory <choice><sic>Suqare</sic><corr>Square</corr></choice> Hospital to learn whither you had gone The Boys do not know your whereabouts. S</p>
+         <p>I<ptr target="duk.00372_n100"/> arrived in Town this forenoon and I have been trying to find your residence  But unseccessfull I came to Armory Suqare Hospital to learn whither you had gone The Boys do not know your whereabouts. S</p>
             <p>So I concluded to find out by dropping a few lines to you</p>
             <p>I hope my Dear Uncle that nothing has befallen you Either sickness or discontentment</p>
-         <p>I would like to see you before I <choice><sic>returne</sic><corr>return</corr></choice> to <pb xml:id="leaf001v" facs="duk.00372.002_large.jpg" type="verso"/>The Front which will be on the 18th of this month. To morrow night I will remain here  If you have any desire or wish to see me Call or write me your address  I just come from the front &amp; Expect to return soon</p>
+            <p>I would like to see you before I returne to The Front which will be on the 18th of this month. To morrow night I will remain here  If you have any desire or wish to see me Call or write me your address  I just come from the front &amp; Expect to return soon</p>
             <closer rend="right">
                <salute>receive this from one who remembers you still</salute>
                <salute>Yours Affectionately</salute>

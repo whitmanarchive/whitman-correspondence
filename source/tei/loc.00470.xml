@@ -11,7 +11,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
 
                <persName xml:id="kk">Kathryn Kruger</persName>
@@ -41,11 +40,25 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Thomas Jefferson Whitman</author>
+                  <editor>Dennis Berthold</editor>
+                  <editor>Kenneth M. Price</editor>
+                  <title xml:id="dbw">Dear Brother Walt: The Letters of Thomas Jefferson Whitman</title>
+                  <imprint>
+                     <pubPlace>Kent, Ohio</pubPlace>
+                     <publisher>Kent State University Press</publisher>
+                     <date>1984</date>
+                     <biblScope type="page">164-165</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
             <bibl>
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Louisa Van Velsor Whitman, 26 March 1873</title>
                <date when="1873-03-26">March 26, 1873</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -60,7 +73,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-02-11">corrected orgName, added pbs, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#el" when="2008-07-21">updated TEI header</change>
@@ -70,7 +82,7 @@
    </teiHeader>
    <text type="letter">
       <body>
-         <pb xml:id="leaf001r" facs="loc_ad.00605.jpg" type="recto"/>
+         
             <opener>
                <dateline rend="right">
                   <name type="place">St. Louis </name>
@@ -81,12 +93,12 @@
             <p>I received your latest letter&#8212;I was glad indeed to hear from you&#8212;yet exceeding sorry to hear from Walt that he was feeling so badly&#8212;I hope beyond all things that he is now feeling better<ptr target="loc.00470_n1"/>
             </p>
             <p>The children are quite well and apparently quite happy&#8212;they speak of you often&#8212;and talk only of you and their mamma</p>
-         <p>You ask a question <pb xml:id="leaf001v" facs="loc_ad.00606.jpg" type="verso"/>in regard to the silence of all our letters in regard to Mrs O'Rielly.<ptr target="loc.00470_n2"/> in regard to this I must say to you that though I cannot tell you in a letter in regard to why the letters are silent in regard to her I can and will explain the matter to you when I see you which I sincerely hope will be before long&#8212;I do not know how soon&#8212;yet as we have made a contract with some Hartford people for a new Engine<ptr target="loc.00470_n3"/>&#8212;I hope I may be sent East early in the summer&#8212;Of one thing I can assure you no one on earth loved Mattie better than she except our own family and though denied&#8212;to the public her company <pb xml:id="leaf002r" facs="loc_ad.00607.jpg" type="recto"/>yet they did meet and were happy&#8212;I wrote you very fully in regard to Matties death&#8212;much I could write you about her later life&#8212;<choice><abbr>abt</abbr><expan>about</expan></choice> all she talked about was Walt and yourself&#8212;she had a great desire to see you&#8212;and I am sorry&#8212;very sorry&#8212;that you could not have met&#8212;but fate cannot be helped</p>
+            <p>You ask a question in regard to the silence of all our letters in regard to Mrs O'Rielly.<ptr target="loc.00470_n2"/> in regard to this I must say to you that though I cannot tell you in a letter in regard to why the letters are silent in regard to her I can and will explain the matter to you when I see you which I sincerely hope will be before long&#8212;I do not know how soon&#8212;yet as we have made a contract with some Hartford people for a new Engine<ptr target="loc.00470_n3"/>&#8212;I hope I may be sent East early in the summer&#8212;Of one thing I can assure you no one on earth loved Mattie better than she except our own family and though denied&#8212;to the public her company yet they did meet and were happy&#8212;I wrote you very fully in regard to Matties death&#8212;much I could write you about her later life&#8212;abt all she talked about was Walt and yourself&#8212;she had a great desire to see you&#8212;and I am sorry&#8212;very sorry&#8212;that you could not have met&#8212;but fate cannot be helped</p>
             <p>I am feeling pretty well  Have been away from the city [a] great deal of the time lately&#8212;am employed to make a design for water works at Kansas city, and have been up there a good deal lately<ptr target="loc.00470_n4"/>&#8212;shall write you again soon  Love to George and Loo&#8212;and all send love to you</p>
             <closer rend="right">
                <signed>Affectionately Jeff</signed>
             </closer>
-         <pb xml:id="leaf002v" facs="loc_ad.00608.jpg" type="verso"/>
+         
       </body>
    </text>
 </TEI>

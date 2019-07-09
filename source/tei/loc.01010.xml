@@ -10,7 +10,6 @@
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="vs">Vanessa Steinroetter</persName>
                <persName xml:id="ss">Sarah Synovec</persName>
@@ -57,14 +56,14 @@
                <author>William E. Vandemark</author>
                <title>William E. Vandemark to Walt Whitman, 7 April 1864</title>
                <date when="1864-04-07">April 7, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Vandemark, William E." ref="loc.01010_n100">William E. Vandemark </persName>
+               <persName key="Vandemark, William E.">William E. Vandemark </persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -72,7 +71,6 @@
          </particDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#ak" when="2015-03-02">corrected orgName, added choice tags</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-15">proofreading changes</change>
@@ -89,7 +87,7 @@
                   <date when="1864-04-07">April 7/64&#8212;</date>
                </dateline>
             </opener>
-         <p><choice><sic>father</sic><corr>Father</corr></choice> <choice><sic>i</sic><corr>I</corr></choice> have been here to <choice><sic>se</sic><corr>see</corr></choice> <choice><sic>yo</sic><corr>you</corr></choice> and <choice><sic>yo</sic><corr>you</corr></choice> was not at home <choice><sic>i</sic><corr>I</corr></choice> leave my best wishes hoping <choice><sic>yo</sic><corr>you</corr></choice> are well <choice><sic>i</sic><corr>I</corr></choice> am very well <choice><sic>yo</sic><corr>you</corr></choice> must come and see me good <choice><sic>by</sic><corr>bye</corr></choice>,</p>  
+         <p>father i<ptr target="loc.01010_n100"/> have been here to se yo and yo was not at home i leave my best wishes hoping yo are well i am very well yo must come and see me good by,</p>  
             <closer rend="right">
                <signed>W. E. Vandermark to his father Walt Whitman.</signed>
             </closer>
