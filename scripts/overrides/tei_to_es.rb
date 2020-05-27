@@ -36,7 +36,7 @@ class TeiToEs
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
   def category
-    "correspondence"
+    "biography"
   end
 
   def creator
@@ -80,7 +80,27 @@ class TeiToEs
   # TODO publisher, rights, rights_uri, rights_holder, source
 
   def subcategory
-    "personal"
+    "correspondence"
+  end
+
+  def topics
+    # TODO determine if this is an okay field for this once other projects
+    # start using topics, or if there needs to be a custom field
+    if date
+      year = date[/^\d{4}/]
+      case year.to_i
+      when 1860..1866
+        "Civil War (1860-1866)"
+      when 1867..1876
+        "Reconstruction (1867-1876)"
+      when 1877..1887
+        "Post Reconstruction (1877-1887)"
+      when 1888..1892
+        "Old Age (1888-1892)"
+      else
+        "No Date"
+      end
+    end
   end
 
   # TODO text footnotes
