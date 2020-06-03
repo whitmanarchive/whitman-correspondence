@@ -42,7 +42,7 @@ class TeiToEs
   def creator
     creators = get_list(@xpaths["creators"])
     return creators.map do |creator| {
-      "name" => CommonXml.normalize_space(creator),
+      "name" => Datura::Helpers.normalize_space(creator),
       "role" => "sender"
     }
     end
@@ -110,7 +110,7 @@ class TeiToEs
       when 1888..1892
         "Old Age (1888-1892)"
       else
-        "No Date"
+        "No Era Assigned"
       end
     end
   end
