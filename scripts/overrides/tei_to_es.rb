@@ -65,12 +65,24 @@ class TeiToEs
   # TODO place is not going to be particularly easy to grab because of how places
   # have been encoded :(
 
+  def person
+    eles = @xml.xpath(@xpaths["person"])
+    eles.map do |p|
+      pname = p.xpath("persName").first["key"]
+      {
+        "id" => "",
+        "name" => Datura::Helpers.normalize_space(pname),
+        "role" => Datura::Helpers.normalize_space(p["role"])
+      }
+    end
+  end
+
   def recipient
     eles = @xml.xpath(@xpaths["recipient"])
     people = eles.map do |p|
       {
         "id" => "",
-        "name" => CommonXml.normalize_space(p["key"]),
+        "name" => Datura::Helpers.normalize_space(p["key"]),
         "role" => "recipient"
       }
     end
