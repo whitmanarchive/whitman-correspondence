@@ -14,6 +14,17 @@ class TeiToEs
     xpaths["person"] = "/TEI/teiHeader/profileDesc/particDesc/person"
     xpaths["recipient"] = "/TEI/teiHeader/profileDesc/particDesc/person[@role='recipient']/persName/@key"
     xpaths["rights"] = "/TEI/teiHeader/fileDesc/publicationStmt/availability"
+    xpaths["source"] = {
+      "monogr" => "//biblStruct/monogr",
+      "author" => "//biblStruct/monogr/author",
+      "title" => "//biblStruct/monogr/title",
+      "editor" => "//biblStruct/monogr/editor",
+      "pub_place" => "//biblStruct/monogr/imprint/pubPlace",
+      "publisher" => "//biblStruct/monogr/imprint/publisher",
+      "date" => "//biblStruct/monogr/imprint/date",
+      "volume" => "//biblStruct/monogr/imprint/biblScope[@type='volume']",
+      "pages" => "//biblStruct/monogr/imprint/biblScropt[@type='page']"
+    }
     xpaths
   end
 
@@ -84,6 +95,32 @@ class TeiToEs
 
   def rights
     get_text(@xpaths["rights"])
+  end
+
+  # source follows this pattern:
+  # [author], <em>[title]</em>, ed. [editor]
+  # ([pub_place]: [publisher], [date])
+  # [volume]:[pages]
+  def source
+    s = @xpaths["source"]
+    if @xml.xpath(s["monogr"]).length > 0
+      s_auth = get_text(s["author"])
+      s_titl = get_text(s["title"])
+      s_edit = get_text(s["editor"])
+      s_pbpl = get_text(s["pub_place"])
+      s_publ = get_text(s["publisher"])
+      s_date = get_text(s["date"])
+      s_volu = get_text(s["volume"])
+      s_page = get_text(s["pages"])
+
+      # TODO check for edgecases where not all of these
+      # fields exist and design accordingly
+      auth_line = "#{s_auth}, <em>#{s_titl}</em>, ed. #{s_edit}"
+      publ_line = "(#{s_pbpl}: #{s_publ}, #{s_date})"
+      volu_line = "#{s_volu}:#{s_page}"
+
+      "#{auth_line} #{publ_line}, #{volu_line}"
+    end
   end
 
   def subcategory
