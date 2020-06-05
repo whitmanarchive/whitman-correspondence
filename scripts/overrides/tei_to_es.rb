@@ -7,8 +7,14 @@ class TeiToEs
   # in the below example, the xpath for "person" is altered
   def override_xpaths
     xpaths = {}
+    xpaths["annotations"] = "//ptr/@target"
+    # used to be multiple places but cutting editors out for now
+    xpaths["contributors"] = [ "/TEI/teiHeader/fileDesc/titleStmt/respStmt/persName" ]
+    xpaths["creators"] = "/TEI/teiHeader/profileDesc/particDesc/person[@role='sender']/persName/@key"
     xpaths["person"] = "/TEI/teiHeader/profileDesc/particDesc/person"
-    return xpaths
+    xpaths["recipient"] = "/TEI/teiHeader/profileDesc/particDesc/person[@role='recipient']/persName/@key"
+    xpaths["rights"] = "/TEI/teiHeader/fileDesc/publicationStmt/availability"
+    xpaths
   end
 
   #################
@@ -35,35 +41,34 @@ class TeiToEs
   # Overrides of default behavior
   # Please see docs/tei_to_es.rb for complete instructions and examples
 
+  def annotations_text
+    targets = @xml.xpath(@xpaths["annotations"])
+    targets.map do |target|
+      get_text("//note[@id='#{target}']", false, @options["notes"])
+    end
+  end
+
   def category
     "biography"
   end
 
-  def creator
-    creators = get_list(@xpaths["creators"])
-    return creators.map do |creator| {
-      "name" => Datura::Helpers.normalize_space(creator),
-      "role" => "sender"
-    }
-    end
-  end
-
+  # format: do not include format
   def format
-    "correspondence"
   end
 
   def language
-    # TODO verify that none of these are primarily english
     "en"
   end
 
   def languages
-    # TODO verify that none of these are multiple languages
     [ "en" ]
   end
 
-  # TODO place is not going to be particularly easy to grab because of how places
-  # have been encoded :(
+  # medium: do not include medium
+  def medium
+  end
+
+  # place: should not include places at this point in time
 
   def person
     eles = @xml.xpath(@xpaths["person"])
@@ -77,19 +82,9 @@ class TeiToEs
     end
   end
 
-  def recipient
-    eles = @xml.xpath(@xpaths["recipient"])
-    people = eles.map do |p|
-      {
-        "id" => "",
-        "name" => Datura::Helpers.normalize_space(p["key"]),
-        "role" => "recipient"
-      }
-    end
-    return people
+  def rights
+    get_text(@xpaths["rights"])
   end
-
-  # TODO publisher, rights, rights_uri, rights_holder, source
 
   def subcategory
     "correspondence"
@@ -101,6 +96,8 @@ class TeiToEs
     if date
       year = date[/^\d{4}/]
       case year.to_i
+      when 0..1859
+        "Early"
       when 1860..1866
         "Civil War (1860-1866)"
       when 1867..1876
