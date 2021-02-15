@@ -13,7 +13,6 @@ class TeiToEs
     xpaths["creators"] = "/TEI/teiHeader/profileDesc/particDesc/person[@role='sender']/persName/@key"
     xpaths["person"] = "/TEI/teiHeader/profileDesc/particDesc/person"
     xpaths["recipient"] = "/TEI/teiHeader/profileDesc/particDesc/person[@role='recipient']/persName/@key"
-    xpaths["rights"] = "/TEI/teiHeader/fileDesc/publicationStmt/availability"
     xpaths["source"] = {
       "monogr" => "//biblStruct/monogr",
       "author" => "//biblStruct/monogr/author",
@@ -55,7 +54,7 @@ class TeiToEs
   def annotations_text
     targets = @xml.xpath(@xpaths["annotations"])
     targets.map do |target|
-      get_text("//note[@id='#{target}']", false, @options["notes"])
+      get_text("//note[@id='#{target}']", xml: @options["notes"])
     end
   end
 
