@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00727">
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Ernest Rhys, 22 January 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00727</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">6</biblScope>
+                            <biblScope type="page">49</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Ernest Rhys, 22 January 1890</title>
+                    <date cert="high" when="1890-01-22" xml:id="dat1">January 22, 1890</date>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
+                        American Literature, New York Public Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Rhys, Ernest" ref="n4152">Ernest Rhys</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-29" who="#smb">completed director's corrections</change>
+            <change when="2019-06-25" who="#smb">final check, corrected</change>
+            <change when="2019-05-31" who="#if">Second check</change>
+            <change when="2019-05-30" who="#rf">First Check</change>
+            <change when="2017-08-30" who="#bbb">transcribed, Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>  
+            <opener>
+                <dateline> 
+                    <name type="place">Camden New Jersey U S America<ptr target="nyp.00727_n1"/></name>
+                    <date when="1890-01-22">January 22 1890</date>
+                </dateline>
+                <salute>My dear E R<ptr target="nyp.00727_n2"/></salute>
+            </opener>
+            <p>Y'rs regularly rec'd &#38; welcom'd (I often send them afterward to Dr Bucke,<ptr target="n0119"/>
+                Canada)&#8212;</p>
+            <p>I am still here, no very mark'd or significant change or happening&#8212;fairly
+                buoyant spirits &#38;c&#8212;but surely slowly <hi rend="italic"
+                >ebbing</hi>&#8212;at this moment sitting here in my den Mickle Street by the oak
+                wood fire, in the big strong old chair with wolf-skin spread over back&#8212;bright
+                sun, cold, dry winter day&#8212;America continues generally busy enough all over her
+                vast demesnes (<hi rend="italic">intestinal agitation</hi> I call it)&#8212;talking,
+                plodding, <hi rend="italic">making money</hi>, every one trying to get
+                on&#8212;perhaps to get toward the top&#8212;but no special individual
+                signalism&#8212;(just as well I guess)&#8212;I write without any particular purpose,
+                but I tho't I w'd show you I appreciate y'r kindness &#38; remembrance&#8212;The two
+                slips enclosed you are at liberty to do what you like with<ptr target="nyp.00727_n3"/>&#8212;affectionate
+                remembrance to the dear sister<ptr target="nyp.00727_n4"/>&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body> 
+    </text>
+</TEI>

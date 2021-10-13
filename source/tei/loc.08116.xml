@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08116">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 12 February 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08116</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> 
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 12 February 1891</title>
+                    <date cert="high" when="1891-02-12" xml:id="dat1">February 12, 1891</date> 
+                    <idno type="callno">MSS18630, Box 5, Reel 3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00100</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt 
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-27" who="#smb">completed director's corrections</change>
+            <change when="2021-02-02" who="#smb">final check, corrected</change>
+            <change when="2021-01-29" who="#blh">Second check: added DOI, corrected transcription, added notes</change>
+            <change when="2020-06-27" who="#adk">first check, corrected</change>
+            <change when="2019-12-09" who="#zs">Added images</change>
+            <change when="2019-11-13" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00280.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Medical Superintendent's</name>
+                    <name type="place">Office.</name>
+                    <name type="place">INSANE ASYLUM</name>
+                    <name type="place">LONDON ONTARIO</name>
+                    <date when="1891-02-12"><handShift rend="manuscript"/>12 Feb <handShift rend="printed"/>18<handShift rend="manuscript"/>91</date>
+                </dateline> 
+            </opener>
+            <p>Thanks, dear Walt, for the paper with the long piece on 
+                Koch's lymph.<ptr target="loc.08116_n2"/> I read it 
+                with interest and am glad to see that the American Government
+                is taking a hand in this last medical suggestion which may turn out of some importance. I 
+                have a long and very interesting letter from Wallace<ptr target="n6121"/>
+                <choice><sic>cheifly</sic><corr>chiefly</corr></choice> on the intercommunication 
+                of the human and divine. All is well here&#8212;we are having
+                bright, quite warm weather&#8212;so far we have had an ideal winter. The meter<ptr target="loc.07230_n2"/> jogs on. 
+                We are up to our necks in politics here, please the Lord
+                we will beat old John A. MacDonald<ptr target="loc.08114_n3"/> this time and get a little more freedom to move</p>
+            <closer>
+                <salute>Best Love</salute>
+                <signed>RM Bucke</signed>  
+            </closer>      
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+

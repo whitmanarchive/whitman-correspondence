@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08085"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 31 December 1890&#8211;1 January 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>
+                    Center for Digital Research in the Humanities, University of Nebraska-Lincoln
+                </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>
+                    National Historical Publications and Records Commission
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08085</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Richard Maurice Bucke, 31 December 1890&#8211;1 January 1891</title>
+                    <date cert="high" notBefore="1890-12-31" notAfter="1891-01-01" xml:id="dat1">December 31, 1890&#8211;January 1, 1891</date>
+                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, 
+                        Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt" >Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-06-10" who="#smb">final check, corrected, added notes</change>
+            <change when="2020-06-03" who="#adk">second check, corrected</change>
+            <change when="2020-05-13" who="#smb">added DOI, first check, corrected</change>
+            <change when="2020-02-25" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00216.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden New Jersey<ptr target="loc.08085_n1"/></name>
+                </dateline>
+            </opener>
+            <p>
+               Am writing this late evening <date when="1890-12-31">Dec: 31, '90,</date> 
+               &#38; tho't I w'd send you a
+               line&#8212;We all have deep sympathy with you in y'r painful dislocation<ptr target="loc.08085_n3"/> &#38;
+               sleeplessness&#8212;all continues as before here&#8212;Horace<ptr target="n4267"/> is at work at the
+                bank all night&#8212;a splendid etching "Milton Visiting Galileo"<ptr target="loc.08085_n2"/> f'm
+               Johnston<ptr target="n4102"/>&#8212;
+            </p>
+            <p>
+                <date when="1891-01-01">Jan: 1, '91</date>&#8212;Well it arrives here in the shape
+                of a dark stormy morning&#8212;but it will soon clear&#8212;
+            </p>  
+            <closer>
+                <signed>Walt Whitman</signed> 
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_zs.00215.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>  

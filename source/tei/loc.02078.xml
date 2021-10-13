@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02078">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Mary A. Fisher to Walt Whitman, 1 May 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Mary A. Fisher</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02078</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>                 
+                <bibl>
+                    <author>Mary A. Fisher</author>
+                    <title>Mary A. Fisher to Walt Whitman, 1 May 1890</title>
+                    <date cert="high" when="1890-05-01" xml:id="dat1">May 1, 1890</date>
+                    <idno type="callno">MSS18630, Box 9, Reel 5&#8211;6</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00177</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>  
+            <particDesc>
+                <person role="sender">
+                    <persName key="Fisher, Mary A." ref="loc.02078_n3">Mary A. Fisher</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-11" who="#smb">final check, corrected</change>
+            <change when="2019-07-17" who="#bbb">Second check</change>
+            <change when="2019-06-11" who="#if">First check</change>
+            <change when="2018-02-01" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02078.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">71 Java St.</name>
+                    <name type="place">Brooklyn E.D.</name>
+                    <name type="place">N.Y.</name>
+                </dateline> 
+                <salute>Mr Walt Whitman</salute>
+                <salute>Dear Sir</salute>
+            </opener>
+            <p>Would you be willing to accept of a dollar or two to furnish some little luxury which
+                you would not otherwise obtain?</p>
+            <p>It would come occasionally from a few ladies who appreciate your
+            <pb xml:id="leaf001v" facs="loc.02078.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.02078.003_large.jpg" type="recto"/>
+            genius, &#38; intend making it their life object to aid &#38; encourage literary
+                talent so far as their limited means will furnish.</p>
+            <closer>
+                <salute>Very respectfully</salute>
+                <signed>M.A. Fisher.</signed>
+              <dateline>
+                  <date when="1890-05-01">May 1st 1890.</date>
+              </dateline>
+          <address>
+              <addrLine>Mr Whitman</addrLine>
+          </address>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.02078.004_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI> 

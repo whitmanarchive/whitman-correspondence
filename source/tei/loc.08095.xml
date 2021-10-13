@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08095">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">George W. Childs to Walt Whitman, 22 May 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>George W. Childs</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="jm">Jason McCormick</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08095</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>George W. Childs</author>
+                    <title>George W. Childs to Walt Whitman, 22 May 1889</title>
+                    <date cert="high" when="1889-05-22" xml:id="dat1">May 22, 1889</date>
+                    <idno type="callno">MSS18630, Box 91</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.02104</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Childs, George W." ref="n6102">George W. Childs</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>  
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-27" who="#smb">completed director's corrections</change>
+            <change when="2021-02-07" who="#jm">corrected, rotated images</change>
+            <change when="2020-04-08" who="#smb">final check, corrected</change>
+            <change when="2020-04-07" who="#bjo">second check, corrected</change>
+            <change when="2020-03-25" who="#smb">first check, added notes</change>
+            <change when="2019-11-13" who="#zs">Added images</change>
+            <change when="2019-11-13" who="#zs">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jm.00205.jpg" type="recto"/>
+            <opener> 
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Public Ledger Building<lb/>
+                     S.W. Corner 6th &#38; Chestnut Streets,<lb/>Phildelphia.</name>
+                </dateline> 
+                <salute><handShift rend="manuscript"/>My dear old friend</salute>
+            </opener>
+            <p>I want to be present to congratulate you on your 
+                seventieth birthday,<ptr target="loc.03027_n4"/> and to tell you how glad I am that kind 
+                Providence has preserved your health, and given you so many appreciative friends.</p>
+            <closer>
+                <salute>God bless you</salute> 
+                <signed>Geo. W. Childs</signed>
+                <dateline>
+                    <date when="1889-05-22">May 22/89</date>
+                </dateline>
+                <pb xml:id="leaf001v" facs="loc_jm.00206.jpg" type="verso"/>
+            </closer>
+        </body> 
+    </text> 
+</TEI>
+
+
+
+

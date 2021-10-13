@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03016">
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt> 
+                <title level="m" type="main">Ellen M. O'Connor to Walt Whitman, 26 August 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Ellen M. O'Connor</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03016</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p> Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Ellen M. O'Connor</author>
+                    <title>Ellen M. O'Connor to Walt Whitman, 26 August 1891</title>
+                    <date cert="high" when="1891-08-26" xml:id="dat1">August 26, 1891</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00294</idno>
+                    <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="O'Connor, Ellen M." ref="n4137">Ellen M. O'Connor</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-06-18" who="#smb">final check, corrected</change>
+            <change when="2019-11-18" who="#adk">second check, corrected</change>
+            <change when="2019-11-18" who="#cn">first check</change>
+            <change when="2019-10-18" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03016.003_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">112 M St N. W.<ptr target="loc.03016_n1"/>
+                    </name>
+                    <date when="1891-08-26"> August 26. 1891.</date>
+                </dateline>  
+                <salute> Dear Walt,</salute>
+            </opener>
+            <p>Perhaps Horace Traubel<ptr target="n4267"/> has told you that I am hoping to see you
+                soon.</p>
+            <p>They kindly asked me to go to Camden to see Dr. Bucke,<ptr target="n0119"/> as I
+                shall not now be able to make the long promised visit to Canada, as I had thought of
+                doing.</p>
+            <p>It is a great pleasure to contemplate, that of seeing you again. I hope that you are
+                holding your own this summer, &#38; more than that.</p>
+            <p>You may know that I am expecting to leave Washington, &#38; give up my home in the
+                place that is dearest to me of any on earth, but so <pb xml:id="leaf001v"
+                    facs="loc.03016.004_large.jpg" type="verso"/> it is, &#38; I shall tell you
+                about it when I see you.</p>
+            <closer>
+                <salute>Till then &#38; always&#8212;love from your old friend</salute>
+                <signed>Nelly O'Connor.</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc.03016.001_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.03016.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+ 

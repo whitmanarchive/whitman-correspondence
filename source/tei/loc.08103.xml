@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08103">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Jessie Louisa Whitman to Walt Whitman, 10 November 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Jessie Louisa Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08103</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jessie Louisa Whitman</author>
+                    <title>Jessie Louisa Whitman to Walt Whitman, 10 November 1889</title>
+                    <date cert="high" when="1889-11-10" xml:id="dat1">November 10, 1889</date>
+                    <idno type="callno">MSS18630, Box 3, Reel 2</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00044</idno> 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Whitman, Jessie Louisa" ref="loc.04783_n2">Jessie Louisa Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-06-03" who="#smb">final check, corrected, added notes</change>
+            <change when="2020-06-01" who="#adk">second check, corrected, placed missing image</change>
+            <change when="2020-03-25" who="#bjo">first check, corrected</change>
+            <change when="2019-11-22" who="#zs">Transcribed and encoded</change>
+            <change when="2019-11-22" who="#zs">Added images</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00196.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">St. Louis</name>
+                    <date when="1889-11-10">Nov. 10<hi rend="underline">th</hi></date>
+                </dateline>
+                <salute>My Dear Uncle Walt,</salute> 
+            </opener>
+            <p>I have been thinking about you so much lately, that I am going to write with the hope of securing a reply.</p>
+            <p>The various magazines and papers you send are duly received and enjoyed. And I am much obliged to you
+                <pb xml:id="leaf001v" facs="loc_zs.00197.jpg" type="verso"/> 
+                for them. I am still at my old quarters 
+                and will remain for this Winter, after that is as yet an unsettled problem as I have no idea what I will do. 
+                Our papers have contained most flattering accounts of interview between 
+                Sir Edwin Arnold<ptr target="loc.07701_n2"/> and yourself and as 
+                I always was an admirer of the former, I
+                <pb xml:id="leaf002r" facs="loc_zs.00198.jpg" type="recto"/> 
+                think even more of him, for the good taste in thinking so much 
+                of "my Uncle." I have been walking a good deal lately, sometimes doing three miles at once, and find it makes 
+                a body feel a great deal better, to get out doors helps lots of the bad and blue feelings.</p>
+            <p>I am kept posted 
+                <pb xml:id="leaf002v" facs="loc_zs.00198.jpg" type="verso"/>
+                with the Eastern news by letters from Aunt Lou,<ptr target="n0368"/> she is lovely about writing.</p>
+            <p>Well, dear Uncle Walt, I hope you will keep well, and treat me to a line occasionally.</p>
+            <p>With regards to Mrs. Davis<ptr target="n6113"/> and lots of love to yourself, I remain</p>
+            <closer>
+                <salute>Yours aff.</salute>
+                <signed>Jessie</signed>
+                <address>
+                    <addrLine>#2437 2<hi rend="underline">d</hi> Cardt Ave.</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>
+
+
+
+

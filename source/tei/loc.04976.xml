@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04976"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> 
+                <title level="m" type="main">William J. Bok to Walt Whitman, 18 October 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William J. Bok</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04976</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William J. Bok</author>
+                    <title>William J. Bok to Walt Whitman, 18 October 1890</title>
+                    <date cert="high" when="1890-10-18" xml:id="dat1">October 18, 1890</date>
+                    <idno type="callno">MSS18630, Box 41, Reel 26</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.01347</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.08451"/>
+                    <relatedItem type="document" target="wwa.00640"/>
+                    <note type="project" target="#rel01">Whitman drew a line in black ink through Bok's letter and the enclosed
+                    information about the contributors to Bok Syndicate press. On the back, he wrote a note regarding "Mr.
+                    Bourquin," perhaps intending to present the Bok materials to Bourquin.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bok, William J." ref="loc.04976_n1">William J. Bok</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc> 
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2021-07-23" who="#smb">completed director's corrections</change>
+            <change when="2021-06-01" who="#smb">final check, corrected multitext encoding, added DOI and notes</change>
+            <change when="2020-10-12" who="#bjo">wrote and added correspondent note</change>
+            <change when="2020-06-12" who="#adk">second check, added multitext encoding</change>
+            <change when="2020-06-09" who="#cn">first check, corrected</change>
+            <change when="2020-04-05" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jm.00360.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                <handShift rend="typescript"/>
+                <name type="place">EDWARD W. BOK.</name>
+                <name type="place">WILLIAM J. BOK.</name>
+                <name type="place">EDITORIAL DEPARTMENT</name>
+                <name type="place">THE BOK SYNDICATE PRESS</name>
+                <name type="place">No. 23 Park Row, New York</name>
+                <name type="place">Cable Address:</name>
+                <name type="place">BOK, NEW YORK."</name>
+               <date when="1890-10-18">October 18, 1890.</date>
+                </dateline>
+                <salute>Walt Whitman. <handShift rend="manuscript"/>Esqre.&#8212;</salute>
+                <salute><handShift rend="typescript"/>My dear Mr. Whitman:&#8212;</salute>
+            </opener>
+            <p>
+                <handShift rend="typescript"/>May I not be favored with your literary plans for the balance of the Autumn and the coming
+               Winter? Also if you are engaged in doing Christmas work? I will be greatly obliged to you for
+               this courtesy, let me assure you.
+            </p>
+            <p>
+                <handShift rend="typescript"/>Allow me to enclose one of our recent literary letters. I earnestly hope to be honored with
+                a line or two from you e<handShift rend="manuscript"/>'<handShift rend="typescript"/>re long.
+            </p>
+            <closer>
+                <salute>
+                    <handShift rend="manuscript"/>
+                    With respect,
+                </salute>
+                <salute>
+                    Heartily yours,
+                </salute>
+                <signed><hi rend="underline">William J. Bok.</hi></signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_jm.00361.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_jm.00365.jpg" type="recto"/>
+        </body>    
+    </text> 
+</TEI>

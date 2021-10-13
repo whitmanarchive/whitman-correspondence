@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08323">
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Dr. John Johnston, 29 September 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08323</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the 
+                     Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution 
+                     or republication on other terms, in any medium, requires express written consent from the editors and 
+                     advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                     reproduce the graphic images in this archive has been granted by the owners of the originals for 
+                     this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">248</biblScope> 
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Dr. John Johnston, 29 September 1891</title>
+                    <date cert="high" when="1891-09-29" xml:id="dat1">September 29, 1891</date>
+                    <idno type="callno">MMC-1482; MSS90019</idno>
+                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1899&#8211;1913, 
+                        Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Johnston, Dr. John" ref="n4102">Dr. John Johnston</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-06-29" who="#smb">final check, corrected</change>
+            <change when="2021-06-28" who="#blh">Second check: added notes, corrected transcription</change>
+            <change when="2021-04-07" who="#smb">first check, corrected</change>
+            <change when="2020-10-08" who="#rf">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body> 
+            <opener>  
+                <dateline>
+                    <name type="place">Camden NJ&#8212;US America<ptr target="loc.08323_n1"/></name>
+                    <date when="1891-09-29">PM Sept: 29 '91</date>
+                </dateline>
+            </opener>
+            <p>Altho' you doubtless have full &amp; particular news f'm J W
+                W[allace]<ptr target="n6121"/> &amp; perhaps Dr B[ucke]<ptr target="n0119"/> I will send you these&#8212;probably by the
+                time all this gets to you W is <hi rend="italic">here</hi> with us<ptr target="loc.04403_n2"/>&#8212;At present I feel like writing
+                myself &amp; condition <hi rend="italic">the same subject continued</hi>&#8212;possibly a little <hi rend="italic">plus</hi> as it
+                is to day cloudy &amp; tolerable after an unprecedented September hot spell &amp;
+                continued sun-glare&#8212;bad for me&#8212;I am up &amp; sitting here by the window
+                as I write&#8212;Love<ptr target="loc.08323_n2"/>&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed> 
+            </closer>
+        </body>
+    </text>
+</TEI>

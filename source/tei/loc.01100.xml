@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01100">  
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Werner Bruns to Walt Whitman, 1 October 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Werner Bruns</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01100</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Werner Bruns</author>
+                    <title>Werner Bruns to Walt Whitman, 1 October 1891</title>
+                    <date cert="high" when="1891-10-01" xml:id="dat1">October 1, 1891</date>
+                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00063</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key= "Bruns, Werner" ref="loc.01100_n1">Werner Bruns</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2021-07-22" who="#smb">completed director's corrections</change>
+            <change when="2021-07-07" who="#smb">final check, corrected</change>
+            <change when="2021-07-06" who="#bjo">added correspondent note</change>
+            <change when="2021-07-01" who="#blh">Second check: verified transcription and encoding</change>
+            <change when="2020-10-05" who="#smb">added DOI, checked</change> 
+            <change when="2019-10-09" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01100.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>WERNER BRUNS,</name>
+                    <name type="place">ATTORNEY AND COUNSELLOR AT LAW,</name>
+                    <name type="place">218 FULTON STREET.</name>
+                    <name type="place">S. E. Cor. Greenwich Street.</name>
+                    <name type="place">NEW JERSEY OFFICE:</name>
+                    <name type="place">137 Ocean Ave., Jersey City.</name>
+                    <date when="1891-10-01">New York, <handShift rend="manuscript"/> Oct 1. 
+                        <handShift rend="printed"/>189<handShift rend="manuscript"/>1</date>
+                </dateline>
+                <salute>Hon. Walt. Whitman</salute>
+                <salute>Camden, New Jersey.</salute> 
+                <salute>Dear Sir,</salute>
+            </opener>
+            <p>Will you have the kindness to inform me, whether you are interested in any land at or near a place called Breslau 
+                in the town of 
+                Babylon formerly in the town of Huntington, Suffolk County Long Island, New York? if so, whether you are the only and 
+                absolute owner, and whether the same can be purchased, and at what price? If you will kindly oblige me with an answer 
+                you will greatly oblige
+            </p>
+            <closer>
+                <salute>Yours very respectfully</salute>
+                <signed>Werner Bruns.</signed> 
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.01100.002_large.jpg" type="verso"/>
+        </body>
+    </text> 
+</TEI>

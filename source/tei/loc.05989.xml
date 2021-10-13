@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05989">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">George J. Spinner to Walt Whitman, 28 November 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>George J. Spinner</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName> 
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="bjo">Brandon James O'Neil</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05989</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>George J. Spinner</author>
+                    <title>George J. Spinner to Walt Whitman, 28 November 1891</title>
+                    <date cert="high" when="1891-11-28" xml:id="dat1">November 28, 1891</date> 
+                    <idno type="callno">MSS18630, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00041</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 
+                        1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                    <relatedItem type="text" xml:id="rel01" target="loc.04808"/>
+                    <relatedItem type="document" target="wwa.00608"/>
+                    <note type="project" target="#rel01">Whitman drew a vertical line in blue crayon through this autograph request and used the verso to write
+                        a letter to his sister Hannah Whitman Heyde, dated December 7, 1891. The left margin of the page has been cut
+                        away, removing part of the text of Spinner's letter. Whitman's letter to his sister remains intact.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Spinner, George J." ref="loc.05989_n1">George J. Spinner</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-27" who="#smb">completed director's corrections</change>
+            <change when="2020-12-04" who="#smb">final check, corrected, added DOI</change>
+            <change when="2020-12-04" who="#bjo">added correspondent note</change>
+            <change when="2020-06-22" who="#adk">second check, corrected</change>
+            <change when="2020-06-22" who="#cn">first check, corrected</change>
+            <change when="2020-01-30" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jp.00224_large.jpg" type="recto"/>
+            <opener rend="center">
+                <dateline>
+                <name type="place"><handShift rend="printed"/>Warren, Pa.,</name>
+                <date when="1891-11-28"><handShift rend="manuscript"/>Nov. 28 <handShift rend="printed"/>189<handShift rend="manuscript"/>1</date>
+                </dateline>
+                <salute><supplied reason="cut-away" resp="#smb" cert="high">Walt</supplied> <supplied reason="cut-away" resp="#smb" cert="high">W</supplied>hitman Esq.</salute>
+                <salute><supplied reason="cut-away" resp="#smb" cert="high">C</supplied>amden. N.J.</salute>
+                <salute>My Kind Sir:</salute>
+            </opener>
+            <p>
+                I am try<supplied reason="cut-away" resp="#smb" cert="high">ing</supplied> hard to collect the 
+                auto<supplied reason="cut-away" resp="#smb" cert="high">gra</supplied>phs of all the men of note
+                <gap reason="cut away" quantity="2" unit="chars"/> all parts of the country
+                <gap reason="cut away" quantity="3" unit="chars"/> I would be pleased very
+                <supplied reason="illegible" resp="#smb" cert="high">mu</supplied>ch if you would send
+                <supplied reason="illegible" resp="#smb" cert="high">me</supplied> yours&#8212;which I hope
+                <supplied reason="illegible" resp="#smb" cert="high">you</supplied> will, and oblige.
+            </p>
+            <closer>  
+                <salute>Yours sincerely</salute>
+                <signed>Geo. J. Spinner</signed>
+                <address>
+                    <addrLine>348 WaterSt</addrLine>
+                    <addrLine>Warren Pa</addrLine>
+                </address>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_jp.00223_large.jpg" type="versp"/>
+        </body>
+    </text>
+</TEI>

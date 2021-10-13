@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03250">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">John William Lloyd to Walt Whitman, 30 November 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John William Lloyd</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName> 
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03250</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John William Lloyd</author>
+                    <title>John William Lloyd to Walt Whitman, 30 November 1891</title>
+                    <date cert="high" when="1891-11-30" xml:id="dat1">November 30, 1891</date> 
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00268</idno>
+                    <orgName xml:id="loc">
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="William Lloyd, John" ref="loc.03250_n3">John William Lloyd</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>  
+        <revisionDesc>
+            <change when="2021-07-28" who="#smb">completed director's corrections</change>
+            <change when="2020-09-17" who="#smb">final check, corrected</change>
+            <change when="2020-09-14" who="#bjo">added correspondent note</change>
+            <change when="2020-06-23" who="#adk">second check, added notes</change>
+            <change when="2020-06-22" who="#cn">first check</change>
+            <change when="2020-01-30" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03250.001_large.jpg" type="recto"/>
+            <opener rend="center">
+                <dateline>
+                <name type="place">5 East 63<hi rend="underline">d</hi> Street, New York City.</name>
+                <date when="1891-11-30">11/30-'91.</date>
+                </dateline>
+                <salute>To Walt Whitman:</salute>
+            </opener>
+            <p>It is impossible to think of you as addressed formally, and so I address you directly.</p>
+            <p>For years you have been to me an inspiration and a reverence, as you are to thousands of the young men of America.</p>
+            <p>I wish to purchase your complete poems, latest edition, and have been told that I could order them from you direct, but the price was unknown.</p>
+            <p>I enclose three dollars. If too small I will remit balance. If too much, do not return anything.</p>
+            <p>I never before asked a great man for his autograph, but if I could see your name, written by yourself, on the fly leaf it would be my most valued treasure.</p>
+            <p>I trust the enclosed poem will not offend.<ptr target="loc.03250_n1"/></p>
+            <p>Please send to the above address in "Mannahatta."<ptr target="loc.03250_n2"/></p>
+            <closer>
+                <signed>J. Wm. Lloyd.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.03250.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

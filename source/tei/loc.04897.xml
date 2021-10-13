@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04897">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">George N. Lovejoy to Walt Whitman, 12 August 1884</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>George N. Lovejoy</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04897</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>George N. Lovejoy</author>
+                    <title>George N. Lovejoy to Walt Whitman, 12 August 1884</title>
+                    <date cert="high" when="1884-08-12" xml:id="dat1">August 12, 1884</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.07067"/>
+                    <relatedItem type="document" target="wwa.00183"/>
+                    <note type="project" target="#rel01">On the back of this letter, Whitman wrote notes for a "Preface" for "Specimen Days"
+                    that would "smoothe" the "rugged exegesis" of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Lovejoy, George N." ref="n7059">George N. Lovejoy</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-03-05" who="#smb">final check, corrected</change>
+            <change when="2016-07-07" who="#nhg">adjusted relatedItem encoding</change>
+            <change when="2016-05-25" who="#if">edited, corrected</change>
+            <change when="2016-03-26" who="#aa">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">  
+        <body>
+            <pb xml:id="leaf001r" facs="loc_es.00002.jpg" type="recto"/>
+            <note type="editorial" place="right" resp="#unk">3</note>
+            <opener>
+                <dateline>
+                    <name type="place">Ann Arbor. Michigan.<ptr target="loc.04897_n2"/></name>
+                    <date when="1884-08-12">August 12<hi rend="underline">th</hi> 1884.</date>
+                </dateline>
+                <salute>Mr. Walt Whitman.</salute>
+                <salute>My Dear Sir:</salute> 
+            </opener>
+            <p>In Baldwin's Monthly<ptr target="loc.04897_n1"/> for July there was quite a long article relating to yourself,<ptr target="loc.04897_n3"/>
+                written by me. I do not know whether you read it or not, but fancy that you did. You
+                have doubtless forgotten me, though I met you&#8212;as I have narrated&#8212;in the
+                article.</p>
+            <pb xml:id="leaf001v" facs="loc_es.00001.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI> 

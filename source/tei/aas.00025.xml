@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="aas.00025">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William S. Ingram to Walt Whitman, 24 December 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William S. Ingram</author>
+                <editor>Kenneth M. Price</editor>   
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>aas.00025</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William S. Ingram</author>
+                    <title>William S. Ingram to Walt Whitman, 24 December 1890</title>
+                    <date cert="high" when="1890-12-24" xml:id="dat1">December 24, 1890</date>
+                    <orgName xml:id="aas">Bolton-Stanwood Family Papers, American Antiquarian Society</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="aas.00001"/>
+                    <relatedItem type="document" target="wwa.00199"/>
+                    <note type="project" target="#rel01">Whitman drew a line in ink through
+                        this letter. On the back, he wrote draft of his poem, "Ship Ahoy!," 
+                        which is signed and dated "Jan. 2 1891."</note>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>  
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Ingram, William S." ref="n0323">William S. Ingram</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-29" who="#smb">completed director's corrections</change>
+            <change when="2020-07-20" who="#smb">second check, corrected</change> 
+            <change when="2020-07-20" who="#adk">second check, corrected</change> 
+            <change when="2019-11-11" who="#cn">first check, corrected</change> 
+            <change when="2019-10-03" who="#adk">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="aas.00001.002.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <handShift rend="printed"/>
+                    <name type="place">William S. Ingram,</name>
+                    <name type="place">DEALER IN</name>
+                    <name type="place">TEA, COFFEE, SUGAR AND SPICES.</name>
+                    <name type="place">31 N. SECOND STREET.</name>
+                    <name type="place">(Opposite Christ Church.)</name>
+                    <name type="place">Phila., Pa.,</name> 
+                    <date when="1890-12-26"><handShift rend="manuscript"/>12 <handShift rend="printed"/>mo <handShift rend="manuscript"/>24 <handShift rend="printed"/>18<handShift rend="manuscript"/>90</date>
+                </dateline>
+                <salute>Walt Whitman.</salute>
+                <salute>Dear Friend:</salute>
+            </opener>
+            <p>I send you over to-day Tea, Coffee Spices and a bottle of wine as a <hi rend="underline">Christmas Present.</hi></p>
+            <p>Hoping you will have a pleasant one and many of them</p>
+            <closer>
+                <salute>I remain</salute>
+                <salute>your friend,</salute>
+                <signed>Wm Ingram</signed>
+                <signed>per W S.I.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="aas.00001.001.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>  

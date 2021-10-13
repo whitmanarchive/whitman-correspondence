@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00709"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Ellen M. O'Connor, 25 September 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00709</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">93</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Ellen M. O'Connor, 25 September 1890</title>
+                    <date cert="high" when="1890-09-25" xml:id="dat1">September 25, 1890</date>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
+                        American Literature, New York Public Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+           
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="O'Connor, Ellen M." ref="n4137">Ellen M. O'Connor</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-03-03" who="#smb">final check, corrected, added notes</change>
+            <change when="2020-02-07" who="#blh">Second check; correcting transcription, adding notes, correcting encoding</change>
+            <change when="2019-06-05" who="#if">first check</change>
+            <change when="2017-06-02" who="#aa">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden New Jersey<ptr target="nyp.00709_n1"/></name>
+                    <date when="1890-09-25">Sept. 25 1890</date>
+                </dateline>
+                <salute>My dear friend</salute>
+            </opener>
+            <p>Here is the Preface<ptr target="loc.07799_n4"/>&#8212;three printed slips, copies&#8212;not so much of preface to
+                the tales but my memorial &#38; reminiscence of dear W[illiam]<ptr target="n2002"
+                />&#8212;&#38; to give a dash of appropriate &#38; something (I hardly can say what
+                but I think I know) different or varied to the book<ptr target="loc.07351_n4"/>&#8212;</p>
+            <p>How are you getting
+                along?&#8212;I often think ab't you &#38; Wm &#38; old times&#8212;&#38; you &#38;
+                y'r fortunes present tapering off the rest. I am here in the same spot &#38; in not
+                much different conditions&#8212;good spirits enough (constitutional I guess,
+                physiological likely)&#8212;but almost a complete bodily wreck, cannot get across
+                the room without holding on to something or being led&#8212;have a stout man
+                nurse<ptr target="loc.07319_n6"/>&#8212;go out doors in wheel chair<ptr target="loc.03012_n1"/> 
+                occasionally&#8122;was out yesterday at sunset&#8212;I sell my own books when I can get purchasers &#38; am
+                still rejected by all the magazines&#8212;my right arm power &#38; volition good
+                yet&#8212;appetite, sleep &#38;c: fair&#8212;am now well on my 72d year&#8212;have
+                the <hi rend="italic">grip</hi> rather bad&#8212;cool spell of weather
+                here&#8212;Dr Bucke<ptr target="n0119"/> is well&#8212;Horace Traubel<ptr
+                    target="n4267"/> comes daily&#8212;</p> 
+            <closer>
+                <salute>God bless you&#8211;</salute>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>  
+</TEI>

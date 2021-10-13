@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00961">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 18 January 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00961</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 18 January 1889</title>
+                    <date cert="high" when="1889-01-18" xml:id="dat1">January 18, 1889</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein
+                        RareBook &#38; Manuscript Library, Duke University.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-03-03" who="#smb">final check, corrected, added notes</change>
+            <change when="2019-06-10" who="#if">checked, corrected</change>
+            <change when="2019-06-03" who="#aa">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="duk.00537.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.</name>
+                    <name type="place">Asylum<lb/>for the Insane</name>
+                    <name type="place">London.</name>
+                    <name type="place">Ontario</name> 
+                    <name type="place">London, Ont.,</name>
+                    <date when="1889-01-18"><handShift rend="manuscript"/>18 Jan <handShift
+                            rend="printed"/>188<handShift rend="manuscript"/>9</date>
+                </dateline> 
+            </opener>
+            <p>All quiet here; the ground is frozen again and of course the roads are more difficult
+                to travel than the path to heaven, all lumps and ruts. I am reading George
+                    Eliot's<ptr target="n3044"/> Romola<ptr target="duk.00961_n1"/> over
+                again&#8212;have not read it for many years&#8212;do not find it as much of a book
+                as I used to fancy it&#8212;a lot of padding in it. We have had a new deal in our
+                Ontario gov<hi rend="underline">t</hi> (just heard of it an hour
+                    ago)&#8212;Pardee's<ptr target="n4274"/> resignation has apparently been
+                accepted for A.S. Hardy<ptr target="duk.00941_n2"/> (who was Provincial
+                    Secretary&#8212;and<pb xml:id="leaf001v" facs="duk.00537.002_large.jpg"
+                    type="verso"/> in whose department <unclear reason="illegible" resp="#aa"
+                    cert="low">runs</unclear> the asylum) is made Commissioner of Crown Lands and a
+                new man (Gibson of Hamliton)<ptr target="duk.00941_n3"/> is made Provincial Secretary. <hi
+                    rend="underline">We</hi> (i.e. the asylum officials) shall not be sorry for the
+                change tho' I cannot say that I care particularly&#8212;Mr Hardy always used me
+                well. Still on the whole the change will probably be a good one for the asylum
+                service. Patients dance going on upstairs in the amusement room&#8212;I must go
+                up.</p> 
+            <closer>
+                <salute>I send you best wishes</salute>
+                <signed>R M Bucke</signed> 
+            </closer>
+        </body> 
+    </text>  
+</TEI>

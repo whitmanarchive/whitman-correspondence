@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03164">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William Sloane Kennedy to Walt Whitman, 21 May 1891</title> 
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William Sloane Kennedy</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03164</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William Sloane Kennedy</author>
+                    <title>William Sloane Kennedy to Walt Whitman, 21 May 1891</title>
+                    <date cert="high" when="1891-05-21" xml:id="dat1">May 21, 1891</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00257</idno>
+                    <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace
+                    Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-06-21" who="#smb">final check, correctd, added notes</change>
+            <change when="2021-05-02" who="#aa">second check; added DOI; corrected and
+                revised</change>
+            <change when="2021-03-05" who="#rf">Checked, corrected</change>
+            <change when="2019-11-21" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body> 
+            <pb xml:id="leaf001r" facs="loc.03164.002_large.jpg" type="recto"/>
+            <p>The<ptr target="loc.03164_n1"/> good-bye sheets rec'd,<ptr target="loc.03164_n2"/> &#38; read through this eve, &#38; notice
+                written&#8212;what pretty typography! I enjoyed all think The Sunset Breeze <ptr target="loc.03164_n3"/> the best
+                of all.</p>
+            <closer>
+                <salute>W. S. K.</salute> 
+            </closer>
+            <postscript>
+                <p>I wrote Idyl of the Lilac other day Tues
+                        <unclear reason="illegible" resp="#cn" cert="low">paper</unclear> p7</p>
+            </postscript>
+            <pb xml:id="leaf001v" facs="loc.03164.001_large.jpg" type="verso"/>
+            <note type="editorial" place="right" resp="#ht">see notes May 22 1891</note>
+        </body>
+    </text>
+</TEI>

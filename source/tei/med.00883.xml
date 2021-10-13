@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00883">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to John Burroughs, [2 March 1890]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>med.00883</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">29</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl> 
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to John Burroughs, [2 March 1890]</title>
+                    <date cert="medium" when="1890-03-02" xml:id="dat1">[March 2, 1890]</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown. Miller's transcription is derived
+                    from a transcription of the letter that was published in Clara Barrus, <hi rend="italic">Whitman and Burroughs&#8212;Comrades (Boston: Houghton Mifflin, 1931), 291&#8211;292.</hi></orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>  
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>    
+                <person role="recipient">
+                    <persName key="Burroughs, John" ref="n0129">John Burroughs</persName>
+                </person>
+            </particDesc>   
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2019-07-02" who="#smb">final check, corrected, added notes</change>
+            <change when="2019-06-26" who="#bbb">Second check</change>
+            <change when="2019-06-03" who="#if">First check, corrected</change>
+            <change when="2017-12-11" who="#bbb">Encoded</change>
+        </revisionDesc>
+    </teiHeader>  
+    <text type="letter"> 
+        <body>  
+            <opener>
+                <dateline>
+                    <date when="1890-03-02">[3.2(?).1890]<ptr target="med.00883_n1"/></date>
+                </dateline>
+            </opener>
+            <p>Yours came yesterday and welcomed.<ptr target="med.00883_n2"/> I am here yet and
+                allowing for the wear and decay-change, the situation continues much the same. You
+                know I am well on my 71st year&#8212;lame and almost helpless in
+                locomotion&#8212;inertia like a heavy swathing ample dropping pall over me most of
+                the time, but my thoughts and to some extent mental action ab't the same as ever
+                (queer ain't it?)</p>
+            <p>I have had my daily mid-day massage (another just as I go to bed). Tho't of going out
+                a little in my wheel chair<ptr target="loc.03012_n1"/> but it is bitter cold today here and I shall not. I have
+                just sent a half-page poem to Gilder,<ptr target="n0871"/> they have accepted, paid,
+                proofed it, and I believe it will be out in May number.<ptr target="loc.07757_n2"/></p>
+            <p>I have just had a drink of milk punch&#8212;am sitting at present in my two-story den
+                in Mickle St, alone as usual, more buoyant than you might suppose</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>  
+        </body> 
+    </text>  
+</TEI> 

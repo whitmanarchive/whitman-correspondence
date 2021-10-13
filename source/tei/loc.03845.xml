@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03845">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Robert Pearsall Smith, 20 June 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03845</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Robert Pearsall Smith, 20 June 1890</title>
+                    <date cert="high" when="1890-06-20" xml:id="dat1">June 20, 1890</date>
+                    <idno type="callno">MSS18630, Box 16, Reel 10</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00351</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt"></persName>
+                </person> 
+                <person role="recipient">
+                    <persName key="Smith, Robert Pearsall" ref="n4979">Robert Pearsall Smith</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2020-01-09" who="#smb">final check, corrected</change>
+            <change when="2019-07-23" who="#bbb">Second check</change>
+            <change when="2019-07-19" who="#rf">First Check, corrected</change>
+            <change when="2019-07-18" who="#if">Transcribed and encoded</change> 
+        </revisionDesc>
+    </teiHeader>   
+    <text type="letter"> 
+        <body> 
+            <pb xml:id="leaf001r" facs="loc_jc.00225_large.jpg" type="recto"/>
+            <opener> 
+                <dateline>
+                    <name type="place">Camden New Jersey US America<ptr target="loc.03845_n1"/></name>
+                    <date when="1890-06-20">June 20 1890</date>
+                </dateline> 
+            </opener>
+            <p>
+                This is the dinner card I thot might be a small curio for you&#8212;Am getting along fairly these days (of course steadily down hill)&#8212;we 
+                have had some very hot weather&#8212;just present just right cool enough&#8212;I get down to the river side at sunset in wheel chair<ptr target="loc.03012_n1"/> &#38; 
+                if the evn'g is pleasant stay an hour&#8212;had my breakfast this mn'g of oatmeal porridge black raspberries &#38; tea&#8212;(eat 
+                only two meals a day)&#8212;miss Alys<ptr target="n7014"/> a good deal<ptr target="loc.03845_n2"/>&#8212;sell a book occasionally&#8212;am sitting 
+                here now in my den in Mickle St. in my big chair all comfortable quiet out&#8212;my last poem piece was rejected &#38; sent back by the 
+                <hi rend="underline">Century</hi><ptr target="loc.07929_n4"/>&#8212;I have now been bluff'd by all the magazines here but you know I am used to that&#8212;Love to 
+                Mary<ptr target="n6109"/> &#38; Logan<ptr target="loc.03835_n2"/> &#38; Alys &#38; all &#38; God bless you all<ptr target="loc.03845_n3"/>
+            </p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_jc.00226_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_jc.00223_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_jc.00224_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+
+

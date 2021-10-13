@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="syr.00053">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Mary Ashley to Walt Whitman, 7 January 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>  
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>syr.00053</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Horace Traubel</editor>
+                        <title xml:id="ht">With Walt Whitman in Camden (1906–1998)</title>
+                        <imprint>
+                            <pubPlace>Philadelphia, PA</pubPlace>
+                            <publisher>University of Pennsylvania Press</publisher>
+                            <biblScope type="volume">4</biblScope>
+                            <date when="1953">1953</date>
+                            <biblScope type="page">5&#8211;6</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Mary Ashley</author>
+                    <title>Mary Ashley to Walt Whitman, 7 January 1889</title>
+                    <date cert="high" when="1889-01-07" xml:id="dat1">January 7, 1889</date>
+                    <orgName xml:id="syr">Walt Whitman Collection, Special Collections Research
+                        Center, Syracuse University Library, Syracuse, N.Y.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Ashley, Mary" ref="n3334">Mary Ashley</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-07-26" who="#smb">updated final corrections</change>
+            <change when="2018-12-05" who="#smb">final check, corrected, added notes</change>
+            <change when="2018-01-17" who="#ss">second check</change>
+            <change when="2017-11-30" who="#cb">first checked</change>
+            <change when="2017-10-30" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body> 
+            <opener> 
+                <dateline>
+                    <name type="place">16 New Kind Street,</name>
+                    <name type="place">Bath, England,</name>
+                    <date when="1889-01-07">January 7, 1889.</date>
+                </dateline>
+                <salute>Dear Sir:</salute>
+            </opener>
+            <p>I have very often felt that I should like to write to you and tell you how much
+                pleasure and instruction your books have given me, and now I have determined that I
+                will do so, because I have just read November Boughs<ptr target="n3999"/> and am so much pleased with
+                it.</p>
+            <p>I have been watching for it to be published for some time, ever since I saw in The
+                Pall Mall Gazette that you were engaged on it. Some of the poetical pieces in it
+                please me greatly.</p>
+            <p>I have long cared for Leaves of Grass and Specimen Days.<ptr target="n4121"/> I love nature so much myself
+                that there is much in Specimen Days that appeals to me. I have often experienced the
+                feeling of absorbing into myself, physically and spiritually, the very life and
+                spirit of nature. It is a thing that must be felt to be understood. The other papers
+                in that book are interesting to me too. The broad and deep views you take of the
+                future of democracy in America&#8212;everything connected with America&#8212;is a most
+                interesting study to me. Your poems touch me very deeply as all true poetry that
+                comes from the heart must do.</p>
+            <p>Please accept my best wishes that the year we have entered upon may bring to you much
+                calm peacefulness, and that you may experience much comfort and sympathy in return
+                for that which you have so generously given to others during your life.</p>
+            <p>I hope you will not think that I shall expect any reply to this, for I know how weak
+                you are, and that you are not able to reply to all the letters that you receive.<ptr target="syr.00053_n1"/></p>
+            <closer>
+                <salute>I am, my dear sir, yours very truly and gratefully,</salute>
+                <signed>Mary Ashley</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

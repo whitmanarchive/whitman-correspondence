@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04984">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 13 April 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04984</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 13 April 1890</title>
+                    <date cert="high" when="1890-04-13" xml:id="dat1">April 13, 1890</date>
+                    <idno type="callno">MSS18630, Box 34, Reel 22</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00996</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.08443"/>
+                    <relatedItem type="document" xml:id="rel101" target="wwa.00633"/>
+                    <note type="project" target="#rel01">Whitman used the verso of this letter to draft
+                        notes for his essay "Death of Abraham Lincoln" for the <hi rend="italic">Boston
+                        Evening Transcript</hi>.</note> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-13" who="#smb">final check, corrected</change>
+            <change when="2020-06-05" who="#blh">Second check: correcting transcription, metadata, adding notes</change>
+            <change when="2020-05-01" who="#adk">Checked and corrected transcription and metadata, added multitext encoding</change>
+            <change when="2019-10-11" who="#zs">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00546.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.</name>
+                    <name type="place">ASYLUM</name>
+                    <name type="place">FOR THE INSANE</name>
+                    <name type="place">LONDON.</name>
+                    <name type="place">ONTARIO</name>
+                    <name type="place">London, Ont.,<ptr target="loc.04984_n1"/></name>
+                    <date when="1890-04-13"><handShift rend="manuscript"/>13 April 
+                        <handShift rend="printed"/>18<handShift rend="manuscript"/>90</date>
+                </dateline>
+            </opener> 
+            <p>I have your cards of 8<hi rend="underline">th</hi> and 9<hi rend="underline">th</hi><ptr target="loc.04984_n2"/> 
+                Have had the inspector<ptr target="loc.04984_n3"/> here the last two days 
+               and a lot of work and worry along with him (as usual)&#8212;this has kept me from 
+               writing&#8212;you speak of being "easier" but I feel very anxious about you and think 
+               I shall hurry up and see you soon, probably early in May. I did think of putting off 
+               my trip until the end of May but there are reasons why I had better go now&#8212;I 
+               might not be able to go at the end of May.<ptr target="loc.04984_n4"/> </p>
+            <p>The weather here has turned warm, almost summer today&#8212;sun shining, 
+               birds singing&#8212;buds bursting out. No doubt it will be cold again in a day or 
+               two, too early for real spring yet</p>
+            <closer>
+                <signed>R M Bucke</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_zs.00547.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

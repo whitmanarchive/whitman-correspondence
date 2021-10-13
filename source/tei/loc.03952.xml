@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03952">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Ada H. Spaulding to Walt Whitman, 26 December 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Ada H. Spaulding</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor> 
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="eh">Ethan Heusser</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="jm">Jason McCormick</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03952</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Ada H. Spaulding</author>
+                    <title>Ada H. Spaulding to Walt Whitman, 26 December 1891</title>
+                    <date cert="high" when="1891-12-26" xml:id="dat1">December 26, 1891</date>
+                    <idno type="callno">MSS18630</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00354</idno>
+                    <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Spaulding, Ada H." ref="n3118">Ada H. Spaulding</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-22" who="#smb">completed director's corrections</change>
+            <change when="2021-07-09" who="#smb">final check, revised</change>
+            <change when="2021-06-16" who="#aa">second check; added DOI; corrected and revised</change>
+            <change when="2020-10-22" who="#jm">added envelope images</change>
+            <change when="2020-08-04" who="#cn">first check, corrected</change>
+            <change when="2020-05-25" who="#eh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jc.00363_large.jpg" type="recto"/>
+            <opener>
+                <salute>Dear Walt Whitman:</salute>
+            </opener>
+            <p>Christmas Day was saddened by the news of your illness. On today we rejoice that you
+                are better. There are many, now, who give thanks for your glorious work for life,
+                for purity&#8212;for both in one; and the number will increase. You have <pb
+                    xml:id="leaf001v" facs="loc_jc.00365_large.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc_jc.00364_large.jpg" type="recto"/> helped make homes
+                happy; you have taught lovers to love wisely; you have helped men to pray, who, but
+                for you would have known only irreverence.</p>
+            <p>God bless you!</p> 
+            <p>And if you <hi rend="underline">can</hi> come back&#8212;tell us
+                again&#8212;that all is good.</p>
+            <closer>
+                <salute>With tender gratitude,</salute>
+                <signed>A. H. Spaulding</signed>
+                <address>
+                    <addrLine>Boston.</addrLine>
+                </address>
+                <dateline>
+                    <date when="1891-12-26">Dec. 26</date>
+                </dateline>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc_jc.00366_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07377">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">C. A. Spofford to Walt Whitman, 12 February 1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07377</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>C. A. Spofford</author>
+                    <title>C. A. Spofford to Walt Whitman, 12 February 1887</title>
+                    <date cert="high" when="1887-02-12" xml:id="dat1">February 12, 1887</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.07376"/>
+                    <relatedItem type="document" target="wwa.00044"/>
+                    <note type="project" target="#rel01">Whitman drew a line through Spofford's letter&#8212;crossing it out&#8212;and wrote
+                    a draft of a prose piece on the back that discusses a published catalogue of four to five thousand known American poems.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>  
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Spofford, C. A." ref="loc.07377_n2">C. A. Spofford</persName>
+                </person>  
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-07-24" who="#smb">final corrections</change>
+            <change when="2019-07-24" who="#smb">final corrections</change>
+            <change when="2018-10-18" who="#smb">final check, corrected, added notes</change>
+            <change when="2016-05-27" who="#ss">second round of checks</change>
+            <change when="2016-05-23" who="#if">edited</change>
+            <change when="2016-01-22" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_es.00791_large.jpg" type="recto"/>
+            <note type="editorial" place="top" resp="#ww">green card sent</note>
+            <opener>
+                <dateline>
+                    <name type="place">Mills Building,<ptr target="loc.07377_n1"/></name>
+                    <name type="place">New York,</name>
+                    <date when="1887-02-12">Feb. 12, 1887.</date><lb/>
+                    <address>
+                        <addrLine></addrLine>
+                        <addrLine>Walt Whitman Esq.</addrLine>
+                        <addrLine>Camden, N.J.</addrLine> 
+                    </address>
+                </dateline>
+                <salute>Dear Sir:</salute>
+            </opener>
+            <p>Will you kindly inform if your poems are published in <hi rend="underline"
+                    >Complete</hi> form, and, if so, what is the price of the Volume, and whether it
+                can by obtained by sending you the money?</p>
+            <closer>
+                <salute><abbr><orig>Respy.</orig><expan>Respectfull</expan></abbr> yours,</salute>
+                <signed>C A Spofford</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_es.00790_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

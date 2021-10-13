@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04226">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Serelda G. Thomas to Walt Whitman, 2 December 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Serelda G. Thomas</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName> 
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04226</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Serelda G. Thomas</author>
+                    <title>Serelda G. Thomas to Walt Whitman, 2 December 1891</title>
+                    <date cert="high" when="1891-12-02" xml:id="dat1">December 2, 1891</date> 
+                    <idno type="callno">MSS18630, Box 17, Reel 10&#8211;11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00381</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Thomas, Serelda G." ref="loc.04226_n2">Serelda G. Thomas</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-29" who="#smb">completed director's corrections</change>
+            <change when="2020-08-14" who="#smb">final check, corrected, added DOI</change>
+            <change when="2020-07-31" who="#bjo">updated correspondent note</change>
+            <change when="2020-06-22" who="#adk">second check, corrected</change>
+            <change when="2020-06-18" who="#cn">first check, corrected</change>
+            <change when="2020-02-05" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body> 
+            <pb xml:id="leaf001r" facs="loc_vm.00370_large.jpg" type="recto"/>
+              <opener>
+                  <dateline>
+                      <name type="place">Woodland, California<ptr target="loc.04226_n1"/></name>
+                      <date when="1891-12-02">December 2, 1891</date>
+                  </dateline>
+                  <salute>My Respected Sir:</salute>
+              </opener>
+            <p>I hope you will not consider this impertinent, or improper. The intention is good, and the purpose
+                to do good and to do justice. I would like to review your late works. I would not ask a press copy
+                were I able to buy them. I am certain if you will send me one or more of your late books I can by review
+                and personal attention and effort return more than value received. I have often given personal mention
+                of yourself and books, and will continue to do so. It would be a very great pleasure to receive from you
+                a personal copy of such books as you would care to send. You have grown in favor with our students and
+                readers. Your courage, high honor, fidelity and faith in justice is being rewarded by all
+                <hi rend="underline">real</hi> and <hi rend="underline">worthy</hi> students. Will you let me have a word
+                from you. I hope my letter will be received in the spirit in which it is sent.</p>
+            <p>Address all in my name.</p>
+            <closer> 
+                <signed>Serelda G. Thomas</signed>
+                <signed>Lit Ed Democrat</signed>
+            </closer>
+            <postscript>
+                <p>
+                <address>
+                    <addrLine>To Walt Whitman Esq</addrLine>
+                    <addrLine>Camden N.J.</addrLine>
+                </address>
+                </p>
+            </postscript> 
+            <pb xml:id="leaf001v" facs="loc_vm.00369_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI> 

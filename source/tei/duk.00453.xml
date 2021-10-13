@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00453">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Charles L. Heyde to Walt Whitman, [25 October 1890]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles L. Heyde</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalok</persName>
+                </respStmt>
+                <sponsor>
+                    Center for Digital Research in the Humanities, University of Nebraska-Lincoln
+                </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>
+                    National Historical Publications and Records Commission
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00453</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in 
+                        the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright 
+                        law. Redistribution or republication on other terms, in any medium, requires express 
+                        written consent from the editors and advance notification of the publisher, Center 
+                        for Digital Research in the Humanities. Permission to reproduce the graphic images 
+                        in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles L. Heyde</author>
+                    <title>Charles L. Heyde to Walt Whitman, [25 October 1890]</title>
+                    <date cert="high" when="1890-10-25" xml:id="dat1">[October 25, 1890]</date>
+                    <orgName xml:id="duk">
+                        Trent Collection of Whitmaniana, David M. Rubenstein Rare Book and Manuscript Library, Duke University
+                    </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Heyde, Charles L." ref="n0299">Charles L. Heyde</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+            <handNotes>
+                <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName>
+                </handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-05-24" who="#smb">final check, corrected, added notes</change>
+            <change when="2020-05-20" who="#blh">Second check: correcting transcription, adding notes</change>
+            <change when="2019-06-17" who="#if">First check, corrected</change>
+            <change when="2018-06-22" who="#bjo">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="duk.00453.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1890-10-25" rend="right">
+                        <handShift rend="manuscript"/>
+                        <note type="editorial" place="right" resp="#rmb"><hi rend="underline">25 Oct '90</hi></note>
+                    </date> 
+                    <name type="place" rend="left">Studio Saturday<ptr target="duk.00453_n1"/>&#8212;</name>
+                </dateline>
+                <salute>Dear Friend Bro Walt</salute>
+            </opener>
+            <p>
+                Han<ptr target="n0285"/> requests me to acknowledge recieving your letter with five 
+                dollars enclosed<ptr target="n7516"/>&#8212;so timely&#8212;needs shoes just now, and I
+                am just getting to the grocery.
+            </p>
+            <p>
+                She is doing wonders, for her <unclear reason="illegible" cert="high" resp="#blh">after</unclear> 
+                so long and prostrating sickness. 
+                So joyfull that you are strong enough to be present at
+                the lecture<ptr target="loc.07846_n3"/>&#8212;Ingersoll<ptr target="n0839"/> is a <unclear reason="illegible" cert="high" resp="#smb">n</unclear>oble 
+                man, and well qualified, in 
+                every sense to do justice <gap reason="illegible" quantity="2" unit="chars"/> his subject.
+            </p>
+            <p>
+                not quite paid my taxes&#8212;we owe <gap reason="illegible" quantity="1" unit="chars"/>0 dollars yet.
+            </p> 
+            <closer>
+                <salute>Gratefully Yours</salute> 
+            <signed>Bro Charlie&#8212;</signed>
+            </closer>
+        </body> 
+    </text>
+</TEI> 
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03961">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt> 
+                <title level="m" type="main">Eva Stafford to Walt Whitman, 29 December 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Eva Stafford</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03961</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Eva Stafford</author>
+                    <title>Eva Stafford to Walt Whitman, 29 December 1890</title>
+                    <date cert="high" when="1890-12-29" xml:id="dat1">December 29, 1890</date>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00361</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Stafford, Eva" ref="loc.07927_n3">Eva Stafford</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-03-30" who="#smb">final check, corrected</change>
+            <change when="2021-01-12" who="#aa">second check; corrected and revised; added
+                notes</change>
+            <change when="2016-12-08" who="#ktl">transcribed and encoded</change>
+            <change when="2019-07-10" who="#rf">checked</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.00093.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Lodi N. J.</name>
+                    <date when="1890-12-29">Dec. 29, 1890</date>
+                </dateline>
+                <salute>My Dear Friend,</salute>
+            </opener>
+            <p>Thinking of you and wondering how your Christmas was spent has tempted me to write a
+                few lines to you to-night. We all spent that day very happily with Debbie,<ptr
+                    target="loc.03961_n1"/> New Years day we expect them to spend with us. How nice it
+                would be if you could join us. I don't know whether any of the folks at home will be
+                able to come over or not. Van<ptr target="n0883"/> or Ed<ptr target="n0589"/> may
+                come but Pap<ptr target="loc.03961_n2"/> does not go out a great deal since his illness. He does not improve as
+                rapidly as we would<pb xml:id="leaf001v" facs="loc_vm.00094.jpg" type="verso"/> like
+                to have him. Mother<ptr target="loc.03961_n3"/> was pretty well for her when we were home last.</p>
+            <p>We are all well excepting the baby<ptr target="loc.03961_n4"/> who has quite a severe cold at present.</p>
+            <p>We do not expect to remain here another year. Harry<ptr target="n0590"/> has made
+                application to the R. R. Co, but has not received much encouragement yet. I suppose
+                you have heard of Mont's<ptr target="n0910"/> removal to Elwood N. J. He is quite
+                well pleased with his new home.</p>
+            <p>Please accept my thanks for the &#36;2 which you sent the children.<ptr target="loc.03961_n5"/></p>
+            <p>I hope this letter will find you in good health and spirits. With best wishes and
+                love from us all I say good night.</p> 
+            <closer> 
+                <salute>Your loving friend</salute> 
+                <signed>Eva M. Stafford</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

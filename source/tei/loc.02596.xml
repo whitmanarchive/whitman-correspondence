@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02596"> 
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Moses King to Walt Whitman, 14 November 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Moses King</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02596</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Moses King</author>
+                    <title> Moses King to Walt Whitman, 14 November 1891</title>
+                    <date cert="high" when="1891-11-14" xml:id="dat1">November 14, 1891</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00253</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc> 
+                <person role="sender">
+                    <persName key="King, Moses" ref="loc.02596_n1">Moses King</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-22" who="#smb">completed director's corrections</change>
+            <change when="2021-06-20" who="#smb">final check, added notes</change>
+            <change when="2021-06-05" who="#aa">second check, added notes</change>
+            <change when="2021-04-06" who="#smb">first check, added notes, DOI</change>
+            <change when="2020-09-15" who="#bjo">added correspondent note</change>
+            <change when="2019-09-11" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02596.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Moses King Corporation.</name>
+                    <name type="place">Boston, Mass.,</name>
+                    <date when="1891-11-14"><handShift rend="manuscript"/>Nov. 14 <handShift
+                            rend="printed"/>18<handShift rend="manuscript"/>91</date>
+                    <name type="place">Walt Whitman, Esq.</name>
+                    <name type="place">Camden, N.J.</name>
+                </dateline>
+                <salute>Dear Sir:</salute>
+            </opener>
+            <p>I have taken great pleasure in sending to you as one of the most notable men this
+                country has produced a complimentary of "King's Handbook of the United States";<ptr
+                    target="loc.02596_n2"/> a little book that aims to give an outline of the
+                glorious things of this country; but as you will readily see, it fails to do
+                anything like justice to the vast subject although it is the result of the best
+                efforts of 2&#189; years' of the most laborious and painstaking work.</p>
+            <p>Kindly let me know of its safe arrival.&#8212;</p>
+            <closer>
+                <salute>With great esteem, I am,</salute>
+                <salute>Sincerely Yours</salute>
+                <signed><hi rend="underline">Moses King</hi></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02596.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

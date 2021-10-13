@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08028">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 12 April 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="jm">Jason McCormick</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08028</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Richard Maurice Bucke, 12 April 1891</title>
+                    <date cert="high" when="1891-04-12" xml:id="dat1">April 12, 1891</date>
+                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4&#8211;5; Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                   <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
+                    <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-26" who="#smb">completed director's corrections</change>
+            <change when="2021-02-15" who="#smb">final check, corrected</change>
+            <change when="2021-02-04" who="#aa">second check; transcribed postmarks</change>
+            <change when="2020-12-16" who="#smb">first check, added DOI, added image
+                pointers</change>
+            <change when="2020-12-15" who="#jm">Added images</change>
+            <change when="2019-10-21" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jm.00126.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden<ptr target="loc.08028_n1"/></name> 
+                    <date when="1891-04-12">Sunday noon Apr: 12 '91</date> 
+                </dateline>
+            </opener>
+            <p>Cloudy &#38; damp yet&#8212;am feeling a shade better this forenoon&#8212;bowel
+                actions (more or less,&#8212;generally less, but I believe decided at that) each of the
+                three past days&#8212;wh' is of course a great gain,&#8212;Tom Harned<ptr
+                    target="n4146"/> was here last evn'g&#8212;he is busy &#38; prosperous (very
+                poss<supplied reason="illegible" resp="#smb" cert="high">i</supplied>bly going off on business to San Francisco, fo<supplied reason="illegible" resp="#smb" cert="high">r</supplied> a few days)&#8212;Horace<ptr
+                    target="n4267"/> here as usual&#8212;proof<ptr target="loc.08023_n2"/> will soon be done&#8212;enclosed a MS
+                fro<supplied reason="illegible" resp="#smb" cert="high">m</supplied> J W W<ptr target="n6121"/> of Bolton, Eng:<ptr target="loc.08028_n2"/></p> 
+            <closer>
+                <salute>God bless <supplied reason="illegible" resp="#smb" cert="high">y</supplied>ou all&#8212;</salute>
+                <signed>Walt <supplied reason="illegible" resp="#smb" cert="high">Wh</supplied>itman</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_jm.00127.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_jm.00128.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

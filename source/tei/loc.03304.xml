@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03304">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">P. Reinhalter &#38; Co. to Walt Whitman, 27 April 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>P. Reinhalter &#38; Co.</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03304</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>P. Reinhalter &#38; Co.</author>
+                    <title>P. Reinhalter &#38; Co. to Walt Whitman, 27 April 1891</title>
+                    <date cert="high" when="1891-04-27" xml:id="dat1">April 27, 1891</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="P. Reinhalter &#38; Co." ref="loc.03304_n1">P. Reinhalter &#38;
+                        Co.</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-03-20" who="#smb">final check, added notes</change>
+            <change when="2020-03-02" who="#aa">second check, corrected, added notes</change>
+            <change when="2019-07-02" who="#if">First check</change>
+            <change when="2019-06-04" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03304.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>P. Reinhalter &#38; Co.</name>
+                    <name type="place"><hi rend="smallcaps"/>Granite Monuments</name>
+                    <name type="place">Vaults and Statuary Work.</name>
+                    <name type="place">Works at West Quincy, Mass.</name>
+                    <name type="place">Office</name>
+                    <name type="place">18 South Broad Street.</name>
+                    <name type="place">Philadelphia, Pa.</name>
+                    <date when="1891-04-27"><handShift rend="manuscript"/>April 27' <handShift
+                            rend="printed"/>18<handShift rend="manuscript"/>91</date>
+                </dateline>
+                <salute>Walt Whitman Esq.</salute>
+                <salute>Camden N.J.</salute>
+                <salute>Dear Sir</salute>
+            </opener> 
+            <p>Having taken advantage of the good weather this last few weeks gave us a chance in
+                making a very good start on your work at the Harleigh Cemetery, we have the work
+                over half done, now we would like very much to have you come out and see how we are
+                progressing providing your time and your health <choice>
+                    <sic>permitts</sic>
+                    <corr>permit</corr>
+                </choice> you to do so. Mr. Moore<ptr target="loc.03304_n2"/> will call for you and take
+                you out at any time if you be kind enough to drop us a note to the effect or if you
+                wish to have us call at your house, we certainly wish you to see it hoping to hear
+                from you soon we remain</p>
+            <closer>
+                <salute>Yours very truly</salute>
+                <signed>P. Reinhalter &#38;
+                    Co.</signed>
+                <signed>J. E. R.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.03304.002.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+ 

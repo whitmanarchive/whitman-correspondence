@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04961">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">James W. Wallace to Walt Whitman, 18 November 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James W. Wallace</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04961</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>James W. Wallace</author>
+                    <title>James W. Wallace to Walt Whitman, 18 November 1890</title>
+                    <date cert="high" when="1890-11-18" xml:id="dat1">November 18, 1890</date>
+                    <idno type="callno">MSS 18630, Box 18, Reel 11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00401</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Wallace, James W." ref="n6121">James W. Wallace</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-14" who="#smb">final check, corrected, added notes</change>
+            <change when="2020-10-30" who="#blh">Second check: corrected transcription, added DOI, verified encoding and notes</change>
+            <change when="2019-06-21" who="#if">First check</change>
+            <change when="2016-11-29" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.02190.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Anderton, <choice><orig>nr</orig><reg>near</reg></choice> Chorley</name>
+                    <name type="place">Lancashire, England</name>
+                    <date when="1890-11-18">18. Nov<hi rend="underline">br</hi> 1890</date>
+                </dateline>
+                <salute>Dear Walt Whitman,</salute>
+            </opener>
+            <p>This morning I received from D<hi rend="underline">r</hi> Johnston<ptr target="n4102"/> a copy 
+                of the current number of "<hi rend="underline">Great Thoughts</hi>"<ptr target="loc.04961_n3"/>
+                (containing a short article on yourself) and a note in which he told me of his
+                intention to send a copy to <hi rend="underline">you</hi>.</p>
+            <p>In the same paper<pb xml:id="leaf001v" facs="loc_vm.02191.jpg" type="verso"/> I found
+                copies of two beautiful letters by Carlyle<ptr target="n1065"/> which I have not previously met
+                with.&#8212;As you may <hi rend="underline">possibly</hi> overlook them, and as one
+                will be of special interest to you, I will cut it out and enclose it with this.</p>
+            <p>I have no time now for more, but, with love always, remain</p>
+            <closer>
+                <salute>Yours affectionately</salute>
+                <signed><hi rend="underline">J. W. Wallace</hi></signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_vm.02193.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_vm.02194.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

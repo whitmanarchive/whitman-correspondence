@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00960">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Edward Wilkins, 24 December 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00960</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notAfter="1977" notBefore="1961">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">137</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Edward Wilkins, 24 December 1890</title>
+                    <date cert="high" when="1890-12-24" xml:id="dat1">December 24, 1890</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book 
+                        &#38; Manuscript Library, Duke University</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Wilkins, Edward" ref="n4319">Edward Wilkins</persName>
+                </person>
+            </particDesc>  
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-10-26" who="#smb">final check, corrected</change>
+            <change when="2020-07-15" who="#adk">second check, corrected</change>
+            <change when="2020-06-12" who="#cn">first check</change>
+            <change when="2020-02-15" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden New Jersey</name>
+                    <date when="1890-12-24">Dec: 24 1890</date>
+                </dateline>
+                <salute>Dear Ed</salute>
+            </opener> 
+            <p>Y'rs came this mn'g,<ptr target="n5002d"/> &#38; was welcome (&#38; you w'd be y'rself)&#8212;I am 
+                here yet, a peg additional dropping out every successive month or so but 
+                in many things <hi rend="underline">the same subject continued</hi>&#8212;bladder trouble
+                &#38; the grip (aggravated cold in the head &#38; stomach) are the worst&#8212;but I still 
+                keep pretty fair spirits &#38; (fortunately) a stout strong right arm considering. 
+                Things in the house are ab't same&#8212;Mrs: Davis<ptr target="n6113"/> has just been in, is 
+                well&#8212;Warren<ptr target="loc.07319_n6"/> has gone over to Phila&#8212;I am sitting here in the big chair 
+                with wolf skin spread over back&#8212;fine sunny day out&#8212;cold&#8212;no sleighing 
+                here&#8212;write when you can, dear boy, &#38; I will too&#8212;God bless you&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00609">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William Sloane Kennedy, 16 September 1890</title> 
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska&#8211;Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>  
+            </editionStmt>
+            <publicationStmt>
+                <idno>uva.00609</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588&#8211;4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notAfter="1977" notBefore="1961">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">86&#8211;87</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Sloane Kennedy, 16 September 1890</title>
+                    <date cert="high" when="1890-09-16" xml:id="dat1">September 16, 1890</date>
+                    <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett
+                        Library of American Literature, Albert H. Small Special Collections Library,
+                        University of Virginia</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-11" who="#smb">final check, corrected, added notes</change>
+            <change when="2020-01-16" who="#blh">Second check: checked transcription, added notes</change>
+            <change when="2019-08-01" who="#rf">First Check, corrected</change> 
+            <change when="2019-07-26" who="#if">Transcribed and encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>   
+            <opener>   
+                <dateline>
+                    <name type="place">1890 Camden<ptr target="uva.00609_n1"/></name>
+                    <date when="1890-09-16">Sept: 16 early PM</date> 
+                </dateline>
+            </opener>
+            <p>
+                Y'r two impromptu cards rec'd<ptr target="uva.00609_n4"/>&#8212;thank[s]&#8212;you will doubtless get the 
+                pretty little Phila: magazine "Poet&#8211;Lore" with this with a 
+                word of mine in it<ptr target="uva.00609_n6"/> on <hi rend="italic">that huge jungle question</hi> the 
+                Shakspere one<ptr target="uva.00609_n2"/>&#8212;I keep pretty well&#8212;was out Sunday 
+                to a champagne &#38; oyster supper to Mr<ptr target="n4146"/> &#38; Mrs. Harned's<ptr target="n4134"/> 
+                (both good to me)&#8212;all right yesterday &#38; to&#8211;day 
+                with me&#8212;rainy weather here (broken)&#8212;another letter<ptr target="uva.00609_n5"/> f'm 
+                Symonds<ptr target="n0615"/> (I think there's something first class in 
+                him)<ptr target="uva.00609_n3"/>&#8212;One of my two boys 26 yrs old was 
+                married last evn'g<ptr target="loc.07663_n4"/>&#8212;he came yesterday to talk ab't it &#38; 
+                hung on my neck &#38; kiss'd me twenty times&#8212;
+            </p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>
+

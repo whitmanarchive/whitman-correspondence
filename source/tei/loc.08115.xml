@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08115">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 9 February 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08115</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 9 February 1891</title>
+                    <date cert="high" when="1891-02-09" xml:id="dat1">February 9, 1891</date> 
+                    <idno type="callno">MSS18630, Box 5, Reel 3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00100</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-27" who="#smb">completed director's corrections</change>
+            <change when="2021-02-02" who="#smb">final check, corrected</change>
+            <change when="2021-01-29" who="#blh">second check: verified transcription, added notes, 
+                corrected encoding, added DOI</change>
+            <change when="2020-06-27" who="#adk">first check, corrected, added notes</change>
+            <change when="2019-12-06" who="#zs">Added images</change>
+            <change when="2019-11-12" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00273.jpg" type="recto"/>
+            <opener>
+                <dateline> 
+                    <name type="place"><handShift rend="printed"/>Medical Superintendent's</name>
+                    <name type="place">Office.</name>
+                    <name type="place">INSANE ASYLUM</name>
+                    <name type="place">LONDON ONTARIO<ptr target="loc.08115_n1"/></name>
+                    <date when="1891-02-09"><handShift rend="manuscript"/>9 Feb <handShift rend="printed"/>18<handShift rend="manuscript"/>91</date>
+                </dateline>
+            </opener>
+            <p>Your post-card of 6<hi rend="underline">th</hi><ptr target="loc.08115_n2"/> came to hand by this forenoon 
+                mail. I am glad that you seem no worse&#8212;would like to see you much better.
+                Yes, please send the "Overland Monthly"<ptr target="loc.08115_n3"/> shall be very pleased 
+                to have it. Very sulky, dark, half rainy, muggy, warmish, gloomy weather here for some days now
+                and continues as if it had come to stay&#8212;Can hardly read in my office at 3 p.m.&#8212;so dark. 
+                Have been reading some German&#8212;Heine<ptr target="n0297"/>&#8212;a really
+                wonderful fellow for "cuteness" &#38; wit.</p>
+            <p>Meter<ptr target="loc.07230_n2"/> goes steady and slow&#8212;we must have patience&#8212;in 
+                evenings and odd moments over at home, am reading
+               Carlyle's<ptr target="n4301"/> "French Revolution"<ptr target="loc.08115_n4"/> for about the 
+                6<hi rend="underline">th</hi> or 8<hi rend="underline">th</hi> time&#8212;am feeling real well.
+            </p> 
+            <closer>      
+                <salute>Love to you</salute> 
+                <signed>RM Bucke</signed>
+            </closer>       
+            <pb xml:id="leaf002r" facs="loc_zs.00274.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_zs.00275.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+

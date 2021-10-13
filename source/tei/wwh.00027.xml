@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="wwh.00027">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>   
+                <title level="m" type="main">William J. Sewell to Walt Whitman, 8 January 1884</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William J. Sewell</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt> 
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>wwh.00027</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William J. Sewell</author>
+                    <title>William J. Sewell to Walt Whitman, 8 January 1884</title>
+                    <date cert="medium" when="1884-01-08" xml:id="dat1">January 8, 1884</date>
+                    <orgName xml:id="wwh">Walt Whitman House, Camden, N.J.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="wwh.00001"/>
+                    <relatedItem type="text" xml:id="rel02" target="wwh.00025"/>
+                    <relatedItem type="text" xml:id="rel03" target="wwh.00026"/>
+                    <relatedItem type="document" target="wwa.00096"/>
+                    <note type="project" target="#rel01 #rel02 #rel03">Whitman cut this letter into pieces, pasted it together with several 
+                        other letters, and used it as the foundation for a draft of "You tides with ceaseless swell," which is written on the back.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>  
+        <profileDesc>
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Sewell, William J." ref="n4968">William J. Sewell</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change who="#smb" when="2020-03-06">final check, corrected</change>
+            <change who="#nhg" when="2016-07-07">adjusted relatedItem info</change>
+            <change who="#nhg" when="2016-02-17">added relatedItem info</change>
+            <change who="#nhg" when="2015-08-12">checked, corrected</change>
+            <change who="#ak" when="2015-03-13">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">    
+        <body>
+            <pb xml:id="leaf001r" facs="you-tides-verso.jpg" type="recto"/>
+            <!-- This page consists of four different documents pasted together.-->
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/><gap reason="cut away"/> RAILROAD CO.<ptr target="wwh.00027_n1"/></name>
+                <name type="place"><gap reason="cut away"/>ENT'S OFFICE,</name>
+                <name type="place"><gap reason="cut away"/> J.,</name>
+                <date when="1884-01-08"><handShift rend="manuscript"/>Jany 8th <handShift rend="printed"/>188<handShift rend="manuscript"/>4</date>
+                </dateline>
+                <salute><gap reason="cut away"/> Whitman, Esq,</salute>
+                <salute><gap reason="cut away"/> Camden</salute>
+                <salute><gap reason="cut away"/> Dear Sir,</salute>
+            </opener>
+            <p>
+                <gap reason="cut away"/> <handShift rend="printed"/>find <handShift rend="manuscript"/>annual
+                <gap reason="cut away"/> WJ RRd<ptr target="wwh.00027_n2"/>
+            </p>
+            <closer>
+                <salute><gap reason="cut away"/> <handShift rend="printed"/>lly,</salute>
+                <signed><handShift rend="manuscript"/>W. J. Sewell</signed>
+                <salute><handShift rend="printed"/>Vice President.</salute>
+                <signed><handShift rend="manuscript"/><unclear reason="illegible" cert="low" resp="#nhg">R</unclear></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="you-tides-recto.jpg" type="verso"/>
+            <!-- Whitman wrote poetry on this page. -->
+        </body>
+    </text>
+</TEI> 

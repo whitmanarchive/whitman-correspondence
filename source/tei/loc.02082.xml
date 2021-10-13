@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02082">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Benjamin O. Flower to Walt Whitman, 2 December 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Benjamin O. Flower</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="eh">Ethan Heusser</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor> Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder> National Historical Publications and Records Commission </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02082</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p> Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>Benjamin O. Flower</author>
+                    <title>Benjamin O. Flower to Walt Whitman, 2 December 1890</title>
+                    <date cert="high" when="1890-12-02" xml:id="dat1">December 2, 1890</date>
+                    <idno type="callno">MSS18630, Box 9, Reel 5&#8211;6</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00179</idno>
+                    <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht">
+                    <persName key="Traubel, Horace L.">Horace L. Traubel</persName>
+                </handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Flower, Benjamin O." ref="loc.02082_n2">Benjamin O. Flower</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-27" who="#smb">completed director's corrections</change>
+            <change when="2020-12-28" who="#smb">final check, corrected, added notes and DOI</change>
+            <change when="2020-12-28" who="#bjo">added correspondent note</change>
+            <change when="2020-07-16" who="#adk">second check, corrected</change>
+            <change when="2020-07-03" who="#cn">first check, corrected</change>
+            <change when="2020-06-05" who="#eh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02082.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <note type="editorial" place="top" resp="#ht">see notes Dec. 3, '90</note>
+                    <handShift rend="printed"/>
+                    <name type="place">OFFICE OF</name>
+                    <name type="place">THE ARENA PUBLISHING</name>
+                    <name type="place">EXPONENT OF MODERN THOUGHT</name>
+                    <name type="place">EDITED BY B.O. FLOWER</name>
+                    <name type="place">PER.ANNUM &#36;5</name>
+                    <name type="place">SINGLE COPIES .50</name>
+                    <name type="place">PIERCE BLD'G COPLEY SQ.</name>
+                    <name type="place">BOSTON.</name>
+                    <date when="1891-12-02"><handShift rend="manuscript"/>Dec. 2 <handShift rend="printed"/>189<handShift rend="manuscript"/>0.</date>
+                </dateline> 
+                <salute>Walt Whitman,</salute>
+                <salute>Camden, NJ.</salute>
+                <salute>My dear Sir:</salute>
+            </opener>
+            <p>Your esteemed favor containing poems submitted for the Arena received;&#8212;and in reply would say that
+                I do not find the poems available at the present time. I should much prefer an essay from your pen
+                to poems, as at the present time I have all the poems I can possibly use for some time to come.</p>
+            <closer> 
+                <salute>Cordially yours,</salute>
+                <signed>B.O. <hi rend="underline">Flower</hi></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02082.002_large.jpg" type="verso"/>
+         </body>
+    </text> 
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07847">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke [and Horace Traubel], 27 October 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07847</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Richard Maurice Bucke [and Horace Traubel], 27 October 1890</title>
+                    <date cert="high" when="1890-10-27" xml:id="dat1">October 27, 1890</date>
+                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Bucke, Richard Maurice and Horace Traubel" ref="n7051">Richard Maurice
+                        Bucke and Horace Traubel</persName>
+                </person>
+            </particDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-05-27" who="#smb">final check, corrected, added notes</change>
+            <change when="2020-05-20" who="#blh">Second check: correcting transcription, adding notes, hand notes</change>
+            <change when="2019-10-01" who="#zs">Added images</change>
+            <change when="2019-06-06" who="#if">First check, corrected</change>
+            <change when="2018-08-14" who="#bbb">Encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00125.jpg" type="recto"/>
+            <note type="editorial" place="above" resp="#ht">see notes Oct. 29 <hi rend="underline">1890</hi></note>
+            <opener>
+                <dateline> 
+                    <name type="place">Camden<ptr target="loc.07847_n1"/></name>
+                    <date when="1890-10-27">PM Oct: 27 '90</date>
+                </dateline>
+            </opener>             
+            <p>Every thing going as usual&#8212;well&#8212;rather cool here&#8212;pass'd a fair
+                night&#8212;H's letter rec'd<ptr target="loc.07847_n2"/>&#8212;thanks&#8212;Harrison 
+                Morris<ptr target="loc.07847_n3"/> has been over to
+                see me a very pleasant visit&#8212;bro't "The American" 25th with piece "Walt Wh:
+                &#38; Ingersoll"<ptr target="n0839"/>&#8212;I sit here as usual writing this&#8212;Warry<ptr
+                    target="loc.07319_n6"/> is down stairs practising on his fiddle&#8212;the steam
+                puffing of the cars sounds f'm Bridge av: n w wind&#8212;I have oysters (good) &#38;
+                roast apples &#38; graham br'd to eat&#8212;</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_zs.00124.jpg" type="verso"/>
+        </body> 
+    </text>
+</TEI>
+ 

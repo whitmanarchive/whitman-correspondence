@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="har.00038">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John W. Wiggins, Jr. to Walt Whitman, 24 March
+                    1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>har.00038</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John W. Wiggins, Jr.</author>
+                    <title>John W. Wiggins, Jr. to Walt Whitman, 24 March 1888</title>
+                    <date cert="high" when="1888-03-24" xml:id="dat1">March 24, 1888</date>
+                    <orgName xml:id="har">Manuscripts Department, Houghton Library, Harvard
+                        University</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="har.00060"/>
+                    <relatedItem type="document" target="wwa.00560"/>
+                    <note type="project" target="#rel01">Whitman used the verso of this letter from John W. Wiggins, Jr.
+                        to draft a title page and notes relating to the title of his annex to <hi rend="italic">Leaves of Grass</hi>, which was entitled "Sands at
+                        Seventy."</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="unknonwn">unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Wiggins, Jr., John" ref="n7028">John W. Wiggins, Jr.</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>  
+        </profileDesc>   
+        <revisionDesc>
+            <change when="2019-05-07" who="#smb">final check, corrected</change>
+            <change when="2019-04-11" who="#bjo">second check, corrected</change>
+            <change when="2018-10-24" who="#blh">first check</change>
+            <change when="2017-10-30" who="#aa">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="har.00038.001_large.jpg" type="recto"/>
+            <note type="editorial" place="top" resp="#unk">Autograph of Whitman&#8212; (see over)
+            <unclear reason="illegible" resp="#aa" cert="low">CE</unclear></note>
+            <opener>
+                <dateline>
+                    <name type="place">Brooklyn N.Y.</name> 
+                    <date when="1888-03-24">March 24/88</date>
+                </dateline>
+                <salute>Dear Mr Whitman</salute>
+            </opener>
+            <p>My father and other members of the "Society of Old Brooklynites"<ptr target="har.00038_n2"/> are anxious to
+                receive a line, or to ask from you, to read at their annual dinner on the 9th prox. and have
+                requested me to write to you, and beg the favor.<ptr target="har.00038_n1"/> I am afraid from what I have
+                noticed in the papers, that you have not been in good health of late, but I trust
+                that you are now strong again, and able to give the old friends of your youth a line
+                from your gifted pen, on this, as well as many future annual reunions.</p>
+            <closer>
+                <salute>With sincere regards</salute>
+                <salute>Very Respectfully Yours</salute>
+                <signed>John W. Wiggins Jr.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="har.00038.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

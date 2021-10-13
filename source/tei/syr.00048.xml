@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="syr.00048">  
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt> 
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 1 April
+                    [188]9</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>syr.00048</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Richard Maurice Bucke</author>
+                        <editor>Artem Lozynsky</editor>
+                        <title xml:id="ehm">The Letters of Dr. Richard Maurice Bucke to Walt
+                            Whitman</title>
+                        <imprint>
+                            <pubPlace>Detroit</pubPlace>
+                            <publisher>Wayne State University Press</publisher>
+                            <date when="1977">1977</date>
+                            <biblScope type="page">118</biblScope>
+                        </imprint>
+                    </monogr> 
+                </biblStruct>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 1 April [188]9</title>
+                    <date cert="high" when="1889-04-01" xml:id="dat1">April 1, [188]9</date>
+                    <orgName xml:id="syr">Walt Whitman Collection, Special Collections Research
+                        Center, Syracuse University Library, Syracuse, N.Y.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>  
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person> 
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2019-07-01" who="#smb">final check, corrected</change>
+            <change when="2019-05-28" who="#aa">second check</change>
+            <change when="2018-11-07" who="#blh">first check</change>
+            <change when="2017-03-03" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">[London, Ont.,]<ptr target="syr.00048_n1"/></name>
+                    <date when="1889-04-01">1 April [188]9</date>
+                </dateline>
+            </opener>
+            <p>Your card of 29<hi rend="underline">th</hi> ult. just to hand.<ptr
+                    target="syr.00048_n2"/>
+                <hi rend="underline">You will have lots of reading now with your 7 vols. of
+                        Stedman's<ptr target="n1043"/> "Am. Lit." I wish you a good appetite for it!
+                    No doubt however it will be well worth looking through. Want much to see what he
+                    says of you in it.</hi><ptr target="syr.00048_n3"/></p>
+            <p>We have had a big fall of snow here (best part of a foot) snowed more than 24 hours,
+                got through last night, now sun out again and snow going off rapidly.</p>
+            <p>Nothing new with us, Inspector to be here this week. I enclose a list of a few
+                misprints in "Backward Glance" which I found as I went over the piece again last
+                evening</p> 
+            <closer> 
+                <salute>Love to you</salute>
+                <signed>R M Bucke</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

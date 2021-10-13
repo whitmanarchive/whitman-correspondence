@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00563"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">[Sara Stewart McGee Forsyth] to Walt Whitman, 14 August 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Sara Stewart McGee Forsyth</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                    <persName xml:id="bjo">Brandon James O'Neil</persName> 
+                </respStmt>
+                <sponsor>
+                    Center for Digital Research in the Humanities, University of Nebraska-Lincoln
+                </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>
+                    National Historical Publications and Records Commission
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>uva.00563</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>Sara Stewart McGee Forsyth</author>
+                    <title>[Sara Stewart McGee Forsyth] to Walt Whitman, 14 August 1889</title>
+                    <date cert="high" when="1889-08-14" xml:id="dat1">August 14, 1889</date>
+                    <orgName xml:id="uva">
+                        Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett Library of American Literature, 
+                        Albert H. Small Special Collections Library, University of Virginia
+                    </orgName>
+                    <relatedItem type="text" xml:id="rel01" target="uva.00268"/>
+                    <relatedItem type="document" xml:id="rel101" target="wwa.00061"/>
+                    <note type="project" target="#rel01">Whitman used the back of this partial letter to write
+                    draft lines for his poem "A Twilight Song."</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Forsyth, Sara Stewart McGee" ref="n7063">Sara Stewart McGee Forsyth</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-06-09" who="#bjo">identified correspondent and updated notes</change>
+            <change when="2020-05-31" who="#smb">final check, adjusted notes</change>
+            <change when="2020-05-24" who="#adk">second check, corrected</change>
+            <change when="2020-05-09" who="#smb">first check, corrected, added multitext notes</change>
+            <change when="2020-04-30" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="uva.00238.030.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Peak's Islan<supplied reason="cutaway" cert="high" resp="#smb">d</supplied></name>
+                    <date when="1889-08-14">Aug 14<hi rend="underline">th</hi>/89</date>
+                </dateline>
+                <salute>Dear Sir:</salute>
+            </opener> 
+            <p>   
+                Will you kindly send <supplied reason="cutaway" cert="high" resp="#smb">to</supplied> the
+                Adams Hotel, Washing<supplied reason="cutaway" cert="high" resp="#smb">ton</supplied> St. Boston, Mass
+                a copy <supplied reason="cutaway" cert="high" resp="#smb">of</supplied> your latest special
+                editio<supplied reason="cutaway" cert="high" resp="#smb">n</supplied> <supplied reason="cutaway" cert="high" resp="#smb">o</supplied>f
+                "Leaves of Grass."<ptr target="uva.00563_n1"/> I have seen the copy, which you <supplied reason="cutaway" cert="high" resp="#smb">s</supplied>o kindly
+                gave to my cousin Phillips Stewart,<ptr target="uva.00563_n2"/> and should <supplied reason="cutaway" cert="high" resp="#smb">li</supplied>ke one as it
+                contains <supplied reason="cutaway" cert="high" resp="#smb">t</supplied>he photographs. Thank
+                <supplied reason="cutaway" cert="high" resp="#smb">you</supplied> very much for your<ptr target="uva.00563_n3"/>
+            </p>
+            <pb xml:id="leaf001v" facs="uva.00238.029.jpg" type="verso"/>  
+        </body>
+    </text> 
+</TEI>

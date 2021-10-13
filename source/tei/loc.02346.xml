@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02346">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">Robert Ingersoll to Walt Whitman, 5 June 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Robert Ingersoll</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor> 
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02346</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>Robert Ingersoll</author>
+                    <title>Robert Ingersoll to Walt Whitman, 5 June 1890</title>
+                    <date cert="high" when="1890-06-05" xml:id="dat1">June 5, 1890</date>
+                    <idno type="callno">MSS18630, Box 11, Reel 7</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00229</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Ingersoll, Robert" ref="n0839">Robert Ingersoll</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2020-01-07" who="#smb">final check, corrected</change>
+            <change when="2019-07-22" who="#bbb">Second check</change>
+            <change when="2019-06-11" who="#if">First check, corrected</change>
+            <change when="2018-04-13" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>   
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02346.001.jpg" type="recto"/>
+            <opener>
+                <dateline>  
+                    <name type="place"><handShift rend="printed"/>400 Fifth Avenue<ptr target="loc.02346_n1"/></name>
+                    <date when="1890-06-05"><handShift rend="manuscript"/>June 5, 90</date>
+                </dateline>
+                <salute>My dear Mr. Whitman,</salute>
+            </opener>
+            <p>I can hardly tell you what pleasure it gave me to meet you<ptr target="loc.02346_n2"/>&#8212;to look into your
+                eyes, to hear your voice, to grasp
+            <pb xml:id="leaf001v" facs="loc.02346.002.jpg" type="verso"/>
+            your hand and to thank you for the brave and splendid words you have
+                uttered.&#8212;</p>
+            <p>I recd copies of the Camden Post<ptr target="loc.02346_n3"/> and I think that I recognize your work in the
+                    wonderful tribute
+            <pb xml:id="leaf002r" facs="loc.02346.003.jpg" type="recto"/>
+            paid to me. Sometime I will pay, so far as may be in my power, a fitting tribute to
+                your character and genius. Of course what I said was fragmentary&#8212;almost
+                incoherent&#8212;giving only the faintest outline&#8212;indicating here and there a
+                mountain peak, leaving the rich &#38; beautiful valleys without a word. May many
+                happy years be yours&#8212;With thanks I remain</p>
+            <closer>
+                <salute>Yours always</salute> 
+                <signed>R G Ingersoll</signed> 
+            </closer>
+            <pb xml:id="leaf003r" facs="loc.02346.004.jpg" type="recto"/>
+            <note type="editorial" place="top" resp="#ht">See notes June 6, '90</note>
+            <pb xml:id="leaf003v" facs="loc.02346.005.jpg" type="verso"/>
+            <note type="editorial" place="top" resp="#unk">on p 120</note>
+        </body>
+    </text>   
+</TEI>

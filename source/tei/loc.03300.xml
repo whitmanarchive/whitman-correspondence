@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03300"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">J. E. Reinhalter of P. Reinhalter &#38; Company to Walt Whitman, 11 October 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>J. E. Reinhalter of P. Reinhalter &#38; Company</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName> 
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03300</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>J. E. Reinhalter of P. Reinhalter &#38; Company</author>
+                    <title>J. E. Reinhalter of P. Reinhalter &#38; Company to Walt Whitman, 11 October 1890</title>
+                    <date cert="high" when="1890-10-11" xml:id="dat1">October 11, 1890</date>
+                    <idno type="callno">MSS18630, Box 15, Reel 9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00321</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.
+                    </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Reinhalter, J. E. of P. Reinhalter &#38; Company" ref="loc.03304_n1">J. E. Reinhalter of P. Reinhalter &#38; Company</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-27" who="#smb">completed director's corrections</change>
+            <change when="2021-02-07" who="#smb">final check, corrected</change>
+            <change when="2020-07-27" who="#blh">Second check: corrected transcription, added notes</change>
+            <change when="2020-06-04" who="#cn">first check</change>
+            <change when="2020-03-31" who="#adk">transcribed, encoded</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03300.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                <name type="place"><handShift rend="printed"/>P. Reinhalter &#38; Co.</name>
+                <name type="place">GRANITE MONUMENTS</name>
+                <name type="place">VAULTS AND STATUARY WORK.</name>
+                <name type="place">WORKS AT WEST QUINCY MASS.</name>
+                <name type="place">OFFICE</name>
+                <name type="place">18 SOUTH BROAD STREET.</name>   
+                <name type="place"><handShift rend="printed"/>Philadelphia, Pa.<ptr target="loc.03300_n1"/></name>
+                    <date when="1890-10-11"><handShift rend="manuscript"/>October 11 
+                        <handShift rend="printed"/>18<handShift rend="manuscript"/>90</date>
+                </dateline>
+                <salute>Walt Whitman Esq.</salute> 
+                <salute>Camden</salute> 
+               <salute>N.J.</salute>
+            </opener> 
+            <p>
+                Owing to not being able to see you while at your house last thursday I <choice><orig>concludet</orig><reg>concluded</reg></choice> to
+               write and state to you that my brother<ptr target="loc.03300_n2"/> has gone to the Quarry in Massachusetts and will stay
+               there untill all the stones connected with your work are split out. now be kind enough
+               and look over the paper wich I left with you and see if all correct as we
+                <unclear reason="illegible" resp="#adk" cert="medium">are</unclear> govern <choice><orig>ourselfs</orig><reg>ourselves</reg></choice>
+                according and I will call with Mr. Moore<ptr target="loc.03304_n2"/> to see you <choice><sic>nex</sic><corr>next</corr></choice> tuesday morning at about
+               10 oclock, should this date not suit please drop me a line, wishing you the best of
+               health and in hopes
+               to see you well. I remain
+            </p>
+            <closer>
+                <salute>Yours very truly</salute>
+                <signed>J. E. Reinhalter</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.03300.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.03300.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.03300.004_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

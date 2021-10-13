@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08120">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 22 February 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>
+                    Center for Digital Research in the Humanities, University of Nebraska-Lincoln
+                </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>
+                    National Historical Publications and Records Commission
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08120</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 22 February 1891</title>
+                    <date cert="high" when="1891-02-22" xml:id="dat1">February 22, 1891</date> 
+                    <idno type="callno">MSS18630, Box 5, Reel 3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00100</idno>
+                    <orgName xml:id="loc">
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-06-25" who="#smb">final check, corrected</change>
+            <change when="2020-06-22" who="#blh">Second check: corrected transcription, added and corrected notes</change>
+            <change when="2020-05-10" who="#adk">First check: corrected transcription and notes</change>
+            <change when="2019-12-09" who="#zs">Added images</change>
+            <change when="2019-11-13" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00296.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Medical Superintendent's</name>
+                    <name type="place">Office.</name>
+                    <name type="place">INSANE ASYLUM</name> 
+                    <name type="place">LONDON ONTARIO<ptr target="loc.08120_n1"/></name>
+                    <date when="1891-02-22"><handShift rend="manuscript"/>22 Feb <handShift rend="printed"/>18<handShift rend="manuscript"/>91</date>
+                </dateline>
+            </opener>
+            <p>Postcard of 19<hi rend="underline">th</hi><ptr target="loc.08120_n2"/> from you to hand last evening. Was 
+                much relieved to hear that you were easier even if it is not very much so.
+                I trust now that you will keep out of the <hi rend="underline">deep ruts</hi> for a while 
+                and be able to look after the annex.<ptr target="loc.07894_n2"/>
+                Have you given up the idea of <hi rend="underline">other folks writing</hi> in it? 
+                I hope so&#8212;Horace<ptr target="n4267"/> &#38; I are busy planning a vol. of W.W.
+                essays and I do not see why we should not carry it thro' at once&#8212;that would 
+                seem to me far the better course.</p>
+            <p>The first machine made meter<ptr target="loc.07230_n2"/> is done &#38; tested&#8212;it is perfect. I have "The 
+                New Spirit"<ptr target="loc.02037_n1"/> have had it a year&#8212;the "W.W." is mostly good&#8212;has
+                some bad shots in it
+            </p>  
+            <closer>
+                <salute>Best love always</salute>
+                <signed>R M Bucke</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_zs.00297.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_zs.00298.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

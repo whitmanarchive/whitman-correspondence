@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00489">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">Charles L. Heyde to Walt Whitman, 23 August [1891]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles L. Heyde</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName> 
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00489</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>Charles L. Heyde</author>
+                    <title>Charles L. Heyde to Walt Whitman, 23 August [1891]</title>
+                    <date cert="high" when="1891-08-23" xml:id="dat1">August 23, [1891]</date>
+                    <orgName xml:id="duk">
+                        Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#38; Manuscript Library, Duke University</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">91</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Heyde, Charles L." ref="n0299">Charles L. Heyde</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person> 
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2020-07-14" who="#smb">final check, corrected</change>
+            <change when="2020-06-29" who="#blh">Second check: corrected transcription, added note</change>
+            <change when="2020-06-14" who="#cn">first check</change>
+            <change when="2019-12-30" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="duk.00489.001_large.jpg" type="recto"/>
+            <opener rend="center">
+                <dateline>
+                <name type="place">Studio 21 Pearl St</name>
+                    <date when="1891-08-23">23&#8212;Aug<hi rend="underline">t</hi></date>
+                </dateline>
+                <salute><unclear reason="illegible" resp="#blh" cert="medium">Dear</unclear> noble
+                    friend and <unclear reason="illegible" resp="#adk" cert="high">Bro</unclear>, Walt.
+                </salute>
+            </opener>  
+            <p> 
+                Han<ptr target="duk.00419_n2"/>
+                is doing <unclear reason="illegible" cert="low" resp="#smb">v</unclear>ery fairly&#8212;talks of you <unclear reason="illegible" resp="#blh" cert="high">a</unclear>
+                great deal&#8212;yet her <gap reason="illegible" quantity="1" unit="chars"/>ight fails her very much&#8212;<gap reason="illegible" quantity="3" unit="chars"/> 
+                cannot write as she desires&#8212;&#8212;Selling no pictures
+            </p>
+            <closer>
+                <salute>Gratefully yours</salute>
+                <salute>forever and ever</salute>
+                <signed>Charlie</signed>
+            </closer>
+            <note type="editorial" place="top" resp="#rmb">91</note>
+        </body>
+    </text>
+</TEI> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

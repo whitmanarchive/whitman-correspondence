@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03504">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Melville Philips to Walt Whitman, 19 May 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Melville Philips</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="eh">Ethan Heusser</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder> National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03504</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Melville Philips</author>
+                    <title>Melville Philips to Walt Whitman, 19 May 1891</title>
+                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00309</idno>
+                    <date cert="high" when="1891-05-19" xml:id="dat1">May 19, 1891</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Philips, Melville" ref="hun.00049_n4">Melville Philips</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-25" who="#smb">completed director's corrections</change>
+            <change when="2021-04-30" who="#smb">final check, corrected notes</change>
+            <change when="2021-04-28" who="#aa">second check; added DOI; corrected and
+                revised</change>
+            <change when="2020-07-07" who="#cn">first check</change>
+            <change when="2020-06-05" who="#eh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03504.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <handShift rend="printed"/>
+                    <name type="place">The Philadelphia Press.</name>
+                    <name type="place">THE PRESS COMPANY, Limited, Proprietors,</name>
+                    <name type="place">SEVENTH AND CHESTNUT STREETS.</name>
+                    <date when="1891-05-19">Philadelphia, <handShift rend="manuscript"/>May 19<hi
+                            rend="underline">th</hi>
+                        <handShift rend="printed"/>189<handShift rend="manuscript"/>1</date>
+                </dateline>
+                <salute>Dear Mr. Whitman:</salute>  
+            </opener>
+            <p>You have never let me know about that &#36;10, so I suppose you received it from M.<ptr
+                    target="n5001"/> I am reminded of the matter now by a note from my friend Nugent
+                Robinson<ptr target="loc.03560_n1"/> of <hi rend="underline">Once a Week</hi>.<ptr target="loc.03504_n2"/>
+                He asks me to get him some verse. Have you a &#36;10 bit on hand, or will you jot down
+                anything in mind for that amount?</p> 
+            <p>Kindly let me know at once &amp; oblige, yrs very truly,</p>
+            <closer>
+                <signed rend="right">Melville Philips</signed>
+            </closer>
+            <postscript>
+                <p>I'll engage to send you the card instantly the poem arrives. Have you utterly <pb
+                        xml:id="leaf001v" facs="loc.03504.002_large.jpg" type="recto"/> abandoned
+                    all idea of paying me that visit? You know I can make the journey very easy for
+                    you, &amp;, I venture to say, the visit tranquilly pleasant. There are vistas out
+                    there, at Wayne, and the odor of flowers, &amp; the song of birds.</p>
+                <p>Come</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

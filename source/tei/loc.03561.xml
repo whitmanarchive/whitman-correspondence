@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03561">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Jacques Reich to Walt Whitman, 12 February 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Jacques Reich</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03561</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jacques Reich</author>
+                    <title>Jacques Reich to Walt Whitman, 12 February 1890</title>
+                    <date cert="high" when="1890-02-12" xml:id="dat1">February 12, 1890</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Reich, Jacques" ref="loc.03561_n3">Jacques Reich</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2019-06-25" who="#smb">final check, corrected</change>
+            <change when="2019-06-06" who="#aa">second check</change>
+            <change when="2019-06-03" who="#if">First check</change>
+            <change when="2017-09-12" who="#bbb">Encoded</change>
+        </revisionDesc>  
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03561.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">To. Walt <choice><sic>Whittman</sic><corr>Whitman</corr></choice> Esq.</name>
+                    <name type="place">Studio 2 W. 14<hi rend="underline">th</hi> st</name>
+                    <name type="place">New York</name>
+                    <date when="1890-02-12">Febr. 12<hi rend="underline">th</hi> 90<ptr target="loc.03561_n1"/></date>
+                </dateline>
+                <salute>My dear sir</salute>
+            </opener>
+            <p>I have delivered your book to Mr. Bancroft.<ptr target="loc.03561_n4"/> I was sorry to find
+                him in bed ill since several weeks.</p>
+            <p>I take the pleasure to mail to you some proofs of my drawings and ask you to accept
+                them with my kindest regards.</p>
+            <p>Thanking you for your kindness at the occasion of my visit to you, and wishing you
+                good health I am most respectfully</p>
+            <closer>
+                <salute>yours</salute> 
+                <signed>Jacques Reich<ptr target="loc.03561_n2"/></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.03561.002.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.03561.003.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.03561.004.jpg" type="verso"/>
+        </body> 
+    </text>
+</TEI>

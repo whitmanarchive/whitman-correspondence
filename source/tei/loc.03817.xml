@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03817">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Alys W. Smith to Walt Whitman, 13 June 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Alys W. Smith</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03817</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Alys W. Smith</author>
+                    <title>Alys W. Smith to Walt Whitman, 13 June 1890</title>
+                    <date cert="high" when="1890-06-13" xml:id="dat1">June 13, 1890</date>
+                    <idno type="callno">MSS18630, Box 16, Reel 10</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00348</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Smith, Alys W." ref="n7014"></persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-07" who="#smb">final check, corrected</change>
+            <change when="2019-10-16" who="#blh">second check, corrected</change>
+             <change when="2019-07-26" who="#rf">First Check</change>
+            <change when="2019-07-16" who="#if">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jc.00059_large.jpg" type="recto"/>
+            <note type="editorial" place="top" resp="#ht">Insert with notes June 21 1890</note>
+            <opener>
+                <dateline>
+                    <name type="place">S.S. Eider.<ptr target="loc.03817_n1"/></name>
+                    <date when="1890-06-13">Friday. June 13th. 1890</date>
+                </dateline>
+                <salute>Dear Mr. Whitman&#8212;</salute>
+            </opener>  
+            <p> 
+               I simply hated to take leave of you. My visits to you this winter have been such a
+               pleasure to me &#38; it is one of my greatest regrets in leaving America that I
+               must leave you behind. If only Camden were a
+               <pb xml:id="leaf001v" facs="loc_jc.00060_large.jpg" type="verso"/>
+               little near London! I hoped that perhaps I could get over to see you once again, but
+               I was kept too busy with the graduation just at the last. I hope you saw the account
+               of it all in the Ledger.
+            </p>
+            <p>
+                We have been at sea nearly a week, &#38; we hope to reach Southampton on Sunday.
+                <pb xml:id="leaf002r" facs="loc_jc.00061_large.jpg" type="recto"/>
+                I can hardly realize that I shall see all my dear family so soon. The voyage
+                has been rough &#38; uneventful, except for three icebergs &#38; two whales!
+            </p>
+            <p>
+                I do hope you will keep well this summer thro' all the hot weather, dear Mr. Whitman.
+            </p>
+            <p>
+                You must send us an occasional postal card to let us know how
+                <pb xml:id="leaf002v" facs="loc_jc.00062_large.jpg" type="verso"/>
+                you are. I shall be quite proud to be able to give all your London friends the latest
+                news of you. 
+            </p>
+            <p>
+                Please give my love to Mrs. Davis,<ptr target="n6113"/> &#38; keep a great deal for
+                yourself, my dear, <hi rend="underline">dear</hi> friend.
+            </p>
+            <closer>
+                <salute>Yours most affectionately</salute>
+                <signed>Alys W. Smith</signed>
+            </closer>  
+        </body>
+    </text>
+</TEI>

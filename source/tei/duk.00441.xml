@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00441">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Charles L. Heyde to Walt Whitman, 7 February
+                    1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00441</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles L. Heyde</author>
+                    <title>Charles L. Heyde to Walt Whitman, 7 February 1890</title>
+                    <date cert="high" when="1890-02-07" xml:id="dat1">February 7, 1890</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare
+                        Book &#38; Manuscript Library, Duke University</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Heyde, Charles L." ref="n0299">Charles L. Heyde</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-06-28" who="#smb">final check, corrected</change>
+            <change when="2019-06-03" who="#aa">second check</change>
+            <change when="2019-06-03" who="#if">First check</change>
+            <change when="2017-09-07" who="#bbb">Encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="duk.00441.001_large.jpg" type="recto"/> 
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Van Ness House</name>
+                    <name type="place"><handShift rend="printed"/>L. S. Drew &amp; H. N. Clark</name>
+                    <name type="place"><handShift rend="printed"/>Managers</name>
+                    <name type="place"><handShift rend="printed"/>U. A. Woodbury, Proprietor.</name>
+                    <name type="place"><handShift rend="printed"/>Burlington, Vt.</name>
+                    <date when="1890-02-07">189<handShift rend="manuscript"/>0</date>
+                    <date when="1890-02-07">Feby 7</date>
+                </dateline>
+                <salute>Bro Walt.</salute>
+            </opener>
+            <p>Han<ptr target="n0285"/> recd your note, with 1 dollar was too weakly to read it, just then. Is very
+                poorly, feeble, nervous, emaciated, brain affected through prostration of physical
+                power, from two very protracted attacks/jaundice &#38; has taken much medicine,
+                necessarily&#8212;has every edible thing suitable for her convalescence, yet does
+                <gap reason="illegible" quantity="1" unit="word"/> acquire any energy
+            <pb xml:id="leaf001v" facs="duk.00441.002_large.jpg" type="verso"/>
+               weather very hindering, cold, or coldly damp&#8212;house comfortable however good
+               heater in sitting roo<unclear reason="illegible" resp="#smb" cert="high">m</unclear> of course her disorder admit<gap reason="illegible" quantity="3" unit="chars"/> of no philosophy&#8212;She is
+                sick&#8212;very sick" indeed Charlie"&#8212;Yet I feel encouraged that she will get
+                better&#8212;well, after a time&#8212;can get up stairs and return&#8212;cook her
+                own victuals, agreeable <unclear reason="illegible" resp="#smb" cert="low">to</unclear> herself&#8212;
+           I gave a couple of paintings away (allmost) to buy a tin of coal and a few groceries&#8212;</p>
+            <p>Neither Geo or Lou,<ptr target="n1046"/> write to her&#8212;might send her a
+                trifle&#8212;</p>
+            <closer> 
+                <signed>Charlie&#8212;</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

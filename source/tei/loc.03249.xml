@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03249">
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Silas Weir Mitchell to Walt Whitman, 15 December 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Weir Mitchell</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03249</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p> 
+                </availability>
+            </publicationStmt>
+            <sourceDesc>  
+                <bibl>
+                    <author>Silas Weir Mitchell</author>
+                    <title>Silas Weir Mitchell to Walt Whitman, 15 December 1889</title>
+                    <date cert="medium" when="1889-12-15" xml:id="dat1">December 15, 1889</date>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Mitchell, Silas Weir" ref="loc.03249_n2">Silas Weir Mitchell</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-06-28" who="#smb">final check, corrected</change>
+            <change when="2019-05-31" who="#if">Second check</change>
+            <change when="2019-05-22" who="#blh">First check</change>
+            <change when="2016-10-27" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03249.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>1524 Walnut Street</name>
+                    <name type="place"><handShift rend="printed"/>Philadelphia<ptr target="loc.03249_n1"/></name>
+                </dateline>
+                <salute><handShift rend="manuscript"/>My Dear good gray Poet&#8212;</salute>
+            </opener>
+            <p>Ever since I bought the first edition of Leaves of grass we have been friends through
+                your books&#8212;I warmly thank you for this precious memorial of a man whose life
+                work &amp; example are better even than<pb xml:id="leaf001v" facs="loc.03249.002.jpg"
+                    type="verso"/>
+                <pb xml:id="leaf002v"
+                    facs="loc.03249.004.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc.03249.003.jpg" type="recto"/> his books</p>
+            <closer>
+                <salute>and I am</salute>
+                <salute>gratefully</salute>
+                <salute>yr. friend</salute>
+                <signed>Weir Mitchell</signed> 
+               <address>
+                   <addrLine>Walt. Whitman</addrLine>
+               </address>
+                <dateline>
+                <date when="1889-12-15">Dec 15, 1889</date>
+                </dateline>
+            </closer>
+            <pb xml:id="leaf003r" facs="loc.03249.005.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc.03249.006.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

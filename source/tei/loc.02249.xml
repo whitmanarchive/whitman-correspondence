@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02249">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">O. F. Hershey to Walt Whitman, 1 January 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>O. F. Hershey</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ab">Andrea Bastien</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02249</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive June be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>O. F. Hershey</author>
+                    <title>O. F. Hershey to Walt Whitman, 1 January 1889</title>
+                    <date cert="high" when="1889-01-01" xml:id="dat1">January 1, 1889</date>
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Hershey, O. F." ref="loc.02249_n1">O. F. Hershey</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2019-07-23" who="#smb">final corrections</change>
+            <change when="2018-09-28" who="#smb">final check, corrected, added notes</change>
+            <change when="2018-09-08" who="#blh">second check</change>
+            <change when="2017-09-20" who="#aa">checked, added correspondent note</change>
+            <change when="2016-02-15" who="#ab">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>   
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02249.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Harvard University</name>
+                    <name type="place">Cambridge, Mass.</name>
+                    <date when="1889-01-01">Jan. 1, 1889.<ptr target="loc.02249_n2"/></date>
+                </dateline>
+                <salute> Dear Walt Whitman,</salute>
+            </opener>
+            <p>I feel as though I cannot begin the new year without wishing you all possible health
+                and happiness. I hope you will appreciate these greetings of a stranger when he
+                tells you that to him you are no stranger but an ever present comrade.</p>
+            <p>Besides telling you of the great good you have done me I want to assure you of the
+                hearty love you are winning, among the students and teachers here. To me you have
+                been&#8212;a guiding star&#8212;a light in the wilderness. I trace my highest and best
+                thoughts <pb xml:id="leaf001v" facs="loc.02249.002.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc.02249.003.jpg" type="recto"/> and feelings to
+                your poems. I wish I could give you some idea of how I feel towards the author of
+                "Leaves of Grass."</p>
+            <p>I hope you will not think this a bait for an autograph, I am above that &#8211; I merely
+                want to thank you for the good you have done me.</p>
+            <closer>
+                <salute>Your humble admirer &#38; wellwisher,</salute>
+                <signed>O. F. Hershey.</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.02249.004.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc.02249.005.jpg" type="recto"/>
+            <note type="editorial" place="top" resp="#ht">see notes Jan 5 <hi rend="underline">1889</hi></note>
+            <pb xml:id="leaf003v" facs="loc.02249.006.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

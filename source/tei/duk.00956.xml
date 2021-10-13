@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00956">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Joseph M. Stoddart, 24 April 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00956</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">41</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Joseph M. Stoddart, 24 April 1890</title>
+                    <date cert="high" when="1890-04-24" xml:id="dat1">April 24, 1890</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#38; Manuscript Library, Duke University</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Stoddart, Joseph M." ref="loc.04674_n1">Joseph M. Stoddart</persName>
+                </person>
+            </particDesc>  
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-10-27" who="#smb">final check, corrected</change>
+            <change when="2020-07-09" who="#blh">Second check: corrected note, verified transcription and encoding</change>
+            <change when="2020-05-29" who="#cn">first check</change>
+            <change when="2020-05-01" who="#adk">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter"> 
+        <body> 
+                <opener>
+                    <dateline>
+                    <name type="place">328 Mickle street</name>
+                    <name type="place">Camden New Jersey</name>
+                    <date when="1890-04-24">April 24 '90</date>
+                    </dateline>  
+                <salute>My dear Stoddart<ptr target="duk.00956_n1"/></salute>
+            </opener>
+            <p>Can you use this in the magazine? It is intended to make <hi rend="italic">one page</hi>
+                full &#38; square&#8212;&#38; I shall require to see a proof beforehand&#8212;(that is
+                indispensable.) The price is &#36;60 &#38; a dozen copies of the magazine number. I reserve
+                the right of printing in future book.</p>
+            <closer>
+                <salute>Respectfully &#38;c:</salute>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <postscript>
+                <p>If necessary I will contract or expand it (in proof) to make the fair page&#8212;</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

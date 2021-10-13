@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07976">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Maurice Bucke to Walt Whitman, 3 January 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Maurice Bucke</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor> Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder> National Historical Publications and Records Commission </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07976</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p> Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Richard Maurice Bucke</author>
+                    <title>Richard Maurice Bucke to Walt Whitman, 3 January 1891</title>
+                    <date cert="high" when="1891-01-03" xml:id="dat1">January 3, 1891</date>
+                    <idno type="callno">MSS18630, Box 5, Reel 3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00100</idno>
+                    <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice
+                        Bucke</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-06-11" who="#smb">final check, corrected</change>
+            <change when="2020-06-05" who="#adk">second check, corrected</change>
+            <change when="2019-12-15" who="#cn">first check</change>
+            <change when="2019-11-22" who="#zs">added images</change>
+            <change when="2019-10-01" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00204.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Medical Superintendent's</name>
+                    <name type="place">Office.</name>
+                    <name type="place">INSANE ASYLUM</name>
+                    <name type="place">LONDON ONTARIO<ptr target="loc.07976_n1"/></name>
+                    <date when="1891-01-03">3 Jan <handShift rend="printed"/>18<handShift
+                            rend="manuscript"/>91</date> 
+                </dateline>
+            </opener> 
+            <p> Yours of 31 Dec.<ptr target="n5002"/> just to hand. Do not worry about me,<ptr target="loc.07976_n2"/>
+                dear Walt, I am all right, am over at office every day now and have pretty good
+                nights&#8212;of course I had a little pain and a few restless nights but nothing
+                worth talking about and now even these are over&#8212; but I thank you and all the
+                good friends down east there for your kind sympathy. Our sleighing is gone again but
+                the wheeling is good and the weather clear and charming I am going out for a drive
+                in an hour my boy Maurice will take me&#8212;Am reading Dumas' Marie Antoinette
+                    Romances<ptr target="loc.07976_n3"/>&#8212;am in 7<hi rend="underline">th</hi>
+                vol. of the set &#38; have 6 more to read&#8212;it is a picture (good one) of the
+                French Revolution</p>
+            <closer>
+                <salute><hi rend="underline">Love</hi></salute>
+                <signed>R M Bucke</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_zs.00205.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_zs.00206.jpg" type="verso"/>
+            <note type="editorial" place="top" resp="#ht">see notes Jan 16 1891</note>
+        </body>
+    </text> 
+</TEI> 

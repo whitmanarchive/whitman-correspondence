@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04729">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">Charles L. Heyde to Walt Whitman, 11 April 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles L. Heyde</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04729</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles L. Heyde</author>
+                    <title>Charles L. Heyde to Walt Whitman, 11 April 1890</title>
+                    <date cert="high" when="1890-04-11" xml:id="dat1">April 11, 1890</date>
+                    <idno type="callno">MSS18630, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00040</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.
+                    </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Heyde, Charles L." ref="n0299">Charles L. Heyde</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-10-19" who="#smb">final check, corrected</change>
+            <change when="2020-07-06" who="#blh">Second check: corrected transcription, added notes</change>
+            <change when="2020-05-26" who="#cn">first check, corrected</change>
+            <change when="2020-04-19" who="#adk">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_ad.00107_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                <name type="place">
+                    <handShift rend="printed"/>
+                    Van Ness House
+                </name>
+                <name type="place">L. S. Drew &#38; H. N. Clark</name>
+                <name type="place">Managers</name>
+                <name type="place">U. A. Woodbury, Proprietor.</name>
+                <name type="place">Burlington, Vt.</name>
+                <date when="1890-04-11">189<handShift rend="manuscript"/>0</date>
+                <date when="1890-04-11">April 11.<ptr target="loc.04729_n1"/></date>
+                </dateline>
+                <salute>Our dear, good brother Walt</salute>
+            </opener>  
+            <p>Han<ptr target="duk.00381_n2"/> is better this morning, yesterday she could scarcely 
+                stand up&#8212;back is weak&#8212;Appetite good however&#8212;or so-so</p>
+            <p>Weather indescribable, chilly from the Adirondacks, and the Lake.</p>
+            <p>Persons occasionally enquire how I manage to provide, knowing that I sell so few paintings,
+                at so low a price&#8212;I tell them our good friend and brother, Walt, sends
+            <pb xml:id="leaf001v" facs="loc_ad.00108_large.jpg" type="verso"/>
+                us a dollar, at times 2 every few days&#8212;and sometime since, sent 5 by mail&#8212;which
+                with my contriving helps us&#8212;which is appreciated.</p>
+            <p>People are surprised and pleased&#8212;under the impression you are so poor&#8212;in money&#8212;</p>
+            <p>I suppose that George<ptr target="loc.04812_n2"/> does not care much for us&#8212;</p>
+            <p>Han tires sometimes, thinks we had better sell, get a smaller place, and have some money&#8212;but
+                this is such a pretty situation.</p>
+            <closer>
+                <salute>Gratefully Yours</salute>
+                <signed>Charlie &#38; Han.</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_ad.00123_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_ad.00124_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

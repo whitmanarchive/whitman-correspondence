@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02124">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Samuel H. Grey to Walt Whitman, 20 November 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02124</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Samuel H. Grey</author>
+                    <title>Samuel H. Grey to Walt Whitman, 20 November 1889</title>
+                    <date cert="high" when="1889-11-20" xml:id="dat1">November 20, 1889</date>
+                    <idno type="callno">MS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>   
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Grey, Samuel H." ref="n7013">Samuel H. Grey</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-07-25" who="#smb">final corrections, updated</change>
+            <change when="2018-10-22" who="#smb">final check, added notes</change>
+            <change when="2018-09-27" who="#blh">Second check</change>
+            <change when="2018-09-20" who="#as">First check</change>
+            <change when="2017-08-14" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02124.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>S. H. Grey,<lb/>104 Market St., Camden, N.J.</name>
+                    <name type="place"><handShift rend="printed"/>M. P. Grey,<lb/>93 Market St., Salem, N.J.</name>
+                    <name type="place"><handShift rend="printed"/>Grey &amp; Grey,<lb/>Law Offices</name>
+                    <name type="place">104 Market St., Camden</name>
+                    <date when="1889-11-20"><handShift rend="manuscript"/>Nov. 20<handShift
+                        rend="printed"/> 18<handShift rend="manuscript"/>89<ptr target="loc.02124_n1"/></date>
+                </dateline>
+                <salute>Walt Whitman Esq</salute>
+                <salute>Dear Sir</salute>
+            </opener>
+            <p>I have rec<hi rend="underline">d</hi>. with very great pleasure the copy of yr. works 
+                w<hi rend="underline">h</hi> you were kind enough
+                to send me. They are in themselves valuable to all thoughtful men but their
+                intrinsic value is to me enhanced by the fact that they came direct from the hand,
+                and as an expression of the good will &#38; esteem, of the author.</p>
+            <pb xml:id="leaf001v" facs="loc.02124.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.02124.003_large.jpg" type="recto"/>
+            <p>I feel flattered by this evidence of yr. kindly feeling and I thank you heartily for
+                this most acceptable gift.</p>
+            <p>In the hope that yr. days may yet "be long in the land" to whose literature you have
+                given the true American characteristics of breadth &#38; freedom</p>
+            <closer>
+                <salute>I am Dr Sir</salute>
+                <salute>Respectfully &#38; Gratefully Yrs</salute>
+                <signed>SH. Grey</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.02124.004_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc.02124.005_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc.02124.006_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

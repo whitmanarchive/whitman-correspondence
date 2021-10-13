@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07715">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">
+                    Walt Whitman to Richard Maurice Bucke, 22 October 1889
+                </title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bk">Braden Krien</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>
+                    Center for Digital Research in the Humanities, University of Nebraska-Lincoln
+                </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>
+                    National Historical Publications and Records Commission
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07715</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc> 
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Richard Maurice Bucke, 22 October 1889</title>
+                    <date cert="high" when="1889-10-22" xml:id="dat1">October 22, 1889</date>  
+                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno> 
+                    <orgName xml:id="loc">
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+                    </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>  
+            <change when="2019-07-25" who="#smb">updated final corrections</change>
+            <change when="2018-11-08" who="#smb">final check, corrected</change>
+            <change when="2018-11-01" who="#as">Added images</change>
+            <change when="2018-09-24" who="#blh">second check</change>
+            <change when="2018-09-18" who="#as">first check</change>
+            <change when="2017-07-17" who="#bk">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001v" facs="loc_as.00132_large.jpg" type="verso"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1889-10-22">P M Oct: 22 '89<ptr target="loc.07715_n1"/>
+                    </date>
+                </dateline>
+            </opener>
+            <p>
+                Fine sunny weather continued&#8212;Warren Fritzinger<ptr target="loc.07319_n6"/>, one of Mrs
+                D's<ptr target="n6113"/> sailor boys, is acting as my nurse &amp; helper&#8212;I have just had a 
+                good massage&#8212;get along fairly&#8212;send you the London <hi rend="underline">Telegraph</hi> with 
+                Sir E A's<ptr target="loc.07715_n4"/> letter. Y'rs rec'd&#8212;Suppose Ed<ptr target="n4319"/> is there all right by this 
+                time<ptr target="loc.07715_n3"/>&#8212;Shall I send you my N Y <hi rend="underline">Critic</hi> after rec'd? You shall have the 1872
+                ed'n of L of G. &amp; I think I have Harrington for you too<ptr target="loc.07715_n2"/>&#8212;
+            </p>
+            <closer>
+                <signed>W W</signed>
+            </closer>
+            <pb xml:id="leaf001r" facs="loc_as.00131_large.jpg" type="recto"/>
+        </body>
+    </text>
+</TEI>

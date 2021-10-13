@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03092">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">William Sloane Kennedy to Walt Whitman, 3 November 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William Sloane Kennedy</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ktl">Kirby Little</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03092</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William Sloane Kennedy</author>
+                    <title>William Sloane Kennedy to Walt Whitman, 3 November 1890</title>
+                    <date cert="high" when="1890-11-03" xml:id="dat1">November 3, 1890</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00256</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-27" who="#smb">completed director's corrections</change>
+            <change when="2020-12-17" who="#smb">final check, corrected, added notes</change>
+            <change when="2020-09-25" who="#blh">Second check: corrected transcription, added DOI</change>
+            <change when="2019-06-17" who="#if">First check, corrected</change>
+            <change when="2016-11-29" who="#ktl">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03092.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1890-11-03">Nov 3 '90</date>
+                </dateline>
+                <salute>Dear W. W:</salute>
+            </opener>
+            <p>How is this? I shd not have thought you cd have written so masterfully on so old a
+                theme. You remind me of an incident: Dr Bucke<ptr target="n0119"/> &#38; the attendant
+                doctor<ptr target="n5001"/> I
+                were making the rounds when we came to a fellow who was 
+                queried &#38; searchingly examined by those
+                wonderful eyes of the doctor's (Bucke's). "Well," says, Doctor B. you are a pretty
+                sane man for a lunatic." So you seem to me a pretty <hi rend="underline">live</hi>
+                man for a dying (?) man! Not a living man could have written more vigorously than
+                <hi rend="underline">that</hi> (N. Am<ptr target="med.00850_n2"/> Article).<ptr target="loc.05859_n8"/></p>
+
+            <p>Yes, wish we c<hi rend="underline">d</hi> do honor to those glorious pumpkin pies. I like 'em hugely. 
+                I can see that that Ingersoll<ptr target="n0839"/> episode has brightened your spirits
+                amazingly.<ptr target="loc.07846_n3"/> May you live long, as Jefferson says in "Rip."<ptr target="loc.03092_n1"/> 
+                You perhaps saw my &#8531; <choice>
+                    <orig>col.</orig>
+                    <reg>column</reg>
+                </choice> of Ingersoll's speech with remarks by me, in last Sat.'s Transcript<ptr target="loc.03092_n3"/>&#8212;(p.
+                2) great "'lection"<ptr target="loc.03092_n2"/> times here. Busy times for printers &#38; editors.</p>
+            <closer>
+                <signed>W. S. Kennedy.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.03092.002.jpg" type="verso"/>
+        </body>  
+    </text>
+</TEI> 

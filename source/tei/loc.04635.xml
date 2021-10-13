@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04635">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">
+                    E.C. Waters to Walt Whitman, 24 December 1889
+                </title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>E.C. Waters</author> 
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kw">Kara Wentworth</persName>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>
+                    Center for Digital Research in the Humanities, University of Nebraska-Lincoln
+                </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>
+                    National Historical Publications and Records Commission
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04635</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright  &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>E.C. Waters</author>
+                    <title>E.C. Waters to Walt Whitman, 24 December 1889</title>
+                    <date cert="high" when="1889-12-24" xml:id="dat1">December 24, 1889</date>
+                    <idno type="callno">MSS18630, Box 18</idno>
+                    <orgName xml:id="loc">
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.
+                    </orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+               <handNote xml:id="unk">
+                    <persName key="Unknown">Unknown</persName>
+                </handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Waters, E.C." ref="n5000">E.C. Waters</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-07-25" who="#smb">updated final corrections</change>
+            <change when="2018-11-08" who="#smb">final check, corrected</change>
+            <change when="2018-09-28" who="#blh">Second check</change>
+            <change when="2018-09-27" who="#as">First check</change>
+            <change when="2017-04-13" who="#kw">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.02467.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Sag Harbour</name>
+                    <name type="place">L.Island</name>
+                    <date when="1889-12-24">Dec 24th 89</date>
+                </dateline> 
+                <salute>
+                    Dear Sir
+                </salute>
+            </opener>
+            <p>
+                Your volume of poems ordered by Miss Stoddart<ptr target="n5001"/> arrived safely&#8212;it was really intended for her 
+                Uncle Howard Helmick<ptr target="loc.04635_n1"/> an Artist&#8212;who has been residing abroad many years&#8212;but who even 
+                there learned to know and love the poet and <choice><sic>prohet</sic><corr>prophet</corr></choice> 
+                of his Native land&#8212;We will be able now to enjoy and appreciate it in full&#8212;as
+             <pb xml:id="leaf002r" facs="loc_vm.02469.jpg" type="recto"/>
+                we were able only to get a small selection in London&#8212;
+            </p>
+            <p>
+                Wishing you heartily the compliments of the season
+            </p>
+            <closer>
+                <salute>
+                    I am
+                </salute>
+                <salute>
+                    Yours Sincerely
+                </salute>
+                <signed rend="right">E.C. Waters&#8212;</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_vm.02468.jpg" type="verso"/>
+            <pb xml:id="leaf002v" facs="loc_vm.02470.jpg" type="verso"/>
+            <note type="editorial" place="right" resp="#unk">E. C. Waters</note>
+        </body>
+    </text>
+</TEI>
