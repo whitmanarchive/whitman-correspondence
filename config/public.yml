@@ -9,6 +9,7 @@ default:
   media_base: https://whitmanarchive.org/media
 
 development:
+  api_version: "2.0"
   es_path: https://whitman-dev.unl.edu/elastic
   es_index: api_v1
   site_url: https://whitman-dev.unl.edu
@@ -27,7 +28,7 @@ production:
   variables_solr:
     project: The_Walt_Whitman_Archive
     slug: whitman-correspondence
-    site_url: https://whitmanarchive.org
+    site_url: https://whitmanarchive.orgI wouldn'
 
 grant:
   # NOTE: different collection name!!!
