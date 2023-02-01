@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08025"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Dr. John Johnston, 8 April 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08025</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">188&#8211;189</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Dr. John Johnston, 8 April 1891</title>
+                    <date cert="high" when="1891-04-08" xml:id="dat1">April 8, 1891</date>
+                    <idno type="callno">MMC-1482; MSS90019</idno>
+                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1887&#8211;1923, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Johnston, Dr. John" ref="n4102">Dr. John Johnston</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-27" who="#smb">final corrections</change>
+            <change when="2021-11-19" who="#smb">final check, corrected</change>
+            <change when="2021-10-19" who="#cn">checked, corrected, added notes</change>
+            <change when="2021-07-08" who="#aja">checked, corrected</change>
+            <change when="2019-10-18" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>   
+            <opener>  
+                <dateline>
+                   <name type="place">Camden New Jersey</name>
+                    <name type="place">U S America<ptr target="loc.08025_n1"/>&#8212;</name>
+                    <date when="1891-04-08">April 8 '91</date>
+                </dateline>
+            </opener>
+            <p>The sun is shining so finely out, &#38; the spring weather (half warm, half cool) comes on to day, 
+                I tho't I w'd send you a line tho' I really have nothing to write ab't&#8212;The best probably is 
+                I am no worse&#8212;if no better effectually&#8212;dont seem to get any strength or grip yet&#8212;but 
+                "Keep my end up" much the same, (a phrase am'g the seine fishermen)&#8212;&#38; that's 
+                something&#8212;not to fall behind hand.</p>
+            <p>Still on my proofs at 2d annex,<ptr target="loc.03340_n4"/> well toward the end&#8212;all goes fairly&#8212;One of the 
+                boys<ptr target="loc.07693_n3"/> has just 
+                bro't up to me a nice little cup of hot cocoa for lunch&#8212;nice&#8212;g't demand hereabout for 
+                doctors&#8212;three here yesterday same time in an area of 100 feet&#8212;
+            </p> 
+            <closer>
+                <salute>Remembrances to J W W[allace]<ptr target="n6121"/> &#38; all the friends&#8212;</salute>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

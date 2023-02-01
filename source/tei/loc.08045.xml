@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08045"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Leroy M. Bingham to Walt Whitman, 19 July 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Leroy M. Bingham</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08045</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Leroy M. Bingham</author>
+                    <title>Leroy M. Bingham to Walt Whitman, 19 July 1891</title>
+                    <date cert="high" when="1891-07-19" xml:id="dat1">July 19, 1891</date>
+                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00079</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bingham, Leroy M." ref="loc.04801_n4">Leroy M. Bingham</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-06-30" who="#aja">final corrections</change>
+            <change when="2022-03-21" who="#smb">final check, corrected</change>
+            <change when="2021-10-12" who="#me">checked, corrected</change>
+            <change when="2021-07-13" who="#aja">checked, corrected</change>
+            <change when="2021-06-21" who="#cn">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_tb.00014.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <address><addrLine>Mr Walt Whitman</addrLine></address>
+                    <date when="1891-07-19"/>
+                </dateline>
+                <salute>Dear sir&#8212;</salute>
+            </opener>
+            <p>Yours with check for 50&#36; recd&#8212;I put 40 in the Savings Bank to your 
+                sister's<ptr target="n7033"/> credits&#8212;she not wishing to keep that amt 
+                in house; and she had sufficient with her for the present&#8212;</p>
+            <p>Mrs Heyde has had a poor spell but not confined to bed, she is much better now, 
+                and able to attend to house hold duties to some extent&#8212;I always look after 
+                <pb xml:id="leaf001v" facs="loc_tb.00015.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc_tb.00016.jpg" type="recto"/>
+                her when sick if I know it&#8212;Mr Heyde<ptr target="n0299"/> is often sent 
+                for me but fails to let Mrs Heydes wants known, and returns to her with some 
+                vague answer</p>
+            <p>I presume he has written you most pitiful letters as to your sister's 
+                condition, if like other messages that I know of. They are perfectly unreliable</p>
+            <p>If any thing serious <unclear reason="illegible" resp="#aja" cert="medium">occurs</unclear> to Mrs Heyde I will inform you at once&#8212;</p>
+            <closer>
+                <salute>Sincerely Yours</salute> 
+                <signed>L. M. Bingham</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc_tb.00013.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

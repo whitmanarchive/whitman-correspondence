@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01418"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to the Editor of <hi rend="italic">The Critic</hi>, 25 November 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01418</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to the Editor of <hi rend="italic">The Critic</hi>, 25 November 1890</title>
+                    <date cert="high" when="1890-11-25" xml:id="dat1">November 25, 1890</date>
+                    <idno type="callno">MSS18630, Box 8, Reel 5</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00146</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Editor of The Critic" ref="n6111">Editor of <hi rend="italic">The Critic</hi></persName> 
+                </person>
+            </particDesc> 
+        </profileDesc>  
+        <revisionDesc>
+            <change when="2022-02-15" who="#aja">final corrections</change>
+            <change when="2021-11-17" who="#smb">final, added DOI, added notes</change>
+            <change when="2021-10-01" who="#me">checked, corrected</change>
+            <change when="2021-07-26" who="#aja">checked, corrected</change>
+            <change when="2021-07-06" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01418.002_large.jpg" type="recto"/>  
+            <opener>
+                <dateline>
+                    <name type="place">Camden N J<ptr target="loc.01418_n1"/></name>
+                    <date when="1890-11-25">Nov: 25 '90</date>
+                </dateline>
+            </opener>
+            <p>Wonder whether you care for this &#182; for y'r announcem'ts?<ptr target="loc.01418_n2"/></p>
+            <closer>
+                <signed>&#8212;Whitman</signed>
+             </closer>
+            
+            <milestone unit="undeclared" rend="horbar-full"/>
+            
+            <postscript> 
+                <p>
+                    The late W<hi rend="underline">m</hi> D. O'Connor,<ptr target="n2002"/> of Washington, D.C.
+                    left unpublished the MS: of "the Brazen Android,"
+                    a tale, which with other new and some other stories
+                    including "the Carpenter" will be issued in book
+                    form. It is to have a brief prefatory note
+                    by Walt Whitman.<ptr target="loc.03017_n1"/>
+                </p>
+            </postscript>
+            <pb xml:id="leaf001v" facs="loc.01418.001_large.jpg" type="verso"/>  
+        </body>
+    </text>
+</TEI>
+
+

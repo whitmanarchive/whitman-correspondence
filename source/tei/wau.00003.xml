@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="wau.00003">
+    <teiHeader>
+        <fileDesc>  
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Hannah Whitman Heyde, 8 June 1891</title>
+                <author>Walt Whitman</author>
+                <editor>Maire Mullins</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ld">Lauren Davila</persName>
+                    <persName xml:id="mm">Maire Mullins</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for the Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>Kent State University</sponsor>
+                <sponsor>Pepperdine University</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>wau.00003</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#8212; 2022 by Ed Folsom and Kenneth M. Price, 
+                    all rights reserved. Items in the Archive may be shared in accordance with the Fair Use
+                    provisions of U.S. copyright law. Redistribution or republication on other
+                    terms, in any medium, requires express written consent from the editors and
+                    advance notification of the publisher, Center for Digital Research in the
+                    Humanities. Permission to reproduce the graphic images in this archive has
+                    been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">210</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>  
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Hannah Whitman Heyde, 8 June 1891</title>
+                    <date cert="high" when="1891-06-08" xml:id="dat1">June 8, 1891</date>
+                    <orgName xml:id="wau">Washington University, St. Louis</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Walt Whitman">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Heyde</persName>
+                </person>
+            </particDesc>
+        </profileDesc>   
+        <revisionDesc>
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2020-10-13" who="#smb">corrected notes</change>
+            <change when="2020-02-04" who="#smb">checked, updated notes</change>
+            <change when="2019-10-03" who="#bjo">checked and corrected</change>
+            <change when="2019-03-15" who="#mm">edited and proofread</change>
+            <change when="2016-08-11" who="#mm">proofread and added notes</change>
+            <change when="2016-08-05" who="#ld">transcribed and encoded</change>  
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body> 
+            <opener>   
+                <name type="place">Camden<ptr target="wau.00003_n1"/></name>
+                <dateline><date when="1891-06-08">P M June 8 '91</date></dateline>
+            </opener>  
+            <p>Afraid you are having a sick time of it, dear sister<ptr target="wau.00003_n2"/>&#8212;think 
+                <choice><abbr>ab't</abbr><expan>about</expan></choice> it all&#8212;very 
+                quiet here the last two days&#8212;few visitors &#38; then I send 
+                excuses&#8212;eat my meals fairly&#8212;just had a good little 
+                <choice><abbr>broil'd</abbr><expan>broiled</expan></choice> mutton chop for my 
+                supper (Still eat no dinner)&#8212;&#36;5 enclosed&#8212;Sunny but cool&#8212;will send 
+                you a better <choice><abbr>acc't</abbr><expan>account</expan></choice> of the birth-day 
+                supper<ptr target="wau.00003_n3"/> the young fellows gave me, soon 
+                as I get copies. Best love &#38; God bless you&#8212;</p>
+                <p><choice><abbr>y'r</abbr><expan>your</expan></choice> affectionate brother</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer> 
+            <postscript>
+                <p>do you remember who James Townsend, <choice><abbr>N Y.,</abbr><expan>New York</expan></choice> was? 
+                    He is dead (of shock&#8212;there was a fire near &#38; he was hurriedly removed)&#8212;he was very 
+                    old&#8212;good&#8212;was Priscilla's husband<ptr target="wau.00003_n4"/>&#8212;mother's cousin&#8212;P.
+                    is dead&#8212;also John Avery<ptr target="wau.00003_n5"/>&#8212;</p>
+            </postscript>
+        </body>
+    </text> 
+</TEI>
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03493">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Mrs J. L. Pittman to Walt Whitman, 6 January 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Mrs. J. L. Pittman</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03493</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Mrs J. L. Pittman</author>
+                    <title>Mrs J. L. Pittman to Walt Whitman, 6 January 1892</title>
+                    <date cert="high" when="1892-01-06" xml:id="dat1">January 6, 1892</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8&#8212;9</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00305</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key= "Pittman, Mrs J. L." ref="n5000">Mrs J. L. Pittman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-03-21" who="#smb">final check, corrected</change>
+            <change when="2021-09-29" who="#aja">2nd check, notes</change>
+            <change when="2021-07-18" who="#aja">checked, corrected</change>
+            <change when="2019-09-26" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03493.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">245 Schenck St.</name>
+                    <name type="place">Brooklyn, L.I.</name>
+                    <date when="1892-01-06">Jan. 6, 1892.</date>
+                </dateline>
+                <salute>Dear Walt Whitman,</salute>
+            </opener>
+            <p>Though unknown to you, I cannot forbear in this way to take you 
+                by the hand and tell you that I am glad to call myself your friend.</p>
+            <p>Your "Leaves of Grass" is a precious possession of mine 
+                and each time I take it up I find something new and inspiring in it.</p>
+            <p>I want to thank you for it all. It has helped me to see 
+                and understand more the beauty and truth
+                <pb xml:id="leaf001v" facs="loc.03493.002_large.jpg" type="verso"/>
+                that is in the world, and given me a broader sympathy for all 
+                mankind&#8212;and an insight into the reality of life.</p>
+            <p>You say&#8212;"Long, long hence, "Then only may these songs reach fruition"<ptr target="loc.03493_n2"/>&#8212;</p>
+            <p>They surely will, and to have a grand, uplifting ennobling influence 
+                on those who read them.</p>
+            <p>That is worth living for. In these days of your sickness my thoughts 
+                and sympathy are with you.</p>
+            <p>Please pardon the familiar manner of my writing, this letter is just for you alone
+                <pb xml:id="leaf002r" facs="loc.03493.003_large.jpg" type="recto"/>
+                and is from the heart of a friend.</p>
+            <closer>
+                <salute>With affectionate regard&#8212;</salute>
+                <signed>Mrs. J. L. Pittman</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.03493.004_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

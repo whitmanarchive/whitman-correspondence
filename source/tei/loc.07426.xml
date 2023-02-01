@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07426">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Mrs. John R. Gardner to Walt Whitman, Before 16 March 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Mrs. John R. Gardner</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.07426</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. 
+                        Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> 
+                    <author>Mrs. John R. Gardner</author>
+                    <title>Mrs. John R. Gardner to Walt Whitman, Before 16 March 1892</title>
+                    <date cert="high" when="1892-03-16" xml:id="dat1">Before March 16, 1892</date>
+                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.02839</idno> 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.00330"/>
+                    <relatedItem type="document" target="wwa.00330"/>
+                    <note type="project" target="#rel01">This undated, partial letter from Mrs. John R. Gardner has been crossed out. On the verso Whitman has 
+                    drafted a manuscript beginning with the line "Deep mystery of mysteries!" This draft contributed to Whitman's poem "A Thought of Columbus,"
+                    which was published in <hi rend="italic">Once a Week</hi> on July 2, 1892.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>  
+            <particDesc>
+                <person role="sender">
+                    <persName key="Gardner, Mrs. John R." ref="n5000">Mrs. John R. Gardner</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-08" who="#aja">final corrections</change>
+            <change when="2022-01-03" who="#smb">final check, corrected</change>
+            <change when="2021-10-06" who="#em">2nd check, corrected</change>
+            <change when="2021-07-17" who="#aja">checked, corrected</change>
+            <change when="2021-07-14" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_ej.00711_large.jpg" type="recto"/>
+            <p>
+                request, I am most truly<ptr target="loc.07426_n1"/>
+            </p>
+            <closer>
+                <signed>Mrs John R. Gardner</signed>
+                <address>
+                    <addrLine>42 West 65th St.</addrLine>
+                    <addrLine>New York</addrLine>
+                    <addrLine>City</addrLine>
+                </address>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_ej.00710_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

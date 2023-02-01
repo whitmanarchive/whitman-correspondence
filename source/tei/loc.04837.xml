@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04837">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">James W. Wallace to Walt Whitman, 23 February 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James W. Wallace</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04837</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> 
+                    <author>James W. Wallace</author>
+                    <title>James W. Wallace to Walt Whitman, 23 February 1892</title>
+                    <date cert="high" when="1892-02-23" xml:id="dat1">February 23, 1892</date>
+                    <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00404</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key= "Wallace, James W." ref="n6121">James W. Wallace</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-10-04" who="#smb">final check, corrected, added DOI</change>
+           <change when="2021-09-27" who="#aja">2nd check, notes</change>
+            <change when="2021-07-18" who="#aja">checked, corrected</change>
+            <change when="2019-09-30" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.02011_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Anderton, nr Chorley.</name>
+                    <name type="place">Lancashire, England</name>
+                    <date when="1892-02-23">23. Feb 1892</date>
+                </dateline>
+                <salute>Dear Walt,</salute>
+            </opener>
+            <p>Our dearest love to you always, &#38; our tenderest sympathy &#38; prayerful
+                good wishes.<ptr target="loc.02538_n4b"/></p>
+            <p>I wish that I were there to see you, &#38; by a kiss to indicate this love
+                that words are powerless to express.</p>
+            <p>Horace<ptr target="n4267"/> &#38; Warry<ptr target="loc.07319_n6"/> 
+                <pb xml:id="leaf001v" facs="loc_vm.02012_large.jpg" type="verso"/>
+                both write us &#38; every day a message comes. Every day we think of you
+                with a tender love that only grows deeper and is immortal 
+            </p>
+            <closer>
+                <salute>God bless you!</salute>
+                <salute>Yours affectionately</salute>
+                <salute>always</salute>
+                <signed><hi rend="underline">Wallace</hi></signed> 
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_vm.02013_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_vm.02014_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+
+
+

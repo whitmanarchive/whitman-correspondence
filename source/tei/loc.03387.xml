@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03387">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Standish James O'Grady to Walt Whitman, 8 March 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Standish James O'Grady</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="eh">Ethan Heusser</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03387</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Standish James O'Grady</author>
+                    <title>Standish James O'Grady to Walt Whitman, 8 March 1892</title>
+                    <date cert="high" when="1892-03-08" xml:id="dat1">March 8, 1892</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00298</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="O'Grady, Standish James" ref="n0453">Standish James
+                        O'Grady</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-09" who="#smb">checked, corrected</change>
+            <change when="2022-07-06" who="#pw">checked</change>
+            <change when="2021-09-22" who="#em">second check</change>
+            <change when="2020-08-07" who="#cn">first check</change>
+            <change when="2020-05-28" who="#eh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body> 
+            <pb xml:id="leaf001r" facs="loc.03387.003_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>University Club.</name>
+                    <name type="place">Dublin.<ptr target="loc.03387_n1"/></name>
+                    <date when="1892-03-08"><handShift rend="manuscript"/>March 8, 92</date>
+                </dateline>
+                <salute>Dear Sir.</salute>
+            </opener>
+            <p>I hear that you are sick<ptr target="loc.03387_n3"/> &#38; write a line to send you my love &#38; all manner of
+                kind wishes. I was one of the first to welcome you &#38; your poetry on this side of
+                the Atlantic. I wrote as Arthur Clive in the Gentleman's 
+                Magazine<ptr target="loc.03387_n2"/> long ago &#38;
+                ever since have ever found
+                <pb xml:id="leaf001v" facs="loc.03387.004_large.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc.03387.005_large.jpg" type="recto"/>
+                your books a great comfort &#38; delight to me &#38; have caused many to buy
+                them</p>
+            <closer>
+                <salute>I remain dear Sir</salute>
+                <salute>Yours very affectionately</salute>
+                <signed>Standish O'Grady</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.03387.006_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc.03387.001_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc.03387.002_large.jpg" type="recto"/>
+
+        </body>
+    </text>
+</TEI>

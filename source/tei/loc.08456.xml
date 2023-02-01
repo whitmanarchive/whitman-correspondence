@@ -1,0 +1,143 @@
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08456">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Dr. John Johnston, 2 December 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08456</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be 
+                       shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on 
+                       other terms, in any medium, requires express written consent from the editors and advance notification of the 
+                       publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this 
+                       archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">126&#8211;127</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Dr. John Johnston, 2 December 1890</title>
+                    <date cert="high" when="1890-12-02" xml:id="dat1">December 2, 1890</date>
+                    <idno type="callno">MMC-1482; MSS90019</idno>
+                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1899&#8211;1913, 
+                        Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Johnston, Dr. John" ref="n4102">Dr. John Johnston</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-03-29" who="#aja">final corrections</change>
+            <change when="2021-12-28" who="#smb">final check, corrected orgName, added notes</change>
+            <change when="2021-10-21" who="#cn">second check, corrected, added notes</change>
+            <change when="2021-07-26" who="#aja">checked, corrected</change>
+            <change when="2021-07-19" who="#cn">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">  
+        <body>
+            <opener>
+                <dateline> 
+                    <name type="place">Camden New Jersey U S America<ptr target="loc.08456_n1"/></name>
+                    <date when="1890-12-02">Dec: 2 '90</date>
+                </dateline>
+            </opener>
+            <p>
+                The <hi rend="italic">Notes</hi><ptr target="loc.02495_n4"/> &#38; Good Words<ptr target="loc.08456_n7"/> have come all 
+                right<ptr target="loc.08456_n2"/>&#8212;of 
+                the <hi rend="italic">Notes</hi> I w'd like you to send a copy each to</p>
+            <list> 
+                <item>Mrs: O'Connor,<ptr target="n4137"/> 112 M street N W. Washington D C</item>
+                <item>Mrs: Mary E Van Nostrand,<ptr target="n0386b"/> Greenport, Suffolk Co: New York</item>
+                <item>Miss Whitman,<ptr target="duk.00434_n1"/> 2436 2d Carondelet Av: St Louis, Missouri</item>
+                <item>Mrs: H L Heyde,<ptr target="n7033"/> 21 Pearl street, Burlington, Vermont</item>
+                <item>R G Ingersoll,<ptr target="n0839"/> 45 Wall street New York City</item>
+                <item>Sloane Kennedy,<ptr target="n3039"/> Belmont, Mass:</item>
+                <item>David McKay,<ptr target="n4983"/> Publisher, 23 south 9th st Philadelphia</item>
+                <item>Talcott Williams,<ptr target="loc.05142_n5"/> Press newspaper office, Philadelphia</item>
+                <item>Bernard O'Dowd<ptr target="loc.08456_n8"/> Supreme Court Library, Melbourne, Victoria</item>
+                <item>R Pearsall Smith<ptr target="n4979"/> 44 Grosvenor Road, Westminster Embankm't London</item>
+                <item>Edw'd Carpenter,<ptr target="n0141b"/> Millthorpe near Chesterfield Eng:</item>
+                <item>M Gabriel Sarrazin,<ptr target="n3115"/> magistrat, Noum&#233;a, Nouvelle Caledonie (Colonies Fran&#231;aises)</item>
+                <item>? to Tennyson<ptr target="n0625"/></item>
+                <item>W M Rossetti,<ptr target="n0522"/> Euston Square London</item>
+                <item>J Addington Symonds<ptr target="n0615"/> Davos Platz, Switzerland</item>
+                </list>  
+            <p>
+                Have read the Notes all through &#38; accept &#38; like them&#8212;(am pleased 
+                &#38; flatter'd always best in the <hi rend="italic">human</hi> side)&#8212;hope you have had a good 
+                lot struck off by the printer, as they will surely be wanted&#8212;&#38; 
+                (barring their fearfully eulogistic tinge) I endorse all&#8212;Nothing 
+                very new or different here&#8212;physically bad off these times, 
+                bad gastric condition&#8212;catarrh of bowels&#8212;"grip" bladder trouble &#38;c:&#8212;the pict:<ptr target="loc.08456_n10"/> 
+                in "Good Words" has got a decidedly better turn to it than 
+                the big Ill:<ptr target="loc.08456_n9"/> 
+                one&#8212;a gloomy blue week here&#8212;death of my 
+                brother Jeff<ptr target="n4995"/> six days ago at 
+                St Louis, Missouri&#8212;Cold weather here&#8212;all white f'm snow out&#8212;Affectionate 
+                remembrances to all&#8212;I am sitting here in the big old chair with wolf 
+                skin spread&#8212;sun shining merrily out on the snow&#8212;
+            </p>  
+            <closer> 
+                <signed>Walt Whitman</signed>
+            </closer> 
+        </body>
+    </text>
+</TEI>
+
+
+
+
+
