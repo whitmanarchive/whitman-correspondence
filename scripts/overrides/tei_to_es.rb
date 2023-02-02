@@ -70,9 +70,9 @@ class TeiToEs
     "en"
   end
 
-  def languages
-    [ "en" ]
-  end
+  # def languages
+  #   [ "en" ]
+  # end
 
   # medium: do not include medium
   def medium
@@ -122,7 +122,7 @@ class TeiToEs
     end
   end
 
-  def subcategory
+  def category2
     "correspondence"
   end
 
