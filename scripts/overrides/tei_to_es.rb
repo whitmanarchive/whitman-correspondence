@@ -59,7 +59,7 @@ class TeiToEs
   end
 
   def category
-    "biography"
+    "Life and Letters"
   end
 
   # format: do not include format
@@ -123,7 +123,7 @@ class TeiToEs
   end
 
   def category2
-    "correspondence"
+    "Life and Letters / Correspondence"
   end
 
   def topics
