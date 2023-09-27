@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02803">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William James Linton, 24 February 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="ec">Eric Conrad</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="nsb">Noelle Bates</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02803</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William James Linton, 24 February 1875</title>
+                    <date cert="high" when="1875-02-24" xml:id="dat1">February 24, 1875</date>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00266</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                     <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Linton, William James" ref="n6008">William James Linton</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-03-11" who="#smb">final check, corrected</change>
+            <change when="2022-11-10" who="#aja">checked, corrected</change>
+            <change when="2022-07-28" who="#nsb">checked and revised</change>
+            <change when="2021-12-10" who="#me">checked, corrected</change>
+            <change when="2015-05-12" who="#ak">added correspondent ref</change>
+            <change when="2014-10-29" who="#ak">added annotations</change>
+            <change when="2014-08-15" who="#el">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2011-01-18" who="#kk">checked</change>
+            <change when="2011-04-06" who="#zk">encoded</change>
+            <change when="2010-08-20" who="#ec">extracted transcription from Major Authors cd</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body><pb xml:id="leaf001r" facs="loc.02803.001_large.jpg" type="recto"/>
+            <note type="editorial" resp="#ht" place="top">see notes Aug 27 1888</note>
+            <opener>
+                <dateline>
+                    <name type="place" rend="right">Camden,</name>
+                    <date when="1875-02-24" rend="right">Feb. 24 '75.</date><ptr target="loc.02803_n1"/>
+                </dateline>
+                <salute>My dear Linton;</salute>
+            </opener>
+
+            <p>I want you to have printed very nicely for me 1000 impressions of the cut, my head, to go in book.<ptr target="loc.02527_n6"/> 
+                Herewith I send the size of sheet. If convenient I should like to see a proof, <choice><sic>fac simile</sic><corr>facsimile</corr></choice>, first.</p>            
+            <p>I am still holding out here&#8212;don't get well yet&#8212;&amp; don't go under yet.</p>
+            
+            <closer>
+                <salute>Love to you&#8212;Write immediately on receiving this.</salute>
+            </closer>
+            <postscript>
+                <p>This sized sheet&#8212;print <hi rend="underline">dark</hi> in color as you think they will stand, 
+                    (I <choice><sic>dont</sic><corr>don't</corr></choice> like them too weak in color).</p>
+            </postscript>
+            <pb xml:id="leaf001v" facs="loc.02803.002_large.jpg" type="verso"/>
+            <note type="authorial" anchored="true">to W. J. Linton Feb 24 '75</note>
+        </body> 
+    </text>
+</TEI>

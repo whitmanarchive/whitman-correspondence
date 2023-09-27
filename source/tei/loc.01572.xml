@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01572">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01572">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to A. Bronson Alcott, 26 April
+                <title level="m" type="main">Walt Whitman to Amos Bronson Alcott, 26 April
                     1868</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -11,7 +13,14 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <name>The Walt Whitman Archive Staff</name>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="kmp">Kenneth M. Price</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="ec">Eric Conrad</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -20,7 +29,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2010</date>
+                    <date>2023</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -34,7 +43,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -43,87 +52,71 @@
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
             </publicationStmt>
-            <notesStmt>
-                <note type="project">The following are responsible for particular readings or for
-                    changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="el">Elizabeth
-                        Lorang</persName>
-                    <persName xml:id="zk">Zachary King</persName>
-                    <persName xml:id="ec">Eric Conrad</persName>
-                </note>
-            </notesStmt>
             <sourceDesc>
-
-                <biblStruct>
-                    <monogr>
-                        <author>Walt Whitman</author><editor>Edwin Haviland Miller</editor>
-                        <title xml:id="ehm">The Correspondence</title>
-                        <imprint>
-                            <pubPlace>New York</pubPlace>
-                            <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961–1977</date><biblScope type="volume">2</biblScope>
-                            <biblScope type="page">29</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to A. Bronson Alcott, 26 April 1868</title>
+                    <title>Walt Whitman to Amos Bronson Alcott, 26 April 1868</title>
                     <date cert="high" when="1868-04-26" xml:id="dat1">April 26, 1868</date>
-                    <idno type="callno">MSS18630, Box 4</idno>
+                    <idno type="callno">MSS18630, Box 4, reel 2&#8211;3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00056</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839-1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
             <particDesc>
                 <person role="sender">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Alcott, A. Bronson">A. Bronson Alcott</persName>
+                    <persName key="Alcott, Amos Bronson" ref="duk.00543_n11">Amos Bronson Alcott</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+            <change when="2022-11-08" who="#smb">final check, corrected</change>
+            <change when="2022-09-08" who="#aja">checked, corrected</change>
+            <change who="#pw" when="2022-07-18">checked, corrected</change>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2012-03-01" who="#kmp">blessed</change>
             <change when="2011-07-13" who="#zk">changed prc.00022 to loc.01286</change>
             <change when="2010-12-22" who="#el">checked</change>
             <change when="2010-10-16" who="#zk">encoded</change>
             <change when="2010-08-20" who="#ec">extracted transcription from Major Authors
                 cd</change>
         </revisionDesc>
-    </teiHeader>
-
-    <text type="letter">
+    </teiHeader>   
+    <text type="letter"> 
         <body>
-
+            <pb xml:id="leaf001r" facs="loc_tb.00376.jpg" type="recto"/>
             <opener>
-                <salute rend="right">To Mr Alcott,</salute>
+                <note type="authorial" resp="#ww">To Mr. Alcott</note>
                 <dateline>
-                    <date when="1868-04-26" rend="right">April 26 '68</date>
-<ptr target="loc.01572_n1"/>
-                </dateline>
+                    <date when="1868-04-26" rend="right">April 26 '68<ptr target="loc.01572_n1"/></date>
+                </dateline> 
             </opener>
-
-            <p>Your kind &amp; welcome letter came to hand.<ptr target="loc.01572_n2"/> Pardon me for not responding sooner. I esteem your friendly
-                appreciation of "Democracy." I have just sent you "Personalism"—which is to be
-                followed, in perhaps a couple of months or so, by another article,<ptr target="loc.01572_n3"/> addressing itself
+            <p>Your kind &#38; welcome letter come to hand.<ptr target="loc.01572_n2"/> Pardon me
+                for not responding sooner. I esteem your friendly appreciation of "Democracy." I
+                have just sent you "Personalism"<ptr target="loc.00452_n7"/>&#8212;which is to be followed,
+                in perhaps a couple of months or so, by another article, addressing itself
                 mainly to the question of what kind of Literature we must seek, for our coming
-                America, &amp;c. In the three articles (to be gathered probably in book) I put
+                America. &#38;c. In the three articles (to be gathered probably in book<ptr target="n4122"/>) I put
                 forth, to germinate if they may, what I would fain hope might prove little seeds
-                &amp; roots. </p>
-
-            <p>I am still living here in Washington—employed in a post in the Attorney
-                General's office, very pleasantly, with sufficient leisure, &amp; almost entirely
-                without those peculiar belongings, that make the Treasury &amp; Interior Dep't
-                &amp;c. clerkships disagreeable. I am, as ever, working on Leaves of
-                Grass—hoping to bring it yet into fitter &amp; fuller proportions. I am well
-                as usual. My dear mother is living &amp; well; we speak of you. I wish you to give
-                my best respects &amp; love to Mr. Emerson—</p>
+                &#38; roots.</p>
+            <p>I am still living here in Washington.<ptr target="mid.00002_n4"/>&#8212;employed in a post in the Attorney General's
+                office, very pleasantly, with sufficient leisure, &#38; almost entirely without
+                those peculiar belongings, that make the Treasury &#38; Interior 
+                <choice><abbr>Dep't</abbr><expan>Department</expan></choice> &#38;c.
+                clerkships disagreeable. I am, as ever, working on Leaves of Grass&#8212;hoping to bring
+                it yet into fitter &#38; fuller proportions. I am well as usual. My dear mother<ptr target="n0705"/> is
+                living &#38; well; we speak of you. I wish you to give my best respects &#38; love
+                to Mr. Emerson<ptr target="n1044"/></p>
+            <pb xml:id="leaf001v" facs="loc_tb.00377.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

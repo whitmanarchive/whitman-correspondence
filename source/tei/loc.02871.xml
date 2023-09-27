@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02871">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Anne Gilchrist to Walt Whitman, 12 August 1873</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Anne Gilchrist</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02871</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+               <!-- <biblStruct>
+                    <monogr>
+                        <editor>Thomas B. Harned</editor>
+                        <title xml:id="ehm">The Letters of Anne Gilchrist and Walt Whitman</title>
+                        <imprint>
+                            <pubPlace>Garden City, New York</pubPlace>
+                            <publisher>Doubleday, Page &amp; Company</publisher>
+                            <date when="1964">1918</date>
+                            <biblScope type="page">91&#8211;93</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Anne Gilchrist</author>
+                    <title>Anne Gilchrist to Walt Whitman, 12 August 1873</title>
+                    <date cert="high" when="1873-08-12" xml:id="dat1">August 12, 1873</date>
+                    <idno type="callno">MSS45443, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0111</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-10" who="#smb">ran image script, updated notes</change>
+            <change when="2023-07-28" who="#aja">updated image pointers</change>
+            <change when="2023-03-04" who="#smb">final check, corrected</change>
+            <change when="2023-03-03" who="#jh">checked, corrected</change>
+            <change when="2022-10-20" who="#aja">checked, corrected</change>
+            <change when="2022-04-10" who="#me">checked, corrected</change>
+            <change who="#cn" when="2021-11-29">checked, corrected, added notes and DOI</change>
+            <change who="#ak" when="2015-04-30">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-05-29" who="#js">proofed</change>
+            <change when="2012-04-20" who="#km">checked</change>
+            <change when="2012-04-12" who="#al">Checked from microfilm images.</change>
+            <change when="2011-08-05" who="#zk">transcribed and encoded from Harned; annotated AG, WMR, MDC</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_cb.00143.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Earls Colne</name>
+                    <name type="place">Halstead</name>
+                    <date when="1873-08-12" rend="right">August 12, 1873</date>
+                </dateline>
+                <salute>My dearest Friend</salute>
+            </opener>
+            <p>The paper has just been forwarded here which tells me you are still suffering,<ptr target="loc.01969_n4"/> 
+                and not, as I was fondly believing, already quite emerged from the cloud of sickness. 
+                My Darling&#8212;let me use that tender caressing word once more, for how can I help 
+                it, with heart so full &amp; no outlet but words? 
+                <pb xml:id="leaf001v" facs="loc_cb.00146.jpg" type="verso"/> 
+                My darling. I say it over &amp; over to myself with voice with eyes so full of 
+                love&#8212;of tender yearning sorrowful longing love. I would give all the world if 
+                I might come (but am held here yet awhile inexorably by a duty nothing may supersede) 
+                &amp; soothe &amp; tend &amp; wait on you &amp; with such cheerful loving companionship 
+                lift off some of the weight of the long hours &amp; days &amp; perhaps months that 
+                must still go over while nature is slowly, imper<pb xml:id="leaf002r" facs="loc_cb.00147.jpg" type="recto"/>ceptibly 
+                but still so surely repairing the mischief within, result of the tremendous ordeal 
+                to your frame of those great overbrimming years of life spent in the Army Hospitals.<ptr target="n0044b"/> 
+                You see dear Friend a woman who is a mother has thenceforth something of that feeling 
+                toward all men who are dear to her&#8212;a cherishing fostering instinct that makes 
+                her rejoice so in all personal service to them. O I should be so happy it needs must 
+                diffuse a reviving 
+                <pb xml:id="leaf002v" facs="loc_cb.00144.jpg" type="verso"/> 
+                comforting vivifying warmth around you. Might but these words breathed out of the inmost 
+                heart of a woman who loves you with her whole soul &amp; life &amp; strength fulfil their 
+                errand &amp; comfort the sorrowful heart, if ever so little&#8212;and through that help 
+                to revive the drooping frame! This love that has grown up far away over here, unhelped by 
+                the sweet influences of personal intercourse, penetrating the whole substance of a 
+                <pb xml:id="leaf003r" facs="loc_cb.00150.jpg" type="recto"/> 
+                woman's life, swallowing up into itself all her aspirations, hopes, longings, regardless 
+                of Death, looking earnestly confidently beyond that for fruition blending more or less 
+                with every thought &amp; act of her life a guiding star that her feet cannot choose but 
+                follow resolutely&#8212;what can be more real than this dear Friend. What can have deeper 
+                roots, or a more immortal growing power within it? But I do not 
+                <pb xml:id="leaf003v" facs="loc_cb.00152.jpg" type="verso"/> 
+                ask any longer whether this love is believed in &amp; welcome &amp; precious to you: 
+                For I know that what has real roots cannot fail to bear real flowers and fruits that 
+                will in the end be sweet and joygiving to you; and that if I am indeed capable of being 
+                your eternal comrade, climbing whereon you climb, daring all that you dare, learning 
+                all that you learn, suffering all that you suffer (pressing 
+                <pb xml:id="leaf004r" facs="loc_cb.00153.jpg" type="recto"/> 
+                closest then) enjoying all that you enjoy, you will want me, will not be able to help 
+                stretching out your hand &amp; drawing me to you. I have written this mostly out in the 
+                fields as I am so fond of doing&#8212;the serene beautiful harvest landscape spread around, 
+                returns once more, as I have every summer for five &amp; twenty years, to this old village 
+                where my mother's family have lived in unbroken succession three hundred years, ever since 
+                in fact, the old Priory they 
+                <pb xml:id="leaf004v" facs="loc_cb.00149.jpg" type="verso"/> 
+                have inhabited ceased to be a Priory at the dissolution of monasteries&#8212;My Mother's<ptr target="loc.02871_n4"/> 
+                health is still good&#8212;wonderful, indeed, for 88 though she has been 30 years crippled 
+                by rheumatism. Still she enjoys getting out in the Sunshine in her Bath chair &amp; is able 
+                to take pleasure in seeing her friends &amp; in having us all with her. Her father was a hale 
+                man at 90.<ptr target="loc.02871_n8"/>&#8212;These eastern counties are flat &amp; tame but yet under this soft smiling 
+                summer sky lovely enough too&#8212;with 
+                <pb xml:id="leaf005r" facs="loc_cb.00156.jpg" type="recto"/> 
+                their rich delicious green meadows abundant golden corn crops now being well got in &amp; 
+                thickly scattered old homesteads each with gay garden, &amp; picturesque villages shaded by 
+                tall elms. Even the sluggish little river Colne one cannot find 
+                fault with, it nourishes such a luxuriant border of wild flowers as it creeps along, &amp; 
+                turns &amp; twists about from sunshine into shade &amp; shade into sunshine so as to make 
+                the very best &amp; most 
+                <pb xml:id="leaf005v" facs="loc_cb.00158.jpg" type="verso"/> 
+                of itself. But as to the human growth here, I think that perhaps more than anywhere else 
+                in England it struggles along choked &amp; poisoned by dead things of the past still holding 
+                their place above ground.</p>
+            <p>I did not see William Rossetti<ptr target="n0522"/> before I came down but heard that he had 
+                had a very happy time in Italy &amp; splendid weather all the while. Mr. Conway<ptr target="n0170"/> 
+                &amp; his wife<ptr target="loc.02871_n6"/> &amp; three children 
+                <pb xml:id="leaf006r" facs="loc_cb.00159.jpg" type="recto"/> 
+                are gone to Brittany for their holiday.</p>
+            <p>My boys &amp; girls are well&#8212;except indeed that I am afraid Percy<ptr target="n2000"/> 
+                finds his health somewhat affected by the constant inhaling of unwholesome gases analyzing 
+                ores all day long, but he is going to have better appliances in his laboratory which will 
+                I hope remove or lessen very much the evil. In other respects he likes his work &amp; is 
+                getting good experience</p>
+            <pb xml:id="leaf006v" facs="loc_cb.00155.jpg" type="verso"/>
+            <p>May this find you by the sea shore&#8212;getting on so fast,&#8212;the friend you love best 
+                with you, comforted, refreshed soul and body&#8212;perfect harmony between these two restored 
+                once more so that you step forth with strong &amp; buoyant step to complete your great purpose.</p>
+            <closer>
+                <salute>Good bye beloved friend</salute>
+                <signed>Annie Gilchrist.</signed>
+            </closer>
+        </body>
+    </text> 
+</TEI>

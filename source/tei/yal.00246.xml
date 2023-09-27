@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00246">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Nathan Hale, Jr., 1 June 1842</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00246</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Nathan Hale, Jr., 1 June 1842</title>
+                    <date cert="medium" when="1842-06-01" xml:id="dat1">June 1, 1842</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book
+                        and Manuscript Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="al"><persName key="Leech, Abraham Paul">Abraham Paul
+                        Leech</persName></handNote>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Hale, Nathan, Jr." ref="yal.00246_n1">Nathan Hale, Jr.</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-21" who="#smb">final check</change>
+            <change when="2023-05-05" who="#aja">corrections for Ken</change>
+            <change when="2023-02-21" who="#smb">final check, corrected</change>
+            <change when="2022-09-12" who="#jh">checked, corrected</change>
+            <change when="2022-06-22" who="#kjb">checked, corrected</change>
+            <change when="2021-12-13" who="#em">checked, corrected</change>
+            <change when="2021-11-05" who="#me">checked, corrected</change>
+            <change when="2021-07-30" who="#aja">checked, corrected</change>
+            <change when="2021-07-28" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>    
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="yal.00246.001_large.jpg" type="recto"/>
+            <p>The undersigned takes the liberty of offering you the accompanying MS for your
+                "Miscellany;"<ptr target="yal.00246_n2"/>&#8212;The price is &#36;8.&#8212;</p>
+            <p>The undersigned would be glad to furnish you with an article for each number, if it
+                would be agreeable to you.&#8212;</p>
+            <p>Please forward an answer to the address given herewith, stating whether you accept or
+                decline.</p>
+            <closer>
+                <signed>Walter Whitman</signed>
+                <dateline>
+                    <date>June <hi rend="underline">1st</hi><ptr target="yal.00246_n4"/></date>
+                </dateline>
+                <address>
+                    <addrLine>W.W.</addrLine>
+                    <addrLine>12 Center St</addrLine>
+                    <addrLine>N.Y.</addrLine>
+                </address>
+                <pb xml:id="leaf001v" facs="yal.00246.002_large.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="yal.00246.003_large.jpg" type="recto"/>
+                <pb xml:id="leaf002v" facs="yal.00246.004_large.jpg" type="verso"/>
+                <note type="editorial" resp="#unk" place="center">Walter Whitman Ans. July 9. '42</note>
+                <address>
+                    <addrLine>Editor "Boston Miscellany"</addrLine>
+                    <addrLine><gap reason="illegible" quantity="4" unit="chars"/></addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

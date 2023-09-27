@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02354">  
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Robert G. Ingersoll to Walt Whitman, 6 February 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Robert G. Ingersoll</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02354</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Robert G. Ingersoll</author>
+                    <title>Robert G. Ingersoll to Walt Whitman, 6 February 1892</title>
+                    <date cert="high" when="1892-02-06" xml:id="dat1">February 6, 1892</date>
+                    <idno type="callno">MSS18630, Box 11, Reel 7</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00229</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Ingersoll, Robert G." ref="n0839">Robert G. Ingersoll</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-01-03" who="#smb">final check, corrected</change>
+            <change when="2021-09-28" who="#aja">2nd check, notes</change>
+            <change when="2021-07-18" who="#aja">checked, corrected</change>
+            <change when="2019-09-30" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>  
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02354.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">New York,<ptr target="loc.02354_n1"/></name>
+                    <date when="1892-02-06">Feby 6/92</date>
+                </dateline>
+                <salute>My dear Mr. Whitman:</salute>
+            </opener>
+            <p>I hear from you every day, and every day I am glad that you are alive, 
+                and every day I am sad that you are sick.<ptr target="loc.02538_n4"/></p>
+            <p>Do the best you can to stay in this country&#8212;and stay as long as you can.</p>
+            <p>There are plenty of thoughts in that brain that have not yet been given to the world.</p>
+            <p>I hope to see you again
+                <pb xml:id="leaf001v" facs="loc.02354.002_large.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc.02354.003_large.jpg" type="recto"/>
+                in a few days.</p>
+            <p>Mrs. Ingersoll<ptr target="loc.02352_n4"/> was greatly gratified with your message, 
+                and she writes with me in sending words of love and hope.</p>
+            <closer>
+                <salute>Yours always,</salute>
+                <signed>R G. Ingersoll</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.02354.004_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc.02354.005_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc.02354.006_large.jpg" type="verso"/>
+            <note type="editorial" place="bottom" resp="#ht">Notes 1892 Feb. 7</note>
+        </body>
+    </text> 
+</TEI>

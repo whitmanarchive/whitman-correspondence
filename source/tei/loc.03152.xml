@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03152">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> 
+                <title level="m" type="main">S. Nowell to Walt Whitman, 8 October 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>S. Nowell</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03152</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>S. Nowell</author>
+                    <title>S. Nowell to Walt Whitman, 8 October 1890</title>
+                    <date cert="high" when="1890-10-08" xml:id="dat1">October 8, 1890</date>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Nowell, S." ref="loc.02443_n11">S. Nowell</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-12" who="#aja">final corrections</change>
+            <change when="2022-06-28" who="#smb">final check, corrected</change>
+            <change when="2022-06-27" who="#pw">checked, corrected</change>
+            <change when="2021-10-22" who="#me">checked, corrected</change>
+            <change when="2021-07-21" who="#aja">checked, corrected</change>
+            <change when="2019-09-10" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03152.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>S.S. "British Prince."</name>
+                    <name type="place"><handShift rend="printed"/>Voy. No.</name>
+                    <date when="1890-10-08"><handShift rend="manuscript"/>Oct.
+                            8 1890</date> 
+                    <name type="place">Phila</name> 
+                </dateline>
+                <salute>Dear Walt Whitman</salute>
+            </opener>
+            <p>I have been honored with a small commission by W. Wallace<ptr target="n6121"/> and
+                Dr. Johnston<ptr target="n4102"/> of Bolton England for you, a blanket of Bolton
+                manufacture.<ptr target="loc.03152_n1"/> I shall take the opportunity of calling with it at yr earliest leisure about
+                Noon of one day this week, unless inconvenient to you, when I will send it.</p>
+            <p>Trusting you are in good health &#38; hoping to renew my acquaintance with you</p>
+            <closer>
+                <salute>I am your faithfully</salute>
+                <signed><hi rend="underline">S. Nowell</hi></signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc.03152.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.03152.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf003v" facs="loc.03152.004_large.jpg" type="verso"/>
+        </body>
+    </text> 
+</TEI>

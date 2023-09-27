@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00752">
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00752">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,6 +18,8 @@
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -51,19 +52,22 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-
                 <bibl>
                     <author>Hannah Whitman Heyde</author>
                     <title>Hannah Whitman Heyde to Walt Whitman, 16 June [1883]</title>
-                    <date cert="medium" when="1883-06-16" xml:id="dat1">June 16, 1883</date>
-                    <orgName xml:id="loc">Hannah Louisa Whitman Heyde Papers, 1853&#8211;1892, Library of Congress, Washington, D.C.</orgName>
+                    <date cert="medium" when="1883-06-16" xml:id="dat1">June 16, [1883]</date>
+                    <idno type="callno">MSS18630, Box 194</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.02393</idno>
+                    <orgName xml:id="loc">Hannah Louisa Whitman Heyde Papers, 1853&#8211;1892,
+                        Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Heyde, Hannah">Hannah Whitman Heyde</persName>
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Whitman
+                        Heyde</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -71,7 +75,9 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2022-07-13" who="#kjb">checked, corrected</change>
+            <change when="2022-06-21" who="#me">added callno and DOI</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-07-14" who="#nhg">checked, corrected</change>
             <change when="2014-02-26" who="#nnk">proofed</change>
             <change when="2013-12-02" who="#kc">Transcribed and Encoded</change>
@@ -91,8 +97,9 @@
                 </dateline>
             </opener>
 
-            <p>Are you well enough my <hi rend="underline">dear brother</hi> for me to send you my love and tell you I am so
-                glad and happy&#8212;<hi rend="underline">for</hi> I know you are gaining</p>
+            <p>Are you well enough my <hi rend="underline">dear brother</hi> for me to send you my
+                love and tell you I am so glad and happy&#8212;<hi rend="underline">for</hi> I know
+                you are gaining</p>
             <p>That was a wonderful welcome <unclear reason="illegible" cert="high" resp="#ss"
                     >card</unclear> Walt dear&#8212;You <choice>
                     <orig>wont</orig>
@@ -101,10 +108,10 @@
                     <orig>till</orig>
                     <reg>until</reg>
                 </choice> you get stronger.&#8212;I <choice>
-                        <sic>dont</sic>
-                        <corr>don't</corr>
-                    </choice> feel uneasy.&#8212;I know you are getting better and I <hi rend="underline"
-                    >am oh so thankful</hi></p>
+                    <sic>dont</sic>
+                    <corr>don't</corr>
+                </choice> feel uneasy.&#8212;I know you are getting better and I <hi
+                    rend="underline">am oh so thankful</hi></p>
 
             <closer>
                 <signed>sister Han</signed>

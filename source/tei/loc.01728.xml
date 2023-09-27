@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01728">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John Hay to Walt Whitman, 22 July 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Hay</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01728</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author>John Hay</author>
+                    <title>John Hay to Walt Whitman, 22 July 1876</title>
+                    <date cert="medium" when="1876-07-22" xml:id="dat1">July 22, 1876</date>
+                    <idno type="callno">MSS18630 Box Reel 11, reel 7</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00213</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Hay, John" ref="n3080">John Hay</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-04-01" who="#smb">final checked, corrected</change>
+            <change when="2022-12-29" who="#aja">checked, corrected</change>
+            <change when="2022-03-24" who="#em">checked, corrected</change>
+            <change when="2022-01-12" who="#aja">checked, corrected, added DOI and notes</change>
+            <change who="#ak" when="2015-05-04">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-11-14" who="#cb">proofed</change>
+            <change when="2012-03-23" who="#js">proofed</change>
+            <change when="2012-03-08" who="#ej">Checked and Corrected</change>
+            <change when="2012-01-12" who="#al">Checked against Traubel</change>
+            <change when="2012-01-11" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01728.001_large_mflm.jpg" type="recto"/>
+            <note type="editorial" resp="#ht">see notes Apr 22 1888</note>
+            <opener>
+                <handShift rend="printed"/>
+                <dateline>
+                    <name type="place">CENTURY CLUB</name>
+                    <name type="place">109 EAST 15TH STREET</name>
+                    <handShift rend="manuscript"/>
+                    <date when="1876-07-22">July 22.</date>
+                </dateline>
+                <!-- Note in database states that Genoways indicates this letter was misdated.  The "corrected" date is given above, though the date as stated has been transcribed here. -->
+                <salute>Dear Mr. Whitman</salute>
+            </opener>
+            <note type="editorial" place="top" resp="#ww">papers sent July 25</note>
+            <p>I thank you heartily for my share in your Custer poem,<ptr target="n0019"/> which I
+                have just read. It is splendidly strong and sustained and full of a noble motive. I
+                am especially glad to learn, in such an authoritative way, of your health and
+                vigor.</p>
+            <p>I wish you would <pb xml:id="leaf001v" facs="loc.01728.002_large_mflm.jpg"
+                    type="verso"/> take the trouble to let me know when your volume of collected
+                works is to be published and where I can subscribe for it. I have heard that it was
+                to be published by subscription, but have not heard any further details.</p>
+            <p>My address is now 506 Euclid Avenue, Cleveland, Ohio, and I would be <pb
+                    xml:id="leaf002r" facs="loc.01728.003_large_mflm.jpg" type="recto"/> very much
+                obliged if you would spend a moment in letting me know how to get an early copy of
+                the book for which many are looking.</p>
+            <closer>
+                <salute>Yours faithfully</salute>
+                <signed>John Hay</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.01728.004_large_mflm.jpg" type="verso"/>
+            <note type="editorial" place="bottom" resp="#ww">July 25 '76 Letter from John Hay (Custer poem) slips
+                &#38; paper sent him July 25</note>
+        </body>
+    </text>
+</TEI> 

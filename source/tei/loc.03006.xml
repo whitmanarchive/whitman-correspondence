@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03006">  
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Ellen M. O'Connor to Walt Whitman, 5 March 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Ellen M. O'Connor</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="adk">Andrew David King</persName> 
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>
+                    Center for Digital Research in the Humanities, University of Nebraska-Lincoln
+                </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03006</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Ellen M. O'Connor</author>
+                    <title>Ellen M. O'Connor to Walt Whitman, 5 March 1891</title>
+                    <date cert="high" when="1891-03-05" xml:id="dat1">March 5, 1891</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00294</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key= "O'Connor, Ellen M." ref="n4137">Ellen M. O'Connor</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-13" who="#aja">final corrections</change>
+            <change when="2022-05-17" who="#smb">final check, corrected</change>
+            <change when="2021-06-01" who="#blh">Second check: added DOI, corrected transcription</change>
+            <change when="2020-06-28" who="#adk">first check, corrected, added notes</change>
+            <change when="2019-11-07" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03006.003_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">112 M St. N.W.<ptr target="loc.03006_n1"/></name>
+                    <date when="1891-03-05">March 5. 1891</date>
+                </dateline>
+                <salute>Dear Walt,</salute>
+            </opener>
+            <p>Thank you for the Lippincott.<ptr target="loc.07874_n5"/> I hope to <hi rend="underline">read</hi> it soon,<ptr target="loc.07874_n3"/> but these last weeks
+                I am so busy though can not steal a minute to read, having even to work after office hours,&#8212;&amp; last night
+                to go back &#38; stay till near <hi rend="underline">10</hi>. extra work.</p>
+            <p>I enclose for<pb xml:id="leaf001v" facs="loc.03006.004_large.jpg" type="verso"/> you a piece written by Mr. Kimball<ptr target="loc.03006_n2"/>
+                for the Life Saving Report<ptr target="loc.07968_n2b"/> of the year that William<ptr target="n2002"/> died. They are always behind time in getting them out</p>
+            <p>Mr. Kimball is one of the cautious kind, who always means <hi rend="underline">more</hi> than he says, &#38; this 
+                is all from his <hi rend="underline">heart</hi>.</p>
+            <p>I am sorry to hear no better<pb xml:id="leaf002r" facs="loc.03006.005_large.jpg" type="recto"/> reports of your
+                health. The winter has been hard, but let us hope that Spring will treat you more kindly.</p>
+            <p>Thanks for papers&#8212;too, &#38; for all messages.</p>
+            <closer>
+                <salute>With love always&#8212;</salute>
+                <signed>Nelly O'C.</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.03006.006_large.jpg" type="verso"/>  
+            <pb xml:id="leaf003r" facs="loc.03006.001_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc_tb.00052.jpg" type="verso"/>   
+        </body>
+    </text>
+</TEI> 
+
+
+
+
+

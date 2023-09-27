@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01441">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William L. DeLacey to Walt Whitman, [1891?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William L. DeLacey</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01441</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William L. DeLacey</author>
+                    <title>William L. DeLacey to Walt Whitman, [1891?]</title>
+                    <date cert="low" notBefore="1891-01-01" notAfter="1891-12-31" xml:id="dat1">[1891?]</date>
+                    <idno type="callno">MSS18630, Box 8, Reel 5</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00149</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc> 
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="DeLacey, William L." ref="loc.01441_n1">William L. DeLacey</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person> 
+            </particDesc>  
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2022-03-21" who="#smb">final check, corrected</change>
+            <change when="2022-03-08" who="#aja">2nd check, corrected</change>
+            <change when="2022-03-07" who="#aja">1st check, corrections, added notes</change>
+            <change when="2022-03-05" who="#me">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01441.001_large.jpg" type="recto"/>
+            <note type="editorial" resp="#ht" place="top">see note July 1, 1891</note>
+            <opener>
+                <salute><handShift rend="printed"/>To <handShift rend="manuscript"/>Walt Whitman Esq<ptr target="loc.01441_n2"/></salute>
+            </opener>
+            <p><handShift rend="printed"/>I am making a collection of Autographs of the prominent 
+                and public men and women of the country.</p>
+            <p><handShift rend="printed"/>I would esteem it a great favor if you will attach your 
+                Autograph to the enclosed card, and return to me in the within stamped envelope.</p>
+            <closer>
+                <salute><handShift rend="printed"/>Yours, Very Respectfuly,</salute>
+                <signed><handShift rend="printed"/>WILLIAM L. DeLACEY,<ptr target="loc.01441_n3"/></signed>
+                <address>
+                    <addrLine><handShift rend="printed"/>Poughkeepsie,</addrLine>
+                    <addrLine><handShift rend="printed"/>New York.</addrLine>
+                </address>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.01441.002_large.jpg" type="verso"/>
+        </body> 
+    </text>
+</TEI>

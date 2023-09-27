@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00741">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Ernest Rhys, 11 May 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>nyp.00741</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                    <biblStruct>
+                        <monogr>
+                            <author>Walt Whitman</author>
+                            <editor>Edwin Haviland Miller</editor>
+                            <title xml:id="ehm">The Correspondence</title>
+                            <imprint>
+                                <pubPlace>New York</pubPlace>
+                                <publisher>New York University Press</publisher>
+                                <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                                <biblScope type="volume">6</biblScope>
+                                <biblScope type="page">50&#8211;51</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Ernest Rhys, 11 May 1890</title>
+                    <date cert="high" when="1890-05-11" xml:id="dat1">May 11, 1890</date>
+                    <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
+                        American Literature, New York Public Library</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="nyp.00740"/>
+                    <relatedItem type="document" target="wwa.00606"/>
+                    <note type="project" target="#rel01">Whitman composed this letter on the back of
+                        an envelope from an unknown correspondent. The envelope is postmarked:
+                        Philadelphia, PA | May 10 | 5PM | 1890. The letter originally associated with the envelope has not
+                        yet been located.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Rhys, Ernest" ref="n4152">Ernest Rhys</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2020-07-08" who="#smb">final check, corrected</change>
+            <change when="2020-07-05" who="#pw">checked</change>
+            <change when="2020-03-06" who="#adk">transcribed, encoded</change>
+            <change when="2020-05-29" who="#cn">first check</change>
+            <change when="2021-06-21" who="#aa">second check; added notes</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body> 
+            <opener>
+                <dateline>
+                    <name type="place">Camden New Jersey, US America<ptr target="nyp.00741_n1"/> </name>
+                    <date when="1890-05-11">May 11 '90</date>
+                </dateline>
+            </opener>
+            <p>Still hold the fort (sort o' yet)&#8212;have had another bad attack of <hi
+                    rend="italic">the grip</hi>, but am easier to-day. Send you some slips
+                enclosed wh' I am willing (&#38; even hopeful) sh'd be pub'd in any London or other
+                British papers mn'g of May 24th&#8212;<hi rend="italic">Have also sent some slips
+                    to R Pearsall Smith<ptr target="n4979"/> &#38; you might see him if
+                    convenient</hi>&#8212;y'r letter rec'd&#8212;always thanks&#8212;Dr Bucke<ptr
+                    target="n0119"/> will be here next week&#8212;Herbert Gilchrist<ptr
+                    target="n0262"/> has gone to fine summer quarters&#8212;His address is
+                Centreport Suffolk Co: New York&#8212;I enclose the "Twilight Song"<ptr
+                    target="nyp.00741_n2"/> one of my last,&#8212;Kennedy<ptr target="n3039"/>
+                remains as proof reader for Boston Transcript&#8212;I am writing this in my den in
+                Mickle St. seated in the strong old chair with wolf-skin on back (as it is rather
+                chilly weather &#38; I have wood fire)&#8212;</p> 
+            <closer>
+                <salute>Best wishes &#38; love</salute>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

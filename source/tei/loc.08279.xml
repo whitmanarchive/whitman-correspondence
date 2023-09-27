@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08279"> 
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Henry M. Alden to Walt Whitman, 16 March 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Henry M. Alden</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08279</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Henry M. Alden</author>
+                    <title>Henry M. Alden to Walt Whitman, 16  March 1891</title>
+                    <date cert="high" when="1891-03-16" xml:id="dat1">March 16, 1891</date>
+                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00058</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Alden, Henry M." ref="n4971">Henry M. Alden</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-27" who="#smb">final corrections</change>
+            <change when="2021-11-19" who="#smb">final check, corrected</change>
+            <change when="2021-10-07" who="#me">checked, corrected</change>
+            <change when="2021-06-16" who="#cn">corrected transcription and encoding</change>
+            <change when="2020-11-12" who="#aja">transcribed, encoded; SLIS:6335: Metadata Theories and Applications Class, Fall 2020, Micah Bateman, Lecturer, University of Iowa</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body> 
+            <pb xml:id="leaf001r" facs="loc_jm.00087.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>HARPER &#38; BROTHERS' EDITORIAL ROOMS.</name>
+                    <name type="place">FRANKLIN SQUARE, NEW YORK</name>
+                    <date when="1891-03-16"><handShift rend="manuscript"/>March 16, 1891</date>
+                </dateline>
+                <salute>Dear Mr Whitman,</salute>
+            </opener>  
+            <p> 
+                I saw a literary note yesterday, saything that you will soon bring
+                out a new volume of poems.<ptr target="loc.07894_n2"/> We have not yet printed your poem&#8212;"Death's Valley," written
+                at our request.<ptr target="loc.08279_n2"/> We do not know whether you think of using this
+                poem in
+                <pb xml:id="leaf002r" facs="loc_tb.00001.jpg" type="recto"/>
+                your forthcoming volume; indeed, we presume that you do not, as we
+                secured it with a view to its publication at our option as to time.
+                But we ought to draw your attention to the matter, to guard against the
+                possibility of your issue of the poem before its
+                <pb xml:id="leaf002v" facs="loc_tb.00002.jpg" type="recto"/>
+                appearance in our
+                magazine.</p>
+            <closer>
+                <salute>Your sincerely</salute>
+                    <signed>H. M. Alden</signed>
+                    <address>
+                        <addrLine>Ed<hi rend="underline">r</hi> <hi rend="underline">Harper's Maga</hi>.<ptr target="n6009"/></addrLine>
+                    </address>
+            </closer>  
+        </body> 
+    </text>
+</TEI>

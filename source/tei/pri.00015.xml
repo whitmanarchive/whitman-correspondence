@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="pri.00015">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William Michael Rossetti, 11 February 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="ec">Eric Conrad</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>pri.00015</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--<biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">Walt Whitman&#8212;The Correspondence, Volume III: 1876&#8211;1885</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date when="1964">1964</date>
+                            <biblScope type="page">23</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Michael Rossetti, 11 February 1876</title>
+                    <date cert="high" when="1876-02-11" xml:id="dat1">February 11, 1876</date>
+                    <orgName xml:id="pri">Manuscripts Division, Department of Rare Books and Special Collections, Princeton University Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Rossetti, William Michael" ref="n0522">William Michael Rossetti</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-08" who="#smb">final check, updated</change>
+            <change when="2023-07-10" who="#aja">final corrections for Ed</change>
+            <change when="2022-12-08" who="#aja">checked, corrected</change>
+            <change when="2022-04-22" who="#me">checked, corrected</change>
+            <change who="#cn" when="2022-01-19">checked, corrected, added notes</change>
+            <change who="#ak" when="2015-05-12">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-02-08" who="#kk">checked</change>
+            <change when="2011-04-22" who="#zk">encoded</change>
+            <change when="2010-08-20" who="#ec">extracted transcription from Major Authors cd</change>
+        </revisionDesc>
+    </teiHeader>
+      
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="pri.00015.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">431 Stevens st. 
+                        <lb/>cor West.</name>
+                    <name type="place">Camden, 
+                        <lb/>N. Jersey, 
+                        <lb/>U.S. America.</name> 
+                    <date when="1876-02-11">Feb. 11 /76</date>
+                </dateline>
+                <salute>W. M. Rossetti:</salute>
+                <salute>My dear friend,</salute>
+            </opener>
+            <p>I would ask of you the favor to see, if convenient, whether the enclosed article 
+                The American War<ptr target="pri.00015_n1"/> would be available for the 
+                <hi rend="underline">Academy</hi><ptr target="loc.02532_n6"/>&#8212;(or 
+                any where else if you think preferable.)</p> 
+            <p>I would like pay for it&#8212;would be satisfied with 25 or &#36;30.</p>
+            <p>I am getting along much the same. My new book <choice><sic>wont</sic><corr>won't</corr></choice> 
+                be out yet, publicly, for a month.</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <postscript>
+                <p><supplied reason="verso-unavailable" source="#miller">I also send a little hitherto unpublished poem, 
+                    <hi rend="italic">The Man-of-War Bird</hi><ptr target="pri.00015_n4"/>&#8212;which 
+                    I can't sell here&#8212;I wonder if you could sell it for me, in London? It is not 
+                    in my new book, &amp; is entirely fresh.</supplied><ptr target="pri.00015_n3"/></p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

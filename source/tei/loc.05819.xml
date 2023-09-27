@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ASCII"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05819">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">James Curphey to Walt Whitman, 8 April 1867</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James Curphey</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="jyc">Jonathan Y. Cheng</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05819</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>James Curphey</author>
+                    <title>James Curphey to Walt Whitman, 8 April 1867</title>
+                    <date cert="high" when="1867-04-08" xml:id="dat1">April 8, 1867</date>
+                    <idno type="callno">MSS45443, Reel 1, <!--Folder: Notes &#38; Memoranda Walt Whitman
+                        in Camden [ca 1885]--></idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0050 </idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt
+                        Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.05917"/>
+                    <relatedItem type="document" target="wwa.00666"/>
+                    <note type="project" target="#rel01">This letter has been struck through; the signature portion of the letter
+                    has also been cut away. Whitman drafted some biographical notes on the back of this letter from Curphey.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Curphey, James" ref="loc.05819_n3">James Curphey</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2023-07-31" who="#smb">updated notes</change>
+            <change when="2022-07-23" who="#kjb">checked, corrected</change>
+            <change when="2022-02-04" who="#cn">checked, corrected, added notes and wwa id</change>
+            <change when="2021-10-29" who="#aja">2nd check, notes</change>
+            <change who="#ak" when="2015-04-23">added correspondent ref</change>
+            <change when="2014-11-10" who="#ak">corrected transcription and encoding</change>
+            <change when="2014-09-12" who="#jyc">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jp.00032_large.jpg" type="recto"/>
+            <opener>
+                <dateline rend="center">
+                    <handShift rend="printed"/>
+                    <name type="place">Office of JAMES CURPHEY,</name>
+                    <name type="place">BANKER, BROKER AND DEALER IN GOVERNMENT SECURITIES,</name>
+                    <name type="place">No. 1 Pine Street</name>, <name type="place" rend="right"><hi
+                            rend="italic">New York,</hi></name>. 
+                    <date when="1867-04-08" rend="right"><handShift rend="manuscript"/>April 8, <handShift rend="printed"/>186<handShift rend="manuscript"/>7</date>.
+                </dateline>
+                <salute>Sir</salute>
+            </opener>
+            <p>Your note was duly received<ptr target="n5002d"/> with order on Mr. Gray<ptr target="n5001"/> 
+                for a Copy of your works.</p>
+            <p>I have satisfied myself that no copy was delivered here&#8212;had such been the case
+                it would have come under my notice&#8212;I therefore sent your order to Mr Gray and
+                have received from him a copy for which you have my thanks </p>
+            <closer>
+                <salute>Yours &#38;c<ptr target="loc.05819_n2"/></salute> 
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_jp.00031_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+
+
+
+

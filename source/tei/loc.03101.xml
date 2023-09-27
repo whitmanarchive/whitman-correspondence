@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03101"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Charles McIlvaine to Walt Whitman, [1890?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles McIlvaine</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt> 
+                <edition> 
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03101</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles McIlvaine</author>
+                    <title>Charles McIlvaine to Walt Whitman, [1890?]</title>
+                    <date cert="low" notBefore="1890-01-01" notAfter="1890-12-31" xml:id="dat1">[1890?]</date> 
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00272</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="McIlvaine, Charles" ref="loc.03101_n3">Charles McIlvaine</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-15" who="#smb">final corrections</change>
+            <change when="2023-02-03" who="#jh">checked, corrected</change>
+            <change when="2022-08-23" who="#smb">final check, corrected</change>
+            <change when="2021-11-10" who="#aja">2nd check, corrected</change>
+            <change when="2021-11-05" who="#cn">checked, corrected, added DOI</change>
+            <change when="2021-10-23" who="#me">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader>   
+    <text type="letter">
+        <body>  
+            <pb xml:id="leaf001r" facs="loc.03101.001_large.jpg" type="recto"/>
+            <div1 type="letter">
+            <opener>  
+                <salute>Dear Old Walt,</salute>
+            </opener>
+                <p>The above is the original. The copy has gone to "Puck."<ptr target="loc.03101_n2"/> <hi rend="underline">Puck</hi> will 
+                    print it.</p> 
+            <closer>
+                <salute>Yours lovingly, admiringly</salute>
+                <signed>Charles McIlvaine</signed>
+                <address>
+                    <addrLine>Haddonfield, N. Jersey<ptr target="loc.03101_n4"/></addrLine>
+                </address> 
+            </closer>
+            </div1>
+                <div1 type="enclosure"> 
+                    <lg type="poem">
+                        <head rend="center" type="main-authorial"><hi rend="underline">Ho! Help God! The Quaker Theater to the rescue</hi></head>
+                        <lg type="linegroup">
+                        <l>Oh God! Thou who made this World,</l>
+                        <l>(And worlds wider)</l>
+                        <l>And all the little people in it,</l>
+                        <l>Forgive the littlest of the lot</l>
+                        <l>When thy run up to take thy part.</l>
+                        <l>Thou needst deference,&#8212;Thou must be cared for.</l>
+                        <l>Such men as Ingersoll<ptr target="n0839"/> and Whitman</l>
+                        <l>Thy masters are:&#8212;</l>
+                        <l>So think the Little ones.&#8212;</l>
+                        <l>Forgive them, God, for thinking Thou a Pygmy.</l>
+                       </lg>
+                    </lg>
+                </div1>
+            <pb xml:id="leaf001v" facs="loc.03101.002_large.jpg" type="verso"/>
+        </body> 
+    </text>
+</TEI>
+
+
+
+

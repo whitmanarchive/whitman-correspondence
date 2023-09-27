@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03234">
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03234">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">William J. Linton to Walt Whitman, 1 July
-                    1885</title>
+                <title level="m" type="main">William J. Linton to Walt Whitman, 1 July 1885</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>William J. Linton</author>
                 <editor>Kenneth M. Price</editor>
@@ -19,6 +17,7 @@
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -55,22 +54,20 @@
                     <author>William J. Linton</author>
                     <title>William J. Linton to Walt Whitman, 1 July 1885</title>
                     <date cert="high" when="1885-07-01" xml:id="dat1">July 1, 1885</date>
-                    <idno type="callno">Box 13, Reel 8</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00266</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
-        </fileDesc>
+        </fileDesc> 
         <profileDesc>
             <handNotes>
                 <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
                 <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
             </handNotes>
-            
             <particDesc>
                 <person role="sender">
-                    <persName key="Linton, William James" ref="n6008">William James
-                        Linton</persName>
+                    <persName key="Linton, William J." ref="n6008">William J. Linton</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -78,6 +75,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-06-24" who="#me">added DOI</change>
             <change when="2015-08-13" who="#ss">corrected</change>
             <change when="2015-08-04" who="#nhg">checked, corrected</change>
             <change when="2015-06-29" who="#kb">edited</change>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="owu.00023"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Alma Calder Johnston, 15 August 1888</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>   
+                <respStmt> 
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>  
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>owu.00023</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588&#8211;4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
+                        advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Alma Calder Johnston, 15 August 1888</title>
+                    <date cert="high" when="1888-08-15" xml:id="dat1">August 15, 1888</date>
+                    <orgName xml:id="owu">The Bayley-Whitman Collection, Ohio Wesleyan University, Delaware, OH</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Johnston, Alma Calder" ref="n3029">Alma Calder Johnston</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2022-04-05" who="#aja">final corrections</change>
+            <change when="2021-12-29" who="#smb">final check, corrected</change>
+            <change when="2021-10-16" who="#me">checked, corrected</change>
+            <change when="2021-07-09" who="#bjo">first check, notes added</change>
+            <change when="2020-11-13" who="#smb">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <pb xml:id="leaf001r" facs="owu.00023.001_large.jpg" type="recto"/>
+        <body>
+            <opener> 
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1888-08-15">Wednesday Noon</date>
+                    <date when="1888-08-15">Aug: 15 '88</date>
+                </dateline> 
+                <salute>Dear friend</salute>
+            </opener>
+            <p>Here is William Ingram's<ptr target="n0323"/> letter<ptr target="owu.00023_n1"/>&#8212;forwarded at his request to you&#8212;He
+                comes to see me occasionally &#38; is always welcome&#8212;John's<ptr target="n0336"/> good letter
+                was rec'd this forenoon<ptr target="n5002d"/> &#38; is cheery &#38; hospitable as always&#8212;Yes my dear friend if I get 
+                able again to get about&#8212;&#38; you settle down &#38; the machinery moves regularly &#38;c.&#8212;I 
+                may come to New York &#38; see you all&#8212;We will see how the cat jumps&#8212;I still remain in 
+                my sick room&#8212;tho' I have had no set back any thing worth mentioned,&#8212;but remain very enfeebled
+                &#38; almost helpless in strength of legs &#38; body, without improvement at all.</p>
+            <p>&#8212;This week so 
+                far the temperature has been just right here&#8212;My little booklet November Boughs<ptr target="loc.07473_n2"/> is ab't 
+                done&#8212;will make 140 pages&#8212;I have for the concluding one a disjointed paper on 
+                "Elias Hicks"<ptr target="n0301"/>&#8212;the publication will be delayed yet a number of weeks&#8212;I 
+                am sitting up in my big arm chair writing this&#8212;am comfortable&#8212;Best love to you all.</p>
+            <closer> 
+                <signed>Walt Whitman</signed> 
+            </closer>    
+        </body>
+    </text> 
+</TEI>    

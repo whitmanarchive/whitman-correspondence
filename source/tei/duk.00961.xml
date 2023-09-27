@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00961">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Edward Wilkins, 30 September 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>duk.00961</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">248&#8211;249</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Edward Wilkins, 30 September 1891</title>
+                    <date cert="high" when="1891-09-30" xml:id="dat1">September 30, 1891</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Wilkins, Edward" ref="n4319">Edward Wilkins</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-08" who="#aja">final corrections</change>
+            <change when="2022-01-04" who="#smb">final check, corrected, added notes</change>
+            <change when="2021-10-05" who="#aja">2nd check, notes</change>
+            <change when="2021-07-16" who="#aja">checked, corrected</change>
+            <change when="2020-10-20" who="#rf">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden NJ&#8212;US America</name>
+                    <date when="1885-09-30">Sept: 30 '91</date>
+                    </dateline>
+            <salute>Dear Ed:</salute>
+            </opener>
+                <p>Y'rs of 26th<ptr target="duk.00961_n2"/> has come, &amp; I am glad to get word f'm you after such
+                    an interval&#8212;Don't wait so long again &amp; you yourself will always be
+                    welcome whatever happens&#8212;I still hold out here, but a peg dropping out
+                    lower every month, &amp; before long will be dropt out for good&#8212;hardly get
+                    out at all in the wheel chair,<ptr target="loc.03012_n1"/> or any other way&#8212;not once 
+                    in a month&#8212;In
+                    other respects somewhat the same&#8212;eat my two meals every day&#8212;(an egg
+                    &amp; bread &amp; coffee for b'kfast &amp; four or five oysters for supper 
+                    yesterday)&#8212;has been a hot season here, but clear &amp; cool 
+                    to-day&#8212;every thing &amp; folks
+                    here much the same&#8212;Mrs. D[avis]<ptr target="n6113"/> and Warry<ptr target="loc.07319_n6"/> and 
+                    Harry<ptr target="loc.07663_n4"/> well&#8212;Mrs.
+                    Mapes<ptr target="n4149"/> out in Atchison Kansas&#8212;Mrs. Doughty &amp; 
+                    Maggie<ptr target="duk.00961_n4"/> well&#8212;Warry
+                    still my nurse &amp; satisfactory&#8212;Horace Traubel<ptr target="n4267"/> 
+                    married<ptr target="loc.02481_n3"/> &amp; well&#8212;faithful
+                    as ever&#8212;So good bye for present &amp; God bless you, dear son&#8212;</p>
+                <closer>
+                    <signed>Walt Whitman</signed>
+                </closer>
+        </body>
+    </text> 
+</TEI>

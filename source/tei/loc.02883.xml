@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02883">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Anne Gilchrist to Walt Whitman, 28 August 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Anne Gilchrist</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02883</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+            <sourceDesc>
+                <!--<biblStruct>
+                    <monogr>
+                        <editor>Thomas B. Harned</editor>
+                        <title xml:id="ehm">The Letters of Anne Gilchrist and Walt Whitman</title>
+                        <imprint>
+                            <pubPlace>Garden City, New York</pubPlace>
+                            <publisher>Doubleday, Page &amp; Company</publisher>
+                            <date when="1964">1918</date>
+                            <biblScope type="page">129–130</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Anne Gilchrist</author>
+                    <title>Anne Gilchrist to Walt Whitman, 28 August 1875</title>
+                    <date cert="high" when="1875-08-28" xml:id="dat1">August 28, 1875</date>
+                    <idno type="callno">MSS45443, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0111</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2023-08-10" who="#smb">ran image script, updated notes</change>
+            <change when="2023-03-27" who="#jh">checked, corrected</change>
+            <change when="2023-01-19" who="#smb">final check, corrected</change>
+            <change when="2022-12-01" who="#aja">checked, corrected</change>
+            <change when="2021-12-14" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-06-05" who="#js">proofed</change>
+            <change when="2012-05-18" who="#ej">Checked and Corrected</change>
+            <change when="2012-04-23" who="#al">Checked with microfilm.</change>
+            <change when="2011-08-09" who="#zk">transcribed and encoded from Harned; annotated AG</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_cb.00355.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <address>
+                        <addrLine>address</addrLine>
+                        <addrLine>1 <choice><sic>Toriano</sic><corr>Torriano</corr></choice> Gardens</addrLine>
+                        <addrLine>Camden Road, N.W.</addrLine>
+                        <addrLine>London</addrLine>
+                        <addrLine>Earls Colne</addrLine>
+                    </address>
+                    <date when="1875-08-28" rend="right">Aug. 28. 1875</date>
+                </dateline>
+                <salute>My dearest Friend</salute>
+            </opener>
+            <p>Your letter came to me just when I most needed the comfort of it&#8212;when I was watching and tending my 
+                dear Mother as she gently, slowly, with but little suffering, sank to rest. There was no sick bed to sit 
+                by.&#8212;We got her up and out into the air and sunshine for an hour or two even the day before she died&#8212;No 
+                <pb xml:id="leaf001v" facs="loc_cb.00358.jpg" type="verso"/> 
+                disease, only the stomach could not do its work any longer &amp; for the last three weeks she lived wholly 
+                on stimulants, suffering somewhat from sickness. She drew her last breath very gently, before daybreak on 
+                the 15th <choice><abbr>inst.</abbr><expan>instant</expan></choice>, in her 90th year, which she had entered in 
+                <choice><abbr>Jan</abbr><expan>January</expan></choice>. 
+                She looked very beautiful in death, notwithstanding her great age&#8212;as well she might&#8212;tranquil 
+                sunset that it was of a beautiful day&#8212;a fulfilled life&#8212;joy &amp; delight of her father in youth 
+                (who used to call her the apple of his eye) good wife, devoted, 
+                self-wise<pb xml:id="leaf002r" facs="loc_cb.00359.jpg"/>sacrificing,
+                 mother&#8212;patient, courageous sufferer through thirty years of chronic rheumatism (which however 
+                neutralized &amp; ceased its pains the last few years) unsurpassed &amp; indeed I think unsurpassable, in 
+                conscientiousness&#8212;in the strong sense of duty &amp; perfect obedience to that highest sense&#8212;she 
+                is one of those who amply justify your large faith in women.</p>
+            <p>I do not need to tell you anything my dearest friend&#8212;you know all&#8212;I feel your strong comforting 
+                hand&#8212;I press it very close.</p>
+            <p>I had all my children with me at the funeral&#8212;<pb xml:id="leaf002v" facs="loc_cb.00356.jpg" type="verso"/>O
+                the comfort your dear letter was &amp; is to me. Thinking over &amp; over the few words you say of 
+                yourself&#8212;&amp; what is said in the paper (so eagerly read&#8212;every word so welcome) I cannot help 
+                fancying that the return of the distressing sensations in the head must be caused by your having worked at 
+                the book&#8212;the "Two Rivulets"<ptr target="loc.02250_n7"/> (I dearly <unclear reason="illegible" cert="low" resp="#al">love</unclear> 
+                the title &amp; the idea of bringing the Poems &amp; Prose together so)&#8212;that you must be more patient 
+                with yourself and submit still to perfect rest&#8212;&amp; that perhaps in regard to the stomach&#8212;you 
+                have not enough adapted your diet to the privation of exercise&#8212;that you must be more indulgent to the 
+                stomach too in the sense of giving it only the very easiest &amp; simplest work to do.</p>
+            <closer>
+                <salute>Your own loving</salute>
+                <signed rend="right">Annie.</signed>
+            </closer>
+            <postscript>
+                <p>My children join their love with mine.</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

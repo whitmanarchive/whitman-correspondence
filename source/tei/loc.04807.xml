@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04807">
+    <teiHeader>  
+        <fileDesc>  
+            <titleStmt>  
+                <title type="main" level="m">Walt Whitman to Hannah Whitman Heyde, 1 December 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Maire Mullins</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ld">Lauren Davila</persName>
+                    <persName xml:id="mm">Maire Mullins</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>Kent State University</sponsor>
+                <sponsor>Pepperdine University</sponsor>
+                <funder>National Historical Publications and Records Commission</funder></titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04807</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, 
+                    all rights reserved. Items in the Archive may be shared in accordance with the Fair Use
+                    provisions of U.S. copyright law. Redistribution or republication on other
+                    terms, in any medium, requires express written consent from the editors and
+                    advance notification of the publisher, Center for Digital Research in the
+                    Humanities. Permission to reproduce the graphic images in this archive has
+                    been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Hannah Whitman Heyde, 1 December 1891</title>
+                    <date cert="high" when="1891-12-01" xml:id="dat1">December 1, 1891</date>
+                    <idno type="callno">MSS18630, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00041</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of 
+                        Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.08149"/>
+                    <relatedItem type="document" target="wwa.00616"/>
+                    <note type="project" target="#rel01">Whitman opened an envelope in which he had previously received a letter from an unidentified correspondent&#8212;postmarked
+                    on November 25, 1891&#8212;and used the blank inside to compose this letter to his sister Hannah.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Whitman Heyde</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2020-10-13" who="#smb">added DOI, corrected</change>
+            <change when="2019-11-21" who="#smb">checked, added notes</change>
+            <change when="2019-10-03" who="#bjo">images added, checked and corrected</change>
+            <change when="2019-03-12" who="#mm">edited</change>
+            <change when="2016-08-12" who="#mm">proofread and added notes</change>
+            <change when="2016-08-03" who="#ld">encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_ad.00199_large.jpg" type="recto"/>
+            <opener>
+               <dateline> 
+                <name type="place">Camden<ptr target="loc.04807_n1"/></name>
+                <date when="1891-12-01"><choice><abbr>Dec:</abbr><expan>December</expan></choice> 1 '91</date>
+               </dateline>
+            </opener> 
+            <p>Dear sister,  
+                Suppose you have <choice><abbr>recd</abbr><expan>received</expan></choice> letter 
+                <choice><abbr>f'm</abbr><expan>from</expan></choice> me 
+                <hi rend="underline">every week</hi>,<ptr target="loc.04807_n2"/> as I have sent 
+                one, (<choice><abbr>tho'</abbr><expan>though</expan></choice> of late have been late&#8212;last 
+                Thursday &#36;2<ptr target="loc.04807_n9"/>&#8212;this one &#36;2):&#8212;not much different&#8212;pretty 
+                <choice><abbr>depress'd</abbr><expan>depressed</expan></choice> condition 
+                with me night &#38; day&#8212;sunny &#38; cold&#8212;still eat my two meals a 
+                day (very light however)&#8212;buckwheat cakes &#38; coffee 
+                this <choice><abbr>mn'g</abbr><expan>morning</expan></choice>&#8212;letters 
+                <choice><abbr>f'm</abbr><expan>from</expan></choice> England yesterday&#8212;my friend 
+                Wallace<ptr target="loc.04807_n3"/>	<choice><abbr>ret'd</abbr><expan>returned</expan></choice> safely 
+                (Bolton) and much <choice><abbr>welcom'd</abbr><expan>welcomed</expan></choice> 
+                there&#8212;Geo,<ptr target="loc.04807_n4"/> Lou,<ptr target="loc.04807_n5"/> &#38; Ed<ptr target="loc.04807_n6"/>
+                well as usual&#8212;Jessie<ptr target="loc.04787_n2"/> at <choice><abbr>St L</abbr> <expan>St. Louis</expan></choice> well as usual 
+                last <choice><abbr>acc'ts</abbr><expan>accounts</expan></choice>&#8212;Mrs: 
+                D<ptr target="loc.04807_n8"/> has gone over to <choice><abbr>Phila</abbr><expan>Philadelphia</expan></choice>: to-day 
+                visiting &#38; shopping&#8212;Warry<ptr target="loc.07319_n6"/> here to mind
+                the shanty &#38; me&#8212;(keeps up a good fire my stove)&#8212;the little children 
+                have been in to see&#8212;I gave each a big doughnut&#8212;God bless you sister dear&#8212;</p>	
+            <closer>  
+                <signed>W W</signed>    
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_ad.00200_large.jpg" type="verso"/>
+        </body>
+    </text>	
+</TEI>
+
+
+
+    

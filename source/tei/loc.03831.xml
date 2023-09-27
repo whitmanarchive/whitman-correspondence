@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03831">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Logan Pearsall Smith to Walt Whitman, 22 November 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Logan Pearsall Smith</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="eh">Ethan Heusser</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03831</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce 
+                        the graphic images in this archive has been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Logan Pearsall Smith</author>
+                    <title>Logan Pearsall Smith to Walt Whitman, 22 November 1891</title>
+                    <date cert="high" when="1891-11-22" xml:id="dat1">November 22, 1891</date>
+                    <idno type="callno">MSS18630, Box 16, Reel 10</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00350</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Smith, Logan Pearsall" ref="n6122">Logan Pearsall Smith</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-12" who="#aja">final corrections</change>
+            <change when="2022-04-14" who="#smb">final check, corrected</change>
+            <change when="2021-06-09" who="#aa">second check; added DOI; corrected and revised</change>
+            <change when="2020-07-28" who="#cn">first check</change>
+            <change when="2020-06-01" who="#eh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jc.00175_large.jpg" type="recto"/>
+            <opener>
+                <name type="place">Paris 15 Rue du Sommerard</name>
+                <dateline><date when="1891-11-22">Nov 22</date></dateline>
+                <salute>Dear Mr. Whitman</salute>
+            </opener>
+            <p>I often wonder how you are getting on, with the approach of winter? I hope it will
+                find you in a comfortable condition.</p>
+            <p>I have come here to Paris for the winter, leaving Oxford at last. Paris is the great
+                    <pb xml:id="leaf002v" facs="loc_jc.00176_large.jpg" type="verso"/> center for
+                art now of all Europe&#8212;there are thousands of arts students here from all the
+                world. A great deal of good work is being produced, and the atmosphere is very
+                exhilarating. Next to the French the best work is done by the Swedes &amp; the
+                Americans&#8212;there seems to be a real burst of life among these Northern
+                people&#8212;the Swedes, Norwegians &amp; Finns, <pb xml:id="leaf003r"
+                    facs="loc_jc.00177_large.jpg" type="recto"/> and Ibsen<ptr target="loc.03831_n4"/> is
+                not an isolated phenomenon. The American work here is very strong&#8212;there are a
+                number of young men who have real genius, I think. I am going this afternoon to see
+                the young Brooklyn sculptor<ptr target="loc.03831_n3"/> who is making the great fountain for the Chicago
+                exhibition&#8212;it is to cover acres &amp; dispense Mississippis!</p>
+            <pb xml:id="leaf003v" facs="loc_jc.00178_large.jpg" type="verso"/>
+            <p>However, he is not frightened by the job, but has a splendid design&#8212;America
+                sitting high on a barge, which is rowed by gigantic female figures.</p>
+            <p>They are all well in England I think&#8212;my mother<ptr target="n7510"/> is paying a short Temperance
+                visit to N.Y. Boston &amp; Chicago with an English friend of hers, but we expect her
+                back shortly now.</p>
+            <closer>
+                <salute>Good-bye, dear Mr. Whitman</salute> 
+                <salute>Yours affectionately</salute>
+                <signed>Logan Pearsall Smith</signed>
+            </closer>
+        </body> 
+    </text>
+</TEI> 
+ 
+<!--<note xml:id="loc.03831_n3" type="editorial" resp="wwa">Frederick W. MacMonnies (1863&#8211;1937) was a Brooklyn-born sculptor, painter, and portraitist. He served
+    as an apprentice under the French-Irish Scupltor Augustus Saint-Gaudens, and also studied with the National Academy
+    of Design and The Art Students League of New York. After moving to Paris to continue his training in sculpture
+    at the Ecole des Beaux-Arts, he opened a studio in Paris and began to create some of his most famous works.
+    In 1891, he was awarded the commission for his sculpture, the <hi rend="italic">Columbian Fountain</hi>, which
+    became the focal point and centerpiece of the 1893 World's Columbian Exposition in Chicago.</note>
+
+<note xml:id="loc.03831_n4" type="editorial" resp="wwa">Norwegion playwright and director Henrik Johan Ibsen (1828&#8211;1906) was a founder of modernism in the theatre. 
+    He is considered one of the most influential playwrights of his time, and his major works include
+    <hi rend="italic">Peer Gynt</hi>, <hi rend="italic">A Doll's House</hi>, and <hi rend="italic">Hedda Gabler</hi>.</note>-->

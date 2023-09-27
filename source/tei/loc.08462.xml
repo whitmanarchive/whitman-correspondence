@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08462">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">R. Rooke Morgan to Walt Whitman, [1891?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>R. Rooke Morgan</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="tb">Tara Ballard</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08462</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>R. Rooke Morgan</author>
+                    <title>R. Rooke Morgan to Walt Whitman, [1891?]</title>
+                    <date cert="low" notBefore="1891-01-01" notAfter="1891-12-31" xml:id="dat1"
+                        >[1891?]</date>
+                    <idno type="callno">MSS45443, Box 1, Reel 1</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0014</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt
+                        Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.00363"/>
+                    <relatedItem type="document" target="wwa.00676"/>
+                    <note type="project" target="#rel01">Whitman used the back of this letter to
+                        draft "Grand is the Seen," a poem that was first published in his book <hi
+                            rend="italic">Good-Bye My Fancy</hi> (1891).</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Morgan, R. Rooke" ref="loc.08462_n1">R. Rooke Morgan</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2022-07-09" who="#smb">final checked, corrected</change>
+            <change when="2022-07-06" who="#pw">checked, corrected</change>
+            <change when="2022-06-21" who="#smb">check, corrected, added notes</change>
+            <change when="2022-03-10" who="#tb">added images</change>   
+            <change when="2022-03-04" who="#aja">2nd check, changed image pointer targets</change>
+            <change when="2022-02-28" who="#aja">checked</change>
+            <change when="2022-02-26" who="#me">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_tb.00219.jpg" type="recto"/>
+            <p>this<ptr target="loc.08462_n2"/>life ended, you may dwell in everlasting bliss
+                throughout the endless ages of eternity.<ptr target="loc.08462_n3"/></p>
+            <closer>
+                <salute>Yours Sincerely</salute>
+                <signed>R. Rooke Morgan,</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="20051228_0195.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

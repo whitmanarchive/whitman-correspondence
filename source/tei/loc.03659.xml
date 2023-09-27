@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03659">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">S. F. Michel to Walt Whitman, 10 May 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>S. F. Michel</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03659</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+            <sourceDesc>       
+                <bibl>
+                    <author>S. F. Michel</author>
+                    <title>S. F. Michel to Walt Whitman, 10 May 1876</title>  
+                    <date cert="high" when="1876-05-10" xml:id="dat1">May 10, 1876</date>
+                    <idno type="callno">MSS18630, Reel 5, Box 8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00122</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.01251"/>
+                    <relatedItem type="document" target="wwa.00660"/>
+                    <note type="project" target="#rel01">This letter has been struck through. Whitman drafted his January 24, 1877, letter to Edward Cattell on the back
+                        of this letter.</note>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>             
+                <person role="sender">
+                    <persName key="Michel, S. F." ref="loc.03659_n3">S. F. Michel</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-01-11" who="#aja">final edits from Ken</change>
+            <change when="2023-06-16" who="#aja">updated image pointer</change>
+            <change when="2022-12-19" who="#aja">checked, corrected</change>
+            <change when="2022-03-08" who="#em">checked, corrected.</change>
+            <change when="2021-12-22" who="#me">checked, corrected. added related item</change>
+            <change who="#ak" when="2015-05-04">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-09-20" who="#cb">checked and corrected</change>
+            <change when="2012-05-23" who="#js">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>          
+            <pb xml:id="leaf001r" facs="loc_tb.00695.jpg" type="recto"/>
+            <opener>
+                <handShift rend="printed"/>
+                <dateline>
+                        <name type="place">Editorial Rooms</name>
+                        <name type="place">OF</name>
+                        <name type="place">The Tribune.</name>
+                    <name type="place">Chicago,</name>
+                    <date when="1876-05-10"><handShift rend="manuscript"/>May 10, <handShift rend="printed"/>187<handShift rend="manuscript"/>6.</date>
+                </dateline>
+                <salute>Walt Whitman, Esq.</salute>
+                <salute>My dear Sir:&#8212;</salute>
+            </opener>
+
+            <p>Your letter of the 5th,<ptr target="n5002d"/> with enclosure has just reached me. 
+                Had it arrived earlier&#8212;say by Sunday last&#8212;I should have accepted your terms, but now 
+                it is too late, in consequence of other arrangements, to use it. I therefore enclose it to you.</p>
+            
+            <closer>
+                <salute>Very respectfully,</salute>
+                <signed>S. F. Michel.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.01251.003_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.01251.005_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.01251.006_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+

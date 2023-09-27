@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05802">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Justin Huntly McCarthy to Walt Whitman, 23 September 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Justin Huntly McCarthy</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05802</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>Justin Huntly McCarthy</author>
+                    <title>Justin Huntly McCarthy to Walt Whitman, 23 September 1876</title>
+                    <date cert="high" when="1876-09-23" xml:id="dat1">September 23, 1876</date>
+                    <idno type="callno">MSS18630, Box 42, Reel 26</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.01504</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="rel01" target="loc.05801"/>
+                    <relatedItem type="text" target="loc.05801"/>
+                    <note type="project" target="#rel01">This letter has been crossed out, and on the back, Whitman wrote notes 
+                        under the heading "the <hi rend="italic">Ram&#257;yana</hi>." Whitman is referring to 
+                        <hi rend="italic">The R&#257;m&#257;yana</hi>, a Sanskrit epic ascribed to Maharishi Valmiki.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="McCarthy, Justin Huntly" ref="n0394">Justin Huntly McCarthy</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-23" who="#smb">updated notes</change>
+            <change when="2023-05-05" who="#aja">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_no.00312_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <handShift rend="printed"/><name type="place">48, Gower Street,</name>
+                    <name type="place">Bedford Square,</name>
+                    <name type="place">W.C.</name>
+                    <handShift rend="manuscript"/><name type="place">London</name>
+                    <date when="1876-09-23">Saturday 23 Sept. 1876</date>
+                </dateline>
+                <salute>Dear Walt Whitman</salute>
+            </opener>
+            <p>I have received your volume and thank you heartily My Father,<ptr target="loc.05802_n2"/> who had the pleasure of meeting you in
+                America&#8212;which I had not, though I have lived in &#38; love the land&#8212;and to whom you kindly
+                gave a copy of your 'Leaves of Grass' sends his warm regards &#38; desires to be remembered.</p> 
+            <closer>
+                <salute>One of the humblest of your admirers</salute>
+                <signed>Justin H. <hi rend="underline">McCarthy</hi></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_no.00044_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI> 
+
+
+

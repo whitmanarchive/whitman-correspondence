@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
 <?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aas.00025">
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="aas.00025">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">William S. Ingram to Walt Whitman, 24 December 1890</title>
+                <title level="m" type="main">William Ingram to Walt Whitman, 24 December 1890</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>William S. Ingram</author>
+                <author>William Ingram</author>
                 <editor>Kenneth M. Price</editor>   
                 <editor>Ed Folsom</editor>
                 <respStmt>
@@ -48,8 +48,8 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author>William S. Ingram</author>
-                    <title>William S. Ingram to Walt Whitman, 24 December 1890</title>
+                    <author>William Ingram</author>
+                    <title>William Ingram to Walt Whitman, 24 December 1890</title>
                     <date cert="high" when="1890-12-24" xml:id="dat1">December 24, 1890</date>
                     <orgName xml:id="aas">Bolton-Stanwood Family Papers, American Antiquarian Society</orgName>
                     <relatedItem type="text" xml:id="rel01" target="aas.00001"/>
@@ -63,7 +63,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Ingram, William S." ref="n0323">William S. Ingram</persName>
+                    <persName key="Ingram, William" ref="n0323">William Ingram</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>

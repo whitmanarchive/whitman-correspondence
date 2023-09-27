@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03498"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William Payne to Walt Whitman, 19 June 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William Payne</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName> 
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03498</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William Payne</author>
+                    <title>William Payne to Walt Whitman, 19 June 1890</title>
+                    <date cert="high" when="1890-06-19" xml:id="dat1">June 19, 1890</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00307</idno>
+                    <orgName xml:id="loc">
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.
+                    </orgName>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+                <handNotes>
+                    <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+                </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Payne, William" ref="loc.03499_n3">William Payne</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-05-30" who="#aja">final corrections for Ken</change>
+            <change when="2022-03-09" who="#smb">final checked, corrected</change>
+            <change when="2020-05-30" who="#cn">first check</change>
+            <change when="2020-03-07" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jm.00241.jpg" type="recto"/>
+            <opener>
+                <note type="editorial" resp="#ww" place="top">Circ: sent June 30</note>
+                <dateline>
+                    <handShift rend="printed"/>
+                    <name type="place">WOODLEIGH,</name>
+                    <name type="place">THE THICKET,</name>
+                    <name type="place">SOUTHSEA.</name>
+                    <name type="place"><handShift rend="manuscript"/>Portsmouth</name>
+                    <name type="place"><handShift rend="manuscript"/>England</name>
+                    <date when="1890-06-19"><handShift rend="manuscript"/>19 June 1890</date>
+                </dateline>
+                <salute>Sir</salute>
+            </opener>
+            <p>
+                I <gap reason="illegible" quantity="6" unit="chars"/> to take the liberty
+                of asking you if you can be so kind as to get me the following information
+            </p>
+            <p>
+                A clergyman friend of
+                mine has lent me a copy of "Leaves of "Grass" published at Boston
+            </p>
+            <p>
+                <address>
+                    <addrLine>
+                        Walt Whitman Esq. Camden
+                    </addrLine>
+                    <addrLine>
+                        New Jersey
+                    </addrLine>
+                </address>
+            </p>
+            <pb xml:id="leaf001v" facs="loc.03498.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_jm.00242.jpg" type="recto"/>
+            <p>
+               from 30 or so years ago with a portrait of yourself at its beginning
+            </p>
+            <p>
+                I want to be able to buy one written
+                or any other edition which is wholly unemasculated &#38; I would gladly
+                <unclear reason="illegible" resp="#adk" cert="medium">remit</unclear> the cost
+                and any Customs Duty if I could be put with the proper channel
+            </p>
+            <p>
+                I pray you will excuse the great liberty I take &#38;
+              <gap reason="illegible" quantity="2" unit="words"/> subscribe
+                myself your very obedient &#38; admiring servant
+            </p>
+            <closer>
+                <signed>William Payne</signed>
+                <signed>Treasurer of the Burrough of Portsmouth</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.03498.003_large.jpg" type="verso"/>
+        </body> 
+    </text>
+</TEI> 
+
