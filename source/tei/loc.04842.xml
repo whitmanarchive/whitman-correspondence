@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04842">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04842">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04842</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,13 +35,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04842</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James W. Wallace</author>
@@ -53,14 +50,14 @@
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno> 
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00404</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key= "Wallace, James W." ref="n6121">James W. Wallace</persName>
+                    <persName key="Wallace, James W." ref="n6121">James W. Wallace</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
@@ -86,17 +83,17 @@
                     <salute>Dear Walt,</salute>
                 </opener>
                 <p>I wish this letter to convey some aroma of our sweet English air
-                    today&#8212;fresh &#38; life giving&#8212;&#38; the cheer of our English
-                    sky perfectly pellucid &#38; clear after the storms, &#38; bright with 
+                    today—fresh &amp; life giving—&amp; the cheer of our English
+                    sky perfectly pellucid &amp; clear after the storms, &amp; bright with 
                     sunshine.</p>
-                <p>From my window (4 pm.) I look out to the hill&#8212;Rivington 
-                    Pike&#8212;standing <pb xml:id="leaf001v" facs="loc_vm.02042_large.jpg" type="verso"/>while (dark here &#38; there with trees) against the sky.&#8212;The
-                    whole scene wintery&#8212;but exquisitely beautiful &#38; cheering.</p>
-               <p>And as I sit here to write, &#38; think of the winter of your fate, I am cheered
-                   &#38; strengthened. The same spirit of beauty is revealed in winter as in 
-                   summer, &#38; love whispers immortal hopes.</p>
-               <p>Love to you, dear Walt, tenderer than of old, &#38; everlasting. 
-                   Love's kiss &#38; prayerful blessing to you<ptr target="loc.02538_n4b"/></p>
+                <p>From my window (4 pm.) I look out to the hill—Rivington 
+                    Pike—standing <pb xml:id="leaf001v" facs="loc_vm.02042_large.jpg" type="verso"/>while (dark here &amp; there with trees) against the sky.—The
+                    whole scene wintery—but exquisitely beautiful &amp; cheering.</p>
+               <p>And as I sit here to write, &amp; think of the winter of your fate, I am cheered
+                   &amp; strengthened. The same spirit of beauty is revealed in winter as in 
+                   summer, &amp; love whispers immortal hopes.</p>
+               <p>Love to you, dear Walt, tenderer than of old, &amp; everlasting. 
+                   Love's kiss &amp; prayerful blessing to you<ptr target="loc.02538_n4b"/></p>
                 <closer>
                     <signed><hi rend="underline">Wallace</hi></signed> 
                 </closer>
@@ -107,5 +104,3 @@
         </body>
     </text>
 </TEI>
-
-

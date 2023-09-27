@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00916"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00916"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00916</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,13 +34,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00916</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -53,7 +50,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">205</biblScope>
                         </imprint>
@@ -67,8 +64,8 @@
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00402</idno>
                     <orgName xml:id="med">
                         The location of this manuscript is unknown. Miller derives his transciption from a transcript of the letter published in 
-                        Dr. John Johnston and James W. Wallace, <hi rend="italic">Visits to Walt Whitman in 1890&#8211;1891 by Two Lancashire Friends</hi>,
-                        (London: George Allen &#38; Unwin Ltd., 1917), 256&#8211;257.</orgName>
+                        Dr. John Johnston and James W. Wallace, <hi rend="italic">Visits to Walt Whitman in 1890–1891 by Two Lancashire Friends</hi>,
+                        (London: George Allen &amp; Unwin Ltd., 1917), 256–257.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -98,13 +95,13 @@
                     <date when="1891-05-28">May 28, '91</date>
                 </dateline>
             </opener> 
-            <p>Still badly prostrated&#8212;horrible torpidity. Y'rs &#38; Dr [Johnston]'s<ptr target="n4102"/> letters rec'd<ptr target="med.00916_n2"/> &#38; cheer me 
+            <p>Still badly prostrated—horrible torpidity. Y'rs &amp; Dr [Johnston]'s<ptr target="n4102"/> letters rec'd<ptr target="med.00916_n2"/> &amp; cheer me 
                 much. Am sitting here in big chair at this moment.</p>
-            <p>I guess I have a good deal of the feeling of Epictetus<ptr target="n0759"/> &#38; stoicism, or tried to have. They are specially needed in a rich &#38; luxurious 
-                &#38; even scientific age&#8212;But I am clear that I include &#38; allow &#38; probably teach some things stoicism would frown upon 
-                &#38; discard&#8212;One's pulses &#38; marrow are not <hi rend="italic">democratic &#38; natural</hi> for nothing&#8212;Let Plato's<ptr target="med.00916_n3"/> steeds prance &#38; curvet &#38; drive at their utmost, 
-                but the master's grip &#38; eyes &#38; brain must retain the ultimate power for all, or things are lost.</p>
-            <p>Give my loving compliments to all the boys,<ptr target="loc.008092_n3"/> &#38; give this scrawl to 
+            <p>I guess I have a good deal of the feeling of Epictetus<ptr target="n0759"/> &amp; stoicism, or tried to have. They are specially needed in a rich &amp; luxurious 
+                &amp; even scientific age—But I am clear that I include &amp; allow &amp; probably teach some things stoicism would frown upon 
+                &amp; discard—One's pulses &amp; marrow are not <hi rend="italic">democratic &amp; natural</hi> for nothing—Let Plato's<ptr target="med.00916_n3"/> steeds prance &amp; curvet &amp; drive at their utmost, 
+                but the master's grip &amp; eyes &amp; brain must retain the ultimate power for all, or things are lost.</p>
+            <p>Give my loving compliments to all the boys,<ptr target="loc.008092_n3"/> &amp; give this scrawl to 
                 Wentworth Dixon<ptr target="loc.02465_n4"/> to keep if he cares for it.<ptr target="med.00916_n1"/>
             </p>  
             <closer>
@@ -113,63 +110,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

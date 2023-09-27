@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03672">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03672">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03672</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,12 +34,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce 
                         the graphic images in this archive has been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03672</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>A. F. Smith</author>
@@ -50,7 +47,7 @@
                     <date cert="high" when="1891-06-06" xml:id="dat1">June 6, 1891</date>
                     <idno type="callno">MSS18630, Box 15, Reel 9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00335</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,12 +83,12 @@
                 </dateline>
                 <salute>My Dear Walt Whitman</salute>
             </opener>
-            <p>Please write your autograph &#38; enclose in the accompanying envelope
+            <p>Please write your autograph &amp; enclose in the accompanying envelope
                 I appreciate
             <pb xml:id="leaf001v" facs="loc.03672.002_large.jpg" type="verso"/>
-                the many &#38; <gap reason="torn away" quantity="1" unit="word"/> favors asked 
+                the many &amp; <gap reason="torn away" quantity="1" unit="word"/> favors asked 
                 of you but desire your autograph so much to add to my already good
-                collection that I trouble you&#8212;Please
+                collection that I trouble you—Please
                 <pb xml:id="leaf002r" facs="loc.03672.003_large.jpg" type="recto"/>  
                 oblige one of your greatest admirers. 
             </p>

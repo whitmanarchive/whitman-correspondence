@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01911">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01911">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -33,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01911</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,13 +40,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
                         accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
                         medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
                         Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
                         of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01911</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Rudolph Schmidt</author>
@@ -57,7 +54,7 @@
                     <date cert="high" when="1874-04-04" xml:id="dat1">April 4, 1874</date>
                     <idno type="callno">MSS18630, Box 15, Reel 9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00337</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc>
@@ -102,8 +99,8 @@
                 <salute>My dear Walt Whitman,</salute>
             </opener>
             
-            <p>Coming home from our "Athenaeum"&#8212;a great reading union with a large 
-                number of papers and periodicals from all countries of the earth&#8212;and having there with 
+            <p>Coming home from our "Athenaeum"—a great reading union with a large 
+                number of papers and periodicals from all countries of the earth—and having there with 
                 great pleasure read in the Norwegian "Aftenbladet"<ptr target="n5006"/> (Evening Paper) for 
                 April 1 the the first <hi rend="underline">real</hi> criticism of your book, I found on my table 
                 your kind letter of March 19,<ptr target="loc.01911_n1"/> in reply to which I immediately write 
@@ -119,7 +116,7 @@
                 the author and his translator, others have made 
                 <pb xml:id="leaf002r" facs="loc.01911.007_large.jpg" type="recto"/> 
                 the same remark.</p>
-            <p>In the whole I have sent you 1) F&#230;drelandet 2) N&#230;r og fjern.<ptr target="n0430"/> 
+            <p>In the whole I have sent you 1) Fædrelandet 2) Nær og fjern.<ptr target="n0430"/> 
                 3) Dagbladet<ptr target="loc.01911_n3"/> 4) Folkets Avis.<ptr target="loc.01911_n4"/> 
                 The last paper (people's paper) is <unclear reason="illegible" cert="low" resp="#aja">slang</unclear> 
                 and the editor is the clown of the basest Copenhagen public.</p>
@@ -134,11 +131,11 @@
             <p>I am very glad to hear that your brother and sister<ptr target="n1046"/> are with you in your lonesomeness.</p>
             <p>I should be glad to know some thing about John Burroughs;<ptr target="n0129"/> his book has made 
                 his individuality dear to me.</p>
-            <p>Here follows a photography<ptr target="n5002f"/> that gives a true idea of my stature;&#8212;the 
+            <p>Here follows a photography<ptr target="n5002f"/> that gives a true idea of my stature;—the 
                 face is not good.</p>
             
             <closer>
-                <salute>Yours&#8212;</salute>
+                <salute>Yours—</salute>
                 <signed>Rudolph Schmidt</signed>
             </closer>
         </body>

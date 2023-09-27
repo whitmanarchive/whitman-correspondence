@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00889">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00889">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Dick &#38; Fitzgerald [publishing firm], 18 February 1888</title>
+                <title level="m" type="main">Walt Whitman to Dick &amp; Fitzgerald [publishing firm], 18 February 1888</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00889</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00889</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct> 
                     <monogr>
@@ -55,7 +52,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">152</biblScope>
                         </imprint>
@@ -63,10 +60,10 @@
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Dick &#38; Fitzgerald [publishing firm], 18 February 1888</title>
+                    <title>Walt Whitman to Dick &amp; Fitzgerald [publishing firm], 18 February 1888</title>
                     <date cert="high" when="1888-02-18" xml:id="dat1">February 18, 1888</date>
                     <orgName xml:id="med">The location of this manuscript is unknown. Edwin Haviland Miller derives his transcription from a transcipt that was
-                    published in Baker &#38; Brooks Auction #106, February 9, 1944.</orgName> 
+                    published in Baker &amp; Brooks Auction #106, February 9, 1944.</orgName> 
                 </bibl> 
             </sourceDesc> 
         </fileDesc>    
@@ -76,7 +73,7 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
                 </person>
                 <person role="recipient">
-                    <persName key="Dick &#38; Fitzgerald" ref="med.00889_n2">Dick &#38; Fitzgerald, publishers [William Brisbane Dick and Lawrence R. Fitzgerald]</persName>
+                    <persName key="Dick &amp; Fitzgerald" ref="med.00889_n2">Dick &amp; Fitzgerald, publishers [William Brisbane Dick and Lawrence R. Fitzgerald]</persName>
                 </person>
             </particDesc>
         </profileDesc>
@@ -96,8 +93,8 @@
                 </dateline> 
             </opener> 
             <p>
-                . . . I have succeeded in getting you a two vol. set . . . of Leaves of Grass and Two Rivulets, edn. 1876<ptr target="n4175"/>&#8211;shall I send the vols to you. The price is 
-             &#36;6.66<ptr target="med.00889_n1"/>. . . .
+                . . . I have succeeded in getting you a two vol. set . . . of Leaves of Grass and Two Rivulets, edn. 1876<ptr target="n4175"/>–shall I send the vols to you. The price is 
+             $6.66<ptr target="med.00889_n1"/>. . . .
             </p>
             <closer>
                 <signed>Walt Whitman</signed>

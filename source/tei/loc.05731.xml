@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05731">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05731">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05731</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,14 +42,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>           
+            <idno>loc.05731</idno></publicationStmt>           
             <sourceDesc>
                 <bibl>
                     <author>W. L. Tiffany</author>
                     <title>W. L. Tiffany to Walt Whitman, 29 January 1878</title>
                     <date cert="high" when="1878-01-29" xml:id="dat1">January 29, 1878</date>
                     <idno type="callno">MSS18630, Box 33</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -80,21 +77,21 @@
             
             <opener>
                 <dateline rend="right">
-                    <name type="place">Minneapolis<ptr target="loc.05731_n1"/>&#8212;</name>
-                    <name type="place">Minnesota&#8212;</name>
+                    <name type="place">Minneapolis<ptr target="loc.05731_n1"/>—</name>
+                    <name type="place">Minnesota—</name>
                     <date when="1878-01-29"><choice><abbr>Jan</abbr><expan>January</expan></choice> 29, 1878.</date>
                 </dateline>
                 <salute>Walt Whitman Esq</salute>
-                <salute>Dear Sir&#8212;</salute>
+                <salute>Dear Sir—</salute>
             </opener>
 
-            <p>Please inform me what the price of "The two Rivulets" is, &#38; where it can be procured.</p>
+            <p>Please inform me what the price of "The two Rivulets" is, &amp; where it can be procured.</p>
             
             <closer>
                 <salute><choice><abbr>Yrs</abbr><expan>Yours</expan></choice> Most Truly</salute>
                 <signed>W. L. Tiffany</signed>
                 <address><addrLine>(325 South 9th St.</addrLine>
-                    <addrLine>Minneapolis&#8212;</addrLine>
+                    <addrLine>Minneapolis—</addrLine>
                 <addrLine>Minn).</addrLine></address>
                 
             </closer>

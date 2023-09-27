@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02265">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02265">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02265</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,20 +38,20 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02265</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Albert C. Hopkins</author>
                     <title>Albert C. Hopkins to Walt Whitman, 14 March 1892</title>
                     <date cert="high" when="1892-03-14" xml:id="dat1">March 14, 1892</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                     <idno type="callno">MSS18630, Box 10, Reel 6</idno> 
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00206</idno>
                 </bibl>
@@ -69,7 +66,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key= "Hopkins, Albert C." ref="loc.02265_n2">Albert C. Hopkins</persName>
+                    <persName key="Hopkins, Albert C." ref="loc.02265_n2">Albert C. Hopkins</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
@@ -95,7 +92,7 @@
                         <addrLine>Camden N.J.</addrLine>
                     </address>
                 </dateline>
-                <salute>Dear Comrade:&#8212;</salute>
+                <salute>Dear Comrade:—</salute>
             </opener>
             <p>I notice that the press still reports you feeble, and I am constrained to write you, 
                 thinking that a cheery hail in memory of old days from even an unknown comrade may
@@ -113,10 +110,10 @@
                 of the flower, "light, order, land."</p>
             <p>We mean to do this in time to make it a conspicuous feature of the world's Colmbin. Exptin.<ptr target="loc.02469_n8"/></p>
             <p>Unless we greatly overestimate the strength and fitness of our cause, we shall on July 4<hi rend="underline">th</hi>
-                1893, march an all&#8211;union army of a hundred thousand children with pansy&#8211;bud caps and pansy
+                1893, march an all–union army of a hundred thousand children with pansy–bud caps and pansy
                 <pb xml:id="leaf003r" facs="loc.02265.005_large.jpg" type="recto"/>
                 banners, badges, gloves and belts, into the open gates of The World's Columbian Exposition, and replace the 
-                present awkward and unmeaning union of The Flag, with the star&#8212;pansy union, and sing, to war's
+                present awkward and unmeaning union of The Flag, with the star—pansy union, and sing, to war's
                 of Bethlehem, a new Peace Anthem of America, thus making, with the time and place, the most imposing
                 and memorable pageant of Union, Culture and Peace, of universal fellowship and human progress
                 in the history of the world.</p>
@@ -141,8 +138,8 @@
                 <l>O'er all the world, Christ's morning breaks."</l>
             </lg>
             <p>And still, "The man is ruler of the dark."</p>
-            <p>The eye of Pan, the fairy, the All&#8211;God. "Keeps watch and ward above his own."</p>
-            <p>Whatever valley of shadows you may be called upon to pass, go bravely with full trust&#8212;"the
+            <p>The eye of Pan, the fairy, the All–God. "Keeps watch and ward above his own."</p>
+            <p>Whatever valley of shadows you may be called upon to pass, go bravely with full trust—"the
                 heights where morning shines" and safe and sure and permanent beyond.</p>
             <p>Though I have never seen you, I hail you friend and comrade well met.</p> 
             <closer>
@@ -167,5 +164,3 @@
         </body> 
     </text>
 </TEI>
-
-

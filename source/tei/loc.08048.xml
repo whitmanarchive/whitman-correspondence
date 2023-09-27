@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08048"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08048"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08048</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,12 +34,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08048</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -52,7 +49,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">201</biblScope>
                         </imprint>
@@ -63,14 +60,14 @@
                     <title>Walt Whitman to Melville Philips, 21 May 1891</title>
                     <date cert="high" when="1891-05-21" xml:id="dat1">May 21, 1891</date>
                     <idno type="callno">MSS18630</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Walt" >Walt Whitman</persName>
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Philips, Melville" ref="hun.00049_n4">Melville Philips</persName> 
@@ -90,13 +87,13 @@
                 <dateline>
                     <date when="1891-05-21">[5.21(?).1891]</date>
                 </dateline>
-                <salute>Dear M P&#8212;</salute>
+                <salute>Dear M P—</salute>
             </opener>
-            <p>This is the best I can do for y'r request&#8212;The pieces have not hitherto 
+            <p>This is the best I can do for y'r request—The pieces have not hitherto 
                 been publish'd at all but are to be finally included in the little vol:<ptr target="loc.07894_n2"/> 
                 to come out (such "out" as it may be, probably small one) in ab't 
-                three weeks or longer&#8212;If Mr R[obinson]<ptr target="loc.03560_n1"/> <hi rend="italic">can publish them before</hi> it will do, 
-                &#38; the proprieties conform'd to&#8212;The price is &#36;10<ptr target="loc.08048_n1"/>&#8212;</p>
+                three weeks or longer—If Mr R[obinson]<ptr target="loc.03560_n1"/> <hi rend="italic">can publish them before</hi> it will do, 
+                &amp; the proprieties conform'd to—The price is $10<ptr target="loc.08048_n1"/>—</p>
             <p>
                 <hi rend="italic">New Poetry.</hi>
                 By Walt Whitman

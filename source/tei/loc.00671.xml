@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00671">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00671">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -40,7 +37,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00671</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -50,7 +47,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -58,17 +55,17 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00671</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Hannah Whitman Heyde</author>
                     <title>Hannah Whitman Heyde to Walt Whitman, 17 August [1873]</title>
                     <date cert="medium" when="1873-08-17" xml:id="dat1">August 17, [1873]</date>
-                    <idno type="callno">Series: Supplementary File, 1806&#8211;1981</idno>
+                    <idno type="callno">Series: Supplementary File, 1806–1981</idno>
                     <idno type="callno">MSS18630, Box 194</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.02393</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -119,20 +116,19 @@
                 <salute>Dearest Brother</salute>
             </opener>
             <p>I am so much afraid you have been worried about me</p>
-            <p>I hope not&#8212;for I care as much about your health as my own</p>
+            <p>I hope not—for I care as much about your health as my own</p>
             <p>Your letter<ptr target="n5002d"/> did me good dear brother you are so kind to speak of
                 coming to see me. I am down stairs, am feeling much better, more so than at any
                 time, I have had such good care. Charlie<ptr target="n0299b"/> has been so kind, dear
                 dear <choice>
                     <sic>brothe</sic>
                     <corr>brother</corr>
-                </choice> thanks for all your letters take good care of yourself <pb
-                    xml:id="leaf002v" facs="loc.00671.002.jpg" type="verso"/> that will do me more
+                </choice> thanks for all your letters take good care of yourself <pb xml:id="leaf002v" facs="loc.00671.002.jpg" type="verso"/> that will do me more
                 good than you think</p>
             <p>I am sorry about your lameness.<ptr target="duk.00623_n16"/> I think about you
                 always.</p>
             <p>I shall get well as ever I think in time. How is Eddy<ptr target="n1047"/></p>
-            <p>I send ever &#38; ever <hi rend="underline">so <choice>
+            <p>I send ever &amp; ever <hi rend="underline">so <choice>
                         <sic>muc</sic>
                         <corr>much</corr>
                     </choice></hi> love to you my dear <choice>

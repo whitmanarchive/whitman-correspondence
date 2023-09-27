@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08196">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08196">  
     <teiHeader>
         <fileDesc>
             <titleStmt>  
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08196</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,12 +34,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>  
+            <idno>loc.08196</idno></publicationStmt>  
             <sourceDesc>
                 <bibl>
                     <author>William Rideing</author>
@@ -50,7 +47,7 @@
                     <date cert="high" when="1890-10-17" xml:id="dat1">October 17, 1890</date>  
                     <idno type="callno">MSS18630, Box 37, Reel 24</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.01138</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.07097"/>
                     <relatedItem type="document" target="wwa.00631"/>
@@ -89,7 +86,7 @@
                     <name type="place"><handShift rend="printed"/><supplied reason="cut-away" resp="#smb" cert="medium">Nort</supplied>h American Review.</name>                    
                     <name type="place"><handShift rend="printed"/><gap reason="cut-away" quantity="2" unit="chars"/> East Fourteenth Street, New York.</name>       
                 </dateline>
-                <salute><handShift rend="manuscript"/><gap reason="cut-away" quantity="8" unit="chars"/> Whitman:&#8212;
+                <salute><handShift rend="manuscript"/><gap reason="cut-away" quantity="8" unit="chars"/> Whitman:—
                 </salute>
             </opener> 
             <p>               

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nar.03605">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nar.03605">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nar.03605</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +41,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nar.03605</idno></publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
                     changes to this file, as noted:
@@ -64,7 +60,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date><biblScope type="volume">2</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date><biblScope type="volume">2</biblScope>
                             <biblScope type="page">117</biblScope>
                         </imprint>
                     </monogr>
@@ -74,7 +70,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Amos Tappan Akerman, 9 January 1871</title>
                     <date cert="high" when="1871-01-09" xml:id="dat1">January 9, 1871</date>
-                    <orgName xml:id="nar">National Archives &#38; Records Administration</orgName>
+                    <orgName xml:id="nar">National Archives &amp; Records Administration</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -105,8 +101,7 @@
             <opener>
                 <dateline>
                     <name type="place" rend="center">Department of Justice</name>
-                    <name type="place" rend="right"><hi rend="italic">Washington</hi></name>. <date
-                        when="1871-01-09" rend="right">Jan. 9, <hi rend="italic">18</hi>71</date>. </dateline>
+                    <name type="place" rend="right"><hi rend="italic">Washington</hi></name>. <date when="1871-01-09" rend="right">Jan. 9, <hi rend="italic">18</hi>71</date>. </dateline>
                 <salute>Hon. A. T. Akerman,</salute><ptr target="nar.03605_n1"/>
                 <salute>Attorney General.</salute>
                 <salute>Sir:</salute>
@@ -115,15 +110,15 @@
             <p>I hereby respectfully make application for the office of Pardon Clerk, now vacant in
                 the Department of Justice.</p>
 
-            <p>I have served in the Department under Attorney Generals Speed,<ptr target="nar.03605_n2"/> Stanbery,<ptr target="nar.03605_n3"/> Browning,<ptr target="nar.03605_n4"/> Evarts,<ptr target="nar.03605_n5"/> Hoar,<ptr target="nar.03605_n6"/> &#38; yourself&#8212;am familiar
+            <p>I have served in the Department under Attorney Generals Speed,<ptr target="nar.03605_n2"/> Stanbery,<ptr target="nar.03605_n3"/> Browning,<ptr target="nar.03605_n4"/> Evarts,<ptr target="nar.03605_n5"/> Hoar,<ptr target="nar.03605_n6"/> &amp; yourself—am familiar
                 with the general routine of the office (am the oldest in continuous service of any
-                of the present clerks)&#8212;think I could soon learn the special duties of the
-                pardon desk&#8212;and hope I should conscientiously seek to perform them, both with
+                of the present clerks)—think I could soon learn the special duties of the
+                pardon desk—and hope I should conscientiously seek to perform them, both with
                 regard to their great official, and still greater moral obligations.</p>
 
-            <p>I would refer to Mr. Speed and Mr. Stanbery, Attorneys General, &#38; Mr.
+            <p>I would refer to Mr. Speed and Mr. Stanbery, Attorneys General, &amp; Mr.
                 Ashton,<ptr target="nar.03605_n7"/> Assistant Attorney General, under whom I have acted as clerk,
-                some of them for several years&#8212;and to Mr. Pleasants,<ptr target="nar.03605_n8"/> late Chief Clerk&#8212;and if
+                some of them for several years—and to Mr. Pleasants,<ptr target="nar.03605_n8"/> late Chief Clerk—and if
                 agreeable to you, or desirable, would bring written testimonials from them.</p>
 
             <closer>

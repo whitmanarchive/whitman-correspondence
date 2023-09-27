@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05093">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05093">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="am">Alicia Meyer</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05093</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>           
+            <idno>loc.05093</idno></publicationStmt>           
             <sourceDesc>
         
                 <bibl>
@@ -55,7 +51,7 @@
                     <title>Walt Whitman to George and Susan Stafford, 21 December 1883</title>
                     <date cert="medium" when="1883-12-21" xml:id="dat1">December 21, 1883</date>
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,7 +83,7 @@
     <text type="letter">  
         <body> 
             <div1 type="letter">
-                <pb xml:id="leaf001v" facs="loc_jc.00536_large.jpg" type="verso"></pb>
+                <pb xml:id="leaf001v" facs="loc_jc.00536_large.jpg" type="verso"/>
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
@@ -95,9 +91,9 @@
                 </dateline>
                 <salute>Dear friends<ptr target="loc.05093_n1"/></salute>
             </opener>
-            <p>Although I suppose you hear from Harry I will send you this letter <choice><abbr>rec'd</abbr><expan>received</expan></choice> by me last <choice><abbr>evn'g</abbr><expan>evening</expan></choice> as it may interest you&#8212;I am about as usual. Susan I <choice><abbr>rec'd</abbr><expan>received</expan></choice> your letter &#38; was glad to get it. I am writing a little. The wintry weather &#38; bad traveling keep me in more than I like&#8212;</p>
+            <p>Although I suppose you hear from Harry I will send you this letter <choice><abbr>rec'd</abbr><expan>received</expan></choice> by me last <choice><abbr>evn'g</abbr><expan>evening</expan></choice> as it may interest you—I am about as usual. Susan I <choice><abbr>rec'd</abbr><expan>received</expan></choice> your letter &amp; was glad to get it. I am writing a little. The wintry weather &amp; bad traveling keep me in more than I like—</p>
             <closer>
-                <salute>Merry Christmas to you &#38; George &#38; all&#8212;</salute>
+                <salute>Merry Christmas to you &amp; George &amp; all—</salute>
                 <signed>W W</signed>
             </closer>
             <postscript><p>Susan I enclose an envelope with the right direction so you can write to Harry</p></postscript>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07554"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07554"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07554</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07554</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct> 
                     <monogr>
@@ -56,7 +53,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">242</biblScope>
                         </imprint>
@@ -66,9 +63,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 4 December 1888</title>
                     <date cert="high" when="1888-12-04" xml:id="dat1">December 4, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,12 +97,11 @@
                     <date when="1888-12-04">Dec: 4 '88</date>
                 </dateline>
             </opener>
-            <p>Yours of 2d<ptr target="loc.07554_n2"/> rec'd&#8212;all goes along&#8212;a bad week
-                past&#8212;(a combination of prostrate gland trouble &#38; diabetes coming to the
-                front)&#8212;Shall tell you more when Osler's<ptr target="n4302"/> mate<ptr
-                target="loc.07554_n3"/> gives his verdict to-morrow&#8212;Had a better night
-                this last than for a week&#8212;Fine weather here, day &#38; night superb&#8212;God
-                bless you all&#8212;</p>
+            <p>Yours of 2d<ptr target="loc.07554_n2"/> rec'd—all goes along—a bad week
+                past—(a combination of prostrate gland trouble &amp; diabetes coming to the
+                front)—Shall tell you more when Osler's<ptr target="n4302"/> mate<ptr target="loc.07554_n3"/> gives his verdict to-morrow—Had a better night
+                this last than for a week—Fine weather here, day &amp; night superb—God
+                bless you all—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02106">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02106">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02106</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,13 +38,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02106</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Harry Buxton Forman</author>
@@ -56,14 +53,14 @@
                     <idno type="callno">MSS18630, Box 10, Reel 6</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00183</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key= "Forman, Harry Buxton" ref="n0240">Harry Buxton Forman</persName>
+                    <persName key="Forman, Harry Buxton" ref="n0240">Harry Buxton Forman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
@@ -89,12 +86,12 @@
             </opener>
             <p>Not a word from Balestier<ptr target="loc.07893_n6"/> since I wrote to you<ptr target="loc.02106_n3"/> a week or two since, dear Walt Whitman.
                 So last night I wrote to stir him up, having got instructions from the Postmaster General
-                to start at once, on business, to Paris &#38; Rome. I shall be away
+                to start at once, on business, to Paris &amp; Rome. I shall be away
                 two or three weeks. I hoped to have seen him before I went; but you will see how
                 matters stand from the reply of his Secretary overleaf. I don't think it's of much use to see
                 either Heinemann<ptr target="loc.07893_n8"/> or Waugh;<ptr target="loc.02106_n5"/> so I conclude to put it off till I return, in hopes that Balestier may
                 be all right again by then. I have fair news of you from Traubel.<ptr target="n4267"/> 
-                Excuse brevity &#38; haste.<ptr target="loc.02106_n1"/>   
+                Excuse brevity &amp; haste.<ptr target="loc.02106_n1"/>   
             </p>
             <closer>
                 <salute>With affectionate respect</salute>
@@ -134,7 +131,7 @@
               <pb xml:id="leaf002r" facs="loc.02106.003_large.jpg" type="recto"/>
                 <postscript>
                 <p>I have<ptr target="loc.02106_n6"/> no instructions for this; but expect to get 
-                useful information, at last, from B.&#8212;tho not from H. or W.</p> 
+                useful information, at last, from B.—tho not from H. or W.</p> 
                     <signed>HBF</signed>
        </postscript>
             <pb xml:id="leaf002v" facs="loc.02106.004_large.jpg" type="verso"/>
@@ -144,8 +141,3 @@
         </body>
     </text> 
 </TEI>
-
-
-
-
-

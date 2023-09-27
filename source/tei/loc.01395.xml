@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01395">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01395">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01395</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01395</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,7 +53,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">6</biblScope>
                             <biblScope type="page">50</biblScope>
                         </imprint>
@@ -68,7 +65,7 @@
                     <date cert="high" when="1890-03-02" xml:id="dat1">March 2, 1890</date>
                     <idno type="callno">MSS18630, Box 8, Reel 5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -95,26 +92,25 @@
             <opener>
                 <dateline>
                     <name type="place">Camden NJ U S America</name>
-                    <date when="1890-03-02">Sunday aft'n&#8212;March 2, '90<ptr target="loc.01395_n1"
-                        /></date>
+                    <date when="1890-03-02">Sunday aft'n—March 2, '90<ptr target="loc.01395_n1"/></date>
                 </dateline>
             </opener>
-            <p>Only a line to say I am here yet &#38; in buoyant spirits enough. Every thing much
-                the same, allowing for wear &#38; inevitable decay&#8212;</p>
+            <p>Only a line to say I am here yet &amp; in buoyant spirits enough. Every thing much
+                the same, allowing for wear &amp; inevitable decay—</p>
             <p>America is probably "taking stock" as the storekeepers call
-                it&#8212;resting&#8212;having a lull (perhaps dull) time&#8212;but every thing here
-                inwardly active&#8212;laying a good foundation for better (moral &#38;
-                mental&#8212;<choice>
+                it—resting—having a lull (perhaps dull) time—but every thing here
+                inwardly active—laying a good foundation for better (moral &amp;
+                mental—<choice>
                     <sic>physicall</sic>
                     <corr>physical</corr></choice> 
-                too I hope) races and times&#8212;</p>
+                too I hope) races and times—</p>
             <closer>
                 <salute>Love to you, to parents,<ptr target="n4979"/> husband<ptr target="n6114"/>
-                    &#38; children<ptr target="n3137"/>&#8212;</salute>
+                    &amp; children<ptr target="n3137"/>—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript>
-                <p>Love to dear boy Logan<ptr target="loc.01350_n3"/>&#8212;</p>
+                <p>Love to dear boy Logan<ptr target="loc.01350_n3"/>—</p>
             </postscript>
         </body>
     </text>

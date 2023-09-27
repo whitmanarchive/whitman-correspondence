@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ucb.00060">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ucb.00060">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>ucb.00060</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>ucb.00060</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -95,16 +91,16 @@
     <text type="letter">
         <body>
             <p>I have only just heard<ptr target="ucb.00060_n1"/> that a foreign P O order for
-                &#163;1-1s (one pound, one shilling) was sent to me from Mrs J Alexander, the Palace,
-                Derry, Ireland, in June 1878&#8212;which P O order has never reached me. See if
+                £1-1s (one pound, one shilling) was sent to me from Mrs J Alexander, the Palace,
+                Derry, Ireland, in June 1878—which P O order has never reached me. See if
                 there is any <choice>
                     <abbr>acc't</abbr>
                     <expan>account</expan>
-                </choice> of it in your office&#8212;if not, send this on to New York, to see if any <choice>
+                </choice> of it in your office—if not, send this on to New York, to see if any <choice>
                     <abbr>acc't</abbr>
                     <expan>account</expan>
-                </choice> there&#8212;with request that, if necessary they would further inquire of
-                the London (or Derry) offices&#8212;</p>
+                </choice> there—with request that, if necessary they would further inquire of
+                the London (or Derry) offices—</p>
         </body>
     </text>
 </TEI>

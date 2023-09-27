@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08483">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08483">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08483</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,13 +33,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
                         accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
                         medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
                         Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
                         of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08483</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Pliny B. Smith</author>
@@ -50,7 +47,7 @@
                     <date cert="high" when="1884-08-16" xml:id="dat1">August 16, 1884</date>
                     <idno type="callno">MSS45443, Reel 2</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0115</idno>
-                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.05824"/>
                     <relatedItem type="document" target="wwa.00726"/>
                     <note type="project" target="#rel01">A line has been drawn through this letter. Whitman drafted his August 24, 1884, letter to Thomas W. H. Rolleston on the back of this 
@@ -91,9 +88,9 @@
                 <salute>Mr. Walt Whitman</salute>
                 <salute>Dear Sir,</salute>
             </opener>
-            <p>Inclosed please find &#36;5[.]<hi rend="superscript"><hi rend="underline">00</hi></hi> for which please
-                send me latest edition of your poems with autograph (&#36;3[.]<hi rend="superscript"><hi rend="underline">00</hi></hi>
-                &#38; 'specimen days &#38; collect (&#36;2[.]<hi rend="superscript"><hi rend="underline">00</hi></hi>)</p>
+            <p>Inclosed please find $5[.]<hi rend="superscript"><hi rend="underline">00</hi></hi> for which please
+                send me latest edition of your poems with autograph ($3[.]<hi rend="superscript"><hi rend="underline">00</hi></hi>
+                &amp; 'specimen days &amp; collect ($2[.]<hi rend="superscript"><hi rend="underline">00</hi></hi>)</p>
             <closer>
                 <salute>Very truly yours,</salute>
                 <signed>Pliny B. Smith</signed>
@@ -102,5 +99,3 @@
         </body>
     </text>
 </TEI>
-
-

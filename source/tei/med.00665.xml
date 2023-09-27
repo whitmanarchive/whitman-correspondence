@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00665">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00665">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00665</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00665</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,7 +55,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">3</biblScope>
                             <biblScope type="page">74</biblScope>
                         </imprint>
@@ -69,7 +65,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to John Burroughs, 16 January 1877</title>
                     <date cert="high" when="1877-01-16" xml:id="dat1">January 16, 1877</date>
-                    <orgName xml:id="med">Miller's transcription of this letter is based on a printing in Clara Barrus, <hi rend="italic">Whitman and Burroughs&#8212;Comrades</hi> (Boston, Houghton Mifflin, 1931), 139.</orgName>
+                    <orgName xml:id="med">Miller's transcription of this letter is based on a printing in Clara Barrus, <hi rend="italic">Whitman and Burroughs—Comrades</hi> (Boston, Houghton Mifflin, 1931), 139.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -103,9 +99,9 @@
                 
             </opener>
 
-            <p>I have been over here with the Gilchrists for a week<ptr target="prc.00052_n1"/>&#8212;go back to Camden this afternoon or tomorrow&#8212;I have a nice room here with a stove and oak wood&#8212;everything very comfortable and sunny&#8212;most of all <hi rend="italic">the spirit</hi> (which is so <hi rend="italic">entirely lacking</hi> over there in Camden, and has been for more than three years)&#8212;</p>
+            <p>I have been over here with the Gilchrists for a week<ptr target="prc.00052_n1"/>—go back to Camden this afternoon or tomorrow—I have a nice room here with a stove and oak wood—everything very comfortable and sunny—most of all <hi rend="italic">the spirit</hi> (which is so <hi rend="italic">entirely lacking</hi> over there in Camden, and has been for more than three years)—</p>
                
-            <p>We often speak of you&#8212;I received your letter of the 7th. . . .<ptr target="prc.00052_n2"/></p>
+            <p>We often speak of you—I received your letter of the 7th. . . .<ptr target="prc.00052_n2"/></p>
 
             <closer>
                 <salute>Love to you and 'Sula.</salute>

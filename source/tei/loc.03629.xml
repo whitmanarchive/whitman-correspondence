@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03629">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03629">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03629</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03629</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Charles H. Roberts</author>
                     <title>Charles H. Roberts to Walt Whitman, 25 November 1891</title>
                     <date cert="high" when="1891-11-25" xml:id="dat1">November 25, 1891</date>
-                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="callno">MSS18630, Box 14, Reel 8–9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00316</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -96,27 +93,23 @@
                     <name type="place">ROOM 20.</name>
                     <name type="place">NO. 180 SOUTH CLARK STREET.</name>
                     <name type="place">Chicago,<ptr target="loc.03629_n5"/></name>
-                        <handShift rend="manuscript"/><date when="1891-11-25">Nov. 25 <handShift
-                                rend="printed"/>189<handShift
-                                rend="manuscript"/>1</date>
+                        <handShift rend="manuscript"/><date when="1891-11-25">Nov. 25 <handShift rend="printed"/>189<handShift rend="manuscript"/>1</date>
                 </dateline>
                 <salute>Mr Walt Whitman</salute>
                 <salute>Camden,</salute>
                 <salute>N.J.</salute>
                 <salute>Dear Sir:</salute>    
             </opener> 
-            <p>Years ago, centennial year,<ptr target="n0435"/> I spoke with you on Camden Ferry<ptr
-                    target="loc.03629_n4"/> about sunset, Celia Thaxter,<ptr target="loc.03629_n3"/>
+            <p>Years ago, centennial year,<ptr target="n0435"/> I spoke with you on Camden Ferry<ptr target="loc.03629_n4"/> about sunset, Celia Thaxter,<ptr target="loc.03629_n3"/>
                 the man o war bird,<ptr target="n0639"/> John Burroughs,<ptr target="n0129"/> etc I
-                was then, or had been, mechanic and with Star &#38; Sons, although a
+                was then, or had been, mechanic and with Star &amp; Sons, although a
                 western-man.</p> 
-            <p>Now, at Chicago, I have just bought "Good-Bye My Fancy,"<ptr
-                    target="loc.07894_n2"/> and renew the acquaintance.</p>
+            <p>Now, at Chicago, I have just bought "Good-Bye My Fancy,"<ptr target="loc.07894_n2"/> and renew the acquaintance.</p>
             <p>I shall send you, tomorrow, a little book of mine, which some people read; and which
                 I think myself has green in it, though it may not be worth the browsing. I doubt if
-                I send it to be read, or even looked at, but rather&#8212;as a tribute to courage,
-                it is all I have. Look at its bill of fare; and&#8212;hand it to someone else,
-                or&#8212;heave it away.</p>
+                I send it to be read, or even looked at, but rather—as a tribute to courage,
+                it is all I have. Look at its bill of fare; and—hand it to someone else,
+                or—heave it away.</p>
             <closer>
                 <salute>Yours very sincerely</salute>
                 <signed>Charles H Roberts.</signed>
@@ -128,4 +121,3 @@
         </body>
     </text>
 </TEI>
- 

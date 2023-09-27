@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02825">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02825">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02825</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,12 +40,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
                         provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
                         and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
                         has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt> 
+            <idno>loc.02825</idno></publicationStmt> 
             <sourceDesc>
                 <!--<biblStruct>
                     <monogr>
@@ -68,7 +65,7 @@
                     <date cert="low" notBefore="1875-08-01" notAfter="1875-08-31" xml:id="dat1">[August 1875]</date>
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00266</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.01803"/>
                     <relatedItem type="document" target="wwa.00657"/>
                     <note type="project" target="rel01">Whitman wrote this draft in response to the letter by William J. Linton
@@ -106,8 +103,8 @@
         <body>
             <pb xml:id="leaf001r" facs="loc.01803.002_large.jpg" type="recto"/>
                 <p>You are entirely welcome to use the <choice><abbr>eng:</abbr><expan>engraving</expan></choice> as you 
-                    desire. I am about as usual&#8212;not any worse. Feel or fancy I feel, relief already as summer 
-                    wanes&#8212;one of my doctors</p>
+                    desire. I am about as usual—not any worse. Feel or fancy I feel, relief already as summer 
+                    wanes—one of my doctors</p>
                 <p>thinks much of my head trouble the past three <choice><abbr>mos.</abbr><expan>months</expan></choice> 
                     is from the sun. I am almost always easier as day departs</p>
             <pb xml:id="leaf001v" facs="loc.01803.001_large.jpg" type="verso"/>      

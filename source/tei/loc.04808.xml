@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04808">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04808">
     <teiHeader>  
         <fileDesc>    
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04808</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, 
                     all rights reserved. Items in the Archive may be shared in accordance with the Fair Use
                     provisions of U.S. copyright law. Redistribution or republication on other
                     terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                     Humanities. Permission to reproduce the graphic images in this archive has
                     been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>  
+            <idno>loc.04808</idno></publicationStmt>  
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -54,7 +51,7 @@
                     <date cert="high" when="1891-12-07" xml:id="dat1">December 7, 1891</date>
                     <idno type="callno">MSS18630, Box 3, Reel 2</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00041</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress,
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress,
                         Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.05989"/>
                     <relatedItem type="document" target="wwa.00608"/>
@@ -89,21 +86,21 @@
             <pb xml:id="leaf001r" facs="loc_ad.00201_large.jpg" type="recto"/>
             <opener>   
                  <dateline>
-                     <name type="place">Camden N J &#8212;</name>
+                     <name type="place">Camden N J —</name>
                     <date when="1891-12-07"><choice><abbr>Dec</abbr><expan>December</expan></choice>: 7 '91<ptr target="loc.04808_n1"/></date>
                 </dateline>
                <salute>Dear Sister</salute> 
             </opener> 
-            <p><choice><abbr>Y'r</abbr><expan>your</expan></choice> postal card<ptr target="n5002d"/> came &#38; was 
-                welcomed&#8212;my bad spell continues<ptr target="loc.04808_n2"/>&#8212;an etcher 
+            <p><choice><abbr>Y'r</abbr><expan>your</expan></choice> postal card<ptr target="n5002d"/> came &amp; was 
+                welcomed—my bad spell continues<ptr target="loc.04808_n2"/>—an etcher 
                 in <choice><abbr>N Y</abbr><expan>New York</expan></choice> has etched the photo
                 (with hat on leaning back, I call it "the laughing philosopher"<ptr target="loc.04808_n3"/>)
-                &#38; sent me&#8212;it is very fine&#8212;I always liked the <choice><abbr>pict:</abbr><expan>picture</expan></choice> <choice><abbr>tho</abbr><expan>though</expan></choice> 
-                many friends did not&#8212;it is the best American etching I have 
-                seen (he sells it at &#36;15)<ptr target="loc.04808_n4"/>&#8212;am 
-                sitting here as usual&#8212;lots of sickness <choice><abbr>ab't</abbr><expan>about</expan></choice> here<ptr target="loc.04808_n5"/>&#8212;oatmeal &#38; an egg 
-                for <choice><abbr>b'kfast</abbr><expan>breakfast</expan></choice>&#8212;small 
-                appetite&#8212;&#36;2 <choice><abbr>enc'd</abbr><expan>enclosed</expan></choice>
+                &amp; sent me—it is very fine—I always liked the <choice><abbr>pict:</abbr><expan>picture</expan></choice> <choice><abbr>tho</abbr><expan>though</expan></choice> 
+                many friends did not—it is the best American etching I have 
+                seen (he sells it at $15)<ptr target="loc.04808_n4"/>—am 
+                sitting here as usual—lots of sickness <choice><abbr>ab't</abbr><expan>about</expan></choice> here<ptr target="loc.04808_n5"/>—oatmeal &amp; an egg 
+                for <choice><abbr>b'kfast</abbr><expan>breakfast</expan></choice>—small 
+                appetite—$2 <choice><abbr>enc'd</abbr><expan>enclosed</expan></choice>
             </p> 
             <closer> 
                 <signed>W W</signed>
@@ -112,15 +109,3 @@
         </body>
     </text>
 </TEI>
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-

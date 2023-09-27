@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07549">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07549">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="as">Ashlyn Stewart</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07549</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +45,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07549</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 24 November 1888</title>
                     <date cert="high" when="1888-11-24" xml:id="dat1">November 24, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown author</author> 
@@ -96,20 +93,17 @@
                     <date when="1888-11-24">Saturday noon Nov: 24 '88,<ptr target="loc.07549_n1"/></date>
                 </dateline>
             </opener>  
-            <p>Cold the last two days &#38; this morning a continued snow storm, quite
-                brisk&#8212;well I laid in a cord of oak wood yesterday &#38; am keeping up a good
-                fire&#8212;had my breakfast at 9&#189;&#8212;three or four oysters, some Graham
-                bread, a cup of coffee &#38; a bit of stew'd blackberries&#8212;(the b[read] bro't
-                up yesterday by Mrs. Stafford,<ptr target="n0817"/> sent by her daughter Debby<ptr
-                    target="n0844"/>)&#8212;I am ab't the same&#8212;rather leaning to the easier
-                condition of the last ten days, (with spells of <hi rend="underline"
-                >down</hi>)&#8212;tho' this is the news of this mornings paper<ptr
-                    target="loc.07549_n2"/>&#8212;</p>
+            <p>Cold the last two days &amp; this morning a continued snow storm, quite
+                brisk—well I laid in a cord of oak wood yesterday &amp; am keeping up a good
+                fire—had my breakfast at 9½—three or four oysters, some Graham
+                bread, a cup of coffee &amp; a bit of stew'd blackberries—(the b[read] bro't
+                up yesterday by Mrs. Stafford,<ptr target="n0817"/> sent by her daughter Debby<ptr target="n0844"/>)—I am ab't the same—rather leaning to the easier
+                condition of the last ten days, (with spells of <hi rend="underline">down</hi>)—tho' this is the news of this mornings paper<ptr target="loc.07549_n2"/>—</p>
             <add rend="pasteon" source="#ref1" xml:id="add1">
                 <q who="#ref1" type="printed">
                     <floatingText rend="flat">
                         <body>
-                            <p><handShift rend="typescript"/>&#8212;Walt Whitman is gradually growing feebler, and has been confined to his room
+                            <p><handShift rend="typescript"/>—Walt Whitman is gradually growing feebler, and has been confined to his room
                 for the last few days by a heavy cold. He has done little work since completing his
                 last book "November Boughs."</p>
                 <byline><hi rend="underline">Phil: Record Nov 24</hi></byline>
@@ -117,25 +111,21 @@
                     </floatingText> 
                 </q>
             </add>        
-            <p>As I write Ed W<ptr target="n4319"/> is making up the bed&#8212;he is a good
-                nurse to me &#38; does well&#8212;I believe the big book<ptr target="n4188"/> is ab't done, &#38; soon
-                the binders will go at it&#8212;All I have meant in it is (as I have before told
-                you) to make the completed, authenticated (&#38; personal) edition of my
-                utterances&#8212;a system of which L of G is the centre &#38; source&#8212;Shall of
-                course send you one of the earliest copies&#8212;tho' you may be here personally
-                &#38; receive one&#8212;wh' will be better still&#8212;</p>
-            <p>Have spent a couple of hours with Addington Symonds's<ptr
-                target="n0615"/> "Greek Poets"<ptr target="nyu.00005_n2"/> and the Bible&#8212;full of meat to me, both of them&#8212;Have
-                read Boswell's Johnson<ptr target="loc.07549_n5"/>&#8212;also a long collation &#38; brief Biog: of Kant in
-                Prof: Hedge's "Prose Writers of Germany" (a big valuable book)<ptr
-                    target="loc.07549_n3"/>&#8212;</p> 
-            <p><date when="1888-11-24"><hi rend="underline">1.40 P M</hi></date>&#8212;Yours of 22d<ptr target="loc.07549_n6"/> just come&#8212;Sorry, sadly
-                sorry, ab't Pardee<ptr target="n4274"/>&#8212;the direction is <hi
-                    rend="underline">Hamlin Garland,<ptr target="loc.02128_n1"/> Jamaica Plain,
-                    Mass:</hi>&#8212;I have not heard lately from O'C[onnor]<ptr target="n2002"
-                />&#8212;Have had a <hi rend="underline">currying</hi> &#38; bath&#8212;the sun came
-                out an hour ago, but has gone under &#38; every thing looks glum &#38;
-                cloudy&#8212;good blazing sputtering oak fire&#8212;</p> 
+            <p>As I write Ed W<ptr target="n4319"/> is making up the bed—he is a good
+                nurse to me &amp; does well—I believe the big book<ptr target="n4188"/> is ab't done, &amp; soon
+                the binders will go at it—All I have meant in it is (as I have before told
+                you) to make the completed, authenticated (&amp; personal) edition of my
+                utterances—a system of which L of G is the centre &amp; source—Shall of
+                course send you one of the earliest copies—tho' you may be here personally
+                &amp; receive one—wh' will be better still—</p>
+            <p>Have spent a couple of hours with Addington Symonds's<ptr target="n0615"/> "Greek Poets"<ptr target="nyu.00005_n2"/> and the Bible—full of meat to me, both of them—Have
+                read Boswell's Johnson<ptr target="loc.07549_n5"/>—also a long collation &amp; brief Biog: of Kant in
+                Prof: Hedge's "Prose Writers of Germany" (a big valuable book)<ptr target="loc.07549_n3"/>—</p> 
+            <p><date when="1888-11-24"><hi rend="underline">1.40 P M</hi></date>—Yours of 22d<ptr target="loc.07549_n6"/> just come—Sorry, sadly
+                sorry, ab't Pardee<ptr target="n4274"/>—the direction is <hi rend="underline">Hamlin Garland,<ptr target="loc.02128_n1"/> Jamaica Plain,
+                    Mass:</hi>—I have not heard lately from O'C[onnor]<ptr target="n2002"/>—Have had a <hi rend="underline">currying</hi> &amp; bath—the sun came
+                out an hour ago, but has gone under &amp; every thing looks glum &amp;
+                cloudy—good blazing sputtering oak fire—</p> 
             <closer>
                 <signed>Walt Whitman</signed> 
             </closer>

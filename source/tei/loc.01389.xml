@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01389"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01389"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01389</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01389</idno></publicationStmt>
             <sourceDesc>
                 <bibl> 
                     <author>Walt Whitman</author>
@@ -56,7 +53,7 @@
                     <date cert="high" when="1889-06-14" xml:id="dat1">June 14, 1889</date>
                     <idno type="callno">MSS18630, Box 8, Reel 5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,19 +82,16 @@
             <opener>
                 <dateline>
                     <name type="place">Camden New Jersey U S America</name>
-                    <date when="1889-06-14"><hi rend="underline">June 14 '89</hi>&#8212;<ptr
-                            target="loc.01389_n1"/></date>
+                    <date when="1889-06-14"><hi rend="underline">June 14 '89</hi>—<ptr target="loc.01389_n1"/></date>
                 </dateline> 
             </opener>
-            <p>Thanks for letters&#8212;&#38; papers too&#8212;We are all (Dr. B<ptr target="n0119"
-                /> particularly) more interested in movements &#38; your fortunes &#38;c: there than
+            <p>Thanks for letters—&amp; papers too—We are all (Dr. B<ptr target="n0119"/> particularly) more interested in movements &amp; your fortunes &amp;c: there than
                 you suppose<ptr target="loc.01389_n2"/></p>
-            <p>I am getting along the same, fairly.&#8212;get out daily in the wheel
-                chair<ptr target="loc.03012_n1"/>&#8212;write a little&#8212;keep up pretty good spirits&#8212;cloudy rainy warm
-                weather&#8212;</p>
+            <p>I am getting along the same, fairly.—get out daily in the wheel
+                chair<ptr target="loc.03012_n1"/>—write a little—keep up pretty good spirits—cloudy rainy warm
+                weather—</p>
             <closer> 
-                <salute>Love to you Alys,<ptr target="uva.00553_n3"/> Mr S<ptr target="n4979"
-                /> &#38; all not forgetting the little girls.<ptr target="loc.01389_n3"/></salute>
+                <salute>Love to you Alys,<ptr target="uva.00553_n3"/> Mr S<ptr target="n4979"/> &amp; all not forgetting the little girls.<ptr target="loc.01389_n3"/></salute>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf001r" facs="loc.01389.001_large.jpg" type="recto"/>

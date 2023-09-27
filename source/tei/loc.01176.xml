@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01176">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01176">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01176</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01176</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Burroughs</author>
                     <title>John Burroughs to Walt Whitman, 4 May 1890</title>
                     <date cert="high" when="1890-05-04" xml:id="dat1">May 4, 1890</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00112</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,22 +84,18 @@
                 <salute>Dear Walt:</salute>
             </opener>
             <p>I am very glad to get a paper or a pamphlet from you from time to time. It shows me
-                you are around &#38; have not forgotten me. I am <choice><sic>interest</sic><corr>interested</corr></choice> 
-                in the Bruno<ptr target="loc.01176_n1"/> Lectures by Brinton &#38; Davidson<ptr target="loc.07761_n3"/> &#38; thank you for
-                sending them to me. In a recent no. of the <pb xml:id="leaf001v"
-                    facs="loc.01176.002_large.jpg" type="verso"/>Atlantic there was a long account
+                you are around &amp; have not forgotten me. I am <choice><sic>interest</sic><corr>interested</corr></choice> 
+                in the Bruno<ptr target="loc.01176_n1"/> Lectures by Brinton &amp; Davidson<ptr target="loc.07761_n3"/> &amp; thank you for
+                sending them to me. In a recent no. of the <pb xml:id="leaf001v" facs="loc.01176.002_large.jpg" type="verso"/>Atlantic there was a long account
                 of his trial, with copious extracts.<ptr target="loc.01176_n2"/> If you have not seen it you would find it worth
                 reading. We have moved back here from <choice><sic>Po'keepsie</sic><corr>Poughkeepsie</corr></choice>
-                &#38; I am very busy in my farm &#38;
+                &amp; I am very busy in my farm &amp;
                 fairly happy. The old earth is so
-                sweet in the spring, especially when one moistens it a little with his sweat, oh, if you could be here &#38;
-                see all this beginning of life again! I trust you do get out<pb xml:id="leaf002r"
-                    facs="loc.01176.003_large.jpg" type="recto"/> in your chair<ptr target="loc.03012_n1"/> occasionally. It is
-                a great comfort to know you was able to read your Lincoln lecture in Phil<hi
-                    rend="underline">a</hi><ptr target="med.00797_n1"/> Julian<ptr target="loc.01151_n1"/> is well &#38; is helping
-                me hoe in the vineyards. Ursula<ptr target="n0892"/> is well &#38; terribly busy getting
-                settled. Drop me a card. I return dear Williams<ptr target="n2002"/> Donnelly<ptr
-                    target="n4108"/> pamphlet.</p> 
+                sweet in the spring, especially when one moistens it a little with his sweat, oh, if you could be here &amp;
+                see all this beginning of life again! I trust you do get out<pb xml:id="leaf002r" facs="loc.01176.003_large.jpg" type="recto"/> in your chair<ptr target="loc.03012_n1"/> occasionally. It is
+                a great comfort to know you was able to read your Lincoln lecture in Phil<hi rend="underline">a</hi><ptr target="med.00797_n1"/> Julian<ptr target="loc.01151_n1"/> is well &amp; is helping
+                me hoe in the vineyards. Ursula<ptr target="n0892"/> is well &amp; terribly busy getting
+                settled. Drop me a card. I return dear Williams<ptr target="n2002"/> Donnelly<ptr target="n4108"/> pamphlet.</p> 
             <closer> 
                 <salute>With much love</salute>
                 <signed>John Burroughs</signed>
@@ -110,4 +103,4 @@
             <pb xml:id="leaf002v" facs="loc.01176.004_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

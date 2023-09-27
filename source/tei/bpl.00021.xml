@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bpl.00021">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bpl.00021">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>bpl.00021</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,12 +34,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
                         provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
                         advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>bpl.00021</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -81,17 +78,17 @@
             <p>Let me send my little word too to J R Lowell's<ptr target="n3105"/> memory.<ptr target="bpl.00021_n2"/> His was the true American's 
                 and Humanity's heart in the light of his own convictions; and he wrought it out faithfully. His written 
                 pages preserve a certain altitude everywhere. As Emerson<ptr target="n1044"/> says, we are at any rate 
-                all beholden to kings and eminencies for their grand standard of atmosphere &#38; manners, or suggestion
+                all beholden to kings and eminencies for their grand standard of atmosphere &amp; manners, or suggestion
                 of them.</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript>
-                <p><hi rend="underline">Private</hi>&#8212;dear SB. since you was here I tho't I w'd like to 
-                    contribute a word am'g the rest.&#8212;&#38; you are at liberty to bring it in any way seems best 
+                <p><hi rend="underline">Private</hi>—dear SB. since you was here I tho't I w'd like to 
+                    contribute a word am'g the rest.—&amp; you are at liberty to bring it in any way seems best 
                     for you</p>
             </postscript>
             <pb xml:id="leaf001rv" facs="bpl.00021.002_large.jpg" type="verso"/>
         </body>
     </text>  
-</TEI> 
+</TEI>

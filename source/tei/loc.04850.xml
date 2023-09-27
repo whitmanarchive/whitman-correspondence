@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04850">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04850">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04850</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +38,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,16 +46,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04850</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Samuel R. Wells</author>
                     <title>Samuel R. Wells to Walt Whitman, 7 June 1856</title>
                     <date cert="high" when="1856-06-07" xml:id="dat1">June 7, 1856</date>
-                    <idno type="callno">MSS18630, Box 19; Reel 11&#8211;12</idno>
+                    <idno type="callno">MSS18630, Box 19; Reel 11–12</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00411</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -99,7 +96,7 @@
                         <handShift rend="printed"/>Office of Life Illustrated,</name>
                     <name type="place">A Journal of</name>
                     <name type="place">Entertainment, Improvement, Progress.</name>
-                    <name type="place">Published Weekly, at &#36;2.00 a year, in advance,</name>
+                    <name type="place">Published Weekly, at $2.00 a year, in advance,</name>
                     <name type="place">By Fowler And Wells,</name>
                     <name type="place">308 Broadway, New York.</name>
                     <name type="place">Science. Art. Literature.</name>
@@ -111,16 +108,13 @@
             </opener>
             <p>After "duly considering," we have have concluded that it is best for us to insist on
                 the omission of certain objectionable passages in Leaves of Grass, or, decline
-                publishing it. We could give twenty reasons for this, but the <hi rend="underline"
-                    >fact</hi> will be enough for <hi rend="underline">you</hi> to know.</p>
+                publishing it. We could give twenty reasons for this, but the <hi rend="underline">fact</hi> will be enough for <hi rend="underline">you</hi> to know.</p>
             <pb xml:id="leaf001v" facs="loc_vm.02112_large.jpg" type="verso"/>
             <p>We are not in a position, at present, to experiment. We must not <hi rend="underline">venture</hi>.</p>
             <p>Again, it will be <hi rend="underline">better</hi> for <hi rend="underline">you</hi>
                 to have the work published by clean hands. i.e. by a House, not now committed to
                 unpopular notions. <hi rend="underline">We</hi> are not in favor, with the
-                conservatives, and a more orthodox House would do better for <pb xml:id="leaf002r"
-                    facs="loc_vm.02113_large.jpg" type="recto"/> you. Try the <hi rend="underline"
-                        >Masons</hi>, Partons Publishers, (they publish Fanny Fern's<ptr target="loc.04850_n2"/> works.<ptr target="loc.04850_n3"/>)
+                conservatives, and a more orthodox House would do better for <pb xml:id="leaf002r" facs="loc_vm.02113_large.jpg" type="recto"/> you. Try the <hi rend="underline">Masons</hi>, Partons Publishers, (they publish Fanny Fern's<ptr target="loc.04850_n2"/> works.<ptr target="loc.04850_n3"/>)
                 They are <hi rend="underline">rich</hi> &amp; <hi rend="underline"><choice>
                         <orig>enterprizing</orig>
                         <reg>enterprising</reg>
@@ -140,5 +134,3 @@
         </body>
     </text>
 </TEI>
-
-

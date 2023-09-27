@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01907">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01907">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -36,7 +33,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01907</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,7 +43,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -54,7 +51,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01907</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Rudolf Schmidt</author>
@@ -63,7 +60,7 @@
                     <idno type="callno">MSS18630, Box 15, Reel 9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00337</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -105,10 +102,9 @@
                     <handShift rend="printed"/>
                     <name type="place">Fra</name>
                     <name type="place">Red. af "For Ide og Virkelighed".</name>
-                    <name type="place">Kj&#248;benharn, d.</name>
+                    <name type="place">Kjøbenharn, d.</name>
                     <date when="1873-04-04">
-                        <handShift rend="manuscript"/>4 April <handShift rend="printed"
-                            />187<handShift rend="manuscript"/>3.</date>
+                        <handShift rend="manuscript"/>4 April <handShift rend="printed"/>187<handShift rend="manuscript"/>3.</date>
                 </dateline>
                 <salute>Dear Walt Whitman,</salute>
             </opener>
@@ -117,14 +113,11 @@
                     <corr>hunted</corr>
                 </choice> deer and still at present I have in many days not an only leisure-hour,
                 and all this business is not in your american <choice><sic>mony</sic><corr>money</corr></choice>-making way, though of the most cumbrous and toilsome sort.</p>
-            <p>"Democratic Vistas"<ptr target="n4122"/> have therefore <hi rend="underline"
-                    >not</hi> appeared in danish translation. The translation <pb xml:id="leaf001v"
-                    facs="loc.01907.006_large.jpg" type="verso"/> into Danish of your prose is a <hi
-                    rend="underline">very</hi> difficult task, and I dare not confide it to any
+            <p>"Democratic Vistas"<ptr target="n4122"/> have therefore <hi rend="underline">not</hi> appeared in danish translation. The translation <pb xml:id="leaf001v" facs="loc.01907.006_large.jpg" type="verso"/> into Danish of your prose is a <hi rend="underline">very</hi> difficult task, and I dare not confide it to any
                 other than myself. But in the next half year the translation shall appear.</p>
             <p>I have received <choice><sic>to</sic>
                     <corr>two</corr>
-            </choice> or three american papers from you;&#8212;of course you have duly received
+            </choice> or three american papers from you;—of course you have duly received
                 from me a little selection of norwegian poetry in english translation? If my article
                 on you should appear in any american magazine, I should like to have sent a
                 copy.</p>

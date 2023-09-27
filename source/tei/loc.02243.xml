@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02243">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02243">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02243</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02243</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Charles L. Hildreth</author>
@@ -56,7 +53,7 @@
                     <idno type="callno">MSS18630, Box 10, Reel 6</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00206</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,29 +82,22 @@
             <pb xml:id="leaf001r" facs="loc.02243.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">New York N<gap reason="illegible" quantity="7" unit="chars"
-                        /><ptr target="loc.02243_n2"/></name>
+                    <name type="place">New York N<gap reason="illegible" quantity="7" unit="chars"/><ptr target="loc.02243_n2"/></name>
                 </dateline>
                 <salute>Mr. Walt Whitman,</salute>
                 <salute>Dear Sir,</salute>
             </opener>
-            <p>I wrote to you a week since,<ptr target="n5002d"/> as <gap reason="torn-away"
-                    quantity="3" unit="chars"/> to call upon you and since I have received no <gap
-                    reason="torn-away" quantity="5" unit="chars"/> I presume my letter failed to
+            <p>I wrote to you a week since,<ptr target="n5002d"/> as <gap reason="torn-away" quantity="3" unit="chars"/> to call upon you and since I have received no <gap reason="torn-away" quantity="5" unit="chars"/> I presume my letter failed to
                     rea<supplied reason="torn-away" resp="#smb" cert="high">c</supplied>h you. In
                     s<gap reason="torn-away" quantity="5" unit="chars"/> I asked the favor of an
-                hour's conversation wit<supplied reason="torn-away" resp="#smb" cert="high"
-                    >h</supplied>
+                hour's conversation wit<supplied reason="torn-away" resp="#smb" cert="high">h</supplied>
                 <gap reason="torn-away" quantity="3" unit="chars"/> which should refer toward an
                 article, which I <gap reason="torn-away" quantity="4" unit="chars"/> been requested
-                to write, touching yourself and yo<supplied reason="torn-away" resp="#smb"
-                    cert="high">ur</supplied> poetry. Mr. Kelly,<ptr target="loc.04668_n2"/> the
-                artist, whose work is famili<supplied reason="torn-away" resp="#smb" cert="high"
-                    >ar</supplied>
+                to write, touching yourself and yo<supplied reason="torn-away" resp="#smb" cert="high">ur</supplied> poetry. Mr. Kelly,<ptr target="loc.04668_n2"/> the
+                artist, whose work is famili<supplied reason="torn-away" resp="#smb" cert="high">ar</supplied>
                 <supplied reason="torn-away" resp="#smb" cert="high">to</supplied> magazine readers,
                 proposed to accompany me and make its necessary illustrations.</p>
-            <p>I understood, but not with sufficient certainty, that Mr. Stoddart,<ptr
-                    target="loc.04674_n1"/> had reason to suppose that you would see us,&#8212;that
+            <p>I understood, but not with sufficient certainty, that Mr. Stoddart,<ptr target="loc.04674_n1"/> had reason to suppose that you would see us,—that
                 he had seen you to that end, in fact. But I feared that some mistake might have
                 occurred an<supplied reason="torn-away" resp="#smb" cert="high">d</supplied> that
                 our purpose had not been made clear; in which case, had we called upon you, we might
@@ -118,8 +108,7 @@
                 you, then, let me know whether it is convenient for you to, see us or not? Your
                 permission would be a favor and, if it must be so, your denial would put an end to
                 my suspense. In either case I should know what to do. I earnestly hope, however, you
-                will understand our motives and our desire to give you as <unclear
-                    reason="illegible" resp="#smb" cert="high">little</unclear> trouble as possible
+                will understand our motives and our desire to give you as <unclear reason="illegible" resp="#smb" cert="high">little</unclear> trouble as possible
                 while we do ourselves this honor of knowing you, better than we can by your printed
                 works.</p>
             <closer>
@@ -131,7 +120,7 @@
             </closer>
             <pb xml:id="leaf001v" facs="loc.02243.002_large.jpg" type="verso"/>
             <pb xml:id="leaf002r" facs="loc.02243.003_large.jpg" type="recto"/>
-            <note type="authorial" place="left">Return to C.L.H. 334 W. 35th St. N.Y.C.&#8212;if not
+            <note type="authorial" place="left">Return to C.L.H. 334 W. 35th St. N.Y.C.—if not
                 delivered in 5 days.</note>
             <pb xml:id="leaf002v" facs="loc.02243.004_large.jpg" type="verso"/>
         </body>

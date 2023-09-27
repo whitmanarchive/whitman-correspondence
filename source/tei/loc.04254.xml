@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04254">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04254">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04254</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04254</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -55,7 +51,7 @@
                     <date cert="medium" when="1881-04-29" xml:id="dat1">April 29, 1881</date>
                     <idno type="callno">Box 17, Reel 10-11, MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,30 +80,29 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1881-04-29">Friday noon April 29<ptr
-                            target="loc.04254_n1"/></date>
+                    <date when="1881-04-29">Friday noon April 29<ptr target="loc.04254_n1"/></date>
                 </dateline>
                 <salute>Dear Ruth</salute>
             </opener>
-            <p>Yours <choice><abbr>rec'd</abbr><expan>received</expan></choice> &#38; accordingly I will not come down now until I hear from
-                you&#8212;Pretty warm dry weather here &#38; I suppose you have the same&#8212;The
-                woods must be coming out&#8212;have you gathered any arbutus?</p>
+            <p>Yours <choice><abbr>rec'd</abbr><expan>received</expan></choice> &amp; accordingly I will not come down now until I hear from
+                you—Pretty warm dry weather here &amp; I suppose you have the same—The
+                woods must be coming out—have you gathered any arbutus?</p>
             <pb xml:id="leaf001v" facs="loc_gt.00004_large.jpg" type="verso"/>
-            <p>Give my love to your father &#38; mother, &#38; to Harry, Ed &#38; all. I am sorry
-                the mother is sick&#8212;hope when this comes she will be all right again&#8212;I am
-                about half-and-half, have had several little jobs of writing to do&#8212;the hot
-                weather makes me hanker for the country&#8212;I see Horner &#38; Burr
-                occasionally&#8212;How is Hinieken?<ptr target="loc.04254_n2"/> Good by, Ruthy
+            <p>Give my love to your father &amp; mother, &amp; to Harry, Ed &amp; all. I am sorry
+                the mother is sick—hope when this comes she will be all right again—I am
+                about half-and-half, have had several little jobs of writing to do—the hot
+                weather makes me hanker for the country—I see Horner &amp; Burr
+                occasionally—How is Hinieken?<ptr target="loc.04254_n2"/> Good by, Ruthy
                 dear</p>
             <closer>
                 <signed rend="right">W.W.</signed>
             </closer>
             <postscript>
-                <p>&#8212;I had written a postal before I <choice>
+                <p>—I had written a postal before I <choice>
                     <orig>rec'd</orig>
                     <reg>received</reg>
-                </choice> yours postponing till Tuesday&#8212;but now
-                    I will postpone until I hear from you&#8212;</p>
+                </choice> yours postponing till Tuesday—but now
+                    I will postpone until I hear from you—</p>
             </postscript>
             
         </body>

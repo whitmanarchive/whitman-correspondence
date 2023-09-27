@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07217">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07217">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07217</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07217</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 27 July 1888</title>
                     <date cert="high" when="1888-07-27" xml:id="dat1">July 27, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3 </idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3 </idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,31 +84,24 @@
             <pb xml:id="leaf001r" facs="loc_es.00272.jpg" type="recto"/>
             <opener>
                 <dateline> 
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07217_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/>London, Ont.,</name><date when="1888-07-27" rend="right"
-                            ><handShift rend="manuscript"/>27 July <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07217_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/>London, Ont.,</name><date when="1888-07-27" rend="right"><handShift rend="manuscript"/>27 July <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
             <p>I was heartily glad to get this morning your note of 25th with its' three encolsures,
                 the notes from Miss Bates,<ptr target="n4098"/> Rhys,<ptr target="loc.03310_n1"/>
                 and Sadakitchi.<ptr target="n4980"/> I have proofs continuously to p.104 and shall
-                hope to soon get the E.H &#38; Fox pieces.<ptr target="loc.07217_n2"/> I wish the Hospital piece which the
+                hope to soon get the E.H &amp; Fox pieces.<ptr target="loc.07217_n2"/> I wish the Hospital piece which the
                 Century has<ptr target="loc.07217_n3"/> could go in the book too but we should have to wait too long for that I
-                fear? I do wish I could hear that you were gaining strength, you are <hi
-                rend="underline">certainly</hi> better mentally and from what I hear you eat
+                fear? I do wish I could hear that you were gaining strength, you are <hi rend="underline">certainly</hi> better mentally and from what I hear you eat
                 better and are better in yourself. There must have been <hi rend="underline">some
-                little</hi> extension of the <choice><orig>paralisis</orig> <reg>paralysis</reg></choice> to make you helpless in the legs&#8212;I
-                still <hi rend="underline">hope</hi> however. You have <pb xml:id="leaf001v"
-                facs="loc_es.00273.jpg" type="verso"/> undoubtedly gained <hi rend="underline"
-                >some</hi> and I do not see why you should not gain more&#8212;we must have
+                little</hi> extension of the <choice><orig>paralisis</orig> <reg>paralysis</reg></choice> to make you helpless in the legs—I
+                still <hi rend="underline">hope</hi> however. You have <pb xml:id="leaf001v" facs="loc_es.00273.jpg" type="verso"/> undoubtedly gained <hi rend="underline">some</hi> and I do not see why you should not gain more—we must have
                 patience and not give up.</p>
-            <p>Willy Gurd<ptr target="n4284"/> is to be home in a month with his meter <hi
-                rend="underline">done</hi>. I may have to go East on that business after he
+            <p>Willy Gurd<ptr target="n4284"/> is to be home in a month with his meter <hi rend="underline">done</hi>. I may have to go East on that business after he
                 comes and stays here for a rest so I look forward to seeing you again before very
-                long. By that time Osler<ptr target="n4302"/> will be back and we can have some talk&#8212;but I do not
-                look for medicine to do much for you except at a pinch&#8212;it might tide you
+                long. By that time Osler<ptr target="n4302"/> will be back and we can have some talk—but I do not
+                look for medicine to do much for you except at a pinch—it might tide you
                 over</p>
             <closer>
                 <salute>Your loving friend</salute>

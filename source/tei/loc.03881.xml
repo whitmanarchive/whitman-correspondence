@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-        <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03881">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03881">
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
@@ -28,7 +25,7 @@
                         </edition>
                     </editionStmt>
                     <publicationStmt>
-                        <idno>loc.03881</idno>
+                        
                         <distributor>The Walt Whitman Archive</distributor>
                         <address>
                             <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,13 +36,13 @@
                         </address>
                         <availability>
                             <p>
-                                Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                                Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                                 the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                                 consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                                 reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                             </p>
                         </availability>
-                    </publicationStmt>
+                    <idno>loc.03881</idno></publicationStmt>
                     <sourceDesc>
                         <bibl>
                             <author>Walt Whitman</author>
@@ -53,7 +50,7 @@
                             <date cert="high" when="1890-11-12" xml:id="dat1">November 12, 1890</date> 
                             <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                             <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00360</idno>
-                            <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                            <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                                 Library of Congress, Washington, D.C.</orgName>
                         </bibl>
                     </sourceDesc> 
@@ -93,23 +90,23 @@
                         <salute>Dear friends all</salute>
                     </opener> 
                     <p>
-                        I saw Ed<ptr target="n0589e"/> in the street yesterday &#38; he told me ab't George's<ptr target="n0852"/> bad sickness
-                        &#38; serious time&#8212;Bad enough I have felt ab't it &amp; last evn'g&#8212;but I 
-                        understand he is over it &#38; getting all right&#8212;
+                        I saw Ed<ptr target="n0589e"/> in the street yesterday &amp; he told me ab't George's<ptr target="n0852"/> bad sickness
+                        &amp; serious time—Bad enough I have felt ab't it &amp; last evn'g—but I 
+                        understand he is over it &amp; getting all right—
                     </p>
                     <p>
-                        Ed looks well&#8212;If I was well enough I w'd come down &#38; give you all a call,
-                        but I seem to be helpless with the grip &#38; bladder trouble 
-                        Keep up tho&#8212;&#38; <unclear reason="illegible" resp="#me" cert="low">get</unclear> out in wheel chair<ptr target="loc.03012_n1"/>
-                        when weather fair <unclear reason="illegible" resp="#smb" cert="low">&#8212;</unclear>cloudy &#38; wet here 
-                        to-day&#8212;warmish&#8212;I hear second hand f'm Herbert<ptr target="n0262"/> there down Long Island&#8212;he 
-                        is well &#38; <unclear reason="illegible" resp="#smb" cert="low">I hear</unclear>
+                        Ed looks well—If I was well enough I w'd come down &amp; give you all a call,
+                        but I seem to be helpless with the grip &amp; bladder trouble 
+                        Keep up tho—&amp; <unclear reason="illegible" resp="#me" cert="low">get</unclear> out in wheel chair<ptr target="loc.03012_n1"/>
+                        when weather fair <unclear reason="illegible" resp="#smb" cert="low">—</unclear>cloudy &amp; wet here 
+                        to-day—warmish—I hear second hand f'm Herbert<ptr target="n0262"/> there down Long Island—he 
+                        is well &amp; <unclear reason="illegible" resp="#smb" cert="low">I hear</unclear>
                         thinks of <unclear reason="illegible" resp="#me" cert="low">buying</unclear> 
                         the <unclear reason="illegible" resp="#bjo" cert="low">place</unclear> there.<ptr target="loc.03881_n1"/> 
                         All <unclear reason="illegible" resp="#smb" cert="high">goes</unclear>
-                        much the same in my affairs&#8212;Write 
-                       <unclear reason="illegible" resp="#bjo" cert="high">me soon</unclear> &#38; tell me how George
-                        gets along&#8212;Love to you all God bless you&#8212;
+                        much the same in my affairs—Write 
+                       <unclear reason="illegible" resp="#bjo" cert="high">me soon</unclear> &amp; tell me how George
+                        gets along—Love to you all God bless you—
                     </p> 
                     <closer>
                         <signed>Walt Whitman</signed> 
@@ -118,6 +115,4 @@
                     <pb xml:id="leaf001v" facs="loc_tb.00012.jpg" type="verso"/>
                 </body> 
             </text> 
-        </TEI> 
-         
-
+        </TEI>

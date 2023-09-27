@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pri.00010">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pri.00010">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>pri.00010</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>pri.00010</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -83,18 +80,17 @@
                 </dateline>
                 <salute>My dear Ernest Rhys</salute>
             </opener>
-            <p>Thank you for the little volumes&#8212;three copies have reached me<ptr
-                    target="pri.00010_n1"/>&#8212;they look very well, &#38; I am pleased with them,
-                &#38; with prefatory notice&#8212;I am here, ab't the same as of late
-                years&#8212;Keep up pretty good spirits &#38; buoyancy&#8212;that makes the best of
-                it all&#8212;Give my respects to the Walter Scott folk&#8212;&#38; dont forget to
-                write to me soon, to let me know how the Vol. goes&#8212;I much hope to reach the
-                working men, &#38; guilds of the British Islands&#8212;especially the young
-                fellows&#8212;&#38; trust the W. S. vol. will forward that object.</p>
+            <p>Thank you for the little volumes—three copies have reached me<ptr target="pri.00010_n1"/>—they look very well, &amp; I am pleased with them,
+                &amp; with prefatory notice—I am here, ab't the same as of late
+                years—Keep up pretty good spirits &amp; buoyancy—that makes the best of
+                it all—Give my respects to the Walter Scott folk—&amp; dont forget to
+                write to me soon, to let me know how the Vol. goes—I much hope to reach the
+                working men, &amp; guilds of the British Islands—especially the young
+                fellows—&amp; trust the W. S. vol. will forward that object.</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf001v" facs="pri.00010.002_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI>    
+</TEI>

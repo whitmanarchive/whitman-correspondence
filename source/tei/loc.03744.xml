@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03744">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03744">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03744</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive April be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03744</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James M. Scovel</author>
@@ -55,7 +51,7 @@
                     <date cert="high" when="1885-04-07" xml:id="dat1">April 7, 1885</date>
                     <idno type="callno">Box 15, Reel 9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -94,30 +90,27 @@
                 York: <pb xml:id="leaf001v" facs="loc.03744.002_large.jpg" type="verso"/> else I <choice>
                     <abbr>wd</abbr>
                     <expan>would</expan>
-                </choice> have hastened to your "Den" &#38; drank to our noble
+                </choice> have hastened to your "Den" &amp; drank to our noble
                 selves in the promised <hi rend="underline">sour mash</hi>.</p>
-            <p>I have been a little-worried lately over things in general &#38; in some sense, at
+            <p>I have been a little-worried lately over things in general &amp; in some sense, at
                 beginning life over again, else I <choice>
                     <abbr>wd</abbr>
                     <expan>would</expan>
-                </choice> not have jumped so quick at your ill-treatment of me.<ptr
-                    target="loc.03744_n1"/></p>
-            <p>God knows &#38; Walt <hi rend="underline">knows</hi> that I am as <pb xml:id="leaf003r"
-                    facs="loc.03744.003_large.jpg" type="recto"/>
-                <hi rend="underline">slow</hi> as the wrath of God&#8212;to take offense especially at
+                </choice> not have jumped so quick at your ill-treatment of me.<ptr target="loc.03744_n1"/></p>
+            <p>God knows &amp; Walt <hi rend="underline">knows</hi> that I am as <pb xml:id="leaf003r" facs="loc.03744.003_large.jpg" type="recto"/>
+                <hi rend="underline">slow</hi> as the wrath of God—to take offense especially at
                 what my <hi rend="underline">friends
-                do</hi> or say. Life in the main, has taught me as Bailey<ptr
-                    target="loc.03744_n2"/> says</p>
-            <l>"That all religion can inspire is&#8212;Hope&#8212;: </l>
-                <l>And all mortality can teach is&#8212;Bear"!</l>
+                do</hi> or say. Life in the main, has taught me as Bailey<ptr target="loc.03744_n2"/> says</p>
+            <l>"That all religion can inspire is—Hope—: </l>
+                <l>And all mortality can teach is—Bear"!</l>
             <p>(2) To start <hi rend="underline">right</hi> again I think you had better send me my
-                MSS&#8212;and let me do as I d&#8212;m please with it . . I will send it to the
+                MSS—and let me do as I d—m please with it . . I will send it to the
                 World</p>
             <p>Will see you as soon as I get back from N.Y. . .</p>
             <p>Remember that the friend most solicitous of your welfare at the "Scovel House" has
-                always been the undersigned&#8212;</p>
+                always been the undersigned—</p>
             <closer>
-                <signed>James Matlack Scovel&#8212;</signed>
+                <signed>James Matlack Scovel—</signed>
             </closer>
             <pb xml:id="leaf004v" facs="loc.03744.004_large.jpg" type="verso"/>
             <postscript>
@@ -125,4 +118,4 @@
             </postscript>
         </body>
     </text>
-</TEI>   
+</TEI>

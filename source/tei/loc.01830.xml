@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01830">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01830">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,7 +31,7 @@
                 </edition>
             </editionStmt> 
             <publicationStmt>
-                <idno>loc.01830</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,7 +41,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -52,17 +49,17 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01830</idno></publicationStmt>
 
             <sourceDesc>
                 <bibl>
                     <author>Hiram J. Ramsdell</author>
                     <title>Hiram J. Ramsdell to Walt Whitman, 17 July 1867</title>
                     <date cert="high" when="1867-07-17" xml:id="dat1">July 17, 1867</date>
-                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="callno">MSS18630, Box 14, Reel 8–9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00317 </idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,9 +83,9 @@
             <change when="2022-07-24" who="#kjb">checked</change>
             <change when="2022-02-07" who="#cn">checked</change>
             <change when="2021-11-03" who="#aja">2nd check, notes</change>
-            <change when="2016-04-21" who="#cb" >adjusted Price note</change>
-            <change when="2015-05-06" who="#ak" >added correspondent ref</change>
-            <change when="2014-08-15" who="#el" >added schematron declaration</change>
+            <change when="2016-04-21" who="#cb">adjusted Price note</change>
+            <change when="2015-05-06" who="#ak">added correspondent ref</change>
+            <change when="2014-08-15" who="#el">added schematron declaration</change>
             <change when="2014-08-12" who="#el">made basic checking changes to file</change>
             <change when="2013-01-17" who="#cb">proofed</change>
             <change when="2012-05-02" who="#nnk">proofed</change>
@@ -106,15 +103,13 @@
                 </dateline>
                 <salute>My Dear Walt:</salute>
             </opener>
-            <p>You have, I believe, in your hands certain charges against Judge Kelly<ptr
-                target="n0340"/> of Idaho.
+            <p>You have, I believe, in your hands certain charges against Judge Kelly<ptr target="n0340"/> of Idaho.
                 His friends are <hi rend="underline">my</hi> friends, and while
                 I do not know much of him personally, I nevertheless know his accuser, Delegate
-                Holbrook,<ptr target="loc.01830_n3"/> to be a very bad man&#8212;one of the
+                Holbrook,<ptr target="loc.01830_n3"/> to be a very bad man—one of the
                 worst in the territory. It seems to me that nothing good or proper can come out of
                 him. Do not misunderstand me, but if you can do anything for Judge K. to aid him,
-                without compromising your duty, you will be doing me a gre<supplied
-                    reason="illegible" resp="#aja" cert="high">at</supplied>
+                without compromising your duty, you will be doing me a gre<supplied reason="illegible" resp="#aja" cert="high">at</supplied>
                 <pb xml:id="leaf001v" facs="loc.01830.003_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc.01830.002.jpg" type="recto"/> favor.</p>
             <p>I congratulate you, my dear fellow, on the great appreciation which reaches across
@@ -128,11 +123,11 @@
             <pb xml:id="leaf002v" facs="loc.01830.004_large.jpg" type="verso"/>
             <pb xml:id="leaf003r" facs="loc_tb.00362.jpg" type="recto"/>
             <note type="editorial" resp="#ww" place="marginleft">Hiram J. Ramdell</note>
-            <note type="editorial" resp="#ww" place="marginleft">July 19, '67&#8212;<choice>
+            <note type="editorial" resp="#ww" place="marginleft">July 19, '67—<choice>
                     <abbr>Ans.</abbr>
                     <expan>Answered</expan>
                 </choice> immediately</note>
             <pb xml:id="leaf003v" facs="loc_tb.00363.jpg" type="verso"/>
         </body>
     </text> 
-</TEI> 
+</TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03166">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03166">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03166</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,29 +34,29 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03166</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Sloane Kennedy</author>
                     <title>William Sloane Kennedy to Walt Whitman, 20 September 1891</title>
                     <date cert="high" when="1891-09-20" xml:id="dat1">September 20, 1891</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00257</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc> 
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key= "Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
@@ -80,7 +77,7 @@
             <opener>
                 <dateline> 
                     <name type="place">Sunday Eve 7 1/2 oc<ptr target="loc.03166_n1"/></name>
-                    <date when="1891-09-20">Sept&#8212;20 '91</date>
+                    <date when="1891-09-20">Sept—20 '91</date>
                     <name type="place">Belmont Mass.</name>
                 </dateline>
                 <salute>Dear Poet:</salute> 
@@ -88,24 +85,24 @@
             <p>I hope you dont think my love and thought of W. W the less for my not
                 writing oftener. Somehow I have rather a dislike to it. I had a little note fr.
                 Burroughs<ptr target="loc.03166_n2"/> in a basket of grapes he sent me. I have been editorializing 
-                (big business!(over the left)) a little lately&#8212;editorials on
+                (big business!(over the left)) a little lately—editorials on
                 "Dynamite Weather," and "A Big American Flag" 
                 (incident of flowers let fall from folds of big unfurling flag at Springfield). You may
-                have noticed, too, verses to J.B. &#38; Marryat<ptr target="loc.07112_n4"/> article.</p>
-            <p>We have passed quietly, &#38; happily thro' the summer 
-                (Dont you, dear cripple, long for that never to return buoyancy of youth&#8212;the 
+                have noticed, too, verses to J.B. &amp; Marryat<ptr target="loc.07112_n4"/> article.</p>
+            <p>We have passed quietly, &amp; happily thro' the summer 
+                (Dont you, dear cripple, long for that never to return buoyancy of youth—the 
                 elastic giant-strong days of youth, sometimes? 
                 But never mind, each stage of life has its glories)</p>
             <p>My sister from Ohio is with us today.<ptr target="loc.03166_n5"/> She has room with friends in Boston, 
-                &#38; is to study at the Art School this year. I see 
+                &amp; is to study at the Art School this year. I see 
                 Lowelliana<ptr target="loc.03166_n3"/> continue to pour forth. 
                 Baxter<ptr target="n6000"/> gave me yr. message.<ptr target="loc.03166_n4"/> 
-                Accept my hearty love &#38; affectionate good wishes. 
+                Accept my hearty love &amp; affectionate good wishes. 
                 Sh<hi rend="underline">d</hi> be glad of one of those nice little bulletin cards from you. 
                 I got so used to them. I feel desolate without them.  
-                There <choice><sic>was'nt</sic><corr>wasn't</corr></choice> much of the hero or pioneer in Lowell&#8212;but 
+                There <choice><sic>was'nt</sic><corr>wasn't</corr></choice> much of the hero or pioneer in Lowell—but 
                 yet he was precious for pure character, manly
-                probity of life &#38; humor.
+                probity of life &amp; humor.
             </p>
             <closer>  
                 <signed>W S Kennedy</signed> 
@@ -116,6 +113,3 @@
         </body>
     </text>
 </TEI>
-
-
-

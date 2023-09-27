@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00852">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00852">
     <teiHeader>  
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                      
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00852</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00852</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,7 +55,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">107</biblScope>
                         </imprint>
@@ -101,14 +97,14 @@
                     <date when="1887-07-09">July 9 PM</date>
                 </dateline>
             </opener>
-            <p>Yours of 7th rec'd with R[hys]'s<ptr target="loc.03310_n1"/> card. Tr[anscript] not rec'd&#8212;A good letter
-                from E[rnest] R[hys] to-day&#8212;J[ohn] N[ewton]
-                    J[ohnson]<ptr target="n0914"/> is certainly crazy&#8212;a cross between Zdenko
-                (in Consuelo)<ptr target="duk.00852_n2"/> &#38; something more intellectual &#38; infernal&#8212;Very hot
-                weather here, continued&#8212;I am feeling it badly&#8212;yet not so badly as you
-                might fancy&#8212;I am careful, &#38; Mrs Davis is very good and cute&#8212;As I
-                write it is clouded over &#38; begins to rain&#8212;H[erbert] G[ilchrist]<ptr target="n0262"/> is still
-                here painting&#8212;Morse<ptr target="n0862"/> here&#8212;</p>
+            <p>Yours of 7th rec'd with R[hys]'s<ptr target="loc.03310_n1"/> card. Tr[anscript] not rec'd—A good letter
+                from E[rnest] R[hys] to-day—J[ohn] N[ewton]
+                    J[ohnson]<ptr target="n0914"/> is certainly crazy—a cross between Zdenko
+                (in Consuelo)<ptr target="duk.00852_n2"/> &amp; something more intellectual &amp; infernal—Very hot
+                weather here, continued—I am feeling it badly—yet not so badly as you
+                might fancy—I am careful, &amp; Mrs Davis is very good and cute—As I
+                write it is clouded over &amp; begins to rain—H[erbert] G[ilchrist]<ptr target="n0262"/> is still
+                here painting—Morse<ptr target="n0862"/> here—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

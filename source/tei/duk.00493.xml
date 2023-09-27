@@ -1,6 +1,4 @@
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00493">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00493">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00493</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -35,12 +33,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the 
                      Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent 
                      from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic 
                      images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00493</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Charles L. Heyde</author>
@@ -80,7 +78,7 @@
             </opener> 
             <p>
                 Han<ptr target="n7033"/> has recd your kind donation, with letter, enclosing
-                5 dollars<ptr target="duk.00493_n2"/>&#8212;for the same her gratitude can scarcely find expression,
+                5 dollars<ptr target="duk.00493_n2"/>—for the same her gratitude can scarcely find expression,
                 yet constant reiteration, How good Walt is. She will acknowledge
                 your kindness personaly, but her hand at times is allmost paralyzed by
                 being shrunken, through chronic jaundice.</p>
@@ -107,14 +105,13 @@
                 Never did. The weather has been very cold for the last few days.
             </p>
             <closer>
-                <signed>Charlie&#8212;</signed>
+                <signed>Charlie—</signed>
             </closer>
             <postscript>
                 <p>I remember very gratefully your good will, in remittances in past 
-                    times&#8212;Never shall, coud not forget You.
+                    times—Never shall, coud not forget You.
                 </p>
             </postscript>
         </body>
     </text>
 </TEI>
-

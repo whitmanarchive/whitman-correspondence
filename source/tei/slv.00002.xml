@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="slv.00002">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="slv.00002">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>slv.00002</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>slv.00002</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,7 +55,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">260</biblScope>
                         </imprint>
@@ -98,20 +95,20 @@
             <pb xml:id="leaf001r" facs="slv_tb.00007.jpg" type="recto"/>
             <opener>
                 <dateline> 
-                    <name type="place">Camden NJ&#8212;US America<ptr target="slv.00002_n1"/></name>
+                    <name type="place">Camden NJ—US America<ptr target="slv.00002_n1"/></name>
                     <date when="1891-11-01">Nov: 1 '91</date>
                 </dateline> 
             </opener>
-            <p>Just a word anyhow while I am waiting for my supper&#8212;y'rs last rec'd is Aug:
-                31<ptr target="slv.00002_n2"/>&#8212;It seems you have rec'd "Good Bye"&#8212;Some
+            <p>Just a word anyhow while I am waiting for my supper—y'rs last rec'd is Aug:
+                31<ptr target="slv.00002_n2"/>—It seems you have rec'd "Good Bye"—Some
                 two weeks ago or more I sent you two more "Good Bye's" &amp; a lot of
-                pictures&#8212;have they reach'd you safely?&#8212;you &amp; the friends can have
+                pictures—have they reach'd you safely?—you &amp; the friends can have
                 what the portraits you &amp; they want as I have plenty, &amp; am cheerfully willing
-                to send to you &amp; them&#8212;The doctor<ptr target="loc.08039_n2"/> says I have
+                to send to you &amp; them—The doctor<ptr target="loc.08039_n2"/> says I have
                     <hi rend="underline">progressive paralysis</hi>, wh' is eligible to have a fatal
-                termination any hour&#8212;so you must all take my letters &amp; conveyances of
+                termination any hour—so you must all take my letters &amp; conveyances of
                 friendship &amp; affection (strangers as we are face to face) as my last
-                missives&#8212;write me soon as you can&#8212;</p>
+                missives—write me soon as you can—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -120,8 +117,7 @@
             <pb xml:id="leaf002v" facs="slv_tb.00006.jpg" type="verso"/>
         </body>
     </text>
-</TEI>
-<!--This letter is addressed: Bernard O'Dowd | Supreme Court Library | Melbourne | Victoria | via San Francisco | or otherwise. 
+</TEI><!--This letter is addressed: Bernard O'Dowd | Supreme Court Library | Melbourne | Victoria | via San Francisco | or otherwise. 
 It is postmarked: Camden N.J. | NOV 1 | 5 PM | 91; Philadelphia, PA | NOV 1 | 10 AM | F.D. | 91; San Francisc<supplied reason="illegible"
     resp="#smb" cert="high">o</supplied> | NO<supplied reason="illegible"resp="#smb" cert="high">V</supplied> | 6  | 18<supplied reason="illegible"resp="#smb" cert="high">91</supplied> | F.<supplied reason="illegible"resp="#smb" cert="high">D.</supplied>; 
 Melbourne | 13 Y | DE 9 | 91.</note>-->

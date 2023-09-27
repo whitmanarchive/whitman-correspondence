@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03155"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03155"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03155</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,12 +34,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03155</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Harrison S. Morris</author>
@@ -50,7 +47,7 @@
                     <date cert="medium" notBefore="1891-05-31" xml:id="dat1">[After May 31], 1891</date>
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00283</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown author</author>
@@ -106,14 +103,14 @@
             </closer>
             </div1>
             <div1 type="enclosure" rend="pasteon" source="#ref1">
-                <p><handShift rend="printed"/>&#8212;The seventy-second<ptr target="loc.03155_n3"/> birthday of Walt Whitman was celebrated at his home
+                <p><handShift rend="printed"/>—The seventy-second<ptr target="loc.03155_n3"/> birthday of Walt Whitman was celebrated at his home
                                 in Camden, N.J., on the evening of May 31. About forty friends and admirers
                                 sat down to a dinner, the poet occupying the seat of honor at the head.
                                 He was in good health and spirits, and entertained his guests with
                                 selections from his own works and comments on literary affairs. His opening
                                 words were characteristic: "I feel to say a word of grateful memory
-                                for the big fellows just passed away&#8212;for Bryant<ptr target="n6116"/> and Emerson<ptr target="n1044"/> and
-                           Longfellow;<ptr target="n0367"/> and for those we still have with us&#8212;Whittier,<ptr target="n1029"/> and the boss
+                                for the big fellows just passed away—for Bryant<ptr target="n6116"/> and Emerson<ptr target="n1044"/> and
+                           Longfellow;<ptr target="n0367"/> and for those we still have with us—Whittier,<ptr target="n1029"/> and the boss
                            of us all, Tennyson."<ptr target="n0625"/> Letters were read from Lord Tennyson, Richard Waterson Gilder,<ptr target="n0871"/>
                            Edmund Stedman,<ptr target="loc.00799_n6"/> and others. Mr. Whitman has about ready what he considers
                                 his last book, entitled <hi rend="italic">Good-bye, my Fancy</hi>, and a

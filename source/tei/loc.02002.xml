@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02002">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02002">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -33,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02002</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,7 +40,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -51,16 +48,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02002</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Henry Wilson</author>
                     <title>Henry Wilson to Walt Whitman, 30 March 1868</title>
                     <date cert="high" when="1868-03-30" xml:id="dat1">March 30, 1868</date>
-                    <idno type="callno">MSS18630, Box 19, Reel 11&#8211;12</idno>
+                    <idno type="callno">MSS18630, Box 19, Reel 11–12</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00424</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc>
@@ -103,8 +100,7 @@
                 </dateline>
                 <salute>Dear friend Whitman</salute>
             </opener>
-            <p>Your <unclear reason="illegible" cert="high" resp="#me">highest</unclear> we <unclear
-                    reason="illegible" cert="high" resp="#me">cend</unclear> the Dollar together for
+            <p>Your <unclear reason="illegible" cert="high" resp="#me">highest</unclear> we <unclear reason="illegible" cert="high" resp="#me">cend</unclear> the Dollar together for
                 I was suddenly taken with a desire to get home and Started. But I must tell you the
                 news which is the cause of my writing For, this bright beautiful day gave birth to
                 young Walt Whitman, a name that Ben's<ptr target="n0810b"/> baby was destined to
@@ -117,8 +113,7 @@
                     <sic>jo</sic>
                     <corr>job</corr>
                 </choice> on <unclear reason="illegible" resp="#cn" cert="high">mowing</unclear>
-                    machines and is working himself <pb
-                    xml:id="leaf001v" facs="loc_vm.01505_large.jpg" type="verso"/> to death. I am
+                    machines and is working himself <pb xml:id="leaf001v" facs="loc_vm.01505_large.jpg" type="verso"/> to death. I am
                 still engaged in perfecting my invention by repeated experiments. I think I shall
                 soon be able to show some results.<ptr target="loc.02002_n3"/></p>
 
@@ -127,7 +122,7 @@
                 <signed>Henry Wilson</signed>
             </closer>
             <pb xml:id="leaf002r" facs="loc_vm.01506_large.jpg" type="recto"/>
-            <note type="editorial" resp="#ww" place="left">Henry Wilson&#8212;ans. (to Ben) April
+            <note type="editorial" resp="#ww" place="left">Henry Wilson—ans. (to Ben) April
                 11, '68</note>
             <note type="editorial" resp="#unk" place="top">Atty Genl office</note>
             <pb xml:id="leaf002v" facs="loc_vm.01507_large.jpg" type="verso"/>

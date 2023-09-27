@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00745"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00745"> 
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00745</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,13 +36,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00745</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,7 +52,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">145</biblScope>
                         </imprint>
@@ -74,7 +71,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Walt" >Walt Whitman</persName>
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="O'Connor, Ellen M." ref="n4137">Ellen M. O'Connor</persName> 
@@ -97,11 +94,11 @@
                 </dateline>
             </opener>
             <p>
-                Y'rs rec'd &#38; glad to hear f'm you &#38; ab't the 
-                book<ptr target="nyp.00745_n2"/>&#8212;have sent word to 
-                Dr B[ucke]<ptr target="n0119"/>&#8212;Matters going on much the same with 
-                me as of late&#8212;as I write sit in my den in 2d story&#8212;well on
-                P M&#8212;might be much worse&#8212;God bless you&#8212;
+                Y'rs rec'd &amp; glad to hear f'm you &amp; ab't the 
+                book<ptr target="nyp.00745_n2"/>—have sent word to 
+                Dr B[ucke]<ptr target="n0119"/>—Matters going on much the same with 
+                me as of late—as I write sit in my den in 2d story—well on
+                P M—might be much worse—God bless you—
             </p>  
             <closer>
                 <signed>Walt Whitman</signed>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?> 
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pri.00009">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pri.00009">
     <teiHeader> 
         <fileDesc>
             <titleStmt> 
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>pri.00009</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>pri.00009</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -87,15 +84,14 @@
                 </dateline>
                 <salute>My dear Sir<ptr target="pri.00009_n1"/></salute>
             </opener>
-            <p>Excuse the delay&#8212;I have rec'd the draft for 10 pounds, 10 shillings, &#38; have
+            <p>Excuse the delay—I have rec'd the draft for 10 pounds, 10 shillings, &amp; have
                 drawn the money. As I understand it, the plan is to make a selection from my Poems
-                &#38; put them in a Volume of your "Canterbury" series, to be called <hi
-                    rend="underline">Walt</hi>
+                &amp; put them in a Volume of your "Canterbury" series, to be called <hi rend="underline">Walt</hi>
                 <hi rend="underline">Whitman's</hi>
-                <hi rend="underline">Poems</hi>,&#8212;you to select&#8212;&#38; perhaps to write
-                Preface or Biographical notice, or what not&#8212;I am willing&#8212;on the sole
-                &#38; specific condition that it is not to come for sale to this country, without
-                further &#38; written permission from me.</p>
+                <hi rend="underline">Poems</hi>,—you to select—&amp; perhaps to write
+                Preface or Biographical notice, or what not—I am willing—on the sole
+                &amp; specific condition that it is not to come for sale to this country, without
+                further &amp; written permission from me.</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -104,4 +100,4 @@
             <pb xml:id="leaf002v" facs="pri.00009.004_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI>  
+</TEI>

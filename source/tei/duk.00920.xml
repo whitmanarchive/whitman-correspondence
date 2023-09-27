@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00920">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00920">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00920</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00920</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,7 +53,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">331</biblScope>
                         </imprint>
@@ -67,7 +64,7 @@
                     <title>Walt Whitman to William Sloane Kennedy, 4 May 1889</title>
                     <date cert="high" when="1889-05-04" xml:id="dat1">May 4, 1889</date>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare
-                        Book &#38; Manuscript Library, Duke University</orgName>
+                        Book &amp; Manuscript Library, Duke University</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,14 +97,11 @@
             <p>Sarrazin's<ptr target="n3115"/> book has come "La <choice>
                     <sic>Ranaissance</sic>
                     <corr>Renaissance</corr>
-                </choice> de la <hi rend="italic">Po&#233;sie Anglaise</hi>
-                1798&#8211;1889&#8212;Paris&#8212;35 quai des grandes Augustine"&#8212;279 pp. handy
-                beautiful French style, paper&#8212;Nothing very different in my affairs&#8212;the N
-                Y <hi rend="italic">Literary News</hi> for May has a notice<ptr
-                    target="duk.00920_n1"/>&#8212;did you see that infernal farrago of my <hi
-                        rend="italic">opinions</hi>!! in the Herald<ptr target="loc.07602_n2"/> three Sundays ago by that
-                Japanee?<ptr target="n4980"/>&#8212;S[tedman]<ptr target="n1043"/> is quite mad I hear<ptr
-                    target="duk.00920_n2"/>&#8212;O'C[onnor]<ptr target="n2002"/> is no better.</p>
+                </choice> de la <hi rend="italic">Poésie Anglaise</hi>
+                1798–1889—Paris—35 quai des grandes Augustine"—279 pp. handy
+                beautiful French style, paper—Nothing very different in my affairs—the N
+                Y <hi rend="italic">Literary News</hi> for May has a notice<ptr target="duk.00920_n1"/>—did you see that infernal farrago of my <hi rend="italic">opinions</hi>!! in the Herald<ptr target="loc.07602_n2"/> three Sundays ago by that
+                Japanee?<ptr target="n4980"/>—S[tedman]<ptr target="n1043"/> is quite mad I hear<ptr target="duk.00920_n2"/>—O'C[onnor]<ptr target="n2002"/> is no better.</p>
             <closer> 
                 <signed>Walt Whitman</signed>
             </closer>

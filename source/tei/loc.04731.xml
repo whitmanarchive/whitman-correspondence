@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04731"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04731"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04731</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,13 +35,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04731</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Charles L. Heyde</author>
@@ -52,7 +49,7 @@
                     <date cert="high" when="1890-12-08" xml:id="dat1">December 8, 1890</date>
                     <idno type="callno">MSS18630, Box 3, Reel 2</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00040</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -97,7 +94,7 @@
                     <name type="place">Burlington Vt.</name>
                     <date when="1890-12-08">
                         <handShift rend="manuscript"/>
-                        Dec&#8212;8, 1890.
+                        Dec—8, 1890.
                     </date>
                 </dateline>
                 <salute>Bro Walt,</salute> 
@@ -105,14 +102,14 @@
             <p>
                 I wrote last time that Han<ptr target="n7033"/> was better
                 The prevailing severe cold weather at present retards her
-                convalescence a little&#8212;dreadful cold, and the character,
+                convalescence a little—dreadful cold, and the character,
                 or effect of the atmostphere almost neutralizes all the warmth
-                that might be obtained from the hottest coal fire&#8212;It makes
-                me very apprehensive&#8212;</p>
+                that might be obtained from the hottest coal fire—It makes
+                me very apprehensive—</p>
             <p>
                 I hope you are as well, or
                 <pb xml:id="leaf001v" facs="loc_ad.00112_large.jpg" type="verso"/>  
-                comfortable as when last you wrote&#8212;Small book
+                comfortable as when last you wrote—Small book
                 rec<hi rend="underline">d</hi></p>
             <closer>
                 <salute>Gratefully Yours,</salute>
@@ -126,5 +123,3 @@
         </body>
     </text> 
 </TEI>
- 
-

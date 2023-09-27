@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01447">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01447">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01447</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,12 +40,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
                         provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
                         and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
                         has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>            
+            <idno>loc.01447</idno></publicationStmt>            
             <sourceDesc>
                 <bibl>
                     <author>Thomas Dixon</author>
@@ -56,7 +53,7 @@
                     <date cert="high" when="1874-09-08" xml:id="dat1">September 8, 1874</date>
                     <idno type="callno">MSS18630, Box 8, Reel 5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00151</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C. </orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -77,7 +74,7 @@
             <change when="2022-07-26" who="#nsb">checked and revised</change>
             <change when="2021-12-05" who="#me">checked, corrected</change>
             <change when="2015-04-24" who="#ak">added correspondent ref</change>
-            <change when="2014-08-15" who="#el" >added schematron declaration</change>
+            <change when="2014-08-15" who="#el">added schematron declaration</change>
             <change when="2014-08-12" who="#el">made basic checking changes to file</change>
             <change when="2012-10-29" who="#cb">proofed</change>
             <change when="2012-03-14" who="#js">proofed</change>
@@ -149,7 +146,7 @@
                 <pb xml:id="leaf003r" facs="loc.01447.005_large.jpg" type="recto"/> 
                 and one branch of the family had been Stewards to the Duke of Richmond, and one had emigrated 
                 to America some distant relation of his family years ago, but they had never heard any 
-                news of them&#8212;so when I told him there was such a name in America owned by a family 
+                news of them—so when I told him there was such a name in America owned by a family 
                 there and one of them was a poet, he thought perhaps it might be possible you 
                 <choice><sic>where</sic><corr>were</corr></choice> a <choice><sic>desendant</sic><corr>descendant</corr></choice> 
                 of that distant relative. he was quite a build of man like you, a noble large bodied and 
@@ -157,7 +154,7 @@
                 farmer <choice><sic>then</sic><corr>than</corr></choice> a <choice><sic>humbl</sic><corr>humble</corr></choice> 
                 Stationer, so that he did honour to the Stock, though not exactly 
                 in his trade. he was a type of man I like to see, only he seemed rather confined in his 
-                ideas of Books.&#8212;</p>
+                ideas of Books.—</p>
             <pb xml:id="leaf003v" facs="loc.01447.006_large.jpg" type="verso"/>
             <p>I sent to him some small notice of you and your work, from Chambers paper, but I never 
                 received any reply, so feel afraid your work is not of a kind to suit his tastes. I note 
@@ -168,7 +165,7 @@
                 our hope is! yet shall <hi rend="underline">be</hi>. Ruskin<ptr target="n3013"/> is also working hard too to 
                 help on a nobler life, and one not much unlike the one you also long to see. so many souls 
                 labouring for one end must someday effect the accomplishment of the "Golden Days" so long 
-                sung, so long toiled for, prayed for&#8212;and fought for!!</p>
+                sung, so long toiled for, prayed for—and fought for!!</p>
 
             <closer>
                 <salute>Yours Affectionately</salute>

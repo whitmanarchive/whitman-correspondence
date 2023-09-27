@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00434">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00434">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +23,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>med.00434</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +40,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>med.00434</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -61,8 +59,8 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="page">327&#8211;328</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope type="page">327–328</biblScope>
               <biblScope type="volume">2</biblScope>
             </imprint>
           </monogr>
@@ -101,9 +99,7 @@
     <body>
 
       <p>Still unwell and paralysed, but up and around. Post-office address at Camden, New Jersey,
-        U. S. A.; shall probably remain there. Design to bring out a volume, <hi rend="italic"
-          >m&#233;lange</hi> of prose and verse, partly fresh matter, this summer.<ptr
-          target="med.00434_n1"/></p>
+        U. S. A.; shall probably remain there. Design to bring out a volume, <hi rend="italic">mélange</hi> of prose and verse, partly fresh matter, this summer.<ptr target="med.00434_n1"/></p>
 
     </body>
   </text>

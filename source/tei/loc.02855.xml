@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02855">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02855">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -35,7 +32,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02855</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,7 +42,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -53,7 +50,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02855</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>George Routledge &amp; Sons</author>
@@ -62,7 +59,7 @@
                     <idno type="callno">MSS18630, Box 15, Reel 9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00333</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -118,23 +115,19 @@
                         States for ALEXANDER STRAHAN &amp; Co's Publications.</name>
                     <milestone unit="undeclared" rend="horbar-full"/>
                     <name type="place"><handShift rend="printed"/>416 BROOME ST., New York,</name>
-                    <date when="1867-12-28"><handShift rend="manuscript"/>Dec 28, <handShift
-                            rend="printed"/>186<handShift rend="manuscript"/>7.<ptr
-                            target="loc.02855_n4"/></date>
+                    <date when="1867-12-28"><handShift rend="manuscript"/>Dec 28, <handShift rend="printed"/>186<handShift rend="manuscript"/>7.<ptr target="loc.02855_n4"/></date>
                 </dateline>
                 <salute>Walt Whitman Esqr.</salute> 
                 <salute>Dear Sir,</salute>   
             </opener>
-            <p>The Editor of "The Broadway"<ptr target="n0108"/> Mr. Edmund Routledge,<ptr
-                    target="n0528b"/> London, writes desiring us as to get from you, if we can, one
+            <p>The Editor of "The Broadway"<ptr target="n0108"/> Mr. Edmund Routledge,<ptr target="n0528b"/> London, writes desiring us as to get from you, if we can, one
                 or two papers or poems for his magazine. He was offered
                 early sheets of your paper on Democracy<ptr target="loc.00452_n7"/> from the
                 "Galaxy"<ptr target="n6001b"/> but that would not suit his purpose, he wants such
                 only as he can have for both sides of the Atlantic and is willing to pay
                 accordingly. We do not suggest the title of any subject, believing you to know best
                 the subjects on which you would like to write for such a magazine. Lest you may not
-                know the magazine we send you by mail a copy of each <pb xml:id="leaf001v"
-                    facs="loc.02855.002_large.jpg" type="verso"/> of the five numbers already
+                know the magazine we send you by mail a copy of each <pb xml:id="leaf001v" facs="loc.02855.002_large.jpg" type="verso"/> of the five numbers already
                 published. No 6 will contain papers by Francis Turner Palgrave<ptr target="n0460"/>
                 and Henry Sedley<ptr target="n0552"/> Editor of the Round Table and a long poem by W<hi rend="underline">m</hi> M.
                     Rossetti.<ptr target="n0522"/></p>
@@ -145,8 +138,7 @@
                 <salute>We remain</salute>
                 <salute>Yours respectfully</salute>
                 <signed>fm G. Routledge &amp; Sons.</signed>
-                <signed><hi rend="underline">Jas. <unclear reason="illegible" resp="#cn"
-                            cert="medium">Barris</unclear></hi></signed>
+                <signed><hi rend="underline">Jas. <unclear reason="illegible" resp="#cn" cert="medium">Barris</unclear></hi></signed>
             </closer>
             <pb xml:id="leaf002r" facs="loc.02855.003_large.jpg" type="recto"/>
             <pb xml:id="leaf002v" facs="loc.02855.004_large.jpg" type="verso"/>
@@ -157,4 +149,4 @@
             <pb xml:id="leaf005v" facs="loc.02855.006_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI>  
+</TEI>

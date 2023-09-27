@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00720">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00720">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00720</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -44,7 +41,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00720</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -54,7 +51,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">26</biblScope>
                         </imprint>
@@ -88,15 +85,15 @@
     </teiHeader>
     <text type="letter">
         <body>
-            <p>Your book has come so nice and fresh like a new pot-cheese in a clean napkin&#8212;I
-                have read the first piece&#8212;"Look Out"<ptr target="med.00720_n1"/>&#8212;all through and thought it fully
-                equal to anything in the past, and looked over the rest of the pages&#8212;doesn't
+            <p>Your book has come so nice and fresh like a new pot-cheese in a clean napkin—I
+                have read the first piece—"Look Out"<ptr target="med.00720_n1"/>—all through and thought it fully
+                equal to anything in the past, and looked over the rest of the pages—doesn't
                 seem to me to deserve the depreciatory tone in which you speak of it.</p>
-            <p>Dr. Bucke went to England April 14&#8212;I rec'd a letter
+            <p>Dr. Bucke went to England April 14—I rec'd a letter
                 from Wm. O'C[onnor], and his little book.<ptr target="med.00720_n2"/></p>
-            <p>I am much the same as of late&#8212;made out very handsomely with my lecture April
-                15th&#8212;$674&#8212;have seen Gilder<ptr target="med.00720_n3"/>&#8212;Early
-                summer here&#8212;I have a new horse&#8212;very good&#8212;</p>
+            <p>I am much the same as of late—made out very handsomely with my lecture April
+                15th—$674—have seen Gilder<ptr target="med.00720_n3"/>—Early
+                summer here—I have a new horse—very good—</p>
         </body>
     </text>
-</TEI>  
+</TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04743"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04743"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04743</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,12 +34,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04743</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Charles L. Heyde</author>
@@ -50,7 +47,7 @@
                     <date cert="high" when="1890-12-24" xml:id="dat1">December 24, 1890</date> 
                     <idno type="callno">MSS18630, Box 3, Reel 2</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00040</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -85,18 +82,18 @@
                 </dateline>
             </opener>
             <p>Our noble good brother Walt Your generous gift of 10 dollars, (divided) 
-                was duly recd&#8212;Gratefull for my share, which added to 10 I received for a painting, 
-                enabled me to pay my interest, now overdue to the Winooski Bank&#8212;Have 
-                also rec<hi rend="underline">d</hi> a box from Lou,<ptr target="n0368"/> but very little money&#8212;yet it contained a fine sugar  
-                cured ham, corked coffee, tea, and wearing apparel for herself&#8212;</p>
+                was duly recd—Gratefull for my share, which added to 10 I received for a painting, 
+                enabled me to pay my interest, now overdue to the Winooski Bank—Have 
+                also rec<hi rend="underline">d</hi> a box from Lou,<ptr target="n0368"/> but very little money—yet it contained a fine sugar  
+                cured ham, corked coffee, tea, and wearing apparel for herself—</p>
             <p> We have kind contributions occasionally of necessaries for home 
-                consumptions&#8212;<gap reason="illegible" quantity="3" unit="chars"/>ing good will&#8212;Han<ptr target="n0285"/>&#8212;Shall write&#8212;</p>
+                consumptions—<gap reason="illegible" quantity="3" unit="chars"/>ing good will—Han<ptr target="n0285"/>—Shall write—</p>
             <closer>
                 <signed rend="right">Charlie<ptr target="loc.04743_n1"/></signed>
             </closer>
             <pb xml:id="leaf001v" facs="loc_ad.00116_large.jpg" type="verso"/>
             <note type="editorial" place="bottom-right" resp="#ww"><date when="1890-12-26">Dec 26 '90</date> Camden This is the only decent (or nearly decent) letter f'm
-            the whelp I have rec'd for two years&#8212;(but there is a mean sneer &amp; snarl even in this)</note> 
+            the whelp I have rec'd for two years—(but there is a mean sneer &amp; snarl even in this)</note> 
         </body>
     </text>
 </TEI>

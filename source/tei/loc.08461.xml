@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08461">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08461">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08461</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,16 +42,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08461</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Preston Harrison</author>
                     <title>Preston Harrison to Walt Whitman, [1885?]</title>
                     <date cert="low" notBefore="1885-01-01" notAfter="1885-12-31" xml:id="dat1">[1885?]</date>
-                    <idno type="callno">MSS45443, Box 2, Reel 1&#8211;2</idno>
+                    <idno type="callno">MSS45443, Box 2, Reel 1–2</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0056</idno>
                     <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt
-                        Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.04311"/>
                     <relatedItem type="document" target="wwa.00675"/>
                     <note type="project" target="#rel01">Whitman struck through this letter and used
@@ -86,7 +83,7 @@
     <text type="letter"> 
         <body>
             <pb xml:id="leaf001r" facs="loc_js.00242_large.jpg" type="recto"/>
-            <p><gap reason="cut-away"/>a busy moment &#38; sincerely wishing an answer from you.<ptr target="loc.08461_n3"/> I
+            <p><gap reason="cut-away"/>a busy moment &amp; sincerely wishing an answer from you.<ptr target="loc.08461_n3"/> I
                 hope you will not disappoint me.</p>
             <closer>
                 <salute>Yours most respectfully</salute>

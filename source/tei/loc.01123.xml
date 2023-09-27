@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01123">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01123">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -34,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01123</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,7 +41,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -52,16 +49,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01123</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to John Burroughs, 9 September [1873]</title>
                     <date cert="medium" when="1873-09-09" xml:id="dat1">September 9, [1873]</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00111</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc>
@@ -97,26 +94,22 @@
             <pb xml:id="leaf001r" facs="loc.01123.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <note type="editorial" resp="#unk" place="left">Bh&#8212;</note>
+                    <note type="editorial" resp="#unk" place="left">Bh—</note>
                     <note type="editorial" resp="#unk" place="left">['73]</note>
                     <name type="place">Camden</name>
                     <date when="1873-09-09">Sept. 9.</date>
                 </dateline>
                 <salute>Dear John Burroughs,</salute>
             </opener>
-            <p>Your letter of 6th<ptr target="n5002d"/> came duly,&#8212;with the plans &amp;
-                photo., which I return herewith&#8212;John the questions you ask cannot judiciously
+            <p>Your letter of 6th<ptr target="n5002d"/> came duly,—with the plans &amp;
+                photo., which I return herewith—John the questions you ask cannot judiciously
                 be answered, except as they involve <hi rend="underline">the whole</hi> house,
                 ground, purposes, materials, &amp;c. &amp;c. And in reference to &amp; connection
                 with, twenty different matters besides themselves.<ptr target="loc.01123_n1b"/> My
-                brother<ptr target="n0700"/> &amp; I are <pb xml:id="leaf001v"
-                    facs="loc.01123.002_large.jpg" type="verso"/> pleased with your plan, in
-                general&#8212;my brother favors the ground story of <hi rend="underline"
-                >stone</hi>,&#8212;but the 1&#189; superstructure of <hi rend="underline">wood</hi>,
-                (says it is healthier &amp; drier)&#8212;But I have no doubt at all that <hi
-                    rend="underline">you will cipher out the sum yourself</hi>, &amp; the result
-                will be something cosy &amp; natural.&#8212;I am not very well to-day<ptr
-                    target="duk.00623_n16"/>&#8212;but am up &amp; have been out&#8212;am generally
+                brother<ptr target="n0700"/> &amp; I are <pb xml:id="leaf001v" facs="loc.01123.002_large.jpg" type="verso"/> pleased with your plan, in
+                general—my brother favors the ground story of <hi rend="underline">stone</hi>,—but the 1½ superstructure of <hi rend="underline">wood</hi>,
+                (says it is healthier &amp; drier)—But I have no doubt at all that <hi rend="underline">you will cipher out the sum yourself</hi>, &amp; the result
+                will be something cosy &amp; natural.—I am not very well to-day<ptr target="duk.00623_n16"/>—but am up &amp; have been out—am generally
                 about the same as noted in my last.<ptr target="loc.01123_n3"/></p>
             <closer>
                 <signed>Walt Whitman</signed>

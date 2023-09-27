@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04646">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04646">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04646</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,13 +35,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04646</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Fred Wild</author>
@@ -53,14 +50,14 @@
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00400</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>      
             <particDesc>   
                 <person role="sender">
-                    <persName key= "Wild, Fred" ref="loc.04694_n2">Fred Wild</persName>
+                    <persName key="Wild, Fred" ref="loc.04694_n2">Fred Wild</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
@@ -86,14 +83,14 @@
                 </dateline>
                 <salute>Dear Walt,</salute>
             </opener>
-            <p>The D<hi rend="underline">r</hi><ptr target="n4102"/> insists on me sending you a line &#8212; I
+            <p>The D<hi rend="underline">r</hi><ptr target="n4102"/> insists on me sending you a line — I
                 was really proud to receive <hi rend="underline">your</hi>
                 loving greeting through <choice><sic>Troubel</sic><corr>Traubel</corr></choice>.<ptr target="n4267"/> I sent Thanks in a letter to
-                Dr. Bucke.<ptr target="n0119"/> I am often thinking of you &#38; wondering how you are
-                bearing up under all the hard times.<ptr target="loc.02538_n4b"/> But you are "armed &#38; well prepared"<ptr target="loc.04646_n2"/> 
+                Dr. Bucke.<ptr target="n0119"/> I am often thinking of you &amp; wondering how you are
+                bearing up under all the hard times.<ptr target="loc.02538_n4b"/> But you are "armed &amp; well prepared"<ptr target="loc.04646_n2"/> 
             </p>
             <closer>
-                <salute>Love to you &#38; all.</salute>
+                <salute>Love to you &amp; all.</salute>
                 <signed>Fred Wild</signed> 
             </closer>
             <pb xml:id="leaf001v" facs="loc_vm.02522_large.jpg" type="verso"/>

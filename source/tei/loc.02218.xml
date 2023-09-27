@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02218"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02218"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02218</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,13 +35,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02218</idno></publicationStmt>
             <sourceDesc>
                 <bibl>  
                     <author>Jeanette L. and Joseph B. Gilder</author>
@@ -52,7 +49,7 @@
                     <date cert="high" when="1890-12-02" xml:id="dat1">December 2, 1890</date>
                     <idno type="callno">MSS18630, Box 10, Reel 6</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00196</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -111,7 +108,7 @@
              <handShift rend="manuscript"/>
               American
              <handShift rend="typescript"/>
-             BOOKS PUBLISHED DURING THE DECADE (Jan. 1, 1881&#8211;Dec. 31, 1890).
+             BOOKS PUBLISHED DURING THE DECADE (Jan. 1, 1881–Dec. 31, 1890).
              We are confident that your opinion on this subject would
              be of the greatest interest to our readers, and if you will
              kindly send us the names of the five books of your choice,
@@ -127,7 +124,7 @@
                 <salute>Very truly yours,</salute>
                 <signed>
                  <handShift rend="manuscript"/>
-                    J.L. &#38; J.B. Gilder
+                    J.L. &amp; J.B. Gilder
                 </signed>
                 <signed>
                     <handShift rend="typescript"/>
@@ -144,5 +141,3 @@
         </body> 
     </text>
 </TEI>
-
-

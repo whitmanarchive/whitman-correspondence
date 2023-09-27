@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03722">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03722">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03722</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03722</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -56,7 +53,7 @@
                     <date cert="high" when="1889-07-21" xml:id="dat1">July 21, 1889</date>
                     <idno type="callno">MSS18630, Box 16</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,8 +83,7 @@
                 <dateline>
                     <name type="place">60 Stanhope Building</name>
                     <name type="place">Red Cross S<hi rend="underline">t</hi></name>
-                    <name type="place"><unclear reason="illegible" cert="medium" resp="#ktl"
-                            >Boro.'</unclear></name>
+                    <name type="place"><unclear reason="illegible" cert="medium" resp="#ktl">Boro.'</unclear></name>
                     <name type="place">London. S. E.</name>
                     <date when="1889-07-21">July 21<hi rend="underline">st</hi> 1889</date>
                 </dateline>
@@ -110,7 +106,7 @@
                 Christian faith in universal love. I am an English Priest, but hope I do not come
                 under your law, for priests <hi rend="underline">can</hi> love democracy and
                 mankind. I live among the people in the crowded buildings, I love them all and
-                individual. May universal love soon spread it wings o'er Continents new &#38; old.</p>
+                individual. May universal love soon spread it wings o'er Continents new &amp; old.</p>
             <pb xml:id="leaf002v" facs="loc.03722.004_large.jpg" type="verso"/>
             <p>To thee I offer my affection, for that is all I can, but may we meet ere long. So
                 long.</p>

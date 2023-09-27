@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00078">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00078">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>  
-                <idno>upa.00078</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,13 +44,13 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00078</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Herbert Gilchrist, 1 August 1885</title>
                     <date cert="high" when="1885-08-01" xml:id="dat1">August 1, 1885</date>
-                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp;
                         Manuscript Library, University of Pennsylvania</orgName>
                 </bibl>
             </sourceDesc>
@@ -92,25 +89,24 @@
                 <salute>Dear Herbert Gilchrist</salute>
             </opener>
             <p>Yours of July 21 just rec'd, soliciting some definite word from me ab't an English or
-                transatlantic "free will offering"&#8212;a proposed affectionate and voluntary gift
+                transatlantic "free will offering"—a proposed affectionate and voluntary gift
                 to me from my friends there.<ptr target="upa.00078_n2"/> I feel deeply, even for the
                 prompting of it, and should decidedly and gratefully accept any thing it produces.
                 (My publisher David McKay, of Philadelphia, has just been over to pay the last
                 half-annual royalty on my two Volumes <hi rend="underline">Leaves of Grass</hi> and
                     <hi rend="underline">Specimen Days</hi>, which amounted to twenty-two dollars
-                and six cents&#8212;this being the income to me from the sale of my books for the
+                and six cents—this being the income to me from the sale of my books for the
                 last six months.)<ptr target="upa.00078_n3"/></p>
             <p>Fearfully hot weather here. I have had a sunstroke which has made me weak, and kept
                 me indoors for the last twelve days; but I move around the house, eat my rations
                 fairly, write a little, and shall quite certainly soon resume my usual state of
-                health, late times&#8212;(doubtless lower'd a slight notch or two, as I find that is
+                health, late times—(doubtless lower'd a slight notch or two, as I find that is
                 the way things go on year after year.) Fortunately I have a good faithful young
                 Jersey woman and friend, Mary Davis, who cooks for me, and vigilantly sees to
                 me.<ptr target="n6113"/></p>
             <p>Give my love to Wm M. Rossetti<ptr target="upa.00078_n4"/> and to all enquiring
                 friends, known or unknown.</p>
-            <p>You are at liberty to make any use of this letter you see fit.<ptr
-                    target="upa.00078_n5"/></p>
+            <p>You are at liberty to make any use of this letter you see fit.<ptr target="upa.00078_n5"/></p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -120,4 +116,4 @@
             
         </body>
     </text>
-</TEI>  
+</TEI>

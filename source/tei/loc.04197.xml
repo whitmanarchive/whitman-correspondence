@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04197">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04197">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04197</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04197</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to John Addington Symonds, 20 July 1890</title>
                     <date cert="high" when="1890-07-20" xml:id="dat1">July 20, 1890</date>
-                    <idno type="callno">MSS18630, Box 17, Reel 10&#8211;11</idno>
+                    <idno type="callno">MSS18630, Box 17, Reel 10–11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00380</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,17 +78,17 @@
             <pb xml:id="leaf001r" facs="loc_vm.00346_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">328 Mickle St&#8212;Camden New Jersey<ptr target="loc.04197_n1"/></name>
+                    <name type="place">328 Mickle St—Camden New Jersey<ptr target="loc.04197_n1"/></name>
                     <name type="place">US America</name>
                     <date when="1890-07-20">July 20 1890</date>
                 </dateline>
             </opener>
             <p>
-                Yr fine "Essays Speculative &#38; Suggestive"<ptr target="loc.07830_n4"/> two vols: have just come&#8212;thank you&#8212;I shall write soon ab't them more at 
-                length&#8212;Have you rec'd my <hi rend="underline">Complete Works</hi><ptr target="n4195"/> in one big vol: 900 pp? Send by mail to you&#8212;Also the L of G. 
-                latest ed'n (in pocket b'k binding?)<ptr target="med.00869_n3"/>&#8212;Also the portraits in large envelope?&#8212;Say in y'r next 
-                if so or no. I keep up yet&#8212;paralyzed almost completely&#8212;get out in wheel chair<ptr target="loc.03012_n1"/>&#8212;sleep &#38; appetite fair&#8212;my 
-                N A. Rev: piece is in "Spec: Days" call'd "Poetry, to-day in America"<ptr target="loc.04197_n3"/>&#8212;y'r letter three months ago rec'd<ptr target="loc.04197_n2"/>
+                Yr fine "Essays Speculative &amp; Suggestive"<ptr target="loc.07830_n4"/> two vols: have just come—thank you—I shall write soon ab't them more at 
+                length—Have you rec'd my <hi rend="underline">Complete Works</hi><ptr target="n4195"/> in one big vol: 900 pp? Send by mail to you—Also the L of G. 
+                latest ed'n (in pocket b'k binding?)<ptr target="med.00869_n3"/>—Also the portraits in large envelope?—Say in y'r next 
+                if so or no. I keep up yet—paralyzed almost completely—get out in wheel chair<ptr target="loc.03012_n1"/>—sleep &amp; appetite fair—my 
+                N A. Rev: piece is in "Spec: Days" call'd "Poetry, to-day in America"<ptr target="loc.04197_n3"/>—y'r letter three months ago rec'd<ptr target="loc.04197_n2"/>
             </p>
             <closer>
                 <signed>Walt Whitman</signed>
@@ -100,4 +97,3 @@
         </body>  
     </text>
 </TEI>
-

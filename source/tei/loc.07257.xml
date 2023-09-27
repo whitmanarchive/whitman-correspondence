@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07257">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07257">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="es">Jeannette Schollaert</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07257</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07257</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1888-10-21" xml:id="dat1">October 21, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,43 +84,36 @@
             <pb xml:id="leaf001r" facs="loc_es.00426.jpg" type="recto"/>
             <opener> 
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office<ptr
-                            target="loc.07257_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/>London, Ont.,</name><date when="1888-10-21" rend="right"
-                            ><handShift rend="manuscript"/>21 Oct. <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office<ptr target="loc.07257_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/>London, Ont.,</name><date when="1888-10-21" rend="right"><handShift rend="manuscript"/>21 Oct. <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
-            <p>I am reading Cooper's "Leatherstocking Tales"<ptr target="n4173"/> over again&#8212;have not looked at
-                them for at least 25 years&#8212;did not think they were so genuine and good as I
+            <p>I am reading Cooper's "Leatherstocking Tales"<ptr target="n4173"/> over again—have not looked at
+                them for at least 25 years—did not think they were so genuine and good as I
                 find them now to be. We had no <choice>
                     <sic>clergiman</sic>
                     <corr>clergyman</corr>
-                </choice> this morning and I have just come in from officiating&#8212;reading
-                prayers, bible, sermon &#38;c. Since coming from chapel I have spent half an hour
+                </choice> this morning and I have just come in from officiating—reading
+                prayers, bible, sermon &amp;c. Since coming from chapel I have spent half an hour
                 (as I often do) running over "November Boughs"<ptr target="n3999"/> "The Voice of the Rain," for
                 instance, one of the most exquisite parables in the English, or any other language.
                 "Robert Burns," I think, a marvellous piece of criticism. "Last of the War Cases"
                 one of your most touching pieces, and so on turning the leaves and thinking and
                 dreaming.</p>
             <p>I thought that by this time I should have been able to say something definite about
-                my jaunt east, but I cannot. Wm Gurd<ptr
-                    target="n4284"/> has been in N.Y. since Tuesday morning. <pb
-                    xml:id="leaf001v" facs="loc_es.00427.jpg" type="verso"/> but so far I have heard
-                no word from him&#8212;I fear something is wrong but cannot think what it
-                is&#8212;probably it is nothing serious and when I do hear in a few days more the
+                my jaunt east, but I cannot. Wm Gurd<ptr target="n4284"/> has been in N.Y. since Tuesday morning. <pb xml:id="leaf001v" facs="loc_es.00427.jpg" type="verso"/> but so far I have heard
+                no word from him—I fear something is wrong but cannot think what it
+                is—probably it is nothing serious and when I do hear in a few days more the
                 hitch may have been then got over. I still hope I may leave here say about two weeks
                 from tomorrow (it may possibly be sooner) but I cannot tell whether I shall go
                 direct to Philadelphia or to N.Y. first.</p>
             <p>Our wet weather still continues, it has rained nearly every day since Sept.
-                26&#8212;the last few days snow with the rain so that the ground has been white at
+                26—the last few days snow with the rain so that the ground has been white at
                 times I look for a fine long "Indian Summer" after all this wet, raw, and cold
                 weather.</p>
-            <p>The "Complete Works"<ptr target="n6137"/> takes time, a lot of time, but that is all right&#8212;<hi
-                    rend="underline">take time</hi>&#8212;enough of it, and have it <hi
-                    rend="underline">right</hi>&#8212;it is worth taking pains about&#8212;it will
-                be a standard book for many a day&#8212;to many and many it will be a sacred, an
-                altogether priceless volume&#8212;a bible of the bibles&#8212;a resum&#233; of them
+            <p>The "Complete Works"<ptr target="n6137"/> takes time, a lot of time, but that is all right—<hi rend="underline">take time</hi>—enough of it, and have it <hi rend="underline">right</hi>—it is worth taking pains about—it will
+                be a standard book for many a day—to many and many it will be a sacred, an
+                altogether priceless volume—a bible of the bibles—a resumé of them
                 all.</p>
             <closer>
                 <signed rend="right">RMB</signed>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08222">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08222">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08222</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,27 +34,27 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
                      provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from 
                      the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic 
                      images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08222</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 3 November 1891</title>
                     <date cert="high" when="1891-11-03" xml:id="dat1">November 3, 1891</date>
-                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4&#8211;5</idno>
-                    <idno type="callno">Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4–5</idno>
+                    <idno type="callno">Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00108</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown</author>
-                    <title level="a"></title>
+                    <title level="a"/>
                     <title level="j">Unknown</title>
                     <date when="1891-11">November 1891</date>
                     <biblScope type="pp">Unknown</biblScope>
@@ -93,16 +90,16 @@
                 </dateline>  
             </opener>  
             <p>Wallace<ptr target="n6121"/> went off this mrn'g, to start out in the City of Berlin<ptr target="loc.08222_n3"/> f'm
-                NY. to-morrow mn'g goes aboard to night&#8212;in good spirits &amp; well &amp; after
+                NY. to-morrow mn'g goes aboard to night—in good spirits &amp; well &amp; after
                 a wonderfully happy visit,<ptr target="loc.08222_n4"/> in wh' <hi rend="underline">you</hi> &amp; Canada have big part.</p>
-            <p>&#8212;Sir Edwin Arnold,<ptr target="n6163"/> John Russell Young,<ptr target="loc.08222_n5"/> &amp; Major Pond<ptr target="n3112"/> 
-                paid me a visit yesterday&#8212;all went right&#8212;Here is the 
+            <p>—Sir Edwin Arnold,<ptr target="n6163"/> John Russell Young,<ptr target="loc.08222_n5"/> &amp; Major Pond<ptr target="n3112"/> 
+                paid me a visit yesterday—all went right—Here is the 
                 adv't<ptr target="loc.08222_n1"/> of O'C's<ptr target="n2002"/> book<ptr target="loc.02527_n3"/>
                 </p>
-            <p>Sunny cool weather here&#8212;I am up here as usual&#8212;had pann'd oysters
-                &amp; coffee for b'kf'st&#8212;Arnold is cutting quite a swathe here&#8212;he is so genial
-                &#8212;he is one of my most determined friends&#8212;Major P wants to take me out
-                on lecture platform but of course it is out of question&#8212;</p> 
+            <p>Sunny cool weather here—I am up here as usual—had pann'd oysters
+                &amp; coffee for b'kf'st—Arnold is cutting quite a swathe here—he is so genial
+                —he is one of my most determined friends—Major P wants to take me out
+                on lecture platform but of course it is out of question—</p> 
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -114,7 +111,7 @@
                             <floatingText rend="flat">
                                 <body> 
                                     <head><handShift rend="printed"/>Three Tales.</head>
-                                    <byline><handShift rend="printed"/>By W. D. O'Connor. &#36;1.25</byline>
+                                    <byline><handShift rend="printed"/>By W. D. O'Connor. $1.25</byline>
                                     <p><handShift rend="printed"/>The three tales are, "The Brazen Andriod," a striking historical romance; "The Ghost"
                                         and "The Carpenter," two notatble Christmas stories.</p>
                                 </body>
@@ -128,4 +125,3 @@
         </body>
     </text>
 </TEI>
-

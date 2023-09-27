@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04844">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04844">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04844</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,13 +34,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04844</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James W. Wallace</author>
@@ -51,7 +48,7 @@
                     <date cert="high" when="1892-03-15" xml:id="dat1">March 15, 1892</date>
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00404</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
@@ -59,7 +56,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key= "Wallace, James W." ref="n6121">James W. Wallace</persName>
+                    <persName key="Wallace, James W." ref="n6121">James W. Wallace</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
@@ -84,14 +81,14 @@
                 </dateline>
                 <salute>Dear Walt,</salute>
             </opener>
-            <p>Just a line or two my dearest friend, my comrade &#38; father, dearest of all to my soul,
-                to express the triumph &#38; joy &#38; cheer with which I think of you &#38; with which
+            <p>Just a line or two my dearest friend, my comrade &amp; father, dearest of all to my soul,
+                to express the triumph &amp; joy &amp; cheer with which I think of you &amp; with which
                 I receive tidings of you. Outwardly sad enough, but deep within my soul I know that all is well, 
-                &#38; that our last words should be triumph &#38; praise.<ptr target="loc.02538_n4b"/>
+                &amp; that our last words should be triumph &amp; praise.<ptr target="loc.02538_n4b"/>
                 <pb xml:id="leaf001v" facs="loc_vm.02050_large.jpg" type="verso"/>
-                Day by day I think of you with tenderest sympathy &#38; love. If only I could come for a
-                moment to your bedside &#38; imprint upon your lips a long &#38; loving kiss. Be it as if 
-                I <hi rend="underline">were</hi> with you,<ptr target="loc.04844_n2"/> &#38; here upon the paper I send you one as a 
+                Day by day I think of you with tenderest sympathy &amp; love. If only I could come for a
+                moment to your bedside &amp; imprint upon your lips a long &amp; loving kiss. Be it as if 
+                I <hi rend="underline">were</hi> with you,<ptr target="loc.04844_n2"/> &amp; here upon the paper I send you one as a 
                 token of my dearest love</p> 
             <closer>
                 <salute>X</salute>

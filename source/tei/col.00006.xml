@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="col.00006">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="col.00006">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="me">Marie Ernster</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -31,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>col.00006</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +38,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +46,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>col.00006</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -95,14 +92,13 @@
             <opener>
                 <dateline>
                     <name type="place"><hi rend="underline">Camden</hi></name>
-                    <date when="1886-08-11" rend="right">Aug: 11 Evn'g<ptr target="col.00006_n1"
-                        /></date>
+                    <date when="1886-08-11" rend="right">Aug: 11 Evn'g<ptr target="col.00006_n1"/></date>
                 </dateline>
             </opener>
-            <p>I may keep the MS<ptr target="col.00006_n2"/> a few days longer&#8212;two or
-                three&#8212;I find upon taking it up to&#8211;day, it has a wonderful
-                tenacity&#8212;of course a capital sign&#8212;I will send a few
-                suggestion&#8211;notes&#8212;</p>
+            <p>I may keep the MS<ptr target="col.00006_n2"/> a few days longer—two or
+                three—I find upon taking it up to–day, it has a wonderful
+                tenacity—of course a capital sign—I will send a few
+                suggestion–notes—</p>
             <closer>
                 <signed>W W</signed>
             </closer>

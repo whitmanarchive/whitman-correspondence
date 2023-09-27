@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08051"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08051"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08051</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,13 +34,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08051</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -53,7 +50,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">203</biblScope>
                         </imprint>
@@ -64,7 +61,7 @@
                     <title>Walt Whitman to James W. Wallace, 23 May 1891</title>
                     <date cert="high" when="1891-05-23" xml:id="dat1">May 23, 1891</date>
                     <idno type="callno">MMC-1482; MSS90019</idno>
-                    <orgName xml:id="loc">Henry S. Saunders collection of Walt Whitman papers, 1887&#8211;1923, Library 
+                    <orgName xml:id="loc">Henry S. Saunders collection of Walt Whitman papers, 1887–1923, Library 
                         of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -92,89 +89,27 @@
             <opener>
                 <dateline> 
                     <date when="1891-05-23">Evn'g May 23 '91</date>
-                    <name type="place">Camden N J&#8212;U S America<ptr target="loc.08051_n1"/></name>
+                    <name type="place">Camden N J—U S America<ptr target="loc.08051_n1"/></name>
                 </dateline>
             </opener>
-            <p>Nothing pronounced to write&#8212;y'r kind letters<ptr target="n5005"/> promptly rec'd, thanks&#8212;the Contemporary Mag:<ptr target="n5006"/> 
-                &#38; Manchester Guardian<ptr target="loc.08051_n3"/> 13th rec'd: &#38; others&#8212;is now well on to sunset&#8212;have had my supper, 
-                mainly a dish of strawberries, (good &#38; plenty &#38; cheap now here)&#8212;my condition the same 
-                continued, bad bad enough&#8212;(if my birth-day<ptr target="wau.00003_n3"/> reveller friends don't look out they will run 
-                on as bad a snag as the good friends who went with loving gifts &#38; words to congratulate 
-                the old musician &#38; found he was just dead &#38; cold up in the garret)&#8212;Suppose you have 
-                had the stitched "Good-Bye"<ptr target="loc.07894_n2"/> I sent Dr [Johnston]<ptr target="n4102"/>&#8212;sh'l soon send you &#38; Dr a portrait 
+            <p>Nothing pronounced to write—y'r kind letters<ptr target="n5005"/> promptly rec'd, thanks—the Contemporary Mag:<ptr target="n5006"/> 
+                &amp; Manchester Guardian<ptr target="loc.08051_n3"/> 13th rec'd: &amp; others—is now well on to sunset—have had my supper, 
+                mainly a dish of strawberries, (good &amp; plenty &amp; cheap now here)—my condition the same 
+                continued, bad bad enough—(if my birth-day<ptr target="wau.00003_n3"/> reveller friends don't look out they will run 
+                on as bad a snag as the good friends who went with loving gifts &amp; words to congratulate 
+                the old musician &amp; found he was just dead &amp; cold up in the garret)—Suppose you have 
+                had the stitched "Good-Bye"<ptr target="loc.07894_n2"/> I sent Dr [Johnston]<ptr target="n4102"/>—sh'l soon send you &amp; Dr a portrait 
                 or mask of self photo just taken, the most <hi rend="italic">audacious</hi> thing in its line ever 
-                taken<ptr target="loc.02483_n5b"/>&#8212;Dr Bucke<ptr target="n0119"/> is still lamed badly&#8212;
+                taken<ptr target="loc.02483_n5b"/>—Dr Bucke<ptr target="n0119"/> is still lamed badly—
             </p>
             <closer>
                 <signed>W W</signed>
             </closer>
         </body>
     </text> 
-</TEI>
-
-
-<!--<note xml:id="loc.08051_n3" resp="wwa" type="editorial">In 1821, John Edward Taylor (1791&#8211;1844), a cotton merchant, 
+</TEI><!--<note xml:id="loc.08051_n3" resp="wwa" type="editorial">In 1821, John Edward Taylor (1791&#8211;1844), a cotton merchant, 
     founded <hi rend="italic">The Manchester Guardian</hi>. It began as a weekly, but later became a daily newspaper.
     The paper attained international fame under the editorship of Charles Prestwich ("C. P.") Scott (1846&#8211;1932),
     who served as editor for fifty-seven years, beginning in 1872, and was the paper's owner from 1907 until his death.
     In 1959, the paper's name was changed to simply <hi rend="italic">The Guardian</hi>, and publication continues under
     that name.</note> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

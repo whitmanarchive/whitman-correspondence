@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04002">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04002">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04002</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04002</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -56,7 +53,7 @@
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00361</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,25 +84,25 @@
                     <name type="place">Camden</name>
                     <date when="1890-05-28">May 28 1890</date>
                 </dateline>
-                <salute>Dear Harry &#38; Dear Eva &#38; Dear babies,</salute>
+                <salute>Dear Harry &amp; Dear Eva &amp; Dear babies,</salute>
             </opener>
             <p> 
-                Seems to me the trees &#38; grass &#38; skies never look'd so fine as they do these early summer days.&#8212;I
-                suppose this letter to your folks at Glendale<ptr target="loc.04005_n3"/> will give the points of news abt me &#38;c.
-                I keep up Hank (but it is a tough job sometimes)&#8212;If I am well enough
+                Seems to me the trees &amp; grass &amp; skies never look'd so fine as they do these early summer days.—I
+                suppose this letter to your folks at Glendale<ptr target="loc.04005_n3"/> will give the points of news abt me &amp;c.
+                I keep up Hank (but it is a tough job sometimes)—If I am well enough
                 I go over to a birth day supper<ptr target="loc.07350_n2"/> some friends insist of giving me
-                Saturday evn'g next. From that I enter on my 72d year&#8212;
+                Saturday evn'g next. From that I enter on my 72d year—
             </p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript>
                 <p>
-                    here is &#36;2 for the young ones, Eva<ptr target="loc.04002_n2"/>
+                    here is $2 for the young ones, Eva<ptr target="loc.04002_n2"/>
                 </p>
             </postscript>
             <pb xml:id="leaf001v" facs="loc_zs.00218_large.jpg" type="verso"/>
             <note type="authorial" place="center">Eva Stafford</note>
         </body>
     </text>
-</TEI> 
+</TEI>

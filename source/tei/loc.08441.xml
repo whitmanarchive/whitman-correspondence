@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08441">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08441">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08441</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,12 +34,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce 
                         the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08441</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -52,7 +49,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">256</biblScope>
                         </imprint>
@@ -63,7 +60,7 @@
                     <title>Walt Whitman to John Russell Young, 24 October 1891</title>
                     <date cert="high" when="1891-10-24" xml:id="dat1">October 24, 1891</date>
                     <idno type="callno">MSS18630</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,22 +86,21 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden N J<ptr target="loc.08441_n1"/>&#8212;</name>
+                    <name type="place">Camden N J<ptr target="loc.08441_n1"/>—</name>
                     <date when="1891-10-24">Oct: 24 '91</date>
                 </dateline>
-                <salute>Dear friend J R Y&#8212;</salute>
+                <salute>Dear friend J R Y—</salute>
             </opener>
-            <p> Y'rs of 23d rec'd<ptr target="loc.08441_n2"/>&#8212;many thanks for the invitation,
-                &#38; affectionate regards to you &#38; to Messrs: Jefferson
-                &#38; Florence<ptr target="loc.08441_n3"/>&#8212;But I am too dilapidated, &#38; cannot
+            <p> Y'rs of 23d rec'd<ptr target="loc.08441_n2"/>—many thanks for the invitation,
+                &amp; affectionate regards to you &amp; to Messrs: Jefferson
+                &amp; Florence<ptr target="loc.08441_n3"/>—But I am too dilapidated, &amp; cannot
                 think of trying to come over.</p>
 
             <p>If you see Frank Carpenter<ptr target="loc.07893_n3"/> tell him I am willing to sit
-                for the picture, wh' is all I can do&#8212;&#38; I send him my best
-                compliments&#8212;am sitting here now in great arm chair with wolf-skin spread
-                over back for warmth&#8212;cannot get across the room (f'm paralysis)&#8212;but
-                fair spirits&#8212;just had a pleasant call f'm Jeannette Gilder<ptr target="n0264"
-                /> N Y. &#38; some charming girls<ptr target="loc.08441_n4"/>&#8212;</p>
+                for the picture, wh' is all I can do—&amp; I send him my best
+                compliments—am sitting here now in great arm chair with wolf-skin spread
+                over back for warmth—cannot get across the room (f'm paralysis)—but
+                fair spirits—just had a pleasant call f'm Jeannette Gilder<ptr target="n0264"/> N Y. &amp; some charming girls<ptr target="loc.08441_n4"/>—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

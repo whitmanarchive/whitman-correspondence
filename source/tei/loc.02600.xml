@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02600"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02600"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02600</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4116</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02600</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Sloane Kennedy</author>
@@ -55,7 +51,7 @@
                     <date cert="high" when="1885-01-16" xml:id="dat1">January 16, 1885</date>
                     <idno type="callno">Box 12, Reel 7-8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -83,7 +79,7 @@
     <text type="letter">
         <body>
             <pb xml:id="leaf001r" facs="loc.02600.001_large.jpg" type="recto"/>
-            <note type="editorial" resp="#ww" place="bottom">good letter&#8212;from W S
+            <note type="editorial" resp="#ww" place="bottom">good letter—from W S
             Kennedy</note>
             <note type="editorial" resp="#ww" place="bottom">85</note>
             <note type="editorial" resp="#ww" place="top">(over)</note>
@@ -95,33 +91,28 @@
                 </dateline>
                 <salute>Dear W.W.</salute>
             </opener>
-            <p>I send you by this mail my paper&#8212;"The New Ars Poetica"<ptr
-                    target="loc.02600_n1"/></p>
-            <p>I want you to read it, &#38;, if you think best, ask McKay<ptr target="syr.00031_n3"
-                /> to bring it out for us.</p>
-            <p>I have a strong &#38; even strange feeling of the educative and epoch-making nature
-                of your style (poetical); &#38; I am confident that my essay will do great good. I
-                want all the chief American &#38; especially the English poets to have copies.
-                Nothing in the world, I believe, stands so much in <pb xml:id="leaf001v"
-                    facs="loc.02600.002_large.jpg" type="verso"/>
+            <p>I send you by this mail my paper—"The New Ars Poetica"<ptr target="loc.02600_n1"/></p>
+            <p>I want you to read it, &amp;, if you think best, ask McKay<ptr target="syr.00031_n3"/> to bring it out for us.</p>
+            <p>I have a strong &amp; even strange feeling of the educative and epoch-making nature
+                of your style (poetical); &amp; I am confident that my essay will do great good. I
+                want all the chief American &amp; especially the English poets to have copies.
+                Nothing in the world, I believe, stands so much in <pb xml:id="leaf001v" facs="loc.02600.002_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc.02600.003_large.jpg" type="recto"/> the way of the
                     greater sale of <choice>
                     <orig>yr</orig>
                     <reg>your</reg>
-                </choice> "Leaves" as the idea among people that your style is ridiculous &#38;
-                unpoetical. The laugh, I find, is always raised by this the first thing. If <unclear
-                    reason="illegible" cert="medium" resp="#aa">they <choice>
+                </choice> "Leaves" as the idea among people that your style is ridiculous &amp;
+                unpoetical. The laugh, I find, is always raised by this the first thing. If <unclear reason="illegible" cert="medium" resp="#aa">they <choice>
                         <orig>cd</orig>
                         <reg>could</reg>
-                    </choice></unclear> have good authority or rendered reason &#38; proof that the
-                style was true to nature &#38; good in itself, other difficulties <choice>
+                    </choice></unclear> have good authority or rendered reason &amp; proof that the
+                style was true to nature &amp; good in itself, other difficulties <choice>
                     <orig>wd</orig>
                     <reg>would</reg>
                 </choice> easily melt away.</p>
-            <p>I have examined all literary sources, but have had to work out the subject&#8212;in
-                the main, by slow &#38; painful original steps. What do you think of my performance?
-                I wish the <unclear reason="illegible" cert="medium" resp="#kb"
-                    >libret</unclear> might even be bound. It ought to sell a small edition. Can you
+            <p>I have examined all literary sources, but have had to work out the subject—in
+                the main, by slow &amp; painful original steps. What do you think of my performance?
+                I wish the <unclear reason="illegible" cert="medium" resp="#kb">libret</unclear> might even be bound. It ought to sell a small edition. Can you
                 interest some moneyed fellow in it? </p>
             <closer>
                 <salute>as ever <choice>
@@ -133,8 +124,7 @@
             <pb xml:id="leaf002v" facs="loc.02600.004_large.jpg" type="verso"/>
             <postscript>
                 <p>Last p.</p>
-                <p>Can't you write me something yourself on the all important subject? Come: <hi
-                        rend="underline">that</hi>
+                <p>Can't you write me something yourself on the all important subject? Come: <hi rend="underline">that</hi>
                     <choice>
                         <orig>wd</orig>
                         <reg>would</reg>
@@ -146,10 +136,9 @@
                 <p>Do exert yourself in the matter if you feel able. I believe it <choice>
                         <orig>wd</orig>
                         <reg>would</reg>
-                    </choice> give you a money return. We shd get people to talking at a great rate. <hi
-                        rend="underline">Especially</hi> if you are quoted as saying something
+                    </choice> give you a money return. We shd get people to talking at a great rate. <hi rend="underline">Especially</hi> if you are quoted as saying something
                     philosophical on the subject; something new, in addition to that in preface
-                    &#38; <choice>
+                    &amp; <choice>
                         <orig>yr</orig>
                         <reg>your</reg>
                     </choice> first quarto.</p>

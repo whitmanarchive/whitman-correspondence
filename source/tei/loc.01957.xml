@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01957">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01957">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01957</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,20 +40,20 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
                         provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
                         and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
                         has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>            
+            <idno>loc.01957</idno></publicationStmt>            
             <sourceDesc>       
                 <bibl>
                     <author>John Swinton</author>
                     <title>John Swinton to Walt Whitman, 23 June 1874</title>  
                     <date cert="high" when="1874-06-23" xml:id="dat1">June 23, 1874</date>
-                    <idno type="callno">MSS18630, Box 17, Reel 10&#8211;11</idno>
+                    <idno type="callno">MSS18630, Box 17, Reel 10–11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00378</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -99,26 +96,26 @@
                     <name type="place">134 East 38th St, New York,</name>
                     <date when="1874-01-23">June 23/1874<ptr target="loc.01957_n3"/></date>
                 </dateline>
-                <salute>My beloved Walt&#8212;</salute>
+                <salute>My beloved Walt—</salute>
             </opener>
             <p>I have read thy sublime poem of the "Universal"<ptr target="loc.01957_n2"/> once and again, 
-                and yet again&#8212;seeing it in the 
+                and yet again—seeing it in the 
                 Graphic,<ptr target="yal.00413_n3"/> Post, Mail, World, and 
                 among other papers.<space extent="10 letters"/>It <hi rend="underline">is</hi> 
                 sublime.<space extent="10 letters"/>It raised my mind to its own sublimity.<space extent="10 letters"/>It 
                 seems to me the sublimest of all your poems.<space extent="10 letters"/>I cannot help reading it every once 
                 of a while.<space extent="10 letters"/>I return to it as a fountain of joy</p>
-            <p>My beloved Walt.&#8212;You know how I have worshipped you, without change or cessation, for twenty 
+            <p>My beloved Walt.—You know how I have worshipped you, without change or cessation, for twenty 
                 years.<space extent="10 letters"/>While my soul exists, the worship must be ever new.</p>
             <p>It was perhaps the very day of the publication of the first edition
                 of the "Leaves of Grass"<ptr target="loc.02472_n12"/> that I saw a copy 
                 of it at a newspaper stand in Fulton street Brooklyn. I got it, looked into it with wonder, and felt that 
                 here was something that touched on depths of my humanity. Since then you have grown before me, grown around 
                 me, and grown into me</p>
-            <p>&#8212;I expected certainly to go down to Camden last fall to see you.<space extent="6 letters"/>But something 
-                prevented. And, in time, I saw in the papers that you had recovered&#8212;The New Year took 
+            <p>—I expected certainly to go down to Camden last fall to see you.<space extent="6 letters"/>But something 
+                prevented. And, in time, I saw in the papers that you had recovered—The New Year took 
                 me into a new field of action among the miserables.<space extent="6 letters"/>Oh, what 
-                scenes of human horror were to be found in this city last winter.&#8212;I cannot tell you how much I was
+                scenes of human horror were to be found in this city last winter.—I cannot tell you how much I was
                 engaged, or all I did for three months.<space extent="6 letters"/>I 
                 must wait till I see you to tell you about these things.<space extent="10 letters"/>I have                     
                 <pb xml:id="leaf001v" facs="loc_gt.00278_large.jpg" type="verso"/>            
@@ -128,7 +125,7 @@
             <p>How absurd it is to suppose that there is any ailment in the brain of a man who can generate the poem of the 
                 "Universal"<space extent="10 letters"/>I would parody Lincoln 
                 and say that such kind of ailment ought to spread.</p>
-            <p>My beloved Walt&#8212;Tell me if you would like me to come to see you, and perhaps I can do so within a few weeks.</p>
+            <p>My beloved Walt—Tell me if you would like me to come to see you, and perhaps I can do so within a few weeks.</p>
             <closer>
                 <salute>Yours always</salute>
                 <signed><hi rend="underline">John Swinton</hi></signed>                
@@ -137,4 +134,4 @@
             <note type="editorial" resp="#ww" place="bottom">John Swinton</note>
         </body>
     </text>
-</TEI> 
+</TEI>

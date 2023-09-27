@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02546">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02546">  
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02546</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,29 +34,29 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02546</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Dr. John Johnston</author>
                     <title>Dr. John Johnston to Walt Whitman, 2 March 1892</title>
                     <date cert="high" when="1892-03-02" xml:id="dat1">March 2, 1892</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno> 
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno> 
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00248</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key= "Johnston, Dr. John" ref="n4102">Dr. John Johnston</persName>
+                    <persName key="Johnston, Dr. John" ref="n4102">Dr. John Johnston</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
@@ -84,9 +81,9 @@
                 </dateline>
             </opener>
             <p>Just another line to you my dear old friend to send you my best love
-                &#38; my warmest sympathy<ptr target="loc.02538_n4"/></p>
-            <p>God bless you &#38; keep you &#38; make his face to shine upon you 
-                &#38; give you peace&#8212;perfect <hi rend="underline">peace</hi>&#8212;His Peace! 
+                &amp; my warmest sympathy<ptr target="loc.02538_n4"/></p>
+            <p>God bless you &amp; keep you &amp; make his face to shine upon you 
+                &amp; give you peace—perfect <hi rend="underline">peace</hi>—His Peace! 
                 is the prayer of
             </p>
             <closer>
@@ -96,5 +93,4 @@
             <pb xml:id="leaf001v" facs="loc.02546.002_large.jpg" type="verso"/>
         </body> 
     </text>
-</TEI> 
-
+</TEI>

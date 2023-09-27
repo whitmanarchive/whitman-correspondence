@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08042"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08042"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08042</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,13 +38,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08042</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,7 +54,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">198</biblScope>
                         </imprint>
@@ -69,10 +66,10 @@
                         Walt Whitman to Richard Maurice Bucke, 9 May 1891
                     </title>
                     <date cert="high" when="1891-05-09" xml:id="dat1">May 9, 1891</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <orgName xml:id="loc">
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.
                     </orgName>
                 </bibl>
             </sourceDesc>
@@ -80,7 +77,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Walt" >Walt Whitman</persName>
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName> 
@@ -101,12 +98,12 @@
                     <date when="1891-05-09">May 9 '91</date>
                 </dateline>
             </opener>
-            <p>Things continuing on same with me &#38; bad enough physically&#8212;Dr L[ongaker]<ptr target="loc.08039_n2"/> 
-                absent sick&#8212;no bowel action&#8212;deathly weakness&#8212;passable nights&#8212;have 
-                just drink'd a cup of hot water&#8212;appetite poor but no nausea&#8212;growing 
-                warmer weather&#8212;am sweating a little now&#8212;sunshiny out&#8212;Dr L
-                comes in as I write &#38; is welcome&#8212;seems all right&#8212;Letters f'm 
-                Kennedy<ptr target="n3039"/> &#38; the Bolton friends<ptr target="loc.08042_n3"/> to-day<ptr target="loc.08042_n2"/>&#8212;
+            <p>Things continuing on same with me &amp; bad enough physically—Dr L[ongaker]<ptr target="loc.08039_n2"/> 
+                absent sick—no bowel action—deathly weakness—passable nights—have 
+                just drink'd a cup of hot water—appetite poor but no nausea—growing 
+                warmer weather—am sweating a little now—sunshiny out—Dr L
+                comes in as I write &amp; is welcome—seems all right—Letters f'm 
+                Kennedy<ptr target="n3039"/> &amp; the Bolton friends<ptr target="loc.08042_n3"/> to-day<ptr target="loc.08042_n2"/>—
             </p> 
             <closer>
                 <signed>Walt Whitman</signed>
@@ -114,57 +111,3 @@
         </body> 
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

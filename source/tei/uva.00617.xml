@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00617">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00617">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00617</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00617</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Jeannette L. and Joseph B. Gilder</author>
@@ -103,8 +100,7 @@
                 <salute><handShift rend="manuscript"/>Dear Mr. Whitman:</salute>
             </opener>
 
-            <p><handShift rend="printed"/>In the Holiday Announcement Number of THE CRITIC,<ptr
-                    target="loc.03074_n5"/> to be issued this month, in an edition of more than
+            <p><handShift rend="printed"/>In the Holiday Announcement Number of THE CRITIC,<ptr target="loc.03074_n5"/> to be issued this month, in an edition of more than
                 20,000 copies, we desire to tell our readers what the best-known authors are doing;
                 and to that end, we venture to ask you to let us know what work you have in
                 hand.</p>
@@ -113,17 +109,17 @@
                 time.</p>
             <p><handShift rend="printed"/>A number containing the interesting and authentic
                 information that we hope thus to be enabled to lay before our readers would
-                demonstrate anew THE CRITIC'S right to call itself a literary NEWSpaper&#8212;a
+                demonstrate anew THE CRITIC'S right to call itself a literary NEWSpaper—a
                 title which it has done its best to earn during the ten years now drawing to a
                 close.</p>
             <p><handShift rend="printed"/>The facts you may send us will be given in the third
-                    person&#8212;<hi rend="italic">i. e,.</hi> not quoted as coming directly from
+                    person—<hi rend="italic">i. e,.</hi> not quoted as coming directly from
                 the author.</p>
             <p><handShift rend="printed"/>Hoping to hear from you as soon as you can make it
                 convenient to reply, we remain,<ptr target="uva.00671_n1"/></p>
             <closer>
                 <salute><handShift rend="printed"/>Very truly yours,</salute>
-                <signed><handShift rend="manuscript"/>J.L. &#38; J.B. Gilder</signed>
+                <signed><handShift rend="manuscript"/>J.L. &amp; J.B. Gilder</signed>
                 <name><handShift rend="printed"/>EDITORS OF THE CRITIC</name>
             </closer>
             <pb xml:id="leaf001v" facs="uva_tb.00004.jpg" type="verso"/>

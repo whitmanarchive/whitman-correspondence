@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07976">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07976">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07976</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07976</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00100</idno>
                     <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -90,19 +87,18 @@
                     <name type="place">Office.</name>
                     <name type="place">INSANE ASYLUM</name>
                     <name type="place">LONDON ONTARIO<ptr target="loc.07976_n1"/></name>
-                    <date when="1891-01-03">3 Jan <handShift rend="printed"/>18<handShift
-                            rend="manuscript"/>91</date> 
+                    <date when="1891-01-03">3 Jan <handShift rend="printed"/>18<handShift rend="manuscript"/>91</date> 
                 </dateline>
             </opener> 
             <p> Yours of 31 Dec.<ptr target="n5002"/> just to hand. Do not worry about me,<ptr target="loc.07976_n2"/>
                 dear Walt, I am all right, am over at office every day now and have pretty good
-                nights&#8212;of course I had a little pain and a few restless nights but nothing
-                worth talking about and now even these are over&#8212; but I thank you and all the
+                nights—of course I had a little pain and a few restless nights but nothing
+                worth talking about and now even these are over— but I thank you and all the
                 good friends down east there for your kind sympathy. Our sleighing is gone again but
                 the wheeling is good and the weather clear and charming I am going out for a drive
-                in an hour my boy Maurice will take me&#8212;Am reading Dumas' Marie Antoinette
-                    Romances<ptr target="loc.07976_n3"/>&#8212;am in 7<hi rend="underline">th</hi>
-                vol. of the set &#38; have 6 more to read&#8212;it is a picture (good one) of the
+                in an hour my boy Maurice will take me—Am reading Dumas' Marie Antoinette
+                    Romances<ptr target="loc.07976_n3"/>—am in 7<hi rend="underline">th</hi>
+                vol. of the set &amp; have 6 more to read—it is a picture (good one) of the
                 French Revolution</p>
             <closer>
                 <salute><hi rend="underline">Love</hi></salute>
@@ -113,4 +109,4 @@
             <note type="editorial" place="top" resp="#ht">see notes Jan 16 1891</note>
         </body>
     </text> 
-</TEI> 
+</TEI>

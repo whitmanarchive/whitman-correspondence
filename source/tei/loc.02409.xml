@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02409">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02409">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02409</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,12 +33,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02409</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Newton Johnson</author>
@@ -49,7 +46,7 @@
                     <date cert="high" when="1888-05-08" xml:id="dat1">May 8, 1888</date>
                     <idno type="callno">MSS18630, Box 11, Reel 7</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00237</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,7 +86,7 @@
                 <milestone unit="undeclared" rend="horbar-full"/>
             </p>
                <lg type="linegroup">
-                <l>Others adorn the past&#8212;but you, O days of the present I adorn you!</l>
+                <l>Others adorn the past—but you, O days of the present I adorn you!</l>
                 <l>O days of the future, I believe in you! I isolate myself for your sake!</l>
                 <l>O America, because you build <choice><abbr>f'r</abbr><expan>for</expan></choice> mankind, I 
                     <choice><abbr>b'ild</abbr><expan>build</expan></choice> <choice><abbr>f'r</abbr><expan>for</expan></choice> you!</l>
@@ -106,7 +103,7 @@
                 <l>Their Presidents shall not be their common referee so much as their poets shall.</l>
                 <l>(Soul of love, and tongue of fire!</l>
                 <l>Eye to pierce the deepest deeps, and sweep the world;</l>
-                <l>&#8212;Ah mother! prolific and full in all besides&#8212;yet how long barren, barren?)</l>
+                <l>—Ah mother! prolific and full in all besides—yet how long barren, barren?)</l>
             </lg>
              
             <p><milestone unit="undeclared" rend="horbar-full"/></p>
@@ -125,7 +122,7 @@
                 <l>I <choice><abbr>DREAM'D</abbr><expan>DREAMED</expan></choice> in a dream, I saw a city invincible 
                     to the attacks of the wholeof the rest of the earth;</l>
                 <l>I <choice><abbr>dream'd</abbr><expan>dreamed</expan></choice> that was the new City of Friends.</l>
-                <l>Nothing was greater there than the quality of robust love&#8212;it led the rest;</l>
+                <l>Nothing was greater there than the quality of robust love—it led the rest;</l>
                 <l>It was seen every hour in the actions of the men of that city,</l>
                 <l>And in all their looks and words.<ptr target="loc.02409_n2"/></l>
             </lg>
@@ -133,4 +130,4 @@
             <pb xml:id="leaf001v" facs="loc.02409.001.jpg" type="verso"/>
         </body>
     </text> 
-</TEI>  
+</TEI>

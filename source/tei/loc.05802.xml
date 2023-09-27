@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05802">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05802">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05802</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +41,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05802</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Justin Huntly McCarthy</author>
@@ -54,12 +50,12 @@
                     <idno type="callno">MSS18630, Box 42, Reel 26</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.01504</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="document" xml:id="rel01" target="loc.05801"/>
                     <relatedItem type="text" target="loc.05801"/>
                     <note type="project" target="#rel01">This letter has been crossed out, and on the back, Whitman wrote notes 
-                        under the heading "the <hi rend="italic">Ram&#257;yana</hi>." Whitman is referring to 
-                        <hi rend="italic">The R&#257;m&#257;yana</hi>, a Sanskrit epic ascribed to Maharishi Valmiki.</note>
+                        under the heading "the <hi rend="italic">Ramāyana</hi>." Whitman is referring to 
+                        <hi rend="italic">The Rāmāyana</hi>, a Sanskrit epic ascribed to Maharishi Valmiki.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -92,8 +88,8 @@
                 <salute>Dear Walt Whitman</salute>
             </opener>
             <p>I have received your volume and thank you heartily My Father,<ptr target="loc.05802_n2"/> who had the pleasure of meeting you in
-                America&#8212;which I had not, though I have lived in &#38; love the land&#8212;and to whom you kindly
-                gave a copy of your 'Leaves of Grass' sends his warm regards &#38; desires to be remembered.</p> 
+                America—which I had not, though I have lived in &amp; love the land—and to whom you kindly
+                gave a copy of your 'Leaves of Grass' sends his warm regards &amp; desires to be remembered.</p> 
             <closer>
                 <salute>One of the humblest of your admirers</salute>
                 <signed>Justin H. <hi rend="underline">McCarthy</hi></signed>
@@ -101,7 +97,4 @@
             <pb xml:id="leaf001v" facs="loc_no.00044_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
-
-
-
+</TEI>

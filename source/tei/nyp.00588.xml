@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00588">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00588">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                     <persName xml:id="me">Marie Ernster</persName>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00588</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00588</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,7 +55,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">6</biblScope>
                             <biblScope type="page">43</biblScope>
                         </imprint>
@@ -99,20 +96,19 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden New Jersey U S America<ptr target="nyp.00588_n1"
-                        /></name>
-                    <date when="1887-07-20">July 20 '87&#8212;</date>
+                    <name type="place">Camden New Jersey U S America<ptr target="nyp.00588_n1"/></name>
+                    <date when="1887-07-20">July 20 '87—</date>
                 </dateline>
             </opener>
-            <p>A fearfully hot month here but I am getting along with it pretty well&#8212;H
-                    Gilchrist<ptr target="n0262"/> is still here&#8212;he is well&#8212;Still
-                painting my portrait &#38; succeeding&#8212;you will see it as it is for London he
-                is working&#8212;A sculptor (Sidney Morse)<ptr target="n0862"/> is also
-                here&#8212;has made a good head<ptr target="nyp.00588_n2"/> of me &#38; I want you
-                to have one&#8212;I am well pleased with the bookmaking of your edn "Spec:
-                Days"<ptr target="n4121"/>&#8212;shall soon send you more stuff for "Democratic Vistas"<ptr target="nyp.00588_n3"/>&#8212;I wish you
+            <p>A fearfully hot month here but I am getting along with it pretty well—H
+                    Gilchrist<ptr target="n0262"/> is still here—he is well—Still
+                painting my portrait &amp; succeeding—you will see it as it is for London he
+                is working—A sculptor (Sidney Morse)<ptr target="n0862"/> is also
+                here—has made a good head<ptr target="nyp.00588_n2"/> of me &amp; I want you
+                to have one—I am well pleased with the bookmaking of your edn "Spec:
+                Days"<ptr target="n4121"/>—shall soon send you more stuff for "Democratic Vistas"<ptr target="nyp.00588_n3"/>—I wish you
                 send me the next "Fortnightly," if Swinburne's<ptr target="n0610"/> piece ab't me is
-                in it<ptr target="nyp.00588_n4"/>&#8212;</p>
+                in it<ptr target="nyp.00588_n4"/>—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

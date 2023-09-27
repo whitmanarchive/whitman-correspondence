@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01504">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01504">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01504</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,20 +35,20 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
                         provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
                         advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01504</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Edward Dowden</author>
                     <title>Edward Dowden to Walt Whitman, 7 May 1890</title>
                     <date cert="medium" when="1890-05-07" xml:id="dat1">May 7, 1890</date>
-                    <idno type="callno">MSS18630, Box 9, Reel 5&#8211;6</idno>
+                    <idno type="callno">MSS18630, Box 9, Reel 5–6</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00156</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -87,11 +84,11 @@
                     <p>Many thanks for sending me the notice of your lecture, with the added paragraphs, 
                         which I am very glad to possess.<ptr target="loc.01504_n1"/></p>
                     <p>It grieves me to hear of your bodily infirmity, but the spirit remains strong 
-                        &#38; sane &#38; sweet&#8212;&#38; that is the chief thing.</p>
+                        &amp; sane &amp; sweet—&amp; that is the chief thing.</p>
            <p>My father<ptr target="loc.01504_n2"/> still lives, at the age of ninety-one. But
                <pb xml:id="leaf001v" facs="loc.01504.002_large.jpg" type="verso"/>
                I have lately lost my sister.<ptr target="loc.01503_n3"/> I saw her a few days before her death, which she looked forward to with great happiness. 
-           We had rather a true reunion than a sorrowful parting&#8212;&#38; yet there was sorrow in it too.</p>
+           We had rather a true reunion than a sorrowful parting—&amp; yet there was sorrow in it too.</p>
                 <closer>
                  <salute>Affectionately yours</salute>
                 <signed>Edward Dowden</signed>
@@ -99,7 +96,3 @@
        </body>  
     </text> 
 </TEI>
-
-
-
-

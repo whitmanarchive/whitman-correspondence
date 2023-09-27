@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="syr.00016">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="syr.00016">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>syr.00016</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>syr.00016</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Charles Allen Thorndike Rice</author>
@@ -90,8 +86,7 @@
         <body>
             <pb xml:id="leaf001r" facs="syr_kc.00045_large.jpg" type="recto"/>
             <note type="editorial" resp="#ht" place="top">see notes March 12 1889</note>
-            <note type="editorial" resp="#ww" place="top"><date when="1885-07-14">July 14<hi
-                        rend="superscript">th</hi> 1885</date></note>
+            <note type="editorial" resp="#ww" place="top"><date when="1885-07-14">July 14<hi rend="superscript">th</hi> 1885</date></note>
             <note type="editorial" resp="#unk" place="right">A. Thorndike Rice</note>
             <note type="editorial" resp="#unk" place="right">Rice, A.T.</note>
             <opener>
@@ -109,13 +104,10 @@
                 <handShift rend="typescript"/>I take pleasure in soliciting your literary
                 cooperation in an enterprise which has been conducted with great success since the
                 beginning of the year. A number of important American newspapers, among which may be
-                mentioned such as the New York <hi rend="underline">Tribune</hi>, Philadelphia <hi
-                    rend="underline">Press</hi>, Detroit <hi rend="underline">Post</hi>, Chicago <hi
-                    rend="underline">Times</hi>, St. Paul <hi rend="underline">Pioneer Press</hi>
+                mentioned such as the New York <hi rend="underline">Tribune</hi>, Philadelphia <hi rend="underline">Press</hi>, Detroit <hi rend="underline">Post</hi>, Chicago <hi rend="underline">Times</hi>, St. Paul <hi rend="underline">Pioneer Press</hi>
                 etc. have agreed to combine in receiving for their Sunday Editions articles
                 arranged for and edited by me, to be written by distinguished authors, scientists,
-                travellers, and men of affairs <pb xml:id="leaf002r" facs="syr_kc.00047_large.jpg"
-                    type="recto"/> on both sides of the Atlantic. Many eminent contributors in
+                travellers, and men of affairs <pb xml:id="leaf002r" facs="syr_kc.00047_large.jpg" type="recto"/> on both sides of the Atlantic. Many eminent contributors in
                 Europe and America have already written, and many others have promised to write. The
                 papers in which these articles are published reach nearly two millions of the most
                 intelligent people of the country. The aim is that these papers should be as far as
@@ -124,8 +116,7 @@
                 you will find it consistent with your obligations to give me your literary
                 assistance. </p>
             <p><handShift rend="manuscript"/> I should like a paper from you at your very earliest
-                leisure about 3000 words in length and leave <pb xml:id="leaf001v"
-                    facs="syr_kc.00046_large.jpg" type="verso"/>
+                leisure about 3000 words in length and leave <pb xml:id="leaf001v" facs="syr_kc.00046_large.jpg" type="verso"/>
                 <!--This handwritten section continues from the leaf002r to leaf001v-->
                 <pb xml:id="leaf002v" facs="syr_kc.00048_large.jpg" type="verso"/> the subject
                 somewhat to yourself, only asking that it shall be of a popular character. I shall

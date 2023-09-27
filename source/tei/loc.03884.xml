@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03884">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03884">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03884</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03884</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Susan Stafford</author>
@@ -54,7 +51,7 @@
                     <date cert="high" when="1890-12-03" xml:id="dat1">December 3, 1890</date>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00360</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,34 +83,31 @@
                 </dateline>
                 <salute>Dear Mr Whitman</salute>  
             </opener>
-            <p>I received your letters<ptr target="loc.03884_n3"/> &#38; should have written to you long before this but I have
-                had so much to do paps illness<ptr target="n0852"/> &#38; Monts<ptr target="n0910b"/> little family have <choice>
+            <p>I received your letters<ptr target="loc.03884_n3"/> &amp; should have written to you long before this but I have
+                had so much to do paps illness<ptr target="n0852"/> &amp; Monts<ptr target="n0910b"/> little family have <choice>
                     <sic>keept</sic>
                     <corr>kept</corr>
-                </choice> me busy for the past month &#38; I have an old lady staying with me &#38;
+                </choice> me busy for the past month &amp; I have an old lady staying with me &amp;
                 Jane<ptr target="n5001"/> away so you see that my time is about taken up. Pap does not improve very
                 rapidly one day he is better the next worse cannot sit up all day more than an hour
                 or two at any time, I suppose that Ed<ptr target="n0589e"/> told you he had paralyses
-                he did not know that he had a left hand for five days but he has regained<pb
-                    xml:id="leaf001v" facs="loc_vm.00066.jpg" type="verso"/> the use of his hand but
+                he did not know that he had a left hand for five days but he has regained<pb xml:id="leaf001v" facs="loc_vm.00066.jpg" type="verso"/> the use of his hand but
                 not the feeling also the <choice><sic>lift</sic><corr>left</corr></choice> foot 
-                the Dr<ptr target="n5001"/> says it was caused by blood&#8212;pressure of or on the brain
-                &#38; also says that he is likely to "have another attack at any time" I have seen
-                pap ill but never like this he cant remember any thing long at a time &#38; seems to
+                the Dr<ptr target="n5001"/> says it was caused by blood—pressure of or on the brain
+                &amp; also says that he is likely to "have another attack at any time" I have seen
+                pap ill but never like this he cant remember any thing long at a time &amp; seems to
                 be all broken up. I don't know how long Monts family will be here as he has left
-                Woodstown his health was poor so he gave up his position there &#38; has gone out in 
-                <choice><sic>Pensylvania</sic><corr>Pennsylvania</corr></choice> &#38; has 
-                sent his wife &#38; little ones here until he can get a house.
-                The old lady that is staying with me is a sister in law of John Stafford,<ptr
-                    target="loc.03884_n2"/> she is 83 years old is poor &#38; has no home she came
-                here last august to stay 3 weeks<pb xml:id="leaf002r" facs="loc_vm.00068.jpg"
-                    type="recto"/> has been here ever since waiting for her children to provide a
+                Woodstown his health was poor so he gave up his position there &amp; has gone out in 
+                <choice><sic>Pensylvania</sic><corr>Pennsylvania</corr></choice> &amp; has 
+                sent his wife &amp; little ones here until he can get a house.
+                The old lady that is staying with me is a sister in law of John Stafford,<ptr target="loc.03884_n2"/> she is 83 years old is poor &amp; has no home she came
+                here last august to stay 3 weeks<pb xml:id="leaf002r" facs="loc_vm.00068.jpg" type="recto"/> has been here ever since waiting for her children to provide a
                 house for her.</p> 
             <p>I am sorry to hear of your Brothers<ptr target="n4995"/> death, was he ill long? it
                 must be very trying for his daughter<ptr target="n1055"/> poor girl she must feel very much a lone.
                     Harry<ptr target="n0590"/> was here last night he was well he is going to Camden
-                soon &#38; will call at your place. I will say goodby for this time please write to
-                us when you feel able to&#8212;we always like to get a letter from you</p> 
+                soon &amp; will call at your place. I will say goodby for this time please write to
+                us when you feel able to—we always like to get a letter from you</p> 
             <closer> 
                 <salute>with much love</salute>
                 <signed>Susan Stafford</signed>

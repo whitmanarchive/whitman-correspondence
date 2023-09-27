@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mas.00002">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mas.00002">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>mas.00002</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>mas.00002</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -93,21 +89,19 @@
                         </choice> 14 <choice>
                             <abbr>'82</abbr>
                             <expan>1882</expan>
-                        </choice></hi></date>&#8212;
+                        </choice></hi></date>—
                 </dateline>
-                <salute>Dear friend S&#8212;</salute>
+                <salute>Dear friend S—</salute>
             </opener>
 
             <p>I have <choice>
                     <abbr>rec'd</abbr>
                     <expan>received</expan>
-                </choice> from Boston the "<hi rend="underline">Life of Thoreau</hi>"<ptr
-                    target="mas.00002_n1"/>&#8212;(&amp; suppose I am indebted to you for
-                it&#8212;real thanks)&#8212;The telling of Life after all refuses to be put in a <choice>
-                    <abbr>polish'd</abbr><expan>polished</expan></choice>, formal, consecutive statement&#8212;better, living glints, samples,
-                autographic letters above all, memoranda of friends &amp;c&#8212;You have pursued
-                this plan &amp; the result justifies&#8212;Froude's late "<hi rend="underline"
-                    >Carlyle</hi>," a precious book, pursues it too&#8212;&amp; succeeds&#8212;</p>
+                </choice> from Boston the "<hi rend="underline">Life of Thoreau</hi>"<ptr target="mas.00002_n1"/>—(&amp; suppose I am indebted to you for
+                it—real thanks)—The telling of Life after all refuses to be put in a <choice>
+                    <abbr>polish'd</abbr><expan>polished</expan></choice>, formal, consecutive statement—better, living glints, samples,
+                autographic letters above all, memoranda of friends &amp;c—You have pursued
+                this plan &amp; the result justifies—Froude's late "<hi rend="underline">Carlyle</hi>," a precious book, pursues it too—&amp; succeeds—</p>
 
             <closer>
                 <signed rend="right">Walt Whitman</signed>

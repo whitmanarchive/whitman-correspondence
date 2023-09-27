@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03498"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03498"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03498</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,22 +36,22 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03498</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Payne</author>
                     <title>William Payne to Walt Whitman, 19 June 1890</title>
                     <date cert="high" when="1890-06-19" xml:id="dat1">June 19, 1890</date>
-                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="callno">MSS18630, Box 14, Reel 8–9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00307</idno>
                     <orgName xml:id="loc">
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.
                     </orgName>
                 </bibl>
@@ -121,14 +118,14 @@
             </p>
             <p>
                 I want to be able to buy one written
-                or any other edition which is wholly unemasculated &#38; I would gladly
+                or any other edition which is wholly unemasculated &amp; I would gladly
                 <unclear reason="illegible" resp="#adk" cert="medium">remit</unclear> the cost
                 and any Customs Duty if I could be put with the proper channel
             </p>
             <p>
-                I pray you will excuse the great liberty I take &#38;
+                I pray you will excuse the great liberty I take &amp;
               <gap reason="illegible" quantity="2" unit="words"/> subscribe
-                myself your very obedient &#38; admiring servant
+                myself your very obedient &amp; admiring servant
             </p>
             <closer>
                 <signed>William Payne</signed>
@@ -137,5 +134,4 @@
             <pb xml:id="leaf002v" facs="loc.03498.003_large.jpg" type="verso"/>
         </body> 
     </text>
-</TEI> 
-
+</TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00238">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00238">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="rf">Ryan Furlong</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                     <persName xml:id="me">Marie Ernster</persName>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00238</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,13 +37,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
                         accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
                         medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
                         Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
                         of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00238</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -86,20 +83,20 @@
                 </dateline>
                 <salute>Dear friend</salute>
             </opener>
-            <p>Yours of yesterday rec'd this morning<ptr target="n5002d"/>&#8212;I shall leave here in the 
-                4:30 P M Camden via Trenton to NY train to&#8211;morrow, Wednesday, &amp; expect to be in Jersey 
-                City by or before 7, early evening&#8212;A friend, R. Pearsall Smith<ptr target="n4979"/> is convoying 
-                me, &amp; I understand I am to go with him to the Westminster Hotel, for the night&#8212;Yes, meet 
-                me in Jersey City&#8212;I shall expect you:&#8212;the young man Wm Duckett<ptr target="med.00747_n1"/> 
-                is coming on with me&#8212;I am feeling better than for the last two weeks, &amp; shall go through 
-                with the lecture, according to announcement<ptr target="yal.00238_n3b"/>&#8212;I am to have, (according 
-                to wish &amp; arrangement of Mr Smith) a reception at Westminster Hotel, Thursday evening&#8212;returning 
-                here Friday&#8212;</p>
+            <p>Yours of yesterday rec'd this morning<ptr target="n5002d"/>—I shall leave here in the 
+                4:30 P M Camden via Trenton to NY train to–morrow, Wednesday, &amp; expect to be in Jersey 
+                City by or before 7, early evening—A friend, R. Pearsall Smith<ptr target="n4979"/> is convoying 
+                me, &amp; I understand I am to go with him to the Westminster Hotel, for the night—Yes, meet 
+                me in Jersey City—I shall expect you:—the young man Wm Duckett<ptr target="med.00747_n1"/> 
+                is coming on with me—I am feeling better than for the last two weeks, &amp; shall go through 
+                with the lecture, according to announcement<ptr target="yal.00238_n3b"/>—I am to have, (according 
+                to wish &amp; arrangement of Mr Smith) a reception at Westminster Hotel, Thursday evening—returning 
+                here Friday—</p>
             <closer>
-                <salute>Best love &amp; thanks&#8212;</salute>
+                <salute>Best love &amp; thanks—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf001v" facs="yal.00238.002_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

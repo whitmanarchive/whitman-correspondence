@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04788">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04788">
     <teiHeader>    
         <fileDesc>   
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04788</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, 
                     all rights reserved. Items in the Archive may be shared in accordance with the Fair Use
                     provisions of U.S. copyright law. Redistribution or republication on other
                     terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                     Humanities. Permission to reproduce the graphic images in this archive has
                     been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>   
+            <idno>loc.04788</idno></publicationStmt>   
             <sourceDesc>
                 <bibl> 
                     <author>Walt Whitman</author>
@@ -56,7 +53,7 @@
                     <idno type="callno">MSS18630, Box 3, Reel 2</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00041</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of 
-                        Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -92,12 +89,11 @@
                 </dateline>
             </opener>
             <p>Am uneasy ab't you sister dear fear you are worse than usual.<ptr target="loc.04788_n2"/> Nothing 
-                new or different with me&#8212;am getting along fairly considering&#8212;the doctor<ptr target="loc.04788_n3"/> here 
-                yesterday&#8212;I like him&#8212;fine sunny afternoon&#8212;wrote &#38; sent off a piece yesterday 
-                to <choice><abbr>N Y</abbr><expan>New York</expan></choice> paper<ptr target="loc.04788_n4"/>&#8212;Am 
-                sitting here as usual in big chair have a wood fire&#8212;roast apple for my supper&#8212;best love to you Han dear 2 enclosed<ptr target="loc.04788_n5"/>&#8212;</p> 
+                new or different with me—am getting along fairly considering—the doctor<ptr target="loc.04788_n3"/> here 
+                yesterday—I like him—fine sunny afternoon—wrote &amp; sent off a piece yesterday 
+                to <choice><abbr>N Y</abbr><expan>New York</expan></choice> paper<ptr target="loc.04788_n4"/>—Am 
+                sitting here as usual in big chair have a wood fire—roast apple for my supper—best love to you Han dear 2 enclosed<ptr target="loc.04788_n5"/>—</p> 
             <pb xml:id="leaf001v" facs="loc_ad.00164_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
-

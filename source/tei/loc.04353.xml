@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04353">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04353">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt> 
             <publicationStmt>
-                <idno>loc.04353</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,20 +35,20 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
                         provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
                         advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04353</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Thomas E. Vale</author>
                     <title>Thomas E. Vale to Walt Whitman, 12 December 1890</title>
                     <date cert="high" when="1890-12-12" xml:id="dat1">December 12, 1890</date>
-                    <idno type="callno">MSS18630, Box 17, Reel 10&#8211;11</idno>
+                    <idno type="callno">MSS18630, Box 17, Reel 10–11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00398</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,7 +81,7 @@
                     <name type="place">England</name>
                     <date when="1890-12-12">12 Dec<hi rend="underline">r</hi>/90</date>
                 </dateline>
-                <salute>Professor Walt Whitman&#8212;</salute>
+                <salute>Professor Walt Whitman—</salute>
                 <salute>Camden</salute>
                 <salute>New Jersey</salute>
                 <salute>Dear Sir,</salute>
@@ -92,13 +89,13 @@
             <p>I thought the enclosed cutting<ptr target="n5002f"/> out of my Chester paper would interest you. So I have
                 taken the liberty to send it.</p>
             <p>Your kindness on the field of battle, and<pb xml:id="leaf001v" facs="loc_vm.00745.jpg" type="verso"/> in the hospitals, 
-                is deserving of all praise&#8212;and is appreciated by all Britons.</p>
-            <p>Being a stranger, not having read much of your poetry&#8212;I am very anxious, if
-                possible, to procure&#8212;a copy of the first edition of one of your earliest
-                poems. I am not particular which one&#8212;if you would kindly advise me
+                is deserving of all praise—and is appreciated by all Britons.</p>
+            <p>Being a stranger, not having read much of your poetry—I am very anxious, if
+                possible, to procure—a copy of the first edition of one of your earliest
+                poems. I am not particular which one—if you would kindly advise me
                 where<pb xml:id="leaf002r" facs="loc_vm.00746.jpg" type="recto"/> I could
                 procure a copy. I am sure Sir, you have the best wishes of myself, and
-                all&#8212;for your health and happiness, &#38; wishing you a joyful Xmas &#38; a happy new
+                all—for your health and happiness, &amp; wishing you a joyful Xmas &amp; a happy new
                 year.</p>
             <closer>
                 <salute>I remain Dear Sir</salute>
@@ -111,8 +108,8 @@
                 <p>It must have been a great consolation to you, to think that you have helped so
                     much to alleviate the sufferings of those on the field of battle, and in the
                     hospitals.</p>
-                <closer><signed>T. E. Vale&#8212;</signed></closer>
+                <closer><signed>T. E. Vale—</signed></closer>
             </postscript>
         </body> 
     </text> 
-</TEI> 
+</TEI>

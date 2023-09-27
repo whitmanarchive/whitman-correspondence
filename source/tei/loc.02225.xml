@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02225">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02225">
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02225</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02225</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Watson Gilder</author>
@@ -54,7 +51,7 @@
                     <idno type="callno">MSS18630, Box 10, Reel 6</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00197</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -80,16 +77,15 @@
             <pb xml:id="leaf002r" facs="loc.02225.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>EDITORIAL&#183;DEPARTMENT</name>
-                    <name type="place">THE CENTURY&#183;MAGAZINE</name>
-                    <name type="place">UNION&#183;SQUARE&#183;NEW YORK<ptr target="loc.02225_n1"/></name>
+                    <name type="place"><handShift rend="printed"/>EDITORIAL·DEPARTMENT</name>
+                    <name type="place">THE CENTURY·MAGAZINE</name>
+                    <name type="place">UNION·SQUARE·NEW YORK<ptr target="loc.02225_n1"/></name>
                     <date when="1890-05-14"><handShift rend="manuscript"/>May 14. 1890.</date>
                 </dateline>
                 <salute>My dear Whitman,</salute>
             </opener>
             <p>All the poems you have let me print before are of such a kind that I felt they would
-                "widen your audience" so to speak. This one<ptr target="loc.02225_n2"/> I fear appeals only to the <unclear reason="illegible"
-              cert="low" resp="#smb">comparatively</unclear> few&#8212;&#38; is not really adapted to our
+                "widen your audience" so to speak. This one<ptr target="loc.02225_n2"/> I fear appeals only to the <unclear reason="illegible" cert="low" resp="#smb">comparatively</unclear> few—&amp; is not really adapted to our
             <pb xml:id="leaf002v" facs="loc.02225.002_large.jpg" type="verso"/>
            use. Please send along something else.</p> 
             <p>That soldier one<ptr target="loc.02225_n3"/> just fitted in!</p>

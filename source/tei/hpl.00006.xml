@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hpl.00006">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hpl.00006">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>hpl.00006</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt> 
+            <idno>hpl.00006</idno></publicationStmt> 
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,7 +53,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">218</biblScope>
                         </imprint>
@@ -102,12 +98,10 @@
                 <salute/>
             </opener>
 
-            <p>Still here in my sick room&#8212;everything much the same&#8212;Book printing &#38;c
-                slowly proceeding&#8212;the sheets now in the bindery&#8212;Shall send you the
-                little <hi rend="italic">Nov: Boughs</hi><ptr
-                    target="n3999"/> soon&#8212;a good visit f'm H<ptr target="loc.02128_n1"/> Garland<ptr
-                        target="hpl.00006_n2"/> &#8212;Cool &#38; pleasant&#8212;I have a wood
-                fire&#8212;Horace<ptr target="n4267"/> is here every day&#8212;continues invaluable.</p>
+            <p>Still here in my sick room—everything much the same—Book printing &amp;c
+                slowly proceeding—the sheets now in the bindery—Shall send you the
+                little <hi rend="italic">Nov: Boughs</hi><ptr target="n3999"/> soon—a good visit f'm H<ptr target="loc.02128_n1"/> Garland<ptr target="hpl.00006_n2"/> —Cool &amp; pleasant—I have a wood
+                fire—Horace<ptr target="n4267"/> is here every day—continues invaluable.</p>
 <closer>
                 <salute/>
                 <signed>Walt Whitman</signed>

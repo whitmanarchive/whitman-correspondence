@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00715">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00715">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00715</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00715</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">172&#8211;173</biblScope>
+                            <biblScope type="page">172–173</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -104,24 +100,23 @@
                 <salute>Dear friend W. O'C</salute>
             </opener>
 
-            <p>Here I am sitting up in the big chair&#8212;I got up ab't noon, (&#38; shall keep up
-                an hour or two, &#38; send you my actual <hi rend="italic">sign</hi>
-                <hi rend="italic">manual</hi> to show proof)&#8212;Have been pretty ill, indeed
-                might say pretty serious, two days likely a close call<ptr target="nyp.00715_n2"
-                />&#8212;but Dr Bucke<ptr target="n0119"/> was here &#38; took hold [of] me without
-                gloves&#8212;in short, <hi rend="italic">Monday last</hi>
+            <p>Here I am sitting up in the big chair—I got up ab't noon, (&amp; shall keep up
+                an hour or two, &amp; send you my actual <hi rend="italic">sign</hi>
+                <hi rend="italic">manual</hi> to show proof)—Have been pretty ill, indeed
+                might say pretty serious, two days likely a close call<ptr target="nyp.00715_n2"/>—but Dr Bucke<ptr target="n0119"/> was here &amp; took hold [of] me without
+                gloves—in short, <hi rend="italic">Monday last</hi>
                 (four days since) I turned the tide pronouncedly
-                &#38; kept the favorable turn Tuesday forenoon&#8212;havnt since kept the good
-                favoring turn the last two days&#8212;but the indications are still favorable (good
-                pulse the Dr says last two days) for my getting sort abt as usual&#8212;Dr B went
-                back to Canada last Tuesday night, R.R. train&#8212;I am half thro' on my little
-                "November Boughs"<ptr target="n3999"/>&#8212;&#38; am stuck of it &#38; proofs &#38;c&#8212;</p>
+                &amp; kept the favorable turn Tuesday forenoon—havnt since kept the good
+                favoring turn the last two days—but the indications are still favorable (good
+                pulse the Dr says last two days) for my getting sort abt as usual—Dr B went
+                back to Canada last Tuesday night, R.R. train—I am half thro' on my little
+                "November Boughs"<ptr target="n3999"/>—&amp; am stuck of it &amp; proofs &amp;c—</p>
 
             <closer>
                 <salute/>
                 <signed>Walt Whitman</signed>
             </closer>
-            <postscript><p>Best love to you &#38; Nelly<ptr target="n4137"/>&#8212;get your good letter to-day&#8212;</p></postscript>
+            <postscript><p>Best love to you &amp; Nelly<ptr target="n4137"/>—get your good letter to-day—</p></postscript>
         </body>
     </text>
 </TEI>

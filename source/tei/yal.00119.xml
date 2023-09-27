@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00119">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00119">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00119</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,13 +37,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
                         accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
                         medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
                         Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
                         of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00119</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -70,7 +67,7 @@
             <change who="#smb" when="2022-08-09">final check, corrected</change>
             <change when="2022-11-10" who="#aja">checked, corrected</change>
             <change when="2022-04-22" who="#me">checked, corrected</change>
-            <change who="#nnk" when="2014-06-13" >transcribed, encoded</change>
+            <change who="#nnk" when="2014-06-13">transcribed, encoded</change>
             <change who="#ak" when="2015-04-23">added correspondent ref</change>
             <change who="#ak" when="2014-11-04">added annotations</change>
             <change who="#jyc" when="2014-10-07">checked, revised</change>
@@ -91,12 +88,12 @@
                 </dateline>
             </opener>
 
-            <p>Will write you just a line to-day&#8212;Have had a perverse two months, past&#8212;frequent 
-                bad spells, (some very bad)&#8212;general strength however, pretty fair&#8212;get outdoors 
+            <p>Will write you just a line to-day—Have had a perverse two months, past—frequent 
+                bad spells, (some very bad)—general strength however, pretty fair—get outdoors 
                 a little most every day. Spirits good. Write soon, or come personally</p>
             
             <closer>
-                <signed>&#8212;W W</signed>
+                <signed>—W W</signed>
             </closer>
             <pb xml:id="leaf001v" facs="yal.00119.002_large.jpg" type="verso"/>
         </body>

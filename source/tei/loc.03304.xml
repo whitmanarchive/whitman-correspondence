@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03304">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03304">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">P. Reinhalter &#38; Co. to Walt Whitman, 27 April 1891</title>
+                <title level="m" type="main">P. Reinhalter &amp; Co. to Walt Whitman, 27 April 1891</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>P. Reinhalter &#38; Co.</author>
+                <author>P. Reinhalter &amp; Co.</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03304</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,22 +43,22 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03304</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author>P. Reinhalter &#38; Co.</author>
-                    <title>P. Reinhalter &#38; Co. to Walt Whitman, 27 April 1891</title>
+                    <author>P. Reinhalter &amp; Co.</author>
+                    <title>P. Reinhalter &amp; Co. to Walt Whitman, 27 April 1891</title>
                     <date cert="high" when="1891-04-27" xml:id="dat1">April 27, 1891</date>
-                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="callno">MSS18630, Box 14, Reel 8–9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="P. Reinhalter &#38; Co." ref="loc.03304_n1">P. Reinhalter &#38;
+                    <persName key="P. Reinhalter &amp; Co." ref="loc.03304_n1">P. Reinhalter &amp;
                         Co.</persName>
                 </person>
                 <person role="recipient">
@@ -81,15 +78,14 @@
             <pb xml:id="leaf001r" facs="loc.03304.001.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>P. Reinhalter &#38; Co.</name>
+                    <name type="place"><handShift rend="printed"/>P. Reinhalter &amp; Co.</name>
                     <name type="place"><hi rend="smallcaps"/>Granite Monuments</name>
                     <name type="place">Vaults and Statuary Work.</name>
                     <name type="place">Works at West Quincy, Mass.</name>
                     <name type="place">Office</name>
                     <name type="place">18 South Broad Street.</name>
                     <name type="place">Philadelphia, Pa.</name>
-                    <date when="1891-04-27"><handShift rend="manuscript"/>April 27' <handShift
-                            rend="printed"/>18<handShift rend="manuscript"/>91</date>
+                    <date when="1891-04-27"><handShift rend="manuscript"/>April 27' <handShift rend="printed"/>18<handShift rend="manuscript"/>91</date>
                 </dateline>
                 <salute>Walt Whitman Esq.</salute>
                 <salute>Camden N.J.</salute>
@@ -107,7 +103,7 @@
                 from you soon we remain</p>
             <closer>
                 <salute>Yours very truly</salute>
-                <signed>P. Reinhalter &#38;
+                <signed>P. Reinhalter &amp;
                     Co.</signed>
                 <signed>J. E. R.</signed>
             </closer>
@@ -115,4 +111,3 @@
         </body>
     </text>
 </TEI>
- 

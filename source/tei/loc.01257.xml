@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01257">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01257">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +14,7 @@
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="br">Beverley Rilett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -29,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01257</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01257</idno></publicationStmt>
 
             <sourceDesc>
                 <bibl>
@@ -56,7 +54,7 @@
                     <date cert="high" when="1868-09-24" xml:id="dat1">September 24, 1868</date>
                     <idno type="callno">MSS18630, Box 9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -92,14 +90,12 @@
                 <salute>Walt Whitman Esq.</salute>
                 <salute>Dear Sir,</salute>
             </opener>
-            <p>Mrs. O'Connor<ptr target="duk.00436_n3"/> writes Mrs. Channing<ptr
-                    target="loc.01257_n1"/> that you are in New York&#8212;I write you, on a forlorn
+            <p>Mrs. O'Connor<ptr target="duk.00436_n3"/> writes Mrs. Channing<ptr target="loc.01257_n1"/> that you are in New York—I write you, on a forlorn
                 hope, to offer you our best welcome if any thing should induce you to turn Eastward.
                 We have to offer entertainment, not <choice>
                     <sic>brillieant</sic>
                     <corr>brilliant</corr>
-                </choice>, but quiet &amp; unconstrained. You would find some <pb xml:id="leaf001v"
-                    facs="loc.01257.002.jpg" type="verso"/> few persons here whom I think you would
+                </choice>, but quiet &amp; unconstrained. You would find some <pb xml:id="leaf001v" facs="loc.01257.002.jpg" type="verso"/> few persons here whom I think you would
                 like to meet. To balance this on the other side is all New York! All for which I can
                 really answer is the sincere desire to see you here in a home-like way– I think we
                 have a home that is worth something, &amp; that we gladly open to you.</p>

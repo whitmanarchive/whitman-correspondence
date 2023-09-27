@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02234">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02234">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02234</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,7 +41,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -52,7 +49,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02234</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Leon P. Luckey</author>
@@ -61,7 +58,7 @@
                     <idno type="callno">MSS18630, Box 10, Reel 6</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.0020</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C. </orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -102,15 +99,12 @@
                     <name type="place"><hi rend="italic"><handShift rend="printed"/>Executive
                             Mansion,</hi></name>
                     <name type="place"><hi rend="italic">Washington D.C.</hi></name>
-                    <date when="1874-03-06"><handShift rend="manuscript"/>Mch 6th <handShift
-                            rend="printed"/><hi rend="italic">187</hi><handShift rend="manuscript"
-                            />4<handShift rend="printed"/>,</date>
+                    <date when="1874-03-06"><handShift rend="manuscript"/>Mch 6th <handShift rend="printed"/><hi rend="italic">187</hi><handShift rend="manuscript"/>4<handShift rend="printed"/>,</date>
                 </dateline>
                 <salute><handShift rend="manuscript"/>Dear Sir:</salute>
             </opener>
             <p>The President<ptr target="duk.00513_n7"/> desires me to acknowledge the receipt of
-                your very kind letter of the 27<hi rend="underline">th</hi> ultimo,<ptr
-                    target="loc.02234_n2"/> also the numbers of the N.Y. Weekly Graphic, containing
+                your very kind letter of the 27<hi rend="underline">th</hi> ultimo,<ptr target="loc.02234_n2"/> also the numbers of the N.Y. Weekly Graphic, containing
                 your reminiscences of the war.<ptr target="n0638"/></p>
             <p>He wishes me to assure you of his appreciation of the polite attention, and his best
                 wishes for your speedy recovery.<ptr target="duk.00621_n14"/></p>
@@ -131,8 +125,8 @@
             <pb xml:id="leaf002v" facs="loc.02234.004_large.jpg" type="verso"/>
             <pb xml:id="leaf003r" facs="loc.02234.005_large.jpg" type="recto"/>
             <note resp="#ww" type="editorial">Miscellaneous</note>
-            <note resp="#ww" type="editorial">Mostly 1874&#8211;'5&#8212;('3 &#38; '6 too)</note>
+            <note resp="#ww" type="editorial">Mostly 1874–'5—('3 &amp; '6 too)</note>
             <pb xml:id="leaf003v" facs="loc.02234.006_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

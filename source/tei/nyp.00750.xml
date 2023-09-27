@@ -1,6 +1,4 @@
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00750">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00750">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00750</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,12 +34,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169;2022 by Ed Folsom and Kenneth M. Price, all rights reserved. 
+                    <p>Copyright ©2022 by Ed Folsom and Kenneth M. Price, all rights reserved. 
                         Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. 
                         Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. 
                         Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00750</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -51,7 +49,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">6</biblScope>
                             <biblScope type="page">53</biblScope>
                         </imprint>
@@ -88,19 +86,18 @@
             <opener>
                 <dateline>
                     <name type="place">Camden N J, U S America<ptr target="nyp.00750_n1"/></name>  
-                    <date when="1890-11-18">Nov: 18 '90&#8212;</date>
+                    <date when="1890-11-18">Nov: 18 '90—</date>
                 </dateline>
             </opener>
             <p>Nothing particular to write but tho't I w'd send a word. Still here in same 
-                spot (holding out the fort sort o')&#8212;Still grip &#38; bladder trouble on me 
-                badly&#8212;writing a little&#8212;I believe I 
-                sent you Ingersoll's<ptr target="n0839"/> lecture<ptr target="loc.07846_n8"/>&#8212;A visitor to-day 
-                f'm England Mr Aid&#233;<ptr target="loc.03098_n1"/> 
-                (with Stanley<ptr target="loc.03098_n2"/>)&#8212;I am sitting here by oak wood fire&#8212;</p>
+                spot (holding out the fort sort o')—Still grip &amp; bladder trouble on me 
+                badly—writing a little—I believe I 
+                sent you Ingersoll's<ptr target="n0839"/> lecture<ptr target="loc.07846_n8"/>—A visitor to-day 
+                f'm England Mr Aidé<ptr target="loc.03098_n1"/> 
+                (with Stanley<ptr target="loc.03098_n2"/>)—I am sitting here by oak wood fire—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer> 
         </body>
     </text>
-</TEI> 
-
+</TEI>

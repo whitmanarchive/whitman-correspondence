@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03757">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03757">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03757</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,17 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03757</idno></publicationStmt>
             <sourceDesc>
                 <bibl> 
                     <author>James M. Scovel</author>
                     <title>James M. Scovel to Walt Whitman, [1890]</title>
-                    <date cert="medium" notBefore="1890-04-01" notAfter="1890-12-31" xml:id="dat1"
-                        >[1890]</date>
+                    <date cert="medium" notBefore="1890-04-01" notAfter="1890-12-31" xml:id="dat1">[1890]</date>
                     <idno type="callno">MSS18630, Box 15, Reel 9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00338</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -97,25 +93,22 @@
             </opener>
             <p>I see that Thorne,<ptr target="loc.03757_n1"/> (who is a literary "mountebank" and
                 who has a quarterly Review called the <hi rend="underline">Globe</hi> takes a shy at
-                you in his April No.&#8212;It is only a line or two and amounts to nothing!&#8212;</p>
+                you in his April No.—It is only a line or two and amounts to nothing!—</p>
             <p>Stoddart<ptr target="loc.04674_n1"/> manager of <hi rend="underline">Lippincotts</hi><ptr target="loc.07874_n5"/> 
                 still treasures up the idea of having you to go to Gloucester to a Symposium: with
                 the idea to have it written up for July Lippincott<ptr target="loc.03757_n4"/> as one of the "Round Robin"
-                    Series&#8212;<hi rend="underline">It is</hi> a good <hi rend="underline"
-                    >idea</hi> and you can say somethings which will be embalmed for futurity. Don't
+                    Series—<hi rend="underline">It is</hi> a good <hi rend="underline">idea</hi> and you can say somethings which will be embalmed for futurity. Don't
                 you think y<gap reason="cut-away" quantity="12" unit="chars"/> in the early part of
-                    <gap reason="cut-away" quantity="6" unit="chars"/> Ju<gap reason="cut-away"
-                        quantity="4" unit="chars"/>
+                    <gap reason="cut-away" quantity="6" unit="chars"/> Ju<gap reason="cut-away" quantity="4" unit="chars"/>
             </p>
             <closer>
                 <signed>James.</signed>
             </closer>
             <postscript>
-                <p>Couldn't you give me something of interest to the Time for Satur<gap
-                    reason="cut-away" quantity="5" unit="chars"/><ptr target="loc.03757_n3"/></p>
+                <p>Couldn't you give me something of interest to the Time for Satur<gap reason="cut-away" quantity="5" unit="chars"/><ptr target="loc.03757_n3"/></p>
             </postscript>
             <pb xml:id="leaf001v" facs="loc.03757.002_large.jpg" type="verso"/>
             <note type="editorial" resp="#ww" place="right">Scovel</note>
         </body>
     </text> 
-</TEI>  
+</TEI>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00656">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00656">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00656</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00656</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,7 +53,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">3</biblScope>
                             <biblScope type="page">331</biblScope>
                         </imprint>
@@ -68,7 +64,7 @@
                     <title>Walt Whitman to John Burroughs, 12 March 1883</title>
                     <date cert="high" when="1883-03-12" xml:id="dat1">March 12, 1883</date>
                     <orgName xml:id="med">The location of the manuscript is
-                        unknown. Miller's transcription is based on a partial transcript in Clara Barrus, <hi rend="italic">Whitman and Burroughs&#8212;Comrades</hi> (Boston: Houghton Mifflin, 1931), 240&#8211;241.</orgName>
+                        unknown. Miller's transcription is based on a partial transcript in Clara Barrus, <hi rend="italic">Whitman and Burroughs—Comrades</hi> (Boston: Houghton Mifflin, 1931), 240–241.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,11 +96,10 @@
             </opener>
             <p>[Walt Whitman promised to read the <hi rend="italic">Century</hi> proof when it
                 arrived and to return it with suggestions.]</p>
-            <p>Chew on what I said in my last<ptr target="med.00656_n1"/>&#8212;the position you
+            <p>Chew on what I said in my last<ptr target="med.00656_n1"/>—the position you
                 occupy in your printed books is just what it should be <hi rend="italic">to
-                    last</hi>&#8212;the paragraph or two of let-up or disclaimer in "Signs and
-                Seasons" is right, too, "for reasons"&#8212;let it stand&#8212;but <hi rend="italic"
-                    >nothing further of apology</hi>&#8212;not a word.</p>
+                    last</hi>—the paragraph or two of let-up or disclaimer in "Signs and
+                Seasons" is right, too, "for reasons"—let it stand—but <hi rend="italic">nothing further of apology</hi>—not a word.</p>
         </body>
     </text>
 </TEI>

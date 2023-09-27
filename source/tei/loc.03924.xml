@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03924">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03924">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03924</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive June be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03924</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -54,7 +51,7 @@
                     <date cert="medium" when="1886-06-21" xml:id="dat1">June 21, 1886</date>
                     <idno type="callno">Box 16, Reel 10</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,19 +78,18 @@
             
             <opener>
                 <dateline>
-                    <name type="place"><hi rend="underline">Camden</hi><ptr
-                        target="loc.03924_n1"/>&#8212;</name>
-                    <date when="1886-06-21" rend="right">June 21&#8212;noon</date>
+                    <name type="place"><hi rend="underline">Camden</hi><ptr target="loc.03924_n1"/>—</name>
+                    <date when="1886-06-21" rend="right">June 21—noon</date>
                 </dateline>
             </opener>
-            <p>All <choice><abbr>ab't</abbr><expan>about</expan></choice> the same with me&#8212;the mare was quite lame, sprain of right hind foot,
-                was the reason I didn't come down yesterday&#8212;I miss'd the jaunt &#38; was grum
-                &#38; dull all day&#8212;I got a letter from Dr. <choice><abbr>B</abbr><expan>Bucke</expan></choice><ptr target="n0119"/> this morning&#8212;he had spent a
-                day &#38; took dinner with Herbert Gilchrist<ptr target="n0262"/> &#38; Edward Carpenter<ptr target="n0141b"/>&#8212;all
-                well&#8212;</p>
-            <p>&#8212;Delightful weather here as I write by the open window,&#8212;but I am
-                disabled worse than ever &#38; can't get out&#8212;can hardly get across the
-                room&#8212;tell George if he wishes it I will get a 7 hat in place of that 6
+            <p>All <choice><abbr>ab't</abbr><expan>about</expan></choice> the same with me—the mare was quite lame, sprain of right hind foot,
+                was the reason I didn't come down yesterday—I miss'd the jaunt &amp; was grum
+                &amp; dull all day—I got a letter from Dr. <choice><abbr>B</abbr><expan>Bucke</expan></choice><ptr target="n0119"/> this morning—he had spent a
+                day &amp; took dinner with Herbert Gilchrist<ptr target="n0262"/> &amp; Edward Carpenter<ptr target="n0141b"/>—all
+                well—</p>
+            <p>—Delightful weather here as I write by the open window,—but I am
+                disabled worse than ever &amp; can't get out—can hardly get across the
+                room—tell George if he wishes it I will get a 7 hat in place of that 6
                 7/8</p>
             <closer>
                 <signed>W W</signed>
@@ -101,4 +97,4 @@
             <pb xml:id="leaf001v" facs="loc_jc.00555_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

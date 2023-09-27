@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01991">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01991">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -34,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01991</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,7 +41,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -52,16 +49,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01991</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Benton H. Wilson</author>
                     <title>Benton H. Wilson to Walt Whitman, 15 September 1867</title>
                     <date cert="high" when="1867-09-15" xml:id="dat1">September 15, 1867</date>
-                    <idno type="callno">MSS18630, Box 19, Reel 11&#8211;12</idno>
+                    <idno type="callno">MSS18630, Box 19, Reel 11–12</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00423</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,20 +97,15 @@
                 <dateline>
                     <name type="place">Syracuse
                     </name>
-                    <date when="1867-09-15">Sept 15<supplied
-                        reason="torn-away" resp="#cn" cert="medium"
-                        >th</supplied></date>
-                    <date when="1867-09-15">Sunday 18<supplied reason="torn-away" resp="#cn" cert="high"
-                        >67</supplied><ptr target="loc.01991_n1"/></date>
+                    <date when="1867-09-15">Sept 15<supplied reason="torn-away" resp="#cn" cert="medium">th</supplied></date>
+                    <date when="1867-09-15">Sunday 18<supplied reason="torn-away" resp="#cn" cert="high">67</supplied><ptr target="loc.01991_n1"/></date>
                 </dateline>
                 <salute>Dear Friend<ptr target="n0810"/></salute>
                 <salute>Walt Whitman</salute>
             </opener>
             <p>I know that you will not think I have forgotten you by my long silence for I have
                 been waiting patiently for more than four months for an answer to my last letter to
-                you which was written some time in April, but I presume <unclear reason="worn-away"
-                    cert="high" resp="#kk">you</unclear> have not received it.<ptr
-                    target="loc.01991_n2"/> How well I remember the kind face that we used to look
+                you which was written some time in April, but I presume <unclear reason="worn-away" cert="high" resp="#kk">you</unclear> have not received it.<ptr target="loc.01991_n2"/> How well I remember the kind face that we used to look
                 for at, <pb xml:id="leaf001v" facs="loc.01991.002_large.jpg" type="verso"/> Armory
                 Square Hospital.<ptr target="n0043"/></p>
             <p>I spent a week in New York City in June, my Wife<ptr target="loc.01997_n4"/> was taken sick there while visiting
@@ -123,9 +115,7 @@
             <p>We have been drove quite hard with work this Summer and I have got pretty tired but
                 there is no rest for us yet.</p>
             <p>What do you think of the policy of President Johnson.<ptr target="duk.00513_n6"/> I
-                am inclined to think he is as big <pb xml:id="leaf002r"
-                    facs="loc.01991.003_large.jpg" type="recto"/> a traitor as Jeff Davis,<ptr
-                    target="n0184"/> and I am in hopes that when Congress meets that they will go on
+                am inclined to think he is as big <pb xml:id="leaf002r" facs="loc.01991.003_large.jpg" type="recto"/> a traitor as Jeff Davis,<ptr target="n0184"/> and I am in hopes that when Congress meets that they will go on
                 with the impeachment.<ptr target="n0331"/></p>
             <p>The weather is getting quite cool here now so that it is comfortable to keep a
                 fire.</p>
@@ -139,7 +129,7 @@
             <pb xml:id="leaf002v" facs="loc.01991.004_large.jpg" type="verso"/>
             <pb xml:id="leaf003r" facs="loc.01991.005_large.jpg" type="recto"/>
             <note type="editorial" resp="#ww" place="envelope-marginalia">Benton Wilson
-                Sept&#8212;16, '67</note>
+                Sept—16, '67</note>
             <note type="editorial" resp="#ww" place="envelope-marginalia"><hi rend="underline">ans.
                     Sept 23 '67</hi></note>
             <note type="editorial" resp="#ww" place="envelope-marginalia"><hi rend="underline">Atty

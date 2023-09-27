@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00344">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00344">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +23,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>tex.00344</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +40,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>tex.00344</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -61,7 +59,7 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
               <biblScope type="volume">3</biblScope>
               <biblScope type="page">33</biblScope>
             </imprint>
@@ -103,19 +101,19 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="right">Camden, N. Jersey&#8212;U. S. America&#8212;</name>
+          <name type="place" rend="right">Camden, N. Jersey—U. S. America—</name>
           <date when="1876-03-23" rend="right">March 23</date><ptr target="tex.00344_n1"/>
         </dateline>
       </opener>
 
       <p>Yours<ptr target="n0522"/> of March 5<ptr target="tex.00344_n2"/>
         <choice><orig>recd.</orig><reg>received</reg></choice> with <choice><orig>enc.</orig><reg>enclosed</reg>
-        </choice>&#8212;Books will be sent hence by Baldwin's Express (office in London, H. Starr
-        &amp; Co. 22 Moorgate st)&#8212;will probably arrive there somewhere <choice><orig>ab't</orig><reg>about</reg></choice> 10th or 12th April. </p>
+        </choice>—Books will be sent hence by Baldwin's Express (office in London, H. Starr
+        &amp; Co. 22 Moorgate st)—will probably arrive there somewhere <choice><orig>ab't</orig><reg>about</reg></choice> 10th or 12th April. </p>
 
-      <p>I sent a set (<choice> <orig>L of G</orig><reg>Leaves of Grass</reg></choice> and Two <choice><orig>Riv.</orig><reg>Rivulets</reg></choice> <hi rend="italic">Two <choice><orig>Vols.</orig><reg>Volumes</reg></choice></hi> in one package) to you by mail March 15&#8212;&amp; another set <hi rend="italic">two <choice><orig>Vols.</orig><reg>Volumes</reg></choice></hi> same date, to Mrs. G[ilchrist]<ptr target="tex.00344_n3"/>&#8212;but have since <choice><orig>learn'd</orig><reg>learned</reg></choice> that such packages are <hi rend="italic">overweight</hi>, &amp; fear they may not have been forwarded from N. Y. </p>
+      <p>I sent a set (<choice> <orig>L of G</orig><reg>Leaves of Grass</reg></choice> and Two <choice><orig>Riv.</orig><reg>Rivulets</reg></choice> <hi rend="italic">Two <choice><orig>Vols.</orig><reg>Volumes</reg></choice></hi> in one package) to you by mail March 15—&amp; another set <hi rend="italic">two <choice><orig>Vols.</orig><reg>Volumes</reg></choice></hi> same date, to Mrs. G[ilchrist]<ptr target="tex.00344_n3"/>—but have since <choice><orig>learn'd</orig><reg>learned</reg></choice> that such packages are <hi rend="italic">overweight</hi>, &amp; fear they may not have been forwarded from N. Y. </p>
 
-      <p>I wrote you letter March 17&#8212;I sent a single <choice><orig>Vol.</orig><reg>Volume</reg></choice> (Two <choice><orig>Riv</orig><reg>Rivulets</reg></choice>) by mail, March 20&#8212;I continue about the same.</p>
+      <p>I wrote you letter March 17—I sent a single <choice><orig>Vol.</orig><reg>Volume</reg></choice> (Two <choice><orig>Riv</orig><reg>Rivulets</reg></choice>) by mail, March 20—I continue about the same.</p>
 
       <closer>
         <signed rend="right">W.W.</signed>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bms.00007"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bms.00007"> 
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>bms.00007</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>bms.00007</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct> 
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">358&#8211;359</biblScope>
+                            <biblScope type="page">358–359</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -96,11 +93,10 @@
                     <date when="1889-07-23">Evn'g July 23 '89<ptr target="bms.00007_n1"/></date>
                 </dateline>
             </opener>
-            <p>The Scottish Art Rev: with pictures has come safely<ptr target="bms.00007_n2"
-                />&#8212;thanks&#8212;I am here yet getting along fairly&#8212;seven weeks hot
-                weather here&#8212;but I hug to my old den thro' all as the best I can do in my
-                immobile condition&#8212;no sales of books<ptr target="bms.00007_n3"/>&#8212;love to
-                all inquiring friends&#8212;am comfortable as I write&#8212;</p>
+            <p>The Scottish Art Rev: with pictures has come safely<ptr target="bms.00007_n2"/>—thanks—I am here yet getting along fairly—seven weeks hot
+                weather here—but I hug to my old den thro' all as the best I can do in my
+                immobile condition—no sales of books<ptr target="bms.00007_n3"/>—love to
+                all inquiring friends—am comfortable as I write—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

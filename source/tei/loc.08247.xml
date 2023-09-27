@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08247">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08247">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08247</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,12 +33,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance 
                      with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express 
                      written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission 
                      to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08247</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -51,7 +48,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">258</biblScope>
                         </imprint>
@@ -62,7 +59,7 @@
                     <title>Walt Whitman to Dr. John Johnston, 27 October 1891</title>
                     <date cert="high" when="1891-10-27" xml:id="dat1">October 27, 1891</date>
                     <idno type="callno">MMC-1482; MSS90019</idno>
-                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1899&#8211;1913, 
+                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1899–1913, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -89,21 +86,18 @@
         <body> 
             <opener>  
                 <dateline>
-                    <name type="place">Camden NJ&#8212;US America<ptr target="loc.08247_n1"/></name>
+                    <name type="place">Camden NJ—US America<ptr target="loc.08247_n1"/></name>
                     <date when="1891-10-27">Oct: 27 '91</date>
                 </dateline>
             </opener>
             <p>J W W[allace]<ptr target="n6121"/> has ret'd<ptr target="loc.04403_n2"/> f'm a pleasant visit to the Staffords<ptr target="n0852d"/> 
-                (Glendale, Camden Co: N J)&#8212;is well, has just gone over to Philadelphia&#8212;O'Connor's<ptr target="n2002"/> book 
+                (Glendale, Camden Co: N J)—is well, has just gone over to Philadelphia—O'Connor's<ptr target="n2002"/> book 
                 "Three Tales"<ptr target="loc.02527_n3"/> pub'd by Houghton, Mifflin &amp; Co:
-                Boston, is out&#8212;I am having a bad spell&#8212;(sinking &amp; congestion.) All yr's
-                recd<ptr target="loc.08247_n2"/>&#8212;</p>
+                Boston, is out—I am having a bad spell—(sinking &amp; congestion.) All yr's
+                recd<ptr target="loc.08247_n2"/>—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
         </body>
     </text>
 </TEI>
-
-
-

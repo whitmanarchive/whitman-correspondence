@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00639">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00639">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00639</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00639</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -60,7 +56,7 @@
                             <publisher>University of Iowa Press</publisher>
                             <date when="2004">2004</date>
                             <biblScope type="volume">7</biblScope>
-                            <biblScope type="page">55&#8211;56</biblScope>
+                            <biblScope type="page">55–56</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -100,24 +96,21 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">1309 Fifth av: near 86th st: New York<ptr
-                            target="med.00639_n1"/></name>
+                    <name type="place">1309 Fifth av: near 86th st: New York<ptr target="med.00639_n1"/></name>
                     <date when="1879-05-24" rend="right">May 24 noon</date>
                 </dateline>
                 <salute>My dear Mr Bloor<ptr target="med.00639_n2"/></salute>
             </opener>
 
-            <p>I have returned the two pamphlets&#8212;which I suppose you have <choice>
-                <orig>rec'd</orig><reg>received</reg></choice>.<ptr
-                    target="med.00639_n3"/> In a letter in the <hi rend="italic">Tribune</hi> of
-                to-day I have printed (as I some time since notified you)<ptr target="med.00639_n4"
-                /> what you said&#8212;(well said)&#8212;about actors&#8212;I remain here till
-                latter part of next week&#8212;then to Camden, New Jersey, which is my permanent p o
-                address&#8212;Shall count on getting the extracts from your Journal about Mr
+            <p>I have returned the two pamphlets—which I suppose you have <choice>
+                <orig>rec'd</orig><reg>received</reg></choice>.<ptr target="med.00639_n3"/> In a letter in the <hi rend="italic">Tribune</hi> of
+                to-day I have printed (as I some time since notified you)<ptr target="med.00639_n4"/> what you said—(well said)—about actors—I remain here till
+                latter part of next week—then to Camden, New Jersey, which is my permanent p o
+                address—Shall count on getting the extracts from your Journal about Mr
                 <choice>
                     <orig>Lincon's</orig>
                     <reg>Lincoln's</reg>
-                </choice> murder &#38; funeral soon as you can conveniently send
+                </choice> murder &amp; funeral soon as you can conveniently send
                     them.<ptr target="med.00639_n5"/></p>
 
             <closer>

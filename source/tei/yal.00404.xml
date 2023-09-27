@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00404">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00404">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +23,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>yal.00404</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +40,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>yal.00404</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -60,9 +58,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
               <biblScope type="volume">2</biblScope>
-              <biblScope type="page">193&#8211;194</biblScope>
+              <biblScope type="page">193–194</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -104,50 +102,44 @@
         <salute>Dearest mother<ptr target="n0705"/>,</salute>
       </opener>
 
-      <p>I am writing this lying in bed&#8212;the doctor wishes me to keep as much in bed as
-        possible&#8212;but I <hi rend="italic">have</hi> to keep in, as I cannot move yet without
+      <p>I am writing this lying in bed—the doctor wishes me to keep as much in bed as
+        possible—but I <hi rend="italic">have</hi> to keep in, as I cannot move yet without
         great difficulty, &amp; I am liable to dizziness &amp; nausea, at times, on trying to move,
-        or even sitting up&#8212;But I am certainly over the worst of it, &amp; <hi rend="italic"
-          >really</hi>&#8212;though slowly&#8212;<hi rend="italic">improving</hi>. The doctor says
-        there is no doubt of it&#8212;</p>
+        or even sitting up—But I am certainly over the worst of it, &amp; <hi rend="italic">really</hi>—though slowly—<hi rend="italic">improving</hi>. The doctor says
+        there is no doubt of it—</p>
 
-      <p>Yesterday afternoon I eat something like a meal for the first time&#8212;boiled chicken,
-        &amp; some soup with bread broken up in it&#8212;relished it well&#8212;I still have many
-        callers&#8212;only a few particular ones are admitted to see me&#8212;Mrs. O'Connor<ptr
-          target="yal.00404_n1"/> comes &amp; a young woman named Mary Cole<ptr
-          target="yal.00404_n2"/>&#8212;Mrs. Ashton has sent for me to be brought to her house, to
-        be taken care of&#8212;of course I do not accept her offer&#8212;they live in grand style
+      <p>Yesterday afternoon I eat something like a meal for the first time—boiled chicken,
+        &amp; some soup with bread broken up in it—relished it well—I still have many
+        callers—only a few particular ones are admitted to see me—Mrs. O'Connor<ptr target="yal.00404_n1"/> comes &amp; a young woman named Mary Cole<ptr target="yal.00404_n2"/>—Mrs. Ashton has sent for me to be brought to her house, to
+        be taken care of—of course I do not accept her offer—they live in grand style
         &amp; I should be more bothered than <choice>
           <orig>benefitted</orig>
           <reg>benefited</reg>
-        </choice> by their refinements &amp; luxuries, servants, &amp;c<ptr target="yal.00404_n3"
-        />&#8212;</p>
+        </choice> by their refinements &amp; luxuries, servants, &amp;c<ptr target="yal.00404_n3"/>—</p>
 
-      <p>Mother, I want you to know truly, that I do not want for any thing&#8212;as to all the <hi
-          rend="italic">little extra fixings</hi> &amp; superfluities, I never did care for them in
-        health, &amp; they only annoy me in sickness&#8212;I have a good bed&#8212;a fire&#8212;as
-        much grub as I wish &amp; whatever I wish&#8212;&amp; two or three good friends
-        here&#8212;So I want you to not feel at all uneasy&#8212;as I write, Peter Doyle<ptr
-          target="yal.00404_n4"/> is sitting by the window reading&#8212;he &amp; Charles
+      <p>Mother, I want you to know truly, that I do not want for any thing—as to all the <hi rend="italic">little extra fixings</hi> &amp; superfluities, I never did care for them in
+        health, &amp; they only annoy me in sickness—I have a good bed—a fire—as
+        much grub as I wish &amp; whatever I wish—&amp; two or three good friends
+        here—So I want you to not feel at all uneasy—as I write, Peter Doyle<ptr target="yal.00404_n4"/> is sitting by the window reading—he &amp; Charles
           Eldridge<ptr target="n0210"/> regularly come in &amp; do whatever I want, &amp; are both
-          <hi rend="italic">very helpful</hi> to me&#8212;one comes day time, &amp; one
-        evening&#8212;I had a good night's sleep last night&#8212;My mind is just as clear as
-        ever&#8212;&amp; has been all the time&#8212;(I have not been at all down hearted
-        either)&#8212;(My January pay is due me, &amp; as soon as I get up, I shall forward you your
+          <hi rend="italic">very helpful</hi> to me—one comes day time, &amp; one
+        evening—I had a good night's sleep last night—My mind is just as clear as
+        ever—&amp; has been all the time—(I have not been at all down hearted
+        either)—(My January pay is due me, &amp; as soon as I get up, I shall forward you your
           $20.)<ptr target="yal.00404_n5"/>
       </p>
 
       <p>Dear sister Lou,<ptr target="yal.00404_n6"/>
       </p>
 
-      <p>Your letter came this morning &amp; was very pleasant to get it&#8212;I shall be getting
-        well soon&#8212;am on a fair way to it now&#8212;</p>
+      <p>Your letter came this morning &amp; was very pleasant to get it—I shall be getting
+        well soon—am on a fair way to it now—</p>
 
-      <p rend="right"><hi rend="italic">latest &#189; past 4</hi>
+      <p rend="right"><hi rend="italic">latest ½ past 4</hi>
       </p>
 
-      <p>I have just set up &amp; had my bed made by Pete&#8212;I am already beginning to feel
-        something like myself&#8212;will write in 2 days&#8212;</p>
+      <p>I have just set up &amp; had my bed made by Pete—I am already beginning to feel
+        something like myself—will write in 2 days—</p>
 
     </body>
   </text>

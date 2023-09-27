@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02912">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02912">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02912</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02912</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Sloane Kennedy</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1887-12-05" xml:id="dat1">December 5, 1887</date>
                     <idno type="callno">MSS18630, Box 12</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,7 +83,7 @@
             <pb xml:id="leaf001r" facs="loc.02912.001_large.jpg" type="recto"/>
             <note type="editorial" resp="#unk" place="top">Belmont | Dec. 5 '87</note>
             <opener>
-                <salute rend="left">Dear Friend:&#8212;</salute>
+                <salute rend="left">Dear Friend:—</salute>
             </opener>
             <p>I hope the Rhys<ptr target="pri.00009_n1"/> brothers have not gone to the bottom! It
                 begins to fill me with <choice>
@@ -96,18 +92,16 @@
                 </choice> that we do not hear from the Croma<ptr target="loc.02912_n4"/> in wh. he
                 sailed. </p>
             <milestone unit="undeclared" rend="horbar-short-center"/>
-            <p>I went in H. Williams &#38; Everetts<ptr target="loc.02912_n1"/> this evening after
-                work, &#38; passed a few rapt moments in looking at the bust of you which is
+            <p>I went in H. Williams &amp; Everetts<ptr target="loc.02912_n1"/> this evening after
+                work, &amp; passed a few rapt moments in looking at the bust of you which is
                 handsomely mounted on a polished wood tall pedestal standing on the middle landing
-                of the stairs &#38; just before a pier glass mirror&#8212;The very best position in
-                the rooms. I then saw <pb xml:id="leaf001v" facs="loc.02912.002_large.jpg"
-                    type="verso"/> that I had not really seen it at all in the right
-                way&#8212;before (I mean) it was on a pedestal &#38; viewed at a distance. I gave it
-                draining regards that fixed it in my mind. I regard it as a noble work, &#38; am
-                very glad of this rich honor done to my poet, &#38; I want to congratulate Morse
+                of the stairs &amp; just before a pier glass mirror—The very best position in
+                the rooms. I then saw <pb xml:id="leaf001v" facs="loc.02912.002_large.jpg" type="verso"/> that I had not really seen it at all in the right
+                way—before (I mean) it was on a pedestal &amp; viewed at a distance. I gave it
+                draining regards that fixed it in my mind. I regard it as a noble work, &amp; am
+                very glad of this rich honor done to my poet, &amp; I want to congratulate Morse
                 very heartily on it. It is a fine, nay a great, work, in my opinion.</p>
-            <p>It seems to me that the chief traits that emerge are <hi rend="underline"
-                    >compassion</hi> blended with <hi rend="underline">alert curiosity</hi>.</p>
+            <p>It seems to me that the chief traits that emerge are <hi rend="underline">compassion</hi> blended with <hi rend="underline">alert curiosity</hi>.</p>
             <pb xml:id="leaf002r" facs="loc.02912.003_large.jpg" type="recto"/>
             <p>I don't know whether it strikes others so, or whether you <choice>
                     <abbr>w<hi rend="underline">d</hi></abbr>
@@ -118,21 +112,20 @@
                     <expan>your</expan>
                 </choice> good letter to me. But I think Morse<ptr target="n0862"/> might put more
                 of the prophet or seer in it, or another one possibly.</p>
-            <p>Mrs. Fairchild<ptr target="har.00049_n3"/> &#38; her husband are going to drive out
-                &#38; see my Cox photo, some time.<ptr target="loc.02912_n2"/></p>
+            <p>Mrs. Fairchild<ptr target="har.00049_n3"/> &amp; her husband are going to drive out
+                &amp; see my Cox photo, some time.<ptr target="loc.02912_n2"/></p>
             <p>I suppose Baxter has written you that we have written to <choice>
                     <abbr>Bost. Pub. Lib.</abbr>
                     <expan>Boston Public Library</expan>
                 </choice> about acceptance of bust.<ptr target="loc.02912_n5"/> They have a little
-                gallery of sculpture&#8212;as I now remember, &#38; it will be a good place for it.
-                Though <hi rend="underline">I</hi> preferred the art museum. <pb xml:id="leaf002v"
-                    facs="loc.02912.004_large.jpg" type="verso"/> But Baxter likes to have his own
+                gallery of sculpture—as I now remember, &amp; it will be a good place for it.
+                Though <hi rend="underline">I</hi> preferred the art museum. <pb xml:id="leaf002v" facs="loc.02912.004_large.jpg" type="verso"/> But Baxter likes to have his own
                 way always.<ptr target="loc.02912_n3"/></p>
             <p>I must ask him about his <hi rend="underline">Herald</hi> notice of it. For we must
                 draw attention to it. He seems to have acted on Sidney M's suggestion <choice>
                     <abbr>abt</abbr>
                     <expan>about</expan>
-                </choice> Williams &#38; Everett's being a better place than Chase's.</p>
+                </choice> Williams &amp; Everett's being a better place than Chase's.</p>
             <closer rend="center">
                 <signed>WS. Kennedy</signed>
             </closer>

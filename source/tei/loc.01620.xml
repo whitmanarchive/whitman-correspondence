@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01620">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01620">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,7 +29,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01620</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,13 +39,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
                         accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
                         medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
                         Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
                         of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01620</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Harry Buxton Forman</author>
@@ -56,7 +53,7 @@
                     <date cert="high" when="1876-01-26" xml:id="dat1">January 26, 1876</date>
                     <idno type="callno">MSS18630, Box 10, Reel 6</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00183</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -109,17 +106,17 @@
                 and all portraits and notable 
                 <pb xml:id="leaf001v" facs="loc.01620.002_large.jpg" type="verso"/> 
                 notable accounts and criticisms. But there is one edition in particular which I have never been able 
-                to see even,&#8212;that mentioned by Rossetti<ptr target="n0522"/> as having been issued in 
+                to see even,—that mentioned by Rossetti<ptr target="n0522"/> as having been issued in 
                 1856<ptr target="loc.01620_n2"/> in 16 mo.<space dim="horizontal" extent="4 letters"/>The American 
                 agent to whom my last application for this was forwarded says: "I don't think there is an 1856 edition. 
-                There is one earlier or later in great demand, and at a high price, something like 25&#36; to 30&#36;; 
+                There is one earlier or later in great demand, and at a high price, something like 25$ to 30$; 
                 but I can't find that. There was a copy auctioned the other night at something like the above".</p>
 
             <p>Can you tell me whether there is or is not an edition between the 
                 <pb xml:id="leaf002r" facs="loc.01620.003_large.jpg" type="recto"/> 
                 the one set up by yourself in 1855<ptr target="loc.02472_n12"/> and that of Thayer &amp; Eldridge<ptr target="loc.00576_n100"/> 
-                dated 1860&#8211;61? If there is, can you give me any particulars that will help me towards buying 
-                it? Also, what is the edition that fetches 25&#36; to 30&#36;? Not that of 1855; for I hear that 
+                dated 1860–61? If there is, can you give me any particulars that will help me towards buying 
+                it? Also, what is the edition that fetches 25$ to 30$? Not that of 1855; for I hear that 
                 can be had for 3 or 4.</p>
 
             <p>When at my friend Mr W.B. Scott's<ptr target="n0547"/> a few weeks ago, I saw a proof of a fine portrait 
@@ -143,10 +140,9 @@
             </closer>
             <pb xml:id="leaf003r" facs="loc.01620.005_large.jpg" type="recto"/>
             <note type="editorial" resp="#ww">H. Buxton Forman (sent W. J. press art. May 24, '76)</note>
-            <note type="editorial" resp="#ww">Jan. '76 sent paper &#38; circ Apr 4.</note>
+            <note type="editorial" resp="#ww">Jan. '76 sent paper &amp; circ Apr 4.</note>
             <pb xml:id="leaf003v" facs="loc.01620.006_large.jpg" type="verso"/>
-            <note type="editorial" resp="#ht">see notes Sept 3 &#38; 5 1888</note>
+            <note type="editorial" resp="#ht">see notes Sept 3 &amp; 5 1888</note>
         </body>
     </text> 
-</TEI> 
-
+</TEI>

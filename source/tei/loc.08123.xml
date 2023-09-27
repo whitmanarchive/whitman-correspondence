@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08123">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08123">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08123</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,13 +36,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p> 
                 </availability>
-            </publicationStmt>
+            <idno>loc.08123</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -54,7 +51,7 @@
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <idno type="callno">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00100</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt 
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -95,9 +92,9 @@
                     <date when="1891-03-01"><handShift rend="manuscript"/>1 March <handShift rend="printed"/>18<handShift rend="manuscript"/>91</date>
                 </dateline>
             </opener>
-            <p>Well&#8212;here we are still&#8212;what is left of us&#8212;election excitement rising higher and higher&#8212;have never seen the parallel of it&#8212;however
-                Thursday (5<hi rend="underline">th</hi>) will settle it&#8212;heaven be praised!<ptr target="loc.08114_n3"/></p>
-            <p>I have yours of 26<hi rend="underline">th</hi><ptr target="loc.08123_n2"/>&#8212;Yes, I have the Lippencotts<ptr target="loc.03120_n3b"/>&#8212;So the 
+            <p>Well—here we are still—what is left of us—election excitement rising higher and higher—have never seen the parallel of it—however
+                Thursday (5<hi rend="underline">th</hi>) will settle it—heaven be praised!<ptr target="loc.08114_n3"/></p>
+            <p>I have yours of 26<hi rend="underline">th</hi><ptr target="loc.08123_n2"/>—Yes, I have the Lippencotts<ptr target="loc.03120_n3b"/>—So the 
                 proof of the little book begins to come in?
                 When you get all of "Good-Bye"<ptr target="loc.07894_n2"/> in a revise I want you to send me a copy.<ptr target="loc.08012_n6"/> 
             </p>   
@@ -111,12 +108,4 @@
         <note type="editorial" place="middle" resp="#unk">Walt Whitman | Mary O Davis | 328 Mickle St Camden NJ | 328 Mickle St | Camden New Jersey | U.S.A.</note>
         </body>
     </text>
-</TEI> 
-
-
-
-
-
-
-
-
+</TEI>

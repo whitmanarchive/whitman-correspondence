@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01092">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01092">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                     <resp>Transcription and encoding</resp>
 
                     <persName xml:id="ktl">Kirby Little</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01092</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01092</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -56,7 +53,7 @@
                     <date cert="high" when="1888-08-04" xml:id="dat1">August 4, 1888</date>
                     <idno type="callno">MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -94,23 +91,21 @@
                 <salute>Dear Sir</salute>
             </opener>
 
-            <p>I trust you will pardon me for intruding upon you&#8212;after you read my
-                letter&#8212;I see by the papers you like myself have the horrible misfortune of a
+            <p>I trust you will pardon me for intruding upon you—after you read my
+                letter—I see by the papers you like myself have the horrible misfortune of a
                 <unclear reason="illegible" cert="low" resp="#smb">stroke</unclear> of Paralysis.</p>
 
-            <p>I see you are improving. I am oh so very glad&#8212;but not so with me&#8212;on
-                the contrary I am gradually growing worse&#8212;my case is called progressive Bulbar
-                paralysis&#8212;is mine anything like yours.</p>
-            <p>I have been to New York to see <pb xml:id="leaf001v" facs="loc.01092.002_large.jpg"
-                    type="verso"/>
+            <p>I see you are improving. I am oh so very glad—but not so with me—on
+                the contrary I am gradually growing worse—my case is called progressive Bulbar
+                paralysis—is mine anything like yours.</p>
+            <p>I have been to New York to see <pb xml:id="leaf001v" facs="loc.01092.002_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc.01092.003_large.jpg" type="recto"/> Dr. E. C.
                 Seguine,<ptr target="n4324"/> but found he was in Europe.</p>
-            <p>I was first attacked in my right <unclear reason="illegible" cert="high" resp="#ss"
-                    >eye</unclear> last Oct. it passed off and in April it again showed itself in
+            <p>I was first attacked in my right <unclear reason="illegible" cert="high" resp="#ss">eye</unclear> last Oct. it passed off and in April it again showed itself in
                 the <unclear reason="illegible" cert="high" resp="#ss">eye</unclear> side of my face
-                roof of my mouth tongue &#38; throat&#8212;I can only swallow liquid food. my speech is
-                badly affected&#8211;and I am growing very weak;</p>
-            <p>If your case is like mine&#8212;and you can tell me where you received the most good I will be very
+                roof of my mouth tongue &amp; throat—I can only swallow liquid food. my speech is
+                badly affected–and I am growing very weak;</p>
+            <p>If your case is like mine—and you can tell me where you received the most good I will be very
                 <choice><sic>greatefull</sic><corr>grateful</corr></choice> to you</p>
             <p>hoping you may eventually recover your health</p> 
             <closer>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02069">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02069">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02069</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02069</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -57,7 +53,7 @@
                     <date cert="high" when="1886-07-31" xml:id="dat1">July 31, 1886</date>
                     <idno type="callno">Box 9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,7 +83,7 @@
         <body>
             <pb xml:id="leaf001r" facs="loc.02069.001_large.jpg" type="recto"/>
             <note type="editorial" place="top" resp="#unk">To Dana H Ferreu of The Century Co</note>
-            <note type="editorial" place="top" resp="#unk">*'Army Hospitals and Cases | Memoranda of the Time, 1863&#8211;6'</note>
+            <note type="editorial" place="top" resp="#unk">*'Army Hospitals and Cases | Memoranda of the Time, 1863–6'</note>
             <note type="editorial" place="top right" resp="#unk">$75.00 <gap reason="illegible"/></note>
             <opener>
                 <dateline>
@@ -97,13 +93,12 @@
                 </dateline>
                 <salute>Dear Sir</salute>
             </opener>
-            <p>Yours of yesterday <choice><abbr>rec'd</abbr><expan>received</expan></choice><ptr target="loc.02069_n2"/>&#8212;In answer: please send me,
-                soon as convenient, a typewritten copy&#8212;or, (better still) a good <hi
-                    rend="underline">proof</hi>, of the article, to which I could make additions or
-                emendations&#8212;Yes, I "leave its publication to your convenience"&#8212;I shall
-                consider your Magazine the owner of the article&#8212;I reserving the right to print
+            <p>Yours of yesterday <choice><abbr>rec'd</abbr><expan>received</expan></choice><ptr target="loc.02069_n2"/>—In answer: please send me,
+                soon as convenient, a typewritten copy—or, (better still) a good <hi rend="underline">proof</hi>, of the article, to which I could make additions or
+                emendations—Yes, I "leave its publication to your convenience"—I shall
+                consider your Magazine the owner of the article—I reserving the right to print
                 in future book, but only <hi rend="underline">after</hi> its publication by
-                you&#8212;(some months after at least&#8212;probably a year after)&#8212;</p>
+                you—(some months after at least—probably a year after)—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

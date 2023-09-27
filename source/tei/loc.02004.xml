@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02004">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02004">
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02004</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,21 +35,21 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02004</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William H. Duckett</author>
                     <title>William H. Duckett to Walt Whitman, 20 December [1889]</title>
                     <date cert="high" when="1889-12-20" xml:id="dat1">December 20, [1889]</date> 
-                    <idno type="callno">MSS18630, Box 9, Reel 5&#8211;6</idno>
+                    <idno type="callno">MSS18630, Box 9, Reel 5–6</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00160</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>  
@@ -92,11 +89,11 @@
                 <salute>To <handShift rend="manuscript"/>Dear Friend Walt.</salute>
             </opener>
             <p>Walt Can you let me have ten or Fifteen Dollars have been having pretty hard luck of late and find myself 
-                Broke My board is due Monday &#38; have about 2 Dollars to do it with Now will you kindly let me have 
+                Broke My board is due Monday &amp; have about 2 Dollars to do it with Now will you kindly let me have 
                 what you can, You can
                 <pb xml:id="leaf001v" facs="loc.02004.002_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc.02004.003_large.jpg" type="recto"/>
-                give to bearer &#38; he will bring to me Will return you both amounts after 1st of year,
+                give to bearer &amp; he will bring to me Will return you both amounts after 1st of year,
                 How is your health hope as well as your Spirits generally used to be I was over to see you
                 some days since but you was unable to see We would like to see you very much
                 <pb xml:id="leaf002v" facs="loc.02004.004_large.jpg" type="verso"/>
@@ -114,8 +111,8 @@
             </postscript>
             <pb xml:id="leaf003v" facs="loc.02004.006_large.jpg" type="verso"/>
             <note type="editorial" resp="#ww"><date when="1889-12-20">Dec: 20 '89</date> Bro't to me by lad George Anderson
-                from Bill Duckett,&#8212;Sent back word I was quite sick &#38; 
-                hard up&#8212;(no money) W W</note>
+                from Bill Duckett,—Sent back word I was quite sick &amp; 
+                hard up—(no money) W W</note>
         </body>
     </text>
 </TEI>

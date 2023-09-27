@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07519">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07519">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07519</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07519</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,7 +54,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">161</biblScope>
                         </imprint>
@@ -67,9 +64,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 11 April 1888</title>
                     <date cert="high" when="1888-04-11" xml:id="dat1">April 11, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,23 +97,19 @@
                     <date when="1888-04-11">'88</date>  
                 </dateline>
             </opener>
-            <p>I send you McKee's, the lawyer's, letter<ptr target="loc.07490_n5"/>&#8212;Matters much the same with me&#8212;pretty miserable
-                probably with a bad cold the last three or four days&#8212;but beginning on the mend
-                to day (I think)&#8212;Sent three little poems, one to <hi rend="italic"
-                    >Century</hi>, one to <hi rend="italic">Lippincott's</hi><ptr
-                    target="loc.07519_n3"/> &amp; one to <hi rend="italic">Cosmopolitan</hi> four
-                days since&#8212;the last returned&#8212;the first accepted &amp; paid
-                for&#8212;&amp; no word yet of the L&#8212;the <hi rend="italic">Herald</hi> pieces<ptr target="n4133"/>
-                will be resumed &amp; carried on (March has been paid for)<ptr target="loc.07519_n4"
-                />&#8212;the weather here dark wet &amp; heavy&#8212;I am feeling fairly as I sit
-                here by the window down stairs alone &amp; finish this&#8212;</p>
+            <p>I send you McKee's, the lawyer's, letter<ptr target="loc.07490_n5"/>—Matters much the same with me—pretty miserable
+                probably with a bad cold the last three or four days—but beginning on the mend
+                to day (I think)—Sent three little poems, one to <hi rend="italic">Century</hi>, one to <hi rend="italic">Lippincott's</hi><ptr target="loc.07519_n3"/> &amp; one to <hi rend="italic">Cosmopolitan</hi> four
+                days since—the last returned—the first accepted &amp; paid
+                for—&amp; no word yet of the L—the <hi rend="italic">Herald</hi> pieces<ptr target="n4133"/>
+                will be resumed &amp; carried on (March has been paid for)<ptr target="loc.07519_n4"/>—the weather here dark wet &amp; heavy—I am feeling fairly as I sit
+                here by the window down stairs alone &amp; finish this—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript>
                 <p>Lawyer Harned<ptr target="n4146"/> was over to the Cosmopolitan Club
-                    meeting Phila. Tuesday night&#8212;talked with Carnegie<ptr
-                        target="loc.03486_n1"/>&#8212;</p>
+                    meeting Phila. Tuesday night—talked with Carnegie<ptr target="loc.03486_n1"/>—</p>
             </postscript>
         </body>
     </text>

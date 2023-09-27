@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05421">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05421">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05421</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05421</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1863-05-18" xml:id="dat1">May 18, 1863</date>
                     <idno type="callno">MSS77909, Box 1</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms005001.mss77909.004</idno>
-                    <orgName xml:id="loc">Walt Whitman Papers (Miscellaneous Manuscript Collection), 1848&#8211;1891, 
+                    <orgName xml:id="loc">Walt Whitman Papers (Miscellaneous Manuscript Collection), 1848–1891, 
                      Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -92,29 +89,28 @@
                 </dateline> 
              <salute>Dear sister Han,</salute> 
             </opener>      
-            <p>I scribble off a few lines, partly because I want to write you, though a word&#8212;&#38; 
+            <p>I scribble off a few lines, partly because I want to write you, though a word—&amp; 
                 partly to enclose a letter mother<ptr target="loc.05421_n2"/> sends me from
                 dear brother George.<ptr target="loc.05421_n3"/> All seems to be going on about as
-                usual home&#8212;<pb xml:id="leaf001v" facs="loc_gk.01424_large.jpg" type="verso"/>Mother 
-                wants to see you so much, &#38; the rest do too that she thinks of getting
-                    Mary<ptr target="loc.05421_n4"/> to come on for you&#8212;I wish I was a little
-                nearer north&#8212;I should like much to come on &#38; see you, and have you return
-                with me. Dear sister I hope the spring &#38; summer <pb xml:id="leaf002r"
-                    facs="loc_gk.01425_large.jpg" type="recto"/> have improved your health&#8212;how
-                is it?&#8212;I have written a few lines to George &#38; send them at the same time
-                with this&#8212;</p>
+                usual home—<pb xml:id="leaf001v" facs="loc_gk.01424_large.jpg" type="verso"/>Mother 
+                wants to see you so much, &amp; the rest do too that she thinks of getting
+                    Mary<ptr target="loc.05421_n4"/> to come on for you—I wish I was a little
+                nearer north—I should like much to come on &amp; see you, and have you return
+                with me. Dear sister I hope the spring &amp; summer <pb xml:id="leaf002r" facs="loc_gk.01425_large.jpg" type="recto"/> have improved your health—how
+                is it?—I have written a few lines to George &amp; send them at the same time
+                with this—</p>
             <p>Lowell<ptr target="loc.05421_n5"/> is in the middle of the eastern part of Kentucky
                 but it is probable George's division is moving for Tennessee.</p>
             <pb xml:id="leaf002v" facs="loc_gk.01426_large.jpg" type="verso"/>
-            <p>Dearest sister, I hope this will find you in improved health &#38; cheerful
-                spirits&#8212;As to me I am in first rate health; though in the midst of frightful
-                &#38; distressing scenes of wounds, sickness &#38; death every day.</p>
-            <p>Good bye dear sister&#8212;I shall count on you <hi rend="underline">coming home very soon</hi></p>
+            <p>Dearest sister, I hope this will find you in improved health &amp; cheerful
+                spirits—As to me I am in first rate health; though in the midst of frightful
+                &amp; distressing scenes of wounds, sickness &amp; death every day.</p>
+            <p>Good bye dear sister—I shall count on you <hi rend="underline">coming home very soon</hi></p>
             <closer>
                 <signed>Walt</signed>
             </closer> 
             <postscript>
-                <p>(George's letter got rather torn&#8212;but you can make it out)</p>
+                <p>(George's letter got rather torn—but you can make it out)</p>
             </postscript>
         </body>
     </text>

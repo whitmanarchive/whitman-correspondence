@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08220">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08220">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08220</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,13 +34,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08220</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -54,7 +51,7 @@
                             <pubPlace>Detroit</pubPlace>
                             <publisher>Wayne State University Press</publisher>
                             <date when="1977">1977</date>
-                            <biblScope type="page">259&#8211;260</biblScope>
+                            <biblScope type="page">259–260</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -62,10 +59,10 @@
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 6 November 1891</title>
                     <date cert="high" when="1891-11-06" xml:id="dat1">November 6, 1891</date>  
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.07957"/>
                     <relatedItem type="document" target="wwa.00647"/>
-                    <note type="project" target="#rel01">Whitman used the verso of this letter from Bucke to write his <ref target="loc.07957">November 9&#8211;10, 1891</ref>, letter to 
+                    <note type="project" target="#rel01">Whitman used the verso of this letter from Bucke to write his <ref target="loc.07957">November 9–10, 1891</ref>, letter to 
                         Dr. John Johnston.</note>
                 </bibl>
             </sourceDesc>
@@ -94,16 +91,16 @@
                 </dateline>
             </opener>
             <p>
-               Your letter of 3<hi rend="underline">d</hi><ptr target="loc.08220_n2"/> inst. came last evening and was heartily welcomed. [&#8212;]
+               Your letter of 3<hi rend="underline">d</hi><ptr target="loc.08220_n2"/> inst. came last evening and was heartily welcomed. [—]
                 Many thanks also for the Press<ptr target="n6115"/> of 3<hi rend="underline">d</hi> containing  "A Poets Greeting to a Poet."<ptr target="loc.08220_n3"/>
-                /fishy-fish enough<ptr target="loc.08220_n4"/> / [&#8212;] I wish I could have been there and assisted in the good talk. [&#8212;]
-                So Wallace<ptr target="n6121"/> has gone<ptr target="loc.08172_n2"/>&#8212;I guess he will live a long time before he forgets his
-                visit to America&#8212;I am rejoiced that he came so that we could have the chance of showing him a little attention in return to the
+                /fishy-fish enough<ptr target="loc.08220_n4"/> / [—] I wish I could have been there and assisted in the good talk. [—]
+                So Wallace<ptr target="n6121"/> has gone<ptr target="loc.08172_n2"/>—I guess he will live a long time before he forgets his
+                visit to America—I am rejoiced that he came so that we could have the chance of showing him a little attention in return to the
                 the many kindnesses he has done us. He is a splendid fellow and I trust I may often see him and the other good Bolton fellows before
-                I finish my earthly pilgrimage&#8212;such chaps as they are make the world worth living in. All quiet here and nothing new. I have a 2
+                I finish my earthly pilgrimage—such chaps as they are make the world worth living in. All quiet here and nothing new. I have a 2
                 hour lecture tomorrow morning and have just been hard at work preparing it. I wish you had some of my physical strength, dear Walt, so that
-                Major Pond<ptr target="n3112"/> might take <hi rend="underline">you</hi> on the lecture platform<ptr target="loc.08220_n5"/>&#8212;but I fear
-                that cannot be&#8212;worse luck!
+                Major Pond<ptr target="n3112"/> might take <hi rend="underline">you</hi> on the lecture platform<ptr target="loc.08220_n5"/>—but I fear
+                that cannot be—worse luck!
             </p>
             <closer>
                 <salute>Love to you</salute>
@@ -112,7 +109,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-

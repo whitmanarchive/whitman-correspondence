@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07284">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07284">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07284</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07284</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 20 December 1888</title>
                     <date cert="high" when="1888-12-20" xml:id="dat1">December 20, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -92,8 +89,7 @@
                     <name type="place">London.</name>
                     <name type="place">Ontario</name>
                     <name type="place">London, Ont.,<ptr target="loc.07284_n1"/></name>
-                    <date when="1888-12-20"><handShift rend="manuscript"/>20 Dec<handShift
-                            rend="printed"/> 188<handShift rend="manuscript"/>8</date>
+                    <date when="1888-12-20"><handShift rend="manuscript"/>20 Dec<handShift rend="printed"/> 188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
             <p>I have your note of 18th<ptr target="loc.07284_n2"/>
@@ -102,14 +98,11 @@
                 so what he meant by it? It will amount to nothing any how, am glad you wrote K.
                 explicitly denying authorship.<ptr target="loc.07284_n3"/> You do not seem to gain
                 very fast, still it seems to me that you are on the mend. I trust you will soon be
-                well enough to resume the big book,<ptr target="n4151"/> get cover settled &#38;c. We are all well, this
+                well enough to resume the big book,<ptr target="n4151"/> get cover settled &amp;c. We are all well, this
                 is Clare's birthday (my oldest girl)<ptr target="loc.07284_n4"/> she is 18 today. No
-                further word from Willy Gurd<ptr target="n4284"/> I expect him every day now&#8212;I
-                am heartily glad you like Dr Walsh<ptr target="n4144"
-                />&#8212;I think you are well off as to doctors and<pb xml:id="leaf001v"
-                    facs="loc_es.00533.jpg" type="verso"/> nurse now&#8212;Osler<ptr target="n4302"
-                />, Walsh &#38; Wilkins<ptr target="n4319"/> it is a strong team and we ought to see
-                some result of their care of you&#8212;day by day I watch the post for news of you
+                further word from Willy Gurd<ptr target="n4284"/> I expect him every day now—I
+                am heartily glad you like Dr Walsh<ptr target="n4144"/>—I think you are well off as to doctors and<pb xml:id="leaf001v" facs="loc_es.00533.jpg" type="verso"/> nurse now—Osler<ptr target="n4302"/>, Walsh &amp; Wilkins<ptr target="n4319"/> it is a strong team and we ought to see
+                some result of their care of you—day by day I watch the post for news of you
                 and I still look confidently for a good rally on your part soon now</p>
             <closer>
                 <salute>I am, dear Walt,</salute>

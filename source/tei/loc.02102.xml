@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02102">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02102">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02102</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02102</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Harry Buxton Forman</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00402</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -97,7 +94,7 @@
                 Congress,<ptr target="loc.02102_n4"/> your birthday comes to my mind. I may easily be prevented from sending a
                 letter so as to arrive on the right day, and must therefore do my reverence to you a
                 trifle in advance.</p>
-            <p>This, then, let me do&#8212;not in the mere conventional sense in which that
+            <p>This, then, let me do—not in the mere conventional sense in which that
                 collocation of words is used in daily trivial life, but in the literal sense of
                 greeting you <pb xml:id="leaf002v" facs="loc.02102.002_large.jpg" type="verso"/>
                 with a "bowed mind."</p>
@@ -106,8 +103,7 @@
                 year by year to the recurrence of your Day. This year still more than last, last
                 year more than the year before, we have possessed our souls in hope to send you
                 again our messages of affection and grateful solicitude.</p>
-            <p>On this seventh of May which is the Birthday of Robert Browning,<ptr
-                target="n0116"/>
+            <p>On this seventh of May which is the Birthday of Robert Browning,<ptr target="n0116"/>
                 <pb xml:id="leaf003r" facs="loc.02102.003_large.jpg" type="recto"/> and a high day
                 also to me as the anniversary of the first and only performance of "The
                     Cenci,"<ptr target="loc.02102_n3"/> I send you my heartfelt good wishes for the
@@ -133,4 +129,4 @@
             <pb xml:id="leaf001v" facs="loc.02102.006_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01937">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01937">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01937</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -43,12 +40,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
                         provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
                         and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
                         has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>            
+            <idno>loc.01937</idno></publicationStmt>            
             <sourceDesc>
                 <bibl>
                     <author>Charles P. Somerby</author>
@@ -56,7 +53,7 @@
                     <date cert="high" when="1876-04-19" xml:id="dat1">April 19, 1876</date>
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00352</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>  
@@ -108,8 +105,8 @@
                 You would be surprised if you knew 
                 <pb xml:id="leaf001v" facs="loc_jc.00276_large.jpg" type="verso"/> 
                 exactly what I have had to contend with in the way of obstacles for some time. I am occupied at proofreading from 
-                7:30 A.M. till 5:30 P.M., with only a &#189; hr. for lunch at noon. My business is in the hands of a rural boy, &#38; 
-                I attend to my correspondence from 4 A.M. till 6:30 A.M. &#38; from 7:30 to 10 P.M. &#38; sometimes later, and Sundays. 
+                7:30 A.M. till 5:30 P.M., with only a ½ hr. for lunch at noon. My business is in the hands of a rural boy, &amp; 
+                I attend to my correspondence from 4 A.M. till 6:30 A.M. &amp; from 7:30 to 10 P.M. &amp; sometimes later, and Sundays. 
                 I can still do nothing but ask for your indulgence. But my mortification at having to ask you to wait, under all the 
                 circumstances, is very great. Sometime I hope to make amends and a personal explanation.</p>
             <closer>
@@ -119,7 +116,7 @@
             </closer>
             <pb xml:id="leaf002r" facs="loc_jc.00277_large.jpg" type="recto"/>
             <note type="editorial" resp="#ww" place="left">letter from C P Somerby April 20 '76</note>
-            <pb xml:id='leaf002v' facs="loc_jc.00278_large.jpg" type="verso"/>
+            <pb xml:id="leaf002v" facs="loc_jc.00278_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>

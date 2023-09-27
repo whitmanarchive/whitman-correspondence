@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01399">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01399">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01399</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01399</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Mary Whitall Smith Costelloe</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 8, Reel 5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00144</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -87,27 +84,25 @@
                     <name type="place">W<hi rend="smallcaps">estminster</hi> E<hi rend="smallcaps">mbankment</hi>,</name>
                     <name type="place">S.W.</name>
                 </dateline> 
-                <salute><handShift rend="manuscript"/>Dear Mr. Whitman&#8212;</salute>
+                <salute><handShift rend="manuscript"/>Dear Mr. Whitman—</salute>
             </opener>
             <p>Thy postal card of ten days ago has just come.<ptr target="loc.01399_n1"/> It is so good of thee to write. I am
-                ashamed when I think how long a silence I have kept&#8212;yet I have thought of thee
-                very often I have been so busy&#8212;"facilis decensus"<ptr target="loc.01399_n3"/>&#8212;into
-                politics!&#8212;and when once there, it is hard to get out.<pb xml:id="leaf001v"
-                    facs="loc.01399.002_large.jpg" type="verso"/> Of course the one miserable thing
+                ashamed when I think how long a silence I have kept—yet I have thought of thee
+                very often I have been so busy—"facilis decensus"<ptr target="loc.01399_n3"/>—into
+                politics!—and when once there, it is hard to get out.<pb xml:id="leaf001v" facs="loc.01399.002_large.jpg" type="verso"/> Of course the one miserable thing
                 occupying the political field is Parnell's incredible meanness. He has dealt the
                 death blow to Home Rule in this generation, I am afraid.<ptr target="loc.01399_n2"/> I feel so sorry for the
                 many Liberals whose one cry and interest has been Home Rule. It is not so unhappy
                 for me, because for several years <hi rend="underline">all</hi> my work has been
                 given to what seems to me infinitely more interesting than the machinery of
-                politics&#8212;the reform of existing social abuses, such as the<pb
-                    xml:id="leaf002r" facs="loc.01399.003_large.jpg" type="recto"/> overwork &amp;
-                underpay &amp; the generally wretched conditions under which the poor live&#8212;The
+                politics—the reform of existing social abuses, such as the<pb xml:id="leaf002r" facs="loc.01399.003_large.jpg" type="recto"/> overwork &amp;
+                underpay &amp; the generally wretched conditions under which the poor live—The
                 collapse of Home Rule will bring <hi rend="underline">these</hi> questions much more
                 to the front, but I think it means a Liberal defeat at the next election, as the
                 Party is not prepared.</p> 
             <p>I feel quite in the vein of writing a volume of newspaper "leaders" on the subject,
                 but I will refrain!</p>
-            <p>We are all so well&#8212;children &amp; all. Ray<ptr target="n3137"/> goes to a
+            <p>We are all so well—children &amp; all. Ray<ptr target="n3137"/> goes to a
                     little<pb xml:id="leaf002v" facs="loc.01399.004_large.jpg" type="verso"/>
                 Kindergarten school every day. Frank<ptr target="n3133"/> &amp; I are going to spend
                 our Xmas holiday at Rome, if all goes well.</p>
@@ -122,4 +117,4 @@
             </closer>
         </body> 
     </text>
-</TEI>  
+</TEI>

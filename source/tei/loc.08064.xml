@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08064">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08064">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08064</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,13 +38,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08064</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">242&#8211;243</biblScope>
+                            <biblScope type="page">242–243</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>      
@@ -67,10 +64,10 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 15 September 1891</title>
                     <date cert="high" when="1891-09-15" xml:id="dat1">September 15, 1891</date>  
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00108</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -95,15 +92,15 @@
         <body>
              <opener>
                 <dateline>
-                    <name type="place">Camden N J<ptr target="loc.08064_n1"/>&#8212;</name>
+                    <name type="place">Camden N J<ptr target="loc.08064_n1"/>—</name>
                     <date when="1891-09-15">Sept: 15</date>
                     <date when="1891-09-15">'91</date>
                 </dateline>
             </opener>
             <p>
-                Glad you have same perfect weather we here&#8212;y'rs 13th<ptr target="loc.08064_n2"/> just rec'd &#38; glad to get it&#8212;Love
-                to you &#38; J W W[allace]<ptr target="n6121"/>&#8212;am getting along fairly&#8212;some nice oysters for my b'kfast&#8212;Warry<ptr target="loc.07319_n6"/>
-                is cook as Mrs. D[avis]<ptr target="n6113"/> has gone visiting for the day&#8212;
+                Glad you have same perfect weather we here—y'rs 13th<ptr target="loc.08064_n2"/> just rec'd &amp; glad to get it—Love
+                to you &amp; J W W[allace]<ptr target="n6121"/>—am getting along fairly—some nice oysters for my b'kfast—Warry<ptr target="loc.07319_n6"/>
+                is cook as Mrs. D[avis]<ptr target="n6113"/> has gone visiting for the day—
             </p>
             <closer>
                 <signed>Walt Whitman</signed>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01965">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01965">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -35,7 +32,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01965</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,7 +42,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -53,16 +50,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01965</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Townsend Trowbridge</author>
                     <title>John Townsend Trowbridge to Walt Whitman, 1 January 1867</title>
                     <date cert="high" when="1867-01-01" xml:id="dat1">January 1, 1867</date>
-                    <idno type="callno">MSS18630, Box 17, Reel 10&#8211;11</idno>
+                    <idno type="callno">MSS18630, Box 17, Reel 10–11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00393</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -103,7 +100,7 @@
                     <date when="1867-01-01">Jan. 1, 1867.<ptr target="loc.01965_n1"/></date>
                 </dateline>
             </opener>
-            <p>A happy New Year, my dear friend!&#8212;And here is a lot of luck for your new vol. of "Leaves."<ptr target="uva.00381_n4"/></p>
+            <p>A happy New Year, my dear friend!—And here is a lot of luck for your new vol. of "Leaves."<ptr target="uva.00381_n4"/></p>
             <p>How are you, these days?</p>
             <p>I had a delightful letter from W.D. O'C.<ptr target="n2002"/> yesterday. Thank him for me.</p>
             <closer>
@@ -115,7 +112,7 @@
             </closer>
             <pb xml:id="leaf001v" facs="loc_vm.00670_large.jpg" type="verso"/>
             <pb xml:id="leaf002r" facs="loc_vm.00667_large.jpg" type="recto"/>
-            <note type="editorial" resp="#ww" place="left-marginalia">Trowbridge&#8212;Jan 8-67&#8212;</note>
+            <note type="editorial" resp="#ww" place="left-marginalia">Trowbridge—Jan 8-67—</note>
             <pb xml:id="leaf002v" facs="loc_vm.00668_large.jpg" type="verso"/>
         </body>
     </text>

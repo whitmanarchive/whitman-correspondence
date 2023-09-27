@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04006"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04006"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04006</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,13 +34,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04006</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -51,7 +48,7 @@
                     <date cert="high" when="1891-06-09" xml:id="dat1">June 9, 1891</date>
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno> 
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00361</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -83,10 +80,10 @@
                     <date when="1891-06-09">June 9 '91</date>
                 </dateline>
             </opener>
-            <p>Still keep sick &#38; helpless. Send best wishes &#38; love to E<ptr target="loc.04006_n3"/> and the young ones&#8212;E 
-                Carpenter<ptr target="n0141b"/> has return'd f'm Ceylon &#38; written to me<ptr target="loc.04006_n2"/>&#8212;speaks of you&#8212;he is well &#38; 
-                flourishing&#8212;How are you getting along, &#38; your dear parents?<ptr target="loc.02189_n3"/> I hope well&#8212;Dr B<ptr target="n0119"/> is 
-                back in Canada well &#38; busy&#8212;
+            <p>Still keep sick &amp; helpless. Send best wishes &amp; love to E<ptr target="loc.04006_n3"/> and the young ones—E 
+                Carpenter<ptr target="n0141b"/> has return'd f'm Ceylon &amp; written to me<ptr target="loc.04006_n2"/>—speaks of you—he is well &amp; 
+                flourishing—How are you getting along, &amp; your dear parents?<ptr target="loc.02189_n3"/> I hope well—Dr B<ptr target="n0119"/> is 
+                back in Canada well &amp; busy—
             </p>
             <closer>
                 <signed>Walt Whitman</signed>
@@ -94,88 +91,4 @@
             <pb xml:id="leaf001v" facs="loc_vm.00227_large.jpg" type="verso"/>
         </body>
     </text> 
-</TEI>  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</TEI>

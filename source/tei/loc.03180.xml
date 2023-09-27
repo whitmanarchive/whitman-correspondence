@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03180">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03180">  
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03180</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt> 
+            <idno>loc.03180</idno></publicationStmt> 
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00284</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                         <relatedItem type="text" xml:id="rel01" target="loc.07977"/>
                         <relatedItem type="document" target="wwa.00609"/>
                         <note type="project" target="#rel01">Whitman reuses an envelope in which he received a letter from the sculptor Sidney Morse when 
@@ -92,8 +89,8 @@
                     <date when="1888-02-03"><hi rend="underline">Feb. 3 '88</hi><ptr target="loc.03180_n1"/></date>
                 </dateline> 
             </opener> 
-            <p>&#8212;The little head in oil, with hat (of Elias Hicks<ptr target="n4265"/>) sent me from Richmond
-                Indiana painted by Sidney Morse<ptr target="duk.00863_n3"/>&#8212;As I understand it is from a photo, or daguerreotype of Elias, from life, taken about
+            <p>—The little head in oil, with hat (of Elias Hicks<ptr target="n4265"/>) sent me from Richmond
+                Indiana painted by Sidney Morse<ptr target="duk.00863_n3"/>—As I understand it is from a photo, or daguerreotype of Elias, from life, taken about
                 1828 or '29 there.<ptr target="loc.03180_n2"/></p>
         </div1>   
             <!-- The following enclosure, copied by Whitman, is pasted on the letter -->
@@ -122,4 +119,4 @@
             <pb xml:id="leaf002v" facs="loc.03180.004.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

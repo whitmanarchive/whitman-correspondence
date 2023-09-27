@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00440">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00440">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>med.00440</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,7 +32,7 @@
           <addrLine>Lincoln, NE 68588-4100</addrLine>
         </address>
         <availability>
-          <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+          <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
             reserved. Items in the Archive may be shared in accordance with the Fair Use
             provisions of U.S. copyright law. Redistribution or republication on other
             terms, in any medium, requires express written consent from the editors and
@@ -44,7 +40,7 @@
             Humanities. Permission to reproduce the graphic images in this archive has
             been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>med.00440</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for
           changes to this file, as noted: 
@@ -65,7 +61,7 @@
 <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
               <biblScope type="page">345</biblScope>
                 <biblScope type="volume">2</biblScope>
             </imprint>
@@ -103,13 +99,13 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="right">431 Stevens st. <lb />cor West. <lb />Camden, <lb />N. Jersey.</name>
+          <name type="place" rend="right">431 Stevens st. <lb/>cor West. <lb/>Camden, <lb/>N. Jersey.</name>
           <date when="1875-12-20" rend="right">Dec. 20, '75</date>
         </dateline>
         <salute>Librarian Congress:<lb/>Dear Sir:</salute>
       </opener>
 
-      <p>Please furnish me with Copyright for "Two Rivulets," as per title enclosed. Is the &#36;1 the right sum?
+      <p>Please furnish me with Copyright for "Two Rivulets," as per title enclosed. Is the $1 the right sum?
       </p>
       
       <closer>
@@ -118,7 +114,7 @@
       </closer>
       
       <postscript>
-        <p>If perfectly convenient&#8212;&#38; you have a printed slip with Copyright laws, (latest) please enclose with document.</p>
+        <p>If perfectly convenient—&amp; you have a printed slip with Copyright laws, (latest) please enclose with document.</p>
       </postscript>
     </body>
   </text>

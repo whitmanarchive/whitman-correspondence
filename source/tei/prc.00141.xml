@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00141">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00141">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>prc.00141</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. 
                     Items in the Archive may be shared in accordance with the Fair Use provisions of 
                     U.S. copyright law. Redistribution or republication on other terms, in any medium, 
                     requires express written consent from the editors and advance notification of the 
@@ -44,7 +41,7 @@
                     the graphic images in this archive has been granted by the owners of the originals 
                     for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>prc.00141</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -54,7 +51,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">5</biblScope>
                             <biblScope type="page">220</biblScope>
                         </imprint>
@@ -91,11 +88,11 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden N J&#8212;U S America</name> 
+                    <name type="place">Camden N J—U S America</name> 
                     <date when="1891-06-26">June 26 '91</date>
                 </dateline>
             </opener>
-            <p>Heard that you have return'd to Paris&#8212;If so, write your address as
+            <p>Heard that you have return'd to Paris—If so, write your address as
                 I have what I want to send you.</p>
             <closer>
                 <signed>Walt Whitman</signed>

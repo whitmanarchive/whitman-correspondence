@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00347">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00347">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +23,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>tex.00347</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +40,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>tex.00347</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -61,7 +59,7 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
               <biblScope type="volume">3</biblScope>
               <biblScope type="page">55</biblScope>
             </imprint>
@@ -102,8 +100,8 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="right">431 Stevens st&#8212;Camden&#8212;N Jersey <lb/>U S
-            America&#8212;</name>
+          <name type="place" rend="right">431 Stevens st—Camden—N Jersey <lb/>U S
+            America—</name>
           <date when="1876-08-22" rend="right">Aug 22</date><ptr target="tex.00347_n1"/>
         </dateline>
       </opener>
@@ -111,12 +109,11 @@
       <p>I send <hi rend="italic">you<ptr target="n0522"/></hi> to-day the <choice>
           <orig>Vol.</orig>
           <reg>Volume</reg>
-        </choice> specified for "<hi rend="italic">Mrs. Mathews, Birmingham</hi>"<ptr
-          target="tex.00347_n2"/>&#8212;As this is too indefinite, I have directed it to your care,
+        </choice> specified for "<hi rend="italic">Mrs. Mathews, Birmingham</hi>"<ptr target="tex.00347_n2"/>—As this is too indefinite, I have directed it to your care,
         to forward to Mrs. M. The other <choice>
           <orig>Vols.</orig>
           <reg>Volumes</reg>
-        </choice> will be sent by mail to the addresses given&#8212;All about as usual&#8212;</p>
+        </choice> will be sent by mail to the addresses given—All about as usual—</p>
 
       <closer>
         <signed rend="right">W W</signed>

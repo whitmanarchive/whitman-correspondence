@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bms.00006">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bms.00006">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>bms.00006</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>bms.00006</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,7 +53,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">254</biblScope>
                         </imprint>
@@ -95,15 +92,12 @@
                     <date when="1888-12-24">Dec: 24 '88</date>
                 </dateline>
             </opener>
-            <p>Your cheery letter has come &#38; does me good<ptr target="bms.00006_n2"/>&#8212;I
-                have been sick many months &#38; am yet confined &#38; weak, but decidedly
-                better&#8212;I want to send a package to Mr Pearsall Smith's<ptr target="n4979"/> by
-                European Express with several big Vols. my "Complete works"<ptr
-                    target="n4151"/> including one copy for
-                you &#38; one for him&#8212;you shall have them&#8212;Harned,<ptr
-                    target="loc.03745_n1"/> Kennedy,<ptr target="n3039"/> Dr B[ucke]<ptr
-                    target="n0119"/> &#38; H Gilchrist<ptr target="n0262"/> are well. Write soon as
-                you can&#8212;</p>
+            <p>Your cheery letter has come &amp; does me good<ptr target="bms.00006_n2"/>—I
+                have been sick many months &amp; am yet confined &amp; weak, but decidedly
+                better—I want to send a package to Mr Pearsall Smith's<ptr target="n4979"/> by
+                European Express with several big Vols. my "Complete works"<ptr target="n4151"/> including one copy for
+                you &amp; one for him—you shall have them—Harned,<ptr target="loc.03745_n1"/> Kennedy,<ptr target="n3039"/> Dr B[ucke]<ptr target="n0119"/> &amp; H Gilchrist<ptr target="n0262"/> are well. Write soon as
+                you can—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="slv.00009"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="slv.00009"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Bernard O'Dowd, 13&#8211;14 January 1891</title>
+                <title level="m" type="main">Walt Whitman to Bernard O'Dowd, 13–14 January 1891</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>slv.00009</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,12 +33,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>slv.00009</idno></publicationStmt>
             <sourceDesc>
                 <!--<biblStruct>
                     <monogr>
@@ -59,15 +56,15 @@
                 </biblStruct>-->
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Bernard O'Dowd, 13&#8211;14 January 1891</title>
-                    <date cert="high" notBefore="1891-01-13" notAfter="1891-01-14" xml:id="dat1">January 13&#8211;14, 1891</date>
+                    <title>Walt Whitman to Bernard O'Dowd, 13–14 January 1891</title>
+                    <date cert="high" notBefore="1891-01-13" notAfter="1891-01-14" xml:id="dat1">January 13–14, 1891</date>
                     <orgName xml:id="slv">State Library Victoria (Melbourne), AUS Repository: Manuscripts Collection</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc>
         <profileDesc>
             <handNotes>
-                <handNote xml:id="ww"><persName key="Whitman, Walt" >Walt Whitman</persName></handNote>   
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>   
             </handNotes>
             <handNotes>
                 <handNote xml:id="unk"><persName key="unknown">unknown</persName></handNote>
@@ -95,36 +92,36 @@
             <opener>
                 <date when="1891-01-13">Jan: 13<ptr target="slv.00009_n1"/></date>
             </opener>
-            <p>As I sit here rather late at night alone quite unwell &#38; sleepless &#38; thinking of you all I 
+            <p>As I sit here rather late at night alone quite unwell &amp; sleepless &amp; thinking of you all I 
                 <choice><abbr>tho't</abbr><expan>thought</expan></choice> I <choice><abbr>w'd</abbr><expan>would</expan></choice> 
-                write &#38; commune with you &#38; Eve<ptr target="med.00917_n1"/> &#38; Jim 
-                <choice><sic>Hardigan</sic><corr>Hartigan</corr></choice><ptr target="slv.00006_n3"/> &#38; 
-                Mr &#38; Mrs Fryer<ptr target="prc.00136_n2"/> &#38; Ada &#38; 
-                Fred Woods<ptr target="slv.00006_n4"/> &#38; Ted &#38; Louise<ptr target="n5001c"/>
-                with any others I cannot name (yet wish to)&#8212;</p>
-            <p>The first thing is whether the express parcel of books<ptr target="slv.00009_n4"/>&#8212;the 
-                four big books<ptr target="n4188"/>&#8212;have they come to 
-                you safely? Since I sent them I have written to you twice&#8212;&#38; in my mind have had Australia &#38; 
-                life in the bush &#38; the gum trees, &#38; shearing, &#38; many a mate &#38; shadow more than once&#8212;I 
+                write &amp; commune with you &amp; Eve<ptr target="med.00917_n1"/> &amp; Jim 
+                <choice><sic>Hardigan</sic><corr>Hartigan</corr></choice><ptr target="slv.00006_n3"/> &amp; 
+                Mr &amp; Mrs Fryer<ptr target="prc.00136_n2"/> &amp; Ada &amp; 
+                Fred Woods<ptr target="slv.00006_n4"/> &amp; Ted &amp; Louise<ptr target="n5001c"/>
+                with any others I cannot name (yet wish to)—</p>
+            <p>The first thing is whether the express parcel of books<ptr target="slv.00009_n4"/>—the 
+                four big books<ptr target="n4188"/>—have they come to 
+                you safely? Since I sent them I have written to you twice—&amp; in my mind have had Australia &amp; 
+                life in the bush &amp; the gum trees, &amp; shearing, &amp; many a mate &amp; shadow more than once—I 
                 welcome what you have hinted <choice><abbr>ab't</abbr><expan>about</expan></choice> 
-                <hi rend="underline">those things</hi> more than you know<ptr target="slv.00009_n2"/>&#8212;</p>
-            <p>One of L of G's best running criticisms &#38; comments is by a Frenchman named Sarrazin<ptr target="n3115"/>&#8212;its 
-                tone &#38; points <choice><abbr>w'd</abbr><expan>would</expan></choice> deeply interest (perhaps please) you 
-                &#38; I will send it if ever translated &#38; printed here. I enclose a touch of it (Have 
+                <hi rend="underline">those things</hi> more than you know<ptr target="slv.00009_n2"/>—</p>
+            <p>One of L of G's best running criticisms &amp; comments is by a Frenchman named Sarrazin<ptr target="n3115"/>—its 
+                tone &amp; points <choice><abbr>w'd</abbr><expan>would</expan></choice> deeply interest (perhaps please) you 
+                &amp; I will send it if ever translated &amp; printed here. I enclose a touch of it (Have 
                 you a foreign bookstore in Melbourne? It is named <hi rend="underline">La Renaissance de la Poesie Anglaise</hi>, 
                 by Gabriel Sarrazin, Paris. (is in one moderate sized 
                 <choice><abbr>Vol:</abbr><expan>Volume</expan></choice>) various poets treated)</p>
-            <p>I will send Ingersoll's<ptr target="n0839"/> lecture as soon as I get the little printed book&#8212;Did you 
+            <p>I will send Ingersoll's<ptr target="n0839"/> lecture as soon as I get the little printed book—Did you 
                 get the full report I sent in the N Y "Truth-Seeker" paper?</p>
-            <p>If you like the last photo, in the express parcel (if you got it) I can send you some more&#8212;it is the 
-                last&#8212;&#38; perhaps the best likeness&#8212;I want to be as much among you all as possible&#8212;(or 
-                you mention any of the other pictures any of you want &#38; I will send it)</p>
-            <p>Jan: 14 noon&#8212;Bad hours with me&#8212;bad night&#8212;feel like giving you all good word &#38; loving 
-                message possibly for the last&#8212;But I may be better &#38; as clear as usual to-morrow or next 
-                day&#8212;a bevy of visitors (young women &#38; others) send me notice of calling 
-                <choice><abbr>ab't</abbr><expan>about</expan></choice> noon 15th<ptr target="slv.00009_n5"/>&#8212;I 
-                mustn't forget the dear baby<ptr target="mpl.00000_n4"/> God bless the child, &#38; God bless you all&#8212;It 
-                seems to be growing milder weather &#38; the sun is out&#8212;</p>
+            <p>If you like the last photo, in the express parcel (if you got it) I can send you some more—it is the 
+                last—&amp; perhaps the best likeness—I want to be as much among you all as possible—(or 
+                you mention any of the other pictures any of you want &amp; I will send it)</p>
+            <p>Jan: 14 noon—Bad hours with me—bad night—feel like giving you all good word &amp; loving 
+                message possibly for the last—But I may be better &amp; as clear as usual to-morrow or next 
+                day—a bevy of visitors (young women &amp; others) send me notice of calling 
+                <choice><abbr>ab't</abbr><expan>about</expan></choice> noon 15th<ptr target="slv.00009_n5"/>—I 
+                mustn't forget the dear baby<ptr target="mpl.00000_n4"/> God bless the child, &amp; God bless you all—It 
+                seems to be growing milder weather &amp; the sun is out—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -132,7 +129,7 @@
             <pb xml:id="leaf002r" facs="slv_tb.00033.jpg" type="recto"/>
             <note type="editorial" resp="#ww" place="bottom">via San Francisco or otherwise</note>
             <pb xml:id="leaf002v" facs="slv_tb.00034.jpg" type="verso"/>
-            <note type="editorial" resp="#unk" place="top">Closed 38 <gap reason="illegible"/> 1 &#38; 3 91</note>
+            <note type="editorial" resp="#unk" place="top">Closed 38 <gap reason="illegible"/> 1 &amp; 3 91</note>
         </body>        
     </text>
 </TEI>

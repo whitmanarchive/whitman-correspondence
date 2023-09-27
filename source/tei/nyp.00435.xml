@@ -1,7 +1,4 @@
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00435">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00435">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00435</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00435</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">265&#8211;266</biblScope>
+                            <biblScope type="page">265–266</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -100,56 +97,52 @@
                         <orig>Evn'g</orig>
                         <reg>Evening</reg>
                     </choice></date>
-                    <date when="1882-01-31">Jan 31<ptr
-                            target="nyp.00435_n1"/></date>
+                    <date when="1882-01-31">Jan 31<ptr target="nyp.00435_n1"/></date>
                 </dateline>
             </opener>
             <p><choice>
                 <orig>Rec'd</orig>
                 <reg>Received</reg>
-            </choice> yours to-day&#8212;Sorry you <choice>
+            </choice> yours to-day—Sorry you <choice>
                 <sic>didnt</sic>
                 <corr>didn't</corr>
             </choice> get the letter sent that day I met you, as I
-                wanted you to have it particular<ptr target="nyp.00435_n2"/>&#8212;but perhaps it
-                has come to hand&#8212;that it went to Berlin p. o. I have no doubt, as I mailed it
+                wanted you to have it particular<ptr target="nyp.00435_n2"/>—but perhaps it
+                has come to hand—that it went to Berlin p. o. I have no doubt, as I mailed it
                 myself, addressed it to you "care of Sheriff Gibbs"<ptr target="nyp.00435_n3"/> same
-                as this envelope&#8212;</p>
-            <p>I hear Ed has sold the nag, &#38; gone off to seek his fortune, newspaper canvassing
-                    &#38;c.<ptr target="nyp.00435_n4"/>&#8212;Whether he will make much money or
+                as this envelope—</p>
+            <p>I hear Ed has sold the nag, &amp; gone off to seek his fortune, newspaper canvassing
+                    &amp;c.<ptr target="nyp.00435_n4"/>—Whether he will make much money or
                 not, I <choice>
                     <sic>dont</sic>
                     <corr>don't</corr>
-                </choice> know, but I feel sure he will learn a good deal &#38; get experience of
-                the world &#38; people, &#38; <hi rend="italic">of himself</hi> too&#8212;all of
+                </choice> know, but I feel sure he will learn a good deal &amp; get experience of
+                the world &amp; people, &amp; <hi rend="italic">of himself</hi> too—all of
                 which is the <hi rend="italic">wisdom</hi> described in scripture as better than
-                riches&#8212;<choice><orig>rec'd</orig>
+                riches—<choice><orig>rec'd</orig>
                 <reg>received</reg>
-                </choice> a long letter from Herbert Gilchrist, to-day<ptr
-                    target="nyp.00435_n5"/>&#8212;he seems to be well, &#38; working away hard at
-                his painting&#8212;he describes to me some of his new pictures&#8212;says his mother
-                was temporarily quite unwell, when he wrote&#8212;Edward Carpenter was visiting
-                them&#8212;has a big beard&#8212;</p>
-            <p>Nothing new with me&#8212;I keep well as usual&#8212;you say when I have a <hi
-                    rend="italic">blue spell</hi> I must write to you&#8212;I don't have any such
-                spells&#8212;&#38; seems to me it is time you grew out of them&#8212;my theory is
+                </choice> a long letter from Herbert Gilchrist, to-day<ptr target="nyp.00435_n5"/>—he seems to be well, &amp; working away hard at
+                his painting—he describes to me some of his new pictures—says his mother
+                was temporarily quite unwell, when he wrote—Edward Carpenter was visiting
+                them—has a big beard—</p>
+            <p>Nothing new with me—I keep well as usual—you say when I have a <hi rend="italic">blue spell</hi> I must write to you—I don't have any such
+                spells—&amp; seems to me it is time you grew out of them—my theory is
                 that it is <hi rend="italic">in <choice>
                     <sic>onesself</sic>
                     <corr>one's self</corr>
                 </choice></hi> and not from outside circumstances one
-                suffers such unhappy hours&#8212;the more one yields to them the frequenter &#38;
+                suffers such unhappy hours—the more one yields to them the frequenter &amp;
                 stronger they get until at last they take complete possession of a
-                fellow&#8212;Harry dear, you are a good wrestler&#8212;see if you <choice>
+                fellow—Harry dear, you are a good wrestler—see if you <choice>
                     <sic>cant</sic>
                     <corr>can't</corr>
-                </choice> <hi
-                    rend="italic">throw them</hi> &#38; keep 'em thrown&#8212;</p>
-            <p>But I ought to write you something cheerful&#8212;I have been in all day&#8212;quite
-                a deep snow &#38; the wind blowing&#8212;I here in my big rocking chair at a job
-                writing&#8212;Oscar Wilde sent me his picture yesterday, a photo a foot &#38; a half
-                long, nearly full length, very good&#8212;</p>
+                </choice> <hi rend="italic">throw them</hi> &amp; keep 'em thrown—</p>
+            <p>But I ought to write you something cheerful—I have been in all day—quite
+                a deep snow &amp; the wind blowing—I here in my big rocking chair at a job
+                writing—Oscar Wilde sent me his picture yesterday, a photo a foot &amp; a half
+                long, nearly full length, very good—</p>
             <p>As this letter has little or nothing in it I suppose it will be sure to reach you
-                &#38; not miss&#8212;like the other I wanted you to get&#8212;</p>
+                &amp; not miss—like the other I wanted you to get—</p>
             <closer>
                 <signed rend="right">Your old W W</signed>
             </closer>

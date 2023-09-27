@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00289">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00289">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="if">Ian Faith</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00289</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00289</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -85,8 +81,7 @@
     <text type="letter"> 
         <body>
             <pb xml:id="leaf001r" facs="yal.00289.001_large.jpg" type="recto"/>
-            <note type="editorial" resp="#ht" place="right"><handShift rend="manuscript"
-                        />To Walt Whitman</note>
+            <note type="editorial" resp="#ht" place="right"><handShift rend="manuscript"/>To Walt Whitman</note>
             <opener>
                 <dateline>
                     <name type="place"><handShift rend="printed"/>Superintendent's Office.</name>
@@ -95,9 +90,7 @@
                     <name type="place" rend="center"><handShift rend="printed"/>LONDON.</name>
                     <name type="place" rend="center"><handShift rend="printed"/>ONTARIO</name>
                     <name type="place" rend="right"><handShift rend="printed"/>London,
-                        Ont.,</name><date when="1888-04-25" rend="right"><handShift
-                            rend="manuscript"/>25 April<handShift rend="printed"/> 188<handShift
-                            rend="manuscript"/>8</date>
+                        Ont.,</name><date when="1888-04-25" rend="right"><handShift rend="manuscript"/>25 April<handShift rend="printed"/> 188<handShift rend="manuscript"/>8</date>
                 </dateline>
                 <salute>To Walt Whitman</salute>
             </opener>
@@ -106,15 +99,15 @@
                 Kennedy<ptr target="n3039"/> and myself of 18th inst somedays,<ptr target="yal.00289_n1"/> been too busy to
                 write even a line, have never been so crowded with work of all kinds as I am at
                 present. I do wish you were well enough to accept Mr. Fords proposition to go to
-                England &#38; Scotland. I am dead sure you would have the biggest kind of a time and
+                England &amp; Scotland. I am dead sure you would have the biggest kind of a time and
                 lots of money (if wanted) might be made out of it. But I suppose it is no use
                 thinking of such a thing. O'Connor's<ptr target="n2002"/> letter is not cheerful but
                 for all that middling for him poor fellow, his writing is I think better than it has
-                been, firm &#38; clear&#8212;if he <hi rend="underline">could</hi> only get better!
+                been, firm &amp; clear—if he <hi rend="underline">could</hi> only get better!
                 But we must not wait for it.</p>
             <pb xml:id="leaf001v" facs="yal.00289.002_large.jpg" type="verso"/>
             <p>All well here, lovely weather, spring coming on as fast as the North West wind off
-                the <unclear reason="illegible" resp="#smb" cert="low" >neat</unclear> ice fields of Lake Huron will let it.</p>
+                the <unclear reason="illegible" resp="#smb" cert="low">neat</unclear> ice fields of Lake Huron will let it.</p>
             <closer>
                 <signed rend="right">RM Bucke</signed>
             </closer>

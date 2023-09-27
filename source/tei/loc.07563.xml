@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07563"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07563"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07563</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07563</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,7 +54,7 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
                             <biblScope type="volume">4</biblScope>
                             <biblScope type="page">269</biblScope>
                         </imprint>
@@ -67,9 +64,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 15 January 1889</title>
                     <date cert="high" when="1889-01-15" xml:id="dat1">January 15, 1889</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,14 +97,13 @@
                     <date when="1889-01-15">Jan: 15 '89</date>
                 </dateline>
             </opener>
-            <p>Nothing different&#8212;Fine sunny weather&#8212;Am sitting here by the
-                    oak-fire&#8212;Ed<ptr target="n4319"/> has gone over to Donaldson's<ptr
-                        target="syr.00024_n3"/> with a copy of the big book<ptr target="n4195"/> I have sent him&#8212;quite
-                alone&#8212;no visitors to-day&#8212;no doctors&#8212;Send you enclosed
-                letters&#8212;(may be uninteresting&#8212;if so throw 'em in the fire)&#8212;I am
-                waiting to hear from the German translation<ptr target="sjs.00003_n2"/> (I fancy now out)&#8212;shall tell you
-                soon as I hear&#8212;O that I could get out &#38; bask in this copious sunshine of
-                to-day&#8212;</p>
+            <p>Nothing different—Fine sunny weather—Am sitting here by the
+                    oak-fire—Ed<ptr target="n4319"/> has gone over to Donaldson's<ptr target="syr.00024_n3"/> with a copy of the big book<ptr target="n4195"/> I have sent him—quite
+                alone—no visitors to-day—no doctors—Send you enclosed
+                letters—(may be uninteresting—if so throw 'em in the fire)—I am
+                waiting to hear from the German translation<ptr target="sjs.00003_n2"/> (I fancy now out)—shall tell you
+                soon as I hear—O that I could get out &amp; bask in this copious sunshine of
+                to-day—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

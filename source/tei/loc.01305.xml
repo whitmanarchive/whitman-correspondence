@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01305">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01305">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01305</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01305</idno></publicationStmt>
             <sourceDesc>
                 <bibl> 
                     <author>Walt Whitman</author>
@@ -57,7 +54,7 @@
                     <idno type="callno">MSS18630, Box 8, Reel 5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00136</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -90,12 +87,12 @@
                     <name type="place">Camden<ptr target="loc.01305_n1"/></name>
                     <date when="1890-07-18">July 18 '90</date>
                 </dateline>
-                <salute>Dear friend (&#38; the baby too)</salute>
+                <salute>Dear friend (&amp; the baby too)</salute>
             </opener>
             <p>
-                I have seen in the paper ab't your great affliction &#38; sympathetic with you 
-                deeply&#8212;enclosed I send &#36;5 for you for the baby, &#38; 
-                come &#38; see me when convenient &#38; bring the little one with you
+                I have seen in the paper ab't your great affliction &amp; sympathetic with you 
+                deeply—enclosed I send $5 for you for the baby, &amp; 
+                come &amp; see me when convenient &amp; bring the little one with you
             </p> 
             <closer>
                 <signed>Walt Whitman</signed>
@@ -106,5 +103,3 @@
         </body>
     </text>
 </TEI>
-
- 
