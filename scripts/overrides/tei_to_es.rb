@@ -132,12 +132,14 @@ class TeiToEs
     if date
       year = date[/^\d{4}/]
       case year.to_i
-      when 0..1859
+      when 0..1839
         "Early"
-      when 1860..1866
-        "Civil War (1860-1866)"
-      when 1867..1876
-        "Reconstruction (1867-1876)"
+      when 1840..1860
+        "Pre-Civil War (1840-1860)"
+      when 1861..1865
+        "Civil War (1861-1865)"
+      when 1866..1876
+        "Reconstruction (1866-1876)"
       when 1877..1887
         "Post Reconstruction (1877-1887)"
       when 1888..1892
