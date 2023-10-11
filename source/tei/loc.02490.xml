@@ -14,6 +14,7 @@
                     <persName xml:id="cn">Cristin Noonan</persName>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -78,6 +79,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc> 
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2021-07-23" who="#smb">completed director's corretions</change>
             <change when="2021-05-25" who="#smb">final check, corrected, added notes, DOI</change>
             <change when="2021-04-13" who="#bjo">second check, corrected</change>
@@ -173,7 +175,7 @@
             </postscript> 
             </div1>
             <div1 type="enclosure">
-                <add rend="pasteon" source="#ref1" xml:id="add1">
+                <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                     <q who="#ref1" type="printed">
                         <floatingText rend="flat">
                             <body>
@@ -193,7 +195,7 @@
                             </body>   
                         </floatingText>
                     </q>
-                </add> 
+                <anchor xml:id="a01"/> 
             </div1>
             <pb xml:id="leaf006r" facs="loc.02490.011_large.jpg" type="recto"/>
             <note type="editorial" place="top" resp="#ht">see notes July 31 1891</note>

@@ -13,6 +13,7 @@
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="blh">Breanna Himschoot</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -73,6 +74,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2020-01-27" who="#smb">updated corrections</change>
             <change when="2019-09-30" who="#smb">final check, corrected</change>
             <change when="2018-09-09" who="#blh">Second check</change>
@@ -95,7 +97,7 @@
         </div1>   
             <!-- The following enclosure, copied by Whitman, is pasted on the letter -->
         <div1 type="enclosure">
-            <add rend="pasteon" xml:id="add1">
+            <addSpan spanTo="#a01" rend="pasteon" xml:id="add1"/>
                         <floatingText rend="flat"> 
                      <body> 
                    <opener> 
@@ -112,7 +114,7 @@
                         myself; but it approximates."<ptr target="loc.03180_n3"/></p>
                      </body>
                      </floatingText>
-                  </add>
+            <anchor xml:id="a01"/>
         </div1>
             <pb xml:id="leaf001v" facs="loc.03180.002.jpg" type="verso"/>
             <pb xml:id="leaf002r" facs="loc.03180.003.jpg" type="recto"/>

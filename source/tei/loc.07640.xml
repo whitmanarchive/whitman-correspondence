@@ -13,6 +13,7 @@
                     <persName xml:id="adk">Andrew David King</persName>
                     <persName xml:id="blh">Breanna Himschoot</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -72,6 +73,7 @@
             </particDesc>  
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2021-07-23" who="#smb">completed director's corrections</change>
             <change when="2021-05-20" who="#smb">final check, corrected</change>
             <change when="2021-04-23" who="#blh">Second check: added DOI, corrected transcription, added notes</change>
@@ -101,7 +103,7 @@
                 "Android" begins (half printed I guess) in the <hi rend="underline">Atlantic</hi> for April<ptr target="loc.08244_n1"/>—the print 
                 adjoining is to-day's Phil. <hi rend="underline">Inquirer</hi>.<ptr target="loc.07640_n4"/></p>
               
-            <add rend="pasteon" source="#ref1" xml:id="add1">
+            <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                 <q who="#ref1" type="printed">
                     <floatingText rend="flat">
                         <body>
@@ -115,7 +117,7 @@
                         </body>
                     </floatingText> 
                 </q>
-            </add>         
+            <anchor xml:id="a01"/>         
             <p>Y'rs of 27th came to-day<ptr target="loc.07640_n8"/>—I continue to like the visits of Dr Longaker<ptr target="loc.08039_n2"/>—Van Stafford<ptr target="n0883c"/> 
                 (one of the boys) was here last evn'g—the S's
                 are there yet ab't same—the elder George<ptr target="n0852"/> keeps up but I am afraid is substantially dismantled 

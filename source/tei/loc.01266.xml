@@ -12,6 +12,7 @@
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -68,6 +69,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add to addSpan</change>
             <change when="2015-02-25" who="#nhg">checked, corrected, added correspondent ref</change>
             <change when="2015-01-25" who="#ss">checked and corrected</change>
             <change when="2015-01-13" who="#ak">transcribed and encoded</change>
@@ -87,9 +89,9 @@
                 </opener>
                 <p> This item— </p>
 
-            <add rend="pasteon"><q who="unknown"><floatingText><body><ab><handShift rend="printed"/>A new edition of Walt Whitman's works, has been
+            <addSpan rend="pasteon" spanTo="#a01"/><q who="unknown"><floatingText><body><ab><handShift rend="printed"/>A new edition of Walt Whitman's works, has been
                     brought out in London, with an appendix containing the opinions of George Eliot,
-                    Ruskin, Tennyson, Swinburne, Rossetti and others concerning Whitman.<ptr target="loc.01266_n1"/></ab></body></floatingText></q></add>
+                    Ruskin, Tennyson, Swinburne, Rossetti and others concerning Whitman.<ptr target="loc.01266_n1"/></ab></body></floatingText></q><anchor xml:id="a01"/>
                 
             
 

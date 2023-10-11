@@ -13,6 +13,7 @@
                     <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -76,6 +77,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2019-07-25" who="#smb">final corrections</change>
             <change when="2018-11-19" who="#smb">final check, corrected, added notes</change>
             <change when="2015-07-20" who="#if">edited</change>
@@ -110,7 +112,7 @@
         </div1> 
         <!-- The following enclosure is pasted on the letter -->
             <div1 type="enclosure">
-                <add rend="pasteon" source="#ref1" xml:id="add1">
+                <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                     <q who="#ref1" type="printed">
                         <floatingText rend="flat">
                             <body>
@@ -129,7 +131,7 @@
                             </body>
                      </floatingText>
                 </q>
-              </add>
+                <anchor xml:id="a01"/>
             </div1>
         </body>
         <pb xml:id="leaf001v" facs="loc.03224.002_large.jpg" type="verso"/>

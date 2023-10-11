@@ -14,6 +14,7 @@
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -80,6 +81,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted three add elements to addSpan/anchor pairs</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-01-27" who="#nhg">updated encoding to reflect printed segments</change>
             <change when="2013-03-11" who="#km">checked</change>
@@ -113,15 +115,15 @@
                 
             <p>Here is an item about your old friend Mr Moore, of Bingham's school &amp; printing office:<ptr target="nyp.00406_n4"/></p>
                 
-                                <add rend="pasteon"><q who="unknown"><floatingText rend="flat"><body><p><handShift rend="printed"/>Henry W. Moore, Esq., formerly of the Philotechnic Institution of this city, and at present a resident of St. Louis, has been spending a few days with his friends in this vicinity, leaving Wednesday night for home. He intends departing, in company with Mrs. M., <hi rend="italic">nee</hi> Vandergrift, one of our former school teachers, for Venezuela shortly, in the interest of St. Louis merchants.</p></body></floatingText></q></add>
+            <addSpan spanTo="#a01" rend="pasteon"/><q who="unknown"><floatingText rend="flat"><body><p><handShift rend="printed"/>Henry W. Moore, Esq., formerly of the Philotechnic Institution of this city, and at present a resident of St. Louis, has been spending a few days with his friends in this vicinity, leaving Wednesday night for home. He intends departing, in company with Mrs. M., <hi rend="italic">nee</hi> Vandergrift, one of our former school teachers, for Venezuela shortly, in the interest of St. Louis merchants.</p></body></floatingText></q><anchor xml:id="a01"/>
                 
             <p>And here is one about the little girl that was run over, &amp; your father picked up &amp; carried home:</p>
                 
-                                <add rend="pasteon"><q who="unknown"><floatingText rend="flat"><body><p><handShift rend="printed"/>Monday morning about 11 o'clock Lizzie Linkenheil, 6 years of age, living at 126 Market street, was run over in front of her home by a farmer's Sheldon wagon, loaded with truck, and instantly killed. George Sheer, the driver, was taken into custody and released afterwards by the Coroner. The child's father is a member of the 6th <choice><abbr>N. J.</abbr><expan>New Jersey</expan></choice> Regiment, and was absent with the command at the time.</p></body></floatingText></q></add>
+            <addSpan spanTo="#a02" rend="pasteon"/><q who="unknown"><floatingText rend="flat"><body><p><handShift rend="printed"/>Monday morning about 11 o'clock Lizzie Linkenheil, 6 years of age, living at 126 Market street, was run over in front of her home by a farmer's Sheldon wagon, loaded with truck, and instantly killed. George Sheer, the driver, was taken into custody and released afterwards by the Coroner. The child's father is a member of the 6th <choice><abbr>N. J.</abbr><expan>New Jersey</expan></choice> Regiment, and was absent with the command at the time.</p></body></floatingText></q><anchor xml:id="a02"/>
                 
             <p>And here is one about your old Woodbury friend, I suppose</p>
                 
-            <add rend="pasteon"><q who="unknown"><floatingText rend="flat"><body><p><handShift rend="printed"/>The residence of Mr. Barber, editor of the Woodbury <hi rend="italic">Constitution</hi>, at Woodbury, was discovered to be on fire about 9½ o'clock Sunday morning, and damaged to the extent of $1,000. The good folks of that delightful little place were about proceeding to church when the alarm was given, but they turned in nobly to save the furniture, which was removed little damaged.</p></body></floatingText></q></add>
+            <addSpan spanTo="#a03" rend="pasteon"/><q who="unknown"><floatingText rend="flat"><body><p><handShift rend="printed"/>The residence of Mr. Barber, editor of the Woodbury <hi rend="italic">Constitution</hi>, at Woodbury, was discovered to be on fire about 9½ o'clock Sunday morning, and damaged to the extent of $1,000. The good folks of that delightful little place were about proceeding to church when the alarm was given, but they turned in nobly to save the furniture, which was removed little damaged.</p></body></floatingText></q><anchor xml:id="a03"/>
                 
             <p>Good bye for a couple of days, my own loving boy. I shall look for you Thursday<ptr target="nyp.00406_n5"/>—</p>
                 

@@ -13,6 +13,7 @@
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -73,6 +74,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2021-01-12" who="#smb">final check, added DOI, added notes</change>
             <change when="2019-07-10" who="#aa">second check, corrected</change>
             <change when="2019-06-28" who="#if">First check, corrected</change>
@@ -134,7 +136,7 @@
             </div1>
             <pb xml:id="leaf004r" facs="loc.02462.007.jpg" type="recto"/>
             <div1 type="enclosure">
-                <add rend="pasteon" source="#ref1" xml:id="add1">
+                <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                     <q who="#ref1" type="printed">
                         <floatingText rend="flippy">
                             <body>
@@ -150,7 +152,7 @@
                             </body>
                         </floatingText>
                     </q> 
-                </add>
+                <anchor xml:id="a01" />
             </div1> 
             <pb xml:id="leaf001r" facs="loc.02462.001.jpg" type="recto"/>
             <pb xml:id="leaf001v" facs="loc.02462.002.jpg" type="verso"/>
