@@ -15,6 +15,7 @@
                     <persName xml:id="ad">Anthony Dreesen</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="ss">Stefan Schöberlein</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -49,7 +50,7 @@
             <sourceDesc>
                 <bibl>
                     <author>Helena de Kay Gilder</author>
-                    <author>Richard Watson Gilder</author>
+                    <author xml:id="rwg">Richard Watson Gilder</author>
                     <title>Helena de Kay and Richard Watson Gilder to Walt Whitman, 20 November 1880</title>
                     <date cert="high" when="1880-11-20" xml:id="dat1">November 20, 1880</date>
                     <idno type="callno">MSS18630</idno>
@@ -74,7 +75,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change who="#km" when="2023-10-11">updated encoding of postscript</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-06-24" who="#nhg">corrected</change>
             <change when="2014-05-28" who="#nhg">corrected</change>
             <change when="2014-04-11" who="#ss">annotations added</change>
@@ -135,12 +137,14 @@
             
             <pb xml:id="leaf004r" facs="loc.02221.007.jpg" type="recto"/>
             
-            <add><p>We are both most obliged to you &amp; I endorse the foregoing.</p></add>
+            <postscript resp="#rwg">
+                <p>We are both most obliged to you &amp; I endorse the foregoing.</p>
             
-            <closer>
-                <salute/>
-                <signed rend="right">R.W.G.<ptr target="n0871"/></signed>
-            </closer>
+                <closer>
+                    <salute/>
+                    <signed rend="right">R.W.G.<ptr target="n0871"/></signed>
+                </closer>
+            </postscript>
             
             <pb xml:id="leaf004v" facs="loc.02221.008.jpg" type="verso"/>
             
