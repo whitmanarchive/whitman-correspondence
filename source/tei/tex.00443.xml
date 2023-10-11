@@ -12,6 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -79,6 +80,7 @@
             </particDesc>
         </profileDesc>  
         <revisionDesc>
+            <change when="2023-10-11" who="#km">updated encoding for "private" note</change>
             <change when="2014-09-11" who="#ss">transcribed, encoded and partially
             annotated</change>
             <change when="2014-12-16" who="#kb">edited</change>
@@ -87,7 +89,7 @@
 
     <text type="letter">
         <body>
-            <p><hi rend="italic">Private</hi></p>
+            <note type="editorial" resp="unknown" place="top"><hi rend="italic">Private</hi></note>
             <opener>
                 <dateline>
                     <name type="place">328 Mickle st Camden</name>
