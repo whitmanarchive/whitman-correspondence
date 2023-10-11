@@ -14,6 +14,7 @@
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="ss">Stefan Schöberlein</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -66,7 +67,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2023-10-11" who="#bb">updated encoding of list at end as postscript</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-03-13" who="#ss">annotations added</change>
             <change when="2013-09-23" who="#nhg">checked, corrected</change>
             <change when="2013-02-19" who="#ab">checked</change>
@@ -104,7 +106,8 @@
             
             <pb xml:id="leaf002v" facs="loc.01132.004_large.jpg" type="verso"/>
             <pb xml:id="leaf003r" facs="loc.01132.005_large.jpg" type="recto"/>
-            <add>
+
+       <postscript>     
             <list>
                 <item>Locusts &amp; Wild Honey<ptr target="loc.01132_n1"/></item>
                 <item><hi rend="underline">Contents</hi> <space extent="10 char"/> Pages</item>
@@ -123,7 +126,7 @@
                 <item>Blank leaves 18</item>
                         <item/>
                         <item><space extent="10 char"/>254 ¼</item></list>
-            </add>        
+        </postscript>
             <pb xml:id="leaf003v" facs="loc.01132.006_large.jpg" type="verso"/>      
         </body>
     </text>
