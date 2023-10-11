@@ -13,6 +13,7 @@
                     <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -64,8 +65,9 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">replaced page image references with ones from LC scans</change>
             <change when="2015-02-27" who="#nhg">checked, corrected, added correspondent ref</change>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-07-10" who="#ss">transcribed, encoded, annotated</change>
         </revisionDesc>
     </teiHeader>
@@ -74,7 +76,7 @@
         <body>
             
             
-                <pb xml:id="leaf001r" facs="loc_af.01049_large.jpg" type="recto"/>
+                <pb xml:id="leaf001r" facs="loc_bb.0058.jpg" type="recto"/>
             <div1 type="enclosure">
                 <head type="main-authorial">Translation of Cleanthes' Hymn to Zeus (about 260 B.C.)<ptr target="loc.05534_n1"/></head>
                 
@@ -96,7 +98,6 @@
                         greater and with the lesser lights—</l>
                     <l>Nor does anything take place upon the earth without thee, O Spirit, nor in
                         the divine ethereal sky, nor in the sea,</l>
-                    <pb xml:id="leaf001ar" facs="loc_af.01050_large.jpg" type="recto"/>
                     <l>Save only such things as the base &amp; wicked do in their folly—</l>
                     <l>Yet thou knowest how to make superfluous things fit where they should go, and
                         thou orderest what is without order (lit. makest cosmic what is uncosmic),
@@ -114,7 +115,7 @@
                     <l>Some to vice and the sweet works of the body;</l>
                     <l>—Hastening, verily, altogether, to become the contrary of these
                         things.</l>
-                    <pb xml:id="leaf001v" facs="loc_af.01051_large.jpg" type="verso"/>
+                    <pb xml:id="leaf001v" facs="loc_bb.00059.jpg" type="verso"/>
 
                     <l>But O Zeus! All-giver! Veiled in dark cloud! Lord of thunder!</l>
                     <l>Do thou save men from their miserable foolishness (lit. orig. want of
@@ -136,7 +137,7 @@
                     in the beaten way of readers of the classics, wherefore it may be new to you. I
                     don't think it has <hi rend="underline">ever</hi> been translated in print. I
                     have received the paper with the description of the Indian deputation, &amp;
-                    also the proofs of your 'Critic' essay on Leaves <pb xml:id="leaf001v" facs="loc_af.01052_large.jpg" type="verso"/>of Grass, which interested me
+                    also the proofs of your 'Critic' essay on Leaves of Grass, which interested me
                         <hi rend="underline">profoundly</hi>—there are materials for a big
                     volume in it.<ptr target="loc.05534_n2"/> I got too the paper with translation
                     from my essay, for which I owe the editor &amp; translator deep thanks.<ptr target="loc.05534_n3"/> The translation is very good, though free—but
@@ -163,11 +164,10 @@
                 </closer> 
 
             </div1>
-            <pb xml:id="leaf004r" facs="loc_af.01045_large.jpg" type="recto"/>
-            <pb xml:id="leaf004v" facs="loc_af.01046_large.jpg" type="verso"/>
+            <pb xml:id="leaf004r" facs="loc_bb.00060.jpg" type="recto"/>
+            <pb xml:id="leaf004v" facs="loc_bb.00061.jpg" type="verso"/>
             
-            <note type="editorial" resp="#ww" place="left">early in March '84 | Cleanthes' Hymn to
-                Zeus</note> 
+            <note type="editorial" resp="#ww" place="left">early in March '84 | Cleanthes' Hymn to Zeus</note> 
         </body>
     </text>
 </TEI>
