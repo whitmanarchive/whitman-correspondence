@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07729">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07729">
     <teiHeader> 
         <fileDesc>  
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07729</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,18 +43,18 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>  
+            <idno>loc.07729</idno></publicationStmt>  
             <sourceDesc>  
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 6 March 1890</title>
                     <date cert="high" when="1890-03-06" xml:id="dat1">March 6, 1890</date>
-                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3&#8211;4;
-                        Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3–4;
+                        Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00105</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.07728"/>
                     <relatedItem type="document" target="wwa.00213"/>
                     <note type="project" target="#rel01">Whitman wrote this letter to Bucke on the back of an October 3, 1889, letter he received from his friend and defender William Sloane Kennedy.</note>
@@ -91,13 +88,12 @@
                     <date when="1890-03-06">March 6 PM '90</date>
                 </dateline>
             </opener>
-            <p>The sun out &#38; fine this afternoon&#8212;but we have had a dark cold storm two
-                days&#8212;I keep on ab't same as usual&#8212;in-doors these times&#8212;my MS
-                returned f'm the <hi rend="underline">Nineteenth Century</hi><ptr target="loc.07729_n2"
-                />&#8212;Shall find some other market perhaps&#8212;(if not, shall print in a little
-                another <hi rend="underline">Annex</hi><ptr target="loc.07729_n3"/>&#8212;for I
-                contemplate such)&#8212;have had my mid-day massage&#8212;am sitting here at the
-                table in my den&#8212;good oak fire&#8212;</p>
+            <p>The sun out &amp; fine this afternoon—but we have had a dark cold storm two
+                days—I keep on ab't same as usual—in-doors these times—my MS
+                returned f'm the <hi rend="underline">Nineteenth Century</hi><ptr target="loc.07729_n2"/>—Shall find some other market perhaps—(if not, shall print in a little
+                another <hi rend="underline">Annex</hi><ptr target="loc.07729_n3"/>—for I
+                contemplate such)—have had my mid-day massage—am sitting here at the
+                table in my den—good oak fire—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -105,4 +101,3 @@
         </body>
     </text>
 </TEI>
- 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="owu.00019">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="owu.00019">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +25,7 @@
 </edition>
             </editionStmt>
             <publicationStmt>
-<idno>owu.00019</idno>
+
 <distributor>The Walt Whitman Archive</distributor>
 <address>
     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,7 +43,7 @@
         Humanities. Permission to reproduce the graphic images in this archive has
         been granted by the owners of the originals for this publication only.</p>
 </availability>
-            </publicationStmt>
+            <idno>owu.00019</idno></publicationStmt>
             
             <sourceDesc><biblStruct>
     <monogr>
@@ -53,8 +52,8 @@
         <imprint>
             <pubPlace>New York</pubPlace>
             <publisher>New York University Press</publisher>
-            <date notBefore="1961" notAfter="1977">1961–1977</date><biblScope type="volume">2</biblScope>
-            <biblScope type="page">75</biblScope>
+            <date notBefore="1961" notAfter="1977">1961–1977</date><biblScope unit="volume">2</biblScope>
+            <biblScope unit="page">75</biblScope>
         </imprint>
     </monogr>
 </biblStruct><bibl>
@@ -100,7 +99,7 @@
             <p>Would the enclosed piece be available to you for say the March number of your monthly?
             </p>
             
-            <p>The price is $45&#8212;and 30 copies of the number in which it may be printed.
+            <p>The price is $45—and 30 copies of the number in which it may be printed.
             </p>
             
             <p>I have had it put in type for my own convenience, &amp; to insure greater correctness.

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01982">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John Q. A. Ward to Walt Whitman, 1 June 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Q. A. Ward</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01982</idno></publicationStmt>            
+            <sourceDesc>       
+                <bibl>
+                    <author>John Q. A. Ward</author>
+                    <title>John Q. A. Ward to Walt Whitman, 1 June 1876</title>  
+                    <date cert="high" when="1876-06-01" xml:id="dat1">June 1, 1876</date>
+                    <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00406</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>              
+                <person role="sender"> 
+                    <persName key="Ward, John Q. A." ref="loc.01982_n2">John Q. A. Ward</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-07-28" who="#smb">final check, corrections</change>
+            <change when="2022-12-28" who="#aja">checked, corrected</change>
+            <change when="2022-03-11" who="#em">checked, corrected</change>
+            <change when="2021-12-22" who="#me">checked, corrected</change>
+            <change who="#nhg" when="2016-06-29">corrected correspondent ref</change>
+            <change who="#ak" when="2015-04-28">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-03-07" who="#cb">checked</change>
+            <change when="2012-05-07" who="#km">checked</change>
+            <change when="2012-03-15" who="#al">checked and corrected</change>
+            <change when="2012-01-20" who="#js">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>          
+            <pb xml:id="leaf001r" facs="loc_vm.02089_large.jpg" type="recto"/>
+            <opener>
+                <note type="editorial" resp="#ww" place="top">3 Vols. &amp;c &amp;c sent June 8 '76 by Ex &amp; rec'd</note>
+                <note type="editorial" resp="#ww" place="top">June 1st <hi rend="underline">JQA Ward</hi> 9 or 10 Vols, &amp;c <hi rend="underline">sent, by Ex</hi></note>
+                <salute>My dear Mr Whitman</salute>
+            </opener>
+
+            <p>I inclose check for Fifty dollars ($50) my subscription for five copies of your complete works</p>
+            <p>If I understand it correctly that is the price.</p>
+            <p>Be kind enough to send them to my address.</p>
+            <p>With all fond wishes for your health and happiness</p>
+            
+            <closer>
+                <salute>I am Very Truly Yours</salute>
+                <signed>J. Q. A. Ward</signed>
+                <address>
+                    <addrLine>140 East 38th St.</addrLine>
+                    <addrLine>New York</addrLine>
+                </address>
+                <dateline>
+                    <date when="1876-06-01">June 1st/76</date>
+                </dateline>
+            </closer>
+            <postscript>
+                <p>P.S. Will you be kind enough to put your autograph in each copy?</p>
+            </postscript>
+            <pb xml:id="leaf001v" facs="loc_vm.02090_large.jpg" type="verso"/>            
+        </body>
+    </text>
+</TEI>

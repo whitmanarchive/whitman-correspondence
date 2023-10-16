@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08100">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08100">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08100</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08100</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Henry Irving</author>
@@ -54,7 +51,7 @@
                     <idno type="callno">MSS 18630, Box 91</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.02104</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -98,7 +95,7 @@
                     <name type="place"><handShift rend="printed"/>THOS. T. ECKERT, General Manager. NORVIN GREEN, President.</name>
                     <note type="editorial" place="top" resp="#unk">cable</note>
                     <name type="place"><handShift rend="printed"/>NUMBER <handShift rend="manuscript"/>15<lb/><handShift rend="printed"/>SENT BY <handShift rend="manuscript"/>EL<lb/><handShift rend="printed"/>
-                        REC'D By <handShift rend="manuscript"/>&#8212;M<lb/><handShift rend="printed"/>CHECK <handShift rend="manuscript"/>20</name>
+                        REC'D By <handShift rend="manuscript"/>—M<lb/><handShift rend="printed"/>CHECK <handShift rend="manuscript"/>20</name>
                     <name type="place"><handShift rend="printed"/>Received at <handShift rend="manuscript"/>627 No. 7 North THIRD St.<ptr target="loc.08100_n1"/></name> 
                     <date when="1889-06-02"><handShift rend="manuscript"/>6/2 <handShift rend="printed"/>188<handShift rend="manuscript"/>9</date> 
                     <name type="place"><handShift rend="printed"/>Dated <handShift rend="manuscript"/><name type="place">London</name></name>
@@ -120,7 +117,3 @@
         </body>
     </text>
 </TEI>
- 
-
-
-

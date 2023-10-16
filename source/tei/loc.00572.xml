@@ -1,24 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00572">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Fred Vaughan to Walt Whitman, 17 May 1860</title>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00572">
+   <teiHeader>  
+      <fileDesc>   
+         <titleStmt>   
+            <title level="m" type="main">Fred B. Vaughan to Walt Whitman, 17 May 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
-            <author>Fred Vaughan</author>
+            <author>Fred B. Vaughan</author>
+            <editor>Stephanie Blalock</editor>
             <editor>Dennis Berthold</editor>
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
                <persName xml:id="hb">Heidi Bean</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
+               <persName xml:id="smb">Stephanie Blalock</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -28,7 +29,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00572</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,43 +39,43 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                  Items in the Archive may be shared in accordance with the Fair Use provisions of
+                  U.S. copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00572</idno></publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="cl">Calamus Lovers: Walt Whitman's Working-Class Camerados</title>
-                  <imprint>
-                     <pubPlace>San Francisco</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1987</date>
-                     <biblScope type="page">47</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
-               <author>Fred Vaughan</author>
-               <title>Fred Vaughan to Walt Whitman, 17 May 1860</title>
+               <author>Fred B. Vaughan</author>
+               <title>Fred B. Vaughan to Walt Whitman, 17 May 1860</title>
                <date when="1860-05-17">May 17, 1860</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+               <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00399</idno>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                  Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
-         </sourceDesc>
+         </sourceDesc> 
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Vaughan, Fred">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred B." ref="loc.00573_n100">Fred B. Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
          </particDesc>
       </profileDesc>
-      <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+      <revisionDesc> 
+         <change who="#smb" when="2020-12-31">added notes, updated</change>
+         <change who="#smb" when="2020-01-21">added notes, updated</change>
+         <change who="#ak" when="2015-02-12">corrected orgName, added pbs, corrected
+            transcription</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bbb" when="2009-08-20">proofread</change>
          <change who="#bbb" when="2009-08-04">updated annotations</change>
@@ -82,22 +83,30 @@
          <change who="#el" when="2008-07-21">updated TEI header</change>
          <change who="#kk" when="2008-04-01">checked and proofed</change>
          <change who="#nk" when="2007-06-06">Transcribed, Encoded</change>
-      </revisionDesc>
-   </teiHeader>
+      </revisionDesc> 
+   </teiHeader> 
    <text type="letter">
       <body>
-         
-            <opener>
-               
-               <salute>Dear Walt.&#8212;</salute>
-            </opener>
-         <p>What the devil is the matter? Nothing serious I<ptr target="loc.00572_n100"/> hope.&#8212;It seems mighty queer that I cannot succeed in having one word from you.&#8212;I swear I would have thought you would be the last man in this world to neglect me.&#8212;But I am afraid.&#8212;</p>
-            <p>Lizzie is married!, Johnny is dead! Walt has forgotten.</p>
-            <closer rend="right">
-               <salute>Such is life, Yours,</salute>
-               <signed>Fred.</signed>
-            </closer>
-         
+         <pb xml:id="leaf001r" facs="loc_vm.00790.jpg" type="recto"/>
+         <opener>
+            <dateline>
+               <name type="place">New York<ptr target="loc.00572_n1"/></name>
+               <date when="1860-05-17">May 17th</date>
+            </dateline>
+            <salute>Dear Walt.—</salute>
+         </opener> 
+         <p>What the devil is the matter?<ptr target="loc.00570_n8"/> Nothing serious I hope.<ptr target="loc.00572_n2"/>—It seems mighty queer that I
+            cannot succeed in having one word from you.—I swear I would have thought you would
+            be the last man in this world to neglect me.—But I am afraid.—</p>
+         <p>Lizzie is married!, Johnny is dead! Walt has forgotten.</p>
+         <closer rend="right">
+            <salute>Such is life,</salute> 
+            <salute>Yours,</salute>
+            <signed>Fred.</signed>
+         </closer>
+         <pb xml:id="leaf001v" facs="loc_vm.00791.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="loc_vm.00792.jpg" type="recto"/>
+         <pb xml:id="leaf002v" facs="loc_vm.00793.jpg" type="verso"/> <!--Needs image rotation-->
       </body>
    </text>
 </TEI>

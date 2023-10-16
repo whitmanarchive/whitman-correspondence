@@ -1,34 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04764">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04764">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Hannah Heyde, 17 August 1887</title>
+                <title level="m" type="main">Walt Whitman to Hannah Whitman Heyde, 17 August 1887</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>Walt Whitman to Hannah Heyde, 17 August 1887</author>
+                <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="rf">Ryan Furlong</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
-                <sponsor>Center for Digital Research in the Humanities, University of
-                    Nebraska-Lincoln</sponsor>
+                <sponsor>Center for the Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
+                <sponsor>Kent State University</sponsor>
+                <sponsor>Pepperdine University</sponsor>
                 <funder>National Historical Publications and Records Commission</funder>
             </titleStmt>
             <editionStmt>
                 <edition>
-                    <date>2016</date>
+                    <date>2022</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04764</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04764</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Hannah Heyde, 17 August 1887</title>
+                    <title>Walt Whitman to Hannah Whitman Heyde, 17 August 1887</title>
                     <date cert="high" when="1887-08-17" xml:id="dat1">August 17, 1887</date>
                     <idno type="callno">MSS18630, Box 3, Reel 2</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -64,9 +62,9 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Heyde, Hannah L." ref="n0285"/>
-                </person>
-            </particDesc>
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Whitman Heyde</persName>
+                </person> 
+            </particDesc>  
         </profileDesc>
         <revisionDesc>
             <change when="2016-06-27" who="#smb">final check, corrected</change>
@@ -86,13 +84,13 @@
                 </dateline>
             </opener>
             <p>Nothing particular to write ab't. Pleasant weather now for over a week. I am much as
-                usual, but cannot move around at all&#8212;Keep good spirits however &amp; am living
-                comfortably enough&#8212;Of course lonesomeness &amp; bodily disability are
-                dreadful, but things might be so much worse&#8212;Many cases of extreme suffering,
-                poverty, sickness, old age &amp;c. around here lately&#8212;As I write I am sitting
-                by the open window in the little front sitting room down stairs&#8212;Every thing is
-                very quiet&#8212;the expressman is just taking over a big clay head to Phila: to be
-                cast&#8212;modeled here by a sculptor<ptr target="n0862"/>&#8212;Best love</p>
+                usual, but cannot move around at all—Keep good spirits however &amp; am living
+                comfortably enough—Of course lonesomeness &amp; bodily disability are
+                dreadful, but things might be so much worse—Many cases of extreme suffering,
+                poverty, sickness, old age &amp;c. around here lately—As I write I am sitting
+                by the open window in the little front sitting room down stairs—Every thing is
+                very quiet—the expressman is just taking over a big clay head to Phila: to be
+                cast—modeled here by a sculptor<ptr target="n0862"/>—Best love</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00051">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00051">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>prc.00051</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>prc.00051</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">75-76</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">75-76</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -100,15 +96,15 @@
                 <dateline>
                     <date when="1877-01-24" rend="right"><choice><abbr>Jan</abbr><expan>January</expan></choice> 24 '77</date>
                 </dateline>
-                <salute>My dear Damon Kilgore | &#38; Mrs Kilgore</salute>
+                <salute>My dear Damon Kilgore | &amp; Mrs Kilgore</salute>
             </opener>
 
-            <p>I will be at the Commemorative meeting. I would like to speak from ten to twenty minutes <hi rend="italic">before</hi> Mr Phillips's address. What I have to offer might be called <hi rend="italic">A true Reminiscence of Thomas Paine</hi>. I shall be to-morrow evening &#38; night, and all Friday, &#38; the following night &#38; forenoon, <hi rend="italic">at 1929 north 22d street, <choice><abbr>Phila</abbr><expan>Philadelphia</expan></choice></hi>. (north of Berks)<ptr target="prc.00051_n1"/>&#8212;&#38; if it would be convenient for you to send a carriage <hi rend="italic">there</hi> for me at about 1&#189; p m Sunday it would suit me&#8212;Call on or address me there Friday forenoon or evening, or Saturday forenoon before 12&#8212;</p>
+            <p>I will be at the Commemorative meeting. I would like to speak from ten to twenty minutes <hi rend="italic">before</hi> Mr Phillips's address. What I have to offer might be called <hi rend="italic">A true Reminiscence of Thomas Paine</hi>. I shall be to-morrow evening &amp; night, and all Friday, &amp; the following night &amp; forenoon, <hi rend="italic">at 1929 north 22d street, <choice><abbr>Phila</abbr><expan>Philadelphia</expan></choice></hi>. (north of Berks)<ptr target="prc.00051_n1"/>—&amp; if it would be convenient for you to send a carriage <hi rend="italic">there</hi> for me at about 1½ p m Sunday it would suit me—Call on or address me there Friday forenoon or evening, or Saturday forenoon before 12—</p>
 
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>
-            <postscript><p>Thanks for the hospitality&#8212;hearty thanks&#8212;I will accept if I can Sunday&#8212;but it is not certain&#8212;</p></postscript>
+            <postscript><p>Thanks for the hospitality—hearty thanks—I will accept if I can Sunday—but it is not certain—</p></postscript>
         </body>
     </text>
 </TEI>

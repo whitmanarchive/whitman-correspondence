@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00570">
-   <teiHeader> 
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Fred Vaughan to Walt Whitman, 9 April 1860</title>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00570">
+   <teiHeader>
+      <fileDesc>    
+         <titleStmt>  
+            <title level="m" type="main">Fred B. Vaughan to Walt Whitman, 9 April 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
-            <author>Fred Vaughan</author>
+            <author>Fred B. Vaughan</author>
+            <editor>Stephanie Blalock</editor>
             <editor>Dennis Berthold</editor>
             <editor>Kenneth M. Price</editor>
             <respStmt>
@@ -18,8 +17,10 @@
                <persName xml:id="hb">Heidi Bean</persName>
                <persName xml:id="nk">Nick Krauter</persName>
                <persName xml:id="km">Kevin McMullen</persName>
+               <persName xml:id="smb">Stephanie Blalock</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -29,7 +30,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00570</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,33 +38,47 @@
                <addrLine>University of Nebraska-Lincoln</addrLine>
                <addrLine>P.O. Box 884100</addrLine>
                <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
+            </address> 
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                  Items in the Archive may be shared in accordance with the Fair Use provisions of
+                  U.S. copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00570</idno></publicationStmt>
          <sourceDesc>
             <bibl>
-               <author>Fred Vaughan</author>
-               <title>Fred Vaughan to Walt Whitman, 9 April 1860</title>
+               <author>Fred B. Vaughan</author>
+               <title>Fred B. Vaughan to Walt Whitman, 9 April 1860</title>
                <date when="1860-04-09">April 9, 1860</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+               <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00399</idno>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                  Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+         <handNotes>
+            <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+         </handNotes>
          <particDesc>
             <person role="sender">
-               <persName key="Vaughan, Fred" ref="loc.00570_n100">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred B." ref="loc.00573_n100">Fred B. Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
          </particDesc>
-      </profileDesc>
+      </profileDesc> 
       <revisionDesc>
+         <change who="#smb" when="2020-12-31">added notes, updated</change>
+         <change who="#smb" when="2020-01-21">updated notes and corrected</change>
          <change who="#km" when="2015-10-13">deleted an unneeded note for "Mrs. Cooper"</change>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#kk" when="2010-04-14">proofreading changes</change>
          <change who="#bbb" when="2009-08-20">proofread</change>
@@ -72,21 +87,39 @@
          <change who="#el" when="2008-07-21">updated TEI header</change>
          <change who="#kk" when="2008-04-01">checked and proofed</change>
          <change who="#nk" when="2007-06-06">Transcribed, Encoded</change>
-      </revisionDesc>
-   </teiHeader>
-   <text type="letter">
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
       <body>
          <pb xml:id="leaf001r" facs="loc_vm.00782.jpg" type="recto"/>
          <opener>
-            <dateline> 
-               <name type="place">New York</name>
+            <dateline>
+               <name type="place">New York<ptr target="loc.00570_n1"/></name>
                <date when="1860-04-09">April 9th</date>
-            </dateline>
+            </dateline> 
          </opener>
-         <p>How is this, Walt? I have written to you twice since I heard from you.<ptr target="loc.00570_n2"/> Why don't you answer? How about them proof sheets?<ptr target="loc.00570_n3"/> I have not seen any of them yet. Come, Walt, remember I take a deep interest in all that concerns you and must naturally be anxious to hear from you. Mrs Cooper and Robert<ptr target="loc.00569_n4"/> keep asking me every evening "if I have heard from Walt yet." and if you do not write to me soon I am afraid I shall be under the <hi rend="italic">painful</hi> necessity of telling a lie to keep up your reputation.&#8212;</p>
-         <p>There is nothing new here.&#8212;The weather was disgusting both yesterday and today wet, muddy and chilly.&#8212;Did you see the Sunday Courier of April first? It contains an article on "Yankee Bards and New York Critics."&#8212;Get it if you can there, if not let me know &amp; I will send it to you. It gives a good description of the Bohemian Club at Pfaffs<ptr target="loc.00570_n6"/> in which you are set down as the grand master of ceremonies. Our folks have <pb xml:id="leaf001v" facs="loc_vm.00783.jpg" type="verso"/>shifted me once more. I am now back again in my old position at 168 Broadway, behind the desk.&#8212;So please address me here.&#8212;Mrs. Cooper and Robert send their love and best wishes.&#8212;Write soon and do not forget those sheets. Your friend, "Fred."</p>
-            <closer rend="right"/>
+         <p>How is this, Walt? I have written to you twice<ptr target="loc.00570_n2"/> since I heard from you. 
+            Why don't you answer?<ptr target="loc.00570_n8"/>  How about them proof sheets?<ptr target="loc.00569_n7"/> I have not seen any of them yet. Come, Walt, remember I take
+            a deep interest in all that concerns you and must naturally be anxious to hear from you.
+            Mrs Cooper and Robert<ptr target="loc.00569_n4"/> keep asking me every evening "if I
+            have heard from Walt yet." and if you do not write to me soon I am afraid I shall be
+            under the <hi rend="italic">painful</hi> necessity of telling a lie to keep up your
+            reputation.—</p>  
+         <p>There is nothing new here.—The weather was disgusting both yesterday and today
+            wet, muddy and chilly.—Did you see the Sunday Courier<ptr target="loc.00570_n7"/> of April first? It contains
+            an article on "Yankee Bards and New York Critics."—Get it if you can there, if not
+            let me know &amp; I will send it to you. It gives a good description of the Bohemian
+            Club at Pfaffs<ptr target="loc.00565_n2a"/> in which you are set down as the grand master
+            of ceremonies. Our folks have <pb xml:id="leaf001v" facs="loc_vm.00783.jpg" type="verso"/>shifted me once more. 
+            I am now back again in my old position at 168 Broadway, behind
+            the desk.<ptr target="loc.00570_n9"/>—So please address me here.—Mrs. Cooper and Robert send their love
+            and best wishes.—Write soon and do not forget those sheets.</p>  
+            <closer>  
+            <salute>Your friend,</salute> 
+            <signed>"Fred."</signed> 
+            </closer> 
          <pb xml:id="leaf002r" facs="loc_vm.00784.jpg" type="recto"/>
+         <note type="editorial" place="left" resp="#ww">Fred Vaughan</note>
          <pb xml:id="leaf002v" facs="loc_vm.00785.jpg" type="verso"/>
       </body>
    </text>

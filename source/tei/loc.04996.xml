@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04996">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">S. W. Cowles to Walt Whitman, 7 June 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>S. W. Cowles</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="tb">Tara Ballard</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.04996</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>S. W. Cowles</author>
+                    <title>S. W. Cowles to Walt Whitman, 7 June 1890</title>
+                    <date cert="high" when="1890-06-07" xml:id="dat1">June 7, 1890</date>
+                    <idno type="callno">MSS18630, Box 23, Reel 14–15</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00525</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="re101" target="wwa.00621"/>
+                    <note type="project" target="#rel01">This autotgraph request has
+                        been crossed out. Whitman has used the back of the request to compose notes
+                        to himself about including his poem "The Beauty of the Ship" in the
+                        1891–1892 (the so-called "deathbed" edition) of <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Cowles, S. W." ref="loc.04996_n1">S. W. Cowles</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-13" who="#aja">final correction</change>
+            <change when="2022-07-08" who="#smb">final checked, corrected</change>
+            <change when="2022-07-05" who="#pw">checked, corrected</change>
+            <change when="2022-03-06" who="#me">updated images</change>
+            <change when="2022-03-05" who="#tb">processed, added images</change>
+            <change when="2021-11-29" who="#aja">checked, corrected</change>
+            <change when="2021-11-22" who="#aja">checked, added DOI</change>
+            <change when="2020-02-25" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_tb.00079.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">
+                        <handShift rend="printed"/>S. W. COWLES,</name>
+                    <name type="place"><handShift rend="printed"/>Dealer in</name>
+                    <name type="place"><handShift rend="printed"/>Farm Loans, Real Estate and Insurance,</name>
+                    <name type="place"><handShift rend="printed"/>891 MAIN STREET,</name>
+                    <name type="place"><handShift rend="printed"/>Hartford, Conn.,<handShift rend="manuscript"/></name> 
+                    <date when="1890-06-07">June 7<hi rend="underline">th</hi>
+                            <handShift rend="printed"/>189<handShift rend="manuscript"/>0</date>
+                </dateline>
+                <salute>Mr. Walter Whitman</salute>
+                <salute>Camden, N.J.</salute>
+                <salute>Dear Sir</salute>
+            </opener>
+            <p>Will you be kind enough to send me your autograph for my private collection.—I
+                enclose blank cards.</p>
+            <closer>
+                <salute>Most Truly Yours</salute>
+                <signed><hi rend="underline">S. W. Cowles</hi></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_tb.00078.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

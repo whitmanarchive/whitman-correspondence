@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00448">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00448">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00448</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00448</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">343</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">343</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -94,18 +90,16 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place" rend="right">431 Stevens Street<lb/> Camden New Jersey<ptr
-                            target="uva.00448_n1"/></name>
+                    <name type="place" rend="right">431 Stevens Street<lb/> Camden New Jersey<ptr target="uva.00448_n1"/></name>
                     <date when="1883-06-19" rend="right">June 19 '83</date>
                 </dateline>
             </opener>
             <p>Thanks for the copy German rendering "<hi rend="italic">Cradle Endlessly
-                Rocking</hi>" &#38; for all the other German renderings of my pieces which you have
-                sent me, &#38; which I carefully keep, &#38; prize&#8212;Dr R M Bucke has just
-                published a book about me &#38; my poems&#8212;&#38; having two or three advance
+                Rocking</hi>" &amp; for all the other German renderings of my pieces which you have
+                sent me, &amp; which I carefully keep, &amp; prize—Dr R M Bucke has just
+                published a book about me &amp; my poems—&amp; having two or three advance
                 copies (in paper) at my disposal I should like to send you one. Shall I send it as
-                before (by mail) to cor: Morris av: and 155th Street? (See the N. Y. <hi
-                    rend="italic">Critic</hi> June 16)&#8212;</p>
+                before (by mail) to cor: Morris av: and 155th Street? (See the N. Y. <hi rend="italic">Critic</hi> June 16)—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

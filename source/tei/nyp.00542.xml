@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00542">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00542">
     <teiHeader> 
         <fileDesc>
             <titleStmt> 
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00542</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00542</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +52,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">394&#8211;395</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">394–395</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -93,34 +90,31 @@
     </teiHeader>
     <text type="letter">
         <body>
-            <note type="editorial" resp="#wdo" place="top">Answ'd July 27/85.<ptr
-                target="nyp.00542_n1"/></note>
+            <note type="editorial" resp="#wdo" place="top">Answ'd July 27/85.<ptr target="nyp.00542_n1"/></note>
             <opener>
                 <dateline>
                     <name type="place">328 Mickle Street</name>
                     <name type="place">Camden New Jersey</name>
-                    <date when="1885-06-11" rend="right">June 11 '85&#8212;noon<ptr
-                            target="nyp.00542_n2"/></date>
+                    <date when="1885-06-11" rend="right">June 11 '85—noon<ptr target="nyp.00542_n2"/></date>
                 </dateline>
             </opener>
-            <p>The picture arrived this morning&#8212;it is a splendid piece of work &#38; I feel
-                sure a good likeness&#8212;At any rate it is that rare bird a perfect photo&#8212;&#38; I am mighty glad to get it&#8212;it leans against the wall before me
-                this moment with <hi rend="italic">the Bacon</hi>&#8212;(I am ashamed to say never
-                before acknowledged&#8212;but it is in my little sitting room &#38; before my eyes
-                every day&#8212;more than half the time is taken for Shakspere)<ptr
-                    target="nyp.00542_n3"/>&#8212;</p>
-            <p>I am about as well as usual in general health&#8212;full as well&#8212;but laid by
-                with lameness&#8212;added to by a fall two months ago &#38; turning my ankle in. I
-                hear from Dr Bucke and John Burroughs&#8212;both well&#8212;Doctor busy as a
-                bee&#8212;both vehement in hospitable invitations to me which I should be most glad
-                to accept&#8212;but I find it best not to stray too far from my own chair &#38;
-                    bed<ptr target="nyp.00542_n4"/>&#8212;Mrs Gilchrist has a strong article abt L.
-                of G. &#38;c printed in the "To-day," cheap radical English magazine for
-                June&#8212;I shall probably have some soon &#38; will send you one&#8212;It is equal
-                to the 1872 piece<ptr target="nyp.00542_n5"/>&#8212;</p>
+            <p>The picture arrived this morning—it is a splendid piece of work &amp; I feel
+                sure a good likeness—At any rate it is that rare bird a perfect photo—&amp; I am mighty glad to get it—it leans against the wall before me
+                this moment with <hi rend="italic">the Bacon</hi>—(I am ashamed to say never
+                before acknowledged—but it is in my little sitting room &amp; before my eyes
+                every day—more than half the time is taken for Shakspere)<ptr target="nyp.00542_n3"/>—</p>
+            <p>I am about as well as usual in general health—full as well—but laid by
+                with lameness—added to by a fall two months ago &amp; turning my ankle in. I
+                hear from Dr Bucke and John Burroughs—both well—Doctor busy as a
+                bee—both vehement in hospitable invitations to me which I should be most glad
+                to accept—but I find it best not to stray too far from my own chair &amp;
+                    bed<ptr target="nyp.00542_n4"/>—Mrs Gilchrist has a strong article abt L.
+                of G. &amp;c printed in the "To-day," cheap radical English magazine for
+                June—I shall probably have some soon &amp; will send you one—It is equal
+                to the 1872 piece<ptr target="nyp.00542_n5"/>—</p>
             <p>How are you? Any prospect of decapitation?<ptr target="nyp.00542_n6"/> How is Nelly?
-                Give my best love &#38; remembrances to her? I am comfortable here in my shanty. I
-                suppose you get the papers &#38; pieces I send&#8212;<hi rend="italic">So long</hi>, dear friend&#8212;</p>
+                Give my best love &amp; remembrances to her? I am comfortable here in my shanty. I
+                suppose you get the papers &amp; pieces I send—<hi rend="italic">So long</hi>, dear friend—</p>
             <closer>
                 <signed>W. W.</signed>
             </closer>

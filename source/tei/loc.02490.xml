@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02490">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02490">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Dr. John Johnston to Walt Whitman, 26&#8211;27 June
+                <title level="m" type="main">Dr. John Johnston to Walt Whitman, 26–27 June
                     1891</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Dr. John Johnston</author>
@@ -17,6 +14,7 @@
                     <persName xml:id="cn">Cristin Noonan</persName>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -29,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02490</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,23 +45,23 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02490</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Dr. John Johnston</author>
-                    <title>Dr. John Johnston to Walt Whitman, 26&#8211;27 June 1891</title>
-                    <date cert="high" notBefore="1891-06-26" notAfter="1891-06-27" xml:id="dat1">June 26&#8211;27, 1891</date>
+                    <title>Dr. John Johnston to Walt Whitman, 26–27 June 1891</title>
+                    <date cert="high" notBefore="1891-06-26" notAfter="1891-06-27" xml:id="dat1">June 26–27, 1891</date>
                     <idno type="callno">MSS18630, Box 11, Reel 7</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00245</idno>
                     <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown author</author> 
                     <title level="a">Unknown</title>
                     <title level="j">Unknown</title>
                     <date when="1891-06-27">June 27, 1891</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,6 +79,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc> 
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2021-07-23" who="#smb">completed director's corretions</change>
             <change when="2021-05-25" who="#smb">final check, corrected, added notes, DOI</change>
             <change when="2021-04-13" who="#bjo">second check, corrected</change>
@@ -102,60 +101,50 @@
                 <salute>My Dear Walt Whitman,</salute>   
             </opener>
             <p>Most heartily do I thank you for yr kindness in sending me the p.c of June 12<hi rend="underline">th</hi><ptr target="loc.02490_n2"/>
-                which I received on June 25<hi rend="underline">th</hi>&#8212;the same day upon which Wallace<ptr
-                    target="n6121"/> rec<hi rend="underline">d</hi> yours of the 16<hi rend="underline">th</hi>.<ptr target="loc.02490_n3"/> This looks like 
+                which I received on June 25<hi rend="underline">th</hi>—the same day upon which Wallace<ptr target="n6121"/> rec<hi rend="underline">d</hi> yours of the 16<hi rend="underline">th</hi>.<ptr target="loc.02490_n3"/> This looks like 
                 another of the "faults
                 of the p.o." of which you complain &amp; thro' which I fear several of your
-                communications have gone <pb xml:id="leaf001v" facs="loc.02490.002_large.jpg"
-                    type="verso"/> astray. </p>
+                communications have gone <pb xml:id="leaf001v" facs="loc.02490.002_large.jpg" type="verso"/> astray. </p>
             <p>Yes, I rec<hi rend="underline">d</hi> your letter of June 1<hi rend="underline">st</hi><ptr target="loc.02490_n4"/> &amp; I trust that by this time you have 
                 read the
                 two lots of the facsimile copies which I sent to you.<ptr target="loc.02490_n5"/></p>
             <p>I note that on June 12<hi rend="underline">th</hi> you were "much the same" &amp; that on June 16<hi rend="underline">th</hi> you were
                 standing the oppressively hot weather "pretty well, so far."</p>
             <p>This is welcome news for us but we hope to receive better before long.</p> 
-            <p>We too, have had a spell of hot weather <pb xml:id="leaf002r"
-                    facs="loc.02490.003_large.jpg" type="recto"/> here lately. The glorious,
+            <p>We too, have had a spell of hot weather <pb xml:id="leaf002r" facs="loc.02490.003_large.jpg" type="recto"/> here lately. The glorious,
                 sunshiney days of the beginning of the week were followed by severe storms of
-                thunder &amp; lightning with heavy rain&#8212;the lightning display being
-                exceptionally brilliant &amp; prolonged&#8212;</p>
+                thunder &amp; lightning with heavy rain—the lightning display being
+                exceptionally brilliant &amp; prolonged—</p>
             <p>Bolton is now having a respite from the Influenza scourge &amp; I take every
                 opportunity of escaping from the hot &amp; noisy town into the refreshing Country
-                for an hour with nature, alone. One of these sweet hours I am now enjoying in <pb
-                    xml:id="leaf002v" facs="loc.02490.004_large.jpg" type="verso"/> Raikes
-                Wood&#8212;the nearest bit of natural wood to my house &amp; one of my favourite
-                haunts&#8212;where I draft this letter, sitting upon a fallen tree trunk.</p>
+                for an hour with nature, alone. One of these sweet hours I am now enjoying in <pb xml:id="leaf002v" facs="loc.02490.004_large.jpg" type="verso"/> Raikes
+                Wood—the nearest bit of natural wood to my house &amp; one of my favourite
+                haunts—where I draft this letter, sitting upon a fallen tree trunk.</p>
             <p>As I write the birds are singing blithely upon the sycamores, oaks and ash trees all
-                around me&#8212;a blackbird &amp; a thrush being especially vociferous with their
-                melody; a bonnie wee bird is preening its feathers while another is <hi
-                    rend="underline">cheeping</hi> plaintively beside it; a corncrake is <hi
-                    rend="underline">crake crake</hi>-ing in the meadow across the brook <pb
-                    xml:id="leaf003r" facs="loc.02490.005_large.jpg" type="recto"/> which, inky
+                around me—a blackbird &amp; a thrush being especially vociferous with their
+                melody; a bonnie wee bird is preening its feathers while another is <hi rend="underline">cheeping</hi> plaintively beside it; a corncrake is <hi rend="underline">crake crake</hi>-ing in the meadow across the brook <pb xml:id="leaf003r" facs="loc.02490.005_large.jpg" type="recto"/> which, inky
                 black tho' it alas! is, mirrors the blue sky &amp; its own green tree-fringed
                 banks, where a lot of sparrows are jabbering noisily, a butterfly (a "straw-coloured
                 psyche")<ptr target="loc.02490_n6"/> has just fluttered past me &amp; a tiny ladybird is creeping along the tree
                 trunk on which I am seated.</p> 
-            <p>The wood is carpeted with long slender grass&#8212;whose blades are now all diamonded
-                with glistening rain drops&#8212;horsetails &amp; wild rhubarb through which I have
+            <p>The wood is carpeted with long slender grass—whose blades are now all diamonded
+                with glistening rain drops—horsetails &amp; wild rhubarb through which I have
                 had <pb xml:id="leaf003v" facs="loc.02490.006_large.jpg" type="verso"/> to wade knee
                 deep to get to my sylvan throne. Here &amp; there occur blue wreaths of wild
                 hyacinths intermingled with the pretty, pink flowers of the "ragged robin."</p>
             <p>There is no sun &amp; hardly any wind to move the lovely arboreal screen which hides
                 me &amp; the air is fragrant with woodland scents so refreshing to a town
-                dweller&#8212;</p>
-            <p>Here I spent a sacredly happy hour&#8212;"happiness pervades the open
-                air"<ptr target="loc.02490_n7"/>&#8212;until a sudden shower of rain <pb xml:id="leaf004r"
-                    facs="loc.02490.007_large.jpg" type="recto"/> came pattering on the leaves,
+                dweller—</p>
+            <p>Here I spent a sacredly happy hour—"happiness pervades the open
+                air"<ptr target="loc.02490_n7"/>—until a sudden shower of rain <pb xml:id="leaf004r" facs="loc.02490.007_large.jpg" type="recto"/> came pattering on the leaves,
                 temporarily silencing the birds &amp; sending me home.</p>
             <p>I send you a little souvenir of that visit to my wood.</p>
             <p>I also send you two copies of my facsimile of your mask photograph, which I hope you
                 will like; as well as two papers in which your name occurs.</p>
             <p>Many thanks to you for telling us about the "fuller report of the Birthday Spree"<ptr target="loc.02490_n8"/>
-                that is to appear in <pb xml:id="leaf004v" facs="loc.02490.008_large.jpg"
-                    type="verso"/>
+                that is to appear in <pb xml:id="leaf004v" facs="loc.02490.008_large.jpg" type="verso"/>
                 <hi rend="underline">Lippincott,</hi><ptr target="loc.07874_n5"/> which we shall read with great interest, &amp;
-                for your kindness in promising me the half dozen copies of "<hi rend="underline"
-                    >Good Bye</hi>,"<ptr target="loc.07894_n2"/> the <hi rend="underline">price</hi>
+                for your kindness in promising me the half dozen copies of "<hi rend="underline">Good Bye</hi>,"<ptr target="loc.07894_n2"/> the <hi rend="underline">price</hi>
                 of which I expect you will let me know.</p>
             <note type="authorial" place="top">
                 <milestone unit="undeclared" rend="horbar-long-center"/>
@@ -164,8 +153,7 @@
            <p>This morning I met with what might have been a serious accident. While driving in the
                 phaeton one of the shafts became loose frightening the horse into running away &amp;
                 upsetting the coachman &amp; me on to the pavement.</p>
-            <p>Fortunately beyond a severe shaking for us both <pb xml:id="leaf005r"
-                    facs="loc.02490.009_large.jpg" type="recto"/> a cut arm &amp; bruised shoulder
+            <p>Fortunately beyond a severe shaking for us both <pb xml:id="leaf005r" facs="loc.02490.009_large.jpg" type="recto"/> a cut arm &amp; bruised shoulder
                 for him &amp; a bruised hip &amp; leg for me we did not sustain any serious injury.
                 The trap was damaged but the horse escaped unhurt &amp; I am thankful things are no
                 worse with us.</p>
@@ -178,7 +166,7 @@
                 <signed rend="center">J Johnston</signed>
             </closer>
             <postscript>
-                <p><handShift rend="manuscript"/>PS I return H.L.T's<ptr target="n4267"/> letter, omitted from my last to you&#8212;</p>
+                <p><handShift rend="manuscript"/>PS I return H.L.T's<ptr target="n4267"/> letter, omitted from my last to you—</p>
                 <pb xml:id="leaf005v" facs="loc.02490.010_large.jpg" type="verso"/>
                 <p><handShift rend="manuscript"/>PPS. Please convey my kindest remembrances to H.L.T. when you see him</p>
                 <closer>
@@ -187,7 +175,7 @@
             </postscript> 
             </div1>
             <div1 type="enclosure">
-                <add rend="pasteon" source="#ref1" xml:id="add1">
+                <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                     <q who="#ref1" type="printed">
                         <floatingText rend="flat">
                             <body>
@@ -197,7 +185,7 @@
                                     Princess Louise of Schleswig-Holstein with a diamond crescent
                                     and a set of the Poet Laureate's poems as wedding gifts. Lord
                                     Tennyson has written these lines in the first volume of his
-                                    works:&#8212;</p>
+                                    works:—</p>
                                 <lg type="poem">   
                                  <l><handShift rend="printed"/>Take, lady, what your loyal nurses give,</l>
                                 <l>Their full "God bless you," with this book of song,</l>
@@ -207,7 +195,7 @@
                             </body>   
                         </floatingText>
                     </q>
-                </add> 
+                <anchor xml:id="a01"/> 
             </div1>
             <pb xml:id="leaf006r" facs="loc.02490.011_large.jpg" type="recto"/>
             <note type="editorial" place="top" resp="#ht">see notes July 31 1891</note>

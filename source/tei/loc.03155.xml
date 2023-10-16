@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03155"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Harrison S. Morris to Walt Whitman, [After 31 May] 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Harrison S. Morris</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.03155</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Harrison S. Morris</author>
+                    <title>Harrison S. Morris to Walt Whitman, [After 31 May] 1891</title>
+                    <date cert="medium" notBefore="1891-05-31" xml:id="dat1">[After May 31], 1891</date>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00283</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+                <bibl type="pasteon" xml:id="ref1">
+                    <author>Unknown author</author>
+                    <title level="a">Unknown</title>
+                    <title level="j">Unknown</title>
+                    <date when="1891">1891</date>
+                    <biblScope unit="pp">Unknown</biblScope>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Morris, Harrison S." ref="loc.07847_n3">Harrison S. Morris</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-06-30" who="#aja">final corrections</change>
+            <change when="2020-06-14" who="#adk">second check, added paste-on encoding and notes</change>
+            <change when="2020-06-14" who="#cn">first check</change>
+            <change when="2020-05-15" who="#adk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <div1 type="letter">
+            <pb xml:id="leaf001r" facs="loc.03155.001_large.jpg" type="recto"/>
+            <opener>
+                <salute>Dear Mr. Whitman:</salute><ptr target="loc.03155_n1"/>
+            </opener>
+            <p>
+                The above note appeared in the last number of the Boston <hi rend="underline">Literary World</hi>.<ptr target="n3036"/>
+                I am only responsible for the words I have marked,<ptr target="loc.03155_n2"/> as I sent them alone to Mr. 
+                Gilman<ptr target="loc.03155_n4"/>
+                the day I was over to see you.
+            <pb xml:id="leaf001v" facs="loc.03155.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.03155.003_large.jpg" type="recto"/>
+                The rest has been taken from floating paragraphs.
+            </p>
+            <p>
+                I do sincerely hope you are very well and enjoying this fine June weather. I have
+                read the copy of "Good-Bye, My Fancy"<ptr target="loc.07894_n2"/> you gave me, and I am amazed and delighted with
+                the great quality of its poetry. It is equal, much of it, to the best you have
+                ever written.
+            </p>
+            <closer>
+                <salute>Truly Yours</salute>
+                <signed><hi rend="underline">Harrison S. Morris.</hi></signed>
+            </closer>
+            </div1>
+            <div1 type="enclosure" rend="pasteon" source="#ref1">
+                <p><handShift rend="printed"/>—The seventy-second<ptr target="loc.03155_n3"/> birthday of Walt Whitman was celebrated at his home
+                                in Camden, N.J., on the evening of May 31. About forty friends and admirers
+                                sat down to a dinner, the poet occupying the seat of honor at the head.
+                                He was in good health and spirits, and entertained his guests with
+                                selections from his own works and comments on literary affairs. His opening
+                                words were characteristic: "I feel to say a word of grateful memory
+                                for the big fellows just passed away—for Bryant<ptr target="n6116"/> and Emerson<ptr target="n1044"/> and
+                           Longfellow;<ptr target="n0367"/> and for those we still have with us—Whittier,<ptr target="n1029"/> and the boss
+                           of us all, Tennyson."<ptr target="n0625"/> Letters were read from Lord Tennyson, Richard Waterson Gilder,<ptr target="n0871"/>
+                           Edmund Stedman,<ptr target="loc.00799_n6"/> and others. Mr. Whitman has about ready what he considers
+                                his last book, entitled <hi rend="italic">Good-bye, my Fancy</hi>, and a
+                                sub-title, "Second Annex to 'Leaves of Grass.'" It comprises sixty-six
+                                pages of prose and verse. He says that many of his pieces were submitted
+                                to publishers and magazine editors, and "were peremptorily rejected
+                                by them." "To the Sunset Breeze"<ptr target="duk.00956_n1"/> was rejected by <hi rend="italic">Harper's</hi><ptr target="n0289"/>
+                                as being an "improvisation" only, and "On Ye Jocund Twain" was returned
+                                by the <hi rend="italic">Century</hi><ptr target="n7005"/> as "personal merely."<ptr target="loc.07352_n3"/></p>
+       </div1>
+            <pb xml:id="leaf002v" facs="loc.03155.004_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc.03155.005_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc_jm.00231.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

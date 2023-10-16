@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00853"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00853"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00853</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00853</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,7 +55,7 @@
                             <pubPlace>Detroit</pubPlace>
                             <publisher>Wayne State University Press</publisher>
                             <date when="1977">1977</date>
-                            <biblScope type="page">41</biblScope>
+                            <biblScope unit="page">41</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -97,24 +94,21 @@
                     <date when="1888-07-17">17 July [188]8<ptr target="med.00853_n1"/></date>
                 </dateline>
             </opener>
-            <p>You ask how long it takes a letter to come from you here&#8212;well your last
-                    letter<ptr target="med.00853_n2"/> (now before me) is postmarked 5 P.M. 15<hi
-                    rend="underline">th</hi> (Sunday) and reaches me at 10 this A.M. [&#8212;] If
+            <p>You ask how long it takes a letter to come from you here—well your last
+                    letter<ptr target="med.00853_n2"/> (now before me) is postmarked 5 P.M. 15<hi rend="underline">th</hi> (Sunday) and reaches me at 10 this A.M. [—] If
                 your letter had been posted at 8.15 (the time you mention) I am not sure whether I
                 should get it by the same mail here or whether prehaps it would come by afternoon
                 mail and rea[c]h me 4. P.M. In a general way you may reckon from a day and a half to
-                two days for a letter to pass from Camden or Philadelphia here. [&#8212;] Judging by
+                two days for a letter to pass from Camden or Philadelphia here. [—] Judging by
                 your letter and by all accounts I think you are certainly on the mend Walt, and I
-                hope we shall have you middling bright and lively again after a little.<ptr
-                    target="med.00853_n3"/> That would be a grand thing if we could only see it.</p>
+                hope we shall have you middling bright and lively again after a little.<ptr target="med.00853_n3"/> That would be a grand thing if we could only see it.</p>
             <p>About half of my folk <gap reason="damage"/> <!--Lozynsky notes that the illegiblility is due to a mutilation here.--> are gone and going to Sarnia on a
-                visit&#8212;Clare<ptr target="loc.07284_n4"/> &#38; Ina<ptr target="med.00853_n5"/> went
-                yesterday, Mrs B.<ptr target="n4273"/> Willie,<ptr target="n4284"/> &#38; Pardee<ptr
-                    target="n4274"/> go tomorrow morning. I shall have a quiet house for awhile. The
+                visit—Clare<ptr target="loc.07284_n4"/> &amp; Ina<ptr target="med.00853_n5"/> went
+                yesterday, Mrs B.<ptr target="n4273"/> Willie,<ptr target="n4284"/> &amp; Pardee<ptr target="n4274"/> go tomorrow morning. I shall have a quiet house for awhile. The
                 weather here keeps perfect, quiet, <gap reason="illegible"/> hazy, sleepy
-                days&#8212;You might fancy it the land of the Lotus Eaters but the devil of it is it
-                is <hi rend="underline">not</hi>&#8212;wish it was&#8212;too much work here
-                altogether&#8212;however perhaps too much is better than not enough and as long as
+                days—You might fancy it the land of the Lotus Eaters but the devil of it is it
+                is <hi rend="underline">not</hi>—wish it was—too much work here
+                altogether—however perhaps too much is better than not enough and as long as
                 one is able to do it it is not <gap reason="damage"/> <!--Lozynsky notes that the illegiblility is due to a mutilation here.--> right to complain</p>
             <closer>
                 <salute>Your friend</salute>

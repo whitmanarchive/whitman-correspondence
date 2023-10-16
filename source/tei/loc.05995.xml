@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05995">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05995">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05995</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05995</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1887-04-12" xml:id="dat1">April 12, 1887</date> 
                     <idno type="callno">MSS18630, Box 16</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.03928"/>
                     <relatedItem type="document" target="wwa.00583"/>
                     <note type="project" target="#rel01">Whitman wrote this note to Susan Stafford on the back of a letter from Herbert Gilchrist of March 31, 1887, which he sent for her to read. The letter from 
@@ -93,16 +89,16 @@
                 </dateline>
                 <salute>Dear friend</salute> 
             </opener>
-               <p>I send you Herbert's<ptr target="n0262"/> last letter&#8212;he expects to come over in May&#8212;He has sent me his book<ptr target="loc.05995_n1"/> ab't 
-                   Mrs. G<ptr target="n0259"/>&#8212;It is very interesting&#8212;Shall I bring or send it down for you to read, or have you one?&#8212;Harry<ptr target="n4310"/> left here ab't an 
-                hour ago&#8212;he went up to the Hospital to-day, &#38; the throat was operated on again&#8212;but he feels pretty well &#38; 
-                in good spirits&#8212;I am sorry to hear George<ptr target="n0852e"/> and Ed<ptr target="n0589b"/> are not well&#8212;I hope they
-                will be over the worst of it, &#38; indeed all right by this time&#8212;I am
+               <p>I send you Herbert's<ptr target="n0262"/> last letter—he expects to come over in May—He has sent me his book<ptr target="loc.05995_n1"/> ab't 
+                   Mrs. G<ptr target="n0259"/>—It is very interesting—Shall I bring or send it down for you to read, or have you one?—Harry<ptr target="n4310"/> left here ab't an 
+                hour ago—he went up to the Hospital to-day, &amp; the throat was operated on again—but he feels pretty well &amp; 
+                in good spirits—I am sorry to hear George<ptr target="n0852e"/> and Ed<ptr target="n0589b"/> are not well—I hope they
+                will be over the worst of it, &amp; indeed all right by this time—I am
                 going to New York to-morrow<choice>
                     <orig>evn'g,</orig>
                     <reg>evening</reg>
                 </choice> to return Friday if I live through it all. I may drive down next
-                Sunday if it is pleasant&#8212; </p>
+                Sunday if it is pleasant— </p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -120,14 +116,14 @@
                     <salute>My Dear Walt,</salute> 
                 </opener>
                 <p>As you see by my address I am staying with a great friend of yours. You may see him
-                    this summer for he is going to America at the end of April,&#8212;going out as a
+                    this summer for he is going to America at the end of April,—going out as a
                     schoolmaster to settle somewhere up the Hudson. He is an uncommonly good fellow, quiet
                     earnest serious soul and very practical, full of solid worth,
                     whose knowledge and attainments are sure to be valued in America. His father is a
                     clergyman, <pb xml:id="leaf002r" facs="loc_jc.00566_large.jpg" type="recto"/><!-- This is not actually a separate leaf; it is the other half of the first recto surface, but since we do not have an image of the entire surface, 
                         both parts of the recto had to be split up into separate images. In order for the file to validate, 
                         this has been marked as a separate leaf.--> and
-                    this son of his reads Leaves of Grass silently &#38; unobserved by the rest of his orthodox
+                    this son of his reads Leaves of Grass silently &amp; unobserved by the rest of his orthodox
                     family.</p>
                 <p>I posted a copy of my book to you about a week ago: I hope that you will read it and
                     tell me how you <unclear reason="illegible" cert="low" resp="#smb">like it</unclear>.</p>
@@ -136,7 +132,7 @@
                     particularly. As yet, I have not taken
                     my passage, but I hope to come early in May, and to spend a nice slice of my time
                     near you in Camden. I consider that your poems have gained ground here perceptibly
-                    within the last 2 years. Leonard Brown sends his love &#38;</p>
+                    within the last 2 years. Leonard Brown sends his love &amp;</p>
                 <closer>
                     <salute>with love from</salute>
                     <signed>Herbert H. Gilchrist.</signed>

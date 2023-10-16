@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02353">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02353">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Robert Ingersoll to Walt Whitman, 29 December 1891</title>
+                <title level="m" type="main">Robert G. Ingersoll to Walt Whitman, 29 December 1891</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>Robert Ingersoll</author> 
+                <author>Robert G. Ingersoll</author> 
                 <editor>Kenneth M. Price</editor> 
                 <editor>Ed Folsom</editor>
                 <respStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02353</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,22 +35,22 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02353</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Robert Ingersoll</author>
-                    <title>Robert Ingersoll to Walt Whitman, 29 December 1891</title>
+                    <author>Robert G. Ingersoll</author>
+                    <title>Robert G. Ingersoll to Walt Whitman, 29 December 1891</title>
                     <date cert="high" when="1891-12-29" xml:id="dat1">December 29, 1891</date>
                     <idno type="callno">MSS18630, Box 11, Reel 7</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00229</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                      
                 </bibl>
             </sourceDesc>
@@ -64,7 +61,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Ingersoll, Robert" ref="n0839">Robert Ingersoll</persName>
+                    <persName key="Ingersoll, Robert G." ref="n0839">Robert G. Ingersoll</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName> 
@@ -92,17 +89,17 @@
                     My Dear Whitman,
                 </salute>
             </opener>
-            <p>I am glad that you have lived long enough to know that Leaves of Grass will live forever,&#8212;long enough to know that your life has been a 
-                success&#8212;that you have sown <pb xml:id="leaf001v" facs="loc.02353.002_large.jpg" type="verso"/>with brave and generous hands the 
-                deeds of liberty&#8212;and love.<ptr target="loc.02538_n4"/> This is enough, and this is a radiance that even the darkness
+            <p>I am glad that you have lived long enough to know that Leaves of Grass will live forever,—long enough to know that your life has been a 
+                success—that you have sown <pb xml:id="leaf001v" facs="loc.02353.002_large.jpg" type="verso"/>with brave and generous hands the 
+                deeds of liberty—and love.<ptr target="loc.02538_n4"/> This is enough, and this is a radiance that even the darkness
                 of death cannot extinguish.</p>
             <p>Maybe the end of the journey is the best of all, and maybe the end of this is the beginnning of another<pb xml:id="leaf002r" facs="loc.02353.003_large.jpg" type="recto"/>
                 and maybe the beginning of that is better than the ending of this.</p>
             <p>But however and whatever the fact may be, you have lightened the journey <hi rend="underline">here</hi> for millions of your fellow-men. 
                 In the great desert you have dug wells
                 and you have planted palms. As long as water and shade are welcome to the faint and<pb xml:id="leaf002v" facs="loc.02353.004_large.jpg" type="verso"/> 
-                weary your memory will live,&#8212;</p>
-            <p>Wishing you many, many, days of health and happiness&#8212;and with a heart full of love</p>
+                weary your memory will live,—</p>
+            <p>Wishing you many, many, days of health and happiness—and with a heart full of love</p>
             <closer>
                 <salute>I Remain</salute>
                 <salute>Yours always</salute>
@@ -114,6 +111,3 @@
         </body>
     </text> 
 </TEI>
-
-
-

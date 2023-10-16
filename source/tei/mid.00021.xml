@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mid.00021">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mid.00021">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>mid.00021</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>mid.00021</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">318</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">318</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -102,14 +98,14 @@
                 <salute>Dear Miss Gilder</salute>
             </opener>
             <p>Yours <choice>
-                <orig>rec'd</orig><reg>received</reg></choice>&#8212;and I send you some thoughts of mine on Burns&#8212;(a much
-                belabored subject&#8212;but I wanted to have my say)&#8212;Will make two &#38; a
-                half pages&#8212;I <choice>
+                <orig>rec'd</orig><reg>received</reg></choice>—and I send you some thoughts of mine on Burns—(a much
+                belabored subject—but I wanted to have my say)—Will make two &amp; a
+                half pages—I <choice>
                     <orig>sh'd</orig>
                     <reg>should</reg>
-                </choice> like &#36;20 for it<ptr target="mid.00021_n2"/>&#8212;</p>
-            <p>If you take it to print in next send me proof by Monday or Tuesday of next week &#38;
-                I will return same evening&#8212;</p>
+                </choice> like $20 for it<ptr target="mid.00021_n2"/>—</p>
+            <p>If you take it to print in next send me proof by Monday or Tuesday of next week &amp;
+                I will return same evening—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

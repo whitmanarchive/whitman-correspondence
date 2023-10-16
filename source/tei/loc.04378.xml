@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04378">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">James W. Wallace to Walt Whitman, 22 August 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James W. Wallace</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="lc">Lauren Claeys</persName>
+                    <persName xml:id="aja">Amanda J. Axley </persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588–4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.04378</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>James W. Wallace</author>
+                    <title>James W. Wallace to Walt Whitman, 22 August 1891</title>
+                    <date cert="high" when="1891-08-22" xml:id="dat1">August 22, 1891</date>  
+                    <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00403</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Wallace, James W." ref="n6121">James W. Wallace</persName>
+                 </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-12-05" who="#smb">final check, corrected</change>
+            <change when="2021-10-15" who="#cn">checked, corrected, added notes</change>
+            <change when="2021-07-15" who="#aja">checked, corrected</change>
+            <change when="2020-12-10" who="#lc">transcribed, encoded; SLIS:6335: Metadata Theories and Applications Class, Fall 2020, Micah Bateman, 
+                Lecturer, University of Iowa</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.00881_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place" rend="right">Anderton, nr Chorley</name>
+                    <name type="place" rend="right">Lancashire, England</name>
+                    <date when="1891-08-22">22 August 1891</date>
+                </dateline>
+                <salute>My dear Walt Whitman,</salute>
+            </opener>
+            <p>I am prevented again from writing to you as I intended.
+                As you will already know I am coming to Camden 
+                per SS. British Prince,<ptr target="loc.04378_n2"/> 
+                sailing from Liverpool next Wednesday August 26<hi rend="underline">th</hi><ptr target="loc.08222_n4"/>—I have had a busy time this week, &amp; this afternoon my time is again taken up.</p>
+			<p>So I content
+			 <pb xml:id="leaf001v" facs="loc_vm.00882_large.jpg" type="verso"/>
+			myself with the briefest line, to convey my continued love &amp; good wishes.</p>
+			<p>I will try to write for next mail.</p>
+			<p>Love to all your household.</p>
+            <closer>
+				<salute>Yours affectionately</salute>
+                <signed rend="right">
+					<hi rend="underline">J.W. Wallace.</hi>
+				</signed>
+            </closer> 
+            <pb xml:id="leaf002r" facs="loc_vm.00883_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_vm.00884_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

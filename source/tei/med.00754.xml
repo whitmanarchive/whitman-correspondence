@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00754">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00754">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00754</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive February be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00754</idno></publicationStmt>
             <sourceDesc> 
                 <biblStruct>
                     <monogr>
@@ -58,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">70&#8211;71</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">70–71</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -85,8 +82,7 @@
                 </person>
                 <person role="recipient">
                     
-                    <persName key="Bucke, Richard
-                        Maurice">Richard Maurice
+                    <persName key="Bucke, Richard                         Maurice">Richard Maurice
                         Bucke</persName>
                 </person>
                 <person role="recipient">
@@ -112,21 +108,20 @@
                 </dateline>
             </opener>
             <p>Am sitting here by the window in the little front room down stairs, well wrapt
-                up&#8212;for though bright &#38; sunny it is a cold freezing day&#8212;have had my
-                dinner (of rare stewed oysters, some toasted graham bread &#38; a cup of
-                tea&#8212;relished all)&#8212;am about as usual&#8212;ups &#38; downs&#8212;had
-                rather a bad day yesterday&#8212;lay on the lounge most of the day&#8212;now
-                better&#8212;the worst is my enforced house-imprisonment, sometimes two weeks at a
-                time&#8212;Spirits &#38; heart though mainly gay, which is the best half of the
-                    battle<ptr target="med.00754_n1"/>&#8212;Love &#38; comfort to you, my
-                friends&#8212;your wives &#38; all&#8212;Write often as you can&#8212;(monotony is
-                now the word of my life)&#8212;</p>
+                up—for though bright &amp; sunny it is a cold freezing day—have had my
+                dinner (of rare stewed oysters, some toasted graham bread &amp; a cup of
+                tea—relished all)—am about as usual—ups &amp; downs—had
+                rather a bad day yesterday—lay on the lounge most of the day—now
+                better—the worst is my enforced house-imprisonment, sometimes two weeks at a
+                time—Spirits &amp; heart though mainly gay, which is the best half of the
+                    battle<ptr target="med.00754_n1"/>—Love &amp; comfort to you, my
+                friends—your wives &amp; all—Write often as you can—(monotony is
+                now the word of my life)—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript> 
-                <p>When read send to John Burroughs, West Park, Ulster County, New York.<ptr
-                        target="med.00754_n2"/></p>
+                <p>When read send to John Burroughs, West Park, Ulster County, New York.<ptr target="med.00754_n2"/></p>
             </postscript>
         </body>
     </text>

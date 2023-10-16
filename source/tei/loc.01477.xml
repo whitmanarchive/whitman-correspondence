@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01477">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01477">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01477</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01477</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -55,7 +52,7 @@
                     <date cert="medium" when="1884-12-25" xml:id="dat1">December 25, 1884</date>
                     <idno type="callno">Box 9, Reel 5-6</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -90,15 +87,15 @@
 
             <opener>
                 <dateline>
-                    <date when="1884-05-14" rend="right">Christmas&#8212;1884&#8212;'5</date>
+                    <date when="1884-05-14" rend="right">Christmas—1884—'5</date>
                     <name type="place">328 Mickle Street Camden</name>
                     <name type="place">N J<ptr target="loc.01477_n1"/></name>
                     
                 </dateline>
             </opener>
-            <p>Thanks my loving young friends for the magnificent chair&#8212;so
-                opportune&#8212;will be so useful to me daily, hourly&#8212;Will soon come up &#38;
-                see you &#38; your father &#38; mother</p>
+            <p>Thanks my loving young friends for the magnificent chair—so
+                opportune—will be so useful to me daily, hourly—Will soon come up &amp;
+                see you &amp; your father &amp; mother</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -107,4 +104,4 @@
         <pb xml:id="leaf002r" facs="loc.01477.001_large.jpg" type="recto"/>
         <pb xml:id="leaf002v" facs="loc.01477.002_large.jpg" type="verso"/>
     </text>
-</TEI>  
+</TEI>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01531">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01531">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>loc.01531</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +39,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>loc.01531</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -59,9 +57,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">2</biblScope>
-              <biblScope type="page">111</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="page">111</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -72,7 +70,7 @@
           <date cert="high" when="1870-09-09" xml:id="dat1">September 9, 1870</date>
           <idno type="callno">MSS18630<!--  Box 9 --></idno>
           <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
-            1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+            1839–1919, Library of Congress, Washington, D.C.</orgName>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -109,9 +107,9 @@
       <p>I wrote you a letter last Tuesday, 6th, which I suppose you have rec'd. The last I have
         from you was yours of Sunday, 4th. I am still here in Brooklyn, quite busy with the
         printing. I have rec'd a letter from John Rowland who is working for me in the office,
-        complaining that he has to work too hard&#8212;I should think by his letter he means to back
-        out of his bargain with me&#8212;if so, it will be a bad loss &amp; inconvenience to
-        me&#8212;But I shall not fret about it&#8212;whatever happens. It is likely that this will
+        complaining that he has to work too hard—I should think by his letter he means to back
+        out of his bargain with me—if so, it will be a bad loss &amp; inconvenience to
+        me—But I shall not fret about it—whatever happens. It is likely that this will
         shorten my leave, &amp; that I shall have to come back &amp; do my work myself, about the
         end of the month. </p>
 
@@ -119,15 +117,14 @@
         coolish weather here. The drivers wear their overcoats mornings &amp; evenings. As I sit
         here writing Friday afternoon, it is cloudy &amp; threatens rain. I am going over to New
         York in an hour or so, &amp; shall leave this in the P. O., and then go around
-        awhile&#8212;possibly going to Niblo's Theatre<ptr target="n0442"/>, as they play Shakespeare's "Julius Caesar"
-        to-night, with Davenport &amp; quite a bunch of stars in the piece<ptr target="loc.01531_n2"
-        />&#8212;</p>
+        awhile—possibly going to Niblo's Theatre<ptr target="n0442"/>, as they play Shakespeare's "Julius Caesar"
+        to-night, with Davenport &amp; quite a bunch of stars in the piece<ptr target="loc.01531_n2"/>—</p>
 
-      <p>Son, I am afraid I shall not make out much of a letter this time&#8212;but you take it so
-        hard when I don't write, I thought I would send a few lines&#8212;they would be better than
-        nothing&#8212;</p>
+      <p>Son, I am afraid I shall not make out much of a letter this time—but you take it so
+        hard when I don't write, I thought I would send a few lines—they would be better than
+        nothing—</p>
 
-      <p>God bless you, my loving boy&#8212;&amp; farewell for this time. </p>
+      <p>God bless you, my loving boy—&amp; farewell for this time. </p>
 
       <closer>
         <signed rend="right">Walt.</signed>

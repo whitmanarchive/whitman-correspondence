@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bpl.00036">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Henry Romeike to Walt Whitman, 10 September 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Henry Romeike</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>      
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce 
+                        the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>bpl.00036</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Henry Romeike</author>
+                    <title>Henry Romeike to Walt Whitman, 10 September 1891</title>
+                    <date cert="high" when="1891-09-10" xml:id="dat1">September 10, 1891</date>
+                    <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="bpl.00002"/>
+                    <relatedItem type="document" target="wwa.00200"/>
+                    <note type="project" target="#rel01">On the back of this letter, Whitman wrote a series of proofing
+                    notes indicating corrections and edits to be made to his 1891–92 "deathbed edition" of 
+                    <hi rend="italic">Leaves of Grass</hi>.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Romeike, Henry" ref="loc.03595_n2">Henry Romeike</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-06-30" who="#aja">final corrections </change>
+            <change when="2022-03-18" who="#smb">final check, corrected</change>
+            <change when="2021-10-15" who="#aja">2nd check, notes</change>
+            <change when="2021-07-15" who="#aja">checked, corrected</change>
+            <change when="2021-05-14" who="#rf">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="bpl.00002.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <handShift rend="printed"/>
+                    <name type="person">Henry Romeike</name>
+                    <name type="place">Branches: London, Paris, Berlin, Washington D.C.</name>
+                    <name type="place">110 Fifth Avenue</name>
+                    <name type="place">New York</name>
+                    <date when="1891-09-10"><handShift rend="manuscript"/>Sept 10—<handShift rend="printed"/>189<handShift rend="manuscript"/>1</date> 
+                </dateline>
+                <salute>Mr Walt Whitman</salute>
+                <salute>Dear Sir:—</salute>
+            </opener>
+            <p><handShift rend="printed"/>Your work is attracting considerable attention.
+            Will you allow me to send you all notices concerning
+            it that may appear in the papers of the United States
+            and Canada.?<ptr target="bpl.00036_n2"/></p>
+            <closer>
+                <salute><handShift rend="printed"/>Yours faithfully,</salute>
+                <signed><handShift rend="manuscript"/>Henry Romeike</signed>
+            </closer>
+            <pb xml:id="leaf001rv" facs="bpl.00002.002.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

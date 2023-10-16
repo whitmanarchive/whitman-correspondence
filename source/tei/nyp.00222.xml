@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00222">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00222">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -24,7 +22,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00222</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,7 +34,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>nyp.00222</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -46,8 +44,8 @@
                      <pubPlace>New York</pubPlace>
                      <publisher>Mitchell Kennerley</publisher>
                      <date when="1914">1914</date>
-                     <biblScope type="volume">3</biblScope>
-                     <biblScope type="page">471</biblScope>
+                     <biblScope unit="volume">3</biblScope>
+                     <biblScope unit="page">471</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -55,7 +53,7 @@
                <author>James Harlan</author>
                <title>James Harlan to Walt Whitman, 30 June 1865</title>
                <date when="1865-06-30">June 30, 1865</date>
-               <orgName xml:id="nyp">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
+               <orgName xml:id="nyp">Oscar Lion Papers, 1914–1955, New York Public Library, New York, N.Y</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>

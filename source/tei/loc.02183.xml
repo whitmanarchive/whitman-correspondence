@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02183">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02183">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02183</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02183</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Herbert Gilchrist</author>
@@ -57,7 +53,7 @@
                     <date cert="high" when="1885-09-29" xml:id="dat1">September 29, 1885</date>
                     <idno type="callno">Box 10, Reel 6</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -102,22 +98,20 @@
                 <salute>Dear Walt</salute>
             </opener>
 
-            <p> Your last letter to hand,&#8212;Disappointed not to hear a better account of your
+            <p> Your last letter to hand,—Disappointed not to hear a better account of your
                 health yet, hoped that you were beginning to get around as usual, and like my
                 mother, you are one who misses fresh air so.<ptr target="loc.02183_n1"/></p>
             <p> Mother<ptr target="n0259"/> is very sadly, obliged to leave off writing (pro tem only
-                I hope.)&#8212;a sort of nervous prostration and asthma which aggravated by
+                I hope.)—a sort of nervous prostration and asthma which aggravated by
                 sleeplessness w<hi rend="superscript">ch</hi> has gone on for the last month and the
                 struggle for breath is making her very weak. </p>
             <p> I send you a letter from one Edward
-                Pease of (Quaker stock) an admirer <pb xml:id="leaf001v"
-                    facs="loc.02183.002_large.jpg" type="verso"/> &amp; active friend of yours over
+                Pease of (Quaker stock) an admirer <pb xml:id="leaf001v" facs="loc.02183.002_large.jpg" type="verso"/> &amp; active friend of yours over
                 here in a quiet way.<ptr target="loc.02183_n2"/> He is rendering some assistance
                 over the "Tribute"<ptr target="loc.02186_n1"/> etc: Perhaps you will write to him or Her about it.</p>
             <p> Alma Tadema<ptr target="loc.02183_n3"/> the most celebrated artist over here has
-                written to congratulate me over my last picture (finished this summer) and w<hi
-                    rend="superscript">ch</hi> he saw at a friend's house. It is rather a feather in my
-                cap&#8212;and will perhaps prove a turning point in my artistic career, who knows! </p> 
+                written to congratulate me over my last picture (finished this summer) and w<hi rend="superscript">ch</hi> he saw at a friend's house. It is rather a feather in my
+                cap—and will perhaps prove a turning point in my artistic career, who knows! </p> 
             <p> I lead a quiet but moderately varied life and am able to enjoy my work and possess
                 one or two friends. </p>
             <p> Thanks for news about Staffords<ptr target="loc.02189_n3"/> very glad to hear that they are all well. I had heard
@@ -129,8 +123,7 @@
             </closer>
             <!-- Postscript on first page above dateline -->
             <postscript>
-                <p> P.S. Thank you for list of names have had a nice letter from J A Symonds,<ptr
-                        target="n0615"/> enclosing cheque for five quid. </p>
+                <p> P.S. Thank you for list of names have had a nice letter from J A Symonds,<ptr target="n0615"/> enclosing cheque for five quid. </p>
             </postscript>
         </body>
     </text>

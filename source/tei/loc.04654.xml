@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04654">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">James W. Wallace to Walt Whitman, 4 August 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James W. Wallace</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
+                        advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.04654</idno></publicationStmt>
+            <sourceDesc>                
+                <bibl>
+                    <author>James W. Wallace</author>
+                    <title>James W. Wallace to Walt Whitman, 4 August 1891</title>
+                    <date cert="high" when="1891-08-04" xml:id="dat1">August 4, 1891</date>
+                    <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00403</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc> 
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Wallace, James W." ref="n6121">James W. Wallace</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-12-05" who="#smb">final check, corrected</change>
+            <change when="2021-10-15" who="#me">checked, corrected</change>
+           <change when="2021-07-14" who="#aja">checked, corrected</change>
+            <change when="2019-07-11" who="#if">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.02558_large.jpg" type="recto"/>
+            <opener>
+                <dateline> 
+                    <name type="place">Anderton, near Chorley</name>
+                    <name type="place">Lancashire, England<ptr target="loc.04654_n1"/></name>
+                    <date when="1891-08-04">4. August 1891</date>
+                </dateline>
+                <salute>My dear Walt Whitman,</salute>
+            </opener>
+            <p>I can only write a line or two tonight—of loving remembrance &amp; good wishes.—</p>
+            <p>I received a letter from D<hi rend="underline">r</hi> Johnston<ptr target="n4102"/> this morning, 
+                written 3 days ago. He intended to write to you by this mail so that you, will have fuller particulars 
+                than I can give you.</p>
+            <p>I wrote to Dr Bucke<ptr target="n0119"/> last
+                <pb xml:id="leaf001v" facs="loc_vm.02559_large.jpg" type="verso"/>
+                night.—Expect him here again about the 19<hi rend="underline">th</hi><ptr target="loc.08168_n2b"/></p>
+            <p>Weather here showery with occasional thunder. Days shortening rapidly.</p>
+            <p>I intended to write to Traubel<ptr target="n4267"/> tonight, but cannot now do so. Love to him 
+                &amp; his wife.<ptr target="loc.08060_n3"/></p>
+            <p>A P.C. from you arrived at Johnston's on Saturday,<ptr target="loc.04654_n2"/> but it was sent on to him without my seeing it. 
+                I understand it reported same condition continued.</p>
+            <p>With a heart full of love to you always</p>
+            <closer>
+                <salute>Yours affectionately</salute>
+                <signed>J.W. <hi rend="underline">Wallace</hi></signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_vm.02560_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_vm.02561_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc_vm.02556_large.jpg" type="recto"/>
+            <note type="editorial" resp="#ht" place="left">see notes Aug 14 1891</note>
+            <pb xml:id="leaf003v" facs="loc_vm.02557_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

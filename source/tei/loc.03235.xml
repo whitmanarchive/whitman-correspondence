@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03235">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03235">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03235</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03235</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William J. Linton</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1888-10-03" xml:id="dat1">October 3, 1888</date>
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,8 +83,7 @@
             <pb xml:id="leaf001r" facs="loc.03235.001.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place" rend="right">4 Trafalgar Square<ptr target="loc.03235_n1"
-                        /><lb/>London WC.</name>
+                    <name type="place" rend="right">4 Trafalgar Square<ptr target="loc.03235_n1"/><lb/>London WC.</name>
                     <date when="1888-10-03" rend="right">Oct. 3, 1888.</date>
                 </dateline> 
                 <salute>Dear Friend:</salute>
@@ -97,9 +93,8 @@
             <p>The enclosed letter seems to have anticipated your request. My answer to it has
                 crossed the letter enclosing yours. In sending that I wrote also home, telling them to
                 look for and forward the block<ptr target="loc.03271_n2"/> to Stedman.<ptr target="n4177"/> I presume it before
-                now has gone to him. Will you write to him for what use you yourself need of it. <pb
-                xml:id="leaf001v" facs="loc.03235.002.jpg" type="verso"/> I am glad to see
-                your hand again &#38; anyway to hear of you I hope you keep in fair health &#38; in
+                now has gone to him. Will you write to him for what use you yourself need of it. <pb xml:id="leaf001v" facs="loc.03235.002.jpg" type="verso"/> I am glad to see
+                your hand again &amp; anyway to hear of you I hope you keep in fair health &amp; in
                 as much prosperity as may be necessary for the poet.</p>
             <p>For myself, after some five years work on a book concerning my own especial art, I am
                 now waiting the return, which may give me a sufficiency, or may not. At 76, or close

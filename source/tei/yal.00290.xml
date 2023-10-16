@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00290">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00290">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00290</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00290</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Burroughs</author>
@@ -85,23 +81,20 @@
                 </dateline>
                 <salute>Dear Walt:</salute>
             </opener>
-            <p>I <choice><abbr>recd</abbr><expan>received</expan></choice> your card yesterday, &amp; also the English paper.<ptr
-                    target="yal.00290_n1"/> This morning Doctor Bucke<ptr target="n0119"/> sends me
+            <p>I <choice><abbr>recd</abbr><expan>received</expan></choice> your card yesterday, &amp; also the English paper.<ptr target="yal.00290_n1"/> This morning Doctor Bucke<ptr target="n0119"/> sends me
                 Williams<ptr target="n2002"/> letter. It makes me groan in spirit to think of Williams condition. But
                 he evidently <choice>
                 <sic>exagerates</sic> 
                 <corr>exaggerates</corr>  
                 </choice> it somewhat, 
                 for this letter shows streaks of the old fire.<ptr target="yal.00290_n2"/> 'Tis a pity he sits down &amp; lets this thing
-                creep over him. He could <pb xml:id="leaf001v" facs="yal.00290.002_large.jpg"
-                    type="verso"/>do much to fight it off, or keep it at bay, if he would make the
+                creep over him. He could <pb xml:id="leaf001v" facs="yal.00290.002_large.jpg" type="verso"/>do much to fight it off, or keep it at bay, if he would make the
                 effort you have made, or if he would take a sea voyage. I think I must go to W. this
                 winter &amp; see him. I have some notion of going south to get a glimpse of the
                 tropics.</p>
             <p>I like your Lippincott paper;<ptr target="yal.00290_n3"/> it is very dignified &amp;
                 impressive, &amp; contains many very effective sentences. I am so glad you are
-                writing again. My own health is pretty good. I think I have been much benefited <pb
-                    xml:id="leaf003r" facs="yal.00290.003_large.jpg" type="recto"/> the past fall by
+                writing again. My own health is pretty good. I think I have been much benefited <pb xml:id="leaf003r" facs="yal.00290.003_large.jpg" type="recto"/> the past fall by
                 drinking vichy water. It has reduced my weight about 10 per cent. My belly has gone
                 away as if I had been confined. It might be good for you. It is good for those who
                 make too much blood &amp; fat. It reduces &amp; thins the blood, &amp;, with me, it
@@ -109,10 +102,8 @@
                     <orig>2 1/2 p.m.</orig>
                     <reg>2:30 p.m.</reg> 
                 </choice> I sleep much better for it.</p>
-            <p>The Quarterly Review article to which <choice><abbr>O'C.</abbr><expan>O'Connor</expan></choice> refers I have read.<ptr
-                    target="yal.00290_n4"/> It is very fine, many strong &amp; penetrating things
-               said about you. <pb xml:id="leaf004v" facs="yal.00290.004_large.jpg"
-                    type="verso"/>I should like to know who wrote it. It is in the same number that
+            <p>The Quarterly Review article to which <choice><abbr>O'C.</abbr><expan>O'Connor</expan></choice> refers I have read.<ptr target="yal.00290_n4"/> It is very fine, many strong &amp; penetrating things
+               said about you. <pb xml:id="leaf004v" facs="yal.00290.004_large.jpg" type="verso"/>I should like to know who wrote it. It is in the same number that
                 poor Gosse<ptr target="n0273"/> gets such a terrible cutting up. The New Zealanders
                 book I had not heard of.<ptr target="loc.03321_n1"/></p>
             <p>Your book will doubtless have a checkered career in the future as it has had in the
@@ -121,8 +112,7 @@
                 eclipse &amp; neglect it is bound to come up again.</p>
             <p>Study into the causes of your bad spells &amp; I believe you may master them, or
                 mitigate them. The <choice><orig>bowells</orig><reg>bowels</reg></choice> are the seat of the difficulty with you, I believe. Dr
-                Bucke says he is well, &amp; lecturing on insanity to medical students.<ptr
-                    target="yal.00290_n5"/> I enclose O'C.'s letter.</p>
+                Bucke says he is well, &amp; lecturing on insanity to medical students.<ptr target="yal.00290_n5"/> I enclose O'C.'s letter.</p>
             <closer>
                 <salute>With much love</salute>
                 <signed>J Burroughs.</signed>

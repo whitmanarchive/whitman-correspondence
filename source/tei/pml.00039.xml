@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00039">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pml.00039">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>pml.00039</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +40,7 @@
             Humanities. Permission to reproduce the graphic images in this archive has
             been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>pml.00039</idno></publicationStmt>
       <notesStmt>
         <note type="project" anchored="true">The following are responsible for particular readings or for
           changes to this file, as noted: 
@@ -63,9 +62,9 @@
 <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="page">200</biblScope>
-                <biblScope type="volume">2</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="page">200</biblScope>
+                <biblScope unit="volume">2</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -108,11 +107,11 @@
 <salute>and all my friends, Helen &amp; Emmy &amp; Mr. Arnold,</salute>
       </opener>
 
-      <p>I will write a line only&#8212;My paralysis still leaves me extremely feeble&#8212;&amp; with great distress in the head&#8212;<hi rend="italic">but I shall certainly recover</hi>&#8212;mind just as clear as ever. I have lost my dear, dear sister Martha, in St. Louis&#8212;I appreciate your kind letter, Abby dear, and it is possible when I get better 
-        it may be just the thing for me to come on a few days&#8212;but at present I can 
-        hardly move ten steps without feeling sick&#8212;I am sitting here now in the 
-        rocking chair in my room writing this&#8212;most of the time alone which 
-        suits me best&#8212;it is paralysis of left side&#8212;Love to all&#8212;</p>
+      <p>I will write a line only—My paralysis still leaves me extremely feeble—&amp; with great distress in the head—<hi rend="italic">but I shall certainly recover</hi>—mind just as clear as ever. I have lost my dear, dear sister Martha, in St. Louis—I appreciate your kind letter, Abby dear, and it is possible when I get better 
+        it may be just the thing for me to come on a few days—but at present I can 
+        hardly move ten steps without feeling sick—I am sitting here now in the 
+        rocking chair in my room writing this—most of the time alone which 
+        suits me best—it is paralysis of left side—Love to all—</p>
       
       <closer>
         <signed rend="right">Walt</signed>

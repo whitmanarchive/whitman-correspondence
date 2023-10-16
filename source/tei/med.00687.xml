@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00687">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00687">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00687</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00687</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -60,8 +56,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1964">1964</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">182</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">182</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -102,7 +98,7 @@
                 <salute>Editor <hi rend="italic">Denver Tribune</hi>:</salute>
             </opener>
 
-            <p>Herewith find a letter from me for the paper. The price is &#36;10&#8212;If used <hi rend="italic">it must be printed in the paper of Tuesday</hi>, <hi rend="italic">June 22</hi> (or afterwards)&#8212;The letter is sent in the same manner as this to several other papers (<hi rend="italic">one</hi> each in New York, Boston, Philadelphia, Cincinnati, Chicago) on the same imperative condition&#8212;<hi rend="italic">this condition being a point of honor</hi>&#8212;If used, please send me the pay by mail here, as this place will be my head-quarters for the ensuing two months.</p>
+            <p>Herewith find a letter from me for the paper. The price is $10—If used <hi rend="italic">it must be printed in the paper of Tuesday</hi>, <hi rend="italic">June 22</hi> (or afterwards)—The letter is sent in the same manner as this to several other papers (<hi rend="italic">one</hi> each in New York, Boston, Philadelphia, Cincinnati, Chicago) on the same imperative condition—<hi rend="italic">this condition being a point of honor</hi>—If used, please send me the pay by mail here, as this place will be my head-quarters for the ensuing two months.</p>
 
             <closer>
                 <signed rend="right">Walt Whitman</signed>

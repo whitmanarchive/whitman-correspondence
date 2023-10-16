@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03097">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03097">
     <teiHeader>
         <fileDesc> 
             <titleStmt> 
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03097</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03097</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Sloane Kennedy</author>
                     <title>William Sloane Kennedy to Walt Whitman, 10 November 1890</title>
                     <date cert="high" when="1890-11-10" xml:id="dat1">November 10, 1890</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00256</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,29 +82,28 @@
                     <name type="place">Belmont Mass</name>
                     <date when="1890-11-10">Nov 10 '90.</date>
                 </dateline>
-                <salute>Dear W. W&#8212;</salute>
+                <salute>Dear W. W—</salute>
             </opener>
-            <p>You are always "so confoundedly in the right" that one's words&#8212;if any are
-                spoken&#8212;must be monotonously words of praise. Your political note&#8212;printed
+            <p>You are always "so confoundedly in the right" that one's words—if any are
+                spoken—must be monotonously words of praise. Your political note—printed
                 today in "jottings" pleased me immensely. I voted for the Independent candidates
-                here in Mass. &#38; Editor Clement,<ptr target="loc.02132_n3"/>
-                Aldrich<ptr target="n0743"/> &#38; I held a
+                here in Mass. &amp; Editor Clement,<ptr target="loc.02132_n3"/>
+                Aldrich<ptr target="n0743"/> &amp; I held a
                 glorification over the result throughout the country, I cheered aloud when I heard
                 it.<ptr target="loc.03097_n2"/> It shows how true <hi rend="underline">a man</hi> you are that old age even can
                 never catch yr nimble wits in a rut (chinese) but you adhere still to principle 
-                &#38; the ideal right. We printed a selection fr. yr N. Am. R.<ptr target="med.00850_n2"/> 
+                &amp; the ideal right. We printed a selection fr. yr N. Am. R.<ptr target="med.00850_n2"/> 
                 article<ptr target="loc.05859_n8"/> (Miss Smith<ptr target="n5001"/> editorial dept writing a
                 few words with it). Clement said to me after the election,<ptr target="loc.03092_n2"/> "Well the country is
                 worth living for now." I think we did not realize what a weight of depression of
                 spirits lay on our minds before. Thank ye for the 
-                "Truth-Seeker."<ptr target="loc.03097_n1"/> Bucke<ptr
-                    target="n0119"/> must be cranky for the N. A. Rev. art. is one of the best you
-                ever penned&#8212;ripe in wisdom &#38; sound as a shell bark hickory nut.</p>
+                "Truth-Seeker."<ptr target="loc.03097_n1"/> Bucke<ptr target="n0119"/> must be cranky for the N. A. Rev. art. is one of the best you
+                ever penned—ripe in wisdom &amp; sound as a shell bark hickory nut.</p>
             <closer>
-                <salute>&#8212;Till we meet</salute>  
+                <salute>—Till we meet</salute>  
                 <signed>W. S. K.</signed> 
             </closer>
             <pb xml:id="leaf001v" facs="loc.03097.002.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

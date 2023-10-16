@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07647">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07647">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07647</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07647</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">192</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">192</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,7 +64,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 25 July 1888</title>
                     <date cert="high" when="1888-07-25" xml:id="dat1">July 25, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
@@ -98,24 +94,22 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1888-07-25">Wednesday PM July 25 '88<ptr target="loc.07647_n1"
-                        /></date>
+                    <date when="1888-07-25">Wednesday PM July 25 '88<ptr target="loc.07647_n1"/></date>
                 </dateline>  
                 <salute/>
             </opener>
 
-            <p>Weather perfect continued&#8212;they say yesterday was fearfully hot, but I didn't
-                mind it&#8212;the hours rather dull but ab't as usual &#38; no setback. <hi
-                    rend="italic">Nov</hi>: <hi rend="italic">Boughs</hi><ptr target="n3999"/> copy done&#8212;the three letters from 
-                Rhys,<ptr target="n4152"/> Miss Bates,<ptr target="n4171"/> &#38; our old Japanee friend<ptr target="n4980"/>
-                I will enclose<ptr target="loc.07647_n2"/>&#8212;(don't want them back)&#8212;</p>
+            <p>Weather perfect continued—they say yesterday was fearfully hot, but I didn't
+                mind it—the hours rather dull but ab't as usual &amp; no setback. <hi rend="italic">Nov</hi>: <hi rend="italic">Boughs</hi><ptr target="n3999"/> copy done—the three letters from 
+                Rhys,<ptr target="n4152"/> Miss Bates,<ptr target="n4171"/> &amp; our old Japanee friend<ptr target="n4980"/>
+                I will enclose<ptr target="loc.07647_n2"/>—(don't want them back)—</p>
 
-            <p>If any gaps of the proof pages up to 104 exist, mention it &#38; I will
-                remit&#8212;Keep my room yet&#8212;am sitting now (&#38; in four fifths time day) in
-                the capacious ratan-seated arm chair&#8212;my condition of feebleness &#38;
-                locomotive capacity is fearful&#8212;the brain works ab't as before&#8212;&#38;
-                muscle &#38; grip of arms (especially right) strong &#38; glib perhaps as
-                ever&#8212;</p>
+            <p>If any gaps of the proof pages up to 104 exist, mention it &amp; I will
+                remit—Keep my room yet—am sitting now (&amp; in four fifths time day) in
+                the capacious ratan-seated arm chair—my condition of feebleness &amp;
+                locomotive capacity is fearful—the brain works ab't as before—&amp;
+                muscle &amp; grip of arms (especially right) strong &amp; glib perhaps as
+                ever—</p>
 
             <closer>
                 <salute/>

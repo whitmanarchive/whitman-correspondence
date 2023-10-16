@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02887">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Anne Gilchrist to Walt Whitman, 25 February 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Anne Gilchrist</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02887</idno></publicationStmt>           
+            <sourceDesc>
+               <!-- <biblStruct>
+                    <monogr>
+                        <editor>Thomas B. Harned</editor>
+                        <title xml:id="ehm">The Letters of Anne Gilchrist and Walt Whitman</title>
+                        <imprint>
+                            <pubPlace>Garden City, New York</pubPlace>
+                            <publisher>Doubleday, Page &amp; Company</publisher>
+                            <date when="1964">1918</date>
+                            <biblScope unit="page">141&#8211;142</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Anne Gilchrist</author>
+                    <title>Anne Gilchrist to Walt Whitman, 25 February 1876</title>
+                    <date cert="high" when="1876-02-25" xml:id="dat1">February 25, 1876</date>
+                    <idno type="callno">MSS45443, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0111</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes> 
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-10" who="#smb">ran image script, updated notes</change>
+            <change when="2023-05-05" who="#jh">checked, corrected</change>
+            <change when="2023-01-27" who="#aja">checked, corrected</change>
+            <change when="2022-12-09" who="#aja">checked, corrected</change>
+            <change when="2021-12-19" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-11-14" who="#cb">proofed</change>
+            <change when="2012-06-05" who="#js">proofed</change>
+            <change when="2012-05-21" who="#ej">Checked and Corrected</change>
+            <change when="2012-04-23" who="#al">Checked with microfilm images.</change>
+            <change when="2011-08-09" who="#zk">transcribed and encoded from Harned; annotated AG, Percy, WMR</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_cb.00349.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                        <name type="place">1 Torriano Gardens</name>
+                        <name type="place">Camden Rd</name>
+                        <name type="place">London</name>
+                    <date when="1876-02-25">Feb 25 /76</date>
+                </dateline>
+                <salute>My dearest Friend,</salute>
+            </opener>
+  
+            <p>I received the paper &amp; enclosed slip Saturday week—filling me so full of emotion I could not 
+                write—for I am too bitterly impatient of mere words. Soon, very soon I come my 
+                Darling.<ptr target="med.00665_n1"/> I am not 
+                lingering, but held yet a little while by the firm grip of conscience—this is the last spring we 
+                shall be asunder—O I passionately believe there are years in store for us— 
+                <pb xml:id="leaf001v" facs="loc_cb.00352.jpg" type="verso"/> 
+                years of tranquil, tender happiness—me making your outward life serene &amp; sweet—&amp; you 
+                making my inward life so rich—me learning, growing, loving—we shedding benign influences 
+                round us out of our happiness and fulfilled life—Hold on but a little longer for me my Walt—I 
+                am straining every nerve to hasten the day—I have enough for us all—with the simple, 
+                unpretending ways we both love best.</p>
+            <p>Percy<ptr target="n2000"/> is battling slowly 
+                <pb xml:id="leaf002r" facs="loc_cb.00353.jpg" type="recto"/> 
+                doing as well as we could expect in the time. I think he will soon build the nest for his mate.<ptr target="loc.02882_n6"/> 
+                I think he never in his heart believed I really should go to America and so it comes as a great blow to 
+                him now. You must be very indulgent towards him for my sake dear Friend.</p>
+            <p>I am glad we know about those rascally book agents<ptr target="loc.01230_n2"/>—for many of us are 
+                <pb xml:id="leaf002v" facs="loc_cb.00350.jpg" type="verso"/> 
+                wanting a goodish number of copies of the new edition<ptr target="loc.02527_n6"/> &amp; it is important to 
+                understand we may have them straight from you—Rossetti<ptr target="loc.02887_n2"/> is making a list 
+                of the friends &amp; the number, so that they may all come together—</p>
+            <p>Perhaps dearest friend you may be having a great difficulty in getting the books out for want of funds—if 
+                so let me help a little—show your trust in me and my love thus generously.</p>
+
+            <closer>
+                <salute>Your own loving</salute>
+                <signed>Annie.</signed>
+            </closer>
+            <note type="editorial" resp="#ww" place="bottom">Mrs. Gilchrist Feb. 25 '76 ans: March 17</note>
+        </body>
+    </text>
+</TEI>

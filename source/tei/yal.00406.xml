@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00406">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00406">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +23,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>yal.00406</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +40,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>yal.00406</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -60,9 +58,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">2</biblScope>
-              <biblScope type="page">195</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="page">195</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -99,27 +97,26 @@
     <body>
       <opener>
         <dateline>
-          <date when="1873-02-02" rend="right">Sunday afternoon <lb/>&#189; past 3</date>
+          <date when="1873-02-02" rend="right">Sunday afternoon <lb/>½ past 3</date>
         </dateline>
         <salute>Dearest mother<ptr target="n0705"/>,</salute>
       </opener>
 
       <p>I am sitting up on the side of the bed writing this. Every thing is going on as well with
-        me as I could expect. I rec'd your letter, dear mother&#8212;you may rest assured that I
-        write the <hi rend="italic">exact facts</hi> about my sickness&#8212;I am not gaining very
-        fast, but it is <hi rend="italic">sure</hi>&#8212;I am on the gain every day a
-        little&#8212;I still have a good deal of distress in the head&#8212;the quieter I am left by
-        general visitors the more comfortable I am&#8212;I slept fairly last night&#8212;&amp; eat
-        quite a nice breakfast this morning&#8212;(dinner I left mostly untasted)&#8212;I have all
+        me as I could expect. I rec'd your letter, dear mother—you may rest assured that I
+        write the <hi rend="italic">exact facts</hi> about my sickness—I am not gaining very
+        fast, but it is <hi rend="italic">sure</hi>—I am on the gain every day a
+        little—I still have a good deal of distress in the head—the quieter I am left by
+        general visitors the more comfortable I am—I slept fairly last night—&amp; eat
+        quite a nice breakfast this morning—(dinner I left mostly untasted)—I have all
         the attention I need, &amp; food &amp;c. </p>
 
-      <p>I will write toward the middle of the week&#8212;Write whether this &amp; the money come
+      <p>I will write toward the middle of the week—Write whether this &amp; the money come
         safe. </p>
 
-      <p>Love to you, dear Mother &amp; George<ptr target="n0700"/> &amp; Lou<ptr target="n0368"
-        />&#8212;&amp; don't be uneasy about me. I have been up by the window looking out on the
-        river &amp; scenery&#8212;it is beautiful weather now&#8212;they have sent over &amp; paid
-        me my January pay&#8212;all are very kind&#8212;</p>
+      <p>Love to you, dear Mother &amp; George<ptr target="n0700"/> &amp; Lou<ptr target="n0368"/>—&amp; don't be uneasy about me. I have been up by the window looking out on the
+        river &amp; scenery—it is beautiful weather now—they have sent over &amp; paid
+        me my January pay—all are very kind—</p>
 
       <closer>
         <signed rend="right">Walt</signed>

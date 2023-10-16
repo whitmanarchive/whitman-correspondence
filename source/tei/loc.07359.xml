@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07359">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07359">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="rf">Ryan Furlong</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07359</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07359</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">135</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">135</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,9 +64,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 5 December 1887</title>
                     <date cert="medium" when="1887-12-05" xml:id="dat1">December 5, 1887</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -98,11 +95,11 @@
                     <date when="1887-12-05">Evn'g Dec 5 '87</date>
                 </dateline>
             </opener>
-            <p>A pleasant day here to-day has been, after a cold spell&#8212;Ab't as usual with
-                me&#8212;No sight of Rhys<ptr target="loc.03310_n1"/> yet&#8212;the artist Eakin of
-                    Phila:<ptr target="n3166"/> comes off &amp; on painting my portrait&#8212;it is
+            <p>A pleasant day here to-day has been, after a cold spell—Ab't as usual with
+                me—No sight of Rhys<ptr target="loc.03310_n1"/> yet—the artist Eakin of
+                    Phila:<ptr target="n3166"/> comes off &amp; on painting my portrait—it is
                 going to be realistic &amp; severe I think (ab't likeness, excellence &amp;c. we
-                will see)&#8212;Did I tell you I rec'd a letter from O'C[onnor]<ptr target="n2002"/>
+                will see)—Did I tell you I rec'd a letter from O'C[onnor]<ptr target="n2002"/>
                 ten days ago, rather cheery?</p>
             <closer>
                 <signed>W W</signed>

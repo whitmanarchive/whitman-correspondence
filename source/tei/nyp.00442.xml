@@ -1,7 +1,4 @@
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00442">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00442">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00442</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00442</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">289&#8211;290</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">289–290</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,7 +64,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Jeannette L. and Joseph B. Gilder, 3 June 1882</title>
                     <date cert="high" when="1882-06-03" xml:id="dat1">June 3, 1882</date>
-                    <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
+                    <orgName xml:id="nyp">The Oscar Lion Papers, 1914–1955, New York Public Library, New York, N.Y.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -99,24 +96,22 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden New Jersey<ptr target="nyp.00442_n1"
-                        /></name>
+                    <name type="place">Camden New Jersey<ptr target="nyp.00442_n1"/></name>
                     <date when="1882-06-03">June 3d '82</date>
                 </dateline>
             </opener>
             <p>Yours of 2d <choice>
-                <orig>rec'd</orig><reg>received</reg></choice>, with the &#36;10, hereby receipted<ptr target="nyp.00442_n2"/>&#8212;</p>
-            <p>I appreciate the "Dogberry" article not only for its bearing on me &#38; my
-                book&#8212;it is the keenest bit of quiet razor-edged literary paragraphing I have
-                read lately<ptr target="nyp.00442_n3"/>&#8212;</p>
+                <orig>rec'd</orig><reg>received</reg></choice>, with the $10, hereby receipted<ptr target="nyp.00442_n2"/>—</p>
+            <p>I appreciate the "Dogberry" article not only for its bearing on me &amp; my
+                book—it is the keenest bit of quiet razor-edged literary paragraphing I have
+                read lately<ptr target="nyp.00442_n3"/>—</p>
             <p>I have <choice>
                 <orig>rec'd</orig>
                 <reg>received</reg>
-            </choice> from Boston the handsomely published "<hi rend="italic"
-                >Essays</hi>"&#8212;hearty thanks to the writer of the criticism last of book on
-                mine &#38; me<ptr target="nyp.00442_n4"/>&#8212;I am at present again well as usual
-                (was quite ill all April &#38; first half of May)&#8212;Send me please three copies
-                last <hi rend="italic">Critic</hi>&#8212;</p>
+            </choice> from Boston the handsomely published "<hi rend="italic">Essays</hi>"—hearty thanks to the writer of the criticism last of book on
+                mine &amp; me<ptr target="nyp.00442_n4"/>—I am at present again well as usual
+                (was quite ill all April &amp; first half of May)—Send me please three copies
+                last <hi rend="italic">Critic</hi>—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

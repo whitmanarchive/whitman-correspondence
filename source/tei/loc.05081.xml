@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05081">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05081">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05081</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05081</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">295</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">295</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -94,7 +90,7 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place"><hi rend="italic">Rees Welsh &#38; Co.,</hi> <lb/>. . . <lb/><hi rend="italic">Philadelphia</hi>,</name>
+                    <name type="place"><hi rend="italic">Rees Welsh &amp; Co.,</hi> <lb/>. . . <lb/><hi rend="italic">Philadelphia</hi>,</name>
                     <date when="1882-05-14" rend="right">June 28 1882</date>
                 </dateline>
                 <salute>My dear <choice>
@@ -103,8 +99,8 @@
                 </choice> Ticknor</salute>
             </opener>
             <p>I wish you would do me the favor to have <hi rend="italic">the steel plate</hi>, (we
-                used in L of G) properly enveloped &#38; sent by express, directed to Rees Welsh
-                &#38; <choice>
+                used in L of G) properly enveloped &amp; sent by express, directed to Rees Welsh
+                &amp; <choice>
                     <orig>Co:</orig>
                     <reg>Company</reg>
                 </choice> 23 south 9th street, (as above.) I have forgotten the address of your

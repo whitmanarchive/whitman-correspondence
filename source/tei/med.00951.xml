@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00951">
+    <teiHeader> 
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to the Editors of <hi rend="italic">The
+                        Daily Crescent</hi>, 14 July 1848</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Schoeberlein</persName>
+                    <persName xml:id="zt">Zachary Turpin</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>med.00951</idno></publicationStmt>
+            <sourceDesc>
+                <biblStruct type="newspaper">
+                    <analytic>
+                        <author><choice>
+                                <orig>Manahatta</orig>
+                                <reg>Walt Whitman</reg>
+                            </choice></author>
+                        <title>Walt Whitman to the Editors of <hi rend="italic">The Daily
+                                Crescent</hi>, 14 July 1848</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">The Daily Crescent</title>
+                        <imprint>
+                            <date when="1848-07-25">25 July 1848</date>
+                        </imprint>
+                        <biblScope unit="page">[2]</biblScope>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to the Editors of <hi rend="italic">The Daily
+                        Crescent</hi>, 14 July 1848</title>
+                    <date cert="high" when="1848-07-14" xml:id="dat1">July 14, 1848</date>
+                    <orgName xml:id="med">The location of the original manuscript is unknown.
+                        Whitman's letters to Alexander Hamilton Hayes (1806–1866) and John Eliot
+                        McClure (ca. 1809–1869)—the editors of <hi rend="italic">The Daily
+                            Crescent</hi> (New Orleans, Louisiana)—were published in that newspaper.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>  
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Editors of The Daily Crescent">Editors of <hi rend="italic">The Daily Crescent</hi></persName>
+                </person>
+            </particDesc>
+        </profileDesc>   
+        <revisionDesc>
+            <change when="2023-08-11" who="#smb">final check, corrected</change>
+            <change when="2023-04-13" who="#aja">corrections for Ken</change>
+            <change when="2023-02-11" who="#smb">final check, corrected</change>
+            <change when="2023-02-02" who="#aja">annotations check</change>
+            <change when="2022-10-14" who="#jh">checked, corrected</change>
+            <change when="2022-09-16" who="#smb">encoded</change>
+            <change when="2020-11-01" who="#zt">transcribed</change>
+            <change when="2020-11-01" who="#ss">transcribed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <opener>  
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>N<hi rend="smallcaps">EW</hi> Y<hi rend="smallcaps">ORK</hi> C<hi rend="smallcaps">ITY</hi>,</name>
+                    <date when="1848-07-14"><handShift rend="printed"/>July 14, 1848.</date>
+                </dateline>
+            </opener> 
+            <p><handShift rend="printed"/>As we are now "on the eve of an important election,"
+                such meetings as I have attempted to describe in my last are frequent here. They are
+                held by whigs<ptr target="med.00961_n4"/> and democrats, Taylorites<ptr target="med.00989_n10b"/> and Clayites<ptr target="med.00951_n2"/>—Barnburners 
+                and Old Hunkers.<ptr target="med.00950_n1"/> I
+                have noticed, however, that the Clay whigs and the Barnburner democrats seem to be
+                the most anxious to hold these grand talking matches. The other parties call as few
+                as possible.</p>  
+            <p><handShift rend="printed"/>There is much complaint in and about the city, among all classes, 
+                of "dull times." I know very many mechanics who are out of work, and can't get pay for
+                work they have done. This is the complaint among all branches and trades, to an
+                unusual extent. Immigration pours in without the least abatement. Hardly a day
+                passes that hundreds of poor wayfarers from Europe do not land upon our wharves;
+                some no doubt, to sink amid disease or poverty, but most, I am happy to say, to take
+                a start which brings them amid better times and far more comfort. What is most
+                astonishing to me, is the fact that with such prevalent poverty as characterises the
+                masses of the immigrants, there is so little criminality. Political economists are
+                fond of arguing that Penury is the Mother of Crime: but take an equal number of
+                well-off people, and, compared with these immigrants, you will surely find not only
+                a great deal more viciousness, but infinitely more of crime which the law takes
+                cognizance of. The police very seldom have any trouble with the poor
+                immigrants—except, alas! now and then to take a pallid mother and her starving
+                children to the alms house. There are certain persons who see evil in these
+                accessions from abroad; but I defy even them to contradict the well-known facts
+                above mentioned. Moreover, this city is the great receiving point of European
+                emigration.</p> 
+            <p><handShift rend="printed"/>A very general satisfaction exists here at the prospect presented by the
+                advent of the steamer "Crescent City," of reducing the travelling time between New
+                York and New Orleans, to a point before considered out of the question, except in
+                rare cases, and then only by being racked to death with incessant travel and daily
+                changes. It is now pretty certain that, when you get off the levee at New Orleans of
+                a Sunday morning, and go on board the right sort of steamer, the next Sunday will
+                find you in New York—and vice versa. By the inland route, either down the Ohio or
+                across the Lakes, you require, allowing for unavoidable stoppages, detentions, etc.,
+                from thirteen to twenty days, averaging fifteen days at least. Then the comfort of
+                making the entire trip without transferring yourself or baggage. My belief is that
+                New York and New Orleans have more identity of character and interest than any other
+                two cities in America. Both are distinguished by a sort of citizen-of-the-world
+                disposition; and in both there is a blessed freedom from all provincialism and the
+                gossip of second-rate towns. May the telegraph and a few lines of rapid steamers
+                conduce to draw still closer and stouter the bands of union!</p>
+            <closer>
+                <signed><handShift rend="printed"/>M<hi rend="smallcaps">ANAHATTA</hi>.</signed>
+            </closer>
+        </body> 
+    </text>
+</TEI>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="syr.00008">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="syr.00008">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>syr.00008</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
 <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
 <addrLine>Lincoln, NE 68588-4100</addrLine>
 </address>
                 <availability>
-                    <p> Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>syr.00008</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>R. Brisbane</author>
@@ -86,8 +82,7 @@
         <body> 
             <pb xml:id="leaf001r" facs="syr_kc.00001_large.jpg" type="recto"/>
             <note type="editorial" place="top" resp="#unk">BRISBANE, R</note>
-            <note type="editorial" place="top" resp="#ht">see notes March 3d <hi
-                        rend="underline">1889</hi></note>
+            <note type="editorial" place="top" resp="#ht">see notes March 3d <hi rend="underline">1889</hi></note>
             <opener>
                 <dateline>
                     <name type="place">83 Bould St Michel</name>
@@ -96,21 +91,18 @@
                 </dateline>   
                 <salute>Dear Walt Whitman.</salute>
             </opener>
-            <p>Your two postals came duly to hand&#8212;the last on the 2d of last month&#8212;but
+            <p>Your two postals came duly to hand—the last on the 2d of last month—but
                 the letter there in announced has not come. It is now too late I presume to expect
                 it:</p>
             <p>I will say for Mr <pb xml:id="leaf001v" facs="syr_kc.00002_large.jpg" type="verso"/>
-                    Laforgue<ptr target="n3132"/> that he is glad of your <hi rend="underline"
-                    >permission</hi> to translate "Leaves of Grass" &#38; that he expects to make of
+                    Laforgue<ptr target="n3132"/> that he is glad of your <hi rend="underline">permission</hi> to translate "Leaves of Grass" &amp; that he expects to make of
                 it an interesting Volume<ptr target="syr.00008_n1"/></p>
             <p>We want to publish it with a preface in the shape of a biographical sketch. It would
-                be pleasant to have<pb xml:id="leaf002r" facs="syr_kc.00003_large.jpg" type="recto"
-                /> facts in your life not yet published: your youth, how you gave yourself on the
-                battlefield during the war, etc. Would you have the strength &#38; the inclination
+                be pleasant to have<pb xml:id="leaf002r" facs="syr_kc.00003_large.jpg" type="recto"/> facts in your life not yet published: your youth, how you gave yourself on the
+                battlefield during the war, etc. Would you have the strength &amp; the inclination
                 to furnish us such?</p>
             <p>I am sorry to learn thro' the papers that you are permanently disabled physically. I
-                trust that the appearance of your poems <pb xml:id="leaf002v"
-                    facs="syr_kc.00004_large.jpg" type="verso"/> in a foreign dress will have a
+                trust that the appearance of your poems <pb xml:id="leaf002v" facs="syr_kc.00004_large.jpg" type="verso"/> in a foreign dress will have a
                 happy pecuniary result. In any event you have too many friends on both sides the
                 ocean ever to be forgotten.</p>
             <p>As the interpreter of the little group here I am the bearer of many good words</p>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05013">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William C. Church to Walt Whitman, 25 March 1868</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William C. Church</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="nsb">Noelle Bates</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt> 
+                 
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.05013</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William C. Church</author>
+                    <title>William C. Church to Walt Whitman, 25 March 1868</title>
+                    <date cert="high" when="1868-03-25" xml:id="dat1">March 25, 1868</date>
+                    <idno type="callno">MSS18630, Box 41, Reel 26</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.01411</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="rel01" target="wwa.00727"/>
+                    <relatedItem type="text" target="loc.08484"/>
+                    <note type="project" target="#rel01">Whitman struck through this letter and used the verso side
+                        to write notes about "Hind's army reminiscences," which 
+                    he learned of during a vist to Colonel James M. Scovel's home on January 11, 1885.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Church, William C." ref="n0157">William C. Church</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-20" who="#aja">final corrections for Ken</change>
+            <change when="2023-04-01" who="#smb">final checked, corrected</change>
+            <change when="2022-09-19" who="#aja">checked, corrected</change>
+            <change when="2022-07-31" who="#pw">checked, corrected</change>
+            <change when="2022-07-19" who="#nsb">checked</change>
+            <change when="2022-07-15" who="#pw">checked, corrected</change>
+            <change when="2022-04-10" who="#me">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_tb.00608.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>AN <lb/>ILLUSTRATED MAGAZINE
+                        <lb/>of Entertaining Reading.<lb/>Published Monthly.</name>
+                    <name type="place"><handShift rend="printed"/>OFFICE OF THE GALAXY,</name>
+                    <name type="place"><handShift rend="printed"/>NO. 39 PARK ROW,</name>
+                    <name type="place"><handShift rend="printed"/>New York,</name>
+                    <date when="1868-03-25"><handShift rend="manuscript"/>March 25 <handShift rend="printed"/>186<handShift rend="manuscript"/>8.</date>
+                </dateline>
+                <salute>My Dear Sir</salute>
+            </opener>
+            <p>Your proof came <choice>
+                    <sic>to</sic>
+                    <corr>too</corr>
+                </choice> late for us to make the corrections &amp; I return it so that you can transfer them 
+                to this proof before sent. Our type has been cast with plates. We are printing a large edition of the 
+                May no &amp; have been forced to <gap reason="illegible" quantity="4" unit="chars"/> 
+                things</p> 
+            <closer>
+                <salute>Truly Yours</salute>
+                <signed>W. C. Church</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_tb.00610.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_tb.00609.jpg" type="recto"/>
+        </body>
+    </text>
+</TEI>

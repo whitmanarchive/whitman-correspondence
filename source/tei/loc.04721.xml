@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04721">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04721">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04721</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>  
                 <availability>
-                    <p> Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04721</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James W. Wallace</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00402</idno>
                     <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,26 +85,22 @@
                 </dateline>
                 <salute>My dear Walt Whitman,</salute>
             </opener>
-            <p>Just a line or two of loving remembrance &#38; good wishes.&#8212;I hope that you are
-                better than you were, &#38; that the summer weather is doing you good. How I should
+            <p>Just a line or two of loving remembrance &amp; good wishes.—I hope that you are
+                better than you were, &amp; that the summer weather is doing you good. How I should
                 like to hear that you are able to get out in it with good results!</p>
-            <p>We have had glorious weather here for several days,&#8212;bright <pb
-                    xml:id="leaf001v" facs="loc_vm.01244_large.jpg" type="verso"/> &#38;
-                warm&#8212;even hot at times&#8212;but with pleasant breezes. Saturday &#38; Sunday
-                especially were almost perfect days.&#8212;I spent all the time I could in the open
-                air, wandering about Rivington &#38; absorbing its perfect summer beauty.&#8212;If
-                only I could transfer some of it to my letter &#38; convey the bright sunshine &#38;
-                grateful warmth &#38; balmy blossom scented air to <hi rend="underline"
-                >you</hi>!</p>
-            <p>But I took no notes &#38; gave myself up wholly to the influences of the time. <pb
-                    xml:id="leaf002r" facs="loc_vm.01245_large.jpg" type="recto"/> And how little
-                can any picture&#8212;on canvas or in words&#8212;convey of the real impressions
-                made upon one, with their infinite complexity &#38; harmony, &#38; their mysterious
-                relation to the absorbing tallying soul.&#8212;</p>
-            <p>Tonight, as I write, the sky is clouded &#38; threatens rain. But that too will be
+            <p>We have had glorious weather here for several days,—bright <pb xml:id="leaf001v" facs="loc_vm.01244_large.jpg" type="verso"/> &amp;
+                warm—even hot at times—but with pleasant breezes. Saturday &amp; Sunday
+                especially were almost perfect days.—I spent all the time I could in the open
+                air, wandering about Rivington &amp; absorbing its perfect summer beauty.—If
+                only I could transfer some of it to my letter &amp; convey the bright sunshine &amp;
+                grateful warmth &amp; balmy blossom scented air to <hi rend="underline">you</hi>!</p>
+            <p>But I took no notes &amp; gave myself up wholly to the influences of the time. <pb xml:id="leaf002r" facs="loc_vm.01245_large.jpg" type="recto"/> And how little
+                can any picture—on canvas or in words—convey of the real impressions
+                made upon one, with their infinite complexity &amp; harmony, &amp; their mysterious
+                relation to the absorbing tallying soul.—</p>
+            <p>Tonight, as I write, the sky is clouded &amp; threatens rain. But that too will be
                 grateful after the hot days.</p>
-            <p>I fear the effects of <pb xml:id="leaf002v" facs="loc_vm.01246_large.jpg"
-                    type="verso"/> the excessive heat reported from New York upon you, but hope for
+            <p>I fear the effects of <pb xml:id="leaf002v" facs="loc_vm.01246_large.jpg" type="verso"/> the excessive heat reported from New York upon you, but hope for
                 the best.</p>
             <closer> 
                 <salute>With love to you always</salute>
@@ -118,4 +111,4 @@
             <pb xml:id="leaf003v" facs="loc_vm.01242_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07979"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07979"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07979</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07979</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +52,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">219</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">219</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,7 +64,7 @@
                     <date cert="high" when="1891-06-26" xml:id="dat1">June 26, 1891</date>
                     <idno type="callno">MMC-1482; MSS90019</idno>
                     <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers,
-                        1887&#8211;1923, Library of Congress, Washington, D.C.</orgName>
+                        1887–1923, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -92,19 +89,18 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden N J&#8212;U S America<ptr target="loc.07979_n1"/></name>
-                    <date when="1891-06-26">10&#189; a m June 26 '91</date>
+                    <name type="place">Camden N J—U S America<ptr target="loc.07979_n1"/></name>
+                    <date when="1891-06-26">10½ a m June 26 '91</date>
                 </dateline>
             </opener>
-            <p>Another hot wave on us&#8212;am sweating freely&#8212;but feeling not badly&#8212;the
-                fac similes are perfect<ptr target="loc.08157_n5"/>&#8212;thank heartily&#8212;the
+            <p>Another hot wave on us—am sweating freely—but feeling not badly—the
+                fac similes are perfect<ptr target="loc.08157_n5"/>—thank heartily—the
                     <hi rend="italic">Rev[iew] of Reviews</hi><ptr target="loc.07336_n6"/>
-                rec'd&#8212;the good full report of the birth anni: is to go in <hi rend="italic"
-                    >August Lippincott</hi><ptr target="loc.08150_n2"/>&#8212;(a day after the fair,
-                but glad to get it at that)&#8212;Dr B[ucke]<ptr target="n0119"/> leaves N Y on the
-                8th in the Britannic<ptr target="loc.08072_n2"/>&#8212;When entirely conv: send me 6
-                or 8 more fac similes&#8212;regards &#38; love to you, W[allace]<ptr target="n6121"/>
-                &#38; all the boys<ptr target="loc.008092_n3"/>&#8212;</p>
+                rec'd—the good full report of the birth anni: is to go in <hi rend="italic">August Lippincott</hi><ptr target="loc.08150_n2"/>—(a day after the fair,
+                but glad to get it at that)—Dr B[ucke]<ptr target="n0119"/> leaves N Y on the
+                8th in the Britannic<ptr target="loc.08072_n2"/>—When entirely conv: send me 6
+                or 8 more fac similes—regards &amp; love to you, W[allace]<ptr target="n6121"/>
+                &amp; all the boys<ptr target="loc.008092_n3"/>—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

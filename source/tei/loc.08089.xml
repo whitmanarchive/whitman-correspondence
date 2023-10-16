@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08089">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08089">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 30&#8211;31 January 1891</title>
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 30–31 January 1891</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -16,6 +13,7 @@
                     <persName xml:id="zs">Zainab Saleh</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                     <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor> Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln </sponsor>
@@ -28,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08089</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,25 +44,25 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08089</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Richard Maurice Bucke, 30&#8211;31 January 1891</title>
+                    <title>Walt Whitman to Richard Maurice Bucke, 30–31 January 1891</title>
                     <date cert="high" when="1891-01-30" xml:id="dat1">January 30, 1891</date>
-                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3&#8211;4; Envelope: MSS18630,
-                        Box 7, Reel 4&#8211;5;</idno>
+                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3–4; Envelope: MSS18630,
+                        Box 7, Reel 4–5;</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown author</author>
                     <title level="a">Unknown</title>
                     <title level="j">Unknown</title>
                     <date when="1891">1891</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl> 
             </sourceDesc>
         </fileDesc>
@@ -83,6 +81,7 @@
             </particDesc> 
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2020-06-18" who="#smb">final check, corrected</change>
             <change when="2020-06-10" who="#adk">second check, corrected</change>
             <change when="2020-05-15" who="#smb">first check, added DOI</change>
@@ -100,30 +99,30 @@
                     <note type="editorial" place="top" resp="#rmb"><date when="1891-01-30">Jan. 30</date></note>
                 </dateline>
             </opener>
-            <p><date when="1891-01-30"><hi rend="underline">Friday, sunset</hi></date>&#8212;Just
-                finish'd supper&#8212;toasted bread &#38; stew'd tomatoes &#38; tea (had a nice
-                steak &#38; egg, but did not touch them) appetite fair&#8212;sweating&#8212;fair
-                bowel action last evn'g, (after four or five days' stoppage)&#8212;upon the whole
-                    <hi rend="underline">statu quo</hi>, if anything easier than lately&#8212;my
-                article does not appear in Feb: N A Rev<ptr target="loc.07853_n8"/>&#8212;still
+            <p><date when="1891-01-30"><hi rend="underline">Friday, sunset</hi></date>—Just
+                finish'd supper—toasted bread &amp; stew'd tomatoes &amp; tea (had a nice
+                steak &amp; egg, but did not touch them) appetite fair—sweating—fair
+                bowel action last evn'g, (after four or five days' stoppage)—upon the whole
+                    <hi rend="underline">statu quo</hi>, if anything easier than lately—my
+                article does not appear in Feb: N A Rev<ptr target="loc.07853_n8"/>—still
                 anticipate the pieces in 
-                <hi rend="underline">Lippincotts</hi><ptr target="loc.08089_n4"/> but we will wait &#38; see 
+                <hi rend="underline">Lippincotts</hi><ptr target="loc.08089_n4"/> but we will wait &amp; see 
                 (Stoddart<ptr target="loc.04674_n1"/> I guess is friendly to me, but publishers generally are
-                cold&#8212;or worse)&#8212;Suppose you rec'd the good photo cards I sent&#8212;hope
-                you will like them as I do&#8212;am getting the little 2d annex<ptr target="loc.07894_n2"/> in printerial
-                shape&#8212;I like to get it &#38; put it like tanners' skins in soak awhile I
-                suppose&#8212;it will be very brief &#38; most of the pieces you have seen
-                already&#8212;the days are lengthening&#8212;here as I write by daylight it is ½
+                cold—or worse)—Suppose you rec'd the good photo cards I sent—hope
+                you will like them as I do—am getting the little 2d annex<ptr target="loc.07894_n2"/> in printerial
+                shape—I like to get it &amp; put it like tanners' skins in soak awhile I
+                suppose—it will be very brief &amp; most of the pieces you have seen
+                already—the days are lengthening—here as I write by daylight it is ½
                 past 5</p>
-            <p>Col: Ingersoll<ptr target="n0839"/> &#38; his chief clerks have gone off to Montana
-                to take hand in a big will case&#8212;see this item<ptr target="loc.08089_n3"/>&#8212;</p>
-            <add rend="pasteon" source="#ref1" xml:id="add1">
+            <p>Col: Ingersoll<ptr target="n0839"/> &amp; his chief clerks have gone off to Montana
+                to take hand in a big will case—see this item<ptr target="loc.08089_n3"/>—</p>
+            <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                 <q who="#ref1" type="printed">
                     <floatingText rend="flat">
                         <body>
-                            <head type="main-authorial"><handShift rend="printed"/>A Fight Over an Estate of &#36;13,000,000.</head>
-                            <p><handShift rend="printed"/>HELENA, Mont. Jan. 30.&#8212;The fight
-                                over Banker Davis' &#36;13,000,000 commenced in earnest yesterday, the
+                            <head type="main-authorial"><handShift rend="printed"/>A Fight Over an Estate of $13,000,000.</head>
+                            <p><handShift rend="printed"/>HELENA, Mont. Jan. 30.—The fight
+                                over Banker Davis' $13,000,000 commenced in earnest yesterday, the
                                 new issue being the will alleged to have been made by the late
                                 millionaire and recently found in Iowa. The New York and Illinois
                                 contesting heirs claim it is a forgery, and urge that it not be
@@ -132,18 +131,18 @@
                         </body>
                     </floatingText>
                 </q>
-            </add>
-            <p><handShift rend="manuscript"/>I have sent a few of his Phila: address to friends&#8212;have you some?&#8212;had a
+            <anchor xml:id="a01"/>
+            <p><handShift rend="manuscript"/>I have sent a few of his Phila: address to friends—have you some?—had a
                 letter f'm Lezinsky,<ptr target="loc.07868_n2"/> my California (?Jewish)
-                friend&#8212;</p> 
+                friend—</p> 
             <p><handShift rend="manuscript"/><date when="1891-01-31"><hi rend="underline">Jan: 31 just before
-                noon</hi></date>&#8212;very light breakfast&#8212;cup of tea &#38; a small graham
-                biscuit&#8212;pretty fair night last&#8212;uneasy stomachic
-                condition&#8212;thirsty&#8212;the Feb: <hi rend="underline">Century</hi> comes &#38;
-                I have been looking over it&#8212;rather interesting&#8212;dark dampish
-                day&#8212;did I tell you Ernest Rhys<ptr target="n4152"/> is married?&#8212;headache 
-                as I write&#8212;am sitting here same&#8212;Warry<ptr target="loc.07319_n6"/> is downstairs 
-                practising on his fiddle&#8212; </p>
+                noon</hi></date>—very light breakfast—cup of tea &amp; a small graham
+                biscuit—pretty fair night last—uneasy stomachic
+                condition—thirsty—the Feb: <hi rend="underline">Century</hi> comes &amp;
+                I have been looking over it—rather interesting—dark dampish
+                day—did I tell you Ernest Rhys<ptr target="n4152"/> is married?—headache 
+                as I write—am sitting here same—Warry<ptr target="loc.07319_n6"/> is downstairs 
+                practising on his fiddle— </p>
             <closer>
                 <salute>God bless you all</salute>
                 <signed>Walt Whitman</signed> 

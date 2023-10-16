@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05150">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05150">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05150</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive November be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05150</idno></publicationStmt>
 
             <sourceDesc>
 
@@ -61,7 +57,7 @@
                             <pubPlace>Detroit</pubPlace>
                             <publisher>Wayne State University Press</publisher>
                             <date when="1977">1977</date>
-                            <biblScope type="page">24</biblScope>
+                            <biblScope unit="page">24</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -72,7 +68,7 @@
                     <date cert="high" when="1883-09-23" xml:id="dat1">September 23, 1883</date>
                     <idno type="callno">MSS18630, Box 53</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -101,8 +97,7 @@
             <opener>
                 <dateline>
                     <name type="place">[London,]</name>
-                    <date when="1883-03-12" rend="right">23<hi rend="superscript"><hi
-                                rend="underline">d</hi></hi> Sept. [188]3</date>
+                    <date when="1883-03-12" rend="right">23<hi rend="superscript"><hi rend="underline">d</hi></hi> Sept. [188]3</date>
                 </dateline>
                 <salute>Dear Walt<!--<ptr target="n0119"/>--></salute>
             </opener>
@@ -111,7 +106,7 @@
                 got home day before yesterday and have gone over R's translation<ptr target="loc.05150_n2"/> carefully, it is
                 excellent, very literal, language very simple (as it should be) and reads (in the
                 German) I should say fully as well as in the English. He has taken one liberty and
-                only one&#8212;in English the last line reads
+                only one—in English the last line reads
                 <q>"And may be just as much as the
                 seasons."</q>
                 This line he translates
@@ -129,13 +124,11 @@
                 good enough German scholar to appreciate very fine shades of meaning or of language.
                 I wish to goodness R. w<hi rend="superscript"><hi rend="underline">d</hi></hi> hurry
                 up and give us a vol. of L. of G. in German, I should like immensely to see it in
-                that dress. I wish you would speak to M<hi
-                    rend="superscript"><hi rend="underline">c</hi></hi>Kay about the circulars he
+                that dress. I wish you would speak to M<hi rend="superscript"><hi rend="underline">c</hi></hi>Kay about the circulars he
                 was to print for me in re my vol. "W. W." (he told me you had consented to write 
                 said circular).<ptr target="loc.05150_n3"/> I am constantly getting letters asking me about the book and a
-                circular would be a better &#38; more convenient answer than a letter. <hi
-                    rend="underline">N. B.</hi> "Leaves of Grass" "Specimen Days &#38; Collect" and
-                "Man's Moral Nature" should all be mentioned in circular&#8212;also the English
+                circular would be a better &amp; more convenient answer than a letter. <hi rend="underline">N. B.</hi> "Leaves of Grass" "Specimen Days &amp; Collect" and
+                "Man's Moral Nature" should all be mentioned in circular—also the English
                 publishers of <hi rend="underline">each</hi> of these books should be specified.
                     <gap reason="cut away" atLeast="1" unit="chars"/> I wonder
                 whether M<hi rend="superscript"><hi rend="underline">c</hi></hi>Kay has an English

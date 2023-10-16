@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00427">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00427">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>yal.00427</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>yal.00427</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,8 +54,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1964">1964</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">138</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">138</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -98,14 +94,14 @@
                 </dateline>
             </opener>
 
-            <p>I am well, for me&#8212;Have been down at the old Jersey farm by the pond nearly all summer&#8212;start again to-morrow<ptr target="yal.00427_n2"/>&#8212;Am writing some&#8212;Shall come to N Y to lecture&#8212;Al: I got your letter down in the country four days after due&#8212;I return the Goethe Club ticket&#8212;</p>
+            <p>I am well, for me—Have been down at the old Jersey farm by the pond nearly all summer—start again to-morrow<ptr target="yal.00427_n2"/>—Am writing some—Shall come to N Y to lecture—Al: I got your letter down in the country four days after due—I return the Goethe Club ticket—</p>
         
 
             <closer>
                 <signed rend="right">W W</signed>
             </closer>
             <postscript>
-                <p>H&#8212;l of a gale here this morning&#8212;great destruction&#8212;</p>
+                <p>H—l of a gale here this morning—great destruction—</p>
             </postscript>  
         </body>
     </text>

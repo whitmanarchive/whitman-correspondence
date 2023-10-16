@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00581">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00581">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="rf">Ryan Furlong</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00581</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00581</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,8 +53,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date notBefore="1961" notAfter="1977">1961–1977</date>
-                            <biblScope type="volume">6</biblScope>
-                            <biblScope type="page">44-45</biblScope>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="page">44-45</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -91,27 +88,26 @@
             <opener>
                 <dateline>
                     <name type="place">328 Mickle Street</name>
-                    <name type="place">Camden New Jersey U S America<ptr target="nyp.00581_n1"/><ptr
-                            target="nyp.00581_n2"/></name>
+                    <name type="place">Camden New Jersey U S America<ptr target="nyp.00581_n1"/><ptr target="nyp.00581_n2"/></name>
                     <date when="1887-09-11">Sept: 11 '87</date>
                 </dateline>
                 <salute>My dear Rhys</salute>
             </opener>
-            <p>I suppose you got the copy I mail'd you some three or four days ago<ptr target="nyp.00581_n3"/>&#8212;the
-                additional matter (27 printed pages) for "Democratic Vistas"&#8212;I enclose
+            <p>I suppose you got the copy I mail'd you some three or four days ago<ptr target="nyp.00581_n3"/>—the
+                additional matter (27 printed pages) for "Democratic Vistas"—I enclose
                 herewith the MS of a little Preface. The title page ought to be </p>
             <ab><hi rend="italic">Democratic Vistas</hi></ab> <ab>and other Pieces</ab> <ab>By Walt Whitman</ab>
                 <p>Leave out "Two Letters"
-                (p 315 and partly on p 316)&#8212;Leave out altogether the Appendix pieces (pp 339
-                to 374 inclusive)&#8212;And I should suggest to have "Notes left over" (pp 317 to
+                (p 315 and partly on p 316)—Leave out altogether the Appendix pieces (pp 339
+                to 374 inclusive)—And I should suggest to have "Notes left over" (pp 317 to
                 338) come last in the volume, &amp; <hi rend="italic">finishing it.</hi> Finally I
                 give you the same privilege over the putting together of this, as my other volumes.
                 (Is there any probability of a second edition of "Spec: Days"? Is it
                 stereotyped?)</p>
-            <p><hi rend="italic">To the Publisher</hi>&#8212;For this Volume, the Preface, &amp;c. I
-                shall expect &#163;10:10s (same as my other vols) and also 10 copies of the "Vistas"
+            <p><hi rend="italic">To the Publisher</hi>—For this Volume, the Preface, &amp;c. I
+                shall expect £10:10s (same as my other vols) and also 10 copies of the "Vistas"
                     <hi rend="italic">bound in roan</hi>. I wish the am't of the bill for the 50
-                copies "Spec:Days" (sent me three months ago,) deducted from the &#163;10:10s and
+                copies "Spec:Days" (sent me three months ago,) deducted from the £10:10s and
                 when you send the balance, send in P.O. order.</p>
             <p>Respects &amp; good will to all</p>
             <closer>

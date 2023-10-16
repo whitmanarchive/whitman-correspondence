@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07681"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07681"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition> 
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07681</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +45,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07681</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 13 December 1888</title>
                     <date cert="high" when="1888-12-13" xml:id="dat1">December 13, 1888</date>
-                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.07680"/>
                     <relatedItem type="document" target="wwa.00208"/>
                     <note type="project" target="#rel01">Whitman wrote a postscript to his letter to Bucke on the back of a December 13, 1889, letter from William Sloane Kennedy. He
@@ -95,30 +92,29 @@
                     <date when="1888-12-13">Dec: 13 '88<ptr target="loc.07681_n1"/></date>
                 </dateline>
             </opener>
-            <p>Well, dear friend, I have had another bad spell&#8212;perhaps the worst of
-                all&#8212;a violent <hi rend="underline">whack</hi> at what nervous power I
-                had&#8212;but I am now up for a few moments &#38; I write you to show you I <hi
-                    rend="underline">can</hi> write&#8212;</p>
+            <p>Well, dear friend, I have had another bad spell—perhaps the worst of
+                all—a violent <hi rend="underline">whack</hi> at what nervous power I
+                had—but I am now up for a few moments &amp; I write you to show you I <hi rend="underline">can</hi> write—</p>
             <p>I cannot medically describe the situation of the last four days but will ask
-                definitely from Dr Walsh<ptr target="n4144"/> here who comes every day&#8212;&#38; I
-                like every thing except he gives me too much medicine&#8212;Ed<ptr target="n4319"/>
-                is very faithful &#38; watches me day &#38; night&#8212;Not a word to me ab't
-                    O'C<ptr target="n2002"/> rec'd<ptr target="loc.07681_n2"/>&#8212;I
+                definitely from Dr Walsh<ptr target="n4144"/> here who comes every day—&amp; I
+                like every thing except he gives me too much medicine—Ed<ptr target="n4319"/>
+                is very faithful &amp; watches me day &amp; night—Not a word to me ab't
+                    O'C<ptr target="n2002"/> rec'd<ptr target="loc.07681_n2"/>—I
                 suppose Horace Traubel<ptr target="n4267"/> sent to you four copies of the big book<ptr target="n4188"/>
-                in common binding by Canadian Express to-day&#8212;unpaid this end&#8212;write me
-                what the freight &#38; tariff&#8212;You ought to get them by Saturday 15th&#8212;I
-                shall look till I get word of their reception&#8212;</p>
-            <p>Of course I have a good deal to say but must defer it &#38; get back to bed where I
-                have laid since Sunday last&#8212;extreme debility one thing&#8212;many points even
-                too disagreeable ab't&#8212;But I think I am beginning to approximate
-                myself&#8212;</p>   
+                in common binding by Canadian Express to-day—unpaid this end—write me
+                what the freight &amp; tariff—You ought to get them by Saturday 15th—I
+                shall look till I get word of their reception—</p>
+            <p>Of course I have a good deal to say but must defer it &amp; get back to bed where I
+                have laid since Sunday last—extreme debility one thing—many points even
+                too disagreeable ab't—But I think I am beginning to approximate
+                myself—</p>   
             <closer> 
                 <signed>Walt Whitman</signed>   
             </closer> 
             <pb xml:id="leaf002r" facs="loc_as.00148_large.jpg" type="recto"/>
             <postscript>
                 <p>I rec'd this<ptr target="loc.07681_n3"/> f'm Kennedy<ptr target="n3039"/>
-                    &#8212;the "Solitude" MS is of course a fraud entire &amp; have so written to K.<ptr target="loc.07681_n4"/>&#8212;(I never had any relations with Lowell<ptr target="loc.07680_n3"/>)</p>
+                    —the "Solitude" MS is of course a fraud entire &amp; have so written to K.<ptr target="loc.07681_n4"/>—(I never had any relations with Lowell<ptr target="loc.07680_n3"/>)</p>
             </postscript>
             </div1> 
             <div1 type="enclosure">

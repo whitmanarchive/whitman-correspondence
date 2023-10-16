@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07754">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07754">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07754</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07754</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">23</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">23</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -66,9 +63,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 31 January 1890</title>
                     <date cert="high" when="1890-01-31" xml:id="dat1">January 31, 1890</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -99,27 +96,23 @@
                     <date when="1890-01-31">early<ptr target="loc.07754_n1"/></date>
                 </dateline>
             </opener>
-            <p>Ab't the same as usual&#8212;a rare egg &#38; Graham bread &#38; prunes &#38; coffee
-                for my breakfast&#8212;I am pretty moderate in eating, &#38; w'd be <hi
-                    rend="italic">abstemious</hi>, but I fancy a fairly efficient fortification in
-                stomach helps keep at bay quite many of the wolfs &#38; wolflets of old fellows'
-                physical (&#38; perhaps all fellows) attacks. I take no medicines at
-                all&#8212;hardly any alcoholic drink&#8212;never beer&#8212;eat plain
-                fare&#8212;never risk&#8212;the trick is to steer between that last mention'd need
-                to keep the wolf away &#38; the benefit of very light food-eating, wh' is
-                decided for an old fellow&#8212;</p>
-            <p>I enclose my latest pieces&#8212;(have not yet seen the Feb: <hi rend="italic"
-                    >Century</hi> but suppose the poemet is in it)<ptr target="loc.07754_n2"
-                />&#8212;have just been engaged to write some little bits for <hi rend="italic"
-                    >Munyon's Illustrated World</hi> (monthly Phila)&#8212;will send you when
-                printed&#8212;&#36;10 each, one paid<ptr target="loc.07754_n3"/>&#8212;So far have
+            <p>Ab't the same as usual—a rare egg &amp; Graham bread &amp; prunes &amp; coffee
+                for my breakfast—I am pretty moderate in eating, &amp; w'd be <hi rend="italic">abstemious</hi>, but I fancy a fairly efficient fortification in
+                stomach helps keep at bay quite many of the wolfs &amp; wolflets of old fellows'
+                physical (&amp; perhaps all fellows) attacks. I take no medicines at
+                all—hardly any alcoholic drink—never beer—eat plain
+                fare—never risk—the trick is to steer between that last mention'd need
+                to keep the wolf away &amp; the benefit of very light food-eating, wh' is
+                decided for an old fellow—</p>
+            <p>I enclose my latest pieces—(have not yet seen the Feb: <hi rend="italic">Century</hi> but suppose the poemet is in it)<ptr target="loc.07754_n2"/>—have just been engaged to write some little bits for <hi rend="italic">Munyon's Illustrated World</hi> (monthly Phila)—will send you when
+                printed—$10 each, one paid<ptr target="loc.07754_n3"/>—So far have
                 escaped the grip, (but I guess I have the am't of it in my physical brain already,
-                &#38; have had two years)&#8212;Alys Smith<ptr target="n7014"/> comes
-                regularly, does me good to see her&#8212;She is the handsomest, healthiest best
-                balanced young woman in the world known to me&#8212;have quite many
-                visitors&#8212;sold a big book<ptr target="n4188"/> yesterday&#8212;</p>
+                &amp; have had two years)—Alys Smith<ptr target="n7014"/> comes
+                regularly, does me good to see her—She is the handsomest, healthiest best
+                balanced young woman in the world known to me—have quite many
+                visitors—sold a big book<ptr target="n4188"/> yesterday—</p>
             <closer>
-                <salute>God bless you &#38; yours&#8212;</salute>
+                <salute>God bless you &amp; yours—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
         </body>

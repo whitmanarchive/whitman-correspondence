@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00826">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00826">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">O. G. Hempstead &#38; Son to Walt Whitman, 28 April
+                <title level="m" type="main">O. G. Hempstead &amp; Son to Walt Whitman, 28 April
                     1888</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="if">Ian Faith</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00826</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00826</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,16 +53,16 @@
                         <title xml:id="ht">With Walt Whitman in Camden</title>
                         <imprint>
                             <pubPlace>Boston</pubPlace>
-                            <publisher>Small, Maynard &#38; Company</publisher>
+                            <publisher>Small, Maynard &amp; Company</publisher>
                             <date notBefore="1906" notAfter="1906">1906</date>
-                            <biblScope type="volume">1</biblScope>
-                            <biblScope type="page">93</biblScope>
+                            <biblScope unit="volume">1</biblScope>
+                            <biblScope unit="page">93</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <bibl>
                     <author>Francis Viele-Griffin</author>
-                    <title>O. G. Hempstead &#38; Son to Walt Whitman, 28 April 1888</title>
+                    <title>O. G. Hempstead &amp; Son to Walt Whitman, 28 April 1888</title>
                     <date cert="high" when="1888-04-28" xml:id="dat1">April 28, 1888</date>
                     <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
                 </bibl>
@@ -75,7 +71,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Hempstead, O. G. &#38; Son" ref="n4163">O. G. Hempstead &#38;
+                    <persName key="Hempstead, O. G. &amp; Son" ref="n4163">O. G. Hempstead &amp;
                         Son</persName>
                 </person>
                 <person role="recipient">
@@ -99,7 +95,7 @@
                     <date when="1887-04-28">Apr. 28, '88.</date>
                     <name type="place">Mr. W. Whitman, Camden, N.J.</name>
                 </dateline>
-                <salute><hi rend="italic">Dear Sir:&#8212;</hi></salute>
+                <salute><hi rend="italic">Dear Sir:—</hi></salute>
             </opener>
             <p>We will receive your <choice>
                     <orig>acct</orig>
@@ -107,14 +103,14 @@
                 </choice> by the "Br. Prince," now due from Liverpool, consigned to us for your <choice>
                     <abbr>acct</abbr>
                     <expan>account</expan>
-                </choice>., one package containing apparel valued at &#163;1.<ptr target="med.00826_n1"/> We would thank you for
+                </choice>., one package containing apparel valued at £1.<ptr target="med.00826_n1"/> We would thank you for
                 your invoice covering same as early as possible in order to clear through customs on
                 arrival. The package will come to us through the medium of Messrs. G. W. Wheatley
-                &#38; Co. If the apparel contained therein is worn at all, kindly say so when
+                &amp; Co. If the apparel contained therein is worn at all, kindly say so when
                 replying to the above; and oblige</p>
             <closer>
                 <salute>Yours truly</salute>
-                <signed>O. G. Hempstead &#38; Son.</signed>
+                <signed>O. G. Hempstead &amp; Son.</signed>
             </closer>
         </body>
     </text>

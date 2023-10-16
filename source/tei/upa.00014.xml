@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00014">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00014">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>upa.00014</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +39,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>upa.00014</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -60,9 +58,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">2</biblScope>
-              <biblScope type="page">170</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="page">170</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -71,7 +69,7 @@
           <author>Walt Whitman</author>
           <title>Walt Whitman to Anne Gilchrist, 20 March 1872</title>
           <date cert="high" when="1872-03-20" xml:id="dat1">March 20, 1872</date>
-          <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &amp; Manuscript
+          <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp; Manuscript
             Library, University of Pennsylvania</orgName>
         </bibl>
       </sourceDesc>
@@ -111,32 +109,31 @@
           <reg>received</reg>
         </choice>, having been sent on to me from Washington.<ptr target="upa.00014_n1"/> My address
         still remains Solicitor's office, Treasury there. I am moving about a good deal the past
-        year, &amp; shall be for the ensuing year&#8212;I am to start for northern New England,
-        &amp; remain awhile<ptr target="upa.00014_n2"/>&#8212;am also arranging for a trip afterward
-        to California&#8212;a journey I have had in contemplation for several years, &amp; which has
+        year, &amp; shall be for the ensuing year—I am to start for northern New England,
+        &amp; remain awhile<ptr target="upa.00014_n2"/>—am also arranging for a trip afterward
+        to California—a journey I have had in contemplation for several years, &amp; which has
         been two or three times fixed, but postponed, during that time.</p>
 
       <p>I have been stopping for two months, (Feb. &amp; March,) home with my Mother<ptr target="n0705"/>, &amp; am
-        writing this home. Mother is towards eighty&#8212;has had an active domestic &amp; maternal
-        life&#8212;has had eight children&#8212;has brought them all up&#8212;has been healthy &amp;
-        strong, always worked hard&#8212;now shows the infirmities of age (indeed rapidly advancing)
-        but looks finely, &amp; is cheerful hearted&#8212;will probably soon give up her
-        housekeeping &amp; go to live with one of my brothers, who is married<ptr
-          target="upa.00014_n3"/>&#8212;My father died seventeen years since.</p>
+        writing this home. Mother is towards eighty—has had an active domestic &amp; maternal
+        life—has had eight children—has brought them all up—has been healthy &amp;
+        strong, always worked hard—now shows the infirmities of age (indeed rapidly advancing)
+        but looks finely, &amp; is cheerful hearted—will probably soon give up her
+        housekeeping &amp; go to live with one of my brothers, who is married<ptr target="upa.00014_n3"/>—My father died seventeen years since.</p>
 
       <p>Dear friend, I am quite sure that <hi rend="italic">every one</hi> of your letters has
-        safely reached me&#8212;sometimes after delays &amp; circuits, (as you will now understand
+        safely reached me—sometimes after delays &amp; circuits, (as you will now understand
         better) on account of my more &amp; more frequent
-        wanderings<!-- Do we want to maintain Miller's sentiment here? <note xml:id="n4" type="editorial" resp="miller">This was a deliberate fib in order to explain his delays in replying to a woman whom he did not quite know how to handle.</note> -->&#8212;The
-        letter with the photographs gave me great pleasure&#8212;&amp; was acknowledged by a letter
-        I sent you<ptr target="upa.00014_n4"/>&#8212;Have you not received it?</p>
+        wanderings<!-- Do we want to maintain Miller's sentiment here? <note xml:id="n4" type="editorial" resp="miller">This was a deliberate fib in order to explain his delays in replying to a woman whom he did not quite know how to handle.</note> -->—The
+        letter with the photographs gave me great pleasure—&amp; was acknowledged by a letter
+        I sent you<ptr target="upa.00014_n4"/>—Have you not received it?</p>
 
       <closer>
         <signed rend="right">Walt Whitman</signed>
       </closer>
 
       <postscript>
-        <p>Dear friend, let me warn you somewhat about myself&#8212;&amp; yourself also. You must
+        <p>Dear friend, let me warn you somewhat about myself—&amp; yourself also. You must
           not construct such an unauthorized &amp; imaginary ideal Figure, &amp; call it W. W. and
           so devotedly invest your loving nature in it. The actual W. W. is a very plain personage,
           &amp; entirely unworthy such devotion.<ptr target="upa.00014_n5"/></p>

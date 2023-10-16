@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08243"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08243"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08243</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,13 +38,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08243</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">243&#8211;244</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">243–244</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,10 +64,10 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 16 September 1891</title>
                     <date cert="high" when="1891-09-16" xml:id="dat1">September 16, 1891</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00108</idno>
                     <orgName xml:id="loc">
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.
                     </orgName>
                 </bibl>
             </sourceDesc>
@@ -78,7 +75,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Walt" >Walt Whitman</persName>
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName> 
@@ -96,30 +93,30 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden NJ<ptr target="loc.08243_n1"/>&#8212;</name>
+                    <name type="place">Camden NJ<ptr target="loc.08243_n1"/>—</name>
                     <date when="1891-09-16">Sept: 16 1 P M '91</date>
                 </dateline>
             </opener>  
             <p> 
-                Perfect weather continued&#8212;am feeling fairly&#8212;oysters for my breakfast&#8212;am
-                getting the changed title &#38; other pp: necessary for the (really, doubtless final)
-                ed'n L of G. 438 pp:<ptr target="loc.08068_n3"/>  &#38; shall send you one, soon as ready, (probably two or three
-                weeks yet)&#8212;y'r letters rec'd<ptr target="loc.08243_n5"/> (short but sweet)&#8212;J W W[allace]'s<ptr target="n6121"/> 
-                good letters<ptr target="loc.08243_n6"/> rec'd too&#8212;expect T Williams<ptr target="loc.05142_n5"/> &#38; an
-                oculist Dr this afternoon&#8212;my eyes bothering&#8212;Horace<ptr target="n4267"/>
-                well&#8212;faithful as ever&#8212;Did you ever send y'r book to Tennyson?<ptr target="n0625"/>&#8212;I
-                just send you the Boston "Literary World" with notice of "Good-Bye"<ptr target="loc.03340_n4"/>&#8212;Did you get
-                the N Y "Critic" Sept 5?<ptr target="loc.08243_n2"/> If not I can send you one&#8212;
+                Perfect weather continued—am feeling fairly—oysters for my breakfast—am
+                getting the changed title &amp; other pp: necessary for the (really, doubtless final)
+                ed'n L of G. 438 pp:<ptr target="loc.08068_n3"/>  &amp; shall send you one, soon as ready, (probably two or three
+                weeks yet)—y'r letters rec'd<ptr target="loc.08243_n5"/> (short but sweet)—J W W[allace]'s<ptr target="n6121"/> 
+                good letters<ptr target="loc.08243_n6"/> rec'd too—expect T Williams<ptr target="loc.05142_n5"/> &amp; an
+                oculist Dr this afternoon—my eyes bothering—Horace<ptr target="n4267"/>
+                well—faithful as ever—Did you ever send y'r book to Tennyson?<ptr target="n0625"/>—I
+                just send you the Boston "Literary World" with notice of "Good-Bye"<ptr target="loc.03340_n4"/>—Did you get
+                the N Y "Critic" Sept 5?<ptr target="loc.08243_n2"/> If not I can send you one—
             </p>    
             <p> 
-                <date when="1891-09-16">5 P M</date>&#8212;T C<ptr target="n5001"/> came with Dr Schweinitz oculist M D<ptr target="loc.08243_n3"/>&#8212;impress'd me favorably, made
+                <date when="1891-09-16">5 P M</date>—T C<ptr target="n5001"/> came with Dr Schweinitz oculist M D<ptr target="loc.08243_n3"/>—impress'd me favorably, made
                 a quite varied examination, result much more comforting than I anticipated (I have been
-                dreading blindness or close on it)&#8212;T C will get more propitious glasses&#8212;(with
-                these I have my sight blurs badly)&#8212;have had my supper with zest&#8212;appetite quite
-                good&#8212;The enc'd printed slip is f'm Bayard Taylor<ptr target="n0889"/> in an old
-                N Y <hi rend="italic">Tribune</hi><ptr target="loc.08243_n4"/>&#8212;the MS bit appears to be an acknowledgment sent
+                dreading blindness or close on it)—T C will get more propitious glasses—(with
+                these I have my sight blurs badly)—have had my supper with zest—appetite quite
+                good—The enc'd printed slip is f'm Bayard Taylor<ptr target="n0889"/> in an old
+                N Y <hi rend="italic">Tribune</hi><ptr target="loc.08243_n4"/>—the MS bit appears to be an acknowledgment sent
                 to me to <hi rend="italic">Pall Mall Gaz[ette]</hi> nearly five y'rs ago (the Sir Edw'd
-                Malet fund sent me then)&#8212;But I must stop for the night is falling&#8212;I can't see&#8212;
+                Malet fund sent me then)—But I must stop for the night is falling—I can't see—
             </p>
             <closer> 
                 <signed>Walt Whitman</signed>

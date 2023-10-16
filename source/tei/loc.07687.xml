@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07687">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07687">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
                 <title level="m" type="main">
-                    Walt Whitman to Richard Maurice Bucke, 3&#8211;4 August 1889
+                    Walt Whitman to Richard Maurice Bucke, 3–4 August 1889
                 </title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -19,6 +16,7 @@
                     <persName xml:id="blh">Breanna Himschoot</persName>
                     <persName xml:id="as">Ashlyn Stewart</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>
                     Center for Digital Research in the Humanities, University of Nebraska-Lincoln
@@ -34,7 +32,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07687</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,35 +43,35 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability> 
-            </publicationStmt>
+            <idno>loc.07687</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Richard Maurice Bucke, 3&#8211;4 August 1889</title>
-                    <date cert="high" notBefore="1889-08-03" notAfter="1889-08-04" xml:id="dat1">August 3&#8211;4, 1889</date>  
-                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3&#8211;4; Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno> 
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+                    <title>Walt Whitman to Richard Maurice Bucke, 3–4 August 1889</title>
+                    <date cert="high" notBefore="1889-08-03" notAfter="1889-08-04" xml:id="dat1">August 3–4, 1889</date>  
+                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3–4; Envelope: MSS18630, Box 7, Reel 4–5</idno> 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.
                     </orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown author</author> 
-                    <title level="a">[&#8211;A lengthy article in the <hi rend="italic">Eagle</hi>]</title>
+                    <title level="a">[–A lengthy article in the <hi rend="italic">Eagle</hi>]</title>
                     <title level="j">Unknown</title>
                     <date when="1889">1889</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref2">
                     <author>Unknown</author>
                     <title level="a">Again the North Pole</title>
                     <title level="j">Unknown</title>
                     <date when="1889">1889</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -88,6 +86,7 @@
             </particDesc> 
         </profileDesc>  
         <revisionDesc> 
+            <change when="2023-10-11" who="#bb">converted two add elements to addSpan/anchor pairs</change>
             <change when="2019-07-25" who="#smb">final corrections updated</change>
             <change when="2018-11-29" who="#smb">final check, corrected, added pasteon encoding</change>
             <change when="2018-10-22" who="#as">Added envelope images</change>
@@ -106,20 +105,20 @@
                 <dateline> 
                     <name type="place">Camden</name>
                     <date when="1889-08-03">1889</date>
-                    <date when="1889-08-03">PM Aug: 3<ptr target="loc.07687_n1"/>&#8212;
+                    <date when="1889-08-03">PM Aug: 3<ptr target="loc.07687_n1"/>—
                     </date>
                 </dateline>
             </opener> 
-            <p>Moist &amp; warm continued, but the sun is out this afternoon&#8212;I am so-so&#8212;from sitting in the 
-           big chair (as now) to reclining on the bed, with palm leaf fan in hand&#8212;getting along fairly with all&#8212;I hope you will
-            receive the two little L of G. sent by mail yesterday&#8212;Am slowly lazily occupying myself, (<hi rend="underline">must</hi> have something to do or pretend) with getting
-            the photos &amp; prints of different stages on uniform sized cards or sheets, to be put in a good handsome fitting envelope (? perhaps album)&#8212;you shall receive one
-            collected of all the portraits (there are 6 or 7 or more)<ptr target="loc.07887_n3"/> soon as prepared&#8212;though you have them all now.</p>
-            <p><date when="1889-08-04"><hi rend="underline">Sunday Aug: 4 towards noon</hi></date>&#8212;Fine &amp; clear &amp; quiet&#8212;feeling fair as usual&#8212;cut up peaches, an egg, &amp;c: for my breakfast&#8212;am sitting 
-                here alone in my big den&#8212;bowel action an hour ago&#8212;Mr. Stafford<ptr target="n0852f"/> here yesterday afternoon&#8212;they are all well&#8212;rec'd a long good letter from a 
-                German scholar, has been in America, writes English Good, Edward Bertz,<ptr target="n7508"/> Holzmark't Str. 18, Pots-dam Prussia<ptr target="loc.07687_n3"/>&#8212;He bids fair to be, or rather is, one of the first class friends of L of G.&#8212;I have sent him
-                (&amp; he rec'd) the big vol.<ptr target="n4151"/> &amp; your book&#8212;I sent you a paper with intereting piece ab't Tennyson<ptr target="n0625"/> by Gosse<ptr target="n0273"/> 
-                (a pleasant blanc-mange bit for the palate)<ptr target="loc.07687_n2"/>&#8212;</p>
+            <p>Moist &amp; warm continued, but the sun is out this afternoon—I am so-so—from sitting in the 
+           big chair (as now) to reclining on the bed, with palm leaf fan in hand—getting along fairly with all—I hope you will
+            receive the two little L of G. sent by mail yesterday—Am slowly lazily occupying myself, (<hi rend="underline">must</hi> have something to do or pretend) with getting
+            the photos &amp; prints of different stages on uniform sized cards or sheets, to be put in a good handsome fitting envelope (? perhaps album)—you shall receive one
+            collected of all the portraits (there are 6 or 7 or more)<ptr target="loc.07887_n3"/> soon as prepared—though you have them all now.</p>
+            <p><date when="1889-08-04"><hi rend="underline">Sunday Aug: 4 towards noon</hi></date>—Fine &amp; clear &amp; quiet—feeling fair as usual—cut up peaches, an egg, &amp;c: for my breakfast—am sitting 
+                here alone in my big den—bowel action an hour ago—Mr. Stafford<ptr target="n0852f"/> here yesterday afternoon—they are all well—rec'd a long good letter from a 
+                German scholar, has been in America, writes English Good, Edward Bertz,<ptr target="n7508"/> Holzmark't Str. 18, Pots-dam Prussia<ptr target="loc.07687_n3"/>—He bids fair to be, or rather is, one of the first class friends of L of G.—I have sent him
+                (&amp; he rec'd) the big vol.<ptr target="n4151"/> &amp; your book—I sent you a paper with intereting piece ab't Tennyson<ptr target="n0625"/> by Gosse<ptr target="n0273"/> 
+                (a pleasant blanc-mange bit for the palate)<ptr target="loc.07687_n2"/>—</p>
             <closer>
                 <signed>WW</signed> 
             </closer>    
@@ -127,27 +126,27 @@
         </div1> 
         <div1 type="enclosure"> 
                 <!-- The following enclosure is pasted on the letter -->
-                <add rend="pasteon" source="#ref1" xml:id="add1">
+            <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                     <q who="#ref1" type="printed">
                         <floatingText rend="flippy">
                             <body>
-                                <p><handShift rend="typescript"/>&#8211;A lengthy article in the <hi rend="italic">Eagle</hi>
+                                <p><handShift rend="typescript"/>–A lengthy article in the <hi rend="italic">Eagle</hi>
                                 upon the Kings Co. farm for its lunatics and paupers at St. Johnland, aims to show that,
                                 despite the contentions and perhaps wasteful expenditure over the site and structure,
                                 the experiment itself, under the capable direction
                                 of Dr. D A Harrison,<ptr target="loc.07687_n4"/> medical superintendent, has been a remarkable success. Only July 1
-                                there were 660 patients, including epileptics, and the physical and mental benefit derived from their treatment&#8212;moderate
-                                daily exercise in the open air&#8212;is declared to be most noteworthy and gratifying. The "cottage system" of caring
+                                there were 660 patients, including epileptics, and the physical and mental benefit derived from their treatment—moderate
+                                daily exercise in the open air—is declared to be most noteworthy and gratifying. The "cottage system" of caring
                                 for and treating the insane, has proved in actual fact all that its advocates anticipated.
                                 </p>
                             </body> 
                         </floatingText>
                     </q>
-                </add> 
+                <anchor xml:id="a01"/> 
         </div1>
             <div1 type="enclosure"> 
                 <!-- The following enclosure is pasted on the letter -->
-                <add rend="pasteon" source="#ref2" xml:id="add2">
+                <addSpan spanTo="#a02" rend="pasteon" source="#ref2" xml:id="add2"/>
                     <q who="#ref1" type="printed">
                         <floatingText rend="flat">
                             <body>
@@ -167,17 +166,15 @@
                                  and says that he expects it will be the North Pole or death. Any well-equipped expeditions have been sent into these regions,
                                  but none have gained their ends. The elaborate preparations that were made for disaster in establishing a line of retreat exhausted
                                  their energies too soon. It would seem that a flying expedition like that propsed by Nansen might penetrate farther north than the former 
-                                 cumbrous ones. The scheme is backed by &#36;100,000 capital, to which Mr. Gamel, whose name is already associated with arctic exploration, 
+                                 cumbrous ones. The scheme is backed by $100,000 capital, to which Mr. Gamel, whose name is already associated with arctic exploration, 
                                 is the chief subscriber.</p>
                             </body>
                         </floatingText>
                     </q>
-                </add>
+                    <anchor xml:id="a02"/>
             </div1>
             <pb xml:id="leaf003r" facs="loc_as.00070_large.jpg" type="recto"/>
             <pb xml:id="leaf003v" facs="loc_as.00071_large.jpg" type="verso"/>
         </body>
     </text>
 </TEI>
-     
-        

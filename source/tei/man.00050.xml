@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="man.00050">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="man.00050">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,7 +13,7 @@
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>man.00050</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>man.00050</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -86,7 +82,7 @@
             <pb xml:id="leaf001r" facs="man_ej.00217_large.jpg" type="recto"/>
             <opener><dateline>
                 <handShift rend="printed"/>
-                <name type="place" rend="left">TR&#220;BNER &amp; CO</name>
+                <name type="place" rend="left">TRÜBNER &amp; CO</name>
                 <name type="place" rend="left">AMERICAN, EUROPEAN AND ORIENTAL LITERARY AGENCY.</name>
                 <name type="place" rend="right">57, &amp; 59, Ludgate Hill,</name>
                     <name type="place" rend="right">London E.C.</name>
@@ -99,7 +95,7 @@
             <p>Enclosed I send you statement of <choice>
                     <abbr>a/c</abbr>
                     <expan>account</expan>
-            </choice> up to date from Tr&#252;bner &amp; Co, and draft on New York for eighty
+            </choice> up to date from Trübner &amp; Co, and draft on New York for eighty
                 dollars fifty cents, the amount of sales up to date.<ptr target="duk.00749_n1"/> When you get home will you
                 kindly send T &amp; Co as before per JB. Lippincott &amp; Co. Philadelphia <list>
                     <item>10 "Leaves of Grass"</item>

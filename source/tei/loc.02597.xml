@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02597">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Mrs. Kelley, [1885–1892]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02597</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Mrs. Kelley, [1885–1892]</title>
+                    <date cert="low" notBefore="1885-01-01" notAfter="1892-01-01" xml:id="dat1">[1885–1892]</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00254</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>   
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Kelley, Mrs." ref="n5000">Mrs. Kelley</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-21" who="#smb">updated notes</change>
+            <change when="2023-08-01" who="#smb">final check, corrected</change>
+            <change when="2022-03-22" who="#aja">2nd check, corrected</change>
+            <change when="2022-03-07" who="#aja">1st check, corrections</change>
+            <change when="2022-03-04" who="#me">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02597.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">328 Mickle Street</name>
+                    <date notBefore="1885-01-01" notAfter="1891-01-01">Monday 2 PM<ptr target="loc.02597_n1"/></date>
+                </dateline>
+            </opener>
+            <p>I have just learned that a young man whom I sent to speak for me in my sympathy for you &amp; deep 
+                sorrow for Mr Kelley's death, did <hi rend="underline">not</hi> call early last evening—So 
+                I write this line—I am too feeble to get around much, but you can command any thing I, 
+                or Mrs: Davis,<ptr target="n6113"/> can do or furnish—</p>
+            <p>I had not much acquaintence with your husband—but enough to know that he had a beautiful soul—</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02597.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

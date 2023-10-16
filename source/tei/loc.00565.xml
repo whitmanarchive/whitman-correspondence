@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00565">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00565">
    <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Fred Vaughan to Walt Whitman, 19 March 1860</title>
+      <fileDesc>   
+         <titleStmt> 
+            <title level="m" type="main">Fred B. Vaughan to Walt Whitman, 19 March 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
-            <author>Fred Vaughan</author>
+            <author>Fred B. Vaughan</author>
+            <editor>Stephanie Blalock</editor>
             <editor>Dennis Berthold</editor>
             <editor>Kenneth M. Price</editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
                <persName xml:id="el">Elizabeth Lorang</persName>
                <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-
                <persName xml:id="ec">Eric Conrad</persName>
-
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
+               <persName xml:id="smb">Stephanie Blalock</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2008</date>
+               <date>2021</date>
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00565</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,43 +39,45 @@
                <addrLine>Lincoln, NE 68588-4100</addrLine>
             </address>
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                  Items in the Archive may be shared in accordance with the Fair Use provisions of
+                  U.S. copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00565</idno></publicationStmt>   
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  
-                  <editor>Charley Shively</editor>
-                  <title xml:id="cl">Calamus Lovers: Walt Whitman's Working-Class Camerados</title>
-                  <imprint>
-                     <pubPlace>San Francisco, California</pubPlace>
-                     <publisher>Gay Sunshine Press</publisher>
-                     <date>1987</date>
-                     <biblScope type="page">41-42</biblScope>
-                  </imprint>
-               </monogr>
-            </biblStruct>
             <bibl>
-               <author>Fred Vaughan</author>
-               <title>Fred Vaughan to Walt Whitman, 19 March 1860</title>
+               <author>Fred B. Vaughan</author>
+               <title>Fred B. Vaughan to Walt Whitman, 19 March 1860</title>
                <date when="1860-03-19">March 19, 1860</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+               <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00399</idno>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                  Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
-         </sourceDesc>
-      </fileDesc>
+         </sourceDesc> 
+      </fileDesc>   
       <profileDesc>
-         <particDesc>
+         <handNotes>
+            <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+         </handNotes>
+         <particDesc> 
             <person role="sender">
-               <persName key="Vaughan, Fred">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred B." ref="loc.00573_n100">Fred B. Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
-         </particDesc>
-      </profileDesc>
+         </particDesc> 
+      </profileDesc> 
       <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change who="#smb" when="2020-12-31">added notes, updated</change>
+         <change who="#smb" when="2020-01-21">corrected transcription, updated encoding, added notes</change>
+         <change who="#ak" when="2015-02-12">corrected orgName, added pbs</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#bbb" when="2009-08-18">proofread</change>
          <change who="#el" when="2009-07-20">validated file; proofread annotations</change>
@@ -84,23 +86,33 @@
          <change who="#kk" when="2008-04-01">checked and proofed</change>
          <change who="#nk" when="2007-06-06">Transcribed, Encoded</change>
       </revisionDesc>
-   </teiHeader>
-   <text type="letter">
-      <body>
-         
-            <opener> 
-               <salute>Dear Walt,</salute>
-            </opener>
-         <p>I<ptr target="loc.00565_n100"/> am sorry I could not see you previous to your departure for Boston. I called in at Pfaffs two evenings in succession but did not find you on hand.<ptr target="loc.00565_n2"/>
-            </p>
-            <p>I am quite anxious to hear about how matters are progressing with you.</p>
-            <p>Write to me as soon as you can make it convenient. Care of Man- Ex Co. 140 Chamber St., New York.</p>
-            <p>Every thing remains as usual in New York. I have seen the Atlantic for April.<ptr target="loc.00565_n3"/> "good, bully for you."&#8212;</p>
-            <closer>
-               <salute>Yours as Ever,</salute>
-               <signed>Fred</signed>
-            </closer>
-         
-      </body>
-   </text>
+   </teiHeader>      
+   <text type="letter">     
+      <body>  
+         <pb xml:id="leaf001r" facs="loc_vm.00772.jpg" type="recto"/>
+         <opener> 
+            <dateline>  
+               <name type="place">New York.<ptr target="loc.00565_n1"/></name>
+               <date when="1860-03-19">March 19<hi rend="underline">th</hi>" 1860</date> 
+            </dateline>  
+            <salute>Dear Walt,</salute>    
+         </opener>  
+         <p>I am sorry I could not see you previous to your departure for Boston.<ptr target="loc.00565_n7"/>—I 
+            called in at Pfaffs,<ptr target="loc.00565_n2a"/> two evenings in succession but did not find you on 
+            hand.—</p>
+         <p>I am quite anxious to hear about how matters are progressing with you.</p>
+         <p>Write to me as soon as you can make it convenient. Care of Man. Ex Co. 140 Chamber St,
+            New York.<ptr target="loc.00565_n4"/></p>
+         <p>Every thing remains as usual in New York. I have seen the <hi rend="underline">Atlantic</hi><ptr target="n0051b"/> 
+            for, April,<ptr target="loc.00565_n3"/> "good, bully for you."—</p>
+         <closer> 
+            <salute>Yours as Ever,</salute> 
+            <signed><hi rend="underline">Fred.</hi></signed>
+         </closer> 
+         <pb xml:id="leaf001v" facs="loc_vm.00773.jpg" type="verso"/>
+         <pb xml:id="leaf002r" facs="loc_vm.00770.jpg" type="recto"/>
+         <note type="editorial" place="left" resp="#ww">Fred Vaughan March '60</note>
+         <pb xml:id="leaf002v" facs="loc_vm.00771.jpg" type="verso"/>
+      </body> 
+   </text> 
 </TEI>

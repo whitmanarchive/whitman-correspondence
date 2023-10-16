@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00089">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00089">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>upa.00089</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,13 +43,13 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00089</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Herbert Gilchrist, 19 July 1888</title>
                     <date cert="high" when="1888-07-19" xml:id="dat1">July 19, 1888</date>
-                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp;
                         Manuscript Library, University of Pennsylvania</orgName>
                 </bibl>
             </sourceDesc>  
@@ -62,7 +59,7 @@
                 <person role="sender">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
-                <person role="recipient" >
+                <person role="recipient">
                     <persName key="Gilchrist, Herbert" ref="n0262">Herbert Gilchrist</persName>
                 </person>
             </particDesc>
@@ -80,17 +77,17 @@
             <pb xml:id="leaf001r" facs="upa.00089.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">Camden N J&#8212;U S America</name>
-                    <date when="1888-07-19">Thursday Evn'g&#8212;July 19 '88<ptr target="upa.00089_n1"/></date>
+                    <name type="place">Camden N J—U S America</name>
+                    <date when="1888-07-19">Thursday Evn'g—July 19 '88<ptr target="upa.00089_n1"/></date>
                 </dateline>
                 <salute/>
             </opener>
 
-            <p>Have now been ill for nearly six weeks&#8212;&#38; am yet&#8212;confined to the room&#8212;an attack of
-                paralytic sort &#38; of old indigestion &#38; sluggish action&#8212;have sort of kept up yet&#8212;may
-                come to some rally&#8212;for a sort, at any rate<ptr target="upa.00089_n2"/>&#8212; Best remembrance &#38; love to you&#8212;Morse
-                is in Chicago<ptr target="n0862"/>&#8212;Bucke<ptr target="n0119"/> is well &#38; hard at work&#8212;Do you see Rhys?<ptr target="loc.03310_n1"/>&#8212;I am putting to press
-                a little vol: "<hi rend="underline">November Boughs</hi>"<ptr target="n3999"/>&#8212;</p>
+            <p>Have now been ill for nearly six weeks—&amp; am yet—confined to the room—an attack of
+                paralytic sort &amp; of old indigestion &amp; sluggish action—have sort of kept up yet—may
+                come to some rally—for a sort, at any rate<ptr target="upa.00089_n2"/>— Best remembrance &amp; love to you—Morse
+                is in Chicago<ptr target="n0862"/>—Bucke<ptr target="n0119"/> is well &amp; hard at work—Do you see Rhys?<ptr target="loc.03310_n1"/>—I am putting to press
+                a little vol: "<hi rend="underline">November Boughs</hi>"<ptr target="n3999"/>—</p>
             <closer>
                 <salute/>
                 <signed>Walt Whitman</signed>

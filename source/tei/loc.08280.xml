@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08280">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>   
+                <title level="m" type="main">Annie Nathan Meyer to Walt Whitman, 12 January 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Annie Nathan Meyer</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="hc">Heather Cooper</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            <idno>loc.08280</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Annie Nathan Meyer</author>
+                    <title>Annie Nathan Meyer to Walt Whitman, 12 January 1891</title>
+                    <date cert="high" when="1888-08-28" xml:id="dat1">January 12, 1891</date> 
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
+                        Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Meyer, Annie Nathan" ref="loc.08280_n3">Annie Nathan Meyer</persName> 
+                 </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-07-28" who="#aja">final corrections for Ed</change>
+            <change when="2023-06-27" who="#aja">checked, corrected</change>
+            <change when="2021-06-25" who="#bjo">first check and notes added</change>
+            <change when="2020-12-05" who="#hc">transcribed, encoded; SLIS:6335: Metadata Theories and Applications Class, Fall 2020, Micah Bateman, 
+                Lecturer, University of Iowa</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_tb.00067.jpg" type="recto"/>
+            <opener>                
+                
+                <dateline>
+                    <name type="place" rend="left">
+                        <handShift rend="printed"/>
+                        Aguilar
+                        <lb/>
+                        Free Library Society.
+                        <lb/>
+                        <del type="overstrike">SECRETARY'S OFFICE.</del>
+                        <lb/>
+                        <del type="overstrike">36 WALL STREET.</del>
+                    </name>
+                    <name type="place" rend="right">BRANCHES:</name>
+                    <name type="place" rend="right">                    
+                        721 LEXINGTON AVENUE
+                        <lb/>
+                        206 EAST BROADWAY.
+                        <lb/>
+                        624 FIFTH STREET.
+                    </name>
+                    <name type="place" rend="right">
+                        <handShift rend="manuscript"/>
+                        749 Madison Avenue.</name>
+                    <name type="place" rend="right">
+                        <handShift rend="printed"/>
+                        New York
+                    </name>
+                    <date when="1891-01-12" rend="right"><handShift rend="manuscript"/>January 12 <handShift rend="printed"/> 18<handShift rend="manuscript"/>91</date>   
+                    <note type="editorial" place="right" resp="#ww">paper written &amp; sent</note>
+                </dateline>
+                <salute>                  
+                    Walt Whitman Esq.;
+                </salute>
+                <salute>Dear Sir:</salute>
+            </opener>
+            <p>
+                An entertainment, to be known as "St. Valentine's Night," will be given in this city on 
+               February 14. 1891, for the benefit of the Aguilar Free Library, a brief account of which is inclosed herewith. 
+               I am getting up an Author's Valentine, which will be sold for the benefit of the Library, to consist of 
+               literary excerpts in the handwriting of the authors and subscribed by them. In the hope that the Library's 
+               good work in disseminating the best literature among the poor of this city, will appeal to your 
+               sympathies, I beg to ask for a literary contribution from yourself, for such would greatly increase 
+               the value of the "Valentine."   
+            </p>
+            <p>Among those who have contributed thus far are Messrs. George William Curtis,<ptr target="n6012"/> Richard Watson Gilder,<ptr target="n0871"/>
+                "Mark Twain,"<ptr target="ucb.00961_n2"/> Brander Matthews,<ptr target="loc.08280_n4"/> E.C. Stedman,<ptr target="n1043"/>
+                H.H. Boyesen,<ptr target="n0100"/> Edward Bellamy,<ptr target="n4272"/> Mrs. Helen Campbell,<ptr target="loc.08280_n1"/>
+                and Mrs. Helen Gray Cone.<ptr target="loc.08280_n2"/></p>
+            <p>Kindly return paper with pasteboard.</p>
+            <closer>
+                <salute>Yours respectfully</salute>
+                <signed>(Mrs.) Annie Nathan Meyer. for Com.
+                for H.N.
+                </signed>
+            </closer>          
+        </body>
+    </text>
+</TEI><!---->

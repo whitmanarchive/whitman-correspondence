@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01710">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Lavinia E. Ream, 17 July
+                    [1871?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01710</idno></publicationStmt> 
+            <sourceDesc>
+               <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Lavinia E. Ream, 17 July [1871?]</title>
+                    <date cert="medium" when="1871-07-17" xml:id="dat1">July 17, [1871?]</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8–9</idno>
+                   <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00318</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Ream, Lavinia E." ref="n0498">Lavinia E. Ream</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-01" who="#smb">corrected encoding and all notes, added images</change>
+             <change when="2014-08-15" who="#el">added schematron declaration</change>
+            <change when="2010-12-05" who="#zk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01710.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1871-07-17" rend="right">Monday<lb/>afternoon<lb/>July 17.<ptr target="loc.01710_n1"/></date>
+                </dateline>
+                <salute>Vinnie Ream,</salute>
+                <salute>My dear friend,</salute>
+            </opener>
+            <p>I would like to call on you, with an acquaintance of mine, John Swinton,<ptr target="n0611"/> at about 11 A. M. to
+                morrow, Tuesday.</p>
+            <closer>
+                <signed rend="right">Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.01710.002.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02311">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Katharine Hillard, 15 February
+                    1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02311</idno></publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Katharine Hillard, 15 February 1876</title>
+                    <date cert="high" when="1876-02-15" xml:id="dat1">February 15, 1876</date>
+                    <idno type="callno">MSS18630, Box 11, Reel 7</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00215</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Hillard, Katherine" ref="n0302">Katherine Hillard</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-15" who="#smb">updated notes</change>
+            <change when="2022-11-19" who="#smb">final check, corrected</change>
+            <change when="2021-12-19" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-05-12">added correspondent ref</change>
+            <change who="#ak" when="2014-10-29">added annotations</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2014-02-27" who="#nhg">checked</change>
+            <change when="2013-11-21" who="#nnk">proofed</change>
+            <change when="2013-11-19" who="#ej">Transcribed and Encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02311.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">431 Stevens st.</name>
+                    <name type="place">cor West.</name>
+                    <name type="place">Camden, N. Jersey.</name>
+                    <date when="1876-02-15">Feb. 15, /76<ptr target="loc.02311_n3"/></date>
+                </dateline>
+                <salute>Dear Miss Hillard:</salute>
+            </opener>
+
+            <p>I have received your letter, &amp; am pleased at the prospect of meeting you at Mr.
+                and Mrs. Lesley's<ptr target="n0358"/>—say on the 28th, at <choice>
+                    <orig>bet.</orig>
+                    <reg>between</reg>
+                </choice> 12 and 1. (Should I not feel well enough to get over, I will send you a
+                note, &amp; you must then come &amp; see me here. It is easily findable &amp;
+                reachable from Philadelphia.)</p>
+            
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02311.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.02311.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.02311.004_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

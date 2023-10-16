@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00947">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00947">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00947</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,13 +37,13 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00947</idno></publicationStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title>Ellen M. O'Connor to Walt Whitman, 30 November 1864</title>
                <date when="1864-11-30">November 30, 1864</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -81,7 +79,7 @@
                   <date when="1864-11-30">Nov. 30. 64.</date>
                   <name type="place">400 L Street.</name>
                </dateline>
-               <salute>Dear Walt,&#8212;</salute>
+               <salute>Dear Walt,—</salute>
             </opener>
             <p>How I wish you were with us this beautiful day! It is so warm that I sit here with three windows wide open. I have a little fire in the stove, and the sun pours in full and strong. It is a perfect day, &amp; seems more like May than November.</p>
                <p>How are you? &amp; is there any hope of your coming this way this winter? I have hoped you would, but I begin to despair of it, as you have not come yet, and we have not heard from you. <pb xml:id="leaf001v" facs="loc_jc.00674.jpg" type="verso"/>We have been feeling very blue at the prospect of losing Charley Eldridge.<ptr target="loc.00947_n1"/> The Major is to be ordered to Boston, so they hear, tho they have not got their orders yet, and of course Charley goes with him. It is two weeks since they first heard a rumor of it, but I think they will go before Christmas. As soon as he told us, I thought that that lost us one more chance of seeing you, as he had asked you to stay with him at his room. How lonely we shall be with both you &amp; Charley gone! I don't think of it any more <pb xml:id="leaf002r" facs="loc_jc.00675.jpg" type="recto"/>than I can help.</p>
@@ -122,9 +120,9 @@
             <pb xml:id="leaf006r" facs="loc_jc.00669.jpg" type="recto"/>
             <q who="Juliette H. Beach">
                <floatingText>
-                  <body><handShift rend="printed"/>
+                  <body>
                      
-                     <note type="newspaper-editorial" rend="center">[From the New York Leader.]</note>
+                     <note type="newspaper-editorial" rend="center"><handShift rend="printed"/>[From the New York Leader.]</note>
                      <lg type="poem">
                         <head type="main-authorial" rend="center">CLAIRE.</head>
                         <milestone unit="absent" rend="horbar-short-center"/>
@@ -152,7 +150,7 @@
                            <l>The angels you need to meet.</l>
                         </lg>
                         <lg type="linegroup">
-                           <l>You have been with us&#8212;is it a year</l>
+                           <l>You have been with us—is it a year</l>
                            <l>Since we welcomed you first, little dear?</l>
                            <l>A year since the angels have kissed</l>
                            <l>And missed</l>

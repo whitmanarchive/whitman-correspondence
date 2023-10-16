@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00858">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00858">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00858</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00858</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">7</biblScope>
-                            <biblScope type="page">93&#8211;94</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">7</biblScope>
+                            <biblScope unit="page">93–94</biblScope>
                         </imprint>
                     </monogr> 
                 </biblStruct>
@@ -66,8 +63,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to the editors of the New York Critic, [?] November
                         1888</title>
-                    <date cert="low" notBefore="1888-11-01" notAfter="1888-11-30" xml:id="dat1"
-                        >November [?], 1888</date>
+                    <date cert="low" notBefore="1888-11-01" notAfter="1888-11-30" xml:id="dat1">November [?], 1888</date>
                     <orgName xml:id="med">The location of this manuscript is unknown. Ted Genoways derives his transcription 
                     from a complete transcription of the letter that was printed in the New York <hi rend="italic">Critic</hi> on 
                     November 24, 1888.</orgName>
@@ -100,29 +96,20 @@
                     <date when="1888-11">[11.?.1888]</date>
                 </dateline>
             </opener>
-            <p>Briefly to answer impromptu your request of Oct: 19<ptr target="med.00858_n1"
-                />&#8212;the question whether I think any American poet not now living deserves a
-                place among the thirteen "English inheritors of unassail'd renown" (Chaucer,<ptr
-                    target="med.00858_n2"/> Spenser,<ptr target="med.00858_n3"/> <choice><orig>Shakspere</orig><reg>Shakespeare</reg></choice>,<ptr
-                    target="med.00858_n4"/> Milton,<ptr target="med.00858_n5"/> Dryden,<ptr
-                    target="med.00858_n6"/> Pope,<ptr target="med.00858_n7"/> Gray,<ptr
-                    target="med.00858_n8"/> Burns,<ptr target="med.00858_n9"/> Wordsworth,<ptr
-                    target="med.00858_n10"/> Coleridge,<ptr target="med.00858_n11"/> Byron,<ptr
-                    target="med.00858_n12"/> Shelley<ptr target="med.00858_n13"/> and Keats,<ptr 
-                    target="med.00858_n14"/>)&#8212;and which American poets would be truly worthy,
-                &#38;c. Though to me the deep of the matter goes down, down beneath. I remember the
+            <p>Briefly to answer impromptu your request of Oct: 19<ptr target="med.00858_n1"/>—the question whether I think any American poet not now living deserves a
+                place among the thirteen "English inheritors of unassail'd renown" (Chaucer,<ptr target="med.00858_n2"/> Spenser,<ptr target="med.00858_n3"/> <choice><orig>Shakspere</orig><reg>Shakespeare</reg></choice>,<ptr target="med.00858_n4"/> Milton,<ptr target="med.00858_n5"/> Dryden,<ptr target="med.00858_n6"/> Pope,<ptr target="med.00858_n7"/> Gray,<ptr target="med.00858_n8"/> Burns,<ptr target="med.00858_n9"/> Wordsworth,<ptr target="med.00858_n10"/> Coleridge,<ptr target="med.00858_n11"/> Byron,<ptr target="med.00858_n12"/> Shelley<ptr target="med.00858_n13"/> and Keats,<ptr target="med.00858_n14"/>)—and which American poets would be truly worthy,
+                &amp;c. Though to me the deep of the matter goes down, down beneath. I remember the
                 London Times at the time, in opportune, profound and friendly articles on
-                    Bryant's<ptr target="med.00858_n15"/> and Longfellow's<ptr
-                        target="n0367"/> deaths, spoke of the embarrassment, warping effect, and
+                    Bryant's<ptr target="med.00858_n15"/> and Longfellow's<ptr target="n0367"/> deaths, spoke of the embarrassment, warping effect, and
                 confusion on America (her poets and poetic students) "coming in possession of a
                 great estate they had never lifted a hand to form or earn"; and the further
                 contingency of "the English language ever having annex'd to it a lot of first-class
-                Poetry that would be American, not European"&#8212;proving then something precious
+                Poetry that would be American, not European"—proving then something precious
                 over all, and beyond valuation. But perhaps that is venturing outside the question.
-                Of the thirteen British immortals mention'd&#8212;after placing <choice>
+                Of the thirteen British immortals mention'd—after placing <choice>
                     <orig>Shakspere</orig>
                     <reg>Shakespeare</reg>
-                </choice> on a sort of pre-eminence of fame not to be invaded yet&#8212;the names of
+                </choice> on a sort of pre-eminence of fame not to be invaded yet—the names of
                 Bryant, Emerson,<ptr target="loc.01149_n3"/> Whittier<ptr target="med.00858_n17"/>
                 and Longfellow (with even added names, sometimes Southerners, sometimes Western or
                 other writers of only one or two pieces,) deserve in my opinion an equally high

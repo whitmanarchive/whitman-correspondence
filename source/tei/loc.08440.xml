@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08440">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08440">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08440</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,13 +33,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
                      accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, 
                      requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the 
                      Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this 
                      publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08440</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -52,9 +49,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">251</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">251</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -63,7 +60,7 @@
                     <title>Walt Whitman to James W. Wallace, 9 October 1891</title>
                     <date cert="high" when="1891-10-09" xml:id="dat1">October 9, 1891</date>
                     <idno type="callno">MMC-1482; MSS90019</idno>
-                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1899&#8211;1913, 
+                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1899–1913, 
                         Library of Congress, Washington, D.C.</orgName>  
                 </bibl>
             </sourceDesc>
@@ -90,30 +87,27 @@
         <body> 
             <opener>
                 <dateline>
-                    <name type="place">Camden NJ<ptr target="loc.08440_n1"/>&#8212;</name>
+                    <name type="place">Camden NJ<ptr target="loc.08440_n1"/>—</name>
                     <date when="1891-10-09">Oct: 9 PM '91</date> 
                 </dateline>  
             </opener>
-            <p>Y'rs of 8th f'm Albany rec'd<ptr target="loc.08440_n2"/>&#8212;&amp; (doubtless) all y'r Canada letters<ptr target="loc.04403_n2"/>
-                &amp; welcom'd all&#8212;Send you a word in hopes it may reach you thro' care of
-                my friend Andrew Rome<ptr target="loc.04931_n2"/>&#8212;I cannot write the name but old recollections
-                (Brooklyn 1852&#8211;'61) come up on a rush&#8212;&amp; Tom Rome<ptr target="duk.00466_n4"/>&#8212;how good &amp;
-                considerate &amp; faithful they both were&#8212;&amp; I wish to send them here my best
-                remembrance &amp; love&#8212;&amp; of course show them this letter&#8212;(Tell Andrew I
+            <p>Y'rs of 8th f'm Albany rec'd<ptr target="loc.08440_n2"/>—&amp; (doubtless) all y'r Canada letters<ptr target="loc.04403_n2"/>
+                &amp; welcom'd all—Send you a word in hopes it may reach you thro' care of
+                my friend Andrew Rome<ptr target="loc.04931_n2"/>—I cannot write the name but old recollections
+                (Brooklyn 1852–'61) come up on a rush—&amp; Tom Rome<ptr target="duk.00466_n4"/>—how good &amp;
+                considerate &amp; faithful they both were—&amp; I wish to send them here my best
+                remembrance &amp; love—&amp; of course show them this letter—(Tell Andrew I
                 am just having a big book, complete works,<ptr target="loc.04811_n6"/> including my last "Good-Bye
-                my Fancy"<ptr target="loc.07894_n2"/> bit, bound up, &amp; I will surely send him one<ptr target="loc.04811_n7"/>)&#8212;</p>
+                my Fancy"<ptr target="loc.07894_n2"/> bit, bound up, &amp; I will surely send him one<ptr target="loc.04811_n7"/>)—</p>
                 
-            <p> Still holding the fort (sort o')&#8212;fluctuating a good deal&#8212;(lately <hi rend="italic">neuralgia</hi>
-                added, bothers me of nights)&#8212;Rec'd word f'm Dr B[ucke]<ptr target="n0119"/> to-day,<ptr target="loc.08440_n3"/>
-                with copy of the admirable lecture at McGill College<ptr target="loc.08440_n5"/>&#8212;H Traubel<ptr target="n4267"/> &amp;
-                Warry<ptr target="loc.07319_n6"/> well&#8212;Mrs: D[avis]<ptr target="n6113"/> so-so&#8212;fine weather, cool&#8212;have just drunk a
-                great mug of buttermilk&#8212;</p> 
+            <p> Still holding the fort (sort o')—fluctuating a good deal—(lately <hi rend="italic">neuralgia</hi>
+                added, bothers me of nights)—Rec'd word f'm Dr B[ucke]<ptr target="n0119"/> to-day,<ptr target="loc.08440_n3"/>
+                with copy of the admirable lecture at McGill College<ptr target="loc.08440_n5"/>—H Traubel<ptr target="n4267"/> &amp;
+                Warry<ptr target="loc.07319_n6"/> well—Mrs: D[avis]<ptr target="n6113"/> so-so—fine weather, cool—have just drunk a
+                great mug of buttermilk—</p> 
             <closer> 
                 <signed>Walt Whitman</signed> 
             </closer> 
         </body>  
     </text> 
 </TEI>
-
-
-

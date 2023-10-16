@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01723">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Samuel W. Green to Walt Whitman, 3 May 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Samuel W. Green</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01723</idno></publicationStmt>           
+            <sourceDesc>
+                <bibl>
+                    <author>Samuel W. Green</author>
+                    <title>Samuel W. Green to Walt Whitman, 3 May 1876</title>    
+                    <date cert="high" when="1876-05-03" xml:id="dat1">May 3, 1876</date>
+                    <idno type="callno">MSS18630, Box 10, Reel 6</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00203</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Green, Samuel W." ref="n0277">Samuel W. Green</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-21" who="#smb">updated notes</change>
+            <change when="2022-12-19" who="#aja">checked, corrected</change>
+            <change when="2022-03-03" who="#em">checked, corrected</change>
+            <change when="2021-12-22" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-05-06">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-11-14" who="#cb">proofed</change>
+            <change when="2012-04-17" who="#nnk">proofed</change>
+            <change when="2012-03-08" who="#js">proofed</change>
+            <change when="2011-12-19" who="#ej">Transcribe/Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>           
+            <pb xml:id="leaf001r" facs="loc.01723.001_large.jpg" type="recto"/>
+            <opener>
+                
+                <handShift rend="printed"/>
+                <dateline>
+                        <name type="place">S. W. GREEN,</name>
+                        <name type="place">Printer, Stereotyper, Electrotyper, and Binder,</name>
+                        <name type="place">OFFICE, 18 JACOB STREET, CORNER FRANKFORT,</name>
+                    <name type="place">New-York,</name>
+                    <date when="1876-05-03"><handShift rend="manuscript"/>3 May, <handShift rend="printed"/>187<handShift rend="manuscript"/>6</date>
+                </dateline>               
+                <salute>Walt Whitman, Esq</salute>            
+                <address>
+                    <addrLine>431 Stevens St. Camden, N. J.</addrLine>
+                </address>               
+                <salute>Dear Sir:</salute>
+            </opener>
+
+            <p>I have your letter of yesterday,<ptr target="n5002d"/> and the "Leaves of Grass" with corrections.
+                The making of the corrections, Paper like the sample <unclear reason="illegible" cert="low" resp="#ej">indeed</unclear>, 
+                and printing of 600 copies, 348 pages, will come to $157. If I have an order to that effect from you 
+                day after tomorrow morning, I will have the 600 copies ready for the 
+                Binder, as you ask, three weeks from to-day, 24 May, in unfolded sheets.</p>
+            <p>I am also ready to bind them as you may direct, and will give figures if you indicate the style.</p>
+                                    
+            <closer>
+                <salute>Yours truly</salute>
+                <signed>S.W. Green</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

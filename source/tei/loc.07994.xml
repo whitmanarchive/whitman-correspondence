@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07994"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07994"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07994</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,13 +38,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07994</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">161</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">161</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,10 +64,10 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Joseph M. Stoddart, 4 February 1891</title>
                     <date cert="high" when="1891-02-04" xml:id="dat1">February 4, 1891</date>
-                    <idno type="callno">MSS18630, Box 17, Reel 10&#8211;11</idno>
+                    <idno type="callno">MSS18630, Box 17, Reel 10–11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00372</idno>
                     <orgName xml:id="loc">
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.
                     </orgName>
                 </bibl>
             </sourceDesc>
@@ -96,15 +93,15 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden N J&#8212;</name>
+                    <name type="place">Camden N J—</name>
                     <date when="1891-02-04">Feb: 4 '91</date>
                 </dateline>
             </opener> 
-            <p>Sh'd like to have (for our own uses to send about this country &#38; to Europe) 100 printed impressions
-                (the whole stuff) of the poems &#38; my own &#38; H Traubel's<ptr target="n4267"/> piece&#8212;so that 
+            <p>Sh'd like to have (for our own uses to send about this country &amp; to Europe) 100 printed impressions
+                (the whole stuff) of the poems &amp; my own &amp; H Traubel's<ptr target="n4267"/> piece—so that 
                 we c'd have them stitched if we like.<ptr target="loc.07994_n1"/> 
-                <hi rend="underline">Of course we will pay the printers.</hi> Horace T. will hand you this &#38; will 
-                arrange &#38; boss the thing, 
+                <hi rend="underline">Of course we will pay the printers.</hi> Horace T. will hand you this &amp; will 
+                arrange &amp; boss the thing, 
                 if you folks are agreeable (as I suppose there is no reason but what you sh'd be.)
             </p>  
             <closer>
@@ -113,10 +110,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-

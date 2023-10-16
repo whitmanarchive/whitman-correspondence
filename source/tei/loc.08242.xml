@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08242">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>   
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 28 November 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="hc">Heather Cooper</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.08242</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Richard Maurice Bucke, 28 November 1890</title>
+                    <date cert="high" when="1890-11-28" xml:id="dat1">November 28, 1890</date> 
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>                     
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+             <particDesc>
+                 <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                 </person>
+                <person role="recipient">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName>
+               </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-17" who="#smb">final check, corrected, added DOI</change>
+            <change when="2021-10-21" who="#aja">2nd check, notes</change>
+            <change when="2021-06-25" who="#bjo">first check and notes added</change>
+            <change when="2020-12-05" who="#hc">transcribed, encoded; SLIS:6335: Metadata Theories and Applications Class, Fall 2020, Micah Bateman, 
+                Lecturer, University of Iowa</change>
+        </revisionDesc> 
+    </teiHeader> 
+    <text type="letter">   
+        <pb xml:id="leaf001r" facs="loc_jm.00443.jpg" type="recto"/>
+        <body>
+            <opener>            
+                <dateline>
+                    <name type="place">Camden<ptr target="loc.08242_n1"/></name>                    
+                    <date when="1890-11-28">noon Nov: 28 '90</date>
+                </dateline>
+            </opener>
+            <p>Gloomy &amp; depressed enough these two or three days—My 
+                brother Jeff<ptr target="n4995"/> died Tuesday last at St 
+             Louis—typhoid pneumonia—was in his 58th year—was 
+             very much with me in his childhood &amp; as 
+             big boy greatly attached to each other till he got married—(I 
+             was in 16th year when he was born)—Sunny 
+             out to day—cold, little or no appetite—bad 
+             belly ache continued—(I suspect it is catarrh of 
+             bowels) sitting here in big chair as usual alone Ed Stafford<ptr target="n0589"/> here 
+                last evn'g to see me—all well or getting 
+                along there—yr's recd last evn'g<ptr target="n5004"/> thanks</p>
+            <closer>
+                <salute>God bless you all</salute>
+                <signed rend="right">Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_jm.00444.jpg" type="recto"/> 
+            <pb xml:id="leaf002v" facs="loc_jm.00445.jpg" type="verso"/> 
+        </body>
+    </text>
+</TEI>

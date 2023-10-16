@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sal.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sal.00001">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>sal.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>sal.00001</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +52,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">382&#8211;383</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">382–383</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -102,22 +99,19 @@
                 <salute>Dear friend</salute>
             </opener>
 
-            <p>Yours of yesterday just rec'd&#8212;with the $25&#8212;(making 150 in all)<ptr
-                    target="sal.00001_n2"/>&#8212;best thanks&#8212;So you like the Brignoli bit<ptr
-                    target="sal.00001_n3"/>&#8212;I was not sure it amounted to much, but it came
-                from the heart&#8212;(it was first sent to the <hi rend="italic">Tribune</hi> to be
-                published the morning of B's funeral, but the T sent it back)&#8212;</p>
+            <p>Yours of yesterday just rec'd—with the $25—(making 150 in all)<ptr target="sal.00001_n2"/>—best thanks—So you like the Brignoli bit<ptr target="sal.00001_n3"/>—I was not sure it amounted to much, but it came
+                from the heart—(it was first sent to the <hi rend="italic">Tribune</hi> to be
+                published the morning of B's funeral, but the T sent it back)—</p>
             <p>How are you all? How is Al, under the new dispensation? I send my love specially to
-                Alma and the girls &#38; the new Mrs J&#8212;</p>
-            <p>Nothing very new with me&#8212;I am ab't as well as usual except an increasing
-                lameness&#8212;Anticipate a time not remote when I shall be unable to walk at
-                all&#8212;Have not forgotten the <hi rend="italic">Memorandum History of the
-                    Portrait</hi>&#8212;have already outlined &#38; partly prepared it&#8212;you
-                shall have it soon<ptr target="sal.00001_n4"/>&#8212;</p>
-            <p>I am writing this up in my big den&#8212;the floor all around horribly <hi
-                    rend="italic">litter</hi>-rary, but a cheery wood fire in the little
-                stove&#8212;&#38; I comfortable in my great capacious rattan arm-chair&#8212;(which
-                I may will to Al, if he cares for it)&#8212;</p>
+                Alma and the girls &amp; the new Mrs J—</p>
+            <p>Nothing very new with me—I am ab't as well as usual except an increasing
+                lameness—Anticipate a time not remote when I shall be unable to walk at
+                all—Have not forgotten the <hi rend="italic">Memorandum History of the
+                    Portrait</hi>—have already outlined &amp; partly prepared it—you
+                shall have it soon<ptr target="sal.00001_n4"/>—</p>
+            <p>I am writing this up in my big den—the floor all around horribly <hi rend="italic">litter</hi>-rary, but a cheery wood fire in the little
+                stove—&amp; I comfortable in my great capacious rattan arm-chair—(which
+                I may will to Al, if he cares for it)—</p>
 
             <closer>
                 <signed>W W</signed>

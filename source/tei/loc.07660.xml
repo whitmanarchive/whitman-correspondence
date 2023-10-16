@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07660">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07660">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07660</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07660</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">204</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">204</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,7 +64,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 2 September 1888</title>
                     <date cert="high" when="1888-09-02" xml:id="dat1">September 2, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
@@ -99,28 +95,24 @@
                 <dateline>
                     <name type="place">Camden</name>
                     <date when="1888-09-02">Sunday 11 a m</date> 
-                    <date when="1888-09-02">Sept: 2 '88<ptr target="loc.07660_n1"
-                        /></date>
+                    <date when="1888-09-02">Sept: 2 '88<ptr target="loc.07660_n1"/></date>
                 </dateline>
                 <salute/> 
             </opener>
   
-            <p>A perfect day&#8212;sunny cool&#8212;I felt easier this morning when I got
-                up&#8212;(anticipate better feelings when the cooler weather comes&#8212;but we
-                shall see)&#8212;Mr and Mrs Edward Coates<ptr target="n4187"/> have been over to see me&#8212;a cheery
-                nice little visit&#8212;her atmosphere &#38; talk were medicinal &#38;
-                inspiriting&#8212;he bo't the centennial ed'n&#8212;&#36;10&#8212;I have had a good
-                letter<ptr target="loc.07660_n2"/> from O'Connor<ptr target="n2002"/>&#8212;also f'm Kennedy<ptr target="n3039"/>&#8212;the
-                little "Old Age's Lambent Peaks" appears in the just out <hi rend="italic"
-                >Century</hi><ptr target="loc.07660_n4"/>&#8212;Maurice, I should like you to have my mare Nettie and
-                phaeton (if it should come in) as pay for the &#36;200 I owe you<ptr
-                target="loc.07660_n3"/>&#8212;<hi rend="italic">I am deliberate ab't
-                it</hi>&#8212;the only thing is whether you could take them in&#8212;W'd that work
-                well, &#38; be desirable? Could you have any one who w'd take the mare &#38; wagon
-                &#38; see them right to deliver to you? If so I wish it so&#8212;The vols: <hi
-                rend="italic">Nov Boughs</hi><ptr target="n3999"/> and the big book<ptr target="n4151"/> will be good bits of typography
-                &#38; press work, I think&#8212;no special news ab't me&#8212;all
-                comfortable&#8212;</p>
+            <p>A perfect day—sunny cool—I felt easier this morning when I got
+                up—(anticipate better feelings when the cooler weather comes—but we
+                shall see)—Mr and Mrs Edward Coates<ptr target="n4187"/> have been over to see me—a cheery
+                nice little visit—her atmosphere &amp; talk were medicinal &amp;
+                inspiriting—he bo't the centennial ed'n—$10—I have had a good
+                letter<ptr target="loc.07660_n2"/> from O'Connor<ptr target="n2002"/>—also f'm Kennedy<ptr target="n3039"/>—the
+                little "Old Age's Lambent Peaks" appears in the just out <hi rend="italic">Century</hi><ptr target="loc.07660_n4"/>—Maurice, I should like you to have my mare Nettie and
+                phaeton (if it should come in) as pay for the $200 I owe you<ptr target="loc.07660_n3"/>—<hi rend="italic">I am deliberate ab't
+                it</hi>—the only thing is whether you could take them in—W'd that work
+                well, &amp; be desirable? Could you have any one who w'd take the mare &amp; wagon
+                &amp; see them right to deliver to you? If so I wish it so—The vols: <hi rend="italic">Nov Boughs</hi><ptr target="n3999"/> and the big book<ptr target="n4151"/> will be good bits of typography
+                &amp; press work, I think—no special news ab't me—all
+                comfortable—</p>
 
             <closer>
                 <salute/>

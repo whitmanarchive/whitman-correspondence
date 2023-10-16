@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00215">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00215">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,7 +26,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00215</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +38,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>nyp.00215</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -50,9 +48,9 @@
                   <imprint>
                      <pubPlace>New York</pubPlace>
                      <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">185</biblScope>
+                     <date notBefore="1961" notAfter="1977">1961–1977</date>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="page">185</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -60,7 +58,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Charles W. Eldridge, 17 November 1863</title>
                <date when="1863-11-17">November 17, 1863</date>
-               <orgName xml:id="nyp">Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y</orgName>
+               <orgName xml:id="nyp">Oscar Lion Papers, 1914–1955, New York Public Library, New York, N.Y</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -96,10 +94,10 @@
                <salute>Dear friend<ptr target="nyp.00215_n1"/>
                </salute>
             </opener>
-            <p>I suppose Nelly has received a letter from me posting you up of my doings, &amp;c. Any letters that come to me, up to Saturday next, please send on here. After that, do not send any, as I shall return Monday or Tuesday next. The weather here the last three days is very unpleasant, sloppy &amp; thick. I was at the opera last night, Trovatore<ptr target="nyp.00215_n2"/>&#8212;very, very good singing &amp; acting&#8212;</p>
-            <p>I feel to devote myself more to the work of my life, which is making poems. I must bring out Drum Taps. I <hi rend="italic">must</hi> be continually bringing out poems&#8212;now is the hey day. I shall range along the high plateau of my life &amp; capacity for a few years now, &amp; then swiftly descend. The life here in the cities, &amp; the objects, &amp;c of most, seem to me very flippant &amp; shallow somehow since I returned this time&#8212;</p>
-            <p>My New York boys are good, too good&#8212;if I staid here a month longer I should be killed with kindness&#8212;The great recompense of my journey here is to see my mother so well, &amp; so bravely sailing on amid many troubles &amp; discouragements like a noble old ship&#8212;My brother Andrew is bound for another world&#8212;he is here the greater part of the time&#8212;</p>
-            <p>Charley, I think sometimes to be a woman is greater than to be a man&#8212;is more eligible to greatness, not the ostensible article, but the real one. Dear comrade, I send you my love, &amp; to William &amp; Nelly, &amp; remember me to Major [Hapgood]<ptr target="nyp.00215_n3"/>&#8212;</p>
+            <p>I suppose Nelly has received a letter from me posting you up of my doings, &amp;c. Any letters that come to me, up to Saturday next, please send on here. After that, do not send any, as I shall return Monday or Tuesday next. The weather here the last three days is very unpleasant, sloppy &amp; thick. I was at the opera last night, Trovatore<ptr target="nyp.00215_n2"/>—very, very good singing &amp; acting—</p>
+            <p>I feel to devote myself more to the work of my life, which is making poems. I must bring out Drum Taps. I <hi rend="italic">must</hi> be continually bringing out poems—now is the hey day. I shall range along the high plateau of my life &amp; capacity for a few years now, &amp; then swiftly descend. The life here in the cities, &amp; the objects, &amp;c of most, seem to me very flippant &amp; shallow somehow since I returned this time—</p>
+            <p>My New York boys are good, too good—if I staid here a month longer I should be killed with kindness—The great recompense of my journey here is to see my mother so well, &amp; so bravely sailing on amid many troubles &amp; discouragements like a noble old ship—My brother Andrew is bound for another world—he is here the greater part of the time—</p>
+            <p>Charley, I think sometimes to be a woman is greater than to be a man—is more eligible to greatness, not the ostensible article, but the real one. Dear comrade, I send you my love, &amp; to William &amp; Nelly, &amp; remember me to Major [Hapgood]<ptr target="nyp.00215_n3"/>—</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>

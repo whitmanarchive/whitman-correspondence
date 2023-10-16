@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00407">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00407">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +23,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>yal.00407</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +40,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>yal.00407</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -60,9 +58,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">2</biblScope>
-              <biblScope type="page">195</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="page">195</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -106,12 +104,12 @@
 
       <p>I wrote you Sunday enclosing the $20, which I suppose you rec'd all safe. </p>
 
-      <p>I am still anchored here in my bed&#8212;I am sitting up now on the side&#8212;Mrs.
-          O'Connor<ptr target="n0450"/> has just been to see me&#8212;I was glad to see her&#8212;I
-        am still improving, but slowly&#8212;the doctor did not come yesterday, which I suppose is a
-        good sign&#8212;I expect him this afternoon or evening&#8212;he evidently thinks I am on the
-        gain&#8212;Pete has just come in, &amp; will take this to the p. o. for me&#8212;Love to
-        you, dear mother<ptr target="n0705"/>, &amp; to all&#8212;</p>
+      <p>I am still anchored here in my bed—I am sitting up now on the side—Mrs.
+          O'Connor<ptr target="n0450"/> has just been to see me—I was glad to see her—I
+        am still improving, but slowly—the doctor did not come yesterday, which I suppose is a
+        good sign—I expect him this afternoon or evening—he evidently thinks I am on the
+        gain—Pete has just come in, &amp; will take this to the p. o. for me—Love to
+        you, dear mother<ptr target="n0705"/>, &amp; to all—</p>
 
       <closer>
         <signed rend="right">Walt.</signed>

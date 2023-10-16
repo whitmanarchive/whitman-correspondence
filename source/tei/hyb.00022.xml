@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hyb.00022">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Charles L. Heyde to Walt Whitman, 18 March [1891]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles L. Heyde</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="jm">Jason McCormick</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>hyb.00022</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles L. Heyde</author>
+                    <title>Charles L. Heyde to Walt Whitman, 18 March [1891]</title>
+                    <date cert="high" when="1891-03-18" xml:id="dat1">March 18, [1891]</date>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare
+                        Book &amp; Manuscript Library, Duke University</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 
+                        1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes> 
+                <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName></handNote> 
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Heyde, Charles L." ref="n0299b">Charles L. Heyde</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-08" who="#smb">final check, updated</change>
+            <change when="2023-07-01" who="#aja">checked, corrected</change>
+            <change when="2020-12-06" who="#jm">added images</change>
+            <change when="2019-07-24" who="#aa">second check</change>
+            <change when="2019-07-01" who="#if">First check</change>
+            <change when="2019-03-27" who="#bbb">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="duk.00457.001_large.jpg" type="recto"/>
+            <note type="editorial" place="top" resp="#rmb">14 March 91</note>
+            <opener>
+               <salute>Kind, dear good Friend and Bro 
+               Walt—<date when="1891-03-18">March 18.</date></salute>
+            </opener>
+
+            <p>March! March away!—19.</p>
+
+            <p>Cold—frozen lake—bitter—sharp relentless wind—South—but no
+                sunny-genial south here—</p>
+
+            <p>Han<ptr target="n7033"/> decidedly improving—is having her breakfast
+                now—all alone—as she desires—toast bread—<choice><sic>poachd</sic>
+                    <corr>poached</corr>
+                </choice> eggs—splendid milk! <choice><sic>allways</sic><corr>always</corr></choice>
+                stimulates her—to have a letter
+                from you—It would do her—encourage her, if Lou<ptr target="n0368"/>
+                would write to her—send her a trifle—I am—or continue to paint
+                pictures—tho I am <choice>
+                    <sic>straind</sic>
+                    <corr>strained</corr>
+                </choice> to purchase <choice>
+                    <sic>canvass</sic>
+                    <corr>canvas</corr>
+                </choice> etc. Shall sell them some—if but for a dollar a day—<choice><sic>Wonderfull</sic>
+                    <corr>Wonderful</corr>
+                </choice> to all how you keep us—immortal like—</p>
+
+            <closer><signed>Charlie</signed></closer>
+            <pb xml:id="leaf002r" facs="loc_jm.00085.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_jm.00086.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

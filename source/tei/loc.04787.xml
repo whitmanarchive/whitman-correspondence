@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04787">
+    <teiHeader>  
+        <fileDesc>   
+            <titleStmt>
+                <title type="main" level="m">Walt Whitman to Hannah Whitman Heyde, 11 March 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Maire Mullins</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="kb">Kelsey Barkis</persName>
+                    <persName xml:id="mm">Maire Mullins</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>Kent State University</sponsor>
+                <sponsor>Pepperdine University</sponsor>
+                <funder>National Historical Publications and Records Commission</funder></titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, 
+                    all rights reserved. Items in the Archive may be shared in accordance with the Fair Use
+                    provisions of U.S. copyright law. Redistribution or republication on other
+                    terms, in any medium, requires express written consent from the editors and
+                    advance notification of the publisher, Center for Digital Research in the
+                    Humanities. Permission to reproduce the graphic images in this archive has
+                    been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.04787</idno></publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Hannah Whitman Heyde, 11 March 1891</title>
+                    <date cert="high" when="1891-03-11" xml:id="dat1">March 11, 1891</date>
+                    <idno type="callno">MSS18630, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00041</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of 
+                        Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Whitman Heyde</persName>
+                </person> 
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2020-10-13" who="#smb">added DOI, corrected note</change>
+            <change when="2020-02-04" who="#smb">checked, updated notes</change>
+            <change when="2019-10-21" who="#smb">added images, corrected notes</change>
+            <change when="2019-10-19" who="#zs">rotated images</change>
+            <change when="2019-10-08" who="#bjo">checked and corrected</change>
+            <change when="2019-03-24" who="#mm">edited and proofread</change>
+            <change when="2016-08-07" who="#mm">added note</change>
+            <change when="2016-08-05" who="#mm">proofread and added notes</change> 
+            <change when="2016-07-28" who="#kb">encoded</change>
+        </revisionDesc> 
+    </teiHeader>  
+    <text type="letter">
+        <body>  
+            <pb xml:id="leaf001r" facs="loc_ad.00161_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden<ptr target="loc.04787_n1"/></name>
+                    <date when="1891-03-11">March 11 '91</date> 
+                </dateline>
+            </opener>
+            <p>Sunny &amp; fine to-day—had a letter <choice><abbr>f'm</abbr><expan>from</expan></choice> Jess,<ptr target="loc.04787_n2"/> 
+                St. Louis, this <choice><abbr>mn'g</abbr><expan>morning</expan></choice>—She is well &amp; seems to be 
+                getting along—is <choice><abbr>ab't</abbr><expan>about</expan></choice> 5 now, &amp; I have eaten my early 
+                supper—had a fine varied meal <choice><abbr>bro't</abbr><expan>brought</expan></choice> to me, but selected 
+                only some <choice><abbr>stew'd</abbr><expan>stewed</expan></choice> tomatoes (with onions &amp; crust bread) and half 
+                cup coffee, &amp; sent the rest back—am sitting here same as usual—hope &amp; pray it is comfortable with 
+                you, sister dear—a poor English street-singing boy stops out in the street &amp; sings "the flowers that bloom 
+                in the spring"<ptr target="loc.04787_n3"/> while another boy (his brother I fancy) fiddles. $2 enclosed—God bless you, Han—</p>
+            <closer> 
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_ad.00162_large.jpg" type="verso"/>
+        </body>
+    </text> 
+</TEI>

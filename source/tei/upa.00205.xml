@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00205">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00205">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>upa.00205</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00205</idno></publicationStmt>
             <sourceDesc>
 
                 <biblStruct>
@@ -59,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">272</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">272</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -70,7 +66,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Herbert Gilchrist, 31 March 1882</title>
                     <date cert="high" when="1882-03-31" xml:id="dat1">March 31, 1882</date>
-                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp;
                         Manuscript Library, University of Pennsylvania</orgName>
                 </bibl>
             </sourceDesc>
@@ -99,36 +95,33 @@
 
             <opener>
                 <dateline>
-                    <name type="place">Kirkwood (Glendale)<ptr
-                            target="upa.00205_n1"/></name>
+                    <name type="place">Kirkwood (Glendale)<ptr target="upa.00205_n1"/></name>
                     <date when="1882-03-31" rend="right">March 31 '82</date>
                     <name type="place">U S A</name>
                 </dateline>
             </opener>
-            <p>Down here again spending a few days&#8212;nothing very different&#8212;pretty much
-                the same story of all my letters&#8212;but I knew you would like to hear&#8212;Mrs
-                S[tafford] and all the family well as usual&#8212;they often speak of you &#38; of
-                the old times&#8212;I was over to the creek and by the old walnut-trees last
-                week&#8212;all beautiful &#38; refreshing as ever&#8212;</p>
-            <p>Harry is still at Clementon&#8212;Mont is with B. S. at Kirkwood station&#8212;Ed has
+            <p>Down here again spending a few days—nothing very different—pretty much
+                the same story of all my letters—but I knew you would like to hear—Mrs
+                S[tafford] and all the family well as usual—they often speak of you &amp; of
+                the old times—I was over to the creek and by the old walnut-trees last
+                week—all beautiful &amp; refreshing as ever—</p>
+            <p>Harry is still at Clementon—Mont is with B. S. at Kirkwood station—Ed has
                 gone up to <choice>
                     <orig>Phila:</orig>
                     <reg>Philadelphia</reg>
-                </choice> to-day for store goods&#8212;Do you know of David Bogue,<ptr
-                    target="upa.00205_n2"/> bookseller, Trafalgar <choice>
+                </choice> to-day for store goods—Do you know of David Bogue,<ptr target="upa.00205_n2"/> bookseller, Trafalgar <choice>
                         <orig>Sq:</orig>
                         <reg>Square</reg>
                     </choice> who publishes my book in
-                London? Have you ever been in his place? I go up to Camden this evening&#8212;Yours
+                London? Have you ever been in his place? I go up to Camden this evening—Yours
                 of last <choice>
                     <orig>Jan:</orig>
                     <reg>January</reg>
-                </choice> &#38; your mother's of <choice>
+                </choice> &amp; your mother's of <choice>
                     <orig>Feb.</orig>
                     <reg>February</reg>
                 </choice> 6 <choice>
-                    <orig>rec'd</orig><reg>received</reg></choice><ptr target="upa.00205_n3"
-                />&#8212;</p>
+                    <orig>rec'd</orig><reg>received</reg></choice><ptr target="upa.00205_n3"/>—</p>
             <closer>
                 <signed rend="right">W W</signed>
             </closer>

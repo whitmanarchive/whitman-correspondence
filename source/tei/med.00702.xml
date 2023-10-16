@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00702">
+   <teiHeader> 
+      <fileDesc>
+         <titleStmt>
+            <title level="m" type="main">Walt Whitman to Byron G. Morrison, 21 April 1876</title>
+            <title level="m" type="sub">a machine readable transcription</title>
+            <author>Walt Whitman</author>
+            <editor>Kenneth M. Price</editor>
+            <editor>Ed Folsom</editor>
+            <respStmt>
+               <resp>Transcription and encoding</resp>
+               <persName xml:id="ak">Alex Kinnaman</persName>
+               <persName xml:id="jyc">Jonathan Y. Cheng</persName>
+               <persName xml:id="el">Elizabeth Lorang</persName>
+               <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+               <persName xml:id="smb">Stephanie Blalock</persName>
+               <persName xml:id="nsb">Noelle Bates</persName>
+               <persName xml:id="pw">Paige Wilkinson</persName>
+               <persName xml:id="aja">Amanda J. Axley</persName>
+            </respStmt>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
+            <sponsor>University of Iowa</sponsor>
+            <funder>National Historical Publications and Records Commission</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            
+            <distributor>The Walt Whitman Archive</distributor>
+            <address>
+               <addrLine>Center for Digital Research in the Humanities</addrLine>
+               <addrLine>319 Love Library</addrLine>
+               <addrLine>University of Nebraska-Lincoln</addrLine>
+               <addrLine>P.O. Box 884100</addrLine>
+               <addrLine>Lincoln, NE 68588-4100</addrLine>
+            </address>
+            <availability>
+               <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                  Items in the Archive may be shared in accordance with the Fair Use provisions of
+                  U.S. copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
+            </availability>
+         <idno>med.00702</idno></publicationStmt> 
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <editor>Ted Genoways</editor>
+                  <title xml:id="tg">Walt Whitman: The Correspondence</title>
+                  <imprint>
+                     <pubPlace>Iowa City</pubPlace>
+                     <publisher>University of Iowa Press</publisher>
+                     <date>2004</date>
+                     <biblScope unit="volume">7</biblScope>
+                     <biblScope unit="page">47</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <bibl>
+               <author>Walt Whitman</author>
+               <title>Walt Whitman to Byron G. Morrison, 21 April 1876</title>
+               <date cert="high" when="1876-04-21" xml:id="dat1">April 21, 1876</date>
+               <orgName xml:id="med">The location of this manuscript is unknown. Genoways derives
+                  his transcription from a description of the letter in a Christie's auction
+                  catalog for the sale that took place on December 11, 2001.</orgName>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <person role="sender">
+               <persName key="Whitman, Walt">Walt Whitman</persName>
+            </person>
+            <person role="recipient">
+               <persName key="Morrison, Byron G." ref="med.00702_n2">Byron G. Morrison</persName>
+            </person>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-23" who="#smb">updated notes</change>
+         <change when="2023-07-19" who="#aja">final corrections for Ken</change>
+         <change when="2022-09-02" who="#pw">checked and corrected</change>
+         <change when="2022-07-19" who="#nsb">checked and revised</change>
+         <change when="2020-08-14" who="#smb">rechecked for final publication</change>
+         <change when="2015-04-20" who="#ak">added correspondent ref</change>
+         <change when="2014-09-30" who="#jyc">checked, revised</change>
+         <change when="2014-08-15" who="#el">added schematron declaration</change>
+         <change when="2014-06-04" who="#nnk">transcribed, encoded</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <p>[Whitman writes to inform Mr. Morrison that he shipped 3 volumes to him.<ptr target="med.00702_n1"/>]</p>
+      </body> 
+   </text>
+</TEI>

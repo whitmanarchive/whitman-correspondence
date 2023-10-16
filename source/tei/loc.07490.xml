@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07490">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07490">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07490</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07490</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">160</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">160</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,9 +63,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 8 April 1888</title>
                     <date cert="high" when="1888-04-08" xml:id="dat1">April 8, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -102,21 +98,19 @@
                 <salute/>
             </opener>
 
-            <p>It is very pleasant &#38; sunny to-day &#38; I am going out in the rig abt 1 o'clock
-                to my friends Mr &#38; Mrs Harned<ptr target="n4146"/>, three or four hours, &#38;
-                have dinner &#38; a good generous drink of the best champagne&#8212;I enjoy
-                everything&#8212;Nothing new with me&#8212;there seems to be some hitch in the 
-                Herald's publ'ng my little pieces<ptr target="n4133"/>&#8212;(I hear that
-                they have been appealed to in print to stop such stuff)<ptr target="loc.07490_n2"/>&#8212;I feel lately as if I
+            <p>It is very pleasant &amp; sunny to-day &amp; I am going out in the rig abt 1 o'clock
+                to my friends Mr &amp; Mrs Harned<ptr target="n4146"/>, three or four hours, &amp;
+                have dinner &amp; a good generous drink of the best champagne—I enjoy
+                everything—Nothing new with me—there seems to be some hitch in the 
+                Herald's publ'ng my little pieces<ptr target="n4133"/>—(I hear that
+                they have been appealed to in print to stop such stuff)<ptr target="loc.07490_n2"/>—I feel lately as if I
                 sh'd make a start in putting <hi rend="italic">November Boughs</hi><ptr target="n3999"/> in type making perhaps 150 to less than
-                200 pp.&#8212;some 30 pp, perhaps, of poems to go afterward as <hi rend="italic">Annex</hi> to L of G. My
-                health though poor is "the same subject continued"&#8212;I enc: K[enne]dy's letter
-                from Wilson<ptr target="loc.07490_n3"/>&#8212;(not important)&#8212;Rhys<ptr
-                    target="loc.07490_n4"/> is still in Boston&#8212;Morse<ptr target="n0862"/> in
-                Indiana&#8212;I like Eakins'<ptr target="n3166"/> picture (it is like sharp cold cutting true sea
-                brine)&#8212;I have not heard a word of the Worthington suit in N Y<ptr
-                    target="loc.07490_n5"/>&#8212;not a word from my dear friend O'C[onnor]<ptr target="n2002"/> in
-                Wash'n&#8212;</p>
+                200 pp.—some 30 pp, perhaps, of poems to go afterward as <hi rend="italic">Annex</hi> to L of G. My
+                health though poor is "the same subject continued"—I enc: K[enne]dy's letter
+                from Wilson<ptr target="loc.07490_n3"/>—(not important)—Rhys<ptr target="loc.07490_n4"/> is still in Boston—Morse<ptr target="n0862"/> in
+                Indiana—I like Eakins'<ptr target="n3166"/> picture (it is like sharp cold cutting true sea
+                brine)—I have not heard a word of the Worthington suit in N Y<ptr target="loc.07490_n5"/>—not a word from my dear friend O'C[onnor]<ptr target="n2002"/> in
+                Wash'n—</p>
 
             <closer>
                 <salute/>

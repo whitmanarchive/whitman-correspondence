@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00599">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00599">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00599</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00599</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +52,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">389</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">389</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -97,12 +94,12 @@
                     <date when="1889-10-27"/>
                 </dateline>
             </opener>
-            <p>Nothing very new or different, Alys<ptr target="uva.00553_n3"/> comes often &#38; is as welcomed as sunshine&#8212;I am
-                sitting here in my den as ever&#8212;dark &#38; rainy to-day &#38; yesterday&#8212;My Canadian nurse &#38;
-                friend has left me&#8212;(he had a good chance to go into veterinary studies, finish &#38;
-                practice.)<ptr target="n4319"/> I am getting along better than you might imagine&#8212;a bad physical brain
-                probably catarrhal&#8212;&#38; hopeless locomotion&#8212;are my set fiends&#8212;fair spirits, appetite
-                &#38; nights however&#8212;</p>
+            <p>Nothing very new or different, Alys<ptr target="uva.00553_n3"/> comes often &amp; is as welcomed as sunshine—I am
+                sitting here in my den as ever—dark &amp; rainy to-day &amp; yesterday—My Canadian nurse &amp;
+                friend has left me—(he had a good chance to go into veterinary studies, finish &amp;
+                practice.)<ptr target="n4319"/> I am getting along better than you might imagine—a bad physical brain
+                probably catarrhal—&amp; hopeless locomotion—are my set fiends—fair spirits, appetite
+                &amp; nights however—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

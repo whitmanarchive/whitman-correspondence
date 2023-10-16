@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01932">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Maria Smith to Walt Whitman, 14 March 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Maria Smith</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="nsb">Noelle Bates</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01932</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Maria Smith</author>
+                    <title>Maria Smith to Walt Whitman, 14 March 1875</title>
+                    <date cert="high" when="1875-03-14" xml:id="dat1">March 14, 1875</date>
+                    <idno type="callno">MSS18630, Box 16, Reel 10</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00349</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="rmb"><persName key="Bucke, Richard Maurice">Richard Maurice Bucke</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Smith, Maria" ref="n0568">Maria Smith</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-01-11" who="#aja">final corrections for Ken</change>
+            <change when="2022-11-11" who="#smb">final check, corrected</change>
+            <change when="2022-11-11" who="#aja">checked, corrected</change>
+            <change when="2022-07-28" who="#nsb">checked and revised</change>
+            <change when="2021-12-10" who="#me">checked, corrected</change>
+            <change when="2015-05-08" who="#ak">added correspondent ref</change>
+            <change when="2014-08-15" who="#el">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-07" who="#cb">proofed</change>
+            <change when="2012-03-29" who="#nnk">proofed</change>
+            <change when="2012-02-29" who="#js">proofed</change>
+            <change when="2011-12-22" who="#ej">Transcribe/Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jc.00119_large.jpg" type="recto"/>
+            <note resp="#rmb" type="editorial" place="top"><hi rend="underline">From Bethuel's
+                    Mother</hi></note>
+            <opener>
+                <name type="place">Queensbury,</name>
+                <dateline>
+                    <date when="1875-03-14">March, the 14h 75</date>
+                </dateline>
+                <salute>Dear friend</salute>
+            </opener>
+
+            <p><choice>
+                    <sic>ireceived</sic>
+                    <corr>I received</corr>
+                </choice> your kind letter some time ago <choice>
+                    <sic>iwas</sic>
+                    <corr>I was</corr>
+                </choice> truly glad to hear from you <choice>
+                    <sic>iwas</sic>
+                    <corr>I was</corr>
+                </choice> sick and am not well now <choice>
+                    <sic>itook</sic>
+                    <corr>I took</corr>
+                </choice>
+                <choice>
+                    <sic>aheavy</sic>
+                    <corr>a heavy</corr>
+                </choice> cold had the Doctor Called once <choice>
+                    <sic>ihave</sic>
+                    <corr>I have</corr>
+                </choice> some Cough yet but go around the house and sit up the most of the time <choice>
+                    <sic>an</sic>
+                    <corr>and</corr>
+                </choice>
+                <choice>
+                    <sic>inhopes</sic>
+                    <corr>in hopes</corr>
+                </choice> of going out in <choice>
+                    <sic>afew</sic>
+                    <corr>a few</corr>
+                </choice> days we got <choice>
+                    <sic>Bethuels</sic>
+                    <corr>Bethuel's</corr>
+                </choice><ptr target="loc.01930_n3"/> papers and your picture and sent all the
+                things <choice>
+                    <sic>overto</sic>
+                    <corr>over to</corr>
+                </choice> him we all see the picture and was very much pleased to see it Mary said
+                that is the man that saved our brother's life to one of our neighbours Mary and
+                David<ptr target="loc.01930_n5"/> has gone to <pb xml:id="leaf001v" facs="loc_jc.00120_large.jpg" type="verso"/>
+                <note resp="#rmb" type="editorial" place="top">Mrs Smith (Bethuel's Mother)</note>
+                her brother, Halsey Smiths<ptr target="loc.01932_n2"/>
+                <choice>
+                    <sic>avisiting</sic>
+                    <corr>a visiting</corr>
+                </choice> now they will go to their boat the last of the month he says he will try
+                and find you when he goes to <choice>
+                    <sic>philidelphia</sic>
+                    <corr><name>Philadelphia</name></corr>
+                </choice> perhaps you will see them both this summer <choice>
+                    <sic>Bethuels</sic>
+                    <corr>Bethuel's</corr>
+                </choice> youngest little boy has <choice>
+                    <sic>ben</sic>
+                    <corr>been</corr>
+                </choice> scalded with tea on his stomach they sent for the Doctor that is the last
+                we have heard that is <choice>
+                    <sic>akind</sic>
+                    <corr>a kind</corr>
+                </choice> hearted little boy and <choice>
+                    <sic>agood</sic>
+                    <corr>a good</corr>
+                </choice> child <choice>
+                    <sic>ilove</sic>
+                    <corr>I love</corr>
+                </choice> him you mail your letters right we live in the south west part of the town
+                if you should mail your letter Queensbury it would go to the north part <choice>
+                    <sic>avillage</sic>
+                    <corr>a village</corr>
+                </choice>
+                <choice>
+                    <sic>bythe</sic>
+                    <corr>by the</corr>
+                </choice> name of the rider we <choice>
+                    <sic>dont</sic>
+                    <corr>don't</corr>
+                </choice> go there once <choice>
+                    <sic>ayear</sic>
+                    <corr>a year</corr>
+                </choice>
+                <pb xml:id="leaf002r" facs="loc_jc.00121_large.jpg" type="recto"/>
+                <choice>
+                    <sic>i</sic>
+                    <corr>I</corr>
+                </choice> thank you for all your <choice>
+                    <sic>preasants</sic>
+                    <corr>presents</corr>
+                </choice> you sent me <choice>
+                    <sic>i</sic>
+                    <corr>I</corr>
+                </choice> read with <choice>
+                    <sic>intrest</sic>
+                    <corr>interest</corr>
+                </choice> and thought of our kind friend although far away perhaps we all may see <choice>
+                    <sic>eachother</sic>
+                    <corr>each other</corr>
+                </choice> yet our Children are anxious to see you the picture you sent Bethuel looks
+                some like my grandfather Deen<ptr target="n5001"/> that is my <choice>
+                    <sic>fathers</sic>
+                    <corr>father's</corr>
+                </choice> father if Harvy Allen and Sally<ptr target="loc.01932_n3"/> should go to <choice>
+                    <sic>philadelphia</sic>
+                    <corr>Philadelphia</corr>
+                </choice> they will find you <choice>
+                    <sic>ishould</sic>
+                    <corr>I should</corr>
+                </choice> like to have your picture Bethuel has got the one you sent to his father
+                and me <choice>
+                    <sic>iwas</sic>
+                    <corr>I was</corr>
+                </choice> to Halsey Smith when <choice>
+                    <sic>irote</sic>
+                    <corr>I wrote</corr>
+                </choice> the other letter to you <choice>
+                    <sic>istayed</sic>
+                    <corr>I stayed</corr>
+                </choice> there <choice>
+                    <sic>sevral</sic>
+                    <corr>several</corr>
+                </choice> days they live about two miles from <choice>
+                    <sic>glensfalls</sic>
+                    <corr><name>Glens Falls</name></corr>
+                </choice>
+                <choice>
+                    <sic>iwent</sic>
+                    <corr>I went</corr>
+                </choice> to meeting one Sunday evening and enjoyed my <choice>
+                    <sic>meting</sic>
+                    <corr>meeting</corr>
+                </choice> firstrate <pb xml:id="leaf002v" facs="loc_jc.00122_large.jpg" type="verso"/> there was 1 baptised and <choice>
+                    <sic>sevral</sic>
+                    <corr>several</corr>
+                </choice> more received in <choice>
+                    <sic>ful</sic>
+                    <corr>full</corr>
+                </choice>
+                <choice>
+                    <sic>felowship</sic>
+                    <corr>fellowship</corr>
+                </choice> with the Church there has <choice>
+                    <sic>ben</sic>
+                    <corr>been</corr>
+                </choice>
+                <choice>
+                    <sic>areformation</sic>
+                    <corr>a reformation</corr>
+                </choice> to <choice>
+                    <sic>glens falls</sic>
+                    <corr>Glens Falls</corr>
+                </choice> this winter <choice>
+                    <sic>irejoiced</sic>
+                    <corr>I rejoiced</corr>
+                </choice> to see it the evening <choice>
+                    <sic>iwas</sic>
+                    <corr>I was</corr>
+                </choice> there they sung old fashioned hymns and old tunes it seemed like old times
+                when <choice>
+                    <sic>iwas</sic>
+                    <corr>I was</corr>
+                </choice> young <choice>
+                    <sic>idont</sic>
+                    <corr>I dont</corr>
+                </choice>
+                <choice>
+                    <sic>now</sic>
+                    <corr>know</corr>
+                </choice> as you can read my <choice>
+                    <sic>riting</sic>
+                    <corr>writing</corr>
+                </choice> but we feel anxious to hear from you and how you get along</p>
+
+            <closer>
+                <salute>god bless you with my best respects and love to you</salute>
+                <signed>from Maria Smith</signed>
+                <address>
+                    <addrLine>to Mr Walt Whitman</addrLine>
+                </address>
+                <salute>yours truly</salute>
+            </closer> 
+        </body> 
+    </text> 
+</TEI>

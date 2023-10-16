@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04709">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04709">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04709</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04709</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James W. Wallace</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00402</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -91,9 +88,8 @@
                 <choice>
                     <sic>shewed</sic>
                     <corr>showed</corr>
-                </choice> me your card of the 5<hi rend="underline">th</hi>,<ptr
-                    target="loc.04709_n3"/> which I read with thoughts &#38; emotions not to be
-                expressed.&#8212;</p>
+                </choice> me your card of the 5<hi rend="underline">th</hi>,<ptr target="loc.04709_n3"/> which I read with thoughts &amp; emotions not to be
+                expressed.—</p>
             <floatingText>
                 <body>
             <lg type="poem">
@@ -104,9 +100,9 @@
                 <lg type="linegroup">
                     <l>But heard are the Voices,</l>
                     <l>Heard are the Sages,</l>
-                    <l>The Worlds &#38; the ages</l>
+                    <l>The Worlds &amp; the ages</l>
                     <l>'Choose well: your choice is</l>
-                    <l>Brief &#38; yet endless.</l>
+                    <l>Brief &amp; yet endless.</l>
                 </lg>
                 <lg type="linegroup">
                     <l><hi rend="underline">Here eyes do regard you</hi></l>
@@ -118,20 +114,19 @@
                 </body>
             </floatingText>
             <pb xml:id="leaf001v" facs="loc_vm.01170.jpg" type="verso"/>
-            <p>How I long to hear the better reports of your health &#38; strength which are surely
+            <p>How I long to hear the better reports of your health &amp; strength which are surely
                 even now on the way. God grant it!</p>
-            <p>Last night a little group of friends met at Wentworth Dixon's<ptr
-                    target="loc.04709_n1"/> &#38; to present him with the copy of L. of G. you sent.
-                I made the presentation, &#38; W.D. was very much moved by it &#38; by your kind
-                inscription. Your portrait looked down on us from his wall &#38; we felt you to be
-                indeed one of us, kind, loving, &#38; blessing. Dr. J sang a song: specially written
-                for the occasion&#8212;in one line of which he spoke of the book as coming from our
+            <p>Last night a little group of friends met at Wentworth Dixon's<ptr target="loc.04709_n1"/> &amp; to present him with the copy of L. of G. you sent.
+                I made the presentation, &amp; W.D. was very much moved by it &amp; by your kind
+                inscription. Your portrait looked down on us from his wall &amp; we felt you to be
+                indeed one of us, kind, loving, &amp; blessing. Dr. J sang a song: specially written
+                for the occasion—in one line of which he spoke of the book as coming from our
                 "'good <pb xml:id="leaf002r" facs="loc_vm.01171.jpg" type="recto"/> grey Poet' to
-                our good grey Stoic"! (W.D. just 36 is quite grey&#8212;&#38; is an old lover of
-                Epictetus &#38; the Stoics<ptr target="loc.04709_n2"/>).</p>
-            <p>The weather here is very changeable&#8212;warm &#38; fine as in midsummer in the
+                our good grey Stoic"! (W.D. just 36 is quite grey—&amp; is an old lover of
+                Epictetus &amp; the Stoics<ptr target="loc.04709_n2"/>).</p>
+            <p>The weather here is very changeable—warm &amp; fine as in midsummer in the
                 beginning of the week, it is now very cold with occasional snow showers.</p>
-            <p>Loving thoughts &#38; sympathies &#38; prayerful good wishes to you.</p>
+            <p>Loving thoughts &amp; sympathies &amp; prayerful good wishes to you.</p>
             <closer>
                 <signed><hi rend="underline">Wallace</hi></signed>
             </closer>
@@ -140,4 +135,4 @@
             <pb xml:id="leaf003v" facs="loc_vm.01174.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

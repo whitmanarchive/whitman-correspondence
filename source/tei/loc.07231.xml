@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07231">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07231">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07231</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07231</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1888-09-03" xml:id="dat1">September 3, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,19 +84,16 @@
             <pb xml:id="leaf001r" facs="loc_es.00328.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07231_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/>London, Ont.,</name><date when="1888-09-03" rend="right"
-                            ><handShift rend="manuscript"/>3 Sept <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07231_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/>London, Ont.,</name><date when="1888-09-03" rend="right"><handShift rend="manuscript"/>3 Sept <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
-            <p>I have your note of 31st written on "November Boughs"<ptr target="n3999"/> paper&#8212;it is first class
-                and will make a handsome book&#8212;I hope you will not trim the margins but leave
-                the paper its full size&#8212;of course you will not trim the margins in vol. of
-                C.W.s<ptr target="n4151"/>? The weather here is wonderful&#8212;so cool, bright and cheery&#8212;the
-                place looks well&#8212;autumn flowers at their best&#8212;I fear, dear Walt, you are
-                feeling pretty miserable but you must not give up&#8212;there is a glorious future
+            <p>I have your note of 31st written on "November Boughs"<ptr target="n3999"/> paper—it is first class
+                and will make a handsome book—I hope you will not trim the margins but leave
+                the paper its full size—of course you will not trim the margins in vol. of
+                C.W.s<ptr target="n4151"/>? The weather here is wonderful—so cool, bright and cheery—the
+                place looks well—autumn flowers at their best—I fear, dear Walt, you are
+                feeling pretty miserable but you must not give up—there is a glorious future
                 ahead of you yet.</p>
             <closer>
                 <signed rend="right">RM Bucke</signed>

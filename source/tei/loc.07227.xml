@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07227">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07227">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07227</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07227</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 28 August 1888</title>
                     <date cert="high" when="1888-08-28" xml:id="dat1">August 28, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,36 +84,31 @@
             <pb xml:id="leaf001r" facs="loc_es.00310.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07227_n1"/><lb/> ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/>London, Ont.,</name><date when="1888-08-28" rend="right"
-                            ><handShift rend="manuscript"/>28 Aug <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07227_n1"/><lb/> ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/>London, Ont.,</name><date when="1888-08-28" rend="right"><handShift rend="manuscript"/>28 Aug <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
             <p>Many thanks for your note of 26th enclosing frontispiece and leaf from 
                 <choice>
                     <sic>Lippencott</sic> 
                     <corr>Lippincott</corr>
-                </choice>&#8212;it must be mighty slow for you staying in one room all the
-                time&#8212;I think they ought to fit up the two downstairs rooms for you and have
-                you there&#8212;you could sit by the window and see out would be more in the
-                world&#8212;do you not think you would like it better? it would be no trouble to
-                make the change&#8212;just put all the furniture you needed in those two rooms and
-                live in them day &#38; night&#8212;then why <pb xml:id="leaf001v"
-                    facs="loc_es.00311.jpg" type="verso"/> not have a low easy 
+                </choice>—it must be mighty slow for you staying in one room all the
+                time—I think they ought to fit up the two downstairs rooms for you and have
+                you there—you could sit by the window and see out would be more in the
+                world—do you not think you would like it better? it would be no trouble to
+                make the change—just put all the furniture you needed in those two rooms and
+                live in them day &amp; night—then why <pb xml:id="leaf001v" facs="loc_es.00311.jpg" type="verso"/> not have a low easy 
                 <choice>
                     <sic>carraige</sic>
                     <corr>carriage</corr>
                 </choice> 
                 call round for you <choice><sic>occationally</sic><corr>occasionally</corr></choice> on good days and drive a mile or two? It
-                would not be much but it would make a change&#8212;I would let the horse &#38; buggy
-                go and arrange for the easy carriage (hire it) in their place&#8212;I wish I could
-                better attend to such things&#8212;perhaps I will be after a while if the meter
-                turns out as we expect&#8212; I wish you would show this letter to Horace<ptr
-                    target="n4267"/> and authorise him to move in the matters mentioned or at all
-                events consult him on the points raised&#8212;yes, H. is first class, I do not know
-                what we should have done without him&#8212;all well here.</p>
+                would not be much but it would make a change—I would let the horse &amp; buggy
+                go and arrange for the easy carriage (hire it) in their place—I wish I could
+                better attend to such things—perhaps I will be after a while if the meter
+                turns out as we expect— I wish you would show this letter to Horace<ptr target="n4267"/> and authorise him to move in the matters mentioned or at all
+                events consult him on the points raised—yes, H. is first class, I do not know
+                what we should have done without him—all well here.</p>
             <closer>
                 <salute>Your friend</salute>
                 <signed rend="right">RM Bucke</signed>

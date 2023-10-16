@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01356">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01356">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01356</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive December be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01356</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -53,7 +50,7 @@
                     <date cert="high" when="1886-12-13" xml:id="dat1">December 13, 1886</date>
                     <idno type="callno">Box 8, Reel 5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -80,18 +77,17 @@
             <pb xml:id="leaf001v" facs="loc.01356.001_large.jpg" type="verso"/>
             <opener>
                 <dateline>
-                    <name type="place">328 Mickle street&#8212;Camden</name>
-                    <name type="place">New Jersey&#8212;U S. America<ptr target="loc.01356_n1"
-                        /></name>
-                    <date when="1886-12-13" rend="right">Dec. 13, '86&#8212;</date>
+                    <name type="place">328 Mickle street—Camden</name>
+                    <name type="place">New Jersey—U S. America<ptr target="loc.01356_n1"/></name>
+                    <date when="1886-12-13" rend="right">Dec. 13, '86—</date>
                 </dateline>
             </opener>
-            <p>Here I am, still, dear friend, &#38; nothing new or special&#8212;the last week I was
-                quite ill again, but am on the mend yesterday and to-day&#8212;Your good father
-                comes to see me often,<ptr target="loc.01356_n2"/> &#38; Logan paid me a nice visit
-                yesterday<ptr target="loc.01356_n3"/>&#8212;Your letter of Nov. 12 has been read &#38; re-read, &#38; quite gone
-                the rounds&#8212;much admired&#8212;I send you "My Book &#38; I," in
-                print&#8212;</p>
+            <p>Here I am, still, dear friend, &amp; nothing new or special—the last week I was
+                quite ill again, but am on the mend yesterday and to-day—Your good father
+                comes to see me often,<ptr target="loc.01356_n2"/> &amp; Logan paid me a nice visit
+                yesterday<ptr target="loc.01356_n3"/>—Your letter of Nov. 12 has been read &amp; re-read, &amp; quite gone
+                the rounds—much admired—I send you "My Book &amp; I," in
+                print—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03595">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Henry Romeike to Walt Whitman, 1 August 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Henry Romeike</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="eh">Ethan Heusser</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
+                        advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.03595</idno></publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>Henry Romeike</author>
+                    <title>Henry Romeike to Walt Whitman, 1 August 1891</title>
+                    <date cert="high" when="1891-08-01" xml:id="dat1">August 1, 1891</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8–9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00316</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Romeike, Henry" ref="loc.03595_n2">Henry Romeike</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-06-30" who="#aja">final corrections</change>
+            <change when="2022-03-18" who="#smb">final check, corrected</change>
+            <change when="2021-10-15" who="#me">checked, corrected</change>
+            <change when="2021-07-14" who="#aja">checked, corrected</change>
+            <change when="2020-06-05" who="#eh">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03595.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <handShift rend="printed"/>
+                    <name type="person">Henry Romeike</name>
+                    <name type="place">Branches: London, Paris, Berlin, Washington D.C.</name>
+                    <name type="place">110 Fifth Avenue.<ptr target="loc.03595_n1"/></name>
+                    <date when="1891-08-01">New York, <handShift rend="manuscript"/>Aug. 1, <handShift rend="printed"/>189<handShift rend="manuscript"/>1.</date>
+                </dateline>
+                <salute>Mr. Whitman</salute>
+                <salute>Dear Sir;—</salute>
+            </opener>
+            <p><handShift rend="printed"/>Your work is attracting considerable attention. Will you allow me to send 
+                you all notices concerning it that may appear in the papers of the United States and Canada.?<ptr target="loc.03595_n4"/></p>
+            <closer>
+                <salute>Yours faithfully,</salute>
+                <signed rend="right"><handShift rend="manuscript"/>Henry Romeike</signed>
+            </closer>
+
+            <pb xml:id="leaf001v" facs="loc.03595.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_tb.00120.jpg" type="recto"/>
+            <note type="editorial" resp="#ht" place="top">see notes Aug 3 1891</note>
+            <pb xml:id="leaf002v" facs="loc_tb.00121.jpg" type="recto"/>
+        </body>
+    </text>
+</TEI>

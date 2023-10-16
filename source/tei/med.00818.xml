@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00818">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00818">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00818</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00818</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,8 +53,8 @@
                             <pubPlace>Philadelphia</pubPlace>
                             <publisher>University of Pennsylvania Press</publisher>
                             <date when="1953">1953</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">487&#8211;488</biblScope>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">487–488</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -101,7 +97,7 @@
             <p>Your two postcards are to hand. I expect the printed
                 slips to Preface and Additional Note have reached you ere this; I told the
                 publishers to forward them. We have taken great pains to make the reprint
-                correct&#8212;following the American spelling, &#38;c., faithfully. It is all out of
+                correct—following the American spelling, &amp;c., faithfully. It is all out of
                 my hands now, and I do hope everything will turn out well. It has been rather a
                 troubled time with me lately, with far too much work on hand to do everything with
                 the ample margin for revisal that I like, but all's well that ends well. As there
@@ -112,7 +108,7 @@
             <p>By this post I send a copy of the Pall Mall Gazette with a paragraph taken from the
                 Additional Note to the new vol. The P.M.G usually treats me rather cavalierly over
                 my own things: the young fellows who do the literary part, and do it capitally
-                too&#8212;Henry Norman<ptr target="loc.00720_n1"/>, O. Wilde<ptr target="med.00818_n3"/> and so on&#8212;are
+                too—Henry Norman<ptr target="loc.00720_n1"/>, O. Wilde<ptr target="med.00818_n3"/> and so on—are
                 most of them university men, with rather a contempt for unacademic outsiders. In
                 the case of this paragraph I got young Horne to propose it to Norman, and so worked
                 the oracle. In the same paper, notice the article, Some April Insects, by Richard
@@ -122,11 +118,11 @@
                 passionate confession of faith and fear it was, with a sentiment in it that made
                 some of the critics say it must be inspired by your L. of G. If you have not yet
                 seen it, I should like to send it on. Jefferies is editing the vol. to follow yours
-                in the series&#8212;White's Selborne. He writes to tell me that he is an invalid,
+                in the series—White's Selborne. He writes to tell me that he is an invalid,
                 poor lover of all things bright and helpful. He lives down in Sussex, near the
                 sea.</p>
             <p>W.S. Kennedy<ptr target="n3039"/> sent over a fresh batch of addenda for his book. It
-                    <hi rend="italic">is</hi> unfortunate&#8212;this delay through Wilson's illness;
+                    <hi rend="italic">is</hi> unfortunate—this delay through Wilson's illness;
                 but Kennedy takes it very cheerily. He seems a fine impulsive fellow by his letters.
                 In the last one he proposes that I should try some other schemes for getting the
                 book afloat. We shall see. This evening Herbert Gilchrist<ptr target="n0262"/> is

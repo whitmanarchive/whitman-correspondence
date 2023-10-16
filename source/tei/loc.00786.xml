@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00786">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00786">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00786</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +37,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00786</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -49,9 +47,9 @@
                   <imprint>
                      <pubPlace>New York</pubPlace>
                      <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">141</biblScope>
+                     <date notBefore="1961" notAfter="1977">1961–1977</date>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="page">141</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -59,7 +57,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Mary A. Babbitt, 3 September 1863</title>
                <date when="1863-09-03">September 3, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -94,7 +92,7 @@
                <salute>Mary A. Babbitt,<ptr target="loc.00786_n2"/>
                </salute>
             </opener>
-            <p>I write you regarding your brother Caleb&#8212;I rec'd your letter of August 18th &amp; I have written to Caleb three letters since. But I have not heard a word about him, only your letter of August 18th&#8212;</p>
+            <p>I write you regarding your brother Caleb—I rec'd your letter of August 18th &amp; I have written to Caleb three letters since. But I have not heard a word about him, only your letter of August 18th—</p>
          
       </body>
    </text>

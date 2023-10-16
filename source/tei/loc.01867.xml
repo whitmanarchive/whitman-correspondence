@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01867">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John M. Rogers to Walt Whitman, 6 April 1871</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John M. Rogers</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="shively">Charley Shively</persName>
+                    <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt> 
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01867</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John M. Rogers</author>
+                    <title>John M. Rogers to Walt Whitman, 6 April 1871</title>
+                    <date cert="high" when="1871-04-06" xml:id="dat1">April 6, 1871</date>
+                    <idno type="callno">MSS18630, Box 15, Reel 9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00328</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Rogers, John M." ref="n0870">John M. Rogers</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-11-23" who="#smb">final check, corrected</change>
+            <change when="2022-07-31" who="#pw">checked</change>
+            <change when="2022-02-10" who="#cn">added image pointers for envelope</change>
+            <change when="2022-01-14" who="#aja">added image pointers for envelope</change>
+            <change when="2021-11-18" who="#aja">checked, corrected, added DOI and notes</change>
+            <change who="#ak" when="2015-05-08">added correspondent ref</change>
+            <change who="#nhg" when="2014-10-23">corrected image names</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-01-31" who="#cb">proofed</change>
+            <change when="2012-04-19" who="#js">proofed</change>
+            <change when="2011-03-28" who="#al">Checked</change>
+            <change when="2011-03-08" who="#kk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01867.007_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Brooklyn <date when="1871-04-06">April 6 1871<ptr target="loc.01867_n1"/></date></name>
+                </dateline>
+                <salute>Dear Father &amp; Friend</salute>
+            </opener>
+            <p>what is the <choice>
+                    <sic>mater</sic>
+                    <corr>matter</corr>
+                </choice> &amp; how do you do and how are you <choice>
+                    <sic>geting</sic>
+                    <corr>getting</corr>
+                </choice> along well I hope I am well now as can be expected after <choice>
+                    <sic>geting</sic>
+                    <corr>getting</corr>
+                </choice> off of a sick bed of four weeks with a fever I wrote you letter<ptr target="loc.01867_n2"/> some time ago and have not <choice>
+                    <sic>receved</sic>
+                    <corr>received</corr>
+                </choice> no answer as yet so thought I would write again I did not know but you
+                might be Sick</p>
+            <pb xml:id="leaf001v" facs="loc.01867.008_large.jpg" type="verso"/>
+            <p>I have lost a great deal of <choice>
+                    <sic>fleash</sic>
+                    <corr>flesh</corr>
+                </choice>
+                <choice>
+                    <sic>cince</sic>
+                    <corr>since</corr>
+                </choice> you last saw me I am looking quite thin now.</p>
+            <p>I am not doing any thing yet but I am <choice>
+                    <sic>gaing</sic>
+                    <corr>gaining</corr>
+                </choice> strength <choice>
+                    <sic>verry</sic>
+                    <corr>very</corr>
+                </choice> fast I should like very much to see you again hoping to hear from you
+                soon</p>
+            <closer>
+                <salute>I remain your truly good <choice>
+                        <orig>by</orig>
+                        <reg>bye</reg>
+                    </choice></salute>
+                <signed>Address John M Rogers<ptr target="loc.01868_n3"/></signed>
+                <address>
+                    <addrLine>No 3 Fulton St</addrLine>
+                    <addrLine>Brooklyn</addrLine>
+                    <addrLine>L.I.</addrLine>
+                </address>
+            </closer>
+            <postscript>
+                <p>P.S. Write soon for I <choice>
+                        <sic>ancious</sic>
+                        <corr>anxious</corr>
+                    </choice> to hear from you I remain your <choice>
+                        <sic>Affecinate</sic>
+                        <corr>Affectionate</corr>
+                    </choice> Son</p>
+                <p>John</p>
+            </postscript>
+            <pb xml:id="leaf002r" facs="loc.01867.009_large.jpg" type="recto"/>
+            <note type="editorial" place="left" resp="#ww">Jack Rogers | April 6 1871 | ans. Ap. 7.</note>
+            <pb xml:id="leaf003r" facs="loc.01866.010_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc_tb.00385.jpg" type="verso"/>
+        </body> 
+    </text>
+</TEI>

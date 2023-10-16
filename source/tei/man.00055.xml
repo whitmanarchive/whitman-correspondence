@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="man.00055">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="man.00055">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="crl">Courtney Rebecca Lawton</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="kmp">Kenneth M. Price</persName>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>man.00055</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>man.00055</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Kivas Tully</author>
@@ -100,9 +96,8 @@
                     Canadian Inland Navigation" which you expressed a wish to have as a matter of
                     reference.<ptr target="n3022"/></p>
                 <p>If you do not require the news on Inland Navigation after having looked over it, I
-                    shall be obliged if you <pb xml:id="leaf001v" facs="man_ej.00227_large.jpg"
-                        type="verso"/>would return as it is the only one I have and I took it out
-                    of a book for the purpose of forwarding it to you&#8212;But if you require it
+                    shall be obliged if you <pb xml:id="leaf001v" facs="man_ej.00227_large.jpg" type="verso"/>would return as it is the only one I have and I took it out
+                    of a book for the purpose of forwarding it to you—But if you require it
                     particularly for future reference you can keep it, as I dare say I could procure
                     an extract from the "Mail" in which it was published after it was read.</p>
                 <p>Trusting your stay on our side of the Great Lakes may be beneficial to you
@@ -115,25 +110,25 @@
                 </closer>
                 <pb xml:id="leaf002r" facs="man_ej.00228_large.jpg" type="recto"/>
                 <postscript>
-                    <p>P.S. You will excuse my putting Esqr after your name&#8212;I consider it would
-                        be out of place; and a mere empty title&#8212;</p>
+                    <p>P.S. You will excuse my putting Esqr after your name—I consider it would
+                        be out of place; and a mere empty title—</p>
                     <signed>K. T.</signed>
                 </postscript>
             </div1>
             <div1 type="enclosure" subtype="handwritten">
                 <pb xml:id="leaf003r" facs="man_ej.00158_large.jpg" type="recto"/>
                 <head type="main-authorial">Fluctuations of Lake Ontario from the year 1854, to the
-                    year 1878, inclusive&#8212;<lb/>Extracts from paper read at the Canadian
+                    year 1878, inclusive—<lb/>Extracts from paper read at the Canadian
                     Institute, Toronto <date when="1879-03-22">March 22nd 1879</date>. by Kivas
                     Tully, C. E.</head>
                 <p>"The great Lakes of North America are the reservoirs of the water shed which lies
-                    between 76&#176; and 92&#176; West long. and 42&#176; and 50&#176; north lat.
+                    between 76° and 92° West long. and 42° and 50° north lat.
                     running in a diagonal, or north westerly direction, between the above parallels
                     of Longitude and Latitude, about 1000 miles in length, and 400 miles in breadth,
                     in all about 400,000 square miles, the superficial area of the Lakes being about
                     100,000 square miles.</p>
                 <p>The following are the approximate dimensions of the several Lakes, and the
-                    heights above the sea level&#8212;
+                    heights above the sea level—
                 <table>
                     <row>
                         <cell/>
@@ -143,11 +138,11 @@
                         <cell>Above sea level</cell>
                     </row>
                     <row>
-                        <cell>Lake Superior&#8212;</cell>
-                        <cell>390 miles&#8212;</cell>
-                        <cell>160 miles&#8212;</cell>
-                        <cell>1000 feet&#8212;</cell>
-                        <cell>600 feet&#8212;</cell>
+                        <cell>Lake Superior—</cell>
+                        <cell>390 miles—</cell>
+                        <cell>160 miles—</cell>
+                        <cell>1000 feet—</cell>
+                        <cell>600 feet—</cell>
                     </row>
                     <row>
                         <cell>" Michigan.</cell>
@@ -209,14 +204,14 @@
                 </table></p>
                 <p>"The elevation of the mean surface of Lake Ontario from 1860 to 75 was 247.25
                     feet above <hi rend="underline">mean</hi> tide at Governor's Island, New York.
-                    The mean surface of Lake Erie was 573.58 feet&#8212;The above elevations have
+                    The mean surface of Lake Erie was 573.58 feet—The above elevations have
                     been determined by levels taken in 1875, and have been checked with beach marks
                     at New York, Albany, Oswego, Port Dalhousie, and Port Colborne, per United
-                    States Survey"&#8212;</p>
+                    States Survey"—</p>
             </div1>
             <div1 type="enclosure">
                 <pb xml:id="leaf004r" facs="man_ej.00160_large.jpg" type="recto"/>
-                <head type="main-authorial"><handShift rend="printed"/>SIZE OF OUR GREAT LAKES.&#8212;</head>
+                <head type="main-authorial"><handShift rend="printed"/>SIZE OF OUR GREAT LAKES.—</head>
                 <p><handShift rend="printed"/>The latest measurements of our fresh water seas are these:</p>
                 <p><handShift rend="printed"/>The greatest length of Lake Superior is 335 miles; its greatest breadth is 160
                     miles; mean depth 988 feet; elevation 627 feet: area 32,000 square miles.</p>
@@ -250,8 +245,7 @@
                     ordered a ship to be built at Anse des Meres. The first Quebec-built craft which
                     sailed across the ocean had been modelled on the banks of the St. Charles in
                     1703, eleven years later, in 1714 the New England colonists of Plymouth launched
-                    the first New England-built schooner which ploughed the briny billows <hi
-                        rend="italic">en route</hi> to England. In 1722 six vessels of tolerable
+                    the first New England-built schooner which ploughed the briny billows <hi rend="italic">en route</hi> to England. In 1722 six vessels of tolerable
                     tonnage were launched in the St. Charles from a spot now called "Marine Hospital
                     Cove." Since that time 3,873 ships have been built at Quebec representing a
                     tonnage of 1,285,842 to the 31st December, 1875; 84 ships representing a total
@@ -301,8 +295,7 @@
                     steamboat, the "Accommodation," launched on the St. <choice>
                         <sic>Lawence</sic>
                         <corr>Lawrence</corr>
-                    </choice> and quotes a description of her from the Quebec <hi rend="italic"
-                        >Mercury.</hi></p>
+                    </choice> and quotes a description of her from the Quebec <hi rend="italic">Mercury.</hi></p>
                 <p><handShift rend="printed"/>In a lecture at the Mechanics' Institute at St. Catharines in 1857, by the Hon.
                     W. H. Merritt, it was stated: From the earliest settlement of Upper Canada, in
                     1790, until the opening of the Erie Canal (in 1825), almost every article
@@ -374,7 +367,7 @@
                     improvement which calls for notice is that of the Welland canal, which was
                     commenced in 1824 and completed in 1829. The locks were of wood, 40 in number,
                     100 feet in length, 22 feet in width, with 7 feet of water. This canal was
-                    enlarged between 1841 and 1845, the locks being 180 feet by 26&#189; feet, and
+                    enlarged between 1841 and 1845, the locks being 180 feet by 26½ feet, and
                     10 feet of water, except the locks between St. Catharines, which were 200 feet
                     long and 45 feet in width, thereby rendering St. Catharines the head of the St.
                     Lawrence canal navigation. A still further enlargement commenced in 1872, is now
@@ -390,14 +383,14 @@
                     length and 70 feet in width, with a total rise of water of 18 feet, and allowing
                     vessels drawing 12 feet of water to pass through, which is proposed to be
                     increased to 14 feet. The total length of the canals is 72 miles and the number
-                    of locks 56, with a total rise of 554&#189; feet, from tide-water to the level
-                    of Lake Superior, 600 feet, the difference, 45&#189; feet, being the fall allowed
+                    of locks 56, with a total rise of 554½ feet, from tide-water to the level
+                    of Lake Superior, 600 feet, the difference, 45½ feet, being the fall allowed
                     in the several portions of the river.</p>
-                <p><handShift rend="printed"/>In reference to competition with the Erie Canal, Mr. Tully said:&#8212;As I
-                    understand the matter, the question to be answered is this:&#8212;Will the
+                <p><handShift rend="printed"/>In reference to competition with the Erie Canal, Mr. Tully said:—As I
+                    understand the matter, the question to be answered is this:—Will the
                     enlargement of the Welland and St. Lawrence canals ensure the diversion of the
                     Western trade from the Erie canal to the St. Lawrence? I think not, for the
-                    following reasons:&#8212;Judging by past experiences it appears reasonable to
+                    following reasons:—Judging by past experiences it appears reasonable to
                     suppose that the bulk of the Western trade having passed the St. Clair river and
                     reached the eastern end of Lake Erie, will find its way to New York by the Erie
                     canal. To compare distances, which is, after all, the important consideration,
@@ -444,7 +437,7 @@
                 <p><handShift rend="printed"/>We print this morning the annual statement of the business done in Chicago during
                     the year which closed yesterday. The aggregate of values of the wholesale trade
                     amount to $621,500,000 currency, as against $652,000,000 in 1876, or, computing
-                    the paper dollar at an average of 95&#190; cents in 1877 and at 90 cents in
+                    the paper dollar at an average of 95¾ cents in 1877 and at 90 cents in
                     1876, we have aggregate gold value in 1877 of $595,000,000, against $586,800,000
                     in 1876, and this with an almost standstill of the trade with the interior
                     during a large part of the last six weeks. There is a decline in the aggregate
@@ -518,8 +511,7 @@
                                         <abbr>bu</abbr>
                                         <expan>bushels</expan>
                                     </choice></cell>
-                                <cell>1,740,<unclear reason="illegible" cert="low" resp="#crl"
-                                        >53</unclear>0</cell>
+                                <cell>1,740,<unclear reason="illegible" cert="low" resp="#crl">53</unclear>0</cell>
                                 <!-- I did the math, and the number that should be in this column is 1,273,250, a figure that bears little resemblance to the number in print-crl -->
                                 <cell>1,447,917</cell>
                                 <cell>699,583</cell>
@@ -2897,8 +2889,7 @@
                         shoes, clothing, stoves, etc., manufactured here also enter into the
                         wholesale trade; the brick manufacture is counted a second time in the cost
                         of buildings; packing boxes and cooperage manufactures are again included in
-                        the statistics of hog-packing, etc. To obtain something like a <hi
-                            rend="italic">correct</hi> statement of the value of our trade and
+                        the statistics of hog-packing, etc. To obtain something like a <hi rend="italic">correct</hi> statement of the value of our trade and
                         industries, we must subtract for the above some $71,000,000. Then we have:
                     <table>
                         <row>
@@ -2922,8 +2913,7 @@
                             <cell>596,000,000</cell>
                         </row>
                         <row>
-                            <cell>Total from <date when="1871-10-11">Oct. 11, 1871</date> to <date
-                                    when="1872-10-11">Oct. 11, 1872</date>.....</cell>
+                            <cell>Total from <date when="1871-10-11">Oct. 11, 1871</date> to <date when="1872-10-11">Oct. 11, 1872</date>.....</cell>
                             <cell>490,000,000</cell>
                         </row>
                         <row>

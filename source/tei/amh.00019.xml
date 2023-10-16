@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="amh.00019">
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Talcott Williams, 22 September 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor> 
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aja">Amanda J. Axley </persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>amh.00019</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Talcott Williams, 22 September 1891</title>
+                    <date cert="medium" when="1891-09-22" xml:id="dat1">September 22, 1891</date>
+                    <orgName xml:id="amh">Amherst College Archives and Special Collections</orgName>
+                </bibl>
+            </sourceDesc>   
+        </fileDesc>   
+        <profileDesc>  
+            <handNotes>
+                <handNote xml:id="unk"><persName>Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Williams, Talcott" ref="loc.05142_n5">Talcott Williams</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-12" who="#aja">final corrections</change>
+            <change when="2022-04-15" who="#smb">final checked, corrected</change>
+            <change when="2021-10-13" who="#aja">2nd check, notes</change>
+            <change when="2021-07-15" who="#aja">checked, corrected</change>
+            <change when="2021-09-22" who="#rf">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="amh.00019.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">328 Mickle St: Camden<ptr target="amh.00019_n1"/></name>
+                </dateline>
+            </opener>
+            <p>Certainly come over &amp; Mr. Willard<ptr target="amh.00019_n4"/> too—I 
+                keep on much the same. Fox<ptr target="loc.07855_n10"/> has not
+            sent yet<ptr target="amh.00019_n3"/>—</p>
+            <note type="editorial" place="left" resp="#unk">1819–92</note>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="amh.00019.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

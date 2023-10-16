@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00823">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00823">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="if">Ian Faith</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00823</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00823</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,10 +52,10 @@
                         <title xml:id="ht">With Walt Whitman in Camden</title>
                         <imprint>
                             <pubPlace>Boston</pubPlace>
-                            <publisher>Small, Maynard &#38; Company</publisher>
+                            <publisher>Small, Maynard &amp; Company</publisher>
                             <date notBefore="1906" notAfter="1906">1906</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">496&#8211;497</biblScope>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">496–497</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -102,8 +99,7 @@
             <p>From facts in my possession I am quite sure that you would be very successful for the
                 cultured class of Great Britain have an abiding interest in you and everything which
                 concerns you. I should be willing to guarantee you a stated sum or if you would
-                prefer it star you on a percentage. My friend and yours, R. Macaulay Stevenson<ptr
-                    target="n4298"/> of Glasgow, perhaps better known to you as "Calamus," thinks
+                prefer it star you on a percentage. My friend and yours, R. Macaulay Stevenson<ptr target="n4298"/> of Glasgow, perhaps better known to you as "Calamus," thinks
                 that your reception throughout Scotland would partake of the character of an
                 ovation.</p>
             <p>Pray let me hear from you, and you believe me, with sentiments of the deepest

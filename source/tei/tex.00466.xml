@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00466">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00466">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00466</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00466</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct> 
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">87</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">87</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -101,22 +97,20 @@
                 </dateline>
                 <salute>Dear C W E</salute>
             </opener>
-            <p>Yours came this forenoon, &#38; was read &#38; reread, &#38; dispatched on the round
-                to Kennedy,<ptr target="n3039"/> John Burroughs,<ptr target="n0129"/> &#38; Dr.
-                    Bucke<ptr target="n0119"/>&#8212;all so anxious to get definite news from
-                William.<ptr target="n2002"/> It somehow seems the most encouraging yet&#8212;God grant our dear friend
-                may indeed get complete recovery&#8212;Write often as you can, dear friend. With me
-                &#38; my affairs no great ripple&#8212;I am worldlily comfortable &#38; in good
-                physical condition as usual of late&#8212;I went on to New York&#8212;was convoyed
-                by my dear old Quaker friend R Pearsall Smith<ptr target="n4979"/>&#8212;had a
-                success at the lecture 14th<ptr target="yal.00238_n3"/> (netted $600 for my self&#8212;Andrew Carnegie<ptr
-                    target="loc.03486_n1"/> gave $350 for his box)&#8212;had a stunning <hi
-                    rend="italic">reception</hi>&#8212;I think 300 people, many ladies&#8212;that
-                evn'g Westminster Hotel&#8212;newspapers friendly, everybody friendly even the
-                authors&#8212;&#38; returned here Friday 4 p m train from N Y. in good
-                order&#8212;Am going over to Phila: this p m to be sculp'd by St Gaudiens, the N Y
-                sculptor<ptr target="tex.00466_n1"/> who has come on, to do it&#8212;Signs of spring rather late, but
-                here&#8212;I am call'd to dinner (baked shad)&#8212;</p>
+            <p>Yours came this forenoon, &amp; was read &amp; reread, &amp; dispatched on the round
+                to Kennedy,<ptr target="n3039"/> John Burroughs,<ptr target="n0129"/> &amp; Dr.
+                    Bucke<ptr target="n0119"/>—all so anxious to get definite news from
+                William.<ptr target="n2002"/> It somehow seems the most encouraging yet—God grant our dear friend
+                may indeed get complete recovery—Write often as you can, dear friend. With me
+                &amp; my affairs no great ripple—I am worldlily comfortable &amp; in good
+                physical condition as usual of late—I went on to New York—was convoyed
+                by my dear old Quaker friend R Pearsall Smith<ptr target="n4979"/>—had a
+                success at the lecture 14th<ptr target="yal.00238_n3"/> (netted $600 for my self—Andrew Carnegie<ptr target="loc.03486_n1"/> gave $350 for his box)—had a stunning <hi rend="italic">reception</hi>—I think 300 people, many ladies—that
+                evn'g Westminster Hotel—newspapers friendly, everybody friendly even the
+                authors—&amp; returned here Friday 4 p m train from N Y. in good
+                order—Am going over to Phila: this p m to be sculp'd by St Gaudiens, the N Y
+                sculptor<ptr target="tex.00466_n1"/> who has come on, to do it—Signs of spring rather late, but
+                here—I am call'd to dinner (baked shad)—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

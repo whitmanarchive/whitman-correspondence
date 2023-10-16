@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00540">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00540">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00540</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -44,7 +41,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00540</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -54,9 +51,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">390</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">390</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -93,11 +90,11 @@
                     <name type="place">Camden N J</name>
                     <date when="1885-05-24" rend="right">May 24<ptr target="nyp.00540_n1"/></date>
                 </dateline>
-                <salute>Dear J B&#8212;</salute>
+                <salute>Dear J B—</salute>
             </opener>
-            <p>I am ab't in my usual general health, but <hi rend= "italic">lameness bad</hi>&#8212;had a fall a month ago,
-                &#38; turned my ankle in&#8212;don't think I will be able to come up to West
-                Park&#8212;</p>
+            <p>I am ab't in my usual general health, but <hi rend="italic">lameness bad</hi>—had a fall a month ago,
+                &amp; turned my ankle in—don't think I will be able to come up to West
+                Park—</p>
             <closer> 
                 <signed>W W</signed>
             </closer>

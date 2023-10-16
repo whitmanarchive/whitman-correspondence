@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01964">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William H. Taylor to Walt Whitman, 21 June 1874</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William H. Taylor</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01964</idno></publicationStmt>            
+            <sourceDesc>
+                <bibl>
+                    <author>William H. Taylor</author>
+                    <title>William H. Taylor to Walt Whitman, 21 June 1874</title>
+                    <date cert="high" when="1874-06-21" xml:id="dat1">June 21, 1874</date>
+                    <idno type="callno">MSS18630, Box 17, Reel 10–11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00381</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Taylor, William H." ref="n0623b">William H. Taylor</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-08" who="#smb">final check, updated</change>
+            <change when="2023-07-11" who="#aja">final corrections for Ed</change>
+            <change when="2023-05-11" who="#aja">updated corr ref</change>
+            <change when="2022-10-27" who="#aja">checked, corrected</change>
+            <change when="2022-03-10" who="#cn">checked, corrected</change>
+            <change when="2021-12-02" who="#me">checked, corrected</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-14" who="#cb">Proofed</change>
+            <change when="2012-05-09" who="#ej">Checked and Corrected</change>
+            <change when="2012-03-14" who="#al">checked and corrected</change>
+            <change when="2012-01-24" who="#js">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.00437_large.jpg" type="recto"/>
+            <opener>
+                <note type="editorial" resp="#ww" place="top">Wm. H. Taylor 201 Elm St. Newark N.J. (sent p.card April 27) 
+                    <gap reason="illegible"/></note>
+                <dateline>
+                    <name type="place">201 Elm St.</name>
+                    <name type="place">Newark, New Jersey</name>
+                    <date when="1874-06-21"><hi rend="underline">June 21st, 1874</hi></date>
+                </dateline>
+                <salute>My Dear Friend</salute>
+            </opener>
+            <p>Your Letters &amp; papers came duly at hand.<ptr target="n5002h"/> But I did not know that you had been 
+                sick<ptr target="duk.00623_n16"/> until I received your Letter; But I hope you are improving, 
+                and will finally get all right again.</p>
+            <p>I left New York in Oct. 1868, and me and my Brother started A Milk Depot here And we 
+                <gap reason="illegible" quantity="3" unit="word"/> 
+                <unclear reason="illegible" resp="#cn" cert="low">until</unclear> the Spring of 72. When we 
+                separated and I commenced 
+                to <hi rend="underline">Paddle my own Canoe:</hi> I have A small route And keep A 
+                <hi rend="underline">Depot.</hi> And am making A fortune very Slow indeed, so slow—that 
+                I shall never get rich;                
+                <pb xml:id="leaf001v" facs="loc_vm.00438_large.jpg" type="verso"/> 
+                Business is <unclear reason="illegible" resp="#cn" cert="medium">very steady here</unclear> 
+                at present And <unclear reason="illegible" resp="#cn" cert="high">there is so much</unclear> 
+                opposition in the milk trade and A great reduction in the price from 10 to 6 
+                <hi rend="underline">cts</hi> per quart. While the Wholesale prices remain about the Same</p>
+            <p>You speak about your old friends in New York. Since I left there I have Seen But few of the old 
+                Drivers, Henry Taylor alias (Sap Back), William Baun alias (Baulky Bill) and old Pop Rier is 
+                the only ones that have Been over to see me.<ptr target="loc.01964_n2"/> Taylor was over last week And 
+                he was speaking about 
+                <unclear reason="illegible" resp="#cn" cert="low">how</unclear> 
+                <unclear reason="illegible" resp="#cn" cert="medium">He</unclear> is 
+                <gap reason="illegible" quantity="4" unit="chars"/>gent
+                for Sewing (<unclear reason="illegible" resp="#cn" cert="medium">machines</unclear>
+                And lives at <gap reason="illegible" extent="unk"/> City. the war cleared out A good many of the 
+                old veteran drivers, And now I hear they have got the patent 
+                Boxes in all the Stages which will 
+                drop off A few more</p>                
+                <pb xml:id="leaf002r" facs="loc_vm.00439_large.jpg" type="recto"/>
+                <p><unclear reason="illegible" resp="#cn" cert="medium">young Walter</unclear> is growing 
+                very fast And Begins to notice things in general, And has never seen A sick day So far. And all the rest 
+                of us are in our usual good Health: I should very much like to come and see you—But my time is 
+                pretty much Occupied. But should very much like <choice><sic>you come</sic><corr>you to come</corr></choice> 
+                and see me at any time you feel able.</p>
+            <p>Enclosed you will find A Card which my friends say resembles your Humble Servant Very Much</p>
+            <p><unclear reason="illegible" resp="#cn" cert="low">you shall please write soon</unclear> 
+                And send me any papers you <unclear reason="illegible" cert="medium" resp="#me">like</unclear> 
+                when convenient. I suppose this is your last production:</p>
+            <closer>
+                <salute>My Best Wishes from your friend,</salute>
+                <signed>William H. Taylor</signed>
+                <salute><hi rend="underline">So Long</hi></salute>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc_vm.00440_large.jpg" type="verso"/>
+        </body>
+    </text>  
+</TEI>

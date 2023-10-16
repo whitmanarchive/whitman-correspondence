@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00410">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00410">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00410</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00410</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,8 +54,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1964">1964</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">133&#8211;134</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">133–134</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -94,18 +90,18 @@
             <opener>
                 <dateline>
                     <name type="place" rend="right">Camden<ptr target="nyp.00410_n1"/></name>
-                    <date when="1878-08-15" rend="right">August 15&#8212;3 p m<ptr target="nyp.00410_n2"/></date>
+                    <date when="1878-08-15" rend="right">August 15—3 p m<ptr target="nyp.00410_n2"/></date>
                 </dateline>
                 <salute>Dear Harry</salute>
             </opener>
 
-            <p>I wrote Bart Bonsall a note yesterday about getting you a situation, &#38; stopt there <choice><abbr>ab't</abbr><expan>about</expan></choice> noon to see him <choice><orig>to-day</orig><reg>today</reg></choice>&#8212;but they told me he was away &#38; would not be back <choice><orig>to-day</orig><reg>today</reg></choice>&#8212;There is no news to write&#8212;all goes on pretty much the same with me&#8212;Harry, I send you a couple of <choice><orig>to-day</orig><reg>today</reg></choice>'s papers&#8212;Things rather dull with me&#8212;I am only middling well&#8212;(have probably banged around too much the last three months &#38; too much excitement)&#8212;</p>
+            <p>I wrote Bart Bonsall a note yesterday about getting you a situation, &amp; stopt there <choice><abbr>ab't</abbr><expan>about</expan></choice> noon to see him <choice><orig>to-day</orig><reg>today</reg></choice>—but they told me he was away &amp; would not be back <choice><orig>to-day</orig><reg>today</reg></choice>—There is no news to write—all goes on pretty much the same with me—Harry, I send you a couple of <choice><orig>to-day</orig><reg>today</reg></choice>'s papers—Things rather dull with me—I am only middling well—(have probably banged around too much the last three months &amp; too much excitement)—</p>
           
             <closer>
                 <signed rend="right">WW</signed>
             </closer>
             <postscript>
-                <p>I will be down Saturday in the 4&#189; p m train<ptr target="nyp.00410_n3"/>&#8212;</p>
+                <p>I will be down Saturday in the 4½ p m train<ptr target="nyp.00410_n3"/>—</p>
             </postscript> 
         </body>
     </text>

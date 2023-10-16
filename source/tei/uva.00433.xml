@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00433">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00433">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00433</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00433</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">232&#8211;233</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">232–233</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -97,46 +93,44 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1881-07-06">July 6&#8212;Afternoon</date>
+                    <date when="1881-07-06">July 6—Afternoon</date>
                 </dateline>
                 <salute>Dear Sister Lou</salute></opener>
 
             <p>There is nothing very new &amp; I suppose George has written to you, as he returned
-                about 6 p m yesterday all right&#8212;but I thought I would drop a line<ptr
-                    target="uva.00433_n1"/>&#8212;</p>
+                about 6 p m yesterday all right—but I thought I would drop a line<ptr target="uva.00433_n1"/>—</p>
             <p>Of course the shooting of President Garfield<ptr target="uva.00433_n2"/> is the
                 general subject, &amp; has depressed me much, but for the last twenty four hours,
-                his case is so much more favorable&#8212;We had the most horrible <hi rend="italic">celebration</hi> here I ever knew, commenced at dark Sunday night, continued
+                his case is so much more favorable—We had the most horrible <hi rend="italic">celebration</hi> here I ever knew, commenced at dark Sunday night, continued
                 all night &amp; of course next day, ruffians yelling, crackers, and all the old guns
                 &amp; pistols of all Jersey, with all the bad elements of humanity completely let
                 loose &amp; making the most infernal din possible to conceive for over thirty hours
-                without a moments intermission&#8212;Over in Philadelphia perfectly quiet, (all the
-                bad stuff probably came over here)&#8212;very hot indeed here the last four days,
-                &amp; continues still&#8212;I am standing it well&#8212;I take my meals at Mrs
-                    Wroth's<ptr target="uva.00433_n3"/> &amp; find it a very good place&#8212;it was
-                a good move, my going there&#8212;Mrs W is very kind&#8212;Tip has been all right
-                &amp; has had his meals regular&#8212;a little off his feed &amp; off <hi
-                    rend="italic">his bark</hi> this morning, I suppose from the great heat, &amp;
-                folks away&#8212;Arthur Stanley lives now over at the Chevaliers, with his new
-                    wife<ptr target="uva.00433_n4"/>&#8212;his little boy <choice>
+                without a moments intermission—Over in Philadelphia perfectly quiet, (all the
+                bad stuff probably came over here)—very hot indeed here the last four days,
+                &amp; continues still—I am standing it well—I take my meals at Mrs
+                    Wroth's<ptr target="uva.00433_n3"/> &amp; find it a very good place—it was
+                a good move, my going there—Mrs W is very kind—Tip has been all right
+                &amp; has had his meals regular—a little off his feed &amp; off <hi rend="italic">his bark</hi> this morning, I suppose from the great heat, &amp;
+                folks away—Arthur Stanley lives now over at the Chevaliers, with his new
+                    wife<ptr target="uva.00433_n4"/>—his little boy <choice>
                     <abbr>bro't</abbr>
                     <expan>brought</expan>
                 </choice> me over a nice piece of wedding cake Sunday which I took down to Alice
-                    Wroth<ptr target="uva.00433_n5"/>&#8212;</p>
-            <p>The <hi rend="italic">house</hi> is all right so far&#8212;I try to keep as cool as
-                I can&#8212;what with bathing &amp; ventilation, &amp; of course you will find some
-                litter when you come back&#8212;</p>
-            <p>I send some <hi rend="italic">Ledgers</hi>&#8212;I am writing this in the dining
-                room, by open window&#8212;George was writing early forenoon, but has gone
-                out&#8212;Tip has commenced a good barking at last (11&#189; oclock) after being
-                quiet all the forenoon&#8212;I was afraid something was the matter with
-                him&#8212;</p>
-            <p>I am busy five or six hours yet every day with the copy of my book&#8212;hard work to
+                    Wroth<ptr target="uva.00433_n5"/>—</p>
+            <p>The <hi rend="italic">house</hi> is all right so far—I try to keep as cool as
+                I can—what with bathing &amp; ventilation, &amp; of course you will find some
+                litter when you come back—</p>
+            <p>I send some <hi rend="italic">Ledgers</hi>—I am writing this in the dining
+                room, by open window—George was writing early forenoon, but has gone
+                out—Tip has commenced a good barking at last (11½ oclock) after being
+                quiet all the forenoon—I was afraid something was the matter with
+                him—</p>
+            <p>I am busy five or six hours yet every day with the copy of my book—hard work to
                 get it in the shape I want it.</p>
-            <p>As I finish it is after noon &amp; very hot &amp; oppressive&#8212;Love to you &amp;
-                all&#8212;tell little Amy<ptr target="uva.00433_n6"/> I have not forgotten her,
+            <p>As I finish it is after noon &amp; very hot &amp; oppressive—Love to you &amp;
+                all—tell little Amy<ptr target="uva.00433_n6"/> I have not forgotten her,
                 &amp; that I am going to give Tip a nice sweet coffee-cake for his
-                dinner&#8212;George has just returned&#8212;</p>
+                dinner—George has just returned—</p>
 
             <closer>
                 <signed rend="right">W.W.</signed>

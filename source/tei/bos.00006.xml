@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bos.00006">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bos.00006">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,7 +27,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>bos.00006</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +39,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>bos.00006</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -51,9 +49,9 @@
                   <imprint>
                      <pubPlace>New York</pubPlace>
                      <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">75-76</biblScope>
+                     <date notBefore="1961" notAfter="1977">1961–1977</date>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="page">75-76</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -96,8 +94,8 @@
                </date>
                </dateline>
             </opener>
-            <p>John, I write to call your attention to an article, (Times correspondence,) I have just written &amp; sent about the Military Hospitals here<ptr target="bos.00006_n4"/>&#8212;as they are so generally and sadly interesting to the public. You will easily recognize the article&#8212;I enclose you my address&#8212;write me a line about it, at your leisure&#8212;(to-morrow or next day.)</p>
-            <p>Is William<ptr target="bos.00006_n5"/> in New York&#8212;or where?</p>
+            <p>John, I write to call your attention to an article, (Times correspondence,) I have just written &amp; sent about the Military Hospitals here<ptr target="bos.00006_n4"/>—as they are so generally and sadly interesting to the public. You will easily recognize the article—I enclose you my address—write me a line about it, at your leisure—(to-morrow or next day.)</p>
+            <p>Is William<ptr target="bos.00006_n5"/> in New York—or where?</p>
             <p>The article is to be paid for.</p>
             <closer rend="right">
                <signed>Walt.</signed>

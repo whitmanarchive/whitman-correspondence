@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bow.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bow.00001">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to E. H. Hames &#38; Co., 16 January
+                <title level="m" type="main">Walt Whitman to E. H. Hames &amp; Co., 16 January
                     1881</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor> 
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>bow.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,11 +45,11 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>bow.00001</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to E. H. Hames &#38; Co., 16 January 1881</title>
+                    <title>Walt Whitman to E. H. Hames &amp; Co., 16 January 1881</title>
                     <date cert="high" when="1881-01-16" xml:id="dat1">January 16, 1881</date>
                     <orgName xml:id="bow">Bowdoin College, Brunswick, ME</orgName>
                 </bibl>
@@ -65,7 +61,7 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="E. H. Hames &#38; Co.">E. H. Hames &#38; Co.</persName>
+                    <persName key="E. H. Hames &amp; Co.">E. H. Hames &amp; Co.</persName>
                 </person>
             </particDesc>
         </profileDesc>
@@ -92,8 +88,7 @@
                 <salute>E H Hames &amp; Co:</salute>
                 <salute>Dear Sirs</salute>
             </opener>
-            <p>Thanks for your kind invitation to write an article on Longfellow for the <hi
-                    rend="underline">World</hi><!--<ptr target="n3036"/>-->&#8212;but I shall have to decline&#8212;I cannot get
+            <p>Thanks for your kind invitation to write an article on Longfellow for the <hi rend="underline">World</hi><!--<ptr target="n3036"/>-->—but I shall have to decline—I cannot get
                 my wits to work to say any thing on that subject that I should like to have go forth,
                 satisfactory to myself. Please see an article by me in the forthcoming number of the
                     <hi rend="underline"><choice>
@@ -101,11 +96,10 @@
                         <expan>North American</expan>
                     </choice> Review</hi> for February,<!--<ptr target="n3037"/>--> in which I have ventilated some of my
                 notions on Poetry in America. The article from the <hi rend="underline">London
-                    Times</hi> (June '78) there alluded to &#38; partially extracted from,<!--<ptr target="n3038"/>--> ought to
-                be printed here in this country in full&#8212;how would you like to do
-                it?&#8212;would make &#190; or less
-                of one of your pages close&#8212;if yes I will send you the <hi rend="underline"
-                    >Times</hi> with it in.</p>
+                    Times</hi> (June '78) there alluded to &amp; partially extracted from,<!--<ptr target="n3038"/>--> ought to
+                be printed here in this country in full—how would you like to do
+                it?—would make ¾ or less
+                of one of your pages close—if yes I will send you the <hi rend="underline">Times</hi> with it in.</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

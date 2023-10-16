@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01602">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">James Arnold to Walt Whitman, 21 August 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James Arnold</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01602</idno></publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author>James Arnold</author>
+                    <title>James Arnold to Walt Whitman, 21 August 1876</title>
+                    <date cert="high" when="1876-08-21" xml:id="dat1">August 21, 1876</date>
+                    <idno type="callno">MSS18630 Box 4 Reel 2–3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00093</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="document" xml:id="rel01" target="wwa.00728"/>
+                    <relatedItem type="text" target="loc.02837"/>
+                    <note type="project" target="#rel01">Whitman drafted his September 4, 1876, letter to Robert Buchanan
+                    on the verso of this letter he received from James Arnold.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc>
+
+                <person role="sender">
+                    <persName key="Arnold, James" ref="n4990">James Arnold</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-05-06" who="#smb">final check, corrected, added DOI and multitext encoding</change>
+            <change when="2022-12-29" who="#aja">checked, corrected</change>
+            <change when="2022-03-24" who="#em">checked</change>
+            <change when="2022-01-12" who="#aja">checked, corrected, added DOI and notes</change>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-10-29" who="#cb">checked</change>
+            <change when="2012-03-01" who="#al">checked and corrected</change>
+            <change when="2012-02-01" who="#js">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01602.001_large_mflm.jpg" type="recto"/>
+            <opener>
+                <handShift rend="printed"/>
+                <dateline rend="right">
+                    <name type="place">James Arnold</name>
+                    <name type="place">Blank Book Manufacturer</name>
+                    <name type="place">No. 22 South Fifth St. 2nd floor.</name>
+                    <name type="place">Philadelphia</name>
+                    <handShift rend="manuscript"/>
+                    <date when="1876-08-21">Aug 21 <handShift rend="printed"/>187<handShift rend="manuscript"/>6<ptr target="loc.08226_n1"/></date>
+                </dateline>
+                <salute>Dear Sir</salute>
+            </opener>
+
+            <p>I have received the Bundles of Two Rivulets<ptr target="loc.02250_n7"/> from New
+                York.</p>
+            <p>I'll have not have the lettering cut until I get a copy bound up so as to get the
+                correct width of the back—I send you a Box of Ninety Books to day by the Local
+                express which makes up the first Hundred Leaves of Grass</p>
+            <p>Since your complaint of Gold looking bad on the title I have changed the leather and
+                made an improvement as you will observe by the copy uncovered in the Box</p>
+
+            <closer>
+                <salute>Very <choice>
+                        <abbr>Respecly</abbr>
+                        <expan>Respectfully</expan>
+                    </choice></salute>
+                <signed><choice>
+                        <abbr>Jas</abbr>
+                        <expan>James</expan>
+                    </choice> Arnold</signed></closer>
+        </body>
+    </text>
+</TEI>

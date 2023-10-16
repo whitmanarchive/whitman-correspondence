@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00414">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00414">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,7 +23,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>yal.00414</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +40,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>yal.00414</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -60,9 +58,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">2</biblScope>
-              <biblScope type="page">213</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="page">213</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -99,37 +97,33 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="center">Department of Justice</name>, <name type="place"
-            rend="center">Office of the Solicitor of the Treasury</name>, <name type="place"
-            rend="right"><hi rend="italic">Washington, D. C.,</hi></name>
+          <name type="place" rend="center">Department of Justice</name>, <name type="place" rend="center">Office of the Solicitor of the Treasury</name>, <name type="place" rend="right"><hi rend="italic">Washington, D. C.,</hi></name>
           <date when="1873-04-16" rend="right">Wednesday noon, April 16, <hi rend="italic">187</hi>
           </date>. </dateline>
         <salute>Dearest mother<ptr target="n0705"/>,</salute>
       </opener>
 
-      <p>I have had one or two quite good spells&#8212;but am not feeling well just now&#8212;have
-        got over to the office, &amp; am now sitting at my desk&#8212;it is a rainy day here, not
-        very cool&#8212;Mother, I have nothing particular to write to-day either&#8212;but thought I
-        would send just a few lines, as you might like to get something&#8212;The season is quite
-        advanced here&#8212;pleasant the past few days, I have been out in the cars every day. I
-        have not written very lately either to Jeff<ptr target="n0710"/> or Hannah<ptr target="n0285"/>&#8212;</p>
+      <p>I have had one or two quite good spells—but am not feeling well just now—have
+        got over to the office, &amp; am now sitting at my desk—it is a rainy day here, not
+        very cool—Mother, I have nothing particular to write to-day either—but thought I
+        would send just a few lines, as you might like to get something—The season is quite
+        advanced here—pleasant the past few days, I have been out in the cars every day. I
+        have not written very lately either to Jeff<ptr target="n0710"/> or Hannah<ptr target="n0285"/>—</p>
 
-      <p>Well, Mammy dear, how are you getting along at Camden<ptr target="yal.00414_n1"
-      />&#8212;&amp; how are Lou<ptr target="n0368"/> and George<ptr target="n0700"/>&#8212;I often wish you were here,
+      <p>Well, Mammy dear, how are you getting along at Camden<ptr target="yal.00414_n1"/>—&amp; how are Lou<ptr target="n0368"/> and George<ptr target="n0700"/>—I often wish you were here,
         mother dear, as it would be such a relief to me to have you where I could see you, &amp;
-        talk a while&#8212;I think there is no doubt that, take the time right through, I gain
-        steadily, though very slowly indeed&#8212;but I get many tedious spells, both of head &amp;
-        limbs&#8212;there seems to be great deal of paralysis&#8212;I hear, or read of cases, every
-        day&#8212;One man here to-day told me of his father, who had a very bad stroke at 70 years
-        of age, but got over it after all, and lived 17 or 18 years after, by great care&#8212;So I
-        hear of many cases, some good, some unfavorable&#8212;</p>
+        talk a while—I think there is no doubt that, take the time right through, I gain
+        steadily, though very slowly indeed—but I get many tedious spells, both of head &amp;
+        limbs—there seems to be great deal of paralysis—I hear, or read of cases, every
+        day—One man here to-day told me of his father, who had a very bad stroke at 70 years
+        of age, but got over it after all, and lived 17 or 18 years after, by great care—So I
+        hear of many cases, some good, some unfavorable—</p>
 
-      <p>As to myself, I do not lose faith for a moment, in my ultimate recovery&#8212;though, as I
-        said, I have some bad hours&#8212;sometimes very bad&#8212;Well, mama dear, I have scribbled
-        out this sheet nearly, such as it is&#8212;I sent you a letter last Monday<ptr
-          target="yal.00414_n2"/>&#8212;I have changed the address on the envelopes to you, mother,
-        as you see<ptr target="yal.00414_n3"/>&#8212;is it right?&#8212;I am feeling better&#8212;my
-        head is some easier&#8212;Love to you, dear mama, &amp; all&#8212;</p>
+      <p>As to myself, I do not lose faith for a moment, in my ultimate recovery—though, as I
+        said, I have some bad hours—sometimes very bad—Well, mama dear, I have scribbled
+        out this sheet nearly, such as it is—I sent you a letter last Monday<ptr target="yal.00414_n2"/>—I have changed the address on the envelopes to you, mother,
+        as you see<ptr target="yal.00414_n3"/>—is it right?—I am feeling better—my
+        head is some easier—Love to you, dear mama, &amp; all—</p>
 
       <closer>
         <signed rend="right">Walt.</signed>

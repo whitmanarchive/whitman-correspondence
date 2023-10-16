@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00447">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00447">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00447</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00447</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">342</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">342</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -101,7 +97,7 @@
                 </dateline>
             </opener>
             <p>Please send copy of <hi rend="italic">Critic</hi> of June 9 to <hi rend="italic">Dr R
-                    M Bucke, London, Ontario, Canada</hi>&#8212;also (if not already sent) copy of
+                    M Bucke, London, Ontario, Canada</hi>—also (if not already sent) copy of
                     <hi rend="italic">Critic</hi> of June 16, <hi rend="italic">to same</hi>. Dr B.
                 is a subscriber to the C. but tells me in a note <choice>
                     <abbr>rec'd</abbr>
@@ -110,8 +106,8 @@
                     <abbr>rec'd</abbr>
                     <expan>received</expan>
                 </choice> the paper of June 9 (?<ptr target="uva.00447_n2"/> or has his
-                subscription run out?)&#8212;I know he will be deeply gratified &#38; grateful
-                for your notice of his book in that paper&#8212;</p>
+                subscription run out?)—I know he will be deeply gratified &amp; grateful
+                for your notice of his book in that paper—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

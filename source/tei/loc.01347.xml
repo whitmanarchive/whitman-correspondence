@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01347">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01347">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01347</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01347</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -53,7 +50,7 @@
                     <date cert="high" when="1885-08-08" xml:id="dat1">August 8, 1885</date>
                     <idno type="callno">Box 53</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,25 +81,22 @@
                 </dateline>
                 <salute>Dear friend<ptr target="loc.01347_n1"/></salute>
             </opener>
-            <p>Your <hi rend="underline">third</hi> letter ab't the Tennyson visit arrived today&#8212;&#38; has already been
-                re-read with eager interest<ptr target="loc.01347_n2"/>&#8212;as was the Toynbee
+            <p>Your <hi rend="underline">third</hi> letter ab't the Tennyson visit arrived today—&amp; has already been
+                re-read with eager interest<ptr target="loc.01347_n2"/>—as was the Toynbee
                 Hall one also. I now anticipate the one ab't your meeting Mrs.
-                Gilchrist.&#8212;Thanks, dear girl, for the past &#38; thanks for those to
-                come&#8212;Since you left we've had over three weeks of extremely hot
-                weather&#8212;it affected me badly, caused some fits, unconsciousness, falling
-                &#38;c&#8212;I can't go out, which is quite a cross&#8212;but no doubt in due time
+                Gilchrist.—Thanks, dear girl, for the past &amp; thanks for those to
+                come—Since you left we've had over three weeks of extremely hot
+                weather—it affected me badly, caused some fits, unconsciousness, falling
+                &amp;c—I can't go out, which is quite a cross—but no doubt in due time
                 things will return to their usual routine. I am sitting here down stairs by the
-                window in the little front room, writing this&#8212;Mrs. Davis has just brought me a
-                beautiful perfect middling sized sun flower&#8212;it looks like a curious golden
-                face turning toward me from its jar on the window sill&#8212;Fine day this for the
-                Grant funeral show in New York which is going on as I write<ptr
-                    target="loc.01347_n3"/>&#8212;O I nearly forgot to mention the cyclone &#38;
-                destruction, brief but terrible, of last Monday<ptr target="loc.01347_n4"
-                />&#8212;they did not touch these premises&#8212;but came very near. <pb
-                    xml:id="leaf001v" facs="loc.01347.002_large.jpg" type="verso"/> Well, Mary, dear
-                girl, I am making out a stupid letter&#8212;but I was determined to write
-                something&#8212;Affectionate remembrances to Alys, the Father and Mother, Logan, and
-                to Mr C<ptr target="loc.01347_n5"/>&#8212; </p>
+                window in the little front room, writing this—Mrs. Davis has just brought me a
+                beautiful perfect middling sized sun flower—it looks like a curious golden
+                face turning toward me from its jar on the window sill—Fine day this for the
+                Grant funeral show in New York which is going on as I write<ptr target="loc.01347_n3"/>—O I nearly forgot to mention the cyclone &amp;
+                destruction, brief but terrible, of last Monday<ptr target="loc.01347_n4"/>—they did not touch these premises—but came very near. <pb xml:id="leaf001v" facs="loc.01347.002_large.jpg" type="verso"/> Well, Mary, dear
+                girl, I am making out a stupid letter—but I was determined to write
+                something—Affectionate remembrances to Alys, the Father and Mother, Logan, and
+                to Mr C<ptr target="loc.01347_n5"/>— </p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
@@ -110,4 +104,4 @@
             <pb xml:id="leaf002v" facs="loc.01347.004_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI>     
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03635">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William Robinson to Walt Whitman, On or Before 6 December
+                    [1891?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William Robinson</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.03635</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William Robinson</author>
+                    <title>William Robinson to Walt Whitman, On or Before 6 December
+                        [1891?]</title>
+                    <date cert="low" when="1891-12-06" xml:id="dat1">On or Before December 6, [1891?]</date>
+                    <idno type="callno">MSS18630, Box 14, Reel 8–9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00316</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt
+                    Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Robinson, William" ref="n5000">William Robinson</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2022-07-14" who="#smb">final checked, corrected</change>
+            <change when="2022-07-11" who="#pw">checked</change>
+            <change when="2022-06-30" who="#smb">check, corrected, updated encoding</change>
+            <change when="2021-11-05" who="#cn">checked, corrected, added doi</change>
+            <change when="2021-11-05" who="#me">checked, corrected</change>
+            <change when="2021-09-08" who="#em">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03635.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Boston,</name>
+                    <date notBefore="1888-12-06" notAfter="1891-12-06">6th December</date>
+                </dateline>
+                <salute>Walt. Whitman</salute>
+                <salute>Dear Sir–</salute>
+            </opener>
+            <p>I have read with pleasure, your "Leaves of Grass," and admire their impudence and
+                beauty,—but can't say which I admire most. I have lent my copy to others. Some
+                are in ecstasies over it, while others think no man should be allowed to print,
+                write, buy, sell or read <hi rend="underline">so</hi> wicked a book.</p>
+            <p>Now you may call me a fool for my request, but if you will comply with it, I shall be
+                just as well satisfied. I want your <hi rend="underline">autograph</hi> attached to
+                an extract from your leaves, <pb xml:id="leaf001v" facs="loc.03635.002_large.jpg" type="verso"/> or, to a fresh Leaf. I wish to frame it, to hang in my room, in
+                company with a autograph of Charles Mackay,<ptr target="loc.03635_n2"/> another of
+                my favorites. Please write me on a half-sheet of note paper,—this
+                size—&amp;return according to the endorsed envelope.</p>
+            <closer>
+                <salute rend="right">Truly yours,</salute>
+                <signed><hi rend="underline">Wm Robinson</hi></signed>
+                <note type="editorial" place="bottom-right" resp="#ww">Wm Robinson (ask'g
+                    autograph)</note>
+            </closer>
+        </body>
+    </text>
+</TEI>

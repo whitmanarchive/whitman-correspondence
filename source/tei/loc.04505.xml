@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04505">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04505">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04505</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,15 +43,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04505</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to R.F. Wormwood, 19 November 1889</title>
                     <date cert="high" when="1889-11-19" xml:id="dat1">November 19, 1889</date>
-                    <idno type="callno">MSS18630, Box 19, Reel 11&#8211;12</idno>
+                    <idno type="callno">MSS18630, Box 19, Reel 11–12</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc> 
@@ -85,8 +82,8 @@
                     <date when="1889-11-19">PM Nov. 19 '89<ptr target="loc.04505_n1"/></date>
                 </dateline>
             </opener>
-            <p>Yours with $5 recd. with order&#8212;thanks&#8212;I send you the Complete Works, big
-                Vol,<ptr target="n4195"/> (with the little poemet you requested) by Express&#8212;If not delivered to
+            <p>Yours with $5 recd. with order—thanks—I send you the Complete Works, big
+                Vol,<ptr target="n4195"/> (with the little poemet you requested) by Express—If not delivered to
                 you, please send or inquire at the Express office in y'r place. Please kindly send
                 me word without fail (a P O card will do) soon as you get the book right. The price
                 is $6 (not 4.40)</p>
@@ -94,8 +91,8 @@
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript> 
-                <p>There are several portraits in the book I send&#8212;If you want further pict: I
-                    will send&#8212;</p>
+                <p>There are several portraits in the book I send—If you want further pict: I
+                    will send—</p>
             </postscript>
             <pb xml:id="leaf001v" facs="loc_vm.01555.jpg" type="verso"/>
             <pb xml:id="leaf002r" facs="loc_vm.01556.jpg" type="recto"/>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00956">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00956">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00956</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00956</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">41</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">41</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -66,7 +63,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Joseph M. Stoddart, 24 April 1890</title>
                     <date cert="high" when="1890-04-24" xml:id="dat1">April 24, 1890</date>
-                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#38; Manuscript Library, Duke University</orgName>
+                    <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -98,15 +95,15 @@
                 <salute>My dear Stoddart<ptr target="duk.00956_n1"/></salute>
             </opener>
             <p>Can you use this in the magazine? It is intended to make <hi rend="italic">one page</hi>
-                full &#38; square&#8212;&#38; I shall require to see a proof beforehand&#8212;(that is
-                indispensable.) The price is &#36;60 &#38; a dozen copies of the magazine number. I reserve
+                full &amp; square—&amp; I shall require to see a proof beforehand—(that is
+                indispensable.) The price is $60 &amp; a dozen copies of the magazine number. I reserve
                 the right of printing in future book.</p>
             <closer>
-                <salute>Respectfully &#38;c:</salute>
+                <salute>Respectfully &amp;c:</salute>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript>
-                <p>If necessary I will contract or expand it (in proof) to make the fair page&#8212;</p>
+                <p>If necessary I will contract or expand it (in proof) to make the fair page—</p>
             </postscript>
         </body>
     </text>

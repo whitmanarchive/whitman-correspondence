@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04575">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04575">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,7 +13,7 @@
                     <persName xml:id="ab">Alicia Bones</persName>
                     <persName xml:id="gt">Grace Thomas</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04575</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04575</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,7 +55,7 @@
                             <pubPlace>Detroit</pubPlace>
                             <publisher>Wayne State University Press</publisher>
                             <date when="1977">1977</date>
-                            <biblScope type="page">3</biblScope>
+                            <biblScope unit="page">3</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,7 +64,7 @@
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 9 November 1879</title>
                     <date cert="high" when="1879-11-09" xml:id="dat1">November 9, 1879</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -105,7 +101,7 @@
 
             <p>For the last two weeks I have been expecting to hear from you every day, and I did hope to have seen you before this time.<ptr target="loc.04575_n2"/> A week ago I supposed that you had gone East but as I have not received a copy of "Leaves of Grass" from you I now begin to think that perhaps you have not got on as well as you expected and that you are still ill in St Louis.</p>
             
-            <p>If this is the case it may be that you are short of money&#8212;if you are and will let me I will gladly send you a hundred dollars.<ptr target="loc.04575_n1"/> This you may look upon as a loan (to be paid by ten copies of "Leaves of Grass"), or a gift, or (more justly) as a small <choice><orig>instalment</orig><reg>installment</reg></choice> of the infinitely greater debt than that which I owe you. In any case, look at it as you please, I hope you will not refuse to take the money if you have any <gap reason="damage" extent="1 word" quantity="12" unit="chars"/> need of it at all.</p>
+            <p>If this is the case it may be that you are short of money—if you are and will let me I will gladly send you a hundred dollars.<ptr target="loc.04575_n1"/> This you may look upon as a loan (to be paid by ten copies of "Leaves of Grass"), or a gift, or (more justly) as a small <choice><orig>instalment</orig><reg>installment</reg></choice> of the infinitely greater debt than that which I owe you. In any case, look at it as you please, I hope you will not refuse to take the money if you have any <gap reason="damage" extent="1 word" quantity="12" unit="chars"/> need of it at all.</p>
             
             <p>Could I be of any use to you there I will ask at once for a weeks leave of absence (which I know I can get) and go at once to St Louis</p>
 

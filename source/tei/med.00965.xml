@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00965">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to the Editors of <hi rend="italic">The Daily Crescent</hi>, 24 August 1848</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Schoeberlein</persName>
+                    <persName xml:id="zt">Zachary Turpin</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>med.00965</idno></publicationStmt>
+            <sourceDesc>
+                <biblStruct type="newspaper">
+                    <analytic>
+                        <author><choice>
+                                <orig>Manahattan</orig>
+                                <reg>Walt Whitman</reg>
+                            </choice></author>
+                        <title>Walt Whitman to the Editors of <hi rend="italic">The Daily Crescent</hi>, 24 August 1848</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">The Daily Crescent</title>
+                        <imprint>
+                            <date when="1848-09-05">5 September 1848</date>
+                        </imprint>
+                        <biblScope unit="page">[2]</biblScope>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to the Editors of <hi rend="italic">The Daily Crescent</hi>, 24 August 1848</title>
+                    <date cert="high" when="1848-08-24" xml:id="dat1">August 24, 1848</date>
+                    <orgName xml:id="med">The location of the original manuscript is unknown.
+                        Whitman's letters to Alexander Hamilton Hayes (1806–1866) and John Eliot
+                        McClure (ca. 1809–1869)—the editors of <hi rend="italic">The Daily
+                            Crescent</hi> (New Orleans, Louisiana)—were published in that newspaper.</orgName>&gt;
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Editors of The Daily Crescent">Editors of <hi rend="italic">The Daily Crescent</hi></persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-11" who="#smb">updated notes for publication</change>
+            <change when="2023-02-11" who="#smb">final check, corrected</change>
+            <change when="2023-02-08" who="#aja">annotations check</change>
+            <change when="2022-11-07" who="#jh">checked, corrected</change>
+            <change when="2022-09-17" who="#smb">encoded</change>
+            <change when="2020-11-01" who="#zt">transcribed</change>
+            <change when="2020-11-01" who="#ss">transcribed</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <opener> 
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>N<hi rend="smallcaps">EW</hi> Y<hi rend="smallcaps">OR<supplied reason="illegible-fold" resp="#smb" cert="high">K</supplied></hi> C<hi rend="smallcaps">ITY</hi>,</name>
+                    <date when="1848-08-24"><handShift rend="printed"/>August 24, 1848.</date>
+                </dateline>
+            </opener>  
+            <p><handShift rend="printed"/>Foreign affairs, and the devel<supplied reason="illegible-fold" resp="#smb" cert="high">op</supplied>ments of <hi rend="italic">the Great European war</hi>, which is, in my <supplied reason="illegible-fold" resp="#smb" cert="high">opinio</supplied>n, sure to happen before
+                three months have passed, occu<gap reason="illegible-fold-fold" quantity="2" unit="chars"/> most of the public attention here. It may indeed
+                be s<supplied reason="illegible-fold" resp="#smb" cert="high">aid</supplied> that we live in exciting times. Political matters conn<supplied reason="unclear" resp="#smb" cert="high">ecte</supplied>d 
+                with our own
+                country, involving questions as profun<supplied reason="illegible-fold" resp="#smb" cert="high">d</supplied> and far-extending as any that ever came up
+                for settlemen<supplied reason="illegible-fold" resp="#smb" cert="high">t</supplied> among us—the problem of French Republicanism,<ptr target="loc.03571_n1c"/> and its <gap reason="illegible-fold" quantity="2" unit="chars"/>ution
+                or explosion—the revolt in
+                Ireland,<ptr target="loc.03571_n1b"/> and the deep-s<supplied reason="illegible-fold" resp="#smb" cert="high">eat</supplied>ed wish in the American
+                heart, for its success—besides a <supplied reason="illegible-fold" resp="#smb" cert="high">d</supplied>ozen other "movements," not forgetting the
+                important on<gap reason="illegible-fold" quantity="3" unit="chars"/> in Germany and Italy—all these form indeed subjects fo<supplied reason="illegible-fold" resp="#smb" cert="high">r 
+                    th</supplied>e most
+                engrossing interest. Here in New York, this interes<supplied reason="illegible-fold" resp="#smb" cert="high">t i</supplied>s tinged with no provincial
+                character, but is developed w<supplied reason="illegible-fold" resp="#smb" cert="high">it</supplied>h all that fiery ardor and "looseness" so
+                characteristic <supplied reason="illegible-fold" resp="#smb" cert="high">of</supplied> the city. Whatever a man thinks, that he says or
+                writes—<gap reason="illegible-fold" quantity="3" unit="chars"/> of finding some hundreds who will agree with him.</p>
+            <p><handShift rend="printed"/>Business is rather dull, and <supplied reason="illegible-fold" resp="#smb" cert="high">m</supplied>ost of those engaged in the
+                selling trade are temporarily o<supplied reason="illegible-fold" resp="#smb" cert="high">ut</supplied> of town, enjoying what they can of "rural
+                felicity." From the look presented by the the jobbing houses down town, h<supplied reason="illegible-fold" resp="#smb" cert="high">ow</supplied>ever,
+                they anticipate an immense business this fall. Mos<supplied reason="illegible-fold" resp="#smb" cert="high">t</supplied> of the stores have an unusual
+                number of clerks, and boxes <gap reason="illegible-fold" quantity="3" unit="chars"/>e piled up for miles along the lower part of Pearl
+                street, and <supplied reason="illegible-fold" resp="#smb" cert="high">t</supplied>he thoroughfares which cross it. The jobbers have 
+                laid or <supplied reason="illegible-fold" resp="#smb" cert="high">ar</supplied>e laying in
+                an immense stock of goods; and the din of hammering and boxing up goes on at a great
+                rate.</p>
+            <p><handShift rend="printed"/>After an excessive heat, we[,] since Monday last, have been
+                treated to a "spell" of com<supplied reason="illegible-fold" resp="#smb" cert="high">pa</supplied>ratively cool weather. Folks stay out of town, though,
+                all <supplied reason="illegible-fold" resp="#smb" cert="high">t</supplied>he same; and I am not sure but the country is more enjoyable in a sort of
+                autumn weather, than any other.</p>
+            <p><handShift rend="printed"/>Dysentery<ptr target="med.00964_n2"/> and cholera<ptr target="med.00989_n5"/> infantum are carrying off from
+                twelve to twenty persons daily; most of the deaths of the former disease too are
+                children. This is about as bad as your yellow fever,<ptr target="med.00953_n4b"/> isn't it?</p>
+            <p><handShift rend="printed"/>The arrival of the Crescent City yesterday brought us the
+                latest printed dates; but since the "connection" by telegraph, we have, of course,
+                no more anxiety to get late papers. Why don't some of you give us fuller
+                intelligence about that "Buffalo hunt on the Rio Grande?"<ptr target="med.00968_n3"/> Is there really any thing in it, or is there no foundation for the tale, except
+                mere newspaper rumor? A very general curiosity exists here to learn more about it;
+                besides, there are ten thousand dare-devils in th<gap reason="illegible-fold" quantity="3" unit="chars"/> city, in want of adventure and
+                excitement, who would li<supplied reason="illegible-fold" resp="#smb" cert="high">k</supplied>e to join such an expedition.</p>
+            <p><handShift rend="printed"/>Our reporters are qu<supplied reason="illegible-fold" resp="#smb" cert="high">i</supplied>te in a state of sullenness from the
+                absence of any interest<supplied reason="illegible-fold" resp="#smb" cert="high">i</supplied>ng topic. Yesterday morning there was something of a fire in
+                Brooklyn. By the by, I must tell you that Mrs. Behm,<ptr target="med.00965_n2"/>
+                in<supplied reason="illegible-fold" resp="#smb" cert="high">s</supplied>tead of being "kilt," was only partially kilt, (you recollect the case, as
+                mentioned in one of my <supplied reason="illegible-fold" resp="#smb" cert="high">l</supplied>etters, ten days since?) and has got quite well. Both she
+                <supplied reason="illegible-fold" resp="#smb" cert="high">an</supplied>d her husband are attending to their little grocery.</p> 
+            <closer>
+                <salute>Yours,&amp;c.,</salute>
+                <signed><handShift rend="printed"/>M<hi rend="smallcaps">ANHATTAN</hi>.</signed>
+            </closer>
+        </body> 
+    </text> 
+</TEI>

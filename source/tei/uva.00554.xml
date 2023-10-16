@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00554">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00554">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="rf">Ryan Furlong</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00554</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00554</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">129&#8211;130</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">129–130</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -77,7 +74,7 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Costelloe, Mary Smith" ref="loc.02189_n1"></persName>
+                    <persName key="Costelloe, Mary Smith" ref="loc.02189_n1"/>
                 </person>
             </particDesc>
         </profileDesc>
@@ -96,12 +93,12 @@
                     <date when="1887-11-01">Nov. 1 '87</date>
                 </dateline>
             </opener>
-            <p>Your good letter just rec'd &amp; indeed welcomed&#8212;I remain ab't the
-       same&#8212;cold weather here&#8212;no snow yet but raw &amp; aching enough&#8212;Logan<ptr target="loc.01350_n3"/> 
-       &amp; Alys<ptr target="loc.05908_n1"/> here day before yesterday. All well&#8212;your father here lately on his 
-                way to Milville&#8212;Ab't the sculptured head<ptr target="loc.01365_n2"/>, <hi rend="italic">you have full power</hi>&#8212;I am 
-       writing a card to Ernest Rhys<ptr target="loc.03310_n1"/> to-day&#8212;I was out driving Sunday, &amp; out to
-       supper evening&#8212;Would you like me to send you the Phila: papers&#8212;or
+            <p>Your good letter just rec'd &amp; indeed welcomed—I remain ab't the
+       same—cold weather here—no snow yet but raw &amp; aching enough—Logan<ptr target="loc.01350_n3"/> 
+       &amp; Alys<ptr target="loc.05908_n1"/> here day before yesterday. All well—your father here lately on his 
+                way to Milville—Ab't the sculptured head<ptr target="loc.01365_n2"/>, <hi rend="italic">you have full power</hi>—I am 
+       writing a card to Ernest Rhys<ptr target="loc.03310_n1"/> to-day—I was out driving Sunday, &amp; out to
+       supper evening—Would you like me to send you the Phila: papers—or
        any others?</p>
             <closer>
                 <signed>Walt Whitman</signed>

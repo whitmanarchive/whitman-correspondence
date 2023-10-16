@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07834">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07834">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07834</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07834</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,8 +55,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date notBefore="1961" notAfter="1977">1961–1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">250&#8211;251</biblScope>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">250–251</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,9 +64,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 20 December 1888</title>
                     <date cert="high" when="1888-12-20" xml:id="dat1">December 20, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -96,32 +93,29 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name><ptr target="loc.07834_n1"/>
-                    <date when="1888-12-20">10&#189; a m</date> 
+                    <date when="1888-12-20">10½ a m</date> 
                     <date when="1888-12-20">Dec: 20 '88</date>
                 </dateline>
             </opener>
-            <p>Am getting along&#8212;more favorably turning than the other&#8212;relish'd my
-                mutton-broth &#38; dry biscuit&#8212;&#38; am sitting here by the stove&#8212;sharp
-                cold &#38; clear to day&#8212;Yours of 17th came this mn'g&#8212;so the books
-                arrived at last&#8212;&#38; you are contented &#38; pleas'd&#8212;&#38; the trilogy
-                holds together &#38; fuses, tho' various &#38; paradoxical &#38; rapidly twittering,
-                (probably like Dante's filmy ghosts, rushing by with mere gibberish)&#8212;yes it is
-                mainly all <hi rend="italic">autobiographic</hi> environ'd with my time &#38; deeply
-                incarnated &#38; tinged with it, &#38; the moral begetting of it (I hope)&#8212;The
-                first time soon write whether you get every thing letters &#38; papers&#8212;I have
-                written now every day the last five days &#38; sent budgets of papers or
-                magazines&#8212;wrote a line to Mrs. O'Connor<ptr target="n4137"/> last
-                evn'g&#8212;If I hear any thing I will forward you&#8212;I am sitting up all day,
-                yesterday &#38; this&#8212;I believe I told you the bladder trouble appears to have
-                subsided&#8212;</p>
-            <p><date when="1888-12-20"><hi rend="italic">3 p m</hi></date>&#8212;I have just eaten some vanilla ice
-                    cream&#8212;McKay<ptr target="n4983"/> has out an ed'n with the <hi
-                    rend="italic">annex, Sands at Seventy</hi>. I have one&#8212;it goes all
-                right&#8212;sells the same $2&#8212;the postage on the big book<ptr target="n4195"/> is 38cts&#8212;I put
-                four 10ct stamps&#8212;I sent one by p o to-day&#8212;(the last page contains "Old
-                Age's Lambent Peaks")&#8212;I enclose two letters&#8212;one from Logan Smith<ptr
-                    target="n6122"/>&#8212;one from Algiers, Africa<ptr target="loc.07834_n2"
-                />&#8212;Love to you all &#38; God bless you&#8212;</p>
+            <p>Am getting along—more favorably turning than the other—relish'd my
+                mutton-broth &amp; dry biscuit—&amp; am sitting here by the stove—sharp
+                cold &amp; clear to day—Yours of 17th came this mn'g—so the books
+                arrived at last—&amp; you are contented &amp; pleas'd—&amp; the trilogy
+                holds together &amp; fuses, tho' various &amp; paradoxical &amp; rapidly twittering,
+                (probably like Dante's filmy ghosts, rushing by with mere gibberish)—yes it is
+                mainly all <hi rend="italic">autobiographic</hi> environ'd with my time &amp; deeply
+                incarnated &amp; tinged with it, &amp; the moral begetting of it (I hope)—The
+                first time soon write whether you get every thing letters &amp; papers—I have
+                written now every day the last five days &amp; sent budgets of papers or
+                magazines—wrote a line to Mrs. O'Connor<ptr target="n4137"/> last
+                evn'g—If I hear any thing I will forward you—I am sitting up all day,
+                yesterday &amp; this—I believe I told you the bladder trouble appears to have
+                subsided—</p>
+            <p><date when="1888-12-20"><hi rend="italic">3 p m</hi></date>—I have just eaten some vanilla ice
+                    cream—McKay<ptr target="n4983"/> has out an ed'n with the <hi rend="italic">annex, Sands at Seventy</hi>. I have one—it goes all
+                right—sells the same $2—the postage on the big book<ptr target="n4195"/> is 38cts—I put
+                four 10ct stamps—I sent one by p o to-day—(the last page contains "Old
+                Age's Lambent Peaks")—I enclose two letters—one from Logan Smith<ptr target="n6122"/>—one from Algiers, Africa<ptr target="loc.07834_n2"/>—Love to you all &amp; God bless you—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

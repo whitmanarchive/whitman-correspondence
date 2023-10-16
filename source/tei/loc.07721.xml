@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07721">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07721">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -18,6 +15,7 @@
                     <persName xml:id="as">Ashlyn Stewart</persName>
                     <persName xml:id="blh">Breanna Himschoot</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>
                     Center for Digital Research in the Humanities, University of Nebraska-Lincoln
@@ -33,7 +31,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07721</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -44,35 +42,35 @@
                 </address>
                 <availability> 
                     <p>
-                        Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt> 
+            <idno>loc.07721</idno></publicationStmt> 
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 30 October 1889</title>
                     <date cert="high" when="1889-10-30" xml:id="dat1">October 30, 1889</date>  
-                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3&#8211;4; Envelope: MSS1830, Box 7, Reel 4&#8211;5</idno> 
+                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3–4; Envelope: MSS1830, Box 7, Reel 4–5</idno> 
                     <orgName xml:id="loc">
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown author</author> 
                     <title level="a">Unknown</title>
                     <title level="j">Boston Transcript</title>
                     <date when="1889">1889</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref2">
                     <author>Unknown</author>
                     <title level="a">Emin Bey and His Work</title>
                     <title level="j">Boston Transcript</title>
                     <date when="1889">1889</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,6 +85,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted two add elements to addSpan/anchor pairs</change>
             <change when="2018-11-14" who="#smb">final check, corrected, added encoding for pasteon</change>
             <change when="2018-10-25" who="#as">added images</change>
             <change when="2018-09-25" who="#blh">Second check</change>
@@ -101,34 +100,34 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1889-10-30">Oct:30 '89&#8212;near noon<ptr target="loc.07721_n1"/>
+                    <date when="1889-10-30">Oct:30 '89—near noon<ptr target="loc.07721_n1"/>
                     </date>
                 </dateline>
             </opener>
             <p>
-                Still cloudy, dark &amp; threatening rain&#8212;My sister Lou<ptr target="n0368"/> this forenoon
-                with a nice chicken &amp; some Graham biscuits&#8212;Warren<ptr target="loc.07319_n6"/> (my nurse, my
+                Still cloudy, dark &amp; threatening rain—My sister Lou<ptr target="n0368"/> this forenoon
+                with a nice chicken &amp; some Graham biscuits—Warren<ptr target="loc.07319_n6"/> (my nurse, my
                 sailor boy) drove her out in a little wagon to the cemetery "Evergreen"
-                where my dear mother<ptr target="n0705"/> &amp; Lou's baby children are buried&#8212;as she wanted 
-                to go out there to see the graves&#8212;Ab't the same as usual with me
-                &#8212;have been sitting here trying to interest myself in the morning papers&#8212;Tom Harned<ptr target="n4146"/> 
-                took 200 of the little book &amp; has sold 100 of them already&#8212;
-                they have not yet been delivered&#8212;Horace<ptr target="n4267"/> told me last night yours had <hi rend="underline">not</hi>
-                yet gone&#8212;I urged him to see they were sent forthwith&#8212;(there is a good
-                deal in the little book&#8212;partly as a <hi rend="underline">curio</hi>&#8212;partly as a momento of L of G.
-                history)&#8212;
+                where my dear mother<ptr target="n0705"/> &amp; Lou's baby children are buried—as she wanted 
+                to go out there to see the graves—Ab't the same as usual with me
+                —have been sitting here trying to interest myself in the morning papers—Tom Harned<ptr target="n4146"/> 
+                took 200 of the little book &amp; has sold 100 of them already—
+                they have not yet been delivered—Horace<ptr target="n4267"/> told me last night yours had <hi rend="underline">not</hi>
+                yet gone—I urged him to see they were sent forthwith—(there is a good
+                deal in the little book—partly as a <hi rend="underline">curio</hi>—partly as a momento of L of G.
+                history)—
             </p>
             <p> 
-                <date when="1889-10-30">P M</date>&#8212;Of course still sitting here&#8212;"potter" around, bathe or partially
-                bathe, hitch around, &amp;c: &amp;c: to while away time&#8212;have quite a mail of
-                papers &amp;c: sometimes the queerest letters imaginable&#8212;No news yet of 
-                Ed's<ptr target="n4319"/> arrival &amp; y'r reception of the packet of pictures&#8212;A friend has just
-                been in with a lady's album for autograph&#8212;
+                <date when="1889-10-30">P M</date>—Of course still sitting here—"potter" around, bathe or partially
+                bathe, hitch around, &amp;c: &amp;c: to while away time—have quite a mail of
+                papers &amp;c: sometimes the queerest letters imaginable—No news yet of 
+                Ed's<ptr target="n4319"/> arrival &amp; y'r reception of the packet of pictures—A friend has just
+                been in with a lady's album for autograph—
             </p>
             <p>
-                These two scraps I cut from Boston Transcript just rec'd<ptr target="loc.07721_n2"/>&#8212;Kennedy's<ptr target="n3039"/> 
-                letter enclosed&#8212;(Mrs: K<ptr target="loc.03053_n1"/> lately visited me&#8212;very pleasant &amp; 
-                good)&#8212;
+                These two scraps I cut from Boston Transcript just rec'd<ptr target="loc.07721_n2"/>—Kennedy's<ptr target="n3039"/> 
+                letter enclosed—(Mrs: K<ptr target="loc.03053_n1"/> lately visited me—very pleasant &amp; 
+                good)—
             </p>
             <closer>
                 <signed>Walt Whitman</signed>
@@ -136,27 +135,27 @@
             </div1>
             <!-- The following enclosure is pasted on the letter -->
             <div1 type="enclosure">
-                <add rend="pasteon" source="#ref1" xml:id="add1"> 
+                <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/> 
                     <q who="#ref1" type="printed">
                         <floatingText rend="flat"> 
                             <body>
                                 <p>
                                  <handShift rend="typescript"/>
                                     New York is to have a monument to Goethe.<ptr target="n0270"/> It is to be erected in Central Park, at an expense
-                                    of &#36;30,000. The sculptor is Henry Baerer,<ptr target="n4332"/> who designed the Beethoven monument in New York
+                                    of $30,000. The sculptor is Henry Baerer,<ptr target="n4332"/> who designed the Beethoven monument in New York
                                     and the John Howard Payne statue in Brooklyn. The Goethe monument is to be twenty-four feet high, with a colossal bronze
                                     figure of the great German poet at the summit, and four lifesize sitting groups in bronze around the granite
                                     pedestal, viz., "Faust and Margaret," "Iphigenia and Orestes," "Hermann and Dorothea at the Well," "The Harpist and Mignon."
-                                    The cost will be defrayed by the students and admirers of Goethe, with the co&#246;peration of the Goethe Society.</p>
+                                    The cost will be defrayed by the students and admirers of Goethe, with the coöperation of the Goethe Society.</p>
                                     <milestone unit="undeclared" rend="horbar-full"/>
                             </body>
                         </floatingText>
                     </q>
-                </add>
+                    <anchor xml:id="a01"/>
             </div1>
             <!-- The following enclosure is pasted on the letter -->
             <div1 type="enclosure">
-                <add rend="pasteon" source="#ref2" xml:id="add2">
+                <addSpan spanTo="#a02" rend="pasteon" source="#ref2" xml:id="add2"/>
                     <q who="#ref2" type="printed">
                         <floatingText rend="flat">
                             <body>
@@ -174,13 +173,13 @@
                                     acquirements. He is certainly a man of great ability in many ways, and of strong character. Just why such a man should have gone where he has and stayed there is
                                     hard to see. Probably it was largely force of circumstances and a spirit of adventure. Certainly when he went there there was no prospect of much
                                     pay or distinction, and he was actuated by no great philanthropic ardor. Responsibilities gradually came upon him, and he rose to them.
-                                    It is easy to see how, in a character like Emin's&#8212;sympathetic, reflective and enthusiastic&#8212;noble purposes were developed
+                                    It is easy to see how, in a character like Emin's—sympathetic, reflective and enthusiastic—noble purposes were developed
                                     with a noble example before him and great opportunities around him. Emin's uncertain power in a savage land is all that remains of the late khedive's 
                                     central African Empire. [Colonel H. G. Prout, in November Scribner.</p>
                             </body>
                         </floatingText>
                     </q>
-                </add> 
+                <anchor xml:id="a02"/> 
             </div1>
  <div1 type="enclosure">
             <pb xml:id="leaf003r" facs="loc.03053.001.jpg" type="recto"/>
@@ -198,11 +197,9 @@
                 magnetism) that so many others have felt. She wrote to-day a tremendous <choice><orig>arraingment</orig><reg>arraignment</reg></choice>
                 of the Leslie <unclear reason="illegible" cert="medium" resp="#smb">Nutler</unclear><ptr target="n5000"/> I told you of. She hauled him over the coals finely. I rubbed
                 my hands in glee after quoting some of the good great fellows (in England &amp;
-                America) who stand up for W. W. &amp; love him she says, "Thoreau<ptr
-                    target="hun.00052_n3"/> thinks he is a great fellow, &amp; I think so, too." She says, "I saw
+                America) who stand up for W. W. &amp; love him she says, "Thoreau<ptr target="hun.00052_n3"/> thinks he is a great fellow, &amp; I think so, too." She says, "I saw
                 with my own eyes, his nobility &amp; manners," &amp;c. She thoroughly understands and
-                approves yr Children of Adam poems, too! Sees <pb xml:id="leaf003v"
-                    facs="loc.03053.002.jpg" type="verso"/>their noble purpose.</p>
+                approves yr Children of Adam poems, too! Sees <pb xml:id="leaf003v" facs="loc.03053.002.jpg" type="verso"/>their noble purpose.</p>
             <p>She doesn't <hi rend="underline">need</hi> you so much as I did, though, for she has
                 always been a liberated spirit. Her father &amp; grandfather were deists.</p>
             <p>I tell you she's a rare little soul, I wish you knew how keenly she pierces to the

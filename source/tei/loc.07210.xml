@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07210">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07210">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="if">Ian Faith</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07210</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07210</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 11 March 1888</title>
                     <date cert="high" when="1888-03-11" xml:id="dat1">March 11, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#38;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2&amp;3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -83,28 +79,26 @@
             <pb xml:id="leaf001r" facs="loc_es.00246.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office<ptr
-                            target="loc.07210_n1"/><lb/>ASYLUM<lb/>FOR THE INSANE<lb/>LONDON<lb/>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office<ptr target="loc.07210_n1"/><lb/>ASYLUM<lb/>FOR THE INSANE<lb/>LONDON<lb/>
                         ONTARIO<lb/></name>
                     <name type="place"><handShift rend="printed"/>London, Ont.,</name>
                     <date when="1888-03-11" rend="right"><handShift rend="manuscript"/>11 Mch
                     <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>  
             </opener> 
-            <p>I have been and am still in considerable of a flustration here&#8212;have had the
+            <p>I have been and am still in considerable of a flustration here—have had the
                 Inspector, he left yesterday, have to go to Toronto this afternoon to interview the
                 minister of Public Works about the new building to replace one burned. Shall be back
                 here again Monday evening or Tuesday. We are all well, sleighing's done though
-                still a great deal of ice and snow over the fields &#38;c I enclose Lippencott's
-                    letter<ptr target="loc.07210_n2"/>&#8212;have heard nothing since about the
-                Worthington business.<ptr target="prc.00056_n2"/> Have done nothing more with my <pb
-                    xml:id="leaf001v" facs="loc_es.00247.jpg" type="verso"/> W.W. paper, shall
+                still a great deal of ice and snow over the fields &amp;c I enclose Lippencott's
+                    letter<ptr target="loc.07210_n2"/>—have heard nothing since about the
+                Worthington business.<ptr target="prc.00056_n2"/> Have done nothing more with my <pb xml:id="leaf001v" facs="loc_es.00247.jpg" type="verso"/> W.W. paper, shall
                 rewrite it as soon as I get a little time (a mighty hard thing to find nowadays) and
                 I think send it to Walsh<ptr target="loc.04628_n1"/> of Lippencott. Or would it be
                 well to keep it until Kennedy's<ptr target="n3039"/> book comes out (will be out
-                very soon now I suppose?) and incorperate it in a notice of that book&#8212;?</p> 
-                <p>In any case I shall get to work elaborating it as soon as I can&#8212;It has been snowing,
-                &#38; blowing great guns all day&#8212;there is a lull now and sun trying to come
+                very soon now I suppose?) and incorperate it in a notice of that book—?</p> 
+                <p>In any case I shall get to work elaborating it as soon as I can—It has been snowing,
+                &amp; blowing great guns all day—there is a lull now and sun trying to come
                 out.</p>
             <closer>
                 <salute>Always affectionately</salute>

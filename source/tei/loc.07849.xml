@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07849">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07849">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07849</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,16 +44,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07849</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke and Horace Traubel, 24 October 1890</title>
                     <date cert="high" when="1890-10-24" xml:id="dat1">October 24, 1890</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,30 +84,29 @@
                     <name type="place">Camden</name>
                     <date when="1890-10-24">near noon Oct: 24 '90</date>
                 </dateline> 
-                <salute> Dear friends Doctor &#38; Horace<ptr target="loc.07846_n6"/></salute>
+                <salute> Dear friends Doctor &amp; Horace<ptr target="loc.07846_n6"/></salute>
             </opener>
-            <p>Cloudy &#38; wet yet&#8212;am feeling fairly&#8212;the rain has kept me in lately of
-                course&#8212;last night fair sleep&#8212;for breakfast small mutton chop &#38; br'd
-                &#38; coffee&#8212;am sitting now by the fire (you can both imagine it
-                all)&#8212;the Blasius people<ptr target="loc.07849_n1"/> sent over yesterday to ask
+            <p>Cloudy &amp; wet yet—am feeling fairly—the rain has kept me in lately of
+                course—last night fair sleep—for breakfast small mutton chop &amp; br'd
+                &amp; coffee—am sitting now by the fire (you can both imagine it
+                all)—the Blasius people<ptr target="loc.07849_n1"/> sent over yesterday to ask
                 whether we wanted to "count the tickets" in the boxes first, as they were going to
-                clear out &#38; destroy them&#8212;I sent word that as far as I was concern'd I sh'd
-                not come for any such purpose, &#38; they might clear out &#38; destroy for all
-                me&#8212;have had some visitors&#8212;(am the <hi rend="underline">object</hi> of some cranks &#38; lunatics
-                among the rest)&#8212;grip on me palpably yet&#8212;the temperature getting colder
-                here&#8212;I enclose the printed slip sent by Wallace,<ptr target="n6121"/>
-                    England<ptr target="loc.07849_n2"/>&#8212;also the Hort: Hall note&#8212;Horace
-                we all miss y'r evn'g calls here&#8212;So I suppose you have taken in
-                Niagara&#8212;the Lakes and the St: Lawrence too are not to be despised&#8212;Best
-                respects &#38; remembrances to Dr Beemer<ptr target="loc.07330_n2"/> &#38; to Dick
-                    Flynn<ptr target="loc.07849_n3"/> &#38; to half a dozen more friends
-                there&#8212;As I look out of the window the last of autumn appears plainer than
+                clear out &amp; destroy them—I sent word that as far as I was concern'd I sh'd
+                not come for any such purpose, &amp; they might clear out &amp; destroy for all
+                me—have had some visitors—(am the <hi rend="underline">object</hi> of some cranks &amp; lunatics
+                among the rest)—grip on me palpably yet—the temperature getting colder
+                here—I enclose the printed slip sent by Wallace,<ptr target="n6121"/>
+                    England<ptr target="loc.07849_n2"/>—also the Hort: Hall note—Horace
+                we all miss y'r evn'g calls here—So I suppose you have taken in
+                Niagara—the Lakes and the St: Lawrence too are not to be despised—Best
+                respects &amp; remembrances to Dr Beemer<ptr target="loc.07330_n2"/> &amp; to Dick
+                    Flynn<ptr target="loc.07849_n3"/> &amp; to half a dozen more friends
+                there—As I look out of the window the last of autumn appears plainer than
                 ever.</p>
             <closer>
-                <salute>&#8212;God bless you all</salute>
+                <salute>—God bless you all</salute>
                 <signed>Walt Whitman</signed>
             </closer>  
         </body>
     </text>
 </TEI>
- 

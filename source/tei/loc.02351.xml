@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02351">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02351">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Robert Ingersoll to Walt Whitman, 20 October 1890</title>
+                <title level="m" type="main">Robert G. Ingersoll to Walt Whitman, 20 October 1890</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>Robert Ingersoll</author>
+                <author>Robert G. Ingersoll</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02351</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,23 +43,23 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02351</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Robert Ingersoll</author>
-                    <title>Robert Ingersoll to Walt Whitman, 20 October 1890</title>
+                    <author>Robert G. Ingersoll</author>
+                    <title>Robert G. Ingersoll to Walt Whitman, 20 October 1890</title>
                     <date cert="high" when="1890-10-20" xml:id="dat1">October 20, 1890</date>
                     <idno type="callno">MSS18630, Box 11, Reel 7</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00229</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Ingersoll, Robert" ref="n0839">Robert Ingersoll</persName>
+                    <persName key="Ingersoll, Robert G." ref="n0839">Robert G. Ingersoll</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -86,19 +83,19 @@
                 </dateline>
                 <salute>My dear Whitman,</salute>
             </opener>  
-            <p>I recd the printed speech, proposed&#8212;think it too short. Better leave it all to
+            <p>I recd the printed speech, proposed—think it too short. Better leave it all to
                 your feeling at the time.<ptr target="loc.02351_n3"/></p>
             <p>I do hope that we shall have a good time. Have some fear that Philadelphia
             <pb xml:id="leaf001v" facs="loc.02351.002.jpg" type="verso"/>
-                is a little slow<ptr target="loc.04697_n2"/>&#8212;but hope for the best.</p>
+                is a little slow<ptr target="loc.04697_n2"/>—but hope for the best.</p>
             <p>In any event, I want the whole thing to suit you. It is something to be appreciated.
                 "Not to be understood strikes a man more dead than a great reckoning in a little
-                room"<ptr target="loc.02351_n2"/>&#8212;</p>
+                room"<ptr target="loc.02351_n2"/>—</p>
             <p>You must take
             <pb xml:id="leaf002r" facs="loc.02351.003.jpg" type="recto"/>
-            good care of yourself&#8212;get in good trim physically, so that my speech will do
-                you no bodily harm.&#8212;</p>
-            <p>"May the Lord take a liking to you&#8212;but not too soon"</p>
+            good care of yourself—get in good trim physically, so that my speech will do
+                you no bodily harm.—</p>
+            <p>"May the Lord take a liking to you—but not too soon"</p>
             <closer>
                 <salute>Yours always</salute> 
                 <signed>R.G. Ingersoll</signed>
@@ -108,4 +105,4 @@
             <pb xml:id="leaf003v" facs="loc.02351.006.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

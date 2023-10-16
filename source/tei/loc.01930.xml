@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01930">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Maria Smith to Walt Whitman, 1 February 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Maria Smith</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01930</idno></publicationStmt>            
+            <sourceDesc>
+                <bibl>
+                    <author>Maria Smith</author>
+                    <title>Maria Smith to Walt Whitman, 1 February 1875</title>    
+                    <date cert="high" when="1875-02-01" xml:id="dat1">February 1, 1875</date>
+                    <idno type="callno">MSS18630, Box 16, Reel 10</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00349</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Smith, Maria" ref="loc.01930_n2">Maria Smith</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-22" who="#smb">final corrections</change>
+            <change when="2022-11-27" who="#smb">final check, corrected</change>
+            <change when="2022-11-08" who="#aja">checked, corrected</change>
+            <change when="2022-04-02" who="#me">checked, corrected</change>
+            <change when="2021-12-07" who="#aja">checked, corrected, added DOI and notes</change>
+            <change who="#ak" when="2015-05-08">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-07" who="#cb">proofed</change>
+            <change when="2012-03-29" who="#nnk">proofed</change>
+            <change when="2012-02-29" who="#js">proofed</change>
+            <change when="2011-11-22" who="#ej">Transcribe/Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>          
+            <pb xml:id="leaf001r" facs="loc_jc.00115_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Queensbury</name>
+                    <date when="1875-02-01">February the 1 1875</date>
+                </dateline>
+                <salute>Dear friend</salute>
+            </opener>
+
+            <p>your ever <choice><sic>welcom</sic><corr>welcome</corr></choice> letter 
+                has reached me all right and the bundle of paper you sent me 
+                <choice><sic>ihave</sic><corr>I have</corr></choice> sent Bethuels<ptr target="loc.01930_n3"/> 
+                papers to him today there was three bundles to him Bethuel Smith lives 
+                <choice><sic>afew</sic><corr>a few</corr></choice> miles South West of 
+                us <choice><sic>ihear</sic><corr>I hear</corr></choice> from him often 
+                he and his Wife and youngest little boy was at our <choice><sic>hous</sic><corr>house</corr></choice> 
+                the last of november <choice><sic>ihave</sic><corr>I have</corr></choice> 
+                not seen him since but expect him soon he was <choice><sic>maried</sic><corr>married</corr></choice> 
+                awhile after he came home and got well he has three little boys and one 
+                girl the first boy is slender and sickly the rest are healthy two of his 
+                boys looks very much like him they are good children and smart Bethuel 
+                is well and healthy he has bought some land and is trying to pay for it 
+                he is drawing <choice><sic>pople</sic><corr>poplar</corr></choice> wood 
+                to the papermill to make paper with and <choice><sic>someimes</sic><corr>sometimes</corr></choice> 
+                works at other work it is rather hard times this winter money is 
+                <choice><orig>scarse</orig><reg>scarce</reg></choice> and wages down not 
+                much going on around here 
+                <pb xml:id="leaf001v" facs="loc_jc.00116_large.jpg"/> 
+                <choice><sic>idid</sic><corr>I did</corr></choice> not 
+                <choice><sic>rite</sic><corr>write</corr></choice> much in that letter 
+                <choice><sic>isent</sic><corr>I sent</corr></choice> you 
+                <choice><sic>ifeared</sic><corr>I feared</corr></choice> it never would 
+                reach you but thank god it has reached you all right it has 
+                <choice><sic>allways</sic><corr>always</corr></choice> seemed to me since 
+                our Son came home that some of us should <choice><sic>rite</sic><corr>write</corr></choice> 
+                to you my husband Could not <choice><sic>rite</sic><corr>write</corr></choice> 
+                therefore it left me to do the <choice><sic>riting</sic><corr>writing</corr></choice> 
+                mostly Bethuel was sick when he came home he <choice><sic>mearly</sic><corr>merely</corr></choice> 
+                got home alive had <choice><sic>ben</sic><corr>been</corr></choice> wounded 
+                and had the Chronic <choice><sic>diare</sic><corr>diarrhea</corr></choice> 
+                the war is <choice><sic>ahard</sic><corr> a hard</corr></choice> place 
+                indeed you have seen some of the hardship of it perhaps all you wish to 
+                see or even hear of my husband was <choice><sic>afflicte</sic><corr>afflicted</corr></choice> 
+                with <choice><sic>acanser</sic><corr>a cancer</corr></choice> it 
+                <choice><sic>Comenced</sic><corr>Commenced</corr></choice> on his lip 
+                it eat his <choice><sic>jawboan</sic><corr>jawbone</corr></choice> into 
+                and then along the side of his neck <choice><sic>untill</sic></choice> 
+                it Came to the <choice><sic>arter</sic><corr>artery</corr></choice> 
+                <choice><sic>ioften</sic><corr>I often</corr></choice> thought he would 
+                bleed to death he told me not to try to stop the blood for he would 
+                <choice><sic>asoon</sic><corr>as soon</corr></choice> bleed to death as 
+                not or die another way it was the worst <choice><sic>soar</sic><corr>sore</corr></choice> 
+                <choice><sic>iever</sic><corr>I ever</corr></choice> seen he 
+                <choice><sic>sufered</sic><corr>suffered</corr></choice> about 6 months 
+                very much indeed the pain were mostly in his head he was very patient 
+                <choice><sic>allthrough</sic><corr>all through</corr></choice> his sickness 
+                he was ready to go when the lord should see fit to Call after him about 
+                three years from the time it <choice><sic>Comenced</sic><corr>Commenced</corr></choice> 
+                it wore him out           
+                <pb xml:id="leaf002r" facs="loc_jc.00117_large.jpg" type="verso"/>
+                <note resp="#ww" type="editorial" place="top">Mrs. Smith Bethuel's mother Feb. 1. '75</note>
+                <note resp="#ww" type="editorial" place="top">sent postal card, April 21, '75</note>
+                he died the 4 of april in the year 1871 <choice><sic>iwill</sic><corr>I will</corr></choice> 
+                <choice><sic>rite</sic><corr>write</corr></choice> the names of our Children 
+                <choice><sic>Comencing</sic><corr>Commencing</corr></choice> at the first 
+                <choice><sic>ira</sic><corr>Ira</corr></choice> Smith Halsa/ William J/ Calvin/ 
+                Bethuel Joseph D/ <choice><sic>Slly</sic><corr>Sally</corr></choice> M/ Mary<ptr target="loc.01930_n4"/></p>
+            
+            <p>Mary was <choice><sic>Maried</sic><corr>married</corr></choice> to David H Deen<ptr target="loc.01930_n5"/> 
+                they are at our house now and will stay <choice><sic>untill</sic><corr>until</corr></choice> 
+                the first of next month then they will return to new york to their boat he left 
+                it on the jersey shore near the <choice><sic>Centeral</sic><corr>Central</corr></choice> 
+                pennsylvania <choice><sic>railrode</sic><corr>railroad</corr></choice> 
+                <choice><sic>Depo</sic><corr>Depot</corr></choice> Sally M 
+                <choice><sic>maryed</sic><corr>married</corr></choice> Harvy Allen<ptr target="n5001"/> he is 
+                <choice><sic>aboatman</sic><corr>a boatman</corr></choice> <choice><sic>to</sic><corr>too</corr></choice> 
+                She goes with him <choice><sic>is ent</sic><corr>I sent</corr></choice> for 
+                them to Come here and stay with me this winter they are with me this winter 
+                <choice><sic>to</sic><corr>too</corr></choice> Joseph is in the lumberwoods 
+                this winter my health is very good <choice><sic>iwas</sic><corr>I was</corr></choice> 
+                not well for about one year after my <choice><sic>husbands</sic><corr>husband's</corr></choice> 
+                death <choice><sic>iwas</sic><corr>I was</corr></choice> 
+                almost <choice><sic>tierd</sic><corr>tired</corr></choice> and 
+                <choice><sic>wornout</sic><corr>worn out</corr></choice> <choice><sic>ishould</sic><corr>I should</corr></choice> 
+                like to see you very much Bethuel will <choice><sic>rite</sic><corr>write</corr></choice> 
+                soon he has often told us of your kindness to him it <choice><sic>awlways</sic><corr>always</corr></choice> 
+                seemed to me that god sent you to save the life of our son that he might Come 
+                home and see his parents once more even sick and wounded Bethuel has your picture</p>
+            <pb xml:id="leaf002v" facs="loc_jc.00118_large.jpg" type="verso"/>
+            
+            <p>we always <choice><sic>thout</sic><corr>thought</corr></choice> 
+                <choice><sic>agreatdeal</sic><corr>a great deal</corr></choice> of that picture 
+                how <choice><sic>iwould</sic><corr>I would</corr></choice> like to see you if 
+                your health should be good <choice><sic>enoug</sic><corr>enough</corr></choice> 
+                to come here Come out and see us <choice><sic>weall</sic><corr>we all</corr></choice> 
+                would be <choice><sic>somuch</sic><corr>so much</corr></choice> pleased to see 
+                you <choice><sic>wemay</sic><corr>we may</corr></choice> see 
+                <choice><sic>eachother</sic><corr>each other</corr></choice> yet sometime if you 
+                <choice><sic>Canot</sic><corr>Cannot</corr></choice> read this 
+                <choice><sic>iwill</sic><corr>I will</corr></choice> send you my love Dear friend</p>                    
+            
+            <closer>
+                <signed>from Maria Smith</signed>
+                <address>
+                    <addrLine>to Walt <choice><sic>Witman</sic><corr>Whitman</corr></choice></addrLine>
+                </address>
+            </closer>
+            <postscript><p>they are <choice><sic>wating</sic><corr>waiting</corr></choice> 
+                <choice><sic>forthe</sic><corr>for the</corr></choice> letter to 
+                <choice><sic>cary</sic><corr>carry</corr></choice> to the village</p>
+            </postscript>
+        </body>                
+    </text>
+</TEI>

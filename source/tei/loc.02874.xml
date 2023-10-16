@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02874">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Anne Gilchrist to Walt Whitman, [26 February 1874]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Anne Gilchrist</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02874</idno></publicationStmt>
+            <sourceDesc>
+               <!--<biblStruct>
+                    <monogr>
+                        <editor>Thomas B. Harned</editor>
+                        <title xml:id="ehm">The Letters of Anne Gilchrist and Walt Whitman</title>
+                        <imprint>
+                            <pubPlace>Garden City, New York</pubPlace>
+                            <publisher>Doubleday, Page &amp; Company</publisher>
+                            <date when="1964">1918</date>
+                            <biblScope unit="page">105&#8211;107</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Anne Gilchrist</author>
+                    <title>Anne Gilchrist to Walt Whitman, [26 February 1874]</title>
+                    <date cert="medium" when="1874-02-26" xml:id="dat1">[February 26, 1874]</date>
+                    <idno type="callno">MSS45443, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0111</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-09" who="#smb">ran image script, updated notes</change>
+            <change when="2023-07-28" who="#aja">updated image pointers</change>
+            <change when="2023-03-23" who="#smb">final check, corrected</change>
+            <change when="2023-03-20" who="#jh">checked, corrected</change>
+            <change when="2022-10-25" who="#aja">checked, corrected</change>
+            <change when="2022-04-15" who="#me">checked, corrected</change>
+            <change who="#cn" when="2021-12-03">checked, corrected, added notes and doi</change>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-05-29" who="#js">proofed</change>
+            <change when="2012-05-11" who="#ej">Checked and Corrected</change>
+            <change when="2012-04-18" who="#al">Checked with microfilm images.</change>
+            <change when="2011-08-05" who="#zk">transcribed and encoded from Harned; annotated AG and family, WMR, MDC, Proctor</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_cb.00173.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">50 Marquis Rd.</name>
+                    <name type="place">Camden Sq.</name>
+                    <name type="place">London</name>
+                    <date when="1874-02-26"/>
+                    <note type="editorial" resp="#unk" place="left">26 Feb 1874</note>
+                </dateline>
+                <salute>My dearest Friend</salute>
+            </opener>
+            
+            <p>Glad am I when the time comes round for writing to you again—though I can't please myself 
+                with my letters, poor little echoes that they are of the loving, hoping, far journeying thoughts 
+                so busy within. It has been a happy time since I 
+                <pb xml:id="leaf001v" facs="loc_cb.00176.jpg" type="verso"/> 
+                received the paper with the joyful news you were back at Washington, well on 
+                your way to recovery able partially to resume work<ptr target="loc.03649_n3"/>—scenting from 
+                afar the fresh breeze &amp; sunshine of perfect health—by this time, not from afar perhaps. 
+                The thought of that makes dull days bright &amp; bright days glorious to me too.—I noted in 
+                the New York Graphic<ptr target="n0440"/> that a new edition of Leaves of Grass was called for 
+                <pb xml:id="leaf002r" facs="loc_cb.00177.jpg" type="recto"/> 
+                —sign truly that America is not so very slowly &amp; now absorbing the precious food she 
+                needs above all else? Perhaps dear Friend even during your lifetime will begin to come the "proof 
+                you will alone accept,—that "your country absorb you as affectionately as you have absorbed 
+                it." I have had two great pleasures since I last wrote you. One is that Herby<ptr target="n0262"/> 
+                has read with a large measure of 
+                <pb xml:id="leaf002v" facs="loc_cb.00172.jpg" type="verso"/> 
+                responsive delight Leaves of Grass quite through, so that he now sees you with his own eyes 
+                &amp; has in his heart the living growing germs of a loving admiration that will grow with his 
+                growth &amp; strengthen every fibre of good in him—Also he read &amp; took much pride in 
+                my "Letters" now shown him for the first time. Percy<ptr target="n2002"/> has had a 
+                fortnight's holiday with us, and looks better 
+                <pb xml:id="leaf003r" facs="loc_cb.00180.jpg" type="recto"/> 
+                in health though still not altogether as I could wish. He says he is getting such good experience, he 
+                would not care just yet to change his post even for better pay. Music is his greatest pleasure—he 
+                seems to get more enjoyment out of that than out of literature, &amp; is acquiring some practical skill.</p>
+            <p>Today (Feb. 25th) is my birthday dearest Friend—a day my children always 
+                <pb xml:id="leaf003v" facs="loc_cb.00182.jpg" type="verso"/> 
+                make very bright &amp; happy to me: and on it they make me promise to "do nothing but what I like 
+                all day." So I shall spend it with you,—partly in finishing this letter, partly reading in 
+                the book that is so dear to me—for that is indeed my soul coming into the presence of your 
+                soul—filled by it with strength &amp; warmth &amp; joy.—In discouraged moods when 
+                oppressed with the consciousness of my own limitations, 
+                <pb xml:id="leaf004r" facs="loc_cb.00183.jpg" type="recto"/> 
+                failures, lack of many beautiful gifts, I say to myself "What sort of a bird with unfledged 
+                wings are you that would mate with an eagle? Can your eyes look the sun in the face like his? 
+                Can you sustain year long, lifelong flights upward? Can you nest in dizzy rocks overhanging 
+                dark, tempestuous abysses? Is your heart like his, a great glowing sun of Love?" Then I answer 
+                "Give me 
+                <pb xml:id="leaf004v" facs="loc_cb.00179.jpg" type="verso"/> 
+                Time. I can bide my time,—a long long growing &amp; unfolding time. That he draws me with 
+                such power, that my soul has found the meaning of itself in him—the object of all its deep, 
+                deathless aspirations in comradeship with him, means, if life is not a mockery clean ended by 
+                death, that the germs are in me, that through cleaving &amp; loving &amp; ever striving up &amp; 
+                on I shall grow like him—like but different—the correlative—What his soul needs 
+                &amp; desires; 
+                <pb xml:id="leaf005r" facs="loc_cb.00186.jpg" type="recto"/> 
+                "And if when I reach America he is not so drawn towards me,—if seeing how often I disappoint 
+                myself, needs must that he too is disappointed, still I can hold bravely, lovingly on to this 
+                inextinguishable faith &amp; hope—with the added joy of his presence sometimes winning from 
+                him more &amp; more a dear friendship yielding him some joy 
+                <pb xml:id="leaf005v" facs="loc_cb.00188.jpg" type="verso"/> 
+                &amp; comfort—for he too turns with hope, with yearning towards me—bids me be 
+                "satisfied &amp; at peace" So I am, so I will be my Darling. Surely surely, sooner or later 
+                I shall justify that hope satisfy that yearning. This is what I say to myself &amp; to you 
+                this 46th birthday Have I said it over &amp; over again? That 
+                <pb xml:id="leaf006r" facs="loc_cb.00189.jpg" type="recto"/> 
+                is because it is the under current of my whole life.—The "Tribune" with Proctors Lecture on 
+                the Sun<ptr target="loc.02874_n3"/> (&amp; a great deal besides that interests me) came safe. A masterly 
+                lecture. And two days ago came the Philadelphia paper with Prof. Morton's<ptr target="loc.02874_n7"/> speech—deeply interesting. 
+                And as I read these things, the feeling that they have come from, &amp; been read by you turns them 
+                <pb xml:id="leaf006v" facs="loc_cb.00185.jpg" type="verso"/> 
+                into Poems for me.</p> 
+            <closer>
+                <salute>Goodbye my dearest Friend.</salute>
+                <signed>Anne Gilchrist.</signed>
+            </closer>
+            <postscript>
+                <p>W. Rossetti's<ptr target="loc.02874_n5"/> marriage is to be the end of next month. Had a pleasant 
+                    chat with Mr. Conway,<ptr target="n0170"/> who took supper with us a week or two ago.</p>
+            </postscript>
+        </body>  
+    </text> 
+</TEI>

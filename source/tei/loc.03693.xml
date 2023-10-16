@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03693">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Elmina D. Slenker to Walt Whitman, 3 August
+                    [1888?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Elmina D. Slenker</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder> National Historical Publications and Records Commission </funder>
+            </titleStmt>
+            <editionStmt> 
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.03693</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Elmina D. Slenker</author>
+                    <title>Elmina D. Slenker to Walt Whitman, 3 August [1888?] </title>
+                    <date cert="low" when="1888-08-03" xml:id="dat1">August 3, [1888?]</date>
+                    <idno type="callno">MSS18630, Box 15, Reel 9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00335</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Slenker, Elmina D." ref="loc.03693_n3">Elmina D. Slenker</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-08" who="#smb">final check, corrected</change>
+            <change when="2023-07-15" who="#aja">checked, corrected, added DOI</change>
+            <change when="2022-12-08" who="#smb">final check, corrected</change>
+            <change when="2022-07-15" who="#pw">checked, corrected</change>
+            <change when="2021-09-14" who="#aja">2nd check, notes</change>
+            <change when="2021-07-30" who="#aja">checked, corrected</change>
+            <change when="2021-07-21" who="#cn">transcribed,encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03693.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1888-08-03"/>Aug 3</dateline>
+                <salute>Friend Whitman<ptr target="loc.03693_n1"/></salute>
+            </opener>
+            <p>I hear thee is far from well, I want to send thee one more appreciative greeting
+                &amp; to tell thee, thee has one appreciative worshipper way off here in Old
+                Virginia</p>
+            <p>One who has quoted from thy Leave of grass persistantly ever since it appeared, and
+                this, together with other hygienic sex work, has robbed me of friends, husband,
+                &amp; perhaps of all the little savings of a life-time as O'Va. Law allows the
+                man to sell all &amp; the wife to be turned from house &amp; home till he dies when
+                she can get her third of what <hi rend="underline">he</hi> does not squander</p>
+            <p>I want thee to feel that thy work has done much for needed Sexual Reform</p>
+            <closer>
+                <salute>Respectfully</salute>
+                <signed>Elmina D. Slenker<ptr target="loc.03693_n2"/></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.03693.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.03693.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.03693.004_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc.03693.005_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc.03693.006_large.jpg" type="verso"/>
+            <pb xml:id="leaf004r" facs="loc.03693.007_large.jpg" type="recto"/>
+            <pb xml:id="leaf004v" facs="loc.03693.008_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

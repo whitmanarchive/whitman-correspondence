@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00670">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00670">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,10 +11,13 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="kc">Kirsten Clawson</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -31,7 +30,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00670</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +40,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,14 +48,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00670</idno></publicationStmt>
             <sourceDesc>
-
                 <bibl>
                     <author>Hannah Whitman Heyde</author>
                     <title>Hannah Whitman Heyde to Walt Whitman, [14 July 1883]</title>
-                    <date cert="medium" when="1883-07-14" xml:id="dat1">July 14, 1883</date>
-                    <orgName xml:id="loc">Hannah Louisa Whitman Heyde Papers, 1853&#8211;1892, Library of Congress, Washington, D.C.</orgName>
+                    <date cert="medium" when="1883-07-14" xml:id="dat1">[July 14, 1883]</date>
+                    <idno type="callno">MSS18630, Box 194</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.02393</idno>
+                    <orgName xml:id="loc">Hannah Louisa Whitman Heyde Papers, 1853–1892,
+                        Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -66,7 +67,8 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Heyde, Hannah">Hannah Whitman Heyde</persName>
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Whitman
+                        Heyde</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -74,8 +76,11 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2022-07-31" who="#aja">revised notes</change>
+            <change when="2022-07-13" who="#kjb">checked, corrected</change>
+            <change when="2022-06-21" who="#me">added callno and DOI</change>
             <change who="#nhg" when="2015-04-07">corrected orgName</change>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-07-16" who="#nhg">checked, corrected</change>
             <change when="2014-02-27" who="#nnk">proofed</change>
             <change when="2014-01-21" who="#ss">checked</change>
@@ -97,33 +102,37 @@
             <p>I <choice>
                     <abbr>rec'd</abbr>
                     <expan>received</expan>
-                </choice> your card and Book, some little time since was <hi rend="underline"
-                    >glad</hi> to hear how you was.&#8212;</p>
+                </choice> your card and Book, some little time since was <hi rend="underline">glad</hi> to hear how you was.—</p>
 
             <p>Has not <choice>
                     <orig>Dr</orig>
                     <reg>Dr.</reg>
-                </choice> Bucke done grandly, splendidly, I was so much interested I sat up two nights <choice>
+                </choice> Bucke<ptr target="loc.04797_n2"/> done grandly, splendidly, I was so much
+                interested I sat up two nights <choice>
                     <orig>till</orig>
                     <reg>until</reg>
                 </choice> after twelve, when it first came. It is just perfect, the pictures, book,
-                everything</p>
+                everything<ptr target="loc.07194_n1"/></p>
 
-            <p>I am glad to have it, the pictures are <hi rend="underline">very fine</hi>,&#8212;(I like <choice>
-                    <orig>Mr O Connor</orig><reg>Mr. O'Connor</reg></choice>) I <choice>
+            <p>I am glad to have it, the pictures are <hi rend="underline">very fine</hi>,—(I
+                like <choice>
+                    <orig>Mr O Connor</orig>
+                    <reg>Mr. O'Connor</reg>
+                </choice>)<ptr target="n2002"/> I <choice>
                     <orig>cant</orig>
                     <reg>can't</reg>
                 </choice> tell you Walt how much I prize the book</p>
 
-            <p>I hope to live to see you and have a good talk. I am writing in a hurry, Charlie was
-                going down town. I took a notion all at once to send my pictures, I have <pb
-                    xml:id="leaf001v" facs="loc.00670.002.jpg" type="verso"/> not been very
-                prompt have I Walt about the pictures these were taken four months ago,
-                I intended to go and have a full face taken, did go again to Atwoods, he was <choice><sic>buisy</sic><corr>busy</corr></choice>
-                these I send of his are bad are not a good likeness, Browns, look more like me.
-                Charlie did not like Browns at all at first (he does not say so much against them now) so of
-                course I felt disappointed. If I get a good full face I will send it. I am afraid
-                these will not be very satisfactory. I <choice>
+            <p>I hope to live to see you and have a good talk. I am writing in a hurry, Charlie<ptr target="n0299"/> was
+                going down town. I took a notion all at once to send my pictures, I have <pb xml:id="leaf001v" facs="loc.00670.002.jpg" type="verso"/> not been very prompt
+                have I Walt about the pictures these were taken four months ago, I intended to go
+                and have a full face taken, did go again to Atwoods,<ptr target="n5001"/> he was <choice>
+                    <sic>buisy</sic>
+                    <corr>busy</corr>
+                </choice> these I send of his are bad are not a good likeness, Browns,<ptr target="n5001"/> look more
+                like me. Charlie did not like Browns at all at first (he does not say so much
+                against them now) so of course I felt disappointed. If I get a good full face I will
+                send it. I am afraid these will not be very satisfactory. I <choice>
                     <orig>dont</orig>
                     <reg>don't</reg>
                 </choice> make a good picture</p>
@@ -138,8 +147,7 @@
                 send you and all the rest ever and ever so much love, I am pretty well now have not
                 been quite well, after all there is really <hi rend="underline">no</hi> real
                 sickness no disease the only thing about it Walt is I have fretted and worried make
-                myself sick almost sometimes. I must turn over a new leaf &amp;
-                do better</p>
+                myself sick almost sometimes. I must turn over a new leaf &amp; do better</p>
 
             <closer>
                 <salute rend="middle">Good bye dear</salute>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="slv.00006">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Bernard O'Dowd, 26 December
+                    1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>slv.00006</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Bernard O'Dowd, 26 December 1890</title>
+                    <date cert="high" when="1890-12-26" xml:id="dat1">December 26, 1890</date>
+                    <orgName xml:id="slv">State Library Victoria (Melbourne), AUS Repository:
+                        Manuscripts Collection</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="O'Dowd, Bernard" ref="n7511">Bernard O'Dowd</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-12" who="#aja">final corrections </change>
+            <change when="2022-06-28" who="#smb">updated notes, corrected</change>
+            <change when="2022-06-27" who="#pw">updated notes, corrected</change>
+            <change when="2022-06-11" who="#smb">final check, corrected, added notes</change>
+            <change when="2022-02-22" who="#aja">checked, corrected, updated notes</change>
+            <change when="2022-02-11" who="#aja">checked, corrected, added notes</change>
+            <change when="2022-02-11" who="#me">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>  
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="slv_tb.00021.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">328 Mickle Street n'r Delaware river</name>
+                    <name type="place">Camden New Jersey U S America<ptr target="slv.00006_n1"/></name>
+                    <date when="1890-12-26"><hi rend="underline">Dec: 26 '90</hi>—</date>
+                </dateline>
+            </opener>
+            <p>Herewith are copies of my big book "Complete Works,"<ptr target="n4132"/> one for Jim
+                    Hartigan,<ptr target="slv.00006_n9"/> one for Fred Woods<ptr target="slv.00006_n8"/> and two for you (four altogether)—all paid
+                for—&amp; cannot pay for the expressage as it all uncertain here—&amp; I <choice>
+                    <abbr>sh'l</abbr>
+                    <expan>shall</expan>
+                </choice> only be too glad if the bundle reaches you safe<ptr target="slv.00006_n2"/>—yr's of Nov. 24th<ptr target="slv.00006_n5"/> rec'd &amp; welcomed with Mr
+                    Bury's<ptr target="slv.00006_n7"/> letter with the 5 pound postal
+                order—shall send a letter to you by mail also at once in duplicate of
+                this—mean time my sympathy &amp; love to you all dear friends men &amp;
+                women</p>
+            <closer>
+                <signed>Walt Whitman<ptr target="slv.00006_n12"/></signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="slv_tb.00022.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="slv_tb.00023.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="slv_tb.00024.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

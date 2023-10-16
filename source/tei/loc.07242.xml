@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07242">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07242">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07242</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07242</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -57,7 +53,7 @@
                     <date cert="high" when="1888-09-15" xml:id="dat1">September 15, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,11 +85,8 @@
             <pb xml:id="leaf001r" facs="loc_es.00368.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07242_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/> London, Ont.,</name><date when="1888-09-15" rend="right"
-                            ><handShift rend="manuscript"/>15 Sept <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07242_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/> London, Ont.,</name><date when="1888-09-15" rend="right"><handShift rend="manuscript"/>15 Sept <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
             <p>All quiet here and another perfect autumn day. Your card of 13th came this morning. I
@@ -102,14 +95,13 @@
                     Carlyle<ptr target="n4301"/> to a man who needed cheering up. I read it a few
                 years ago and it nearly gave me an attack of melancholia. I look upon that same
                 Carlyle as being (or having been?) one of the worst "cranks" that ever lived. And he
-                certainly had about as bad a time of it <pb xml:id="leaf001v"
-                    facs="loc_es.00369.jpg" type="verso"/> for 86 years as any man ever had in this
+                certainly had about as bad a time of it <pb xml:id="leaf001v" facs="loc_es.00369.jpg" type="verso"/> for 86 years as any man ever had in this
                 world. Nothing gave him pleasure, nearly everything gave him pain. As long as his
                 wife lived her presence only seemed to add to his worry and gloom; as soon as she
                 was dead he was more gloomy and worried more than ever because he had lost her! He
                 was a bad sample and she was little (if any?) better. He couldn't even live with his
                 favorite brother John! I think his ignorant old mother with her pipe was the best of the lot;
-                think I could have liked her&#8212;I shall like to know C. by &#38; by to see what
+                think I could have liked her—I shall like to know C. by &amp; by to see what
                 he is like in the next world but I never expect to care much about him!</p>
             <closer>
                 <salute>Love to you</salute>

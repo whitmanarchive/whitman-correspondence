@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02528">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Dr. John Johnston to Walt Whitman, 31 October 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Dr. John Johnston</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02528</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Dr. John Johnston</author>
+                    <title>Dr. John Johnston to Walt Whitman, 31 October 1891</title>
+                    <date cert="high" when="1891-10-31" xml:id="dat1">October 31, 1891</date> 
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00247</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Johnston, Dr. John" ref="n4102">Dr. John Johnston</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2022-03-03" who="#aja">final corrections</change>
+            <change when="2021-12-09" who="#smb">final check, corrected</change>
+            <change when="2021-09-28" who="#cn">second check, pasted note created by smb into master notes file</change>
+            <change when="2021-04-06" who="#smb">first check, added DOI, added notes</change>
+            <change when="2019-12-18" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02528.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Bolton England<ptr target="loc.02528_n1"/></name>
+                    <date when="1891-10-31">Oct 31/91</date>
+                </dateline>
+            </opener> 
+            <p>Just a line to send you a greeting from the Bolton "chaps"<ptr target="loc.07991_n2b"/> &amp; a word of 
+                cheer &amp; comfort.
+                Hope things are "good" with you</p>
+            <p>I send you a copy of <hi rend="underline">Nature notes</hi><ptr target="loc.02528_n2"/> with little article on your 
+                old friend John Burroughs<ptr target="n0129"/></p>
+            <p>Fine sunny weather here all this week.</p>
+            <p>Presume JWW<ptr target="n6121"/> is now "all at sea"<ptr target="loc.02526_n4c"/>
+            </p> 
+            <closer> 
+                <salute>Love to all</salute>
+                <salute>yours affectly</salute>
+                <signed>J. Johnston</signed>
+            </closer>  
+            <pb xml:id="leaf001v" facs="loc.02528.002_large.jpg" type="verso"/>
+        </body>
+    </text>  
+</TEI>

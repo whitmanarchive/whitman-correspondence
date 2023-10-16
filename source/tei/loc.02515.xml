@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02515">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02515">
     <teiHeader>
         <fileDesc>
             <titleStmt>  
@@ -16,6 +13,7 @@
                     <persName xml:id="cn">Cristin Noonan</persName>
                     <persName xml:id="bjo">Brandon James O'Neil</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -28,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02515</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,23 +44,23 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02515</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Dr. John Johnston</author>
                     <title>Dr. John Johnston to Walt Whitman, 2 September 1891</title>
                     <date cert="high" when="1891-09-02" xml:id="dat1">September 2, 1891</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00246</idno>
                     <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown author</author> 
                     <title level="a">Unknown</title>
                     <title level="j">The Queen</title>
                     <date when="1891-06-13">June 13, 1891</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -77,6 +75,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2021-07-24" who="#smb">completed director's corrections</change>
             <change when="2021-05-24" who="#smb">final check, corrected, updated notes</change>
             <change when="2021-05-24" who="#bjo">second check, corrected</change>
@@ -95,49 +94,49 @@
                 </dateline>
                 <salute>My Dear Friend,</salute>
             </opener>
-            <p>The American mail arrived here an hour ago &#38; brought me your dear,
-                good letter of Aug 23<hi rend="underline">rd</hi> &#38; 24<hi rend="underline">th</hi><ptr target="loc.02515_n2"/> with Sloane Kennedy's<ptr target="n3039"/>
+            <p>The American mail arrived here an hour ago &amp; brought me your dear,
+                good letter of Aug 23<hi rend="underline">rd</hi> &amp; 24<hi rend="underline">th</hi><ptr target="loc.02515_n2"/> with Sloane Kennedy's<ptr target="n3039"/>
                 letter to you enclosed,<ptr target="loc.02515_n3"/> for which I return you my most cordial thanks.</p>
             <p>I am indeed glad to know that things, on the whole, go on fairly well with you
-                &#38; that you are able to sleep better &#38; to be up, take your food &#38; stand your
+                &amp; that you are able to sleep better &amp; to be up, take your food &amp; stand your
                 <pb xml:id="leaf001v" facs="loc.02515.002_large.jpg" type="verso"/>
-                "stout massage"<ptr target="loc.07872_n3"/>&#8212;<hi rend="underline">that</hi> you must surely 
-                keep up at all inconveniences; it is the very life of you&#8212;for
+                "stout massage"<ptr target="loc.07872_n3"/>—<hi rend="underline">that</hi> you must surely 
+                keep up at all inconveniences; it is the very life of you—for
                 dear J. W. Wallace<ptr target="n6121"/> is by this time within four
-                days of you<ptr target="loc.02508_n5"/> &#38; is cleaving his way toward you as fast as iron
-                &#38; steam can take him.</p> 
+                days of you<ptr target="loc.02508_n5"/> &amp; is cleaving his way toward you as fast as iron
+                &amp; steam can take him.</p> 
             <p>In your letter you say that your "missives are probably monotonous enough,
-                the same old story over &#38; over again."</p>
+                the same old story over &amp; over again."</p>
             <p>Ah my dear, good old Friend if you knew how I long for those dear missives, how s[w]eetly
                 <pb xml:id="leaf002r" facs="loc.02515.003_large.jpg" type="recto"/>
-                precious &#38; how prized they are you would not speak of monotony.
-                To me they are as welcome as the flowers in spring &#38; I dare not think
+                precious &amp; how prized they are you would not speak of monotony.
+                To me they are as welcome as the flowers in spring &amp; I dare not think
                 of the time when I shall cease to receive them.</p>
             <p>I am deeply touched by your reference to your "fast dimming" eyesight
-                &#38; by the thought that you should continue to write to me when I know
-                that the effort must be considerable. God bless you continually &#38; preserve
+                &amp; by the thought that you should continue to write to me when I know
+                that the effort must be considerable. God bless you continually &amp; preserve
                 you from disaster for many a long day to come!</p>
             <p>Since Wallace left us we have been living a life of quiet, hopeful 
-                &#38; patient expectancy. At
+                &amp; patient expectancy. At
                 <pb xml:id="leaf002v" facs="loc.02515.004_large.jpg" type="verso"/>
-                our meeting on Monday last&#8212;wh. was held here&#8212;we spent the time
-                in reading over our Whitman Correspondence&#8212;including H.L.T's<ptr target="n4267"/>
-                wonderfully sweet &#38; precious letters&#8212;in loving talk about you
-                &#38; Wallace &#38; in reading bits from <hi rend="underline">L. of G</hi>
-                e.g. "Out of the rolling ocean"<ptr target="loc.02515_n6"/> &#38;c &#38;c.</p>
-            <p>By the time you receive this Wallace will have seen &#38; held loving converse
-                with &#38; will probably have gone on to Canada with Dr. Bucke.<ptr target="n0119"/></p>
+                our meeting on Monday last—wh. was held here—we spent the time
+                in reading over our Whitman Correspondence—including H.L.T's<ptr target="n4267"/>
+                wonderfully sweet &amp; precious letters—in loving talk about you
+                &amp; Wallace &amp; in reading bits from <hi rend="underline">L. of G</hi>
+                e.g. "Out of the rolling ocean"<ptr target="loc.02515_n6"/> &amp;c &amp;c.</p>
+            <p>By the time you receive this Wallace will have seen &amp; held loving converse
+                with &amp; will probably have gone on to Canada with Dr. Bucke.<ptr target="n0119"/></p>
             <p>Happy fellow! How I "Envigres"<ptr target="loc.02515_n8"/> him!
                 <pb xml:id="leaf003r" facs="loc.02515.006_large.jpg" type="recto"/>
                 <pb xml:id="leaf004r" facs="loc.02515.005_large.jpg" type="recto"/>
-                But I have had my innings &#38; now he is having his. But all the same I say
+                But I have had my innings &amp; now he is having his. But all the same I say
                 "Happy fellow!"</p>
             <p>I am a little impatient of the long time that must elapse before I can hear
                 from him about his visit to you as I do so long to hear his story. But I must
-                possess my soul in patience &#38; in due time all will come right</p>
+                possess my soul in patience &amp; in due time all will come right</p>
             <p>I enclose a cutting from "The Queen"<ptr target="loc.02515_n7"/> of June 13/91<ptr target="loc.02515_n2"/> which will certainly amuse you.</p>
                 
-            <add rend="pasteon" source="#ref1" xml:id="add1">
+            <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                 <q who="#ref1" type="printed">
                     <floatingText rend="flippy">
                         <body>
@@ -152,18 +151,18 @@
                         </body>
                     </floatingText> 
                 </q>
-            </add>          
-                <p>It is a good "specimen["] of the "Society" journalist's power of imagination &#38;
+            <anchor xml:id="a01"/>          
+                <p>It is a good "specimen["] of the "Society" journalist's power of imagination &amp;
                 his faculty of evolving
                 <pb xml:id="leaf005r" facs="loc.02515.007_large.jpg" type="recto"/>
                 a <hi rend="underline">par</hi> from his inner consciousness.
-                The picture of an "old gentleman" "in good health &#38; spirits["] tho'
+                The picture of an "old gentleman" "in good health &amp; spirits["] tho'
                 "not able to get about very briskly" "entertaining his guests" in a flower-filled,
                 summer arbour "with selection from his own works" which his critical eye told 
-                him wd be likely to "please them" is distinctly &#38; nobly
-                comic when applied to you &#38; your birthday! And "<hi rend="underline">The Queen</hi>"
+                him wd be likely to "please them" is distinctly &amp; nobly
+                comic when applied to you &amp; your birthday! And "<hi rend="underline">The Queen</hi>"
                 is by no means poses as a comic paper!</p>
-            <p>With kindest regards to all your household &#38; to HLT &#38; with best love to yourself</p>
+            <p>With kindest regards to all your household &amp; to HLT &amp; with best love to yourself</p>
             <closer> 
                 <salute>I remain</salute>
                 <salute>Yours affectionately</salute>
@@ -171,7 +170,7 @@
             </closer>  
             <postscript>
                 <p>PS Have just read John Burroughs<ptr target="n0129"/> article in Sept 
-                   <hi rend="underline">Atlantic</hi>&#8212;"A Study of Analogy"<ptr target="loc.02515_n5"/></p>
+                   <hi rend="underline">Atlantic</hi>—"A Study of Analogy"<ptr target="loc.02515_n5"/></p>
             </postscript>
             <pb xml:id="leaf006r" facs="loc.02515.008_large.jpg" type="recto"/>
             <pb xml:id="leaf006v" facs="loc.02515.009_large.jpg" type="verso"/>

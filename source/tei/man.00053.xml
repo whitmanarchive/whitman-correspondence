@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="man.00053">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="man.00053">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +14,7 @@
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>man.00053</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>man.00053</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -88,9 +84,9 @@
             <opener>
                 <dateline rend="right">
                     <name type="place">Haddonfield, <choice><abbr>NJ.</abbr><expan>New Jersey</expan></choice></name>
-                    <date when="1880-07-18">July 18th&#8212;80</date>
+                    <date when="1880-07-18">July 18th—80</date>
                 </dateline>
-                <salute>Mr Whitman&#8212;</salute>
+                <salute>Mr Whitman—</salute>
                 <salute>Dear Friend,</salute>
             </opener>
 
@@ -98,15 +94,12 @@
                 have not had time to write to you. You cant think how pleased I was to get your
                 letter and to learn that you thought of your Jersey friends while so far away from
                 us, yet I was sorry to
-                <pb xml:id="leaf001v" facs="man_ej.00223_large.jpg"
-                    type="verso"/>to hear that you have been ill I hope when you get this you will
+                <pb xml:id="leaf001v" facs="man_ej.00223_large.jpg" type="verso"/>to hear that you have been ill I hope when you get this you will
                 be enjoying better health. Joe was very sick two or three weeks ago, but is better
-                now; and I am enjoying my usual good health. I suppose you wonder what has kept <hi
-                    rend="underline">me</hi> so busy I will tell you. Lizzie Hider<ptr target="nyp.00417_n3"/> has been staying
-                with me for two weeks past, and I have had so much sewing to do for Ruth<ptr target="n1060"/>&#8212;
+                now; and I am enjoying my usual good health. I suppose you wonder what has kept <hi rend="underline">me</hi> so busy I will tell you. Lizzie Hider<ptr target="nyp.00417_n3"/> has been staying
+                with me for two weeks past, and I have had so much sewing to do for Ruth<ptr target="n1060"/>—
                 getting ready for festivals, picnics and
-                <pb xml:id="leaf002r"
-                    facs="man_ej.00224_large.jpg" type="recto"/>such&#8212;that it all has
+                <pb xml:id="leaf002r" facs="man_ej.00224_large.jpg" type="recto"/>such—that it all has
                 kept me very busy but the picnics will soon be over and then I shall not have so
                 much to do</p>
             <p>Do you hear from the Gilchrists<ptr target="n3001"/> often it has been some time since Mother heard from
@@ -119,7 +112,7 @@
 
             <closer>
                 <salute>Write soon again and let us know how you enjoyed your trip up the <choice>
-                        <abbr>St. L</abbr><expan>St. Lawrence</expan></choice>&#8212;</salute>
+                        <abbr>St. L</abbr><expan>St. Lawrence</expan></choice>—</salute>
                 <signed rend="right">Debbie V. Browning</signed>
                 <signed rend="right">Haddonfield</signed>
             </closer>

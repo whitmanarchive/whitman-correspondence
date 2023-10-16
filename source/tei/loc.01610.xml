@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01610">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Nellie Eyster to Walt Whitman, 14 June 1870</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Nellie Eyster</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01610</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Nellie Eyster</author>
+                    <title>Nellie Eyster to Walt Whitman, 14 June 1870</title>
+                    <date cert="high" when="1870-06-14" xml:id="dat1">June 14, 1870</date>
+                    <idno type="callno">MSS18630, Box 9, Reel 5–6</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00161 </idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <handNotes>
+            <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Eyster, Nellie" ref="n0225">Nellie Eyster</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-21" who="#smb">updated notes</change>
+            <change when="2023-06-28" who="#aja">final corrections for Ken</change>
+            <change when="2023-05-09" who="#aja">edited notes</change> 
+            <change when="2023-04-21" who="#jh">checked, corrected</change>
+            <change when="2022-09-23" who="#aja">checked, corrected</change>
+            <change when="2022-02-02" who="#cn">checked, corrected</change>
+            <change when="2021-11-17" who="#aja">checked, corrected, added DOI and notes</change>
+            <change who="#ak" when="2015-04-29">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-11-01" who="#cb">proofed</change>
+            <change when="2012-06-18" who="#js">proofed</change>
+            <change when="2012-05-08" who="#km">checked</change>
+            <change when="2012-03-28" who="#al">checked and corrected</change>
+            <change when="2011-05-10" who="#kk">Transcribed; encoded.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01610.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1870-06-14">June 14th; 1870<ptr target="loc.01610_n1"/></date>
+                </dateline>
+                <salute>To Walt Whitman. Gentleman.</salute>
+                <salute>Sir.</salute>
+            </opener>
+            <p>You have had many tributes from the learned and great of Europe and America, yet you
+                will not despise that of a simple, honest woman who writes to thank you, in all
+                sincerity for those "Leaves of Grass" from which her soul has drawn such health,
+                freshness and aroma. I visited Washington for the first time, this May. The guest of
+                Mrs. Schwartz,<ptr target="n5001"/> (who one night in passing off the platform of a
+                Car, gave you a rose) I was compelled to many Car rides in my transit to "the City".
+                On Car No 14, I encountered you more than once. Your face, which I chose to think a
+                    <hi rend="underline">facsimile</hi> of the grand old patriarch's, Abraham,<ptr target="loc.01610_n2"/> attracted me. Through Mr.
+                Devlin,<ptr target="n0192"/>
+                from Mr. Doyle,<ptr target="n0752"/> I was allowed to read your—I
+                prefer saying—I was permitted a <hi rend="underline">long look</hi> into that
+                wonderful mirror of your creation, where I saw the reflex of <hi rend="underline">your</hi>
+                <pb xml:id="leaf001v" facs="loc.01610.002_large.jpg" type="verso"/> 
+                soul, and felt the influence of your divining power. Mr <choice>
+                    <sic>O'Conner's</sic>
+                    <corr>O'Connor's</corr>
+                </choice><ptr target="n2002"/> manly, eloquent, but most unnecessary vindication<ptr target="n0272"/> of your purity was also given me.</p>
+            <q who="#ww"><floatingText>
+                    <body>
+                        <lg type="poem" org="uniform" sample="complete" part="N">
+                            <l part="N">"Only themselves understand themselves and the like of
+                                themselves.</l>
+                            <l part="N">As Souls only understand Souls."<ptr target="loc.01610_n3"/></l>
+                        </lg>
+                    </body>
+                </floatingText></q>
+            <p>I needed no one to translate for me the language of yours, written so plainly in
+                every line and furrow of your face, and revealed to the world in the many gracious
+                deeds of love to your kind.</p>
+            <p>I closed your book revelation, a wiser and more thoughtful woman, than when, from
+                idle curiosity I first opened it, at the very stanza, "Perfections" which I have
+                just quoted. Life held grander possibilities to me from that hour, and the mission
+                of a soul, born into this world to love, influence, and suffer, was invested with
+                profounder responsibilities.</p>
+            <p>To whoever is granted the power to make 
+                <pb xml:id="leaf002r" facs="loc.01610.003_large.jpg" type="recto"/> 
+                another long for <hi rend="underline">Truth</hi>, for its own beautiful sake; love the lowly and
+                oppressed for the sake of the divinity spark which is in each human body, and see in
+                Nature the heart of the great Mother–God who conceived and gave it birth.—To
+                such <unclear reason="illegible" resp="#cn" cert="medium">an</unclear> 
+                one there is a debt due of allegiance and profound gratitude.</p>
+            <p>I thank you Sir, with all my heart, and pray for you the abiding Presence and hourly
+                Comfort of the divine <hi rend="underline">Pure in Heart</hi> whom you worship.</p>
+            <p>I need make no apology for this note. You will not misunderstand it. I go to my home
+                in Harrisburg, Pennsylvania, tomorrow. I may never again chance to see you, but you
+                will believe, nevertheless that I will wish for you—and teach others to do the
+                same—a long earth–life of usefulness, and an eternity of <hi rend="underline">appreciation</hi> and reward.</p>
+            <closer>
+                <salute>Reverently yours.</salute>
+                <signed>Mrs. Nellie Eyster.</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.01610.004_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc.01610.005_large.jpg" type="recto"/>
+            <note resp="#ww" type="editorial">from a lady—a stranger | Washington—1870 | a
+                letter to comfort a fellow &amp; brace him up</note>
+            <note resp="#ww" type="editorial">Nellie Eyster</note>
+            <note resp="#ht" type="editorial">1888 see notes Apr 14 1888</note>
+            <pb xml:id="leaf003v" facs="loc.01610.006_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

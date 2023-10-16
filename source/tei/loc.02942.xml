@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02942">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02942">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="if">Ian Faith</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02942</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02942</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Sloane Kennedy</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1888-04-22" xml:id="dat1">April 22, 1888</date>
                     <idno type="callno">MSS18630, Box 12</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,21 +81,20 @@
 
             <pb xml:id="leaf001v" facs="loc_es.00783_large.jpg" type="verso"/>
             <opener>
-                <salute><handShift rend="manuscript"/>Dear Friend:<ptr target="loc.02942_n1"
-                    /></salute> 
+                <salute><handShift rend="manuscript"/>Dear Friend:<ptr target="loc.02942_n1"/></salute> 
             </opener>
             <p>C'est A great moment at last this April 22, (88) Sund. Eve (I free from the
                 gnarring of the <unclear reason="illegible" cert="low" resp="#smb">finite</unclear> at my heels).
                 Your <hi rend="underline">very interesting</hi> letters <choice>
                     <orig>rec'd</orig>
                     <reg>recieved</reg>
-                </choice> &#38; forwarded.</p>
+                </choice> &amp; forwarded.</p>
             <p>Last night I saw Bronson Howard's<ptr target="n4257"/>
-                play&#8212;Henrietta&#8212;Robson &#38; Crane<ptr target="n4258"/> chief actors. A
-                very useful play&#8212;satire on Wall Street.</p>
+                play—Henrietta—Robson &amp; Crane<ptr target="n4258"/> chief actors. A
+                very useful play—satire on Wall Street.</p>
             <p>Matthew Arnold's<ptr target="loc.05536_n4"/> article on America in the April
-                Nineteenth Century<ptr target="loc.02942_n2"/> you ought to read. He's as insolent &#38; haughty toward us
-                (amusingly so) as all other Englishmen. They are getting afraid of us&#8212;to tell
+                Nineteenth Century<ptr target="loc.02942_n2"/> you ought to read. He's as insolent &amp; haughty toward us
+                (amusingly so) as all other Englishmen. They are getting afraid of us—to tell
                 the truth?</p>
             <closer>
                 <signed rend="right">W.S.K</signed>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
- 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07086">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07086">
     <teiHeader>   
         <fileDesc>
             <titleStmt>
@@ -27,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07086</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,14 +41,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07086</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>C. B. Burr</author>
                     <title>C. B. Burr to Walt Whitman, 22 January 1881</title>
                     <date cert="high" when="1881-01-22" xml:id="dat1">January 22, 1881</date>
                     <idno type="callno">MSS45443, Box 1</idno>
-                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="document" xml:id="rel01" target="wwa.00082"/>
                     <relatedItem type="text" target="loc.05215"/>
                     <note type="project" target="#rel01">On the back of this partial letter, which has been crossed out and pasted together with a partial envelope, Whitman wrote notes about language.</note>

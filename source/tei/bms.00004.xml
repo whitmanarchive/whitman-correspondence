@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bms.00004">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bms.00004">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>bms.00004</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>bms.00004</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">117</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">117</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -93,19 +89,15 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden New Jersey U S America<ptr target="bms.00004_n1"
-                        /></name>
+                    <name type="place">Camden New Jersey U S America<ptr target="bms.00004_n1"/></name>
                     <date when="1887-08-20">Aug: 20 '87</date>
                 </dateline>
             </opener>
-            <p>Nothing special to write&#8212;I suppose you have lately rec'd some papers from
-                me&#8212;We appear to be thro' the long &#38; fierce spell of hot weather&#8212;have
-                had it very agreeable now for nearly a fortnight&#8212;John Burroughs<ptr
-                    target="n0129"/> has been here for a couple of days<ptr target="bms.00004_n2"
-                />&#8212;he is well&#8212;nothing new in my literary affairs&#8212;H[erbert]
-                    G[ilchrist]<ptr target="n0262"/> is here &#38; is painting leisurely&#8212;he is
-                well&#8212;I hear frequently f'm Dr Bucke<ptr target="n0119"/> and Kennedy<ptr
-                    target="n3039"/>&#8212;I drove out twelve miles &#38; back yesterday&#8212;</p>
+            <p>Nothing special to write—I suppose you have lately rec'd some papers from
+                me—We appear to be thro' the long &amp; fierce spell of hot weather—have
+                had it very agreeable now for nearly a fortnight—John Burroughs<ptr target="n0129"/> has been here for a couple of days<ptr target="bms.00004_n2"/>—he is well—nothing new in my literary affairs—H[erbert]
+                    G[ilchrist]<ptr target="n0262"/> is here &amp; is painting leisurely—he is
+                well—I hear frequently f'm Dr Bucke<ptr target="n0119"/> and Kennedy<ptr target="n3039"/>—I drove out twelve miles &amp; back yesterday—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

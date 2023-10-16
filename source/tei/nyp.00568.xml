@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00568">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00568">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00568</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,14 +41,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00568</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William D. O'Connor</author>
                     <title>William D. O'Connor to Walt Whitman, 23 May 1883</title>
                     <date cert="high" when="1883-05-23" xml:id="dat1">May 23, 1883</date>
-                    <idno type="callno"></idno>
-                    <orgName xml:id="nyp">The Oscar Lion Papers, 1914&#8211;1955, New York Public Library, New York, N.Y.</orgName>
+                    <idno type="callno"/>
+                    <orgName xml:id="nyp">The Oscar Lion Papers, 1914–1955, New York Public Library, New York, N.Y.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,7 +82,7 @@
             <p>A couple of hours ago I got the copy of Dr. Bucke's book. I judge by a cursory and interrupted looking through, that it is tip-top.</p>            
             <p>I hope it is to be <hi rend="underline">bound</hi>, for I don't like paper covers. I noticed three typographical errors, which           
             <pb xml:id="leaf001v" facs="nyp_nhg.00003_large.jpg" type="verso"/>            
-            ought to be corrected. One on page 41, line 4, "brilliant monogram" for "monograph." Another on page 74 (very bad) where my sturdy "I vaunt it and I stand by it," is spoiled by being rendered "I vaunt it and I <hi rend="underline">stand by</hi>." On page 145, there is "Thayer, Eldridge" instead of "Thayer &#38; Eldridge."</p>
+            ought to be corrected. One on page 41, line 4, "brilliant monogram" for "monograph." Another on page 74 (very bad) where my sturdy "I vaunt it and I stand by it," is spoiled by being rendered "I vaunt it and I <hi rend="underline">stand by</hi>." On page 145, there is "Thayer, Eldridge" instead of "Thayer &amp; Eldridge."</p>
             <p>Success to the book!</p>
             <pb xml:id="leaf002r" facs="nyp_nhg.00004_large.jpg" type="recto"/>
             <p>I will write to you later. I am much stricken. . . Since Jeannie's death, I have been very ill, and I am still ill and very feeble and broken down.</p>

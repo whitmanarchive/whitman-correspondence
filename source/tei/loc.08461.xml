@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08461">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Preston Harrison to Walt Whitman, [1885?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Preston Harrison</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.08461</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Preston Harrison</author>
+                    <title>Preston Harrison to Walt Whitman, [1885?]</title>
+                    <date cert="low" notBefore="1885-01-01" notAfter="1885-12-31" xml:id="dat1">[1885?]</date>
+                    <idno type="callno">MSS45443, Box 2, Reel 1–2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0056</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt
+                        Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.04311"/>
+                    <relatedItem type="document" target="wwa.00675"/>
+                    <note type="project" target="#rel01">Whitman struck through this letter and used
+                        the verso to draft trial titles for the poem that would be published
+                        as "Fancies at Navesink." "Voices of Ebb-Tide" was a trial title for "Fancies at
+                    Navesink," which was first published in <hi rend="italic">The Nineteenth Century</hi>
+                    (August 1885). This letter therefore likely dates to 1885.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Harrison, Preston" ref="loc.08461_n1">Preston Harrison</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-18" who="#aja">final corrections</change>
+            <change when="2022-07-06" who="#pw">checked, corrected</change>
+            <change when="2022-03-03" who="#aja">2nd check, corrected</change>
+            <change when="2022-02-28" who="#aja">checked, corrected</change>
+            <change when="2022-02-26" who="#me">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_js.00242_large.jpg" type="recto"/>
+            <p><gap reason="cut-away"/>a busy moment &amp; sincerely wishing an answer from you.<ptr target="loc.08461_n3"/> I
+                hope you will not disappoint me.</p>
+            <closer>
+                <salute>Yours most respectfully</salute>
+                <signed>Preston Harrison.</signed>
+            </closer>
+            <postscript>
+                <p>
+                    P.S. My address:
+                    <address>
+                        <addrLine>231 S. Ashland Ave,</addrLine>
+                        <addrLine> Chicago, Ill.</addrLine>
+                    </address>  
+                </p>
+            </postscript>
+            <pb xml:id="leaf001v" facs="loc_js.00241_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

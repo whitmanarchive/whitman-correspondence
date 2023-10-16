@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01805">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Joaquin Miller to Walt Whitman, 30 September 1871</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Joaquin Miller</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="br">Beverley Rilett</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01805</idno></publicationStmt>            
+            <sourceDesc>
+                <bibl>
+                    <author>Joaquin Miller</author>
+                    <title>Joaquin Miller to Walt Whitman, 30 September 1871</title>
+                    <date cert="high" when="1871-09-30" xml:id="dat1">September 30, 1871</date>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00278</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Miller, Joaquin" ref="n0412">Joaquin Miller</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-04-25" who="#smb">final checked, corrected</change>
+            <change when="2022-09-30" who="#aja">checked, corrected</change>
+            <change when="2022-02-16" who="#cn">checked, corrected</change>
+            <change when="2021-11-19" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-30">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-06-14" who="#js">proofed</change>
+            <change when="2012-05-10" who="#km">checked</change>
+            <change when="2012-04-26" who="#al">Checked and corrected</change>
+            <change when="2011-01-21" who="#br">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">  
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03136.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Easton Pen.</name> 
+                    <date when="1871-09-30">Sept 30. 71.</date> 
+                    <name type="person">Walt Whitman</name> 
+                        <name type="place">Washington D.C.<ptr target="loc.01805_n1"/></name>                   
+                </dateline>
+                <salute>My Dear Mr Whitman:</salute>
+            </opener>
+            <p>I have many messages for you from your friends in Europe which I promised and so much desired to deliver
+                face to face; and day after day and week after week I promised myself and hoped to come to you, 
+                but now I shall not see you till I return; for I am tired of towns and tomorrow set my face to the West. 
+                I am weary and want rest, and I cannot rest in cities. My address for a time will be San Francisco and since 
+                I cannot see you I should be proud of a letter from you.</p>
+            <p>I am tired of books too and take but one with me; one Rossetti<ptr target="n0522"/> gave me, 
+                a "Walt Whitman"—Grand old man! The grandest, and truest American I know, accept the love of your son.</p>
+            <closer>
+                <signed>Joaquin Miller<ptr target="loc.01805_n2"/></signed>
+                <pb xml:id="leaf001v" facs="loc.03136.002_large.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc.03136.005_large.jpg" type="recto"/>
+                <address>
+<!--the following surface appears to be Miller's calling card, no verso scan available. I made a note on the card. (cn 2/16/22)-->
+                    <addrLine><handShift rend="printed"/><hi rend="italic">JOAQUIN MILLER.</hi></addrLine>
+                    <addrLine><handShift rend="manuscript"/>San Francisco California</addrLine>
+                </address>
+            </closer>
+            <pb xml:id="leaf003r" facs="loc.01805.001_large_mflm.jpg" type="recto"/>
+            <note type="editorial" resp="#ww" place="left">Joaquin Miller</note>
+            <note type="editorial" resp="#ht" place="top">see notes May 5 1888</note>
+            <pb xml:id="leaf003v" facs="loc.01805.002_large_mflm.jpg" type="verso"/>
+        </body>
+    </text> 
+</TEI>

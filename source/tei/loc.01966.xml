@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01966">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John Townsend Trowbridge to Walt Whitman, 20 July 1867</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Townsend Trowbridge</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01966</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John Townsend Trowbridge</author>
+                    <title>John Townsend Trowbridge to Walt Whitman, 20 July 1867</title>
+                    <date cert="high" when="1867-07-20" xml:id="dat1">July 20, 1867</date>
+                    <idno type="callno">MSS18630, Box 17, Reel 10–11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00393 </idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+                <handNote xml:id="unk"><persName key="unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Trowbridge, John Townsend" ref="duk.00656_n1">John Townsend Trowbridge</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-01-24" who="#smb">final check, corrected</change>
+            <change when="2022-07-25" who="#kjb">checked, corrected</change>
+            <change when="2021-11-03" who="#aja">2nd check, notes</change>
+            <change who="#ak" when="2015-05-08">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-14" who="#cb">proofed</change>
+            <change when="2012-03-27" who="#nnk">proofed</change>
+            <change when="2012-02-22" who="#js">proofed, added envelope encoding</change>
+            <change when="2011-06-24" who="#kk">Transcribed, encoded.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.00673_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Arlington, Mass.</name>
+                    <date when="1867-07-20">July 20. 1867.<ptr target="loc.01966_n1"/></date>
+                </dateline>
+                <salute>My Dear Friend,</salute>
+            </opener>
+            <p>W.H. Piper Co. of Boston<ptr target="loc.01966_n3"/> say they would like to place your new
+                Edition of the "Leaves"<ptr target="uva.00381_n4"/> on their counter, &amp; sell it
+                as they sell other books. They would take, say, 50 copies to begin with. There is a
+                small continuous dropping-in demand for the "Leaves," 
+                <pb xml:id="leaf001v" facs="loc_vm.00674_large.jpg" type="verso"/> 
+                &amp; copies of the Thayer &amp;
+                Eldridge<ptr target="loc.00576_n100"/> edition sell for $5. You might write directly to
+                <hi rend="underline">W.H. Piper</hi>, using my name. He will be a good man to
+                retail the book: he would also have undertaken to publish &amp; push it but for the
+                opposition of others.<ptr target="loc.01966_n2"/></p> 
+            <p>Mr. Newton<ptr target="har.00057_n3"/> was not able to call on you for the little
+                volume you wished to send me by him. 
+                It came by <pb xml:id="leaf002r" facs="loc_vm.00675_large.jpg" type="recto"/> 
+                mail,—through W.D. O'C's<ptr target="n2002"/> agency, I perceive, with a N.Y. Times enclosed. 
+                I thank you both. I had already bought a copy of the critique, but as a friend had carried it
+                off, I was very glad to get another.<ptr target="loc.01966_n4"/> It is a unique &amp; delightful little
+                treatise: how bold &amp; fresh &amp; native! I hope some day to see the author.</p>
+            <p>My love to the O'Connors. I owe W<hi rend="underline">m</hi> for a 
+                <pb xml:id="leaf002v" facs="loc_vm.00676_large.jpg" type="verso"/> 
+                long &amp; eloquent letter, received I don't dare to say how long ago. I am hungry to see you
+                &amp; him &amp; Mrs. O'C.<ptr target="n4137"/> again: if you or they come near
+                me, you must surely visit me.</p>
+            <closer>
+                <salute>Sincerely your friend</salute>
+                <signed>J.T. Trowbridge</signed>
+            </closer>
+            <pb xml:id="leaf003r" facs="loc_vm.00671_large.jpg" type="recto"/>
+            <note type="editorial" resp="#ww" place="margintop" rend="underline">Atty Genls</note>
+            <note type="editorial" resp="#unk" place="margintop">see notes Jan 10 1889</note>
+            <note type="editorial" resp="#ww" place="marginleft">J.T.Trowbridge</note>
+            <pb xml:id="leaf003v" facs="loc_vm.00672_large.jpg" type="verso"/>
+        </body> 
+    </text>
+</TEI>

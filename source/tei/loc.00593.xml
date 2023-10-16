@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00593">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00593">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00593</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +37,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00593</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -49,8 +47,8 @@
                      <pubPlace>Boston</pubPlace>
                      <publisher>Small, Maynard &amp; Company</publisher>
                      <date>1906</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">416</biblScope>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="page">416</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -58,7 +56,7 @@
                <author>John Swinton</author>
                <title>John Swinton to Walt Whitman, 25 February 1863</title>
                <date when="1863-02-25">February 25, 1863</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -92,13 +90,13 @@
                   <name type="place">TIMES OFFICE,</name> 
                   <date when="1863-02-11">WEDNESDAY NIGHT 2 O'CLOCK.</date>
                </dateline>
-               <salute>My dear Walt&#8212;</salute>
+               <salute>My dear Walt—</salute>
             </opener>
-         <p>You will find the article you sent will be in the Times of this morning, when it is published. I<ptr target="loc.00593_n100"/> have crowded out a great many things to get it in, and it has taken the precedence of army correspondence and articles which have been waiting a month for insertion. It is excellent&#8212;the first part and the closing part of it especially. I am glad to see you are engaged in such good work at Washington. It must be even more refreshing than to sit by Pfaff's privy<ptr target="loc.00593_n2"/> and eat sweet-breads and drink coffee, and listen to the intolerable wit of the crack-brains. I happened in there the other night, and the place smelt as atrociously as ever. Pfaff looked as of yore. I read your article in proof and hope it's all accurate enough. "The field large&#8212;the reapers few" is the finest paragraph. Everything in New York moves on pretty much as usual. It's the old town&#8212;only different.</p>
-            <p>My brother William<ptr target="loc.00593_n3"/> sailed for Port Royal ten days ago&#8212;to be present at the attack on Charleston&#8212;if it is to be attacked.<ptr target="loc.00593_n4"/>
+         <p>You will find the article you sent will be in the Times of this morning, when it is published. I<ptr target="loc.00593_n100"/> have crowded out a great many things to get it in, and it has taken the precedence of army correspondence and articles which have been waiting a month for insertion. It is excellent—the first part and the closing part of it especially. I am glad to see you are engaged in such good work at Washington. It must be even more refreshing than to sit by Pfaff's privy<ptr target="loc.00593_n2"/> and eat sweet-breads and drink coffee, and listen to the intolerable wit of the crack-brains. I happened in there the other night, and the place smelt as atrociously as ever. Pfaff looked as of yore. I read your article in proof and hope it's all accurate enough. "The field large—the reapers few" is the finest paragraph. Everything in New York moves on pretty much as usual. It's the old town—only different.</p>
+            <p>My brother William<ptr target="loc.00593_n3"/> sailed for Port Royal ten days ago—to be present at the attack on Charleston—if it is to be attacked.<ptr target="loc.00593_n4"/>
             </p>
             <p>Do you know Conway of Kansas?<ptr target="loc.00593_n5"/> He is a good man If you don't know him, and if he would be of any service to you in any way, I know he would be rejoiced to serve you, if you mentioned my name to him.</p>
-            <p>The article has some things in that I could recognize you by, but not many. I like it better on that account than I should otherwise.&#8212;Hoping that Vicksburg may soon fall.</p>
+            <p>The article has some things in that I could recognize you by, but not many. I like it better on that account than I should otherwise.—Hoping that Vicksburg may soon fall.</p>
             <closer>
                <signed>J. Swinton</signed>
             </closer>
