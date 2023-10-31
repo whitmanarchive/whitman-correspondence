@@ -1,0 +1,110 @@
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02547">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Dr. John Johnston to Walt Whitman, 12 March 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Dr. John Johnston</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor> Center for Digital Research in the Humanities, University of Nebraska-Lincoln </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder> National Historical Publications and Records Commission </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.02547</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p> Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. 
+                        Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. 
+                        Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
+                        advance notification of the publisher, Center for Digital Research in the Humanities. Permission 
+                        to reproduce the graphic images in this archive has been granted by the owners of the originals for this 
+                        publication only. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Dr. John Johnston</author>
+                    <title>Dr. John Johnston to Walt Whitman, 12 March 1892</title>
+                    <date cert="high" when="1892-03-12" xml:id="dat1">March 12, 1892</date>
+                    <idno type="callno">MSS18630, Box 11, Reel 7</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00248</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Johnston, Dr. John" ref="n4102">Dr. John Johnston</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>  
+        <revisionDesc>
+            <change when="2021-10-11" who="#smb">final check, corrected</change>
+            <change when="2021-09-22" who="#em">second check, corrected</change>
+            <change when="2021-07-19" who="#aja">checked, corrected</change>
+            <change when="2021-07-15" who="#cn">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02547.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Bolton England.<ptr target="loc.02547_n1"/></name>
+                    <date when="1892-03-12">Mar 12. 92.</date>
+                </dateline>
+            </opener>
+            <p>
+                My heart's best &#38; warmest love to you, my dearest &#38; best of Friends!
+                We hear daily, from our faithful Traubel,<ptr target="n4267"/> about you, &#38;
+                our hearts bleed with sympathy &#38; yearn with affection for you in your
+                great affliction.<ptr target="loc.02538_n4b"/> God bless you &#38; send you some measure of Comfort and
+                Ease! Last night I was fighting for you at the "Bolton Literary Society"&#8212; composed
+                mainly of the so-called "upper ten" of Bolton&#8212;&#38; my advocacy of you
+                elicited a good deal of adverse criticism&#8212;just what I expected from
+                <hi rend="underline">them</hi>. They want <hi rend="underline">educating up</hi>
+                to you!</p>
+            <p>
+                I hope you liked the <hi rend="underline">facsimile</hi><ptr target="loc.02542_n3b"/> &#38; the use we made
+                of it in your interest. I have refused the letter to the press as I thought
+                this best met your wishes. A sweet good night to you &#38; God bless you!
+            </p>
+            <closer>
+                <signed>J Johnston.</signed>
+            </closer> 
+            <postscript>
+                <p>Love to Mrs D<ptr target="n6113"/> &#38; Warry<ptr target="loc.07319_n6"/></p>
+            </postscript>
+            <pb xml:id="leaf001v" facs="loc.02547.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+

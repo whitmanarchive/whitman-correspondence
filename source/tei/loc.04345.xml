@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04345">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main"> Walt Whitman to U.S. Postmaster, 24 June 1891 </title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="adk">Andrew David King</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor> Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln </sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder> National Historical Publications and Records Commission </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04345</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p> Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--<biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notAfter="1977" notBefore="1961">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">217</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title> Walt Whitman to U.S. Postmaster, 24 June 1891 </title>
+                    <date cert="high" when="1891-06-24" xml:id="dat1">June 24, 1891</date>
+                    <idno type="callno">mss18630, box 17; reel 10&#8211;11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00397</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Postmaster, U.S." ref="n5000">U.S. Postmaster</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-07-12" who="#aja">checked, corrected, added callno and DOI</change>
+            <change when="2020-06-12" who="#aa">second check, corrected</change>
+            <change when="2019-11-12" who="#adk">checked and corrected</change>
+            <change when="2019-11-01" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.00717_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1891-06-24"/>
+                </dateline>
+                <salute>Postmaster<ptr target="loc.04345_n3"/></salute>
+            </opener>
+                <p>Please pay<ptr target="loc.04345_n2"/> Warren Fritzinger<ptr target="loc.07319_n6"/></p>
+                <address>
+                    <addrLine>Walt Whitman</addrLine>
+                    <addrLine>Camden</addrLine>
+                    <date when="1891-06-24">June 24 1891</date>
+                </address>
+                 <pb xml:id="leaf001r" facs="loc_vm.00718_large.jpg" type="recto"/>
+                <p>Look over <hi rend="underline">those four orders</hi> carefully&#8212;I fear
+                    you have estimated against yourself</p>
+                <closer>
+                    <signed>Walt Whitman</signed>
+                </closer>
+                <!--<postscript>
+                    <p>Please look at this P O money order f'm Dublin Ireland&#8212;how can I get
+                        it? where is "Delaware?"<ptr target="loc.04345_n1"/></p>
+                </postscript>-->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08277">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="m" type="main">Edmund J. Baillie to Walt Whitman, 10 October
+					1890</title>
+				<title level="m" type="sub">a machine readable transcription</title>
+				<author>Edmund J. Baillie</author>
+				<editor>Kenneth M. Price</editor>
+				<editor>Ed Folsom</editor>
+				<respStmt>
+					<resp>Transcription and encoding</resp>
+					<persName xml:id="msl">Mykle Law</persName>
+					<persName xml:id="aja">Amanda J. Axley</persName>
+					<persName xml:id="me">Marie Ernster</persName>
+					<persName xml:id="smb">Stephanie Blalock</persName>
+					<persName xml:id="pw">Paige Wilkinson</persName>
+				</respStmt>
+				<sponsor>Center for Digital Research in the Humanities, University of
+					Nebraska-Lincoln</sponsor>
+				<sponsor>University of Iowa</sponsor>
+				<funder>National Historical Publications and Records Commission</funder>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					<date>2022</date>
+				</edition>
+			</editionStmt>
+			<publicationStmt>
+				<idno>loc.08277</idno>
+				<distributor>The Walt Whitman Archive</distributor>
+				<address>
+					<addrLine>Center for Digital Research in the Humanities</addrLine>
+					<addrLine>319 Love Library</addrLine>
+					<addrLine>University of Nebraska-Lincoln</addrLine>
+					<addrLine>P.O. Box 884100</addrLine>
+					<addrLine>Lincoln, NE 68588-4100</addrLine>
+				</address>
+				<availability>
+					<p> Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights
+						reserved. Items in the Archive may be shared in accordance with the Fair Use
+						provisions of U.S. copyright law. Redistribution or republication on other
+						terms, in any medium, requires express written consent from the editors and
+						advance notification of the publisher, Center for Digital Research in the
+						Humanities. Permission to reproduce the graphic images in this archive has
+						been granted by the owners of the originals for this publication only.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<author>Edmund J. Baillie</author>
+					<title>Edmund J. Baillie to Walt Whitman, 10 October 1890</title>
+					<date cert="high" when="1890-10-10" xml:id="dat1">October 10, 1890</date>
+					<idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+					<idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00064</idno>
+					<orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+						Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<person role="sender">
+					<persName key="Baillie, Edmund J." ref="n7058">Edmund J. Baillie</persName>
+				</person>
+				<person role="recipient">
+					<persName key="Whitman, Walt">Walt Whitman</persName>
+				</person>
+			</particDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-06-24" who="#pw">checked, corrected</change>
+			<change when="2022-06-11" who="#smb">final check, corrected, added notes</change>
+			<change when="2022-02-11" who="#me">checked, corrected, added images</change>
+			<change when="2021-07-21" who="#aja">checked, corrected</change>
+			<change when="2020-12-03" who="#msl">transcribed, encoded; SLIS:6335: Metadata Theories
+				and Applications Class, Fall 2020, Micah Bateman, Lecturer, University of
+				Iowa</change>
+		</revisionDesc>
+	</teiHeader>
+	<text type="letter">
+		<body>
+			<pb xml:id="leaf001r" facs="loc_tb.00041.jpg" type="recto"/>
+			<opener>
+				<dateline>
+					<name type="person">Edmund J. Baillie</name>
+					<handShift rend="printed"/>
+					<name type="place">Woodbine</name>
+					<name type="place">Upton Park</name>
+					<name type="place">Chester.</name>
+					<name type="place">"The Time is Short."</name>
+					<name type="place"><handShift rend="manuscript"/>England</name>
+					<date when="1890-10-10" rend="right">10th October 1890.</date>
+				</dateline>
+				<salute>Dear Walt Whitman:</salute>
+			</opener>
+			<p>I duly received your kind enclosures a few days ago!<ptr target="n5002e"/> I am much
+				obliged to you for your ready response to my letter. May I keep the newspaper
+				cutting or do you wish wish me to send it back to you?</p>
+			<p>Please send me a copy of "Leaves of Grass"&#8212;the Special Edition as noted on the
+				little Slip you sent me&#8212;marked thereon at &#36;5&#8212;I think that is about
+				&#163;1.1.0 of our currency &amp; for this I enclose P.O. Order but if this is not
+				sufficient let me know please &amp; I will send on the balance.</p>
+			<p>I sincerely hope you are well&#8212;some of us here wish we had the power to stay the
+				finger on the dial&#8212;&amp; delay the approach of your December&#8212;yet it is
+				better, after all to leave these matters to the All-Father who in Wisdom &amp; Love
+				directs &amp; guides &amp; who "doeth all things well"&#8212;</p>
+			<closer>
+				<salute>Ever affectionately Yours&#8212;</salute>
+				<signed rend="center">Edmund J. Baillie</signed>
+			</closer>
+			<pb xml:id="leaf001v" facs="loc_tb.00043.jpg" type="verso"/>
+			<pb xml:id="leaf002r" facs="loc_tb.00044.jpg" type="recto"/>
+			<pb xml:id="leaf002v" facs="loc_tb.00042.jpg" type="verso"/>
+		</body>
+	</text>
+</TEI>

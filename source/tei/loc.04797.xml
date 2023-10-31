@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04797">
+    <teiHeader>
+        <fileDesc>     
+            <titleStmt>  
+                <title type="main" level="m">Walt Whitman to Hannah Whitman Heyde, 8 September 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Maire Mullins</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ld">Lauren Davila</persName>
+                    <persName xml:id="mm">Maire Mullins</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>Kent State University</sponsor>
+                <sponsor>Pepperdine University</sponsor>
+                <funder>National Historical Publications and Records Commission</funder></titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04797</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address><addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. 
+                    Items in the Archive may be shared in accordance with the Fair Use
+                    provisions of U.S. copyright law. Redistribution or republication on other
+                    terms, in any medium, requires express written consent from the editors and
+                    advance notification of the publisher, Center for Digital Research in the
+                    Humanities. Permission to reproduce the graphic images in this archive has
+                    been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>  
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Hannah Whitman Heyde, 8 September 1891</title>
+                    <date cert="high" when="1891-09-08" xml:id="dat1">September 8, 1891</date>
+                    <idno type="callno">MSS18630, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00041</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of 
+                        Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl> 
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Whitman Heyde</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>   
+        <revisionDesc>
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2020-10-13" who="#smb">added DOI, corrected</change>
+            <change when="2020-02-04" who="#smb">checked, updated notes</change>
+            <change when="2019-10-28" who="#smb">checked, corrected, added notes</change>
+            <change when="2019-10-19" who="#zs">rotated images</change>
+            <change when="2019-10-01" who="#bjo">images added, checked and corrected</change>
+            <change when="2019-03-20" who="#mm">edited and proofread</change>
+            <change when="2016-08-08" who="#mm">added notes and proofread</change>
+            <change when="2016-08-01" who="#mm">added notes and proofread</change>
+            <change when="2016-07-31" who="#ld">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">   
+        <body>  
+            <pb xml:id="leaf001r" facs="loc_ad.00181_large.jpg" type="recto"/>
+            <opener>  
+                <dateline>   
+                <name type="place">Camden<ptr target="loc.04797_n1"/></name>
+                <date when="1891-09-08"><choice><abbr>Sept:</abbr><expan>September</expan></choice> 8 '91</date>
+                </dateline>
+             <salute>Dear sister</salute>
+            </opener> 
+            <p>Nothing very different&#8212;am <choice><abbr>ab't</abbr><expan>about</expan></choice> 
+                same&#8212;eat my meals&#8212;was out Friday afternoon an hour 
+                ride to cemetery&#8212;my friends Dr Bucke<ptr target="loc.04797_n2"/> 
+                Mrs. O Connor<ptr target="n4137"/> and Horace Traubel<ptr target="loc.04797_n4"/> &#38; 
+                his wife<ptr target="loc.04797_n8"/> with me&#8212;it is my design to gather the 
+                remains of our dear mother &#38; father<ptr target="n0711"/> &#38; have 
+                them buried there too, in the tomb I have had built 
+                for myself<ptr target="loc.04797_n5"/>&#8212;cloudy wet day&#8212;&#36;2 <choice><abbr>enc'd</abbr><expan>enclosed</expan></choice>&#8212; I sent 
+                letter same<ptr target="loc.04797_n7"/> <choice><abbr>ab't</abbr><expan>about</expan></choice> week ago<ptr target="loc.04800_n2"/>&#8212;many visitors&#8212;best 
+                love to you sister dear</p> 
+            <closer>
+                <signed>W W</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_ad.00182_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI> 
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+

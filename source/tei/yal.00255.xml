@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="yal.00255">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Joseph M. Stoddart, 5 December 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>yal.00255</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive 
+                    may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or 
+                    republication on other terms, in any medium, requires express written consent from the editors and advance 
+                    notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the 
+                    graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Joseph M. Stoddart, 5 December 1890</title>
+                    <date cert="high" when="1890-12-05" xml:id="dat1">December 5, 1890</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Stoddart, Joseph M." ref="loc.04674_n1">Joseph M. Stoddart</persName>
+                </person> 
+            </particDesc>  
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2022-07-26" who="#smb">final corrections for publication</change>
+            <change when="2022-07-14" who="#smb">final checked, corrected</change>
+            <change when="2021-10-01" who="#me">checked, corrected</change>
+            <change when="2021-07-26" who="#aja">checked, corrected</change>
+            <change when="2020-09-05" who="#rf">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+       <pb xml:id="leaf001r" facs="yal.00255.001_large.jpg" type="recto"/>
+        <body>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1890-12-05">Dec: 5 '90</date>
+                </dateline>
+                    <salute>My dear JMS</salute>
+            </opener>
+            <p>I like y'r plan &amp; feel greatly complimented by it &amp; hope it will be
+                carried out forthwith say in the February number.<ptr target="loc.04675_n1"/> Of course I will do
+                whatever I can&#8212;remember what I said ab't the printerial proportion &amp;
+                look. Send me soon a printed slip of the pieces you have, so I can make a
+                nice flush page.</p>
+            <p>I send you herewith the MS of personal article (must <hi rend="underline">not</hi> have my
+                name signed) Of course if you print it send me good proof&#8212;The price
+                w'd be &#36;20 &amp; I reserve the right to print in future book if I wish &amp; shall
+                want 25 numbers of the Mag:</p>
+            <pb xml:id="leaf001v" facs="yal.00255.002_large.jpg" type="verso"/>
+            <note type="authorial" place="center">Personal to J M S<ptr target="yal.00255_n1"/></note>
+        </body>
+    </text>
+</TEI>

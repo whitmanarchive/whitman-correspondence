@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05431">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Abraham Paul Leech, [Late 1841?]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.05431</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Abraham Paul Leech, [Late 1841?]</title>
+                    <date cert="medium" notBefore="1841-06-01" notAfter="1841-12-31" xml:id="dat1">[Late 1841?]</date>
+                    <idno type="callno">MSS77909, Box 1</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms005001.mss77909.002</idno>
+                    <orgName xml:id="loc">Walt Whitman Papers, Miscellaneous Manuscript Collection, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Leech, Abraham Paul" ref="loc.05440_n1">Abraham Paul
+                        Leech</persName>
+                </person>
+            </particDesc>  
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2022-10-05" who="#smb">checked, corrected</change>
+            <change when="2022-08-29" who="#jh">checked, corrected</change>
+            <change when="2022-06-21" who="#kjb">checked, corrected</change>
+            <change when="2021-11-30" who="#em">checked, corrected</change>
+            <change when="2021-11-07" who="#me">checked, corrected</change>
+            <change when="2021-07-30" who="#aja">checked, corrected</change>
+            <change when="2021-07-27" who="#cn">transcribed,encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_gk.01453_large.jpg" type="recto"/>
+            <opener>
+                <salute>Friend Leech</salute>
+            </opener>
+            <p>How d'ye do?&#8212;I have quite a hankering to hear from, and see Jamaica, and the
+                Jamaicaites.&#8212;A pressure of business, only, has <supplied reason="torn-away"
+                    resp="#me" cert="medium">pre</supplied>evented my coming out among the "friends
+                of yore," and the familiar places which your village contains.&#8212;I was an hour
+                in your village the other day, but did not have time to come up and see you,&#8212;I
+                think of coming up in the course of the winter holidays.</p>
+            <p>Farewell,&#8212;and dont forget writing to me, through the P.O.&#8212;</p>
+            <p>May your kind angel
+                hover in the invisible air, and lose sight of your blessed presence never</p>
+            <closer>
+                <signed>W Whitman</signed>
+                <pb xml:id="leaf001v" facs="loc_gk.01454_large.jpg" type="verso"/>
+                <note type="authorial" place="center">A. P. Leech | <unclear reason="illegible" cert="low" resp="#smb">J</unclear><ptr target="loc.05431_n3"/></note>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01931">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Bethuel Smith to Walt Whitman, 12 March 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Bethuel Smith</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="nsb">Noelle Bates</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01931</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+            <sourceDesc>
+                <!--<biblStruct>
+                    <monogr>
+                        <editor>Charley Shively</editor>
+                        <title xml:id="Shiveley">Drum Beats: Walt Whitman's Civil War Boy Lovers</title>
+                        <imprint>
+                            <pubPlace>San Francisco, CA</pubPlace>
+                            <publisher>Gay Sunshine Press</publisher>
+                            <date when="1989">1989</date>
+                            <biblScope type="page">186</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Bethuel Smith</author>
+                    <title>Bethuel Smith to Walt Whitman, 12 March 1875</title>    
+                    <date cert="high" when="1875-03-12" xml:id="dat1">March 12, 1875</date>
+                    <idno type="callno">MSS18630, Box 16, Reel 10</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00349</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Smith, Bethuel" ref="loc.01930_n3">Bethuel Smith</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-03-15" who="#smb">final check, corrected</change>
+            <change when="2022-11-11" who="#aja">checked, corrected</change>
+            <change when="2022-07-28" who="#nsb">checked and revised</change>
+            <change when="2021-12-10" who="#me">checked, corrected</change>
+            <change when="2015-05-08" who="#ak">added correspondent ref</change>
+            <change when="2014-08-15" who="#el">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-07" who="#cb">proofed</change>
+            <change when="2012-03-29" who="#nnk">proofed</change>
+            <change when="2012-03-29" who="#js">proofed</change>
+            <change when="2012-01-30" who="#al">Transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jc.00123_large.jpg" type="recto"/>
+            <note type="editorial" resp="#ww" place="top">Bethuel Smith March 12 '75 (sent papers &amp; a few lines April 21. '75)</note>
+            <opener>
+                <address>
+                    <addrLine>Queensbury</addrLine>
+                </address>
+                <dateline>
+                    <date when="1875-03-12">March 12th/1875</date>
+                </dateline>
+                <salute>Dear friend</salute>
+            </opener>
+
+            <p>I received your letter last <choice><sic>weak</sic><corr>week</corr></choice><ptr target="n5002d"/> &amp; was glad to hear 
+                from you I <choice><sic>receivd</sic><corr>received</corr></choice> some papers about three 
+                <choice><sic>weaks</sic><corr>weeks</corr></choice> ago 
+                last summer I was in brooklyn &amp; I hunted for you but could not find you I <choice><sic>mad</sic><corr>made</corr></choice> 
+                up my mind that I would not hear from you again but I have I received your picture &amp; I thought 
+                it looked natural it is night now &amp; I was agoing to the villiage tomorrow So I thought I would 
+                write A few lines to you my <choice><sic>halth</sic><corr>health</corr></choice> is good &amp; so 
+                is my family I have got three boys &amp; one girl</p>         
+            <pb xml:id="leaf001v" facs="loc_jc.00124_large.jpg" type="verso"/>            
+            <p>the way that I came to be in brooklyn I was A <choice><sic>Canalin</sic><corr>Canaling</corr></choice> 
+                it last summer &amp; we went to new york new jersey brooklyn port morris newark new jersey &amp; 
+                several places but did not see any thing of walt in <choice><sic>anny</sic><corr>any</corr></choice> 
+                of the places I talk some of canaling this summer but <choice><sic>dont</sic><corr>don't</corr></choice> <choice><sic>now</sic><corr>know</corr></choice> 
+                for <choice><sic>sertain</sic><corr>certain</corr></choice> yet I <choice><sic>wat</sic><corr>want</corr></choice> you to tell me where Camden is 
+                whether it is in the upper or lower part jersey or off towards newark so that if I do Come down there 
+                I can find you I would like to see you <choice><sic>verry</sic><corr>very</corr></choice> much last 
+                fall I bought A small farm &amp; paid
+                <pb xml:id="leaf002r" facs="loc_jc.00125_large.jpg" type="recto"/>            
+                fifty <choice><sic>dollas</sic><corr>dollars</corr></choice> down &amp; fifty this spring it makes
+                pretty hard time with me this spring I <choice><sic>ame</sic><corr>am</corr></choice> 
+                owing some debts that I <choice><sic>dont</sic><corr>don't</corr></choice> <choice><sic>no</sic><corr>know</corr></choice> 
+                whether I can pay them or not this spring one of my horses is so lame that I <choice><sic>cant</sic><corr>can't</corr></choice> 
+                work him &amp; I have every thing to buy I have got one cow &amp; the two sheep that is all of my stock 
+                <choice><sic>youre</sic><corr>your</corr></choice> letters was directed <choice><sic>rite</sic><corr>right</corr></choice> 
+                the two <choice><sic>firts</sic><corr>first</corr></choice> years of my <choice><sic>mairage</sic><corr>marriage</corr></choice> 
+                my wife was sick the most of the time so it used up what money that I had then but her health has 
+                <choice><sic>ben</sic><corr>been</corr></choice> <choice><sic>verry</sic><corr>very</corr></choice> well 
+                <choice><sic>sence</sic><corr>since</corr></choice> then</p>
+            <pb xml:id="leaf002v" facs="loc_jc.00126_large.jpg" type="verso"/>
+            <note resp="#ww" type="editorial" place="left">Bethuel Smith</note>           
+            <p><choice><sic>ther</sic><corr>there</corr></choice> was so much <choice><sic>son</sic><corr>sun</corr></choice>
+                this winter that it has <choice><sic>ben</sic><corr>been</corr></choice> bad 
+                <choice><sic>gitting</sic><corr>getting</corr></choice> 
+                <choice><sic>aroung</sic><corr>around</corr></choice> in this part of the <choice><sic>cuntry</sic><corr>country</corr></choice> 
+                the snow is about 4 <choice><sic>feat</sic><corr>feet</corr></choice> <choice><sic>deap</sic><corr>deep</corr></choice> 
+                now in the woods but not so deep in the <choice><sic>fealds</sic><corr>fields</corr></choice> I like your 
+                <choice><sic>peaces</sic><corr>pieces</corr></choice> in the paper <choice><sic>verry</sic><corr>very</corr></choice> 
+                much I am to pay four hundred dollars for 39 3/4 acres of land A small house &amp; barn on it I 
+                <choice><sic>dont</sic><corr>don't</corr></choice> <choice><sic>now</sic><corr>know</corr></choice> as I can think of 
+                <choice><sic>anny</sic><corr>any</corr></choice> more to write at present So good <choice><sic>buy</sic><corr>bye</corr></choice> for this time</p>            
+           
+            <closer>
+                <salute>this is from</salute>
+                <signed>Bethuel Smith your friend</signed>
+            </closer>
+            <postscript>
+                <p>This <choice><sic>pictur</sic><corr>picture</corr></choice> was taken about nine years ago<ptr target="n5002f"/></p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

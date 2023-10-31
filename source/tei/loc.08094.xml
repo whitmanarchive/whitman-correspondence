@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>   
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08094"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 20 September 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08094</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--<biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
+                            <biblScope type="volume">5</biblScope>
+                            <biblScope type="page">245</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Richard Maurice Bucke, 20 September 1891</title>
+                    <date cert="high" when="1891-09-20" xml:id="dat1">September 20, 1891</date>
+                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00108</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-03-03" who="#aja">final corrections</change>
+            <change when="2021-12-07" who="#smb">final check, corrected</change>
+            <change when="2021-10-13" who="#aja">2nd check, notes</change>
+            <change when="2021-07-15" who="#aja">checked, corrected</change>
+            <change when="2019-11-05" who="#cn">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader>  
+    <text type="letter">  
+        <body> 
+            <pb xml:id="leaf001r" facs="loc_jm.002233.jpg" type="recto"/>
+            <pb xml:id="leaf001rb" facs="loc_jm.002232.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden<ptr target="loc.08094_n1"/></name>
+                    <date when="1891-09-20">Sept: 20 '91</date>
+                </dateline>
+            </opener>
+            <p>These are the title &#38; backing pages<ptr target="loc.08094_n2"/> of the forthcoming really complete 
+                &#38; last L of G.<ptr target="loc.04811_n6"/>&#8212;Ab't same with me&#8212;appetite, nights 
+                &#38; bowel action fair to middling&#8212;get out (very moderately) in wheel'd 
+                chair<ptr target="loc.03012_n1"/>&#8212;Y'r &#38; Wallace's<ptr target="n6121"/> letters 
+                rec'd<ptr target="loc.08094_n3"/>&#8212;Thanks&#8212;fine weather cont'd&#8212;warm&#8212;am 
+                sitting here immobile as ever (or rather more)
+                but mainly cheery&#8212;might be much worse (perhaps will)&#8212;
+            </p>
+            <closer>
+                <salute>Love to you &#38; all&#8212;</salute>
+                <signed>WW</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_jm.002234.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc_jm.00235.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_jm.00236.jpg" type="verso"/>
+        </body>
+    </text>  
+</TEI>

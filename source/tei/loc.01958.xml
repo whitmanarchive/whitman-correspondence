@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01958">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John Swinton to Walt Whitman, 24 April 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Swinton</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01958</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+            <sourceDesc>       
+                <bibl>
+                    <author>John Swinton</author>
+                    <title>John Swinton to Walt Whitman, 24 April 1876</title>  
+                    <date cert="high" when="1876-04-24" xml:id="dat1">April 24, 1876</date>
+                    <idno type="callno">MSS18630, Box 17, Reel 10&#8211;11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00378</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>             
+                <person role="sender">
+                    <persName key="Swinton, John" ref="n0611">John Swinton</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2023-08-06" who="#smb">final check, final corrections</change>
+            <change when="2022-12-19" who="#aja">checked, corrected</change>
+            <change when="2022-03-07" who="#em">checked, corrected</change>
+            <change when="2021-12-20" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-27">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-14" who="#cb">proofed</change>
+            <change when="2012-05-11" who="#km">checked</change>
+            <change when="2012-03-14" who="#al">checked and corrected</change>
+            <change when="2012-01-25" who="#js">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>         
+            <pb xml:id="leaf001r" facs="loc_gt.00281_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">134 East 38th St New York</name>                   
+                    <date when="1876-04-24">April 24, 1876</date>
+                </dateline>
+                <salute>My dear Walt&#8212;</salute>
+            </opener>
+            <p>Please send <hi rend="underline">3</hi> sets on account of my list of 5. Let 1 set be directed to me, and 
+                the others to John Russell Young,<ptr target="n0737b"/> Herald <unclear reason="illegible" cert="low" resp="#js">office</unclear>,
+                who has written me to get a set for him, and with whom you will <unclear reason="illegible" cert="medium" resp="#km">please</unclear> 
+                communication about the <hi rend="underline"><choice><sic>mater</sic><corr>matter</corr></choice></hi>.</p>
+            <p>As you may be interested in his note, I enclose it for you to look at&#8212;after which, please return.</p>
+            <closer>
+                <salute>Yours</salute>
+                <signed><hi rend="underline">John Swinton</hi></signed>
+            </closer>
+            <note type="authorial" place="bottom" anchored="true">(over)</note>
+            <pb xml:id="leaf001v" facs="loc_gt.00282_large.jpg" type="verso"/>           
+            <postscript>
+                <p>PS. I have just replied to Young, telling him you will forward him the set, and receive his subscription therefor.</p>
+                <signed><hi rend="underline">JS.</hi></signed>
+            </postscript>                       
+        </body>
+    </text>
+</TEI>

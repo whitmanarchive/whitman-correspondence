@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03735">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John W. Hunter and Samuel A. Haynes to Walt Whitman, 16 January 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John W. Hunter</author>
+                <author>Samuel A. Haynes</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03735</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John W. Hunter</author>
+                    <author>Samuel A. Haynes</author>
+                    <title>John W. Hunter and Samuel A. Haynes to Walt Whitman, 16 January 1892</title>
+                    <date cert="high" when="1892-01-16" xml:id="dat1">January 16, 1892</date> 
+                    <idno type="callno">MSS18630, Box 15, Reel 9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00335</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Hunter, John W." ref="loc.03735_n2">John W. Hunter</persName> 
+                    <persName key="Haynes, Samuel A." ref="loc.03735_n3">Samuel A. Haynes</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-26" who="#aja">final corrections</change>
+            <change when="2022-02-28" who="#smb">final check, corrected, added notes and DOI</change>
+            <change when="2021-09-28" who="#aja">2nd check, notes</change>
+            <change when="2021-07-18" who="#aja">checked, corrected</change>
+            <change when="2019-12-10" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03735.002_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>SOCIETY OF OLD BROOKLYNITES.<ptr target="loc.03735_n1"/></name>
+                    </dateline>   
+            </opener>
+            <milestone unit="undeclared" rend="horbar-full"/>
+            <p>
+                <handShift rend="printed"/>
+                You are requested to attend the funeral of our late brother,<ptr target="har.00038_n2"/></p>
+            <p><handShift rend="printed"/>FRANCIS B. STRYKER,<ptr target="loc.04401_n4"/>
+            from his late residence, No. 260 Jay Street, on MONDAY, JANUARY 18th, 1892, at 2 o'clock, P.M.</p>
+            <closer>
+                <signed><handShift rend="printed"/>JOHN W. HUNTER, President.</signed>
+                <signed><handShift rend="printed"/>S.A. HAYNES, Secretary.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.03735.001_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

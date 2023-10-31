@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01603">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">William Gardner Barton to Walt Whitman, 12 November
+                    1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>William Gardner Barton</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01603</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>William Gardner Barton</author>
+                    <title>William Gardner Barton to Walt Whitman, 12 November 1876</title>
+                    <date cert="high" when="1876-11-12" xml:id="dat1">November 12, 1876</date>
+                    <idno type="callno">mss18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00093</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.02844"/>
+                    <relatedItem type="text" xml:id="rel02" target="loc.05867"/>
+                    <relatedItem type="document" target="wwa.00690"/>
+                    <note type="project" target="#rel01">A line has been drawn in ink through
+                        this autograph request. Whitman pasted this letter to a November 11, 1876,
+                        autograph request from W. A Stagg that has been cut into two pieces. He
+                        has pasted half of Stagg's letter to the bottom of Barton's note and 
+                        the other half of Stagg's letter to the top.</note>
+                    <note type="project" target="#rel02">Whitman then used the backs of all of these letters to compose a draft
+                    of his November 21, 1876, letter to Robert Buchanan.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Barton, William Gardner" ref="loc.01603_n1">William Gardner
+                        Barton</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-21" who="#smb">updated notes</change>
+            <change when="2023-01-03" who="#aja">checked, corrected</change>
+            <change when="2022-04-27" who="#em">checked</change>
+            <change when="2022-04-22" who="#me">checked, corrected, finished related object</change>
+            <change when="2022-02-07" who="#aja">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+              <pb xml:id="leaf001ra" facs="loc_tb.00696.jpg" type="recto"/>
+            <pb xml:id="leaf001rb" facs="loc.02844.002_large.jpg" type="recto"/>
+            <note resp="#ww" type="editorial" place="top">circ sent</note>
+            <opener>
+                <dateline>
+                    <name type="place">Salem, Mass.</name>
+                    <date when="1876-11-12">Nov. 12 &#8212;1876.</date>
+                </dateline>
+                <salute>My dear Sir;&#8212;</salute>
+            </opener>
+
+            <p>Will you kindly favor me with your autograph, to go in company with others famous in
+                word and deed.</p>
+
+            <closer>
+                <salute>Yours <choice><abbr>resp</abbr><expan>respectfully</expan></choice></salute>
+                <signed>W<hi rend="underline">m</hi> Gardner Barton</signed>
+                <address>
+                    <addrLine>W. Whitman Esq.</addrLine>
+                </address>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02844.001_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08330"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Charles Aldrich to Walt Whitman, 9 June 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles Aldrich</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>   
+                <respStmt> 
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                </respStmt>  
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08330</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588&#8211;4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
+                        advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles Aldrich</author>
+                    <title>Charles Aldrich to Walt Whitman, 9 June 1890</title>
+                    <date cert="high" when="1890-06-09" xml:id="dat1">June 9, 1890</date>
+                    <idno type="callno">MSS18630, Box 4 Reel 2&#8211;3</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00060</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Aldrich, Charles" ref="med.00763_n1">Charles Aldrich</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-02-03" who="#smb">final check, corrected</change>
+            <change when="2021-10-16" who="#me">checked, corrected</change>
+            <change when="2021-07-09" who="#bjo">first check, corrected</change>
+            <change when="2020-11-13" who="#smb">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter"> 
+        <body>            
+            <pb xml:id="leaf001r" facs="loc_jm.00434.jpg" type="recto"/>
+            <opener>
+                <dateline> 
+                    <name type="place">Iowa State Library</name>
+                    <name type="place">Des Moines,</name>
+                    <date when="1890-06-09">June 9, 1890,</date>
+                </dateline>
+                <salute>Dear Mr. Whitman;</salute> 
+            </opener>
+             
+            <p>You know how hard I have tried to get the autograph copy of "My Captain,"<ptr target="loc.08330_n1"/> for our Iowa Collection. But 
+                the fates&#8212;or Walt Whitman&#8212;are ever against me.</p>
+            <p>But will you send it to me now, for a remittance of &#36;5.<hi rend="underline">00</hi>?</p>
+            
+            <closer>
+                <salute>Very sincerely yours,</salute>
+                <signed>Charles Aldrich.</signed> 
+             </closer>   
+            <postscript>
+                <p>One of our drawers&#8212;16 x 18 inches&#8212;is now devoted to memorials of yourself, but I am most 
+                    anxious to secure a holograph copy of "My Captain," while you can still write it &#38; I can fitly 
+                    arrange it in my collection, which, you are aware, is always open to the free inspection of the great 
+                    Democracy. It should be written on but one side of the paper, dated &#38; signed.<ptr target="loc.08328_n2"/></p>
+            </postscript>
+        </body>
+    </text>
+</TEI>    
+
+<!--<note xml:id="loc.08330_n1" type="editorial" resp="wwa">Aldrich wanted 
+    an autograph copy of Whitman's poem "O Captain! My Captain!." The poem, an
+    elegy for Abraham Lincoln, was one of Whitman's most popular, although 
+    it was atypical of his verse and style
+    (the rhyme, meter, stanza and refrain are conventional, and the poem makes use
+    of traditional metaphors). "O Captain! My Captain!" was first published in <hi rend="italic">The New-York Saturday
+        Press</hi> on <ref target="https://whitmanarchive.org/published/periodical/poems/per.00076.html">November 4, 1865</ref>, and it was reprinted in <hi rend="italic">Sequel to Drum-Taps</hi> (1865&#8211;1866).
+    For more information on the poem, see Gregory Eiselein, "'<ref target="https://whitmanarchive.org/criticism/current/encyclopedia/entry_40.html">O Captain! 
+        My Captain!' [1865]</ref>," <hi rend="italic">Walt
+            Whitman: An Encyclopedia</hi>, ed. J.R. LeMaster and Donald D. Kummings (New
+    York: Garland Publishing, 1998).</note> -->

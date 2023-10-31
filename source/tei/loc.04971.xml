@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04971">  
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>   
+                <title level="m" type="main">Henry Austin to Walt Whitman, 8 December 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Henry Austin</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="hc">Heather Cooper</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date> 
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04971</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Henry Austin</author>
+                    <title>Henry Austin to Walt Whitman, 8 December 1890</title>
+                    <date cert="medium" when="1890-12-08" xml:id="dat1">December 8, 1890</date>  
+                    <idno type="callno">MSS18630, Box OV 13</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.02860</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.08468"/>
+                    <relatedItem type="document" target="loc.08468"/>
+                    <note type="project" target="#rel01">Whitman pasted this letter together with several envelopes and
+                    used the verso to provide corrections and notes on a printed copy of Ralph Waldo Emerson's July 21, 1855, letter to Whitman and 
+                    part of a printed newspaper article about Emerson.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>    
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Austin, Henry" ref="loc.04971_n1">Henry Austin</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2022-07-04" who="#aja">final corrections</change>
+            <change when="2022-06-24" who="#pw">checked</change>
+            <change when="2022-06-11" who="#smb">final checked, corrected</change>
+            <change when="2021-10-17" who="#me">checked, corrected</change>
+            <change when="2021-07-26" who="#aja">checked, corrected</change>
+            <change when="2020-11-19" who="#hc">transcribed, encoded; SLIS:6335: Metadata Theories and Applications Class, Fall 2020, Micah Bateman, Lecturer, University of Iowa</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_tb.00231.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">To Walt Whitman, Esq.</name>
+                    <name type="place">Camden, N. Y.</name>                    
+                </dateline>                
+                <salute>Dear Sir,</salute>
+            </opener>
+            <p>I have sent you by this mail a little book of verses as a slight token of my Esteem. I hope that you may 
+                find something in the book worthy of your consideration.</p>
+            <closer>
+                <salute>I have the honor to be</salute>
+                <salute>Your most obedient servant,</salute>
+                <signed rend="right">Henry Austin</signed>
+             <address>
+                <addrLine>Boston</addrLine>
+            </address> 
+            </closer>
+           <pb xml:id="leaf002r" facs="loc_tb.00228.jpg" type="recto"/>
+            <pb xml:id="leaf001v" facs="loc_tb.00229.jpg" type="verso"/>
+        </body>        
+    </text>
+</TEI>

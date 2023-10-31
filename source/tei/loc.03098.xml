@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03098">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William Sloane Kennedy, 23 November 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.03098</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the 
+                     Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or 
+                     republication on other terms, in any medium, requires express written consent from the editors and advance 
+                     notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the 
+                     graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Sloane Kennedy, 23 November 1890</title>
+                    <date cert="high" when="1890-11-23" xml:id="dat1">November 23, 1890</date>
+                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00256</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2022-02-15" who="#aja">final corrections</change>
+            <change when="2021-11-17" who="#smb">final check, corrected, added DOI and notes</change>
+            <change when="2021-10-01" who="#me">checked, corrected</change>
+            <change when="2021-07-22" who="#aja">checked, corrected</change>
+            <change when="2020-07-27" who="#rf">transcription and encoding</change>
+        </revisionDesc>
+    </teiHeader>  
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03098.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline rend="right">
+                    <name type="place">Camden</name>
+                    <date when="1890-11-22">Sunday noon</date> 
+                    <date when="1890-11-22">Nov: 23 '90.</date>
+                </dateline>
+            </opener>
+            <p>Enclosed two copies my latest f'm <hi rend="underline">Lippincott's</hi><ptr target="loc.07874_n5"/> Dec<ptr target="loc.02454_n4"/>&#8212;Nothing very
+                new&#8212;Cold weather grip &amp; bladder bother continued&#8212;physically                        
+                uncomfortable enough&#8212;sunny today though&#8212;steady belly ache&#8212;fixed 
+                comfortably enough here (surroundings &amp;c)&#8212;word f'm Dr B<ptr target="n0119"/> every
+                other day he is all right&#8212;Horace T<ptr target="n4267"/> every evn'g 
+                (welcome)&#8212;Stanley's<ptr target="loc.03098_n2"/> companion &amp; secretary (Hamilton Aide<ptr target="loc.03098_n1"/>) has been over to see 
+                me&#8212;Talcott Williams<ptr target="loc.05142_n5"/> comes&#8212;I sit here by oak fire every thing quiet.</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.03098.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+
+
+

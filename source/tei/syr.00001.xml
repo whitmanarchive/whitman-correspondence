@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="syr.00001">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John Burroughs to Walt Whitman, 14 May 1873</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Burroughs</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>syr.00001</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John Burroughs</author>
+                    <title>John Burroughs to Walt Whitman, 14 May 1873</title>
+                    <date cert="low" when="1873-05-14" xml:id="dat1">May 14, 1873</date>
+                    <orgName xml:id="syr">Walt Whitman Collection, Special Collections Research
+                        Center, Syracuse University Library, Syracuse, N.Y.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace
+                    Traubel</persName></handNote>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Burroughs, John" ref="n0129">John Burroughs</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2023-08-06" who="#smb">final check, final corrections</change>
+            <change when="2023-05-10" who="#aja">corrected</change>
+            <change when="2022-10-17" who="#pw">checked, corrected</change>
+            <change when="2022-03-03" who="#cn">checked, corrected</change>
+            <change when="2021-11-28" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-30">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-06-18" who="#js">proofed</change>
+            <change when="2012-05-07" who="#km">checked</change>
+            <change when="2012-03-28" who="#al">checked and corrected</change>
+            <change when="2011-09-07" who="#kk">updated now that we have images from Syracuse [I
+                also commented out the bibl info to WWWC</change>
+            <change when="2011-07-21" who="#kk">transcribed; encoded from WWWC 4:304-305</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="syr.00001.001_large.jpg" type="recto"/>
+            <opener>
+                <note type="editorial" resp="#ht" place="top">see notes March 8 1889</note>
+                <note type="editorial" resp="#unk" place="top">BURROUGHS</note>
+                <dateline>
+                    <name type="place">Middletown N.Y.</name> 
+                    <date when="1873-05-14">May 14. 1873</date>
+                </dateline>
+                <salute>Dear Walt,</salute>
+            </opener>
+            <p>I received your letter,<ptr target="syr.00001_n1"/> &amp; the papers you so kindly
+                sent me, both very welcome. The sight of the Washington papers forthwith induces a
+                fit of homesickness on poor 'Suly<ptr target="n0130"/> who seems to pine for the
+                place &amp; our old home there more than I do. I have got somewhat wonted here,
+                &amp; then I am busy &amp; have many things to interest me, &amp; she has little or
+                nothing. Then the home in <choice>
+                    <abbr>W.</abbr>
+                    <expan>Washington</expan>
+                </choice> was of course more to her than to me; her time was all passed there &amp;
+                only a part of mine. Still at times my thoughts will go back
+                <!--Traubel includes what I imagine is WW's commentary while reading the letter:["God knows, John! mine do now: to you, to William, to all of them!"]-->
+                &amp; hover &amp; nestle about the little home &amp; the many familiar places. I
+                expect it will be a good while before Either of <pb xml:id="leaf001v"
+                    facs="syr.00001.002_large.jpg" type="verso"/> us are weaned from <choice>
+                    <abbr>W.</abbr>
+                    <expan>Washington</expan>
+                </choice> I am about to sell the place. The bargain can be closed whenever I come on
+                which will be by Sunday I think. Then we will be quite homeless again &amp; I expect
+                the wife will be unhappy enough. I hope to be in <choice>
+                    <abbr>W.</abbr>
+                    <expan>Washington</expan>
+                </choice> on Sunday evening, or Monday morning. I was grieved dear Walt that you was
+                still confined to <choice>
+                    <abbr>W.</abbr>
+                    <expan>Washington</expan>
+                </choice> &amp; not able to go home; but your faith in your ultimate entire recovery
+                is cheering.<ptr target="duk.00621_n14"/> I hope it may be more speedy. I look
+                forward to many delightful days with you yet, after I have built me another nest up
+                here by the Hudson You will come and spend weeks &amp; months with us &amp; we will
+                all be happy again.<ptr target="syr.00001_n2"/>
+                <!--["Oh! the good John! that was one of our dreams which never came true!"]--> The
+                spring is backward here; no lilacs yet &amp; no signs of any. But the grass, the
+                good green grass, is wonderful. It seems as if I never saw it so perfect before.
+                This you know is a great grazing &amp; butter country, <pb xml:id="leaf002r"
+                    facs="syr.00001.003_large.jpg" type="recto"/> &amp; the fields &amp; the spread
+                of farms around are delightful to behold. They have something of the smooth, mellow,
+                well kept look of the English fields, while their freshness &amp; tenderness are
+                marvelous. I graze in them with my eyes daily.
+                <!--["Oh God! how hungry, thirsty, that makes me for outdoors! oh John! here I am trying to dream your fields, farms, woods, skies, into my prison walls!"]-->
+                Grass like this is never seen so far south on the Potomac. Yesterday I made a trip
+                to Sugar loaf Mountain<ptr target="n0604"/> 15 miles below here, &amp; could see
+                over nearly the whole county from its summit, &amp; could see the Catskills 50
+                miles to the North, &amp; peaks that I recognized as visible from my <choice>
+                    <sic>parents</sic>
+                    <corr>parents'</corr>
+                </choice> home in Delaware <choice><abbr>Co</abbr><expan>County</expan></choice>. 
+                But the rolling succession of green fields was the most wonderful.</p>
+            <p>I have plenty of time on my hands now, but do not seem able to turn it to any account
+                in a literary way. I am like a cow that has lost her "cud." I can't get back my
+                ruminating habit.
+                <!--["He did begin once more: he began hundreds of times more!"]--> If I could only
+                begin once more I think there are several pieces I could write. I have <pb
+                    xml:id="leaf002v" facs="syr.00001.004_large.jpg" type="verso"/> seen my father
+                make an artificial cud for a cow, but I know of no receipt by which I can compound
+                an intellectual one for myself.
+                <!--["Maybe John found that cud since: maybe: I rather think he has: what a man cannot get out of himself he's not likely to derive from any other quarter."]-->
+                The first of my bird pieces with Scribner<ptr target="n0549"/> will not be out till
+                July; when "The Birds of the Poets" will be out I have not heard.<ptr
+                    target="loc.01748_n3"/></p>
+            <p>I take the "Tribune"<ptr target="n0649"/> so had seen the letter about Emerson.<ptr
+                    target="n1044"/> I am glad the old fellow is having a good time. Conway<ptr
+                    target="n0170"/> is no doubt happy.</p>
+            <p>Wife sends much love. Hoping to see you in a few days I am</p>
+            <closer>
+                <salute>Ever Your Friend</salute>
+                <signed>John Burroughs</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

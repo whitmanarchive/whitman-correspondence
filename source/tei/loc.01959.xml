@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01959">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Edward F. Strickland, Jr. to Walt Whitman, 7 April 1876</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Edward F. Strickland, Jr.</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01959</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>            
+           <sourceDesc>
+                <bibl>
+                    <author>Edward F. Strickland, Jr.</author>
+                    <author>Walt Whitman</author>
+                    <title>Edward F. Strickland, Jr. to Walt Whitman, 7 April 1876</title> 
+                    <date cert="high" when="1876-04-07" xml:id="dat1">April 7, 1876</date>
+                    <idno type="callno">MSS18630, Box 17, Reel 10&#8211;11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00379</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.07053"/>
+                    <relatedItem type="document" target="wwa.00659"/>
+                    <note type="project" target="#rel01">A line has been drawn through this letter, and Whitman used the verso to draft a letter
+                        he intended to send to numerous friends.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Strickland, Edward F., Jr." ref="loc.01959_n10">Edward F. Strickland, Jr.</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>        
+        <revisionDesc>
+            <change when="2023-07-31" who="#smb">final check, corrected</change>
+            <change when="2023-01-31" who="#aja">checked, corrected</change>
+            <change when="2022-12-15" who="#aja">checked, corrected</change>
+            <change when="2021-12-20" who="#me">checked, corrected, added related item</change>
+            <change who="#ak" when="2015-05-05">added correspondent ref, separated files</change>
+            <change who="#ak" when="2014-11-03">added annotations</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-11-08" who="#cb">checked</change>
+            <change when="2012-04-30" who="#al">checked</change>
+            <change when="2012-03-14" who="#js">proofed</change>
+            <change when="2011-12-19" who="#ej">Transcribe/Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>           
+            <pb xml:id="leaf001r" facs="loc_vm.00274_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Boston</name>
+                    <date when="1876-04-07">April 7 1876</date>
+                </dateline>
+                <salute>Mr. Walt Whitman</salute>
+                <salute>Respected Sir.</salute>
+            </opener>
+
+            <p>Will you please grant me the favor of your autograph. I have a large collection to which I earnestly desire to add 
+                your name, especially as I am trying to complete my list of the Poets and Authors of our country. I have your works, 
+                and should indeed Sir be very much obliged if you would grant the above request, and if not presuming and perfectly 
+                <choice><sic>agreable</sic><corr>agreeable</corr></choice> to your wishes, I would thank you sincerely for a line or 
+                sentence other than the signature. I am Sir with sentiments of the highest consideration and respect</p>
+                        
+            <closer>
+                <salute>Very truly yours,</salute>
+                <signed>E. F. Strickland, Jr.</signed>
+            </closer>          
+            <pb xml:id="leaf001v" facs="loc_vm.00273_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

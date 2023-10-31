@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04832">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">James W. Wallace to Walt Whitman, 2 January 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>James W. Wallace</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.04832</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>James W. Wallace</author>
+                    <title>James W. Wallace to Walt Whitman, 2 January 1892</title>
+                    <date cert="high" when="1892-01-02" xml:id="dat1">January 2, 1892</date>
+                    <idno type="callno">MSS18630, Box 18, Reel 11</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00404</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Wallace, James W." ref="n6121">James W. Wallace</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>  
+        <revisionDesc>
+            <change when="2021-12-27" who="#smb">final check, corrected, added notes</change>
+            <change when="2021-09-29" who="#em">checked, corrected</change>
+            <change when="2021-07-17" who="#aja">checked, corrected</change>
+            <change when="2019-09-25" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.01989_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Anderton, near Chorley.</name>
+                    <name type="place">Lancashire, England<ptr target="loc.04832_n3"/></name>
+                    <date when="1892-01-02">2 Jan 92.</date>
+                </dateline> 
+                <salute>Dear Walt,</salute>
+            </opener>
+            <p>Just a few lines to express my constant thought of you and my dearest love. 
+                After the suspense of the last two weeks I am heartily glad that the beginning
+                of the New Year finds you rallying from your sickness &#38; spared to us once more.<ptr target="loc.02538_n4"/> 
+                God bless you &#38; our best love to you.</p>
+            <p>Horace<ptr target="n4267"/> kindly sent us a cable message each day during the worst period, &#38; 
+                <pb xml:id="leaf001v" facs="loc_vm.01990_large.jpg" type="verso"/>
+                we at once communicated the news to your chief English friends. 
+                I have had letters in return from most of them including Symonds.<ptr target="n0615"/> 
+                We are all pleased to know your improved condition.</p>
+            <p>I have just received a post card from Carpenter<ptr target="n0141b"/> who is 
+                spending a few days in Kent &#38; London. I have heard from him several times lately.</p>
+            <p>All going on much as usual here. Yesterday, (New Year's Day) was a perfect day&#8212;the 
+                finest I have seen since my retur<supplied reason="illegible" resp="#smb" cert="high">n</supplied>.</p>
+                <pb xml:id="leaf002r" facs="loc_vm.01991_large.jpg" type="recto"/>
+             <p>I write this rather hurriedly. But with love to you &#38; best wishes from 
+                 my <choice><orig>inmost</orig><reg>innermost</reg></choice> heart. 
+            </p>
+            <closer>
+                <salute>I remain always</salute>
+                <salute>Yours affectionately</salute>
+                <signed><hi rend="underline">JW Wallace</hi></signed> 
+            </closer>
+            <pb xml:id="leaf002v" facs="loc_vm.01992_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc_vm.01987_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc_vm.01988_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

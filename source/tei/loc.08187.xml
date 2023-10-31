@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08187">
+    <teiHeader>   
+        <fileDesc>    
+            <titleStmt>
+                <title type="main" level="m">Walt Whitman to Hannah Whitman Heyde, 15 January 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Maire Mullins</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="mm">Maire Mullins</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="zs">Zainab Saleh</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>Kent State University</sponsor>
+                <sponsor>Pepperdine University</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.08187</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in 
+                        the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt> 
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Hannah Whitman Heyde, 15 January 1889</title>
+                    <date cert="high" when="1889-01-15" xml:id="dat1">January 15, 1889</date>
+                    <idno type="callno">MSS18630, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00041</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress,
+                        Washington, D.C.</orgName>  
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>  
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Whitman Heyde</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>  
+        <revisionDesc>
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2020-10-12" who="#smb">added DOI</change>
+            <change when="2020-02-04" who="#smb">checked, corrected</change>
+            <change when="2020-01-31" who="#zs">Added images</change>
+            <change when="2020-01-30" who="#mm">transcribed and encoded</change>
+        </revisionDesc> 
+    </teiHeader>  
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc_zs.00371.jpg" type="recto"/>
+            <opener> 
+                <dateline>
+                    <name type="place">Camden<ptr target="loc.08187_n1"/></name>
+                    <date when="1889-01-15">Evn'g</date>
+                    <date when="1880-01-15">Jan: 15 '89<ptr target="loc.08187_n5"/></date>
+                </dateline>
+            </opener>
+            <p>Am ab't the same&#8212;am sitting by the stove&#8212;comfortable. Glad to hear the 
+            box came at last. Fine weather here&#8212;envy the sunshine (finer than ever this winter)
+            &#38; hope I shall yet get out in it. George,<ptr target="loc.08187_n2"/> Lou,<ptr target="loc.08187_n3"/> 
+            Eddy<ptr target="loc.08187_n4"/> &#38; all are well as far as I hear</p>
+            <closer> 
+                <salute>&#8212;Best love&#8212;</salute>
+                <signed>Brother Walt</signed> 
+            </closer> 
+            <pb xml:id="leaf001v" facs="loc_zs.00372.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>
+
+
+
+

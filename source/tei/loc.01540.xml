@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
+<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
+<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01540">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Peter Doyle, 28 July [1871]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="jyc">Jonathan Y. Cheng</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <idno>loc.01540</idno>
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright &#169; 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Peter Doyle, 28 July [1871]</title>
+                    <date cert="medium" when="1871-07-28" xml:id="dat1">July 28, [1871]</date>
+                    <idno type="callno">MSS18630, Box 9, Reel 5&#8211;6</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00157</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Doyle, Peter" ref="n0752">Peter Doyle</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-11-30" who="#smb">final check, corrected</change>
+            <change when="2022-07-31" who="#pw">checked, corrected</change>
+            <change when="2022-02-15" who="#cn">checked, corrected, added notes</change>
+            <change when="2021-11-19" who="#me">checked, corrected</change>
+            <change who="#ak" when="2014-11-04">corrected orgName, added correspondent ref</change>
+            <change who="#ak" when="2014-11-04">added annotations</change>
+            <change who="#jyc" when="2014-10-07">checked, revised</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-06-10" who="#nnk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter"> 
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01540.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Brooklyn</name>
+                    <date when="1871-07-28">July 28.</date>
+                    <note type="authorial" resp="#ww" place="dateline">(Friday)</note>
+                    <note type="authorial" resp="#ww" place="dateline">'65</note>
+                    <note type="authorial" resp="#ww" place="dateline">'71<ptr target="loc.01540_n2"/></note>
+                </dateline>
+                <salute>Dear son,</salute>
+            </opener>
+            <p>I shall return on Monday next, in the 12:30 train from Jersey city&#8212;(the train I
+                usually come in)</p>
+            <p>Pete I have rec'd your letter of 26<hi rend="superscript">th</hi><ptr target="n5002d"
+            />&#8212;Mother<ptr target="n0705"/> seems to-day full as well as usual&#8212;</p>
+            <pb xml:id="leaf001v" facs="loc.01540.002_large.jpg" type="verso"/>
+            <p>I continue all right&#8212;I have been on to New Haven, about 75 miles from
+                here&#8212;a former friend of mine<ptr target="loc.01540_n1"/> is in a dying
+                condition there, from consumption &amp; expressed such a strong desire to see me,
+                that I went on&#8212;I thought he would die while I was there&#8212;he was all
+                wasted to a skeleton, faculties good, but voice only a low <pb xml:id="leaf002r"
+                    facs="loc.01540.003_large.jpg" type="recto"/> whisper&#8212;I returned last
+                night, after midnight</p>
+            <p>&#8212;Well bub, my time here is short&#8212;I have had a good quiet visit&#8212;the
+                best in some respects yet&#8212;&amp; I feel satisfied</p>
+            <p>&#8212;My darling son we will very soon be together again</p>
+            <closer>
+                <salute>Your loving comrade</salute>
+                <signed>Walt.</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.01540.004_large.jpg" type="verso"/>
+        </body>
+    </text> 
+</TEI>
