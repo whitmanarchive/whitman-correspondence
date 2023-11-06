@@ -12,7 +12,7 @@
   <xsl:import href="../.xslt-datura/tei_to_html/tei_to_html.xsl"/>
   <xsl:import href="../../../whitman-scripts/scripts/archive-wide/overrides.xsl"/>
 
-  <xsl:output method="xml" indent="no" encoding="UTF-8" omit-xml-declaration="yes"/>
+  <xsl:output method="xml" indent="no" encoding="UTF-8" omit-xml-declaration="no"/>
   
   <!-- ==================================================================== -->
   <!--                    CORRESPONDENCE   OVERRIDES                        -->
