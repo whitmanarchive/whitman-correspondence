@@ -1,3 +1,5 @@
+require_relative "../../../whitman-scripts/scripts/archive-wide/overrides.rb"
+
 class TeiToEs
 
   ################
