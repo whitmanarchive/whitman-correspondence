@@ -23,19 +23,9 @@
   
   <xsl:variable name="top_metadata">
     <ul>
-      
-      
-      
-      
-      
-      
       <li>
-        
-        
-        
         <strong>Source: </strong>
-        
-        
+
         <xsl:apply-templates select="TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/orgName[1]"/>
         <xsl:if test="TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/orgName[2]"><xsl:text>; </xsl:text><xsl:value-of select="TEI/teiHeader/fileDesc/sourceDesc/bibl/orgName[2]"/></xsl:if>
         <xsl:if test="TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/orgName[3]"><xsl:text>; </xsl:text><xsl:value-of select="TEI/teiHeader/fileDesc/sourceDesc/bibl/orgName[3]"/></xsl:if>
@@ -126,35 +116,10 @@
               </xsl:choose></xsl:if>
           </xsl:otherwise>
         </xsl:choose>
-      
-      
-      
-      
-      
-      
-      
+
       </li> 
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </ul>
   </xsl:variable>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   <!-- template to parse id's to create links -->
   <xsl:template name="link_id">
