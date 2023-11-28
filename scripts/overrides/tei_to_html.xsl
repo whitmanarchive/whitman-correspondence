@@ -63,12 +63,12 @@
             
             <xsl:if test="descendant::ptr">
               <xsl:variable name="ptr_target_1">
-                <xsl:value-of select="string(descendant::ptr[1]/@target)"/>
+                <xsl:value-of select="descendant::ptr[1]/@target"/>
               </xsl:variable>
-             <xsl:variable name="resp_1">
+              <xsl:variable name="resp_1">
                 <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target_1]/@resp"/>
               </xsl:variable>
-            <!--   <xsl:variable name="ptr_target_2">
+              <xsl:variable name="ptr_target_2">
                 <xsl:value-of select="descendant::ptr[2]/@target"/>
               </xsl:variable>
               <xsl:variable name="resp_2">
@@ -91,14 +91,14 @@
               </xsl:variable>
               <xsl:variable name="resp_5">
                 <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target_5]/@resp"/>
-              </xsl:variable>-->
+              </xsl:variable>
               
               <xsl:choose>
-                <xsl:when test="$resp_1 = 'miller'">
+                <xsl:when test="$resp_1 | $resp_2 | $resp_3 | $resp_4 | $resp_5 = 'miller'">
                   <br/><br/><!--Notes for this letter were written by the listed contributors to this digital file, by the editors of the <em>Whitman Archive</em>, and/or have been derived from Walt Whitman, <em>The Correspondence</em>, ed. Edwin Haviland Miller, 6 vols. (New York: New York University Press, 1961&#8211;1977).-->
                   Notes for this letter were created by <em>Whitman Archive</em> staff and/or were derived from Walt Whitman, <em>The Correspondence</em>, ed. Edwin Haviland Miller, 6 vols. (New York: New York University Press, 1961&#8211;1977), and supplemented or updated by <em>Whitman Archive</em> staff.
                 </xsl:when>
-                <!--<xsl:when test="$resp_1 | $resp_2 | $resp_3 | $resp_4 | $resp_5 = 'frenz'">
+                <xsl:when test="$resp_1 | $resp_2 | $resp_3 | $resp_4 | $resp_5 = 'frenz'">
                   <br/><br/>Notes for this letter were created by <em>Whitman Archive</em> staff and/or were derived from <em>Whitman and Rolleston: A Correspondence</em>, ed. Horst Frenz (Bloomington, IN: Indiana University Press, 1951), and supplemented or updated by <em>Whitman Archive</em> staff. The material appears here courtesy of Indiana University Press.
                 </xsl:when>
                 <xsl:when test="$resp_1 | $resp_2 | $resp_3 | $resp_4 | $resp_5 = 'lozynsky'">
@@ -121,7 +121,7 @@
                 </xsl:when>
                 <xsl:when test="$resp_1 | $resp_2 | $resp_3 | $resp_4 | $resp_5 = 'Loving'">
                   <br/><br/>Notes for this letter were created by <em>Whitman Archive</em> staff and/or were derived from <em>Civil War Letters of George Washington Whitman</em>, ed. Jerome M. Loving (Durham, NC: Duke University Press, 1975), and supplemented or updated by <em>Whitman Archive</em> staff.
-                </xsl:when>-->
+                </xsl:when>
                 <xsl:otherwise> </xsl:otherwise>
               </xsl:choose></xsl:if>
           </xsl:otherwise>
