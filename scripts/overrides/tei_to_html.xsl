@@ -135,7 +135,7 @@
   </xsl:template>
   
   <xsl:template match="//body//ptr">
-    <xsl:if test="//keywords[@n = 'category']/term = 'biography-correspondence'">
+    
       <xsl:variable name="link_id_local">
         <xsl:call-template name="link_id">
           <xsl:with-param name="target" select="@target"/>
@@ -146,7 +146,7 @@
         <xsl:apply-templates/>
         <xsl:number level="any" count="//body//ptr"/>
       </a>
-    </xsl:if>
+    
   </xsl:template>
   
   <xsl:template match="text[@type = 'letter']">
@@ -176,7 +176,7 @@
           
           <xsl:number level="any" count="//body//ptr"/>
           <xsl:text>. </xsl:text>
-          <xsl:apply-templates select="document($doc_path)//body/descendant::note[@xml:id = $id]"/>
+          <xsl:apply-templates select="document('../../source/annotations/notes.xml')//note[@xml:id = $id]" />
           
           <xsl:text> [</xsl:text>
           <a href="#r{$link_id_local}">
