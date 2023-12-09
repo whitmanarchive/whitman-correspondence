@@ -266,4 +266,56 @@
   </xsl:template>
   
   
+  <!-- notes on ancillary files -->
+  
+  <!-- NOTES -->
+  
+  
+  <xsl:template match="text[@type='ancillary-correspondence']//note | text[@type='ancillary']//note" priority="1">
+    <a>
+      <xsl:attribute name="href">
+        <xsl:text>#</xsl:text>
+        <xsl:value-of select="@xml:id"/>
+      </xsl:attribute>
+      <sup class="footnote_sup_link">
+        <xsl:attribute name="id">
+          <xsl:text>ref_</xsl:text>
+          <xsl:value-of select="@xml:id"/>
+        </xsl:attribute>
+        <xsl:value-of select="count(preceding::note[ancestor::text]) +1"/>
+      </sup>
+    </a>
+  </xsl:template>
+  
+  <xsl:template match="text[@type='ancillary-correspondence'] | text[@type='ancillary']">
+    <xsl:apply-templates/>
+    
+    <xsl:if test="//note[@type='editorial'] or //note[@type='authorial']">
+      <p span="notes_title">Notes:</p>
+      <xsl:for-each select="//text//note">
+        <p>
+          <xsl:attribute name="id">
+            <xsl:value-of select="@xml:id"/>
+          </xsl:attribute>
+          <xsl:value-of select="count(preceding::note[ancestor::text]) +1"/>
+          <xsl:text>. </xsl:text>
+          <xsl:apply-templates/>
+          <xsl:text> [</xsl:text>
+          <a>
+            <xsl:attribute name="href">
+              <xsl:text>#ref_</xsl:text>
+              <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:text>back</xsl:text>
+          </a>
+          <xsl:text>]</xsl:text>
+        </p>
+        <xsl:text>
+          
+        </xsl:text>
+      </xsl:for-each>
+    </xsl:if>
+  </xsl:template>
+  
+  
 </xsl:stylesheet>
