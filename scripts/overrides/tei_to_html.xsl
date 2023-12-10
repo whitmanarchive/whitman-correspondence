@@ -18,7 +18,8 @@
   <!--                    CORRESPONDENCE   OVERRIDES                        -->
   <!-- ==================================================================== -->
   
-  
+  <!-- path to notes file -->
+  <xsl:variable name="doc_path">../../source/annotations/notes.xml</xsl:variable>
   
   
   <xsl:variable name="top_metadata">
@@ -56,31 +57,31 @@
                 <xsl:value-of select="string(descendant::ptr[1]/@target)"/>
               </xsl:variable>
               <xsl:variable name="resp_1">
-                <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target_1]/@resp"/>
+                <xsl:value-of select="document($doc_path)//body/descendant::note[@xml:id=$ptr_target_1]/@resp"/>
               </xsl:variable>
               <xsl:variable name="ptr_target_2">
                 <xsl:value-of select="string(descendant::ptr[2]/@target)"/>
               </xsl:variable>
               <xsl:variable name="resp_2">
-                <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target_2]/@resp"/>
+                <xsl:value-of select="document($doc_path)//body/descendant::note[@xml:id=$ptr_target_2]/@resp"/>
               </xsl:variable>
               <xsl:variable name="ptr_target_3">
                 <xsl:value-of select="string(descendant::ptr[3]/@target)"/>
               </xsl:variable>
               <xsl:variable name="resp_3">
-                <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target_3]/@resp"/>
+                <xsl:value-of select="document($doc_path)//body/descendant::note[@xml:id=$ptr_target_3]/@resp"/>
               </xsl:variable>
               <xsl:variable name="ptr_target_4">
                 <xsl:value-of select="string(descendant::ptr[4]/@target)"/>
               </xsl:variable>
               <xsl:variable name="resp_4">
-                <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target_4]/@resp"/>
+                <xsl:value-of select="document($doc_path)//body/descendant::note[@xml:id=$ptr_target_4]/@resp"/>
               </xsl:variable>
               <xsl:variable name="ptr_target_5">
                 <xsl:value-of select="string(descendant::ptr[5]/@target)"/>
               </xsl:variable>
               <xsl:variable name="resp_5">
-                <xsl:value-of select="document('../../source/annotations/notes.xml')//body/descendant::note[@xml:id=$ptr_target_5]/@resp"/>
+                <xsl:value-of select="document($doc_path)//body/descendant::note[@xml:id=$ptr_target_5]/@resp"/>
               </xsl:variable>
               
               <xsl:choose>
@@ -150,8 +151,32 @@
   </xsl:template>
   
   <xsl:template match="text[@type = 'letter']">
-    <xsl:variable name="doc_path">../../source/annotations/notes.xml</xsl:variable>
     <xsl:apply-templates/>
+    
+    <xsl:if test="//profileDesc//persName[@ref]">
+      <div class="editorial_notes">
+        <hr/>
+        <xsl:choose>
+          <xsl:when test="count(//profileDesc//persName[@ref])=1">
+            <xsl:for-each select="//persName[@ref]">
+              <xsl:variable name="pers_target">
+                <xsl:value-of select="@ref"></xsl:value-of></xsl:variable>
+              <p><em><xsl:text>Correspondent:</xsl:text></em><br/>
+                <xsl:apply-templates select="document($doc_path)//body/descendant::note[@xml:id=$pers_target]"/></p>
+              
+            </xsl:for-each>
+          </xsl:when>
+          <xsl:otherwise>
+            <p><em><xsl:text>Correspondents:</xsl:text></em><br/>
+              <xsl:for-each select="//persName[@ref]">
+                <xsl:variable name="pers_target">
+                  <xsl:value-of select="@ref"></xsl:value-of></xsl:variable>
+                <xsl:apply-templates select="document($doc_path)//body/descendant::note[@xml:id=$pers_target]"/><br/><xsl:if test="following-sibling::persName[@ref]"><br/></xsl:if></xsl:for-each></p>
+            
+          </xsl:otherwise>
+        </xsl:choose>
+      </div>
+    </xsl:if>
    
     <hr/>
     
@@ -176,7 +201,7 @@
           
           <xsl:number level="any" count="//body//ptr"/>
           <xsl:text>. </xsl:text>
-          <xsl:apply-templates select="document('../../source/annotations/notes.xml')//note[@xml:id = $id]" />
+          <xsl:apply-templates select="document($doc_path)//note[@xml:id = $id]" />
           
           <xsl:text> [</xsl:text>
           <a href="#r{$link_id_local}">
