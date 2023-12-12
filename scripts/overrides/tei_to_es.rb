@@ -145,7 +145,7 @@ class TeiToEs
       when 1877..1887
         "Post Reconstruction (1877-1887)"
       when 1888..1892
-        "Late Life (1888-1891)"
+        "Late Life (1888-1892)"
       else
         "No Era Assigned"
       end
