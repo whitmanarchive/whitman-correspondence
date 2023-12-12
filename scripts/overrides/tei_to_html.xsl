@@ -178,44 +178,46 @@
       </div>
     </xsl:if>
    
-    <hr/>
-    
-    <h3>Notes:</h3>
-    <ul class="correspondence_notes">
-      <xsl:for-each select="//body//ptr">
-        
-        <xsl:variable name="link_id_local">
-          <xsl:call-template name="link_id">
-            <xsl:with-param name="target" select="@target"/>
-          </xsl:call-template>
-        </xsl:variable>
-        
-        <xsl:variable name="id" select="@target"/>
-        
-        <li>
-          <xsl:attribute name="id">
-            <xsl:text>n</xsl:text>
-            <xsl:value-of select="$link_id_local"/>
-          </xsl:attribute>
+    <xsl:if test="//body//ptr">
+      <hr/>
+      
+      <h3>Notes</h3>
+      <ul class="correspondence_notes">
+        <xsl:for-each select="//body//ptr">
           
+          <xsl:variable name="link_id_local">
+            <xsl:call-template name="link_id">
+              <xsl:with-param name="target" select="@target"/>
+            </xsl:call-template>
+          </xsl:variable>
           
-          <xsl:number level="any" count="//body//ptr"/>
-          <xsl:text>. </xsl:text>
-          <xsl:apply-templates select="document($doc_path)//note[@xml:id = $id]" />
+          <xsl:variable name="id" select="@target"/>
           
-          <xsl:text> [</xsl:text>
-          <a href="#r{$link_id_local}">
-            <xsl:text>back</xsl:text>
-          </a>
-          <xsl:text>]</xsl:text>
-          
-          <!-- TODO reconsider links, from correspondenceP5.xsl
-        Currently some links deliberately do not link, and others have special rules for paths. 
-        When everything is in the API, and we've decided for sure that all documents will be at one level, the links may work, but we might still need to remove some of them. 
-        -->
-        </li>
-      </xsl:for-each>
-    </ul>
+          <li>
+            <xsl:attribute name="id">
+              <xsl:text>n</xsl:text>
+              <xsl:value-of select="$link_id_local"/>
+            </xsl:attribute>
+            
+            
+            <xsl:number level="any" count="//body//ptr"/>
+            <xsl:text>. </xsl:text>
+            <xsl:apply-templates select="document($doc_path)//note[@xml:id = $id]" />
+            
+            <xsl:text> [</xsl:text>
+            <a href="#r{$link_id_local}">
+              <xsl:text>back</xsl:text>
+            </a>
+            <xsl:text>]</xsl:text>
+            
+            <!-- TODO reconsider links, from correspondenceP5.xsl
+          Currently some links deliberately do not link, and others have special rules for paths. 
+          When everything is in the API, and we've decided for sure that all documents will be at one level, the links may work, but we might still need to remove some of them. 
+          -->
+          </li>
+        </xsl:for-each>
+      </ul>
+    </xsl:if>
   </xsl:template>
   
   <!-- correspondence only? Will there be other internal links affected? How do we know, throughout the archive, if a link is internal or external? -->
@@ -316,7 +318,8 @@
     <xsl:apply-templates/>
     
     <xsl:if test="//note[@type='editorial'] or //note[@type='authorial']">
-      <p span="notes_title">Notes:</p>
+      <hr />
+      <h3>Notes</h3>
       <xsl:for-each select="//text//note">
         <p>
           <xsl:attribute name="id">
