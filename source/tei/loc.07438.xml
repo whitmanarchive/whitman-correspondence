@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07438">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07438">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -27,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07438</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,14 +41,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07438</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William H. Kelly</author>
                     <title>William H. Kelly to Walt Whitman, 27 August 1879</title>
                     <date cert="high" when="1879-08-27" xml:id="dat1">August 27, 1879</date>
                     <idno type="callno">MSS45443, Box 2</idno>
-                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842&#8211;1937, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="document" xml:id="rel01" target="wwa.00125"/>
                     <relatedItem type="text" target="loc.04284"/>
                     <note type="project" target="#rel01">Whitman crossed out this partial letter and wrote a series of notes, most likely trial lines, on the back.</note>
@@ -89,8 +85,8 @@
                 <address><addrLine><gap reason="cut away"/> Stevens St, Camden N.J.</addrLine></address>
             </opener>
             
-            <p><gap reason="cut away"/>s received&#8212;please</p>
-            <p><gap reason="cut away"/> boy as stated&#8212;a</p>
+            <p><gap reason="cut away"/>s received—please</p>
+            <p><gap reason="cut away"/> boy as stated—a</p>
             <p><gap reason="cut away"/>n</p>
             <p><gap reason="cut away"/> Leaves of Grass,"</p>
             <closer>
@@ -98,8 +94,8 @@
                 <signed rend="right">Wm. H. Kelly</signed>
                 <signed rend="right">with</signed>
                 <address rend="right">
-                <addrLine>Powers &#38; Weightman<ptr target="n1068"/></addrLine>
-                <addrLine>9th &#38; Parish Sts.</addrLine>
+                <addrLine>Powers &amp; Weightman<ptr target="n1068"/></addrLine>
+                <addrLine>9th &amp; Parish Sts.</addrLine>
                 <addrLine>Philadelphia</addrLine>
                 </address>
             </closer>

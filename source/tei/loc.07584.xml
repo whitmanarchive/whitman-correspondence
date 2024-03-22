@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07584">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07584">  
     <teiHeader>  
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07584</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07584</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">306&#8211;307</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">306–307</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,9 +64,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 21 March 1889</title>
                     <date cert="high" when="1889-03-21" xml:id="dat1">March 21, 1889</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -99,33 +96,31 @@
                     <date when="1889-03-21">March 21 '89</date>
                 </dateline>
             </opener>
-            <p><hi rend="italic">Noon</hi>&#8212;Feeling pretty well&#8212;dark &#38; rainy (the
-                third day)&#8212;News not favorable from O'C[onnor]<ptr target="n2002"/> as you will
-                see by enc'd card<ptr target="loc.07584_n2"/>&#8212;I write a few lines every day to
-                him &#38; send Mrs. O'C<ptr target="n4137"/> the Boston paper. The "process" plate
-                (considerably reduced) of that &#190; pict: McK[ay]<ptr target="n4983"/> got in N Y.
-                is good, &#38; I shall use it in book before long&#8212;Shall send it you (probably
-                several impressions) soon as I have them printed nicely&#8212;definite bowel action
-                this forenoon&#8212;the <hi rend="italic">Sat: Review</hi> (March 2) has either gone
-                to you, or will soon go (A rather curious notice)&#8212;I haven't seen Lawyer
-                    Harned<ptr target="loc.03745_n1"/> since you went<ptr target="loc.07584_n3"
-                    />&#8212;Horace<ptr target="n4267"/> was in this forenoon&#8212;faithful &#38;
-                invaluable as ever&#8212;Mrs: Davis<ptr target="n6113"/> has come in for a few
-                moments to see if I am "all right"&#8212;Ed<ptr target="n4319"/> has been making up
+            <p><hi rend="italic">Noon</hi>—Feeling pretty well—dark &amp; rainy (the
+                third day)—News not favorable from O'C[onnor]<ptr target="n2002"/> as you will
+                see by enc'd card<ptr target="loc.07584_n2"/>—I write a few lines every day to
+                him &amp; send Mrs. O'C<ptr target="n4137"/> the Boston paper. The "process" plate
+                (considerably reduced) of that ¾ pict: McK[ay]<ptr target="n4983"/> got in N Y.
+                is good, &amp; I shall use it in book before long—Shall send it you (probably
+                several impressions) soon as I have them printed nicely—definite bowel action
+                this forenoon—the <hi rend="italic">Sat: Review</hi> (March 2) has either gone
+                to you, or will soon go (A rather curious notice)—I haven't seen Lawyer
+                    Harned<ptr target="loc.03745_n1"/> since you went<ptr target="loc.07584_n3"/>—Horace<ptr target="n4267"/> was in this forenoon—faithful &amp;
+                invaluable as ever—Mrs: Davis<ptr target="n6113"/> has come in for a few
+                moments to see if I am "all right"—Ed<ptr target="n4319"/> has been making up
                 the bed.</p>
             <p><hi rend="italic">Toward sunset</hi></p>
-            <p>Had a good thorough bath this afternoon, hot water&#8212;my "cold" has not altogether
-                withdrawn&#8212;I feel it in the head perceptibly enough an hour or two now and
-                then&#8212;heavy sloppy muddy day&#8212;I almost envy your having such lots to do,
-                responsibilities &#38; strong &#38; well &#38; energetic to do 'em&#8212;My <hi
-                    rend="italic">lassitude</hi> is one of the worst points in my
-                condition&#8212;but whether Sidney Morse's<ptr target="n0862"/> man's answer (when
+            <p>Had a good thorough bath this afternoon, hot water—my "cold" has not altogether
+                withdrawn—I feel it in the head perceptibly enough an hour or two now and
+                then—heavy sloppy muddy day—I almost envy your having such lots to do,
+                responsibilities &amp; strong &amp; well &amp; energetic to do 'em—My <hi rend="italic">lassitude</hi> is one of the worst points in my
+                condition—but whether Sidney Morse's<ptr target="n0862"/> man's answer (when
                 reproach'd for drunkenness) "Suppose 'twas so intended to be," was right or
-                no&#8212;Mrs: Davis's woman's remark is "So it really <hi rend="italic">is</hi> any
-                how"&#8212;&#38; answers all philosophy &#38; argument (up to a certain line you
-                probably say)&#8212;Well I will adjust myself for dinner, &#38; hope you &#38; Mrs
-                    B<ptr target="n4273"/> &#38; all are having good times&#8212;&#38; send my love
-                to all&#8212;</p>
+                no—Mrs: Davis's woman's remark is "So it really <hi rend="italic">is</hi> any
+                how"—&amp; answers all philosophy &amp; argument (up to a certain line you
+                probably say)—Well I will adjust myself for dinner, &amp; hope you &amp; Mrs
+                    B<ptr target="n4273"/> &amp; all are having good times—&amp; send my love
+                to all—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

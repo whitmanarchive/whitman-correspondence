@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00940">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00940">
    <teiHeader> 
       <fileDesc> 
          <titleStmt>
@@ -27,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00940</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -45,14 +43,14 @@
                   the graphic images in this archive has been granted by the owners of the originals
                   for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00940</idno></publicationStmt>
          <sourceDesc>
             <bibl>
                <author>Walt Whitman</author>
                <title>Ellen M. O'Connor to Walt Whitman, 10 November 1863</title>
                <date when="1863-11-10">November 10, 1863</date>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                  Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                  Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -95,19 +93,16 @@
             right we argue that you did your part.</p>
          <p>Now, now, Walt, are you aware that your "ten days" expire to-morrow? Not that I at all
             expect to see you then for ten days would be a short time to stay at home after nearly a
-            year's absence,&#8212;but we have <pb xml:id="leaf001v" facs="loc_jc.00600_large.jpg"
-               type="verso"/>
+            year's absence,—but we have <pb xml:id="leaf001v" facs="loc_jc.00600_large.jpg" type="verso"/>
             <pb xml:id="leaf002r" facs="loc_jc.00601_large.jpg" type="recto"/>been counting the days
             in the <hi rend="underline">very faintest</hi> hope that you might come then.</p>
-         <p>Mr. Eldridge comes as usual every evening, and we always ask each other&#8212;"have you heard
+         <p>Mr. Eldridge comes as usual every evening, and we always ask each other—"have you heard
             from Walt?"<ptr target="loc.00940_n3"/> He has sent you two letters, one the next day
             after you left, and one since. We have drank your health on several occasions, and in a
             variety of liquids, <hi rend="underline">tea</hi> on one occasion.</p>
          <p>By the way, all of the Piatts including the sweet Patsy &amp; the baby have dined with
             us since you left.<ptr target="loc.00940_n4"/> I shall save all details to tell you when
-            you come. But you were asked for, and we all wished you present.<pb xml:id="leaf002v"
-               facs="loc_jc.00602_large.jpg" type="verso"/><pb xml:id="leaf003r"
-               facs="loc_jc.00603_large.jpg" type="recto"/>Of course Mr. Eldridge &amp; Mrs. Cooper
+            you come. But you were asked for, and we all wished you present.<pb xml:id="leaf002v" facs="loc_jc.00602_large.jpg" type="verso"/><pb xml:id="leaf003r" facs="loc_jc.00603_large.jpg" type="recto"/>Of course Mr. Eldridge &amp; Mrs. Cooper
             formed two of the dinner party.<ptr target="nyp.00185_n2"/> Mrs. C. is still with me,
             being detained much longer than she expected to be, for which I am very glad. I shall
             not know how to get along without her, especially while you are gone. She is very bright
@@ -115,9 +110,7 @@
             for me several times, and if you will come back before she is gone, we will have a nice
             dinner for you.</p>
          <p>I fully intended to be able to tell you something about your boys in hospital, but I
-            have had so bad a cold since you left <pb xml:id="leaf003v"
-               facs="loc_jc.00604_large.jpg" type="verso"/><pb xml:id="leaf004r"
-               facs="loc_jc.00605_large.jpg" type="recto"/>and such an annoying troublesome cough
+            have had so bad a cold since you left <pb xml:id="leaf003v" facs="loc_jc.00604_large.jpg" type="verso"/><pb xml:id="leaf004r" facs="loc_jc.00605_large.jpg" type="recto"/>and such an annoying troublesome cough
             with it, that I have not been able to go to see them. They must miss you sadly, poor
             boys, I pity them.</p>
          <p>How did you find all at home? Did your good mother look as when you left her? &amp; did
@@ -125,9 +118,7 @@
             what do you think of the <hi rend="underline">new</hi> baby? did you kiss them both for me?
             If not you must.</p>
          <p>How about all the other members of the family? I hope you found all better than you
-            expected. You know I feel personally acquainted with each <pb xml:id="leaf004v"
-               facs="loc_jc.00606_large.jpg" type="verso"/><pb xml:id="leaf005r"
-               facs="loc_jc.00607_large.jpg" type="recto"/>member of your family.</p>
+            expected. You know I feel personally acquainted with each <pb xml:id="leaf004v" facs="loc_jc.00606_large.jpg" type="verso"/><pb xml:id="leaf005r" facs="loc_jc.00607_large.jpg" type="recto"/>member of your family.</p>
          <p>And what about your New York boys? Of course you have seen all, and have had that great
                <hi rend="underline">time</hi> which we are to hear all about when you come back.
             Indeed, won't you have "lots" to tell us! You know you must come back prepared to give
@@ -135,50 +126,38 @@
          <p>Have you seen Mrs. Price.<ptr target="loc.00940_n6"/> I wrote her the very day you left.
             Do you find her much worse than when you left last year?</p>
          <p>And Walt, have you seen Mr. Howells?<ptr target="loc.00940_n7"/> If not I beg that you
-            will, and with all the skill and talent of which you <pb xml:id="leaf005v"
-               facs="loc_jc.00608_large.jpg" type="verso"/><pb xml:id="leaf006r"
-               facs="loc_jc.00609_large.jpg" type="recto"/>are master do what you can to disenchant
+            will, and with all the skill and talent of which you <pb xml:id="leaf005v" facs="loc_jc.00608_large.jpg" type="verso"/><pb xml:id="leaf006r" facs="loc_jc.00609_large.jpg" type="recto"/>are master do what you can to disenchant
             him with those people. I know more about it than when you were here, and I assure you
             that you will be rendering a service not only to Mrs. H. &amp; the family, but to all
             who care for him if you can only get him out of this. If he could but know the real
             truth in regard to "the great head" and leader of the reform it would surely open his
             eyes. He evidently thinks Mr. A. a "great light" &amp; a saint of a man, sincere and
             true. Oh! can't he be enlightened? It is awful, and unless his eyes are soon opened I
-            don't see what will be the end. I depend on you<pb xml:id="leaf006v"
-               facs="loc_jc.00610_large.jpg" type="verso"/><pb xml:id="leaf007r"
-               facs="loc_jc.00611_large.jpg" type="recto"/>Walt, to see him, at any rate, &amp; your
+            don't see what will be the end. I depend on you<pb xml:id="leaf006v" facs="loc_jc.00610_large.jpg" type="verso"/><pb xml:id="leaf007r" facs="loc_jc.00611_large.jpg" type="recto"/>Walt, to see him, at any rate, &amp; your
             own intuition will tell you whether you can do more, but I feel that you can. He has
             great regard for your opinions of people and things.</p>
-         <p>William is well as usual, he is at the office or would send lots of love.<ptr
-               target="loc.00940_n8"/> Mrs. Cooper has gone in to the other house to dress for
+         <p>William is well as usual, he is at the office or would send lots of love.<ptr target="loc.00940_n8"/> Mrs. Cooper has gone in to the other house to dress for
             dinner, or she too, would send love. Do you know that in the innocence of her heart she
             fully believes that you are going to stop and see her on your return through
             Philadelphia, and <hi rend="underline">I</hi> have not the heart to undeceive her, and tell
-            her what a <hi rend="underline">promising</hi> youth you are <pb xml:id="leaf007v"
-               facs="loc_jc.00612_large.jpg" type="verso"/><pb xml:id="leaf008r"
-               facs="loc_jc.00613_large.jpg" type="recto"/>so I don't see but that you really must
-            make the promised visit,&#8212;&amp; you would have a very good time, I assure you of that
+            her what a <hi rend="underline">promising</hi> youth you are <pb xml:id="leaf007v" facs="loc_jc.00612_large.jpg" type="verso"/><pb xml:id="leaf008r" facs="loc_jc.00613_large.jpg" type="recto"/>so I don't see but that you really must
+            make the promised visit,—&amp; you would have a very good time, I assure you of that
             beforehand. She wants me to go home with her, but I doubt if I shall. Can't afford
             it.</p>
          <p>By the way, one bit of intelligence in regard to our dear friend and neighbor Gwynne I
             must tell you.<ptr target="loc.00940_n9"/> They think of moving &amp; renting the house
             up here, &amp; a lady whom I know came to look at it. G. was much pleased at the idea of
-            having such a nice family as hers for tenants, &amp; offered to rent it for <pb
-               xml:id="leaf008v" facs="loc_jc.00614_large.jpg" type="verso"/><pb xml:id="leaf009r"
-               facs="loc_jc.00615_large.jpg" type="recto"/>one hundred dollars a month unfurnished.
-            The lady politely declined &amp; told him that she rents her present house <hi
-               rend="underline">furnished</hi> for that sum. Mrs. G. &amp; the new baby are well. I
+            having such a nice family as hers for tenants, &amp; offered to rent it for <pb xml:id="leaf008v" facs="loc_jc.00614_large.jpg" type="verso"/><pb xml:id="leaf009r" facs="loc_jc.00615_large.jpg" type="recto"/>one hundred dollars a month unfurnished.
+            The lady politely declined &amp; told him that she rents her present house <hi rend="underline">furnished</hi> for that sum. Mrs. G. &amp; the new baby are well. I
             can't think of any more news to tell you.</p>
          <p>To tell you that we miss you <hi rend="underline">awfully</hi> would not be news would it?
             You expected that, but I do have a most uncomfortable sense of "goneness" all the time,
             &amp; I shall welcome you home here <hi rend="underline">very heartily</hi>.
          </p>
          <p>Can I do any thing for you in your absence?</p>
-         <p>Don't forget the three things you were to bring for <hi rend="underline">my</hi> especial <pb xml:id="leaf009v"
-               facs="loc_jc.00616_large.jpg" type="verso"/><pb xml:id="leaf010r"
-               facs="loc_jc.00617_large.jpg" type="recto"/>benefit. The picture, letter, &amp; "Drum
-            Taps"&#8212;</p>
-         <p>Now good bye&#8212;and very much love from us all. I have said nothing of Jeannie, she is
+         <p>Don't forget the three things you were to bring for <hi rend="underline">my</hi> especial <pb xml:id="leaf009v" facs="loc_jc.00616_large.jpg" type="verso"/><pb xml:id="leaf010r" facs="loc_jc.00617_large.jpg" type="recto"/>benefit. The picture, letter, &amp; "Drum
+            Taps"—</p>
+         <p>Now good bye—and very much love from us all. I have said nothing of Jeannie, she is
             not as well as I want to see her looking, she is out playing, or I would ask her what
             message to you. She asks for you often, and hopes you will soon be back.</p>
          <closer>

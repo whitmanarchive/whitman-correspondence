@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00960">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00960">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00960</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00960</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -54,9 +51,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notAfter="1977" notBefore="1961">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">137</biblScope>
+                            <date notAfter="1977" notBefore="1961">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">137</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -65,7 +62,7 @@
                     <title>Walt Whitman to Edward Wilkins, 24 December 1890</title>
                     <date cert="high" when="1890-12-24" xml:id="dat1">December 24, 1890</date>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare Book 
-                        &#38; Manuscript Library, Duke University</orgName>
+                        &amp; Manuscript Library, Duke University</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -95,15 +92,15 @@
                 </dateline>
                 <salute>Dear Ed</salute>
             </opener> 
-            <p>Y'rs came this mn'g,<ptr target="n5002d"/> &#38; was welcome (&#38; you w'd be y'rself)&#8212;I am 
+            <p>Y'rs came this mn'g,<ptr target="n5002d"/> &amp; was welcome (&amp; you w'd be y'rself)—I am 
                 here yet, a peg additional dropping out every successive month or so but 
-                in many things <hi rend="underline">the same subject continued</hi>&#8212;bladder trouble
-                &#38; the grip (aggravated cold in the head &#38; stomach) are the worst&#8212;but I still 
-                keep pretty fair spirits &#38; (fortunately) a stout strong right arm considering. 
-                Things in the house are ab't same&#8212;Mrs: Davis<ptr target="n6113"/> has just been in, is 
-                well&#8212;Warren<ptr target="loc.07319_n6"/> has gone over to Phila&#8212;I am sitting here in the big chair 
-                with wolf skin spread over back&#8212;fine sunny day out&#8212;cold&#8212;no sleighing 
-                here&#8212;write when you can, dear boy, &#38; I will too&#8212;God bless you&#8212;</p>
+                in many things <hi rend="underline">the same subject continued</hi>—bladder trouble
+                &amp; the grip (aggravated cold in the head &amp; stomach) are the worst—but I still 
+                keep pretty fair spirits &amp; (fortunately) a stout strong right arm considering. 
+                Things in the house are ab't same—Mrs: Davis<ptr target="n6113"/> has just been in, is 
+                well—Warren<ptr target="loc.07319_n6"/> has gone over to Phila—I am sitting here in the big chair 
+                with wolf skin spread over back—fine sunny day out—cold—no sleighing 
+                here—write when you can, dear boy, &amp; I will too—God bless you—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

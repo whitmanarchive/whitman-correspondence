@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08287">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Remington Ward to Walt Whitman, 2 June 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Remington Ward</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska–Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska–Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588–4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the 
+                        Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent 
+                        from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the 
+                        graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.08287</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Remington Ward</author>
+                    <title>Remington Ward to Walt Whitman, 2 June 1891</title>
+                    <date cert="high" when="1891-06-02" xml:id="dat1">June 2, 1891</date>
+                    <idno type="callno">MSS18630, Box 22, Reel 13–14</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00515</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C. </orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.08464"/>
+                    <relatedItem type="document" target="wwa.00681"/>
+                    <note type="project" target="#rel01">A line was drawn through this autograph request in black ink. Whitman then used the back of this letter, as well as a page he pasted to it, 
+                        to write notes regarding the publication history of <hi rend="italic">Leaves of Grass.</hi> Above the notes, Whitman wrote in red ink "this is all to make a page to back the 
+                        title"; he used these notes as he was preparing the 1891–1892 edition of <hi rend="italic">Leaves of Grass</hi> for publication.</note>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc> 
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Ward, Remington" ref="loc.08282_n1">Remington Ward</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2022-03-01" who="#smb">final check, corrected</change>
+            <change when="2021-10-09" who="#me">checked, corrected</change>
+            <change when="2021-07-09" who="#aja">checked, corrected</change>
+            <change when="2020-12-03" who="#aja">transcribed, encoded; SLIS:6335: Metadata Theories and Applications Class, Fall 2020, Micah Bateman, Lecturer, University of Iowa</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_tb.00118.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Remington Ward,</name> 
+                    <name type="place">STATIONER and PRINTER</name>
+                    <name type="place">34 Clarke Street,</name>
+                    <name type="place">Newport, R. I.</name>
+                    <name type="place">ESTABLISHED 189<gap reason="illegible" quantity="1" unit="chars"/></name>
+                    <handShift rend="manuscript"/>
+                    <date when="1891-06-02">June 2/91</date>
+                </dateline>
+                <salute>Mr Walt Whitman</salute>
+                <salute>Dear Sir</salute>
+            </opener> 
+            <p>If agreeable to you will you please give me your Autograph on the enclosed card.</p>               
+            <closer>
+                <salute>Yours respectfully</salute>
+                <signed>Remington Ward</signed>
+            </closer>            
+            <pb xml:id="leaf001rb" facs="loc_tb.00119.jpg" type="recto"/>
+            <pb xml:id="leaf001v" facs="loc_jm.00180.jpg" type="verso"/>
+        </body>
+    </text> 
+</TEI>

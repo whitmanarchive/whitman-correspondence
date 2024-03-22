@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00503">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00503">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00503</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00503</idno></publicationStmt>
             <sourceDesc>
 
                 <biblStruct>
@@ -59,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">357</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">357</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -110,23 +106,21 @@
             <p>Yours <choice>
                     <abbr>rec'd</abbr>
                     <expan>received</expan>
-                </choice> &#38; welcomed&#8212;will write at length soon&#8212;(meantime this
-                card)&#8212;Dr B[ucke]'s book has some sale all the time&#8212;nothing vehement, but
-                the orders drop in lingeringly<ptr target="nyp.00503_n2"/>&#8212;yesterday ten
-                copies from Tr&#252;bner London, &#38;c. &#38;c. My opinion that the book is <hi
-                    rend="italic">a success</hi> (in the most important requisites) is to-day
-                more decided than ever&#8212;<hi rend="italic">largely thanks to you</hi>. Dr B has
-                been in N. Y. for a month&#8212;has been twice here to see me.<ptr
-                    target="nyp.00503_n3"/> Did you see my article in <hi rend="italic">Critic</hi>
+                </choice> &amp; welcomed—will write at length soon—(meantime this
+                card)—Dr B[ucke]'s book has some sale all the time—nothing vehement, but
+                the orders drop in lingeringly<ptr target="nyp.00503_n2"/>—yesterday ten
+                copies from Trübner London, &amp;c. &amp;c. My opinion that the book is <hi rend="italic">a success</hi> (in the most important requisites) is to-day
+                more decided than ever—<hi rend="italic">largely thanks to you</hi>. Dr B has
+                been in N. Y. for a month—has been twice here to see me.<ptr target="nyp.00503_n3"/> Did you see my article in <hi rend="italic">Critic</hi>
                 of Nov. 24?<ptr target="nyp.00503_n4"/> I have lately sent a little 20 line poem
-                to <hi rend="italic">Harpers</hi>&#8212;accepted immediately &#38; paid for
-                    (&#36;50!)<ptr target="nyp.00503_n5"/>&#8212;I am well as usual&#8212;write
-                often&#8212;</p>
+                to <hi rend="italic">Harpers</hi>—accepted immediately &amp; paid for
+                    ($50!)<ptr target="nyp.00503_n5"/>—I am well as usual—write
+                often—</p>
             <closer>
                 <signed rend="right">W W</signed>
             </closer>
             <postscript>
-                <p>I sent your letter to Dr. B&#8212;he always wants to hear from you&#8212;</p>
+                <p>I sent your letter to Dr. B—he always wants to hear from you—</p>
             </postscript>
         </body>
 

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07566"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07566"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07566</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07566</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,7 +56,7 @@
                             <pubPlace>Detroit</pubPlace>
                             <publisher>Wayne State University Press</publisher>
                             <date notBefore="1977" notAfter="1977">1977</date>
-                            <biblScope type="page">103</biblScope>
+                            <biblScope unit="page">103</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,7 +65,7 @@
                     <title>Richard Maurice Bucke to Walt Whitman, [20 January [188]9]</title>
                     <date cert="high" when="1889-01-20" xml:id="dat1">[January 20, [188]9]</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                 </bibl>
             </sourceDesc>
@@ -102,23 +99,21 @@
             </opener>
             <p>Yours of 17<hi rend="underline">th</hi><ptr target="loc.07566_n2"/> came to hand
                 yesterday and I left it over till today that I might answer it at leisure. That is
-                grand news about Kennedy's<ptr target="n3039"/> book, that Wilson<ptr
-                    target="loc.03316_n2"/> will really publish it and at once,<ptr target="loc.07724_n4"/> so it is that the German translation is actually being
+                grand news about Kennedy's<ptr target="n3039"/> book, that Wilson<ptr target="loc.03316_n2"/> will really publish it and at once,<ptr target="loc.07724_n4"/> so it is that the German translation is actually being
                 printed at last.<ptr target="loc.07240_n2"/> I shall be very glad to get the
                 Springfield Rep<hi rend="underline">n</hi> con<hi rend="underline">g</hi> the
-                "Whittier, Whitman &#38; Emma Lazarus" criticism<ptr target="loc.07566_n5"
-                />&#8212;please do not forget to send it when you can spare it. No, I have received
+                "Whittier, Whitman &amp; Emma Lazarus" criticism<ptr target="loc.07566_n5"/>—please do not forget to send it when you can spare it. No, I have received
                 no German papers of any kind from any body for a long time, where are they? If still
-                comeatable send them.<ptr target="loc.07566_n6"/> [&#8212;] We have, thank goodness,
+                comeatable send them.<ptr target="loc.07566_n6"/> [—] We have, thank goodness,
                 a change in the weather, it has been blowing from the East for about twenty-four
-                hours and now (as a natural consequence) it has begun to snow&#8212;and it is coming
+                hours and now (as a natural consequence) it has begun to snow—and it is coming
                 down at a great rate before a driving cold East wind out of a dark gray sky which
                 looks as if it was made of solid snow banks. If we have no diasastros change (such as
                 a shift of the wind) we shall have good sleighing tomorrow morning. All well and all
-                quiet here, annual Ball getting pretty near now, a week from thursday&#8212;i.e.
-                    1<hi rend="underline">st</hi>&#8212;soon after that I hope to see you, but we
+                quiet here, annual Ball getting pretty near now, a week from thursday—i.e.
+                    1<hi rend="underline">st</hi>—soon after that I hope to see you, but we
                 have had no word of our patents<ptr target="loc.07230_n2"/> yet and there may still be some hitch for all I can
-                tell&#8212;but I hope not</p>
+                tell—but I hope not</p>
             <closer>
                 <salute>Addio and Love to you</salute>
                 <signed>R M Bucke</signed> 

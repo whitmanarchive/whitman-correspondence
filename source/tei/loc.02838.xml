@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02838">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02838">
   <teiHeader>
     <fileDesc>
       <titleStmt> 
@@ -29,7 +28,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>loc.02838</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -47,7 +46,7 @@
             Humanities. Permission to reproduce the graphic images in this archive has
             been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>loc.02838</idno></publicationStmt>
       <sourceDesc>
 
         <biblStruct>
@@ -58,9 +57,9 @@
               <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="page">55&#8211;56</biblScope>
-                <biblScope type="volume">3</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="page">55–56</biblScope>
+                <biblScope unit="volume">3</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -71,7 +70,7 @@
           <date cert="high" when="1876-09-01" xml:id="dat1">September 1, 1876</date>
           <idno type="callno">MSS18630<!--, Box 15, Reel 9--></idno>
           <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-            Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+            Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -100,8 +99,8 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="right">431 Stevens St&#8212;Camden, N Jersey <lb/>U S
-            America&#8212;</name>
+          <name type="place" rend="right">431 Stevens St—Camden, N Jersey <lb/>U S
+            America—</name>
           <date when="1876-09-01" rend="right">Sept 1, '76</date>
         </dateline>
         <salute>My dear friend,</salute>
@@ -110,10 +109,10 @@
       <p>At last I am beginning to receive from the bindery the second batch of my late Two
         Volume edition (I print 600 copies each Vol.) &amp; send you a set in the new
         binding, by this mail. I am now at last also supplying my English subscribers &amp;
-        friends their Vols.&#8212;have sent their books, postpaid, by same mail with this to
-        several of them (see list appended)<ptr target="loc.02838_n1"/>&#8212;&amp; the rest will follow, until every one will be
-        sent&#8212;probably within the next ten days. I sent <hi rend="italic">you</hi> the
-        Vol. for Mrs. Matthews,<ptr target="loc.02838_n2"/> as the address was too indefinite&#8212;How about G. W.
+        friends their Vols.—have sent their books, postpaid, by same mail with this to
+        several of them (see list appended)<ptr target="loc.02838_n1"/>—&amp; the rest will follow, until every one will be
+        sent—probably within the next ten days. I sent <hi rend="italic">you</hi> the
+        Vol. for Mrs. Matthews,<ptr target="loc.02838_n2"/> as the address was too indefinite—How about G. W.
           Foote<ptr target="loc.02838_n3"/> and J. T. Nettleship mention'd by you &amp; giving
         extracts, under date of May 23d?<ptr target="loc.02838_n4"/> Their
         names do not appear in the lists you have given me to send books to. The <hi rend="italic">Athenaeum</hi> folks have sent me good pay for the little
@@ -121,18 +120,18 @@
         but I have had nothing, &amp; heard nothing from the <hi rend="italic">Examiner</hi>. </p>
 
       <p>I expected to have heard of Mrs. Gilchrist's arrival in The U.S.<ptr target="loc.02838_n6"/> &amp; to have had perhaps
-        ere this the great happiness of meeting her&#8212;but have heard nothing up to
+        ere this the great happiness of meeting her—but have heard nothing up to
         date. </p>
 
       <p>My letter of June 26, speaking of the situation, the delay in printing this second
-        batch, &amp;c.&#8212;And my letter of July 3d acknowledging yours of June 20,
-        enclosing one £45-9-6, &amp; list&#8212;you have. </p>
+        batch, &amp;c.—And my letter of July 3d acknowledging yours of June 20,
+        enclosing one £45-9-6, &amp; list—you have. </p>
 
-      <p>I enclose herewith a later circular&#8212;will send you a dozen or so soon. </p>
+      <p>I enclose herewith a later circular—will send you a dozen or so soon. </p>
 
       <p>My dear little baby-nephew, &amp; namesake, is dead, &amp; buried by the side of my
-        mother, a bitter cup to me&#8212;Otherwise things are about the same with me as
-        before&#8212;&amp; I am jogging along about the same. </p>
+        mother, a bitter cup to me—Otherwise things are about the same with me as
+        before—&amp; I am jogging along about the same. </p>
 
       <closer>
         <salute/>

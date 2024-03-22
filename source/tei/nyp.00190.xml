@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00190">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00190">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>nyp.00190</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +37,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>nyp.00190</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -49,9 +47,9 @@
                   <imprint>
                      <pubPlace>New York</pubPlace>
                      <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">237-238</biblScope>
+                     <date notBefore="1961" notAfter="1977">1961–1977</date>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="page">237-238</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -92,12 +90,12 @@
                </dateline>
                <salute>Dear comrade</salute>
             </opener>
-            <p>I have rec'd your letter of the 6th<ptr target="nyp.00190_n1"/> as it has been sent on to me by Major Hapgood. My dear comrade, I have been very sick, and have been brought on home nearly three weeks ago, after being sick some ten days in Washington&#8212;The doctors say my sickness is from having too deeply imbibed poison into my system from the hospitals&#8212;I had spells of deathly faintness, &amp; the disease also attacked my head &amp; throat pretty seriously&#8212;</p>
-            <p>The doctors forbid me going any more into the hospitals&#8212;I did not think much of it, till I got pretty weak, &amp; then they directed me to leave &amp; go north for change of air as soon as I had strength&#8212;But I am making too long a story of it&#8212;I thought only to write you a line&#8212;My dear comrade, I am now over the worst of it &amp; have been getting better the last three days&#8212;my brother took me out in a carriage for a short ride yesterday which is the first I have been out of the house since I have been home&#8212;the doctor tells me to-day I shall soon be around which will be very acceptable&#8212;This is the first sickness I have ever had &amp; I find upon trial such things as faintness, headache &amp; trembling &amp; tossing all night, &amp; all day too, are not proper companions for a good union man like myself&#8212;</p>
-            <p>Lewy, I dont know any news to send you&#8212;the acc'ts here to-night are that the railroad &amp; telegraph between Baltimore &amp; Washington are cut, &amp; also between Philadelphia by the rebel invasion<ptr target="nyp.00190_n2"/>&#8212;</p>
-            <p>My dear boy, you say you would like to see me&#8212;well I would give any thing to see your face again too&#8212;I think of you often&#8212;tell Jo Harris &amp; Bartlett<ptr target="nyp.00190_n3"/> I have not forgotten them&#8212;</p>
-            <p>And now good bye, Lewy, &amp; accept my heartfelt &amp; true love, my dearest comrade&#8212;&amp; I will try to write again before a great while &amp; tell you how I am getting along, &amp; which way I expect to move, &amp;c. And I hope you will do the same to me&#8212;</p>
-            <p>So good bye again, Lew, &amp; God bless you, dear son, now &amp; through life&#8212;</p>
+            <p>I have rec'd your letter of the 6th<ptr target="nyp.00190_n1"/> as it has been sent on to me by Major Hapgood. My dear comrade, I have been very sick, and have been brought on home nearly three weeks ago, after being sick some ten days in Washington—The doctors say my sickness is from having too deeply imbibed poison into my system from the hospitals—I had spells of deathly faintness, &amp; the disease also attacked my head &amp; throat pretty seriously—</p>
+            <p>The doctors forbid me going any more into the hospitals—I did not think much of it, till I got pretty weak, &amp; then they directed me to leave &amp; go north for change of air as soon as I had strength—But I am making too long a story of it—I thought only to write you a line—My dear comrade, I am now over the worst of it &amp; have been getting better the last three days—my brother took me out in a carriage for a short ride yesterday which is the first I have been out of the house since I have been home—the doctor tells me to-day I shall soon be around which will be very acceptable—This is the first sickness I have ever had &amp; I find upon trial such things as faintness, headache &amp; trembling &amp; tossing all night, &amp; all day too, are not proper companions for a good union man like myself—</p>
+            <p>Lewy, I dont know any news to send you—the acc'ts here to-night are that the railroad &amp; telegraph between Baltimore &amp; Washington are cut, &amp; also between Philadelphia by the rebel invasion<ptr target="nyp.00190_n2"/>—</p>
+            <p>My dear boy, you say you would like to see me—well I would give any thing to see your face again too—I think of you often—tell Jo Harris &amp; Bartlett<ptr target="nyp.00190_n3"/> I have not forgotten them—</p>
+            <p>And now good bye, Lewy, &amp; accept my heartfelt &amp; true love, my dearest comrade—&amp; I will try to write again before a great while &amp; tell you how I am getting along, &amp; which way I expect to move, &amp;c. And I hope you will do the same to me—</p>
+            <p>So good bye again, Lew, &amp; God bless you, dear son, now &amp; through life—</p>
             <closer rend="right">
                <signed>Walt Whitman</signed>
             </closer>

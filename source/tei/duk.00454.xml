@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00454">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00454">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00454</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all 
                         rights reserved. Items in the Archive may be shared in accordance 
                         with the Fair Use provisions of U.S. copyright law. Redistribution or 
                         republication on other terms, in any medium, requires express 
@@ -48,7 +45,7 @@
                         owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00454</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Charles L. Heyde</author>
@@ -89,13 +86,13 @@
                         <handShift rend="manuscript"/>
                         <note type="editorial" place="right" resp="#rmb">5 Nov. '90</note>
                     </date>
-                    <name type="place" rend="left">Studio, over Kitchen&#8212;</name>
+                    <name type="place" rend="left">Studio, over Kitchen—</name>
                 </dateline>
             </opener>
             <p>
-                Fair day&#8212;windy however&#8212;lake rough&#8212;blustering. Han<ptr target="n0285"/> below 
-                doing domestic service&#8212;very much better in health&#8212;
-                stronger, nervous somewhat&#8212;yet doing wonders, after her year of sore trial.
+                Fair day—windy however—lake rough—blustering. Han<ptr target="n0285"/> below 
+                doing domestic service—very much better in health—
+                stronger, nervous somewhat—yet doing wonders, after her year of sore trial.
             </p>
             <p>
                 Recieved your imprint, or <choice><sic>wonderfull</sic><reg>wonderful</reg></choice> 
@@ -113,7 +110,7 @@
             <p>
                 I remember Bryant.<ptr target="n6116"/> You once brought him to my studio in Brooklyn. 
                 I can imagine or recall him now,
-                as he sat on the extreme end of my lounge&#8212;High Priest of Nature! Thanatopsis! 
+                as he sat on the extreme end of my lounge—High Priest of Nature! Thanatopsis! 
                 Durand essayd to color the theme from his rather
                 weak (never vain palette.) A failure. The grand old rocks, ancient as the sun! 
                 ["]very new rocks" wrote one critic.
@@ -121,10 +118,10 @@
             </p>
             <p> 
                 And now Walt, I am moved <choice><orig>practicaly</orig><reg>practically</reg></choice>, 
-                for ourselves, life's subsistence&#8212;our 
+                for ourselves, life's subsistence—our 
                 homestead for many years, consecrated in a measure
-                by good mother Whitmans<ptr target="n0705"/> presence, years ago, for a brief so-journ&#8212;and 
-                by Yours&#8212;well known.<ptr target="duk.00454_n2"/> Have on taxes yet 10 dollars, 1 years interest,
+                by good mother Whitmans<ptr target="n0705"/> presence, years ago, for a brief so-journ—and 
+                by Yours—well known.<ptr target="duk.00454_n2"/> Have on taxes yet 10 dollars, 1 years interest,
                 15 dollars.
             </p>
             <closer>
@@ -132,5 +129,4 @@
             </closer>
         </body>
     </text> 
-</TEI> 
-
+</TEI>

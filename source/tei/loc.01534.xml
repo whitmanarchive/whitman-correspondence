@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01534">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01534">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>loc.01534</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +39,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>loc.01534</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -59,9 +57,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">2</biblScope>
-              <biblScope type="page">114&#8211;115</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="page">114–115</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -72,7 +70,7 @@
           <date cert="medium" when="1870-09-30" xml:id="dat1">September 30, 1870</date>
           <idno type="callno">MSS18630<!--  Box 9 --></idno>
           <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
-            1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+            1839–1919, Library of Congress, Washington, D.C.</orgName>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -99,8 +97,7 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="right">Brooklyn</name>, <date when="1870-09-30" rend="right"
-            >Friday afternoon, Sept. 29.<ptr target="loc.01534_n1"/></date>
+          <name type="place" rend="right">Brooklyn</name>, <date when="1870-09-30" rend="right">Friday afternoon, Sept. 29.<ptr target="loc.01534_n1"/></date>
         </dateline>
         <salute>Dear Son,</salute>
       </opener>
@@ -108,14 +105,13 @@
       <p>I am sitting here in my room, having just eat a hearty dinner with my mammy<ptr target="n0705"/>, (who has this
         month entered on her 76th year,<ptr target="loc.01534_n2"/> but to my eyes looks young &amp;
         handsome yet.) It is a dark &amp; cloudy day, &amp; the rain is just now pouring down in
-        torrents. It is a great disappointment to many, as Farragut's funeral celebration<ptr
-          target="loc.01534_n3"/> was to come off to&#8211;day, &amp; all the military, &amp;
+        torrents. It is a great disappointment to many, as Farragut's funeral celebration<ptr target="loc.01534_n3"/> was to come off to–day, &amp; all the military, &amp;
         Departments here, &amp; hundreds of societies, orders, schools &amp;c. had prepared to turn
-        out&#8212;&amp; most of them did turn out, this forenoon, only to get soaked with rain,
-        &amp; covered with mud&#8212;I saw one crack battalion, all so spruce &amp; handsome, with
+        out—&amp; most of them did turn out, this forenoon, only to get soaked with rain,
+        &amp; covered with mud—I saw one crack battalion, all so spruce &amp; handsome, with
         white pants, &amp; silver gray coats, &amp; every thing so bright &amp; trim when they
-        marched down&#8212;&amp; an hour &amp; a half afterwards, they looked like draggled roosters
-        that had been pumped on&#8212;</p>
+        marched down—&amp; an hour &amp; a half afterwards, they looked like draggled roosters
+        that had been pumped on—</p>
 
       <p>We have had weeks and weeks of the very finest weather up to early this morning, &amp; now
         it is the worst kind to be out in. Still we want rain so very much, one <choice>
@@ -123,32 +119,30 @@
           <reg>don't</reg>
         </choice> feel to complain. </p>
 
-      <p>Pete, I rec'd your last letter, the 26th&#8212;it was a good long, lively letter, &amp;
-        welcome&#8212;you write about the Signal Corps<ptr target="n0561"/>&#8212;Allen<ptr
-          target="loc.01534_n4"/> deserves credit for persevering &amp; studying&#8212;&amp; I hope
-        he will do well&#8212;&amp; think he will too&#8212;for he is sober, &amp; tries to get
-        ahead&#8212;any how he is a young man I like&#8212;Thornett<ptr target="loc.01534_n5"/> is a
-        very intelligent manly fellow, cute, plucky, &amp;c&#8212;he has one fault, &amp; a bad
-        one&#8212;that is he will drink, &amp; spree it&#8212;which spoils all&#8212;True it is none
+      <p>Pete, I rec'd your last letter, the 26th—it was a good long, lively letter, &amp;
+        welcome—you write about the Signal Corps<ptr target="n0561"/>—Allen<ptr target="loc.01534_n4"/> deserves credit for persevering &amp; studying—&amp; I hope
+        he will do well—&amp; think he will too—for he is sober, &amp; tries to get
+        ahead—any how he is a young man I like—Thornett<ptr target="loc.01534_n5"/> is a
+        very intelligent manly fellow, cute, plucky, &amp;c—he has one fault, &amp; a bad
+        one—that is he will drink, &amp; spree it—which spoils all—True it is none
         of my business, but I feel that it would be perhaps the making of him, if he would give it
-        up, &amp; find his pleasure in some other way&#8212;Pete, should you see Allen again, give
-        him my love&#8212;&amp; the same for Thornett also&#8212;</p>
+        up, &amp; find his pleasure in some other way—Pete, should you see Allen again, give
+        him my love—&amp; the same for Thornett also—</p>
 
       <p>Did you mean for me to write what I think of your joining the Signal Corps? But are you
-        proficient enough in studies? I heartily advise you to peg away at the arithmetic&#8212;do
-        something at it every day&#8212;arithmetic is the foundation of all such things&#8212;(just
-        as a good stone wall is the foundation for a house)&#8212;become a good arithmetician first
-        of all&#8212;&amp; <hi rend="italic">you surely will, if you keep pegging away a little
-          every day</hi>&#8212;how much leisure you have after all, that might be used for
-        study&#8212;I don't mean all your leisure, but say one hour out of every three&#8212;then
-        keep looking over the geography&#8212;when I come back I will bring a little pocket
-        dictionary&#8212;with 15 minutes writing every day, &amp; correcting by the dictionary I
+        proficient enough in studies? I heartily advise you to peg away at the arithmetic—do
+        something at it every day—arithmetic is the foundation of all such things—(just
+        as a good stone wall is the foundation for a house)—become a good arithmetician first
+        of all—&amp; <hi rend="italic">you surely will, if you keep pegging away a little
+          every day</hi>—how much leisure you have after all, that might be used for
+        study—I don't mean all your leisure, but say one hour out of every three—then
+        keep looking over the geography—when I come back I will bring a little pocket
+        dictionary—with 15 minutes writing every day, &amp; correcting by the dictionary I
         would warrant you becoming a correct speller &amp; real handsome writer in a year or
-        less&#8212;&amp; when one is a fair arithmetician &amp; spells &amp; writes finely, so many
+        less—&amp; when one is a fair arithmetician &amp; spells &amp; writes finely, so many
         things are open to him. </p>
 
-      <p>As things stand at present I expect to be back by or before next Sunday.<ptr
-          target="loc.01534_n6"/>
+      <p>As things stand at present I expect to be back by or before next Sunday.<ptr target="loc.01534_n6"/>
       </p>
 
       <closer>

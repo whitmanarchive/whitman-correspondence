@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08141">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08141">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08141</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,20 +34,20 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08141</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 5 May 1891</title>
                     <date cert="high" when="1891-05-05" xml:id="dat1">May 5, 1891</date> 
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00101</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
@@ -92,7 +89,7 @@
             <p>How is it with you, dear Walt? I fear from what little I hear from you and especially from your silence that you are having a bad time.
                 and I hear too that D<hi rend="underline">r</hi> Longaker<ptr target="loc.08039_n2"/> is sick which is very bad news because he is evidently a good fellow 
                 and because I know you need his care. But I trust he will soon be round again and that you too will before long be easier.</p>
-            <p>Here all goes quietly and well&#8212;I am mending<ptr target="loc.08139_n2"/>&#8212;hope to be quite myself again very shortly. We have a 
+            <p>Here all goes quietly and well—I am mending<ptr target="loc.08139_n2"/>—hope to be quite myself again very shortly. We have a 
                 cold spell of weather it
                 <hi rend="underline">snowed</hi> yesterday morning and this morning
             </p>   
@@ -105,64 +102,4 @@
             <pb xml:id="leaf002v" facs="loc_zs.00390.jpg" type="verso"/>
         </body>
     </text> 
-</TEI> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</TEI>

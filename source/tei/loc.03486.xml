@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03486">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03486">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03486</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03486</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James B. Pond</author>
@@ -55,7 +51,7 @@
                     <date cert="high" when="1887-04-25" xml:id="dat1">April 25, 1887</date>
                     <idno type="callno">MSS18630 Box 14</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,29 +84,19 @@
             <opener>
                 <handShift rend="printed"/>
                 <dateline>
-                    <name type="place">JAMES B. POND,<lb/><milestone unit="undeclared"
-                            rend="horbar-short-center"/><lb/>GENERAL AGENT AND
-                            MANAGER.<lb/><milestone unit="undeclared" rend="horbar-short-center"
-                        /><lb/></name>
+                    <name type="place">JAMES B. POND,<lb/><milestone unit="undeclared" rend="horbar-short-center"/><lb/>GENERAL AGENT AND
+                            MANAGER.<lb/><milestone unit="undeclared" rend="horbar-short-center"/><lb/></name>
                     <name type="place">EVERETT HOUSE, CORNER 4TH A<hi rend="smallcaps">VENUE</hi>
                         and 17TH S<hi rend="smallcaps">TREET</hi>, N<hi rend="smallcaps">EW</hi>
                             Y<hi rend="smallcaps">ORK</hi>.<lb/></name>
-                    <name type="place">C<hi rend="smallcaps">ONCERTS</hi>, L<hi rend="smallcaps"
-                            >ECTURES AND ALL DESCRIPTIONS OF</hi> M<hi rend="smallcaps">USICAL</hi>,
+                    <name type="place">C<hi rend="smallcaps">ONCERTS</hi>, L<hi rend="smallcaps">ECTURES AND ALL DESCRIPTIONS OF</hi> M<hi rend="smallcaps">USICAL</hi>,
                             L<hi rend="smallcaps">YCEUM AND</hi> L<hi rend="smallcaps">ITERARY</hi>
-                            E<hi rend="smallcaps">NTERTAINMENTS</hi>. E<hi rend="smallcaps"
-                            >NGAGEMENTS WITH ALL THE MOST CELEBRATED ARTISTS EFFECTED BY THIS
-                            AGENCY</hi>. All engagements for R<hi rend="smallcaps">EV</hi>. H<hi
-                            rend="smallcaps">ENRY</hi> W<hi rend="smallcaps">ARD</hi> B<hi
-                            rend="smallcaps">EECHER'S</hi>. Lectures made through J. B. Pond; Sole
+                            E<hi rend="smallcaps">NTERTAINMENTS</hi>. E<hi rend="smallcaps">NGAGEMENTS WITH ALL THE MOST CELEBRATED ARTISTS EFFECTED BY THIS
+                            AGENCY</hi>. All engagements for R<hi rend="smallcaps">EV</hi>. H<hi rend="smallcaps">ENRY</hi> W<hi rend="smallcaps">ARD</hi> B<hi rend="smallcaps">EECHER'S</hi>. Lectures made through J. B. Pond; Sole
                         Agent for M<hi rend="smallcaps">ARK</hi> T<hi rend="smallcaps">WAIN</hi>;
-                            M<hi rend="smallcaps">R</hi>. G<hi rend="smallcaps">EO</hi>. W. C<hi
-                            rend="smallcaps">ABLE'S</hi> Readings; C<hi rend="smallcaps">LARA</hi>
+                            M<hi rend="smallcaps">R</hi>. G<hi rend="smallcaps">EO</hi>. W. C<hi rend="smallcaps">ABLE'S</hi> Readings; C<hi rend="smallcaps">LARA</hi>
                             L<hi rend="smallcaps">OUISE</hi> K<hi rend="smallcaps">ELLOGG</hi>
-                        Concert Company; M<hi rend="smallcaps">R</hi>. H<hi rend="smallcaps"
-                            >ENRY</hi> M. S<hi rend="smallcaps">TANLEY</hi> and M<hi
-                            rend="smallcaps">R</hi>. E<hi rend="smallcaps">D</hi>. H<hi
-                            rend="smallcaps">ERON</hi>-A<hi rend="smallcaps">LLEN</hi>.<lb/></name>
+                        Concert Company; M<hi rend="smallcaps">R</hi>. H<hi rend="smallcaps">ENRY</hi> M. S<hi rend="smallcaps">TANLEY</hi> and M<hi rend="smallcaps">R</hi>. E<hi rend="smallcaps">D</hi>. H<hi rend="smallcaps">ERON</hi>-A<hi rend="smallcaps">LLEN</hi>.<lb/></name>
                     <name type="place">SEASON OF 1887-88,<lb/></name>
                     <name type="place">LECTURERS</name>
                     <name type="place">ABBOTT, R<hi rend="smallcaps">EV</hi>. LYMAN<lb/>ALLEN, Mr.
@@ -120,32 +106,23 @@
                         Illustrated.<lb/>BENJAMIN, Hon. W. G. S., "Persia." Illustrated.<lb/>BUNNER,
                         H. C., (Editor of Puck.)<lb/> CABLE, M<hi rend="smallcaps">R</hi>. GEO.
                         W.,<lb/>CLEMENS, SAMUEL L. ("Mark Twain")<lb/>CARLETON, WILL.<lb/>CONE, Col.
-                        T. C. (of Georgia.)<lb/>CONWAY, MONCURE D.<lb/>DOREMUS, D<hi
-                            rend="smallcaps">R</hi>. OGDEN (Scientific)<lb/>DAUGHERTY, H<hi
-                            rend="smallcaps">ON</hi>. DANIEL<lb/>GEORGE, HENRY.<lb/></name>
+                        T. C. (of Georgia.)<lb/>CONWAY, MONCURE D.<lb/>DOREMUS, D<hi rend="smallcaps">R</hi>. OGDEN (Scientific)<lb/>DAUGHERTY, H<hi rend="smallcaps">ON</hi>. DANIEL<lb/>GEORGE, HENRY.<lb/></name>
                     <name type="place">INGERSOLL, EARNEST. "Railroading in the Rockies."<lb/>JOYCE,
                             C<hi rend="smallcaps">OL</hi>. JOHN A. Anvil Sparks.<lb/>MOWBRAY, ARTHUR
                         H. (Illustrated).<lb/>NAST, THOMAS (If he Lectures).<lb/>NEWELL, WM. WELLS.
                         "Pompei and Roman Life," and Michael Angelo.<lb/>O'RELL, MAX<lb/>RICHARDSON,
-                        LEANDER P.<lb/>STANLEY, HENRY M. The African explorer.<lb/> SCHURZ, H<hi
-                            rend="smallcaps">ON</hi>. CARL<lb/>SCHWATKA, L<hi rend="smallcaps"
-                            >IEUT</hi>. FRED'K, U.S.A.<lb/>SERVISS, M<hi rend="smallcaps">R</hi>.
+                        LEANDER P.<lb/>STANLEY, HENRY M. The African explorer.<lb/> SCHURZ, H<hi rend="smallcaps">ON</hi>. CARL<lb/>SCHWATKA, L<hi rend="smallcaps">IEUT</hi>. FRED'K, U.S.A.<lb/>SERVISS, M<hi rend="smallcaps">R</hi>.
                         GARRETT P. (Astronomy.) Illustrated.<lb/>STEWART, JOE H. (of
-                        Texas.)<lb/>TALMAGE, R<hi rend="smallcaps">EV</hi>. T. <hi rend="smallcaps"
-                            >DE</hi>WITT<lb/>VON FINKELSTEIN, MISS L.<lb/>WOOD, D<hi
-                            rend="smallcaps">R</hi>. WALLACE, Italy and the Renaissance
+                        Texas.)<lb/>TALMAGE, R<hi rend="smallcaps">EV</hi>. T. <hi rend="smallcaps">DE</hi>WITT<lb/>VON FINKELSTEIN, MISS L.<lb/>WOOD, D<hi rend="smallcaps">R</hi>. WALLACE, Italy and the Renaissance
                         (new).<lb/></name>
                     <name type="place">RECITALS<lb/></name>
                     <name type="place">BROWN, MISS NELLA F. (Through the Redpath Lyceum Bureau,
                         Boston.)<lb/>BLUME, M<hi rend="smallcaps">ISS</hi> SETTIE<lb/>BRADFORD,
                         WILLIAM<lb/>CALHOUN, MARGARET CUSTER<lb/>FABIAN, EDWARD<lb/>LINCOLN,
-                        FRANK<lb/>TAYLOR, M<hi rend="smallcaps">ISS</hi> NETTIE.<lb/>WATSON, M<hi
-                            rend="smallcaps">RS</hi>. T CHARLES<lb/> WEBB, M<hi rend="smallcaps"
-                            >RS</hi>. HARRIET<lb/>WILDER, MARSHALL P.<lb/></name>
+                        FRANK<lb/>TAYLOR, M<hi rend="smallcaps">ISS</hi> NETTIE.<lb/>WATSON, M<hi rend="smallcaps">RS</hi>. T CHARLES<lb/> WEBB, M<hi rend="smallcaps">RS</hi>. HARRIET<lb/>WILDER, MARSHALL P.<lb/></name>
                     <name type="place">PIANISTS.<lb/></name>
                     <name type="place">CARRENO, THERESE<lb/>GLOSE, M<hi rend="smallcaps">R</hi>.
-                        AOLF<lb/>GILDER, M<hi rend="smallcaps">R</hi>. FRANK<lb/>KING, M<hi
-                            rend="smallcaps">ADAME</hi> JULIA RIVE<lb/>SHERWOOD, WM. H.<lb/></name>
+                        AOLF<lb/>GILDER, M<hi rend="smallcaps">R</hi>. FRANK<lb/>KING, M<hi rend="smallcaps">ADAME</hi> JULIA RIVE<lb/>SHERWOOD, WM. H.<lb/></name>
                     <name type="place">VIOLINISTS<lb/></name>
                     <name type="place">TORBETT, M<hi rend="smallcaps">ISS</hi> OLLIE<lb/>LANZER, MR.
                         CARL<lb/>MUSIN, MONS. OVIEDE<lb/></name>
@@ -175,21 +152,18 @@
                         ability of the Artists or Lecturers to fulfill them. In case of detention by
                         sickness, accident, or any legitimate or unavoidable cause, it is understood
                         that there shall be no claim for damages, though a new date will always be
-                        given during the same season, if possible.<ptr target="loc.03486_n3"
-                        /><lb/></name>
-                    <date when="1887-04-25">Everett House, New York, <handShift rend="typescript"
-                        />Apr. 25th <handShift rend="printed"/>, 1887.</date>
+                        given during the same season, if possible.<ptr target="loc.03486_n3"/><lb/></name>
+                    <date when="1887-04-25">Everett House, New York, <handShift rend="typescript"/>Apr. 25th <handShift rend="printed"/>, 1887.</date>
                 </dateline>
                 <handShift rend="typescript"/>
                 <salute>Walt Whitman, Esq.,</salute>
                 <salute> Camden, N. J.</salute>
-                <salute>Dear Mr. Whitman:&#8212;</salute>
+                <salute>Dear Mr. Whitman:—</salute>
             </opener>
             <p><handShift rend="typescript"/> Your second postal received. Mr. Gilder<ptr target="n0871"/> told me of Mr.
                 Carnaghie's kind subscription.<ptr target="loc.03486_n1"/> I congratulate you on
                 your remarkable success. </p>
-            <p><handShift rend="typescript"/> How would you like to go to Boston about Tuesday, May 10th?<ptr
-                    target="loc.03486_n2"/> That would be a good time. If this meets your approval
+            <p><handShift rend="typescript"/> How would you like to go to Boston about Tuesday, May 10th?<ptr target="loc.03486_n2"/> That would be a good time. If this meets your approval
                 let me know and I will fix the date. </p>
             <p><handShift rend="typescript"/>I have had some very nice letters from Holmes, Norton, Grant, and others, expressing
                 the wish that you will visit the "hub".</p>

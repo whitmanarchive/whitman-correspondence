@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00618">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00618">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00618</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00618</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">261</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">261</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -101,26 +98,22 @@
             </opener>
             <p>Every thing keeps on with even way. A slight head ache, or muddled condition. Y'r
                 "impromptu criticism" letter <hi rend="italic">corrected</hi> has been furnished me
-                by the printer after all, &#38; I will send you 15 copies<ptr target="nyp.00618_n2"
-                />&#8212;The cards in the little envelope are my dear friend Mrs: Harned<ptr
-                    target="n4134"/> &#38; the new baby boy's, <hi rend="italic">Herbert
-                    Spencer</hi> H[arned]<ptr target="nyp.00618_n3"/>&#8212;both are flourishing
-                tip-top. Tom H.<ptr target="loc.03745_n1"/> comes every day&#8212;my brother
-                    George<ptr target="n0700"/> also&#8212;my sister Lou<ptr target="n0368"/> has
-                just visited me this mn'g&#8212;Y'r letter came this mn'g&#8212;The Boston <hi
-                    rend="italic">Trans</hi>[<hi rend="italic">script</hi>] (Kennedy)<ptr
-                    target="n3039"/> has a &#182; (Dec: 29) merely narrating that the big Vol. is
-                printed &#38; out&#8212;I have taken up &#38; find myself curious enough, perhaps
-                interested, to probably go thro' Tolstoi's<ptr target="n6178"/> "Confessions"<ptr target="n6179"/>&#8212;a strange product of
-                our time, from Russia there&#8212;it is natural certainly, but morbific&#8212;a sort
-                of Jack the Ripper treatment applied to himself&#8212;it is autobiographic of
-                course&#8212;pathologic&#8212;</p>
-            <p>It grows cloudy &#38; cooler&#8212;have had my ice cream &#38; milk&#8212;your good
-                letter of Dec: 31 comes<ptr target="nyp.00618_n4"/>&#8212;yes "hurrah for
-                89!"&#8212;letter rec'd from J H Johnston<ptr target="n0336"/>&#8212;his new store
-                Christmas sales reach'd $45000&#8212;I have just scribbled a little 10-line poemet I
-                think I'll sent to Century<ptr target="nyp.00618_n5"/>&#8212;Am sitting here alone
-                by the wood fire&#8212;</p>
+                by the printer after all, &amp; I will send you 15 copies<ptr target="nyp.00618_n2"/>—The cards in the little envelope are my dear friend Mrs: Harned<ptr target="n4134"/> &amp; the new baby boy's, <hi rend="italic">Herbert
+                    Spencer</hi> H[arned]<ptr target="nyp.00618_n3"/>—both are flourishing
+                tip-top. Tom H.<ptr target="loc.03745_n1"/> comes every day—my brother
+                    George<ptr target="n0700"/> also—my sister Lou<ptr target="n0368"/> has
+                just visited me this mn'g—Y'r letter came this mn'g—The Boston <hi rend="italic">Trans</hi>[<hi rend="italic">script</hi>] (Kennedy)<ptr target="n3039"/> has a ¶ (Dec: 29) merely narrating that the big Vol. is
+                printed &amp; out—I have taken up &amp; find myself curious enough, perhaps
+                interested, to probably go thro' Tolstoi's<ptr target="n6178"/> "Confessions"<ptr target="n6179"/>—a strange product of
+                our time, from Russia there—it is natural certainly, but morbific—a sort
+                of Jack the Ripper treatment applied to himself—it is autobiographic of
+                course—pathologic—</p>
+            <p>It grows cloudy &amp; cooler—have had my ice cream &amp; milk—your good
+                letter of Dec: 31 comes<ptr target="nyp.00618_n4"/>—yes "hurrah for
+                89!"—letter rec'd from J H Johnston<ptr target="n0336"/>—his new store
+                Christmas sales reach'd $45000—I have just scribbled a little 10-line poemet I
+                think I'll sent to Century<ptr target="nyp.00618_n5"/>—Am sitting here alone
+                by the wood fire—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

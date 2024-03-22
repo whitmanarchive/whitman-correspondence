@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>   
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00919"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00919"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00919</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,13 +35,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00919</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -54,9 +51,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">210&#8211;211</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">210–211</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct> 
@@ -66,8 +63,8 @@
                     <date cert="high" when="1891-06-09" xml:id="dat1">June 9, 1891</date>
                     <orgName xml:id="med">The location of this manuscript is unknown. Miller derives his transcription 
                         from a transcript of the letter published in Dr. John Johston and James W. Wallace,
-                        <hi rend="italic">Visits to Walt Whitman in 1890&#8211;1891 by Two Lancashire Friends</hi> (London:
-                        George Allen &amp; Unwin Ltd., 1917), 257&#8211;258</orgName>
+                        <hi rend="italic">Visits to Walt Whitman in 1890–1891 by Two Lancashire Friends</hi> (London:
+                        George Allen &amp; Unwin Ltd., 1917), 257–258</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>  
@@ -95,95 +92,13 @@
                     <date when="1891-06-09">June 9, '91. Sunset.</date>
                 </dateline>
             </opener>
-            <p>Just finish'd my supper&#8212;mutton chop, &#38;c. More freedom the last three days f'm excessive lassitude, 
-                &#38;c. This<ptr target="n5002f"/> is f'm Prof. B[rinton]<ptr target="n3134"/> who wanted to read the 
-                Notes<ptr target="loc.02495_n4"/>&#8212;the other f'm H[orace] T[raubel]<ptr target="n4267"/>
-                in Canada<ptr target="n5002f"/> I tho't might interest you. Sit up &#8532;rds of the day&#8212;retain pretty buoyant spirits. 
-                Always thanks &#38; love to you &#38; J. W. W[allace].<ptr target="n6121"/> Letters, magazines, &#38;c. come. 
+            <p>Just finish'd my supper—mutton chop, &amp;c. More freedom the last three days f'm excessive lassitude, 
+                &amp;c. This<ptr target="n5002f"/> is f'm Prof. B[rinton]<ptr target="n3134"/> who wanted to read the 
+                Notes<ptr target="loc.02495_n4"/>—the other f'm H[orace] T[raubel]<ptr target="n4267"/>
+                in Canada<ptr target="n5002f"/> I tho't might interest you. Sit up ⅔rds of the day—retain pretty buoyant spirits. 
+                Always thanks &amp; love to you &amp; J. W. W[allace].<ptr target="n6121"/> Letters, magazines, &amp;c. come. 
                 God bless [you]. Am sitting here as usual.
             </p>
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

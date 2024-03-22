@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04179"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04179"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04179</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04179</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Addington Symonds</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1884-11-28" xml:id="dat1">November 28, 1884</date>
                     <idno type="callno">MSS18630 Box 17</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -91,7 +87,7 @@
                     <name type="place">AM HOF,</name>
                     <name type="place">DAVOS PLATZ,</name>
                     <name type="place">SWITZERLAND.</name>
-                    <name type="place"></name>
+                    <name type="place"/>
                     <name type="date">Nov: 28 1884<ptr target="loc.04179_n7"/></name>
                     <handShift rend="manuscript"/>
                 </dateline>
@@ -100,17 +96,15 @@
             <p> One of your always welcome &amp; ever venerated tokens has
                 reached me here tonight (closely following a predecessor);
                 in the shape of "The Critic" for Nov 8, containing lines by you, which show that
-                the old Master has not lost his own inimitable cunning.<ptr target="loc.04179_n2"
-                /></p>
+                the old Master has not lost his own inimitable cunning.<ptr target="loc.04179_n2"/></p>
             <p> I also hear from a dear friend of mine Edward Clifford<ptr target="loc.04179_n3"/>
                 that he has been seeing you, &amp; (what is very valuable news) that he has made a
                 drawing of you. This I shall get a sight of, doubtless, soon after his return to
-                England&#8212;in photograph at least. </p>
+                England—in photograph at least. </p>
             <p> Now I want to tell you why it is I have never lately sent you tokens in the shape of
                 work by me. It is not from want of love for you, not because I am not always in
-                communion with you:&#8212;<hi rend="underline">that</hi> I am, &amp; so are all my
-                friends; there is a fine young fellow, son of Col Brackenbury,<ptr
-                    target="loc.04179_n4"/> lying dead now in my neighbor's house, whose mother
+                communion with you:—<hi rend="underline">that</hi> I am, &amp; so are all my
+                friends; there is a fine young fellow, son of Col Brackenbury,<ptr target="loc.04179_n4"/> lying dead now in my neighbor's house, whose mother
                 brought <pb xml:id="leaf001v" facs="loc_vm.00326_large.jpg" type="verso"/> me back
                 to day a copy of Leaves of Grass <choice>
                     <abbr>w<hi rend="superscript">h.</hi></abbr>
@@ -124,7 +118,7 @@
                 place, &amp; in the second place so contrary to your canons of literary production that
                 I can hardly imagine you can care for it. </p>
             <p> Now, however, I hurl from 3 several publishers three little books at your devoted
-                (most sacred) head:&#8212;just to show you that the chord of sympathy <choice>
+                (most sacred) head:—just to show you that the chord of sympathy <choice>
                     <abbr>w<hi rend="superscript">h.</hi></abbr>
                     <expan>which</expan>
                 </choice> finds me as disciple in soul to you is still <unclear reason="illegible" cert="medium" resp="#kb">glowing</unclear>; even though the
@@ -150,7 +144,7 @@
                 life. I have wife &amp; children around me, home of my own, nearly all the peasants
                 for familiar <pb xml:id="leaf002v" facs="loc_vm.00328_large.jpg" type="verso"/>
                 friends (especially young fellows, drivers, teamsters, post officials, farmers),
-                &amp; have besides a heap of books &amp; plenty of literary work to do&#8212;this last,
+                &amp; have besides a heap of books &amp; plenty of literary work to do—this last,
                 however, not remunerative. </p>
             <p> I suffer from a chronic disease of the lungs, the result of breaking an artery
                 seven years ago while riding a stubborn horse in England. But I find that much
@@ -162,7 +156,7 @@
             <p> I am sincerely glad to hear that you are still tolerably hearty &amp; around among
                 your friends. Believe me most sincerely yours </p>
             <closer>
-                <signed>John Addington Symonds&#8212;</signed>
+                <signed>John Addington Symonds—</signed>
             </closer>
             <postscript>
                 <p> I always feel Calamus more deeply than any part of your work; &amp; the reason

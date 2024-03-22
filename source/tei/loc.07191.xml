@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07191">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07191">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="rf">Ryan Furlong</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07191</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07191</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">95</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">95</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,7 +65,7 @@
                     <date cert="high" when="1887-05-29" xml:id="dat1">May 29, 1887</date>
                     <idno type="callno">MSS18630, Box 11, Reel 7</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -93,16 +90,16 @@
         <body>
             <opener>   
                 <dateline rend="right">
-                    <name type="place" rend="right">U S America&#8212;Camden New Jersey</name>
-                    <date when="1887-05-29">May 29 '87&#8212;<name type="place"> 328 Mickle
+                    <name type="place" rend="right">U S America—Camden New Jersey</name>
+                    <date when="1887-05-29">May 29 '87—<name type="place"> 328 Mickle
                                 Street<ptr target="loc.07191_n1"/></name></date>
                 </dateline>
             </opener>
             <p>Your good affectionate letter, with the welcome carte pictures &amp; the handsome
-                birthday present, safely rec'd this morning<ptr target="loc.07191_n2"/>&#8212;&amp; thank you for all most
-                sincerely&#8212;I am living here comfortably enough, but a paralytic bodily&#8212;As
+                birthday present, safely rec'd this morning<ptr target="loc.07191_n2"/>—&amp; thank you for all most
+                sincerely—I am living here comfortably enough, but a paralytic bodily—As
                 I write I sit by the open window of my room, the birds singing &amp; summer
-                bursting&#8212;Again thanks&#8212;</p>
+                bursting—Again thanks—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

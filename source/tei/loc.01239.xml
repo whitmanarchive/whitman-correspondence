@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01239">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01239">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01239</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01239</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Edward Carpenter</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1885-10-23" xml:id="dat1">October 23, 1885</date>
                     <idno type="callno">Box 8, Reel 5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,48 +96,45 @@
                 </dateline>
                 <salute>Dear Walt,</salute>
             </opener>
-            <p> I had yours of 3 Aug<ptr target="loc.01239_n1"/>&#8212;acknowledging receipt of
+            <p> I had yours of 3 Aug<ptr target="loc.01239_n1"/>—acknowledging receipt of
                 draft. Sorry to hear you were troubled with sunstroke. I hope you are going on
-                pretty well again now. We were very pleased that the money came in handy&#8212;I
+                pretty well again now. We were very pleased that the money came in handy—I
                 haven't been in London lately or seen Mrs. Gilchrist<ptr target="n0259"/> or <choice>
                     <abbr>yr.</abbr>
                     <expan>your</expan>
                 </choice> friend Mary (?) <choice><sic>Whittall</sic><corr>Whitall</corr></choice><ptr target="loc.02189_n1"/> whom you mention. I
                 rather expect to be that way in about a month or so. Am laid up just now with a kick
-                from my horse&#8212;luckily nothing very bad&#8212;he struck me (accidentally in <pb
-                    xml:id="leaf001v" facs="loc.01239.002_large.jpg" type="verso"/> a way&#8212;the
+                from my horse—luckily nothing very bad—he struck me (accidentally in <pb xml:id="leaf001v" facs="loc.01239.002_large.jpg" type="verso"/> a way—the
                 kick being probably meant for another horse that was teasing him) just above the
-                knee on the front of the thigh&#8212;so no bones broken, but it is a big bruise and
+                knee on the front of the thigh—so no bones broken, but it is a big bruise and
                 it will be a week or two before I can get about. It is wonderful though how nature
                 sets to work directly to put things right, and it has been peaceable &amp; free from
                 pain. </p>
-            <p> I have plenty to do looking over proofs&#8212;I am bringing out a 2<hi
-                    rend="superscript">nd</hi> edition, enlarged, of Towards Democracy&#8212;also a
+            <p> I have plenty to do looking over proofs—I am bringing out a 2<hi rend="superscript">nd</hi> edition, enlarged, of Towards Democracy—also a
                 criticism of Modern Science <choice>
                     <abbr>wh.</abbr>
                     <expan>which</expan>
-                </choice> I am interested in &amp; hope it will provoke some discussion&#8212;it is
-                a direct attack on the validity of scientific <pb xml:id="leaf002r"
-                    facs="loc.01239.003_large.jpg" type="recto"/> 'laws' &amp; methods
-                generally&#8212;not that I don't think Science has been very useful, but that it is
+                </choice> I am interested in &amp; hope it will provoke some discussion—it is
+                a direct attack on the validity of scientific <pb xml:id="leaf002r" facs="loc.01239.003_large.jpg" type="recto"/> 'laws' &amp; methods
+                generally—not that I don't think Science has been very useful, but that it is
                 time that it should 'climb down' a bit. </p>
             <p> Do you see anything of <choice><abbr>yr</abbr><expan>your</expan></choice> young friend McKinsey<ptr target="n3106"/> or has he left Philadelphia? I send you
                 a photo I had taken a little time ago with a young fellow who is an old friend of
-                mine&#8212;in Sheffield&#8212;it is not very good of me, though very fair of <choice>
+                mine—in Sheffield—it is not very good of me, though very fair of <choice>
                     <abbr>'tother</abbr>
                     <expan>the other</expan>
                 </choice> one. </p>
-            <p> The farm gets on&#8212;slowly&#8212;but still it moves, and I rather expect in a few
+            <p> The farm gets on—slowly—but still it moves, and I rather expect in a few
                 months to put it on a distinct cooperative footing. </p>
             <pb xml:id="leaf002v" facs="loc.01239.004_large.jpg" type="verso"/>
-            <p> Prices are awfully low&#8212;owing apparently to the general depression and the fact
-                that the <hi rend="underline">mass of the people</hi> are without money&#8212;also
+            <p> Prices are awfully low—owing apparently to the general depression and the fact
+                that the <hi rend="underline">mass of the people</hi> are without money—also
                 perhaps, partly to a growing scarcity of gold. </p>
             <p> Isabella Ford<ptr target="loc.01238_n2"/> has had an accident since we wrote, but I do not know exact particulars.
-                She was driving with her Mother &amp; the ponies ran away&#8212; Isabella climbed out,
+                She was driving with her Mother &amp; the ponies ran away— Isabella climbed out,
                 probably thinking she <choice><abbr>cd</abbr><expan>could</expan></choice> render some assistance, &amp; fell, hurting her
                 shoulder. However, she was much better when I last heard. </p>
-            <p> Hope you keep going pretty well&#8212;I often think of you &amp; wish we could have
+            <p> Hope you keep going pretty well—I often think of you &amp; wish we could have
                 a chat. </p>
             <closer>
                 <salute>With love</salute>

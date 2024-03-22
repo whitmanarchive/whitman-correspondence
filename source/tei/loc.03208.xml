@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03208">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03208">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03208</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03208</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -54,7 +51,7 @@
                     <date cert="high" when="1890-02-09" xml:id="dat1">February 9, 1890</date>
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>  
@@ -86,15 +83,15 @@
                 <salute>Dear Sir</salute>
             </opener>
             <p>I sent you a little cluster of poemets "<hi rend="underline">Old Age's Echoes</hi>"
-                ab't 1st of Nov: last&#8212;wh' I suppose you have rec'd&#8212;No word rec'd me ab't
-                them&#8212;If you can't use them please kindly return the slip copy (it was printed
+                ab't 1st of Nov: last—wh' I suppose you have rec'd—No word rec'd me ab't
+                them—If you can't use them please kindly return the slip copy (it was printed
                 on a slip) to me here,<ptr target="loc.03208_n1"/></p>
             <closer>
-                <salute>respectfully &#38;c:</salute>
+                <salute>respectfully &amp;c:</salute>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf001v" facs="loc.03208.002.jpg" type="verso"/>
-            <note type="authorial" place="top"><hi rend="underline">Walt Whitman&#8212;9
+            <note type="authorial" place="top"><hi rend="underline">Walt Whitman—9
                     Feb 1890</hi> | as to his verses on | '<hi rend="underline">Old Age
                 Echoes</hi>'?</note>
         </body>

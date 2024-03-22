@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08483">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Pliny B. Smith to Walt Whitman, 16 August 1884</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Pliny B. Smith</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.08483</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Pliny B. Smith</author>
+                    <title>Pliny B. Smith to Walt Whitman, 16 August 1884</title>
+                    <date cert="high" when="1884-08-16" xml:id="dat1">August 16, 1884</date>
+                    <idno type="callno">MSS45443, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0115</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.05824"/>
+                    <relatedItem type="document" target="wwa.00726"/>
+                    <note type="project" target="#rel01">A line has been drawn through this letter. Whitman drafted his August 24, 1884, letter to Thomas W. H. Rolleston on the back of this 
+                    letter from Smith.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Smith, Pliny B." ref="loc.08483_n1">Pliny B. Smith</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>  
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-23" who="#smb">updated notes</change>
+            <change when="2022-03-09" who="#aja">2nd check, corrected</change>
+            <change when="2022-03-01" who="#aja">checked, corrected</change>
+            <change when="2022-02-27" who="#me">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_tb.00632.jpg" type="recto"/>
+            <opener> 
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>Patent Law.</name>
+                    <note type="editorial" resp="#ww" place="top-left">vols sent Aug 19</note>
+                    <name type="place"><handShift rend="printed"/>CHICAGO,</name>
+                    <date when="1884-08-16"><handShift rend="manuscript"/>Aug. 16, <handShift rend="printed"/>188<handShift rend="manuscript"/>4</date>
+                </dateline>
+                <salute>Mr. Walt Whitman</salute>
+                <salute>Dear Sir,</salute>
+            </opener>
+            <p>Inclosed please find $5[.]<hi rend="superscript"><hi rend="underline">00</hi></hi> for which please
+                send me latest edition of your poems with autograph ($3[.]<hi rend="superscript"><hi rend="underline">00</hi></hi>
+                &amp; 'specimen days &amp; collect ($2[.]<hi rend="superscript"><hi rend="underline">00</hi></hi>)</p>
+            <closer>
+                <salute>Very truly yours,</salute>
+                <signed>Pliny B. Smith</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_tb.00634.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

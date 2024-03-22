@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03099">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03099">
     <teiHeader> 
         <fileDesc>
             <titleStmt> 
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03099</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,13 +34,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03099</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Luther Munday</author>
@@ -51,7 +48,7 @@
                     <date cert="high" when="1891-12-14" xml:id="dat1">December 14, 1891</date> 
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00272</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
@@ -84,7 +81,7 @@
             <opener>
                 <dateline>
                     <name type="place"><handShift rend="printed"/>TELEGRAPHIC ADDRESS,</name>
-                    <name type="place"><handShift rend="printed"/>&#8453; LYRISTES, LONDON.</name>
+                    <name type="place"><handShift rend="printed"/>℅ LYRISTES, LONDON.</name>
                     <name type="place"><handShift rend="printed"/>LYRIC CLUB,</name>
                     <name type="place"><handShift rend="printed"/>PICCADILLY EAST,</name>
                     <name type="place"><handShift rend="printed"/>W.<ptr target="loc.03099_n1"/></name>
@@ -98,24 +95,24 @@
                 and this <gap reason="illegible" quantity="4" unit="chars"/> will live on to regret its want of courage</p>
             <p>
                 Will you write on the enclosed sheet of paper 
-                a few words that I shall treasure&#8212;my cousin Hamilton A&#239;d&#233;<ptr target="loc.03099_n3"/> 
+                a few words that I shall treasure—my cousin Hamilton Aïdé<ptr target="loc.03099_n3"/> 
                 <pb xml:id="leaf001v" facs="loc.03099.002_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc.03099.004_large.jpg" type="recto"/>
-                talked to me of you&#8212;&#38; I have for years worshipped in distance reverence, that
+                talked to me of you—&amp; I have for years worshipped in distance reverence, that
                 I cannot doubt that you will do me this little act on your part, bringing 
-                such pride &#38; pleasure to me
+                such pride &amp; pleasure to me
             </p>
             <closer>
                 <salute>Your devoted admirer</salute> 
                 <signed>Luther Munday</signed>
                 <signed>Secretary of the Lyric Club</signed>
-                <signed>which is the London centre of social &#38; artistic gatherings</signed>
+                <signed>which is the London centre of social &amp; artistic gatherings</signed>
                 <pb xml:id="leaf002v" facs="loc.03099.003_large.jpg" type="verso"/>
                 <pb xml:id="leaf003r" facs="loc.03099.005_large.jpg" type="recto"/>
                 <pb xml:id="leaf003va" facs="loc_jm.00011.jpg" type="verso"/>
                 <pb xml:id="leaf003vb" facs="loc.03099.006_large.jpg" type="verso"/>
                 <note type="editorial" place="top" resp="#ww"><unclear reason="illegible" resp="#adk" cert="medium">Give</unclear> out the Ingersol 
-                    telegram tonight. to <unclear reason="illegible" resp="#cn" cert="low">Jeffrey's</unclear> &#38; Patterson</note>
+                    telegram tonight. to <unclear reason="illegible" resp="#cn" cert="low">Jeffrey's</unclear> &amp; Patterson</note>
             </closer>
         </body>
     </text>

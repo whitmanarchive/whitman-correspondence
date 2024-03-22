@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07826">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07826">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 18&#8211;19 July 1890</title>
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 18–19 July 1890</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07826</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,18 +44,18 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07826</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Richard Maurice Bucke, 18&#8211;19 July 1890</title>
-                    <date cert="high" notBefore="1890-07-18" notAfter="1890-07-19" xml:id="dat1">July 18&#8211;19, 1890</date>
-                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3&#8211;4;
-                    Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <title>Walt Whitman to Richard Maurice Bucke, 18–19 July 1890</title>
+                    <date cert="high" notBefore="1890-07-18" notAfter="1890-07-19" xml:id="dat1">July 18–19, 1890</date>
+                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3–4;
+                    Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.08188"/>
                     <relatedItem type="document" target="wwa.00618"/>
                     <note type="project" target="#rel01">Whitman opened an envelope postmarked July 6, 1890, in which he received a letter from an 
@@ -93,38 +90,35 @@
                     <date when="1890-07-18">noon July 18 '90</date>     
                 </dateline>
             </opener> 
-            <p>Pleasant and sufficiently cool &#38; breezy to&#8211;day, (after some exhaustingly hot
-                weather lately, but I am here ab't the same after it all)&#8212;Dr John 
-                Johnston<ptr target="n4102"/> f'm Bolton England, has been here three or four days, &#38; I
-                have seen quite a good deal of him &#38; like him well&#8212;I believe he intents to
-                go to Ontario &#38; call upon you&#8212;I am sure you will be interested in
-                him&#8212;he is a great reader &#38;c of L of G&#8212;he yesterday went to Brooklyn,
-                to visit Andrew<ptr target="loc.04931_n2"/> and Tom Rome<ptr target="loc.07826_n2"/> &#38; intends going down to
-                Huntington L I to visit Herbert Gilchrist<ptr target="n0262"/>&#8212;Sh'd suppose he
-                might come y'r way ab't a week or thereab't fr'm now&#8212;</p>
+            <p>Pleasant and sufficiently cool &amp; breezy to–day, (after some exhaustingly hot
+                weather lately, but I am here ab't the same after it all)—Dr John 
+                Johnston<ptr target="n4102"/> f'm Bolton England, has been here three or four days, &amp; I
+                have seen quite a good deal of him &amp; like him well—I believe he intents to
+                go to Ontario &amp; call upon you—I am sure you will be interested in
+                him—he is a great reader &amp;c of L of G—he yesterday went to Brooklyn,
+                to visit Andrew<ptr target="loc.04931_n2"/> and Tom Rome<ptr target="loc.07826_n2"/> &amp; intends going down to
+                Huntington L I to visit Herbert Gilchrist<ptr target="n0262"/>—Sh'd suppose he
+                might come y'r way ab't a week or thereab't fr'm now—</p>
             <p>J A Symonds<ptr target="n0615"/> has sent me his (formidable) finely printed 
-                "<hi rend="underline">Essays Speculative &#38; Suggestive</hi>," <hi rend="underline">two
-                    Vols. duodecimo</hi>, <hi rend="underline">Chapman &#38; Hall</hi>, 
-                <hi rend="underline">London</hi>&#8212;one essay being devoted to me, 
+                "<hi rend="underline">Essays Speculative &amp; Suggestive</hi>," <hi rend="underline">two
+                    Vols. duodecimo</hi>, <hi rend="underline">Chapman &amp; Hall</hi>, 
+                <hi rend="underline">London</hi>—one essay being devoted to me, 
                 "<hi rend="underline">Democratic Art</hi>, <hi rend="underline">with special reference to
-                    Walt Whitman</hi>"&#8212;Have run it over &#38; a few other pages&#8212;I guess
+                    Walt Whitman</hi>"—Have run it over &amp; a few other pages—I guess
                 there is meat in the vols. but I doubt whether he has gripp'd "democratic art" by
-                the nuts, or L of G. either<ptr target="loc.07826_n3"/>&#8212;then the pretty
+                the nuts, or L of G. either<ptr target="loc.07826_n3"/>—then the pretty
                 magazine here "<hi rend="underline">Poet Lore</hi>" for July 15, (Lippincott, Phila:)
-                has an article "<hi rend="underline">Walt Whitman's View of Shakspere</hi>," signed <hi
-                    rend="underline">Jonathan Trumbull</hi>, very friendly respectful &#38;
-                complimentary to me&#8212;but dont get to marrows hardly at all<ptr
-                    target="loc.07826_n4"/>&#8212;</p> 
-            <p><hi rend="underline">Saturday P M</hi>&#8212;Fine day&#8212;sunny&#8212;cool
-                enough&#8212;Am feeling fairly&#8212;this enclosed slip is cut f'm Horace's<ptr
-                    target="n4267"/> little paper<ptr target="loc.05893_n1"/>&#8212;y'r letters
-                rec'd&#8212;am sitting here the same in cane chair in my Mickle Street den&#8212;the
-                big whistle has sounded 1 o'clock&#8212;my good nurse Warry<ptr target="loc.07319_n6"/> 
+                has an article "<hi rend="underline">Walt Whitman's View of Shakspere</hi>," signed <hi rend="underline">Jonathan Trumbull</hi>, very friendly respectful &amp;
+                complimentary to me—but dont get to marrows hardly at all<ptr target="loc.07826_n4"/>—</p> 
+            <p><hi rend="underline">Saturday P M</hi>—Fine day—sunny—cool
+                enough—Am feeling fairly—this enclosed slip is cut f'm Horace's<ptr target="n4267"/> little paper<ptr target="loc.05893_n1"/>—y'r letters
+                rec'd—am sitting here the same in cane chair in my Mickle Street den—the
+                big whistle has sounded 1 o'clock—my good nurse Warry<ptr target="loc.07319_n6"/> 
                 has just bro't me some nice ice cream, wh' I have duly
-                eaten&#8212;A NY man has offered me &#36;100 for a novel (shortish story, 5000
-                words)&#8212;shall probably not try<ptr target="loc.07826_n5"/>&#8212;</p>
+                eaten—A NY man has offered me $100 for a novel (shortish story, 5000
+                words)—shall probably not try<ptr target="loc.07826_n5"/>—</p>
             <closer>
-                <salute>Love to Mrs: B<ptr target="n4273"/> and the childer&#8212;</salute>
+                <salute>Love to Mrs: B<ptr target="n4273"/> and the childer—</salute>
                 <signed>Walt Whitman</signed> 
             </closer>  
             <pb xml:id="leaf001v" facs="loc_zs.00349.jpg" type="verso"/>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00517">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00517">
     <teiHeader>
         <fileDesc>
             <titleStmt>  
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00517</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00517</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,7 +54,7 @@
                             <pubPlace>Detroit</pubPlace>
                             <publisher>Wayne State University Press</publisher>
                             <date when="1977">1977</date>
-                            <biblScope type="page">29</biblScope>
+                            <biblScope unit="page">29</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -100,19 +96,18 @@
                 </dateline>
                 <salute>Dear Walt</salute>
             </opener>
-            <p>I have your card of 25 May<ptr target="uva.00517_n1"/>&#8212;Last week Carpenter<ptr target="n0141b"/> came
+            <p>I have your card of 25 May<ptr target="uva.00517_n1"/>—Last week Carpenter<ptr target="n0141b"/> came
                 to town and I spent a day with him at Alfred Withers' (do you recollect him at
-                London) in Hyde Park &#38;c. We had a good talk and dinner together down
-                town&#8212;Then last Sunday I spent most of the day and dined at Herbert Gilchrists<ptr target="n0262"/>
+                London) in Hyde Park &amp;c. We had a good talk and dinner together down
+                town—Then last Sunday I spent most of the day and dined at Herbert Gilchrists<ptr target="n0262"/>
                 and Carpenter was there. I am now making a few short visits in the country, shall
-                return to London 21 and sail 30th&#8212;expect to see you about 15, 16 or 17 July
+                return to London 21 and sail 30th—expect to see you about 15, 16 or 17 July
                 and want you to be ready to go to Canada with me so as to avoid the heat of August
-                and September in Camden&#8212;you may go home again as soon as you like after 1 oct.
-                but I must insist on your going with me for the two hot months&#8212;Now please do
+                and September in Camden—you may go home again as soon as you like after 1 oct.
+                but I must insist on your going with me for the two hot months—Now please do
                 not think of refusing to go but make all necessary arrangements and we will move
-                Northward as soon as convenient after I get across the water&#8212;My health has
-                improved quite a good deal and I trust it will keep on the same tack<ptr
-                    target="uva.00517_n2"/></p>
+                Northward as soon as convenient after I get across the water—My health has
+                improved quite a good deal and I trust it will keep on the same tack<ptr target="uva.00517_n2"/></p>
             <closer>
                 <salute>I am dear Walt</salute>
                 <salute>Affectionately Yours</salute>

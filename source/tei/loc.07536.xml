@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07536">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07536">
     <teiHeader>  
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt> 
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07536</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07536</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">256</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">256</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,9 +65,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 27 December 1888</title>
                     <date cert="high" when="1888-12-27" xml:id="dat1">December 27, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -102,27 +99,24 @@
                     <date when="1888-12-27">Dec: 27 '88</date>
                 </dateline>
             </opener>
-            <p>A change in the weather&#8212;cloudy &#38; disposed to rain&#8212;very moderate
-                temperature&#8212;I continue to feel fairly &#38; what may be call'd
-                improving&#8212;bowel movement this forenoon&#8212;I read letter from my young
-                valued journalistic (German-educated &#38; theosophistic) friend in Boston,
-                Sylvester Baxter,<ptr target="n6000"/> wh' I include<ptr target="loc.07536_n2"
-                />&#8212;also copy <hi rend="italic">printed</hi> of your letter on big book<ptr
-                    target="loc.07536_n3"/>&#8212;(I can send several copies if you want)&#8212;have
-                rec'd yours of 24th, &#38; note carefully what you say of food, alcohol, &#38;c, and
-                of the effete wretchedness<ptr target="loc.07536_n8"/>&#8212;all thoroughly judged &#38; true, &#38; shall
-                charge myself practically with it&#8212;certainly so&#8212;&#38; glad to get it
-                all&#8212;</p>
+            <p>A change in the weather—cloudy &amp; disposed to rain—very moderate
+                temperature—I continue to feel fairly &amp; what may be call'd
+                improving—bowel movement this forenoon—I read letter from my young
+                valued journalistic (German-educated &amp; theosophistic) friend in Boston,
+                Sylvester Baxter,<ptr target="n6000"/> wh' I include<ptr target="loc.07536_n2"/>—also copy <hi rend="italic">printed</hi> of your letter on big book<ptr target="loc.07536_n3"/>—(I can send several copies if you want)—have
+                rec'd yours of 24th, &amp; note carefully what you say of food, alcohol, &amp;c, and
+                of the effete wretchedness<ptr target="loc.07536_n8"/>—all thoroughly judged &amp; true, &amp; shall
+                charge myself practically with it—certainly so—&amp; glad to get it
+                all—</p>
             <p>As I write, the <hi rend="italic">Post</hi> paper comes, with an item ab't my health
-                &#38;c, authentic<ptr target="loc.07536_n4"/>&#8212;&#38; I enclose two more printed
-                copies of the letter &#38; send&#8212;I have rec'd from F B Sanborn<ptr
-                    target="n0915"/> &#38; Kennedy,<ptr target="n3039"/><ptr target="loc.07536_n5"/>
-                acknowledging the big books. Rec'd y'rs of evn'g Dec. 25th<ptr target="loc.07536_n7"/>&#8212;</p>
-            <p><hi rend="italic">3 P M</hi>&#8212;Passing an easier day upon the whole&#8212;have
-                just eaten chocolate ice cream&#8212;read y'rs of 24th a second time&#8212;I guess I am getting along pretty well,
-                considering everything&#8212;to have <hi rend="italic">the books</hi> off my mind is
-                a great relief&#8212;If I can now be freed of this gastric, head &#38; feeble
-                trouble&#8212;</p>
+                &amp;c, authentic<ptr target="loc.07536_n4"/>—&amp; I enclose two more printed
+                copies of the letter &amp; send—I have rec'd from F B Sanborn<ptr target="n0915"/> &amp; Kennedy,<ptr target="n3039"/><ptr target="loc.07536_n5"/>
+                acknowledging the big books. Rec'd y'rs of evn'g Dec. 25th<ptr target="loc.07536_n7"/>—</p>
+            <p><hi rend="italic">3 P M</hi>—Passing an easier day upon the whole—have
+                just eaten chocolate ice cream—read y'rs of 24th a second time—I guess I am getting along pretty well,
+                considering everything—to have <hi rend="italic">the books</hi> off my mind is
+                a great relief—If I can now be freed of this gastric, head &amp; feeble
+                trouble—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

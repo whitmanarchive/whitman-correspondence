@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04369">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04369">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04369</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04369</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -55,7 +51,7 @@
                     <title>C.B. Whitman to Walt Whitman, 31 January 1878</title>
                     <date cert="high" when="1878-01-31" xml:id="dat1">January 31, 1878</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -101,61 +97,58 @@
             <p>Will you be so kind as to give me a history of your line as far back as you can trace
                 them definitely.</p>
 
-            <p>Please state names and when and where your great-grandfather &#38; <choice>
+            <p>Please state names and when and where your great-grandfather &amp; <choice>
                 <orig>gr.</orig>
                 <reg>great</reg>
             </choice> <choice>
                 <orig>gd.mother</orig>
                 <reg>grandmother</reg>
             </choice> were
-                born married and died; when &#38; where your grandfather and grandmother were born
+                born married and died; when &amp; where your grandfather and grandmother were born
                 <choice>
                     <orig>m.</orig>
                     <reg>married</reg>
-                </choice> &#38; <choice>
+                </choice> &amp; <choice>
                     <orig>d.;</orig>
-                    <reg>died;</reg></choice> when &#38; where their children, (your uncles and aunts) were <choice>
+                    <reg>died;</reg></choice> when &amp; where their children, (your uncles and aunts) were <choice>
                     <orig>b.</orig>
                     <reg>born</reg>
                 </choice> <choice>
                     <orig>m.</orig>
                     <reg>married</reg>
-                </choice> &#38;
+                </choice> &amp;
                 <choice>
                     <orig>d.</orig>
                     <reg>died</reg>
-                </choice> &#38; when &#38; where your father and mother were <choice>
+                </choice> &amp; when &amp; where your father and mother were <choice>
                     <orig>b.</orig>
                     <reg>born</reg>
                 </choice> <choice>
                     <orig>m.</orig>
                     <reg>married</reg>
-                </choice> &#38;
+                </choice> &amp;
                 <choice>
                     <orig>d.</orig>
                     <reg>died</reg>
-                </choice> and when &#38;
+                </choice> and when &amp;
                 where their children were <choice>
                     <orig>b.</orig>
                     <reg>born</reg>
-                </choice> &#38; <choice>
+                </choice> &amp; <choice>
                     <orig>m.</orig>
                     <reg>married</reg>
                 </choice> or died or where now living giving in each
-                case the maiden name of the wives and the names of <pb xml:id="leaf001v"
-                    facs="loc_vm.00837_large.jpg" type="verso"/>their parents as far as
+                case the maiden name of the wives and the names of <pb xml:id="leaf001v" facs="loc_vm.00837_large.jpg" type="verso"/>their parents as far as
                 possible.</p>
 
-            <p>Please give <hi rend="underline">all</hi> <hi rend="underline">names</hi> and <hi
-                    rend="underline">all</hi> <hi rend="underline">dates</hi> in full as far as
+            <p>Please give <hi rend="underline">all</hi> <hi rend="underline">names</hi> and <hi rend="underline">all</hi> <hi rend="underline">dates</hi> in full as far as
                 possible.</p>
 
             <p>Please give occupation, profession, the offices any have held in Church or State,
                 their character and any incidents in the lives of the different members of the
                 family, and any other interesting particulars you may know.</p>
 
-            <p>Also as far as you can give the address of each head of a family of all the <hi
-                    rend="underline">descendants</hi> of your grandfather or
+            <p>Also as far as you can give the address of each head of a family of all the <hi rend="underline">descendants</hi> of your grandfather or
                     <orig>greatgrandfather</orig><reg>great grandfather</reg>, who will be the best,
                 to give further information.</p>
 
@@ -165,7 +158,7 @@
                 connection, with dates of birth, <choice>
                     <orig>mar.</orig>
                     <reg>marriages</reg>
-                </choice> &#38; deaths.</p>
+                </choice> &amp; deaths.</p>
 
             <pb xml:id="leaf002r" facs="loc_vm.00836_large.jpg" type="recto"/>
             <p>Time is short and every one; who have not grown indifferent as to their earthly

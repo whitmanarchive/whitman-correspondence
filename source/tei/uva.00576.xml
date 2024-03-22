@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00576">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00576">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">[Houghton,] Mifflin &#38; Co., Publishers to Walt Whitman, [11] January
+                <title level="m" type="main">[Houghton,] Mifflin &amp; Co., Publishers to Walt Whitman, [11] January
                     1888</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>Unknown (Mifflin &#38; Co.)</author>
+                <author>Unknown (Mifflin &amp; Co.)</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00576</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,11 +44,11 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00576</idno></publicationStmt>
             <sourceDesc>
                 <bibl> 
-                    <author>[Houghton,] Mifflin &#38; Co., Publishers</author>
-                    <title>[Houghton,] Mifflin &#38; Co., Publishers to Walt Whitman, [11] January 1888</title>
+                    <author>[Houghton,] Mifflin &amp; Co., Publishers</author>
+                    <title>[Houghton,] Mifflin &amp; Co., Publishers to Walt Whitman, [11] January 1888</title>
                     <date cert="high" when="1888-01-11" xml:id="dat1">January [11], 1888</date>
                     <orgName xml:id="uva">Papers of Walt Whitman (MSS 3829), Clifton Waller Barrett
                         Library of American Literature, Albert H. Small Special Collections Library,
@@ -66,7 +63,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="[Houghton,] Mifflin &#38; Co., Publishers" ref="uva.00576_n1">[Houghton,] Mifflin &#38;
+                    <persName key="[Houghton,] Mifflin &amp; Co., Publishers" ref="uva.00576_n1">[Houghton,] Mifflin &amp;
                         Co., Publishers</persName>
                 </person>
                 <person role="recipient">
@@ -86,7 +83,7 @@
             <pb xml:id="leaf001r" facs="uva.00160.002.jpg" type="recto"/> 
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/><gap reason="cut away" extent="1 word" quantity="9" unit="chars"/> MIFFLIN &#38; CO., <hi rend="italic">Publishers</hi>.</name>
+                    <name type="place"><handShift rend="printed"/><gap reason="cut away" extent="1 word" quantity="9" unit="chars"/> MIFFLIN &amp; CO., <hi rend="italic">Publishers</hi>.</name>
                     <name type="place">New York Office.</name>
                     <name type="place">11 E. 17th St.</name>
                     <name type="place"><hi rend="italic">Boston</hi>,</name>
@@ -96,7 +93,7 @@
             </opener>  
             <p><gap reason="cut away" extent="3 or 4 words" quantity="15" unit="chars"/>ing a little book <gap reason="cut away" extent="3 or 4 words" quantity="15" unit="chars"/> <gap reason="cut away" quantity="1" unit="chars"/>nd book for schools
                 <gap reason="cut away"/> Lincoln and celebrating <gap reason="cut away"/> <gap reason="cut away"/>ill
-                contain the <gap reason="cut away"  extent="3 or 4 words" quantity="15" unit="chars"/> <gap reason="cut away" extent="1 word" quantity="5" unit="chars"/> Russell Lowell<ptr target="n3105"/><gap reason="cut away" extent="3 to 4" quantity="15" unit="chars" /> election
+                contain the <gap reason="cut away" extent="3 or 4 words" quantity="15" unit="chars"/> <gap reason="cut away" extent="1 word" quantity="5" unit="chars"/> Russell Lowell<ptr target="n3105"/><gap reason="cut away" extent="3 to 4" quantity="15" unit="chars"/> election
                 from <gap reason="cut away" extent="3 or 4 words" quantity="20" unit="chars"/>, state papers and 
                 lett<gap reason="cut away" quantity="3" unit="chars"/> to inclu<gap reason="cut away" atLeast="2" atMost="4" unit="chars"/>
                 <hi rend="underline">My Cap<gap reason="cut away" quantity="4" unit="chars"/></hi> <gap reason="cut away" extent="3 or 4 words" quantity="20" unit="chars"/> permit</p> 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02309">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John Hay to Walt Whitman, 22 March [1892]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Hay</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="tb">Tara Ballard</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02309</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John Hay</author>
+                    <title>John Hay to Walt Whitman, 22 March [1892]</title>
+                    <date cert="high" when="1892-03-22" xml:id="dat1">March 22, [1892]</date>
+                    <idno type="callno">MSS18630, Box 11, Reel 7</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00213</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Hay, John" ref="n3080">John Hay</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>    
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-20" who="#aja">final corrections</change>
+            <change when="2021-01-30" who="#tb">rotated and replaced images</change>
+            <change when="2021-01-04" who="#smb">final check, corrected, added notes, DOI</change>
+            <change when="2021-09-17" who="#aja">2nd check, notes</change>
+            <change when="2021-07-19" who="#aja">checked, corrected</change>
+            <change when="2019-10-08" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02309.003_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>800 SIXTEENTH STREET,<ptr target="loc.02309_n1"/></name>
+                    <name type="place"><handShift rend="printed"/>LAFAYETTE SQUARE.</name>
+                    <name type="place"><handShift rend="manuscript"/>Washington D.C.</name>
+                    <date when="1892-03-22">Mar. 22.</date>
+                </dateline>
+                <salute>Dear Walt Whitman</salute>
+            </opener>
+            <p>Have you a copy of the Centennial Edition<ptr target="loc.03564_n2"/> of your Poems you could let me have—or any
+                edition with your autograph? I want it very much for a friend.</p>
+            <p>Do not send the cheque back even if you have not the book.</p>
+            <p>Can I be of any service to you? if so you need only command me.</p>
+            <closer>
+                <salute>Yours affectionately</salute>
+                <signed>John Hay</signed> 
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02309.004_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.02309.005_large.jpg" type="recto"/>  
+            <pb xml:id="leaf002v" facs="loc.02309.006_large.jpg" type="verso"/>  
+            <pb xml:id="leaf003r" facs="loc_tb.00035.jpg" type="recto"/> 
+            <note type="authorial" place="left">If not delivered<ptr target="loc.02309_n2"/> in 5 days | return to 800—16<hi rend="underline">th</hi> St. | Washington D. C.</note>
+            <note type="editorial" place="right" resp="#ht">see notes Mar 24 1892</note>
+            <pb xml:id="leaf003v" facs="loc_tb.00036.jpg" type="verso"/>  
+        </body>
+    </text>
+</TEI>

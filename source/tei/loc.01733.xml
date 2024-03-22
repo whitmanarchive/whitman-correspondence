@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01733">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Richard Monckton Milnes, Lord Houghton to Walt Whitman, 27 September 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Richard Monckton Milnes, Lord Houghton</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01733</idno></publicationStmt>            
+            <sourceDesc>
+                <!--<biblStruct xml:id="traubel">
+                    <monogr>
+                        <author>Horace Traubel</author>
+                        <title>With Walt Whitman in Camden: Volume 1</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>Rowman and Littlefield, Inc.</publisher>
+                            <date when="1961">1961</date>
+                            <biblScope unit="page">364</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Richard Monckton Milnes, Lord Houghton</author>
+                    <title>Richard Monckton Milnes, Lord Houghton to Walt Whitman, 27 September 1875</title>
+                    <date cert="high" when="1875-09-27" xml:id="dat1">September 27, 1875</date>
+                    <idno type="callno">MSS18630, Box 11, Reel 7</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00222</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> 
+        <profileDesc> 
+            <particDesc>
+                <person role="sender">
+                    <persName key="Milnes, Richard Monckton " ref="nyp.00373_n4b">Richard Monckton Milnes, Lord Houghton</persName>
+                </person>
+                <person role="recipient"> 
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-15" who="#smb">final corrections</change>
+            <change when="2023-05-12" who="#aja">updated notes</change>
+            <change when="2023-01-20" who="#aja">checked, corrected</change>
+            <change when="2022-12-01" who="#aja">checked, corrected</change>
+            <change when="2021-12-14" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-27">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-11-15" who="#cb">proofed</change>
+            <change when="2012-03-20" who="#js">proofed</change>
+            <change when="2012-02-27" who="#al">Checked and corrected</change>
+            <change when="2011-11-15" who="#km">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01733.001_large.jpg" type="recto"/>
+            <opener>
+                
+                <dateline>
+                        <name type="place"><supplied reason="illegible" source="#traubel" resp="#km">Brevoort House,</supplied></name>
+                        <name type="place">New York.</name>
+                    <date when="1875-09-27">Sep. 27th</date>
+                </dateline>
+                <salute>Dear Mr. Whitman:</salute> 
+            </opener>
+            <p>I was only in Philadelphia for a few hours, but I propose to return there 
+                for some days the end of next month or the beginning of November</p>
+            <pb xml:id="leaf001v" facs="loc.01733.003_large_mflm.jpg" type="verso"/>
+            <p>It will give me real pleasure to make your <choice><sic>aquaintence</sic><corr>acquaintance</corr></choice> 
+                having been, I think, one of the first to welcome you into our great old 
+                world literature.</p>
+            <closer> 
+                <salute>I remain</salute> 
+                <salute><choice><abbr>yr</abbr><expan>yours</expan></choice> very <choice><abbr>tly</abbr><expan>truly</expan></choice></salute>
+                <signed><choice><abbr>L</abbr><expan>Lord</expan></choice> Houghton</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc.01733.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.01733.004_large_mflm.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI><!---->

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07746">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07746">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07746</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,16 +44,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07746</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 10 October 1890</title>
                     <date cert="high" when="1890-10-10" xml:id="dat1">October 10, 1890</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>                    
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,23 +84,21 @@
                     <date when="1890-10-10">P M Oct: 10 '90</date>
                 </dateline>
             </opener>
-            <p>Nothing very different with me&#8212;fair enough&#8212;Did I tell you I sent off "Old
-                Poets"<ptr target="loc.07746_n1"/> (5 pages&#8212;maybe minus) to <hi
-                    rend="underline">N A Rev</hi><ptr target="loc.02915_n3"/>?&#8212;(I rec'd yesterday mn'g a
-                telegram<ptr target="med.00850_n1"/> f'm them soliciting it)&#8212;I guess the Ing:<ptr target="n0839"/>
-                enterprise<ptr target="loc.07842_n8"/> continues to move well&#8212;Horace<ptr target="n4267"/> is nearer <hi
-                    rend="underline">excited</hi> than I ever saw him&#8212;I was out an hour in
-                wheel-chair<ptr target="loc.03012_n1"/> yesterday&#8212;am very susceptible to the 
-                <hi rend="underline">jolting</hi>&#8212;always come back with a confused, topsy-turvy head-achy
-                feeling&#8212;sunny to-day&#8212;Enclose two MSS the O'C<ptr target="n2002"/>
-                preface<ptr target="loc.07842_n9"/> &#38; the little 
+            <p>Nothing very different with me—fair enough—Did I tell you I sent off "Old
+                Poets"<ptr target="loc.07746_n1"/> (5 pages—maybe minus) to <hi rend="underline">N A Rev</hi><ptr target="loc.02915_n3"/>?—(I rec'd yesterday mn'g a
+                telegram<ptr target="med.00850_n1"/> f'm them soliciting it)—I guess the Ing:<ptr target="n0839"/>
+                enterprise<ptr target="loc.07842_n8"/> continues to move well—Horace<ptr target="n4267"/> is nearer <hi rend="underline">excited</hi> than I ever saw him—I was out an hour in
+                wheel-chair<ptr target="loc.03012_n1"/> yesterday—am very susceptible to the 
+                <hi rend="underline">jolting</hi>—always come back with a confused, topsy-turvy head-achy
+                feeling—sunny to-day—Enclose two MSS the O'C<ptr target="n2002"/>
+                preface<ptr target="loc.07842_n9"/> &amp; the little 
                 <choice>
                     <sic>Shakspere</sic>
                 <corr>Shakespeare</corr></choice>
                 bit,<ptr target="uva.00609_n6"/> (both w'd take prize for <hi rend="underline">dilapitated
-                    printer's copy</hi>)&#8212;we are surfeited with horrible murder cases &#38;
-                such here&#8212;there visits f'm the g't miners, engineers, &#38; the French
-                    prince&#8212;I welcome all&#8212;</p>
+                    printer's copy</hi>)—we are surfeited with horrible murder cases &amp;
+                such here—there visits f'm the g't miners, engineers, &amp; the French
+                    prince—I welcome all—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

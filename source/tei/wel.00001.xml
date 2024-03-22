@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="wel.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="wel.00001">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>wel.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>wel.00001</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -85,8 +82,7 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1884-01-10" rend="right">Jan: 10 '84<ptr target="wel.00001_n1"
-                        /></date>
+                    <date when="1884-01-10" rend="right">Jan: 10 '84<ptr target="wel.00001_n1"/></date>
                 </dateline>
             </opener>
             <p>The slips <choice>
@@ -94,13 +90,12 @@
                 send the ten copies <choice>
                     <orig>C</orig>
                     <reg>Critic</reg>
-                </choice>But did you mail the five copies of paper to the addresses?<ptr
-                    target="wel.00001_n2"/> Send me a postal telling me. </p>
+                </choice>But did you mail the five copies of paper to the addresses?<ptr target="wel.00001_n2"/> Send me a postal telling me. </p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript>
-                <p>If not already mailed, you need <hi rend= "underline">not</hi> do it&#8212;I will attend to it&#8212;</p>
+                <p>If not already mailed, you need <hi rend="underline">not</hi> do it—I will attend to it—</p>
             </postscript>
             <pb xml:id="leaf001v" facs="wel.00001.002_large.jpg" type="verso"/>
         </body>    

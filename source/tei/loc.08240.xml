@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08240">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08240">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08240</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address> 
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,16 +44,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08240</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 22 November 1890</title>
                     <date cert="high" when="1890-11-22" xml:id="dat1">November 22, 1890</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc>
@@ -96,28 +93,24 @@
             </opener>
             <p>Have sent off some poemets to make two pages for <hi rend="underline">Arena</hi>
                     magazine<ptr target="loc.02082_n3"/> printed in Boston to I N Baker<ptr target="loc.08240_n4"/>(
-                with R G Ingersoll)<ptr target="n0839"/>&#8212;ask &#36;100
-                for the whole<ptr target="loc.08240_n2"/>&#8212;No proof or news rec'd by me of my
-                "National Literature"<ptr target="loc.07853_n8"/> piece sent to N A Review<ptr
-                    target="loc.02915_n3"/>&#8212;probably dont suit&#8212;Stoddart<ptr target="n7512"/>
-                (Lippincott's Mag)<ptr target="loc.07874_n5"/> contemplates a full page of my poemets in mag<ptr
-                    target="loc.05859_n10"/>&#8212;suppose you got the slips "Sunset Breeze"<ptr
-                    target="loc.02454_n4"/> bit&#8212;</p>
-            <p>Sunny to day, sharp cold, squally wind gales here&#8212;am beleagured with belly-ache
-                quite bad is apt to begin at day break&#8212;is on me now&#8212;diaphragm region
-                &#38; upper breast at times sore and achy&#8212;(probably bad digestion)&#8212;bowel
-                voiding action (tho not good) is by no means as obstinately bad as a year ago, &#38;
-                as it has been past&#8212;Enclose letters, (tho' not knowing whether they may
-                interest you)&#8212;send also a little &#182; in "Munyon's Ill: World"<ptr
-                    target="loc.08240_n3"/>&#8212;am sitting here as usual in my den&#8212;oak wood
-                fire&#8212;big wolf skin over back of chair&#8212;Warry<ptr target="loc.07319_n6"/>
-                is downstairs practicing on his fiddle&#8212;Mrs. D<ptr target="n6113"/> is out in
-                the kitchen room cooking&#8212;she has just bro't up a dish of nice crispy sweet
-                cakes, (but I set them away &#38; think I best not eat them, at any rate at
-                    present)&#8212;Horace<ptr target="n4267"/> here last evn'g&#8212;a small
-                earthquake in the financial world just now,<ptr target="loc.08240_n5"/> as you see in the papers&#8212;well the
-                money question is the least of my troubles&#8212;yr letters rec'd &#38; always cheer
-                me&#8212;Respect &#38; love to Mrs. B.<ptr target="n4273"/> (the 15th page of the
+                with R G Ingersoll)<ptr target="n0839"/>—ask $100
+                for the whole<ptr target="loc.08240_n2"/>—No proof or news rec'd by me of my
+                "National Literature"<ptr target="loc.07853_n8"/> piece sent to N A Review<ptr target="loc.02915_n3"/>—probably dont suit—Stoddart<ptr target="n7512"/>
+                (Lippincott's Mag)<ptr target="loc.07874_n5"/> contemplates a full page of my poemets in mag<ptr target="loc.05859_n10"/>—suppose you got the slips "Sunset Breeze"<ptr target="loc.02454_n4"/> bit—</p>
+            <p>Sunny to day, sharp cold, squally wind gales here—am beleagured with belly-ache
+                quite bad is apt to begin at day break—is on me now—diaphragm region
+                &amp; upper breast at times sore and achy—(probably bad digestion)—bowel
+                voiding action (tho not good) is by no means as obstinately bad as a year ago, &amp;
+                as it has been past—Enclose letters, (tho' not knowing whether they may
+                interest you)—send also a little ¶ in "Munyon's Ill: World"<ptr target="loc.08240_n3"/>—am sitting here as usual in my den—oak wood
+                fire—big wolf skin over back of chair—Warry<ptr target="loc.07319_n6"/>
+                is downstairs practicing on his fiddle—Mrs. D<ptr target="n6113"/> is out in
+                the kitchen room cooking—she has just bro't up a dish of nice crispy sweet
+                cakes, (but I set them away &amp; think I best not eat them, at any rate at
+                    present)—Horace<ptr target="n4267"/> here last evn'g—a small
+                earthquake in the financial world just now,<ptr target="loc.08240_n5"/> as you see in the papers—well the
+                money question is the least of my troubles—yr letters rec'd &amp; always cheer
+                me—Respect &amp; love to Mrs. B.<ptr target="n4273"/> (the 15th page of the
                 paper is for her to read to the young children)<ptr target="loc.07233_n3"/></p>
             <closer>    
                 <signed>Walt Whitman</signed> 
@@ -126,4 +119,4 @@
             <pb xml:id="leaf002v" facs="loc_jm.00314.jpg" type="verso"/>
         </body>
     </text> 
-</TEI> 
+</TEI>

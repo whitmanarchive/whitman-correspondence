@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="slv.00002">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Bernard O'Dowd, 1 November 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>slv.00002</idno></publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">260</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Bernard O'Dowd, 1 November 1891</title>
+                    <date cert="high" when="1891-11-01" xml:id="dat1">November 1, 1891</date>
+                    <orgName xml:id="slv">Manuscripts Collection, State Library Victoria (Melbourne,
+                        Australia)</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="O'Dowd, Bernard" ref="n7511">Bernard O'Dowd</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-11" who="#smb">final check, corrected</change>
+            <change when="2022-07-11" who="#pw">checked, corrected</change>
+            <change when="2022-06-30" who="#smb">check, corrected, updated encoding</change>
+            <change when="2022-02-11" who="#me">checked, corrected, added images</change>
+            <change when="2021-09-28" who="#cn">checked, corrected, added notes</change>
+            <change when="2021-07-16" who="#aja">checked, corrected</change>
+            <change when="2020-12-09" who="#rf">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="slv_tb.00007.jpg" type="recto"/>
+            <opener>
+                <dateline> 
+                    <name type="place">Camden NJ—US America<ptr target="slv.00002_n1"/></name>
+                    <date when="1891-11-01">Nov: 1 '91</date>
+                </dateline> 
+            </opener>
+            <p>Just a word anyhow while I am waiting for my supper—y'rs last rec'd is Aug:
+                31<ptr target="slv.00002_n2"/>—It seems you have rec'd "Good Bye"—Some
+                two weeks ago or more I sent you two more "Good Bye's" &amp; a lot of
+                pictures—have they reach'd you safely?—you &amp; the friends can have
+                what the portraits you &amp; they want as I have plenty, &amp; am cheerfully willing
+                to send to you &amp; them—The doctor<ptr target="loc.08039_n2"/> says I have
+                    <hi rend="underline">progressive paralysis</hi>, wh' is eligible to have a fatal
+                termination any hour—so you must all take my letters &amp; conveyances of
+                friendship &amp; affection (strangers as we are face to face) as my last
+                missives—write me soon as you can—</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="slv_tb.00008.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="slv_tb.00005.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="slv_tb.00006.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI><!--This letter is addressed: Bernard O'Dowd | Supreme Court Library | Melbourne | Victoria | via San Francisco | or otherwise. 
+It is postmarked: Camden N.J. | NOV 1 | 5 PM | 91; Philadelphia, PA | NOV 1 | 10 AM | F.D. | 91; San Francisc<supplied reason="illegible"
+    resp="#smb" cert="high">o</supplied> | NO<supplied reason="illegible"resp="#smb" cert="high">V</supplied> | 6  | 18<supplied reason="illegible"resp="#smb" cert="high">91</supplied> | F.<supplied reason="illegible"resp="#smb" cert="high">D.</supplied>; 
+Melbourne | 13 Y | DE 9 | 91.</note>-->

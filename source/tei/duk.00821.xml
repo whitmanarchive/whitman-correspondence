@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00821">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William Sloane Kennedy, 18 August [1886]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
+                    <persName xml:id="kb">Kyle Barton</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive August be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>duk.00821</idno></publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>  
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">43</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Sloane Kennedy, 18 August [1886]</title>
+                    <date cert="medium" when="1886-08-18" xml:id="dat1">August 18, [1886]</date>
+                    <orgName xml:id="duk">The Trent Collection of Whitmaniana, Duke University Rare Book, Manuscript, and Special Collections Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane Kennedy</persName>
+                </person> 
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc> 
+            <change when="2022-07-12" who="#aja">final corrections</change>
+            <change when="2022-05-04" who="#smb">final check, corrected</change>
+            <change when="2022-02-06" who="#me">checked, corrected</change>
+            <change when="2015-07-16" who="#ss">added note.</change>
+            <change when="2015-03-29" who="#kb">edited</change>
+            <change when="2014-10-24" who="#ss">encoded and annotated from Miller.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body> 
+            <opener>
+                <dateline>
+                    <name type="place">Camden,</name>
+                    <date when="1886-08-18">Aug: 18</date>
+                </dateline>
+            </opener>
+            <p>I send O'Connor's<ptr target="n2002"/> letter, with the clipping from the 
+                <hi rend="italic">Nation</hi><ptr target="duk.00821_n1"/>—if you care 
+                to look at them. I have not heard whether you rec'd the MS. book<ptr target="col.00006_n2"/>—I sent 
+                it hence by Adams' Express, last Friday afternoon.<ptr target="duk.00821_n2"/> I remain ab't the same in 
+                health—as I write (Wednesday forenoon) it is cloudy and sufficiently cool 
+                here, &amp; I am sitting by the open window downstairs as usual—am comfortable. 
+                I have of late–past been writing several pieces (as I believe I told you 
+                before)—they are to appear in time in N A Rev:<ptr target="nyp.00550_n9"/>—Century<ptr target="nyp.00550_n8"/>—&amp; 
+                Lippincott's<ptr target="nyp.00552_n7"/>—have been paid for—</p>
+            <closer>
+                <signed>W W</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

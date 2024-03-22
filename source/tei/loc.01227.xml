@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01227">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01227">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01227</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01227</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1889-04-27" xml:id="dat1">April 27, 1889</date>
                     <idno type="callno">MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,7 +81,7 @@
                     <name type="place">420, Greene Ave., Brooklyn,</name>
                     <date when="1889-04-27">April 27, 1889.</date>
                 </dateline>
-                <salute>Dear Mr. Whitman:&#8212;</salute>
+                <salute>Dear Mr. Whitman:—</salute>
             </opener>
             <p>I have thought of you often since my call upon you the other day (and before, too,
                 for that matter), and felt, that although I have a copy of your works in my library,
@@ -96,7 +93,7 @@
                 the other evening, I learned that you used to be the Editor of that paper. They will
                 have a jubilee soon on the occasion of some anniversary, and, I hope, will
                 acknowledge their obligations to you for giving them a good lift in days agone.</p>
-            <p>With kind regards and love&#8212;</p>
+            <p>With kind regards and love—</p>
             <closer>
                 <salute>Yours sincerely,</salute>
                 <signed>Will Carleton</signed>

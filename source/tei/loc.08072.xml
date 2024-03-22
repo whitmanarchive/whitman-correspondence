@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08072">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08072">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08072</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08072</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">217</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">217</biblScope>
                         </imprint>
                     </monogr> 
                 </biblStruct>
@@ -65,10 +63,10 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 24 June 1891</title>
                     <date cert="high" when="1891-06-24" xml:id="dat1">June 24, 1891</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -99,15 +97,15 @@
                     <date when="1891-06-24">June 24 91</date>
                 </dateline>
             </opener>
-            <p>Pleasant weather&#8212;partial depression to-day&#8212;just finish'd my
-                supper&#8212;some stew'd cherries, Graham bread, tea &#38; very small bit of broil'd
-                meat&#8212;rec'd y'r letter<ptr target="loc.08072_n3"/>&#8212;then you are going off on the Britannic on the
-                8th&#8212;no doubt you will have a good trip&#8212;("hold your horses")<ptr target="loc.08072_n2"/>&#8212;will prepare &#38; send you forthwith the
+            <p>Pleasant weather—partial depression to-day—just finish'd my
+                supper—some stew'd cherries, Graham bread, tea &amp; very small bit of broil'd
+                meat—rec'd y'r letter<ptr target="loc.08072_n3"/>—then you are going off on the Britannic on the
+                8th—no doubt you will have a good trip—("hold your horses")<ptr target="loc.08072_n2"/>—will prepare &amp; send you forthwith the
                 introductory note to Tennyson<ptr target="n0625"/> (you can use it or not as
-                convenient)&#8212;forthcoming L[ippincott's]<ptr target="loc.03120_n3"/> mag not out
-                yet, but I suppose it is all right&#8212;Dr L[ongaker]<ptr target="loc.04788_n3"/>
-                here yesterday&#8212;he aids the <hi rend="italic">coleur de rose</hi> view, (as a
-                doctor doubtless should)&#8212;H T[raubel]<ptr target="n4267"/> is well&#8212;will
+                convenient)—forthcoming L[ippincott's]<ptr target="loc.03120_n3"/> mag not out
+                yet, but I suppose it is all right—Dr L[ongaker]<ptr target="loc.04788_n3"/>
+                here yesterday—he aids the <hi rend="italic">coleur de rose</hi> view, (as a
+                doctor doubtless should)—H T[raubel]<ptr target="n4267"/> is well—will
                 write again Saturday, if not before. </p> 
             <closer>
                 <signed>Walt Whitman</signed>

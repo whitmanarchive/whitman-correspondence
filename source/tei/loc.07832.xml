@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07832">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07832">
     <teiHeader>
         <fileDesc>  
             <titleStmt>   
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07832</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07832</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">84</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">84</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -66,11 +63,11 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 13 September 1890</title>
                     <date cert="high" when="1890-09-13" xml:id="dat1">September 13, 1890</date>
-                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3&#8211;4; Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3–4; Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>  
         </fileDesc>
@@ -99,22 +96,22 @@
                     <date when="1890-09-13">a m Sept: 13 '90<ptr target="loc.07832_n1"/></date>
                 </dateline>
             </opener>
-            <p>Medley sort of weather half rain half sunshine some breeze&#8212;will probably send
+            <p>Medley sort of weather half rain half sunshine some breeze—will probably send
                 you Kennedy's<ptr target="n3039"/> Dutch piece<ptr target="loc.07111_n3"/> soon (see
-                enclosed letter f'm him)<ptr target="loc.07832_n2"/>&#8212;Am looking over the
-                Kreutzer Sonata<ptr target="loc.07832_n6"/> &#38; have Ingersoll's<ptr target="n0839"/> criticism in N[orth]
-                A[merican] Review<ptr target="loc.07832_n3"/>&#8212;the political <hi rend="italic">intestinal
+                enclosed letter f'm him)<ptr target="loc.07832_n2"/>—Am looking over the
+                Kreutzer Sonata<ptr target="loc.07832_n6"/> &amp; have Ingersoll's<ptr target="n0839"/> criticism in N[orth]
+                A[merican] Review<ptr target="loc.07832_n3"/>—the political <hi rend="italic">intestinal
                 agitation</hi> here in U S is essentially ab't unrestricted trade (general reciprocity)
                 and the damnable diseased policy the Harrison<ptr target="n4323"/> gov't typifies call'd
-                protectionism&#8212;thats the bottom of it, below every thing else&#8212;probably
+                protectionism—thats the bottom of it, below every thing else—probably
                 the world never saw such a mean dog-in-the-manger principle so thoroughly attempted
-                &#38; made the base of a great party (the remains, dead cadaverous trunk of the once
-                glorious live Lincoln party of '60 to '64 and '5) as to-day &#38; in the U
-                S&#8212;But <hi rend="italic">agitation</hi>, <hi rend="italic">experiment</hi> &#38;c: 
+                &amp; made the base of a great party (the remains, dead cadaverous trunk of the once
+                glorious live Lincoln party of '60 to '64 and '5) as to-day &amp; in the U
+                S—But <hi rend="italic">agitation</hi>, <hi rend="italic">experiment</hi> &amp;c: 
                 <hi rend="italic">must</hi><ptr target="loc.07832_n4"/> be a gain
-                one way or another here in U S&#8212;</p>
-            <p>I told you Mrs Davis<ptr target="n6113"/> has gone on a visit to Kansas&#8212;It is a
-                long jaunt&#8212;she gets there 14th&#8212;</p>
+                one way or another here in U S—</p>
+            <p>I told you Mrs Davis<ptr target="n6113"/> has gone on a visit to Kansas—It is a
+                long jaunt—she gets there 14th—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

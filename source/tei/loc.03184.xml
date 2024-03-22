@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03184">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03184">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03184</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03184</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Sidney H. Morse</author>
@@ -54,7 +51,7 @@
                     <date cert="high" when="1888-06-15" xml:id="dat1">June 15, 1888</date>
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,13 +81,13 @@
     <text type="letter"> 
         <body>
             <pb xml:id="leaf001r" facs="loc.03184.001.jpg" type="recto"/>
-            <note type="editorial" resp="#ht" place="top">See notes June 20 &#38; July 1 1888</note>
+            <note type="editorial" resp="#ht" place="top">See notes June 20 &amp; July 1 1888</note>
             <opener>
                 <dateline>
                     <name type="place" rend="right">Richmond, Ind.</name>
                     <date when="1888-06-15" rend="right">June 15/88.</date>
                 </dateline>
-                <salute>Dear W&#8212;</salute>
+                <salute>Dear W—</salute>
             </opener>
             <p>I sent word to Horace<ptr target="n4267"/> one day that I had an intuition that you were about to enter
                 upon a new lease of life. The next day the telegraph announced you were slightly
@@ -98,32 +95,27 @@
                 severe attack of "heart failure." Now Horace writes you are quite yourself again. I
                 take it my spirit-sense of your condition is not likely to fail after all. But the
                 hot weather is <pb xml:id="leaf002r" facs="loc.03184.003.jpg" type="recto"/>
-                coming, &#38; we shall get it by July good &#38; hot. I hope I can get into
+                coming, &amp; we shall get it by July good &amp; hot. I hope I can get into
                 comfortable shape by the time it reaches Camden.</p>
-            <p>Am glad Horace is at hand to afford any help <pb xml:id="leaf002v"
-                    facs="loc.03184.004.jpg" type="verso"/> you might need.</p>
+            <p>Am glad Horace is at hand to afford any help <pb xml:id="leaf002v" facs="loc.03184.004.jpg" type="verso"/> you might need.</p>
             <p>I have about concluded not to go to the Cin. Exposition.<ptr target="loc.03184_n1"/> There is so much red tape it
-                will cost me all of &#36;20 to exhibit a few busts. I am calculating on starting for Chicago
-                middle of next week. I'd like to look in <pb xml:id="leaf003r"
-                    facs="loc.03184.005.jpg" type="recto"/>
-                on the Chicago Convention<ptr target="loc.03184_n2"/>&#8212;just to see the shape of the heads that are
+                will cost me all of $20 to exhibit a few busts. I am calculating on starting for Chicago
+                middle of next week. I'd like to look in <pb xml:id="leaf003r" facs="loc.03184.005.jpg" type="recto"/>
+                on the Chicago Convention<ptr target="loc.03184_n2"/>—just to see the shape of the heads that are
                 prominent.</p> 
-            <p>I notice a marked difference in the political atmosphere here &#38; in Mass. People here are more
+            <p>I notice a marked difference in the political atmosphere here &amp; in Mass. People here are more
                     <hi rend="underline">rambunkious</hi>; they get mad. The republicans are high toned
-                &#38; look down on democrats. If you <pb xml:id="leaf003v"
-                    facs="loc.03184.006.jpg" type="verso"/> show any proclivities of
+                &amp; look down on democrats. If you <pb xml:id="leaf003v" facs="loc.03184.006.jpg" type="verso"/> show any proclivities of
                 democratic color they wonder how you can. How can white think well of black? And
                 then, the anti-copperhead talk is still rampant here. The dems are sore some over
                     <pb xml:id="leaf004r" facs="loc.03184.007.jpg" type="recto"/> the
-                slaughter of Gray, &#38; Harrison<ptr target="n4269"/> would catch many sore head votes. If the Republicans have got
+                slaughter of Gray, &amp; Harrison<ptr target="n4269"/> would catch many sore head votes. If the Republicans have got
                 to have a rushing campaign, they'll get it sooner with the freedom of old <choice><orig>Tipicanu (?)</orig><reg>Tippicanoe</reg></choice><ptr target="loc.03184_n3"/> 
-                than with the cold blooded Sherman.<ptr target="n4270"/> But <pb xml:id="leaf004v"
-                    facs="loc.03184.008.jpg" type="verso"/> I believe <hi rend="underline"
-                    >Blain</hi><ptr target="n4268"/> would sweep the States.  Every body fairly dances when his name is
+                than with the cold blooded Sherman.<ptr target="n4270"/> But <pb xml:id="leaf004v" facs="loc.03184.008.jpg" type="verso"/> I believe <hi rend="underline">Blain</hi><ptr target="n4268"/> would sweep the States.  Every body fairly dances when his name is
                 mentioned. Strange. I can't understand it. Somehow I am drawn personally more to
                 Cleveland<ptr target="n4271"/> than any
                 one of the others. And yet, he's a kind of a <hi rend="underline">pork</hi>.</p>
-            <p>Well, this is a hot day here. I hope you keep mending, &#38; that you only went back
+            <p>Well, this is a hot day here. I hope you keep mending, &amp; that you only went back
                 a little for a new start.</p>
             <closer>
                 <salute>Kindly,</salute>  

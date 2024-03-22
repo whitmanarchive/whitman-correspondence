@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02349">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02349">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Robert Ingersoll to Walt Whitman, 16 June 1890</title>
+                <title level="m" type="main">Robert G. Ingersoll to Walt Whitman, 16 June 1890</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>Robert Ingersoll</author>
+                <author>Robert G. Ingersoll</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02349</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02349</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Robert Ingersoll</author>
-                    <title>Robert Ingersoll to Walt Whitman, 16 June 1890</title>
+                    <author>Robert G. Ingersoll</author>
+                    <title>Robert G. Ingersoll to Walt Whitman, 16 June 1890</title>
                     <date cert="high" when="1890-06-16" xml:id="dat1">June 16, 1890</date>
                     <idno type="callno">MSS18630, Box 11, Reel 7</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00229</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -65,7 +62,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Ingersoll, Robert" ref="n0839">Robert Ingersoll</persName>
+                    <persName key="Ingersoll, Robert G." ref="n0839">Robert G. Ingersoll</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -90,21 +87,20 @@
                 </dateline>
                 <salute>My dear Whitman,</salute>
             </opener>
-            <p>Accept my best thanks for the beautiful copy of "Leaves of Grass."<ptr target="loc.02999_n2"/>&#8212;What I love
+            <p>Accept my best thanks for the beautiful copy of "Leaves of Grass."<ptr target="loc.02999_n2"/>—What I love
                 about that book is that it is filled with the spirit of freedom. Every line is
                     manly,<pb xml:id="leaf001v" facs="loc.02349.002.jpg" type="verso"/> natural,
                 independent, self poised, and in each is a superb personality.</p>
             <p>You have given the world the honest harvest of a great brain. You have stood straight, erect, and have kept your hat on.
-                There is no dust on your knees. I have taken the liberty to send you<pb
-                    xml:id="leaf002r" facs="loc.02349.003.jpg" type="recto"/> a copy of the last
+                There is no dust on your knees. I have taken the liberty to send you<pb xml:id="leaf002r" facs="loc.02349.003.jpg" type="recto"/> a copy of the last
                 edition of Prose Poems.<ptr target="loc.02349_n2"/> The title was given to the collection by my friend the
                 publisher. So you will not hold me responsible for that. I think that you will like
-                the articles on Lincoln&#8212;Art and
-                Morality&#8212;life, and the imagination.
+                the articles on Lincoln—Art and
+                Morality—life, and the imagination.
                 Of course you may not agree with all I say, but you have that splendid
-                thing&#8212;"Intellectual Hospitality"&#8212;and that is enough.</p>
+                thing—"Intellectual Hospitality"—and that is enough.</p>
             <p>Again, thanking you for the splendid Book and wishing you many, many happy
-                years&#8212;laurel-crowned&#8212;</p>
+                years—laurel-crowned—</p>
             <closer> 
                 <salute>I remain, yours always</salute>
                 <signed>R. G. Ingersoll</signed>

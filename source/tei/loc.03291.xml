@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03291">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03291">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03291</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03291</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -53,7 +50,7 @@
                     <date cert="low" when="1885-12-15" xml:id="dat1">December 15, 1885</date>
                     <idno type="callno">Box 14, Reel 8-6</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,26 +78,26 @@
     <text type="letter">
         <body>
             <pb xml:id="leaf001r" facs="loc.03291.001_large.jpg" type="recto"/>
-            <note type="editorial" resp="#jr" place="top">Get Mr. Travers [?] to mail | a copy &#38; send | it in closed envelope | the other was lost in the mail | JR</note>
+            <note type="editorial" resp="#jr" place="top">Get Mr. Travers [?] to mail | a copy &amp; send | it in closed envelope | the other was lost in the mail | JR</note>
             <note type="editorial" resp="#unk" place="bottom"># 3 447-1928</note>
             <opener>
                 <dateline>
                     <name type="place">328 Mickle Street</name>
                     <name type="place">Camden New Jersey</name>
-                    <date when="1885-12-10" rend="right">Dec: 15 '85&#8212;noon</date>
+                    <date when="1885-12-10" rend="right">Dec: 15 '85—noon</date>
                 </dateline>
                 <salute>My dear J R</salute>
             </opener>
-            <p>I have rec'd the pay ($33) for the "Lincoln" article from Mr Rice, &#38; sent a
-                receipt for it<ptr target="loc.03291_n1"/>&#8212;</p>
-            <p>&#8212;Your letter (12th) says you have sent the proof of "Lincoln" article same
-                mail&#8212;<hi rend="underline">I have rec'd no proof</hi>.&#8212;It has evidently
-                miscarried, or something. So please send me another&#8212;None was enclosed in the
-                letter&#8212;</p><p>&#8212;I am ab't as usual&#8212;Come &#38; see me whenever you can.</p>
+            <p>I have rec'd the pay ($33) for the "Lincoln" article from Mr Rice, &amp; sent a
+                receipt for it<ptr target="loc.03291_n1"/>—</p>
+            <p>—Your letter (12th) says you have sent the proof of "Lincoln" article same
+                mail—<hi rend="underline">I have rec'd no proof</hi>.—It has evidently
+                miscarried, or something. So please send me another—None was enclosed in the
+                letter—</p><p>—I am ab't as usual—Come &amp; see me whenever you can.</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf001v" facs="loc.03291.002_large.jpg" type="verso"/>
         </body>
     </text> 
-</TEI>  
+</TEI>

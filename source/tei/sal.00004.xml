@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="sal.00004">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sal.00004">
     <teiHeader> 
         <fileDesc> 
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>sal.00004</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>sal.00004</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -85,18 +82,17 @@
                 </dateline>
                 <salute>My dear friend</salute>
             </opener>
-            <p>I wish you could take half an hour if possible &#38; go around for me to Mr Cox<ptr
-                target="n3143"/> photographer cor: 12th St. &#38; Broadway. He advertises
+            <p>I wish you could take half an hour if possible &amp; go around for me to Mr Cox<ptr target="n3143"/> photographer cor: 12th St. &amp; Broadway. He advertises
                 (Century, Sept. number<ptr target="sal.00004_n3"/>) to sell my photo, with autograph. The latter is forged,
-                &#38; the former illegal &#38; unauthorized. When in N Y last April I was taken
-                there by Miss Gilder<ptr target="n0264"/> &#38; sat for pictures under promise that
-                I should see them in specimens &#38; decide wh' should be printed &#38; put forth,
-                &#38; wh' not. Since, all requests to have them (proofs or specimens) sent me here
+                &amp; the former illegal &amp; unauthorized. When in N Y last April I was taken
+                there by Miss Gilder<ptr target="n0264"/> &amp; sat for pictures under promise that
+                I should see them in specimens &amp; decide wh' should be printed &amp; put forth,
+                &amp; wh' not. Since, all requests to have them (proofs or specimens) sent me here
                 have been ignored. The whole thing is <hi rend="underline">cool</hi>, very. Go round
-                &#38; see if C will immediately send me copies of the pictures &#38; follow my
-                requests ab't them&#8212;Or will it be necessary for me to clap a legal injunction
-                on the issue?&#8212;wh' I shall certainly do&#8212;You can show this note to Mr
-                Cox<ptr target="sal.00004_n2"/>&#8212;</p>
+                &amp; see if C will immediately send me copies of the pictures &amp; follow my
+                requests ab't them—Or will it be necessary for me to clap a legal injunction
+                on the issue?—wh' I shall certainly do—You can show this note to Mr
+                Cox<ptr target="sal.00004_n2"/>—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

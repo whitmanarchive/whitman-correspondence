@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07612">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07612">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07612</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07612</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +52,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-			    <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">328</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+			    <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">328</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -65,9 +62,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 1 May 1889</title>
                     <date cert="high" when="1889-05-01" xml:id="dat1">May 1, 1889</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -97,10 +94,10 @@
                     <date when="1889-05-01">May 1 '89<ptr target="loc.07612_n1"/></date>
                 </dateline>
             </opener>
-            <p>Well the N Y show<ptr target="nyp.00682_n2"/> goes over to-day in a blaze of glory, &#38; Barnum's great circus comes
-                in here at noon &#38; exhibits to night&#8212;(Ed<ptr target="n4319"/> goes&#8212;I am favorable)&#8212;&#38; besides Dr Baker<ptr target="n4266"/>
-                "graduates" this afternoon&#8212;you know he is my first nurse&#8212;last June&#8212;&#38; Osler<ptr target="n4302"/> makes
-                the address&#8212;indeed I believe <hi rend="italic">two</hi> of 'em&#8212;things ab't same as before with me&#8212;</p>
+            <p>Well the N Y show<ptr target="nyp.00682_n2"/> goes over to-day in a blaze of glory, &amp; Barnum's great circus comes
+                in here at noon &amp; exhibits to night—(Ed<ptr target="n4319"/> goes—I am favorable)—&amp; besides Dr Baker<ptr target="n4266"/>
+                "graduates" this afternoon—you know he is my first nurse—last June—&amp; Osler<ptr target="n4302"/> makes
+                the address—indeed I believe <hi rend="italic">two</hi> of 'em—things ab't same as before with me—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

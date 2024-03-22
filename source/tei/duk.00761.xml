@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00761">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00761">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00761</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00761</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">260</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">260</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -106,14 +102,12 @@
             <p>Yours <choice>
                 <orig>rec'd</orig>
                 <reg>received</reg>
-            </choice> &#38; glad to hear from you&#8212;have not forgotten those pleasant calls
-                &#38; chats, &#38; hope they will one day be renewed&#8212;I read your (added to
-                &#38; somewhat changed) California magazine criticism<ptr target="duk.00761_n1"
-                />&#8212;the copy you showed Osgood&#8212;&#38; thought it noble&#8212;</p>
-            <p>Am thankful to you &#38; of course much pleased with your study of, &#38; exploiting
-                L of G&#8212;have just sent you a package by express of the late &#38; other
-                editions &#38; Vols. of poems &#38;c. as my Christmas offering<ptr
-                    target="duk.00761_n2"/>&#8212;with affectionate remembrances&#8212;</p>
+            </choice> &amp; glad to hear from you—have not forgotten those pleasant calls
+                &amp; chats, &amp; hope they will one day be renewed—I read your (added to
+                &amp; somewhat changed) California magazine criticism<ptr target="duk.00761_n1"/>—the copy you showed Osgood—&amp; thought it noble—</p>
+            <p>Am thankful to you &amp; of course much pleased with your study of, &amp; exploiting
+                L of G—have just sent you a package by express of the late &amp; other
+                editions &amp; Vols. of poems &amp;c. as my Christmas offering<ptr target="duk.00761_n2"/>—with affectionate remembrances—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

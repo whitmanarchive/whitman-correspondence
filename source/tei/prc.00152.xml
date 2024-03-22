@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00152">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to George and Charles Merriam of G. &amp;
+                    C Merriam Company, 17 April [1849]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p> Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            <idno>prc.00152</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to George and Charles Merriam of G. &amp; C Merriam Company,
+                        17 April [1849]</title>
+                    <date cert="medium" when="1849-04-17">April 17, [1849]</date>
+                    <orgName xml:id="prc">Private Collection of Madeline Kripke.  The transcription presented here is derived 
+                        from Madeline Kripke and Ed Folsom, "A Newly Discovered 1849 Whitman Letter to the 'Messrs. Merriam,'" 
+                        <hi rend="italic">Walt Whitman Quarterly Review</hi> 38 (Fall 2020), 118–125.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk">Unknown</handNote>
+            </handNotes>
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Merriam, George and Merriam, Charles, of G. &amp; C Merriam Company" ref="prc.00152_n2">George and Charles Merriam of G. &amp; C Merriam Company</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-21" who="#smb">final check</change>
+            <change when="2023-05-05" who="#aja">corrections for Ken</change>
+            <change when="2022-09-02" who="#jh">checked, corrected</change>
+            <change when="2022-06-25" who="#kjb">checked, corrected</change>
+            <change when="2020-12-03" who="#em">checked for footnotes</change>
+            <change when="2020-07-16" who="#cn">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader>  
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="prc_tb.00004.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">"Freeman" office<ptr target="prc.00152_n1"/></name>
+                    <name type="place">Brooklyn, L.I.,</name>
+                    <date when="1849-04-17">April 17</date>
+                </dateline>
+                <salute>Messrs. Merriam,</salute>
+            </opener>
+            <p> I have published one long notice, (written by myself,) and the two short notices
+                sent me from you—as you have doubtless seen by the papers I sent
+                you.—All have been printed in the editorial columns.—</p>
+            <p>But I have not yet received my copy of the Dictionary.—I have called several
+                times at Mr. Newman's,<ptr target="prc.00152_n5b"/> but they have either not had any
+                copy in Russia binding, or were averse to giving me
+                <pb xml:id="leaf001v" facs="prc_tb.00005.jpg" type="verso"/>
+                one.<ptr target="prc.00152_n6"/>—If convenient, upon the receipt of this, I wish you would envelope a
+                Dictionary, and put on it my address (as below) and send it to
+                Newman's—labelled "to be called for."—Let it be Russia
+                bound—black, or some other dark color.—I shall publish the notices
+                received the other day—and from time to time, what others you send.—</p>
+            <p>I still have the note you wrote me, embodying an order on Mr. Newman for a
+                Dictionary— which order I will give him, when my copy arrives.— </p>
+            <closer>
+                <signed>Walter Whitman</signed>
+                <address>
+                    <addrLine>Publisher "Freeman"</addrLine>
+                    <addrLine>106 Myrtle avenue, Brooklyn L.I.</addrLine>
+                </address>
+            </closer>
+            <pb xml:id="leaf002r" facs="prc_tb.00006.jpg" type="recto"/>
+            <note type="editorial" place="upper left-hand corner" resp="#unk">sent an order Newman
+                &amp; asked him to return order on Newman[?]</note>
+            <note type="editorial" place="center" resp="#unk">Brooklyn Freeman news</note>
+        </body>
+    </text>
+</TEI>

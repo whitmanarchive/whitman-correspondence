@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00679">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00679">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00679</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +38,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -50,7 +46,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00679</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -61,8 +57,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1964">1964</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">127&#8211;128</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">127–128</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -100,21 +96,21 @@
                     <name type="place" rend="right">431 Stevens st Camden N J</name>
                     <date when="1878-07-11">July 11 p m</date>
                 </dateline>
-                <salute>Dear John &#38; 'Sula Burroughs,</salute>
+                <salute>Dear John &amp; 'Sula Burroughs,</salute>
             </opener>
 
-            <p>I kept staying &#38; staying in <choice><abbr>N Y</abbr><expan>New York</expan></choice>&#8212;but left yesterday in the 4 p m train, had a fine run to <choice><abbr>Phila:</abbr><expan>Philadelphia</expan></choice> &#38; here I am <choice><orig>to-day</orig><reg>today</reg></choice> in my regular den&#8212;all the better for my month's trip&#8212;</p>
+            <p>I kept staying &amp; staying in <choice><abbr>N Y</abbr><expan>New York</expan></choice>—but left yesterday in the 4 p m train, had a fine run to <choice><abbr>Phila:</abbr><expan>Philadelphia</expan></choice> &amp; here I am <choice><orig>to-day</orig><reg>today</reg></choice> in my regular den—all the better for my month's trip—</p>
             
-            <p>Nothing very new&#8212;brother &#38; sister well as usual&#8212;my two nieces, Jeff's daughters, are here &#38; are a great comfort to me. Hot weather, awful&#8212;yet I am standing it well so far. I suppose you got the <hi rend="italic">Tribune</hi> of July 4 with my letter in.<ptr target="sjs.00007_n1"/> And the box of Graham biscuits by Express&#8212;(Of course you know they must be soak'd half an hour or more in milk or water&#8212;I sweeten mine with sugar, but some dont like it)&#8212;</p>
+            <p>Nothing very new—brother &amp; sister well as usual—my two nieces, Jeff's daughters, are here &amp; are a great comfort to me. Hot weather, awful—yet I am standing it well so far. I suppose you got the <hi rend="italic">Tribune</hi> of July 4 with my letter in.<ptr target="sjs.00007_n1"/> And the box of Graham biscuits by Express—(Of course you know they must be soak'd half an hour or more in milk or water—I sweeten mine with sugar, but some dont like it)—</p>
             
-            <p>How are you getting along this hot weather? &#38; how is that baby?<ptr target="sjs.00007_n2"/></p>
+            <p>How are you getting along this hot weather? &amp; how is that baby?<ptr target="sjs.00007_n2"/></p>
 
             <closer>
              
                 <signed rend="right">Walt Whitman</signed>
             </closer>
             <postscript>
-                <p>I eat my biscuits <hi rend="italic">for supper</hi> only&#8212;have two or three of them in a bowl soak'd for an hour, &#38; the water pour'd off, &#38; then a little milk, &#38; plenty of sugar&#8212;they must be fixed <hi rend="italic">just right</hi>, or they ain't good&#8212;</p>
+                <p>I eat my biscuits <hi rend="italic">for supper</hi> only—have two or three of them in a bowl soak'd for an hour, &amp; the water pour'd off, &amp; then a little milk, &amp; plenty of sugar—they must be fixed <hi rend="italic">just right</hi>, or they ain't good—</p>
             </postscript>  
         </body>
     </text>

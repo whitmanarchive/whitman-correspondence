@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07828">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07828">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07828</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,18 +44,18 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07828</idno></publicationStmt>
             <sourceDesc>  
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 18 August 1890</title>
                     <date cert="high" when="1890-08-18" xml:id="dat1">August 18, 1890</date>
-                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3&#8211;4;
-                        Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 6, Reel 3–4;
+                        Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,23 +86,21 @@
                     <date when="1890-08-18">Aug: 18 '90</date>
                 </dateline>
             </opener> 
-            <p>Frank Sanborn's<ptr target="n0915"/> letter f'm Belgium enc'd<ptr
-                    target="loc.07828_n2"/>&#8212;the <hi rend="underline">Transcript</hi> copies my
-                "rejoinder" complete.<ptr target="loc.07828_n3"/> Rainy dark forenoon here&#8212;I
+            <p>Frank Sanborn's<ptr target="n0915"/> letter f'm Belgium enc'd<ptr target="loc.07828_n2"/>—the <hi rend="underline">Transcript</hi> copies my
+                "rejoinder" complete.<ptr target="loc.07828_n3"/> Rainy dark forenoon here—I
                 keep ab't well as usual (has been very hot here again) made my breakfast of
-                bread and honey in the comb&#8212;was down to river side in wheel&#8211;chair<ptr target="loc.03012_n1"/> last
-                evn'g&#8212;the contemptible little Woodberry shirt:sleeve story (being piquant
-                &#38; a lie) is copied &#38; circulated every where<ptr target="loc.07357_n5"/>&#8212;I
-                have not heard f'm Dr Johnston (Eng'd)<ptr target="n4102"/>&#8212;Suppose
-                you rec'd <hi rend="underline">three papers</hi> f'm me&#8212;the "rejoinder," the
-                Woodberry comment &#38; WSK's<ptr target="n3039"/> letter<ptr
-                target="loc.07828_n4"/>&#8212;get quite a good many <hi rend="underline">solicitous</hi> 
-                &#38; other such&#8211;kind letters (one enc'd)&#8212;Tom
-                Harned's<ptr target="n4146"/> family have ret'd f'm Cape May&#8212;Am on the
+                bread and honey in the comb—was down to river side in wheel–chair<ptr target="loc.03012_n1"/> last
+                evn'g—the contemptible little Woodberry shirt:sleeve story (being piquant
+                &amp; a lie) is copied &amp; circulated every where<ptr target="loc.07357_n5"/>—I
+                have not heard f'm Dr Johnston (Eng'd)<ptr target="n4102"/>—Suppose
+                you rec'd <hi rend="underline">three papers</hi> f'm me—the "rejoinder," the
+                Woodberry comment &amp; WSK's<ptr target="n3039"/> letter<ptr target="loc.07828_n4"/>—get quite a good many <hi rend="underline">solicitous</hi> 
+                &amp; other such–kind letters (one enc'd)—Tom
+                Harned's<ptr target="n4146"/> family have ret'd f'm Cape May—Am on the
                 watch for Symonds's<ptr target="n0615"/> letter<ptr target="loc.07828_n5"/> to send
-                you soon as I find it am'g my heaps&#8212;</p>
+                you soon as I find it am'g my heaps—</p>
             <closer>
-                <salute>God bless you all&#8212;</salute>
+                <salute>God bless you all—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf002r" facs="loc_zs.00075.jpg" type="recto"/>

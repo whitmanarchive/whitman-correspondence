@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07243">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07243">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07243</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07243</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1888-09-19" xml:id="dat1">September 19, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,29 +84,25 @@
             <pb xml:id="leaf001r" facs="loc_es.00372.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07243_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/> London, Ont.,</name><date when="1888-09-19" rend="right"
-                            ><handShift rend="manuscript"/>19 Sept <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07243_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/> London, Ont.,</name><date when="1888-09-19" rend="right"><handShift rend="manuscript"/>19 Sept <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
             <p>The weather remains serene. A charming hazy, cloudy, windy, autumn day. I am trying
-                to get on with my annual report but it moves slowly&#8212;however I have time and I
+                to get on with my annual report but it moves slowly—however I have time and I
                 shall no doubt come out of it as usual in due course. All looks well with the meter,<ptr target="loc.07230_n2"/>
-                we had a first class business man &#38; capitalist to see it this week. We offered
+                we had a first class business man &amp; capitalist to see it this week. We offered
                 him a share with us for a certain sum, and for the benefit of his advice and
                 assistance. He consider'd the meter such a big thing that he proposed to associate a
-                more active business man still than <pb xml:id="leaf001v" facs="loc_es.00373.jpg"
-                    type="verso"/> himself and a man with more capital and more access to the great
+                more active business man still than <pb xml:id="leaf001v" facs="loc_es.00373.jpg" type="verso"/> himself and a man with more capital and more access to the great
                 money centres. He has written to this man to come up from Montreal to look into the
                 matter. I think it quite likely we may all make all the money we want out of it.</p>
             <p>How are things with you and the new vols? I hope to have a copy of the "Complete
-                Works"<ptr target="n4151"/> very soon now&#8212;the "N.B."<ptr target="n3999"/> in its new dress will be heartily welcome
+                Works"<ptr target="n4151"/> very soon now—the "N.B."<ptr target="n3999"/> in its new dress will be heartily welcome
                 too</p>
             <p>Has Osler<ptr target="n4302"/> been over to see you yet? He must be back in Phila by
                 now?</p>
-            <p>I hope you are not suffering too much&#8212;I know well you are not having a good
+            <p>I hope you are not suffering too much—I know well you are not having a good
                 time. But I am <hi rend="underline">sure</hi> it will be all right at last</p>
             <closer>
                 <salute>Your friend</salute>

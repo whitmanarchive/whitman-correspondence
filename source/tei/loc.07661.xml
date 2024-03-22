@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07661">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07661">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07661</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address> 
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,15 +43,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07661</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 3 September 1888</title>
                     <date cert="high" when="1888-09-03" xml:id="dat1">September 3, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.05014"/>
                     <relatedItem type="document" target="wwa.00045"/>
                     <note type="project" target="#rel01">Whitman wrote this letter to Bucke on the back 
@@ -91,14 +88,14 @@
                     <date when="1888-09-03">Sept: 3 '88<ptr target="loc.07661_n1"/></date>
                 </dateline>
             </opener>
-            <p>All goes fairly with me. Yesterday &#38; to-day I am perceptibly better&#8212;Cooler &#38; signs
-                of September&#8212;Still adhere to my 2d story room &#38; the big chair&#8212;Have just had a call
-                from the Phila. man of the N. Y. Herald<ptr target="loc.07661_n2"/> who asks something of Elias Hicks<ptr target="n0301"/> (&#38; the
-                Nov: B<ptr target="n3999"/>)&#8212;for the paper&#8212;wh' I promise to give&#8212;will send to-morrow. Your letters
-                come &#38; are welcomed. No news yet of Herbert Gilchrist<ptr target="n0262"/> but I expect him any moment&#8212;I
-                have somewhere a printed slip of "Old Age's Lambent Peaks"<ptr target="loc.07660_n4"/> &#38; will yet send it&#8212;but I 
-                cannot lay my hand on it this moment&#8212;a cloudy rather pleasant day, almost
-                cool&#8212;quiet&#8212;I reiterate the offer of my mare &#38; phaeton<ptr target="loc.07661_n4"/>&#8212;</p>
+            <p>All goes fairly with me. Yesterday &amp; to-day I am perceptibly better—Cooler &amp; signs
+                of September—Still adhere to my 2d story room &amp; the big chair—Have just had a call
+                from the Phila. man of the N. Y. Herald<ptr target="loc.07661_n2"/> who asks something of Elias Hicks<ptr target="n0301"/> (&amp; the
+                Nov: B<ptr target="n3999"/>)—for the paper—wh' I promise to give—will send to-morrow. Your letters
+                come &amp; are welcomed. No news yet of Herbert Gilchrist<ptr target="n0262"/> but I expect him any moment—I
+                have somewhere a printed slip of "Old Age's Lambent Peaks"<ptr target="loc.07660_n4"/> &amp; will yet send it—but I 
+                cannot lay my hand on it this moment—a cloudy rather pleasant day, almost
+                cool—quiet—I reiterate the offer of my mare &amp; phaeton<ptr target="loc.07661_n4"/>—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

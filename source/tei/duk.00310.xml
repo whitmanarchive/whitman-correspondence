@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00310">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00310">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,7 +26,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>duk.00310</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +38,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>duk.00310</idno></publicationStmt>
          <sourceDesc>
             
             <bibl>
@@ -85,7 +83,7 @@
                   <pb xml:id="leaf001v" facs="duk.00426.003.jpg" type="verso"/><!--the following bit spans two pages of Louisa's letter-->
                   sorry that you omitted to put in 
                   <pb xml:id="leaf002r" facs="duk.00426.002.jpg" type="recto"/>
-                  Probasco's<ptr target="duk.00310_n3"/> name in the list of those that sent money, could it be easily corrected. You will hear from me in a day or so.&#8212;</p>
+                  Probasco's<ptr target="duk.00310_n3"/> name in the list of those that sent money, could it be easily corrected. You will hear from me in a day or so.—</p>
             <closer rend="right">
                <signed>Jeff</signed>
             </closer>

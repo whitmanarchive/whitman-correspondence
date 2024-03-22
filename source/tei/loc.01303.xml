@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01303">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01303">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01303</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive November be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01303</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -53,7 +50,7 @@
                     <date cert="high" when="1886-11-18" xml:id="dat1">November 18, 1886</date>
                     <idno type="callno">Box 8, Reel 5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -83,19 +80,17 @@
                 18 '1886</note>
             <p>Yours of 31st and 1st rec'd.<ptr target="loc.01303_n6"/> I send the two Vols: of '76 Ed'n. I should accept with
                 thanks from your hands any contribution from my Irish friends (Prof. Edw'd Dowden
-                has already contributed liberally, &#38; should not be solicited any
-                further) Take leisure and ease ab't it &#38; let it amount to what it
-                    may&#8212;<hi rend="underline">or naught at all, if Destiny so
+                has already contributed liberally, &amp; should not be solicited any
+                further) Take leisure and ease ab't it &amp; let it amount to what it
+                    may—<hi rend="underline">or naught at all, if Destiny so
                         disposes</hi>.<ptr target="loc.01303_n1"/></p>
-            <p>(tr to last<ptr target="loc.01303_n4"/> Send me word if the two Vols. reach you safely. The price is &#163;2,<ptr
-                    target="loc.01303_n3"/> which please remit me by p. o. order.)
+            <p>(tr to last<ptr target="loc.01303_n4"/> Send me word if the two Vols. reach you safely. The price is £2,<ptr target="loc.01303_n3"/> which please remit me by p. o. order.)
                 </p>
-            <p>Yes, I should like to see the article in the <hi rend="underline">Quarterly</hi>.<ptr
-                    target="loc.01303_n2"/> My late bad spell of sickness seems to have passed
-                over&#8212;I was out driving yesterday the three sunny midday hours, &#38; enjoyed
+            <p>Yes, I should like to see the article in the <hi rend="underline">Quarterly</hi>.<ptr target="loc.01303_n2"/> My late bad spell of sickness seems to have passed
+                over—I was out driving yesterday the three sunny midday hours, &amp; enjoyed
                 them much.<ptr target="loc.01303_n5"/></p>
             <pb xml:id="leaf001v" facs="loc.01303.002_large.jpg" type="verso"/>
 
         </body>
     </text>
-</TEI> 
+</TEI>

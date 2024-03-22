@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00482"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00482"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00482</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00482</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">207&#8211;208</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">207–208</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -92,25 +89,23 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden New Jersey&#8212;U S America<ptr target="tex.00482_n1"/></name>
+                    <name type="place">Camden New Jersey—U S America<ptr target="tex.00482_n1"/></name>
                     <date when="1891-06-05">June 5 '91</date>
                 </dateline> 
             </opener>
-            <p>Thanks, dear friend&#8212;&#38; thanks, friends Bessie &#38; Isabella Ford,<ptr
-                target="med.00873_n1"/> R D Roberts of Cambridge,<ptr target="tex.00482_n4"/> &#38;
-                William,<ptr target="n3025"/> Arthur<ptr target="n5001"/> &#38; Ethel Thompson,<ptr target="tex.00482_n3"/> for the welcome &#38;
-                noble birthday gift wh' has safely reach'd me (40 pounds) &#38; is hereby
+            <p>Thanks, dear friend—&amp; thanks, friends Bessie &amp; Isabella Ford,<ptr target="med.00873_n1"/> R D Roberts of Cambridge,<ptr target="tex.00482_n4"/> &amp;
+                William,<ptr target="n3025"/> Arthur<ptr target="n5001"/> &amp; Ethel Thompson,<ptr target="tex.00482_n3"/> for the welcome &amp;
+                noble birthday gift wh' has safely reach'd me (40 pounds) &amp; is hereby
                     receipted.<ptr target="tex.00482_n2"/></p>
-            <p>I still hold the fort, (after a fashion)&#8212;send you my latest &#38; doubtless
-                concluding chirps of L of G. by this mail&#8212;also sent you lame report of late
-                birth-day spree<ptr target="loc.04326_n3"/>&#8212;I sit up most of the time&#8212;but am a fearful wreck f'm
-                grippe, gastric &#38; bladder malady &#38;c &#38;c&#8212;my vocalization &#38; right
-                arm power &#38; (sort o') ratiocination left middling fair&#8212;Dr Bucke<ptr
-                    target="n0119"/> has been here&#8212;has gone home to Canada&#8212;H
+            <p>I still hold the fort, (after a fashion)—send you my latest &amp; doubtless
+                concluding chirps of L of G. by this mail—also sent you lame report of late
+                birth-day spree<ptr target="loc.04326_n3"/>—I sit up most of the time—but am a fearful wreck f'm
+                grippe, gastric &amp; bladder malady &amp;c &amp;c—my vocalization &amp; right
+                arm power &amp; (sort o') ratiocination left middling fair—Dr Bucke<ptr target="n0119"/> has been here—has gone home to Canada—H
                     Stafford<ptr target="n0590"/> is living down as farmer (address Ashland, Camden
-                County, New Jersey) is well&#8212;has been quite ill&#8212;has two
-                children<ptr target="loc.03961_n5b"/>&#8212;Herbert Gilchrist<ptr target="n0262"/> at Centreport, Suffolk Co: N
-                Y: well&#8212;am sitting here comfortable as I write&#8212;</p>
+                County, New Jersey) is well—has been quite ill—has two
+                children<ptr target="loc.03961_n5b"/>—Herbert Gilchrist<ptr target="n0262"/> at Centreport, Suffolk Co: N
+                Y: well—am sitting here comfortable as I write—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

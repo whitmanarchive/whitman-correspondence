@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07662">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07662">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07662</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07662</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">206&#8211;207</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">206–207</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,7 +64,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 8 September 1888</title>
                     <date cert="high" when="1888-09-08" xml:id="dat1">September 8, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
@@ -98,35 +94,34 @@
             <opener>
                 <dateline>   
                     <name type="place">Camden</name>
-                    <date when="1888-09-08">Saturday Noon Sept 8 '88<ptr target="loc.07662_n1"
-                        /></date>
+                    <date when="1888-09-08">Saturday Noon Sept 8 '88<ptr target="loc.07662_n1"/></date>
                 </dateline>
                 <salute/>
             </opener>
 
-            <p>Your good letters come daily&#8212;I had quite set on sending you the mare &#38; ph&#230;ton<ptr target="n4172"></ptr> but
-                when I saw (&#38; saw clearly) the situation I resigned to give the scheme up &#38; have
+            <p>Your good letters come daily—I had quite set on sending you the mare &amp; phæton<ptr target="n4172"/> but
+                when I saw (&amp; saw clearly) the situation I resigned to give the scheme up &amp; have
                 sold the rig to Rev Mr Corning<ptr target="loc.07662_n5"/> here (the Unitarian minister) for ab't enough for
-                some bills needing payment<ptr target="loc.07662_n2"/>&#8212;O now I feel relieved&#8212;</p>
+                some bills needing payment<ptr target="loc.07662_n2"/>—O now I feel relieved—</p>
 
-            <p>Nothing particularly different in my sickness&#8212;or if anything it is a mild suspicion
-                of betterment&#8212;Tom Harned<ptr target="n4146"/> was here last evening, &#38; Horace<ptr target="n4267"/> is most faithful &#38;
-                invaluable to me, comes every evening, &#38; sees to the printing first rate&#8212;It is all
-                going on favorably&#8212;Morse<ptr target="duk.00863_n3"/> is in Chicago, working (moderately&#8212;writing some) &#38;
-                appears to be happy. Herbert Gilchrist<ptr target="n0262"/> has not been over here since&#8212;He has some
-                plan or art-design I guess&#8212;mystified to me so far&#8212;Osler<ptr target="n4302"/> is still away&#8212;expect him
-                back every day&#8212;Tennyson<ptr target="n0625"/> sent me his <hi rend="italic">Cordial best greetings</hi> by H G&#8212;he is well&#8212;&#38; I
-                hear from Ernest Rhys<ptr target="n4152"/>&#8212;I am lately looking at Froude's 2d vol. ab't Carlyle "Life in
-                London"<ptr target="loc.07662_n4"/>&#8212;the refreshing natural old fault finder of everything &#38; every person &#38;
-                writing, including his own utterances ("that cursed book" he calls the <hi rend="italic">Frederic</hi><ptr target="loc.07662_n6"/>)&#8212;</p>
-                <p>It is very moist &#38; clouded &#38; rather warm to-day&#8212;after two days and nights quite
-                cold&#8212;but the <hi rend="italic">summer</hi> season is over&#8212;I sit here the same&#8212;got down yesterday for
-                five minutes but hitch'd back soon&#8212;Every body is good&#8212;"Whatever consists with
-                thee," said Marcus Aurelius, "consists with me, O Nature."<ptr target="loc.07662_n7"/>&#8212;Best luck to your meter
-                scheme<ptr target="loc.07230_n2"/>&#8212;</p> 
+            <p>Nothing particularly different in my sickness—or if anything it is a mild suspicion
+                of betterment—Tom Harned<ptr target="n4146"/> was here last evening, &amp; Horace<ptr target="n4267"/> is most faithful &amp;
+                invaluable to me, comes every evening, &amp; sees to the printing first rate—It is all
+                going on favorably—Morse<ptr target="duk.00863_n3"/> is in Chicago, working (moderately—writing some) &amp;
+                appears to be happy. Herbert Gilchrist<ptr target="n0262"/> has not been over here since—He has some
+                plan or art-design I guess—mystified to me so far—Osler<ptr target="n4302"/> is still away—expect him
+                back every day—Tennyson<ptr target="n0625"/> sent me his <hi rend="italic">Cordial best greetings</hi> by H G—he is well—&amp; I
+                hear from Ernest Rhys<ptr target="n4152"/>—I am lately looking at Froude's 2d vol. ab't Carlyle "Life in
+                London"<ptr target="loc.07662_n4"/>—the refreshing natural old fault finder of everything &amp; every person &amp;
+                writing, including his own utterances ("that cursed book" he calls the <hi rend="italic">Frederic</hi><ptr target="loc.07662_n6"/>)—</p>
+                <p>It is very moist &amp; clouded &amp; rather warm to-day—after two days and nights quite
+                cold—but the <hi rend="italic">summer</hi> season is over—I sit here the same—got down yesterday for
+                five minutes but hitch'd back soon—Every body is good—"Whatever consists with
+                thee," said Marcus Aurelius, "consists with me, O Nature."<ptr target="loc.07662_n7"/>—Best luck to your meter
+                scheme<ptr target="loc.07230_n2"/>—</p> 
 
             <closer>
-                <salute>Love<ptr target="loc.07662_n3"/>&#8212;</salute>
+                <salute>Love<ptr target="loc.07662_n3"/>—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
         </body>

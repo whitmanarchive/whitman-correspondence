@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00357">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00357">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00357</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00357</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">186&#8211;187</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">186–187</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -100,7 +96,7 @@
                 <salute>Dear Edward Carpenter<ptr target="tex.00357_n2"/></salute>
             </opener>
 
-            <p>I will just write you a line or two&#8212;it will be very short&#8212;but show you that I am still in the land of the living, &amp; have not forgotten you&#8212;My four months jaunt in this noble ample healthy Canada country is done (it has been a great success to me)&#8212;I have traveled several thousand miles&#8212;mostly on the Lakes &amp; St Lawrence, very comfortably &amp; I am now on my way back home to Camden, stopping here only a short time. I am feeling heartier physically than for years&#8212;Camden will be my permanent P O address&#8212;Love to you&#8212;</p>
+            <p>I will just write you a line or two—it will be very short—but show you that I am still in the land of the living, &amp; have not forgotten you—My four months jaunt in this noble ample healthy Canada country is done (it has been a great success to me)—I have traveled several thousand miles—mostly on the Lakes &amp; St Lawrence, very comfortably &amp; I am now on my way back home to Camden, stopping here only a short time. I am feeling heartier physically than for years—Camden will be my permanent P O address—Love to you—</p>
        
             <closer>
                 <signed rend="right">Walt Whitman</signed>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07059"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Josie Morse to Walt Whitman, 22 November 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Josie Morse</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.07059</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Josie Morse</author>
+                    <title>Josie Morse to Walt Whitman, 22 November 1875</title>
+                    <date cert="high" when="1875-11-22" xml:id="dat1">November 22, 1875</date>  
+                    <idno type="callno">mss18630, box OV 1, series: Oversize, 1844–1952</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.02822</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="loc.01881"/>
+                    <relatedItem type="text" xml:id="rel02" target="loc.02146"/>
+                    <relatedItem type="document" target="wwa.00688"/>
+                    <note type="project" target="#rel01">Whitman pasted this letter together with a letter he received from Peter Doyle.</note>
+                    <note type="project" target="#rel02">Whitman used the back of this letter to draft his November 26, 1875, letter to Edwin Einstein.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Morse, Josie" ref="n5000">Josie Morse</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-08" who="#smb">final check, corrected</change>
+            <change when="2023-01-24" who="#aja">checked, corrected</change>
+            <change when="2022-04-03" who="#me">checked, corrected, fixed related item</change>
+            <change when="2022-02-03" who="#aja">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_cb.00294.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><gap reason="cutaway"/>York,</name>
+                    <date when="1875-11-22">Nov. 22, 1875.</date>
+                </dateline>
+                <salute>
+                    <gap reason="cutaway"/>n:
+                </salute>
+            </opener>
+            <p><gap reason="cutaway"/>I do not <gap reason="cutaway"/> I should address 
+                <gap reason="cutaway"/> I love you for <gap reason="cutaway"/>ess.</p>
+            <p><gap reason="cutaway"/>reat favor to ask <gap reason="cutaway"/> I hope 
+                you will <gap reason="cutaway"/> too great to grant. <gap reason="cutaway"/> 
+                please put your <gap reason="cutaway"/> the enclosed card?<ptr target="n5002f"/>
+                <gap reason="cutaway"/>se very happy.</p>
+            <closer>
+                <salute><gap reason="cutaway"/>rs respectfully,</salute>
+                <signed rend="right">Josie Morse</signed>
+            </closer>
+            <postscript>
+                <p><gap reason="cutaway"/> papa's box as <gap reason="cutaway"/> me sooner.</p>
+            </postscript>
+            <pb xml:id="leaf001va" facs="loc.02146.001_large.jpg" type="verso"/>
+            <pb xml:id="leaf001vb" facs="loc.02146.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

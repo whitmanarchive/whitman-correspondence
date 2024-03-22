@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bpl.00013">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Sylvester Baxter, 18 June [1887]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName> 
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>bpl.00013</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Sylvester Baxter, 18 June [1887]</title>
+                    <date cert="high" when="1887-06-18" xml:id="dat1">June 18, [1887]</date>
+                    <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="bpl.00014"/>
+                    <relatedItem type="document" target="wwa.00671"/>
+                    <note type="project" target="#rel01">Whitman wrote this letter on the back of the June 16, 1887, letter he received from William Sloane Kennedy. 
+                        Whitman sent Kennedy's letter as an enclosure for Baxter to read. The postscript written in the corner of the page to the left 
+                        of Whitman's letter to Baxter was written by Kennedy and was part of Kennedy's letter to Whitman.
+                      </note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Baxter, Sylvester" ref="n6000">Sylvester Baxter</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2023-08-15" who="#smb">final corrections</change>
+            <change when="2022-02-13" who="#me">checked, corrected, added related item</change>
+            <change when="2016-02-29" who="#cb">checked, corrected</change>
+            <change when="2016-01-25" who="#ss">checked, corrected</change>
+            <change when="2015-11-12" who="#aa">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="bpl.00013.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">328 Mickle street—</name>
+                    <name type="place">Camden New Jersey</name>
+                    <date when="1887-06-18">June 18</date>
+                </dateline>
+                <salute>Dear S B—</salute>
+            </opener>
+            <p>I just send Kennedy's<ptr target="n3039"/> letter &amp; write on it what suggests to me impromptu—Yes 
+                I am making calculation on a conveniently plann'd &amp; built house, &amp; garden, of my own (cheap &amp; 
+                democratic) either in the woods, or in sight of the sea, where I can haul in &amp; breathe a sane atmosphere, 
+                &amp; be secure like, either for the summers, or all the time yet vouchsafed to me. I think it would be best 
+                to get all the money–fund<ptr target="prc.00121_n3"/> in Mrs. F's,<ptr target="har.00049_n3"/> 
+                O'Reilly's,<ptr target="n4973"/> K's &amp; your hands (&amp; any others if any others there be)—putting 
+                it in a draught payable to my order &amp; send it to me here—I feel as if I could suit my wants &amp; 
+                tastes better probably deciding &amp; directing the practicality of the whole thing 
+                <hi rend="underline">myself</hi>—(I am sure you will all understand it.) Show this to Mrs. F and O'R—I 
+                wish them to know too how appreciatingly &amp; gratefully I feel ab't their help—&amp; that I appoint 
+                you to fully act as my representative &amp; (if need be) <hi rend="underline">receiver</hi> in the matter.<ptr target="bpl.00013_n1"/></p>
+            <p>As I write I am sitting here by the open window—Birds singing &amp; fine weather—but 
+                <hi rend="underline">hot</hi>—Herbert Gilchrist,<ptr target="n0262"/> of England, is here painting a 
+                portrait of me to take to E—</p>
+            <closer>
+                <salute>God bless you &amp; all—</salute>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="bpl.00014.001_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07215">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07215">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07215</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07215</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 22 July 1888</title>
                     <date cert="high" when="1888-07-22" xml:id="dat1">July 22, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -90,8 +86,7 @@
             <pb xml:id="leaf001r" facs="loc_es.00264.jpg" type="recto"/> 
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07215_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON,<lb/>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07215_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON,<lb/>
                         ONTARIO<lb/>London, Ont.,</name>
                     <date when="1888-07-22" rend="right"><handShift rend="manuscript"/>22 July
                             <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
@@ -105,26 +100,25 @@
                     <expan>would</expan>
                 </choice> hand over the balance of the M.S. to Traubel<ptr target="n4267"/> to do
                 the best he could with it. It is not good for you to be trying at it and
-                failing&#8212;you ought to let it go and forget
+                failing—you ought to let it go and forget
                 it as soon as possible. In your present state you would not do any good
                 with the Hicks<ptr target="loc.07215_n3"/> if you did go through it. Let Traubel have it
-                and tell him to alter nothing except where necessary to make <pb xml:id="leaf001v"
-                    facs="loc_es.00265.jpg" type="verso"/> sense and connection, and let it be
+                and tell him to alter nothing except where necessary to make <pb xml:id="leaf001v" facs="loc_es.00265.jpg" type="verso"/> sense and connection, and let it be
                 printed and the book brought to an end. We are having warm rainy weather here, all
                 crops look well. We are having a splendid year. Just now raspberries and currants
                 are plentiful with us. We had our first <hi rend="underline">new potatoes</hi> out
                 of our garden today (Your potatoes are <hi rend="underline">old</hi>
                 before this). In a few minutes I am going out
-                to Catholic Chapel&#8212;(we had protestant service this morning). There is nothing
+                to Catholic Chapel—(we had protestant service this morning). There is nothing
                 narrow about us here, we have all kinds of clergymen and services turn about. We are
-                all well, I am keeping first-rate. You seem to have had a cool summer so far&#8212;I
+                all well, I am keeping first-rate. You seem to have had a cool summer so far—I
                 hope it may keep on so</p> 
             <closer>
                 <salute>Your friend</salute> 
                 <signed rend="right">RM Bucke</signed>
             </closer>
             <pb xml:id="leaf002r" facs="loc_es.00262.jpg" type="recto"/>
-            <note type="editorial" resp="#ht" place="right">W.W. gave these to me July 25 1888 &#38;
+            <note type="editorial" resp="#ht" place="right">W.W. gave these to me July 25 1888 &amp;
                 advised that I retain them</note>
             <pb xml:id="leaf002v" facs="loc_es.00263.jpg" type="verso"/>
         </body>

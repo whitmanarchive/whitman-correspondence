@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03478">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to P. J. O'Shea, 13 December 1886</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>   
+                <respStmt> 
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="if">Ian Faith</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>  
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.03478</idno></publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to P. J. O'Shea, 13 December 1886</title>
+                    <date cert="high" when="1886-12-13" xml:id="dat1">December 13, 1886</date>
+                    <idno type="callno">MS18630, Box 4, Reel 8–9</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00304</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="O'Shea, P. J." ref="loc.03478_n4">P. J. O'Shea</persName>
+                </person>
+            </particDesc>    
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-05-03" who="#smb">final check, corrected, updated</change>
+            <change when="2022-05-01" who="#me">added envelope images and note</change>
+            <change when="2022-02-19" who="#me">checked, corrected, added DOI</change>
+            <change when="2015-05-25" who="#if">edited</change>
+            <change when="2015-10-30" who="#rf">encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+           <pb xml:id="leaf001r" facs="loc.03478.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">328 Mickle Street</name>
+                    <name type="place">Camden New Jersey<ptr target="loc.03478_n5"/></name>
+                    <date when="1886-12-13">Dec. 13 1886</date>
+                </dateline>
+            </opener>
+            <p>Thanks for your kind letter &amp; the nice gift<ptr target="loc.03478_n2"/>—the 
+                $10—which has safely reached me, &amp; is opportune—</p> 
+            <closer>  
+                <signed>Walt Whitman</signed>
+            </closer>
+            <postscript>
+                <p>I did not know of any "pirated edition" in Chicago—Do 
+                    you mean that some one has printed the book surreptitously 
+                    there—&amp; is or has been selling it?<ptr target="n1006b"/></p>
+            </postscript>           
+            <pb xml:id="leaf001v" facs="loc.03478.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.03480.001_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.03480.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc_tb.00238.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc_tb.00237.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

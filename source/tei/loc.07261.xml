@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07261">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07261">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07261</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07261</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1888-11-01" xml:id="dat1">November 1, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -94,8 +90,7 @@
                     <name type="place">LONDON.</name>
                     <name type="place">ONTARIO</name> 
                     <name type="place">London, Ont.,<ptr target="loc.07261_n1"/></name>
-                    <date when="1888-11-01"><handShift rend="manuscript"/>1 Nov<handShift
-                            rend="printed"/> 188<handShift rend="manuscript"/>8</date>
+                    <date when="1888-11-01"><handShift rend="manuscript"/>1 Nov<handShift rend="printed"/> 188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener> 
             <p>Another month commenced and am greatly in hopes we are to have some fine weather to
@@ -103,25 +98,22 @@
                 well. A lovely bright, hazy, warm, fresh autumn morning. I got yesterday the bundle
                 of papers including "Critic" and was much interested in the review of Crawford's
                     "Kalevala."<ptr target="loc.07261_n2"/> Also in the "Tribune" article on what New York is doing in the way of provision for
-                her insane&#8212;this is a live issue with us here at present and I forwarded the
+                her insane—this is a live issue with us here at present and I forwarded the
                 article with a letter to Hon<hi rend="superscript">ble</hi> A.S. Hardy (Provincial
-                Secretary)<ptr target="n4176"/> recommending that we do something of<pb
-                    xml:id="leaf002v" facs="loc_es.00445.jpg" type="verso"/> the same sort. In the
+                Secretary)<ptr target="n4176"/> recommending that we do something of<pb xml:id="leaf002v" facs="loc_es.00445.jpg" type="verso"/> the same sort. In the
                 afternoon came <hi rend="underline">McKay's</hi><ptr target="n4983"/> "November
-                    Boughs"<ptr target="n3999"/>&#8212;for which many thanks, I like it well
+                    Boughs"<ptr target="n3999"/>—for which many thanks, I like it well
                 and if I had not seen the other should have thought <hi rend="underline">it</hi>
                 quite perfect, as it is I like <hi rend="underline">your</hi> "N.B." with the limp
-                cover best. Horace<ptr target="n4267"/> tells me that Musgrove<ptr
-                    target="loc.07239_n2"/> is to leave on Sunday or Monday morning. I have written
+                cover best. Horace<ptr target="n4267"/> tells me that Musgrove<ptr target="loc.07239_n2"/> is to leave on Sunday or Monday morning. I have written
                 Ed. Wilkins<ptr target="n4319"/> and will have him leave here by 11.40 train Sunday
                 morning. He will reach Philadelphia about 8 a.m. Monday. I shall give him full
                 directions to your house and letters to you and to Mrs Davis.<ptr target="n6113"/>
-                Still no word from W<hi rend="underline">m</hi> Gurd<ptr target="n4284"
-                />&#8212;looks as if he has had an attack of agraphia&#8212;inability to
-                write&#8212;confound the fellow he promised to let me know every few days how he was
-                getting on and has only written one letter in 2&#189; weeks. All well here had a big
+                Still no word from W<hi rend="underline">m</hi> Gurd<ptr target="n4284"/>—looks as if he has had an attack of agraphia—inability to
+                write—confound the fellow he promised to let me know every few days how he was
+                getting on and has only written one letter in 2½ weeks. All well here had a big
                 crowd of young folk at the house last evening (All-Hallow-E'en) telling fortunes,
-                dancing &#38;c &#38;c great fun</p>
+                dancing &amp;c &amp;c great fun</p>
             <closer>
                 <salute>Affectionately</salute>
                 <signed>R M Bucke</signed>

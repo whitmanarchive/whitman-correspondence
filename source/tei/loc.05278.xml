@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05278">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05278">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05278</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05278</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,8 +55,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1969">1969</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">306&#8211;307</biblScope>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">306–307</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -70,7 +66,7 @@
                     <title>Walt Whitman to Fanny Raymond Ritter, 7 February 1880</title>
                     <date cert="high" when="1880-02-07" xml:id="dat1">February 7, 1880</date>
                     <orgName xml:id="loc">Miller's transcription is drawn from a photostat in the Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -106,16 +102,16 @@
                 <salute>Dear Mrs Ritter<ptr target="loc.05278_n1"/></salute>
             </opener>
             <p>I cheerfully consent to Professor's using the words of <hi rend="italic">Two
-                    Veterans</hi> for musical publication&#8212;&#38; also give permission for
-                further musical adaptation of my pieces&#8212;Am curious to see how they go&#8212;Am sure I <choice>
+                    Veterans</hi> for musical publication—&amp; also give permission for
+                further musical adaptation of my pieces—Am curious to see how they go—Am sure I <choice>
                     <abbr>sh'd</abbr>
                     <expan>should</expan>
                 </choice> be <choice>
                     <orig>impress'd</orig>
                     <reg>impressed</reg>
-                </choice> and pleased&#8212;My western trip has worked well&#8212;My health is about
-                the same as of late years&#8212;</p>
-            <p>When the music is printed&#8212;(if printed&#8212;) please send me a copy&#8212;</p>
+                </choice> and pleased—My western trip has worked well—My health is about
+                the same as of late years—</p>
+            <p>When the music is printed—(if printed—) please send me a copy—</p>
         </body>
     </text>
 </TEI>

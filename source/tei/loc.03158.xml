@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03158">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03158">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03158</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03158</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Sidney H. Morse</author>
@@ -54,7 +51,7 @@
                     <date cert="high" when="1887-12-25" xml:id="dat1">December 25, 1887</date>
                     <idno type="callno">MSS18630 Box 13</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,60 +78,53 @@
             <pb xml:id="leaf001r" facs="loc.03158.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <date when="1887-12-25" rend="center">Dec 25&#8212;'87</date>
+                    <date when="1887-12-25" rend="center">Dec 25—'87</date>
                     <name type="place" rend="right">Richmond Ind.<ptr target="loc.03158_n1"/></name>
                 </dateline>
                 <salute>Dear Walt,</salute>
             </opener>
-            <p> This is a fine Xmas morning&#8212;cold &#38; clear&#8212;the air full of church
+            <p> This is a fine Xmas morning—cold &amp; clear—the air full of church
                 bells chiming. </p>
 
-            <p> You should see my old mother&#8212;<unclear reason="illegible" resp="#nhg"
-                    cert="low">spry</unclear> today, gets about without a stick, not bowed, nor over
-                much wrinkled; full of fun and clear headed &#38; able to direct the turkey-stuffing
+            <p> You should see my old mother—<unclear reason="illegible" resp="#nhg" cert="low">spry</unclear> today, gets about without a stick, not bowed, nor over
+                much wrinkled; full of fun and clear headed &amp; able to direct the turkey-stuffing
                 and suet-pudding making as well as ever. She has kept her mentality (as the
                 spiritists used to say) as sound &amp; bright as ever it was. And her memory is
-                remarkable. She calls up the forgotten past and tells us all of our deeds &#38;
-                misdeeds. You bet she was awfully tickled to see me&#8212;I found them all <pb
-                    xml:id="leaf001v" facs="loc.03158.002_large.jpg" type="verso"/> abed, &#38; had
+                remarkable. She calls up the forgotten past and tells us all of our deeds &amp;
+                misdeeds. You bet she was awfully tickled to see me—I found them all <pb xml:id="leaf001v" facs="loc.03158.002_large.jpg" type="verso"/> abed, &amp; had
                 to <unclear reason="illegible" resp="#ak" cert="medium">ring</unclear> them up. They
-                all came down, my brothers, sister, &#38; the three children, &#38; didn't get back
-                to bed again till past one o clock. They also have a capacious tea pot, &#38; it was
-                well filled. I gave mother your compliments &#38; she sends her kindest to you,
-                &#38; hopes you will take a <unclear reason="illegible" resp="#ak" cert="medium"
-                    >start</unclear> someday as she did &#38; walk without cane. She was delighted
-                with the cake the Harned's sent, &#38; with Mrs Davis'<ptr target="n6113"/>
+                all came down, my brothers, sister, &amp; the three children, &amp; didn't get back
+                to bed again till past one o clock. They also have a capacious tea pot, &amp; it was
+                well filled. I gave mother your compliments &amp; she sends her kindest to you,
+                &amp; hopes you will take a <unclear reason="illegible" resp="#ak" cert="medium">start</unclear> someday as she did &amp; walk without cane. She was delighted
+                with the cake the Harned's sent, &amp; with Mrs Davis'<ptr target="n6113"/>
                 silk kerchief. She said the "angel food was sadly needed" in her family. And then
-                you should hear her laugh. <pb xml:id="leaf002r" facs="loc.03158.003_large.jpg"
-                    type="recto"/> She said she used to say when she was a girl, she hoped she
-                should never get so polite she couldn't laugh, &#38; she believes laughing has kept
+                you should hear her laugh. <pb xml:id="leaf002r" facs="loc.03158.003_large.jpg" type="recto"/> She said she used to say when she was a girl, she hoped she
+                should never get so polite she couldn't laugh, &amp; she believes laughing has kept
                 her alive. </p>
-            <p> I find my brother a very democratic individual&#8212;rather opinionated &#38; too
+            <p> I find my brother a very democratic individual—rather opinionated &amp; too
                 "damn sure" to get on easy with; but he allows two black fellows to sleep in his
-                shop &#38; ekes out their scanty subsistence with a cup of coffee &#38; a "bite,"
-                &#38; at Christmas dinner he had up an old lady who lives alone, a sort of
+                shop &amp; ekes out their scanty subsistence with a cup of coffee &amp; a "bite,"
+                &amp; at Christmas dinner he had up an old lady who lives alone, a sort of
                 counterpart to Aunt Mary. She thought she must do something, so she brought up a
-                "poor man's pudding" <pb xml:id="leaf002v" facs="loc.03158.004_large.jpg"
-                    type="verso"/> and we had the toughest job to get away with it, so as not to
+                "poor man's pudding" <pb xml:id="leaf002v" facs="loc.03158.004_large.jpg" type="verso"/> and we had the toughest job to get away with it, so as not to
                 disturb her. </p>
-            <p> I am in the midst of the confusion&#8212;all the family around &#38; talking, &#38;
-                the cold weather&#8212;I wonder if it's so in Camden. </p>
+            <p> I am in the midst of the confusion—all the family around &amp; talking, &amp;
+                the cold weather—I wonder if it's so in Camden. </p>
             <p> I just write this <hi rend="underline">memoranda</hi> to let you know the situation.
-                Perhaps Mrs Davis will care to read it, &#38; accept the old lady's proud thanks.
-                The first my brother said when I showed him the Hicks picture<ptr
-                    target="loc.03158_n2"/> was&#8212;"He's the man who said the blood of Christ has
+                Perhaps Mrs Davis will care to read it, &amp; accept the old lady's proud thanks.
+                The first my brother said when I showed him the Hicks picture<ptr target="loc.03158_n2"/> was—"He's the man who said the blood of Christ has
                 no more to do with our sins" &amp;c. He thinks it a grand head. </p>
             <p> Send me a few words if no more. Hope the day has been a merry one for you all. </p>
             <closer>
-                <salute rend="center">truly&#8212;</salute>
+                <salute rend="center">truly—</salute>
                 <signed rend="right">Sidney.</signed>
             </closer>
             <postscript>
                 <p>Care of Wm. B. Morse.</p>
             </postscript>
             <pb xml:id="leaf003r" facs="loc.03158.005_large.jpg" type="recto"/>
-            <note type="editorial" resp="#ww" place="left">from S H Morse | Richmond | Indiana | <hi
-                    rend="underline">Jan, 31 '88</hi></note>
+            <note type="editorial" resp="#ww" place="left">from S H Morse | Richmond | Indiana | <hi rend="underline">Jan, 31 '88</hi></note>
             <pb xml:id="leaf003v" facs="loc.03158.006_large.jpg" type="verso"/>
 
         </body>

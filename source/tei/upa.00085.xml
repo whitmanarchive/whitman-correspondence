@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00085">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00085">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt> 
             <publicationStmt>
-                <idno>upa.00085</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,13 +43,13 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00085</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Herbert Gilchrist, 7 April 1887</title>
                     <date cert="high" when="1887-04-07" xml:id="dat1">April 7, 1887</date>
-                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp;
                         Manuscript Library, University of Pennsylvania</orgName>
                 </bibl>
             </sourceDesc>
@@ -81,33 +77,31 @@
             <pb xml:id="leaf001r" facs="upa.00085.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">Camden&#8212;America</name>
-                    <date when="1887-04-07">&#8212;April 7 '87</date>
+                    <name type="place">Camden—America</name>
+                    <date when="1887-04-07">—April 7 '87</date>
                 </dateline>
                 <salute>Dear Herbert Gilchrist</salute>
             </opener>
-            <p><hi rend="underline">The book</hi> came two days ago, &#38; I have been looking over
-                all of it, &#38; reading a great part minutely&#8212;Surely it has been done well,
-                &#38; is a beautiful &#38; (in one sense) sufficient memorial of the noblest mother
-                &#38; woman. It appeals to my printer-sense too&#8212;is a handsome &#38; generous
-                piece of typography &#38; mechanical book making, with its excellent paper &#38;
-                press work&#8212;Thank you indeed dear H. for sending me an early copy<ptr
-                    target="upa.00085_n1"/>&#8212;George and Susan Stafford<ptr target="n0852d"/> are
-                still at Glendale&#8212;Debby and Jo<ptr target="upa.00085_n4"/> have gone to
-                Kansas&#8212;I was there last Sunday afternoon&#8212;they are well as
-                usual&#8212;Harry has had a surgical operation on his throat. He now comes up from
-                Marlton, (or Glendale) every day, to have the doctor watch &#38; dress it&#8212;is a
-                little reduced in flesh &#38; blood, but is getting along well&#8212;Ed and Van and George are
-                    well&#8212;Mont<ptr target="upa.00085_n5"/> is married<ptr target="upa.00085_n2"
-                />&#8212;(I went down Sunday to G to take him Harry home, at his request)&#8212;I am
-                still here in my shanty in Mickle street&#8212;probably <hi rend="underline">let
+            <p><hi rend="underline">The book</hi> came two days ago, &amp; I have been looking over
+                all of it, &amp; reading a great part minutely—Surely it has been done well,
+                &amp; is a beautiful &amp; (in one sense) sufficient memorial of the noblest mother
+                &amp; woman. It appeals to my printer-sense too—is a handsome &amp; generous
+                piece of typography &amp; mechanical book making, with its excellent paper &amp;
+                press work—Thank you indeed dear H. for sending me an early copy<ptr target="upa.00085_n1"/>—George and Susan Stafford<ptr target="n0852d"/> are
+                still at Glendale—Debby and Jo<ptr target="upa.00085_n4"/> have gone to
+                Kansas—I was there last Sunday afternoon—they are well as
+                usual—Harry has had a surgical operation on his throat. He now comes up from
+                Marlton, (or Glendale) every day, to have the doctor watch &amp; dress it—is a
+                little reduced in flesh &amp; blood, but is getting along well—Ed and Van and George are
+                    well—Mont<ptr target="upa.00085_n5"/> is married<ptr target="upa.00085_n2"/>—(I went down Sunday to G to take him Harry home, at his request)—I am
+                still here in my shanty in Mickle street—probably <hi rend="underline">let
                     down a peg or two</hi> from when I saw you last, but not much
-                different&#8212;mentally the same&#8212;physically a sad wreck&#8212;I am reciting my
-                "Death of Abraham Lincoln" lecture<ptr target="med.00796_n2"/> when I get a call&#8212;(as this is the
-                season)&#8212;go on to New York for that purpose April 14, if I can get
-                there&#8212;had a good visit from Chas Rowley<ptr target="upa.00085_n3"/> of
-                Manchester yesterday&#8212;I am well as usual&#8212;Love to you&#8212;Spring is
-                tardy here&#8212;My canary is singing blithely as I write&#8212;</p>
+                different—mentally the same—physically a sad wreck—I am reciting my
+                "Death of Abraham Lincoln" lecture<ptr target="med.00796_n2"/> when I get a call—(as this is the
+                season)—go on to New York for that purpose April 14, if I can get
+                there—had a good visit from Chas Rowley<ptr target="upa.00085_n3"/> of
+                Manchester yesterday—I am well as usual—Love to you—Spring is
+                tardy here—My canary is singing blithely as I write—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

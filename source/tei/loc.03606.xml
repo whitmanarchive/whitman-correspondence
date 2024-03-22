@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03606">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03606">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03606</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03606</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Michael Rossetti</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1885-01-01" xml:id="dat1">January 1, 1885</date>
                     <idno type="callno">MSS18630 Box 15</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -95,7 +91,7 @@
                 </dateline>
                 <salute>Dear Whitman,</salute>
             </opener>
-            <p> Some while ago I received your kind present of the 2 <choice><abbr>vols.</abbr><expan>volumes</expan></choice>&#8212;Leaves of Grass &amp; Specimen Days: recieved them, I am certain you
+            <p> Some while ago I received your kind present of the 2 <choice><abbr>vols.</abbr><expan>volumes</expan></choice>—Leaves of Grass &amp; Specimen Days: recieved them, I am certain you
                 will believe, with extreme pleasure, &amp; with a grateful sense of your continuing
                 to remember me across a somewhat long lapse of years. To be remembered by Walt
                 Whitman <pb xml:id="leaf001v" facs="loc.03606.002_large.jpg" type="verso"/> is what
@@ -111,11 +107,9 @@
                 copy of the book something <choice>
                     <abbr>wh.</abbr>
                     <expan>which</expan>
-                </choice> is absent even from M<hi rend="superscript">rs</hi> Gilchrist's<ptr
-                    target="n0259"/> copy&#8212;the photographs of your mother &amp; father. If you
+                </choice> is absent even from M<hi rend="superscript">rs</hi> Gilchrist's<ptr target="n0259"/> copy—the photographs of your mother &amp; father. If you
                 were blessed with an unsurpassably good mother, I can with truth say the same of
-                myself. My mother is still with us&#8212;aged nearly 85: health &amp; facul<pb
-                    xml:id="leaf002r" facs="loc.03606.003_large.jpg" type="recto"/>ties sound on the
+                myself. My mother is still with us—aged nearly 85: health &amp; facul<pb xml:id="leaf002r" facs="loc.03606.003_large.jpg" type="recto"/>ties sound on the
                 whole, but naturally bowed &amp; stricken with the weight of years. </p>
             <p> I have also scanned with a good deal of attention (that of complete re-reading) my
                 old &amp; constant admiration, the Leaves of Grass <choice>
@@ -136,8 +130,7 @@
                 may none the less be regarded as complete. </p>
             <pb xml:id="leaf002v" facs="loc.03606.004_large.jpg" type="verso"/>
             <p> I am glad to note in this country from time to time symptoms of the increasing
-                appreciation of your works: especially something written by Ruskin,<ptr
-                    target="n3013"/> &amp; the Sonata from the Lincoln Dirge. </p>
+                appreciation of your works: especially something written by Ruskin,<ptr target="n3013"/> &amp; the Sonata from the Lincoln Dirge. </p>
             <p> Accept as heretofore the affectionate respect &amp; regard of </p>
             <closer>
                 <salute>Yours always</salute>

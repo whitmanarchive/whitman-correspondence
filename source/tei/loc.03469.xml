@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03469">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03469">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03469</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03469</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Boyle O'Reilly</author>
@@ -57,7 +53,7 @@
                     <date cert="high" when="1885-03-05" xml:id="dat1">March 5, 1885</date>
                     <idno type="callno">MSS18630 Box 14</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -98,23 +94,22 @@
                 </dateline>
                 <salute>Dear Mr. Whitman,</salute>
             </opener>
-            <p>I am delighted to hear from you<ptr target="loc.03469_n1"/>&#8212;&amp; that you are
-                well. The books came all right: I enclose check for them&#8212;</p>
+            <p>I am delighted to hear from you<ptr target="loc.03469_n1"/>—&amp; that you are
+                well. The books came all right: I enclose check for them—</p>
             <p>Phil. Bagenal<ptr target="n3066b"/> writes me from London that he has lost your
-                picture by an accident to his house&#8212;fire, I presume; &amp; he wants another copy, with
+                picture by an accident to his house—fire, I presume; &amp; he wants another copy, with
                 your autograph addressed to him. (You remember that I introduced Bagenal to you; he
-                wrote article about you in The <pb xml:id="leaf001v"
-                    facs="loc.03469.002_large.jpg" type="verso"/>  
+                wrote article about you in The <pb xml:id="leaf001v" facs="loc.03469.002_large.jpg" type="verso"/>  
                 <pb xml:id="leaf002r" facs="loc.03469.003_large.jpg" type="recto"/> Gentleman's
                     Magazine;<ptr target="loc.03469_n2"/> &amp; he was an old friend of Standish
                     O'Grady,<ptr target="n0453"/> &amp;c. His name is O. H. Bagenal. He is now, by
                 the way, doing well: assistant editor of the St. James Gazette, &amp; private <choice><abbr>Sec.</abbr><expan>Secretary</expan></choice>
-                of the Earl of Dunraven&#8212;</p>
+                of the Earl of Dunraven—</p>
             <p>When sending the photo. for him, I wish you would send one to me also with your
                 autograph, &amp; one to Dr. Kelly.<ptr target="loc.03469_n3"/> It will gratify him
                 exceedingly. I enclose the price of the photographs. </p>
             <closer>
-                <salute>Good bye. Love to you&#8212;</salute>
+                <salute>Good bye. Love to you—</salute>
                 <signed>John Boyle O'Reilly</signed>
             <salute/>
                 <salute>Walt Whitman</salute>
@@ -123,4 +118,4 @@
             <pb xml:id="leaf002v" facs="loc.03469.004_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

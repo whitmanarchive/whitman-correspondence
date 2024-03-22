@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00571">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="m" type="main">Fred Vaughan to Walt Whitman, 30 April 1860</title>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00571">
+   <teiHeader>  
+      <fileDesc>   
+         <titleStmt> 
+            <title level="m" type="main">Fred B. Vaughan to Walt Whitman, 30 April 1860</title>
             <title level="m" type="sub">a machine readable transcription</title>
-            <author>Fred Vaughan</author>
+            <author>Fred B. Vaughan</author>
+            <editor>Stephanie Blalock</editor>
             <editor>Dennis Berthold</editor>
             <editor>Kenneth M. Price</editor>
             <respStmt>
@@ -19,8 +18,10 @@
                <persName xml:id="kk">Kathryn Kruger</persName>
                <persName xml:id="nk">Nick Krauter</persName>
                <persName xml:id="km">Kevin McMullen</persName>
+               <persName xml:id="smb">Stephanie Blalock</persName>
             </respStmt>
-            <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+            <sponsor>Center for Digital Research in the Humanities, University of
+               Nebraska-Lincoln</sponsor>
             <sponsor>University of Iowa</sponsor>
             <funder>National Historical Publications and Records Commission</funder>
          </titleStmt>
@@ -30,7 +31,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00571</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,34 +39,46 @@
                <addrLine>University of Nebraska-Lincoln</addrLine>
                <addrLine>P.O. Box 884100</addrLine>
                <addrLine>Lincoln, NE 68588-4100</addrLine>
-            </address>
+            </address> 
             <availability>
-               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+               <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                  Items in the Archive may be shared in accordance with the Fair Use provisions of
+                  U.S. copyright law. Redistribution or republication on other terms, in any medium,
+                  requires express written consent from the editors and advance notification of the
+                  publisher, Center for Digital Research in the Humanities. Permission to reproduce
+                  the graphic images in this archive has been granted by the owners of the originals
+                  for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00571</idno></publicationStmt>
          <sourceDesc>
             <bibl>
-               <author>Fred Vaughan</author>
-               <title>Fred Vaughan to Walt Whitman, 30 April 1860</title>
+               <author>Fred B. Vaughan</author>
+               <title>Fred B. Vaughan to Walt Whitman, 30 April 1860</title>
                <date when="1860-04-30">April 30, 1860</date>
-               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+               <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00399</idno>
+               <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                  Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <particDesc>
             <person role="sender">
-               <persName key="Vaughan, Fred" ref="loc.00571_n100">Fred Vaughan</persName>
+               <persName key="Vaughan, Fred B." ref="loc.00573_n100">Fred B. Vaughan</persName>
             </person>
             <person role="recipient">
                <persName key="Whitman, Walt">Walt Whitman</persName>
             </person>
-         </particDesc>
+         </particDesc> 
       </profileDesc>
       <revisionDesc>
+         <change who="#smb" when="2020-12-31">added notes, updated</change>
+         <change who="#smb" when="2020-01-21">added notes</change>
          <change who="#km" when="2015-10-13">removed unneeded note about "Mrs. Cooper"</change>
-         <change who="#ak" when="2015-02-12">corrected orgName, added pbs, corrected transcription</change>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+         <change who="#ak" when="2015-02-12">corrected orgName, added pbs, corrected
+            transcription</change>
+         <change who="#el" when="2014-08-15">added schematron declaration</change>
          <change who="#el" when="2013-11-22">converted to P5</change>
          <change who="#vs" when="2010-04-16">proofreading changes</change>
          <change who="#bbb" when="2009-08-18">proofread</change>
@@ -77,19 +90,39 @@
       </revisionDesc>
    </teiHeader>
    <text type="letter">
-      <body> 
+      <body>
          <pb xml:id="leaf001r" facs="loc_vm.00788.jpg" type="recto"/>
-            <opener>
-               <dateline>
-                  <name type="place"><handShift rend="printed"/>New York</name>
-                  <date when="1860-04-30"><handShift rend="manuscript"/>April 30th <handShift rend="printed"/>18<handShift rend="manuscript"/>60</date>
-               </dateline>
-               <salute>Walt,</salute>
-            </opener>
-         <p>I was very glad indeed to hear from you in answer to my last, and you know I could not but be gratified to find your business was progressing so favorably,&#8212;<ptr target="loc.00571_n2"/>
-            </p>
-         <p>In accordance with not only your wishes, but my own I went to Brooklyn yesterday and saw your Mother.&#8212;I found her alone, Matt<ptr target="loc.00571_n3"/> &amp; Jeff<ptr target="loc.00571_n4"/> out walking. Eddy<ptr target="loc.00571_n5"/> at church, and George<ptr target="loc.00571_n6"/> out somewhere's else I suppose. She did not remember me at first but as soon as she did she was very much pleased. I had a long talk, and settled the old $2.00 affair of Matts. I came away before she and Jeff returned. Walt, Mother says she feels first rate, is not at all sick, and I think she looks as well now as she did while I was living over there.&#8212;There is <pb xml:id="leaf001v" facs="loc_vm.00789.jpg" type="verso"/>no news here Walt. The last fight, the <choice><sic>Japenese</sic><corr>Japanese</corr></choice> Embassy, and the Charleston Democratic Convention, fill the papers to the exclusion of Every thing else.<ptr target="loc.00571_n7"/>&#8212;Dunn,<ptr target="loc.00571_n9"/> the ex stage driver is in Boston with that Circus Co. I think he will call upon you as I gave him your address.&#8212;If you come on here this [week] Be sure and make it your business to call and see me. Do not neglect it please Walt, for I want to see you very much. Mrs. Cooper &amp; Robert<ptr target="loc.00569_n4"/> send their loves. Ever yours, In a Hurry! Fred.</p>
-            <closer rend="right"/>
+         <opener> 
+            <dateline>
+               <name type="place"><handShift rend="printed"/>Manhattan<lb/>Express Company<lb/>Westcott, Dodd, &amp; Co.<lb/>General Office No 168 Broadway.</name>
+               <name type="place"><handShift rend="printed"/>New York<ptr target="loc.00571_n1"/></name>
+               <date when="1860-04-30"><handShift rend="manuscript"/>April 30th <handShift rend="printed"/>18<handShift rend="manuscript"/>60</date>
+            </dateline> 
+            <salute>Walt,</salute>
+         </opener>
+         <p>I was very glad indeed to hear from you in answer to my last,<ptr target="loc.00571_n10"/> and you know I could not
+            but be gratified to find your business was progressing so favorably,<ptr target="loc.00570_n8"/>—</p>
+         <p>In accordance with not only your wishes, but my own I went to Brooklyn yesterday and saw
+            your Mother.<ptr target="n0705"/>—I found her alone, Matt<ptr target="n0707"/> &amp; Jeff<ptr target="n0710"/> out walking. Eddy<ptr target="n1047"/> at church, and
+            George<ptr target="n0700b"/> out somewhere's else I suppose. She did not
+            remember me at first but as soon as she did she was very much pleased. I had a long
+            talk, and settled the old $2.00 affair of Matts. I came away before she and Jeff
+            returned. Walt, Mother says she feels first rate, is not at all sick, and I think she
+            looks as well now as she did while I was living over there<ptr target="loc.00571_n11"/>.—There is <pb xml:id="leaf001v" facs="loc_vm.00789.jpg" type="verso"/>no news here Walt. The last
+            fight, the <choice>
+               <sic>Japenese</sic>
+               <corr>Japanese</corr>
+            </choice> Embassy, and the Charleston Democratic Convention, fill the papers to the
+            exclusion of Every thing else.<ptr target="loc.00571_n7"/>—Dunn,<ptr target="loc.00571_n9"/> the ex stage driver is in Boston with that Circus Co. I think
+            he will call upon you as I gave him your address.—If you come on here this 
+            Be sure and make it your business to call and see me. Do not neglect it please Walt, for
+            I want to see you very much. Mrs. Cooper &amp; Robert<ptr target="loc.00569_n4"/> send
+            their loves.</p>    
+         <closer> 
+           <salute>Ever yours,</salute> 
+            <salute>In a Hurry!</salute> 
+            <signed>Fred.</signed>
+         </closer>
          <pb xml:id="leaf002r" facs="loc_vm.00786.jpg" type="recto"/>
          <pb xml:id="leaf002v" facs="loc_vm.00787.jpg" type="verso"/>
       </body>

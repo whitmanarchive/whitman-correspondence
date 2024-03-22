@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08334">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08334">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08334</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,12 +33,12 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be 
                      shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, 
                      requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. 
                      Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08334</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -51,9 +48,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">252&#8211;253</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">252–253</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -62,7 +59,7 @@
                     <title>Walt Whitman to Dr. John Johnston, 12 October 1891</title>
                     <date cert="high" when="1891-10-12" xml:id="dat1">October 12, 1891</date>
                     <idno type="callno">MMC-1482; MSS90019</idno>
-                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1899&#8211;1913, 
+                    <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers, 1899–1913, 
                         Library of Congress, Washington, D.C.</orgName>   
                 </bibl>
             </sourceDesc>
@@ -88,20 +85,18 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden N J&#8212;U S America<ptr target="loc.08334_n1"/></name>
+                    <name type="place">Camden N J—U S America<ptr target="loc.08334_n1"/></name>
                     <date when="1891-10-12">Evn'g Oct: 12 '91</date>
                 </dateline>
             </opener>
-            <p>Nothing very different or notable&#8212;printed leaves f'm you rec'd&#8212;J W W[allace]<ptr target="n6121"/> still at 
+            <p>Nothing very different or notable—printed leaves f'm you rec'd—J W W[allace]<ptr target="n6121"/> still at 
                 Brooklyn, New York,<ptr target="loc.04403_n2"/> (perhaps gone down to West 
-                Hills)&#8212;Expect him daily&#8212;also Andrew Rome<ptr target="loc.04931_n2"/>&#8212;Cold &amp; wintry here&#8212;I
-                have oak-wood fire&#8212;have put on one of Mr Hodgkinson's<ptr target="loc.04829_n1"/> presented 
-                undershirts&#8212;first rate&#8212;fit &amp; all&#8212;Love to you all&#8212;</p>
+                Hills)—Expect him daily—also Andrew Rome<ptr target="loc.04931_n2"/>—Cold &amp; wintry here—I
+                have oak-wood fire—have put on one of Mr Hodgkinson's<ptr target="loc.04829_n1"/> presented 
+                undershirts—first rate—fit &amp; all—Love to you all—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
         </body>
     </text>
 </TEI>
-
-

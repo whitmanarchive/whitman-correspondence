@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00437">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00437">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to James R. Osgood &#38; Company, 7 March
+                <title level="m" type="main">Walt Whitman to James R. Osgood &amp; Company, 7 March
                     1882</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00437</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00437</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,15 +55,15 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">267&#8211;268</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">267–268</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to James R. Osgood &#38; Company, 7 March 1882</title>
+                    <title>Walt Whitman to James R. Osgood &amp; Company, 7 March 1882</title>
                     <date cert="high" when="1882-03-07" xml:id="dat1">March 7, 1882</date>
                     <orgName xml:id="tex">T. E. Hanley Collection, Harry Ransom Center, The University of Texas at Austin</orgName>
                 </bibl>
@@ -98,20 +94,17 @@
             <opener> 
                 <dateline>
                     <name type="place">Camden New Jersey</name>
-                    <date when="1882-03-07">March 7 '82<ptr target="upa.00201_n1"
-                        /></date>
+                    <date when="1882-03-07">March 7 '82<ptr target="upa.00201_n1"/></date>
                 </dateline> 
             </opener>
-            <p>I am not afraid of the District Attorney's threat&#8212;it quite certainly could not
-                amount to any thing&#8212;but I want you to be satisfied, to continue as publishers
-                of the book (&#38; I had already thought favorably of some such brief
+            <p>I am not afraid of the District Attorney's threat—it quite certainly could not
+                amount to any thing—but I want you to be satisfied, to continue as publishers
+                of the book (&amp; I had already thought favorably of some such brief
                 cancellation.)</p>
-            <p>Yes, under the circumstances I am willing to make a revision &#38; cancellation in
-                the pages alluded to&#8212;wouldn't be more than half a dozen anyhow&#8212;perhaps
-                indeed about ten lines to be left out, &#38; half a dozen words or phrases.<ptr
-                    target="upa.00201_n2"/></p>
-            <p>Have just returned from a fortnight down in the Jersey woods,<ptr
-                    target="upa.00201_n3"/> &#38; find your letter&#8212;</p>
+            <p>Yes, under the circumstances I am willing to make a revision &amp; cancellation in
+                the pages alluded to—wouldn't be more than half a dozen anyhow—perhaps
+                indeed about ten lines to be left out, &amp; half a dozen words or phrases.<ptr target="upa.00201_n2"/></p>
+            <p>Have just returned from a fortnight down in the Jersey woods,<ptr target="upa.00201_n3"/> &amp; find your letter—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

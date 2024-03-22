@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="col.00006">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to William Sloane Kennedy, 11 August
+                    [1886]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
+                    <persName xml:id="kb">Kyle Barton</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>col.00006</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to William Sloane Kennedy, 11 August [1886]</title>
+                    <date cert="medium" when="1886-08-11" xml:id="dat1">August 11, 1886</date>
+                    <orgName xml:id="col">Columbia University Libraries, Rare Book &amp; Manuscript
+                        Library, New York</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="wsk"><persName key="Kennedy, William Sloane">William Sloane
+                        Kennedy</persName></handNote>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Kennedy, William Sloane" ref="n3039">William Sloane
+                        Kennedy</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+           <change when="2022-07-20" who="#aja">final corrections</change>
+            <change when="2022-07-11" who="#smb">final check, corrected</change>
+            <change when="2022-07-11" who="#pw">checked, corrected</change>
+            <change when="2022-03-15" who="#smb">check, corrected</change>
+            <change when="2022-02-05" who="#me">checked, corrected</change>
+            <change when="2015-07-16" who="#ss">corrected</change>
+            <change when="2015-03-25" who="#kb">edited</change>
+            <change when="2014-10-24" who="#ss">encoded and annotated from Miller.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="col.00006.001_large.jpg" type="recto"/>
+            <note type="editorial" resp="#unk" place="top">(over)</note>
+            <note type="editorial" resp="#unk" place="top">['86]</note>
+            <opener>
+                <dateline>
+                    <name type="place"><hi rend="underline">Camden</hi></name>
+                    <date when="1886-08-11" rend="right">Aug: 11 Evn'g<ptr target="col.00006_n1"/></date>
+                </dateline>
+            </opener>
+            <p>I may keep the MS<ptr target="col.00006_n2"/> a few days longer—two or
+                three—I find upon taking it up to–day, it has a wonderful
+                tenacity—of course a capital sign—I will send a few
+                suggestion–notes—</p>
+            <closer>
+                <signed>W W</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="col.00006.002_large.jpg" type="verso"/>
+            <note type="editorial" resp="#wsk" place="top">This card relates to the ms of my 'Walt
+                Whitman, the Poet of Humanity'</note> 
+        </body>
+    </text>
+</TEI>

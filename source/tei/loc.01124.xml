@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01124">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John Burroughs to Walt Whitman, 17 May 1874</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Burroughs</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01124</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John Burroughs</author>
+                    <title>John Burroughs to Walt Whitman, 17 May 1874</title>
+                    <date cert="high" when="1874-05-17" xml:id="dat1">May 17, 1874</date>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00111</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace
+                    Traubel</persName></handNote>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt
+                    Whitman</persName></handNote>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Burroughs, John" ref="n0129">John Burroughs</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc> 
+        <revisionDesc>
+            <change when="2023-08-21" who="#smb">updated note</change>
+            <change when="2023-06-28" who="#aja">final corrections for Ken</change>
+            <change when="2023-06-08" who="#aja">checked, corrected</change>
+            <change when="2022-10-24" who="#pw">checked</change>
+            <change when="2022-03-07" who="#cn">checked, corrected</change>
+            <change when="2021-12-02" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-05-08">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-10-19" who="#cb">proofed</change>
+            <change when="2012-03-02" who="#js">proofed</change>
+            <change when="2012-02-23" who="#km">checked</change>
+            <change when="2011-10-19" who="#ej">Transcribe/Encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                    <pb xml:id="leaf001r" facs="loc.01124.001_large.jpg" type="recto"/>
+                    <note type="editorial" place="top" resp="#ht">see notes July 26 <hi rend="underline">1888</hi></note>
+                    <note type="editorial" place="top" resp="#ww">Ans. May 21</note>
+                    <name type="place">Esopus N.Y.,</name>
+                    <date when="1874-05-17">May 17. 74</date>
+                </dateline>
+                <salute>Dear Walt:</salute>
+            </opener>
+            <p>I <choice>
+                    <abbr>rec<hi rend="underline">d</hi><expan>received</expan></abbr>
+                </choice> a magazine (the Galaxy)<ptr target="n0254"/> from you yesterday, which I
+                have been peeping in a little to day, but the day has been so beautiful &amp; the
+                charm of the open air so great that I could not long keep my eyes on the printed
+                page. The season is at last fairly in for it, and the fruit trees are all getting in
+                bloom. My bees are working like beavers &amp; there is a stream of golden thighs
+                pouring into the hive all the time. I can do almost anything with them &amp; they
+                wont sting me. Yesterday I turned a hive up &amp; pruned it, that is cut out a lot
+                of old dirty comb; the little fellows were badly frightened &amp; came pouring out,
+                in great consternation, but did not offer to sting me. I am <pb xml:id="leaf001v" facs="loc.01124.002_large.jpg" type="verso"/>
+                <note resp="#unk" type="editorial" place="top">This page only</note>
+                going to transfer a swarm in a day or two to a new style of hive. I spend all my
+                time at work about the place &amp; like it much. I run over to W. to look after bank
+                matters for a day or two then back here. The house is being plastered &amp; will be
+                finished during the summer. The wrens &amp; robins &amp; phoebe birds have already
+                taken possession of various nooks of it, &amp; if they are allowed to go on with
+                their building I must stop mine. During that snow storm the last of april the Hermit
+                thrush took refuge in it. We are surrounded with birds here &amp; they are a great
+                comfort &amp; delight to me.</p>
+            <p>Your room is ready for you &amp; your breakfast plate warmed. When will you come? I
+                know the change would do you good &amp; your presence would certainly do us good. We
+                are counting on your coming &amp; do not disappoint us. I will meet you in N.Y. if
+                you will tell me when. Let us hear from you soon. Ursula<ptr target="n0892"/> sends
+                love.</p>
+            <closer>
+                <salute>As Ever</salute>
+                <signed>John Burroughs</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

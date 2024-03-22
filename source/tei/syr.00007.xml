@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="syr.00007">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Rudolf Schmidt to Walt Whitman, 26 June 1874</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Rudolf Schmidt</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>syr.00007</idno></publicationStmt>            
+            <sourceDesc>       
+                <bibl>
+                    <author>Rudolf Schmidt</author>
+                    <title>Rudolf Schmidt to Walt Whitman, 26 June 1874</title>  
+                    <date cert="high" when="1874-06-26" xml:id="dat1">June 26, 1874</date>
+                    <idno type="callno">Box 1</idno>
+                    <orgName xml:id="syr">Walt Whitman Collection, Special Collections Research Center, Syracuse University Library, Syracuse, N.Y.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>             
+                <person role="sender">
+                    <persName key="Schmidt, Rudolf" ref="n3070">Rudolf Schmidt</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-07-31" who="#smb">updated notes</change>
+            <change when="2022-10-27" who="#aja">checked, corrected</change>
+            <change when="2022-03-10" who="#cn">checked, corrected</change>
+            <change when="2021-12-04" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-30">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2013-02-07" who="#cb">proofed</change>
+            <change when="2012-05-02" who="#nnk">proofed</change>
+            <change when="2012-03-05" who="#al">Checked and corrected</change>
+            <change when="2012-01-27" who="#js">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>          
+            <pb xml:id="leaf001r" facs="syr.00007.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Kopenhagen,</name>
+                    <date when="1874-06-26">26 Juny 1874.</date>
+                </dateline>
+                <salute>Dear Walt Whitman,</salute>
+            </opener> 
+            <p>1) The address of K. Elster<ptr target="n0216"/> is
+                <address>
+                    <addrLine>Mr. Kristian Elster</addrLine>
+                    <addrLine>Strandgade 38</addrLine>
+                    <addrLine>Throndhjem</addrLine>
+                    <addrLine>Norway</addrLine>
+                </address>
+            </p>
+            <p>2) I wrote in the midst of March a long letter to you in a large yellow <choice><sic>enveloppe</sic><corr>envelope</corr></choice>;<ptr target="syr.00007_n1"/>—have you received it?</p>
+            <p>3) I should be glad, if John Burroughs<ptr target="n0129"/> would send me his photography; tell him that I 
+                like his book very much.</p>
+            <p>I received in March or April with an interval of eight days both the prayer of Columbus and 
+                The redwood Tree<ptr target="loc.02875_n1"/> in Harper's Magazine.<ptr target="n6009"/> 
+                Of the redwood Tree I have had the greatest. It is your old great theme 
+                in a simple and powerful <choice><sic>stile</sic><corr>style</corr></choice>, 
+                embracing the holy and original nation of the far West.</p>
+            <p>5) I am very glad to be furnished with new materials concerning the American humor. In these waggish gasconades 
+                lies the em<pb xml:id="leaf001v" facs="syr.00007.002_large.jpg" type="verso"/>bryon                     
+                of a comical poet greater than any of the old world's in present and past. But you, your humourists of the day 
+                I don't like. Mark Twain<ptr target="ucb.00961_n2"/> has been translated into Danish this year. He is a detestable fool.</p>
+            <p>6) Clemens Petersen's<ptr target="n0780"/> letter has amused me very much. His force is the psychological critic, 
+                the analyzing power, which he can't use in America, where the <hi rend="underline">words</hi> have too much
+                to do to follow such subtle explorings. Therefore he has had to be poetical traveller; but his fancy is 
+                important and he has no great sum of observation. In Sweden he never has had his foot. 
+                Touching is what he speaks of "a letter from your mother". His mother, which he never shall see more,
+                is the only <choice><sic>beeing</sic><corr>being</corr></choice> in the world, which he loves. 
+                I should be glad to have the continuation of his letters.</p>
+            <p>7) I have sent you all the criticisms on your book, slang, chatter and earnest critic—all the criticism in 
+                "Dags Telegrafen"<ptr target="n0177"/> is good, but the best is Elster's. I got the number of "Aftenbladet"<ptr target="syr.00007_n2"/> 
+                here in Kopenhagen and sent it you for security's sake; probably it has also been sent you from Norway. It should 
+                interest me to know what impression also these varie<pb xml:id="leaf002r" facs="syr.00007.003_large.jpg" type="recto"/>gated
+                 opinions have made on you. Particularly I long to hear, if the criticism of Elster has been completely translated 
+                 to you.</p>
+            <p>8) Has this translation of your book into Danish<ptr target="n0189"/> not been spoken of in the American papers?</p>
+            <p>May the line meet you in good health and <choice><sic>joyfull</sic><corr>joyful</corr></choice>. Do you understand my bad English?</p>
+            <closer>
+                <salute>Yours</salute>
+                <signed>Rudolf Schmidt</signed>
+            </closer>            
+            <pb xml:id="leaf002v" facs="syr.00007.004_large.jpg" type="verso"/>            
+            <note type="editorial" resp="#ww" place="bottom">June 26 '74 | Rudolf Schmidt</note>            
+        </body>
+    </text>
+</TEI>

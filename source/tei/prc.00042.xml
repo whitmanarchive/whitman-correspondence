@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00042">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Ellen M. O'Connor, 13 July
+                    [1876]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="jyc">Jonathan Y. Cheng</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>prc.00042</idno></publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="tg">Walt Whitman: The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date>1964</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">54</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Ellen M. O'Connor, 13 July [1876]</title>
+                    <date cert="medium" when="1876-07-13" xml:id="dat1">July 13, [1876]</date>
+                    <orgName xml:id="prc">Private Collection of G. Ross Roy</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="O'Connor, Ellen" ref="n4137">Ellen O'Connor</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-11-25" who="#smb">final check, corrected</change>
+            <change when="2022-03-23" who="#em">checked</change>
+            <change when="2022-01-06" who="#aja">checked, added notes</change>
+            <change who="#ak" when="2014-11-04">added annotations</change>
+            <change who="#jyc" when="2014-10-07">checked, revised</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-06-13" who="#nnk">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <opener>
+                <dateline>
+                <name type="place" rend="right">431 Stevens</name>
+                <name type="place" rend="right">Camden</name>
+                <date when="1876-07-13" rend="right">July 13</date></dateline>
+                <salute>Nelly,</salute>
+            </opener>
+            <p>this is a sad house to-day—little Walt<ptr target="n0712"/> died last
+                evening about ¼ past 8. Partially sick but sudden at last—suddenly turned
+                to water on the brain—is to be buried to-morrow afternoon at 4—</p>
+            <p>George<ptr target="n0700b"/> and Lou<ptr target="loc.00665_n2"/> are standing it pretty 
+                well—I am miserable—he knew me so
+                well—we had already such good times—&amp; I was counting so
+                much—My St. Louis nieces<ptr target="duk.00434_n1b"/> are here—they 
+                are well—Nelly dear, send me back their photos &amp; 
+                Jeff's<ptr target="n4995"/>—the heat here has been &amp; is
+                dreadful—Love to you—write—</p>
+            <closer>
+                <signed>W W</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

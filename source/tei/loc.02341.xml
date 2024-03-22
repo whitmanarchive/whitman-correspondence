@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02341">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Thaddeus Hyatt to Walt Whitman, 18 March 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Thaddeus Hyatt</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02341</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Thaddeus Hyatt</author>
+                    <title>Thaddeus Hyatt to Walt Whitman, 18 March 1892</title>
+                    <date cert="high" when="1892-03-18" xml:id="dat1">March 18, 1892</date>
+                    <idno type="callno">MSS18630, Box 11, Reel 7</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00227</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Hyatt, Thaddeus" ref="loc.02340_n1">Thaddeus Hyatt</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-08" who="#aja">final corrections</change>
+            <change when="2022-01-04" who="#smb">final check, corrected, added notes, added DOI</change>  
+            <change when="2021-09-21" who="#aja">2nd check, notes</change>            
+            <change when="2021-07-19" who="#aja">checked, corrected</change>
+            <change when="2019-10-07" who="#cn">transcribed, encoded</change> 
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02341.001_large.jpg" type="recto"/>
+            <opener>  
+                <dateline>
+                    <name type="place">73 Henry Street<ptr target="loc.02341_n1"/></name>
+                    <name type="place">Brooklyn NY</name>
+                    <date when="1892-03-18">18 March 1892</date>
+                </dateline>
+                <salute>Dear Mr Whitman,</salute>
+            </opener>
+            <p>With this I mail to you a copy of a collection of verses entitled "Loves Seasons
+                or Tides of the Heart,"—which I hope you are well enough to find some pleasure 
+                in reading.</p>
+            <p>But the <hi rend="underline">real poetry</hi> you will find I think in
+                "Note 4" in 
+                <pb xml:id="leaf001v" facs="loc.02341.002_large.jpg" type="verso"/> 
+                the Appendix, to which I invite your attention.—</p>
+            <p>Notes 3 &amp; 4 present for the consideration of thoughtful minds a new view of man;
+                &amp; the Fowler &amp; Wells Co:<ptr target="loc.02340_n3"/>—are so much impressed by it that they are about to
+                send these notes out as a leaflet to the men of thought at present engaged in studies
+                of this nature.</p> 
+            <p>I shall be glad to hear from you &amp; to know that your health is quite 
+                restored.—I remain
+           </p>
+            <closer>
+                <salute>Very Sincerely Yours</salute>
+                <signed>Thaddeus Hyatt</signed> 
+            </closer>
+            <pb xml:id="leaf002r" facs="loc.02341.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.02341.004_large.jpg" type="verso"/>   
+            <pb xml:id="leaf003r" facs="loc.02341.005_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc.02341.006_large.jpg" type="verso"/>  
+        </body>
+    </text> 
+</TEI>

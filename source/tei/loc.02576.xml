@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02576"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02576"> 
     <teiHeader> 
         <fileDesc>
             <titleStmt> 
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02576</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02576</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>John H. Johnston</author>
                     <title>John H. Johnston to Walt Whitman, 23 September 1890</title>
                     <date cert="high" when="1890-09-23" xml:id="dat1">September 23, 1890</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00249</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,32 +82,25 @@
             <opener>
                 <dateline>
                     <name type="place">
-                        <handShift rend="printed"/> J<hi rend="smallcaps">ohn</hi> H. J<hi
-                            rend="smallcaps">ohnston</hi>. A<hi rend="smallcaps">lbert</hi> E<hi
-                            rend="smallcaps">dw</hi>. J<hi rend="smallcaps">ohnston</hi>. <lb/> J.
-                        H. JOHNSTON &#38; CO., <lb/> Diamond Merchants and Jewelers. <lb/> 17 Union
-                        Square, New York. <lb/> C<hi rend="smallcaps">or</hi>. B<hi rend="smallcaps"
-                            >roadway</hi> &#38; 15<hi rend="smallcaps">th</hi> S<hi rend="smallcaps"
-                            >t</hi>. <lb/>
+                        <handShift rend="printed"/> J<hi rend="smallcaps">ohn</hi> H. J<hi rend="smallcaps">ohnston</hi>. A<hi rend="smallcaps">lbert</hi> E<hi rend="smallcaps">dw</hi>. J<hi rend="smallcaps">ohnston</hi>. <lb/> J.
+                        H. JOHNSTON &amp; CO., <lb/> Diamond Merchants and Jewelers. <lb/> 17 Union
+                        Square, New York. <lb/> C<hi rend="smallcaps">or</hi>. B<hi rend="smallcaps">roadway</hi> &amp; 15<hi rend="smallcaps">th</hi> S<hi rend="smallcaps">t</hi>. <lb/>
                         <milestone unit="undeclared" rend="horbar-short-center"/>
                         <lb/> Established, 1844. <lb/> Telephone Call: 916 21st Street. </name>
                     <name type="place">New York,<ptr target="loc.02576_n1"/></name>
-                    <date when="1890-09-23"><handShift rend="manuscript"/>Sept 23 <handShift
-                            rend="printed"/>18<handShift rend="manuscript"/>90</date>
+                    <date when="1890-09-23"><handShift rend="manuscript"/>Sept 23 <handShift rend="printed"/>18<handShift rend="manuscript"/>90</date>
                 </dateline>
                 <salute>Dear Walt:</salute>   
             </opener> 
-            <p>Your postal<ptr target="loc.02576_n2"/> is rec'd&#8212;I sent the material<ptr
-                    target="loc.02576_n3"/> you mailed me to Ingersoll,<ptr target="n0839"/> and
-                have no doubt he will find it useful&#8212;</p>
-            <p>Now then; If you can get to Phil for an even'g&#8212;What is to hinder your being
+            <p>Your postal<ptr target="loc.02576_n2"/> is rec'd—I sent the material<ptr target="loc.02576_n3"/> you mailed me to Ingersoll,<ptr target="n0839"/> and
+                have no doubt he will find it useful—</p>
+            <p>Now then; If you can get to Phil for an even'g—What is to hinder your being
                 wheeled into a car and being whisked over here in two hours, then after three days
-                good solid rest, with Mrs Davis<ptr target="n6113"/> &#38; your nurse<ptr
-                    target="loc.07319_n6"/> to help, you will be able to go to one of our great
-                Halls or Opera house &#38; listen to Ingersoll.<ptr target="loc.02574_n3"/></p>
-            <p>In other words&#8212;If the thing comes off here, it will knock Phil. right
-                out&#8212;I believe<pb xml:id="leaf002v" facs="loc.02576.002.jpg" type="verso"/>
-                you can stand it easy&#8212;</p>
+                good solid rest, with Mrs Davis<ptr target="n6113"/> &amp; your nurse<ptr target="loc.07319_n6"/> to help, you will be able to go to one of our great
+                Halls or Opera house &amp; listen to Ingersoll.<ptr target="loc.02574_n3"/></p>
+            <p>In other words—If the thing comes off here, it will knock Phil. right
+                out—I believe<pb xml:id="leaf002v" facs="loc.02576.002.jpg" type="verso"/>
+                you can stand it easy—</p>
             <p>Alma<ptr target="n3029"/> says "We will give Uncle Walt our floor and he will be as
                 comfortable as any one possibly can be"<ptr target="loc.02574_n4"/></p>
             <p>We live in Stuyvesant Square, 4 story wide house 3 rooms deep, so you see you can

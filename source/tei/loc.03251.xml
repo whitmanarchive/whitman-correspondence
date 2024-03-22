@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03251">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">John William Lloyd to Walt Whitman, 1 December 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John William Lloyd</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="lc">Lauren Claeys</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588–4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.03251</idno></publicationStmt>
+            <sourceDesc> 
+                <bibl>
+                    <author>John William Lloyd</author>
+                    <title>John William Lloyd to Walt Whitman, 1 December 1891</title>
+                    <date cert="high" when="1891-12-01" xml:id="dat1">December 1, 1891</date>
+                    <idno type="callno">MSS18630, Box 13, Reel 8</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00268</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="unk">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Lloyd, John William" ref="loc.03250_n3">John William Lloyd</persName>
+                 </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person> 
+            </particDesc>  
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-20" who="#aja">final corrections</change>
+            <change when="2022-01-03" who="#smb">final check, corrected, added notes</change>
+            <change when="2021-09-15" who="#cn">checked, corrected, added notes</change>
+            <change when="2021-07-17" who="#aja">checked, corrected</change>
+            <change when="2020-12-05" who="#lc">transcribed, encoded; SLIS:6335: Metadata Theories and Applications Class, Fall 2020, Micah Bateman, Lecturer, 
+                University of Iowa</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.03251.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place" rend="right">5 East 63<hi rend="underline">d</hi> Street, New York City</name>
+                    <date when="1891-12-01" rend="right">12/1/'91.<ptr target="loc.03251_n1"/></date>
+                </dateline>
+                <salute>Dear Walt Whitman:—</salute>
+            </opener>
+            <p>Your book,<ptr target="loc.04811_n6"/> which is in every way most satisfactory, arrived this morning.</p>
+			<p>Thank you for your promptness, and your kind confidence in sending it before receiving the balance.</p>
+			<p>I remit with this the $3.40 lacking, and will be grateful if you will notify me of its safe receipt.</p>
+			<p>Wishing you renewed health and years of life to enjoy it—</p>
+			<closer>
+                <signed rend="right">J. Wm. Lloyd.</signed>
+            </closer>
+            <postscript>
+				<p>Will induce others to purchase your book if I can.</p>
+			</postscript>
+            <note type="editorial" resp="#unk" place="left">J Wm Lloyd</note>
+            <pb xml:id="leaf001v" facs="loc.03251.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.03251.003_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.03251.004_large.jpg" type="verso"/>     
+        </body>
+    </text>
+</TEI>

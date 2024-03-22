@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05871">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05871">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05871</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability> 
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05871</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -55,9 +51,9 @@
                     <date cert="high" when="1888-07-02" xml:id="dat1">July 2, 1888</date>
                     <idno type="callno"/>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.05870"/>
-                    <relatedItem type="document" target ="wwa.00206"/>
+                    <relatedItem type="document" target="wwa.00206"/>
                     <note type="project" target="#rel01">Whitman drafted this letter to Bucke on the back of the second page
                     of a letter he received from Robert Pearsall Smith (per Smith's daughter, Alys), and then sent the full letter from the Smiths as an enclosure to Bucke.</note>
                 </bibl>
@@ -88,19 +84,19 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1888-07-02">Monday afternoon 1&#189;</date>
+                    <date when="1888-07-02">Monday afternoon 1½</date>
                     <date when="1888-07-02">July 2 '88</date>
                 </dateline>
                 <salute/> 
             </opener>
 
-            <p>Thanks for your letter this morn'g&#8212;the "Sands"<ptr target="loc.05871_n3"/> is intended (such as it is) for 20
-                pp. of "Annex" to follow L of G. consecutively paged&#8212;I have duplicate sets of them
-                to be properly paged for the pp. for the "Annex"&#8212;I am probably no worse, but am to day certainly no better or strongly&#8212;the bowel
-                movement is just right (a great favorable point daily or every other daily)&#8212;my eye
-                sight goes badly&#8212;I enclose you Pearsall Smith's note<ptr target="loc.05871_n2"/> wh' is favorable &#38; you will
-                want to know&#8212;the remains cool &#38; pleasant to-day&#8212;My sister Lou<ptr target="n0368"/> is here
-                to-day. My dinner is just here &#38; I relish it&#8212;</p>
+            <p>Thanks for your letter this morn'g—the "Sands"<ptr target="loc.05871_n3"/> is intended (such as it is) for 20
+                pp. of "Annex" to follow L of G. consecutively paged—I have duplicate sets of them
+                to be properly paged for the pp. for the "Annex"—I am probably no worse, but am to day certainly no better or strongly—the bowel
+                movement is just right (a great favorable point daily or every other daily)—my eye
+                sight goes badly—I enclose you Pearsall Smith's note<ptr target="loc.05871_n2"/> wh' is favorable &amp; you will
+                want to know—the remains cool &amp; pleasant to-day—My sister Lou<ptr target="n0368"/> is here
+                to-day. My dinner is just here &amp; I relish it—</p>
             <closer>
                 <salute/>
                 <signed>W W</signed>
@@ -113,18 +109,16 @@
                       <name type="place" rend="right">Steamship Aller</name>
                       <date when="1888-06-20" rend="right">June 20th. 1888.</date>
                   </dateline>
-                  <salute>My dear Friend &#8212;</salute> 
+                  <salute>My dear Friend —</salute> 
               </opener>
               <p>It was with much regret that we felt compelled to leave you in your sickness last
                   week. We hold you in affectionate remembrance as we pass over the waters to England
-                  where once we hoped to have had your company. We beg that you will send us from <pb
-                      xml:id="leaf002v" facs="loc_no.00115.jpg" type="verso"/> time to time as
+                  where once we hoped to have had your company. We beg that you will send us from <pb xml:id="leaf002v" facs="loc_no.00115.jpg" type="verso"/> time to time as
                   you feel able accounts of your health and of all that nearly concerns you concerns
                   us also who love you.</p>
               <p>Our passage across the whole way has been nearly as smooth as a duck pond, and my
                   health has been very much benefitted by it.</p>
-              <p>I bear your messages of love and remembrance to your many friends in <pb
-                  xml:id="leaf003r" facs="loc_no.00116.jpg" type="recto"/> London, who
+              <p>I bear your messages of love and remembrance to your many friends in <pb xml:id="leaf003r" facs="loc_no.00116.jpg" type="recto"/> London, who
                   without my privileges of personal fellowship with you, honour and love you. I hope
                   that the knowledge of this may often cheer and console you in hours of pain and
                   weariness. Alys,<ptr target="loc.05908_n1"/> my faithful secretary, joins me in the

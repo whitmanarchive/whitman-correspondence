@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00464">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00464">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00464</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00464</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">300</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">300</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -104,7 +100,7 @@
                     </choice> 6 Evening</date>
                 </dateline>
             </opener>
-            <p>Nothing specially new&#8212;I am well&#8212;pleasant weather&#8212;the 2d <choice>
+            <p>Nothing specially new—I am well—pleasant weather—the 2d <choice>
                 <orig>Phila</orig>
                 <reg>Philadelphia</reg>
             </choice> <choice>
@@ -114,9 +110,8 @@
                 was <choice>
                     <orig>delay'd</orig>
                     <reg>delayed</reg>
-                </choice> till Friday last&#8212;commenced coming in at noon&#8212;by noon next day
-                (yesterday) 500 had been sold<ptr target="nyp.00464_n2"/>&#8212;<hi rend="italic"
-                    >Specimen Days</hi> is jogging along&#8212;neither very fast, or slow&#8212;You
+                </choice> till Friday last—commenced coming in at noon—by noon next day
+                (yesterday) 500 had been sold<ptr target="nyp.00464_n2"/>—<hi rend="italic">Specimen Days</hi> is jogging along—neither very fast, or slow—You
                 will get a copy of the <choice>
                     <orig>Phila.</orig>
                     <reg>Philadelphia</reg>
@@ -124,10 +119,10 @@
                     <orig>ed'n</orig>
                     <reg>edition</reg>
                 </choice> L of G to-morrow or next day, as I have requested
-                one sent you&#8212;by what I can learn there is no <hi rend="italic">Florio
+                one sent you—by what I can learn there is no <hi rend="italic">Florio
                     Montaigne</hi><ptr target="nyp.00464_n3"/> to be had for love or
-                money&#8212;Have been in all day finishing up copy of S. D. for the
-                printers&#8212;Out now to p.o.<ptr target="nyp.00464_n4"/></p>
+                money—Have been in all day finishing up copy of S. D. for the
+                printers—Out now to p.o.<ptr target="nyp.00464_n4"/></p>
             <closer>
                 <signed>W W</signed>
             </closer>

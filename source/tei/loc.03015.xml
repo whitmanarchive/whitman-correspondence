@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03015">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03015">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03015</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03015</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Sloane Kennedy</author>
                     <title>William Sloane Kennedy to Walt Whitman, 25 June 1889</title>
                     <date cert="high" when="1889-06-25" xml:id="dat1">June 25, 1889</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -80,13 +77,11 @@
     <text type="letter">
         <body>
             <pb xml:id="leaf001r" facs="loc.03015.002.jpg" type="recto"/>  
-            <p>Just<ptr target="loc.03015_n1"/> picked a <unclear reason="illegible" cert="medium" resp="#ktl"
-                    >sweet&#8212;</unclear> brier twig&#8212;wild&#8212;back of home. More fit to
+            <p>Just<ptr target="loc.03015_n1"/> picked a <unclear reason="illegible" cert="medium" resp="#ktl">sweet—</unclear> brier twig—wild—back of home. More fit to
                 send <hi rend="underline">you</hi> than cultivated roses. I dipped into Song of
-                Myself yesterday. Am always <hi rend="underline">awed</hi> by the power &#38; superhuman
-                worth of that greatest of poems yet made. If it were not so <hi rend="underline"
-                    >very great</hi> it wd make me envious! I sent three lines&#8212;just&#8212;to
-                    Gardner<ptr target="n4318"/> of Paisley&#8212;yesterday, asking him if I had
+                Myself yesterday. Am always <hi rend="underline">awed</hi> by the power &amp; superhuman
+                worth of that greatest of poems yet made. If it were not so <hi rend="underline">very great</hi> it wd make me envious! I sent three lines—just—to
+                    Gardner<ptr target="n4318"/> of Paisley—yesterday, asking him if I had
                 missed a letter fr. him, that I had not heard since April.</p>
             <closer>
                 <salute>affec. yr friend</salute> 

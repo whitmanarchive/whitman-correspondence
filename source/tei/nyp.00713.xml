@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00713"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00713"> 
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00713</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00713</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">264</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">264</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -93,17 +90,17 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden NJ<ptr target="nyp.00713_n1"/>&#8212;</name>
+                    <name type="place">Camden NJ<ptr target="nyp.00713_n1"/>—</name>
                     <date when="1891-11-12">Nov: 12 '91</date> 
                 </dateline>
             </opener>
-            <p>The book<ptr target="nyp.00713_n3"/> came all right this mn'g&#8212;seems to me a good piece of typographic work, type,
-                paper, press work, &#38; binding&#8212;pleases my book &#38; printer eyes<ptr target="nyp.00713_n2"/>&#8212;And how 
-                are you getting along &#38; satisfied there? (Lots of friends more than you know
-                of are asking)&#8212;I myself still hold out&#8212;lots of <gap reason="illegible" quantity="1" unit="chars"/>aches &#38;
-                sufferings&#8212;but mainly fair spirits&#8212;sitting this moment in big chair with
-                g't wolfskin spread back&#8212;Traubel<ptr target="n4267"/> here last evn'g&#8212;he
-                &#38; wife<ptr target="loc.04797_n8"/> well&#8212;Dr Bucke<ptr target="n0119"/> well&#8212;</p>
+            <p>The book<ptr target="nyp.00713_n3"/> came all right this mn'g—seems to me a good piece of typographic work, type,
+                paper, press work, &amp; binding—pleases my book &amp; printer eyes<ptr target="nyp.00713_n2"/>—And how 
+                are you getting along &amp; satisfied there? (Lots of friends more than you know
+                of are asking)—I myself still hold out—lots of <gap reason="illegible" quantity="1" unit="chars"/>aches &amp;
+                sufferings—but mainly fair spirits—sitting this moment in big chair with
+                g't wolfskin spread back—Traubel<ptr target="n4267"/> here last evn'g—he
+                &amp; wife<ptr target="loc.04797_n8"/> well—Dr Bucke<ptr target="n0119"/> well—</p>
             <closer> 
                 <salute>God bless you</salute>
                 <signed>Walt Whitman</signed>

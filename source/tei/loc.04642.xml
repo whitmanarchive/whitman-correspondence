@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04642"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Ethel Webling to Walt Whitman, 26 October 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Ethel Webling</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="aa">Alex Ashland</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition> 
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p> Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights
+                        reserved. Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only. </p>
+                </availability>
+            <idno>loc.04642</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Ethel Webling</author>
+                    <title>Ethel Webling to Walt Whitman, 26 October 1891</title>
+                    <date cert="high" when="1891-10-26" xml:id="dat1">October 26, 1891</date>
+                    <idno type="callno">MSS18630, Box 18, Reel 11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00400</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Webling, Ethel" ref="loc.04642_n2">Ethel Webling</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-09-21" who="#smb">final check, corrected, added notes</change>
+            <change when="2021-07-20" who="#aa">second check; corrected and revised</change>
+            <change when="2021-07-16" who="#aja">checked, corrected</change>
+            <change when="2019-12-16" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>  
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.02499_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">2 Camden Gardens</name>
+                    <name type="place">Shepherds Bush Green. London</name>
+                    <name type="place">England.</name>
+                    <date when="1891-10-26">26. Oct: 1891<ptr target="loc.04642_n1"/></date>
+                    <name type="place">To Walt Whitman.</name>
+                </dateline>
+                <salute>Dear Sir</salute>
+            </opener>
+            <p>It is my birthday and I am so grateful to you for the comradeship of Leaves of Grass
+                that I must write today.</p>
+            <p>I am an artist &amp; paint portraits sometimes miniatures.</p>
+            <p>My mother<ptr target="loc.04642_n3"/> and sisters have just reached New York The girls are quite young <pb xml:id="leaf001v" facs="loc_vm.02500_large.jpg" type="verso"/> and going to give
+                Recitations in the States and Canada I hope to come sometime but as I am a worker I
+                must wait until bye and bye.</p>
+            <p>Thanking you again and again and with greeting</p>
+            <closer>
+                <salute>I remain</salute>
+                <salute>most sincerely</salute>
+                <signed>Ethel Webling</signed> 
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_vm.02501_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_vm.02502_large.jpg" type="verso"/>
+            <pb xml:id="leaf003r" facs="loc_vm.02497_large.jpg" type="recto"/>
+            <pb xml:id="leaf003v" facs="loc_vm.02498_large.jpg" type="verso"/>
+            <note type="editorial" place="left" resp="#ht">see notes Nov 29 1891</note>
+        </body>
+    </text> 
+</TEI>

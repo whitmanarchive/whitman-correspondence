@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07283">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07283">
     <teiHeader>
         <fileDesc>    
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07283</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07283</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1888-12-19" xml:id="dat1">December 19, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,15 +83,11 @@
             <pb xml:id="leaf001r" facs="loc_es.00528.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift
-                        rend="printed"/>Superintendent's Office.<ptr target="loc.07283_n1"/></name>
-                    <name type="place"><handShift
-                        rend="printed"/>ASYLUM<lb/>FOR THE INSANE</name>
-                    <name type="place"><handShift
-                        rend="printed"/>LONDON.<lb/>ONTARIO</name>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07283_n1"/></name>
+                    <name type="place"><handShift rend="printed"/>ASYLUM<lb/>FOR THE INSANE</name>
+                    <name type="place"><handShift rend="printed"/>LONDON.<lb/>ONTARIO</name>
                     <name type="place"><handShift rend="printed"/>London, Ont.,</name>
-                    <date when="1888-12-19"><handShift rend="manuscript"/>19 Dec <handShift
-                            rend="printed"/>188<handShift rend="manuscript"/>8</date>
+                    <date when="1888-12-19"><handShift rend="manuscript"/>19 Dec <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                     <date when="1888-12-19"><hi rend="underline">Evening</hi></date>
                 </dateline>       
             </opener> 
@@ -105,25 +98,22 @@
                 there is just 8 pp. translation (Faces, Locomotive in Winter, A World below the
                 brine) no comment at all, translation not good (translator did not fully understand
                 the english text).<ptr target="loc.07283_n3"/> It is funny he did not claim to
-                translate from the <hi rend="underline">English</hi> but from the "<hi
-                    rend="underline">American</hi>." The bundle is all welcome. As to your letter,
+                translate from the <hi rend="underline">English</hi> but from the "<hi rend="underline">American</hi>." The bundle is all welcome. As to your letter,
                 dear Walt, I cannot say how it grieves me that you have had to suffer so much, nor
-                how rejoiced I am that you can say you are "decidedly better"&#8212;I pray earnestly
-                that you may keep on the mend now and <pb xml:id="leaf001v" facs="loc_es.00529.jpg"
-                    type="verso"/> have at least a good respite and rest; I wish I could get away to
-                see you and stay a little with you&#8212;but you have good doctors and I am glad to
+                how rejoiced I am that you can say you are "decidedly better"—I pray earnestly
+                that you may keep on the mend now and <pb xml:id="leaf001v" facs="loc_es.00529.jpg" type="verso"/> have at least a good respite and rest; I wish I could get away to
+                see you and stay a little with you—but you have good doctors and I am glad to
                 think, a good nurse.<ptr target="n4319"/> You have also a wonderful constitution and I have great hopes
                 you will make a good rally yet and be with us for many a good day and talk. I had a
-                line from O'Connor<ptr target="n2002"/> (sending me on your letter)<ptr
-                    target="loc.07283_n4"/> he said he had been bad but "am now better" which I was
-                glad enough to hear. Willy Gurd<ptr target="n4284"/> not here yet&#8212;untill he
+                line from O'Connor<ptr target="n2002"/> (sending me on your letter)<ptr target="loc.07283_n4"/> he said he had been bad but "am now better" which I was
+                glad enough to hear. Willy Gurd<ptr target="n4284"/> not here yet—untill he
                 comes I have no idea when I can get away East about the meter business, and even
                 after he comes I shall probably know very little more about it for awhile for he
                 seems to have no ideas of <hi rend="underline">time</hi> at all and his days are
                 weeks and his months years.</p>
             <p>We are having a <hi rend="underline">mean</hi> winter so far, mud (soft &amp;
                 sometimes frozen in to spikes and lumps) dirty snow, bad wheeling, no
-                sleighing&#8212;but we all keep well. Love to you as always</p>
+                sleighing—but we all keep well. Love to you as always</p>
             <closer>
                 <signed>R M Bucke</signed>
             </closer>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04644">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04644">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04644</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,13 +35,13 @@
                 </address>
                 <availability> 
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability> 
-            </publicationStmt>
+            <idno>loc.04644</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Frank and Ellen Webb</author>
@@ -52,7 +49,7 @@
                     <date cert="high" when="1891-12-22" xml:id="dat1">December 22, 1891</date> 
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00400</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                     Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
@@ -93,7 +90,7 @@
             <p>I do not know if this will come <hi rend="underline">too late</hi>. I 
                 hope not. I saw by 
                one of the Daily Papers that you were sick with 
-                pneumonia &#38; write at once after 
+                pneumonia &amp; write at once after 
                 <choice><sic>puting</sic><corr>putting</corr></choice> it off so long.</p>
             <p>The news to tell is that a <choice><sic>drak</sic><corr>dark</corr></choice> 
                 blue eyed baby came from the some where to the Here 
@@ -103,17 +100,17 @@
                 the name most <choice><sic>fited</sic><corr>fitted</corr></choice> for the Baby that came to 
                 our Humble Home. Walter Whitman or Grover Cleaveland<ptr target="n4271"/></p>
             <p>The ballot was cast and it was decided in favor of Walter Whitman after Walt Whitman, America's Poet
-                I have had on my mind for 3 years those beautiful lines&#8212;about the "grass" The leaves of Grass that 
-                the little child brought with full hands and asked you "what is the Grass"<ptr target="loc.04644_n4"/>&#8212;so wonderfull a question
-                &#38; so wonderfull an answer that <hi rend="underline">you gave</hi> I have been &#38; still continue 
+                I have had on my mind for 3 years those beautiful lines—about the "grass" The leaves of Grass that 
+                the little child brought with full hands and asked you "what is the Grass"<ptr target="loc.04644_n4"/>—so wonderfull a question
+                &amp; so wonderfull an answer that <hi rend="underline">you gave</hi> I have been &amp; still continue 
                 to be enthralled with your
                 <pb xml:id="leaf002r" facs="loc_vm.02513_large.jpg" type="recto"/>
-                writings &#38; when our last Baby came it being a Boy with Dark Blue Beautiful eyes I said we must call Him
+                writings &amp; when our last Baby came it being a Boy with Dark Blue Beautiful eyes I said we must call Him
                 Walter Whitman Webb<ptr target="loc.04644_n5"/> 3 days after the Ex President's Wife gave Birth to a daughter now, must we change our first 
-                decision &#38; put a "cleave" to it, <hi rend="underline">no.</hi> we love Walter Best there seemed more poetry 
-                to that name than any others &#38; it is &#38; will be W. W. W.</p>
+                decision &amp; put a "cleave" to it, <hi rend="underline">no.</hi> we love Walter Best there seemed more poetry 
+                to that name than any others &amp; it is &amp; will be W. W. W.</p>
             <p>Now I wish to ask you is "Walt," or "Walter" right. 
-                And is there an edition published with all your poems &#38; writings in 
+                And is there an edition published with all your poems &amp; writings in 
                 complete<ptr target="n4195"/>? I must have it if there is so 
                 that Walter Whitman Webb shall have them when he learns 
                 <pb xml:id="leaf002v" facs="loc_vm.02514_large.jpg" type="verso"/>
@@ -121,7 +118,7 @@
             <closer> 
                 <salute>We remain.</salute>
                 <salute>Yours Respectfully</salute>
-                <signed>Frank &#38; Ellen</signed>
+                <signed>Frank &amp; Ellen</signed>
                 <signed>Walter Whitman Webb</signed>
                 <address>
                 <addrLine>81 Sheridan Street</addrLine>
@@ -135,4 +132,3 @@
         <pb xml:id="leaf003v" facs="loc_vm.02510_large.jpg" type="verso"/>
     </text>
 </TEI>
-

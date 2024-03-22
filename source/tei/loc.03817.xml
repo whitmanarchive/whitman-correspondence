@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03817">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03817">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03817</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03817</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Alys W. Smith</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00348</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -65,7 +62,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Smith, Alys W." ref="n7014"></persName>
+                    <persName key="Smith, Alys W." ref="n7014"/>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -88,11 +85,11 @@
                     <name type="place">S.S. Eider.<ptr target="loc.03817_n1"/></name>
                     <date when="1890-06-13">Friday. June 13th. 1890</date>
                 </dateline>
-                <salute>Dear Mr. Whitman&#8212;</salute>
+                <salute>Dear Mr. Whitman—</salute>
             </opener>  
             <p> 
                I simply hated to take leave of you. My visits to you this winter have been such a
-               pleasure to me &#38; it is one of my greatest regrets in leaving America that I
+               pleasure to me &amp; it is one of my greatest regrets in leaving America that I
                must leave you behind. If only Camden were a
                <pb xml:id="leaf001v" facs="loc_jc.00060_large.jpg" type="verso"/>
                little near London! I hoped that perhaps I could get over to see you once again, but
@@ -100,10 +97,10 @@
                of it all in the Ledger.
             </p>
             <p>
-                We have been at sea nearly a week, &#38; we hope to reach Southampton on Sunday.
+                We have been at sea nearly a week, &amp; we hope to reach Southampton on Sunday.
                 <pb xml:id="leaf002r" facs="loc_jc.00061_large.jpg" type="recto"/>
                 I can hardly realize that I shall see all my dear family so soon. The voyage
-                has been rough &#38; uneventful, except for three icebergs &#38; two whales!
+                has been rough &amp; uneventful, except for three icebergs &amp; two whales!
             </p>
             <p>
                 I do hope you will keep well this summer thro' all the hot weather, dear Mr. Whitman.
@@ -115,7 +112,7 @@
                 news of you. 
             </p>
             <p>
-                Please give my love to Mrs. Davis,<ptr target="n6113"/> &#38; keep a great deal for
+                Please give my love to Mrs. Davis,<ptr target="n6113"/> &amp; keep a great deal for
                 yourself, my dear, <hi rend="underline">dear</hi> friend.
             </p>
             <closer>

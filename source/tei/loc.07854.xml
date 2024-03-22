@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07854">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07854">
     <teiHeader>
         <fileDesc>  
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt> 
             <publicationStmt>
-                <idno>loc.07854</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,16 +44,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07854</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 13 November 1890</title>
                     <date cert="high" when="1890-11-13" xml:id="dat1">November 13, 1890</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc>
@@ -89,23 +86,21 @@
                 </dateline>
             </opener>
 
-            <p>Now abt 2 PM&#8212;have been out to Mrs: 
+            <p>Now abt 2 PM—have been out to Mrs: 
                 Harned's<ptr target="loc.07854_n4"/> (Tom's<ptr target="n4146"/>
-                mother's) funeral at noon &#38; for quite a spin in 
-                wheel chair<ptr target="loc.03012_n1"/> since&#8212;the sun
-                came out finely after a cloudy mn'g &#38; the past two days' rain&#8212;a little
-                cool.&#8212;The grip (I suppose it is) bad enough on me, &#38; this persistent belly
+                mother's) funeral at noon &amp; for quite a spin in 
+                wheel chair<ptr target="loc.03012_n1"/> since—the sun
+                came out finely after a cloudy mn'g &amp; the past two days' rain—a little
+                cool.—The grip (I suppose it is) bad enough on me, &amp; this persistent belly
                 ache varied with dots shoots of spasms of pain (quite instantaneous) in
-                abdomen&#8212;have the pain early morning, bed rising&#8212;my eating sufficiently
-                careful I guess&#8212;drink tea the last week (no coffee)&#8212;Dr Thomas<ptr
-                    target="loc.07126_n7"/> came over &#38; Fox<ptr target="loc.07855_n10"/> subsequently with nice
+                abdomen—have the pain early morning, bed rising—my eating sufficiently
+                careful I guess—drink tea the last week (no coffee)—Dr Thomas<ptr target="loc.07126_n7"/> came over &amp; Fox<ptr target="loc.07855_n10"/> subsequently with nice
                 glasses wh' upon trial did <hi rend="underline">not</hi> seem to agree with my
-                eyes&#8212;strained them, &#38; less clear than my old ones, wh' I resumed &#38;
-                since prefer to use&#8212;but something may come of it yet&#8212;Am specially unwell
-                to-day, head ache but shall probably soon be as usual&#8212;I sit here as
-                usual&#8212;prospect of fine weather the rest of the day&#8212;The hatter<ptr
-                    target="n5001"/> (Phil) said the hat c'd not be well done over, &#38; sent it back to
-                me&#8212;have sold one or two big books<ptr target="n4188"/> lately<ptr target="loc.07854_n2"/></p>
+                eyes—strained them, &amp; less clear than my old ones, wh' I resumed &amp;
+                since prefer to use—but something may come of it yet—Am specially unwell
+                to-day, head ache but shall probably soon be as usual—I sit here as
+                usual—prospect of fine weather the rest of the day—The hatter<ptr target="n5001"/> (Phil) said the hat c'd not be well done over, &amp; sent it back to
+                me—have sold one or two big books<ptr target="n4188"/> lately<ptr target="loc.07854_n2"/></p>
             <closer>  
                 <signed>Walt Whitman</signed> 
             </closer> 
@@ -114,7 +109,4 @@
             <pb xml:id="leaf002v" facs="loc_jm.00272.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
-
-
-
+</TEI>

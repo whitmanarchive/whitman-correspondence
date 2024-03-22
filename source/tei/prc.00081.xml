@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="prc.00081">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00081">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="kc">Kirsten Clawson</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>prc.00081</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>prc.00081</idno></publicationStmt>
             <sourceDesc>
 
                 <biblStruct>
@@ -60,8 +56,8 @@
                             <pubPlace>Iowa City</pubPlace>
                             <publisher>University of Iowa Press</publisher>
                             <date when="2004">2004</date>
-                            <biblScope type="volume">7</biblScope>
-                            <biblScope type="page">63</biblScope>
+                            <biblScope unit="volume">7</biblScope>
+                            <biblScope unit="page">63</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -104,7 +100,7 @@
                 </dateline>
             </opener>
 
-            <p>&#8212;I am stopping here <choice>
+            <p>—I am stopping here <choice>
                     <abbr>till</abbr>
                     <expan>until</expan>
                 </choice>
@@ -115,11 +111,10 @@
                 <choice>
                     <abbr>Aug:</abbr>
                     <expan>August</expan>
-                </choice> 18&#8212;(then on to Boston)&#8212;mail me a copy of last <hi
-                    rend="italic">Critic</hi> here&#8212;also send the little slips of the poem
-                here, unless already sent<ptr target="prc.00081_n1"/>&#8212;I like to see my friends
-                here&#8212;house of J H Johnston, about 90 or 100 rods from the Mott Haven
-                    station<ptr target="prc.00081_n2"/>&#8212;</p>
+                </choice> 18—(then on to Boston)—mail me a copy of last <hi rend="italic">Critic</hi> here—also send the little slips of the poem
+                here, unless already sent<ptr target="prc.00081_n1"/>—I like to see my friends
+                here—house of J H Johnston, about 90 or 100 rods from the Mott Haven
+                    station<ptr target="prc.00081_n2"/>—</p>
 
             <closer>
                 <signed rend="right">Walt Whitman</signed>

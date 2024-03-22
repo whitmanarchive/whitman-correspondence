@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07229">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07229">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07229</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,15 +43,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07229</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 30 August 1888</title>
                     <date cert="high" when="1888-08-30" xml:id="dat1">August 30, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,18 +83,15 @@
             <pb xml:id="leaf001r" facs="loc_es.00318.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07229_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/>London, Ont.,</name><date when="1888-08-30" rend="right"
-                            ><handShift rend="manuscript"/>30 Aug <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07229_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/>London, Ont.,</name><date when="1888-08-30" rend="right"><handShift rend="manuscript"/>30 Aug <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
             <p>I feel quite anxious about the "Complete Works"<ptr target="n4151"/> and would like
                 much to hear from you how you will deal with that book. I think:
             <list>
             <item>1 The book should be first class in all aspects</item>
-            <item>2 Price should be &#36;10.</item>
+            <item>2 Price should be $10.</item>
             <item>3 It should (every copy of it) be autograph</item>
             <item>4 Should contain a number of pictures</item>
             <item>5 Should be sold entirely by yourself</item>

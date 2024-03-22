@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07251">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07251">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="es">Jeannette Schollaert</persName>
                     <persName xml:id="if">Ian Faith</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07251</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07251</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1888-10-01" xml:id="dat1">October 1, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,27 +84,24 @@
             <pb xml:id="leaf001r" facs="loc_es.00404.jpg" type="recto"/>
             <opener> 
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office<ptr
-                        target="loc.07251_n1"/><lb/>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office<ptr target="loc.07251_n1"/><lb/>
                         ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>ONTARIO<lb/>London,
-                        Ont.,</name><date when="1888-10-01" rend="right"><handShift
-                            rend="manuscript"/>1 Oct. <handShift rend="printed"/>188<handShift
-                            rend="manuscript"/>8</date>
+                        Ont.,</name><date when="1888-10-01" rend="right"><handShift rend="manuscript"/>1 Oct. <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>  
             <p>Horace Traubel<ptr target="n4267"/> has sent me (just to hand) "Herald" of 23d ult.
                 have been reading the piece on you and like it well.<ptr target="loc.07251_n2"/> Who is the author? I hope that
                 pain has left you by this time? I have written Osler<ptr target="n4302"/> to ask him
                 about you, how you are, and about that pain, what it means? though I feel pretty
-                sure it does not mean anything serious, some indigestion or a cold&#8212;perhaps it
-                is in the abdominal wall and not internal at all&#8212;such pains are very
-                common&#8212;Myalgia, we call them, or muscular rheumatism. I hope it may soon go
+                sure it does not mean anything serious, some indigestion or a cold—perhaps it
+                is in the abdominal wall and not internal at all—such pains are very
+                common—Myalgia, we call them, or muscular rheumatism. I hope it may soon go
                 any way for <pb xml:id="leaf001v" facs="loc_es.00405.jpg" type="verso"/> it cannot
                 add much to your comfort.</p>
             <p>We have had six rainy days in succession here and I guess we shall have more of them.
                 Nothing new or special about the meter<ptr target="loc.07230_n2"/> but I fully expect to be East about it before
                 the month is up, probably soon after the middle of the month.</p>
-            <p>The leaves here are beginning to turn and to fall also&#8212;in a very few more weeks
+            <p>The leaves here are beginning to turn and to fall also—in a very few more weeks
                 we shall be having cold weather again and the first thing we know sleighing</p>
             <closer>
                 <salute>Good luck to you</salute>

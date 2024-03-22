@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="har.00049">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="har.00049">
     <teiHeader>
         <fileDesc> 
             <titleStmt> 
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>har.00049</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>har.00049</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -87,8 +83,7 @@
             <pb xml:id="leaf001r" facs="har.00049.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><hi rend="underline">Camden NJ</hi><ptr target="har.00049_n1"
-                        /></name>
+                    <name type="place"><hi rend="underline">Camden NJ</hi><ptr target="har.00049_n1"/></name>
                     <date when="1883-10-14" rend="right"><hi rend="underline">Oct: 14
                         '83</hi></date>
                 </dateline>
@@ -97,18 +92,18 @@
             <p><choice>
                     <abbr>Rec'd</abbr>
                     <expan>Received</expan>
-                </choice> your letter<ptr target="har.00049_n2"/>&#8212;I send three photo's by same
-                mail with this&#8212;is the profile one something like what you want?&#8212;I don't
+                </choice> your letter<ptr target="har.00049_n2"/>—I send three photo's by same
+                mail with this—is the profile one something like what you want?—I don't
                 know but I have already sent you the front face with hand up, as I designed one for
-                you&#8212;but as I am not certain I send this&#8212;I have just returned from two
-                weeks down along the Jersey sea beach, &#38; am well as usual&#8212;always glad to
-                hear from you&#8212;hope we shall be together again one of these days&#8212;give my
+                you—but as I am not certain I send this—I have just returned from two
+                weeks down along the Jersey sea beach, &amp; am well as usual—always glad to
+                hear from you—hope we shall be together again one of these days—give my
                 best love to Mrs. <choice> 
                         <abbr>F</abbr>
                         <expan>Fairchild</expan>
                     </choice><!-- Miller has an F in his transcription & has an annotation on who "Mrs. Fairchild" is, but in the actual letter it looks like an "L".  -->
                 and to <choice>
-                    <abbr>B.O'R</abbr><expan>Boyle O'Reilly</expan></choice><ptr target="har.00049_n3"/>&#8212;</p>
+                    <abbr>B.O'R</abbr><expan>Boyle O'Reilly</expan></choice><ptr target="har.00049_n3"/>—</p>
             <closer>
                 <signed rend="right">W W</signed>
             </closer>

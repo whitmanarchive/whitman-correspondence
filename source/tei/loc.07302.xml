@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07302">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07302">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07302</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07302</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1889-05-15" xml:id="dat1">May 15, 1889</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C. </orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,31 +84,25 @@
                     <name type="place">London.</name>
                     <name type="place">Ontario</name>
                     <name type="place">London, Ont.,</name>
-                    <date when="1889-05-15"><handShift rend="manuscript"/>15 May<handShift
-                            rend="printed"/> 188<handShift rend="manuscript"/>9<ptr
-                            target="loc.07302_n1"/></date>
+                    <date when="1889-05-15"><handShift rend="manuscript"/>15 May<handShift rend="printed"/> 188<handShift rend="manuscript"/>9<ptr target="loc.07302_n1"/></date>
                 </dateline>    
             </opener> 
-            <p>I returned from Toronto (after attending, yesterday, Mrs O'Reilly's<ptr
-                    target="loc.07302_n5"/> funeral) at noon today and find your long and interesting
+            <p>I returned from Toronto (after attending, yesterday, Mrs O'Reilly's<ptr target="loc.07302_n5"/> funeral) at noon today and find your long and interesting
                 letter of Saturday and Sunday enclosing Mrs. O'Connor's<ptr target="n4137"/> most
-                pathetic letter, to you, of 9<hi rend="underline">th</hi>.<ptr target="loc.07302_n2"
-                /> Poor Mrs O'Connor is indeed alone, I fear the rest of her life will be terribly
+                pathetic letter, to you, of 9<hi rend="underline">th</hi>.<ptr target="loc.07302_n2"/> Poor Mrs O'Connor is indeed alone, I fear the rest of her life will be terribly
                 lonely. I am much pleased that you have actually been out in the chair<ptr target="loc.03012_n1"/> and that you
-                seemed to find it a success&#8212;I shall feel easier about you&#8212;you will not
+                seemed to find it a success—I shall feel easier about you—you will not
                 be so horribly dull now though you may still be dull enough. But to get out even a
                 little while once or twice a day (in good weather) will undoubtedly break the
                 monotony a little. It will be good for Ed,<ptr target="n4319"/> too, will give him
-                something to do&#8212;some little exercise. I am glad to hear that you sweat freely
+                something to do—some little exercise. I am glad to hear that you sweat freely
                     <pb xml:id="leaf002v" facs="loc_es.00590.jpg" type="verso"/>now that the warm
                 weather has come. It is a capital thing for you and frequent baths with more or less
-                massage each day will keep the skin acting and will be most beneficial to you.<ptr
-                    target="loc.07302_n3"/> Do not be discouraged because you do not see good
-                effects from such things (as baths, massage, getting out &#38;c &#38;c) at
-                once&#8212;at your age reaction takes place slowly&#8212;but all these things will
+                massage each day will keep the skin acting and will be most beneficial to you.<ptr target="loc.07302_n3"/> Do not be discouraged because you do not see good
+                effects from such things (as baths, massage, getting out &amp;c &amp;c) at
+                once—at your age reaction takes place slowly—but all these things will
                 tell in the long run and I have good hopes that you may make a rally yet for you
-                have a constitution of ten thousand. The letter containing the 1<hi rend="underline"
-                    >st</hi> prescription must have miscarried (I certainly sent it). I do not think
+                have a constitution of ten thousand. The letter containing the 1<hi rend="underline">st</hi> prescription must have miscarried (I certainly sent it). I do not think
                 very much of the dinner scheme<ptr target="loc.03027_n4"/>  but all the same I should
                 like to be there (have heard nothing abt. it except your letter).<ptr target="loc.07302_n4"/> If there were
                 some good speeches well reported it might not be amiss (I am a firm believer in all

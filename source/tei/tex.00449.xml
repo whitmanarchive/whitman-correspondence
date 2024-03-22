@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00449">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00449">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00449</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00449</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +52,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">29&#8211;30</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">29–30</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -91,26 +88,24 @@
             <opener>
                 <dateline>
                     <name type="place">328 Mickle Street</name>
-                    <name type="place">Camden New Jersey U S America<ptr target="tex.00449_n1"
-                        /></name>
+                    <name type="place">Camden New Jersey U S America<ptr target="tex.00449_n1"/></name>
                     <date when="1886-05-29" rend="right">May 29 1886</date>
                 </dateline>
             </opener>
-            <p>Thanks, thanks indeed, dear friend&#8212;to yourself, Mr Roberts, Bessie and Isabella
-                Ford, C R Ashbee, Wm Thompson,<ptr target="tex.00449_n2"/> &#38; brother &#38;
-                sister, for the kind &#38; generous birthday gift&#8212;for your letter with the
-                &#163;45 which has just reached me&#8212;</p>
-            <p>We have fine weather here, &#38; I am enjoying it&#8212;My health remains nearly as
-                usual, but there is a little decline &#38; additional feebleness every successive
-                year&#8212;as is natural.</p>
-            <p>The Staffords are all living and well&#8212;I drive down there Sundays &#38; they
-                often speak of you. Harry (at Marlton, New Jersey)<ptr target="tex.00449_n4"/>&#8212;and Ruth<ptr
-                    target="tex.00449_n3"/> (in Kansas) are some time married, &#38; have
+            <p>Thanks, thanks indeed, dear friend—to yourself, Mr Roberts, Bessie and Isabella
+                Ford, C R Ashbee, Wm Thompson,<ptr target="tex.00449_n2"/> &amp; brother &amp;
+                sister, for the kind &amp; generous birthday gift—for your letter with the
+                £45 which has just reached me—</p>
+            <p>We have fine weather here, &amp; I am enjoying it—My health remains nearly as
+                usual, but there is a little decline &amp; additional feebleness every successive
+                year—as is natural.</p>
+            <p>The Staffords are all living and well—I drive down there Sundays &amp; they
+                often speak of you. Harry (at Marlton, New Jersey)<ptr target="tex.00449_n4"/>—and Ruth<ptr target="tex.00449_n3"/> (in Kansas) are some time married, &amp; have
                 children.</p>
             <closer>
-                <salute>Love to you &#38; to B[essie] and I[sabella] F[ord]&#8212;</salute>
+                <salute>Love to you &amp; to B[essie] and I[sabella] F[ord]—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
         </body>
     </text>
-</TEI>     
+</TEI>

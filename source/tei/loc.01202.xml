@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01202">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01202">
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01202</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01202</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Grace E. Channing</author>
@@ -55,7 +51,7 @@
                     <date cert="high" when="1887-07-07" xml:id="dat1">July 7, 1887</date>
                     <idno type="callno">MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -93,15 +89,14 @@
                 </dateline>
                 <salute>Dear Mr. Whitman:</salute>
             </opener>
-            <p>It is so many years since I saw you&#8212;you will not remember the child-friend and
-                disciple of yours, I am afraid. She is no longer a child&#8212;the more's the
-                pity!&#8212;but she claims the title of disciple and in that name asks a
-                favor.&#8212; </p> 
+            <p>It is so many years since I saw you—you will not remember the child-friend and
+                disciple of yours, I am afraid. She is no longer a child—the more's the
+                pity!—but she claims the title of disciple and in that name asks a
+                favor.— </p> 
             <p>It has seemed to us that it would be a good thing to bring out a "Walt Whitman
-                Calendar"<ptr target="loc.01202_n1"/>&#8212;of extracts from your Leaves of Grass&#8212;after the model
+                Calendar"<ptr target="loc.01202_n1"/>—of extracts from your Leaves of Grass—after the model
                 (improved) of the Emerson<ptr target="n0218"/> and <choice><orig>Shaksperean</orig><reg>Shakespearean</reg></choice> Calendars. They have a large sale
-                among people who perhaps <pb xml:id="leaf001v" facs="loc.01202.002_large.jpg"
-                    type="verso"/>
+                among people who perhaps <pb xml:id="leaf001v" facs="loc.01202.002_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc.01202.003_large.jpg" type="recto"/>
                 never own a copy of the poems. It is a means of disseminating and popularizing where we cannot always
                 reach in other ways.</p>
@@ -109,15 +104,14 @@
                 contribution to your comfort. I want to share with your other friends the honor of
                 aiding and have nothing else to give. This I do believe I can do both speedily and
                 well and your friends think it will sell widely. </p>
-            <p>A great deal of reading is already done towards it. I await only your card&#8212;a
+            <p>A great deal of reading is already done towards it. I await only your card—a
                 bare "yes" and all the rest is done. Time is so brief before the mark must be
-                completed,&#8212; can you send me that word <hi rend="underline">at</hi> <pb xml:id="leaf002v"
-                    facs="loc.01202.004_large.jpg" type="verso"/>
+                completed,— can you send me that word <hi rend="underline">at</hi> <pb xml:id="leaf002v" facs="loc.01202.004_large.jpg" type="verso"/>
                 <pb xml:id="leaf003r" facs="loc.01202.005_large.jpg" type="recto"/>
                 <hi rend="underline">once?</hi> A postal card will suffice. I shall count the days
                 for it eagerly and anxiously. </p>
             <p>My Uncle (W. D O'Connor)<ptr target="n2002"/> left us
-                yesterday with my father,<ptr target="n0148"/> for Washington&#8212; very lame and feeble. Mr. Eldridge<ptr target="loc.00943_n2"/>
+                yesterday with my father,<ptr target="n0148"/> for Washington— very lame and feeble. Mr. Eldridge<ptr target="loc.00943_n2"/>
                 remains. </p>
             <closer>
                 <salute>With great affection and esteem,</salute>

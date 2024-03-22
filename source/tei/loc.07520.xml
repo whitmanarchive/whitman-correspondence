@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07520">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07520">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07520</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07520</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">171</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">171</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -66,9 +63,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Mr. Bennerman, 22 May 1888</title>
                     <date cert="high" when="1888-05-22" xml:id="dat1">May 22, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -99,16 +96,16 @@
                 <salute>To Mr. Bennerman:</salute>
             </opener>
             <p>The bearer of this is Horace Traubel,<ptr target="n4267"/> a young friend of mine in
-                whom I have confidence&#8212;I want to have printed (stereotyped) a book of
-                (probably) 160 to 200 pages<ptr target="loc.07520_n2"/>&#8212;may-be somewhat
-                less&#8212;long primer&#8212;exactly same sized page as the "Specimen Days" you
-                printed of mine six years ago&#8212;</p>
-            <p>Can you &amp; would you like to do it for me?&#8212;<hi rend="underline">Have you some
-                    good long primer</hi>? The copy is ready&#8212;it is all printed
-                matter&#8212;(or nearly all)&#8212;is all plain sailing&#8212;you could commence
-                next Monday&#8212;Sh'd want liberal proofs&#8212;</p>
-            <p>You can talk with Horace Traubel just the same as you w'd with me&#8212;I am almost
-                entirely disabled ab't walking, or bodily locomotion&#8212;</p>
+                whom I have confidence—I want to have printed (stereotyped) a book of
+                (probably) 160 to 200 pages<ptr target="loc.07520_n2"/>—may-be somewhat
+                less—long primer—exactly same sized page as the "Specimen Days" you
+                printed of mine six years ago—</p>
+            <p>Can you &amp; would you like to do it for me?—<hi rend="underline">Have you some
+                    good long primer</hi>? The copy is ready—it is all printed
+                matter—(or nearly all)—is all plain sailing—you could commence
+                next Monday—Sh'd want liberal proofs—</p>
+            <p>You can talk with Horace Traubel just the same as you w'd with me—I am almost
+                entirely disabled ab't walking, or bodily locomotion—</p>
             <closer>
                 <signed>Walt Whitman</signed>
                     <address>

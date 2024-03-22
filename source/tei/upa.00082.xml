@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00082">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00082">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>upa.00082</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,13 +43,13 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00082</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Herbert Gilchrist, 23 August 1886</title>
                     <date cert="high" when="1886-08-23" xml:id="dat1">August 23, 1886</date>
-                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp;
                         Manuscript Library, University of Pennsylvania</orgName>
                 </bibl>
             </sourceDesc>
@@ -85,27 +82,23 @@
                     <pb xml:id="leaf001r" facs="upa.00082.001_large.jpg" type="recto"/>
                     <dateline>
                         <name type="place">328 Mickle street</name>
-                        <name type="place">Camden New Jersey U S America<ptr target="upa.00082_n1"
-                            /></name>
+                        <name type="place">Camden New Jersey U S America<ptr target="upa.00082_n1"/></name>
                         <date when="1886-08-23" rend="right">Aug. 23 '86</date>
                     </dateline>
                     <salute>Dear Herbert</salute>
                 </opener> 
-                <p>Thank you for the remittance of the &#163;2 from Prof. Dowden<ptr target="n0199"/>&#8212;(&#38; I
-                    deeply thank him also)&#8212;Of the <hi rend="underline"
-                    >Circular</hi>&#8212;Should you have them to spare, I should like a dozen
-                        copies<ptr target="upa.00082_n2"/>&#8212;I have had a pretty good summer, so
-                    far&#8212;better than last summer&#8212;I drove down yesterday (Sunday) to
-                    Glendale<ptr target="upa.00082_n7"/> &#38; staid four or five hours&#8212;took dinner there&#8212;In
-                    general, matters there ab't as usual&#8212;Mrs. Stafford<ptr target="loc.02189_n3"/> up &#38; around, but
-                    not near as healthy &#38; strong as I would like to see her&#8212;the rest all
-                    well&#8212;We talked of you&#8212;Address Wm D. O'Connor,<ptr target="n2002"/> <hi rend="underline"
-                        >Life Saving Service</hi>, <hi rend="underline">Treasury Department</hi>,
-                        <hi rend="underline">Washington D. C.</hi>, U S America&#8212;</p>
-                <p>&#8212;I get letters from Dr. Bucke<ptr target="n0119"/>, who is home in London, Canada<ptr
-                        target="upa.00082_n3"/>&#8212;I send enclosed a &#182; for your
-                    consideration for the book&#8212;I send my best love
-                    &#38; thanks to you &#38; Wm Rossetti.</p>
+                <p>Thank you for the remittance of the £2 from Prof. Dowden<ptr target="n0199"/>—(&amp; I
+                    deeply thank him also)—Of the <hi rend="underline">Circular</hi>—Should you have them to spare, I should like a dozen
+                        copies<ptr target="upa.00082_n2"/>—I have had a pretty good summer, so
+                    far—better than last summer—I drove down yesterday (Sunday) to
+                    Glendale<ptr target="upa.00082_n7"/> &amp; staid four or five hours—took dinner there—In
+                    general, matters there ab't as usual—Mrs. Stafford<ptr target="loc.02189_n3"/> up &amp; around, but
+                    not near as healthy &amp; strong as I would like to see her—the rest all
+                    well—We talked of you—Address Wm D. O'Connor,<ptr target="n2002"/> <hi rend="underline">Life Saving Service</hi>, <hi rend="underline">Treasury Department</hi>,
+                        <hi rend="underline">Washington D. C.</hi>, U S America—</p>
+                <p>—I get letters from Dr. Bucke<ptr target="n0119"/>, who is home in London, Canada<ptr target="upa.00082_n3"/>—I send enclosed a ¶ for your
+                    consideration for the book—I send my best love
+                    &amp; thanks to you &amp; Wm Rossetti.</p>
                 <closer>
                     <signed>Walt Whitman</signed> 
                 </closer>
@@ -120,15 +113,15 @@
                     the poet was not entirely favorable or willing. "I do not know," he says in a
                     late letter to me, "that I can furnish any good reason, but I feel to keep these
                        sweet utterances exclusively to myself.
-                    But I cannot let your book go to press without at least saying&#8212;and wishing
-                    it put on record&#8212;that among the perfect women I have known (and it has
+                    But I cannot let your book go to press without at least saying—and wishing
+                    it put on record—that among the perfect women I have known (and it has
                     been my unspeakably good fortune to have had the very best for mother, sisters
                     and friends) I have known none more perfect in every relation than my dear, dear
                     friend Anne Gilchrist."<ptr target="upa.00082_n4"/></p>
                 <!--The postscript is found at the top of the enclosure (leaf002r)-->
                 <postscript><p>Herbert,<ptr target="upa.00082_n5"/> I am sorry not to be able to
                     respond to your request for letters or the like
-                    &#8212;Can't you bring in this &#182; somewhere in the book?<ptr target="upa.00082_n6"/></p></postscript>
+                    —Can't you bring in this ¶ somewhere in the book?<ptr target="upa.00082_n6"/></p></postscript>
                 <pb xml:id="leaf002v" facs="upa.00082.004_large.jpg" type="verso"/>
             </div1>
         </body> 

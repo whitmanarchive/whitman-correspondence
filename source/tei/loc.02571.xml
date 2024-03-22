@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02571">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02571">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02571</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02571</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John H. Johnston</author>
                     <title>John H. Johnston to Walt Whitman, 10 September 1887</title>
                     <date cert="high" when="1887-09-10" xml:id="dat1">September 10, 1887</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,9 +81,7 @@
                 <dateline>
                     <name type="place"><handShift rend="printed"/>J. H. JOHNSTON, <lb/>DIAMOND
                         MERCHANT, <lb/>150 BOWERY, COR. BROOME ST.</name>
-                    <date when="1887-09-10"><handShift rend="printed"/>New York, <handShift
-                            rend="manuscript"/>Sept 10 <handShift rend="printed"/>188<handShift
-                            rend="manuscript"/>7</date></dateline>
+                    <date when="1887-09-10"><handShift rend="printed"/>New York, <handShift rend="manuscript"/>Sept 10 <handShift rend="printed"/>188<handShift rend="manuscript"/>7</date></dateline>
                 <salute>Dear Walt;</salute>
             </opener>
             <p>The inclosed explains itself,<ptr target="loc.03613_n1"/> Either a forgery as well as
@@ -95,7 +89,7 @@
                 and I'm only 50 <choice>
                     <abbr>yrs</abbr>
                     <expan>years</expan>
-                </choice> old&#8212; </p>
+                </choice> old— </p>
             <p>Viz: I have <choice>
                     <abbr>rec'd</abbr>
                     <expan>received</expan>

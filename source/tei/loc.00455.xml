@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00455">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00455">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -26,7 +24,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00455</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +36,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00455</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -50,7 +48,7 @@
                      <pubPlace>Kent, Ohio</pubPlace>
                      <publisher>Kent State University Press</publisher>
                      <date>1984</date>
-                     <biblScope type="page">144-146</biblScope>
+                     <biblScope unit="page">144-146</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -58,7 +56,7 @@
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman  to Louisa Van Velsor Whitman, 5 October 1872</title>
                <date when="1872-10-05">October 5, 1872</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -91,19 +89,19 @@
                   </dateline>
                   <salute>My dear Mother</salute>
                </opener>
-               <p>Mattie has returned from St. Paul<ptr target="loc.00455_n2"/> but I am sorry to say is hardly as well as when she went away  Up to yesterday she was very sick but seemed to be quite a good deal better this morning&#8212;A few days since when the doctor came to see her he told her that he thought he would have her go to Philadelphia again to see Dr Gross<ptr target="loc.00455_n3"/> and also to New York to see Dr Clark<ptr target="loc.00455_n4"/>&#8212;Of course if she comes I will write George&#8212;if she continues to gain she will not come yet awhile</p>
-               <p>I heard her tell Hattie this morning that she would certainly write you a letter to-day&#8212;</p>
-               <p>Enclosed I send draft for $25. and I want it expended thusly  $10. of it George must take and go over to that place in the city that I found out they had good liquors and buy some good wine<ptr target="loc.00455_n5"/>&#8212;California Port and Muscatel Sautern and "sich"&#8212;The tother $15 you can do what you please with&#8212;but dont go back on me about the wine&#8212;</p>
-               <p>How is George and Loo<ptr target="loc.00455_n6"/>&#8212;and Ed&#8212;I suppose Ed has hunted up an "organ" before this<ptr target="loc.00455_n7"/>&#8212;</p>
-               <p>Matters go middling well with me&#8212;have been very busy&#8212;had no time to do anything&#8212;could'nt even go a fishing</p>
-               <p>Love to all&#8212;tell Walt that I wish he would come and see us&#8212;shall leave it to Mat to persuade you and Loo and George out here&#8212;Hat and Jess are as well as can be  I sometimes think they are "weller"</p>
-               <p>Good bye&#8212;Keep up your temper and dont get tight</p>
+               <p>Mattie has returned from St. Paul<ptr target="loc.00455_n2"/> but I am sorry to say is hardly as well as when she went away  Up to yesterday she was very sick but seemed to be quite a good deal better this morning—A few days since when the doctor came to see her he told her that he thought he would have her go to Philadelphia again to see Dr Gross<ptr target="loc.00455_n3"/> and also to New York to see Dr Clark<ptr target="loc.00455_n4"/>—Of course if she comes I will write George—if she continues to gain she will not come yet awhile</p>
+               <p>I heard her tell Hattie this morning that she would certainly write you a letter to-day—</p>
+               <p>Enclosed I send draft for $25. and I want it expended thusly  $10. of it George must take and go over to that place in the city that I found out they had good liquors and buy some good wine<ptr target="loc.00455_n5"/>—California Port and Muscatel Sautern and "sich"—The tother $15 you can do what you please with—but dont go back on me about the wine—</p>
+               <p>How is George and Loo<ptr target="loc.00455_n6"/>—and Ed—I suppose Ed has hunted up an "organ" before this<ptr target="loc.00455_n7"/>—</p>
+               <p>Matters go middling well with me—have been very busy—had no time to do anything—could'nt even go a fishing</p>
+               <p>Love to all—tell Walt that I wish he would come and see us—shall leave it to Mat to persuade you and Loo and George out here—Hat and Jess are as well as can be  I sometimes think they are "weller"</p>
+               <p>Good bye—Keep up your temper and dont get tight</p>
                <closer rend="right">
                   <signed>Affectionately Jeff</signed>
                </closer>
             
             <postscript>
-               <p>George can get your draft cashed at Starr's&#8212;<ptr target="loc.00455_n8"/>
+               <p>George can get your draft cashed at Starr's—<ptr target="loc.00455_n8"/>
                </p>
             </postscript>
          

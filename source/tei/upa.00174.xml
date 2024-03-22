@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00174">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00174">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>upa.00174</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -50,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00174</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -60,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">84</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">84</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -71,7 +66,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Anne Gilchrist, 11 June [1877]</title>
                     <date cert="medium" when="1877-06-11" xml:id="dat1">June 11, 1877</date>
-                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &amp; Manuscript Library, University of Pennsylvania</orgName>
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp; Manuscript Library, University of Pennsylvania</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -111,9 +106,9 @@
                 <salute>Dearest friend</salute>
             </opener>
 
-            <p>I send you a hurried line as Herbert is going up for a few days&#8212;I want to come up &amp; be with you all awhile&#8212;I am getting much nearer to Herby, &amp; he is already a great comfort to me&#8212;I keep well as lately, &amp; enjoy the creek &amp;c as much as ever&#8212;but perhaps a little variation would be acceptable &amp; salutary to me&#8212;I shall come up soon&#8212;let us all be together awhile if agreeable, (I am not willing to have Herby absent when I am there)&#8212;</p>
+            <p>I send you a hurried line as Herbert is going up for a few days—I want to come up &amp; be with you all awhile—I am getting much nearer to Herby, &amp; he is already a great comfort to me—I keep well as lately, &amp; enjoy the creek &amp;c as much as ever—but perhaps a little variation would be acceptable &amp; salutary to me—I shall come up soon—let us all be together awhile if agreeable, (I am not willing to have Herby absent when I am there)—</p>
             
-            <p>Have you been over to Camden since? I was so much obliged to you for your good letter about my sister &amp; all, &amp; your kind invitation to my <choice><sic>neices</sic><corr>nieces</corr></choice> which I have sent on to them. This morning is cloudy &amp; a little chilly&#8212;Love to you, dearest friend, &amp; to Bee &amp; Giddy<ptr target="upa.00174_n2"/>&#8212;We will all see each other soon&#8212;</p>
+            <p>Have you been over to Camden since? I was so much obliged to you for your good letter about my sister &amp; all, &amp; your kind invitation to my <choice><sic>neices</sic><corr>nieces</corr></choice> which I have sent on to them. This morning is cloudy &amp; a little chilly—Love to you, dearest friend, &amp; to Bee &amp; Giddy<ptr target="upa.00174_n2"/>—We will all see each other soon—</p>
             
             <closer>
                 <signed rend="right">W. W.</signed>

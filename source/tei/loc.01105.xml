@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01105">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">H. D. Bush to Walt Whitman, 12 January 1892</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>H. D. Bush</author> 
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01105</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>H. D. Bush</author>
+                    <title>H. D. Bush to Walt Whitman, 12 January 1892</title>
+                    <date cert="high" when="1892-01-12" xml:id="dat1">January 12, 1892</date>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno> 
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00063</idno> 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>  
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Bush, H. D." ref="loc.01105_n1b">H. D. Bush</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>  
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-26" who="#aja">final corrections</change>
+            <change when="2022-02-28" who="#smb">final check, corrected, added notes</change>
+            <change when="2021-09-28" who="#em">2nd check, corrected</change>
+            <change when="2021-07-18" who="#aja">checked, corrected</change>
+            <change when="2019-09-26" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">  
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01105.003_large.jpg" type="recto"/>
+            <opener>
+                <dateline> 
+                    <name type="place">120 East 26th St. N.Y.<ptr target="loc.01105_n2"/></name>
+                    <date when="1892-01-12">Jan 12—'92</date>
+                </dateline>
+                <salute>
+                    Dear Walt Whitman:
+                </salute>
+            </opener>
+            <p>The '92 edition of Leaves of Grass<ptr target="loc.04811_n6"/> which you thoughtfully sent us 
+                has arived and is an additional reminder of you, who have been so much in our thoughts
+                of late. I will not weary you with a long letter, but say 
+                <hi rend="underline">Don't give up the ship although "the prize is won"<ptr target="loc.01105_n3"/></hi></p>
+            <p>Thanking you for the book and with hearty love from both my wife and myself—
+            </p>
+            <closer>
+                <salute>Faithfully yours</salute>
+                <signed><hi rend="underline">H. D. Bush</hi></signed> 
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.01105.004_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.01105.001_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc.01105.002_large.jpg" type="verso"/>
+            <note type="editorial" place="top" resp="#ht">see notes Jan 13 1892</note>
+            <note type="editorial" place="top" resp="#ht">from H.D. Bush 120 East 26th St. N.Y.</note>
+        </body>
+    </text>
+</TEI>

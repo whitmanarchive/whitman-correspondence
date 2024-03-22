@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01152">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01152">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01152</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01152</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Burroughs</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1885-10-07" xml:id="dat1">October 7, 1885</date>
                     <idno type="callno">Box 7, Reel 4-5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,15 +96,13 @@
                     <expan>Kentucky</expan>
                 </choice> trip for the present, Gilder<ptr target="n0871"/> said next spring would do, so I expect to go
                 next May, &amp; see the season open down there. </p>
-            <p> I hope you are still mending, Walt. I am almost certain you eat <pb
-                    xml:id="leaf001v" facs="loc.01152.002_large.jpg" type="verso"/> too heartily
+            <p> I hope you are still mending, Walt. I am almost certain you eat <pb xml:id="leaf001v" facs="loc.01152.002_large.jpg" type="verso"/> too heartily
                 &amp; make too much blood &amp; fat; at least that you eat too hearty food. As I told
                 you, I was profoundly impressed by a couple of articles in the "Fortnightly Review"
                 by Sir W<hi rend="superscript">m</hi> Thompson, on "Diet with relation to Age &amp;
                 Activity" He shows very convincingly that as our activities fail by the advance of
                 age, we must cut down on our food. If not the engine makes too much steam, things
-                become <choice><sic>cloged</sic><corr>clogged</corr></choice> &amp; congested &amp; the whole economy of the system deranged. <pb
-                    xml:id="leaf002r" facs="loc.01152.003_large.jpg" type="recto"/> He says a little
+                become <choice><sic>cloged</sic><corr>clogged</corr></choice> &amp; congested &amp; the whole economy of the system deranged. <pb xml:id="leaf002r" facs="loc.01152.003_large.jpg" type="recto"/> He says a little
                 meat once a day is enough, &amp; recommends the cereals &amp; fruits. I think you
                 make too much blood. This congested condition of your organs at times, shows it. 
                 Then you looked to me too fat;
@@ -117,8 +111,7 @@
                     <expan>Doctor</expan>
                 </choice> about you when I see him again, but if I were you I would adopt such a
                 diet as would make my blood as thin as possible, &amp; so lessen the arterial
-                strain This is common sense, <pb xml:id="leaf002v" facs="loc.01152.004_large.jpg"
-                    type="verso"/> &amp; I believe good science. In the best health, we grow lean.
+                strain This is common sense, <pb xml:id="leaf002v" facs="loc.01152.004_large.jpg" type="verso"/> &amp; I believe good science. In the best health, we grow lean.
                 Sir W<hi rend="superscript">m</hi> Thompson, says like a man training for the
                     ring.<ptr target="loc.01152_n1"/> I gained much flesh this summer, &amp; am dull
                 &amp; spiritless this fall. As a consequence, I must work it off some way. </p>
@@ -129,7 +122,7 @@
             </closer>
             <pb xml:id="leaf003r" facs="loc.01152.005_large.jpg" type="recto"/>
             <note type="editorial" place="top" resp="#ht">see notes June 30 &amp; July 1 1888</note>
-            <note type="editorial" place="left" resp="#ww">a <hi rend="underline">good</hi> letter &#9758; <hi rend="underline">read</hi> again</note>
+            <note type="editorial" place="left" resp="#ww">a <hi rend="underline">good</hi> letter ☞ <hi rend="underline">read</hi> again</note>
             <pb xml:id="leaf003v" facs="loc.01152.006_large.jpg" type="verso"/>
             
         </body> 

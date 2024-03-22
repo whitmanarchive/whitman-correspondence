@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07377">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07377">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07377</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07377</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>C. A. Spofford</author>
@@ -54,10 +51,10 @@
                     <date cert="high" when="1887-02-12" xml:id="dat1">February 12, 1887</date>
                     <idno type="callno">MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.07376"/>
                     <relatedItem type="document" target="wwa.00044"/>
-                    <note type="project" target="#rel01">Whitman drew a line through Spofford's letter&#8212;crossing it out&#8212;and wrote
+                    <note type="project" target="#rel01">Whitman drew a line through Spofford's letter—crossing it out—and wrote
                     a draft of a prose piece on the back that discusses a published catalogue of four to five thousand known American poems.</note>
                 </bibl>
             </sourceDesc>
@@ -94,15 +91,14 @@
                     <name type="place">New York,</name>
                     <date when="1887-02-12">Feb. 12, 1887.</date><lb/>
                     <address>
-                        <addrLine></addrLine>
+                        <addrLine/>
                         <addrLine>Walt Whitman Esq.</addrLine>
                         <addrLine>Camden, N.J.</addrLine> 
                     </address>
                 </dateline>
                 <salute>Dear Sir:</salute>
             </opener>
-            <p>Will you kindly inform if your poems are published in <hi rend="underline"
-                    >Complete</hi> form, and, if so, what is the price of the Volume, and whether it
+            <p>Will you kindly inform if your poems are published in <hi rend="underline">Complete</hi> form, and, if so, what is the price of the Volume, and whether it
                 can by obtained by sending you the money?</p>
             <closer>
                 <salute><abbr><orig>Respy.</orig><expan>Respectfull</expan></abbr> yours,</salute>

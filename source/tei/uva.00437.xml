@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00437">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00437">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00437</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00437</idno></publicationStmt>
             <sourceDesc>
 
                 <biblStruct>
@@ -59,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">244&#8211;245</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">244–245</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -111,28 +107,28 @@
                 <salute>Dear John<!--<ptr target="n0129"/>--></salute>
             </opener>
 
-            <p>I keep on fairly in health &amp; strength&#8212;have been out here a few days the
-                guest of Mr &amp; Mrs F B Sanborn<!--<ptr target="n0538"/>-->&#8212;&amp; everything most affectionate &amp; hospitable from
-                them both&#8212;&amp; from others&#8212;Have had a curiously full and satisfactory
-                time with Emerson<!--<ptr target="n0218"/>-->&#8212;he came to see me Saturday evening early, Mrs E<!--<ptr target="n3064"/>--> also, &amp; <choice>
+            <p>I keep on fairly in health &amp; strength—have been out here a few days the
+                guest of Mr &amp; Mrs F B Sanborn<!--<ptr target="n0538"/>-->—&amp; everything most affectionate &amp; hospitable from
+                them both—&amp; from others—Have had a curiously full and satisfactory
+                time with Emerson<!--<ptr target="n0218"/>-->—he came to see me Saturday evening early, Mrs E<!--<ptr target="n3064"/>--> also, &amp; <choice>
                     <orig>staid</orig>
                     <reg>stayed</reg>
-                </choice> two hours&#8212;Yesterday I went there (by pressing invitation) to dinner,
+                </choice> two hours—Yesterday I went there (by pressing invitation) to dinner,
                 &amp; <choice>
                     <orig>staid</orig>
                     <reg>stayed</reg>
-                </choice> two hours&#8212;a wonderfully good two hours&#8212;the whole family were
+                </choice> two hours—a wonderfully good two hours—the whole family were
                 very cordial, including Mrs. E. &amp; the son, Edward, a doctor, a fine, handsome,
-                'cute, glowing young man, with a beautiful wife and child<!--<ptr target="n3064"/>-->&#8212;I took to them
-                all&#8212;I cannot tell you how sweet and good (and all as it should be) Emerson <choice>
+                'cute, glowing young man, with a beautiful wife and child<!--<ptr target="n3064"/>-->—I took to them
+                all—I cannot tell you how sweet and good (and all as it should be) Emerson <choice>
                     <orig>look'd</orig>
                     <reg>looked</reg>
-                </choice> and behaved&#8212;he did not talk, in the way of joining in any animated
-                conversation, but pleasantly and hesitatingly &amp; sparsely&#8212;fully
-                enough&#8212;to me it seemed just as it should be&#8212;</p>
+                </choice> and behaved—he did not talk, in the way of joining in any animated
+                conversation, but pleasantly and hesitatingly &amp; sparsely—fully
+                enough—to me it seemed just as it should be—</p>
 
-            <p>The book is about through&#8212;will appear last of October&#8212;every thing
-                satisfactory&#8212;I go from here in about a week to Johnston's,<!--<ptr target="n0336"/>--> <choice>
+            <p>The book is about through—will appear last of October—every thing
+                satisfactory—I go from here in about a week to Johnston's,<!--<ptr target="n0336"/>--> <choice>
                     <abbr>cor:</abbr>
                     <expan>correspondence</expan>
                 </choice> Mott avenue &amp; 149th <choice>
@@ -140,7 +136,7 @@
                     <expan>Street</expan>
                 </choice>
                 <choice>
-                    <abbr>N.Y.</abbr><expan>New York</expan></choice>&#8212;then to Camden&#8212;shall go to Canada this winter&#8212;</p>
+                    <abbr>N.Y.</abbr><expan>New York</expan></choice>—then to Camden—shall go to Canada this winter—</p>
 
             <closer>
                 <signed rend="right">Walt Whitman</signed>

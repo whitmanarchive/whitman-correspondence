@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03904">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03904">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03904</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03904</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -56,7 +52,7 @@
                     <date cert="medium" when="1881-02-22" xml:id="dat1">February 22, 1881</date>
                     <idno type="callno">Box 16, Reel 10, MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,34 +81,33 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1881-02-22" rend="right">Feb: 22 Evening<ptr
-                            target="loc.03904_n1"/></date>
+                    <date when="1881-02-22" rend="right">Feb: 22 Evening<ptr target="loc.03904_n1"/></date>
                 </dateline>
                 <salute>My dear friend</salute>
             </opener>
 
-            <p>I still keep around &#38; have been over to Philadelphia this afternoon for three
-                hours, the day has been so fine &#38; bright, (but I am weak &#38; half-sick
-                yet)&#8212;over in <choice>
+            <p>I still keep around &amp; have been over to Philadelphia this afternoon for three
+                hours, the day has been so fine &amp; bright, (but I am weak &amp; half-sick
+                yet)—over in <choice>
                     <orig>Phila</orig><reg>Philadelphia</reg></choice>: I ride in the new Market st. coaches, the <unclear reason="illegible" resp="#nhg" cert="medium">Herdies</unclear> (they start from the
-                ferry door, &#38; I buy 25 tickets for a dollar)&#8212;I was on Arch and Chestnut
-                streets&#8212;such crowds&#8212;oceans of women, <choice>
+                ferry door, &amp; I buy 25 tickets for a dollar)—I was on Arch and Chestnut
+                streets—such crowds—oceans of women, <choice>
                     <sic>drest</sic>
                     <corr>dressed</corr>
-                </choice> to kill&#8212;I like to walk along &#38; look in the windows, every kind
+                </choice> to kill—I like to walk along &amp; look in the windows, every kind
                 of <pb xml:id="leaf001v" facs="loc_jc.00500_large.jpg" type="verso"/>article you
-                can think of, &#38; many you never thought of&#8212;always something new &#38;
-                interesting&#8212;then I have a friend <choice>
-                    <orig>cor</orig><reg>corner</reg></choice>: 7th &#38; Chestnut, Col: Forney's office, a nice big old fashioned
-                room&#8212;he keeps a great <choice>
+                can think of, &amp; many you never thought of—always something new &amp;
+                interesting—then I have a friend <choice>
+                    <orig>cor</orig><reg>corner</reg></choice>: 7th &amp; Chestnut, Col: Forney's office, a nice big old fashioned
+                room—he keeps a great <choice>
                     <sic>ratan</sic>
                     <corr>Ratan</corr>
-                </choice> easy chair for me, by a bay-window, &#38; I always stop there to rest,
-                &#38; read the news&#8212;How are you all getting along?&#8212;We are at the beginning of
-                another spring, &#38; I want to come down soon&#8212;The chicken was first
-                rate&#8212;it made me several good meals&#8212;(I expected to pay for it, &#38;
-                expect to yet)&#8212;the strawberries good&#8212;they tasted like Glendale&#8212;as
-                I close it is 9 oclock &#38; a lot of darkies are going along singing an old
+                </choice> easy chair for me, by a bay-window, &amp; I always stop there to rest,
+                &amp; read the news—How are you all getting along?—We are at the beginning of
+                another spring, &amp; I want to come down soon—The chicken was first
+                rate—it made me several good meals—(I expected to pay for it, &amp;
+                expect to yet)—the strawberries good—they tasted like Glendale—as
+                I close it is 9 oclock &amp; a lot of darkies are going along singing an old
                 southern slave hymn</p>
 
             <closer>

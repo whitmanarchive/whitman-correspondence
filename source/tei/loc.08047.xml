@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08047">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08047">
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08047</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,18 +43,18 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08047</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 14 May 1891</title>
                     <date cert="high" when="1891-05-14" xml:id="dat1">May 14, 1891</date>
-                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4&#8211;5</idno>
-                    <idno type="callno">Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4–5</idno>
+                    <idno type="callno">Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc>
@@ -88,17 +85,15 @@
                     <date when="1891-05-14">May 14 '91</date>
                 </dateline>  
             </opener>  
-            <p>Pretty bad times with me&#8212;low ebb&#8212;Horace<ptr target="n4267"/> sent you a
-                full set (66 pp:) "<hi rend="underline">Good-Bye</hi>" annex last night<ptr
-                    target="loc.08047_n5"/>&#8212;the paper, print &#38;c: are good&#8212;satisfy
-                &#38; please<ptr target="loc.08047_n2"/>&#8212;(the credit is mostly due to
-                    H)&#8212;O'Donavan<ptr target="upa.00172_n4"/> the sculptor was here
-                yesterday&#8212;I havn't seen any thing or h'd directly but I sort o' guess he is
-                getting along well &#38; w'd suit us I get a good &#38; strong impression of
-                him&#8212;you know he is in Eakins's<ptr target="n3166"/> studio, 1330 Chestnut st:
-                Phila:&#8212;Dr J's<ptr target="n4102"/> letter enc'd just rec'd&#8212;word f'm W S
-                K<ptr target="n3039"/>&#8212;He likes the Boston Mag:<ptr target="loc.08047_n4"/> piece<ptr
-                    target="loc.08047_n3"/></p>
+            <p>Pretty bad times with me—low ebb—Horace<ptr target="n4267"/> sent you a
+                full set (66 pp:) "<hi rend="underline">Good-Bye</hi>" annex last night<ptr target="loc.08047_n5"/>—the paper, print &amp;c: are good—satisfy
+                &amp; please<ptr target="loc.08047_n2"/>—(the credit is mostly due to
+                    H)—O'Donavan<ptr target="upa.00172_n4"/> the sculptor was here
+                yesterday—I havn't seen any thing or h'd directly but I sort o' guess he is
+                getting along well &amp; w'd suit us I get a good &amp; strong impression of
+                him—you know he is in Eakins's<ptr target="n3166"/> studio, 1330 Chestnut st:
+                Phila:—Dr J's<ptr target="n4102"/> letter enc'd just rec'd—word f'm W S
+                K<ptr target="n3039"/>—He likes the Boston Mag:<ptr target="loc.08047_n4"/> piece<ptr target="loc.08047_n3"/></p>
             <closer> 
                 <signed>W W</signed>
             </closer>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00322">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00322">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>nyp.00322</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +40,7 @@
             Humanities. Permission to reproduce the graphic images in this archive has
             been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>nyp.00322</idno></publicationStmt>
       <notesStmt>
         <note type="project" anchored="true">The following are responsible for particular readings or for
           changes to this file, as noted: 
@@ -62,9 +61,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="page">250&#8211;251</biblScope>
-                <biblScope type="volume">2</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="page">250–251</biblScope>
+                <biblScope unit="volume">2</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -106,7 +105,7 @@
           <salute>My dear friend</salute><ptr target="nyp.00322_n1"/>
       </opener>
 
-      <p>I am having quite a good spell to-day, (if it only lasts)&#8212;I wish you, 
+      <p>I am having quite a good spell to-day, (if it only lasts)—I wish you, 
         in conjunction with Peter Doyle, would go over to my room at Dr. White's, 
         &amp; unlock the big trunk, (the one that is strapped) and take out
       </p>
@@ -114,16 +113,16 @@
       <p><hi rend="italic">My gray suit</hi>, coat, vest, &amp; I think there are two pairs of pants, both alike.
       </p>
       
-      <p>My <hi rend="italic">black overcoat</hi>, quite heavy&#8212;it is the one in the trunk&#8212;</p>
+      <p>My <hi rend="italic">black overcoat</hi>, quite heavy—it is the one in the trunk—</p>
       
       <p>Black felt hat, (there are two black hats, this is the lightest, 
-        most flexible one&#8212;not the big fellow.)
+        most flexible one—not the big fellow.)
       </p>
       
-      <p>The pair of <hi rend="italic">old buckskin gloves</hi>, with sheepskin cuffs and do them up in a bundle&#8212;I think you can get three or four large sheets of <hi rend="italic">very strong brown paper</hi> for wrapper, 
-        <hi rend="italic">tied securely</hi> with very strong cord&#8212;direct plainly to me, 431 Stevens st. cor. 
-        West, here&#8212;put duplicate directions on&#8212;&amp; send by Adams express&#8212;I write to-day 
-        to Peter Doyle, same request as this, and asking him to meet you at Milburn's<ptr target="nyp.00322_n2"/> bet 3½ and 4, this afternoon&#8212;if not to-day, to-morrow, (or next day, or next still) 
+      <p>The pair of <hi rend="italic">old buckskin gloves</hi>, with sheepskin cuffs and do them up in a bundle—I think you can get three or four large sheets of <hi rend="italic">very strong brown paper</hi> for wrapper, 
+        <hi rend="italic">tied securely</hi> with very strong cord—direct plainly to me, 431 Stevens st. cor. 
+        West, here—put duplicate directions on—&amp; send by Adams express—I write to-day 
+        to Peter Doyle, same request as this, and asking him to meet you at Milburn's<ptr target="nyp.00322_n2"/> bet 3½ and 4, this afternoon—if not to-day, to-morrow, (or next day, or next still) 
         will do just as well, as I am in no particular hurry. Pete put the things in the trunk for me, 
         &amp; will know about them. Then lock &amp; strap the trunk again, &amp; return key to me. 
         There are two locks, both of which this key unlocks.
@@ -138,7 +137,7 @@
       </closer>
       
       <postscript>
-        <p>After the bundle is dispatched to express office, write me a line&#8212;(As I have said, I am in no particular hurry&#8212;use your convenience)&#8212;</p>
+        <p>After the bundle is dispatched to express office, write me a line—(As I have said, I am in no particular hurry—use your convenience)—</p>
       </postscript>
     </body>
   </text>

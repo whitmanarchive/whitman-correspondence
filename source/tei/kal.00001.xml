@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="kal.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kal.00001">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -28,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>kal.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>kal.00001</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Burroughs</author>
@@ -87,7 +83,7 @@
             </opener>
 
             <p>Do you know much about the half-profit system of publication? My publishers still
-                stick to me for a book &#38; say that if I am not content with the usual 10 per
+                stick to me for a book &amp; say that if I am not content with the usual 10 per
                 cent, they will publish on 1/2 profit basis. I don't know which is best, since the
                 figuring is with them.</p>
             <p>At the time I wrote<pb xml:id="leaf001v" facs="kal_ch.00004_large.jpg" type="verso"/>
@@ -98,25 +94,20 @@
                 death bed. He died Jany 9th from apoplexy, aged 81, lived about 36 hours after the
                 stroke. He had said to me in the summer that he hoped to go in that way I know it is
                 best it should be so, but I find it impossible to reason myself out of a sense of
-                deepest loss. How desolate now does the old home look to me in the <unclear
-                    reason="illegible" cert="medium" resp="#nhg">mids</unclear> of the bleak winter <choice>
+                deepest loss. How desolate now does the old home look to me in the <unclear reason="illegible" cert="medium" resp="#nhg">mids</unclear> of the bleak winter <choice>
                     <orig>land scape</orig><reg>landscape</reg></choice>!</p>
-            <p>We are counting on going to Washington about middle of Feb. &#38; <unclear
-                    reason="damage" cert="medium" resp="#cah">hope</unclear> to see you there<pb
-                    xml:id="leaf002r" facs="kal_ch.00008_large.jpg" type="recto"/> or on our way.
+            <p>We are counting on going to Washington about middle of Feb. &amp; <unclear reason="damage" cert="medium" resp="#cah">hope</unclear> to see you there<pb xml:id="leaf002r" facs="kal_ch.00008_large.jpg" type="recto"/> or on our way.
                 What do you say.</p>
 
             <p>I am reading <choice>
-                <orig>Carlyles</orig><reg>Carlyle's</reg></choice> "Frederick"<ptr target="n1065"/>&#8212;the most wonderful history I ever opened. It seems to me
+                <orig>Carlyles</orig><reg>Carlyle's</reg></choice> "Frederick"<ptr target="n1065"/>—the most wonderful history I ever opened. It seems to me
                 to eclipse other histories as the electric light eclipses a tallow dip. I get so
                 excited over the battles I can hardly hold the book.</p>
             <p>I am looking much in <choice>
-                        <orig>Arnolds</orig><reg>Arnold's</reg></choice><ptr target="n1067"/> works too&#8212;a wonderfully clear, direct, sensitive,
-                flexible mind&#8212;a writer who really has steady limpid <hi rend="underline"
-                    >currents</hi> of ideas&#8212;If he only had more heartiness &#38; could get
-                free of these slight collegiate contemptuousness &#38; aloofness.<pb
-                    xml:id="leaf002v" facs="kal_ch.00007_large.jpg" type="verso"/> I am going to
-                wrestle with him one of these days &#38; see just what I make of him. Thanks for the
+                        <orig>Arnolds</orig><reg>Arnold's</reg></choice><ptr target="n1067"/> works too—a wonderfully clear, direct, sensitive,
+                flexible mind—a writer who really has steady limpid <hi rend="underline">currents</hi> of ideas—If he only had more heartiness &amp; could get
+                free of these slight collegiate contemptuousness &amp; aloofness.<pb xml:id="leaf002v" facs="kal_ch.00007_large.jpg" type="verso"/> I am going to
+                wrestle with him one of these days &amp; see just what I make of him. Thanks for the
                 papers you send. Your Indian sketch is again superb.<ptr target="n1080"/></p>
             <p>Cold here, with the river whooping at night like a colossal Indian, or is it more like the explosions
                 of flatulency?</p>

@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07623">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07623">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, [11]&#8211;12 May
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, [11]–12 May
                     1889</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07623</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07623</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,20 +53,20 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">336</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">336</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Richard Maurice Bucke, [11]&#8211;12 May 1889</title>
+                    <title>Walt Whitman to Richard Maurice Bucke, [11]–12 May 1889</title>
                     <date cert="high" notBefore="1889-05-11" notAfter="1889-05-12" xml:id="dat1">May
-                        [11]&#8211;12, 1889</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                        [11]–12, 1889</date>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -96,48 +93,44 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1889-05-11"><hi rend="italic"
-                            >Saturday</hi>&#8212;<hi rend="italic">just after noon</hi><ptr
-                            target="loc.07623_n1"/></date>
+                    <date when="1889-05-11"><hi rend="italic">Saturday</hi>—<hi rend="italic">just after noon</hi><ptr target="loc.07623_n1"/></date>
                 </dateline> 
             </opener>
-            <p>Of course the main tho't has been yesterday, &#38; is to-day, the death of
-                    O'C[onnor]<ptr target="n2002"/>&#8212;I enclose the letter of Mrs: O'C<ptr
-                        target="n4137"/> rec'd yesterday&#8212;</p>  
-            <p>(Another death here, old Mrs: Mapes, buried this afternoon,)<ptr
-                    target="loc.07623_n2"/>&#8212; Y'r letters come &#38; are welcom'd&#8212;(if you sent
-                one with the calo[mel] prescription, however, it never reach'd me&#8212;it was but
-                really rec'd two days since)&#8212;Am feeling sufficiently easy today&#8212;my
-                out-door wheelchair<ptr target="loc.03012_n1"/> has come &#38; is very satisfactory (both to Ed<ptr target="n4319"/> &#38; me) &#38;
-                I intended to get out this forenoon, but I took a rather laborious bath at 10&#189;,
-                &#38; felt some exhausted, &#38; shall probably get out a little this
-                afternoon&#8212;pleasant weather, not quite so warm to-day, but has been markedly
-                warm&#8212;fair bowel action this forenoon&#8212;</p> 
+            <p>Of course the main tho't has been yesterday, &amp; is to-day, the death of
+                    O'C[onnor]<ptr target="n2002"/>—I enclose the letter of Mrs: O'C<ptr target="n4137"/> rec'd yesterday—</p>  
+            <p>(Another death here, old Mrs: Mapes, buried this afternoon,)<ptr target="loc.07623_n2"/>— Y'r letters come &amp; are welcom'd—(if you sent
+                one with the calo[mel] prescription, however, it never reach'd me—it was but
+                really rec'd two days since)—Am feeling sufficiently easy today—my
+                out-door wheelchair<ptr target="loc.03012_n1"/> has come &amp; is very satisfactory (both to Ed<ptr target="n4319"/> &amp; me) &amp;
+                I intended to get out this forenoon, but I took a rather laborious bath at 10½,
+                &amp; felt some exhausted, &amp; shall probably get out a little this
+                afternoon—pleasant weather, not quite so warm to-day, but has been markedly
+                warm—fair bowel action this forenoon—</p> 
             <p>Some of the friends here in Camden, (lawyers, a teacher or
-                two, an editor, Tom Harned,<ptr target="n4146"/> &#38; others) have laid out
+                two, an editor, Tom Harned,<ptr target="n4146"/> &amp; others) have laid out
                 a sort of <hi rend="italic">commemoration formal dinner</hi><ptr target="loc.03027_n4"/> for my arriving my
-                70th year old terminus&#8212;a good dinner, tickets ($5), toasts, speeches,
-                &#38;c.&#8212;no wine<ptr target="loc.07623_n3"/>&#8212;you have probably rec'd the newspaper item f'm
-                    Horace<ptr target="n4267"/>&#8212;I have let them go on their own way, as they
-                have set their hearts upon it, &#38; they are all quite fellows of love &#38;
-                respect&#8212;but I have definitely told them it is not certain I shall get there in
-                    <hi rend="italic">propria personae</hi>&#8212;&#38; if so (wh' I will if
-                practicable) w'd only show myself &#38; acknowledge the compliment wh' seems to be
-                no more than decent&#8212;tho' the <hi rend="italic">jamboree</hi> does not
-                present itself as appropriate, or particularly encouragable to my mind&#8212;Well
-                we shall see&#8212;The pocket-bound ed'n<ptr target="med.00869_n3"/> is getting on smoothly, &#38; no mishap or hitch
-                yet&#8212;the printed sheets are at the binder's&#8212;Horace sold a big book<ptr target="n4195"/> to-day &#38; McKay<ptr target="n4983"/> another&#8212;</p>
+                70th year old terminus—a good dinner, tickets ($5), toasts, speeches,
+                &amp;c.—no wine<ptr target="loc.07623_n3"/>—you have probably rec'd the newspaper item f'm
+                    Horace<ptr target="n4267"/>—I have let them go on their own way, as they
+                have set their hearts upon it, &amp; they are all quite fellows of love &amp;
+                respect—but I have definitely told them it is not certain I shall get there in
+                    <hi rend="italic">propria personae</hi>—&amp; if so (wh' I will if
+                practicable) w'd only show myself &amp; acknowledge the compliment wh' seems to be
+                no more than decent—tho' the <hi rend="italic">jamboree</hi> does not
+                present itself as appropriate, or particularly encouragable to my mind—Well
+                we shall see—The pocket-bound ed'n<ptr target="med.00869_n3"/> is getting on smoothly, &amp; no mishap or hitch
+                yet—the printed sheets are at the binder's—Horace sold a big book<ptr target="n4195"/> to-day &amp; McKay<ptr target="n4983"/> another—</p>
             <p><date when="1889-05-12"><hi rend="italic">Sunday May 12 '89</hi></date></p>
             <p>Well I went out in the wheel chair
-                yesterday afternoon &#38; was probably out an hour &#38; a half&#8212;every thing
-                work'd well&#8212;the chair is a success &#38; sits &#38; goes easy&#8212;Ed of course propell'd me&#8212;Shall go out again
-                to-day&#8212;the weather continues fine, very mild&#8212;I sweat quite
-                freely&#8212;had some good asparagus for my breakfast (sent f'm my brother's garden,<ptr target="n0700b"/>
-                Burlington)&#8212;Harry Stafford<ptr target="n0590"/> was here yesterday, he is
-                pretty thin, is still working managing the RR station at Marlton, NJ&#8212;all the
-                rest ab't as usual&#8212;Wm Ingram<ptr target="n0323"/> comes often.</p>
+                yesterday afternoon &amp; was probably out an hour &amp; a half—every thing
+                work'd well—the chair is a success &amp; sits &amp; goes easy—Ed of course propell'd me—Shall go out again
+                to-day—the weather continues fine, very mild—I sweat quite
+                freely—had some good asparagus for my breakfast (sent f'm my brother's garden,<ptr target="n0700b"/>
+                Burlington)—Harry Stafford<ptr target="n0590"/> was here yesterday, he is
+                pretty thin, is still working managing the RR station at Marlton, NJ—all the
+                rest ab't as usual—Wm Ingram<ptr target="n0323"/> comes often.</p>
             <closer>
-                <salute>Love to you &#38; Mrs: B.<ptr target="n4273"/> &#38; all&#8212;</salute>
+                <salute>Love to you &amp; Mrs: B.<ptr target="n4273"/> &amp; all—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
         </body>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00488">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00488">
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00488</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,13 +38,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00488</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Charles L. Heyde</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1891-08-12" xml:id="dat1">August 12, 1891</date>
                     <orgName xml:id="duk">
                         Trent Collection of Whitmaniana, David M. Rubenstein Rare 
-                        Book &#38; Manuscript Library, Duke University</orgName> 
+                        Book &amp; Manuscript Library, Duke University</orgName> 
                 </bibl> 
             </sourceDesc>
         </fileDesc>
@@ -96,12 +93,12 @@
             </opener>
             <p>
                 Your note to Han<ptr target="nyp.00207_n1"/> with 2 dollars is recd
-                gratefully&#8212;
+                gratefully—
             </p>
             <p>
-                Mr Brigham<ptr target="loc.04801_n4"/> has not been to see her for several days&#8212;He is with his
-                aged father&#8212;now very sick&#8212;out of town&#8212;and therefore could not
-                write to you as you desire &#8212;
+                Mr Brigham<ptr target="loc.04801_n4"/> has not been to see her for several days—He is with his
+                aged father—now very sick—out of town—and therefore could not
+                write to you as you desire —
             </p>
             <closer>
                 <salute>Gratefully ever and forever yours,</salute>
@@ -110,20 +107,3 @@
         </body>
     </text> 
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

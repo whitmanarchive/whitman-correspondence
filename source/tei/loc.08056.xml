@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08056"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08056"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08056</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,22 +34,22 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08056</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 5 June 1891</title>
                     <date cert="high" when="1891-06-05" xml:id="dat1">June 5, 1891</date>
-                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4&#8211;5; Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4–5; Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 
-                        1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,14 +81,14 @@
                     <date when="1891-06-05">noon June 5 '91</date>
                 </dateline>
             </opener> 
-            <p>O'Donovan<ptr target="upa.00172_n4"/> and Ralph Moore<ptr target="loc.07850_n2"/> f'm the Cemetery have been here&#8212;Edw'd Carpenter<ptr target="n0141b"/>
-                &#38; three or four friends of L of G &#38; me (women &#38; men) have sent me f'm Eng: a birth-day gift<ptr target="loc.04326_n4"/> of 40 pounds sterling&#8212;(I am keeping 
-                the banker's order for Horace<ptr target="n4267"/> to get it for me, when he comes back)&#8212;</p>
-            <p>Am having a pretty fair day&#8212;sent you a letter &#38; papers last night<ptr target="loc.08056_n3"/>&#8212;live largely on 
-                strawberries&#8212;have had eight letters to day 
-                <hi rend="italic">&#38; seven of them autograph applications</hi>&#8212;superb sun and temperature&#8212;the dear canary bird 
-                (&#38; I love him)<ptr target="loc.08056_n2"/>&#8212;Harrison Morris<ptr target="loc.07847_n3"/>
-                has just been over to see me&#8212;Comfortable as I sit here&#8212;fine bouquet of roses &#38; honeysuckles&#8212;
+            <p>O'Donovan<ptr target="upa.00172_n4"/> and Ralph Moore<ptr target="loc.07850_n2"/> f'm the Cemetery have been here—Edw'd Carpenter<ptr target="n0141b"/>
+                &amp; three or four friends of L of G &amp; me (women &amp; men) have sent me f'm Eng: a birth-day gift<ptr target="loc.04326_n4"/> of 40 pounds sterling—(I am keeping 
+                the banker's order for Horace<ptr target="n4267"/> to get it for me, when he comes back)—</p>
+            <p>Am having a pretty fair day—sent you a letter &amp; papers last night<ptr target="loc.08056_n3"/>—live largely on 
+                strawberries—have had eight letters to day 
+                <hi rend="italic">&amp; seven of them autograph applications</hi>—superb sun and temperature—the dear canary bird 
+                (&amp; I love him)<ptr target="loc.08056_n2"/>—Harrison Morris<ptr target="loc.07847_n3"/>
+                has just been over to see me—Comfortable as I sit here—fine bouquet of roses &amp; honeysuckles—
             </p> 
             <closer>
                 <signed>Walt Whitman</signed>
@@ -101,65 +98,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

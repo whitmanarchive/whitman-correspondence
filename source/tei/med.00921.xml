@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00921"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00921"> 
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -25,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00921</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -35,13 +33,13 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00921</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -51,9 +49,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">219</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">219</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -63,7 +61,7 @@
                     <date cert="high" when="1891-06-26" xml:id="dat1">June 26, 1891</date>
                     <orgName xml:id="med">The location of the manuscript is unknown. Miller's transcription is derived from a 
                         transcription of this letter by Richard Maurice Bucke that is held in the 
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library 
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library 
                         of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -94,110 +92,14 @@
                     <date when="1891-06-26">June 26 '91</date>
                 </dateline>
             </opener>
-            <p>If you are feeling well enough and in opportune mood let me introduce my good friend &#38; physician Dr Bucke<ptr target="n0119"/>&#8212;He 
+            <p>If you are feeling well enough and in opportune mood let me introduce my good friend &amp; physician Dr Bucke<ptr target="n0119"/>—He 
                 is Superintendent (medical and other) 
-                of the big Insane Canadian Asylum at London Ontario&#8212;is an Englishman born but raised (as we say it) in America. 
-                I still stick out here in the land of the living but pretty tough pulling most of the time&#8212;
+                of the big Insane Canadian Asylum at London Ontario—is an Englishman born but raised (as we say it) in America. 
+                I still stick out here in the land of the living but pretty tough pulling most of the time—
             </p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
         </body>
     </text>
-</TEI> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</TEI>

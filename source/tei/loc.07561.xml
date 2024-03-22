@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07561">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07561">  
     <teiHeader>
         <fileDesc>  
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07561</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07561</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">207&#8211;208</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">207–208</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,9 +64,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 10 September 1888</title>
                     <date cert="high" when="1888-09-10" xml:id="dat1">September 10, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -101,21 +98,18 @@
                 </dateline>
             </opener>
             <p>I rec'd a card f'm Rolleston,<ptr target="n1027"/> Ireland, that he had the first
-                proofs of the German L of G. from the printing office<ptr target="loc.07561_n2"
-                />&#8212;&#38; wish'd me to communicate with Dr Knortz<ptr target="uva.00476_n1"/>&#8212;Your letters reach me &#38; are always welcome&#8212;I keep up&#8212;but
-                gain not&#8212;am &#38; have been reading the latter two Carlyle books (Froude and
-                Cabot)<ptr target="loc.07561_n3"/>&#8212;not exactly you would say the cheery
-                pabulum fit for me&#8212;raw, wet, cloudy weather here&#8212;H Gilchrist<ptr
-                target="n0262"/> came this forenoon to inquire, but did not come up to my
-                room&#8212;I guess Kennedy's<ptr target="n3039"/> MS is in abeyance yet<ptr
-                target="loc.07561_n4"/>&#8212;the Japanee Hartmann<ptr target="n4980"/> is going
+                proofs of the German L of G. from the printing office<ptr target="loc.07561_n2"/>—&amp; wish'd me to communicate with Dr Knortz<ptr target="uva.00476_n1"/>—Your letters reach me &amp; are always welcome—I keep up—but
+                gain not—am &amp; have been reading the latter two Carlyle books (Froude and
+                Cabot)<ptr target="loc.07561_n3"/>—not exactly you would say the cheery
+                pabulum fit for me—raw, wet, cloudy weather here—H Gilchrist<ptr target="n0262"/> came this forenoon to inquire, but did not come up to my
+                room—I guess Kennedy's<ptr target="n3039"/> MS is in abeyance yet<ptr target="loc.07561_n4"/>—the Japanee Hartmann<ptr target="n4980"/> is going
                 to try some <hi rend="italic">essay-readings</hi> (European, great but here in
-                America almost unknown persons &#38; art&#8212;productions &#38;c)&#8212;good luck
-                to him!&#8212;("God help all wanderers" said the cute Irish kitchen girl, giving out
-                some bread &#38; meat to the tramp at the gate the other day)&#8212;The strength of
-                my arms &#38; shoulders remains good&#8212;the mentality grip ditto&#8212;spirits
-                fairly ditto&#8212;we think of binding Nov. Boughs<ptr target="n3999"/> in wine colored silesia (a sort
-                of linen&#8212;cheap)&#8212;&#38; entirely untrimm'd&#8212;</p>
+                America almost unknown persons &amp; art—productions &amp;c)—good luck
+                to him!—("God help all wanderers" said the cute Irish kitchen girl, giving out
+                some bread &amp; meat to the tramp at the gate the other day)—The strength of
+                my arms &amp; shoulders remains good—the mentality grip ditto—spirits
+                fairly ditto—we think of binding Nov. Boughs<ptr target="n3999"/> in wine colored silesia (a sort
+                of linen—cheap)—&amp; entirely untrimm'd—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

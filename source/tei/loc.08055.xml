@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08055"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08055"> 
     <teiHeader> 
         <fileDesc>
             <titleStmt> 
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08055</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,23 +34,23 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08055</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 4 June 1891</title>
                     <date cert="high" when="1891-06-04" xml:id="dat1">June 4, 1891</date>
-                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4&#8211;5;
-                        Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4–5;
+                        Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
@@ -85,17 +82,17 @@
                     <date when="1891-06-04">June 4 Evn'g: '91</date>
                 </dateline>
             </opener>
-            <p>I ought to have written before, but there has been &#38; is nothing particular&#8212;Both y'r letters have duly 
-                come f'm Niagara<ptr target="loc.08055_n2"/>&#8212;am pulling al'g so-so, stomachic and bladder bother &#38; fearful 
-                lassitude&#8212;Warry<ptr target="loc.07319_n6"/> 
-                went out to Harleigh<ptr target="loc.07329_n5"/> yesterday&#8212;the date is chipp'd off (W says an improvement)&#8212;the 
+            <p>I ought to have written before, but there has been &amp; is nothing particular—Both y'r letters have duly 
+                come f'm Niagara<ptr target="loc.08055_n2"/>—am pulling al'g so-so, stomachic and bladder bother &amp; fearful 
+                lassitude—Warry<ptr target="loc.07319_n6"/> 
+                went out to Harleigh<ptr target="loc.07329_n5"/> yesterday—the date is chipp'd off (W says an improvement)—the 
                 ponderous door is <hi rend="underline">not</hi> yet hung, 
-                baffles even the machinists &#38; stone-cutters&#8212;when done &#38;c: will probably be the rudest most undress'd structure 
-                (with an idea)&#8212;since Egypt, perhaps the cave dwellers&#8212;am sitting here in the big chair&#8212;my supper has appear'd 
-                &#38; is waiting before me&#8212;Seems to me at any rate a suspicion of easier &#38; let up as I conclude. 
-                How delightful the country you are in &#38; must have pass'd thro' surely looks&#8212;</p>
+                baffles even the machinists &amp; stone-cutters—when done &amp;c: will probably be the rudest most undress'd structure 
+                (with an idea)—since Egypt, perhaps the cave dwellers—am sitting here in the big chair—my supper has appear'd 
+                &amp; is waiting before me—Seems to me at any rate a suspicion of easier &amp; let up as I conclude. 
+                How delightful the country you are in &amp; must have pass'd thro' surely looks—</p>
             <closer>
-                <salute>God bless you, &#38; love to all&#8212;</salute>
+                <salute>God bless you, &amp; love to all—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf002r" facs="loc_jm.00182.jpg" type="recto"/>
@@ -103,63 +100,3 @@
         </body>
     </text> 
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

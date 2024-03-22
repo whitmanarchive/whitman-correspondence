@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03887">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03887">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03887</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive September be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03887</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -53,7 +50,7 @@
                     <date cert="medium" when="1886-09-21" xml:id="dat1">September 21, 1886</date>
                     <idno type="callno">Box 16, Reel 10</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,22 +81,21 @@
                 </dateline>
             </opener>
             <p>I sent Harry the Doctor's address (131 South 15th street)<ptr target="loc.03887_n1"/>
-                last Sunday evn'g,&#8212;so he must have got it next day&#8212;We had a fine visit Sunday,
-                &#38; I enjoyed the drive very much&#8212;&#38; you dont know how much good I have
+                last Sunday evn'g,—so he must have got it next day—We had a fine visit Sunday,
+                &amp; I enjoyed the drive very much—&amp; you dont know how much good I have
                 had out of <hi rend="underline">that
-                chicken</hi>&#8212;I have had three meals out of it&#8212;a bit
-                broiled&#8212;&#38; am to have the rest stewed for dinner to-day&#8212;it was sweet
-                &#38; tender&#8212;</p>
-            <p>I am ab't as usual&#8212;havn't been anywhere (though several invitations)&#8212;I
-                keep good spirits, but grow clumsier &#38; clumsier, &#38; my sight is giving
-                out&#8212;I enclose one of Herbert's last letters<ptr target="loc.03887_n2"
-                />&#8212;(I had written to him over a month ago, when you were not very
-                well)&#8212;By it, he is not likely to come to America this fall&#8212;Cool &#38;
-                bright weather as I write&#8212;Love to you &#38; George &#38; Ed<ptr target="loc.03887_n3"/>&#8212;</p>
+                chicken</hi>—I have had three meals out of it—a bit
+                broiled—&amp; am to have the rest stewed for dinner to-day—it was sweet
+                &amp; tender—</p>
+            <p>I am ab't as usual—havn't been anywhere (though several invitations)—I
+                keep good spirits, but grow clumsier &amp; clumsier, &amp; my sight is giving
+                out—I enclose one of Herbert's last letters<ptr target="loc.03887_n2"/>—(I had written to him over a month ago, when you were not very
+                well)—By it, he is not likely to come to America this fall—Cool &amp;
+                bright weather as I write—Love to you &amp; George &amp; Ed<ptr target="loc.03887_n3"/>—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf001v" facs="loc_jc.00451_large.jpg" type="verso"/>
         </body>
     </text> 
-</TEI> 
+</TEI>

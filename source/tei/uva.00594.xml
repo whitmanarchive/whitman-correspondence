@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00594">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00594">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00594</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00594</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">289</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">289</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -101,13 +98,13 @@
                     <date when="1889-02-14">Feb: 14 '89<ptr target="uva.00594_n1"/></date>
                 </dateline>
             </opener>
-            <p>Y'r card came yesterday&#8212;Rolleston<ptr target="n1027"/> has rec'd in Ireland my big Vol. (complete
-                works)<ptr target="n4188"/>&#8212;I send one to you today by express&#8212;it includes <hi rend="italic">Nov. Boughs</hi><ptr target="n3999"/> &#38;
-                all&#8212;send me card when it comes safe.</p>
-            <p>I hear from Dr Bucke<ptr target="n0119"/> often, he expects to come here next week&#8212;my friend
-                O'Connor<ptr target="n2002"/> is very ill at Washington&#8212;</p>
+            <p>Y'r card came yesterday—Rolleston<ptr target="n1027"/> has rec'd in Ireland my big Vol. (complete
+                works)<ptr target="n4188"/>—I send one to you today by express—it includes <hi rend="italic">Nov. Boughs</hi><ptr target="n3999"/> &amp;
+                all—send me card when it comes safe.</p>
+            <p>I hear from Dr Bucke<ptr target="n0119"/> often, he expects to come here next week—my friend
+                O'Connor<ptr target="n2002"/> is very ill at Washington—</p>
             <p>I am imprison'd in the sick room now in the ninth month, entirely disabled in
-                movem't&#8212;pretty good heart tho'&#8212;</p>
+                movem't—pretty good heart tho'—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

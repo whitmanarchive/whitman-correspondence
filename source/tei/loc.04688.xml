@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04688">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04688">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04688</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,13 +43,13 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04688</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman Storms to Walt Whitman, 1 September 1877</title>
                     <date cert="high" when="1877-09-01" xml:id="dat1">September 1, 1877</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,7 +85,7 @@
                 <salute>My dear friend</salute>
             </opener>
 
-            <p>Your letter of May <gap reason="damage" extent="1 word" quantity="3" unit="chars"/> from Kirkwood was duly <choice><abbr>rec<hi rend="superscript"><hi rend="underline">d</hi></hi></abbr><expan>received</expan></choice> but as I dislike writing letters, &#38; have been pretty busy I hope you will pardon my delay.<ptr target="n0838"/></p>
+            <p>Your letter of May <gap reason="damage" extent="1 word" quantity="3" unit="chars"/> from Kirkwood was duly <choice><abbr>rec<hi rend="superscript"><hi rend="underline">d</hi></hi></abbr><expan>received</expan></choice> but as I dislike writing letters, &amp; have been pretty busy I hope you will pardon my delay.<ptr target="n0838"/></p>
             
             <p>I believe I told you in my last letter of my intention to become, if possible, an engineer,</p> 
                 <p>My intention still holds good, but despite all my efforts, I have failed to obtain a <unclear reason="damage" resp="#nhg" cert="medium">situation</unclear></p>
@@ -101,13 +97,13 @@
             
             acquainted with men of that class, so for the present I will have to take things as they come.</p>
             
-            <p>I was in <choice><abbr>N.Y.</abbr><expan>New York</expan></choice> the first of the week &#38; saw Uncle Geo.&#8212;he is working off &#38; on, for Uncle John, &#38; <unclear reason="illegible" resp="#nhg" cert="medium">the</unclear> Ryers.</p>
+            <p>I was in <choice><abbr>N.Y.</abbr><expan>New York</expan></choice> the first of the week &amp; saw Uncle Geo.—he is working off &amp; on, for Uncle John, &amp; <unclear reason="illegible" resp="#nhg" cert="medium">the</unclear> Ryers.</p>
             
             <p>I hope you will still be able to <choice><sic>mak</sic><corr>make</corr></choice> that long expected visit.</p>
             
             <p>If you are able to come this fall I will meet you, in <choice><abbr>N.Y.</abbr><expan>New York</expan></choice> at any time</p>
             
-            <p>We are all well, &#38; things go on about as usual, with the exception that times seem to get worse &#38; worse.</p>
+            <p>We are all well, &amp; things go on about as usual, with the exception that times seem to get worse &amp; worse.</p>
 
             <closer>
                 <salute rend="right">Your loving friend,</salute>

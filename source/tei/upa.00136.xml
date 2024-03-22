@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00136">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00136">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Rees Welsh &#38; Company, 20 June
+                <title level="m" type="main">Walt Whitman to Rees Welsh &amp; Company, 20 June
                     1882</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>upa.00136</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,14 +44,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00136</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Rees Welsh &#38; Company, 20 June 1882</title>
+                    <title>Walt Whitman to Rees Welsh &amp; Company, 20 June 1882</title>
                     <date cert="high" when="1882-06-20" xml:id="dat1">June 20, 1882</date>
-                    <orgName xml:id="upa">This draft letter is in the Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                    <orgName xml:id="upa">This draft letter is in the Walt Whitman Collection, 1842–1957, Rare Book &amp;
                         Manuscript Library, University of Pennsylvania.</orgName>
                 </bibl>
             </sourceDesc>
@@ -66,7 +62,7 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Rees Welsh &amp; Company">Rees Welsh &#38; Company</persName>
+                    <persName key="Rees Welsh &amp; Company">Rees Welsh &amp; Company</persName>
                 </person>
             </particDesc>
         </profileDesc>
@@ -85,17 +81,17 @@
             <p>Let me make my propositions as plainly as possible.<ptr target="upa.00136_n1"/></p>
             <pb xml:id="leaf001v" facs="upa.00136.002_large.jpg" type="verso"/>
             <pb xml:id="leaf003r" facs="upa.00136.003_large.jpg" type="recto"/>
-            <p>Rees Welsh &#38; Co: to publish Leaves of Grass, (in a style as good as the Osgood
+            <p>Rees Welsh &amp; Co: to publish Leaves of Grass, (in a style as good as the Osgood
                 issue) from W W's
                 electrotype<!-- Miller writes "electrotype" even though this word is inserted in pencil and appears to have been added later? This occurs in other places throughout the letter-nnk -->
-                plates to retail at &#36;2&#8212;to pay W W a royalty of 35 <choice>
+                plates to retail at $2—to pay W W a royalty of 35 <choice>
                     <orig>cts</orig>
                     <reg>cents</reg>
                 </choice> on every copy sold. This agreement to remain in force
                 <!-- <del>five years</del> --> blank<ptr target="upa.00136_n3"/> <!-- inserted in pencil-nnk --> and as much
                 longer as both parties mutually agree.</p>
-            <p>R W &#38; Co. to have the privilege of purchasing from W W the <!-- eletrotype is deleted? [ej] --> plates of L of G.,
-                with the steel engraving &#38; the wood cut, for the sum of 400. cash. After so
+            <p>R W &amp; Co. to have the privilege of purchasing from W W the <!-- eletrotype is deleted? [ej] --> plates of L of G.,
+                with the steel engraving &amp; the wood cut, for the sum of 400. cash. After so
                 purchasing W W's royalty to be at 25 <choice>
                     <orig>cts</orig>
                     <reg>cents</reg>
@@ -103,18 +99,17 @@
             <pb xml:id="leaf004r" facs="upa.00136.004_large.jpg" type="recto"/>
             <!--On this surface is a letter from David Hutcheson to Whitman, sent in 1880. See upa.00212.-->
             <pb xml:id="leaf005r" facs="upa.00136.005_large.jpg" type="recto"/>
-            <p>Rees Welsh &#38; Co: to electrotype, in the best manner at their sole expense, &#38;
+            <p>Rees Welsh &amp; Co: to electrotype, in the best manner at their sole expense, &amp;
                 publish W W's Prose Writings, <hi rend="underline">Specimen Days</hi> (now mostly in
-                MS) as a companion volume to Leaves of Grass, to be of about the same <unclear
-                    reason="illegible" cert="low" resp="nnk">size</unclear> &#38; in equally good
-                type, paper &#38; style &#38; to retail at &#36;2&#8212;R W &#38; Co: to pay W W a
-                royalty of 22 cents on every copy sold&#8212;said R W &#38; Co. to have the sole
+                MS) as a companion volume to Leaves of Grass, to be of about the same <unclear reason="illegible" cert="low" resp="nnk">size</unclear> &amp; in equally good
+                type, paper &amp; style &amp; to retail at $2—R W &amp; Co: to pay W W a
+                royalty of 22 cents on every copy sold—said R W &amp; Co. to have the sole
                 right to publish <hi rend="underline">Specimen Days</hi> for five years, and as much
                 longer as mutually agreed</p>
             <pb xml:id="leaf006r" facs="upa.00136.006_large.jpg" type="recto"/>
             <pb xml:id="leaf007r" facs="upa.00136.007_large.jpg" type="recto"/>
             <p>A special edition of Leaves of Grass for holiday presents in handsome binding, (say
-                half calf, gilt) may be published, price &#36;5. For these W W's royalty to be 87&#189; <choice>
+                half calf, gilt) may be published, price $5. For these W W's royalty to be 87½ <choice>
                     <orig>cts</orig>
                     <reg>cents</reg>
                 </choice> a copy.</p>
@@ -127,13 +122,12 @@
             <pb xml:id="leaf010r" facs="upa.00136.010_large.jpg" type="recto"/>
             <!--Another part of the Forney letter is on this surface.-->
             <pb xml:id="leaf011r" facs="upa.00136.011_large.jpg" type="recto"/>
-            <p>R W &#38; Co: to publish <hi rend="underline">Walt Whitman a Study</hi>, by Dr R M
+            <p>R W &amp; Co: to publish <hi rend="underline">Walt Whitman a Study</hi>, by Dr R M
                 Bucke of Canada, in a 12mo volume of about three hundred pages, on condition that
                 Dr. B. secures the American copyright</p>
             <p>A royalty of <space extent="one word" unit="chars" quantity="5"/> to be paid Dr
                 B.</p>
-            <p>WW a Study to retail at &#36;2&#8212;will call soon<ptr target="upa.00136_n2"
-                /></p>
+            <p>WW a Study to retail at $2—will call soon<ptr target="upa.00136_n2"/></p>
 
             <closer>
                 <signed rend="right">W W</signed>

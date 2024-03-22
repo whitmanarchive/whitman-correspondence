@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07917">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07917">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07917</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,16 +44,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07917</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Robert Adams, 27 July 1890</title>
                     <date cert="high" when="1890-07-27" xml:id="dat1">July 27, 1890</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00055</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -94,13 +91,13 @@
                 <salute>Dear Sir</salute>
             </opener>
             <p>Y'rs of 25th rec'd<ptr target="n5002"/> &amp; thank you. I remember you &amp; y'r call &amp; the 
-               ladies very well &amp; send my best wishes &amp; respects to all&#8212;I w'd be glad to
-               send you four (or three) copies of the big book,<ptr target="n4195"/> (complete works)&#8212;as
-               you say, they w'd to you be &#36;4 each (retail 6)&#8212;I cannot add in MS any
-               thing more than is already in each &amp; all&#8212;I w'd take back &amp; allow for the
-               vol. you speak of&#8212;they w'd best be sent you by express, (as the postage is
-               40cts a copy)&#8212;If you take, remit me pay in p o order. Enclosed find
-               circulars&#8212;</p>
+               ladies very well &amp; send my best wishes &amp; respects to all—I w'd be glad to
+               send you four (or three) copies of the big book,<ptr target="n4195"/> (complete works)—as
+               you say, they w'd to you be $4 each (retail 6)—I cannot add in MS any
+               thing more than is already in each &amp; all—I w'd take back &amp; allow for the
+               vol. you speak of—they w'd best be sent you by express, (as the postage is
+               40cts a copy)—If you take, remit me pay in p o order. Enclosed find
+               circulars—</p>
                 <p>Respectfully &amp;c:</p> 
             <closer><signed>Walt Whitman</signed></closer>
             <pb xml:id="leaf001v" facs="loc_zs.00346.jpg" type="verso"/>
@@ -108,4 +105,3 @@
         </body>
     </text>
 </TEI>
-

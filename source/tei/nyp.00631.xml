@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00631">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00631">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to William D. O'Connor, 16&#8211;17
+                <title level="m" type="main">Walt Whitman to William D. O'Connor, 16–17
                     February [1889]</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00631</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00631</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,17 +55,16 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">291</biblScope> 
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">291</biblScope> 
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to William D. O'Connor, 16&#8211;17 February [1889]</title>
-                    <date cert="medium" notBefore="1889-02-16" notAfter="1889-02-17" xml:id="dat1"
-                        >February 16&#8211;17, [1889]</date>
+                    <title>Walt Whitman to William D. O'Connor, 16–17 February [1889]</title>
+                    <date cert="medium" notBefore="1889-02-16" notAfter="1889-02-17" xml:id="dat1">February 16–17, [1889]</date>
                     <orgName xml:id="nyp">The Henry W. and Albert A. Berg Collection of English and
                         American Literature, New York Public Library</orgName>
                 </bibl>
@@ -97,18 +93,16 @@
         <body>
             <opener> 
                 <dateline>
-                    <name type="place">Camden&#8212;</name>
-                    <date when="1889-02-16">Feb: 16&#8212;Forenoon<ptr target="nyp.00631_n1"/></date>
+                    <name type="place">Camden—</name>
+                    <date when="1889-02-16">Feb: 16—Forenoon<ptr target="nyp.00631_n1"/></date>
                 </dateline>
             </opener>
-            <p>Had my breakfast abt 9&#188;&#8212;mutton-broth, (some small bits of well stew'd meat)
-                with Graham bread toasted &#38; coffee&#8212;eat &#38; drunk with
-                relish&#8212;N[elly]'s<ptr target="n4137"/> card came&#8212;hope there may be many such <hi rend="italic"
-                    >reasonable</hi> nights&#8212;&#38; days too&#8212;McKay<ptr target="n4983"/> has just come back f'm
-                a book-tour in Boston and N Y&#8212;he sold 27 of the big books<ptr target="n4151"/>&#8212;&#38; of <hi
-                    rend="italic">Nov. Boughs</hi><ptr target="n3999"/> over 700 have been sold&#8212;</p>
+            <p>Had my breakfast abt 9¼—mutton-broth, (some small bits of well stew'd meat)
+                with Graham bread toasted &amp; coffee—eat &amp; drunk with
+                relish—N[elly]'s<ptr target="n4137"/> card came—hope there may be many such <hi rend="italic">reasonable</hi> nights—&amp; days too—McKay<ptr target="n4983"/> has just come back f'm
+                a book-tour in Boston and N Y—he sold 27 of the big books<ptr target="n4151"/>—&amp; of <hi rend="italic">Nov. Boughs</hi><ptr target="n3999"/> over 700 have been sold—</p>
             <p><date when="1889-02-17">Sunday Feb: 17</date></p>
-            <p>Rain &#38; dark weather same as yesterday&#8212;alone here trying to interest myself
+            <p>Rain &amp; dark weather same as yesterday—alone here trying to interest myself
                 in <hi rend="italic">Tribune</hi> and Phil: <hi rend="italic">Press</hi> to day's. I
                 expect Dr B[ucke]<ptr target="n0119"/> Tuesday evn'g or Wednesday next.</p>
             <closer>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00918"> 
+    <teiHeader> 
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Daniel Longaker, 7 June 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="blh">Breanna Himschoot</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            <idno>med.00918</idno></publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">209</biblScope>
+                        </imprint>
+                    </monogr> 
+                </biblStruct>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Daniel Longaker, 7 June 1891</title>
+                    <date cert="high" when="1891-06-07" xml:id="dat1">June 7, 1891</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown. Miller derives his 
+                        transcription from a transcription published in Horace Traubel, Richard Maurice Bucke, and Thomas B. Harned, eds., 
+                        <hi rend="italic">In Re Walt Whitman</hi> (Philadelphia: David McKay, 1893), 396–397</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Longaker, Daniel" ref="loc.08039_n2">Daniel Longaker</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-10-01" who="#smb">final check, corrected, added notes</change>
+            <change when="2021-07-16" who="#blh">Second check: verified transcriptionand encoding</change>
+            <change when="2021-07-09" who="#aja">checked, corrected</change>
+            <change when="2019-10-28" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">  
+        <body>
+            <opener>
+                <dateline>
+                    <date when="1891-06-07">June 7, 1891</date> 
+                    <date when="1891-06-07">Sunday ev'ng, 4:30</date>
+                </dateline>
+            </opener>
+            <p>Have just had my 2d meal, mutton and rice stew, wet Graham toast, &amp;c.; 
+                relished fairly—drank a little of the Rhine wine—take the granules 
+                (3 to-day). No motion of the bowels now, I think, five perhaps six days. 
+                To-day easier (negative)—freer from the horrible deathly sinkiness 
+                of yesterday and Thursday—have been sitting up reading and writing 
+                all day—had one or two visitors,<ptr target="n5001b"/> excused myself.</p>
+            <p>Horace Traubel<ptr target="n4267"/> still in Canada, having a good time I guess.<ptr target="loc.08147_n3"/> 
+                Expect him back last of the coming week. A half–medical acquaintance<ptr target="n5001"/> was in—said, 
+                "You look all right—surely there's nothing the matter with your health!" 
+                Didn't know whether to take it as compliment or the other thing. 
+                (Ah! this immovable block of constipation.)
+            </p>
+        </body>
+    </text>
+</TEI>

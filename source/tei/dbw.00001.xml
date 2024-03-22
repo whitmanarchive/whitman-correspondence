@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="dbw.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dbw.00001">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>dbw.00001</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>dbw.00001</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <analytic>
@@ -60,8 +57,8 @@
                             <pubPlace>Detroit</pubPlace>
                             <publisher>Wayne State University Press</publisher>
                             <date when="1973">December 1973</date>
-                            <biblScope type="page">168</biblScope>
-                            <biblScope type="volume">19</biblScope>
+                            <biblScope unit="page">168</biblScope>
+                            <biblScope unit="volume">19</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -93,11 +90,11 @@
  
     <text type="letter">   
         <body>
-            <p>Have been absent from Camden the last five weeks<ptr target="dbw.00001_n2"/>&#8212;been over
-                the Plains &#38; up in the Rocky Mountains&#8212;gave out about two weeks ago &#38;
+            <p>Have been absent from Camden the last five weeks<ptr target="dbw.00001_n2"/>—been over
+                the Plains &amp; up in the Rocky Mountains—gave out about two weeks ago &amp;
                 have been quite sick ever since (principal trouble with my head) but am
-                recovering&#8212;only received yours (of Sept 22)
-                today&#8212;will send the book from Camden soon as I get back&#8212;shall stay here
+                recovering—only received yours (of Sept 22)
+                today—will send the book from Camden soon as I get back—shall stay here
                 twelve days<ptr target="dbw.00001_n1"/></p>
             <closer>
                 <signed>W W</signed>

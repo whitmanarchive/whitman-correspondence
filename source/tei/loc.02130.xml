@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02130">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02130">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02130</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02130</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Hamlin Garland</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1888-10-24" xml:id="dat1">October 24, 1888</date>
                     <idno type="callno">MSS18630, Box 10, Reel 6</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -95,11 +92,10 @@
             </opener>
             <p>I am over-joyed to receive your volume and autograph be sure it will be read and
                 heralded to the world. I saw Mr. Howells<ptr target="n4317"/> yesterday spent the
-                afternoon with him in discussing reforms, literary progress etc&#82112;He spoke of
+                afternoon with him in discussing reforms, literary progress etc𔃀He spoke of
                 you again with a good deal of feeling.</p>
             <p>I think it of very great importance that you send him an autograph copy of "November
-                Boughs."<ptr target="n3999"/> If it has not been done <pb xml:id="leaf001v"
-                    facs="loc.02130.002_large.jpg" type="verso"/>
+                Boughs."<ptr target="n3999"/> If it has not been done <pb xml:id="leaf001v" facs="loc.02130.002_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc.02130.003_large.jpg" type="recto"/> dont fail to do
                 it at once. If you send it immediately upon receipt of this letter address 
                 <address>
@@ -118,7 +114,7 @@
             <p>And I will write him again about it. He is more than friendly to you and all
                 progressive movements.</p> 
             <closer>
-                <salute><hi rend="underline">With deepest regard&#8212;</hi></salute>
+                <salute><hi rend="underline">With deepest regard—</hi></salute>
                 <signed rend="right"><hi rend="underline">Hamlin Garland</hi></signed>
             </closer>
             <pb xml:id="leaf002v" facs="loc.02130.004_large.jpg" type="verso"/>

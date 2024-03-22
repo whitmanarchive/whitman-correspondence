@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00433">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00433">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00433</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +37,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00433</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -51,7 +49,7 @@
                      <pubPlace>Kent, Ohio</pubPlace>
                      <publisher>Kent State University Press</publisher>
                      <date>1984</date>
-                     <biblScope type="page">98-99</biblScope>
+                     <biblScope unit="page">98-99</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -59,7 +57,7 @@
                <author>Thomas Jefferson Whitman</author>
                <title>Thomas Jefferson Whitman to Walt Whitman, 26 January 1865</title>
                <date when="1865-01-26">January 26, 1865</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -94,14 +92,14 @@
                   </dateline>
                   <salute>Dear Brother Walt,</salute>
                </opener>
-               <p>Mother received your letter<ptr target="loc.00433_n2"/> to-night&#8212;we were all very glad to hear that you arrived so nicely and were so well established&#8212;The enclosed two letters came to-day<ptr target="loc.00433_n3"/>&#8212;I sent the box to dear brother George yesterday at noon directed just as you left word&#8212;I got some hoop iron and straped the box up strong&#8212;I dont suppose there can be anything wrong in sending it straped in that way&#8212;do you suppose there is? I had in it a ham piece of smoked beef can of milk (condensed) coffee can of peaches&#8212;crackers&#8212;potatoes&#8212;salt&#8212;and the clothes that he sent for&#8212;I think I will send him another next week or week after&#8212;We were all elated upon seeing the letters published yesterday about the exchange of prisoners.<ptr target="loc.00433_n4"/> O I so hope they will make an exchange&#8212;can you not write something that will keep up the talk about the matter, sometimes little weights when the[y] fall at the right moment turn the scale and accomplish great results  Seems as if twould be worth almost a life time to help along such a thing as the general exchange of prisoners&#8212;</p>
-               <p>so you have assumed the duties and honors of an officer of the government<ptr target="loc.00433_n5"/>  Mother was wondering at tea to-night what you would have to do&#8212;I told her that undoubtedly the first thing would be to calculate just exactly how many little indians John Brown<ptr target="loc.00433_n6"/> did have&#8212;as that was the first thing the clerks had to do in the Indian dept.&#8212;What the devil is the Indian dept.&#8212;? It is suggestive of scalps, war and paint&#8212;whiskey and laziness  However I suppose you have not yet had time to tell what the business is about but anyhow if it is only a comfortable berth without too much hard work, it will come in good<ptr target="loc.00433_n7"/>&#8212;I hope you will have good health&#8212;I would suggest that you should not go it too strong in the Hospital way, for a while&#8212;I would draw it mild for a month or so&#8212;How does it seem to you to go back&#8212;I suppose it looks quite natural&#8212;I hope to be able to come and make you a visit soon&#8212;probabaly some time next mont[h]&#8212;Write to me Walt&#8212;I like to hear from you often&#8212;Write to George tell him we sent his box and will send more</p>
+               <p>Mother received your letter<ptr target="loc.00433_n2"/> to-night—we were all very glad to hear that you arrived so nicely and were so well established—The enclosed two letters came to-day<ptr target="loc.00433_n3"/>—I sent the box to dear brother George yesterday at noon directed just as you left word—I got some hoop iron and straped the box up strong—I dont suppose there can be anything wrong in sending it straped in that way—do you suppose there is? I had in it a ham piece of smoked beef can of milk (condensed) coffee can of peaches—crackers—potatoes—salt—and the clothes that he sent for—I think I will send him another next week or week after—We were all elated upon seeing the letters published yesterday about the exchange of prisoners.<ptr target="loc.00433_n4"/> O I so hope they will make an exchange—can you not write something that will keep up the talk about the matter, sometimes little weights when the[y] fall at the right moment turn the scale and accomplish great results  Seems as if twould be worth almost a life time to help along such a thing as the general exchange of prisoners—</p>
+               <p>so you have assumed the duties and honors of an officer of the government<ptr target="loc.00433_n5"/>  Mother was wondering at tea to-night what you would have to do—I told her that undoubtedly the first thing would be to calculate just exactly how many little indians John Brown<ptr target="loc.00433_n6"/> did have—as that was the first thing the clerks had to do in the Indian dept.—What the devil is the Indian dept.—? It is suggestive of scalps, war and paint—whiskey and laziness  However I suppose you have not yet had time to tell what the business is about but anyhow if it is only a comfortable berth without too much hard work, it will come in good<ptr target="loc.00433_n7"/>—I hope you will have good health—I would suggest that you should not go it too strong in the Hospital way, for a while—I would draw it mild for a month or so—How does it seem to you to go back—I suppose it looks quite natural—I hope to be able to come and make you a visit soon—probabaly some time next mont[h]—Write to me Walt—I like to hear from you often—Write to George tell him we sent his box and will send more</p>
                <closer rend="right">
                   <signed>Yours affectionately Jeff</signed>
                </closer>
             
             <postscript>
-               <p>Mother, Mat and the babies send their love  the baby calls <hi rend="italic">Walt</hi>&#8212;and asks if he is gone&#8212;Hat wants to be remembere[d] to Uncle Walt&#8212;</p>
+               <p>Mother, Mat and the babies send their love  the baby calls <hi rend="italic">Walt</hi>—and asks if he is gone—Hat wants to be remembere[d] to Uncle Walt—</p>
             </postscript>
          
       </body>

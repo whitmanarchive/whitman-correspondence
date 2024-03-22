@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05154"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05154"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05154</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05154</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1888-05-07" xml:id="dat1">May 7, 1888</date>
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.00154"/>
                     <relatedItem type="document" target="wwa.00204"/>
                     <note type="project" target="#rel01">
@@ -98,18 +95,16 @@
                 <salute>Dear friend</salute> 
             </opener>
             <p>I wish I could send you something more <hi rend="underline">medicatious</hi> than
-                real sympathy &#38; sorrow for your suffering &#38; confinement&#8212;but that
-                heartily for want of anything better. I rec'd a note from Mary<ptr
-                    target="loc.02189_n1"/> with programme of her intended lecture before London
+                real sympathy &amp; sorrow for your suffering &amp; confinement—but that
+                heartily for want of anything better. I rec'd a note from Mary<ptr target="loc.02189_n1"/> with programme of her intended lecture before London
                 women. Rec'd a letter from Logan<ptr target="n6122"/> ab't his visit to H
-                    Gilchrist's<ptr target="n0262"/> WW Portrait blow&#8212;I am not much different
-                here (but the net is slowly winding &#38; tightening round me)&#8212;was out driving
-                yesterday afternoon &#38; to supper at my friends Lawyer &#38; Mrs. Harned's<ptr
-                    target="n4134"/>&#8212;I have been reading Boswell's Johnson&#8212;(what an old
-                octopus J was!)&#8212;the oysters come&#8212;I had 3 or 4 for my breakfast&#8212;I
-                take no other meal till ab't 5&#8212;Lady Mount Temple has sent me a present of a
-                beautiful vest of knit stuff, wool &#38; silk<ptr target="loc.05154_n2"/>&#8212;Love
-                to Alys<ptr target="loc.05908_n1"/>&#8212;As old S J says "Let us pray for each
+                    Gilchrist's<ptr target="n0262"/> WW Portrait blow—I am not much different
+                here (but the net is slowly winding &amp; tightening round me)—was out driving
+                yesterday afternoon &amp; to supper at my friends Lawyer &amp; Mrs. Harned's<ptr target="n4134"/>—I have been reading Boswell's Johnson—(what an old
+                octopus J was!)—the oysters come—I had 3 or 4 for my breakfast—I
+                take no other meal till ab't 5—Lady Mount Temple has sent me a present of a
+                beautiful vest of knit stuff, wool &amp; silk<ptr target="loc.05154_n2"/>—Love
+                to Alys<ptr target="loc.05908_n1"/>—As old S J says "Let us pray for each
                 other."</p>
             <closer>
                 <salute/>
@@ -117,8 +112,7 @@
             </closer>
             <postscript>
                 <p>I see I have taken a sheet of paper with a rambling first draught of one of my
-                    Herald yawps<ptr target="loc.05154_n3"/>&#8212;but <hi rend="underline"
-                        >n'importe</hi>&#8212;</p>
+                    Herald yawps<ptr target="loc.05154_n3"/>—but <hi rend="underline">n'importe</hi>—</p>
             </postscript>
             <pb xml:id="leaf001v" facs="loc_jc.00200_large.jpg" type="verso"/>
             <pb xml:id="leaf002r" facs="loc_jc.00195_large.jpg" type="recto"/>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00892">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00892">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00892</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,19 +43,19 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00892</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
                         <author>Walt Whitman</author>
                         <editor>Clarence Gohdes</editor>
                         <editor>Rollo G. Silver</editor>
-                        <title xml:id="gos">Faint Clews &#38; Indirections</title>
+                        <title xml:id="gos">Faint Clews &amp; Indirections</title>
                         <imprint>
                             <pubPlace>Durham</pubPlace>
                             <publisher>Duke University Press</publisher>
                             <date when="1949">1949</date>
-                            <biblScope type="page">118</biblScope>
+                            <biblScope unit="page">118</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -98,15 +94,14 @@
                     <date when="1887-11-29">Nov. 29 [1887] latter p m</date>
                 </dateline>
             </opener>
-            <p>As I write I am sitting in my big chair&#8212;<hi rend="italic">cold</hi> to-day
-                here&#8212;sunny however&#8212;Morse<ptr target="n0862"/> is here working on a life
-                size Emerson<ptr target="loc.03157_n3"/>&#8212;(somewhat of a demand for them)&#8212;Your last letter good
-                reading for him (&#38; me too)&#8212;don't <hi rend="italic">push</hi> the getting
-                of the head<ptr target="duk.00892_n1"/> into any Boston gallery ("wait for the wagon")&#8212;it must depend on
-                its <hi rend="italic">artistic</hi> merits&#8212;as a piece of modeling
-                &#38;c&#8212;Nothing new with me&#8212;No E Rhys<ptr target="loc.03310_n1"/>
-                yet&#8212;&#8212;I have heard from O Connor<ptr target="n2002"
-                />&#8212;tolerable&#8212;</p>
+            <p>As I write I am sitting in my big chair—<hi rend="italic">cold</hi> to-day
+                here—sunny however—Morse<ptr target="n0862"/> is here working on a life
+                size Emerson<ptr target="loc.03157_n3"/>—(somewhat of a demand for them)—Your last letter good
+                reading for him (&amp; me too)—don't <hi rend="italic">push</hi> the getting
+                of the head<ptr target="duk.00892_n1"/> into any Boston gallery ("wait for the wagon")—it must depend on
+                its <hi rend="italic">artistic</hi> merits—as a piece of modeling
+                &amp;c—Nothing new with me—No E Rhys<ptr target="loc.03310_n1"/>
+                yet——I have heard from O Connor<ptr target="n2002"/>—tolerable—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

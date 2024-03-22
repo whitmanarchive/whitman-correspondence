@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
- <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00851"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00851"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00851</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00851</idno></publicationStmt>
             <sourceDesc> 
                 <biblStruct>
                     <monogr>
@@ -56,8 +53,8 @@
                             <pubPlace>Iowa City</pubPlace>
                             <publisher>Iowa City Press</publisher>
                             <date notBefore="2004" notAfter="2004">2004</date>
-                            <biblScope type="volume">7</biblScope>
-                            <biblScope type="page">92</biblScope>
+                            <biblScope unit="volume">7</biblScope>
+                            <biblScope unit="page">92</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -95,14 +92,13 @@
             <opener>
                 <dateline>
                     <name type="place">328 Mickle Street, Camden, New Jersey</name>
-                    <date when="1888-06-22">Friday Eve, June 22, '88<ptr target="med.00851_n1"
-                        /></date>
+                    <date when="1888-06-22">Friday Eve, June 22, '88<ptr target="med.00851_n1"/></date>
                 </dateline>
             </opener>
-            <p>Dear friend; and all your folks, all the family<ptr target="med.00851_n2"/>&#8212;I
-                have been very ill for over a fortnight and still badly and weak yet&#8212;not yet
-                quite definite&#8212;but the Doctor<ptr target="med.00851_n4"/> favors the probability. The heat is
-                great&#8212;but in pulse and appetite things help me along; also in good
+            <p>Dear friend; and all your folks, all the family<ptr target="med.00851_n2"/>—I
+                have been very ill for over a fortnight and still badly and weak yet—not yet
+                quite definite—but the Doctor<ptr target="med.00851_n4"/> favors the probability. The heat is
+                great—but in pulse and appetite things help me along; also in good
                 spirits. Good remembrances and affection to you all.</p>
             <closer>
                 <signed>Walt Whitman</signed>

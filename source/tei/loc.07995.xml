@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07995"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07995"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07995</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,22 +39,22 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07995</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 5 February 1891</title>
                     <date cert="high" when="1891-02-05" xml:id="dat1">February 5, 1891</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <orgName xml:id="loc">
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.
                     </orgName>
                 </bibl> 
             </sourceDesc>
@@ -65,7 +62,7 @@
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whitman, Walt" >Walt Whitman</persName>
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Bucke, Richard Maurice" ref="n0119">Richard Maurice Bucke</persName> 
@@ -91,9 +88,9 @@
             </opener> 
             <p>Y'r own letter of recovery<ptr target="loc.07995_n3"/> (or essentially) 
                 came last evn'g <gap reason="illegible" quantity="1" unit="chars"/> was 
-                a great relief&#8212;to H T<ptr target="n4267"/>
-                also&#8212;I handed it to him. The slip Springfield Rep: must be '82 or '3, &#38; probably by 
-                Frank Sanborn<ptr target="loc.07995_n2"/>&#8212;Nothing notable to write Sunshiny &#38; cold&#8212; 
+                a great relief—to H T<ptr target="n4267"/>
+                also—I handed it to him. The slip Springfield Rep: must be '82 or '3, &amp; probably by 
+                Frank Sanborn<ptr target="loc.07995_n2"/>—Nothing notable to write Sunshiny &amp; cold— 
             </p>  
             <closer>
                 <signed>Walt Whitman</signed>
@@ -102,12 +99,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-

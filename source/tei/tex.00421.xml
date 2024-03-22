@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00421">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00421">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00421</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00421</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">227</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">227</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -104,20 +100,20 @@
                 <salute>My dear Edward Carpenter,</salute>
             </opener>
             <p>Yours of May 14 <choice>
-                <orig>rec'd</orig><reg>received</reg></choice>, with the &#163;3<ptr target="tex.00421_n2"/>&#8212;Many
-                thanks&#8212;I send the three L of G by same mail with this, same
-                address&#8212;please notify me soon as they reach you safely&#8212;</p>
-            <p>I am much as usual&#8212;Pretty well a good deal of the time&#8212;go down to the
-                Staffords' farm often&#8212;was there two weeks of this month&#8212;they are
-                well&#8212;have not forgotten you&#8212;Harry still works at telegraphing&#8212;</p>
-            <p>I was on in Boston five weeks since&#8212;but I believe I sent you a little printed
-                item of my jaunt&#8212;</p>
-            <p>I sympathize with you in the loss of the dear mother&#8212;I have drunk of that
-                cup&#8212;Commend me faithfully in good wishes to my unmet friends you come
-                across&#8212;to Robert Sharkland, whose name I have written as you desired, in the
-                Volume&#8212;</p>
-            <p>Write to me as often as you can, my dear friend&#8212;&#38; I will try the same to
-                you&#8212;</p>
+                <orig>rec'd</orig><reg>received</reg></choice>, with the £3<ptr target="tex.00421_n2"/>—Many
+                thanks—I send the three L of G by same mail with this, same
+                address—please notify me soon as they reach you safely—</p>
+            <p>I am much as usual—Pretty well a good deal of the time—go down to the
+                Staffords' farm often—was there two weeks of this month—they are
+                well—have not forgotten you—Harry still works at telegraphing—</p>
+            <p>I was on in Boston five weeks since—but I believe I sent you a little printed
+                item of my jaunt—</p>
+            <p>I sympathize with you in the loss of the dear mother—I have drunk of that
+                cup—Commend me faithfully in good wishes to my unmet friends you come
+                across—to Robert Sharkland, whose name I have written as you desired, in the
+                Volume—</p>
+            <p>Write to me as often as you can, my dear friend—&amp; I will try the same to
+                you—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

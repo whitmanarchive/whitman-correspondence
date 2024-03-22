@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00847"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Charles Allen Thorndike Rice to Walt Whitman, 18 January 1889</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles Allen Thorndike Rice</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>   
+                <respStmt> 
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>  
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588–4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce 
+                        the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>med.00847</idno></publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <editor>Horace Traubel</editor>
+                        <title xml:id="ht">With Walt Whitman in Camden</title>
+                        <imprint>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <publisher>University of Pennsylvania Press</publisher>
+                            <date>1953</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">18</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <bibl>
+                    <author>Charles Allen Thorndike Rice</author>
+                    <title>Charles Allen Thorndike Rice to Walt Whitman, 18 January 1889</title>
+                    <date cert="high" when="1889-01-18" xml:id="dat1">January 18, 1889</date>
+                    <orgName xml:id="med">The location of this manuscript is unknown.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Rice, Charles Allen Thorndike" ref="n6004">Charles Allen Thorndike Rice</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-06" who="#aja">final corrections</change>
+            <change when="2021-12-29" who="#smb">final check, corrected</change>
+            <change when="2021-11-16" who="#aja">checked, corrected</change>
+            <change when="2021-11-03" who="#cn">checked, corrected</change>
+            <change when="2020-11-16" who="#smb">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+          <opener>
+                <dateline>
+                    <name type="place">New York,</name> 
+                    <date when="1889-01-18">January 18th, 1889.</date>
+                </dateline>  
+               <salute>Dear Mr. Whitman:</salute> 
+            </opener>
+            <p>One frequently hears it said in connection with the agitation for 
+                international copyright that the enactment of the proposed law<ptr target="med.00847_n2"/> is 
+            desirable not only as a matter of justice to the foreign author, 
+            and of protection to the native, but also because the flood of 
+            English literature, especially of English fiction, which piracy 
+            lets loose sets ideals before our young readers which are contrary 
+            to the spirit of American life. I do not quite understand how the 
+            English ideal of life differs from the American, but a discussion 
+            of the subject which I propose to have in The North American 
+            Review<ptr target="med.00850_n2"/> will, no doubt, be a source of   
+            enlightenment. Will you be one of the symposium and send me your 
+            views in an article of two thousand words, or less, for which, 
+            of course, I will pay you? The American Ideal in Fiction<ptr target="med.00847_n1"/>—that 
+            will be the title; and each contributor will be expected to point 
+            out everything which he considers objectionable in the habit of 
+            reading foreign stories.</p>
+                <closer>
+                    <salute>I am, dear Mr. Whitman,</salute>
+                    <signed>Allen Thorndike Rice.</signed>
+                </closer>
+        </body> 
+    </text> 
+</TEI>

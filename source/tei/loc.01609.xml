@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01609">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Senator George F. Edmunds to Walt Whitman, 4 January
+                    1867</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Senator George F. Edmunds</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="br">Beverley Rilett</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01609</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Senator George F. Edmunds</author>
+                    <title>Senator George F. Edmunds to Walt Whitman, 4 January 1867</title>
+                    <date cert="high" when="1867-01-04" xml:id="dat1">January 4, 1867</date>
+                    <idno type="callno">MSS18630, Box 9, Reel 5–6</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00161 </idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Edmunds, Senator George F." ref="n0207">Senator George F.
+                        Edmunds</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-11-23" who="#smb">final check, corrected</change>
+            <change when="2022-07-19" who="#kjb">checked, corrected</change>
+            <change when="2022-01-20" who="#cn">checked, corrected</change>
+            <change when="2021-10-26" who="#aja">2nd check, notes</change>
+            <change when="2014-08-15" who="#el">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-11-01" who="#cb">proofed</change>
+            <change when="2012-06-18" who="#js">proofed</change>
+            <change when="2012-05-08" who="#km">checked</change>
+            <change when="2011-02-17" who="#al">Checked</change>
+            <change when="2010-10-29" who="#br">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01609.001_large_mflm.jpg" type="recto"/>
+            <opener>
+                <dateline rend="right">
+                    <name type="place">Senate <unclear reason="illegible" cert="medium" resp="#km">W</unclear><!--<ptr target="loc.01609_n2"/>--></name>
+                        <date when="1867-01-04">Jan 4 67</date>
+                </dateline>
+                <salute>Dear Sir:</salute> 
+            </opener>
+            <p>Mr Hyde<ptr target="n0299"/> of Burlington Vt, has sent by me a small package<ptr target="loc.01609_n1"/> for you. It is at my room 419 N.Y. <unclear reason="illegible" cert="medium" resp="#km">av.</unclear>.<ptr target="loc.01609_n3"/> Please call for
+                it.</p>
+            <closer>
+                <salute><unclear reason="illegible" cert="medium" resp="#km">Yours
+                    truly</unclear></salute>
+                <signed>Geo. F. Edmunds</signed>
+                <address>
+                    <addrLine>Mr W Whitman</addrLine>
+                    <addrLine>Atty <choice>
+                            <abbr>Gener</abbr>
+                            <expan>General's</expan>
+                        </choice> Office</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

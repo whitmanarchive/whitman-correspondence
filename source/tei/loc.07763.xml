@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07763">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07763">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07763</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07763</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">34&#8211;35</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">34–35</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -66,9 +63,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 8 April 1890</title>
                     <date cert="high" when="1890-04-08" xml:id="dat1">April 8, 1890</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -98,14 +95,14 @@
                     <date when="1890-04-08">3 P M April 8 '90<ptr target="loc.07763_n1"/></date>
                 </dateline>
             </opener>
-            <p>Sick yet &#38; pretty badly&#8212;still feel however that it is more hubbub &#38;
+            <p>Sick yet &amp; pretty badly—still feel however that it is more hubbub &amp;
                 misery, than any thing deeply serious. I doubt if I shall be well enough to go over
                 to Phila: 15th<ptr target="med.00797_n1"/> (wh' I much regret.) I have rec'd the
-                London <hi rend="italic">Universal Review</hi> of Feb: 15&#8212;Sarrazin's<ptr target="n3115"/> article<ptr target="n6181"/>
-                appears to be the same old one in French (&#38; good as ever)&#8212;If you want one
-                you can get it from the New York International News Co:&#8212;I drink freely of hot
-                flax seed tea, flavored with lemon &#38; sugar&#8212;am half killed from
-                phlegm&#8212;</p>
+                London <hi rend="italic">Universal Review</hi> of Feb: 15—Sarrazin's<ptr target="n3115"/> article<ptr target="n6181"/>
+                appears to be the same old one in French (&amp; good as ever)—If you want one
+                you can get it from the New York International News Co:—I drink freely of hot
+                flax seed tea, flavored with lemon &amp; sugar—am half killed from
+                phlegm—</p>
             <closer>
                 <signed>W W</signed>
             </closer>

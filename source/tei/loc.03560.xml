@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03560">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03560">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03560</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03560</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Nugent Robinson</author>
@@ -55,7 +51,7 @@
                     <date cert="high" when="1887-07-31" xml:id="dat1">July 31, 1887</date>
                     <idno type="callno">MSS18630 Box 14</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,80 +82,56 @@
         <body>
             <pb xml:id="leaf001r" facs="loc.03560.001_large.jpg" type="recto"/>
             <opener>
-                <note type="editorial" place="top" resp="#ht">see notes Aug 26 &#38; 29 1888</note>
+                <note type="editorial" place="top" resp="#ht">see notes Aug 26 &amp; 29 1888</note>
                 <note type="editorial" place="top" resp="#unk">Nugent Robinsons</note>
                 <handShift rend="printed"/>
                 <dateline rend="right">
-                    <name type="place"
-                        >O&#8226;NC&#8226;E&#8226;A&#8226;WE&#8226;E&#8226;K<lb/></name>
-                    <title>F<hi rend="smallcaps">ICTION</hi>&#183;F<hi rend="smallcaps"
-                            >ACT</hi>&#183;S<hi rend="smallcaps">ENSATION</hi> &#8226; W<hi
-                            rend="smallcaps">IT</hi>&#183;H<hi rend="smallcaps">UMOR</hi>&#183;N<hi
-                            rend="smallcaps">EWS</hi>&#183;</title>
+                    <name type="place">O•NC•E•A•WE•E•K<lb/></name>
+                    <title>F<hi rend="smallcaps">ICTION</hi>·F<hi rend="smallcaps">ACT</hi>·S<hi rend="smallcaps">ENSATION</hi> • W<hi rend="smallcaps">IT</hi>·H<hi rend="smallcaps">UMOR</hi>·N<hi rend="smallcaps">EWS</hi>·</title>
                     <name type="place">Telephone, 934 Spring.</name>
                     <name type="place">104 to 110 ATTORNEY STREET, NEW YORK.<lb/></name>
                     <name type="place">BRANCH HOUSES:</name>
-                    <name type="place">A<hi rend="smallcaps">TLANTA</hi>, G<hi rend="smallcaps"
-                            >A</hi>.&#8212;42 Fitten Building.</name>
-                    <name type="place">B<hi rend="smallcaps">ALTIMORE</hi>, M<hi rend="smallcaps"
-                            >D</hi>.&#8212;6&#8211;8 South Frederick Street.</name>
-                    <name type="place">B<hi rend="smallcaps">OSTON</hi>, M<hi rend="smallcaps"
-                            >ASS</hi>.&#8212;106 Sudbury Street.</name>
-                    <name type="place">B<hi rend="smallcaps">UFFALO</hi>, N.Y.&#8212;242 Main
+                    <name type="place">A<hi rend="smallcaps">TLANTA</hi>, G<hi rend="smallcaps">A</hi>.—42 Fitten Building.</name>
+                    <name type="place">B<hi rend="smallcaps">ALTIMORE</hi>, M<hi rend="smallcaps">D</hi>.—6–8 South Frederick Street.</name>
+                    <name type="place">B<hi rend="smallcaps">OSTON</hi>, M<hi rend="smallcaps">ASS</hi>.—106 Sudbury Street.</name>
+                    <name type="place">B<hi rend="smallcaps">UFFALO</hi>, N.Y.—242 Main
                         Street.</name>
-                    <name type="place">C<hi rend="smallcaps">LEVELAND</hi>, O.&#8212;14 Court
+                    <name type="place">C<hi rend="smallcaps">LEVELAND</hi>, O.—14 Court
                         Place.</name>
-                    <name type="place">C<hi rend="smallcaps">HICAGO</hi>, I<hi rend="smallcaps"
-                            >LL</hi>.&#8212;261&#8211;3 State Street.</name>
-                    <name type="place">C<hi rend="smallcaps">INCINNATI</hi>, O.&#8212;200 Main
+                    <name type="place">C<hi rend="smallcaps">HICAGO</hi>, I<hi rend="smallcaps">LL</hi>.—261–3 State Street.</name>
+                    <name type="place">C<hi rend="smallcaps">INCINNATI</hi>, O.—200 Main
                         Street.</name>
-                    <name type="place">D<hi rend="smallcaps">AVENPORT</hi>. I<hi rend="smallcaps"
-                            >OWA</hi>.&#8212;209 West Third Street.</name>
-                    <name type="place">D<hi rend="smallcaps">ETROIT</hi>, M<hi rend="smallcaps"
-                            >ICH</hi>.&#8212;115 Griswold Street.<lb/></name>
-                    <name type="place">I<hi rend="smallcaps">NDIANAPOLIS</hi>, I<hi rend="smallcaps"
-                            >ND</hi>.&#8212;93 N. Delaware Street.</name>
-                    <name type="place">K<hi rend="smallcaps">ANSAS CITY</hi>, M<hi rend="smallcaps"
-                            >O</hi>.&#8212;6&#8211;15 West Ninth Street.</name>
-                    <name type="place">L<hi rend="smallcaps">OUISVILLE</hi>, K<hi rend="smallcaps"
-                            >Y</hi>.&#8212;300 West Walnut Street.</name>
-                    <name type="place">M<hi rend="smallcaps">EMPHIS</hi>, T<hi rend="smallcaps"
-                            >ENN</hi>.&#8212;67 Jefferson Street.</name>
-                    <name type="place">M<hi rend="smallcaps">ILWAUKEE</hi>, W<hi rend="smallcaps"
-                            >IS</hi>.&#8212;23 Excelsior Block.</name>
-                    <name type="place">N<hi rend="smallcaps">EW</hi> O<hi rend="smallcaps"
-                            >RLEANS</hi>, L<hi rend="smallcaps">A</hi>.&#8212;45 Carondelet
+                    <name type="place">D<hi rend="smallcaps">AVENPORT</hi>. I<hi rend="smallcaps">OWA</hi>.—209 West Third Street.</name>
+                    <name type="place">D<hi rend="smallcaps">ETROIT</hi>, M<hi rend="smallcaps">ICH</hi>.—115 Griswold Street.<lb/></name>
+                    <name type="place">I<hi rend="smallcaps">NDIANAPOLIS</hi>, I<hi rend="smallcaps">ND</hi>.—93 N. Delaware Street.</name>
+                    <name type="place">K<hi rend="smallcaps">ANSAS CITY</hi>, M<hi rend="smallcaps">O</hi>.—6–15 West Ninth Street.</name>
+                    <name type="place">L<hi rend="smallcaps">OUISVILLE</hi>, K<hi rend="smallcaps">Y</hi>.—300 West Walnut Street.</name>
+                    <name type="place">M<hi rend="smallcaps">EMPHIS</hi>, T<hi rend="smallcaps">ENN</hi>.—67 Jefferson Street.</name>
+                    <name type="place">M<hi rend="smallcaps">ILWAUKEE</hi>, W<hi rend="smallcaps">IS</hi>.—23 Excelsior Block.</name>
+                    <name type="place">N<hi rend="smallcaps">EW</hi> O<hi rend="smallcaps">RLEANS</hi>, L<hi rend="smallcaps">A</hi>.—45 Carondelet
                         Street.</name>
-                    <name type="place">O<hi rend="smallcaps">MAHA</hi>, N<hi rend="smallcaps"
-                            >EB</hi>.&#8212;52 Hellman Block.</name>
-                    <name type="place">P<hi rend="smallcaps">EORIA</hi>, I<hi rend="smallcaps"
-                            >LL</hi>.&#8212;104 South Adam Street.<lb/></name>
-                    <name type="place">P<hi rend="smallcaps">HILADELPHIA</hi>, P<hi rend="smallcaps"
-                            >A</hi>.&#8212;714 Sansom Street.</name>
-                    <name type="place">P<hi rend="smallcaps">ITTSBURG</hi>, P<hi rend="smallcaps"
-                            >A</hi>.&#8212;6&#8211;1036 Penn Avenue.</name>
-                    <name type="place">S<hi rend="smallcaps">T</hi>. L<hi rend="smallcaps"
-                        >OUIS</hi>, M<hi rend="smallcaps">O</hi>.&#8212;210 North Third
+                    <name type="place">O<hi rend="smallcaps">MAHA</hi>, N<hi rend="smallcaps">EB</hi>.—52 Hellman Block.</name>
+                    <name type="place">P<hi rend="smallcaps">EORIA</hi>, I<hi rend="smallcaps">LL</hi>.—104 South Adam Street.<lb/></name>
+                    <name type="place">P<hi rend="smallcaps">HILADELPHIA</hi>, P<hi rend="smallcaps">A</hi>.—714 Sansom Street.</name>
+                    <name type="place">P<hi rend="smallcaps">ITTSBURG</hi>, P<hi rend="smallcaps">A</hi>.—6–1036 Penn Avenue.</name>
+                    <name type="place">S<hi rend="smallcaps">T</hi>. L<hi rend="smallcaps">OUIS</hi>, M<hi rend="smallcaps">O</hi>.—210 North Third
                         Street.</name>
                     <name type="place">S<hi rend="smallcaps">T</hi>. P<hi rend="smallcaps">AUL</hi>,
-                            M<hi rend="smallcaps">INN</hi>.&#8212;45 Davidson's Block.</name>
-                    <name type="place">S<hi rend="smallcaps">AN</hi> F<hi rend="smallcaps"
-                            >RANCISCO</hi>, C<hi rend="smallcaps">AL</hi>.&#8212;14 Grant
+                            M<hi rend="smallcaps">INN</hi>.—45 Davidson's Block.</name>
+                    <name type="place">S<hi rend="smallcaps">AN</hi> F<hi rend="smallcaps">RANCISCO</hi>, C<hi rend="smallcaps">AL</hi>.—14 Grant
                         Avenue.</name>
-                    <name type="place">S<hi rend="smallcaps">YRACUSE</hi>, N.Y.&#8212;21&#8211;2
+                    <name type="place">S<hi rend="smallcaps">YRACUSE</hi>, N.Y.—21–2
                         Larned Building.</name>
-                    <name type="place">T<hi rend="smallcaps">ROY</hi>, N.Y.&#8212;48 Hall
+                    <name type="place">T<hi rend="smallcaps">ROY</hi>, N.Y.—48 Hall
                         Building.</name>
-                    <name type="place">T<hi rend="smallcaps">ORONTO</hi>, C<hi rend="smallcaps"
-                            >ANADA</hi>&#8212;44 Toronto Arcade.<lb/></name>
+                    <name type="place">T<hi rend="smallcaps">ORONTO</hi>, C<hi rend="smallcaps">ANADA</hi>—44 Toronto Arcade.<lb/></name>
                     <date when="1887-07-31">NEW YORK, <handShift rend="manuscript"/>31 July
                             <handShift rend="printed"/>188<handShift rend="manuscript"/>'7</date>
                 </dateline>
                 <salute>Dear Sir, </salute>
             </opener>
             <p>Will you be so good as to let me know if you would be willing to honor us with a
-                contribution to Once a Week &#38; what your terms would be?<ptr
-                    target="loc.03560_n2"/>
+                contribution to Once a Week &amp; what your terms would be?<ptr target="loc.03560_n2"/>
             </p>
             <closer>
                 <salute>Yours faithfully</salute>

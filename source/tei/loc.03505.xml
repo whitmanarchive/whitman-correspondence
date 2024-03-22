@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03505">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03505">
     <teiHeader> 
         <fileDesc>
             <titleStmt> 
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03505</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03505</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Melville Philips</author>
                     <title>Melville Philips to Walt Whitman, 21 May 1891</title>
                     <date cert="high" when="1891-05-21" xml:id="dat1">May 21, 1891</date>
-                    <idno type="callno">MSS18630, Box 14, Reel 8&#8211;9</idno>
+                    <idno type="callno">MSS18630, Box 14, Reel 8–9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00309</idno>
                     <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -96,7 +93,7 @@
                 </dateline>
                 <salute><handShift rend="manuscript"/> My dear Mr. Whitman:</salute>
             </opener>
-            <p> Thanks. I know no speedier way to get you the &#36;10 than by the enclosed cheque.</p>
+            <p> Thanks. I know no speedier way to get you the $10 than by the enclosed cheque.</p>
             <p>Remember your visit to me.</p>
             <closer>
                 <salute>Faithfully yrs</salute>
@@ -106,4 +103,4 @@
             <note type="editorial" place="top" resp="#ht">see notes May 22 1891</note>
         </body>
     </text>
-</TEI> 
+</TEI>

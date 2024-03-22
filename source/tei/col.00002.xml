@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><?xml-stylesheet type="text/xsl" href="../xsl/correspondenceP5.xsl"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="col.00002">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><?xml-stylesheet type="text/xsl" href="../xsl/correspondenceP5.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="col.00002">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>col.00002</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,14 +41,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>col.00002</idno></publicationStmt>
             <notesStmt>
                 <note type="project">The following are responsible for particular readings or for
                     changes to this file, as noted:
-<persName xml:id="kmp">Kenneth M. Price</persName> <persName xml:id="kk">Kathryn
+<persName xml:id="kmp">Kenneth M. Price</persName><persName xml:id="ak">Alex Kinnaman</persName><persName xml:id="kk">Kathryn
                         Kruger</persName><persName xml:id="el">Elizabeth Lorang</persName>
                     <persName xml:id="zk">Zachary King</persName>
                     <persName xml:id="ec">Eric Conrad</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
                 </note>
             </notesStmt>
             <sourceDesc>
@@ -62,8 +62,8 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961–1977</date><biblScope type="volume">2</biblScope>
-                            <biblScope type="page">96–97</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date><biblScope unit="volume">2</biblScope>
+                            <biblScope unit="page">96–97</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -85,13 +85,15 @@
                     <persName key="Whitman, Walt">Walt Whitman</persName>
                 </person>
                 <person role="recipient">
-                    <persName key="Conway, Moncure D.">Moncure D. Conway</persName>
+                    <persName key="Conway, Moncure D." ref="n0170">Moncure D. Conway</persName>
                 </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change who="#km" when="2021-10-14">corrected invalid encoding in header</change>
+            <change who="#ak" when="2015-05-13">added correspondent ref</change>
 <change who="#el" when="2014-08-15">added schematron declaration</change>
-<change when="2012-03" who="#kp">blessed</change>
+<change when="2012-03-01" who="#kmp">blessed</change>
             <change when="2011-10-24" who="#kk">updated orgName to be consistent with other col
                 files</change>
             <change when="2011-03-28" who="#el">checked</change>

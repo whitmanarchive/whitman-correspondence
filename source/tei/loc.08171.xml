@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08171">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08171">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08171</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,21 +34,21 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169;2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may 
+                    <p>Copyright ©2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may 
                      be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication 
                      on other terms, in any medium, requires express written consent from the editors and advance notification 
                      of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic 
                      images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt> 
+            <idno>loc.08171</idno></publicationStmt> 
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 13 September 1891</title>
                     <date cert="high" when="1891-09-13" xml:id="dat1">September 13, 1891</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00102</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -94,9 +91,9 @@
             <p>Wallace<ptr target="n6121"/> and I are having a quiet pleasant time here.<ptr target="loc.08171_n2"/> I have a great deal to do but am taking it quieter
                 than I have usually taken such crises and am wading through with considerable equanimity and comfort.
                 If you want to "disillusion" W. you will need to take some more heroic method as I do not see that he is
-                <hi rend="underline">any better</hi> at all at present&#8212;he is a very good fellow and as solid and reliable
+                <hi rend="underline">any better</hi> at all at present—he is a very good fellow and as solid and reliable
                 as a block of granite. The weather here is perfect neither hot nor cold. Our fruits and vegetables (corn, melons,
-                tomatoes, potatoes &#38;c &#38;c) are abundant and extra fine&#8212;I have no desire to go to England or anywhere
+                tomatoes, potatoes &amp;c &amp;c) are abundant and extra fine—I have no desire to go to England or anywhere
                 else at present</p>
             <closer>
                 <salute>With best love</salute>
@@ -108,4 +105,3 @@
         </body> 
     </text>
 </TEI>
-

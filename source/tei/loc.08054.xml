@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08054">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08054">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to James W. Wallace, 13&#8211;14 September 1891</title>
+                <title level="m" type="main">Walt Whitman to James W. Wallace, 13–14 September 1891</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08054</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08054</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,16 +52,16 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">241&#8211;242</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">241–242</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct> 
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to James W. Wallace, 13&#8211;14 September 1891</title>
-                    <date cert="high" notBefore="1891-09-13" notAfter="1891-09-14" xml:id="dat1">September 13&#8211;14, 1891</date>
+                    <title>Walt Whitman to James W. Wallace, 13–14 September 1891</title>
+                    <date cert="high" notBefore="1891-09-13" notAfter="1891-09-14" xml:id="dat1">September 13–14, 1891</date>
                     <orgName xml:id="loc">Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
@@ -90,36 +87,31 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place" rend="right">Camden N J<ptr target="loc.08054_n1"/>&#8212;</name>
+                    <name type="place" rend="right">Camden N J<ptr target="loc.08054_n1"/>—</name>
                     <date when="1891-09-13">Sept: 13 '91</date>
                 </dateline>
-                <salute>Dear J W W&#8212;</salute>
+                <salute>Dear J W W—</salute>
             </opener>
-            <p>rec'd letters f'm Dr J[ohnston]<ptr target="n4102"/> Bolton, yesterday&#8212;all
-                well&#8212;went out latter afternoon on a drive four miles out to "Pea Shore" (Mrs.
-                    Bush,<ptr target="loc.08054_n2"/> Horace<ptr target="n4267"/> &#38;
-                I)&#8212;fine fresh moist south east breeze, welcome to me&#8212; M D Conway<ptr
-                    target="n4105"/> here yesterday an hour talking &#38; inquiring ab't Tom
-                Paine&#8212;(wh' <hi rend="italic">life</hi> he is soon to pub. in book)<ptr
-                    target="loc.08054_n3"/>&#8212;with altogether my poor brain was wrapped all up
-                like an apple-dumpling&#8212;restful &#38; quiet day to-day&#8212;Hope you share the
-                long stretch of fine cool sunny weather we are having here&#8212;Warry<ptr
-                    target="loc.07319_n6"/> well &#38; blooming&#8212; Miss D[avis]<ptr
-                    target="n6113"/> ditto&#8212;I continue same as before (thankful it's no
-                worse)&#8212;but bad enough <hi rend="italic">when I'm not on parade</hi>&#8212;I
-                enclose Ernest Rhys's<ptr target="n4152"/> letter f'm Wales&#8212;he must be having
-                good times&#8212;(he is a handsome smart <hi rend="italic">litterateur</hi> worthy
-                of a better fate)&#8212;</p> 
-            <p><date when="1891-09-14">Sept. 14</date>&#8212;fine weather continued&#8212;thank you for y'r good letter rec'd this
-                mn'g&#8212;also Dr B[ucke]'s<ptr target="n0119"/>&#8212; I can almost see the whole
+            <p>rec'd letters f'm Dr J[ohnston]<ptr target="n4102"/> Bolton, yesterday—all
+                well—went out latter afternoon on a drive four miles out to "Pea Shore" (Mrs.
+                    Bush,<ptr target="loc.08054_n2"/> Horace<ptr target="n4267"/> &amp;
+                I)—fine fresh moist south east breeze, welcome to me— M D Conway<ptr target="n4105"/> here yesterday an hour talking &amp; inquiring ab't Tom
+                Paine—(wh' <hi rend="italic">life</hi> he is soon to pub. in book)<ptr target="loc.08054_n3"/>—with altogether my poor brain was wrapped all up
+                like an apple-dumpling—restful &amp; quiet day to-day—Hope you share the
+                long stretch of fine cool sunny weather we are having here—Warry<ptr target="loc.07319_n6"/> well &amp; blooming— Miss D[avis]<ptr target="n6113"/> ditto—I continue same as before (thankful it's no
+                worse)—but bad enough <hi rend="italic">when I'm not on parade</hi>—I
+                enclose Ernest Rhys's<ptr target="n4152"/> letter f'm Wales—he must be having
+                good times—(he is a handsome smart <hi rend="italic">litterateur</hi> worthy
+                of a better fate)—</p> 
+            <p><date when="1891-09-14">Sept. 14</date>—fine weather continued—thank you for y'r good letter rec'd this
+                mn'g—also Dr B[ucke]'s<ptr target="n0119"/>— I can almost see the whole
                 scene, the lawn, the evn'g shades, the crowd, Dr's return, y'r
-                arrival&#8212;&#38; hear the band<ptr target="loc.08054_n4"/>&#8212;my friend, take
-                my advice, resign yourself tacitly to rest &#38; absorb quietly, <hi rend="italic"
-                    >reposeful</hi> for a while, tying up for the nonce&#8212;I appreciate y'r
-                loving wishes, as ever<ptr target="loc.08054_n5"/>&#8212; </p>
+                arrival—&amp; hear the band<ptr target="loc.08054_n4"/>—my friend, take
+                my advice, resign yourself tacitly to rest &amp; absorb quietly, <hi rend="italic">reposeful</hi> for a while, tying up for the nonce—I appreciate y'r
+                loving wishes, as ever<ptr target="loc.08054_n5"/>— </p>
             <closer>
                 <signed rend="right">Walt Whitman</signed> 
             </closer>
         </body> 
     </text>   
-</TEI> 
+</TEI>

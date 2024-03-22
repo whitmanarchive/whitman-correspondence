@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00672">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00672">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ej">Eder Jaramillo</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.00672</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.00672</idno></publicationStmt>
             <sourceDesc>
 
 
@@ -58,7 +54,7 @@
                     <author>Hannah Whitman Heyde</author>
                     <date cert="low" when="1881-11" xml:id="dat1">November 1881</date>
                     <idno type="callno">Box 3, Reel 2</idno>
-                    <orgName xml:id="loc">Hannah Louisa Whitman Heyde Papers, 1853&#8211;1892, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">Hannah Louisa Whitman Heyde Papers, 1853–1892, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -95,13 +91,13 @@
                 <salute/>Dearest Brother</opener>
 
             <p>Your Book came last night, I was just delighted I prize it greatly. I shall always
-                keep this one&#8212;every single one of the others are gone, the last one you sent
+                keep this one—every single one of the others are gone, the last one you sent
                 Charlie also &amp; he lent them to his friends, and <choice>
                     <sic>thats</sic>
                     <corr>that's</corr>
-                </choice> the last of them,&#8212;. I said last night that this one does not go out
+                </choice> the last of them,—. I said last night that this one does not go out
                 of this house under any consideration as long as I live.</p>
-            <p>Dont you think its got up finely,&#8212;I do.</p>
+            <p>Dont you think its got up finely,—I do.</p>
             <p>It will be <choice>
                     <sic>sucessful</sic><corr>successful</corr></choice>, many speak of it, here. We looked it over all the evening, Charlie taking
                 it, then I. he read aloud (appreciatively) the Song of Myself. I wanted to read the
@@ -133,15 +129,13 @@
                 </choice> know that you would care for it, but I will send you the first one.</p>
             <p>Mrs Abbott (an old very intelligent friend that we had not seen for twelve years,
                 used to live here) called yesterday, she wanted your new book should purchase it
-                here if she could, or wait till she arrived in Boston,&#8212;I said I would tell you
+                here if she could, or wait till she arrived in Boston,—I said I would tell you
                 that she wanted you very much to visit her at their farm among the mountains spoke
                 of many things she would do for you if you would come I told her you had promised to
                 come here some time.</p>
-            <p>Walt I am ashamed I did not write last Spring when you sent me that money. <hi
-                    rend="underline">You</hi> understand how much I do appreciate it,&#8212;. For a
-                day or two I could only think how <hi rend="underline">good</hi> you was.&#8212;And
-                then I never in all my life <pb xml:id="leaf002v" facs="loc.00672.004.jpg"
-                    type="verso"/>had money that done me so much good. I have some of it yet. I
+            <p>Walt I am ashamed I did not write last Spring when you sent me that money. <hi rend="underline">You</hi> understand how much I do appreciate it,—. For a
+                day or two I could only think how <hi rend="underline">good</hi> you was.—And
+                then I never in all my life <pb xml:id="leaf002v" facs="loc.00672.004.jpg" type="verso"/>had money that done me so much good. I have some of it yet. I
                 saved to finish out a dress I wanted for this Winter, this dress will be all that I
                 shall need. I <choice>
                     <sic>dont</sic>
@@ -155,20 +149,17 @@
                         <expan>interesting</expan>
                     </choice></hi> something to keep. Charlie wrote a pleasant letter to Dr Bucke
                 Canada got a kind letter in reply, spoke of you &amp; he taking dinner together in
-                New York, but the best was that you was pretty well Your Nov 1<hi rend="superscript"
-                    >st</hi> letter too said you was well as usual, I am so glad, after all the work
-                and worry you must have had. But <pb xml:id="leaf003r" facs="loc.00672.005.jpg"
-                    type="recto"/>sometimes we take long walks in the country, we went to day, a mile
+                New York, but the best was that you was pretty well Your Nov 1<hi rend="superscript">st</hi> letter too said you was well as usual, I am so glad, after all the work
+                and worry you must have had. But <pb xml:id="leaf003r" facs="loc.00672.005.jpg" type="recto"/>sometimes we take long walks in the country, we went to day, a mile
                 or so.</p>
             <p>Charlie has been sketching some this summer out Williston 18 or 20 miles from here we
-                drove out there two weeks ago, the country was beautiful I liked the ride <hi
-                    rend="underline">ever</hi> so much.</p>
+                drove out there two weeks ago, the country was beautiful I liked the ride <hi rend="underline">ever</hi> so much.</p>
             <p>he has sent his Williston picture West, he thinks it sold, he will know soon. He sold
-                one there previous for &#36;75, has just now sold a small one &#36;16.&#8212;he has
+                one there previous for $75, has just now sold a small one $16.—he has
                 some prospects. We have ups &amp; downs, like every body. He sold more years ago,
                 than late years. I think his pictures much better now, people here follow the
                 fashion, buy foreign pictures</p>
-            <p>I am well, I feel better than I did last summer, I worry less if things go crossways.&#8212;dear dear brother I hope to live long enough to see you again, I want you to come
+            <p>I am well, I feel better than I did last summer, I worry less if things go crossways.—dear dear brother I hope to live long enough to see you again, I want you to come
                 here more than I can say</p>
 
             <pb xml:id="leaf003v" facs="loc.00672.006.jpg" type="verso"/>

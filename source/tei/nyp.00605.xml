@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00605">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00605">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00605</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00605</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,8 +53,8 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="page">162</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="page">162</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -101,15 +97,15 @@
                 <salute>Dear W O'C</salute>
             </opener>
 
-            <p>Lots of inquiries &#38; prayers &#38; good wishes ab't you come to me (&#38; I hear of) that <hi rend="italic">you</hi>
-                never hear of. I rec'd Nelly's<ptr target="n4137"/> two brief cards over two weeks ago&#8212;but hunger for
-                more frequent &#38; fuller information&#8212;Hear from Dr B[ucke]<ptr target="n0119"/> &#38; Kennedy<ptr target="n3039"/> often &#38; from John
-                B[urroughs]<ptr target="duk.00480_n8"/> at long intervals&#8212;K's book has not yet begun the printing but is to
-                be&#8212;is settled. All my <hi rend="italic">Herald</hi> bits<ptr target="n4133"/> will be included in <hi rend="italic">November Boughs</hi><ptr target="n3999"/> &#38; I will send
-                an early proof of all to you&#8212;As I write I am sitting here in my big chair by the
-                window (I have open'd it a few moments&#8212;it is near sunset&#8212;air a little tart)&#8212;I am
-                quite <hi rend="italic">immobile</hi> &#38; don't get out except by being <hi rend="italic">toted</hi>&#8212;a bunch of white lilies is in
-                the window &#38; my bird is singing like a house afire<ptr target="nyp.00605_n2"/>&#8212;</p>
+            <p>Lots of inquiries &amp; prayers &amp; good wishes ab't you come to me (&amp; I hear of) that <hi rend="italic">you</hi>
+                never hear of. I rec'd Nelly's<ptr target="n4137"/> two brief cards over two weeks ago—but hunger for
+                more frequent &amp; fuller information—Hear from Dr B[ucke]<ptr target="n0119"/> &amp; Kennedy<ptr target="n3039"/> often &amp; from John
+                B[urroughs]<ptr target="duk.00480_n8"/> at long intervals—K's book has not yet begun the printing but is to
+                be—is settled. All my <hi rend="italic">Herald</hi> bits<ptr target="n4133"/> will be included in <hi rend="italic">November Boughs</hi><ptr target="n3999"/> &amp; I will send
+                an early proof of all to you—As I write I am sitting here in my big chair by the
+                window (I have open'd it a few moments—it is near sunset—air a little tart)—I am
+                quite <hi rend="italic">immobile</hi> &amp; don't get out except by being <hi rend="italic">toted</hi>—a bunch of white lilies is in
+                the window &amp; my bird is singing like a house afire<ptr target="nyp.00605_n2"/>—</p>
             <closer>
                 <salute/>
                 <signed>Walt Whitman</signed>

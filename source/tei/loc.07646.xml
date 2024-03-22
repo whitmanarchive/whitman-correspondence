@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07646">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07646">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07646</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07646</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">191&#8211;192</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">191–192</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,7 +64,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 24 July 1888</title>
                     <date cert="high" when="1888-07-24" xml:id="dat1">July 24, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel #&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel #–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
@@ -104,33 +100,32 @@
                 <salute/>
             </opener>  
  
-            <p>Better quite perceptibly&#8212;fluctuating considerable, with bad days or
-                hours&#8212;but a general and prevailing improvement&#8212;</p>
+            <p>Better quite perceptibly—fluctuating considerable, with bad days or
+                hours—but a general and prevailing improvement—</p>
 
-            <p>&#8212;I have put together the <hi rend="italic">Elias Hicks</hi><ptr target="n0301"/> fragments &#38; last night sent off the "paper" to
-                the printer&#8212;not knowing how it will look in print&#8212;but with some fear
-                &#38; trembling&#8212;then three or so pages (all done now) on <hi rend="italic"
-                    >George Fox</hi><ptr target="n4326"/>&#8212;evolutionary on the E[lias] H[icks]
-                piece&#8212;&#38; the <hi rend="italic">Nov.</hi>
-                <hi rend="italic">Boughs</hi><ptr target="n3999"/> will be <hi rend="italic">done</hi>&#8212;will
-                make from 120 to 130 (or possibly 135) pages&#8212;(those solid long primer pages
-                eat up the copy at a terribly rate!)&#8212;I have not worried at it&#8212;&#38; do
-                not<ptr target="loc.07646_n2"/>&#8212;indeed it has probably been more benefit to me than hurt&#8212;I have been
-                unspeakably helped by Horace Traubel<ptr target="n4267"/>&#8212;&#38; by the best printers I have ever
-                yet had&#8212;The <hi rend="italic">Century</hi> people have just sent me again
-                my <hi rend="italic">Army Hospitals &#38; Cases</hi>
-                proof<ptr target="loc.07646_n3"/>&#8212;I judge it is intended for the October number&#8212;bowel movements
-                continue every day or other day&#8212;I take no drugs at all&#8212;have not moved
-                from my room yet&#8212;keep good spirits&#8212;young Dr. Mitchell<ptr target="loc.07644_n2"/> has just
-                come&#8212;weather pleasant continued&#8212;warmish but I am satisfied&#8212;Tom Harned<ptr target="n4146"/> comes every day, often bringing his nice always welcome children&#8212;</p>
+            <p>—I have put together the <hi rend="italic">Elias Hicks</hi><ptr target="n0301"/> fragments &amp; last night sent off the "paper" to
+                the printer—not knowing how it will look in print—but with some fear
+                &amp; trembling—then three or so pages (all done now) on <hi rend="italic">George Fox</hi><ptr target="n4326"/>—evolutionary on the E[lias] H[icks]
+                piece—&amp; the <hi rend="italic">Nov.</hi>
+                <hi rend="italic">Boughs</hi><ptr target="n3999"/> will be <hi rend="italic">done</hi>—will
+                make from 120 to 130 (or possibly 135) pages—(those solid long primer pages
+                eat up the copy at a terribly rate!)—I have not worried at it—&amp; do
+                not<ptr target="loc.07646_n2"/>—indeed it has probably been more benefit to me than hurt—I have been
+                unspeakably helped by Horace Traubel<ptr target="n4267"/>—&amp; by the best printers I have ever
+                yet had—The <hi rend="italic">Century</hi> people have just sent me again
+                my <hi rend="italic">Army Hospitals &amp; Cases</hi>
+                proof<ptr target="loc.07646_n3"/>—I judge it is intended for the October number—bowel movements
+                continue every day or other day—I take no drugs at all—have not moved
+                from my room yet—keep good spirits—young Dr. Mitchell<ptr target="loc.07644_n2"/> has just
+                come—weather pleasant continued—warmish but I am satisfied—Tom Harned<ptr target="n4146"/> comes every day, often bringing his nice always welcome children—</p>
 
-            <p>2 pm&#8212;y'rs of 22d has come&#8212;I have enjoy'd a partial wash</p> 
+            <p>2 pm—y'rs of 22d has come—I have enjoy'd a partial wash</p> 
 
             <closer>
                 <salute/>
                 <signed>Walt Whitman</signed>
             </closer>
-            <postscript><p>I send you proof pp 97 to 104 inclusive<ptr target="loc.07510_n2"/>&#8212;as I understand you have all preceding&#8212;</p></postscript>
+            <postscript><p>I send you proof pp 97 to 104 inclusive<ptr target="loc.07510_n2"/>—as I understand you have all preceding—</p></postscript>
         </body>
     </text>
 </TEI>

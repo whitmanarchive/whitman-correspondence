@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00704">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00704">
     <teiHeader>  
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="no">Natalie O'Neal</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>med.00704</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>med.00704</idno></publicationStmt>
             <sourceDesc>
                 <!--<biblStruct>
                     <monogr>
@@ -57,7 +54,7 @@
                             <pubPlace>Detroit</pubPlace>
                             <publisher>Wayne State University Press</publisher>
                             <date when="1977">1977</date>
-                            <biblScope type="page">17&#8211;18</biblScope>
+                            <biblScope unit="page">17&#8211;18</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>-->
@@ -65,7 +62,7 @@
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 18 March 1883</title>
                     <date cert="high" when="1883-03-18" xml:id="dat1">March 18, 1883</date>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,34 +97,33 @@
                 <salute>My dear Walt</salute>
             </opener>
             <p>I return you today the proof in <hi rend="underline">pages</hi> I have considered it all very carefully and am quite settled as to the  
-                    rearrangement<ptr target="med.00704_n1"/> of pages, pictures &#38;c. please leave them as I have put them&#8212;I
-                have not made much change&#8212;the burial scenes <hi rend="underline">must</hi>
+                    rearrangement<ptr target="med.00704_n1"/> of pages, pictures &amp;c. please leave them as I have put them—I
+                have not made much change—the burial scenes <hi rend="underline">must</hi>
                 face different pages as they will only be known as described in "List of
-                Illustrations" by that fact&#8212;It would not do to print on back of photo-intaglio
-                so I have added a leaf&#8212;the photo-intaglio will face title
-                 page&#8212;the birth-house will
-                    face opening of chap I (p. 13)&#8212;the "remote" and "immediate"
-                "ancestry" pages I have moved as you will see&#8212;Van Velsor burial hill picture will face p. 15, and W. burial hill picture
-                p. 17&#8212;Portrait 
+                Illustrations" by that fact—It would not do to print on back of photo-intaglio
+                so I have added a leaf—the photo-intaglio will face title
+                 page—the birth-house will
+                    face opening of chap I (p. 13)—the "remote" and "immediate"
+                "ancestry" pages I have moved as you will see—Van Velsor burial hill picture will face p. 15, and W. burial hill picture
+                p. 17—Portrait 
                 <pb xml:id="leaf001v" facs="loc_es.00178.jpg" type="verso"/>
                 
-                of father will face p. 26 (mention of his death)&#8212;every
+                of father will face p. 26 (mention of his death)—every
                 thing else is left as you put it. I want portrait of Mother
-                to face mention of her death (towards end of chap I)&#8212;then the photograph or
+                to face mention of her death (towards end of chap I)—then the photograph or
                 phototype of W. W. in 1880 might face the opening of chap
-                ii (W. W. in 1880)&#8212;and fac-simile of writing should face page in that chap.
+                ii (W. W. in 1880)—and fac-simile of writing should face page in that chap.
                 where handwriting is mentioned.<ptr target="med.00704_n2"/> You told me McKay<!--<ptr
                     target="syr.00031_n3"/>--> could get the pictures printed in Phila at $1.80 or $2
                     p.m.<ptr target="med.00704_n3"/> have a letter from McK. in which he says
-                Sherman &#38; Co would charge me $20. p.m. for <hi rend="underline">three</hi>,
+                Sherman &amp; Co would charge me $20. p.m. for <hi rend="underline">three</hi>,
                 however, no matter, they are ordered at De Vinnes N.Y. and will be done immediately.
-                I like all your emendations, additions, &#38;c so far (on the whole) very much, &amp;
-                can see that you are materially improving the book, for <choice><abbr>wh</abbr><expan>which</expan></choice> I feel very grateful&#8212;But dear Walt be very careful like a good fellow with chap iii of part ii<ptr target="med.00704_n4"
-                />&#8212;whatever you do<choice>
+                I like all your emendations, additions, &amp;c so far (on the whole) very much, &amp;
+                can see that you are materially improving the book, for <choice><abbr>wh</abbr><expan>which</expan></choice> I feel very grateful—But dear Walt be very careful like a good fellow with chap iii of part ii<ptr target="med.00704_n4"/>—whatever you do<choice>
                     <sic>dont</sic>
                     <corr>don't</corr>
                 </choice> slash it up if you make material changes send me the M.S. with proofs that I may see
-                exactly what they are and consider them&#8212;don't fail me in this&#8212;that chap
+                exactly what they are and consider them—don't fail me in this—that chap
                 is the pivot on which the Book turns</p>
  
             <closer>

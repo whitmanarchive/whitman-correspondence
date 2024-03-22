@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00860">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00860">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="rf">Ryan Furlong</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00860</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00860</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,8 +55,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date notBefore="1961" notAfter="1977">1961–1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">126&#8211;127</biblScope>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">126–127</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -97,15 +94,11 @@
                     <date when="1887-10-20">Oct: 20 '87</date>
                 </dateline>
             </opener>
-            <p>O'Connor<ptr target="n2002"/> has been here visiting me on his return to Wash'n<ptr
-                    target="duk.00860_n1"/>&#8212;I have written an acc't to Dr B[ucke]<ptr
-                    target="n0119"/> wh' he will send you&#8212;I sh'd not wish any such item as
-                that ab't my alleged opinion of Stedman<ptr target="n1043"/> to be printed<ptr
-                    target="duk.00860_n2"/>&#8212; I have no such opinion&#8212;My feeling toward
-                    S is one of good will &amp; thanks, markedly&#8212;O'C says
-                he is a good fellow, &amp; I say so too&#8212;Nothing new with me specially&#8212;A
-                new little piece<ptr target="duk.00860_n3"/> of mine out in Nov. <hi rend="italic"
-                    >Lippincott's</hi> wh' I will send you probably to-day&#8212;</p>
+            <p>O'Connor<ptr target="n2002"/> has been here visiting me on his return to Wash'n<ptr target="duk.00860_n1"/>—I have written an acc't to Dr B[ucke]<ptr target="n0119"/> wh' he will send you—I sh'd not wish any such item as
+                that ab't my alleged opinion of Stedman<ptr target="n1043"/> to be printed<ptr target="duk.00860_n2"/>— I have no such opinion—My feeling toward
+                    S is one of good will &amp; thanks, markedly—O'C says
+                he is a good fellow, &amp; I say so too—Nothing new with me specially—A
+                new little piece<ptr target="duk.00860_n3"/> of mine out in Nov. <hi rend="italic">Lippincott's</hi> wh' I will send you probably to-day—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07555">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07555">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07555</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07555</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">243</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">243</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,9 +65,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 5 December 1888</title>
                     <date cert="high" when="1888-12-05" xml:id="dat1">December 5, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -98,27 +95,26 @@
             <opener>
                 <dateline>
                     <name type="place">Camden<ptr target="loc.07555_n1"/></name>
-                    <date when="1888-12-05">5&#189; P M</date>
+                    <date when="1888-12-05">5½ P M</date>
                     <date when="1888-12-05">Dec: 5 '88</date>
                 </dateline>
             </opener>
             <p>Drs: Osler<ptr target="n4302"/> and Wharton<ptr target="loc.07555_n4"/> have been
-                here&#8212;it is as we tho't the enlarged prostrate gland incident is
-                senilia&#8212;A short visit not much talk<ptr target="loc.07555_n5"/>&#8212;Wharton was very good&#8212;what
-                gravity there may be in it time &#38;c will show&#8212;At present it causes me any
-                am't of annoyance &#38; sometimes severe continued pain&#8212;Last night was kind of
-                half and half&#8212;had some sleep&#8212;have had my supper (some rice pudding,
-                stew'd apple, &#38; a cup of tea)&#8212;</p>
-            <p>The big book<ptr target="n4151"/> is being bound, the cheap form&#8212;I will see ab't the postage&#8212;I
-                want you to have three or four copies at once&#8212;&#38; I shall decide whether to
-                send by express, or p o&#8212;Did I send you the slip enclosed? I don't know how,
-                but it got left out "Sands at Seventy"<ptr target="loc.07555_n2"/>&#8212;No word yet
-                f'm O'Connor<ptr target="n2002"/>&#8212;You will get a letter sent to the fellows,
-                to reach up with you ab't four days yet<ptr target="loc.07555_n3"/>&#8212;(nothing
-                of any acc't)&#8212;poor Kennedy<ptr target="n3039"/> works like a house a
-                fire&#8212;sends me a letter occasionally&#8212;the <hi rend="italic"
-                    >Transcript</hi> paper regular&#8212;Mild &#38; pleasant here&#8212;I am sitting
-                in the room alone finishing this&#8212;</p>
+                here—it is as we tho't the enlarged prostrate gland incident is
+                senilia—A short visit not much talk<ptr target="loc.07555_n5"/>—Wharton was very good—what
+                gravity there may be in it time &amp;c will show—At present it causes me any
+                am't of annoyance &amp; sometimes severe continued pain—Last night was kind of
+                half and half—had some sleep—have had my supper (some rice pudding,
+                stew'd apple, &amp; a cup of tea)—</p>
+            <p>The big book<ptr target="n4151"/> is being bound, the cheap form—I will see ab't the postage—I
+                want you to have three or four copies at once—&amp; I shall decide whether to
+                send by express, or p o—Did I send you the slip enclosed? I don't know how,
+                but it got left out "Sands at Seventy"<ptr target="loc.07555_n2"/>—No word yet
+                f'm O'Connor<ptr target="n2002"/>—You will get a letter sent to the fellows,
+                to reach up with you ab't four days yet<ptr target="loc.07555_n3"/>—(nothing
+                of any acc't)—poor Kennedy<ptr target="n3039"/> works like a house a
+                fire—sends me a letter occasionally—the <hi rend="italic">Transcript</hi> paper regular—Mild &amp; pleasant here—I am sitting
+                in the room alone finishing this—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

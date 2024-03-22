@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04012">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04012">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04012</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04012</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1888-11-21" xml:id="dat1">November 21, 1888</date>
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -90,23 +86,22 @@
                 <salute>Dear Hank</salute>
             </opener>
 
-            <p>Yours of 20th rec'd this morning &#38; is quite a surprise to me, &#38; a little <hi
-                    rend="underline">not understandable</hi><ptr target="loc.04012_n1"/>&#8212;But
-                you will tell me plainer when you come up &#38; see me Saturday&#8212;Don't do any
-                thing too hastily, &#38; from great excitement&#8212;I shall look for you
-                Saturday&#8212;If any thing prevents your coming, write me &#38; write fully.</p>
+            <p>Yours of 20th rec'd this morning &amp; is quite a surprise to me, &amp; a little <hi rend="underline">not understandable</hi><ptr target="loc.04012_n1"/>—But
+                you will tell me plainer when you come up &amp; see me Saturday—Don't do any
+                thing too hastily, &amp; from great excitement—I shall look for you
+                Saturday—If any thing prevents your coming, write me &amp; write fully.</p>
 
-            <p>I am much the same&#8212;rather easier if any thing the past two weeks&#8212;but the
-                bad pall-weight &#38; inertia, (like a sluggish, sleepy, tired, great weight, as of
-                heavy irons on me, body &#38; spirit) seem to be on me all the time&#8212;&#38;
-                appear destined for life. Still keep the sick chair &#38; sick room&#8212;(now going
-                into the sixth month)&#8212;The big book <ptr target="n6157"/>, (my whole works in one Vol.) will be bound
-                now in a week or ten days&#8212;I suppose Eva<ptr target="n6107"/> bro't you the
-                little <hi rend="underline">Nov: Boughs</hi><ptr target="n3999"/>&#8212;Things go on
-                comfortably with me&#8212;Eat &#38; sleep fairly&#8212;spirits good yet&#8212;Sunny
-                cold weather here&#8212;Herbert<ptr target="n0262"/> comes quite often&#8212;Two
-                visitors ladies strangers just here to see me&#8212;love to you, dear boy, &#38; to
-                Eva and Dora<ptr target="n6119"/>&#8212;</p>
+            <p>I am much the same—rather easier if any thing the past two weeks—but the
+                bad pall-weight &amp; inertia, (like a sluggish, sleepy, tired, great weight, as of
+                heavy irons on me, body &amp; spirit) seem to be on me all the time—&amp;
+                appear destined for life. Still keep the sick chair &amp; sick room—(now going
+                into the sixth month)—The big book <ptr target="n6157"/>, (my whole works in one Vol.) will be bound
+                now in a week or ten days—I suppose Eva<ptr target="n6107"/> bro't you the
+                little <hi rend="underline">Nov: Boughs</hi><ptr target="n3999"/>—Things go on
+                comfortably with me—Eat &amp; sleep fairly—spirits good yet—Sunny
+                cold weather here—Herbert<ptr target="n0262"/> comes quite often—Two
+                visitors ladies strangers just here to see me—love to you, dear boy, &amp; to
+                Eva and Dora<ptr target="n6119"/>—</p>
 
             <closer>
                 <salute/>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03958">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03958">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03958</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03958</idno></publicationStmt>
             <sourceDesc>
                 <bibl> 
                     <author>Herbert Gilchrist</author>
@@ -55,7 +51,7 @@
                     <date cert="high" when="1888-07-08" xml:id="dat1">July 8, 1888</date>
                     <idno type="callno">MSS18630, Box 16</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.03959"/>
                     <relatedItem type="document" target="wwa.00209"/>
                     <note type="project" target="rel01">Whitman wrote a letter to Susan Stafford on the back of the second leaf of this letter. He then sent both 
@@ -93,7 +89,7 @@
                 </dateline>
                 <salute>My dear Walt;</salute>
             </opener>  
-            <p>I have followed your illness with breathless concern&#8212;that is, what I could
+            <p>I have followed your illness with breathless concern—that is, what I could
                 learn of it from the short and alarming dispatches in the "Daily News." I was so
                 rejoiced to see substantive proof of your part recovery in the firmly written post
                 cards to Mrs. Costelloe.<ptr target="loc.02189_n1"/></p>
@@ -102,29 +98,28 @@
             <p>I have just received a letter from Ernest Rhys<ptr target="loc.03310_n1"/> who speaks
                 of having been back to England 2 weeks.<pb xml:id="leaf001v" facs="loc_vm.00023_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc_vm.00022_large.jpg" type="recto"/> Mrs. Costelloe told me that he told
-                Count Stenbock<ptr target="n4328"/> that he (Ernest R) had made &#38; lost a fortune in the States.</p>
-            <p>It is a cold rainy summer with us&#8212;so cold that we feel to want a fire.</p>
-            <p>Mrs. William Rossetti<ptr target="n6123"/> is far from well &#38; is away at Ventnor
+                Count Stenbock<ptr target="n4328"/> that he (Ernest R) had made &amp; lost a fortune in the States.</p>
+            <p>It is a cold rainy summer with us—so cold that we feel to want a fire.</p>
+            <p>Mrs. William Rossetti<ptr target="n6123"/> is far from well &amp; is away at Ventnor
                 recruiting.</p>
-            <p>Saturday Grace<ptr target="n0890"/> &#38; I gave quite a large
-                party&#8212;58 guests&#8212;from 8.30 to 12 o.c. in the evening. Everyone seemed to
-                enjoy it &#38; the evening passed off quite brilliantly.</p>
-            <p>Mrs. Costelloe is sitting 3 days a week to me &#8212;how affectionately and nicely
+            <p>Saturday Grace<ptr target="n0890"/> &amp; I gave quite a large
+                party—58 guests—from 8.30 to 12 o.c. in the evening. Everyone seemed to
+                enjoy it &amp; the evening passed off quite brilliantly.</p>
+            <p>Mrs. Costelloe is sitting 3 days a week to me —how affectionately and nicely
                 she talks of you.</p>
             <p>I think that I shall paint a pretty picture from her.</p>
-            <p>You forwarded a long &#38; interesting letter from S. Morse<ptr target="n0862"/>
-                which I have duly answered: he wrote in excellent spirit&#8212;affairs seem to be
+            <p>You forwarded a long &amp; interesting letter from S. Morse<ptr target="n0862"/>
+                which I have duly answered: he wrote in excellent spirit—affairs seem to be
                 going well with him.</p>
             <closer> 
                  
-                <salute>With hearty greetings &#38; remembrances to Mrs. Davis,<ptr target="n6113"
-                    /></salute>
+                <salute>With hearty greetings &amp; remembrances to Mrs. Davis,<ptr target="n6113"/></salute>
                 <signed rend="right">Herbert H. Gilchrist</signed>
             </closer>
             <postscript>
                 <p>I am just starting for a sitting with Mrs. Costelloe</p>
                 <pb xml:id="leaf002v" facs="loc_vm.00024.jpg" type="verso"/>
-                <p>Henry Holmes<ptr target="n4329"/> violinist &#38; composer is on the point of writing to buy books
+                <p>Henry Holmes<ptr target="n4329"/> violinist &amp; composer is on the point of writing to buy books
                     from you.<ptr target="loc.03959_n4"/></p>
             </postscript>
         </body>

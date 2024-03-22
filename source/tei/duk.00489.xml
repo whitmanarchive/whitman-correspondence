@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00489">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00489">
     <teiHeader>
         <fileDesc>  
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00489</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,20 +35,20 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt> 
+            <idno>duk.00489</idno></publicationStmt> 
             <sourceDesc>
                 <bibl>
                     <author>Charles L. Heyde</author>
                     <title>Charles L. Heyde to Walt Whitman, 23 August [1891]</title>
                     <date cert="high" when="1891-08-23" xml:id="dat1">August 23, [1891]</date>
                     <orgName xml:id="duk">
-                        Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &#38; Manuscript Library, Duke University</orgName> 
+                        Trent Collection of Whitmaniana, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -81,7 +78,7 @@
             <opener rend="center">
                 <dateline>
                 <name type="place">Studio 21 Pearl St</name>
-                    <date when="1891-08-23">23&#8212;Aug<hi rend="underline">t</hi></date>
+                    <date when="1891-08-23">23—Aug<hi rend="underline">t</hi></date>
                 </dateline>
                 <salute><unclear reason="illegible" resp="#blh" cert="medium">Dear</unclear> noble
                     friend and <unclear reason="illegible" resp="#adk" cert="high">Bro</unclear>, Walt.
@@ -89,9 +86,9 @@
             </opener>  
             <p> 
                 Han<ptr target="duk.00419_n2"/>
-                is doing <unclear reason="illegible" cert="low" resp="#smb">v</unclear>ery fairly&#8212;talks of you <unclear reason="illegible" resp="#blh" cert="high">a</unclear>
-                great deal&#8212;yet her <gap reason="illegible" quantity="1" unit="chars"/>ight fails her very much&#8212;<gap reason="illegible" quantity="3" unit="chars"/> 
-                cannot write as she desires&#8212;&#8212;Selling no pictures
+                is doing <unclear reason="illegible" cert="low" resp="#smb">v</unclear>ery fairly—talks of you <unclear reason="illegible" resp="#blh" cert="high">a</unclear>
+                great deal—yet her <gap reason="illegible" quantity="1" unit="chars"/>ight fails her very much—<gap reason="illegible" quantity="3" unit="chars"/> 
+                cannot write as she desires——Selling no pictures
             </p>
             <closer>
                 <salute>Gratefully yours</salute>
@@ -101,21 +98,4 @@
             <note type="editorial" place="top" resp="#rmb">91</note>
         </body>
     </text>
-</TEI> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</TEI>

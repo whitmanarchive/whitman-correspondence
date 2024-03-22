@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00772">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00772">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00772</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00772</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">337&#8211;338</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">337–338</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -97,29 +93,28 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">431 Stevens Street Camden N J<ptr
-                            target="duk.00772_n1"/></name>
-                    <date when="1883-04-13">April 13&#8212;Afternoon</date>
+                    <name type="place">431 Stevens Street Camden N J<ptr target="duk.00772_n1"/></name>
+                    <date when="1883-04-13">April 13—Afternoon</date>
                 </dateline>
             </opener>
-            <p>Your "Holmes" <choice><abbr>rec'd</abbr><expan>received</expan></choice><ptr target="duk.00772_n2"/>&#8212;thank you kindly&#8212;The brief glance
-                over &#38; through it I have given impresses me what a <hi rend="italic">clean</hi>
-                piece of work it is&#8212;what a presentable book&#8212;Dr R M Bucke of Canada has
-                just finished the printing (type-setting) of his book "Walt Whitman"&#8212;to
+            <p>Your "Holmes" <choice><abbr>rec'd</abbr><expan>received</expan></choice><ptr target="duk.00772_n2"/>—thank you kindly—The brief glance
+                over &amp; through it I have given impresses me what a <hi rend="italic">clean</hi>
+                piece of work it is—what a presentable book—Dr R M Bucke of Canada has
+                just finished the printing (type-setting) of his book "Walt Whitman"—to
                 be published here <choice>
                     <abbr>ab't</abbr>
                     <expan>about</expan>
                 </choice> end of this month by David McKay, 23 South 9th <choice>
-                    <abbr>Phila.</abbr><expan>Philadelphia</expan></choice><ptr target="duk.00772_n3"/>&#8212;(<choice><abbr>Pub'r</abbr>
+                    <abbr>Phila.</abbr><expan>Philadelphia</expan></choice><ptr target="duk.00772_n3"/>—(<choice><abbr>Pub'r</abbr>
                     <expan>Publisher</expan>
-                </choice> of my books) I will send you one soon as it is out&#8212;I am well, for
-                me&#8212;have had a pretty good winter&#8212;</p>
+                </choice> of my books) I will send you one soon as it is out—I am well, for
+                me—have had a pretty good winter—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>
             <postscript>
                 <p><hi rend="italic">thanks for your brief, flashing, indirect glances on
-                        me&#8212;not so indirect either&#8212;</hi></p>
+                        me—not so indirect either—</hi></p>
             </postscript>
         </body>
     </text>

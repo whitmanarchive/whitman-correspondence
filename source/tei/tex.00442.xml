@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00442">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00442">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to James R. Osgood &#38; Company, 12 April
+                <title level="m" type="main">Walt Whitman to James R. Osgood &amp; Company, 12 April
                     1882</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00442</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00442</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,15 +54,15 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">273</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">273</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to James R. Osgood &#38; Company, 12 April 1882</title>
+                    <title>Walt Whitman to James R. Osgood &amp; Company, 12 April 1882</title>
                     <date cert="high" when="1882-04-12" xml:id="dat1">April 12, 1882</date>
                     <orgName xml:id="upa">T. E. Hanley Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
                 </bibl>
@@ -102,15 +98,15 @@
                 </dateline>
                 <salute>Dear Sirs</salute>
             </opener>
-            <p>Yours of 10th just <choice><abbr>rec'd</abbr><expan>received</expan></choice><ptr target="upa.00207_n1"/>&#8212;If you desire to cease to
+            <p>Yours of 10th just <choice><abbr>rec'd</abbr><expan>received</expan></choice><ptr target="upa.00207_n1"/>—If you desire to cease to
                 be the publishers of <hi rend="italic">Leaves of Grass</hi> unless I make the
-                excisions required by the District Attorney&#8212;if this is your settled
-                decision&#8212;I see indeed no other way than "some reasonable arrangement for
-                turning the plates over" to me&#8212;What is the <choice>
+                excisions required by the District Attorney—if this is your settled
+                decision—I see indeed no other way than "some reasonable arrangement for
+                turning the plates over" to me—What is the <choice>
                     <abbr>am't</abbr>
                     <expan>amount</expan>
                 </choice> of royalty due me, according
-                to contract, from the sales altogether? &#38; what is your valuation of the
+                to contract, from the sales altogether? &amp; what is your valuation of the
                 plates?</p>
             <closer>
                 <signed>Walt Whitman</signed>

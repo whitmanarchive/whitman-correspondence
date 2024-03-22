@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05994">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05994">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05994</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05994</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1887-05-28" xml:id="dat1">May 28, 1887</date>
                     <idno type="callno">MSS18630, Box 16</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.03939"/>
                     <relatedItem type="document" target="wwa.00583"/>
                     <note type="project" target="#rel01">Walt Whitman wrote this letter to Susan Stafford, dated May 28, 1887, on the back of
@@ -98,28 +95,27 @@
                     </dateline>
                     <salute>Dear friend</salute>
                 </opener>
-                <p>I send you the within just rec'd from Herbert G.<ptr target="n0262"/>&#8212;I
-                    have an idea that he will be on here Monday or Tuesday&#8212;If the spirit moves
-                    me &#38; the weather is fine, I may come down Sunday, (before you get
-                    this)&#8212;but possibly not&#8212;so I <choice>
+                <p>I send you the within just rec'd from Herbert G.<ptr target="n0262"/>—I
+                    have an idea that he will be on here Monday or Tuesday—If the spirit moves
+                    me &amp; the weather is fine, I may come down Sunday, (before you get
+                    this)—but possibly not—so I <choice>
                         <abbr>tho't</abbr>
                         <expan>thought</expan>
-                    </choice> I w'd send you the present screed&#8212;Showery &#38; almost cool here
-                    the last two days. As I write, the sun is out, &#38; my bird singing&#8212;I
-                    have had my dinner, mutton-stew, onions, &#38; greens&#8212;(I used the vinegar
-                    you gave me on 'em&#8212;good&#8212;the bottle is most all gone, &#38; I shall
-                    bring it down to be fill'd up)&#8212;I have not felt as well as usual the last
-                    three days&#8212; we had it hot &#38; disagreeable enough here
-                    previous&#8212;Susan come up here &#38; stay awhile &#38; visit
-                    us&#8212;George<ptr target="n0852e"/> too&#8212;Mrs. D<ptr
-                        target="loc.03745_n2"/> would be glad too&#8212;Lord be easy with you
-                    both&#8212;</p>
+                    </choice> I w'd send you the present screed—Showery &amp; almost cool here
+                    the last two days. As I write, the sun is out, &amp; my bird singing—I
+                    have had my dinner, mutton-stew, onions, &amp; greens—(I used the vinegar
+                    you gave me on 'em—good—the bottle is most all gone, &amp; I shall
+                    bring it down to be fill'd up)—I have not felt as well as usual the last
+                    three days— we had it hot &amp; disagreeable enough here
+                    previous—Susan come up here &amp; stay awhile &amp; visit
+                    us—George<ptr target="n0852e"/> too—Mrs. D<ptr target="loc.03745_n2"/> would be glad too—Lord be easy with you
+                    both—</p>
                 <closer>
                     <signed>Walt Whitman</signed>
                 </closer>
                 <postscript>
                     <p>An old southern farmer John Newton Johnson<ptr target="n0914"/> has come up
-                        here from Alabama, 700 miles, to see me, &#38; is here now. He is the
+                        here from Alabama, 700 miles, to see me, &amp; is here now. He is the
                         queerest, wildest cutest mortal you ever saw has a boy 12 yrs old named Walt
                         Whitman</p>
                 </postscript> 
@@ -133,13 +129,12 @@
                             Eleventh Street,<lb/> Between Broadway and University Place.</name>
                         <date when="1887-05-27"><name type="place">W.D. Ryder, Proprietor. New
                                 York,</name>
-                            <handShift rend="manuscript"/>May 27 <handShift rend="printed"
-                                />188<handShift rend="manuscript"/>7 </date></dateline>
+                            <handShift rend="manuscript"/>May 27 <handShift rend="printed"/>188<handShift rend="manuscript"/>7 </date></dateline>
                     <salute>Dear Walt;</salute>
                 </opener>
-                <p> I arrived here from the "Germanic" a few hours ago:&#8212;think that I shall
+                <p> I arrived here from the "Germanic" a few hours ago:—think that I shall
                     stay here in the Germanic 4 or 5 days, not more, and then shall come on to
-                    Camden, where I want to lodge, if I can find a lodging. &#8212;simply, one
+                    Camden, where I want to lodge, if I can find a lodging. —simply, one
                     decent clean bedroom will do for me. </p>
                 <p> We had a squally disagreeable passage, notably so for the time of year. </p>
                 <closer>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04636">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04636">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04636</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04636</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Carrie E. Wroth</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00400</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,32 +81,29 @@
             <pb xml:id="leaf001r" facs="loc_vm.02471.jpg" type="recto"/>
             <opener> 
                 <dateline>  
-                    <name type="place">Perryville&#8212;Md<ptr target="loc.04636_n1"/></name>
+                    <name type="place">Perryville—Md<ptr target="loc.04636_n1"/></name>
                     <date when="1890-02-12">Feb. 12/90</date>
                 </dateline>
                 <salute>My dear Mr Whitman</salute>   
             </opener> 
             <p>You will, no doubt be surprised, when you see the signature to this letter, but. I
-                have often been tempted to write you&#8212;to thank you for your kindness in writing
-                to my boy<ptr target="loc.04636_n3"/>&#8212;far away in the Sierra Madre
-                mountains&#8212;and <pb xml:id="leaf001v" facs="loc_vm.02472.jpg" type="verso"/>
-                always gladly welcoming any letters from his old home&#8212;and, especially from <hi
-                    rend="underline">you</hi>&#8212;who have <hi rend="underline">so</hi> many
-                correspondents&#8212;and have also suffered from extreme indisposition, he has
-                appreciated particularly your thought of him&#8212;&#38; been much
-                pleased&#8212;&#38; his mother also shares with him the same feeling&#8212;</p>
-            <p>I have once or twice learned, thro' the papers, of your ill health&#8212;with much
-                regret and, we are always interested when we see your <pb xml:id="leaf002r"
-                    facs="loc_vm.02473.jpg" type="recto"/> name&#8212;in print&#8212;</p>
-            <p>I received a letter from John today&#8212;in which he mentions having heard from you
-                &#38; that he had received a card also&#8212;he has had an attack of
-                Pneumonia&#8212;his first sickness since he has been out there&#8212;and, is much
-                weakened by it&#8212;and. I realise how very far away he is&#8212;and feel anxious
-                about him&#8212;</p>
-            <p>I will not trespass further on your time but hope you are <pb xml:id="leaf002v"
-                    facs="loc_vm.02474.jpg" type="verso"/> regaining your strength and much
-                    improved&#8212;Alice<ptr target="loc.04636_n4"/> unites with me in very kind
-                remembrances&#8212;</p> 
+                have often been tempted to write you—to thank you for your kindness in writing
+                to my boy<ptr target="loc.04636_n3"/>—far away in the Sierra Madre
+                mountains—and <pb xml:id="leaf001v" facs="loc_vm.02472.jpg" type="verso"/>
+                always gladly welcoming any letters from his old home—and, especially from <hi rend="underline">you</hi>—who have <hi rend="underline">so</hi> many
+                correspondents—and have also suffered from extreme indisposition, he has
+                appreciated particularly your thought of him—&amp; been much
+                pleased—&amp; his mother also shares with him the same feeling—</p>
+            <p>I have once or twice learned, thro' the papers, of your ill health—with much
+                regret and, we are always interested when we see your <pb xml:id="leaf002r" facs="loc_vm.02473.jpg" type="recto"/> name—in print—</p>
+            <p>I received a letter from John today—in which he mentions having heard from you
+                &amp; that he had received a card also—he has had an attack of
+                Pneumonia—his first sickness since he has been out there—and, is much
+                weakened by it—and. I realise how very far away he is—and feel anxious
+                about him—</p>
+            <p>I will not trespass further on your time but hope you are <pb xml:id="leaf002v" facs="loc_vm.02474.jpg" type="verso"/> regaining your strength and much
+                    improved—Alice<ptr target="loc.04636_n4"/> unites with me in very kind
+                remembrances—</p> 
             <closer> 
                 <salute>Yours very truly</salute> 
                 <signed>Carrie E. Wroth</signed>

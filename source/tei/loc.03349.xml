@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03349">   
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03349">   
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="es">Jeannette Schollaert</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03349</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03349</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William D. O'Connor</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1888-10-27" xml:id="dat1">October 27, 1888</date>
                     <idno type="callno">MSS18630, Box 14</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C. </orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C. </orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -91,8 +88,7 @@
                 that I'm not dead yet, no more than you are, dear friend! The pleasing little malady
                 of the eyelid which has inspired me to much eloquent, though silent, profanity, is
                 called <hi rend="underline">ptosis</hi>, a Greek name which is fully equivalent to
-                Abaddon (and a bad'un it is: joke: two in <pb xml:id="leaf001v"
-                    facs="loc.03349.002.jpg" type="verso"/> this style for one cent!) and
+                Abaddon (and a bad'un it is: joke: two in <pb xml:id="leaf001v" facs="loc.03349.002.jpg" type="verso"/> this style for one cent!) and
                 consists in a paralysis of the first nerve of the eyelid. The doctor continues the 
                 battery, and promises relief soon, warning me not to use the other eye, which I
                 don't, with slight exceptions, such as this one. Soon I hope to send you better than
@@ -100,15 +96,13 @@
             <p>I was glad to see Mrs. Costelloe's<ptr target="loc.02189_n1"/> letter, which I sent
                 the next day to Dr. Bucke<ptr target="n0119"/> (old angel!) and have heard he got
                 it.</p>  
-            <p>I am pleased that Stedman<ptr target="n1043"/> wrote to you. I suppose it <pb
-                    xml:id="leaf002r" facs="loc.03349.003.jpg" type="recto"/> included telling
+            <p>I am pleased that Stedman<ptr target="n1043"/> wrote to you. I suppose it <pb xml:id="leaf002r" facs="loc.03349.003.jpg" type="recto"/> included telling
                 you the delay of the calendar<ptr target="loc.03349_n4"/>, for which I am not sorry on the whole, since it gives
                 another chance to get the help of Stetson's grand Fuseli-pencil<ptr target="loc.03349_n5"/> for the design of another year.
                 Grace is going to touch this spirit to fine issues if possible next twelve-month,
                 when we hope he will be freer to work!</p>
-            <p>&#8212;But, whoa! eye-destroying prose. Pegasus of the devil&#8212;It fills me with
-                thanks that you still hold your own, dear Walt. I'll bet on you more <pb
-                    xml:id="leaf002v" facs="loc.03349.004.jpg" type="verso"/> than on either
+            <p>—But, whoa! eye-destroying prose. Pegasus of the devil—It fills me with
+                thanks that you still hold your own, dear Walt. I'll bet on you more <pb xml:id="leaf002v" facs="loc.03349.004.jpg" type="verso"/> than on either
                 Harrison or Cleveland!<ptr target="loc.03349_n1"/> (Apropos, what a delicious mess
                 Bull-Sackville has got himself into! The tee-heeing and haw-hawing are
                 multitudinous! Also the Democratic roars!<ptr target="loc.03349_n2"/>)</p>  
@@ -121,7 +115,7 @@
                 </address>
             </closer>
             <postscript>
-                <p>&#8212;Where's the gold-and-azure October weather I prophecied! Wretched Augur!
+                <p>—Where's the gold-and-azure October weather I prophecied! Wretched Augur!
                     It is endless rain!</p>
             </postscript>
         </body>

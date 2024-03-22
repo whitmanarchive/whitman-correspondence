@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="owu.00020">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Louisa Van Velsor Whitman, 28 March
+                    [1873]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="kk">Kathryn Kruger</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="ec">Eric Conrad</persName>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName> 
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>owu.00020</idno></publicationStmt>
+            <sourceDesc>
+                <!--<biblStruct>
+                    <monogr>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">Walt Whitman&#8212;The Correspondence, Volume II:
+                            1868&#8211;1875</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date when="1961">1961</date>
+                            <biblScope unit="page">207&#8211;208</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Louisa Van Velsor Whitman, 28 March [1873]</title>
+                    <date cert="medium" when="1873-03-28" xml:id="dat1">March 28, [1873]</date>
+                    <orgName xml:id="owu">The Bayley-Whitman Collection, Ohio Wesleyan University,
+                        Delaware, OH</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Louisa Van Velsor" ref="n0705">Louisa Van Velsor
+                        Whitman</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-08" who="#smb">final corrections</change>
+            <change when="2023-07-28" who="#aja">final corrections for Matt</change>
+            <change when="2023-05-10" who="#aja">added notes</change>
+            <change when="2022-10-17" who="#pw">checked</change>
+            <change when="2022-02-02" who="#em">checked</change>
+            <change when="2021-11-28" who="#me">checked, corrected</change>
+            <change who="#ak" when="2014-10-28">added annotations</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-02-08" who="#kk">checked</change>
+            <change when="2011-02-02" who="#zk">encoded</change>
+            <change when="2010-08-20" who="#ec">extracted transcription from Major Authors
+                cd</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="owu.00020.001.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1873-03-28">28 March<ptr target="owu.00020_n1"/></date>
+                    <note type="editorial" resp="#unk" place="inline">'73</note>
+                    <date when="1873-03-28" rend="right">Friday morning—9 o'clock</date>
+                </dateline>
+                <salute>Dearest mother,</salute>
+            </opener>
+            <p>The sun shines out bright &amp; cheerful this morning—&amp; in my east window I
+                have a fine healthy rose-bush—I see it has got two roses, in bloom, &amp; one
+                just budding out—(it was a present from Mrs. Channing<ptr target="loc.01257_n1"/> of Providence—she sent on here, and had it got for
+                me, when I was first sick)<ptr target="duk.00623_n16"/>—I think I am feeling better to-day, &amp; more like
+                myself—I have been in the habit of soaking my feet in hot water every night
+                for two months now—&amp; I think lately it has done me more harm than
+                good—one thing is, it has probably made me catch a slight cold—so I have <choice>
+                    <sic>stopt</sic>
+                    <corr>stopped</corr>
+                </choice> it, &amp; I have a notion I feel better from stopping it—</p>
+            <p>—I have just
+                had my breakfast, &amp; am sitting here alone by the stove, writing
+                this—Charles Eldridge<ptr target="loc.00944_n3"/> will be here in a few
+                minutes, &amp; bring the morning papers—he comes &amp; sits a few minutes
+                every morning before going to work—he has been very good indeed—he &amp;
+                Peter Doyle<ptr target="n0752"/> hold out through every thing—most of the rest
+                have got tired &amp; <choice>
+                    <sic>stopt</sic>
+                    <corr>stopped</corr>
+                </choice> coming—(which is just as well)—Mrs. O'Connor<ptr target="n4137"/> comes whenever she can, &amp; generally brings a dish of roast
+                apples, or something—</p>
+            <pb xml:id="leaf001v" facs="owu.00020.002.jpg" type="verso"/>
+            <p>I go over to the office about 12 or 1 most every day——but only for a few
+                minutes—have not resumed work there yet, but hope to, Monday—I find
+                there is a great deal of paralysis around, and they say I have got along very
+                well—but it <choice>
+                    <sic/>
+                    <corr>is</corr>
+                </choice> so slow, so aggravating, to be disabled, so feeble, cannot walk nor do any
+                thing, when one's mind &amp; will are just as clear as ever—Still <hi rend="underline">I feel</hi> I shall get as well as usual yet dearest
+                mother—&amp; then I shall <hi rend="underline">surely</hi> get here or buy or
+                build a little place here, rooms enough to live in for you &amp; Ed<ptr target="n0699"/> and me<ptr target="owu.00020_n3"/>—I realize it more, far
+                more now, than ever—even for my own comfort—this spring is better to buy
+                here than usual—I think we could get along <hi rend="underline">very well</hi>
+                indeed—you could visit George &amp; Lou<ptr target="n1046"/> as often as you
+                liked (&amp; George &amp; Lou could come &amp; pay us a visit in winter when
+                Congress is in full blast)—</p>
+            <p>—I miss John<ptr target="n0129"/> &amp; Mrs. Burroughs<ptr target="n0892"/>—they are at a place called Waukill, N.Y. state—they have hired out
+                their house furnished, 6 <choice><abbr>mo's</abbr><expan>months</expan></choice>, 
+                $50 a month. I have not heard any thing further from Jeff<ptr target="owu.00020_n4"/>—</p>
+            <p>—I hope to come on soon &amp; pay you all a visit,
+                but wait to see how things go in the office—&amp; how I feel—(as I have
+                been absent now nine weeks)—Every thing looks pleasant here to-day—quite
+                spring like—Mother dear, I hope this will find you feeling well, &amp; in good
+                spirits, as that is the main thing.—Mother as I cannot get down to the p.o. I
+                send the money once more enclosed—write me Sunday, if convenient—<choice><abbr>Chas.</abbr>
+                    <expan>Charles</expan>
+                </choice> Eldridge has been in—it is now later, towards 12—I have washed
+                &amp; put on some clean clothes, &amp; am going over to the office—</p>
+            <closer>
+                <signed>Walt.</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07970">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07970">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07970</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,16 +42,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07970</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 2 October 1890</title>
                     <date cert="high" when="1890-10-02" xml:id="dat1">October 2, 1890</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -85,24 +82,18 @@
                     <date when="1890-10-02">Oct: 2 '90</date>
                 </dateline> 
             </opener>  
-            <p>Yr's of 30th Sept: rec'd<ptr target="loc.07970_n3"/>&#8212;Mr 
+            <p>Yr's of 30th Sept: rec'd<ptr target="loc.07970_n3"/>—Mr 
                 Baker<ptr target="loc.07859_n6"/> (from Ing:<ptr target="n0839"/>) is in Phila conferring with Horace<ptr target="n3041"/> 
                 ab't place, date, &amp;c. &amp;c.<ptr target="loc.07113_n4"/></p>
-            <p>&#8212;We will see what comes of it all&#8212;I rode out to Harleigh 
-            Cem't'y<ptr target="loc.07740_n6"/> yesterday after noon&#8212;they have commenced the tomb, broke ground 
-            yesterday &amp; will build the vault proper&#8212;the stone quarried at 
-            Quincy Mass: will be a month yet&#8212;Splendid day yesterday enjoy'd 
-            my hour's drive R Moore<ptr target="loc.07970_n1"/> Sup't took me&#8212;grip and bladder bother on me</p>
+            <p>—We will see what comes of it all—I rode out to Harleigh 
+            Cem't'y<ptr target="loc.07740_n6"/> yesterday after noon—they have commenced the tomb, broke ground 
+            yesterday &amp; will build the vault proper—the stone quarried at 
+            Quincy Mass: will be a month yet—Splendid day yesterday enjoy'd 
+            my hour's drive R Moore<ptr target="loc.07970_n1"/> Sup't took me—grip and bladder bother on me</p>
             <closer>
                 <signed>Walt Whitman</signed> 
             </closer>
             <pb xml:id="leaf001v" facs="loc_zs.00108.jpg" type="verso"/>
         </body>
     </text> 
-</TEI> 
-
-
-
-
-
-
+</TEI>

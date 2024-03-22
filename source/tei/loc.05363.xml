@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05363"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05363"> 
     <teiHeader> 
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">James R. Osgood &#38; Company to Walt Whitman, 20 March
+                <title level="m" type="main">James R. Osgood &amp; Company to Walt Whitman, 20 March
                     1882</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>James R. Osgood &amp; Company</author>
@@ -18,7 +14,7 @@
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="el">Elizabeth Lorang</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -32,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05363</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,7 +38,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -50,7 +46,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05363</idno></publicationStmt>
             <sourceDesc>
 
                 <biblStruct>
@@ -63,8 +59,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>G.P. Putnam's Sons</publisher>
                             <date when="1902">1902</date>
-                            <biblScope type="volume">8</biblScope>
-                            <biblScope type="page">292</biblScope>
+                            <biblScope unit="volume">8</biblScope>
+                            <biblScope unit="page">292</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>

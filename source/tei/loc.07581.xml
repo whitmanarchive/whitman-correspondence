@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07581">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07581">  
     <teiHeader>
         <fileDesc>
             <titleStmt>   
@@ -15,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="as">Ashlyn Stewart</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName> 
                 </respStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07581</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +45,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07581</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 13 February 1889</title>
                     <date cert="high" when="1889-02-13" xml:id="dat1">February 13, 1889</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.02969"/>
                     <relatedItem type="document" target="wwa.00588"/>
                     <note type="project" target="#rel01">Whitman wrote this letter to Bucke on the fifth page of the February 12, 1889, letter
@@ -95,21 +92,19 @@
                     <date when="1889-02-13">Feb: 13 '89</date>
                 </dateline>
             </opener>
-            <p>I send Mrs: O'C[onnor]'s<ptr target="n4137"/> letter rec'd this morn'g&#8212;welcomed
-                tho' it has not (only indirectly) what I mostly wanted, all ab't, mainly &#38;
-                detailedly O'C's<ptr target="n2002"/> condition &#38; every thing relating to <hi
-                    rend="italic">him</hi>&#8212;(a good strong man nurse he evidently needs at
-                once&#8212;my poor lamented friend&#8212;it is hard, hard)&#8212;</p>
-            <p>I send Rolleston's<ptr target="n1027"/> short note&#8212;What I am specially tickled
-                ab't is that a big five pound book<ptr target="n4195"/> (40 cents postage) goes safe &#38; sure to
-                Co[unty] Wicklow Ireland f'm Jersey here. I also enc: Jo: Gilder's<ptr
-                    target="n6112"/> invitation letter, just rec'd. Of course I make no
-                    response&#8212;</p>
-            <p>Things nearly the same&#8212;not one even of my tolerable days&#8212;my head is
-                uncomfortable, half aching &#38; half-deaf&#8212;sunny &#38; cold weather&#8212;yes,
-                I will send "Magazine of Poetry" back&#8212;Horace<ptr target="n4267"/> ask'd last
+            <p>I send Mrs: O'C[onnor]'s<ptr target="n4137"/> letter rec'd this morn'g—welcomed
+                tho' it has not (only indirectly) what I mostly wanted, all ab't, mainly &amp;
+                detailedly O'C's<ptr target="n2002"/> condition &amp; every thing relating to <hi rend="italic">him</hi>—(a good strong man nurse he evidently needs at
+                once—my poor lamented friend—it is hard, hard)—</p>
+            <p>I send Rolleston's<ptr target="n1027"/> short note—What I am specially tickled
+                ab't is that a big five pound book<ptr target="n4195"/> (40 cents postage) goes safe &amp; sure to
+                Co[unty] Wicklow Ireland f'm Jersey here. I also enc: Jo: Gilder's<ptr target="n6112"/> invitation letter, just rec'd. Of course I make no
+                    response—</p>
+            <p>Things nearly the same—not one even of my tolerable days—my head is
+                uncomfortable, half aching &amp; half-deaf—sunny &amp; cold weather—yes,
+                I will send "Magazine of Poetry" back—Horace<ptr target="n4267"/> ask'd last
                 evn'g of y'r definitive date of coming, with reference to fixing for y'r
-                lecture&#8212;I am sitting here stupidly all day by the stove</p>
+                lecture—I am sitting here stupidly all day by the stove</p>
             <closer>
                 <signed>Walt Whitman</signed> 
             </closer>
@@ -125,30 +120,30 @@
                 </opener>
                 <p>If things go on as they have for the past week, you will have to think yourself lucky
                     if you get even a postal in ten days. You must remember that I am housekeeper,
-                    nurse, marketer, &#38; have to see that the house is decent, if
+                    nurse, marketer, &amp; have to see that the house is decent, if
                     <pb xml:id="leaf002v" facs="loc.02969.002.jpg" type="verso"/>
                     possible, besides being interrupted at every 
                     ten minutes to answer some one who calls from a good motive to ask how Wm. is, but would do better not to come often.</p>
                 
-                <p>So far I am the <hi rend="underline">only</hi> nurse, &#38; if you have been as
+                <p>So far I am the <hi rend="underline">only</hi> nurse, &amp; if you have been as
                     badly
                     <pb xml:id="leaf003r" facs="loc.02969.003.jpg" type="recto"/>
                     off as he is, you may have some idea of what it means, in this case it means that I
-                    wash &#38; dress him so far as he can be dressed,&#8212;wash his urinals, for he has
-                    to be protected night &#38; day, from the constant dripping,&#8212;&#38; to keep
+                    wash &amp; dress him so far as he can be dressed,—wash his urinals, for he has
+                    to be protected night &amp; day, from the constant dripping,—&amp; to keep
                    <pb xml:id="leaf003v" facs="loc.02969.004.jpg" type="verso"/>
                    him at all clean is nearly impossible. Some nights I get not more than four hours
-                    sleep &#38; that very broken, &#38; some days not one moment to rest at all. To-day
+                    sleep &amp; that very broken, &amp; some days not one moment to rest at all. To-day
                     I am nearly blind from loss of sleep. We have some very bad nights since the
                 <pb xml:id="leaf004r" facs="loc_as.00155_large.jpg" type="recto"/>
-               attack four weeks ago, &#38; one of the very bad and troublesome developments is the nausea 
-                    and throwing up, so you see that I am not very idle, &#38; I some days could not write a postal 
-                    card to save you.  You will ask <hi rend="underline">why</hi> we don't have a nurse &#38; the
+               attack four weeks ago, &amp; one of the very bad and troublesome developments is the nausea 
+                    and throwing up, so you see that I am not very idle, &amp; I some days could not write a postal 
+                    card to save you.  You will ask <hi rend="underline">why</hi> we don't have a nurse &amp; the
                 <pb xml:id="leaf004v" facs="loc_as.00156_large.jpg" type="verso"/>
-                answer is William does not want one, &#38; is not ready yet, <gap reason="illegible"/> sends love to you &#38; says tell you he would write if he could.</p>
+                answer is William does not want one, &amp; is not ready yet, <gap reason="illegible"/> sends love to you &amp; says tell you he would write if he could.</p>
                 <closer>
                     <salute>Good by.</salute> 
-                    <salute>As ever &#8212;</salute> 
+                    <salute>As ever —</salute> 
                     <signed>Nelly O'Connor.</signed> 
                 </closer>
                 <postscript><p>I have had to leave this letter <hi rend="underline">six</hi> times to do some thing else.</p></postscript> 
@@ -160,10 +155,10 @@
                         <date when="1889-02-02">Feb. 2<hi rend="underline">nd</hi></date>
                     </dateline>
                 </opener>
-                <p>The big book<ptr target="n4132"/> with its kind inscription arrived today&#8212;I
+                <p>The big book<ptr target="n4132"/> with its kind inscription arrived today—I
                     like much the 1 volume plan.<ptr target="loc.03566_n1"/> Its a book one can walk
-                    about in, as in a great land, &#38; see things of inexhaustible meaning and
-                    promise&#8212;And time for this line now, to acknowledge&#8212;</p>
+                    about in, as in a great land, &amp; see things of inexhaustible meaning and
+                    promise—And time for this line now, to acknowledge—</p>
                 <closer>
                     <salute>Ever yrs</salute>
                     <signed>T. W. Rolleston</signed>
@@ -180,16 +175,14 @@
                     </dateline>
                     <salute><handShift rend="manuscript"/>Dear W. Whitman:</salute> 
                 </opener>
-                <p>The 22d of February (Washington's Birthday) being the <hi rend="underline"
-                    >seventieth</hi> anniversary of the birth of Mr. James Russell Lowell,<ptr target="n3105"/> it is our
+                <p>The 22d of February (Washington's Birthday) being the <hi rend="underline">seventieth</hi> anniversary of the birth of Mr. James Russell Lowell,<ptr target="n3105"/> it is our
                     intention to publish on that date a number of <hi rend="underline">The Critic</hi>
                     consisting mainly of personal estimates of, and greetings to, the distinguished
                     poet, satirist and statesman.</p>
                 <p>Should you care to make the tribute a
                     more memorable one by adding your congratulations to those of the other distinguished
                     men and women whose names will appear in this special number, we should esteem it a
-                    privilege &#38; make room <pb xml:id="leaf006v" facs="loc.02215.002.jpg"
-                        type="verso"/>for as many words&#8212;or as few&#8212;as you may care to
+                    privilege &amp; make room <pb xml:id="leaf006v" facs="loc.02215.002.jpg" type="verso"/>for as many words—or as few—as you may care to
                     write.</p>
                 <p>We need hardly add that Mr. Lowell knows nothing of the intended compliment, which we trust
                     will surprise as much as it must please him.</p>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08284">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt> 
+                <title level="m" type="main">John W. Alexander to Walt Whitman, 17 April 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John W. Alexander</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="wc">Will Cooper</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>
+                        Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
+                    </p>
+                </availability>
+            <idno>loc.08284</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>John W. Alexander</author>
+                    <title>John W. Alexander to Walt Whitman, 17 April 1891</title>
+                    <date cert="high" when="1891-04-17" xml:id="dat1">April 17, 1891</date> 
+                    <idno type="callno">MSS18630</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
+                        Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Alexander, John W." ref="pru.00001_n2">John W. Alexander</persName>
+                 </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc> 
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2022-04-15" who="#smb">final checked, corrected</change>
+            <change when="2021-10-08" who="#me">checked, corrected</change>
+            <change when="2021-07-09" who="#aja">checked, corrected</change>
+            <change when="2020-12-07" who="#wc">transcribed, encoded; SLIS:6335: Metadata Theories and Applications Class, Fall 2020, Micah Bateman, Lecturer, University of Iowa</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_jm.00135.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>THE CHELSEA</name>
+                    <name type="place">222 WEST 23d STREET</name>
+                    <name type="place"><handShift rend="manuscript"/>N.Y.</name>
+                    <date when="1891-04-17">Apr. 17<hi rend="underline">t</hi> 91</date>
+                </dateline>
+                <salute><handShift rend="manuscript"/>Mr. Walt Whitman.</salute>
+            </opener>
+            <p> It gives me great pleasure to inform you that the portrait &amp; painting<ptr target="pru.00001_n4"/> of you a few years 
+                ago has been purchased by one of your admirers and presented to the Met. Museum of Art<ptr target="pru.00001_n3"/> of 
+                New York—where I hope it will be seen by many thousands of people and for many years to 
+                come. I am delighted to have been the means of giving to future generations a portrait 
+                of you that is certainly one of my best works. I may tell
+                <pb xml:id="leaf001v" facs="loc_jm.00136.jpg" type="verso"/>
+                you also that it has been engraved and is to be published in Harpers Magazine.<ptr target="n0289"/></p>
+            <p>Hoping you are in good health and with best of good wishes.</p>
+            <closer>
+                <salute>Very truly yours</salute>
+                <signed>John W. Alexander</signed>
+            </closer>
+        </body>
+    </text>
+</TEI><!---->

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="owu.00025">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="owu.00025">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>owu.00025</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>owu.00025</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -90,17 +87,15 @@
                     <name type="place"><handShift rend="printed"/>Superintendent's Office.</name>
                     <name type="place">Asylum for the Insane,</name>
                     <name type="place">London, Ont.,</name>
-                    <date when="1889-06-15"><handShift rend="manuscript"/>15 June<handShift
-                        rend="printed"/> 188<handShift rend="manuscript"/>9<ptr target="owu.00025_n1"/></date>
+                    <date when="1889-06-15"><handShift rend="manuscript"/>15 June<handShift rend="printed"/> 188<handShift rend="manuscript"/>9<ptr target="owu.00025_n1"/></date>
                 </dateline>
             </opener>
             <p>All goes well with us here. We are all well and flourishing. I am just finishing
                 Romanes "Origin of the Human Faculty"<ptr target="owu.00087_n2"/> the best book I
                 have read for a long time. I have been hoping to hear something definite as to the
-                publication of W.S. Kennedy's<ptr target="n3039"/> "W.W."<ptr target="duk.00897_n2"/> but I hear <hi
-                    rend="underline">nothing</hi>&#8212;hope to see K. here before a great while but
+                publication of W.S. Kennedy's<ptr target="n3039"/> "W.W."<ptr target="duk.00897_n2"/> but I hear <hi rend="underline">nothing</hi>—hope to see K. here before a great while but
                 have not heard from him for so long that do not know whether to expect him or not.
-                Inspector has been here three days&#8212;will go East tomorrow&#8212;all
+                Inspector has been here three days—will go East tomorrow—all
                 goes well with meter<ptr target="loc.07230_n2"/> as far as I know but it seems slow work</p>
             <closer>
                 <salute>Love to you</salute>

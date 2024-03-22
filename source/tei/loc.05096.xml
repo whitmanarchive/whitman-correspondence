@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05096">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05096">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="kc">Kirsten Clawson</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05096</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05096</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,7 +54,7 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>Doubleday, Page, &amp; Company</publisher>
                             <date when="1918">1918</date>
-                            <biblScope type="page">203&#8211;204</biblScope>
+                            <biblScope unit="page">203–204</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -100,32 +96,32 @@
                 <date when="1881-12-14">Dec. 14, '81.</date></dateline>
                 <salute>My Dearest Friend:<!--<ptr target="n0259"/>--></salute>
             </opener>
-            <p>Your welcome letter to hand.<!--<ptr target="loc.05096_n1"/>--> I have longed for a word from you&#8212;could not write
-                myself&#8212;was stricken dumb&#8212;nay, there is nothing but silence for me still.<!--<ptr target="n3071"/>-->
+            <p>Your welcome letter to hand.<!--<ptr target="loc.05096_n1"/>--> I have longed for a word from you—could not write
+                myself—was stricken dumb—nay, there is nothing but silence for me still.<!--<ptr target="n3071"/>-->
                 Herby<!--<ptr target="n0262"/>--> wrote to Mrs. Stafford<!--<ptr target="n0817"/>--> first, thinking that so the shock would come less
                 abruptly to you.</p>
             <p>I heard of you at Concord in a kind long letter from Frederick Holland, with whose
-                wife you had some conversation. Indeed all that sympathy and warm &#38; true words
-                of love &#38; sorrow &#38; highest admiration &#38; esteem for my darling could do
-                to comfort me I have had&#8212;and most &#38; best from America. And many of her
+                wife you had some conversation. Indeed all that sympathy and warm &amp; true words
+                of love &amp; sorrow &amp; highest admiration &amp; esteem for my darling could do
+                to comfort me I have had—and most &amp; best from America. And many of her
                 poor patients at Edinburgh went sobbing from the door when they heard they should
                 see her no more.</p>
-            <p>The report of your health is comforting dear friend. Mine too is better&#8212;I am
-                able to take walks again&#8212;though still liable to sudden attacks of difficult
+            <p>The report of your health is comforting dear friend. Mine too is better—I am
+                able to take walks again—though still liable to sudden attacks of difficult
                 breathing.</p>
-            <p>Herby is working hard&#8212;has just been disappointed over a competition design
-                which he sent in to the Royal Academy&#8212;a very poor &#38; specious work
-                obtaining the premium&#8212;but is no whit discouraged &#38; has no need to be, for
-                he is making great progress&#8212;works hard, loves his work &#38; is of the stuff
-                where of great painters are made, I am persuaded&#8212;so he can afford to wait.
-                Giddy<!--<ptr target="n0890"/>--> is not quite so well &#38; strong as I could wish, but there seems nothing
-                serious. She is working diligently at the development of her voice&#8212;&#38; is
-                learning German. Dr. Bucke's<!--<ptr target="n0119"/>--> friend, Mr. Buxton Forman,<!--<ptr target="n0240 "/>--> &#38; his wife are very
+            <p>Herby is working hard—has just been disappointed over a competition design
+                which he sent in to the Royal Academy—a very poor &amp; specious work
+                obtaining the premium—but is no whit discouraged &amp; has no need to be, for
+                he is making great progress—works hard, loves his work &amp; is of the stuff
+                where of great painters are made, I am persuaded—so he can afford to wait.
+                Giddy<!--<ptr target="n0890"/>--> is not quite so well &amp; strong as I could wish, but there seems nothing
+                serious. She is working diligently at the development of her voice—&amp; is
+                learning German. Dr. Bucke's<!--<ptr target="n0119"/>--> friend, Mr. Buxton Forman,<!--<ptr target="n0240 "/>--> &amp; his wife are very
                 warm, staunch friends of Herby's.</p>
             <p>Please give my love to your sister, and tell her that her good letter spoke the right
-                words to me &#38; that I shall write before very long. Thanks for the paper, dear
-                friend&#8212;&#38; for those that came when I was too overwhelmed but which I have
-                since read with deep interest&#8212;those about your visit to your birthplace. With love from us all&#8212;good-bye, dearest Friend.</p>
+                words to me &amp; that I shall write before very long. Thanks for the paper, dear
+                friend—&amp; for those that came when I was too overwhelmed but which I have
+                since read with deep interest—those about your visit to your birthplace. With love from us all—good-bye, dearest Friend.</p>
             <closer>
                 <signed>A. Gilchrist.</signed>
             </closer>

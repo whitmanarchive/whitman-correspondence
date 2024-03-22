@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07962"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07962"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07962</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07962</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 6 August 1891</title>
                     <date cert="high" when="1891-08-06" xml:id="dat1">August 6, 1891</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00108</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,19 +84,17 @@
             <pb xml:id="leaf001r" facs="loc_jm.00300.jpg" type="recto"/>
             <opener>  
                 <dateline> 
-                    <name type="place">Camden N J&#8212;U S America<ptr target="loc.07962_n2"/></name>
-                    <date when="1891-08-06">Aug: 6 '91&#8212;</date>
+                    <name type="place">Camden N J—U S America<ptr target="loc.07962_n2"/></name>
+                    <date when="1891-08-06">Aug: 6 '91—</date>
                 </dateline>  
             </opener> 
-            <p>Yrs of 26th July this mn'g<ptr target="loc.07962_n3"/>&#8212;(this is the
-                3d)&#8212;Rather blue with me this week&#8212;but I keep up &#38; eat my
-                meals&#8212;(peaches &#38; tomatoes are at their height &#38; I alternate with
-                them)&#8212;Good affectionate long letters f'm Dr J<ptr target="n4102"/> &#38; J W
-                    W<ptr target="n6121"/> Bolton&#8212;Horace<ptr target="n4267"/> here
-                daily&#8212;am writing nothing for print&#8212;letter f'm friend Johnston<ptr
-                    target="loc.06060_n5"/> N Y jeweller yesterday&#8212;give my aff: regards to
-                    Forman,<ptr target="n0240"/> &#38; to all friends<ptr
-                        target="loc.07962_n1b"/>&#8212;</p>
+            <p>Yrs of 26th July this mn'g<ptr target="loc.07962_n3"/>—(this is the
+                3d)—Rather blue with me this week—but I keep up &amp; eat my
+                meals—(peaches &amp; tomatoes are at their height &amp; I alternate with
+                them)—Good affectionate long letters f'm Dr J<ptr target="n4102"/> &amp; J W
+                    W<ptr target="n6121"/> Bolton—Horace<ptr target="n4267"/> here
+                daily—am writing nothing for print—letter f'm friend Johnston<ptr target="loc.06060_n5"/> N Y jeweller yesterday—give my aff: regards to
+                    Forman,<ptr target="n0240"/> &amp; to all friends<ptr target="loc.07962_n1b"/>—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

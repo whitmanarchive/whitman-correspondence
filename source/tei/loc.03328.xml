@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03328">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03328">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03328</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03328</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Ernest Rhys</author>
@@ -55,7 +51,7 @@
                     <date cert="high" when="1888-05-30" xml:id="dat1">May 30, 1888</date>
                     <idno type="callno">MSS18630, Box 15, Reel 9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -93,13 +89,13 @@
                 </dateline>
                 <salute>Dear Poet,</salute>
             </opener>
-            <p>I write to wish you all that you wish for yourself&#8212;all that is best, on your
+            <p>I write to wish you all that you wish for yourself—all that is best, on your
                 birthday to-morrow! I meant to have had the lines overleaf complete to send you for
                 the day, but somehow they do not fall into the right order. However you will take
-                the will for the deed, I know; &#38; perhaps in a day or two I may be able to render
+                the will for the deed, I know; &amp; perhaps in a day or two I may be able to render
                 them in a better shape, when I write again to tell you of my doings since I saw you
                 last.</p>
-            <p>A splendid time to-night at Metropolitan Opera House,&#8212;listening to Col. Bob
+            <p>A splendid time to-night at Metropolitan Opera House,—listening to Col. Bob
                     Ingersoll<ptr target="n0839"/>. (Vide morning papers!) More of this anon. I am
                 at Stedman's<ptr target="n1043"/>. He sends birthday greetings.</p>
             <closer>
@@ -110,12 +106,12 @@
             <div1 type="enclosure">
             <pb xml:id="leaf002r" facs="loc.03328.002_large.jpg" type="recto"/>
                     <lg type="poem">
-                        <head rend="center" type="main-authorial">To Walt Whitman&#8212;</head>
+                        <head rend="center" type="main-authorial">To Walt Whitman—</head>
                         <head rend="center" type="sub">On his 69th birthday.</head>
                        <lg type="linegroup">
                         <l>Here health I bring you in one draught of song.</l>
                         <l>Caught in my rhymester's cup from earth's delight</l>
-                        <l>Where English fields are green the whole year long,&#8212;</l>
+                        <l>Where English fields are green the whole year long,—</l>
                         <l>The wine of night</l>
                         <l>That the new-come spring distills most sweet and strong</l>
                         <l>In the viewless air's alembic wrought too fine for sight.</l>
@@ -124,7 +120,7 @@
                         <lg type="linegroup">
                         <l>Now shall all pain be gone for this one day,</l>
                         <l>As, drinking deep of this brimm'd wassail cup,</l>
-                        <l>You feel the years uncoil &#38; their travailing pass away,</l>
+                        <l>You feel the years uncoil &amp; their travailing pass away,</l>
                         <l>Till, ere you drink it up,</l>
                         <l>Again the sun's quick fires you
                          feel pulse brainward through the blood,</l>
@@ -134,12 +130,12 @@
                         <lg type="linegroup">
                         <l>For this the magic wine,</l>
                         <l>That, tasted by the chosen lips, makes Life as long as
-                            thought,&#8212;</l>
+                            thought,—</l>
                         <l>Elixir this long sought,</l>
-                        <l>Filled of the sun &#38; the wind &#38; all green growing things,</l>
-                        <l>The salt of the sea &#38; the sweet of the earth,</l>
-                        <l>And the potencies of death &#38; birth,&#8212;</l>
-                        <l>That tasted once makes men as gods &#38; the common world divine.</l>
+                        <l>Filled of the sun &amp; the wind &amp; all green growing things,</l>
+                        <l>The salt of the sea &amp; the sweet of the earth,</l>
+                        <l>And the potencies of death &amp; birth,—</l>
+                        <l>That tasted once makes men as gods &amp; the common world divine.</l>
                         </lg>
                     </lg>
                    <pb xml:id="leaf002v" facs="loc.03328.003_large.jpg" type="verso"/>

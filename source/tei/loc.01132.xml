@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01132">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01132">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +13,8 @@
                     <persName xml:id="vm">Vince Moran</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -29,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01132</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,14 +45,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01132</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Burroughs</author>
                     <title>John Burroughs to Walt Whitman, 13 January 1879</title>
                     <date cert="high" when="1879-01-13" xml:id="dat1">January 13, 1879</date>
                     <idno type="callno">MSS18630</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -69,7 +67,8 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
-<change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2023-10-11" who="#bb">updated encoding of list at end as postscript</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
             <change when="2014-03-13" who="#ss">annotations added</change>
             <change when="2013-09-23" who="#nhg">checked, corrected</change>
             <change when="2013-02-19" who="#ab">checked</change>
@@ -93,7 +92,7 @@
             <pb xml:id="leaf001v" facs="loc.01132.002_large.jpg" type="verso"/>
                 cold in another attack of neuralgia in my arm &amp; shoulder: it is very severe night &amp; day. Wife<ptr target="n0892"/> &amp; baby are pretty well; the baby is a great help, though he makes lots of work &amp; trouble. Smith &amp; family are well; he is working on the ice. He was pleased with his gloves.</p>
             
-            <p>I have just sent off my MS. to Briton. At first the publisher liked the title "Locusts &amp; Wild Honey"<ptr target="n3016"/> but now they write me they <choice><orig>dont</orig><reg>don't</reg></choice> like it&#8212;think it will mystify people &amp;c.</p>
+            <p>I have just sent off my MS. to Briton. At first the publisher liked the title "Locusts &amp; Wild Honey"<ptr target="n3016"/> but now they write me they <choice><orig>dont</orig><reg>don't</reg></choice> like it—think it will mystify people &amp;c.</p>
 
             <pb xml:id="leaf002r" facs="loc.01132.003_large.jpg" type="recto"/>
             <p>Tell me what you think. I send you a list of the subjects. They have nearly all been in print in the magazines, but I have been overhauling them very severely this fall. If I can devise a better title I shall do so, but I think my readers will understand this one; the great public does not care for my books anyhow.</p>
@@ -107,11 +106,12 @@
             
             <pb xml:id="leaf002v" facs="loc.01132.004_large.jpg" type="verso"/>
             <pb xml:id="leaf003r" facs="loc.01132.005_large.jpg" type="recto"/>
-            <add>
+
+       <postscript>     
             <list>
                 <item>Locusts &amp; Wild Honey<ptr target="loc.01132_n1"/></item>
                 <item><hi rend="underline">Contents</hi> <space extent="10 char"/> Pages</item>
-                <item>1 The pastoral Bees 22 &#188;</item>
+                <item>1 The pastoral Bees 22 ¼</item>
                     <item>2 Strawberries 12</item>
                     <item>3 Sharp Eyes 30</item>
                     <item>4 Is it Going to Rain 30</item>
@@ -121,12 +121,12 @@
                     <item>8 Birds nesting 10</item>
                     <item>9 The Halcyon in Canada 44</item>
                     <item>10 A White day &amp; a Red Fox 12</item>
-                <item></item>
-                <item><space extent="10 char"/>236&#188;</item>
+                <item/>
+                <item><space extent="10 char"/>236¼</item>
                 <item>Blank leaves 18</item>
-                        <item></item>
-                        <item><space extent="10 char"/>254 &#188;</item></list>
-            </add>        
+                        <item/>
+                        <item><space extent="10 char"/>254 ¼</item></list>
+        </postscript>
             <pb xml:id="leaf003v" facs="loc.01132.006_large.jpg" type="verso"/>      
         </body>
     </text>

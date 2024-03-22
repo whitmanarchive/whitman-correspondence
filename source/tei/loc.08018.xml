@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08018"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08018"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08018</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,22 +35,22 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08018</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 27 March 1891</title>
                     <date cert="high" when="1891-03-27" xml:id="dat1">March 27, 1891</date>
-                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4&#8211;5</idno>
-                    <idno type="DOI">Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4–5</idno>
+                    <idno type="DOI">Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
@@ -87,14 +84,14 @@
                     <date when="1891-03-27">Friday P M March 27 '91</date> 
                 </dateline>
             </opener>
-            <p>Getting along still&#8212;Dr Foraker<ptr target="loc.08017_n2"/> here yesterday (comes ab't every 2d day) am taking 
-                medicine pills (I suppose to placate the digestive parts &#38; produce evacuation)&#8212;sort 
-                of (very moderate) bowel movements the last three or four days&#8212;water works 
-                I guess better action&#8212;use the catheter&#8212;feelings dull &#38; heavy enough nearly 
-                all time&#8212;have my daily massage (generally on going to be[d], a little after 9)&#8212;eat 
-                my two meals tolerably yet&#8212;rice, sago, roast apple, stew'd mutton, &#38;c: I 
-                send a full set printing office proofs, the poetic pp:<ptr target="loc.07796_n5"/>&#8212;Enc'd<ptr target="loc.08018_n2"/>  J A Symonds<ptr target="n0615"/> to 
-                J W W.<ptr target="n6121"/> Horace T<ptr target="n4267"/> was just in&#8212;</p> 
+            <p>Getting along still—Dr Foraker<ptr target="loc.08017_n2"/> here yesterday (comes ab't every 2d day) am taking 
+                medicine pills (I suppose to placate the digestive parts &amp; produce evacuation)—sort 
+                of (very moderate) bowel movements the last three or four days—water works 
+                I guess better action—use the catheter—feelings dull &amp; heavy enough nearly 
+                all time—have my daily massage (generally on going to be[d], a little after 9)—eat 
+                my two meals tolerably yet—rice, sago, roast apple, stew'd mutton, &amp;c: I 
+                send a full set printing office proofs, the poetic pp:<ptr target="loc.07796_n5"/>—Enc'd<ptr target="loc.08018_n2"/>  J A Symonds<ptr target="n0615"/> to 
+                J W W.<ptr target="n6121"/> Horace T<ptr target="n4267"/> was just in—</p> 
             <closer>
                 <salute>God bless you</salute>
                 <signed>W W</signed> 
@@ -103,11 +100,4 @@
             <pb xml:id="leaf002v" facs="loc_jm.000100.jpg" type="verso"/>
         </body>
     </text>
-</TEI>  
- 
-
-
-
-
-
-
+</TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08210">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08210">
     <teiHeader>
         <fileDesc>
             <titleStmt> 
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08210</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,21 +36,21 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08210</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 11 December 1891</title>
                     <date cert="high" when="1891-12-11" xml:id="dat1">December 11, 1891</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00102</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                     Library of Congress, Washington, D.C.
                     </orgName> 
                 </bibl> 
@@ -94,10 +91,10 @@
                 </dateline>
             </opener> 
             <p> 
-                We are having wonderful weather here&#8212;as mild as September or April&#8212;I look for 
+                We are having wonderful weather here—as mild as September or April—I look for 
                 a sudden drop of the mercury almost any night. Just at present the dandelions are in blossom
-                by thousands on the asylum lawns. I lecture tomorrow morning and a week from then (if all be well) give the last lecture of the course&#8212;<hi rend="underline">then</hi>
-                I am going in for a rest and a good time. I think I have done more work the last 3 months than ever before in the same time&#8212;and I feel none the worse 
+                by thousands on the asylum lawns. I lecture tomorrow morning and a week from then (if all be well) give the last lecture of the course—<hi rend="underline">then</hi>
+                I am going in for a rest and a good time. I think I have done more work the last 3 months than ever before in the same time—and I feel none the worse 
                 thank the Lord. Right away after Christmas I shall go to work in <choice><sic>ernest</sic><corr>earnest</corr></choice> at my "Cosmic Consciousness" piece<ptr target="loc.08210_n1"/> and am in hopes of making a good thing of it. How
                 are you, dear Walt? Does Longaker<ptr target="loc.04788_n3"/> come to see you often? I fear you have a bad time.</p>
             <closer>
@@ -107,4 +104,3 @@
         </body> 
     </text>
 </TEI>
-

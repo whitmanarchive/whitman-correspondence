@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04937">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04937">
     <teiHeader>  
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04937</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04937</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Unidentified Correspondent</author>
@@ -55,11 +52,11 @@
                     <idno type="callno">MSS18630, Box 28, Reel 17</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00699</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.00229"/>
                     <relatedItem type="document" target="wwa.00106"/>
-                    <note type="project" target="#rel01">On the verso of this leaf Whitman drafted a poem entitled, "Sail out for good, Eid&#243;lon yacht," under 
-                        the heading <hi rend="underline">Old Age Recitatives</hi>. The lines from "Sail out for good, Eid&#243;lon yacht"
+                    <note type="project" target="#rel01">On the verso of this leaf Whitman drafted a poem entitled, "Sail out for good, Eidólon yacht," under 
+                        the heading <hi rend="underline">Old Age Recitatives</hi>. The lines from "Sail out for good, Eidólon yacht"
                    are written on the back of the letter, and the heading "Old Age Recitatives" is written on the 
                     envelope accompanying this letter.</note>
                 </bibl>
@@ -90,7 +87,7 @@
                 <dateline>
                     <name type="place">Camden, N.J.<ptr target="loc.04937_n1"/></name>
                 </dateline>
-                <salute>Dear Sir;&#8212;</salute> 
+                <salute>Dear Sir;—</salute> 
             </opener>  
             <p>I am an earnest collector of the autographs of prominent men; and would be greatly pleased to place your autograph among those of 
                 some grand poets, such as I have among my treasured list. As those of Whittier,<ptr target="n1029"/> Holmes,<ptr target="n3024"/> 

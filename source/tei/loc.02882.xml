@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02882">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Anne Gilchrist to Walt Whitman, 18 May 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Anne Gilchrist</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02882</idno></publicationStmt>            
+            <sourceDesc>
+                <!--<biblStruct>
+                    <monogr>
+                        <editor>Thomas B. Harned</editor>
+                        <title xml:id="ehm">The Letters of Anne Gilchrist and Walt Whitman</title>
+                        <imprint>
+                            <pubPlace>Garden City, New York</pubPlace>
+                            <publisher>Doubleday, Page &amp; Company</publisher>
+                            <date when="1964">1918</date>
+                            <biblScope unit="page">126&#8211;128</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Anne Gilchrist</author>
+                    <title>Anne Gilchrist to Walt Whitman, 18 May 1875</title>
+                    <date cert="high" when="1875-05-18" xml:id="dat1">May 18, 1875</date>
+                    <idno type="callno">MSS45443, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0111</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-10" who="#smb">updated notes</change>
+            <change when="2023-06-26" who="#aja">final corrections for Ken</change>
+            <change when="2023-03-24" who="#jh">checked, corrected</change>
+            <change when="2023-01-19" who="#smb">final check, corrected</change>
+            <change when="2022-11-21" who="#aja">checked, corrected</change>
+            <change when="2021-12-12" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-24">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-06-05" who="#js">proofed</change>
+            <change when="2012-05-18" who="#ej">Checked and Corrected</change>
+            <change when="2012-04-23" who="#al">Checked with microfilm images.</change>
+            <change when="2011-08-07" who="#zk">transcribed and encoded from Harned; annotated AG and family</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02882.001_mflm.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <address>
+                        <addrLine>50 Marquis Rd. Camden Sq.</addrLine>
+                        <addrLine>London</addrLine>
+                    </address>
+                    <date when="1875-05-18" rend="right">May 18, 1875</date>
+                </dateline>
+                <salute>My dearest Friend,</salute>
+            </opener>
+
+            <p>Since last I wrote to you at the beginning of April<ptr target="n5002d"/> (enclosing a little photograph of the 
+                old avenue just by our cottage at Colne) I have been into Wales for a fortnight to see Percy<ptr target="n2000"/>
+                &amp; have looked, for the first time in my life, on the Atlantic—the ocean my mental eyes travel over 
+                &amp; beyond so often, and that your eyes and ears &amp; heart have been fed by, have communed with and
+                interpreted, as in a new tongue to the soul of man. Looking upon that, 
+                watching the tides ebb &amp; flow, that ebb &amp; flow on your shores, sharing, through my
+                
+                <pb xml:id="leaf001v" facs="loc.02882.002_mflm.jpg" type="verso"/> 
+                
+                beloved book, in those greatest moments you have spent alone with it—that was a new joyful experience, 
+                a fresh kind of communing with you.—I went to Wales because I felt anxious about Percy, who is not happy
+                just now. I must not tell friends here about it (except his brother &amp; sisters but I am sure I may tell you,
+                for you will listen with sympathy. He has attached himself very deeply, I think it will prove, to a girl, &amp; 
+                she to him, whose parents welcomed him cordially to their house for a year or two &amp; allowed plenty of
+                intercourse till they became aware, through Percy himself who thought it right 
+                <pb xml:id="leaf002r" facs="loc.02882.003_mflm.jpg" type="recto"/> 
+                to tell the father as soon as he was fully aware of his own feelings &amp; more than suspected 
+                Norah's<ptr target="loc.02882_n6"/> response to them) that there was a strong affection growing up between the two. 
+                Then they peremptorily forbad all intercourse,—not because they have any objection to Percy—quite 
+                the contrary they say; but solely and simply because he is not yet earning money enough to marry on, &amp; 
+                they hold that a man has no right to engage a girl's affections 
+                till he can do so. As if these things could be timed to the moment the money comes in! Percy 
+                <pb xml:id="leaf002v" facs="loc.02882.004_mflm.jpg" type="verso"/> 
+                was in hopes &amp; so was I, that if I went down, I might get sense enough into their heads, 
+                if not kindness &amp; sympathy into their hearts, to see that the sole effect of such arbitrary &amp; 
+                narrow sighted conduct would be to alienate &amp; embitter the young people's feelings toward them, 
+                while it would make them more restless &amp; anxious to marry without adequate means. Whereas if a reasonable
+                amount of intercourse were allowed, it would be a happy time with them, &amp; Norah 
+                being still so young, (18), &amp; Percy,— 
+                <pb xml:id="leaf003r" facs="loc.02882.005_mflm.jpg" type="recto"/> 
+                working away with all his might, doing very well for his age &amp; sure, conscientious thorough capable 
+                &amp; well trained worker that he is (for the L. School of Mais gives a first-rate scientific preparation 
+                for his profession) to be making a modest sufficiency in a year or two. Well, they were very courteous &amp; 
+                indeed friendly to me &amp; I think I have won over the mother but the father remains obdurate, 
+                &amp; Percy feels bitterly the 
+                <pb xml:id="leaf003v" facs="loc.02882.006_mflm.jpg" type="verso"/>
+                separation—all the more trying as they live almost within sight of each other. So 
+                Beatrice<ptr target="n0260"/> &amp; Grace<ptr target="n0261"/> are going to spend their holidays with 
+                him this summer to cheer him up. Meanwhile, dear friend, I am on the whole happier than not about him. 
+                I liked what I saw of Norah &amp; believe he has found a very sweet affectionate girl of quiet, 
+                domestic nature, practical—industrious sensible—thoroughly well to suit him, 
+                &amp; that there is true &amp; deep love between them—also she took to me very much &amp; I 
+                feel will be quite another
+                <pb xml:id="leaf004r" facs="loc.02882.007_mflm.jpg" type="recto"/> 
+                child to me. It is besides no little joy to me to find how Percy has confided in me in this &amp; chooses me 
+                as the friend to whom he tells all—far from being any separation as sometimes happens this love 
+                of his seems to draw us closer together. Only I am very, very anxious for his sake to see him in a better
+                berth—they would let her marry him on £300 a year; now he has only £175. He is quite competent 
+                to manage iron or copper or tin works, only he looks so young, not having yet 
+                any beard or moustache to speak of. That is the end of my long story.</p>
+            <pb xml:id="leaf004v" facs="loc.02882.008_mflm.jpg" type="verso"/>
+            <p>This will reach you on your birthday perhaps my dearest Friend; at any rate it must bear you a greeting of 
+                love and fond remembrance for that dear day such as my heart will send you when it actually comes: 
+                patiently waiting heart, with the fibres of love and boundless trust &amp; joy &amp; hope which bind me to 
+                you bedded deep, grown to be, during these long years, a very part of its immortal substance untouchable
+                by age or varying moods or sickness, or death itself, as I surely believe. I 
+                long more than words can tell to know how it fares with you now in health &amp; spirit. 
+                My children are all well &amp; growing &amp; unfolding to my heart's content. Beatrice &amp; 
+                Herbert<ptr target="n0262"/> deeply influenced by your Poems.</p>
+
+            <closer>
+                <salute>Goodbye my dearest Friend.</salute>
+                <signed rend="right">A. Gilchrist.</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

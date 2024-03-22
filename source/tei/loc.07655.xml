@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07655">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07655">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07655</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07655</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">200</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">200</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -68,7 +64,7 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 14 August 1888</title>
                     <date cert="high" when="1888-08-14" xml:id="dat1">August 14, 1888</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
@@ -103,17 +99,17 @@
                 <salute/>
             </opener>
 
-            <p>Sunny &#38; cool to-day&#8212;nothing new in my case&#8212;bowel action&#8212;my lines on Sheridan's<ptr target="n4282"/>
-                burial were printed in <hi rend="italic">Herald</hi> Aug: 12&#8212;(I am beginning to keep my bits &#38;
-                contributions, poetic spurts &#38;c. again already&#8212;tying in a budget in stiff
-                covers)&#8212;I enclose you page 118&#8212;having now sent, if I think right, <hi rend="italic">all</hi> the proof
-                pages of <hi rend="italic">Nov: Boughs</hi><ptr target="n3999"/> complete from 5 to 140<ptr target="loc.07510_n2"/>&#8212;We wish to have real good paper &#38; press
-                work&#8212;&#38; Horace<ptr target="n4267"/> &#38; I are for binding it very neatly in stitched linen&#8212;making if
-                successful a handsome plain, <hi rend="italic">pocketable</hi> booklet&#8212;want it to be retail 1.25 or better
-                still &#36;1&#8212;who or when the publishers &#38; bro't out still undecided&#8212;not before than
-                October anyhow&#8212;I still have the design of making a 900 page Vol. my <hi rend="italic">complete works</hi><ptr target="n4151"/>,
-                the paper &#38; printing uniform &#38; a few typos corrected&#8212;Will see how the cat jumps&#8212;I
-                am writing sitting here up stairs yet&#8212;am comfortable&#8212;</p>
+            <p>Sunny &amp; cool to-day—nothing new in my case—bowel action—my lines on Sheridan's<ptr target="n4282"/>
+                burial were printed in <hi rend="italic">Herald</hi> Aug: 12—(I am beginning to keep my bits &amp;
+                contributions, poetic spurts &amp;c. again already—tying in a budget in stiff
+                covers)—I enclose you page 118—having now sent, if I think right, <hi rend="italic">all</hi> the proof
+                pages of <hi rend="italic">Nov: Boughs</hi><ptr target="n3999"/> complete from 5 to 140<ptr target="loc.07510_n2"/>—We wish to have real good paper &amp; press
+                work—&amp; Horace<ptr target="n4267"/> &amp; I are for binding it very neatly in stitched linen—making if
+                successful a handsome plain, <hi rend="italic">pocketable</hi> booklet—want it to be retail 1.25 or better
+                still $1—who or when the publishers &amp; bro't out still undecided—not before than
+                October anyhow—I still have the design of making a 900 page Vol. my <hi rend="italic">complete works</hi><ptr target="n4151"/>,
+                the paper &amp; printing uniform &amp; a few typos corrected—Will see how the cat jumps—I
+                am writing sitting here up stairs yet—am comfortable—</p>
 
             <closer>
                 <salute/>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="brn.00007">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="brn.00007">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>brn.00007</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>brn.00007</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Hay</author>
@@ -95,16 +91,14 @@
                 <salute>Dear Walt Whitman;</salute>
             </opener>
             <p> I have received your books and MS. and send, with my hearty thanks, a New York check
-                for &#36;30. It is a little more than your modest charge. You will pardon the
+                for $30. It is a little more than your modest charge. You will pardon the
                 liberty; I am not giving you anything like what the writing is worth to me, but
                 trying to give a just compensation for the trouble of copying, simply. </p>
-            <p> My boy, ten years old, said <pb xml:id="leaf001v" facs="brn.00007.002_large.jpg"
-                    type="verso"/> to me this morning, "Have you got a book with a poem in it called
+            <p> My boy, ten years old, said <pb xml:id="leaf001v" facs="brn.00007.002_large.jpg" type="verso"/> to me this morning, "Have you got a book with a poem in it called
                 'O Captain! My Captain!' I want to learn it to speak in school." I stared at him,
-                bearing you in mind at the moment, as if he were a mind-reader&#8212; and asked him
+                bearing you in mind at the moment, as if he were a mind-reader— and asked him
                 where he had heard of that poem. He said a boy had repeated it last year somewhere. </p>
-            <p> I made him happy by showing him the MS. and <pb xml:id="leaf002r"
-                    facs="brn.00007.003_large.jpg" type="recto"/> promising him it should be his if
+            <p> I made him happy by showing him the MS. and <pb xml:id="leaf002r" facs="brn.00007.003_large.jpg" type="recto"/> promising him it should be his if
                 he deserved it, after I am gone. </p>
             <p> With love and good wishes and hopes that the spring may bring healing on its wings
                 to you </p>
@@ -115,7 +109,7 @@
             <pb xml:id="leaf002v" facs="brn.00007.004_large.jpg" type="verso"/>
             <pb xml:id="leaf003r" facs="brn.00007.005_large.jpg" type="recto"/>
             <note type="editorial" resp="#ww" place="top">from John Hay, acknowledging
-                &#38; paying for MS of "Captain, O Captain!"</note>
+                &amp; paying for MS of "Captain, O Captain!"</note>
             <pb xml:id="leaf003v" facs="brn.00007.006_large.jpg" type="verso"/>
         </body>
     </text>

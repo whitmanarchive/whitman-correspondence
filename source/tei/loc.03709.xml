@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03709">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03709">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03709</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03709</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Franklin B. Sanborn</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1888-12-25" xml:id="dat1">December 25, 1888</date>
                     <idno type="callno">MSS18630, Box 71</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -89,28 +86,24 @@
                     <name type="place"><handShift rend="printed"/>American Social Science
                         Association.<ptr target="loc.03709_n2"/></name>
                     <name type="place"><handShift rend="printed"/>Concord, Mass.,<ptr target="loc.03709_n1"/></name>
-                    <date when="1888-12-25"><handShift rend="manuscript"/>Dec. 25 <handShift
-                            rend="printed"/>188<handShift rend="manuscript"/>8</date>
+                    <date when="1888-12-25"><handShift rend="manuscript"/>Dec. 25 <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
                 <salute>Dear Friend;</salute>
             </opener>
             <p>I received your noble volume of Works,<ptr target="n4195"/> just in time to make it a Christmas present
-                from you,&#8212;and none could have been more highly valued. I hope it may not be
+                from you,—and none could have been more highly valued. I hope it may not be
                 the final Edition but that you may live to add more prose and verse to the monument
                 which will preserve your name in the Future, for which you write, and to which you
-                truly belong. But in the Present and the Past also you have done your work, and<pb
-                    xml:id="leaf001v" facs="loc.03709.002_large.jpg" type="verso"/> thus have gained
+                truly belong. But in the Present and the Past also you have done your work, and<pb xml:id="leaf001v" facs="loc.03709.002_large.jpg" type="verso"/> thus have gained
                 a claim on the Future, which will not be denied you.</p>
-            <p>I cherish two copies of the first edition of your Leaves of Grass&#8212;one given me
+            <p>I cherish two copies of the first edition of your Leaves of Grass—one given me
                 by Emerson<ptr target="n1044"/> in the year it was published, and one left to me by
-                Sophia Thoreau&#8212;her brother Henry's<ptr target="hun.00052_n3"/> copy. I shall
+                Sophia Thoreau—her brother Henry's<ptr target="hun.00052_n3"/> copy. I shall
                 place these and your full-grown volume together, and hand them down to my
                 children</p>
-            <p>I enclose the report of an essay I lately read in New York. The<pb xml:id="leaf002r"
-                    facs="loc.03709.003_large.jpg" type="recto"/> ommitted passage is one about
-                Emerson which did not properly belong there, and was not read by me,&#8212; but the
-                reporter found it among the sheets which I handed him to <hi rend="underline"
-                    >use</hi>, not to print entire.</p>
+            <p>I enclose the report of an essay I lately read in New York. The<pb xml:id="leaf002r" facs="loc.03709.003_large.jpg" type="recto"/> ommitted passage is one about
+                Emerson which did not properly belong there, and was not read by me,— but the
+                reporter found it among the sheets which I handed him to <hi rend="underline">use</hi>, not to print entire.</p>
             <closer>
                 <salute>yours with friendly regard</salute>
                 <signed>F. B. Sanborn</signed>

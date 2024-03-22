@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01350">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01350">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01350</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive June be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01350</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -54,7 +51,7 @@
                     <date cert="medium" when="1886-06-01" xml:id="dat1">June 1, 1886</date>
                     <idno type="callno">Box 8, Reel 5</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -82,23 +79,21 @@
             <opener>
                 <dateline>
                     <name type="place">328 Mickle Street</name>
-                    <name type="place">Camden New Jersey&#8212; U S America<ptr
-                            target="loc.01350_n1"/></name>
-                    <date when="1886-06-01" rend="right"> <hi rend= "underline">June</hi> <hi rend= "underline">1 '86</hi>&#8212;</date>
+                    <name type="place">Camden New Jersey— U S America<ptr target="loc.01350_n1"/></name>
+                    <date when="1886-06-01" rend="right"> <hi rend="underline">June</hi> <hi rend="underline">1 '86</hi>—</date>
                 </dateline>
             </opener>
-            <p>Best <add type="unmarked" place="supralinear">love &#38;</add> greeting to you, &#38;
-                to Mr C<ptr target="n6114"/>&#8212;also to Dr Bucke<ptr target="loc.01350_n2"/>&#8212; <add
-                    type="unmarked" place="supralinear">Best love to your father, mother &#38;
+            <p>Best <add type="unmarked" place="supralinear">love &amp;</add> greeting to you, &amp;
+                to Mr C<ptr target="n6114"/>—also to Dr Bucke<ptr target="loc.01350_n2"/>— <add type="unmarked" place="supralinear">Best love to your father, mother &amp;
                         Logan<ptr target="loc.01350_n3"/></add>
                 <add type="unmarked" place="supralinear">I to-day enter on my 68th year</add> I have
-                rec'd Dr's good letter, with your good note enclosed&#8212;Nothing new with
-                me&#8212;I am ab't as usual&#8212;<add type="unmarked" place="supralinear">fine sun
-                    and air to-day</add> no very warm weather here yet&#8212;Am sitting here by the
-                open window&#8212;great bunches of roses, pinks &#38; mignonette near me</p>
+                rec'd Dr's good letter, with your good note enclosed—Nothing new with
+                me—I am ab't as usual—<add type="unmarked" place="supralinear">fine sun
+                    and air to-day</add> no very warm weather here yet—Am sitting here by the
+                open window—great bunches of roses, pinks &amp; mignonette near me</p>
             <closer>
                 <signed>W W</signed> 
             </closer>
         </body>
     </text>
-</TEI>   
+</TEI>

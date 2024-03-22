@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00649">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00649">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00649</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -48,7 +46,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00649</idno></publicationStmt>
            
             <sourceDesc>
 
@@ -103,7 +101,7 @@
                 of my Leaves of Grass, &amp; has been the binder for me. The sheets are now at his
                 place.</p>
  
-            <p>I hear that he has become involved&#8212;in fact has failed. If so, I regret it
+            <p>I hear that he has become involved—in fact has failed. If so, I regret it
                     much.<ptr target="duk.00649_n4"/>
             </p>
 
@@ -113,4 +111,4 @@
             <pb xml:id="leaf001v" facs="duk.00642.001.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
+</TEI>

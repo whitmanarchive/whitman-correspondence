@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07236">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07236">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07236</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07236</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1888-09-10" xml:id="dat1">September 10, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,27 +84,22 @@
             <pb xml:id="leaf001r" facs="loc_es.00348.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07236_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/>London, Ont.,</name><date when="1888-09-10" rend="right"
-                            ><handShift rend="manuscript"/>10 Sept <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07236_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/>London, Ont.,</name><date when="1888-09-10" rend="right"><handShift rend="manuscript"/>10 Sept <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
             <p>How do the fates serve you these last few lovely days? Well I hope. We are all well
                 here and the meter<ptr target="loc.07230_n2"/> goes on quietly and well as far as we know. Nothing fresh
                 however. The autumn weather here is just perfect, sunshiny, hazy, dreamy. Puts me in
                 mind all the time of Tennyson's<ptr target="n0625"/> "Lotos Eaters."<ptr target="loc.07236_n2"/> How goes the
-                book&#8212;I hope to get a perfect autograph copy both of N.B.<ptr target="n3999"/> &#38; C.W.<ptr target="n4151"/> 
-                from you before a very great while&#8212;I shall look upon them as the crown and summit of all
-                my W.W. Collection&#8212;a collection by the way which gives me a lot <pb
-                    xml:id="leaf001v" facs="loc_es.00349.jpg" type="verso"/> of worry sometimes to
+                book—I hope to get a perfect autograph copy both of N.B.<ptr target="n3999"/> &amp; C.W.<ptr target="n4151"/> 
+                from you before a very great while—I shall look upon them as the crown and summit of all
+                my W.W. Collection—a collection by the way which gives me a lot <pb xml:id="leaf001v" facs="loc_es.00349.jpg" type="verso"/> of worry sometimes to
                 think what I am eventually to do with it. I regard it as so precious that no
-                ordinary disposition of it will do&#8212;I am sorry to hear that Kennedy's<ptr
-                    target="n3039"/> book is not to be out at present&#8212;I fear it is quite a
+                ordinary disposition of it will do—I am sorry to hear that Kennedy's<ptr target="n3039"/> book is not to be out at present—I fear it is quite a
                 disappointment to him.</p>
             <p>I am going to write an elaborate annual report this year mostly on "alcohol" am in
-                the middle of it&#8212;expect to give the alcohol men a "black eye"</p>
+                the middle of it—expect to give the alcohol men a "black eye"</p>
             <closer>
                 <salute>Affectionately yours</salute>
                 <signed rend="right">RM Bucke</signed>

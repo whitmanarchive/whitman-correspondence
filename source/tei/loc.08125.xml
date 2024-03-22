@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08125">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08125">
     <teiHeader> 
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08125</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,13 +36,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt> 
+            <idno>loc.08125</idno></publicationStmt> 
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author> 
@@ -53,7 +50,7 @@
                     <date cert="high" when="1891-03-08" xml:id="dat1">March 8, 1891</date> 
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00100</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
@@ -89,12 +86,12 @@
                 </dateline>
             </opener>
             <p>I have your post card of 5<hi rend="underline">th</hi><ptr target="loc.08125_n2"/></p>
-            <p>Much pleased to hear you say that you are "no worse&#8212;maybe a shade better." 
+            <p>Much pleased to hear you say that you are "no worse—maybe a shade better." 
                 The political racket is over for the moment but the government is weakened by the elections<ptr target="loc.08114_n3"/> and it is doubtful if it can survive
-                for any length of time&#8212;we shall probably have now a continuous racket and fight for months perhaps years&#8212;this will
+                for any length of time—we shall probably have now a continuous racket and fight for months perhaps years—this will
                 do the country no good as it will make the tariff, and consequently trade, uncertain.</p>
-            <p>I have Arnold's<ptr target="loc.08125_n3"/> "Light of the World"&#8212;am reading it&#8212;it seems a noble poem&#8212;as such poems go.&#8212;</p>
-            <p>Dark rainy weather&#8212;has been pretty cold for two weeks&#8212;more moderate now
+            <p>I have Arnold's<ptr target="loc.08125_n3"/> "Light of the World"—am reading it—it seems a noble poem—as such poems go.—</p>
+            <p>Dark rainy weather—has been pretty cold for two weeks—more moderate now
             </p>   
             <closer>
                 <salute>Love to you</salute>
@@ -105,34 +102,3 @@
         </body>
     </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

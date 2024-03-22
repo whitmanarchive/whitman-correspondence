@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03998">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03998">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03998</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03998</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -55,7 +51,7 @@
                     <date cert="high" when="1883-01-30" xml:id="dat1">January 30, 1883</date>
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,49 +80,46 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1883-01-30" rend="right">Jan: 30 '83 <lb/>Evening&#8212;</date>
+                    <date when="1883-01-30" rend="right">Jan: 30 '83 <lb/>Evening—</date>
                 </dateline>
                 <salute>Dear friend</salute>
             </opener>
-            <p>Your letter came &#38; I ought to have written to you before, but one thing &#38;
+            <p>Your letter came &amp; I ought to have written to you before, but one thing &amp;
                 another prevented. I was up to Germantown, to a friend's, where I have been a good
-                deal lately,&#8212;Spent the Christmas &#38; New Year holidays there<ptr
-                    target="loc.03998_n1"/>&#8212;they came for me, so I went &#38; was glad&#8212;a
-                big house full of people, old &#38; young folks, &#38; plenty of fun &#38; every
-                thing good&#8212;lots of oysters&#8212;&#38; <choice>
+                deal lately,—Spent the Christmas &amp; New Year holidays there<ptr target="loc.03998_n1"/>—they came for me, so I went &amp; was glad—a
+                big house full of people, old &amp; young folks, &amp; plenty of fun &amp; every
+                thing good—lots of oysters—&amp; <choice>
                     <abbr>cook'd</abbr>
                     <expan>cooked</expan>
-                </choice> so nice&#8212;I never knew how much there is in the cooking&#8212;Otherways I have been here in <choice>
+                </choice> so nice—I never knew how much there is in the cooking—Otherways I have been here in <choice>
                     <abbr>C.</abbr>
                     <expan>Camden</expan>
-                </choice> all the time, have done a little work writing, but nothing much,&#8212;My
-                brother from St Louis has been on here with us for a while&#8212;&#38; I have callers
-                &#38; visitors quite often&#8212;</p>
-            <p>Ruth I got your letter&#8212;it was very acceptable&#8212;I will answer it
+                </choice> all the time, have done a little work writing, but nothing much,—My
+                brother from St Louis has been on here with us for a while—&amp; I have callers
+                &amp; visitors quite often—</p>
+            <p>Ruth I got your letter—it was very acceptable—I will answer it
                     before long<ptr target="loc.03998_n5"/></p>
             <pb xml:id="leaf001v" facs="loc_vm.00208_large.jpg" type="verso"/>
-            <p>How are you all? I hope this will find you all well&#8212;little George<ptr
-                    target="loc.03998_n2"/> is all right again I trust by this time&#8212;I met two
-                jolly &#38; good-looking Jersey boys this afternoon over in Market Street,
-                <choice><abbr>Phila.</abbr><expan>Philadelphia</expan></choice>&#8212;it was Elmer and Ed Stafford<ptr target="loc.03998_n3"/>&#8212;we had a
-                little talk&#8212;did me good to meet them&#8212;I <choice><sic>dont</sic><corr>don't</corr></choice> think Jersey has two nicer
-                looking boys&#8212;I was on my way to West Philadelphia to see about a Mr Anders, an
+            <p>How are you all? I hope this will find you all well—little George<ptr target="loc.03998_n2"/> is all right again I trust by this time—I met two
+                jolly &amp; good-looking Jersey boys this afternoon over in Market Street,
+                <choice><abbr>Phila.</abbr><expan>Philadelphia</expan></choice>—it was Elmer and Ed Stafford<ptr target="loc.03998_n3"/>—we had a
+                little talk—did me good to meet them—I <choice><sic>dont</sic><corr>don't</corr></choice> think Jersey has two nicer
+                looking boys—I was on my way to West Philadelphia to see about a Mr Anders, an
                 elderly man sick with consumption. <hi rend="underline">Young</hi> Mr Anders and I had
-                got acquainted in Canada two years ago, &#38; quite attached to each other&#8212;he
-                was a soldier there&#8212;I got a letter from him from Montreal day before
-                yesterday, asking me to go to a certain number in West <choice><abbr>Phila:</abbr><expan>Philadelphia</expan></choice> &#38; see his father,
-                who had come on here some time ago quite sick&#8212;Young A. wanted me to see &#38;
-                write to him how the father was particular&#8212;So I went up to-day&#8212;when I
-                got there I found the elder A. was <hi rend="underline">dead &#38; buried</hi>&#8212;so
-                I have just had to write the sad intelligence to my Canada friend<ptr
-                    target="loc.03998_n4"/>&#8212;love to you &#38; all</p>
+                got acquainted in Canada two years ago, &amp; quite attached to each other—he
+                was a soldier there—I got a letter from him from Montreal day before
+                yesterday, asking me to go to a certain number in West <choice><abbr>Phila:</abbr><expan>Philadelphia</expan></choice> &amp; see his father,
+                who had come on here some time ago quite sick—Young A. wanted me to see &amp;
+                write to him how the father was particular—So I went up to-day—when I
+                got there I found the elder A. was <hi rend="underline">dead &amp; buried</hi>—so
+                I have just had to write the sad intelligence to my Canada friend<ptr target="loc.03998_n4"/>—love to you &amp; all</p>
             <closer>
                 <signed rend="right">W W</signed>
             </closer>
             <postscript>
                 <p>I have written a few
                 lines to Harry</p>
-                <p>I want to come down soon&#8212;Is the coast clear?</p>
+                <p>I want to come down soon—Is the coast clear?</p>
             </postscript>
         </body>
     </text>

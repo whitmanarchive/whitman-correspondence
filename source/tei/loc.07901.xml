@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07901">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07901">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07901</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07901</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +52,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notAfter="1977" notBefore="1961">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">180</biblScope>
+                            <date notAfter="1977" notBefore="1961">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">180</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -90,15 +87,15 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden N J&#8212;U S America<ptr target="loc.07901_n1"/></name>
+                    <name type="place">Camden N J—U S America<ptr target="loc.07901_n1"/></name>
                     <date when="1891-03-24">March 24 '91</date>
                 </dateline>
             </opener> 
-            <p>Still no worse &#38; even suspicion of a shade easier, &#38; the long &#38; horrible
-                drain spell being broken&#8212;(that's the consummation most devoutly to be
-                wish'd)&#8212;have just eaten a small farina pudding&#8212;Y'rs &#38;
+            <p>Still no worse &amp; even suspicion of a shade easier, &amp; the long &amp; horrible
+                drain spell being broken—(that's the consummation most devoutly to be
+                wish'd)—have just eaten a small farina pudding—Y'rs &amp;
                     W[allace]'s<ptr target="n6121"/> letters<ptr target="loc.07901_n2"/> came this
-                mn'g&#8212;best thanks&#8212;the small Good-Bye<ptr target="loc.07894_n2"/> proofs are moving slowly&#8212;</p>
+                mn'g—best thanks—the small Good-Bye<ptr target="loc.07894_n2"/> proofs are moving slowly—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

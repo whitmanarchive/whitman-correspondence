@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00077">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00077">
     <teiHeader>
         <fileDesc>  
             <titleStmt>
@@ -13,7 +10,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>upa.00077</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,14 +42,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00077</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Herbert Gilchrist, 12 February 1884</title>
                     <date cert="low" when="1884-02-12" xml:id="dat1">February 12, 1884</date>
-                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp;
                         Manuscript Library, University of Pennsylvania</orgName>
                 </bibl>
             </sourceDesc>
@@ -85,14 +82,13 @@
                 </dateline>
                 <salute>Dear Herb</salute>
             </opener>
-            <p>Thanks for your affectionate letter&#8212;(thank your dear mother also for
-                hers&#8212;a most welcome one)<ptr target="upa.00077_n1"/>&#8212;Nothing special or
-                new to write about&#8212;health &#38; every thing go on with me ab't as
-                usual&#8212;I enclose <hi rend="underline">a piece of cloth</hi><ptr
-                    target="upa.00077_n2"/>&#8212;cannot find a <hi rend="underline">coat</hi> that I think would serve you,
-                (which is the garment I suppose you most want)&#8212;Dr Bucke<ptr target="n0119"/>
-                has told me of a picture he got from you, he prizes immensely&#8212;I havn't seen
-                it&#8212;Write whenever you can, dear boy, &#38; I will to you&#8212;</p>
+            <p>Thanks for your affectionate letter—(thank your dear mother also for
+                hers—a most welcome one)<ptr target="upa.00077_n1"/>—Nothing special or
+                new to write about—health &amp; every thing go on with me ab't as
+                usual—I enclose <hi rend="underline">a piece of cloth</hi><ptr target="upa.00077_n2"/>—cannot find a <hi rend="underline">coat</hi> that I think would serve you,
+                (which is the garment I suppose you most want)—Dr Bucke<ptr target="n0119"/>
+                has told me of a picture he got from you, he prizes immensely—I havn't seen
+                it—Write whenever you can, dear boy, &amp; I will to you—</p>
             <closer>
             <signed>Walt Whitman</signed>
             </closer>

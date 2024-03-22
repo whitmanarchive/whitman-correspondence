@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03122">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03122">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03122</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03122</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to William Sloane Kennedy, 3 February 1891</title>
                     <date cert="high" when="1891-02-03" xml:id="dat1">February 3, 1891</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00257</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -85,22 +82,20 @@
                     <date when="1891-02-03">Feb: 3 PM '91</date>
                 </dateline>
             </opener>
-            <p>The worst item is Dr Bucke's<ptr target="n0119"/> bad sickness&#8212;see enclosed
-                    letter<ptr target="loc.03122_n1"/>&#8212;have not heard any thing since&#8212;am
-                uneasy&#8212;</p>
-            <p>&#8212;The proof<ptr target="loc.03122_n2"/> comes &#38; will be carefully &#38;
-                minutely corrected&#8212;some slips &#38; papers will be sent you&#8212;also of what
-                is printed in March forthcoming <hi rend="underline">Lippincotts</hi><ptr
-                    target="loc.07891_n3"/></p>
-            <p>&#8212;the <hi rend="underline">trial</hi> mulcted B 500<ptr
-                    target="loc.03121_n5"/>
-                <hi rend="underline">but the government has assumed the whole thing</hi>&#8212;B
+            <p>The worst item is Dr Bucke's<ptr target="n0119"/> bad sickness—see enclosed
+                    letter<ptr target="loc.03122_n1"/>—have not heard any thing since—am
+                uneasy—</p>
+            <p>—The proof<ptr target="loc.03122_n2"/> comes &amp; will be carefully &amp;
+                minutely corrected—some slips &amp; papers will be sent you—also of what
+                is printed in March forthcoming <hi rend="underline">Lippincotts</hi><ptr target="loc.07891_n3"/></p>
+            <p>—the <hi rend="underline">trial</hi> mulcted B 500<ptr target="loc.03121_n5"/>
+                <hi rend="underline">but the government has assumed the whole thing</hi>—B
                 seems to be as wholly, morally, everyway scatheless as I see it</p>
-               <p>&#8212;did I tell you Arthur Stedman<ptr target="loc.03122_n3"/> (dear good invalid, consumptive yn'g
-                fellow) has been to see me?&#8212;EC<ptr target="n1043"/> is making g't fixings for
-                    the<ptr target="loc.03122_n4"/> Johns Hopkins lectures<ptr target="loc.03122_n5"/>&#8212;I am having bad
-                times&#8212;head, gastric &#38; bladder <hi rend="underline">bad</hi>&#8212;wet
-                &#38; dark to-day&#8212;nights middling fair</p> 
+               <p>—did I tell you Arthur Stedman<ptr target="loc.03122_n3"/> (dear good invalid, consumptive yn'g
+                fellow) has been to see me?—EC<ptr target="n1043"/> is making g't fixings for
+                    the<ptr target="loc.03122_n4"/> Johns Hopkins lectures<ptr target="loc.03122_n5"/>—I am having bad
+                times—head, gastric &amp; bladder <hi rend="underline">bad</hi>—wet
+                &amp; dark to-day—nights middling fair</p> 
             <closer>
                 <signed>Walt Whitman</signed> 
             </closer>

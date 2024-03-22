@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03914">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03914">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03914</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03914</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -56,7 +52,7 @@
                     <date cert="medium" when="1883-12-01" xml:id="dat1">December 1, 1883</date>
                     <idno type="callno">MSS18630, Box 16, Reel 10</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -94,11 +90,11 @@
                     <date when="1883-12-01" rend="right">Dec: 1st noon</date>
                 </dateline>
             </opener>   
-            <p>I suppose Harry has written to you<ptr target="loc.03914_n2"/>&#8212;still I will
-                send you this, for good measure&#8212;What H speaks of the "unearthly noises"
-                &#38;c. he will get used to in two or three days&#8212;it is like living near a
-                railroad&#8212;</p>
-                <p>&#8212;I am well as usual&#8212;</p>
+            <p>I suppose Harry has written to you<ptr target="loc.03914_n2"/>—still I will
+                send you this, for good measure—What H speaks of the "unearthly noises"
+                &amp;c. he will get used to in two or three days—it is like living near a
+                railroad—</p>
+                <p>—I am well as usual—</p>
             <closer>
                 <signed rend="right">WW</signed>
             </closer></div1>
@@ -110,7 +106,7 @@
                     <date when="1883-11-28"><choice>
                         <abbr>Nov</abbr>
                         <expan>November</expan>
-                    </choice> 28&#8211;<choice><abbr>83</abbr>
+                    </choice> 28–<choice><abbr>83</abbr>
                         <expan>1883</expan>
                     </choice></date>
                 </dateline>

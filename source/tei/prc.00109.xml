@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="prc.00109">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00109">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>prc.00109</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +41,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>            
+            <idno>prc.00109</idno></publicationStmt>            
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +51,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">6</biblScope>
-                            <biblScope type="page">26</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="page">26</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -93,19 +89,19 @@
                     <name type="place">Camden New Jersey</name>
                     <date when="1882-02-09">Feb: 9 '82</date>
                 </dateline>
-                <salute>My dear Madam<ptr target="prc.00109_n1"/>&#8212;</salute>
+                <salute>My dear Madam<ptr target="prc.00109_n1"/>—</salute>
             </opener>
             <p> 
-                Yours of 9th <choice><abbr>rec'd</abbr><expan>received</expan></choice>&#8212;I should be pleased to send you the book&#8212;the
-                price is $2&#8212;My Photo &amp; auto[graph] are sold by the <hi rend="italic">Camden Children's Home</hi>,<ptr target="prc.00109_n2"/> 
-                Haddon av: for their benefit, price $1&#8212;Or if you desire I can supply you with one for them&#8212;
+                Yours of 9th <choice><abbr>rec'd</abbr><expan>received</expan></choice>—I should be pleased to send you the book—the
+                price is $2—My Photo &amp; auto[graph] are sold by the <hi rend="italic">Camden Children's Home</hi>,<ptr target="prc.00109_n2"/> 
+                Haddon av: for their benefit, price $1—Or if you desire I can supply you with one for them—
             </p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript>
                 <p> 
-                    If you send to me, please send p o order&#8212;
+                    If you send to me, please send p o order—
                 </p>
             </postscript>
         </body>

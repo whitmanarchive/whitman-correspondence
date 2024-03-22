@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03941">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03941">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +12,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>    
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03941</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03941</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>M. H. Spielmann</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1887-11-30" xml:id="dat1">November 30, 1887</date>
                     <idno type="callno">MSS18630, Box 16</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,15 +80,14 @@
     <text type="letter">
         <body>
             <pb xml:id="leaf001r" facs="loc_jc.00329_large.jpg" type="recto"/>
-            <note type="editorial" resp="#ht" place="top">see notes Aug 26 &#38; 31 '88</note>
+            <note type="editorial" resp="#ht" place="top">see notes Aug 26 &amp; 31 '88</note>
             <opener>
                 <dateline>
                     <name type="place"><handShift rend="printed"/>MAGAZINE OF ART</name>
                     <!--letterhead includes image-->
                     <name type="place">La Belle Sauvage,</name>
                     <name type="place">Ludgate Hill.</name>
-                    <name type="place">London, E.C. <handShift rend="manuscript"/>30 Nov: <handShift
-                            rend="printed"/>188<handShift rend="manuscript"/>7<lb/></name>
+                    <name type="place">London, E.C. <handShift rend="manuscript"/>30 Nov: <handShift rend="printed"/>188<handShift rend="manuscript"/>7<lb/></name>
                <address>
                         <addrLine>To</addrLine>
                         <addrLine>Walt Whitman Esq:</addrLine>
@@ -107,14 +102,12 @@
             <p>Having added the Editorship of this Magazine to my duties on the Pall Mall Gazette my
                 thoughts at once turned to you, in the hope that you would let me have a poem for
                 publication in this very widely circulated serial.</p>
-            <p>Will you have the Kindness to <pb xml:id="leaf001v" facs="loc_jc.00332_large.jpg"
-                    type="verso"/>
+            <p>Will you have the Kindness to <pb xml:id="leaf001v" facs="loc_jc.00332_large.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc_jc.00330_large.jpg" type="recto"/> inform me if you
-                have such a poem by you&#8212;not too long&#8212;&#38; unpublished, of
-                course&#8212;&#38;, preferably, one which would lend itself to illustration? And
-                also on what terms you would let me have such a poem? And, if you <hi
-                    rend="underline">haven't</hi> this, if you could write one?</p>
-            <p>Awaiting the favor of your reply, &#38; in the hope that your health is in a
+                have such a poem by you—not too long—&amp; unpublished, of
+                course—&amp;, preferably, one which would lend itself to illustration? And
+                also on what terms you would let me have such a poem? And, if you <hi rend="underline">haven't</hi> this, if you could write one?</p>
+            <p>Awaiting the favor of your reply, &amp; in the hope that your health is in a
                 satisfactory condition.<ptr target="loc.03941_n1"/></p>
 
             <closer><salute>

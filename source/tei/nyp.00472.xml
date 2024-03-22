@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00472">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00472">
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00472</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00472</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">321</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">321</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -97,23 +93,21 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden New Jersey<ptr target="nyp.00472_n1"
-                        /></name>
+                    <name type="place">Camden New Jersey<ptr target="nyp.00472_n1"/></name>
                     <date when="1882-12-27"><choice>
                         <orig>Dec:</orig>
                         <reg>December</reg>
                     </choice> 27 '82</date>
                 </dateline>
             </opener>
-            <p>Thanks for the <hi rend="italic">Moli&#232;re</hi>&#8212;the <choice>
-                <abbr>Vols:</abbr><expan>Volumes</expan></choice>&#8212;(vivacious
-                &#38; jaunty&#8212;&#38; entirely new to me &#38; not too deep)&#8212;will surely
-                lighten many hours in a way most opportune &#38; desirable<ptr target="nyp.00472_n2"
-                />&#8212;</p>
-            <p>I am well as usual&#8212;have been out in Germantown on a few days' visit&#8212;have
-                taken long rides &#38; explorations along the Wissahickon, Indian Rock, &#38; all
-                about that region<ptr target="nyp.00472_n3"/>&#8212;<hi rend="italic">Happy New
-                    Year</hi>&#8212;</p>
+            <p>Thanks for the <hi rend="italic">Molière</hi>—the <choice>
+                <abbr>Vols:</abbr><expan>Volumes</expan></choice>—(vivacious
+                &amp; jaunty—&amp; entirely new to me &amp; not too deep)—will surely
+                lighten many hours in a way most opportune &amp; desirable<ptr target="nyp.00472_n2"/>—</p>
+            <p>I am well as usual—have been out in Germantown on a few days' visit—have
+                taken long rides &amp; explorations along the Wissahickon, Indian Rock, &amp; all
+                about that region<ptr target="nyp.00472_n3"/>—<hi rend="italic">Happy New
+                    Year</hi>—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

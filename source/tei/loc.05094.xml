@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05094">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05094">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05094</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05094</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,7 +55,7 @@
                             <pubPlace>Bloomington</pubPlace>
                             <publisher>Indiana University Press</publisher>
                             <date when="1951">1951</date>
-                            <biblScope type="page">43&#8211;47</biblScope>
+                            <biblScope unit="page">43–47</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -101,35 +97,34 @@
                 <dateline>
                     <date when="1881-11-28">Nov. 28 [1881]</date>
                     <name type="place">29 Lange Strasse</name>
-                    <name type="place">Dresden<ptr
-                            target="loc.05094_n1"/></name>
+                    <name type="place">Dresden<ptr target="loc.05094_n1"/></name>
                 </dateline>
                 <salute>My dear Whitman</salute>
             </opener>
-            <p>Yesterday I received all your dispatches&#8212;viz, a postcard&#8212;a letter&#8212;a
-                circular (with scraps)&#8212;a copy of <choice><abbr>L of G</abbr><expan>Leaves of Grass</expan></choice>&#8212;and a set of
+            <p>Yesterday I received all your dispatches—viz, a postcard—a letter—a
+                circular (with scraps)—a copy of <choice><abbr>L of G</abbr><expan>Leaves of Grass</expan></choice>—and a set of
                 proofsheets of ditto. Shall find them very useful. For all of which things, many
-                thanks&#8212;I am delighted to see your new <choice>
+                thanks—I am delighted to see your new <choice>
                     <abbr>edn</abbr>
                     <reg>edition</reg>
                 </choice> in such grand form, and spent all yesterday reading it.<ptr target="loc.05094_n2"/> Sometimes I missed
                 regretfully a familiar rhythm and was sorry to see 'Respondez' cut up and scattered
-                about the book&#8212;most of it summarily suppressed. It was, of course, rather a
+                about the book—most of it summarily suppressed. It was, of course, rather a
                 gritty poem to read straight through. Still I am very glad that I have it complete
                 in my old <choice>
                     <abbr>edn</abbr><reg>edition</reg></choice>.<ptr target="loc.05094_n3"/> Nearly always I have come to think your many alterations, improvements.
                 This volume, with its new poems, etc. offered a field of "pleasant exploration" and
                 renewed my sense of wonder and delight at your works. It is a splendid thing to have
-                given them final form in this way&#8212;resumed them all in this noble volume. I
+                given them final form in this way—resumed them all in this noble volume. I
                 like many of your new poems immensely, especially perhaps 'Spirit that form'd this
-                scene'&#8212;a Riddle Song, and the Dalliance of the Eagles. The Riddle Song puzzled
-                me&#8212;I could only think of (for the 'two words')<ptr target="loc.05094_n4"/> the end of a sonnet of W. B.
+                scene'—a Riddle Song, and the Dalliance of the Eagles. The Riddle Song puzzled
+                me—I could only think of (for the 'two words')<ptr target="loc.05094_n4"/> the end of a sonnet of W. B.
                 Scott</p>
 
             <p><q who="Scott"><lg type="linegroup"><l>For we know nought of that dark sun, the True,</l>
             <l>Whose latent heats create our spiritual year.<ptr target="loc.05094_n5"/></l></lg></q>
 
-            Yet I don't feel as if this could be it.&#8212;</p>
+            Yet I don't feel as if this could be it.—</p>
             <p>I am very glad you like the idea of a German translation. I have had a reported
                 admirer of yours, as collaborateur in my eye for some time, but I find now he is
                 only a rather pedantic old savan, and that his knowledge of and admiration for you
@@ -145,7 +140,7 @@
                 the <choice>
                     <abbr>transl.</abbr>
                     <reg>translation</reg>
-                </choice> would be complete&#8212;a reproduction of your new <choice>
+                </choice> would be complete—a reproduction of your new <choice>
                     <abbr>vol.</abbr>
                     <reg>volume</reg>
                 </choice> just as it is.</p>
@@ -166,10 +161,10 @@
                     was Crucified</hi>. I take this (contrary to the general opinion as far as I
                 know) <hi rend="italic">not</hi> to imply that the little band of teachers are equal
                 among themselves (there seems little significance in saying this) but rather that
-                they are the equals of all other men&#8212;able to put themselves on common footing with
-                all they meet, and establish free, healthy relations with them&#8212;as the
-                Answerer&#8212;"the mechanics take him for a mechanic"&#8212;etc. etc. In this sense
-                I should be inclined to translate the word.&#8212;Indeed though, as far as the
+                they are the equals of all other men—able to put themselves on common footing with
+                all they meet, and establish free, healthy relations with them—as the
+                Answerer—"the mechanics take him for a mechanic"—etc. etc. In this sense
+                I should be inclined to translate the word.—Indeed though, as far as the
                 translation goes, the word could be literally rendered in German and have both
                 meanings open, as in English, and this of course would be the right thing to do.</p>
             <p>Are you sure about the double text of English and German? It seems to me as if it
@@ -179,9 +174,9 @@
                     <corr>Ojibwe</corr>
                 </choice> etc., all arranged in parallel columns? And would people buy largely a
                 book of poems of which half was in an unknown tongue? I see the advantages of the
-                plan&#8212;but, at present at least, it appears to me that the disadvantages
+                plan—but, at present at least, it appears to me that the disadvantages
                 preponderate, especially as your works could be rendered, I think, with full
-                accuracy in German&#8212;really reproducing both form and matter.&#8212;I believe
+                accuracy in German—really reproducing both form and matter.—I believe
                 the work would strike root <hi rend="italic">deeply</hi> in Germany and might be of
                 vast importance.</p>
             <p>Did you see that the Fortschritt<ptr target="loc.05094_n8"/> ( = more or less Girondist) party have had great

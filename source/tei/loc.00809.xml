@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00809">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00809">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -26,7 +24,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00809</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +36,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00809</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -48,9 +46,9 @@
                   <imprint>
                      <pubPlace>New York</pubPlace>
                      <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">195</biblScope>
+                     <date notBefore="1961" notAfter="1977">1961–1977</date>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="page">195</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -58,7 +56,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 5 February 1864</title>
                <date when="1864-02-05">February 5, 1864</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -92,15 +90,15 @@
                </dateline>
                <salute>Dearest Mother</salute>
             </opener>
-            <p>I am going down in front, in the midst of the Army, to-morrow morning, to be gone for about a week<ptr target="loc.00809_n1"/>&#8212;so I thought I would write you a few lines now, to let you know&#8212;</p>
-            <p>Mother, I suppose you got my letter written last Tuesday&#8212;I have not got any from home now for a number of days&#8212;I am well &amp; hearty&#8212;the young man Lewis Brown is able to be up a little on crutches&#8212;there are quite a number of sick young men, I have taken in hand, from the late arrivals, that I am sorry to leave&#8212;sick &amp; downhearted &amp; lonesome, they think so much of a friend, &amp; I get so attached to them too&#8212;but I want to go down in camp once more very much&#8212;&amp; I think I shall be back in a week&#8212;I shall spend most of my time among the sick &amp; wounded in the Camp hospitals&#8212;if I had means I should stop with them, poor boys, or go down among them periodically, dispensing what I had, as long as the war lasts, down among the worst of it&#8212;(although what are collected here in hospital, seem to me about as severe and needy cases as any after all)&#8212;</p>
-            <p>Mother, I want to hear about you all,<ptr target="loc.00809_n2"/> &amp; about George &amp; how he is spending his time home&#8212;Mother, I do hope you are well &amp; in good spirits &amp; Jeff &amp; Mat &amp; all, &amp; dear little California &amp; Hattie&#8212;I send them all my love&#8212;Mother, I may write to you from down in front&#8212;so good bye, dear mother, for present&#8212;</p>
+            <p>I am going down in front, in the midst of the Army, to-morrow morning, to be gone for about a week<ptr target="loc.00809_n1"/>—so I thought I would write you a few lines now, to let you know—</p>
+            <p>Mother, I suppose you got my letter written last Tuesday—I have not got any from home now for a number of days—I am well &amp; hearty—the young man Lewis Brown is able to be up a little on crutches—there are quite a number of sick young men, I have taken in hand, from the late arrivals, that I am sorry to leave—sick &amp; downhearted &amp; lonesome, they think so much of a friend, &amp; I get so attached to them too—but I want to go down in camp once more very much—&amp; I think I shall be back in a week—I shall spend most of my time among the sick &amp; wounded in the Camp hospitals—if I had means I should stop with them, poor boys, or go down among them periodically, dispensing what I had, as long as the war lasts, down among the worst of it—(although what are collected here in hospital, seem to me about as severe and needy cases as any after all)—</p>
+            <p>Mother, I want to hear about you all,<ptr target="loc.00809_n2"/> &amp; about George &amp; how he is spending his time home—Mother, I do hope you are well &amp; in good spirits &amp; Jeff &amp; Mat &amp; all, &amp; dear little California &amp; Hattie—I send them all my love—Mother, I may write to you from down in front—so good bye, dear mother, for present—</p>
             <closer rend="right">
                <signed>Walt</signed>
             </closer>
          
          <postscript>
-            <p>I hope I shall find several letters waiting for me when I get back here&#8212;</p>
+            <p>I hope I shall find several letters waiting for me when I get back here—</p>
          </postscript>
       </body>
    </text>

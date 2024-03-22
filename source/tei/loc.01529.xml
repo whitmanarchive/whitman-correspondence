@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01529">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01529">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>loc.01529</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +39,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>loc.01529</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -59,9 +57,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">2</biblScope>
-              <biblScope type="page">108&#8211;109</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="page">108–109</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -72,7 +70,7 @@
           <date cert="high" when="1870-09-02" xml:id="dat1">September 2, 1870</date>
           <idno type="callno">MSS18630<!--  Box 9 --></idno>
           <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
-            1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+            1839–1919, Library of Congress, Washington, D.C.</orgName>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -106,35 +104,33 @@
         <salute>Dear Pete,</salute>
       </opener>
 
-      <p>I received your welcome letter of Aug. 27th&#8212;and also 31st, enclosing Ned <choice>
+      <p>I received your welcome letter of Aug. 27th—and also 31st, enclosing Ned <choice>
           <orig>Stewarts</orig>
           <reg>Stewart's</reg>
-        </choice><ptr target="loc.01529_n2"/>&#8212;When you write tell Ned I am here in Brooklyn,
-        loafing around&#8212;&amp; that I send my love. Pete, there is nothing particular to write
-        about this time&#8212;pretty much the same story&#8212;every day out on the bay awhile, or
-        going down to Coney Island beach&#8212;and every day from two to four or five hours in the
-        printing office&#8212;I still keep well &amp; hearty, &amp; the weather is fine&#8212;warm
-        through the middle of the day, &amp; cool mornings &amp; nights&#8212;</p>
+        </choice><ptr target="loc.01529_n2"/>—When you write tell Ned I am here in Brooklyn,
+        loafing around—&amp; that I send my love. Pete, there is nothing particular to write
+        about this time—pretty much the same story—every day out on the bay awhile, or
+        going down to Coney Island beach—and every day from two to four or five hours in the
+        printing office—I still keep well &amp; hearty, &amp; the weather is fine—warm
+        through the middle of the day, &amp; cool mornings &amp; nights—</p>
 
-      <p>I fall in with quite a good many of my acquaintances of years ago<ptr target="loc.01529_n3"
-        />&#8212;the young fellows, (now not so young)&#8212;that I knew intimately here before the
-        war&#8212;some are dead&#8212;&amp; some have got married&#8212;&amp; some have grown
-        rich&#8212;one of the latter I was up with yesterday &amp; last night&#8212;he has a big
-        house on Fifth avenue&#8212;I was there to dinner (dinner at 8 p. m.!)&#8212;every thing in
+      <p>I fall in with quite a good many of my acquaintances of years ago<ptr target="loc.01529_n3"/>—the young fellows, (now not so young)—that I knew intimately here before the
+        war—some are dead—&amp; some have got married—&amp; some have grown
+        rich—one of the latter I was up with yesterday &amp; last night—he has a big
+        house on Fifth avenue—I was there to dinner (dinner at 8 p. m.!)—every thing in
         the loudest sort of style, with wines, silver, nigger waiters, &amp;c. &amp;c. &amp;c. But
-        my friend is just one of the manliest, jovialest best sort of fellows&#8212;no
-        airs&#8212;&amp; just the one to suit you &amp; me&#8212;no women in the house&#8212;he is
-        single&#8212;he wants me to make my home there&#8212;I shall not do that, but shall go there
-        very frequently&#8212;the dinners &amp; good wines are attractive&#8212;then there is a fine
+        my friend is just one of the manliest, jovialest best sort of fellows—no
+        airs—&amp; just the one to suit you &amp; me—no women in the house—he is
+        single—he wants me to make my home there—I shall not do that, but shall go there
+        very frequently—the dinners &amp; good wines are attractive—then there is a fine
         library. </p>
 
-      <p>Well, Pete, I am on the second month of my furlough&#8212;to think it is almost six weeks
-        since we parted there that night&#8212;My dear loving boy, how much I want to see
-        you&#8212;it seems a long while&#8212;I have rec'd a good letter from Mr. O'Connor,<ptr
-          target="loc.01529_n4"/> &amp; also one from John Rowland<ptr target="loc.01529_n5"/> who
-        is in the office for me. Nothing new in office&#8212;Well, Pete, about half our separation
-        is over&#8212;the next six weeks will soon pass away&#8212;indeed it may be only four, as
-        John Rowland told me he might wish to go away&#8212;</p>
+      <p>Well, Pete, I am on the second month of my furlough—to think it is almost six weeks
+        since we parted there that night—My dear loving boy, how much I want to see
+        you—it seems a long while—I have rec'd a good letter from Mr. O'Connor,<ptr target="loc.01529_n4"/> &amp; also one from John Rowland<ptr target="loc.01529_n5"/> who
+        is in the office for me. Nothing new in office—Well, Pete, about half our separation
+        is over—the next six weeks will soon pass away—indeed it may be only four, as
+        John Rowland told me he might wish to go away—</p>
 
       <p>Good bye for the present, my loving son, &amp; give my respects to any of the boys that ask
         about me. </p>

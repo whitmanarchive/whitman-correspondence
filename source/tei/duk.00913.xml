@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00913">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00913">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00913</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00913</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +55,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">289</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">289</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -69,7 +66,7 @@
                     <title>Walt Whitman to William Sloane Kennedy, 14 February 1889</title>
                     <date cert="high" when="1889-02-14" xml:id="dat1">February 14, 1889</date>
                     <orgName xml:id="duk">Trent Collection of Whitmaniana, David M. Rubenstein Rare
-                        Book &#38; Manuscript Library, Duke University</orgName>
+                        Book &amp; Manuscript Library, Duke University</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -100,18 +97,17 @@
                     <date when="1889-02-14">Evn'g Feb: 14 '89<ptr target="duk.00913_n1"/></date>
                 </dateline>
             </opener>
-            <p>Y'rs came to-day, welcome&#8212;I send "Magazine Poetry" only half thinking it may be
-                a sort of curiosity to you&#8212;Mail it to Dr B[ucke]<ptr target="n0119"/> as he
-                owns it &#38; wants it back&#8212;O'C[onnor]<ptr target="n2002"/> is still room-fast
-                &#38; badly off&#8212;I am fearful of the worst luck (of wh' a long miserable
-                helpless lingering condition is perhaps worst)&#8212;Sunny &#38; cold here&#8212;I
-                am ab't as usual&#8212;a cold in the head&#8212;</p>
+            <p>Y'rs came to-day, welcome—I send "Magazine Poetry" only half thinking it may be
+                a sort of curiosity to you—Mail it to Dr B[ucke]<ptr target="n0119"/> as he
+                owns it &amp; wants it back—O'C[onnor]<ptr target="n2002"/> is still room-fast
+                &amp; badly off—I am fearful of the worst luck (of wh' a long miserable
+                helpless lingering condition is perhaps worst)—Sunny &amp; cold here—I
+                am ab't as usual—a cold in the head—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>
             <postscript>
-                <p>I've sent a Sarrazin<ptr target="n6167"/> to Baxter<ptr target="n6000"/> &#38; to Harland.<ptr
-                        target="loc.07528_n2"/></p> 
+                <p>I've sent a Sarrazin<ptr target="n6167"/> to Baxter<ptr target="n6000"/> &amp; to Harland.<ptr target="loc.07528_n2"/></p> 
             </postscript>
         </body>
     </text> 

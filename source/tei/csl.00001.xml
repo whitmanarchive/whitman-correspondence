@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="csl.00001">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="csl.00001">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,7 +26,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>csl.00001</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,7 +44,7 @@
                   the graphic images in this archive has been granted by the owners of the originals
                   for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>csl.00001</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -57,8 +55,8 @@
                      <pubPlace>Iowa City</pubPlace>
                      <publisher>University of Iowa Press</publisher>
                      <date>2004</date>
-                     <biblScope type="volume">7</biblScope>
-                     <biblScope type="page">29</biblScope>
+                     <biblScope unit="volume">7</biblScope>
+                     <biblScope unit="page">29</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -98,13 +96,12 @@
                <date when="1868-03-04" rend="right">March 4, 1868</date></dateline>
             <salute rend="left">My dear Mr. Baldwin:</salute>
          </opener>
-         <p>I write in reference to a friend of mine, Dr. Charles H. Bowen,<ptr
-               target="csl.00001_n1"/> of this city, who will soon call upon you personally. He
+         <p>I write in reference to a friend of mine, Dr. Charles H. Bowen,<ptr target="csl.00001_n1"/> of this city, who will soon call upon you personally. He
             seeks the appointment of Surgeon to the Metropolitan Police here. I have known Dr. Bowen for several years. He was a volunteer
             U.S. Army surgeon during the war, &amp; was considered one of the best. I can fully join
             in the same testimony, as he treated, as physician or surgeon, many a case under my own
             eye, for days &amp; even months. He is a good Union man, of full professional
-            experience, gentlemanly manners, temperate, in the prime of life&#8212;&amp; I have more
+            experience, gentlemanly manners, temperate, in the prime of life—&amp; I have more
             than once, when watching his treatment, called him an intuitive physician.</p>
          <p>I most strongly recommend him as the right man, &amp; one without deficiency in any of
             the qualifications needed for the place of Police Surgeon.</p>

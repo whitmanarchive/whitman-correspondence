@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="man.00046">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="man.00046">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +14,7 @@
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>man.00046</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>man.00046</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -97,22 +93,19 @@
                     <sic>vengence</sic>
                     <corr>vengeance</corr>
                 </choice> against him and his <choice><sic>ancesters</sic><corr>ancestors</corr></choice>, though I guess he has forgot it all now, anyhow give him my kind
-                regards&#8212;the weather has been long warm about two weeks. You know that we had
-                commenced a new <hi rend="underline">depot</hi> when you left, well now it is beginning to <unclear
-                    reason="illegible" cert="low" resp="#nhg">lume</unclear> up one span of the 400
-                feet by 180&#8212;is about finished and looks huge, if you stay away all summer you <choice>
+                regards—the weather has been long warm about two weeks. You know that we had
+                commenced a new <hi rend="underline">depot</hi> when you left, well now it is beginning to <unclear reason="illegible" cert="low" resp="#nhg">lume</unclear> up one span of the 400
+                feet by 180—is about finished and looks huge, if you stay away all summer you <choice>
                     <sic>wont</sic>
                     <corr>won't</corr>
-                </choice> know the place when you come back <pb xml:id="leaf001v"
-                    facs="man_ej.00121_large.jpg" type="verso"/>you will remember that we had a new
+                </choice> know the place when you come back <pb xml:id="leaf001v" facs="man_ej.00121_large.jpg" type="verso"/>you will remember that we had a new
                 Rail Road under way running to Atlantic City, it is finished and such crowds that
                 went down yesterday you never saw before we never had such a rush on the Ferry
                 before 4 men in the ticket office could not sell the tickets fast enough, it
                 requires 3 collectors to take up the Ferry tickets with hard work that is <choice>
                     <abbr>Phil<hi rend="superscript">a</hi></abbr>
                     <expan>Philadelphia</expan>
-                </choice> side you know. I saw <unclear reason="illegible" cert="low" resp="#ej"
-                    >old</unclear>
+                </choice> side you know. I saw <unclear reason="illegible" cert="low" resp="#ej">old</unclear>
                 <choice>
                     <abbr>Col</abbr>
                     <expan>Colonel</expan>
@@ -129,8 +122,7 @@
                     <expan>General</expan>
                 </choice> Hancock may be, though I suppose you don't vote for him I don't think
                 (Garfield) is not strong. I hear them say that your friend J W Forney<ptr target="yal.00237_n5"/>
-                has come out for Hancock with the <hi rend="underline"
-                    >press</hi> I don't know&#8212;we have received several papers from you, one
+                has come out for Hancock with the <hi rend="underline">press</hi> I don't know—we have received several papers from you, one
                 about your<choice>
                     <sic>arival</sic>
                     <corr>arrival</corr>

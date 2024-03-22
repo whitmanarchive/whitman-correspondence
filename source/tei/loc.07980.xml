@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07980"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07980"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07980</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07980</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -55,9 +52,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">5</biblScope>
-                            <biblScope type="page">220</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">220</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct> 
@@ -67,7 +64,7 @@
                     <date cert="high" when="1891-06-27" xml:id="dat1">June 27, 1891</date>
                     <idno type="callno">MMC-1482; MSS90019</idno>
                     <orgName xml:id="loc">Henry S. Saunders Collection of Walt Whitman Papers,
-                        1887&#8211;1923, Library of Congress, Washington, D.C.</orgName>
+                        1887–1923, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -94,25 +91,22 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place">Camden N J&#8212;U S America<ptr target="loc.07980_n1"/></name>
+                    <name type="place">Camden N J—U S America<ptr target="loc.07980_n1"/></name>
                     <date when="1891-06-27">June 27 '91</date>
                 </dateline> 
             </opener> 
-            <p>Perfect day sunny right temperature&#8212;am getting along fairly&#8212;Suppose you
-                have rec'd the printed slips (proof) the birth day business,<ptr target="loc.08159_n3b"/> f'm next August <hi
-                    rend="italic">Lippincott</hi><ptr target="loc.07874_n5"/>&#8212;(slips sent you
-                yesterday)&#8212;forward you now a budget pictures curios&#8212;where duplicates,
-                let J W W[allace]<ptr target="n6121"/> have one each duplicate&#8212;the photo
-                mark'd in &#42; corner back was the favorite of O'Connor<ptr target="n2002"/> &#38;
+            <p>Perfect day sunny right temperature—am getting along fairly—Suppose you
+                have rec'd the printed slips (proof) the birth day business,<ptr target="loc.08159_n3b"/> f'm next August <hi rend="italic">Lippincott</hi><ptr target="loc.07874_n5"/>—(slips sent you
+                yesterday)—forward you now a budget pictures curios—where duplicates,
+                let J W W[allace]<ptr target="n6121"/> have one each duplicate—the photo
+                mark'd in * corner back was the favorite of O'Connor<ptr target="n2002"/> &amp;
                 his wife<ptr target="n4137"/> at Washington, as a remarkably good likeness war
-                times, (where the pict: was taken ab't '64)&#8212;the one in hat (curl'd) was the
-                    favorite<ptr target="loc.07980_n4"/> of dear Mrs: Gilchrist<ptr target="n0259"
-                />&#8212;have sent proof slips of birth day acc't to Symonds<ptr target="n0615"/>
-                &#38; to Dr B[ucke]<ptr target="n0119"/>&#8212;(the best bits are S's, Conway's<ptr
-                    target="n0170"/> &#38; Dr B's)&#8212;Warry<ptr target="loc.07319_n6"/> is over
-                to Phila: to-day&#8212;H T[raubel]<ptr target="n4267"/> with friends &#38; photo:
+                times, (where the pict: was taken ab't '64)—the one in hat (curl'd) was the
+                    favorite<ptr target="loc.07980_n4"/> of dear Mrs: Gilchrist<ptr target="n0259"/>—have sent proof slips of birth day acc't to Symonds<ptr target="n0615"/>
+                &amp; to Dr B[ucke]<ptr target="n0119"/>—(the best bits are S's, Conway's<ptr target="n0170"/> &amp; Dr B's)—Warry<ptr target="loc.07319_n6"/> is over
+                to Phila: to-day—H T[raubel]<ptr target="n4267"/> with friends &amp; photo:
                 cam[era] are going out to the tomb, the cemetery.<ptr target="loc.07329_n5b"/> (I
-                believe tomb finish'd)&#8212;soon as I get good pic't. will send you.</p>
+                believe tomb finish'd)—soon as I get good pic't. will send you.</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>  

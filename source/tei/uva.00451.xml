@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00451">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00451">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00451</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00451</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">351</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">351</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -94,8 +90,7 @@
         <body>
             <opener>
                 <dateline>
-                    <name type="place" rend="right">431 Stevens Street Camden New Jersey<ptr
-                            target="uva.00451_n1"/></name>
+                    <name type="place" rend="right">431 Stevens Street Camden New Jersey<ptr target="uva.00451_n1"/></name>
                     <date when="1883-09-11" rend="right">Sept: 11 '83</date>
                 </dateline>
             </opener>
@@ -103,16 +98,14 @@
                     <abbr>rec'd</abbr>
                     <expan>received</expan>
                 </choice> from you quite a while ago (from Johnstown, <choice>
-                    <abbr>Pa:</abbr><expan>Pennsylvania</expan></choice>) you mention some German translations of my poems by Dr ?<ptr
-                    target="uva.00451_n2"/> at Berlin (since dead)&#8212;Would you please give me
-                the <hi rend="italic">Dr's name exactly</hi>&#8212;&#38; some particulars <choice>
+                    <abbr>Pa:</abbr><expan>Pennsylvania</expan></choice>) you mention some German translations of my poems by Dr ?<ptr target="uva.00451_n2"/> at Berlin (since dead)—Would you please give me
+                the <hi rend="italic">Dr's name exactly</hi>—&amp; some particulars <choice>
                     <abbr>ab't</abbr>
                     <expan>about</expan>
                 </choice> the translations? Did you get Dr. Bucke's volume, which was sent you
                 June 21, last? I have received the translations into German, (slips, papers,
-                &#38;c) you have so kindly sent me from time to time<ptr target="uva.00451_n3"
-                />&#8212;have not (otherwise) heard from you for some four months&#8212;I continue
-                (though a half paralytic) well as usual&#8212;</p>
+                &amp;c) you have so kindly sent me from time to time<ptr target="uva.00451_n3"/>—have not (otherwise) heard from you for some four months—I continue
+                (though a half paralytic) well as usual—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00488"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Charles B. Campbell to Walt Whitman, 23 June 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Charles B. Campbell</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>   
+                <respStmt> 
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bjo">Brandon James O'Neil</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>  
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588–4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
+                        advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>yal.00488</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles B. Campbell</author>
+                    <title>Charles B. Campbell to Walt Whitman, 23 June 1890</title>
+                    <date cert="high" when="1890-06-23" xml:id="dat1">June 23, 1890</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+                    <relatedItem type="text" xml:id="rel01" target="yal.00318"/>
+                    <relatedItem type="document" target="wwa.00610"/>
+                    <note type="project" target="#rel01">Whitman used the back of this letter to draft part of his essay "An Old Man's Rejoinder."
+                    </note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>  
+                <person role="sender">
+                    <persName key="Campbell, Charles B." ref="yal.00488_n1">Charles B. Campbell</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-06-22" who="#aja">final corrections</change>
+            <change when="2022-03-14" who="#smb">final check, corrected</change>
+            <change when="2021-10-16" who="#me">checked, corrected</change>
+            <change when="2020-12-08" who="#bjo">checked and corrected</change>
+            <change when="2020-11-12" who="#smb">transcribed and encoded</change>
+        </revisionDesc>
+    </teiHeader> 
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="yal.00318.013_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place"><handShift rend="printed"/>OFFICE OF
+                    <lb/>Chas. B. Campbell, :
+                    <lb/>Successor to C. G. Campbell &amp; Son,
+                    <lb/>Etchings,<lb/>Photographs,<lb/>Engravings,
+                    <lb/>AND CHOICE PAINTINGS
+                    <lb/>Artistic Framing, Fine Stationery
+                    <lb/>TELEPHONE 867.
+                    <lb/>845 BROAD STREET,
+                    <lb/>Newark, N. J.,<ptr target="yal.00488_n2"/></name>
+                    <date when="1890-06-23"><handShift rend="manuscript"/>June 23<hi rend="underline">d</hi><handShift rend="printed"/> 189<handShift rend="manuscript"/>0</date>
+                </dateline>
+                <salute>Mr. Walt Whitman</salute>
+                <salute>Camden, N. J</salute>  
+                <salute>Dear Sir</salute>
+            </opener>
+            <p>Will you please let me know who is to publish your new book, or if it is sold by private subscription only.</p>                    
+            <p>I notice in the paper that you are writing a small annex to it.<ptr target="loc.04811_n6"/> I should like to secure a copy of it.</p>
+            <closer> 
+                <salute>Yours Very Truly</salute>
+                <signed>Chas. B. Campbell.</signed>
+            </closer>    
+            <pb xml:id="leaf001v" facs="yal.00318.012_large.jpg" type="verso"/>
+        </body>
+    </text> 
+</TEI>

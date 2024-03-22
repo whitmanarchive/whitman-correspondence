@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01219">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Marie Case to Walt Whitman, [1863–1885]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Marie Case</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588–4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 202 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01219</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Marie Case</author>
+                    <title>Marie Case to Walt Whitman, [1863–1885]</title>
+                    <date cert="low" notBefore="1863-01-01" notAfter="1885-12-31" xml:id="dat1">[1863–1885]</date>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00115</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Case, Marie" ref="n5000">Marie Case</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-23" who="#smb">updated notes</change>
+            <change when="2022-07-06" who="#pw">checked, corrected</change>
+            <change when="2021-09-29" who="#em">2nd check, corrected</change>
+            <change when="2021-07-30" who="#aja">checked, corrected</change>
+            <change when="2021-07-20" who="#cn">encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01219.003_large.jpg" type="recto"/>
+            <opener>
+                <salute>
+                    Marie <unclear reason="illegible" resp="#cn" cert="low">F.</unclear> Case to <hi rend="underline">Walt Whitman.</hi>
+                </salute>
+            </opener>
+            <p>Nothing is strange to you you are beyond the wondering age of human growth;
+                therefore I have no fear or shame in saying I wish to see you—not from
+                curiosity—the gods forbid—but from a high yearning to take all things of
+                beauty to myself. I receive this impulse to write you from reading your poems at
+                this house of a friends (Last house in Kent Co. on the right <pb xml:id="leaf001v" facs="loc.01219.004_large.jpg" type="verso"/>
+                <pb xml:id="leaf002r" facs="loc.01219.005_large.jpg" type="recto"/> as you approach
+                DeKalb.) and from learning that I am so near to you materially.</p>
+            <p>I write to ask you to come this eve. This little friend I am with today knows
+                you—stops to look at you in the street &amp; curses her friends generally when
+                they say anything derogatory of you. She will be happy she says to see you here this
+                eve. All the folks in the country—You will see only this girl—possibly a
+                good boy of 20 &amp; myself</p>
+            <p>Come or I suffer the penalty of the thought that I've done a foolish thing—</p>
+            <closer>
+                <signed>M. F. C.</signed>
+            </closer>
+            <pb xml:id="leaf002v" facs="loc.01219.006_large.jpg" type="verso"/>
+        </body>
+        <pb xml:id="leaf003r" facs="loc.01219.001_large.jpg" type="recto"/>
+        <pb xml:id="leaf003v" facs="loc.01219.002_large.jpg" type="verso"/>
+        <note type="editorial" place="top" resp="#ww">Letter from M. Case</note>
+    </text>
+</TEI>

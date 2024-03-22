@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03111">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03111">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03111</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03111</idno></publicationStmt>
             <sourceDesc> 
                 <bibl> 
                     <author>Walt Whitman</author>
@@ -53,7 +50,7 @@
                     <date cert="high" when="1890-04-25" xml:id="dat1">April 25, 1890</date>
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                     <relatedItem type="text" xml:id="rel01" target="loc.01206"/>
                     <relatedItem type="document" target="wwa.00615"/>
                     <note type="project" target="#rel01">Whitman wrote this draft of a letter to David McKay on the back of an envelope in which he had received a letter
@@ -86,8 +83,8 @@
                     <date when="1890-04-25">sent to D McKay April 25 '90<ptr target="loc.03111_n1"/></date>
                 </dateline>
             </opener>
-            <p>Yes will sell the London proposer 100 sets of the entire autograph sheets, plates &#38; back labels for complete book and throw 
-                in one of my bound copies, (making 101 altogether)&#8212;for $320&#8212;I to receive that sum in full&#8212;you to make a 
+            <p>Yes will sell the London proposer 100 sets of the entire autograph sheets, plates &amp; back labels for complete book and throw 
+                in one of my bound copies, (making 101 altogether)—for $320—I to receive that sum in full—you to make a 
                 fair bonus addition for your trouble.</p>
             <pb xml:id="leaf001v" facs="loc.03111.002.jpg" type="verso"/>           
         </body>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.02462"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02462"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,6 +13,7 @@
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="aa">Alex Ashland</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -28,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.02462</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.02462</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Dr. John Johnston</author>
@@ -55,13 +53,13 @@
                     <idno type="callno">MSS18630, Box 11, Reel 7</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00244</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown</author>
                     <title>Unknown</title>
                     <date when="1891-01-30">January 30, 1891</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -76,6 +74,7 @@
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2021-01-12" who="#smb">final check, added DOI, added notes</change>
             <change when="2019-07-10" who="#aa">second check, corrected</change>
             <change when="2019-06-28" who="#if">First check, corrected</change>
@@ -91,45 +90,39 @@
                         <name type="place">54 Manchester Road</name>
                         <name type="place">Bolton</name>
                         <name type="place">Lancashire, England</name>
-                        <date notBefore="1891-02-06">Feb 6<hi rend="underline">th</hi> 1891<ptr
-                                target="loc.02462_n1"/></date>
+                        <date notBefore="1891-02-06">Feb 6<hi rend="underline">th</hi> 1891<ptr target="loc.02462_n1"/></date>
                     </dateline>
                     <salute>My Dear Old Friend</salute>
                 </opener>
                 <p>Just a few lines to acknowledge receipt by last mail of the copy of
                         Ingersoll's<ptr target="n0839"/> Address<ptr target="loc.02462_n2"/> which
-                    you so kindly sent &#38; to thank you very cordially for it.</p>
-                <p>I have read it through with intense interest and pleasure &#38; I regard it as a
-                    valuable contribution to "Whitman Literature"&#8212;from Ingersollism the best
-                    that has yet been given&#8212;significant both from what he has said &#38; left
-                    unsaid for he has left untouched <pb xml:id="leaf002v" facs="loc.02462.004.jpg"
-                        type="verso"/> what I regard as the main &#38; vital element in <hi
-                        rend="underline">L of G</hi> vis the spirituality which permeates &#38;
-                    animates every page, every line &#38; is the inspiring element in your teaching.
+                    you so kindly sent &amp; to thank you very cordially for it.</p>
+                <p>I have read it through with intense interest and pleasure &amp; I regard it as a
+                    valuable contribution to "Whitman Literature"—from Ingersollism the best
+                    that has yet been given—significant both from what he has said &amp; left
+                    unsaid for he has left untouched <pb xml:id="leaf002v" facs="loc.02462.004.jpg" type="verso"/> what I regard as the main &amp; vital element in <hi rend="underline">L of G</hi> vis the spirituality which permeates &amp;
+                    animates every page, every line &amp; is the inspiring element in your teaching.
                     But as we could not expect <hi rend="underline">him</hi> to recognise this we
                     must be thankful for what we have got, as, apart from this, the address is
-                    really a wonderful bit of work &#38; will, I think, rank as one of his most
+                    really a wonderful bit of work &amp; will, I think, rank as one of his most
                     brilliant oratorical achievements. I shall prize the pamphlet very highly for
                     its own sake, but more so because <hi rend="underline">you</hi> have sent it to
-                    me &#38; I again thank you for your great kindness in doing so. <pb
-                        xml:id="leaf003r" facs="loc.02462.005.jpg" type="recto"/> It is the
+                    me &amp; I again thank you for your great kindness in doing so. <pb xml:id="leaf003r" facs="loc.02462.005.jpg" type="recto"/> It is the
                     intention of "the boys"<ptr target="loc.07991_n2b"/> to have the whole of it read aloud
                     at the next meeting of the "College" (Feb 9<hi rend="underline">th</hi>).</p>
                 <p>During the last week I have been a little uneasy about you, wondering at times
-                    how you were, &#38; I accepted the pamphlet as a message that all was well with
-                    you. But today I have been grieved to read the following par: in the London <hi
-                        rend="underline">Daily Graphic</hi>:&#8212;</p>
+                    how you were, &amp; I accepted the pamphlet as a message that all was well with
+                    you. But today I have been grieved to read the following par: in the London <hi rend="underline">Daily Graphic</hi>:—</p>
                 <p>A post card<ptr target="n5005"/> received from Walt Whitman says "Am having an extra bad spell these
                     days. May blow over may not"</p>
-                <p>This is indeed bad news for me &#38; for all your friends <pb xml:id="leaf003v"
-                        facs="loc.02462.006.jpg" type="verso"/> here &#38; I sincerely hope that by
-                    this time the "extra bad spell" is blowing over &#38; that you are through the
+                <p>This is indeed bad news for me &amp; for all your friends <pb xml:id="leaf003v" facs="loc.02462.006.jpg" type="verso"/> here &amp; I sincerely hope that by
+                    this time the "extra bad spell" is blowing over &amp; that you are through the
                     worst of it. We shall be most anxious until we receive some more definite news
-                    &#38; I have asked Warry<ptr target="loc.07319_n6"/> to send me word in case you
+                    &amp; I have asked Warry<ptr target="loc.07319_n6"/> to send me word in case you
                     are unable to do so.</p> 
-                <p>There has been a great change in the weather here&#8212;all the frost &#38; snow
-                    have gone &#38; we have lately had a continuous spell of "open" weather.</p>
-                <p>With kindest regards to all the members of your household &#38; with best love to
+                <p>There has been a great change in the weather here—all the frost &amp; snow
+                    have gone &amp; we have lately had a continuous spell of "open" weather.</p>
+                <p>With kindest regards to all the members of your household &amp; with best love to
                     yourself</p>
                 <p>I remain</p>
                 <closer><salute>Yours affectionately</salute>
@@ -143,13 +136,12 @@
             </div1>
             <pb xml:id="leaf004r" facs="loc.02462.007.jpg" type="recto"/>
             <div1 type="enclosure">
-                <add rend="pasteon" source="#ref1" xml:id="add1">
+                <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                     <q who="#ref1" type="printed">
                         <floatingText rend="flippy">
                             <body>
-                                <p><note type="authorial" place="top"><handShift rend="manuscript"/>London | <hi rend="underline"
-                                    >Literary</hi> | <hi rend="underline">World</hi> | Jan 30/91<ptr target="loc.02462_n3"/></note>
-                                <handShift rend="printed"/>&#8212;Lord Tennyson is said to be
+                                <p><note type="authorial" place="top"><handShift rend="manuscript"/>London | <hi rend="underline">Literary</hi> | <hi rend="underline">World</hi> | Jan 30/91<ptr target="loc.02462_n3"/></note>
+                                <handShift rend="printed"/>—Lord Tennyson is said to be
                                     contemplating a voyage in the Mediterranean, if he can find a
                                     vessel in which he can be protected from his fellow-passengers.
                                     The dread of being mobbed is said to interfere even with the
@@ -160,7 +152,7 @@
                             </body>
                         </floatingText>
                     </q> 
-                </add>
+                <anchor xml:id="a01" />
             </div1> 
             <pb xml:id="leaf001r" facs="loc.02462.001.jpg" type="recto"/>
             <pb xml:id="leaf001v" facs="loc.02462.002.jpg" type="verso"/>

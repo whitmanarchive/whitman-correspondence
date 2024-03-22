@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00461">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00461">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00461</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00461</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">297&#8211;298</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">297–298</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -99,27 +95,27 @@
                 <dateline>
                     <name type="place"><choice>
                         <orig>Phila:</orig><reg>Philadelphia</reg></choice><ptr target="nyp.00461_n1"/></name>
-                    <date when="1882-07-19">July 19&#8212;</date>
+                    <date when="1882-07-19">July 19—</date>
                 </dateline>
             </opener>
-            <p>Rees Welsh &#38; <choice>
+            <p>Rees Welsh &amp; <choice>
                 <orig>Co:'s</orig>
                 <reg>Company's</reg>
             </choice> new <choice>
                 <orig>ed'n</orig>
                 <reg>ed'n</reg>
-            </choice> L of G. <hi rend="italic">looks well</hi>&#8212;is a
+            </choice> L of G. <hi rend="italic">looks well</hi>—is a
                 fac-simile of the Boston <choice>
-                    <orig>ed'n</orig><reg>edition</reg></choice>&#8212;announced ready by 17th (being pretty cautious
-                printed only 1000) began to come in from the bindery late that day&#8212;Early this
+                    <orig>ed'n</orig><reg>edition</reg></choice>—announced ready by 17th (being pretty cautious
+                printed only 1000) began to come in from the bindery late that day—Early this
                 forenoon <hi rend="italic">they were all <choice>
                     <orig>clean'd</orig>
                     <reg>cleaned</reg>
-                </choice> out&#8212;hadn't a copy
-                    left</hi><ptr target="nyp.00461_n2"/>&#8212;are hurrying up their second
-                batch&#8212;I have commenced type-setting on <hi rend="italic">Specimen
-                    Days</hi><ptr target="nyp.00461_n3"/>&#8212;Keep well&#8212;awful hot
-                weather&#8212;</p>
+                </choice> out—hadn't a copy
+                    left</hi><ptr target="nyp.00461_n2"/>—are hurrying up their second
+                batch—I have commenced type-setting on <hi rend="italic">Specimen
+                    Days</hi><ptr target="nyp.00461_n3"/>—Keep well—awful hot
+                weather—</p>
             <closer>
                 <signed>W W</signed>
             </closer>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="owu.00015">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="owu.00015">
     <teiHeader>
         <fileDesc>  
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>owu.00015</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>owu.00015</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -83,13 +80,13 @@
                     <date when="1890-04-22">PM April 22 '90</date>
                 </dateline>
             </opener>
-            <p>Sick yet with grip (the tail of the comet I call it)&#8212;the confections<ptr target="owu.00015_n3"/> rec'd,
-                thanks&#8212;Sat'day's <hi rend="underline">Trans</hi>. rec'd&#8212;yes send me the
-                6 if conv.<ptr target="owu.00015_n2"/>&#8212;Horace T.<ptr target="n4267"/> is faithful&#8212;Dr Bucke<ptr target="n0119"/> is worn &#38; half sick &#38; is coming
-                down here to seaside&#8212;many visitors (mostly denied)&#8212;lots of applications,
-                comp'ments flatteries, &#38;c. &#38;c.</p> 
+            <p>Sick yet with grip (the tail of the comet I call it)—the confections<ptr target="owu.00015_n3"/> rec'd,
+                thanks—Sat'day's <hi rend="underline">Trans</hi>. rec'd—yes send me the
+                6 if conv.<ptr target="owu.00015_n2"/>—Horace T.<ptr target="n4267"/> is faithful—Dr Bucke<ptr target="n0119"/> is worn &amp; half sick &amp; is coming
+                down here to seaside—many visitors (mostly denied)—lots of applications,
+                comp'ments flatteries, &amp;c. &amp;c.</p> 
             <closer>
-                <salute>God bless you &#38; Mrs: K<ptr target="loc.03121_n6"/>&#8212;</salute>
+                <salute>God bless you &amp; Mrs: K<ptr target="loc.03121_n6"/>—</salute>
                 <signed>Walt Whitman</signed>
             </closer> 
             <pb xml:id="leaf001v" facs="owu.00015.002.jpg" type="verso"/>

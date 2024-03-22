@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08017"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08017"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08017</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,22 +35,22 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08017</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 23 March 1891</title>
                     <date cert="high" when="1891-03-23" xml:id="dat1">March 23, 1891</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of 
-                        Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.
+                        Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.
                     </orgName>
                 </bibl>
             </sourceDesc>
@@ -86,8 +83,8 @@
                     <date when="1891-03-23">March 23 evn'g '91</date>
                 </dateline>
             </opener>
-            <p>Getting along tolerably&#8212;no worse&#8212;relish'd my supper, a dish of string beans 
-                &#38; bit of cold meat&#8212;Dr Forkaner<ptr target="loc.08017_n2"/> came yesterday&#8212;I like him&#8212;have you 
+            <p>Getting along tolerably—no worse—relish'd my supper, a dish of string beans 
+                &amp; bit of cold meat—Dr Forkaner<ptr target="loc.08017_n2"/> came yesterday—I like him—have you 
                 had a good report of Ingersoll's<ptr target="n0839"/> lecture last night in N Y?<ptr target="loc.08017_n3"/>
             </p>  
             <closer>
@@ -97,8 +94,3 @@
         </body>
     </text>
 </TEI>
-
- 
-
-
-

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03318">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03318">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03318</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03318</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Ernest Rhys</author>
@@ -56,7 +52,7 @@
                     <date cert="high" when="1887-05-24" xml:id="dat1">May 24, 1887</date>
                     <idno type="callno">Box 15, Reel 9</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,16 +80,14 @@
         <body>
             <pb xml:id="leaf001r" facs="loc.03318.001_large.jpg" type="recto"/>
             <opener>
-                <handShift rend="printed"/><title>THE "CAMELOT <handShift rend="manuscript"
-                    />Series."</title>
+                <handShift rend="printed"/><title>THE "CAMELOT <handShift rend="manuscript"/>Series."</title>
                 <dateline>
                     <handShift rend="printed"/><name type="place">WALTER SCOTT, PUBLISHER,<lb/>24
                             <hi rend="smallcaps">Warwick Lane,London.</hi></name>
                     <name type="place"><hi rend="italic">From</hi><lb/>ERNEST RHYS.</name>
                     <handShift rend="manuscript"/><name type="place">Sq Cheyne
                         Walk,<lb/>Chelsea.</name>
-                    <date when="1887-05-24"><handShift rend="manuscript"/>24th May <handShift
-                            rend="printed"/>188<handShift rend="manuscript"/>7<lb/></date>
+                    <date when="1887-05-24"><handShift rend="manuscript"/>24th May <handShift rend="printed"/>188<handShift rend="manuscript"/>7<lb/></date>
                     <name><hi rend="italic">To</hi>
                         <handShift rend="manuscript"/>Walt Whitman</name>
                     <name type="place">Camden, U.S.A.</name>
@@ -104,12 +98,12 @@
                         <abbr>Spec.</abbr>
                         <expan>Specimen</expan>
                     </choice> Days in America</hi> makes its appearance in the London book-shops
-                to-morrow, &#38; before you get this I expect you will have a preliminary batch of
+                to-morrow, &amp; before you get this I expect you will have a preliminary batch of
                 six copies of the volume. I am writing to the publishers to-day to instruct them
                 about sending the 50 more you want. The publishers seem to have made some mistake
-                about the <hi rend="underline">Preface</hi> &#38; <hi rend="underline">Addl
+                about the <hi rend="underline">Preface</hi> &amp; <hi rend="underline">Addl
                     note</hi> printed slips. I gave them distinct instructions about sending them,
-                &#38; I must just make them pay for their mistake by sending you further copies of
+                &amp; I must just make them pay for their mistake by sending you further copies of
                 the book to supply the omission. I enclose two cut-out leaves which they sent to me
                 last week, with some vague idea of atonement, I suppose.</p>
             <p>Yesterday afternoon J. Addington Symonds<ptr target="n0615"/> called here
@@ -119,17 +113,16 @@
                 </choice> Days <choice>
                     <orig>Vols.</orig>
                     <reg>volumes</reg>
-                </choice> on the table, &#38; he was delighted with the appearance, &#38;c. of the
-                book. I took him a copy on going to dine with him &#38; Roden Noel<ptr
-                    target="n3109"/> in Eaton Square last night. I sent copies off to many other
-                folk yesterday,&#8212;Mrs. Costelloe<ptr target="n6109"/> among the rest. She wrote
+                </choice> on the table, &amp; he was delighted with the appearance, &amp;c. of the
+                book. I took him a copy on going to dine with him &amp; Roden Noel<ptr target="n3109"/> in Eaton Square last night. I sent copies off to many other
+                folk yesterday,—Mrs. Costelloe<ptr target="n6109"/> among the rest. She wrote
                 me a nice little note about it, which arrived this morning. Gabriel Sarrazin, the
                 young French critic, who is writing a study of L. of G., which he is tremendously
                 taken with, shall have one to-day or to-morrow.<ptr target="n3115"/>
                 <pb xml:id="leaf001v" facs="loc.03318.002_large.jpg" type="verso"/> I feel quite
-                proud at being the agent &#38; deputy of the book in this way. It gives me quite a
+                proud at being the agent &amp; deputy of the book in this way. It gives me quite a
                 new conception of my own importance in the world. I do hope you will like the
-                general get-up of the book, &#38; so on. If we have made any slips in this respect
+                general get-up of the book, &amp; so on. If we have made any slips in this respect
                 in the book, we can profit by them in the <hi rend="underline">Democratic
                     Vistas</hi>
                 <choice>
@@ -139,18 +132,17 @@
                     <abbr>addl</abbr>
                     <expan>additional</expan>
                 </choice> papers for which I look forward to receiving.</p>
-            <p>I was glad to hear &#38; read in the papers you sent of the brilliant success of the
+            <p>I was glad to hear &amp; read in the papers you sent of the brilliant success of the
                 Lincoln Lecture.<ptr target="loc.03318_n1"/> How I wish you could come over here
-                &#38; deliver it too; but I suppose that may not be. The gathering of the <choice>
+                &amp; deliver it too; but I suppose that may not be. The gathering of the <choice>
                     <orig>literarati</orig>
                     <reg>literati</reg>
                 </choice> in the audience was very significant. It shows a new departure, I think,
                 on the scholastic literary side.</p>
-            <p>By this time I expect Herbert Gilchrist<ptr target="n0262"/> is with you &#38; has
+            <p>By this time I expect Herbert Gilchrist<ptr target="n0262"/> is with you &amp; has
                 given you a general account of things over here. (Give him my hearty greetings!) By
                 him I sent a batch of birthday wishes for the 31st, which I follow now with all
-                imaginable devout orisons. In your coming year I earnestly <add type="unmarked"
-                    place="left">hope you will have the great gratification of seeing a deeper &#38;
+                imaginable devout orisons. In your coming year I earnestly <add type="unmarked" place="left">hope you will have the great gratification of seeing a deeper &amp;
                     wider application of Leaves of Grass, pointing to a nearer consummation of their
                     great idea than we have hitherto deemed possible! And, so, with deep love, I
                     am</add></p>

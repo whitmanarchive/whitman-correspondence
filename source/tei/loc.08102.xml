@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08102">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08102">
     <teiHeader>
         <fileDesc>  
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08102</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,16 +44,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08102</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James L. Corning</author>
                     <title>James L. Corning to Walt Whitman, 19 September 1889</title>
                     <date cert="high" when="1889-09-19" xml:id="dat1">September 19, 1889</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00115</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName> 
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -92,15 +89,15 @@
                 </dateline>
                 <salute>My dear Mr Whitman</salute>    
             </opener>
-            <p>Among other precious things from Camden which greeted me this morning is the package of pictures of your dear self. Nellie<ptr target="loc.08102_n2"/> &#38;   
-             I have already feasted our eyes &#38; hearts on them, &#38; they will 
+            <p>Among other precious things from Camden which greeted me this morning is the package of pictures of your dear self. Nellie<ptr target="loc.08102_n2"/> &amp;   
+             I have already feasted our eyes &amp; hearts on them, &amp; they will 
              cheer us with their bright ministry through the many days of the homeward voyage. We thank you with all our hearts for the 
-             pictures; but we want to see the living original whom we respect &#38; love so much.</p>
+             pictures; but we want to see the living original whom we respect &amp; love so much.</p>
             <p>And now our summer
                 <pb xml:id="leaf001v" facs="loc_jm.00214.jpg" type="verso"/>
                 <pb xml:id="leaf002r" facs="loc_jm.00215.jpg" type="recto"/>
-            "loaf" is over, &#38; glad I am of it, for loafing does not agree either with my health or morals.</p>
-            <p>Day after tomorrow we sail in the "Rhynland"<ptr target="loc.08102_n3"/> &#38; hope to reach New York on the first days of October. Accept my dear 
+            "loaf" is over, &amp; glad I am of it, for loafing does not agree either with my health or morals.</p>
+            <p>Day after tomorrow we sail in the "Rhynland"<ptr target="loc.08102_n3"/> &amp; hope to reach New York on the first days of October. Accept my dear 
              Mr Whitman the assurances of our sincerest affection.</p>
             <closer>
                 <salute>Cordially Yours</salute>
@@ -110,8 +107,3 @@
         </body> 
     </text>
 </TEI>
-
-
-
-
-

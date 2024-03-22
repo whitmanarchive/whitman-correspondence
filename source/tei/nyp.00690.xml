@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00690"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00690"> 
     <teiHeader>
         <fileDesc> 
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00690</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00690</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
@@ -85,14 +82,13 @@
                     <date when="1889-07-02">July 2d Evn'g</date>
                 </dateline>
             </opener>
-            <p>Havn't heard f'm you since dear W[illiam]'s<ptr target="n2002"/> death&#8212;Suppose you are
-                in O st. for the present&#8212;I send you "Unity" and "Liberty"<ptr
-                target="nyp.00690_n2"/>&#8212;I send U to Eldridge<ptr target="n0210"/> and
-                Burroughs<ptr target="n0129"/>&#8212;</p>
-            <p>Nothing markable in my condition&#8212;am doubtless declining&#8212;suppose you get
-                the papers I send&#8212;Hot weather.</p>
+            <p>Havn't heard f'm you since dear W[illiam]'s<ptr target="n2002"/> death—Suppose you are
+                in O st. for the present—I send you "Unity" and "Liberty"<ptr target="nyp.00690_n2"/>—I send U to Eldridge<ptr target="n0210"/> and
+                Burroughs<ptr target="n0129"/>—</p>
+            <p>Nothing markable in my condition—am doubtless declining—suppose you get
+                the papers I send—Hot weather.</p>
             <closer>
-                <salute>Best love always&#8212;</salute>
+                <salute>Best love always—</salute>
                 <signed>Walt Whitman</signed>
             </closer>
             <pb xml:id="leaf002r" facs="nypl_as.00002_large.jpg" type="recto"/>

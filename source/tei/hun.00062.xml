@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="hun.00062">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hun.00062">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +11,7 @@
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="vm">Vince Moran</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>hun.00062</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>hun.00062</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>John Boyle O'Reilly</author>
@@ -88,7 +85,7 @@
                 <salute>Dear W. Whitman</salute>
             </opener>
 
-            <p>Hope you got safe home. James R. Osgood wants to see the material for your complete book. Can you let him have a look at it, or write him &#38; tell him about it?<ptr target="hun.00062_n1"/></p>
+            <p>Hope you got safe home. James R. Osgood wants to see the material for your complete book. Can you let him have a look at it, or write him &amp; tell him about it?<ptr target="hun.00062_n1"/></p>
             
             <closer>
                 <salute>Always faithfully yours</salute>

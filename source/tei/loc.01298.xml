@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01298"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01298"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Cassius Marcellus Clay to Walt Whitman, 6 January 1891</title>
+                <title level="m" type="main">Cassius M. Clay to Walt Whitman, 6 January 1891</title>
                 <title level="m" type="sub">a machine readable transcription</title>
-                <author>Cassius Marcellus Clay</author>
+                <author>Cassius M. Clay</author>
                 <editor>Kenneth M. Price</editor>
                 <editor>Ed Folsom</editor>
                 <respStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01298</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01298</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Cassius Marcellus Clay</author>
-                    <title>Cassius Marcellus Clay to Walt Whitman, 6 January 1891</title>
+                    <author>Cassius M. Clay</author>
+                    <title>Cassius M. Clay to Walt Whitman, 6 January 1891</title>
                     <date cert="medium" when="1891-01-06" xml:id="dat1">January 6, 1891</date>
                     <idno type="callno">MSS18630, Box 8, Reel 5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00133</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -68,7 +65,7 @@
             </handNotes>
             <particDesc>
                 <person role="sender">
-                    <persName key="Clay, Cassius Marcellus" ref="loc.01297_n1">Cassius Marcellus Clay</persName>
+                    <persName key="Clay, Cassius M." ref="loc.01297_n1">Cassius M. Clay</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -92,15 +89,15 @@
                 </dateline>
                 <salute>Dear Sir,</salute>
             </opener>
-            <p>I have just received your "Leaves of Grass &#38;c." 1890&#8212;for which accept my
+            <p>I have just received your "Leaves of Grass &amp;c." 1890—for which accept my
                 thanks.</p>
-            <p>I have not found time but to glance over it&#8212;&#38; cannot return a
-                criticism&#8212;even if such a thing was a consequence.</p>
-            <p>I am very independent in such matters&#8212;and think with Burns<ptr target="n0127"/>
+            <p>I have not found time but to glance over it—&amp; cannot return a
+                criticism—even if such a thing was a consequence.</p>
+            <p>I am very independent in such matters—and think with Burns<ptr target="n0127"/>
              "Cruing to a body's sel Does weel enough"<ptr target="loc.01298_n2"/>
-                &#38; let the world read or not, as it likes.<ptr target="loc.01298_n3"/></p>
+                &amp; let the world read or not, as it likes.<ptr target="loc.01298_n3"/></p>
             <closer>
-                <salute>&#8212;Wishing you long years yet of health and happiness. I remain yours
+                <salute>—Wishing you long years yet of health and happiness. I remain yours
                     truly</salute> 
                 <signed>Cassius Marcellus Clay</signed></closer>
             <signed>Walt Whitman Esq.</signed>
@@ -108,9 +105,8 @@
             <pb xml:id="leaf002r" facs="loc.01298.005_large.jpg" type="recto"/>
             <pb xml:id="leaf002v" facs="loc.01298.006_large.jpg" type="verso"/>
             <pb xml:id="leaf003r" facs="loc.01298.001_large.jpg" type="recto"/>
-            <note type="editorial" place="top" resp="#ht">see | notes | April 1<hi rend="underline"
-                    >st</hi> | 1891</note>
-            <note type="editorial" place="top" resp="#unk">White Hall Ky | 1&#8212;8&#8212;91</note>
+            <note type="editorial" place="top" resp="#ht">see | notes | April 1<hi rend="underline">st</hi> | 1891</note>
+            <note type="editorial" place="top" resp="#unk">White Hall Ky | 1—8—91</note>
             <note type="editorial" place="top" resp="#unk">328 | Mickle St Camden N.J.</note>
             <pb xml:id="leaf003v" facs="loc.01298.002_large.jpg" type="verso"/>
         </body>

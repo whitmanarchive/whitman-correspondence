@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00754">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00754">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00754</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00754</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,8 +54,8 @@
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
                             <date when="1964">1964</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">184&#8211;185</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">184–185</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -99,7 +95,7 @@
                 <salute/>
             </opener>
 
-            <p>Am all right again for me&#8212;was sick <choice><abbr>ab't</abbr><expan>about</expan></choice> three weeks&#8212;at times pretty bad&#8212;was well taken care of here&#8212;<hi rend="italic">the best of friends</hi> both Dr and Mrs B[ucke] (as <hi rend="italic">human</hi> as I ever met, both)&#8212;Monday morning next I start on a long Lake &#38; St Lawrence river trip, 900 miles (mostly by steamer, comfortable, I reckon)&#8212;gone nearly three weeks, then back here<ptr target="duk.00754_n2"/>&#8212;May write you from Quebec. Your papers come&#8212;</p>
+            <p>Am all right again for me—was sick <choice><abbr>ab't</abbr><expan>about</expan></choice> three weeks—at times pretty bad—was well taken care of here—<hi rend="italic">the best of friends</hi> both Dr and Mrs B[ucke] (as <hi rend="italic">human</hi> as I ever met, both)—Monday morning next I start on a long Lake &amp; St Lawrence river trip, 900 miles (mostly by steamer, comfortable, I reckon)—gone nearly three weeks, then back here<ptr target="duk.00754_n2"/>—May write you from Quebec. Your papers come—</p>
 
             <closer>
                 <signed rend="right">W W</signed>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03739">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03739">
     <teiHeader> 
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03739</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03739</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Gabriel Sarrazin</author>
@@ -55,7 +52,7 @@
                     <idno type="callnumber">MSS18630, Box 15, Reel 9</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00336</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc> 
         </fileDesc>
@@ -83,24 +80,22 @@
             <pb xml:id="leaf001r" facs="loc.03739.001_large.jpg" type="recto"/>
             <opener>
                 <dateline>
-                <name type="place">Noume&#225;a</name>
-                <name type="place">Nouvelle-Cal&#233;donie</name>
-                <name type="place">(Colonies Fran&#231;aises)</name>
+                <name type="place">Noumeáa</name>
+                <name type="place">Nouvelle-Calédonie</name>
+                <name type="place">(Colonies Françaises)</name>
                 <date when="1890-07-03">3/7 1890</date>
                 </dateline>
                 <salute>Dear Walt,</salute>
             </opener>
             <p>an important event took place in my life at the beginning of this year et I delayed
                 answering you for this very reason. As I have no fortune whatever, and journalism
-                does not suit my temper, I obtained a situation in our colonial magistracy and <pb
-                    xml:id="leaf001v" facs="loc.03739.002_large.jpg" type="verso"/> am now in New
+                does not suit my temper, I obtained a situation in our colonial magistracy and <pb xml:id="leaf001v" facs="loc.03739.002_large.jpg" type="verso"/> am now in New
                 Caledonia. It will be now easy for me to write my books in peace and without being
                 incessantly troubled with pecuniary difficulties.</p>
             <p>I thank you very much for the newspapers you sent to me at different times: and
                 especially for the two essays on Giordano Bruno,<ptr target="loc.01176_n1"/> by
                 Daniel G. Brinton and Thomas Davidson.<ptr target="loc.07761_n3"/> My opinion, too,
-                is that Bruno is one of the <pb xml:id="leaf002r" facs="loc.03739.003_large.jpg"
-                    type="recto"/> martyrs of free thought, one of our martyrs, and one of the
+                is that Bruno is one of the <pb xml:id="leaf002r" facs="loc.03739.003_large.jpg" type="recto"/> martyrs of free thought, one of our martyrs, and one of the
                 forerunners of this future Humanity you sang in our days with such a genial
                 intuition.</p>
             <p>Excuse my short letter, as I am more used to read English than to write it and am
@@ -109,8 +104,7 @@
             <pb xml:id="leaf002v" facs="loc.03739.004_large.jpg" type="verso"/>
             <p>On my arrival here I suffered from this Oceanian climate, but am getting better each
                 day and will, no doubt, accustom myself to the climate.</p>
-            <p>I am writing to H. L. Traubel<ptr target="n4267"/> and to Harrison S. Morris<ptr
-                target="n7020"/> by this very post; be assured, dear Walt, of all my love</p>
+            <p>I am writing to H. L. Traubel<ptr target="n4267"/> and to Harrison S. Morris<ptr target="n7020"/> by this very post; be assured, dear Walt, of all my love</p>
             <closer>
                 <signed>Gabriel Sarrazin</signed>
             </closer>
@@ -118,8 +112,8 @@
                 <p>My address is as follows:
                 <address>
                     <addrLine><hi rend="underline"> M. Gabriel Sarrazin magistrat</hi></addrLine>
-                    <addrLine><hi rend="underline">&#225; Noume&#225;, Nouvelle-Cal&#233;donie,</hi></addrLine>
-                    <addrLine><hi rend="underline">(Colonies Fran&#231;aises)</hi></addrLine>
+                    <addrLine><hi rend="underline">á Noumeá, Nouvelle-Calédonie,</hi></addrLine>
+                    <addrLine><hi rend="underline">(Colonies Françaises)</hi></addrLine>
                 </address>
                 </p>
             </postscript>

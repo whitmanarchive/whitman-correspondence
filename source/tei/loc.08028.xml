@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08028">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08028">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08028</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,17 +43,17 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08028</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 12 April 1891</title>
                     <date cert="high" when="1891-04-12" xml:id="dat1">April 12, 1891</date>
-                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4&#8211;5; Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 7, Reel 4–5; Envelope: MSS18630, Box 7, Reel 4–5</idno>
                    <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -89,15 +86,13 @@
                     <date when="1891-04-12">Sunday noon Apr: 12 '91</date> 
                 </dateline>
             </opener>
-            <p>Cloudy &#38; damp yet&#8212;am feeling a shade better this forenoon&#8212;bowel
-                actions (more or less,&#8212;generally less, but I believe decided at that) each of the
-                three past days&#8212;wh' is of course a great gain,&#8212;Tom Harned<ptr
-                    target="n4146"/> was here last evn'g&#8212;he is busy &#38; prosperous (very
-                poss<supplied reason="illegible" resp="#smb" cert="high">i</supplied>bly going off on business to San Francisco, fo<supplied reason="illegible" resp="#smb" cert="high">r</supplied> a few days)&#8212;Horace<ptr
-                    target="n4267"/> here as usual&#8212;proof<ptr target="loc.08023_n2"/> will soon be done&#8212;enclosed a MS
+            <p>Cloudy &amp; damp yet—am feeling a shade better this forenoon—bowel
+                actions (more or less,—generally less, but I believe decided at that) each of the
+                three past days—wh' is of course a great gain,—Tom Harned<ptr target="n4146"/> was here last evn'g—he is busy &amp; prosperous (very
+                poss<supplied reason="illegible" resp="#smb" cert="high">i</supplied>bly going off on business to San Francisco, fo<supplied reason="illegible" resp="#smb" cert="high">r</supplied> a few days)—Horace<ptr target="n4267"/> here as usual—proof<ptr target="loc.08023_n2"/> will soon be done—enclosed a MS
                 fro<supplied reason="illegible" resp="#smb" cert="high">m</supplied> J W W<ptr target="n6121"/> of Bolton, Eng:<ptr target="loc.08028_n2"/></p> 
             <closer>
-                <salute>God bless <supplied reason="illegible" resp="#smb" cert="high">y</supplied>ou all&#8212;</salute>
+                <salute>God bless <supplied reason="illegible" resp="#smb" cert="high">y</supplied>ou all—</salute>
                 <signed>Walt <supplied reason="illegible" resp="#smb" cert="high">Wh</supplied>itman</signed>
             </closer>
             <pb xml:id="leaf002r" facs="loc_jm.00127.jpg" type="recto"/>

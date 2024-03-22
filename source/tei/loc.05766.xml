@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05766">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05766">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -28,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.05766</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +42,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.05766</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,8 +52,8 @@
                             <pubPlace>Philadelphia</pubPlace>
                             <publisher>University of Pennsylvania Press</publisher>
                             <date when="1953">1953</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">331</biblScope>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">331</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -67,7 +63,7 @@
                     <date cert="high" when="1884-03-25" xml:id="dat1">March 25, 1884</date>
                     <idno type="callno">Box 12, Reel 7-8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -114,7 +110,7 @@
                 before long in politics and literature. I think he has a wonderfully well-balanced
                 mind. Alma<ptr target="n3029"/> was sorely disappointed at my not bringing you home
                 with us Sunday and hope you will very soon visit us. </p>
-            <p> I want you to write me the full history of the painting by Hine&#8212;when, where,
+            <p> I want you to write me the full history of the painting by Hine—when, where,
                 how, &amp;c &amp;c. </p>
             <closer>
                 <salute>Sincerely yours,</salute> 

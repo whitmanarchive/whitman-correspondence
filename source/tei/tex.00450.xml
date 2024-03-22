@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="tex.00450">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00450">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,7 +9,7 @@
                 <editor>Ed Folsom</editor>
                 <respStmt>
                     <resp>Transcription and encoding</resp>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
@@ -26,7 +23,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>tex.00450</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,7 +33,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -44,7 +41,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>tex.00450</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -54,9 +51,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">37</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">37</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -96,15 +93,14 @@
                 <salute>My dear J R</salute>
             </opener>
             <p>By an announcement in the Phil: <hi rend="italic">Press</hi> this morning I suppose
-                you have used my "How I made a Book"<ptr target="tex.00450_n2"/> &#38;c for the newspaper syndicate&#8212;All right. What I am somewhat concerned ab't is
+                you have used my "How I made a Book"<ptr target="tex.00450_n2"/> &amp;c for the newspaper syndicate—All right. What I am somewhat concerned ab't is
                 that I have not seen the proof (which is always an important point with
-                me)&#8212;&#38; my 100 slips&#8212;What I mainly write now for, is to say, if
-                possible, to have the slips run off from your type if still standing, &#38; sent me
-                here&#8212;Thanks for the prompt pay&#8212; </p>
+                me)—&amp; my 100 slips—What I mainly write now for, is to say, if
+                possible, to have the slips run off from your type if still standing, &amp; sent me
+                here—Thanks for the prompt pay— </p>
             <closer>
                 <signed>Walt Whit[man]</signed>
             </closer>
         </body>
     </text>
-</TEI> 
- 
+</TEI>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04699"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04699"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04699</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04699</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James W. Wallace</author>
@@ -55,7 +52,7 @@
                     <idno type="callno">MSS18630, Box 18, Reel 11</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00401</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc> 
@@ -89,22 +86,19 @@
             </opener>
             <p>I have only time at present for a few lines to say that we received a cable message
                 from Traubel<ptr target="n4267"/> this morning, with the welcome intelligence that
-                you were "all right" &#38;c. Whatever deductions may require to be made from this,
-                it is still glad news to us, &#38; we hope <pb xml:id="leaf001v"
-                    facs="loc_vm.01098.jpg" type="verso"/> that further &#38; detailed information
+                you were "all right" &amp;c. Whatever deductions may require to be made from this,
+                it is still glad news to us, &amp; we hope <pb xml:id="leaf001v" facs="loc_vm.01098.jpg" type="verso"/> that further &amp; detailed information
                 will <choice>
                     <orig>shew</orig>
                     <reg>show</reg>
                 </choice> some improvement on your late condition.</p>
-            <p>Yesterday I received from a friend in Leeds a copy of an <hi rend="underline"
-                    >English</hi> edition of Ingersoll's<ptr target="n0839"/> lecture,<ptr
-                    target="loc.04699_n2"/> which I will send on to you with this in case you have
+            <p>Yesterday I received from a friend in Leeds a copy of an <hi rend="underline">English</hi> edition of Ingersoll's<ptr target="n0839"/> lecture,<ptr target="loc.04699_n2"/> which I will send on to you with this in case you have
                 not seen it. I intend to order a few copies of it in addition to the American copies
                 ordered through Traubel.</p>
             <pb xml:id="leaf002r" facs="loc_vm.01099.jpg" type="recto"/>
-            <p>I was detained in Bolton tonight on business, &#38; afterwards called on 
+            <p>I was detained in Bolton tonight on business, &amp; afterwards called on 
                 Dr J.<ptr target="n4102"/> before coming on here by the last train. He asked me to convey
-                his love to you, &#38; with filial love &#38; best wishes</p>
+                his love to you, &amp; with filial love &amp; best wishes</p>
             <closer><salute>I remain</salute>
                 <salute>Yours affectionately</salute>
                 <signed><hi rend="underline">J.W. Wallace</hi></signed></closer>

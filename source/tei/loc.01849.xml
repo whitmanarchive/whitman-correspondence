@@ -1,78 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01849">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01849">
+    <teiHeader> 
         <fileDesc>
             <titleStmt>
-<title level="m" type="main">John Newton Johnson to Walt Whitman, [19 February] 1875</title>
-<title level="m" type="sub">a machine readable transcription</title>
-<author>John Newton Johnson</author>
-<editor>Kenneth M. Price</editor>
-<editor>Ed Folsom</editor>
-<respStmt>
-    <resp>Transcription and encoding</resp>
-    <persName xml:id="ak">Alex Kinnaman</persName>
-<persName xml:id="el">Elizabeth Lorang</persName>
-<persName xml:id="ej">Eder Jaramillo</persName>
-<persName xml:id="js">John Schwaninger</persName>
-<persName xml:id="nnk">Nima Najafi Kianfar</persName>
-<persName xml:id="cb">Caterina Bernardini</persName>
-<persName xml:id="jyc">Jonathan Y. Cheng</persName>
-    <persName xml:id="nhg">Nicole Gray</persName>
-</respStmt>
-<sponsor>Center for Digital Research in the Humanities, University of
-    Nebraska-Lincoln</sponsor>
-<sponsor>University of Iowa</sponsor>
-<funder>National Historical Publications and Records Commission</funder>
+                <title level="m" type="main">John Newton Johnson to Walt Whitman, [19 February] 1875</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>John Newton Johnson</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="ej">Eder Jaramillo</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="nnk">Nima Najafi Kianfar</persName>
+                    <persName xml:id="cb">Caterina Bernardini</persName>
+                    <persName xml:id="jyc">Jonathan Y. Cheng</persName>
+                    <persName xml:id="nhg">Nicole Gray</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
             </titleStmt>
             <editionStmt>
-<edition>
-    <date>2014</date>
-</edition>
+                <edition>
+                    <date>2023</date>
+                </edition>
             </editionStmt>
             <publicationStmt>
-<idno>loc.01849</idno>
-<distributor>The Walt Whitman Archive</distributor>
-<address>
-    <addrLine>Center for Digital Research in the Humanities</addrLine>
-    <addrLine>319 Love Library</addrLine>
-    <addrLine>University of Nebraska-Lincoln</addrLine>
-    <addrLine>P.O. Box 884100</addrLine>
-    <addrLine>Lincoln, NE 68588-4100</addrLine>
-</address>
-<availability>
-    <p>Copyright © 2014 by Ed Folsom and Kenneth M. Price, all rights
-        reserved. Items in the Archive may be shared in accordance with the Fair Use
-        provisions of U.S. copyright law. Redistribution or republication on other
-        terms, in any medium, requires express written consent from the editors and
-        advance notification of the publisher, Center for Digital Research in the
-        Humanities. Permission to reproduce the graphic images in this archive has
-        been granted by the owners of the originals for this publication only.</p>
-</availability>
-            </publicationStmt>
-            
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01849</idno></publicationStmt>           
             <sourceDesc>               
-<bibl>
-    <author>John Newton Johnson</author>
-    <title>John Newton Johnson to Walt Whitman, [19 February] 1875</title>   
-    <date cert="low" when="1875-02-19" xml:id="dat1">February 19, 1875</date>
-    <idno type="callno">MSS18630, Box 11, Reel 7</idno>
-    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
-</bibl>
+                <bibl>
+                    <author>John Newton Johnson</author>
+                    <title>John Newton Johnson to Walt Whitman, [19 February] 1875</title>   
+                    <date cert="low" when="1875-02-19" xml:id="dat1">[February 19], 1875</date>
+                    <idno type="callno">MSS18630, Box 11, Reel 7</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00237</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
-
-<person role="sender">
-    <persName key="Johnson, John Newton" ref="n0914">John Newton Johnson</persName>
-</person>
-<person role="recipient">
-    <persName key="Whitman, Walt">Walt Whitman</persName>
-</person>
+                <person role="sender">
+                    <persName key="Johnson, John Newton" ref="n0914">John Newton Johnson</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
             </particDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2023-08-13" who="#smb">updated notes</change>
+            <change when="2023-07-25" who="#aja">updated image pointers</change>
+            <change when="2023-04-30" who="#aja">corrections for Matt</change>
+            <change when="2023-01-04" who="#smb">final check, corrected</change>
+            <change when="2022-11-10" who="#aja">checked, corrected</change>
+            <change when="2022-04-03" who="#me">checked, corrected, fixed images</change>
+            <change when="2021-12-10" who="#aja">checked, corrected, added DOI and notes</change>
             <change when="2015-04-24" who="#nhg">corrected</change>
             <change when="2015-04-07" who="#ak">added correspondent ref</change>
             <change when="2014-10-27" who="#nhg">checked, corrected</change>
@@ -88,41 +92,154 @@
 
     <text type="letter">
         <body>
-
-           
-            <pb xml:id="leaf001r" facs="loc.01849.001_large.jpg" type="recto"/>
+            <pb xml:id="leaf001r" facs="loc_tb.00784.jpg" type="recto"/>
             <opener>
-                <address><addrLine><name type="place">Meltonsville, <choice><abbr>Al</abbr><expan>Alabama</expan></choice></name></addrLine></address>
                 <dateline>
-                    <date when="1875"><gap reason="illegible" extent="several numbers" unit="chars" quantity="14"/> 1875.</date>
+                    <name type="place">Meltonsville, Al<supplied reason="illegible" resp="#aja">abama</supplied></name>
+                    <date when="1875"><gap reason="illegible" extent="date" unit="chars" quantity="14"/> 1875.</date>
                 </dateline>
-                Mr. Whitman&#8212;
+                <salute>Mr. Whitman—</salute>
             </opener>
 
-            <p><gap reason="illegible" extent="about three words" unit="chars" quantity="18"/> was received a few days ago. I had <gap reason="illegible" extent="about three words" unit="chars" quantity="14"/> <unclear reason="illegible" cert="low" resp="#nnk">examined</unclear> <unclear reason="illegible" cert="low" resp="#js">that</unclear> writing for a while <gap reason="illegible" extent="about three words" unit="chars" quantity="16"/> <unclear reason="illegible" cert="low" resp="#nnk">correspondence</unclear> except my son in <gap reason="illegible" extent="about three words" unit="chars" quantity="17"/> I would <unclear reason="illegible" cert="low" resp="#nhg">wait</unclear> a good long spell, I <gap reason="illegible" extent="about three words" unit="chars" quantity="14"/> to learn how much of purely <unclear reason="illegible" cert="low" resp="#nnk">spontaneous</unclear> <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> you do <unclear reason="illegible" cert="low" resp="#js">fear</unclear> in the (of choice) humble <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> strange manner living down here in <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> also was curious to see if you would <unclear reason="illegible" cert="low" resp="#nnk"><hi rend="underline">graciously</hi></unclear> be sending me and little Walt the new volume which you are to bring out this summer. But getting with yours the picture of <unclear reason="illegible" cert="low" resp="#nnk">John</unclear> Burroughs, I suppose it will be perhaps <gap reason="illegible" extent="one word" unit="chars" quantity="7"/> <unclear reason="illegible" cert="low" resp="#nnk">enough</unclear> to write <unclear reason="illegible" cert="low" resp="#nnk">now</unclear>. &#9758; I have no faith in <unclear reason="illegible" cert="low" resp="#nnk">Physiognomy</unclear> Physiognomy as a practical <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> if in any way, but the <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> the book seem <unclear reason="illegible" cert="low" resp="#nnk">fully</unclear> indicative of talent <gap reason="illegible" extent="about three words" unit="chars" quantity="10"/> tho' perhaps <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> strongly expresses <gap reason="illegible" extent="about two words" unit="chars" quantity="14"/> than an <gap reason="illegible" extent="one word" unit="chars" quantity="15"/> greater share of <gap reason="illegible" extent="about four words" unit="chars" quantity="26"/> which I glory in <gap reason="illegible" extent="about three words" unit="chars" quantity="12"/> <hi rend="underline">trust in</hi> <gap reason="illegible" extent="one word" unit="chars" quantity="7"/>. Perhaps tho' he is <gap reason="illegible" extent="about three words" unit="chars" quantity="16"/> way. <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> sometimes doubted this <gap reason="illegible" extent="about three words" unit="chars" quantity="16"/> some<unclear reason="illegible" cert="low" resp="#js">thing</unclear> <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> well, <hi rend="underline">he</hi> is too <gap reason="illegible" extent="about five words" unit="chars" quantity="23"/>", <unclear reason="illegible" cert="low" resp="#js">other</unclear> times "well, <hi rend="underline">he</hi> is <gap reason="illegible" extent="about three words" unit="chars" quantity="15"/> very <unclear reason="illegible" resp="#nhg" cert="medium">honest</unclear>."&#8212;However, if <gap reason="illegible" extent="about three words" unit="chars" quantity="15"/> now, or
-            
-                        
-            <pb xml:id="leaf001v" facs="loc.01849.002_large.jpg" type="verso"/>
-            
-            about to be <gap reason="illegible" extent="about four words" unit="chars" quantity="18"/> <!-- underlined "former" [?]--> "on the banks of one of the <unclear reason="illegible" cert="medium" resp="#nhg">noblest and most</unclear> fruitful rivers" (<unclear reason="illegible" cert="high" resp="#nnk">poetical</unclear> <gap reason="illegible" extent="about five words" unit="chars" quantity="20"/> namesake of our old <gap reason="illegible" extent="about five words" unit="chars" quantity="27"/> son) there is a <!-- "bond" [?]--><gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> <unclear reason="illegible" resp="#nhg" cert="low">"similarity</unclear> <gap reason="illegible" extent="about two words" unit="chars" quantity="13"/> and J.B.&#8212;I had the honor <unclear reason="illegible" cert="medium" resp="#js">to say</unclear> <gap reason="illegible" extent="two words" unit="chars" quantity="8"/> introducing fine <unclear reason="illegible" cert="high" resp="#js">Apples</unclear> and <unclear reason="illegible" cert="high" resp="#js"><hi rend="underline">Pears</hi></unclear><gap reason="illegible" extent="about two words" unit="chars" quantity="13"/> backwoods county. <gap reason="illegible" extent="one word" unit="chars" quantity="7"/> Bartlett, <gap reason="illegible" extent="about two words" unit="chars" quantity="13"/> Lucrative, and L.B. <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> Jersey <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> unknown 'till <unclear reason="illegible" cert="medium" resp="#nnk"><hi rend="underline">Williams</hi></unclear> came to the <gap reason="illegible" extent="one word" unit="chars" quantity="5"/>. Ah! Those fine fruits were the <hi rend="underline">only</hi> <gap reason="illegible" extent="about two words" unit="chars" quantity="8"/> I could have for some years after the end of the war. They and "Leaves of Grass" have stood alone in making me <hi rend="underline">Jubilant</hi>. My <unclear reason="damage" resp="#nhg" cert="low">interest</unclear>, profit and pleasure have been much <unclear reason="damage" resp="#nhg" cert="medium">distracted</unclear> by <hi rend="underline">fruit-rotting</hi> so generally <gap reason="illegible" extent="about two words" unit="chars" quantity="8"/> years. But memory's pleasures can <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> some degree.</p>
+            <p>Your <gap reason="illegible" extent="three words" unit="chars" quantity="18"/> was received 
+                a few days ago.<ptr target="n5002d"/> I had <gap reason="illegible" extent="three words" unit="chars" quantity="14"/>mined 
+                <unclear reason="illegible" cert="medium" resp="#me">that if</unclear> writing for a while 
+                <gap reason="illegible" extent="three words" unit="chars" quantity="16"/> 
+                corres<unclear reason="illegible" cert="medium" resp="#aja">pondent</unclear> except my son 
+                in T<supplied reason="illegible" resp="#smb" cert="high">exas</supplied><ptr target="loc.01849_n2"/> <gap reason="illegible" extent="three words" unit="chars" quantity="17"/> I would 
+                <unclear reason="illegible" cert="low" resp="#nhg">wait</unclear> a good long spell, I 
+                wo<gap reason="illegible" extent="three words" unit="chars" quantity="14"/> to learn how much 
+                of purely <unclear reason="illegible" cert="low" resp="#nnk">spontaneous</unclear> 
+                <gap reason="illegible" extent="two words" unit="chars" quantity="10"/> you do 
+                <unclear reason="illegible" cert="low" resp="#me">feast</unclear> in the (of choice) humble 
+                <gap reason="illegible" extent="two words" unit="chars" quantity="10"/> strange farmer living 
+                down here in <gap reason="illegible" extent="two words" unit="chars" quantity="10"/> also was 
+                curious to see if you would 
+                <unclear reason="illegible" cert="medium" resp="#me"><hi rend="underline">spontaneously</hi></unclear>
+                be sending me and little Walt the new volume which you are to bring out this summer. But getting 
+                with yours the picture of <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> Burroughs,<ptr target="n0129"/> I suppose it will be perhaps well 
+                enough to write now. ☞ I have no faith in Ph<gap reason="illegible" extent="one word" unit="chars" quantity="9"/> 
+                Physiognomy as a practical thing if in any way, but the <gap reason="illegible" extent="two words" unit="chars" quantity="10"/> 
+                the book seem <unclear reason="illegible" cert="low" resp="#nnk">fully</unclear> indicative of 
+                talent <gap reason="illegible" extent="three words" unit="chars" quantity="10"/> tho' perhaps 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> strongly expresses 
+                im<gap reason="illegible" extent="two words" unit="chars" quantity="14"/> than an 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="15"/> greater share of the 
+                <gap reason="illegible" extent="four words" unit="chars" quantity="25"/>ood 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="5"/>ing which I glory in 
+                <gap reason="illegible" extent="three words" unit="chars" quantity="12"/> 
+                <hi rend="underline">trust in</hi> <gap reason="illegible" extent="one word" unit="chars" quantity="7"/>. 
+                Perhaps tho' he is on<gap reason="illegible" extent="three words" unit="chars" quantity="16"/>ny way. 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> sometimes doubted this 
+                <gap reason="illegible" extent="about three words" unit="chars" quantity="16"/> 
+                some<unclear reason="illegible" cert="low" resp="#js">thing</unclear> well, <hi rend="underline">he</hi> 
+                is too scrupulous <gap reason="illegible" extent="three words" unit="chars" quantity="15"/>sible", 
+                <unclear reason="illegible" cert="medium" resp="#me">the</unclear> other times "well, 
+                <hi rend="underline">he</hi> is to<gap reason="illegible" extent="three words" unit="chars" quantity="15"/>
+                very honest."—However, if <gap reason="illegible" extent="three words" unit="chars" quantity="15"/> 
+                now, or
                 
-                <milestone unit="undeclared" rend="horbar-full"/> 
-                
-            <p>But getting <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> you and me, <hi rend="underline">dear comforter</hi> <gap reason="illegible" extent="about three words" unit="chars" quantity="15"/>ughs hints at you <gap reason="illegible" extent="one word" unit="chars" quantity="5"/>ing to <gap reason="illegible" extent="about three words" unit="chars" quantity="14"/>low, whenever you <gap reason="illegible" extent="one word" unit="chars" quantity="7"/> go, and <gap reason="illegible" extent="one word" unit="chars" quantity="7"/> <unclear reason="damage" resp="#nhg" cert="low">meetings</unclear> with friends <gap reason="illegible" extent="one word" unit="chars" quantity="7"/> or letters <gap reason="illegible" extent="two words" unit="chars" quantity="9"/> or sights of "show <gap reason="illegible" extent="about two words" unit="chars" quantity="14"/> <unclear reason="incomplete" cert="high" resp="#ej">(Centennial </unclear> <gap reason="illegible" extent="one word" unit="chars" quantity="7"/> or what not) or <gap reason="illegible" extent="one word" unit="chars" quantity="5"/>
+                <pb xml:id="leaf001v" facs="loc_tb.00786.jpg" type="verso"/>
 
-            <pb xml:id="leaf002r" facs="loc.01849.003_large.jpg" type="recto"/>
+                about to <unclear reason="illegible" cert="medium" resp="#me">be a <hi rend="underline">fruit farmer</hi></unclear> 
+                "on the banks of one of the <unclear reason="illegible" cert="medium" resp="#nhg">noblest and most</unclear>
+                fruitful rivers" (poetical but <hi rend="underline">irrelevant</hi>
+                <gap reason="illegible" extent="5" unit="word" quantity="25"/>—namesake of our oldest 
+               <gap reason="illegible" extent="2" unit="word" quantity="2"/>
+                <unclear reason="illegible" resp="#me" cert="medium">May of</unclear>
+                <gap reason="illegible" extent="two words" unit="chars" quantity="10"/> son) there is a bond. If
+                <unclear reason="illegible" resp="#nhg" cert="low">"similitude</unclear> 
+                <gap reason="illegible" extent="two words" unit="chars" quantity="13"/> me and J.B.—I had the 
+                honor to be <gap reason="illegible" extent="two words" unit="chars" quantity="5"/> in introducing fine 
+                Apples and <hi rend="underline">Pears</hi> to, <gap reason="illegible" extent="two words" unit="chars" quantity="8"/> 
+                out in backwoods county. <unclear reason="illegible" cert="medium" resp="#me">Thomas</unclear> Bartlett; 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="6"/> Belle Lucrative, and L.B. <supplied reason="illegible" resp="#smb" cert="high">De</supplied>
+                <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> Jersey &amp;c
+                <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> were unknown 'till
+                <hi rend="underline">Willwell</hi> 
+                came to the front. Ah! Those fine fruits were the <hi rend="underline">only luxury</hi> I could 
+                have for some years after the end of the war.<ptr target="loc.01838_n6"/> They and "Leaves of Grass" have stood alone in making 
+                me <hi rend="underline">Jubilant</hi>. My interest, profit and pleasure have been much 
+                <unclear reason="damage" resp="#nhg" cert="medium">distracted</unclear> by <hi rend="underline">fruit-rotting</hi> 
+                so generally of <gap reason="illegible" extent="one word" unit="chars" quantity="8"/> years. But 
+                memory's pleasures can <gap reason="illegible" extent="two words" unit="chars" quantity="8"/> 
+                some degree.</p>               
+                <milestone unit="undeclared" rend="horbar-full"/>               
+            <p>But getting <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> you and me, 
+                <hi rend="underline">dear comforter</hi> <gap reason="illegible" extent="two words" unit="chars" quantity="5"/>
+                Burroughs hints at your meaning to <gap reason="illegible" extent="three words" unit="chars" quantity="14"/>low, 
+                wherever you <unclear reason="illegible" cert="high" resp="#me">may</unclear> go, and 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> to meetings with friends 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> or letters 
+                <gap reason="illegible" extent="two words" unit="chars" quantity="9"/> or sights of "shows" 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="2"/> 
+                <hi rend="underline"><unclear reason="incomplete" cert="high" resp="#ej">(Centennial</unclear>
+                    editions,</hi><ptr target="loc.01235_n1"/> or what not) or please
+
+                <pb xml:id="leaf002r" facs="loc_tb.00787.jpg" type="recto"/>
                       
-                <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> sort or source&#8212;to <gap reason="illegible" extent="about three words" unit="chars" quantity="10"/> you still <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> <unclear reason="illegible" cert="high" resp="#nnk">and</unclear> can <hi rend="underline">yet love</hi> <gap reason="illegible" extent="about four words" unit="chars" quantity="20"/> that <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> case for <hi rend="underline">between</hi> <gap reason="illegible" extent="about three words" unit="chars" quantity="15"/> this <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> while I earnestly and <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> you <unclear reason="illegible" cert="medium" resp="#nnk">should</unclear> take no interest <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> that <unclear reason="illegible" cert="medium" resp="#nnk">which</unclear> cause you one bit <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> <unclear reason="illegible" cert="medium" resp="#nnk">or</unclear> anxiety if bad luck should <unclear reason="illegible" cert="high" resp="#nnk">befall</unclear> <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> <unclear reason="illegible" cert="high" resp="#nnk">in any</unclear> way&#8212;<gap reason="illegible" extent="one word" unit="chars" quantity="4"/> still, myself, children <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> my not <unclear reason="illegible" cert="low" resp="#nnk">enthusible</unclear> and mostly <gap reason="illegible" extent="one word" unit="chars" quantity="7"/> wife are delighted, flattered, and feel ourselves highly distinguished any time we get anything of any sort from Uncle Walt or big Walt Whitman as the children say. (My &amp; Wife's dreadful "tempers" may wreck us any time&#8212;so care not much for us. We are doing finely in all <unclear reason="illegible" cert="low" resp="#nnk">our</unclear> farming operations. Health <unclear reason="illegible" cert="low" resp="#nhg">tolerably</unclear> good. Little Walt came to us after <gap reason="illegible" extent="about four words" unit="chars" quantity="18"/> about twice the usual <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> <unclear reason="illegible" cert="medium" resp="#nnk">may</unclear> have <unclear reason="illegible" cert="medium" resp="#nnk">helped</unclear> some, but mostly <gap reason="illegible" extent="about three words" unit="chars" quantity="13"/> <hi rend="underline">lingered over so long</hi> and <gap reason="illegible" extent="about four words" unit="chars" quantity="21"/> caused us all to <gap reason="illegible" extent="about three words" unit="chars" quantity="15"/> <unclear reason="illegible" cert="low" resp="#nnk">threefold</unclear> pride and <!-- "tendency" [?]--><gap reason="illegible" extent="about three words" unit="chars" quantity="15"/> of what <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> had to get over&#8212;the <gap reason="illegible" extent="three words" unit="chars" quantity="15"/> <unclear reason="illegible" cert="medium" resp="#nnk">and</unclear> a "back-heart <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/>&#8212;</p>
+                of any sort or source—to <gap reason="illegible" extent="two words" unit="chars" quantity="6"/> 
+                that you still <unclear reason="illegible" cert="high" resp="#me">live</unclear> and can 
+                <hi rend="underline">yet love</hi> to <unclear reason="illegible" cert="high" resp="#me">find</unclear> 
+                <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> most that I
+                
+                <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> care for <hi rend="underline">between</hi> 
+                
+                <unclear reason="illegible" cert="medium" resp="#me">us. But</unclear> know this that while I 
+                earnestly and <unclear reason="illegible" cert="medium" resp="#me">strongly desire</unclear> you 
+                should take no interest in <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> 
+                mine that <unclear reason="illegible" cert="medium" resp="#aja">would</unclear> cause you one bit 
+                of <unclear reason="illegible" cert="medium" resp="#me">sorrow</unclear> or anxiety if bad luck 
+                should befall us in any way—<gap reason="illegible" extent="one word" unit="chars" quantity="3"/> 
+                still, myself, children <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> my 
+                not enthusible and mostly <gap reason="illegible" extent="one word" unit="chars" quantity="7"/> 
+                wife are delighted,<ptr target="loc.01838_n3b"/> flattered, and feel ourselves highly distinguished any time we get anything 
+                of any sort from Uncle Walt or <hi rend="underline">big</hi> Walt Whitman as the children say.</p> 
+            <p>(My &amp; Wife's dreadful "tempers" may wreck us any time—so care not much for us.</p>
+            <p>We are doing finely in all our farming operations. Health tolerably good. Little Walt<ptr target="loc.01838_n3c"/> came to us 
+                after <hi rend="underline"><unclear reason="illegible" resp="#aja" cert="high">an interregnum</unclear></hi> 
+                of about twice the usual time <gap reason="illegible" extent="one word" unit="chars" quantity="6"/> 
+                <unclear reason="illegible" cert="medium" resp="#me">that</unclear> may have helped some, but 
+                mostly <gap reason="illegible" extent="three words" unit="chars" quantity="13"/> 
+                <hi rend="underline">lingered over so long</hi> and <gap reason="illegible" extent="four words" unit="chars" quantity="21"/>n 
+                <unclear reason="illegible" cert="medium" resp="#me">this</unclear> caused us all to regard 
+                <gap reason="illegible" extent="two words" unit="chars" quantity="6"/> 
+                <unclear reason="illegible" cert="medium" resp="#me">with</unclear> threefold pride and tenderness 
+                <gap reason="illegible" extent="about three words" unit="chars" quantity="15"/> of what papa had to 
+                get over—the <gap reason="illegible" extent="three words" unit="chars" quantity="15"/><hi rend="underline">ving</hi> 
+                and a "back-heart <unclear reason="illegible" resp="#aja" cert="high">bobolitionist</unclear>—</p>
             
-            <pb xml:id="leaf002v" facs="loc.01849.004_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_tb.00788.jpg" type="recto"/>
             
-            <p>If I <unclear reason="illegible" cert="low" resp="#nnk">shall not</unclear> write much again for a good long time, please excuse me, and <gap reason="illegible" extent="one word" unit="chars" quantity="3"/> <unclear reason="illegible" cert="medium" resp="#js">on the other</unclear> hand (looking at the <gap reason="illegible" extent="about three words" unit="chars" quantity="14"/> be so foolish as to <hi rend="underline">write too much</hi> (which I hope I shall not) then <hi rend="underline">excuse that</hi>, and your <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> shine conspicuous.</p>
+            <p>If I shall <unclear reason="illegible" cert="low" resp="#nnk">not</unclear> write much again for a 
+                good long time, please excuse me, and <gap reason="illegible" extent="one word" unit="chars" quantity="3"/> 
+                on the other hand (looking at the <gap reason="illegible" extent="two words" unit="chars" quantity="5"/> 
+                <unclear reason="illegible" cert="medium" resp="#me">I shall</unclear> be so foolish as to 
+                <hi rend="underline">write too much</hi> (which I hope I shall not) then 
+                <hi rend="underline">excuse that</hi>, and your cha<gap reason="illegible" extent="two words" unit="chars" quantity="10"/>ll 
+                shine conspicuous.</p>
             <closer>
-                <salute>J.N.J</salute>
-                 </closer>
+                <signed>J.N.J</signed>
+            </closer>
             <postscript>
-                <p>Since writing the above, I first notice the <hi rend="underline">red chalk mark</hi> alongside the lines where Burroughs invites "George" (who is "George?") to come there <unclear reason="illegible" cert="high" resp="#nnk">and</unclear> <hi rend="underline">look at a</hi> <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> that is for sale. Knowing how some of <unclear reason="illegible" cert="high" resp="#nnk">you</unclear> northern people wish to <hi rend="underline"><unclear reason="illegible" cert="low" resp="#nhg">run</unclear> from</hi> <unclear reason="illegible" cert="medium" resp="#nnk">your</unclear> <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> <hi rend="underline">winters</hi>, I will say is "George" <gap reason="illegible" extent="two words" unit="chars" quantity="10"/> of a Southern <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> as a <gap reason="illegible" extent="about three words" unit="chars" quantity="15"/>? I would not recommend my section <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> for a Northern man to <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> <hi rend="underline">a fortune <unclear reason="illegible" cert="medium" resp="#nnk">except in</unclear></hi> raising clover or other <hi rend="underline"><unclear reason="illegible" cert="high" resp="#nnk">hay</unclear></hi>. But a <hi rend="underline">Whitman</hi> would find many friends and fine <gap reason="illegible" extent="two words" unit="chars" quantity="10"/> nothing very or extra healthy <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> <hi rend="underline">striking in scenery</hi>.</p>
-             
+                <p>Since writing the above, I first notice the <hi rend="underline">red chalk mark</hi> 
+                    alongside the lines where Burroughs invites "George"<ptr target="n5001"/> (who is "George?") to come there and 
+                    <hi rend="underline">look at a farm</hi> 
+                    that is for sale. Knowing how some of your Northern people wish to 
+                    <hi rend="underline">run from your <gap reason="illegible" extent="one word" unit="chars" quantity="5"/> winters</hi>, 
+                    I will say is "George" <gap reason="illegible" extent="two words" unit="chars" quantity="10"/> 
+                    of a Southern as <gap reason="illegible" extent="one word" unit="chars" quantity="2"/> as a 
+                    North<gap reason="illegible" unit="chars" quantity="3"/> 
+                    <hi rend="underline"><unclear reason="illegible" cert="high" resp="#me">more</unclear></hi>? 
+                    I would not recommend my section <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/>
+                    for a Northern man to <unclear reason="illegible" cert="high" resp="#me">make</unclear> 
+                    <hi rend="underline">a fortune except in</hi> raising clover or other 
+                    <hi rend="underline"><unclear reason="illegible" cert="high" resp="#nnk">hay</unclear></hi>.
+                    But a <hi rend="underline">Whitman</hi> would find many friends and fine 
+                    m<gap reason="illegible" unit="chars" quantity="5"/> <unclear reason="illegible" cert="high" resp="#me">here</unclear> 
+                    <gap reason="illegible" extent="one word" unit="chars" quantity="4"/> nothing very or extra 
+                    healthy <gap reason="illegible" extent="about two words" unit="chars" quantity="10"/> or 
+                    <hi rend="underline">striking in scenery</hi>.</p>
             </postscript>
         </body>
     </text>

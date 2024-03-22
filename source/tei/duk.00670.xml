@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00670">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00670">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,7 +12,7 @@
           <name>The Walt Whitman Archive Staff</name>
         </respStmt>
         <sponsor>Center for Digital Research in the Humanities, University of
-          Nebraska&#8211;Lincoln</sponsor>
+          Nebraska–Lincoln</sponsor>
         <sponsor>University of Iowa</sponsor>
         <funder>National Historical Publications and Records Commission</funder>
       </titleStmt>
@@ -23,12 +22,12 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>duk.00670</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
           <addrLine>319 Love Library</addrLine>
-          <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+          <addrLine>University of Nebraska–Lincoln</addrLine>
           <addrLine>P.O. Box 884100</addrLine>
           <addrLine>Lincoln, NE 68588-4100</addrLine>
         </address>
@@ -41,7 +40,7 @@
             Humanities. Permission to reproduce the graphic images in this archive has
             been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>duk.00670</idno></publicationStmt>
       <notesStmt>
         <note type="project" anchored="true">The following are responsible for particular readings or for
           changes to this file, as noted: 
@@ -61,9 +60,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">2</biblScope>
-              <biblScope type="page">325</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">2</biblScope>
+              <biblScope unit="page">325</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -107,16 +106,16 @@
         <salute>Dear John, &amp; 'Sula,</salute>
       </opener>
 
-      <p>This will show you that "the lamp still holds out to burn"&#8212;though I have had a bad two months past&#8212;I have had another paralytic stroke,<ptr target="duk.00670_n2"/> but it passed over, without any thing serious, (it is probable 
-        I have had several slight strokes)&#8212;but I am feeling, as I write, about the same as is now usual for me&#8212;still entertain expectations&#8212;</p>
+      <p>This will show you that "the lamp still holds out to burn"—though I have had a bad two months past—I have had another paralytic stroke,<ptr target="duk.00670_n2"/> but it passed over, without any thing serious, (it is probable 
+        I have had several slight strokes)—but I am feeling, as I write, about the same as is now usual for me—still entertain expectations—</p>
       
-      <p>If practicable I shall bring out a Vol. the coming summer&#8212;I hope to pay you <hi rend="italic">the visit</hi> yet&#8212;Did you get the paper 
-        I sent with a report of Emerson's late lecture on <hi rend="italic">Eloquence</hi>&#8212;of course interesting, from him, but nothing very stunning, 
-        it seemed to me&#8212;I see that Conway is coming to America next autumn certain, to see things, travel, lecture, &amp;c&#8212;<ptr target="duk.00670_n3"/>&#8212;</p>
+      <p>If practicable I shall bring out a Vol. the coming summer—I hope to pay you <hi rend="italic">the visit</hi> yet—Did you get the paper 
+        I sent with a report of Emerson's late lecture on <hi rend="italic">Eloquence</hi>—of course interesting, from him, but nothing very stunning, 
+        it seemed to me—I see that Conway is coming to America next autumn certain, to see things, travel, lecture, &amp;c—<ptr target="duk.00670_n3"/>—</p>
       
       <p>John, [I] send you the last letter from a quondam correspondent &amp; unseen rebel friend of mine, 
-        away down in Alabama<ptr target="duk.00670_n4"/>&#8212;He seems to me a good affectionate fellow, a sort of uncut gem&#8212;I have had five or six letters from him, 
-        all primitive but good&#8212;What are <hi rend="italic">you</hi> about?&#8212;&amp; how are you &amp; 'Sula getting along?
+        away down in Alabama<ptr target="duk.00670_n4"/>—He seems to me a good affectionate fellow, a sort of uncut gem—I have had five or six letters from him, 
+        all primitive but good—What are <hi rend="italic">you</hi> about?—&amp; how are you &amp; 'Sula getting along?
       </p>
 
       <closer>
@@ -124,7 +123,7 @@
       </closer>
       
       <postscript>
-        <p>My brother &amp; sister well&#8212;brother full of business&#8212;</p>
+        <p>My brother &amp; sister well—brother full of business—</p>
       </postscript>
     </body>
   </text>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.00825">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.00825">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -27,7 +25,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.00825</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +37,7 @@
             <availability>
                <p>Copyright © 2008 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.00825</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -49,9 +47,9 @@
                   <imprint>
                      <pubPlace>New York</pubPlace>
                      <publisher>New York University Press</publisher>
-                     <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                     <biblScope type="volume">1</biblScope>
-                     <biblScope type="page">220&#8211;221</biblScope>
+                     <date notBefore="1961" notAfter="1977">1961–1977</date>
+                     <biblScope unit="volume">1</biblScope>
+                     <biblScope unit="page">220–221</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -59,7 +57,7 @@
                <author>Walt Whitman</author>
                <title>Walt Whitman to Louisa Van Velsor Whitman, 10 May 1864</title>
                <date when="1864-05-10">May 10, 1864</date>
-               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+               <orgName xml:id="loc">Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -94,13 +92,13 @@
                </dateline>
                <salute>Dearest Mother,</salute>
             </opener>
-            <p>There is nothing perhaps more than you see in the N Y papers&#8212;the fighting down in the field on the 6th I think ended in our favor, though with pretty severe losses to some of our divisions&#8212;the fighting is about 70 miles from here &amp; 50 from Richmond&#8212;on the 7th &amp; 8th followed up by the rebel army hauling off, they say retreating, &amp; Meade pursuing&#8212;it is quite mixed yet, but I guess we have the best of it&#8212;if we really have, Richmond is a goner, for they cannot do any better than they have done&#8212;how much the 9th corps was in the fight, &amp; where, I cannot tell yet, but from the wounded I have seen I dont think that corps was deeply in&#8212;I have seen 300 wounded, they came in last night, I asked for men of 9th corps, but could not find any at all&#8212;these 300 men were not badly wounded, mostly in arms, hands, trunk of body, &amp;c.&#8212;they could all walk, though some had an awful time of it&#8212;they had to fight their way, with the worst in the middle, out of the region of Fredericksburgh, &amp; so on where they could get across the Rappahannock &amp; get where they found transportation to Washington&#8212;the gov't has decided (or rather Gen Meade has) to occupy Fredericksburgh,<ptr target="loc.00825_n1"/> for depot &amp; hospitals&#8212;(I think that a first rate decision)&#8212;so the wounded men will receive quick attention &amp; surgery, instead of being racked through the long journey up here&#8212;still may come in here&#8212;Mother, my impression is that we have no great reason for alarm or sadness about George so far&#8212;of course I <hi rend="italic">know</hi> nothing&#8212;Well good by, dearest mother,</p>
+            <p>There is nothing perhaps more than you see in the N Y papers—the fighting down in the field on the 6th I think ended in our favor, though with pretty severe losses to some of our divisions—the fighting is about 70 miles from here &amp; 50 from Richmond—on the 7th &amp; 8th followed up by the rebel army hauling off, they say retreating, &amp; Meade pursuing—it is quite mixed yet, but I guess we have the best of it—if we really have, Richmond is a goner, for they cannot do any better than they have done—how much the 9th corps was in the fight, &amp; where, I cannot tell yet, but from the wounded I have seen I dont think that corps was deeply in—I have seen 300 wounded, they came in last night, I asked for men of 9th corps, but could not find any at all—these 300 men were not badly wounded, mostly in arms, hands, trunk of body, &amp;c.—they could all walk, though some had an awful time of it—they had to fight their way, with the worst in the middle, out of the region of Fredericksburgh, &amp; so on where they could get across the Rappahannock &amp; get where they found transportation to Washington—the gov't has decided (or rather Gen Meade has) to occupy Fredericksburgh,<ptr target="loc.00825_n1"/> for depot &amp; hospitals—(I think that a first rate decision)—so the wounded men will receive quick attention &amp; surgery, instead of being racked through the long journey up here—still may come in here—Mother, my impression is that we have no great reason for alarm or sadness about George so far—of course I <hi rend="italic">know</hi> nothing—Well good by, dearest mother,</p>
             <closer rend="right">
-               <signed>Walt&#8212;</signed>
+               <signed>Walt—</signed>
             </closer>
          
          <postscript>
-            <p>Mother, I wrote you yesterday too&#8212;tell dear brother Jeff to write me&#8212;love to Mat&#8212;the poor diarrhea man<ptr target="loc.00825_n2"/> died, &amp; it was a boon&#8212;Oscar Cunningham, 82d Ohio, has had a relapse, I fear it is going bad with him&#8212;lung diseases are quite plenty&#8212;night before last I staid in hospital all night tending a poor fellow&#8212;it has been awful hot here&#8212;milder to-day&#8212;</p>
+            <p>Mother, I wrote you yesterday too—tell dear brother Jeff to write me—love to Mat—the poor diarrhea man<ptr target="loc.00825_n2"/> died, &amp; it was a boon—Oscar Cunningham, 82d Ohio, has had a relapse, I fear it is going bad with him—lung diseases are quite plenty—night before last I staid in hospital all night tending a poor fellow—it has been awful hot here—milder to-day—</p>
          </postscript>
       </body>
    </text>

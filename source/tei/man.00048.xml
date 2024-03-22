@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="man.00048">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="man.00048">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,7 +14,7 @@
                     <persName xml:id="nnk">Nima Najafi Kianfar</persName>
                     <persName xml:id="ej">Eder Jaramillo</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of
                     Nebraska-Lincoln</sponsor>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>man.00048</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>man.00048</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -100,8 +96,7 @@
                 </choice> Ledger, I think gave the true thing, just about what you wrote to us. I
                 hope by this time you are on the mend, and will be able to make your trip. I have
                 had such a delightful time, no             
-                <pb xml:id="leaf001v"
-                    facs="man_ej.00213_large.jpg" type="verso"/> heat, and we had no trouble on our
+                <pb xml:id="leaf001v" facs="man_ej.00213_large.jpg" type="verso"/> heat, and we had no trouble on our
                 trip, <choice>
                     <orig>every thing</orig>
                     <reg>everything</reg>
@@ -110,10 +105,8 @@
                 is wonderful too, we were fortunate in Hotels, and <choice><orig>every thing</orig><reg>everything</reg></choice>, I brought home some views of the Glen and Falls. Aunt Libbie<ptr target="duk.00615_n7"/> is here
                 still. Geo is well, in fact I never saw him look better, busy as ever, no time to
                 ride much. Mrs Berry and family, have gone to 
-                <pb xml:id="leaf002r"
-                    facs="man_ej.00214_large.jpg" type="recto"/>Moorestown to board this summer. Mrs
-                Wetherbee is away in Boston, <unclear reason="illegible" quantity="3" unit="words"
-                    cert="low" resp="#crl">Wht Marian Pains</unclear>, so our place is quiet. Mrs
+                <pb xml:id="leaf002r" facs="man_ej.00214_large.jpg" type="recto"/>Moorestown to board this summer. Mrs
+                Wetherbee is away in Boston, <unclear reason="illegible" quantity="3" unit="words" cert="low" resp="#crl">Wht Marian Pains</unclear>, so our place is quiet. Mrs
                 Wilson's infant is getting well. When I came home and found that the report was that
                 you were very sick, I said that if I had known that, I would have gone to Canada,
                 but the next day it was put in a milder way. I saw Mr Scovel<ptr target="n1049"/> in a street car the

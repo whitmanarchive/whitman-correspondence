@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00018">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00018">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -24,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>upa.00018</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +39,7 @@
             Research in the Humanities. Permission to reproduce the graphic images in this archive
             has been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>upa.00018</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for changes to
           this file, as noted: <persName xml:id="el">Elizabeth Lorang</persName>
@@ -60,9 +58,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="volume">3</biblScope>
-              <biblScope type="page">30&#8211;31</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="volume">3</biblScope>
+              <biblScope unit="page">30–31</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -71,7 +69,7 @@
           <author>Walt Whitman</author>
           <title>Walt Whitman to Anne Gilchrist, 17 March 1876</title>
           <date cert="high" when="1876-03-17" xml:id="dat1">March 17, 1876</date>
-          <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &amp; Manuscript
+          <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp; Manuscript
             Library, University of Pennsylvania</orgName>
         </bibl>
       </sourceDesc>
@@ -101,33 +99,32 @@
       <opener>
         <dateline>
           <name type="place" rend="right">431 Stevens st. <lb/>cor West. <lb/>Camden, <lb/>N.
-            Jersey</name>, <name type="place" rend="right">U. S. America&#8212;</name>
+            Jersey</name>, <name type="place" rend="right">U. S. America—</name>
           <date when="1876-03-17" rend="right">March 17 <lb/>'76</date>
         </dateline>
         <salute>Dearest friend,<ptr target="n0259"/></salute>
       </opener>
 
       <p>To your good &amp; comforting letter of Feb. 25th<ptr target="upa.00018_n1"/> I at once
-        answer, at least with a few lines. I have already <choice><orig>to&#8211;day</orig><reg>today</reg></choice> written (answering one just <choice><orig>rec'd</orig><reg>received</reg></choice> from him) a pretty long letter to Mr Rossetti<ptr target="n0522"/>, &amp; requested him to loan it to
+        answer, at least with a few lines. I have already <choice><orig>to–day</orig><reg>today</reg></choice> written (answering one just <choice><orig>rec'd</orig><reg>received</reg></choice> from him) a pretty long letter to Mr Rossetti<ptr target="n0522"/>, &amp; requested him to loan it to
         you for perusal. In that I have described my situation fully &amp; candidly.</p>
 
       <p>My new edition is printed &amp; ready. On receipt of your letter I have mailed you a set,
         two <choice><orig>vols.</orig><reg>volumes</reg></choice>, which you ought to have <choice><orig>rec'd</orig><reg>received</reg></choice> by this time. I wish you to send me word soon as they arrive.</p>
 
-      <p>My health I am encouraged to think is perhaps a shade better&#8212;certainly as well as any
+      <p>My health I am encouraged to think is perhaps a shade better—certainly as well as any
         time of late. I even already vaguely contemplate plans, (they may never be fulfilled, but
-        yet again they may,) of changes, journeys&#8212;even of coming to London, of seeing you, of
+        yet again they may,) of changes, journeys—even of coming to London, of seeing you, of
         visiting my friends, &amp;c. </p>
 
-      <p>My dearest friend, I do not approve your American trans&#8211;settlement<ptr
-          target="upa.00018_n2"/>&#8212;I see so many things here, you have yet no idea of&#8212;the
+      <p>My dearest friend, I do not approve your American trans–settlement<ptr target="upa.00018_n2"/>—I see so many things here, you have yet no idea of—the
         American social &amp; almost every other kind of crudeness, meagreness, (at least in
-        appearance)&#8212;Don't do any thing toward such a move, nor resolve on it, nor indeed make
+        appearance)—Don't do any thing toward such a move, nor resolve on it, nor indeed make
         any move at all in it, without further advice from me. If I should get well enough to
-        voyage, we will talk about it yet in London&#8212;You must not be uneasy about me&#8212;dear
+        voyage, we will talk about it yet in London—You must not be uneasy about me—dear
         friend, I get along much better than you suppose. As to my literary situation here, my
-        rejection by the coteries&#8212;&amp; my poverty, (which is the least of my
-        troubles)&#8212;I am not sure but I enjoy them all. Besides, as to the latter, I am not in
+        rejection by the coteries—&amp; my poverty, (which is the least of my
+        troubles)—I am not sure but I enjoy them all. Besides, as to the latter, I am not in
         want. Best love to you, &amp; to your children. </p>
 
       <closer>

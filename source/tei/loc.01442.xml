@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01442">  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Harry L. Dwight to Walt Whitman, 24 November 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Harry L. Dwight</author> 
+                <editor>Kenneth M. Price</editor> 
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.01442</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Harry L. Dwight</author>
+                    <title>Harry L. Dwight to Walt Whitman, 24 November 1891</title>
+                    <date cert="high" when="1891-11-24" xml:id="dat1">November 24, 1891</date>  
+                    <idno type="callno">MSS18630, Box 8, Reel 5</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00149</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName> 
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace">Horace Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Dwight, Harry L." ref="loc.01442_n1">Harry L. Dwight</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-20" who="#aja">final corrections</change>
+            <change when="2022-01-06" who="#cn">checked, corrected, added notes</change>
+            <change when="2021-09-17" who="#cn">checked, corrected, added notes</change>
+            <change when="2021-07-17" who="#aja">checked, corrected</change>
+            <change when="2019-09-16" who="#cn">transcribed, encoded</change> 
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.01442.003_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">
+                    <handShift rend="printed"/>
+                     FROM</name>
+                    <name type="place">HARRY L. DWIGHT,</name>
+                    <name type="place">MANUFACTURER AND JOBBER OF</name>
+                    <name type="place">BEE-KEEPERS' SUPPLIES</name>
+                    <name type="place">MODEL FOUNDATION.</name>
+                    <name type="place">Friendship, N.Y.<ptr target="loc.01442_n5"/></name>
+                    <date when="1891-11-24"><handShift rend="manuscript"/>11-24<handShift rend="printed"/> 1891.</date>
+                    
+                </dateline>
+                <salute><handShift rend="manuscript"/>Walt Whitman:</salute>
+                <salute>Camden.</salute>
+                <salute>N.J.</salute>
+                <salute>
+                  My Dear Sir:
+                </salute>
+            </opener>
+            <p>I read in the papers that you are sick and in want in your old age.</p>
+            <p>Now Mr. Whitman, I am not wealthy, but will be proud to have you come here and live with us, 
+                I own a small home and will be only too happy to assist you.
+                Kindly let me know by return mail if the statement in the papers is true. 
+                I sincerely hope it is not. I have a copy of your "Leaves of Grass." You
+                have always been my favorite poet, and I think it a shame that you should be left in need.</p>
+            <p>If circumstances are such that you need not come here or do not want assistance, 
+                I trust you will pardon this letter. It is written in all sincerity
+                and truth.</p>
+            <closer>
+                <salute>Your humble Admirer.</salute>
+                <signed>Harry L. Dwight.</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.01442.004_large.jpg" type="verso"/>  
+            <pb xml:id="leaf002r" facs="loc.01442.001_large.jpg" type="recto"/> 
+            <note type="editorial" place="middle" resp="#ht">see note Nov 27 1891</note>
+            <pb xml:id="leaf002v" facs="loc.01442.002_large.jpg" type="verso"/> 
+        </body>
+    </text>
+</TEI>

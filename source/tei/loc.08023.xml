@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08023">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08023">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08023</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,16 +44,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08023</idno></publicationStmt>
             <sourceDesc> 
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 7 April 1891</title>
                     <date cert="high" when="1891-04-07" xml:id="dat1">April 7, 1891</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -84,17 +81,17 @@
             <pb xml:id="leaf001r" facs="loc_jm.00118.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place">Camden<ptr target="loc.08023_n1"/>&#8212;</name>
+                    <name type="place">Camden<ptr target="loc.08023_n1"/>—</name>
                     <date when="1891-04-07">April 7 '91</date>
                 </dateline>
             </opener>
-            <p>Keeping on fairly I guess&#8212;Dr L<ptr target="loc.08039_n2"/> here
-                yesterday&#8212;take medicine every day&#8212;bowels mderately loose&#8212;inertia
-                &#38; headache quite heavy&#8212;appetite so-so (no nausea)&#8212;sleep
-                middling&#8212;the proofs (prose)<ptr target="loc.08023_n2"/> have pass'd 
-                page 51&#8212;D McKay<ptr target="n4983"/> has 
-                just paid me &#36;127.87&#8212;Warry<ptr target="loc.07319_n6"/> 
-                has gone over to Phila: with last proofs&#8212;</p>
+            <p>Keeping on fairly I guess—Dr L<ptr target="loc.08039_n2"/> here
+                yesterday—take medicine every day—bowels mderately loose—inertia
+                &amp; headache quite heavy—appetite so-so (no nausea)—sleep
+                middling—the proofs (prose)<ptr target="loc.08023_n2"/> have pass'd 
+                page 51—D McKay<ptr target="n4983"/> has 
+                just paid me $127.87—Warry<ptr target="loc.07319_n6"/> 
+                has gone over to Phila: with last proofs—</p>
             <closer>
                 <signed>W W</signed>
             </closer>

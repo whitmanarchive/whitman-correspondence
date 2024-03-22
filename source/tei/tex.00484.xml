@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tex.00484"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Edward Carpenter, 2 November 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor> 
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="cn">Cristin Noonan</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
+                        consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
+                        reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>tex.00484</idno></publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Walt Whitman</author>
+                        <editor>Edwin Haviland Miller</editor>
+                        <title xml:id="ehm">The Correspondence</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>New York University Press</publisher>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">5</biblScope>
+                            <biblScope unit="page">111</biblScope>
+                        </imprint>
+                    </monogr> 
+                </biblStruct> 
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Edward Carpenter, 2 November 1890</title>
+                    <date cert="high" when="1890-11-02" xml:id="dat1">November 2, 1890</date>
+                    <orgName xml:id="tex">The Walt Whitman Collection, Harry Ransom Humanities Research Center, The University of Texas at Austin</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ht"><persName key="Traubel, Horace L.">Horace L. Traubel</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName> 
+                </person>
+                <person role="recipient">
+                    <persName key="Carpenter, Edward" ref="n0141b">Edward Carpenter</persName> 
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-02-03" who="#smb">final check, corrected</change>
+            <change when="2021-10-24" who="#aja">2nd check, notes</change>
+            <change when="2021-07-22" who="#aja">checked, corrected</change>
+            <change when="2021-07-03" who="#cn">transcribed, encoded</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body> 
+            <opener>
+                <dateline>
+                    <name type="place">328 Mickle Street</name>
+                    <name type="place">Camden New Jersey</name>
+                    <name type="place">U S America
+                        <date when="1890-11-02">Nov: 2 '90</date>
+                    </name>
+                </dateline>
+                <salute>Dear E C—</salute>
+            </opener>
+            <p>
+                Am still here holding out (<hi rend="italic">sort o'</hi> as I call it)—Did 
+                you get the two big vols: (Complete Works<ptr target="n4195"/> 900 pp) I sent for you in a bundle by 
+                International Express to my friend R Pearsall Smith<ptr target="n4979"/> 
+                44 Grosvenor Road, Embankment, London?<ptr target="loc.08442_n2"/> 
+                One copy was for you &amp; one for Miss Ford<ptr target="loc.08442_n3"/>—If 
+                not rec'd by you, send &amp; get them—</p>
+            <p>
+                Things are going on much as ever, every additional season a peg or two falling out—ab't 
+                same constitutional good spirits (a great factor) holding on, but <hi rend="italic">grip</hi> &amp; 
+                bladder bother—I enclose you my latest piece just out—Had a benefit, Philadelphia, 
+                grand (eulogistic) speech f'm R G Ingersoll<ptr target="n0839"/>—Suppose 
+                you have rec'd the report in newspaper I sent—the 
+                Staffords<ptr target="loc.02189_n3"/> are as usual—Harry<ptr target="n0590"/> 
+                has given up telegraphing 
+                &amp; has a farm—has two children—Dr Bucke<ptr target="n0119"/> is well in 
+                Canada—comes down here occasionally—
+            </p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

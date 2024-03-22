@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04779">
+    <teiHeader>  
+        <fileDesc>  
+            <titleStmt>  
+                <title type="main" level="m">Walt Whitman to Hannah Whitman Heyde, 22 December 1890</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Maire Mullins</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="mm">Maire Mullins</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <sponsor>Kent State University</sponsor>
+                <sponsor>Pepperdine University</sponsor>
+                <funder>National Historical Publications and Records Commission</funder></titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, 
+                    all rights reserved. Items in the Archive may be shared in accordance with the Fair Use
+                    provisions of U.S. copyright law. Redistribution or republication on other
+                    terms, in any medium, requires express written consent from the editors and
+                    advance notification of the publisher, Center for Digital Research in the
+                    Humanities. Permission to reproduce the graphic images in this archive has
+                    been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.04779</idno></publicationStmt> 
+            <sourceDesc> 
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Hannah Whitman Heyde, 22 December 1890</title> 
+                    <date cert="high" when="1890-12-22" xml:id="dat1">December 22, 1890</date>
+                    <idno type="callno">MSS18630, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00041</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress,
+                        Washington, D.C.</orgName>  
+                    <relatedItem type="text" xml:id="rel01" target="loc.07949"/>
+                    <relatedItem type="document" target="wwa.00605"/>
+                    <note type="project" target="#rel01">Whitman opened an envelope in which he had received a previous letter from an unknown correspondent in Philadelphia, Pennsylvania, in 1890, and used the blank inside of the 
+                    envelope as writing paper in order to compose this letter to his sister Hannah Whitman Heyde.</note>
+                </bibl>
+            </sourceDesc> 
+        </fileDesc>  
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Heyde, Hannah Whitman" ref="n7033">Hannah Whitman Heyde</persName>
+                </person>
+            </particDesc>        
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2022-07-29" who="#smb">final corrections</change>
+            <change when="2020-10-12" who="#smb">added DOI</change>
+            <change when="2020-01-31" who="#smb">checked notes</change>
+            <change when="2019-09-25" who="#smb">checked and edited</change>
+            <change when="2019-03-14" who="#mm">edited and proofread</change>
+            <change when="2016-07-23" who="#mm">added footnotes and proofread</change>
+            <change when="2016-05-24" who="#mm">encoded</change>  
+        </revisionDesc> 
+    </teiHeader>   
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_ad.00149_large.jpg" type="recto"/>
+            <opener>
+                  <dateline>
+                      <name type="Camden">Camden</name>
+                      <date when="1890-12-22">Dec: 22 1890<ptr target="loc.04779_n1"/></date>
+                </dateline>
+                <salute>Dear sister Han</salute>
+            </opener> 
+            <p><hi rend="underline">Merry Christmas to you</hi> first thing, from my heart 
+                and soul—Nothing very new with me—fine
+                sunny to-day, (just after noon) and I want to get out
+                if possible in wheel chair<ptr target="loc.04779_n2"/>—Send you enclosed 
+                10—you might give one of the 5s to C<ptr target="loc.04779_n3"/>—haven't heard any thing 
+                further <choice><abbr>f'm</abbr><expan>from</expan></choice> Jessie<ptr target="loc.04779_n4"/> 
+                <choice><abbr>f'm</abbr><expan>from</expan></choice> St Louis
+                since—<choice><abbr>Y'rs</abbr><expan>yours</expan></choice>
+                <choice><abbr>recd</abbr><expan>received</expan></choice>—Love to you, 
+                sister dear—&amp; God bless you—</p>
+            <closer> 
+             <salute><choice><abbr>Y'r</abbr><expan>Your</expan>
+            </choice> affectionate brother</salute>
+                <signed>Walt Whitman</signed> 
+            </closer>
+            <pb xml:id="leaf001v" facs="loc_ad.00150_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

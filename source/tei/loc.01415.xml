@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01415">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01415">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01415</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01415</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>W. I. Whiting</author>
@@ -56,14 +52,14 @@
                     <date cert="high" when="1886-06-14" xml:id="dat1">June 14, 1886</date>
                     <idno type="callno">MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <particDesc>
                 <person role="sender">
-                    <persName key="Whiting, W. I." ref="n5000">>W. I. Whiting</persName>
+                    <persName key="Whiting, W. I." ref="n5000">&gt;W. I. Whiting</persName>
                 </person>
                 <person role="recipient">
                     <persName key="Whitman, Walt">Walt Whitman</persName>
@@ -91,7 +87,7 @@
                         <name type="place">SCAMMEL BROTHERS,</name>
                         <name type="place">29 BEAVER STREET.<lb/>NEW YORK.</name>
                         <name type="place">MAGEE BLOCK, WATER ST.,<lb/>SAINT. JOHN, N.B.</name>
-                        <name type="place">AGENTS AT SAINT JOHN<lb/>FOR THE <lb/>ANCHOR LINE <lb/>TRANS-ATLANTIC PENINSULAR &#38; <choice><orig>MEDITERANEAN</orig><reg>MEDITERRANEAN</reg></choice><lb/> STEAM PACKET SHIPS.</name>
+                        <name type="place">AGENTS AT SAINT JOHN<lb/>FOR THE <lb/>ANCHOR LINE <lb/>TRANS-ATLANTIC PENINSULAR &amp; <choice><orig>MEDITERANEAN</orig><reg>MEDITERRANEAN</reg></choice><lb/> STEAM PACKET SHIPS.</name>
                         <name type="place">J. WALTER SCAMMELL.<lb/> J. H. SCAMMELL.<lb/> FRED. E. SCAMMELL.</name>
                         <name type="place">CABLE ADDRESS: <lb/>"SCAMMELLS" <lb/>NEW YORK. ST. JOHN. N.B.</name>
      
@@ -102,7 +98,7 @@
                     <salute>Dear Sir</salute>
                 </opener>
                 <p> Trusting that the intelligence conveyed will plead for my presumption, I venture
-                    to enclose you a few lines. At a sale of Autographs, &#38; Books a few days ago
+                    to enclose you a few lines. At a sale of Autographs, &amp; Books a few days ago
                     the following prices were obtained, 
                     <list>
                         <item>"Autograph letter, Whitman, Walt, Poet," $80.00</item>

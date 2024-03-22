@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04876">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04876">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="bbb">Blake Bronson-Bartlett</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04876</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,13 +44,13 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04876</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Sophia Williams</author>
                     <title>Sophia Williams to Walt Whitman, 16 February 1888</title>
                     <date cert="high" when="1888-02-16" xml:id="dat1">February 16, 1888</date>
-                    <idno type="callno">MSS18630, Box 19, Reel 11&#8211;12</idno>
+                    <idno type="callno">MSS18630, Box 19, Reel 11–12</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
                         Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
@@ -95,8 +91,7 @@
                 asking him to dine with us at 6.15 this evening, going afterward with me to the
                 Thomas Concert<ptr target="loc.03310_n5"/> for which I have tickets.</p>
 
-            <p>If Mr. Rhys is not in when the boy reaches your house, will you kindly <pb
-                    xml:id="leaf001v" facs="loc_vm.01359.jpg" type="verso"/> send me word by the
+            <p>If Mr. Rhys is not in when the boy reaches your house, will you kindly <pb xml:id="leaf001v" facs="loc_vm.01359.jpg" type="verso"/> send me word by the
                 boy, as to the probabilities of his being able to come, as you may perchance know
                 his engagements. If he is at any place near, will you send the boy to him with his
                 note please. I am sorry to trouble you, but shall be very greatly obliged.</p>
@@ -109,7 +104,7 @@
                 <salute>Very Cordially</salute>
                 <signed>Sophia Wells Royce Williams</signed>
                 <dateline>
-                    <date cert="high" when="1888-02-16">February 16, 1888&#8212;</date>
+                    <date cert="high" when="1888-02-16">February 16, 1888—</date>
                 </dateline>
             </closer>
             <pb xml:id="leaf002v" facs="loc_vm.01361.jpg" type="verso"/>

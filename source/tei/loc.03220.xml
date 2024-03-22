@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03220">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03220">
     <teiHeader>
         <fileDesc>   
             <titleStmt>
@@ -31,7 +28,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03220</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -42,13 +39,13 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03220</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Henry Latchford</author>
@@ -57,7 +54,7 @@
                     <idno type="callno">MSS18630, Box 13, Reel 8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00261</idno>
                     <orgName xml:id="loc">
-                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, 
+                        The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
                         Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
@@ -107,9 +104,9 @@
                 <pb xml:id="leaf002v" facs="loc.03220.004_large.jpg" type="verso"/>
                 <pb xml:id="leaf003r" facs="loc.03220.005_large.jpg" type="recto"/>
                 that, among others, there is a genuine Waltwhitmaniac on the Chicago Board of Trade? From all accounts he is by no means a "Chump"
-                at board-of-trading. He is known to the world&#8212;polite and impolite&#8212;as "Old Hutch," (short I believe for Hutchinson<ptr target="loc.03220_n4"/>),
+                at board-of-trading. He is known to the world—polite and impolite—as "Old Hutch," (short I believe for Hutchinson<ptr target="loc.03220_n4"/>),
                 though I am inclined to think that competing traders would consider "Old Nick" a more appropriate term of endearment.
-                When he makes "any kind of a decent deal" at all he just plays with millions&#8212;the other fellows
+                When he makes "any kind of a decent deal" at all he just plays with millions—the other fellows
                 <pb xml:id="leaf003v" facs="loc.03220.006_large.jpg" type="verso"/>
                 <pb xml:id="leaf004r" facs="loc.03220.007_large.jpg" type="recto"/>
                 witnessing considerable of the "play" but somewhat less of the millions. He is a regular old pagan, so far as I can hear; an elaborate
@@ -148,15 +145,15 @@
                 <pb xml:id="leaf007v" facs="loc.03220.014_large.jpg" type="verso"/>
                 <pb xml:id="leaf008r" facs="loc.03220.015_large.jpg" type="recto"/>
                 of the hideously ungodly class.</p>
-            <p>My good friend and fellow-laborer on the Journal, James Chisholm<ptr target="n7054"/>&#8212;An American citizen born and reared in <hi rend="underline">Awberdeen</hi>&#8212;joins
+            <p>My good friend and fellow-laborer on the Journal, James Chisholm<ptr target="n7054"/>—An American citizen born and reared in <hi rend="underline">Awberdeen</hi>—joins
                 me in sending you greeting and high esteem.</p>
             <p>What can you wish for that you do not possess? You do not want for such palliatives of old age as "Honor, love, obedience, troops of friends." 
                 But your comrades here, known and unknown to you, do hope that mother Nature may continue to deal very tenderly with you, and may fondly nourish
                 and protect
                 <pb xml:id="leaf008v" facs="loc.03220.016_large.jpg" type="verso"/>
                 <pb xml:id="leaf009r" facs="loc.03220.017_large.jpg" type="recto"/>
-                your great and special treasure&#8212;"The boy's heart within the man's."</p>  
-            <p>You remember, perhaps, having read some verses of Arthur Hugh Clough<ptr target="n7055"/> called "Songs In Absence."<ptr target="loc.03220_n2"/> May I quote a few lines!&#8212;</p>
+                your great and special treasure—"The boy's heart within the man's."</p>  
+            <p>You remember, perhaps, having read some verses of Arthur Hugh Clough<ptr target="n7055"/> called "Songs In Absence."<ptr target="loc.03220_n2"/> May I quote a few lines!—</p>
             <floatingText type="poem"> 
                 <body>
                     <lg type="linegroup"> 
@@ -177,7 +174,7 @@
                 hearts and lives of some of us a home more beautiful and permanent than any made with hands.</p>
             <p>
                 Let me then wish you a merry birthday anniversary, and as many of them as may be good for you.
-                Hoping you will not forget absent friends, I remain, with all the ardor of a regular&#8212;or irregular&#8212;dyed-in-the-wool,
+                Hoping you will not forget absent friends, I remain, with all the ardor of a regular—or irregular—dyed-in-the-wool,
                 born Irishman,
             </p>   
             <closer>
@@ -192,18 +189,4 @@
             <pb xml:id="leaf011v" facs="loc.03220.020_large.jpg" type="verso"/>
         </body>
     </text>
-</TEI> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</TEI>

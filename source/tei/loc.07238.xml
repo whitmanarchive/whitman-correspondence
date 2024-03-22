@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07238">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07238">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07238</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07238</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -57,7 +53,7 @@
                     <date cert="high" when="1888-09-12" xml:id="dat1">September 12, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,21 +85,15 @@
             <pb xml:id="leaf001r" facs="loc_es.00356.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07238_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
-                        ONTARIO<lb/>London, Ont.,</name><date when="1888-09-12" rend="right"
-                            ><handShift rend="manuscript"/>12 Sept <handShift rend="printed"
-                            />188<handShift rend="manuscript"/>8</date>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07238_n1"/><lb/>ASYLUM FOR THE INSANE<lb/>LONDON.<lb/>
+                        ONTARIO<lb/>London, Ont.,</name><date when="1888-09-12" rend="right"><handShift rend="manuscript"/>12 Sept <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>
             </opener>
-            <p>Still keeps lovely weather here&#8212;in fact more and more pleasant if possible. I
+            <p>Still keeps lovely weather here—in fact more and more pleasant if possible. I
                 go this afternoon to Sarnia to attend (tomorrow morning) the wedding of Miss Pardee<ptr target="loc.07238_n2"/>
-                &#38; Fred. Kittermaster<ptr target="loc.07233_n2"/>&#8212;the latter a nephew of Mrs. Buckes'.<ptr
-                    target="n4273"/> I shall return here noon friday &#38; probably write you that
+                &amp; Fred. Kittermaster<ptr target="loc.07233_n2"/>—the latter a nephew of Mrs. Buckes'.<ptr target="n4273"/> I shall return here noon friday &amp; probably write you that
                 evening. Everything quiet here including the meter<ptr target="loc.07230_n2"/> but we expect to be ready to make
-                another step in the matter next week. I do not hear from Gilchrist<ptr
-                    target="n0262"/>&#8212;what <pb xml:id="leaf001v" facs="loc_es.00357.jpg"
-                    type="verso"/> is he doing? I suppose you see a good deal of him?</p>
+                another step in the matter next week. I do not hear from Gilchrist<ptr target="n0262"/>—what <pb xml:id="leaf001v" facs="loc_es.00357.jpg" type="verso"/> is he doing? I suppose you see a good deal of him?</p>
             <closer>
                 <salute>Always affectionately yours</salute>
                 <signed rend="right">RM Bucke</signed>

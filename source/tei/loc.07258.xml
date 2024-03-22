@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07258">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07258">
     <teiHeader>
         <fileDesc>                
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>     
             <publicationStmt>
-                <idno>loc.07258</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07258</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -55,7 +52,7 @@
                     <date cert="high" when="1888-10-23" xml:id="dat1">October 23, 1888</date>
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -86,13 +83,11 @@
             <pb xml:id="leaf001r" facs="loc_es.00430.jpg" type="recto"/>
             <opener>
                 <dateline>
-                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07258_n1"/></name>
+                    <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07258_n1"/></name>
                     <name type="place">ASYLUM FOR THE INSANE</name>
                     <name type="place">LONDON. ONTARIO</name>
                     <name type="place">London, Ont.,</name>
-                    <date when="1888-10-23"><handShift rend="manuscript"/>23 Oct <handShift
-                            rend="printed"/>188<handShift rend="manuscript"/>8</date>
+                    <date when="1888-10-23"><handShift rend="manuscript"/>23 Oct <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
                 </dateline>    
             </opener> 
             <p>Your letter of 13th<ptr target="loc.07258_n6"/> to Burroughs,<ptr target="n0129"/>
@@ -102,23 +97,19 @@
                 I have written a long letter to O'C. to try to cheer him up a bit, I fear he is in a
                 bad way. That <choice><orig>paralisis</orig><reg>paralysis</reg></choice> of the eyelid (Ptosis) 
                 I fear will not let up. It is an extension of the disease (sclerosis) that has troubled him so long and a disease of
-                this kind is a good deal more in the habit of going <hi rend="underline"
-                    >forwards</hi> than <hi rend="underline">backwards</hi>.<ptr target="loc.07258_n2"/></p>  
-            <p>It is still raining here (beats the Dutch how it rains) we have had <pb
-                    xml:id="leaf001v" facs="loc_es.00431.jpg" type="verso"/> hardly a fine day in a
+                this kind is a good deal more in the habit of going <hi rend="underline">forwards</hi> than <hi rend="underline">backwards</hi>.<ptr target="loc.07258_n2"/></p>  
+            <p>It is still raining here (beats the Dutch how it rains) we have had <pb xml:id="leaf001v" facs="loc_es.00431.jpg" type="verso"/> hardly a fine day in a
                 month and it <hi rend="underline">looks</hi> this morning as if we <choice><abbr>shd</abbr><expan>should</expan></choice> never 
                 have fine weather again. It is well enough (as Longfellow says) that
-                    <hi rend="underline">some</hi> days should be dark and dreary&#8212;but I don't
+                    <hi rend="underline">some</hi> days should be dark and dreary—but I don't
                 see the fun of so much cloudy weather.</p>
-            <p>I am glad you like the Photo&#8212;I have not had many printed from it yet, been
+            <p>I am glad you like the Photo—I have not had many printed from it yet, been
                 waiting for bright weather to try another negative but I agree with you that the one
-                I sent you is very good. No word yet from Wm Gurd<ptr
-                    target="n4284"/> in re meter&#8212;I shall not be able to fix the time of my
-                going East <choice><sic>untill</sic><corr>until</corr></choice> I hear from him (and perhaps not when I <hi rend="underline"
-                    >first</hi> hear from him). Yours of 21st<ptr target="loc.07258_n3"/> just to
-                hand&#8212;I have not seen <hi rend="underline">any</hi> of the papers you mention,
-                wish you or Horace<ptr target="n4267"/> <choice><abbr>wd</abbr><expan>would</expan></choice> send them &#38; the Critic<ptr target="loc.07258_n5"/> with your letter in when it comes out. We are
-                all well and all goes on as usual&#8212;quiet and pleasant. Shall write again
+                I sent you is very good. No word yet from Wm Gurd<ptr target="n4284"/> in re meter—I shall not be able to fix the time of my
+                going East <choice><sic>untill</sic><corr>until</corr></choice> I hear from him (and perhaps not when I <hi rend="underline">first</hi> hear from him). Yours of 21st<ptr target="loc.07258_n3"/> just to
+                hand—I have not seen <hi rend="underline">any</hi> of the papers you mention,
+                wish you or Horace<ptr target="n4267"/> <choice><abbr>wd</abbr><expan>would</expan></choice> send them &amp; the Critic<ptr target="loc.07258_n5"/> with your letter in when it comes out. We are
+                all well and all goes on as usual—quiet and pleasant. Shall write again
                 soon</p>
             <closer> 
                 <salute>Love to you</salute>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01541">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01541">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,7 +22,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01541</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +40,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01541</idno></publicationStmt>
             
             <sourceDesc>
                 <bibl>
@@ -50,7 +49,7 @@
 
                     <date cert="high" when="1872-02-16" xml:id="dat1">February 16, 1872</date>
                     <idno type="callno">MSS18630, Box 9, Reel 5-6</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -83,7 +82,7 @@
             <note type="editorial" resp="#unk" place="top"><hi rend="underline">Saturday</hi></note>
             <opener> 
                 <dateline>
-                    <name type="place" rend="right">Brooklyn,<ptr target="loc.01541_n2" /> <lb/>107 north Portland av.</name>
+                    <name type="place" rend="right">Brooklyn,<ptr target="loc.01541_n2"/> <lb/>107 north Portland av.</name>
                     <date when="1872-02-16" rend="right"><choice><abbr>Feb.</abbr><expan>February</expan></choice> 16, 1872</date>.
                     
                 </dateline>
@@ -91,14 +90,14 @@
                 <salute>Dear, dear son,</salute>
             </opener>
 
-            <p>We are having a very cold spell here, the severest of the winter&#8212;freezes up the pipes through the house, 
-                &amp; burst them yesterday, causing great trouble&#8212;I too have got a bad cold, my head all stopped&#8212;</p> 
+            <p>We are having a very cold spell here, the severest of the winter—freezes up the pipes through the house, 
+                &amp; burst them yesterday, causing great trouble—I too have got a bad cold, my head all stopped—</p> 
             
-            <p>&#8212;I came through all right last Saturday,<ptr target="loc.01541_n1"/> on time&#8212;quite a pleasant trip&#8212;Mother is very well, 
-                full as well as usual&#8212;I am having quiet good <pb xml:id="leaf001v" facs="loc.01523.004_large.jpg" type="verso"/>times home here, with Mother&#8212;stay in the house 
-                more than usual, on account of the bitter cold, (but go out two or three hours during the day)&#8212;</p>
+            <p>—I came through all right last Saturday,<ptr target="loc.01541_n1"/> on time—quite a pleasant trip—Mother is very well, 
+                full as well as usual—I am having quiet good <pb xml:id="leaf001v" facs="loc.01523.004_large.jpg" type="verso"/>times home here, with Mother—stay in the house 
+                more than usual, on account of the bitter cold, (but go out two or three hours during the day)—</p>
             
-            <p>I will only write this very short letter to you this time, but send you my love, my darling son&#8212;I think about you every day dear son&#8212;will write more, soon&#8212;here is a kiss for you dear loving son.
+            <p>I will only write this very short letter to you this time, but send you my love, my darling son—I think about you every day dear son—will write more, soon—here is a kiss for you dear loving son.
             </p>
 
             <closer>
@@ -108,8 +107,8 @@
             
             <postscript>
                 
-                <p>Pete, I am making out a poor scraggy letter to you this time&#8212;I feel pretty well, 
-                    but don't seem to feel like writing&#8212;Good bye for to-day, my loving boy&#8212;</p>
+                <p>Pete, I am making out a poor scraggy letter to you this time—I feel pretty well, 
+                    but don't seem to feel like writing—Good bye for to-day, my loving boy—</p>
                 
                 <p>Your true Father &amp; Comrade always
                 </p>

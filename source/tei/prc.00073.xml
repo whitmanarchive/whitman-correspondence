@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="prc.00073">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prc.00073">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>prc.00073</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>prc.00073</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">3</biblScope>
-                            <biblScope type="page">223&#8211;224</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="page">223–224</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -95,50 +91,47 @@
             <opener>
                 <dateline>
                     <name type="place">Camden</name>
-                    <date when="1881-05-05">May 5th Evening<ptr target="prc.00073_n1"
-                        /></date>
+                    <date when="1881-05-05">May 5th Evening<ptr target="prc.00073_n1"/></date>
                 </dateline>
                 <salute>Dear Hank</salute>
             </opener>
             <p>Yours of yesterday <choice>
                 <orig>rec'd</orig>
                 <reg>received</reg>
-            </choice> this afternoon, &#38; glad to hear from you &#38; the
-                folks&#8212;I hear from you now &#38; then by Hoag<ptr target="prc.00073_n2"/> or
-                Burr, who tell me they meet you up here frequently&#8212;(I wish you had said how
-                Hieneken is getting along&#8212;is he getting better?)</p>
-            <p>Well, Hank, my Boston tramp, lecture, &#38;c. turned out far ahead of what I had any
-                idea of&#8212;it was not a very large room, but it was packed full (at &#36;1 a head)
-                &#38; they say there never was a more <hi rend="italic">high toned crowd</hi>
-                collected in the town&#8212;full half were ladies, &#38; I never saw finer
-                ones&#8212;I had good quarters at the principal hotel, the Revere House,
+            </choice> this afternoon, &amp; glad to hear from you &amp; the
+                folks—I hear from you now &amp; then by Hoag<ptr target="prc.00073_n2"/> or
+                Burr, who tell me they meet you up here frequently—(I wish you had said how
+                Hieneken is getting along—is he getting better?)</p>
+            <p>Well, Hank, my Boston tramp, lecture, &amp;c. turned out far ahead of what I had any
+                idea of—it was not a very large room, but it was packed full (at $1 a head)
+                &amp; they say there never was a more <hi rend="italic">high toned crowd</hi>
+                collected in the town—full half were ladies, &amp; I never saw finer
+                ones—I had good quarters at the principal hotel, the Revere House,
                 (dead-headed, the proprietor, Mr Ferrin invited me to stay as long as I
-                liked)&#8212;&#38; callers all the time&#8212;So, boy, you see how your uncle was
-                    <hi rend="italic">set up</hi>&#8212;&#38; yet I am going to speak to all my old
+                liked)—&amp; callers all the time—So, boy, you see how your uncle was
+                    <hi rend="italic">set up</hi>—&amp; yet I am going to speak to all my old
                 friends just the same! !</p>
-            <p>Have had several little jobs writing lately&#8212;<choice><orig>Phila:</orig><reg>Philadelphia</reg>
-            </choice> and N. Y. papers<ptr
-                    target="prc.00073_n3"/>&#8212;(will send you the <hi rend="italic">Critic</hi>
-                of the latter city next Monday or Tuesday with my piece in)&#8212;<choice><orig>Havn't</orig><reg>Haven't</reg>
+            <p>Have had several little jobs writing lately—<choice><orig>Phila:</orig><reg>Philadelphia</reg>
+            </choice> and N. Y. papers<ptr target="prc.00073_n3"/>—(will send you the <hi rend="italic">Critic</hi>
+                of the latter city next Monday or Tuesday with my piece in)—<choice><orig>Havn't</orig><reg>Haven't</reg>
                 </choice> felt very
-                well lately&#8212;a real bad spell last night &#38; this forenoon&#8212;don't feel
-                right living in the city any how, after the summer comes on&#8212;very possibly
-                shall go off to Canada again, as Dr and Mrs B[ucke] wish me to, &#38; write
-                strongly&#8212;</p>
+                well lately—a real bad spell last night &amp; this forenoon—don't feel
+                right living in the city any how, after the summer comes on—very possibly
+                shall go off to Canada again, as Dr and Mrs B[ucke] wish me to, &amp; write
+                strongly—</p>
             <p>I sent you a little book of poetry by a boy 13 years old, in Pennsylvania, he sent it
-                to me with a nice letter<ptr target="prc.00073_n4"/>&#8212;Well, Hank, my sheet is
-                short &#38; most full, &#38; I must come to a close&#8212;I gather by your letter
-                that you are in good spirits&#8212;love to you &#38; God bless you&#8212;I am sorry
-                enough to hear your mother is unwell&#8212;Susan, my dear friend, I hope when this
-                comes you will be all right&#8212;</p>
+                to me with a nice letter<ptr target="prc.00073_n4"/>—Well, Hank, my sheet is
+                short &amp; most full, &amp; I must come to a close—I gather by your letter
+                that you are in good spirits—love to you &amp; God bless you—I am sorry
+                enough to hear your mother is unwell—Susan, my dear friend, I hope when this
+                comes you will be all right—</p>
             <closer>
                 <signed rend="right">Walt Whitman</signed>
             </closer>
             <postscript>
-                <p>I suppose your mother got a letter &#38; some papers from Boston,<ptr
-                        target="prc.00073_n5"/> as I sent them, &#38; of course supposed you would
-                    all read them&#8212;my best love to your mother &#38; father &#38; I want you to
-                    let them read this&#8212;</p>
+                <p>I suppose your mother got a letter &amp; some papers from Boston,<ptr target="prc.00073_n5"/> as I sent them, &amp; of course supposed you would
+                    all read them—my best love to your mother &amp; father &amp; I want you to
+                    let them read this—</p>
             </postscript>
         </body>
     </text>

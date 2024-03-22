@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04290">    
+    <teiHeader>       
+        <fileDesc>         
+            <titleStmt>               
+                <title level="m" type="main">Walt Whitman to Horace Traubel, 12 November 1890</title>              
+                <title level="m" type="sub">a machine readable transcription</title>          
+                <author>Walt Whitman</author>               
+                <editor>Kenneth M. Price</editor>                
+                <editor>Ed Folsom</editor>              
+                <respStmt>                 
+                    <resp>Transcription and encoding</resp>                   
+                    <persName xml:id="rf">Ryan Furlong</persName> 
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>               
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>            
+                <sponsor>University of Iowa</sponsor>                
+                <funder>National Historical Publications and Records Commission</funder>           
+            </titleStmt>          
+            <editionStmt>             
+                <edition>
+                    <date>2022</date>               
+                </edition>         
+            </editionStmt>          
+            <publicationStmt>           
+                              
+                <distributor>The Walt Whitman Archive</distributor>             
+                <address>                   
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>                 
+                    <addrLine>319 Love Library</addrLine>                    
+                    <addrLine>University of Nebraska-Lincoln</addrLine>                   
+                    <addrLine>P.O. Box 884100</addrLine>                  
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>                
+                </address>               
+                <availability>                
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be 
+                    shared in accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on 
+                    other terms, in any medium, requires express written consent from the editors and advance notification of the 
+                    publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this 
+                    archive has been granted by the owners of the originals for this publication only.</p>              
+                </availability>       
+            <idno>loc.04290</idno></publicationStmt>           
+            <sourceDesc>               
+                <bibl>                
+                    <author>Walt Whitman</author>                   
+                    <title>Walt Whitman to Horace Traubel, 12 November 1890</title>                   
+                    <date when="1890-11-12">November 12, 1890</date>     
+                    <idno type="callno">MSS18630, Box 17, Reel 10–11</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00392</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, 
+                        Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>        
+        </fileDesc>        
+        <profileDesc>          
+            <particDesc>
+                <person role="sender">                    
+                    <persName key="Whitman, Walt">Walt Whitman</persName>               
+                </person>               
+                <person role="recipient">                 
+                    <persName key="Traubel, Horace" ref="n4267">Horace Traubel</persName>                
+                </person>         
+            </particDesc>        
+        </profileDesc>       
+        <revisionDesc>  
+            <change when="2022-03-23" who="#aja">final corrections</change>
+            <change when="2021-12-28" who="#smb">final check, corrected</change>
+            <change when="2021-10-01" who="#me">checked, corrected</change>
+            <change when="2021-07-22" who="#aja">checked, corrected</change>
+            <change when="2020-08-17" who="#rf">transcription and encoding</change>        
+        </revisionDesc>   
+    </teiHeader>  
+    <text type="letter">
+        <pb xml:id="leaf001r" facs="loc_vm.00622_large.jpg" type="recto"/>        
+        <body>            
+            <opener>           
+                <note type="authorial" place="top">To precede the Ingersoll<ptr target="n0839"/> Lecture<ptr target="loc.07846_n8"/></note>
+                <dateline rend="right">
+                    <name type="place">Camden New Jersey</name>                   
+                    <date when="1890-11-12">Nov: 12 1890</date>               
+                </dateline>               
+                <salute>My dear friend Horace Traubel:</salute>            
+            </opener>           
+            <p>I can only congratulate
+                you—&amp; as far as may be endorse
+                (the authenticity of) the bold &amp; eloquent 
+                address a copy of wh'
+                R G I. has himself given you.</p> 
+               <closer rend="right">                
+               <signed>Walt Whitman</signed>            
+               </closer>                      
+            <pb xml:id="leaf001v" facs="loc_vm.00623_large.jpg" type="verso"/>        
+        </body>     
+    </text> 
+</TEI>

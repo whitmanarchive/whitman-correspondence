@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="duk.00849">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="duk.00849">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt> 
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="km">Kevin McMullen</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>duk.00849</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2015 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>duk.00849</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -58,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">100</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">100</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -100,34 +96,32 @@
                     <date when="1887-06-09">Monday forenoon <lb/>June 13 '87</date>
                 </dateline> 
             </opener> 
-            <p>Yours of 11th just rec'd<ptr target="duk.00849_n4"/>&#8212;it is a fine bright morning, just the right
-                temperature&#8212;I am feeling better to-day&#8212;freer (almost free) of the heavy
+            <p>Yours of 11th just rec'd<ptr target="duk.00849_n4"/>—it is a fine bright morning, just the right
+                temperature—I am feeling better to-day—freer (almost free) of the heavy
                 congested condition (especially the head department) that has been upon me for
-                nearly a week&#8212;Took a long drive yesterday &#38; have been living much on
-                strawberries of late&#8212;Don't write much&#8212;just sold &#38; got the money
-                for&#8212;&#38; it comes in good, I tell you&#8212;a poem to <hi rend="italic"
-                    >Lippincotts</hi>&#8212;(Mr Walsh<ptr target="loc.04628_n1"/> editor&#8212;friendly to me)&#8212;poem called
+                nearly a week—Took a long drive yesterday &amp; have been living much on
+                strawberries of late—Don't write much—just sold &amp; got the money
+                for—&amp; it comes in good, I tell you—a poem to <hi rend="italic">Lippincotts</hi>—(Mr Walsh<ptr target="loc.04628_n1"/> editor—friendly to me)—poem called
                 "November Boughs," a cluster of sonnet-like bits, making one piece, in shape like
-                "Fancies at Navesink"&#8212;that ("November Boughs") is the name, by the by, I think
-                of giving my little book, I want to have out before '87 closes&#8212;shall probably
-                print it here in Phila: myself&#8212;it will merely give the pieces I have uttered the last five
-                years, in correct form, more permanent in book shape&#8212;probably nothing
-                new&#8212;I see a piece in Saturday's June 11 N Y <hi rend="italic">Times</hi><ptr target="duk.00849_n2"/>
+                "Fancies at Navesink"—that ("November Boughs") is the name, by the by, I think
+                of giving my little book, I want to have out before '87 closes—shall probably
+                print it here in Phila: myself—it will merely give the pieces I have uttered the last five
+                years, in correct form, more permanent in book shape—probably nothing
+                new—I see a piece in Saturday's June 11 N Y <hi rend="italic">Times</hi><ptr target="duk.00849_n2"/>
                 that Boyle O'Reilly<ptr target="n4973"/> is treasurer of my <hi rend="italic">summer
-                    cottage fund</hi>&#8212;(dear Boyle, if you see him say I sent my best love
-                &#38; thanks)&#8212;I wish you fellows, Baxter<ptr target="n6000"/>, Mrs
-                F[airchild]<ptr target="duk.00843_n2"/>, yourself &#38;c, to leave the selection, arrangement, disposal &#38;c
-                of the cottage, (where, how, &#38;c) <hi rend="italic">to me</hi>&#8212;the whole
-                thing is something I am making much reckoning of&#8212;more probably than you all
-                are aware&#8212;the am't shall be put of course to that definite single purpose,
-                &#38; <hi rend="italic">there</hi> I shall probably mainly live the rest of my
-                days&#8212;O how I want to get amid good air&#8212;the air is so tainted here, five
-                or six months in the year, at best<ptr target="duk.00849_n3"/>&#8212;As I write
+                    cottage fund</hi>—(dear Boyle, if you see him say I sent my best love
+                &amp; thanks)—I wish you fellows, Baxter<ptr target="n6000"/>, Mrs
+                F[airchild]<ptr target="duk.00843_n2"/>, yourself &amp;c, to leave the selection, arrangement, disposal &amp;c
+                of the cottage, (where, how, &amp;c) <hi rend="italic">to me</hi>—the whole
+                thing is something I am making much reckoning of—more probably than you all
+                are aware—the am't shall be put of course to that definite single purpose,
+                &amp; <hi rend="italic">there</hi> I shall probably mainly live the rest of my
+                days—O how I want to get amid good air—the air is so tainted here, five
+                or six months in the year, at best<ptr target="duk.00849_n3"/>—As I write
                 Herbert Gilchrist<ptr target="n0262"/> is here sketching in my portrait for an oil
-                painting&#8212;I hear from Dr Bucke<ptr target="n0119"/> often&#8212;nothing now of
-                late from O'Connor<ptr target="n2002"/>, who is still in So: Cal&#8212;My friend Pearsall Smith<ptr
-                    target="n4979"/> &#38; his daughter sailed for England in the Eider last
-                Saturday&#8212;</p>
+                painting—I hear from Dr Bucke<ptr target="n0119"/> often—nothing now of
+                late from O'Connor<ptr target="n2002"/>, who is still in So: Cal—My friend Pearsall Smith<ptr target="n4979"/> &amp; his daughter sailed for England in the Eider last
+                Saturday—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

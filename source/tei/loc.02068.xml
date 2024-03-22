@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02068">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Fanny Fern to Walt Whitman, 21 April [1856]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Fanny Fern</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="lc">Lauren Claeys</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="em">Erel Michaelis</persName>
+                    <persName xml:id="kjb">Kassie Jo Baron</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02068</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Fanny Fern</author>
+                    <title>Fanny Fern to Walt Whitman, 21 April [1856]</title>
+                    <date cert="high" when="1856-04-21" xml:id="dat1">April 21, [1856]</date>
+                    <idno type="callno">MSS18630, Box 9; reel 5–6</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00174</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="ww"><persName key="Whitman, Walt">Walt Whitman</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Fern, Fanny" ref="loc.04850_n2">Fanny Fern</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>  
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-21" who="#smb">updated notes</change>
+            <change when="2022-09-09" who="#jh">checked, corrected</change>
+            <change when="2022-06-22" who="#kjb">checked, corrected</change>
+            <change when="2021-12-10" who="#em">checked, corrected</change>
+            <change when="2021-11-05" who="#me">checked, corrected</change>
+            <change when="2021-07-27" who="#aja">checked, corrected</change>
+            <change when="2020-11-12" who="#lc">transcribed, encoded; SLIS:6335: Metadata Theories
+                and Applications Class, Fall 2020, Micah Bateman, Lecturer, University of
+                Iowa</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc.02068.001_large.jpg" type="recto"/>
+            <p>"Leaves of Grass"<ptr target="loc.02068_n1"/></p>
+            <p>You are <hi rend="underline">delicious</hi>! May my right-hand wither if I don't tell
+                the world before another week, what <hi rend="underline">one</hi> woman thinks of
+                you.<ptr target="loc.02068_n3"/></p>
+            <p>"Walt"? "what <hi rend="underline">I</hi> assume, <hi rend="underline">you</hi> shall
+                assume!" Some one evening this week you are to spend with Jemmy<ptr target="loc.02068_n2"/> &amp; me—Wednesday?—say.</p>
+            <closer>
+                <salute rend="center">Yours truly,</salute>
+                <signed rend="center">Fanny Fern</signed>
+                <dateline>
+                    <date when="1856-04-21" rend="left">Sunday, April 21st</date>
+                </dateline>
+            </closer>
+            <pb xml:id="leaf001v" facs="loc.02068.002_large.jpg" type="verso"/>
+            <pb xml:id="leaf002r" facs="loc.02068.005_large.jpg" type="recto"/>
+            <note type="editorial" resp="#ww" place="top">From Fanny Fern</note>
+            <note type="editorial" resp="#ww" place="top">From Fanny Fern</note>
+            <pb xml:id="leaf002v" facs="loc.02068.006_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

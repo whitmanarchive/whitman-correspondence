@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04486">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title level="m" type="main">Talcott Williams to Walt Whitman, [20 May 1887]</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Talcott Williams</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of
+                    Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                        Items in the Archive may be shared in accordance with the Fair Use
+                        provisions of U.S. copyright law. Redistribution or republication on other
+                        terms, in any medium, requires express written consent from the editors and
+                        advance notification of the publisher, Center for Digital Research in the
+                        Humanities. Permission to reproduce the graphic images in this archive has
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.04486</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Talcott Williams</author>
+                    <title>Talcott Williams to Walt Whitman, [20 May 1887]</title>
+                    <date cert="low" when="1887-05-20" xml:id="dat1">[May 20, 1887]</date>
+                    <idno type="callno">MSS18630, Box 19, Reel 11–12</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00421</idno>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <handNote xml:id="unk"><persName key="Unknown">Unknown</persName></handNote>
+            </handNotes>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Williams, Talcott" ref="loc.05142_n5">Talcott Williams</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc> 
+            <change when="2023-08-08" who="#smb">final check, corrected</change>
+            <change when="2023-07-17" who="#aja">final corrections for Ed</change>
+            <change when="2022-08-31" who="#smb">final check, corrected</change>
+            <change when="2022-07-15" who="#pw">checked, corrected</change>
+            <change when="2022-03-09" who="#aja">2nd check, corrected</change>
+            <change when="2022-03-01" who="#aja">checked, corrected</change>
+            <change when="2022-02-27" who="#me">transcribed, encoded</change>
+        </revisionDesc> 
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_vm.01388_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <date when="1887-05-20">Friday. A.M.</date>
+                </dateline>
+                <salute>My dear Mr. Whitman</salute>
+            </opener>
+            <p>The Asherah, the little club of which I spoke to you,<ptr target="loc.04486_n1"/>
+                goes tomorrow Saturday May 21 to Gloucester. We shall go down in a tug, leaving
+                Spruce at wharf at 5 P.M. We will call for you at any Camden wharf, if you will go
+                down on the tug or will you meet us? If this reaches you Friday, a letter will reach
+                me, but I think you <pb xml:id="leaf001v" facs="loc_vm.01389_large.jpg" type="verso"/> had better 
+                telegraph to the office any way. I hope you can go by tug or
+                <unclear reason="illegible" resp="#aja" cert="low">trace</unclear>—one way or the other. You will like the boys, they will adore you and it
+                will do you and us good all around</p>
+            <closer>
+                <salute>Yours</salute>
+                <signed>Talcott Williams</signed>
+            </closer>
+            <pb xml:id="leaf002r" facs="loc_vm.01390_large.jpg" type="recto"/>
+            <pb xml:id="leaf002v" facs="loc_vm.01391_large.jpg" type="verso"/>
+            <note type="editorial" resp="#unk" place="right">T. Williams</note>
+        </body>
+    </text>
+</TEI>

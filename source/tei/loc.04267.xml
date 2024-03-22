@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04267">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04267">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04267</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,14 +42,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04267</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Ellen Terry</author>
                     <title>Ellen Terry to Walt Whitman, 4 January 1888</title>
                     <date cert="high" when="1888-01-04" xml:id="dat1">January 4, 1888</date>
                     <idno type="callno">MSS18630, Box 17</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -91,20 +87,20 @@
                     <name type="place" rend="right"><hi rend="underline">Grand Pacific Hotel</hi><ptr target="loc.04267_n1"/></name>
                 </dateline> 
                  
-                <salute>Honoured Sir&#8212;</salute>
-                <salute>&#38; Dear Poet&#8212;</salute>
+                <salute>Honoured Sir—</salute>
+                <salute>&amp; Dear Poet—</salute>
             </opener>
-            <p>I beg you to accept my appreciative thanks for your great kindness in sending me by Mr. Stoker<ptr target="n0602"/> the little <hi rend="underline">big</hi> book of poems&#8212;"As a Strong Bird" etc, &#38;c.&#8212;</p>           
-            <p>Since I am not personally known to you I conclude Mr. Stoker "<hi rend="underline">asked</hi>" for me&#8212;it was
+            <p>I beg you to accept my appreciative thanks for your great kindness in sending me by Mr. Stoker<ptr target="n0602"/> the little <hi rend="underline">big</hi> book of poems—"As a Strong Bird" etc, &amp;c.—</p>           
+            <p>Since I am not personally known to you I conclude Mr. Stoker "<hi rend="underline">asked</hi>" for me—it was
             <pb xml:id="leaf001v" facs="loc_vm.00420.jpg" type="verso"/>
             <pb xml:id="leaf002r" facs="loc_vm.00421.jpg" type="recto"/>
-            good of him&#8212;I know he loves you very much.</p>
-            <p>God bless you Dear Sir&#8212;believe me to be with much respect</p>            
+            good of him—I know he loves you very much.</p>
+            <p>God bless you Dear Sir—believe me to be with much respect</p>            
           <closer>
                 <salute>Yours affectionately</salute>
                 <signed rend="right"><hi rend="underline">Ellen Terry</hi>.</signed>
             <address>
-                <addrLine>Chicago&#8212;</addrLine> 
+                <addrLine>Chicago—</addrLine> 
             </address>
             <dateline>
                 <date when="1888-01-04">January 4<hi rend="superscript">th</hi>, 88.</date>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?> 
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01201">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01201">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +11,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="ak">Alex Kinnaman</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="if">Ian Faith</persName>
                     <persName xml:id="kb">Kyle Barton</persName>
                     <persName xml:id="nhg">Nicole Gray</persName>
@@ -31,7 +27,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01201</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -41,7 +37,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -49,7 +45,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01201</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>James S. Charles</author>
@@ -57,7 +53,7 @@
                     <date cert="high" when="1886-12-20" xml:id="dat1">December 20, 1886</date>
                     <idno type="callno">MSS18630</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -93,12 +89,11 @@
                 <salute>Dear Sir:</salute>
             </opener>
             <p>I send here with five dollars (5.00) a sort of "Widows Mite"<ptr target="loc.01201_n1"/> to aid your Citizen, Poet, and
-            Philanthropist&#8212;Walt Whitman</p>  
+            Philanthropist—Walt Whitman</p>  
             <p>I marvel at our Country that its intellect
-                should be an object of charity&#8212;And aid from a foreign Country called to bestow
+                should be an object of charity—And aid from a foreign Country called to bestow
                 Alms. </p>
-            <p>But the universal greed for gain; which Americans to-day seek, to the exclusion <pb
-                    xml:id="leaf001v" facs="loc.01201.002_large.jpg" type="verso"/> of everything
+            <p>But the universal greed for gain; which Americans to-day seek, to the exclusion <pb xml:id="leaf001v" facs="loc.01201.002_large.jpg" type="verso"/> of everything
                 Morally, Socially or intellectually, gives little encouragement for a life
                 devoted to Culture.</p>
             <closer>

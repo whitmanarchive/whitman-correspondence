@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="yal.00238">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to John Burroughs, 12 April 1887</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="pw">Paige Wilkinson</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in 
+                        accordance with the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any 
+                        medium, requires express written consent from the editors and advance notification of the publisher, Center for Digital 
+                        Research in the Humanities. Permission to reproduce the graphic images in this archive has been granted by the owners 
+                        of the originals for this publication only.</p>
+                </availability>
+            <idno>yal.00238</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to John Burroughs, 12 April 1887</title>
+                    <date cert="high" when="1887-04-12" xml:id="dat1">April 12, 1887</date>
+                    <orgName xml:id="yal">Yale Collection of American Literature, Beinecke Rare Book and Manuscript Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc> 
+            <particDesc> 
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person> 
+                <person role="recipient">
+                    <persName key="Burroughs, John" ref="n0129">John Burroughs</persName>
+                </person>
+            </particDesc>     
+        </profileDesc>  
+        <revisionDesc> 
+            <change when="2022-07-04" who="#aja">final corrections</change>
+            <change when="2022-06-24" who="#pw">checked</change>
+            <change when="2022-02-20" who="#me">checked, corrected</change>
+            <change when="2015-11-16" who="#smb">final check, corrected</change>
+            <change when="2015-11-05" who="#km">checked</change>
+            <change when="2015-09-17" who="#ss">checked and corrected</change>
+            <change when="2015-09-10" who="#rf">encoded</change>
+        </revisionDesc>
+    </teiHeader>  
+    <text type="letter">
+        <body>  
+            <pb xml:id="leaf001r" facs="yal.00238.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden</name>
+                    <date when="1887-04-12">April 12 '87 A M</date>
+                </dateline>
+                <salute>Dear friend</salute>
+            </opener>
+            <p>Yours of yesterday rec'd this morning<ptr target="n5002d"/>—I shall leave here in the 
+                4:30 P M Camden via Trenton to NY train to–morrow, Wednesday, &amp; expect to be in Jersey 
+                City by or before 7, early evening—A friend, R. Pearsall Smith<ptr target="n4979"/> is convoying 
+                me, &amp; I understand I am to go with him to the Westminster Hotel, for the night—Yes, meet 
+                me in Jersey City—I shall expect you:—the young man Wm Duckett<ptr target="med.00747_n1"/> 
+                is coming on with me—I am feeling better than for the last two weeks, &amp; shall go through 
+                with the lecture, according to announcement<ptr target="yal.00238_n3b"/>—I am to have, (according 
+                to wish &amp; arrangement of Mr Smith) a reception at Westminster Hotel, Thursday evening—returning 
+                here Friday—</p>
+            <closer>
+                <salute>Best love &amp; thanks—</salute>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <pb xml:id="leaf001v" facs="yal.00238.002_large.jpg" type="verso"/>
+        </body>
+    </text>
+</TEI>

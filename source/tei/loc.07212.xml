@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?>  
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07212">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch" type="xml"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07212">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07212</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2017 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,15 +44,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07212</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 15 June 1888</title>
                     <date cert="high" when="1888-06-15" xml:id="dat1">June 15, 1888</date>
-                    <idno type="callno">MSS18630, Box 4, Reel 2&#8211;3</idno>
+                    <idno type="callno">MSS18630, Box 4, Reel 2–3</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -87,8 +83,7 @@
                 <pb xml:id="leaf002r" facs="loc_es.00254.jpg" type="recto"/>
                 <opener>
                     <dateline>
-                        <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr
-                            target="loc.07212_n1"/><lb/>ASYLUM FOR THE INSANE,<lb/>LONDON,<lb/>
+                        <name type="place"><handShift rend="printed"/>Superintendent's Office.<ptr target="loc.07212_n1"/><lb/>ASYLUM FOR THE INSANE,<lb/>LONDON,<lb/>
                             ONTARIO<lb/>London, Ont.,</name>
                         <date when="1888-06-15" rend="right"><handShift rend="manuscript"/>15 June
                                 <handShift rend="printed"/>188<handShift rend="manuscript"/>8</date>
@@ -100,19 +95,17 @@
                     Pardee<ptr target="n4274"/> in Sarnia
                     are not very good and I shall go there tomorrow evening to have a look at him. I
                     have heard nothing yet from Harned<ptr target="loc.03745_n1"/> or <choice><sic>Trauble</sic><corr>Traubel</corr></choice><ptr target="n4267"/> since
-                    I left Camden but there has hardly been time&#8212;hope to get a card this
-                    evening&#8212;I have found time to write the circular<ptr target="loc.07212_n2"/> and give it to the <pb
-                        xml:id="leaf002v" facs="loc_es.00255.jpg" type="verso"/> printer, I will
-                    send you a <hi rend="underline">proof</hi> early in the week&#8212;but mind <hi
-                        rend="underline">you are not supposed to see it</hi> however you may as well
-                    and perhaps you would suggest a verbal change or two&#8212;if you feel like it
+                    I left Camden but there has hardly been time—hope to get a card this
+                    evening—I have found time to write the circular<ptr target="loc.07212_n2"/> and give it to the <pb xml:id="leaf002v" facs="loc_es.00255.jpg" type="verso"/> printer, I will
+                    send you a <hi rend="underline">proof</hi> early in the week—but mind <hi rend="underline">you are not supposed to see it</hi> however you may as well
+                    and perhaps you would suggest a verbal change or two—if you feel like it
                     do so.</p>
                 <p>If we get plenty of money (as I confidently hope) as a result of this circular it
-                    may be that you would not care to issue the &#36;5. book, as we spoke of, but that is
+                    may be that you would not care to issue the $5. book, as we spoke of, but that is
                     a matter to consider later. Our grounds here are perfectly lovely. I wish I
-                    could drive you about them&#8212;the weather is charming here&#8212;I have in
+                    could drive you about them—the weather is charming here—I have in
                     front of me, on my desk, here in my office an enormous bouquet of snowballs,
-                    peonies, sweet flag &#38;c</p> 
+                    peonies, sweet flag &amp;c</p> 
                 <closer>
                     <salute>Love to you</salute>
                     <signed rend="right">RM Bucke</signed>
@@ -124,10 +117,9 @@
                     all the <hi rend="underline">explanatory</hi> pieces you have written. My
                     opinion (not that it is worth any thing) is that <hi rend="underline">this</hi>
                     book of yours ought to have a sale and I think it should be published at a quite
-                    reasonable price&#8212;say &#36;1. or &#36;1.25 to encourage this&#8212;if it <hi
-                        rend="underline">should</hi> sell it would no doubt introduce many new
+                    reasonable price—say $1. or $1.25 to encourage this—if it <hi rend="underline">should</hi> sell it would no doubt introduce many new
                     people to L.of G.</p>
-                <p>Mail in&#8212;no word from Camden. I hope you are not worse</p>
+                <p>Mail in—no word from Camden. I hope you are not worse</p>
                 <signed rend="right">RMB</signed>
                 <pb xml:id="leaf003v" facs="loc_es.00257.jpg" type="verso"/>
                 <pb xml:id="leaf001r" facs="loc_es.00252.jpg" type="recto"/>

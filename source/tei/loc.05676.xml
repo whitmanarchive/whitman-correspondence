@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.05676">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.05676">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,7 +26,7 @@
             </edition>
          </editionStmt>
          <publicationStmt>
-            <idno>loc.05676</idno>
+            
             <distributor>The Walt Whitman Archive</distributor>
             <address>
                <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -46,7 +44,7 @@
                   the graphic images in this archive has been granted by the owners of the originals
                   for this publication only.</p>
             </availability>
-         </publicationStmt>
+         <idno>loc.05676</idno></publicationStmt>
          <sourceDesc>
             <biblStruct>
                <monogr>
@@ -57,8 +55,8 @@
                      <pubPlace>Iowa City</pubPlace>
                      <publisher>University of Iowa Press</publisher>
                      <date>2004</date>
-                     <biblScope type="volume">7</biblScope>
-                     <biblScope type="page">42</biblScope>
+                     <biblScope unit="volume">7</biblScope>
+                     <biblScope unit="page">42</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -68,7 +66,7 @@
                <date cert="high" when="1875-08-09" xml:id="dat1">August 9, 1875</date>
                <idno type="callno">MSS18630</idno>
                <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                  Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                  Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -96,12 +94,10 @@
       <body>
 
          <opener>
-            <dateline><name type="place" rend="right">431 Stevens st. <lb/>cor West. <lb/>Camden, <lb/>N. Jersey,</name><date when="1875-08-09"
-               rend="right">Aug 9, '75.</date></dateline>
+            <dateline><name type="place" rend="right">431 Stevens st. <lb/>cor West. <lb/>Camden, <lb/>N. Jersey,</name><date when="1875-08-09" rend="right">Aug 9, '75.</date></dateline>
             <salute rend="left">My dear Mr. Editor,</salute>
          </opener>
-         <p>Would this piece be available for the Magazine?&#8212;The price is $100.<ptr
-            target="loc.05676_n1"/></p>
+         <p>Would this piece be available for the Magazine?—The price is $100.<ptr target="loc.05676_n1"/></p>
          <closer rend="right">
             <signed>Walt Whitman</signed>
          </closer>

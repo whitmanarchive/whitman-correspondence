@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03983">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03983">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03983</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2010 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright © 2010 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,14 +44,14 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03983</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Harry Stafford</author>
                     <title>Harry Stafford to Walt Whitman, 21 July 1877</title>
                     <date cert="high" when="1877-07-21" xml:id="dat1">July 21, 1877</date>
                     <idno type="callno">MSS18630</idno>
-                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                    <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,7 +85,7 @@
                     <name type="place">Kirkwood</name>
                     <date when="1877-07-21">July 21 1877</date>
                 </dateline>
-                <salute>Dear friend&#8212;<ptr target="n0590"/></salute>
+                <salute>Dear friend—<ptr target="n0590"/></salute>
             </opener>
 
             <p>I thought I would write a few lines to you and let you know how I am. I cannot get you off my mind somehow. I heard something that made me feel bad, and I saw that you did not want to bid me good bye when you went away yesterday. I will tell you what it was. I heard that you was going to Washington and stay and be <choice><orig>gon</orig><reg>gone</reg></choice> <choice><sic>fore</sic><corr>for</corr></choice> some time, is it so? I thought it was very strange in you, in not saying

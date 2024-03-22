@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03163">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03163">
     <teiHeader> 
         <fileDesc>
             <titleStmt>
@@ -27,7 +24,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03163</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -37,7 +34,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -45,16 +42,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03163</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Sloane Kennedy</author>
                     <title>William Sloane Kennedy to Walt Whitman, 12 May 1891</title>
                     <date cert="high" when="1891-05-12" xml:id="dat1">May 12, 1891</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00257</idno>
                     <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -83,9 +80,9 @@
         <body>
             <pb xml:id="leaf001r" facs="loc.03163.002_large.jpg" type="recto"/>
             <opener/>
-            <p>I bt Traubel's<ptr target="n4267"/> piece&#8212;The New Englander Whitman
-                number&#8212;today<ptr target="loc.03163_n4"/> &amp; frau<ptr target="loc.03053_n1b"/> &amp; I are sitting here by kitchen 
-                fire enjoying it. It's the best thing ever done here in Massat. &#38; on W.W. good for T. &amp; Mead!<ptr target="loc.03163_n5"/> What, I
+            <p>I bt Traubel's<ptr target="n4267"/> piece—The New Englander Whitman
+                number—today<ptr target="loc.03163_n4"/> &amp; frau<ptr target="loc.03053_n1b"/> &amp; I are sitting here by kitchen 
+                fire enjoying it. It's the best thing ever done here in Massat. &amp; on W.W. good for T. &amp; Mead!<ptr target="loc.03163_n5"/> What, I
                 wonder, do the Vice Society, idiots here think of these things?</p>
             <closer>
                 <signed rend="center">W.S.K.</signed>

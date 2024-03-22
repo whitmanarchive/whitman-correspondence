@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="uva.00593"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uva.00593"> 
     <teiHeader> 
         <fileDesc> 
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>uva.00593</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,7 +43,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>uva.00593</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">209</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">209</biblScope>
                         </imprint>
                     </monogr> 
                 </biblStruct>
@@ -98,16 +95,16 @@
                     <date when="1888-09-10">Sept: 10 '88</date>
                 </dateline>
             </opener>
-            <p>The enclosed card has just come from Rolleston<ptr target="n1027"/>&#8212;Delgany,
-                County Wicklow, Ireland,<ptr target="uva.00593_n2"/> I address him&#8212;I have had a hard time with sickness
-                (another spell of war paralysis, the fifth or sixth time) all summer&#8212;the
-                serious attack warded off again&#8212;but extreme weakness of legs and body
-                remaining&#8212;Keeping me in my sick room so far&#8212;yet my usual mentality &#38;
-                good heart continued&#8212;</p>
-            <p>My little new 140 page &#36;1.25 booklet "November Boughs"<ptr target="n3999"/> is finishing the print work
-                &#38; shall send you a copy soon as it is done. I am to have all my books printed
-                &#38; bound in one large 900 page Vol. too, ("Walt Whitman Complete")<ptr target="n4151"/> soon
-                ready&#8212;I am sitting in my room writing this, body almost paralyzed&#8212;</p>
+            <p>The enclosed card has just come from Rolleston<ptr target="n1027"/>—Delgany,
+                County Wicklow, Ireland,<ptr target="uva.00593_n2"/> I address him—I have had a hard time with sickness
+                (another spell of war paralysis, the fifth or sixth time) all summer—the
+                serious attack warded off again—but extreme weakness of legs and body
+                remaining—Keeping me in my sick room so far—yet my usual mentality &amp;
+                good heart continued—</p>
+            <p>My little new 140 page $1.25 booklet "November Boughs"<ptr target="n3999"/> is finishing the print work
+                &amp; shall send you a copy soon as it is done. I am to have all my books printed
+                &amp; bound in one large 900 page Vol. too, ("Walt Whitman Complete")<ptr target="n4151"/> soon
+                ready—I am sitting in my room writing this, body almost paralyzed—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="med.00438">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="med.00438">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +22,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <idno>med.00438</idno>
+        
         <distributor>The Walt Whitman Archive</distributor>
         <address>
           <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -36,7 +32,7 @@
           <addrLine>Lincoln, NE 68588-4100</addrLine>
         </address>
         <availability>
-          <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights
+          <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights
             reserved. Items in the Archive may be shared in accordance with the Fair Use
             provisions of U.S. copyright law. Redistribution or republication on other
             terms, in any medium, requires express written consent from the editors and
@@ -44,7 +40,7 @@
             Humanities. Permission to reproduce the graphic images in this archive has
             been granted by the owners of the originals for this publication only.</p>
         </availability>
-      </publicationStmt>
+      <idno>med.00438</idno></publicationStmt>
       <notesStmt>
         <note type="project">The following are responsible for particular readings or for
           changes to this file, as noted: 
@@ -66,9 +62,9 @@
             <imprint>
               <pubPlace>New York</pubPlace>
               <publisher>New York University Press</publisher>
-              <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-              <biblScope type="page">332</biblScope>
-                <biblScope type="volume">2</biblScope>
+              <date notBefore="1961" notAfter="1977">1961–1977</date>
+              <biblScope unit="page">332</biblScope>
+                <biblScope unit="volume">2</biblScope>
             </imprint>
           </monogr>
         </biblStruct>
@@ -105,7 +101,7 @@
     <body>
       <opener>
         <dateline>
-          <name type="place" rend="right">431 Stevens st. <lb />cor West. <lb />Camden, <lb />N. Jersey.</name>
+          <name type="place" rend="right">431 Stevens st. <lb/>cor West. <lb/>Camden, <lb/>N. Jersey.</name>
           <date when="1875-05-07" rend="right">May 7, '75</date>
      <ptr target="med.00438_n1"/>
         </dateline>
@@ -114,15 +110,15 @@
       </opener>
 
       <p>Thinking that possibly I might be itemised or briefly biographised in the Cyclopaedia I thought I would send you, 
-        (or to Mr. Dana,)<ptr target="med.00438_n3"/> the accompanying sketch&#8212;some authentic statistics, (as I find I am beginning to be noted, 
-        &#38; they make sad work of it sometimes.)<ptr target="med.00438_n4"/>
+        (or to Mr. Dana,)<ptr target="med.00438_n3"/> the accompanying sketch—some authentic statistics, (as I find I am beginning to be noted, 
+        &amp; they make sad work of it sometimes.)<ptr target="med.00438_n4"/>
       </p>
       
       <p>Leaving of course the whole thing in your hands, I should like you to get the <hi rend="italic">statistics</hi>, the <hi rend="italic">fact-basis</hi>, 
-        right&#8212;(&#38; should you think proper can be further consulted here, or proof sent, &#38;c.)&#8212;My book <hi rend="italic">Leaves of Grass</hi> 
-        as now printed, is in its permanent form&#8212;My other Vol. of equal size <hi rend="italic">Two Rivulets</hi>, (i.e. of Real and Ideal) 
-        <hi rend="italic">will comprise all my other writings, Prose &#38; Verse</hi>, &#38; is now being put into type. I am still prostrated with 
-        Cerebral &#38; liver affection, but work occasionally.
+        right—(&amp; should you think proper can be further consulted here, or proof sent, &amp;c.)—My book <hi rend="italic">Leaves of Grass</hi> 
+        as now printed, is in its permanent form—My other Vol. of equal size <hi rend="italic">Two Rivulets</hi>, (i.e. of Real and Ideal) 
+        <hi rend="italic">will comprise all my other writings, Prose &amp; Verse</hi>, &amp; is now being put into type. I am still prostrated with 
+        Cerebral &amp; liver affection, but work occasionally.
       </p>
       
       <closer>

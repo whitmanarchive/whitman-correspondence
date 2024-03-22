@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.04084">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.04084">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.04084</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.04084</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -59,7 +55,7 @@
                             <pubPlace>San Francisco</pubPlace>
                             <publisher>Gay Sunshine Press</publisher>
                             <date when="1987">1987</date>
-                            <biblScope type="page">166</biblScope>
+                            <biblScope unit="page">166</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -70,7 +66,7 @@
                     <title>Susan Stafford to Walt Whitman, 29 December [1878]</title>
                     <date cert="medium" when="1878-12-29" xml:id="dat1">December 29, 1878</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -103,17 +99,16 @@
                 <salute>Dear friend,</salute>
             </opener>
 
-            <p>we have looked for you down with us so long &#38; you have not come that we have
+            <p>we have looked for you down with us so long &amp; you have not come that we have
                 given up all hope of ever seeing you again with us so I write to say the kit of fish
                 and all the nice presents that you have so kindly sent us have all come safe and we
                 all thank you more than words can tell.<ptr target="n0817"/> I should have written for you last weeks to
                 spend Christmas with us but I had a very severe <choice>
                     <sic>attact</sic>
                     <corr>attack</corr>
-                </choice> of the heart &#38; was not able to do so <space unit="chars" quantity="3"
-                /> I am better now will you please come this week <space unit="chars" quantity="3"/>
+                </choice> of the heart &amp; was not able to do so <space unit="chars" quantity="3"/> I am better now will you please come this week <space unit="chars" quantity="3"/>
                 we shall look for you <space unit="chars" quantity="3"/> do not disappoint us. We
-                have waited so long please write what day you will come &#38; we will meet you at
+                have waited so long please write what day you will come &amp; we will meet you at
                 the Station,</p>
 
             <closer>

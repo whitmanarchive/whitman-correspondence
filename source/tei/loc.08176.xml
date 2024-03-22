@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08176">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08176">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08176</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,16 +43,16 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08176</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
                     <title>Richard Maurice Bucke to Walt Whitman, 17 October 1891</title>
                     <date cert="high" when="1891-10-17" xml:id="dat1">October 17, 1891</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00102</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,21 +85,19 @@
                     <name type="place">Office.</name>
                     <name type="place">INSANE ASYLUM</name>
                     <name type="place">LONDON ONTARIO<ptr target="loc.08176_n1"/></name>
-                    <date when="1891-10-17"><handShift rend="manuscript"/>17 Oct <handShift
-                        rend="printed"/>18<handShift rend="manuscript"/>91</date>
+                    <date when="1891-10-17"><handShift rend="manuscript"/>17 Oct <handShift rend="printed"/>18<handShift rend="manuscript"/>91</date>
                 </dateline> 
             </opener>
-            <p>Well, dear Walt, here we are still&#8212;same old 2 &#38; 6&#8212;I have your post
+            <p>Well, dear Walt, here we are still—same old 2 &amp; 6—I have your post
                 card of 14<hi rend="underline">th</hi><ptr target="loc.08176_n2"/> and glad to get
-                it and judge by it that you are still fair to middling&#8212;not suffering much I
+                it and judge by it that you are still fair to middling—not suffering much I
                 trust tho' I fear not having an extra good time. Who is the "offer to publish"
-                from?&#8212;Reeves?<ptr target="loc.08176_n5"/> Harry Forman<ptr target="n0240"/> is
-                safe to do anything you want him&#8212;he is a good fellow and a good friend. The
-                weather here is <hi rend="underline">perfect</hi>&#8212;bright, cool days and the
-                most glorious moonlight nights&#8212;I am reading Bacon<ptr target="n4261"/> and
-                Shakespeare<ptr target="med.00858_n4"/>&#8212;B'<hi rend="underline">s</hi>
-                Henry VII<ptr target="loc.08176_n3"/> &#38; Sh's Henry VIII<ptr
-                    target="loc.08176_n4"/> and comparing them&#8212;I will bet money the same man
+                from?—Reeves?<ptr target="loc.08176_n5"/> Harry Forman<ptr target="n0240"/> is
+                safe to do anything you want him—he is a good fellow and a good friend. The
+                weather here is <hi rend="underline">perfect</hi>—bright, cool days and the
+                most glorious moonlight nights—I am reading Bacon<ptr target="n4261"/> and
+                Shakespeare<ptr target="med.00858_n4"/>—B'<hi rend="underline">s</hi>
+                Henry VII<ptr target="loc.08176_n3"/> &amp; Sh's Henry VIII<ptr target="loc.08176_n4"/> and comparing them—I will bet money the same man
                 wrote them both</p> 
             <closer>
                 <salute>Always affectionately</salute>

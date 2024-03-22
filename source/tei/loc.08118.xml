@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>  
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.08118">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.08118">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.08118</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p> Copyright &#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                    <p> Copyright © 2020 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only. </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.08118</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Richard Maurice Bucke</author>
@@ -56,7 +53,7 @@
                     <idno type="callno">MSS18630, Box 5, Reel 3</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00100</idno>
                     <orgName xml:id="loc"> The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -89,33 +86,30 @@
                     <name type="place">Office.</name>
                     <name type="place">INSANE ASYLUM</name>
                     <name type="place">LONDON ONTARIO</name>
-                    <date when="1891-02-19"><handShift rend="manuscript"/>19 Feb <handShift
-                            rend="printed"/>18<handShift rend="manuscript"/>91</date>
+                    <date when="1891-02-19"><handShift rend="manuscript"/>19 Feb <handShift rend="printed"/>18<handShift rend="manuscript"/>91</date>
                 </dateline> 
             </opener>
             <p>I have your post card of 16<hi rend="underline">th</hi><ptr target="loc.08118_n1"/>
                 and note what you say re constipation. Do you ever take any Friedrichshall water<ptr target="loc.07599_n5"/>
                 now? I wish you would get some and take a wine glass or more in a tumbler of hot
-                water first thing in the morning 2 or 3 times a week&#8212;I think you would find
+                water first thing in the morning 2 or 3 times a week—I think you would find
                 benefit from it. Thanks for the papers and especially for the "Personal memoranda"
                 proof<ptr target="loc.08118_n2"/> which I like well. Here there is nothing but politics, the main quetsion in
                 the context being: Shall we or not have closer trade relations with the U.S.? It
                 seems a funny thing to dispute over. It is as if Michican or New York should argue:
-                Shall we have a protection tariff against the rest of <pb xml:id="leaf001v"
-                    facs="loc_zs.00290.jpg" type="verso"/> the states so as to encourage manufacture
+                Shall we have a protection tariff against the rest of <pb xml:id="leaf001v" facs="loc_zs.00290.jpg" type="verso"/> the states so as to encourage manufacture
                 at home (in Mich or N.Y.) and in that way increase the population and prosperity of
                 the said Mich. or N.Y.? How very singular such a debate would sound and yet it would
                 be no different from the present one except that here we have a tariff and want to
                 get rid of it. Then (the funniest thing of all) many of our people dread closer
-                relations with the U.S. for fear of moral contamination! A sort of&#8212;"I thank
+                relations with the U.S. for fear of moral contamination! A sort of—"I thank
                 thee oh God that I am not like this publican," business. Or as the Scotchman prayed:
                 "Lord send us a guid conceit of ourselves!"</p>
-            <p>Two more weeks will settle the fuss for this time&#8212;Elections on 5<hi
-                rend="underline">th</hi> March.<ptr target="loc.08118_n3"/></p>
+            <p>Two more weeks will settle the fuss for this time—Elections on 5<hi rend="underline">th</hi> March.<ptr target="loc.08118_n3"/></p>
             <closer>
                 <salute>Best love to you dear Walt</salute>
                 <signed>R M Bucke</signed>
             </closer>
         </body> 
     </text>
-</TEI> 
+</TEI>

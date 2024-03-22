@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="nyp.00672">  
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="nyp.00672">  
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>nyp.00672</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2019 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>nyp.00672</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -57,9 +54,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">307&#8211;308</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">307–308</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -97,15 +94,13 @@
                     <date when="1889-03-22">March 22 '89<ptr target="nyp.00672_n1"/></date> 
                 </dateline>
             </opener>
-            <p>Sunny and beautiful &#38; sufficiently mild to-day&#8212;Am feeling fairly. N[elly]'s<ptr
-                    target="n4137"/> card came this mn'g,<ptr target="nyp.00672_n2"/> &#38; I
-                sympathise profoundly with you&#8212;hope &#38; pray this will find you
-                comparatively easier &#38; better&#8212;Have just a letter from Dr B[ucke]<ptr
-                    target="n0119"/><ptr target="nyp.00672_n5"/>&#8212;they went hence to New York a day &#38; night, saw J H
-                    Johnston<ptr target="n0336"/>&#8212;appear to have made some beginning at
+            <p>Sunny and beautiful &amp; sufficiently mild to-day—Am feeling fairly. N[elly]'s<ptr target="n4137"/> card came this mn'g,<ptr target="nyp.00672_n2"/> &amp; I
+                sympathise profoundly with you—hope &amp; pray this will find you
+                comparatively easier &amp; better—Have just a letter from Dr B[ucke]<ptr target="n0119"/><ptr target="nyp.00672_n5"/>—they went hence to New York a day &amp; night, saw J H
+                    Johnston<ptr target="n0336"/>—appear to have made some beginning at
                 practically launching the <hi rend="italic">meter</hi>.<ptr target="loc.07230_n2"/> The 4th Vol. American
                 Supplement to <hi rend="italic">Enc: Brit:</hi> (p. 772) has a statistical rather
-                friendly notice abt me &#38;c<ptr target="nyp.00672_n3"/>&#8212;Love&#8212;</p>
+                friendly notice abt me &amp;c<ptr target="nyp.00672_n3"/>—Love—</p>
             <closer>
                 <salute/>
                 <signed>W W</signed>

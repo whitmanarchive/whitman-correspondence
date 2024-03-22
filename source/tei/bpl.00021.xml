@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bpl.00021">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Walt Whitman to Sylvester Baxter, 13 August 1891</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Walt Whitman</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="rf">Ryan Furlong</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2022 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors and 
+                        advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive has 
+                        been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>bpl.00021</idno></publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Walt Whitman</author>
+                    <title>Walt Whitman to Sylvester Baxter, 13 August 1891</title>
+                    <date cert="high" when="1891-08-13" xml:id="dat1">August 13, 1891</date>
+                    <orgName xml:id="bpl">The Walt Whitman Collection, Boston Public Library</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Baxter, Sylvester" ref="n6000">Sylvester Baxter</persName>
+                </person> 
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-03-15" who="#smb">final check, corrected</change>
+            <change when="2021-10-15" who="#me">checked, corrected</change>
+            <change when="2021-07-14" who="#aja">checked, corrected</change>
+            <change when="2021-05-15" who="#rf">checked, corrected</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="bpl.00021.001_large.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">Camden, New Jersey<ptr target="bpl.00021_n1"/></name>
+                    <date when="1891-08-13">Aug: 13 '91</date>  
+                </dateline>
+            </opener> 
+            <p>Let me send my little word too to J R Lowell's<ptr target="n3105"/> memory.<ptr target="bpl.00021_n2"/> His was the true American's 
+                and Humanity's heart in the light of his own convictions; and he wrought it out faithfully. His written 
+                pages preserve a certain altitude everywhere. As Emerson<ptr target="n1044"/> says, we are at any rate 
+                all beholden to kings and eminencies for their grand standard of atmosphere &amp; manners, or suggestion
+                of them.</p>
+            <closer>
+                <signed>Walt Whitman</signed>
+            </closer>
+            <postscript>
+                <p><hi rend="underline">Private</hi>—dear SB. since you was here I tho't I w'd like to 
+                    contribute a word am'g the rest.—&amp; you are at liberty to bring it in any way seems best 
+                    for you</p>
+            </postscript>
+            <pb xml:id="leaf001rv" facs="bpl.00021.002_large.jpg" type="verso"/>
+        </body>
+    </text>  
+</TEI>

@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?> 
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07640"> 
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07640"> 
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 30&#8211;31 March 1891</title>
+                <title level="m" type="main">Walt Whitman to Richard Maurice Bucke, 30–31 March 1891</title>
                 <title level="m" type="sub">a machine readable transcription</title>
                 <author>Walt Whitman</author>
                 <editor>Kenneth M. Price</editor> 
@@ -16,6 +13,7 @@
                     <persName xml:id="adk">Andrew David King</persName>
                     <persName xml:id="blh">Breanna Himschoot</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="bb">Brett Barney</persName>
                 </respStmt>
                 <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
                 <sponsor>University of Iowa</sponsor>
@@ -27,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07640</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,29 +36,29 @@
                 </address>
                 <availability>
                     <p>
-                        Copyright &#169; 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
+                        Copyright © 2021 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with 
                         the Fair Use provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written 
                         consent from the editors and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to 
                         reproduce the graphic images in this archive has been granted by the owners of the originals for this publication only.
                     </p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07640</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
-                    <title>Walt Whitman to Richard Maurice Bucke, 30&#8211;31 March 1891</title>
-                    <date cert="high" notBefore="1891-03-30" notAfter="1891-03-31" xml:id="dat1">March 30&#8211;31, 1891</date>
-                    <idno type="callno">MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <title>Walt Whitman to Richard Maurice Bucke, 30–31 March 1891</title>
+                    <date cert="high" notBefore="1891-03-30" notAfter="1891-03-31" xml:id="dat1">March 30–31, 1891</date>
+                    <idno type="callno">MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">http://hdl.loc.gov/loc.mss/ms004014.mss18630.00107</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman, 
-                        1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
                 <bibl type="pasteon" xml:id="ref1">
                     <author>Unknown author</author> 
                     <title level="a">Unknown</title>
                     <title level="j">Philadelphia Inquirer</title>
                     <date when="1891-03-30">March 30, 1891</date>
-                    <biblScope type="pp">Unknown</biblScope>
+                    <biblScope unit="pp">Unknown</biblScope>
                 </bibl>
             </sourceDesc> 
         </fileDesc> 
@@ -75,6 +73,7 @@
             </particDesc>  
         </profileDesc>
         <revisionDesc>
+            <change when="2023-10-11" who="#bb">converted one add element to addSpan/anchor pair</change>
             <change when="2021-07-23" who="#smb">completed director's corrections</change>
             <change when="2021-05-20" who="#smb">final check, corrected</change>
             <change when="2021-04-23" who="#blh">Second check: added DOI, corrected transcription, added notes</change>
@@ -92,50 +91,50 @@
                     <date when="1891-03-30">March 30 P M</date>
                 </dateline>
             </opener>
-            <p>&#8212;Bright sunny day&#8212;Am getting along&#8212;no worse&#8212;if anything indications of better&#8212;the obstinate 
+            <p>—Bright sunny day—Am getting along—no worse—if anything indications of better—the obstinate 
                 long <hi rend="underline">bowel-chock</hi> shows a suspicion of being started, 
-                (but I mustn't hurrah before clearing the woods)&#8212;something like a (limited but decided) bowel discharge last evn'g&#8212;&#38; another slight 
-                one to-day&#8212;</p>
-            <p>Mrs. D<ptr target="n6113"/> has just bro't me a small cup of hot wheat gruel (salt) wh' tastes good &#38; I have 
-                taken&#8212;J W W<ptr target="n6121"/> has sent me the <hi rend="underline">Nat. Review</hi>
+                (but I mustn't hurrah before clearing the woods)—something like a (limited but decided) bowel discharge last evn'g—&amp; another slight 
+                one to-day—</p>
+            <p>Mrs. D<ptr target="n6113"/> has just bro't me a small cup of hot wheat gruel (salt) wh' tastes good &amp; I have 
+                taken—J W W<ptr target="n6121"/> has sent me the <hi rend="underline">Nat. Review</hi>
                 Eng.<ptr target="loc.07905_n5"/> wherein I read the piece by W<hi rend="underline">m</hi> Sharp on Amer National 
-                Literature<ptr target="loc.00799_n6b"/>&#8212;nothing deep<ptr target="loc.07640_n2"/>&#8212;my Bolton friends<ptr target="loc.07640_n9"/> are very kind &#38; 
-                punctual&#8212;O'Connor's<ptr target="n2002"/> 
-                "Android" begins (half printed I guess) in the <hi rend="underline">Atlantic</hi> for April<ptr target="loc.08244_n1"/>&#8212;the print 
+                Literature<ptr target="loc.00799_n6b"/>—nothing deep<ptr target="loc.07640_n2"/>—my Bolton friends<ptr target="loc.07640_n9"/> are very kind &amp; 
+                punctual—O'Connor's<ptr target="n2002"/> 
+                "Android" begins (half printed I guess) in the <hi rend="underline">Atlantic</hi> for April<ptr target="loc.08244_n1"/>—the print 
                 adjoining is to-day's Phil. <hi rend="underline">Inquirer</hi>.<ptr target="loc.07640_n4"/></p>
               
-            <add rend="pasteon" source="#ref1" xml:id="add1">
+            <addSpan spanTo="#a01" rend="pasteon" source="#ref1" xml:id="add1"/>
                 <q who="#ref1" type="printed">
                     <floatingText rend="flat">
                         <body>
                             <p><handShift rend="printed"/>"The Brazen Andriod" is the curious title of a story by the late William D. O'Connor,
                              which has been found among his papers since his death. The first part appears in the April <hi rend="italic">Atlantic</hi>.
-                            It gives a vivid picture of medi&#230;val London, and its chief characters are the King, Henry III, Simon de Montfort, and Roger
-                            Bacon&#8212;the artificer of the prophetic android. Mr. O'Connor's previous stories, "The Carpenter," and "The Ghost,"
+                            It gives a vivid picture of mediæval London, and its chief characters are the King, Henry III, Simon de Montfort, and Roger
+                            Bacon—the artificer of the prophetic android. Mr. O'Connor's previous stories, "The Carpenter," and "The Ghost,"
                             made some stir in the literary world at the time they were published: and this posthumous work stands out amid the mass of 
                             every-day short stories with startling distinctness.
                             </p>
                         </body>
                     </floatingText> 
                 </q>
-            </add>         
-            <p>Y'rs of 27th came to-day<ptr target="loc.07640_n8"/>&#8212;I continue to like the visits of Dr Longaker<ptr target="loc.08039_n2"/>&#8212;Van Stafford<ptr target="n0883c"/> 
-                (one of the boys) was here last evn'g&#8212;the S's
-                are there yet ab't same&#8212;the elder George<ptr target="n0852"/> keeps up but I am afraid is substantially dismantled 
-                (I don't know&#8212;may be better than I think for)&#8212;Poor Harry<ptr target="n0590"/> has moved home 
-                to his parents with his wife<ptr target="loc.07927_n3"/> &#38; two young ones&#8212;I take pills, the Fred.<ptr target="loc.07599_n5"/> water &#38; use the catheter&#8212;</p>
-            <p><date when="1891-03-31">Tuesday 1&#189; P M&#8212;March 31</date>
-                Dr L has been&#8212;thinks the affair is going on satisfactory&#8212;&#38; I guess it is&#8212;bowel action not 
-                copious but decided every day the last three days&#8212;McKay<ptr target="n4983"/> just orders 
-                six sets big books<ptr target="n4188"/> in sheets&#8212;the "Truth"<ptr target="loc.08016_n5"/> people have paid me (&#36;26) for two 
-                moderate contributions<ptr target="loc.07640_n6"/>&#8212;I don't think Ing's<ptr target="n0839"/> Shakspere piece in N Y.<ptr target="loc.07640_n10"/> 
-                has been reported or printed&#8212;(kept back I guess for fuller corrections)&#8212;dark glum weather to-day&#8212;lots of <hi rend="underline">grip</hi> around 
-                &#38; I have mine plain 
-                &#38; settled&#8212;have just sent Warry<ptr target="loc.07319_n6"/> up for more Fred: bottles (take a little in hot water every mn'g)&#8212;have just 
-                written to Dr Johnston<ptr target="n4102"/>&#8212;have just sent back some proofs 
-                (to page 36)<ptr target="loc.04790_n2"/>&#8212;Mrs: O'C<ptr target="n4137"/> is still in office at Wash'n&#8212;Chief Kimball<ptr target="loc.07640_n7"/> has 
+            <anchor xml:id="a01"/>         
+            <p>Y'rs of 27th came to-day<ptr target="loc.07640_n8"/>—I continue to like the visits of Dr Longaker<ptr target="loc.08039_n2"/>—Van Stafford<ptr target="n0883c"/> 
+                (one of the boys) was here last evn'g—the S's
+                are there yet ab't same—the elder George<ptr target="n0852"/> keeps up but I am afraid is substantially dismantled 
+                (I don't know—may be better than I think for)—Poor Harry<ptr target="n0590"/> has moved home 
+                to his parents with his wife<ptr target="loc.07927_n3"/> &amp; two young ones—I take pills, the Fred.<ptr target="loc.07599_n5"/> water &amp; use the catheter—</p>
+            <p><date when="1891-03-31">Tuesday 1½ P M—March 31</date>
+                Dr L has been—thinks the affair is going on satisfactory—&amp; I guess it is—bowel action not 
+                copious but decided every day the last three days—McKay<ptr target="n4983"/> just orders 
+                six sets big books<ptr target="n4188"/> in sheets—the "Truth"<ptr target="loc.08016_n5"/> people have paid me ($26) for two 
+                moderate contributions<ptr target="loc.07640_n6"/>—I don't think Ing's<ptr target="n0839"/> Shakspere piece in N Y.<ptr target="loc.07640_n10"/> 
+                has been reported or printed—(kept back I guess for fuller corrections)—dark glum weather to-day—lots of <hi rend="underline">grip</hi> around 
+                &amp; I have mine plain 
+                &amp; settled—have just sent Warry<ptr target="loc.07319_n6"/> up for more Fred: bottles (take a little in hot water every mn'g)—have just 
+                written to Dr Johnston<ptr target="n4102"/>—have just sent back some proofs 
+                (to page 36)<ptr target="loc.04790_n2"/>—Mrs: O'C<ptr target="n4137"/> is still in office at Wash'n—Chief Kimball<ptr target="loc.07640_n7"/> has 
                 sent the <hi rend="underline">Life-Service Reports</hi> to H T.<ptr target="n4267"/> who thinks of excerpting W D O'C's special parts,<ptr target="loc.07640_n11"/> 
-                as I suppose you know. It is 2 P M as I close &#38; all goes fairly
+                as I suppose you know. It is 2 P M as I close &amp; all goes fairly
             </p>  
             <closer>    
                 <signed>Walt Whitman</signed> 
@@ -145,110 +144,3 @@
         </body> 
     </text>  
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

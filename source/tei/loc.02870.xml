@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.02870">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Anne Gilchrist to Walt Whitman, 20 May 1873</title>
+                <title level="m" type="sub">a machine readable transcription</title>
+                <author>Anne Gilchrist</author>
+                <editor>Kenneth M. Price</editor>
+                <editor>Ed Folsom</editor>
+                <respStmt>
+                    <resp>Transcription and encoding</resp>
+                    <persName xml:id="ak">Alex Kinnaman</persName>
+                    <persName xml:id="el">Elizabeth Lorang</persName>
+                    <persName xml:id="zk">Zachary King</persName>
+                    <persName xml:id="al">Ashley Lawson</persName>
+                    <persName xml:id="km">Kevin McMullen</persName>
+                    <persName xml:id="js">John Schwaninger</persName>
+                    <persName xml:id="me">Marie Ernster</persName>
+                    <persName xml:id="cn">Cristin Noonan</persName>
+                    <persName xml:id="aja">Amanda J. Axley</persName>
+                    <persName xml:id="smb">Stephanie Blalock</persName>
+                    <persName xml:id="jh">Jeff Hill</persName>
+                </respStmt>
+                <sponsor>Center for Digital Research in the Humanities, University of Nebraska-Lincoln</sponsor>
+                <sponsor>University of Iowa</sponsor>
+                <funder>National Historical Publications and Records Commission</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                
+                <distributor>The Walt Whitman Archive</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <p>Copyright © 2023 by Ed Folsom and Kenneth M. Price, all rights reserved. Items in the Archive may be shared in accordance with the Fair Use 
+                        provisions of U.S. copyright law. Redistribution or republication on other terms, in any medium, requires express written consent from the editors 
+                        and advance notification of the publisher, Center for Digital Research in the Humanities. Permission to reproduce the graphic images in this archive 
+                        has been granted by the owners of the originals for this publication only.</p>
+                </availability>
+            <idno>loc.02870</idno></publicationStmt>            
+            <sourceDesc>
+               <!-- <biblStruct>
+                    <monogr>
+                        <editor>Thomas B. Harned</editor>
+                        <title xml:id="ehm">The Letters of Anne Gilchrist and Walt Whitman</title>
+                        <imprint>
+                            <pubPlace>Garden City, New York</pubPlace>
+                            <publisher>Doubleday, Page &amp; Company</publisher>
+                            <date when="1964">1918</date>
+                            <biblScope unit="page">88&#8211;90</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>-->
+                <bibl>
+                    <author>Anne Gilchrist</author>
+                    <title>Anne Gilchrist to Walt Whitman, 20 May 1873</title>
+                    <date cert="high" when="1873-05-20" xml:id="dat1">May 20, 1873</date>
+                    <idno type="callno">MSS45443, Box 3, Reel 2</idno>
+                    <idno type="DOI">http://hdl.loc.gov/loc.mss/ms002007.mss45443.0111</idno>
+                    <orgName xml:id="loc">The Thomas Biggs Harned Collection of the Papers of Walt Whitman, 1842–1937, Library of Congress, Washington, D.C.</orgName>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <person role="sender">
+                    <persName key="Gilchrist, Anne" ref="n0259">Anne Gilchrist</persName>
+                </person>
+                <person role="recipient">
+                    <persName key="Whitman, Walt">Walt Whitman</persName>
+                </person>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-08-10" who="#smb">ran image script, updated notes</change>
+            <change when="2023-07-28" who="#aja">updated image pointers</change>
+            <change when="2023-05-05" who="#aja">corrections for Ken</change>
+            <change when="2023-03-01" who="#smb">final check, corrected</change>
+            <change when="2023-02-27" who="#jh">checked, corrected</change>
+            <change when="2022-10-17" who="#aja">checked, corrected</change>
+            <change when="2022-03-03" who="#cn">checked, corrected</change>
+            <change when="2021-11-28" who="#me">checked, corrected</change>
+            <change who="#ak" when="2015-04-30">added correspondent ref</change>
+            <change who="#el" when="2014-08-15">added schematron declaration</change>
+            <change when="2014-08-12" who="#el">made basic checking changes to file</change>
+            <change when="2012-05-25" who="#js">proofed</change>
+            <change when="2012-04-20" who="#km">checked</change>
+            <change when="2012-04-11" who="#al">Checked with microfilm images</change>
+            <change when="2011-08-05" who="#zk">transcribed and encoded from Harned; annotated AG, Spain, WMR, LVVW, AG</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <pb xml:id="leaf001r" facs="loc_cb.00131.jpg" type="recto"/>
+            <opener>
+                <dateline>
+                    <name type="place">50 Marquis Road</name>
+                    <name type="place">Camden Sq. N.W.</name>
+                    <date when="1873-05-20" rend="right">May 20<hi rend="underline">th</hi>/73</date>
+                </dateline>
+                <salute>My dearest Friend</salute> 
+            </opener>
+            <p>Such a joyful surprise was that last paper you sent me, with the Poem<ptr target="loc.02870_n1"/> 
+                celebrating the great events in Spain—the new hopes, the new life wakening in the 
+                hearts<!-- The Harned-based transcription had "breast"--> 
+                of that fine People which has slumbered so long weighed down &amp; tormented with hideous nightmares of 
+                <pb xml:id="leaf001v" facs="loc_cb.00134.jpg" type="verso"/>
+                superstition.—Are you indeed getting strong &amp; well again?<ptr target="duk.00621_n14"/> 
+                able to drink in draughts of pleasure from the sights 
+                &amp; sounds &amp; perfumes of this delicious time, "lilac-time"—according to your wont? 
+                Sleeping well—eating well, dear Friend?</p>
+            <p>William Rossetti<ptr target="n0522"/> is comin to see me Thursday, before starting for his holiday trip to Naples. 
+                His father was a Neapolitan, who 
+                <!--who--><!-- Harned transcription had "so he" but it looks like the one word "who"--> 
+                narrowly escaped a lifelong dungeon 
+                <pb xml:id="leaf002r" facs="loc_cb.00135.jpg" type="recto"/> 
+                for having written some patriotic Songs—he fled in disguise by help of English friends &amp; 
+                spent the rest of his 
+                life here. So this, his first visit to Naples, will be specially full of interest &amp; delight 
+                to our friend. He is also 
+                in great spirits at having discovered a large number of hitherto unknown early letters of 
+                Shelley's.<ptr target="med.00858_n13"/> Of modern English Poets Shelley is the one he loves &amp;
+                admires incomparably the most.—Perhaps this letter will 
+                just reach you
+                <pb xml:id="leaf002v" facs="loc_cb.00130.jpg" type="verso"/> 
+                on your birthday. What can I send you? What can I tell you but the same old story of a heart 
+                fast anchored—of a soul 
+                to whom your soul is as the sun &amp; the fresh, sweet air, and the nourishing, 
+                sustaining earth wherein the other one 
+                breathes free &amp; feeds &amp; expands &amp; <hi rend="underline">delights</hi> itself.
+                There is no occupation of the day however homely that is not 
+                coloured, elevated, made more cheerful to me by thought of you &amp; by thoughts you have 
+                <pb xml:id="leaf003r" facs="loc_cb.00138.jpg" type="recto"/> 
+                given me <unclear reason="illegible" resp="#aja" cert="medium">blent</unclear> in &amp; suffusing all: 
+                No hope or aim or practical endeavour for my dear children that has not taken a higher 
+                larger more joyous scope through you. No immortal aspiration, no thoughts of what lies beyond death but 
+                <choice><orig>centre</orig><reg>center</reg></choice> in you. And in 
+                moods of pain and discouragement dear Friend I turn to that Poem beginning "Whoever you are holding me
+                now in hand"<ptr target="loc.04201_n8b"/> 
+                and I don't know but that that one revives &amp; strengthens 
+                <pb xml:id="leaf003v" facs="loc_cb.00140.jpg" type="verso"/> 
+                me more than any. For there is not a line nor a word in it at which my spirit does not rise up instinctive and fearlessly 
+                say—So be it. And then I read other Poems &amp; drink in the draught that I know is for me, because it is for all—the 
+                love that you give me on the broad ground of my humanity and womanhood. And I understand the reality &amp; 
+                <pb xml:id="leaf004r" facs="loc_cb.00141.jpg" type="recto"/> 
+                preciousness of that. Then I say to myself Souls are not made to be frustrated—to have their greatest &amp; best &amp; 
+                sweetest impulses and aspirations &amp; yearnings made abortive. Therefore we shall not be "carried diverse" forever. This dumb 
+                soul of mine will not always remain hidden from you—but some way will be given me for this love, this passion of gratitude, 
+                this set of all the nerves of my being toward you, to bring joy 
+                <pb xml:id="leaf004v" facs="loc_cb.00137.jpg" type="verso"/>
+                &amp; comfort to you. I do not ask the When or the How.— </p>
+            <p>I shall be thinking of your great &amp; dear Mother<ptr target="n0705"/> in her beautiful old age, too, on your 
+                birthday—happiest woman in all the world that she was &amp; is: forever sacred &amp; dear to America &amp; to all who 
+                feed on the Poems of her Son. </p>
+            <closer>
+                <salute>Good bye my best beloved Friend.</salute>
+                <signed>Annie Gilchrist.</signed>
+            </closer>  
+            <postscript>
+                <p>I suppose you see all that you care to see in the way of English newspapers. I often long to send you one when there is 
+                    anything in that I feel sure would interest you, but am withheld by fearing it would be quite superfluous or troublesome even</p>
+            </postscript>
+        </body> 
+    </text>    
+</TEI>

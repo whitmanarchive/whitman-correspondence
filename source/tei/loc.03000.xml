@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.03000">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.03000">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.03000</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,15 +43,15 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.03000</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>William Sloane Kennedy</author>
                     <title>William Sloane Kennedy to Walt Whitman, 6 May 1889</title>
                     <date cert="high" when="1889-05-06" xml:id="dat1">May 6, 1889</date>
-                    <idno type="callno">MSS18630, Box 12, Reel 7&#8211;8</idno>
+                    <idno type="callno">MSS18630, Box 12, Reel 7–8</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -83,46 +80,40 @@
                     <name type="place">Belmont.</name>
                     <date when="1889-05-06">May 6. '89<ptr target="loc.03000_n4"/></date>
                 </dateline>
-                <salute>Dear Walt&#8212;:.</salute>
+                <salute>Dear Walt—:.</salute>
             </opener>
-            <p>Yes; i.e. Baxter<ptr target="n6000"/> wrote me an indignant letter&#8212;enclosing clipping fr. some N. Y.
-                paper&#8212;a hifalutin journalese acc't of the Japanese's outrageous act. It seems,
+            <p>Yes; i.e. Baxter<ptr target="n6000"/> wrote me an indignant letter—enclosing clipping fr. some N. Y.
+                paper—a hifalutin journalese acc't of the Japanese's outrageous act. It seems,
                 then, that the set of the alleged conversations with you which he gave me was only a
-                copy: I have them now somewhere. The duplicate wh. he retained he has pub.<hi
-                    rend="underline">d</hi>,&#8212;where I can't quite make out, N. Y. Herald I
+                copy: I have them now somewhere. The duplicate wh. he retained he has pub.<hi rend="underline">d</hi>,—where I can't quite make out, N. Y. Herald I
                 suppose you mean.<ptr target="loc.03000_n2"/> We were very sorry for yr sake: the damage done is irreparable I
-                suppose. You remember, I wrote &#38; warned you that the fellow tried to pub. these
-                things. We were both of us&#8212;you &#38; I&#8212;too careless. I should have tho't
-                that he might have a duplicate, &#38; your good nature sh<hi rend="underline">d</hi> not
-                have hindered you writing him peremptorily &#38; severely not to pub.&#8212;However,
-                with all my deep chagrin, I c<hi rend="underline">d</hi> but laugh (long &#38; well),
-                over little Stedman<ptr target="n1043"/> &#38; Holmes (I suppose the Holmes bit came out
+                suppose. You remember, I wrote &amp; warned you that the fellow tried to pub. these
+                things. We were both of us—you &amp; I—too careless. I should have tho't
+                that he might have a duplicate, &amp; your good nature sh<hi rend="underline">d</hi> not
+                have hindered you writing him peremptorily &amp; severely not to pub.—However,
+                with all my deep chagrin, I c<hi rend="underline">d</hi> but laugh (long &amp; well),
+                over little Stedman<ptr target="n1043"/> &amp; Holmes (I suppose the Holmes bit came out
                 too). What the frantic-for-notoriety pap. reports is true as gospel, whether you
                 said it or not. How w<hi rend="underline">d</hi> it do for me to send to Stedman the
-                card I rec'd fr. you anent yr alleged opinion of him &#224; la Hartmann,<ptr
-                    target="n4980"/> (in which card you say good things of Stedman, &#38; deny that you
-                hold the Hartmannian opinion) how wd it do for me to send this to Stedman? <hi
-                    rend="underline">I</hi> was not going to mention the matter to you or to St.<pb
-                    xml:id="leaf001v" facs="loc.03000.002.jpg" type="verso"/> But since it has come
+                card I rec'd fr. you anent yr alleged opinion of him à la Hartmann,<ptr target="n4980"/> (in which card you say good things of Stedman, &amp; deny that you
+                hold the Hartmannian opinion) how wd it do for me to send this to Stedman? <hi rend="underline">I</hi> was not going to mention the matter to you or to St.<pb xml:id="leaf001v" facs="loc.03000.002.jpg" type="verso"/> But since it has come
                 out so publicly, this card w<hi rend="underline">d</hi> serve as a sort of rebuttal
-                &#38; <hi rend="underline">amende</hi> perhaps. You say in it "as to my alleged opinion
-                of Stedman: I have no such opinion.<ptr target="loc.03000_n1"/> My feeling toward S. is one of good will &#38;
-                thanks markedly&#8212;O'C<ptr target="n2002"/> says he is a good fellow, &#38; I say so too."</p>
-            <p>But no: I w<hi rend="underline">d</hi> not dare to send this card. Stedman w<hi
-                    rend="underline">d</hi> never forgive my <hi rend="underline">trying to comfort
-                    him</hi>. Ha! ha! The worst of the damnable business is that it sh<hi
-                    rend="underline">d</hi> come so close on the heels of that at bottom
-                warm-hearted (if conceited &#38; patronizing&#8212;slightly&#8212;) letter of S's to
+                &amp; <hi rend="underline">amende</hi> perhaps. You say in it "as to my alleged opinion
+                of Stedman: I have no such opinion.<ptr target="loc.03000_n1"/> My feeling toward S. is one of good will &amp;
+                thanks markedly—O'C<ptr target="n2002"/> says he is a good fellow, &amp; I say so too."</p>
+            <p>But no: I w<hi rend="underline">d</hi> not dare to send this card. Stedman w<hi rend="underline">d</hi> never forgive my <hi rend="underline">trying to comfort
+                    him</hi>. Ha! ha! The worst of the damnable business is that it sh<hi rend="underline">d</hi> come so close on the heels of that at bottom
+                warm-hearted (if conceited &amp; patronizing—slightly—) letter of S's to
                 you. Hang it, hang 
                 it. Damn these foreign adventurers say I.</p>   
             <p>I think I shall now pitch overboard fr my book the Hartmannian lading (supplement)
                 entirely.</p>
-            <p>I have a day off to-day: am resting by varnishing, shellac-ing &#38;c
-                inside&#8212;polishing the nacre of the shell.</p>
+            <p>I have a day off to-day: am resting by varnishing, shellac-ing &amp;c
+                inside—polishing the nacre of the shell.</p>
             <p>Glad to hear that the Sarrazin book<ptr target="loc.03000_n3"/> is out. Will make note thereof.</p>
             <closer>
-                <salute>With affec. regards to yrself &#38; the senior members of our masculine
-                    comrade-family&#8212;the three or four&#8212;when you write 'em.</salute>
+                <salute>With affec. regards to yrself &amp; the senior members of our masculine
+                    comrade-family—the three or four—when you write 'em.</salute>
                 <signed>W. S. Kennedy</signed>
             </closer>
             <pb xml:id="leaf002r" facs="loc.03000.003.jpg" type="recto"/>

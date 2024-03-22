@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07619">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07619">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07619</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2018 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07619</idno></publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <monogr>
@@ -56,9 +53,9 @@
                         <imprint>
                             <pubPlace>New York</pubPlace>
                             <publisher>New York University Press</publisher>
-                            <date notBefore="1961" notAfter="1977">1961&#8211;1977</date>
-                            <biblScope type="volume">4</biblScope>
-                            <biblScope type="page">332</biblScope>
+                            <date notBefore="1961" notAfter="1977">1961–1977</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="page">332</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -66,9 +63,9 @@
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 6 May 1889</title>
                     <date cert="high" when="1889-05-06" xml:id="dat1">May 6, 1889</date>
-                    <idno type="callno">MSS18630, Box 6, Reel 3&#8211;4</idno>
+                    <idno type="callno">MSS18630, Box 6, Reel 3–4</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl> 
             </sourceDesc>
         </fileDesc>
@@ -98,11 +95,11 @@
                     <date when="1889-05-06">May 6 '89<ptr target="loc.07619_n1"/></date>
                 </dateline>
             </opener>
-            <p>Splendid sunny weather&#8212;nothing specially new&#8212;good bowel action&#8212;wrote you at some
-                length last evn'g ab't Sarrazin's<ptr target="n3115"/> book rec'd<ptr target="loc.07619_n2"/>&#8212;y'r good letter this mn'g&#8212;have tho't
-                no more definitely of the Baltimore Hospital scheme<ptr target="loc.07619_n3"/>&#8212;am sitting here as usual
-                comfortable enough&#8212;my sister Lou<ptr target="n0368"/> just been here, has been down to see my bro:
-                Eddy<ptr target="n1047"/>&#8212;he is all right&#8212;</p>
+            <p>Splendid sunny weather—nothing specially new—good bowel action—wrote you at some
+                length last evn'g ab't Sarrazin's<ptr target="n3115"/> book rec'd<ptr target="loc.07619_n2"/>—y'r good letter this mn'g—have tho't
+                no more definitely of the Baltimore Hospital scheme<ptr target="loc.07619_n3"/>—am sitting here as usual
+                comfortable enough—my sister Lou<ptr target="n0368"/> just been here, has been down to see my bro:
+                Eddy<ptr target="n1047"/>—he is all right—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

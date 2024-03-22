@@ -1,3 +1,5 @@
+require_relative "../../../whitman-scripts/scripts/archive-wide/overrides.rb"
+
 class TeiToEs
 
   ################
@@ -59,7 +61,7 @@ class TeiToEs
   end
 
   def category
-    "biography"
+    "Letters"
   end
 
   # format: do not include format
@@ -70,9 +72,9 @@ class TeiToEs
     "en"
   end
 
-  def languages
-    [ "en" ]
-  end
+  # def languages
+  #   [ "en" ]
+  # end
 
   # medium: do not include medium
   def medium
@@ -122,8 +124,8 @@ class TeiToEs
     end
   end
 
-  def subcategory
-    "correspondence"
+  def category2
+    "Letters / Correspondence"
   end
 
   def topics
@@ -132,16 +134,18 @@ class TeiToEs
     if date
       year = date[/^\d{4}/]
       case year.to_i
-      when 0..1859
+      when 0..1839
         "Early"
-      when 1860..1866
-        "Civil War (1860-1866)"
-      when 1867..1876
-        "Reconstruction (1867-1876)"
+      when 1840..1860
+        "Pre-Civil War (1840-1860)"
+      when 1861..1865
+        "Civil War (1861-1865)"
+      when 1866..1876
+        "Reconstruction (1866-1876)"
       when 1877..1887
         "Post Reconstruction (1877-1887)"
       when 1888..1892
-        "Old Age (1888-1892)"
+        "Late Life (1888-1892)"
       else
         "No Era Assigned"
       end
@@ -153,6 +157,18 @@ class TeiToEs
 
   def uri
     "#{@options["site_url"]}/biography/correspondence/tei/#{@filename}.html"
+  end
+
+  def text
+    # handling separate fields in array
+    # means no worrying about handling spacing between words
+    text_all = []
+    body = get_text(@xpaths["text"], keep_tags: false, delimiter: '')
+    text_all << body
+    # TODO: do we need to preserve tags like <i> in text? if so, turn get_text to true
+    # text_all << CommonXml.convert_tags_in_string(body)
+    text_all += text_additional
+    Datura::Helpers.normalize_space(text_all.join(" "))[0..900000]
   end
 
 end

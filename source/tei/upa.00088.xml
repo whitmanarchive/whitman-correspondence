@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>  
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="upa.00088">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="upa.00088">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +10,7 @@
                 <respStmt>
                     <resp>Transcription and encoding</resp>
                     <persName xml:id="aa">Alex Ashland</persName>
-                    <persName xml:id="ss">Stefan Sch&#246;berlein</persName>
+                    <persName xml:id="ss">Stefan Schöberlein</persName>
                     <persName xml:id="cb">Caterina Bernardini</persName>
                     <persName xml:id="smb">Stephanie Blalock</persName>
                 </respStmt>
@@ -29,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>upa.00088</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -39,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2016 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -47,13 +43,13 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>upa.00088</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Herbert Gilchrist, 22 Oct 1887</title>
                     <date cert="low" when="1887-10-22" xml:id="dat1">October 22, 1887</date>
-                    <orgName xml:id="upa">Walt Whitman Collection, 1842&#8211;1957, Rare Book &#38;
+                    <orgName xml:id="upa">Walt Whitman Collection, 1842–1957, Rare Book &amp;
                         Manuscript Library, University of Pennsylvania</orgName>
                 </bibl>
             </sourceDesc>
@@ -88,38 +84,31 @@
                 </dateline>
                 <pb xml:id="leaf001r" facs="upa.00088.001_large.jpg" type="recto"/>
                 <note type="editorial" place="top" resp="#unk">[1887]</note>
-                <note type="editorial" place="top" resp="#unk"><hi rend="underline"
-                    >1888?</hi></note>
+                <note type="editorial" place="top" resp="#unk"><hi rend="underline">1888?</hi></note>
                 <salute>Dear Herbert Gilchrist</salute>
             </opener>
-            <p>Yours of the 10th came to-day &#38; is welcome. Every thing goes on much the same
+            <p>Yours of the 10th came to-day &amp; is welcome. Every thing goes on much the same
                 here. Quite biting wintry cold to-day after a long stormy spell. I am ab't the same
-                as when you were here&#8212;&#38; am sitting by the window in the big chair. Mrs.
+                as when you were here—&amp; am sitting by the window in the big chair. Mrs.
                     D<ptr target="n6113"/> is well. We have been feasting on some nice stewed
-                quinces and quince jelly&#8212;a triumph of Mrs. D's cookery&#8212;we wish you were
-                here to have some&#8212;the very color goes beyond all description. I have no doubt
-                the portrait fully justifies all encomiums there, and goes beyond them.<ptr
-                    target="upa.00088_n1"/> &#8212;In a good light &#38; in a frame it must indeed
-                appear well&#8212;having <hi rend="underline">neither</hi> here, &#38; intentionally
-                hung where it would be tested to the severest&#8212;Success to the painter of
-                it&#8212;&#38; to it (the nobly carnal &#38; <choice>
+                quinces and quince jelly—a triumph of Mrs. D's cookery—we wish you were
+                here to have some—the very color goes beyond all description. I have no doubt
+                the portrait fully justifies all encomiums there, and goes beyond them.<ptr target="upa.00088_n1"/> —In a good light &amp; in a frame it must indeed
+                appear well—having <hi rend="underline">neither</hi> here, &amp; intentionally
+                hung where it would be tested to the severest—Success to the painter of
+                it—&amp; to it (the nobly carnal &amp; <choice>
                     <orig>Shaksperian</orig>
                     <reg>Shakespearean</reg>
-                </choice> work)&#8212;I have rec'd a nice letter from Herbert Horne<ptr
-                    target="upa.00088_n2"/>&#8212;have heard
-                from Morgan Brown,<ptr target="upa.00088_n3"/> who is well &#38; remains in N Y
-                state&#8212;the Smiths are here, &#38; come to see me&#8212;Morse<ptr target="n0862"
-                /> is here&#8212;has been here every day this week&#8212;Mrs. Stafford<ptr
-                    target="n0817"/> was here Wednesday, is well, as are all the family&#8212;But it
-                is growing too dark to write&#8212;</p>
-            <p><hi rend="underline">Sunday forenoon early&#8212;Oct 23</hi>&#8212;The sun is shining
-                bright&#8212;I have had my breakfast (pann'd oysters toast &#38; coffee) &#38; in
-                half an hour I shall start in my light wagon &#38; Nettie<ptr target="upa.00088_n4"
-                /> for Glendale&#8212;you ought to be here to accompany me&#8212;the air is full of
-                sheen &#38; oxygen with a pleasant coolness&#8212;write soon again. Give my best
-                regards to Ernest Rhys<ptr target="loc.03310_n1"/>&#8212;a synopsis of his "New
-                Poetry" lecture has been published here in the "Critic"<ptr target="upa.00088_n5"
-                />&#8212;Well I must be off&#8212;</p>
+                </choice> work)—I have rec'd a nice letter from Herbert Horne<ptr target="upa.00088_n2"/>—have heard
+                from Morgan Brown,<ptr target="upa.00088_n3"/> who is well &amp; remains in N Y
+                state—the Smiths are here, &amp; come to see me—Morse<ptr target="n0862"/> is here—has been here every day this week—Mrs. Stafford<ptr target="n0817"/> was here Wednesday, is well, as are all the family—But it
+                is growing too dark to write—</p>
+            <p><hi rend="underline">Sunday forenoon early—Oct 23</hi>—The sun is shining
+                bright—I have had my breakfast (pann'd oysters toast &amp; coffee) &amp; in
+                half an hour I shall start in my light wagon &amp; Nettie<ptr target="upa.00088_n4"/> for Glendale—you ought to be here to accompany me—the air is full of
+                sheen &amp; oxygen with a pleasant coolness—write soon again. Give my best
+                regards to Ernest Rhys<ptr target="loc.03310_n1"/>—a synopsis of his "New
+                Poetry" lecture has been published here in the "Critic"<ptr target="upa.00088_n5"/>—Well I must be off—</p>
             <closer>
                 <signed>Walt Whitman</signed>
             </closer>

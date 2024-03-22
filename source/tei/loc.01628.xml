@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.01628">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.01628">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,7 +26,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.01628</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -40,7 +36,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#169; 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
+                    <p>Copyright © 2012 by Ed Folsom and Kenneth M. Price, all rights reserved.
                         Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -48,7 +44,7 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.01628</idno></publicationStmt>
             <sourceDesc>
 
                 <bibl>
@@ -56,7 +52,7 @@
                     <title>Walt Whitman to Peter Doyle, 5 November [1879]</title>
                     <date cert="medium" when="1879-11-05" xml:id="dat1">November 5, 1879</date>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt
-                        Whitman, 1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        Whitman, 1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -92,60 +88,56 @@
                 <salute>Dear Pete</salute>
             </opener>
 
-            <p>You will be surprised to get a letter from me away off here&#8212;I have been taking
-                quite a journey the last two months&#8212;have been out to the Rocky Mountains and
-                Colorado (2000 miles)&#8212;(Seems to me I sent you a paper six weeks ago from
-                Denver)&#8212;I got along very well till about three weeks ago when I was taken sick
-                &#38; disabled, &#38; hauled in here in St Louis for repairs, have been here ever
-                since&#8212;am fixed comfortable&#8212;Still somewhat under the weather, (but have
-                no doubt I shall be well as usual for me before long)&#8212;Shall stay here probably
-                two or three weeks longer, &#38; then back east to Camden&#8212;</p>
+            <p>You will be surprised to get a letter from me away off here—I have been taking
+                quite a journey the last two months—have been out to the Rocky Mountains and
+                Colorado (2000 miles)—(Seems to me I sent you a paper six weeks ago from
+                Denver)—I got along very well till about three weeks ago when I was taken sick
+                &amp; disabled, &amp; hauled in here in St Louis for repairs, have been here ever
+                since—am fixed comfortable—Still somewhat under the weather, (but have
+                no doubt I shall be well as usual for me before long)—Shall stay here probably
+                two or three weeks longer, &amp; then back east to Camden—</p>
             <pb xml:id="leaf001v" facs="loc.01628.002_large.jpg" type="verso"/>
-            <p>Pete this is a wonderful country out here, &#38; no one knows how big it is till he
-                launches out in the midst of it&#8212;But there are plenty of hard-up fellows in
-                this city &#38; out in the mines, &#38; all over here&#8212;you have no idea how
-                many run ashore, get sick from exposure, poor grub &#38;c&#8212;many young men, some
-                old chaps, some boys of 15 or 16&#8212;I met them every where, especially at the RR
-                stoppings, out of money &#38; trying to get home&#8212;But the general run of all
-                these Western places, city &#38; country is very prosperous, on the rush, plenty of
-                people, plenty to eat, &#38; apparently plenty of money&#8212;Colorado you know is
-                getting to be the great silver land of the world&#8212;In Denver I visited a big
-                smelting establishment, purifying the ore, goes through many processes<ptr
-                    target="loc.01628_n1"/>&#8212;takes a week&#8212;well they showed me silver
-                there by the cart load&#8212;Then in middle Colorado, in one place, as we stopt in a
-                mining camp I saw rough bullion bars piled up in stacks outdoors five <pb
-                    xml:id="leaf002r" facs="loc.01628.003_large.jpg" type="recto"/> or six feet high
-                like hay cocks&#8212;</p>
+            <p>Pete this is a wonderful country out here, &amp; no one knows how big it is till he
+                launches out in the midst of it—But there are plenty of hard-up fellows in
+                this city &amp; out in the mines, &amp; all over here—you have no idea how
+                many run ashore, get sick from exposure, poor grub &amp;c—many young men, some
+                old chaps, some boys of 15 or 16—I met them every where, especially at the RR
+                stoppings, out of money &amp; trying to get home—But the general run of all
+                these Western places, city &amp; country is very prosperous, on the rush, plenty of
+                people, plenty to eat, &amp; apparently plenty of money—Colorado you know is
+                getting to be the great silver land of the world—In Denver I visited a big
+                smelting establishment, purifying the ore, goes through many processes<ptr target="loc.01628_n1"/>—takes a week—well they showed me silver
+                there by the cart load—Then in middle Colorado, in one place, as we stopt in a
+                mining camp I saw rough bullion bars piled up in stacks outdoors five <pb xml:id="leaf002r" facs="loc.01628.003_large.jpg" type="recto"/> or six feet high
+                like hay cocks—</p>
 
-            <p>&#8212;So it is&#8212;a few make great strikes&#8212;like the prizes in the
-                lottery&#8212;but most are <hi rend="underline">blanks</hi>&#8212;I was at Pike's
-                Peak&#8212;I liked Denver City very much&#8212;But the most interesting part of my
-                travel has been <hi rend="underline">the Plains</hi>, (the great American <hi
-                    rend="underline">Desert</hi> the old geographies call it, but it is no desert)
-                largely through Colorado &#38; Western Kansas, all flat, hundreds &#38; even
-                thousands of miles&#8212;some real good, nearly all pretty fair soil, all for stock
-                raising, thousands of herds of cattle, some very large&#8212;the herdsmen, (the
+            <p>—So it is—a few make great strikes—like the prizes in the
+                lottery—but most are <hi rend="underline">blanks</hi>—I was at Pike's
+                Peak—I liked Denver City very much—But the most interesting part of my
+                travel has been <hi rend="underline">the Plains</hi>, (the great American <hi rend="underline">Desert</hi> the old geographies call it, but it is no desert)
+                largely through Colorado &amp; Western Kansas, all flat, hundreds &amp; even
+                thousands of miles—some real good, nearly all pretty fair soil, all for stock
+                raising, thousands of herds of cattle, some very large—the herdsmen, (the
                 principal common employment) a wild hardy race, always on horseback, they call 'em
-                    <hi rend="underline">cow-boys</hi> altogether&#8212;I used to like to get among
-                them &#38; talk with them&#8212;I stopt some days at a town right in the middle of
-                those Plains, in Kansas, on the Santa Fe road&#8212;found a soldier<ptr
-                    target="loc.01628_n2"/> there who had known me in the war 15 years ago&#8212;was
-                married &#38; running the hotel there&#8212;I had hard work to get away from
-                him&#8212;he wanted me to stay all winter&#8212;</p>
+                    <hi rend="underline">cow-boys</hi> altogether—I used to like to get among
+                them &amp; talk with them—I stopt some days at a town right in the middle of
+                those Plains, in Kansas, on the Santa Fe road—found a soldier<ptr target="loc.01628_n2"/> there who had known me in the war 15 years ago—was
+                married &amp; running the hotel there—I had hard work to get away from
+                him—he wanted me to stay all winter—</p>
             <pb xml:id="leaf002v" facs="loc.01628.004_large.jpg" type="verso"/>
             <p>The picture at the beginning of this letter is the St Louis bridge over the
-                Mississippi river<ptr target="loc.01628_n3"/>&#8212;I often go down to the river, or
-                across this bridge&#8212;it is one of my favorite sights&#8212;but the air of this
-                city don't agree with me&#8212;I have not had a well day, (even for me,) since I
-                have been here&#8212;</p>
+                Mississippi river<ptr target="loc.01628_n3"/>—I often go down to the river, or
+                across this bridge—it is one of my favorite sights—but the air of this
+                city don't agree with me—I have not had a well day, (even for me,) since I
+                have been here—</p>
 
-            <p>&#8212;Well Pete dear boy I guess I have written enough&#8212;How are you getting along?
-                I often think of you &#38; no doubt you often do of me&#8212;God bless you, my
-                darling friend, &#38; however it goes, you must try to keep up a good
-                heart&#8212;for I do&#8212;</p>
+            <p>—Well Pete dear boy I guess I have written enough—How are you getting along?
+                I often think of you &amp; no doubt you often do of me—God bless you, my
+                darling friend, &amp; however it goes, you must try to keep up a good
+                heart—for I do—</p>
 
             <closer>
-                <salute>So long&#8212;from your old</salute>
+                <salute>So long—from your old</salute>
                 <signed rend="right">Walt</signed>
             </closer>
         </body>

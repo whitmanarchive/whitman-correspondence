@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.whitmanarchive.org/downloads/wwa.rng" type="xml"?>
-<?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?>
-<TEI xmlns="http://www.whitmanarchive.org/namespace" xml:id="loc.07935">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.3.6.0/tei_all.rng" type="xml"?><?oxygen SCHSchema="http://www.whitmanarchive.org/downloads/whitmanarchive_rules.sch"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="loc.07935">
     <teiHeader>
         <fileDesc> 
             <titleStmt> 
@@ -28,7 +25,7 @@
                 </edition>
             </editionStmt>
             <publicationStmt>
-                <idno>loc.07935</idno>
+                
                 <distributor>The Walt Whitman Archive</distributor>
                 <address>
                     <addrLine>Center for Digital Research in the Humanities</addrLine>
@@ -38,7 +35,7 @@
                     <addrLine>Lincoln, NE 68588-4100</addrLine>
                 </address>
                 <availability>
-                    <p>Copyright &#38;#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
+                    <p>Copyright &amp;#169; 2020 by Ed Folsom and Kenneth M. Price, all rights
                         reserved. Items in the Archive may be shared in accordance with the Fair Use
                         provisions of U.S. copyright law. Redistribution or republication on other
                         terms, in any medium, requires express written consent from the editors and
@@ -46,18 +43,18 @@
                         Humanities. Permission to reproduce the graphic images in this archive has
                         been granted by the owners of the originals for this publication only.</p>
                 </availability>
-            </publicationStmt>
+            <idno>loc.07935</idno></publicationStmt>
             <sourceDesc>
                 <bibl>
                     <author>Walt Whitman</author>
                     <title>Walt Whitman to Richard Maurice Bucke, 7 July 1890</title>
                     <date cert="high" when="1890-07-07" xml:id="dat1">July 7, 1890</date>
-                    <idno type="callno">Letter: MSS18630, Box 6  Reel 3&#8211;4;
-                    Envelope: MSS18630, Box 7, Reel 4&#8211;5</idno>
+                    <idno type="callno">Letter: MSS18630, Box 6  Reel 3–4;
+                    Envelope: MSS18630, Box 7, Reel 4–5</idno>
                     <idno type="DOI">Letter: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00106</idno>
                     <idno type="DOI">Envelope: http://hdl.loc.gov/loc.mss/ms004014.mss18630.00110</idno>
                     <orgName xml:id="loc">The Charles E. Feinberg Collection of the Papers of Walt Whitman,
-                        1839&#8211;1919, Library of Congress, Washington, D.C.</orgName>
+                        1839–1919, Library of Congress, Washington, D.C.</orgName>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -88,20 +85,20 @@
                     <date when="1890-07-07">noon July 7 '90</date>
                 </dateline>
             </opener>
-            <p>Y'rs telling me of Kennedy's<ptr target="n3039"/> arrival rec'd,<ptr target="loc.07935_n2"/> &#38; I congratulate you both for you must be having good talks 
-                &#38; comparisons &#38; questions &#38; answers galore. Tip-top weather here lately, &#38; I go out in wheel chair<ptr target="loc.03012_n1"/> 
-                (legs feeble, almost worse)&#8212;breakfasted to-day on blackberries, tea &#38; bread &#38; honey &#8212;perhaps 
-                twice a week some roast meat, or mutton chop&#8212;oftener stewed mutton &#38; rice, onions, corn &#38; beans, 
-                beets, &#38;c: &#38;c:&#8212;appetite fair&#8212;sleep fair&#8212;bowel action yesterday&#8212;warm midday as I write but pleasant&#8212;I sit here all 
-                day in the big cane chair&#8212;get along better than you might fancy&#8212;
-                Horace<ptr target="n4267"/> comes daily&#8212;As I glance out in the street I see the great young-mid-aged ice man going ab't his work 
-                <hi rend="underline">bare headed</hi> under the sun, up &#38; down, spry &#38; stout &#38; contented&#8212;&#38; his 
-                huge canvas cover'd wagon (&#38; fat slow horses) rumbling along&#8212;the loud long whistle or gong for 1 o'clock 
-                is just sounding&#8212;the dinner hour over&#8212;I can fancy you there &#38; the lawns &#38; shrubbery &#38; 
-                veranda &#38; all&#8212;&#38; the pleasant sun set hour &#38; evening&#8212;&#38; Kennedy's  
-                enjoyment of all &#38; yours too (every thing better there than you realize tho')&#8212;I send you 
-                <hi rend="italic">Critic</hi> (nothing much)&#8212;If there was a good flying machine running I w'd flit thither 
-                &#38; join you &#38; K for a couple of days&#8212;</p>
+            <p>Y'rs telling me of Kennedy's<ptr target="n3039"/> arrival rec'd,<ptr target="loc.07935_n2"/> &amp; I congratulate you both for you must be having good talks 
+                &amp; comparisons &amp; questions &amp; answers galore. Tip-top weather here lately, &amp; I go out in wheel chair<ptr target="loc.03012_n1"/> 
+                (legs feeble, almost worse)—breakfasted to-day on blackberries, tea &amp; bread &amp; honey —perhaps 
+                twice a week some roast meat, or mutton chop—oftener stewed mutton &amp; rice, onions, corn &amp; beans, 
+                beets, &amp;c: &amp;c:—appetite fair—sleep fair—bowel action yesterday—warm midday as I write but pleasant—I sit here all 
+                day in the big cane chair—get along better than you might fancy—
+                Horace<ptr target="n4267"/> comes daily—As I glance out in the street I see the great young-mid-aged ice man going ab't his work 
+                <hi rend="underline">bare headed</hi> under the sun, up &amp; down, spry &amp; stout &amp; contented—&amp; his 
+                huge canvas cover'd wagon (&amp; fat slow horses) rumbling along—the loud long whistle or gong for 1 o'clock 
+                is just sounding—the dinner hour over—I can fancy you there &amp; the lawns &amp; shrubbery &amp; 
+                veranda &amp; all—&amp; the pleasant sun set hour &amp; evening—&amp; Kennedy's  
+                enjoyment of all &amp; yours too (every thing better there than you realize tho')—I send you 
+                <hi rend="italic">Critic</hi> (nothing much)—If there was a good flying machine running I w'd flit thither 
+                &amp; join you &amp; K for a couple of days—</p>
             <closer>  
                 <signed>Walt Whitman</signed>
             </closer>
@@ -110,4 +107,3 @@
         </body>
     </text>
 </TEI>
-
