@@ -351,6 +351,14 @@
   <!--                   FIGURES                        -->
   <!-- ================================================ -->
   
+  <xsl:template name="alt_builder">
+    <xsl:choose>
+      <xsl:when test="figDesc"><xsl:value-of select="figDesc"/></xsl:when>
+      <xsl:when test="head"><xsl:value-of select="head"/></xsl:when>
+      <xsl:otherwise>Figure.</xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
   <!-- todo: I have changed all the below to spans for now, since figure isn't 
   allowed in p. xslt adjustments required to use figure tag -->
   <xsl:template match="figure">
@@ -379,7 +387,7 @@
             </xsl:call-template>
           </xsl:attribute>
           <xsl:attribute name="alt">
-            <xsl:value-of select="figDesc"/>
+            <xsl:call-template name="alt_builder"/>
           </xsl:attribute>
         </img>
       </xsl:if>
@@ -388,15 +396,9 @@
     </span>
   </xsl:template>
   
-  <xsl:template match="figure/head">
-    <xsl:if test=". != ''">
-      <span class="figcaption tei_figure_head">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:if>
-  </xsl:template>
+  <!-- do not display head or figDesc in correspondence, only include figDesc as alt in img -->
+  <xsl:template match="figure/head"/>
   
-  <!-- do not display figDesc in correspondence, only include as alt in img -->
   <xsl:template match="figure/figDesc"/>
   
 </xsl:stylesheet>
