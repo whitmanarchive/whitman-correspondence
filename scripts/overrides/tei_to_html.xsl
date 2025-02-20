@@ -345,5 +345,60 @@
     </xsl:if>
   </xsl:template>
   
+  <!-- it is possible the below could be adjusted in sitewide overrides.xsl, which is where the base code came from, but handling locally to 
+    correspondence for now because inline figures are known to need an adjustment there and figDesc may be handled differently elsewhere -->
+  <!-- ================================================ -->
+  <!--                   FIGURES                        -->
+  <!-- ================================================ -->
+  
+  <xsl:template name="alt_builder">
+    <xsl:choose>
+      <xsl:when test="figDesc"><xsl:value-of select="figDesc"/></xsl:when>
+      <xsl:when test="head"><xsl:value-of select="head"/></xsl:when>
+      <xsl:otherwise>Figure.</xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <!-- todo: I have changed all the below to spans for now, since figure isn't 
+  allowed in p. xslt adjustments required to use figure tag -->
+  <xsl:template match="figure">
+    <span class="tei_figure_container">
+      <xsl:attribute name="id">
+        <xsl:value-of select="@xml:id"/>
+      </xsl:attribute>
+      <!-- rule for facs on figure and no graphic, e.g. disciples -->
+      <xsl:if test="not(graphic) and @facs">
+        <xsl:variable name="fig_id">
+          <xsl:choose>
+            <xsl:when test="ends-with(@facs, '.jpg') or ends-with(@facs, '.jpeg')">
+              <xsl:value-of select="substring-before(@facs, '.jp')"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="@facs"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <img>
+          <xsl:attribute name="src">
+            <xsl:call-template name="url_builder">
+              <xsl:with-param name="figure_id_local" select="$fig_id"/>
+              <xsl:with-param name="image_size_local" select="$image_figure_large"/>
+              <xsl:with-param name="iiif_path_local" select="$collection"/>
+            </xsl:call-template>
+          </xsl:attribute>
+          <xsl:attribute name="alt">
+            <xsl:call-template name="alt_builder"/>
+          </xsl:attribute>
+        </img>
+      </xsl:if>
+      <!-- end rule -->
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
+  <!-- do not display head or figDesc in correspondence, only include figDesc as alt in img -->
+  <xsl:template match="figure/head"/>
+  
+  <xsl:template match="figure/figDesc"/>
   
 </xsl:stylesheet>
