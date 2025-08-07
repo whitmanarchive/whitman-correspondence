@@ -266,9 +266,21 @@
       <!-- when there is no @n treat this as an internal link to another document
       todo: determine if this can be added to the datura script more universally-->
       <xsl:when test="not(@n)">
-        <a href="{@target}">
-          <xsl:apply-templates/>
-        </a>
+        <xsl:variable name="uri" select="concat('../../source/tei/',@target,'.xml')"/>
+        <xsl:choose>
+          <xsl:when test="contains(@target,'zzz') or contains(@target,'per') or contains(@target,'ppp')">
+            <a href="{@target}">
+              <xsl:apply-templates/>
+            </a>
+          </xsl:when>
+          <!-- check to see if file exists -->
+        <xsl:when test="doc-available($uri)">
+          <a href="{@target}">
+            <xsl:apply-templates/>
+          </a>
+        </xsl:when>
+          <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <!-- WHITMAN NOTES -->
       <xsl:when test=". = '' and @n">
