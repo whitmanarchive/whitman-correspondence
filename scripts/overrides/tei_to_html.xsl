@@ -31,7 +31,10 @@
         <xsl:if test="TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/orgName[2]"><xsl:text>; </xsl:text><xsl:value-of select="TEI/teiHeader/fileDesc/sourceDesc/bibl/orgName[2]"/></xsl:if>
         <xsl:if test="TEI/teiHeader/fileDesc/sourceDesc/bibl[1]/orgName[3]"><xsl:text>; </xsl:text><xsl:value-of select="TEI/teiHeader/fileDesc/sourceDesc/bibl/orgName[3]"/></xsl:if>
         <xsl:if test="TEI/teiHeader/fileDesc/sourceDesc/bibl[2]/orgName[1]"><xsl:text>; </xsl:text><xsl:value-of select="TEI/teiHeader/fileDesc/sourceDesc/bibl[2]/orgName[1]"/></xsl:if>
-        <xsl:if test="not(ends-with(TEI//sourceDesc//bibl[not(following-sibling::bibl)]/orgName[not(following-sibling::orgName)], '.'))"><xsl:text>.</xsl:text></xsl:if><xsl:text> </xsl:text> 
+        <xsl:if test="TEI//sourceDesc//bibl/orgName">
+          <xsl:if test="not(ends-with(TEI//sourceDesc//bibl[not(following-sibling::bibl)]/orgName[not(following-sibling::orgName)], '.'))"><xsl:text>.</xsl:text></xsl:if>
+        </xsl:if>
+        <xsl:text> </xsl:text> 
         <xsl:choose>
           <xsl:when test="TEI/teiHeader/fileDesc/sourceDesc/biblStruct">
             <xsl:choose>
